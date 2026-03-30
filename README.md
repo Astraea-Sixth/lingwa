@@ -11,7 +11,7 @@ Structured curriculum, spaced repetition, gender-aware speech, and real conversa
 
 ---
 
-> **[ Screenshot / Demo GIF — want to contribute one? Open a PR! ]**
+<video src="demo.mp4" autoplay loop muted playsinline width="390"></video>
 
 ---
 
