@@ -11,7 +11,7 @@ const nextConfig = pwaConfig({
   reactStrictMode: true,
   output: 'standalone',
   async rewrites() {
-    const apiUrl = process.env.API_BASE_URL || 'http://localhost:5003'
+    const apiUrl = process.env.API_BASE_URL || 'http://localhost:5005'
     return [
       {
         source: '/api/:path*',
