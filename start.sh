@@ -1,57 +1,81 @@
 #!/bin/bash
 # Lingwa — start all services
 
-echo "Starting Lingwa..."
+set -e
 
-# Check Ollama
-if ! curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
-  echo "Ollama not running. Start it with: ollama serve"
-  echo "Then pull a model: ollama pull mistral:7b"
-  exit 1
-fi
+echo "🦊 Starting Lingwa..."
 
-# Check if mistral model is available
-if ! curl -s http://localhost:11434/api/tags | grep -q "mistral"; then
-  echo "Pulling mistral:7b (this takes a few minutes)..."
-  ollama pull mistral:7b
-fi
-
-# Start API
-echo "Starting API (port 5003)..."
+# ── API ────────────────────────────────────────────────────────
 cd api
+
+# Create venv if missing
 if [ ! -d "venv" ]; then
-  echo "Creating Python venv..."
+  echo "  Creating Python environment..."
   python3 -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt -q
-else
-  source venv/bin/activate
 fi
-uvicorn main:app --port 5003 --host 0.0.0.0 &
+
+# Always use venv Python
+source venv/bin/activate
+
+# Install/update dependencies
+echo "  Installing API dependencies..."
+pip install -r requirements.txt -q
+
+# Start API with venv Python (not system uvicorn)
+echo "  Starting API (port 5005)..."
+python3 -m uvicorn main:app --port 5005 --host 0.0.0.0 &
 API_PID=$!
 cd ..
 
-# Wait for API
+# Wait for API to be ready
 sleep 3
-if ! curl -s http://localhost:5003/health > /dev/null; then
-  echo "API failed to start"
+if ! curl -s http://localhost:5005/health > /dev/null 2>&1; then
+  echo "  ✗ API failed to start — check logs"
   exit 1
 fi
-echo "API running on http://localhost:5003"
+echo "  ✓ API running on http://localhost:5005"
 
-# Start frontend
-echo "Starting frontend (port 3004)..."
+# ── Ollama (optional — for AI tutor) ──────────────────────────
+if command -v ollama &>/dev/null; then
+  if ! curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
+    echo "  Starting Ollama..."
+    ollama serve &>/dev/null &
+    sleep 3
+  fi
+  if ! curl -s http://localhost:11434/api/tags | grep -q "mistral" 2>/dev/null; then
+    echo "  Pulling mistral:7b for AI tutor (one-time, ~4GB)..."
+    ollama pull mistral:7b
+  fi
+  echo "  ✓ Ollama ready (AI tutor enabled)"
+else
+  echo "  ⚠ Ollama not found — AI conversation (Nong) will be disabled"
+  echo "    Install from: https://ollama.ai"
+fi
+
+# ── Webapp ─────────────────────────────────────────────────────
 cd webapp
+
 if [ ! -d "node_modules" ]; then
-  echo "Installing frontend dependencies..."
+  echo "  Installing frontend dependencies..."
   npm install -q
 fi
+
+# Create .env.local if missing
+if [ ! -f ".env.local" ]; then
+  echo "API_BASE_URL=http://localhost:5005" > .env.local
+fi
+
+echo "  Starting webapp (port 3004)..."
 npm run dev &
 cd ..
 
+sleep 4
 echo ""
-echo "Lingwa is running!"
-echo "  Open: http://localhost:3004"
+echo "  ✓ Lingwa is running!"
 echo ""
-echo "Press Ctrl+C to stop"
+echo "  → Open: http://localhost:3004"
+echo ""
+echo "  Press Ctrl+C to stop"
+echo ""
+
 wait
