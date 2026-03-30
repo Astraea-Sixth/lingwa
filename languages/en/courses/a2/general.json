@@ -408,6 +408,411 @@
                 "ko": "'Usually'가 올바른 빈도 부사입니다.",
                 "es": "'Usually' es el adverbio de frecuencia correcto aquí."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "appointment",
+              "romanization": "uh-POINT-ment",
+              "options": {
+                "en": [
+                  "Appointment",
+                  "Get up",
+                  "Never",
+                  "Still"
+                ],
+                "zh": [
+                  "预约",
+                  "起来",
+                  "从不",
+                  "还"
+                ],
+                "th": [
+                  "นัดหมาย",
+                  "ลุกขึ้น",
+                  "ไม่เคย",
+                  "ยังคง"
+                ],
+                "ko": [
+                  "약속",
+                  "일어나다",
+                  "절대",
+                  "아직"
+                ],
+                "es": [
+                  "Cita",
+                  "Levantarse",
+                  "Nunca",
+                  "Todavía"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Take a shower\"",
+                "zh": "\"洗澡\"",
+                "th": "\"อาบน้ำ\"",
+                "ko": "\"샤워하다\"",
+                "es": "\"Ducharse\""
+              },
+              "options": {
+                "neutral": [
+                  "take a shower",
+                  "already",
+                  "get ready",
+                  "usually"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "already",
+              "romanization": "awl-RED-ee",
+              "options": {
+                "en": [
+                  "Already",
+                  "Usually",
+                  "Late",
+                  "Get ready"
+                ],
+                "zh": [
+                  "已经",
+                  "通常",
+                  "晚",
+                  "准备好"
+                ],
+                "th": [
+                  "แล้ว",
+                  "ปกติ",
+                  "สาย",
+                  "เตรียมตัว"
+                ],
+                "ko": [
+                  "이미",
+                  "보통",
+                  "늦은",
+                  "준비하다"
+                ],
+                "es": [
+                  "Ya",
+                  "Normalmente",
+                  "Tarde",
+                  "Prepararse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "get ready",
+              "romanization": "get RED-ee",
+              "options": {
+                "en": [
+                  "Get ready",
+                  "Often",
+                  "Brush teeth",
+                  "Schedule"
+                ],
+                "zh": [
+                  "准备好",
+                  "经常",
+                  "刷牙",
+                  "日程"
+                ],
+                "th": [
+                  "เตรียมตัว",
+                  "บ่อย",
+                  "แปรงฟัน",
+                  "ตารางเวลา"
+                ],
+                "ko": [
+                  "준비하다",
+                  "자주",
+                  "양치하다",
+                  "일정"
+                ],
+                "es": [
+                  "Prepararse",
+                  "A menudo",
+                  "Cepillarse los dientes",
+                  "Horario"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Get up\"",
+                "zh": "\"起来\"",
+                "th": "\"ลุกขึ้น\"",
+                "ko": "\"일어나다\"",
+                "es": "\"Levantarse\""
+              },
+              "options": {
+                "neutral": [
+                  "get up",
+                  "appointment",
+                  "early",
+                  "get ready"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "usually",
+              "romanization": "YOO-zhoo-uh-lee",
+              "options": {
+                "en": [
+                  "Usually",
+                  "Still",
+                  "Sometimes",
+                  "Get ready"
+                ],
+                "zh": [
+                  "通常",
+                  "还",
+                  "有时候",
+                  "准备好"
+                ],
+                "th": [
+                  "ปกติ",
+                  "ยังคง",
+                  "บางครั้ง",
+                  "เตรียมตัว"
+                ],
+                "ko": [
+                  "보통",
+                  "아직",
+                  "가끔",
+                  "준비하다"
+                ],
+                "es": [
+                  "Normalmente",
+                  "Todavía",
+                  "A veces",
+                  "Prepararse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "still",
+              "romanization": "stil",
+              "options": {
+                "en": [
+                  "Still",
+                  "Get up",
+                  "Early",
+                  "Often"
+                ],
+                "zh": [
+                  "还",
+                  "起来",
+                  "早",
+                  "经常"
+                ],
+                "th": [
+                  "ยังคง",
+                  "ลุกขึ้น",
+                  "เร็ว",
+                  "บ่อย"
+                ],
+                "ko": [
+                  "아직",
+                  "일어나다",
+                  "이른",
+                  "자주"
+                ],
+                "es": [
+                  "Todavía",
+                  "Levantarse",
+                  "Temprano",
+                  "A menudo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sometimes\"",
+                "zh": "\"有时候\"",
+                "th": "\"บางครั้ง\"",
+                "ko": "\"가끔\"",
+                "es": "\"A veces\""
+              },
+              "options": {
+                "neutral": [
+                  "sometimes",
+                  "never",
+                  "take a shower",
+                  "already"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "brush teeth",
+              "romanization": "brush teeth",
+              "options": {
+                "en": [
+                  "Brush teeth",
+                  "Take a shower",
+                  "Still",
+                  "Never"
+                ],
+                "zh": [
+                  "刷牙",
+                  "洗澡",
+                  "还",
+                  "从不"
+                ],
+                "th": [
+                  "แปรงฟัน",
+                  "อาบน้ำ",
+                  "ยังคง",
+                  "ไม่เคย"
+                ],
+                "ko": [
+                  "양치하다",
+                  "샤워하다",
+                  "아직",
+                  "절대"
+                ],
+                "es": [
+                  "Cepillarse los dientes",
+                  "Ducharse",
+                  "Todavía",
+                  "Nunca"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "get up",
+                  "romanization": "get up",
+                  "native": {
+                    "en": "Get up",
+                    "zh": "起来",
+                    "th": "ลุกขึ้น",
+                    "ko": "일어나다",
+                    "es": "Levantarse"
+                  }
+                },
+                {
+                  "target": "still",
+                  "romanization": "stil",
+                  "native": {
+                    "en": "Still",
+                    "zh": "还",
+                    "th": "ยังคง",
+                    "ko": "아직",
+                    "es": "Todavía"
+                  }
+                },
+                {
+                  "target": "usually",
+                  "romanization": "YOO-zhoo-uh-lee",
+                  "native": {
+                    "en": "Usually",
+                    "zh": "通常",
+                    "th": "ปกติ",
+                    "ko": "보통",
+                    "es": "Normalmente"
+                  }
+                },
+                {
+                  "target": "commute",
+                  "romanization": "kuh-MYOOT",
+                  "native": {
+                    "en": "Commute",
+                    "zh": "通勤",
+                    "th": "เดินทางไปทำงาน",
+                    "ko": "통근하다",
+                    "es": "Ir al trabajo"
+                  }
+                },
+                {
+                  "target": "schedule",
+                  "romanization": "SKED-jool",
+                  "native": {
+                    "en": "Schedule",
+                    "zh": "日程",
+                    "th": "ตารางเวลา",
+                    "ko": "일정",
+                    "es": "Horario"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "already",
+                  "romanization": "awl-RED-ee",
+                  "native": {
+                    "en": "Already",
+                    "zh": "已经",
+                    "th": "แล้ว",
+                    "ko": "이미",
+                    "es": "Ya"
+                  }
+                },
+                {
+                  "target": "get ready",
+                  "romanization": "get RED-ee",
+                  "native": {
+                    "en": "Get ready",
+                    "zh": "准备好",
+                    "th": "เตรียมตัว",
+                    "ko": "준비하다",
+                    "es": "Prepararse"
+                  }
+                },
+                {
+                  "target": "take a shower",
+                  "romanization": "tayk uh SHOW-er",
+                  "native": {
+                    "en": "Take a shower",
+                    "zh": "洗澡",
+                    "th": "อาบน้ำ",
+                    "ko": "샤워하다",
+                    "es": "Ducharse"
+                  }
+                },
+                {
+                  "target": "sometimes",
+                  "romanization": "SUM-tymz",
+                  "native": {
+                    "en": "Sometimes",
+                    "zh": "有时候",
+                    "th": "บางครั้ง",
+                    "ko": "가끔",
+                    "es": "A veces"
+                  }
+                },
+                {
+                  "target": "brush teeth",
+                  "romanization": "brush teeth",
+                  "native": {
+                    "en": "Brush teeth",
+                    "zh": "刷牙",
+                    "th": "แปรงฟัน",
+                    "ko": "양치하다",
+                    "es": "Cepillarse los dientes"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -788,6 +1193,411 @@
                 "ko": "'it'에는 'is'를 사용합니다 — 3인칭 단수.",
                 "es": "Usa 'is' con 'it' — tercera persona singular."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "weather",
+              "romanization": "WETH-er",
+              "options": {
+                "en": [
+                  "Weather",
+                  "Summer",
+                  "Sunny",
+                  "Season"
+                ],
+                "zh": [
+                  "天气",
+                  "夏天",
+                  "晴天",
+                  "季节"
+                ],
+                "th": [
+                  "อากาศ",
+                  "ฤดูร้อน",
+                  "แดดจัด",
+                  "ฤดู"
+                ],
+                "ko": [
+                  "날씨",
+                  "여름",
+                  "맑은",
+                  "계절"
+                ],
+                "es": [
+                  "Clima",
+                  "Verano",
+                  "Soleado",
+                  "Estación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Cloudy\"",
+                "zh": "\"多云\"",
+                "th": "\"มีเมฆ\"",
+                "ko": "\"흐린\"",
+                "es": "\"Nublado\""
+              },
+              "options": {
+                "neutral": [
+                  "cloudy",
+                  "degree",
+                  "spring",
+                  "season"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "sunny",
+              "romanization": "SUN-ee",
+              "options": {
+                "en": [
+                  "Sunny",
+                  "Weather",
+                  "Degree",
+                  "Snowy"
+                ],
+                "zh": [
+                  "晴天",
+                  "天气",
+                  "度",
+                  "下雪"
+                ],
+                "th": [
+                  "แดดจัด",
+                  "อากาศ",
+                  "องศา",
+                  "หิมะตก"
+                ],
+                "ko": [
+                  "맑은",
+                  "날씨",
+                  "도",
+                  "눈 오는"
+                ],
+                "es": [
+                  "Soleado",
+                  "Clima",
+                  "Grado",
+                  "Nevado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "snowy",
+              "romanization": "SNOH-ee",
+              "options": {
+                "en": [
+                  "Snowy",
+                  "Windy",
+                  "Summer",
+                  "Rainy"
+                ],
+                "zh": [
+                  "下雪",
+                  "有风",
+                  "夏天",
+                  "下雨"
+                ],
+                "th": [
+                  "หิมะตก",
+                  "มีลม",
+                  "ฤดูร้อน",
+                  "ฝนตก"
+                ],
+                "ko": [
+                  "눈 오는",
+                  "바람 부는",
+                  "여름",
+                  "비오는"
+                ],
+                "es": [
+                  "Nevado",
+                  "Ventoso",
+                  "Verano",
+                  "Lluvioso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Warm\"",
+                "zh": "\"温暖\"",
+                "th": "\"อุ่น\"",
+                "ko": "\"따뜻한\"",
+                "es": "\"Cálido\""
+              },
+              "options": {
+                "neutral": [
+                  "warm",
+                  "temperature",
+                  "rainy",
+                  "weather"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "cool",
+              "romanization": "kool",
+              "options": {
+                "en": [
+                  "Cool (temp)",
+                  "Spring",
+                  "Snowy",
+                  "Autumn / Fall"
+                ],
+                "zh": [
+                  "凉爽",
+                  "春天",
+                  "下雪",
+                  "秋天"
+                ],
+                "th": [
+                  "เย็นสบาย",
+                  "ฤดูใบไม้ผลิ",
+                  "หิมะตก",
+                  "ฤดูใบไม้ร่วง"
+                ],
+                "ko": [
+                  "시원한",
+                  "봄",
+                  "눈 오는",
+                  "가을"
+                ],
+                "es": [
+                  "Fresco",
+                  "Primavera",
+                  "Nevado",
+                  "Otoño"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "degree",
+              "romanization": "deh-GREE",
+              "options": {
+                "en": [
+                  "Degree",
+                  "Snowy",
+                  "Rainy",
+                  "Cloudy"
+                ],
+                "zh": [
+                  "度",
+                  "下雪",
+                  "下雨",
+                  "多云"
+                ],
+                "th": [
+                  "องศา",
+                  "หิมะตก",
+                  "ฝนตก",
+                  "มีเมฆ"
+                ],
+                "ko": [
+                  "도",
+                  "눈 오는",
+                  "비오는",
+                  "흐린"
+                ],
+                "es": [
+                  "Grado",
+                  "Nevado",
+                  "Lluvioso",
+                  "Nublado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Temperature\"",
+                "zh": "\"温度\"",
+                "th": "\"อุณหภูมิ\"",
+                "ko": "\"온도\"",
+                "es": "\"Temperatura\""
+              },
+              "options": {
+                "neutral": [
+                  "temperature",
+                  "winter",
+                  "summer",
+                  "rainy"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "season",
+              "romanization": "SEE-zun",
+              "options": {
+                "en": [
+                  "Season",
+                  "Snowy",
+                  "Windy",
+                  "Rainy"
+                ],
+                "zh": [
+                  "季节",
+                  "下雪",
+                  "有风",
+                  "下雨"
+                ],
+                "th": [
+                  "ฤดู",
+                  "หิมะตก",
+                  "มีลม",
+                  "ฝนตก"
+                ],
+                "ko": [
+                  "계절",
+                  "눈 오는",
+                  "바람 부는",
+                  "비오는"
+                ],
+                "es": [
+                  "Estación",
+                  "Nevado",
+                  "Ventoso",
+                  "Lluvioso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "temperature",
+                  "romanization": "TEM-puh-ruh-cher",
+                  "native": {
+                    "en": "Temperature",
+                    "zh": "温度",
+                    "th": "อุณหภูมิ",
+                    "ko": "온도",
+                    "es": "Temperatura"
+                  }
+                },
+                {
+                  "target": "warm",
+                  "romanization": "worm",
+                  "native": {
+                    "en": "Warm",
+                    "zh": "温暖",
+                    "th": "อุ่น",
+                    "ko": "따뜻한",
+                    "es": "Cálido"
+                  }
+                },
+                {
+                  "target": "season",
+                  "romanization": "SEE-zun",
+                  "native": {
+                    "en": "Season",
+                    "zh": "季节",
+                    "th": "ฤดู",
+                    "ko": "계절",
+                    "es": "Estación"
+                  }
+                },
+                {
+                  "target": "cool",
+                  "romanization": "kool",
+                  "native": {
+                    "en": "Cool (temp)",
+                    "zh": "凉爽",
+                    "th": "เย็นสบาย",
+                    "ko": "시원한",
+                    "es": "Fresco"
+                  }
+                },
+                {
+                  "target": "degree",
+                  "romanization": "deh-GREE",
+                  "native": {
+                    "en": "Degree",
+                    "zh": "度",
+                    "th": "องศา",
+                    "ko": "도",
+                    "es": "Grado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "weather",
+                  "romanization": "WETH-er",
+                  "native": {
+                    "en": "Weather",
+                    "zh": "天气",
+                    "th": "อากาศ",
+                    "ko": "날씨",
+                    "es": "Clima"
+                  }
+                },
+                {
+                  "target": "cloudy",
+                  "romanization": "KLOWD-ee",
+                  "native": {
+                    "en": "Cloudy",
+                    "zh": "多云",
+                    "th": "มีเมฆ",
+                    "ko": "흐린",
+                    "es": "Nublado"
+                  }
+                },
+                {
+                  "target": "sunny",
+                  "romanization": "SUN-ee",
+                  "native": {
+                    "en": "Sunny",
+                    "zh": "晴天",
+                    "th": "แดดจัด",
+                    "ko": "맑은",
+                    "es": "Soleado"
+                  }
+                },
+                {
+                  "target": "windy",
+                  "romanization": "WIN-dee",
+                  "native": {
+                    "en": "Windy",
+                    "zh": "有风",
+                    "th": "มีลม",
+                    "ko": "바람 부는",
+                    "es": "Ventoso"
+                  }
+                },
+                {
+                  "target": "rainy",
+                  "romanization": "RAYN-ee",
+                  "native": {
+                    "en": "Rainy",
+                    "zh": "下雨",
+                    "th": "ฝนตก",
+                    "ko": "비오는",
+                    "es": "Lluvioso"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1168,6 +1978,373 @@
                 "ko": "주어가 'I'일 때 동사 원형 'enjoy'를 사용합니다.",
                 "es": "Con 'I', usa la forma base 'enjoy'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "game",
+              "romanization": "gaym",
+              "options": {
+                "en": [
+                  "Game",
+                  "Write",
+                  "Draw",
+                  "Movie"
+                ],
+                "zh": [
+                  "游戏",
+                  "写",
+                  "画",
+                  "电影"
+                ],
+                "th": [
+                  "เกม",
+                  "เขียน",
+                  "วาด",
+                  "ภาพยนตร์"
+                ],
+                "ko": [
+                  "게임",
+                  "쓰다",
+                  "그리다",
+                  "영화"
+                ],
+                "es": [
+                  "Juego",
+                  "Escribir",
+                  "Dibujar",
+                  "Película"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sport\"",
+                "zh": "\"运动\"",
+                "th": "\"กีฬา\"",
+                "ko": "\"스포츠\"",
+                "es": "\"Deporte\""
+              },
+              "options": {
+                "neutral": [
+                  "sport",
+                  "free time",
+                  "run",
+                  "draw"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "run",
+              "romanization": "run",
+              "options": {
+                "en": [
+                  "Run",
+                  "Play",
+                  "Movie",
+                  "Game"
+                ],
+                "zh": [
+                  "跑步",
+                  "玩",
+                  "电影",
+                  "游戏"
+                ],
+                "th": [
+                  "วิ่ง",
+                  "เล่น",
+                  "ภาพยนตร์",
+                  "เกม"
+                ],
+                "ko": [
+                  "달리다",
+                  "놀다",
+                  "영화",
+                  "게임"
+                ],
+                "es": [
+                  "Correr",
+                  "Jugar",
+                  "Película",
+                  "Juego"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "draw",
+              "romanization": "draw",
+              "options": {
+                "en": [
+                  "Draw",
+                  "Free time",
+                  "Play",
+                  "Hobby"
+                ],
+                "zh": [
+                  "画",
+                  "空闲时间",
+                  "玩",
+                  "爱好"
+                ],
+                "th": [
+                  "วาด",
+                  "เวลาว่าง",
+                  "เล่น",
+                  "งานอดิเรก"
+                ],
+                "ko": [
+                  "그리다",
+                  "여가 시간",
+                  "놀다",
+                  "취미"
+                ],
+                "es": [
+                  "Dibujar",
+                  "Tiempo libre",
+                  "Jugar",
+                  "Pasatiempo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Watch\"",
+                "zh": "\"看\"",
+                "th": "\"ดู\"",
+                "ko": "\"보다\"",
+                "es": "\"Ver\""
+              },
+              "options": {
+                "neutral": [
+                  "watch",
+                  "dance",
+                  "sing",
+                  "write"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "play",
+              "romanization": "play",
+              "options": {
+                "en": [
+                  "Play",
+                  "Sport",
+                  "Game",
+                  "Write"
+                ],
+                "zh": [
+                  "玩",
+                  "运动",
+                  "游戏",
+                  "写"
+                ],
+                "th": [
+                  "เล่น",
+                  "กีฬา",
+                  "เกม",
+                  "เขียน"
+                ],
+                "ko": [
+                  "놀다",
+                  "스포츠",
+                  "게임",
+                  "쓰다"
+                ],
+                "es": [
+                  "Jugar",
+                  "Deporte",
+                  "Juego",
+                  "Escribir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "movie",
+              "romanization": "MOO-vee",
+              "options": {
+                "en": [
+                  "Movie",
+                  "Game",
+                  "Sport",
+                  "Hobby"
+                ],
+                "zh": [
+                  "电影",
+                  "游戏",
+                  "运动",
+                  "爱好"
+                ],
+                "th": [
+                  "ภาพยนตร์",
+                  "เกม",
+                  "กีฬา",
+                  "งานอดิเรก"
+                ],
+                "ko": [
+                  "영화",
+                  "게임",
+                  "스포츠",
+                  "취미"
+                ],
+                "es": [
+                  "Película",
+                  "Juego",
+                  "Deporte",
+                  "Pasatiempo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Free time\"",
+                "zh": "\"空闲时间\"",
+                "th": "\"เวลาว่าง\"",
+                "ko": "\"여가 시간\"",
+                "es": "\"Tiempo libre\""
+              },
+              "options": {
+                "neutral": [
+                  "free time",
+                  "read",
+                  "swim",
+                  "game"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "draw",
+                  "romanization": "draw",
+                  "native": {
+                    "en": "Draw",
+                    "zh": "画",
+                    "th": "วาด",
+                    "ko": "그리다",
+                    "es": "Dibujar"
+                  }
+                },
+                {
+                  "target": "music",
+                  "romanization": "MYOO-zik",
+                  "native": {
+                    "en": "Music",
+                    "zh": "音乐",
+                    "th": "เพลง",
+                    "ko": "음악",
+                    "es": "Música"
+                  }
+                },
+                {
+                  "target": "free time",
+                  "romanization": "free tym",
+                  "native": {
+                    "en": "Free time",
+                    "zh": "空闲时间",
+                    "th": "เวลาว่าง",
+                    "ko": "여가 시간",
+                    "es": "Tiempo libre"
+                  }
+                },
+                {
+                  "target": "run",
+                  "romanization": "run",
+                  "native": {
+                    "en": "Run",
+                    "zh": "跑步",
+                    "th": "วิ่ง",
+                    "ko": "달리다",
+                    "es": "Correr"
+                  }
+                },
+                {
+                  "target": "watch",
+                  "romanization": "wotch",
+                  "native": {
+                    "en": "Watch",
+                    "zh": "看",
+                    "th": "ดู",
+                    "ko": "보다",
+                    "es": "Ver"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "movie",
+                  "romanization": "MOO-vee",
+                  "native": {
+                    "en": "Movie",
+                    "zh": "电影",
+                    "th": "ภาพยนตร์",
+                    "ko": "영화",
+                    "es": "Película"
+                  }
+                },
+                {
+                  "target": "hobby",
+                  "romanization": "HOB-ee",
+                  "native": {
+                    "en": "Hobby",
+                    "zh": "爱好",
+                    "th": "งานอดิเรก",
+                    "ko": "취미",
+                    "es": "Pasatiempo"
+                  }
+                },
+                {
+                  "target": "swim",
+                  "romanization": "swim",
+                  "native": {
+                    "en": "Swim",
+                    "zh": "游泳",
+                    "th": "ว่ายน้ำ",
+                    "ko": "수영하다",
+                    "es": "Nadar"
+                  }
+                },
+                {
+                  "target": "sport",
+                  "romanization": "sport",
+                  "native": {
+                    "en": "Sport",
+                    "zh": "运动",
+                    "th": "กีฬา",
+                    "ko": "스포츠",
+                    "es": "Deporte"
+                  }
+                },
+                {
+                  "target": "play",
+                  "romanization": "play",
+                  "native": {
+                    "en": "Play",
+                    "zh": "玩",
+                    "th": "เล่น",
+                    "ko": "놀다",
+                    "es": "Jugar"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1567,6 +2744,411 @@
                 "ko": "'there' 뒤에 복수 명사가 오면 'are'를 사용합니다.",
                 "es": "Usa 'are' con sustantivos plurales después de 'there'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "room",
+              "romanization": "room",
+              "options": {
+                "en": [
+                  "Room",
+                  "Floor",
+                  "Living room",
+                  "House"
+                ],
+                "zh": [
+                  "房间",
+                  "地板",
+                  "客厅",
+                  "房子"
+                ],
+                "th": [
+                  "ห้อง",
+                  "พื้น",
+                  "ห้องนั่งเล่น",
+                  "บ้าน"
+                ],
+                "ko": [
+                  "방",
+                  "바닥",
+                  "거실",
+                  "집"
+                ],
+                "es": [
+                  "Habitación",
+                  "Piso",
+                  "Sala",
+                  "Casa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Roof\"",
+                "zh": "\"屋顶\"",
+                "th": "\"หลังคา\"",
+                "ko": "\"지붕\"",
+                "es": "\"Techo\""
+              },
+              "options": {
+                "neutral": [
+                  "roof",
+                  "room",
+                  "stairs",
+                  "floor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "neighbor",
+              "romanization": "NAY-ber",
+              "options": {
+                "en": [
+                  "Neighbor",
+                  "Wall",
+                  "Apartment",
+                  "Kitchen"
+                ],
+                "zh": [
+                  "邻居",
+                  "墙",
+                  "公寓",
+                  "厨房"
+                ],
+                "th": [
+                  "เพื่อนบ้าน",
+                  "ผนัง",
+                  "อพาร์ตเมนต์",
+                  "ครัว"
+                ],
+                "ko": [
+                  "이웃",
+                  "벽",
+                  "아파트",
+                  "부엌"
+                ],
+                "es": [
+                  "Vecino",
+                  "Pared",
+                  "Apartamento",
+                  "Cocina"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "house",
+              "romanization": "hows",
+              "options": {
+                "en": [
+                  "House",
+                  "Window",
+                  "Door",
+                  "Floor"
+                ],
+                "zh": [
+                  "房子",
+                  "窗户",
+                  "门",
+                  "地板"
+                ],
+                "th": [
+                  "บ้าน",
+                  "หน้าต่าง",
+                  "ประตู",
+                  "พื้น"
+                ],
+                "ko": [
+                  "집",
+                  "창문",
+                  "문",
+                  "바닥"
+                ],
+                "es": [
+                  "Casa",
+                  "Ventana",
+                  "Puerta",
+                  "Piso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Kitchen\"",
+                "zh": "\"厨房\"",
+                "th": "\"ครัว\"",
+                "ko": "\"부엌\"",
+                "es": "\"Cocina\""
+              },
+              "options": {
+                "neutral": [
+                  "kitchen",
+                  "floor",
+                  "neighbor",
+                  "window"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bathroom",
+              "romanization": "BATH-room",
+              "options": {
+                "en": [
+                  "Bathroom",
+                  "Kitchen",
+                  "Roof",
+                  "Bedroom"
+                ],
+                "zh": [
+                  "浴室",
+                  "厨房",
+                  "屋顶",
+                  "卧室"
+                ],
+                "th": [
+                  "ห้องน้ำ",
+                  "ครัว",
+                  "หลังคา",
+                  "ห้องนอน"
+                ],
+                "ko": [
+                  "화장실",
+                  "부엌",
+                  "지붕",
+                  "침실"
+                ],
+                "es": [
+                  "Baño",
+                  "Cocina",
+                  "Techo",
+                  "Dormitorio"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "living room",
+              "romanization": "LIV-ing room",
+              "options": {
+                "en": [
+                  "Living room",
+                  "Door",
+                  "Roof",
+                  "Floor"
+                ],
+                "zh": [
+                  "客厅",
+                  "门",
+                  "屋顶",
+                  "地板"
+                ],
+                "th": [
+                  "ห้องนั่งเล่น",
+                  "ประตู",
+                  "หลังคา",
+                  "พื้น"
+                ],
+                "ko": [
+                  "거실",
+                  "문",
+                  "지붕",
+                  "바닥"
+                ],
+                "es": [
+                  "Sala",
+                  "Puerta",
+                  "Techo",
+                  "Piso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Stairs\"",
+                "zh": "\"楼梯\"",
+                "th": "\"บันได\"",
+                "ko": "\"계단\"",
+                "es": "\"Escaleras\""
+              },
+              "options": {
+                "neutral": [
+                  "stairs",
+                  "apartment",
+                  "living room",
+                  "garden"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "garden",
+              "romanization": "GAR-den",
+              "options": {
+                "en": [
+                  "Garden",
+                  "Wall",
+                  "Bedroom",
+                  "Bathroom"
+                ],
+                "zh": [
+                  "花园",
+                  "墙",
+                  "卧室",
+                  "浴室"
+                ],
+                "th": [
+                  "สวน",
+                  "ผนัง",
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ],
+                "ko": [
+                  "정원",
+                  "벽",
+                  "침실",
+                  "화장실"
+                ],
+                "es": [
+                  "Jardín",
+                  "Pared",
+                  "Dormitorio",
+                  "Baño"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "living room",
+                  "romanization": "LIV-ing room",
+                  "native": {
+                    "en": "Living room",
+                    "zh": "客厅",
+                    "th": "ห้องนั่งเล่น",
+                    "ko": "거실",
+                    "es": "Sala"
+                  }
+                },
+                {
+                  "target": "kitchen",
+                  "romanization": "KICH-en",
+                  "native": {
+                    "en": "Kitchen",
+                    "zh": "厨房",
+                    "th": "ครัว",
+                    "ko": "부엌",
+                    "es": "Cocina"
+                  }
+                },
+                {
+                  "target": "apartment",
+                  "romanization": "uh-PART-ment",
+                  "native": {
+                    "en": "Apartment",
+                    "zh": "公寓",
+                    "th": "อพาร์ตเมนต์",
+                    "ko": "아파트",
+                    "es": "Apartamento"
+                  }
+                },
+                {
+                  "target": "bathroom",
+                  "romanization": "BATH-room",
+                  "native": {
+                    "en": "Bathroom",
+                    "zh": "浴室",
+                    "th": "ห้องน้ำ",
+                    "ko": "화장실",
+                    "es": "Baño"
+                  }
+                },
+                {
+                  "target": "room",
+                  "romanization": "room",
+                  "native": {
+                    "en": "Room",
+                    "zh": "房间",
+                    "th": "ห้อง",
+                    "ko": "방",
+                    "es": "Habitación"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "neighbor",
+                  "romanization": "NAY-ber",
+                  "native": {
+                    "en": "Neighbor",
+                    "zh": "邻居",
+                    "th": "เพื่อนบ้าน",
+                    "ko": "이웃",
+                    "es": "Vecino"
+                  }
+                },
+                {
+                  "target": "house",
+                  "romanization": "hows",
+                  "native": {
+                    "en": "House",
+                    "zh": "房子",
+                    "th": "บ้าน",
+                    "ko": "집",
+                    "es": "Casa"
+                  }
+                },
+                {
+                  "target": "roof",
+                  "romanization": "roof",
+                  "native": {
+                    "en": "Roof",
+                    "zh": "屋顶",
+                    "th": "หลังคา",
+                    "ko": "지붕",
+                    "es": "Techo"
+                  }
+                },
+                {
+                  "target": "stairs",
+                  "romanization": "stairz",
+                  "native": {
+                    "en": "Stairs",
+                    "zh": "楼梯",
+                    "th": "บันได",
+                    "ko": "계단",
+                    "es": "Escaleras"
+                  }
+                },
+                {
+                  "target": "garden",
+                  "romanization": "GAR-den",
+                  "native": {
+                    "en": "Garden",
+                    "zh": "花园",
+                    "th": "สวน",
+                    "ko": "정원",
+                    "es": "Jardín"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1947,6 +3529,411 @@
                 "ko": "'on'은 표면 위에 있다는 뜻입니다.",
                 "es": "'On' significa encima de una superficie."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "furniture",
+              "romanization": "FER-nih-cher",
+              "options": {
+                "en": [
+                  "Furniture",
+                  "Chair",
+                  "Air conditioner",
+                  "Sofa"
+                ],
+                "zh": [
+                  "家具",
+                  "椅子",
+                  "空调",
+                  "沙发"
+                ],
+                "th": [
+                  "เฟอร์นิเจอร์",
+                  "เก้าอี้",
+                  "แอร์",
+                  "โซฟา"
+                ],
+                "ko": [
+                  "가구",
+                  "의자",
+                  "에어컨",
+                  "소파"
+                ],
+                "es": [
+                  "Muebles",
+                  "Silla",
+                  "Aire acondicionado",
+                  "Sofá"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Air conditioner\"",
+                "zh": "\"空调\"",
+                "th": "\"แอร์\"",
+                "ko": "\"에어컨\"",
+                "es": "\"Aire acondicionado\""
+              },
+              "options": {
+                "neutral": [
+                  "air conditioner",
+                  "carpet",
+                  "bed",
+                  "television"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "television",
+              "romanization": "TEL-uh-vizh-un",
+              "options": {
+                "en": [
+                  "Television",
+                  "Mirror",
+                  "Lamp",
+                  "Shelf"
+                ],
+                "zh": [
+                  "电视",
+                  "镜子",
+                  "灯",
+                  "架子"
+                ],
+                "th": [
+                  "โทรทัศน์",
+                  "กระจก",
+                  "โคมไฟ",
+                  "ชั้นวาง"
+                ],
+                "ko": [
+                  "텔레비전",
+                  "거울",
+                  "램프",
+                  "선반"
+                ],
+                "es": [
+                  "Televisión",
+                  "Espejo",
+                  "Lámpara",
+                  "Estante"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "mirror",
+              "romanization": "MEER-er",
+              "options": {
+                "en": [
+                  "Mirror",
+                  "Curtain",
+                  "Air conditioner",
+                  "Refrigerator"
+                ],
+                "zh": [
+                  "镜子",
+                  "窗帘",
+                  "空调",
+                  "冰箱"
+                ],
+                "th": [
+                  "กระจก",
+                  "ผ้าม่าน",
+                  "แอร์",
+                  "ตู้เย็น"
+                ],
+                "ko": [
+                  "거울",
+                  "커튼",
+                  "에어컨",
+                  "냉장고"
+                ],
+                "es": [
+                  "Espejo",
+                  "Cortina",
+                  "Aire acondicionado",
+                  "Refrigerador"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Lamp\"",
+                "zh": "\"灯\"",
+                "th": "\"โคมไฟ\"",
+                "ko": "\"램프\"",
+                "es": "\"Lámpara\""
+              },
+              "options": {
+                "neutral": [
+                  "lamp",
+                  "carpet",
+                  "refrigerator",
+                  "washing machine"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "shelf",
+              "romanization": "shelf",
+              "options": {
+                "en": [
+                  "Shelf",
+                  "Mirror",
+                  "Furniture",
+                  "Air conditioner"
+                ],
+                "zh": [
+                  "架子",
+                  "镜子",
+                  "家具",
+                  "空调"
+                ],
+                "th": [
+                  "ชั้นวาง",
+                  "กระจก",
+                  "เฟอร์นิเจอร์",
+                  "แอร์"
+                ],
+                "ko": [
+                  "선반",
+                  "거울",
+                  "가구",
+                  "에어컨"
+                ],
+                "es": [
+                  "Estante",
+                  "Espejo",
+                  "Muebles",
+                  "Aire acondicionado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "carpet",
+              "romanization": "KAR-pit",
+              "options": {
+                "en": [
+                  "Carpet",
+                  "Desk",
+                  "Television",
+                  "Bed"
+                ],
+                "zh": [
+                  "地毯",
+                  "书桌",
+                  "电视",
+                  "床"
+                ],
+                "th": [
+                  "พรม",
+                  "โต๊ะทำงาน",
+                  "โทรทัศน์",
+                  "เตียง"
+                ],
+                "ko": [
+                  "카펫",
+                  "책상",
+                  "텔레비전",
+                  "침대"
+                ],
+                "es": [
+                  "Alfombra",
+                  "Escritorio",
+                  "Televisión",
+                  "Cama"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Closet\"",
+                "zh": "\"衣柜\"",
+                "th": "\"ตู้เสื้อผ้า\"",
+                "ko": "\"옷장\"",
+                "es": "\"Armario\""
+              },
+              "options": {
+                "neutral": [
+                  "closet",
+                  "bed",
+                  "television",
+                  "lamp"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "washing machine",
+              "romanization": "WOSH-ing muh-SHEEN",
+              "options": {
+                "en": [
+                  "Washing machine",
+                  "Television",
+                  "Curtain",
+                  "Chair"
+                ],
+                "zh": [
+                  "洗衣机",
+                  "电视",
+                  "窗帘",
+                  "椅子"
+                ],
+                "th": [
+                  "เครื่องซักผ้า",
+                  "โทรทัศน์",
+                  "ผ้าม่าน",
+                  "เก้าอี้"
+                ],
+                "ko": [
+                  "세탁기",
+                  "텔레비전",
+                  "커튼",
+                  "의자"
+                ],
+                "es": [
+                  "Lavadora",
+                  "Televisión",
+                  "Cortina",
+                  "Silla"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "lamp",
+                  "romanization": "lamp",
+                  "native": {
+                    "en": "Lamp",
+                    "zh": "灯",
+                    "th": "โคมไฟ",
+                    "ko": "램프",
+                    "es": "Lámpara"
+                  }
+                },
+                {
+                  "target": "shelf",
+                  "romanization": "shelf",
+                  "native": {
+                    "en": "Shelf",
+                    "zh": "架子",
+                    "th": "ชั้นวาง",
+                    "ko": "선반",
+                    "es": "Estante"
+                  }
+                },
+                {
+                  "target": "refrigerator",
+                  "romanization": "reh-FRIJ-uh-ray-ter",
+                  "native": {
+                    "en": "Refrigerator",
+                    "zh": "冰箱",
+                    "th": "ตู้เย็น",
+                    "ko": "냉장고",
+                    "es": "Refrigerador"
+                  }
+                },
+                {
+                  "target": "carpet",
+                  "romanization": "KAR-pit",
+                  "native": {
+                    "en": "Carpet",
+                    "zh": "地毯",
+                    "th": "พรม",
+                    "ko": "카펫",
+                    "es": "Alfombra"
+                  }
+                },
+                {
+                  "target": "television",
+                  "romanization": "TEL-uh-vizh-un",
+                  "native": {
+                    "en": "Television",
+                    "zh": "电视",
+                    "th": "โทรทัศน์",
+                    "ko": "텔레비전",
+                    "es": "Televisión"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "mirror",
+                  "romanization": "MEER-er",
+                  "native": {
+                    "en": "Mirror",
+                    "zh": "镜子",
+                    "th": "กระจก",
+                    "ko": "거울",
+                    "es": "Espejo"
+                  }
+                },
+                {
+                  "target": "washing machine",
+                  "romanization": "WOSH-ing muh-SHEEN",
+                  "native": {
+                    "en": "Washing machine",
+                    "zh": "洗衣机",
+                    "th": "เครื่องซักผ้า",
+                    "ko": "세탁기",
+                    "es": "Lavadora"
+                  }
+                },
+                {
+                  "target": "furniture",
+                  "romanization": "FER-nih-cher",
+                  "native": {
+                    "en": "Furniture",
+                    "zh": "家具",
+                    "th": "เฟอร์นิเจอร์",
+                    "ko": "가구",
+                    "es": "Muebles"
+                  }
+                },
+                {
+                  "target": "curtain",
+                  "romanization": "KER-ten",
+                  "native": {
+                    "en": "Curtain",
+                    "zh": "窗帘",
+                    "th": "ผ้าม่าน",
+                    "ko": "커튼",
+                    "es": "Cortina"
+                  }
+                },
+                {
+                  "target": "air conditioner",
+                  "romanization": "air kun-DISH-un-er",
+                  "native": {
+                    "en": "Air conditioner",
+                    "zh": "空调",
+                    "th": "แอร์",
+                    "ko": "에어컨",
+                    "es": "Aire acondicionado"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2327,6 +4314,373 @@
                 "ko": "'apartment' 같은 단수 주어에는 'is'를 사용합니다.",
                 "es": "Usa 'is' para sujetos singulares como 'apartment'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "water bill",
+              "romanization": "WAW-ter bil",
+              "options": {
+                "en": [
+                  "Water bill",
+                  "Repair",
+                  "Rent",
+                  "Garbage"
+                ],
+                "zh": [
+                  "水费",
+                  "修理",
+                  "租",
+                  "垃圾"
+                ],
+                "th": [
+                  "ค่าน้ำ",
+                  "ซ่อม",
+                  "เช่า",
+                  "ขยะ"
+                ],
+                "ko": [
+                  "수도 요금",
+                  "수리하다",
+                  "임대하다",
+                  "쓰레기"
+                ],
+                "es": [
+                  "Cuenta de agua",
+                  "Reparar",
+                  "Alquilar",
+                  "Basura"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Convenient\"",
+                "zh": "\"方便\"",
+                "th": "\"สะดวก\"",
+                "ko": "\"편리한\"",
+                "es": "\"Conveniente\""
+              },
+              "options": {
+                "neutral": [
+                  "convenient",
+                  "recycle",
+                  "dirty",
+                  "noisy"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "recycle",
+              "romanization": "ree-SY-kul",
+              "options": {
+                "en": [
+                  "Recycle",
+                  "Move",
+                  "Convenient",
+                  "Noisy"
+                ],
+                "zh": [
+                  "回收",
+                  "搬",
+                  "方便",
+                  "吵闹"
+                ],
+                "th": [
+                  "รีไซเคิล",
+                  "ย้าย",
+                  "สะดวก",
+                  "เสียงดัง"
+                ],
+                "ko": [
+                  "재활용하다",
+                  "이사하다",
+                  "편리한",
+                  "시끄러운"
+                ],
+                "es": [
+                  "Reciclar",
+                  "Mudarse",
+                  "Conveniente",
+                  "Ruidoso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "rent",
+              "romanization": "rent",
+              "options": {
+                "en": [
+                  "Rent",
+                  "Electricity",
+                  "Dirty",
+                  "Comfortable"
+                ],
+                "zh": [
+                  "租",
+                  "电",
+                  "脏",
+                  "舒适"
+                ],
+                "th": [
+                  "เช่า",
+                  "ไฟฟ้า",
+                  "สกปรก",
+                  "สบาย"
+                ],
+                "ko": [
+                  "임대하다",
+                  "전기",
+                  "더러운",
+                  "편안한"
+                ],
+                "es": [
+                  "Alquilar",
+                  "Electricidad",
+                  "Sucio",
+                  "Cómodo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Safe\"",
+                "zh": "\"安全\"",
+                "th": "\"ปลอดภัย\"",
+                "ko": "\"안전한\"",
+                "es": "\"Seguro\""
+              },
+              "options": {
+                "neutral": [
+                  "safe",
+                  "clean",
+                  "dangerous",
+                  "move"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "electricity",
+              "romanization": "ee-lek-TRIS-ih-tee",
+              "options": {
+                "en": [
+                  "Electricity",
+                  "Repair",
+                  "Dangerous",
+                  "Dirty"
+                ],
+                "zh": [
+                  "电",
+                  "修理",
+                  "危险",
+                  "脏"
+                ],
+                "th": [
+                  "ไฟฟ้า",
+                  "ซ่อม",
+                  "อันตราย",
+                  "สกปรก"
+                ],
+                "ko": [
+                  "전기",
+                  "수리하다",
+                  "위험한",
+                  "더러운"
+                ],
+                "es": [
+                  "Electricidad",
+                  "Reparar",
+                  "Peligroso",
+                  "Sucio"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "repair",
+              "romanization": "ree-PAIR",
+              "options": {
+                "en": [
+                  "Repair",
+                  "Move",
+                  "Quiet",
+                  "Safe"
+                ],
+                "zh": [
+                  "修理",
+                  "搬",
+                  "安静",
+                  "安全"
+                ],
+                "th": [
+                  "ซ่อม",
+                  "ย้าย",
+                  "เงียบ",
+                  "ปลอดภัย"
+                ],
+                "ko": [
+                  "수리하다",
+                  "이사하다",
+                  "조용한",
+                  "안전한"
+                ],
+                "es": [
+                  "Reparar",
+                  "Mudarse",
+                  "Tranquilo",
+                  "Seguro"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Move\"",
+                "zh": "\"搬\"",
+                "th": "\"ย้าย\"",
+                "ko": "\"이사하다\"",
+                "es": "\"Mudarse\""
+              },
+              "options": {
+                "neutral": [
+                  "move",
+                  "electricity",
+                  "rent",
+                  "safe"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "water bill",
+                  "romanization": "WAW-ter bil",
+                  "native": {
+                    "en": "Water bill",
+                    "zh": "水费",
+                    "th": "ค่าน้ำ",
+                    "ko": "수도 요금",
+                    "es": "Cuenta de agua"
+                  }
+                },
+                {
+                  "target": "move",
+                  "romanization": "moov",
+                  "native": {
+                    "en": "Move",
+                    "zh": "搬",
+                    "th": "ย้าย",
+                    "ko": "이사하다",
+                    "es": "Mudarse"
+                  }
+                },
+                {
+                  "target": "electricity",
+                  "romanization": "ee-lek-TRIS-ih-tee",
+                  "native": {
+                    "en": "Electricity",
+                    "zh": "电",
+                    "th": "ไฟฟ้า",
+                    "ko": "전기",
+                    "es": "Electricidad"
+                  }
+                },
+                {
+                  "target": "safe",
+                  "romanization": "sayf",
+                  "native": {
+                    "en": "Safe",
+                    "zh": "安全",
+                    "th": "ปลอดภัย",
+                    "ko": "안전한",
+                    "es": "Seguro"
+                  }
+                },
+                {
+                  "target": "convenient",
+                  "romanization": "kun-VEEN-yunt",
+                  "native": {
+                    "en": "Convenient",
+                    "zh": "方便",
+                    "th": "สะดวก",
+                    "ko": "편리한",
+                    "es": "Conveniente"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "recycle",
+                  "romanization": "ree-SY-kul",
+                  "native": {
+                    "en": "Recycle",
+                    "zh": "回收",
+                    "th": "รีไซเคิล",
+                    "ko": "재활용하다",
+                    "es": "Reciclar"
+                  }
+                },
+                {
+                  "target": "repair",
+                  "romanization": "ree-PAIR",
+                  "native": {
+                    "en": "Repair",
+                    "zh": "修理",
+                    "th": "ซ่อม",
+                    "ko": "수리하다",
+                    "es": "Reparar"
+                  }
+                },
+                {
+                  "target": "comfortable",
+                  "romanization": "KUM-fer-tuh-bul",
+                  "native": {
+                    "en": "Comfortable",
+                    "zh": "舒适",
+                    "th": "สบาย",
+                    "ko": "편안한",
+                    "es": "Cómodo"
+                  }
+                },
+                {
+                  "target": "garbage",
+                  "romanization": "GAR-bij",
+                  "native": {
+                    "en": "Garbage",
+                    "zh": "垃圾",
+                    "th": "ขยะ",
+                    "ko": "쓰레기",
+                    "es": "Basura"
+                  }
+                },
+                {
+                  "target": "rent",
+                  "romanization": "rent",
+                  "native": {
+                    "en": "Rent",
+                    "zh": "租",
+                    "th": "เช่า",
+                    "ko": "임대하다",
+                    "es": "Alquilar"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2726,6 +5080,373 @@
                 "ko": "'feet'는 'foot'의 불규칙 복수형입니다.",
                 "es": "'Feet' es el plural irregular de 'foot'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "foot",
+              "romanization": "foot",
+              "options": {
+                "en": [
+                  "Foot",
+                  "Shoulder",
+                  "Mouth",
+                  "Ear"
+                ],
+                "zh": [
+                  "脚",
+                  "肩膀",
+                  "嘴",
+                  "耳朵"
+                ],
+                "th": [
+                  "เท้า",
+                  "ไหล่",
+                  "ปาก",
+                  "หู"
+                ],
+                "ko": [
+                  "발",
+                  "어깨",
+                  "입",
+                  "귀"
+                ],
+                "es": [
+                  "Pie",
+                  "Hombro",
+                  "Boca",
+                  "Oreja"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Head\"",
+                "zh": "\"头\"",
+                "th": "\"หัว\"",
+                "ko": "\"머리\"",
+                "es": "\"Cabeza\""
+              },
+              "options": {
+                "neutral": [
+                  "head",
+                  "leg",
+                  "finger",
+                  "ear"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "heart",
+              "romanization": "hart",
+              "options": {
+                "en": [
+                  "Heart",
+                  "Nose",
+                  "Hand",
+                  "Tooth"
+                ],
+                "zh": [
+                  "心脏",
+                  "鼻子",
+                  "手",
+                  "牙齿"
+                ],
+                "th": [
+                  "หัวใจ",
+                  "จมูก",
+                  "มือ",
+                  "ฟัน"
+                ],
+                "ko": [
+                  "심장",
+                  "코",
+                  "손",
+                  "이"
+                ],
+                "es": [
+                  "Corazón",
+                  "Nariz",
+                  "Mano",
+                  "Diente"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "tooth",
+              "romanization": "tooth",
+              "options": {
+                "en": [
+                  "Tooth",
+                  "Head",
+                  "Nose",
+                  "Eye"
+                ],
+                "zh": [
+                  "牙齿",
+                  "头",
+                  "鼻子",
+                  "眼睛"
+                ],
+                "th": [
+                  "ฟัน",
+                  "หัว",
+                  "จมูก",
+                  "ตา"
+                ],
+                "ko": [
+                  "이",
+                  "머리",
+                  "코",
+                  "눈"
+                ],
+                "es": [
+                  "Diente",
+                  "Cabeza",
+                  "Nariz",
+                  "Ojo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Back\"",
+                "zh": "\"背\"",
+                "th": "\"หลัง\"",
+                "ko": "\"등\"",
+                "es": "\"Espalda\""
+              },
+              "options": {
+                "neutral": [
+                  "back",
+                  "heart",
+                  "ear",
+                  "mouth"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "leg",
+              "romanization": "leg",
+              "options": {
+                "en": [
+                  "Leg",
+                  "Back",
+                  "Eye",
+                  "Mouth"
+                ],
+                "zh": [
+                  "腿",
+                  "背",
+                  "眼睛",
+                  "嘴"
+                ],
+                "th": [
+                  "ขา",
+                  "หลัง",
+                  "ตา",
+                  "ปาก"
+                ],
+                "ko": [
+                  "다리",
+                  "등",
+                  "눈",
+                  "입"
+                ],
+                "es": [
+                  "Pierna",
+                  "Espalda",
+                  "Ojo",
+                  "Boca"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "finger",
+              "romanization": "FING-ger",
+              "options": {
+                "en": [
+                  "Finger",
+                  "Hand",
+                  "Head",
+                  "Mouth"
+                ],
+                "zh": [
+                  "手指",
+                  "手",
+                  "头",
+                  "嘴"
+                ],
+                "th": [
+                  "นิ้วมือ",
+                  "มือ",
+                  "หัว",
+                  "ปาก"
+                ],
+                "ko": [
+                  "손가락",
+                  "손",
+                  "머리",
+                  "입"
+                ],
+                "es": [
+                  "Dedo",
+                  "Mano",
+                  "Cabeza",
+                  "Boca"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Arm\"",
+                "zh": "\"手臂\"",
+                "th": "\"แขน\"",
+                "ko": "\"팔\"",
+                "es": "\"Brazo\""
+              },
+              "options": {
+                "neutral": [
+                  "arm",
+                  "foot",
+                  "heart",
+                  "finger"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "finger",
+                  "romanization": "FING-ger",
+                  "native": {
+                    "en": "Finger",
+                    "zh": "手指",
+                    "th": "นิ้วมือ",
+                    "ko": "손가락",
+                    "es": "Dedo"
+                  }
+                },
+                {
+                  "target": "arm",
+                  "romanization": "arm",
+                  "native": {
+                    "en": "Arm",
+                    "zh": "手臂",
+                    "th": "แขน",
+                    "ko": "팔",
+                    "es": "Brazo"
+                  }
+                },
+                {
+                  "target": "tooth",
+                  "romanization": "tooth",
+                  "native": {
+                    "en": "Tooth",
+                    "zh": "牙齿",
+                    "th": "ฟัน",
+                    "ko": "이",
+                    "es": "Diente"
+                  }
+                },
+                {
+                  "target": "heart",
+                  "romanization": "hart",
+                  "native": {
+                    "en": "Heart",
+                    "zh": "心脏",
+                    "th": "หัวใจ",
+                    "ko": "심장",
+                    "es": "Corazón"
+                  }
+                },
+                {
+                  "target": "leg",
+                  "romanization": "leg",
+                  "native": {
+                    "en": "Leg",
+                    "zh": "腿",
+                    "th": "ขา",
+                    "ko": "다리",
+                    "es": "Pierna"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "stomach",
+                  "romanization": "STUM-uk",
+                  "native": {
+                    "en": "Stomach",
+                    "zh": "胃",
+                    "th": "ท้อง",
+                    "ko": "배",
+                    "es": "Estómago"
+                  }
+                },
+                {
+                  "target": "foot",
+                  "romanization": "foot",
+                  "native": {
+                    "en": "Foot",
+                    "zh": "脚",
+                    "th": "เท้า",
+                    "ko": "발",
+                    "es": "Pie"
+                  }
+                },
+                {
+                  "target": "shoulder",
+                  "romanization": "SHOHL-der",
+                  "native": {
+                    "en": "Shoulder",
+                    "zh": "肩膀",
+                    "th": "ไหล่",
+                    "ko": "어깨",
+                    "es": "Hombro"
+                  }
+                },
+                {
+                  "target": "head",
+                  "romanization": "hed",
+                  "native": {
+                    "en": "Head",
+                    "zh": "头",
+                    "th": "หัว",
+                    "ko": "머리",
+                    "es": "Cabeza"
+                  }
+                },
+                {
+                  "target": "back",
+                  "romanization": "bak",
+                  "native": {
+                    "en": "Back",
+                    "zh": "背",
+                    "th": "หลัง",
+                    "ko": "등",
+                    "es": "Espalda"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3106,6 +5827,411 @@
                 "ko": "3인칭 단수: 'my head hurts'.",
                 "es": "Tercera persona singular: 'my head hurts'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "allergy",
+              "romanization": "AL-er-jee",
+              "options": {
+                "en": [
+                  "Allergy",
+                  "Fever",
+                  "Sick",
+                  "Healthy"
+                ],
+                "zh": [
+                  "过敏",
+                  "发烧",
+                  "生病",
+                  "健康"
+                ],
+                "th": [
+                  "แพ้",
+                  "ไข้",
+                  "ป่วย",
+                  "สุขภาพดี"
+                ],
+                "ko": [
+                  "알레르기",
+                  "열",
+                  "아픈",
+                  "건강한"
+                ],
+                "es": [
+                  "Alergia",
+                  "Fiebre",
+                  "Enfermo",
+                  "Saludable"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Ambulance\"",
+                "zh": "\"救护车\"",
+                "th": "\"รถพยาบาล\"",
+                "ko": "\"구급차\"",
+                "es": "\"Ambulancia\""
+              },
+              "options": {
+                "neutral": [
+                  "ambulance",
+                  "exercise",
+                  "fever",
+                  "rest"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "pharmacy",
+              "romanization": "FAR-muh-see",
+              "options": {
+                "en": [
+                  "Pharmacy",
+                  "Cold (illness)",
+                  "Pain",
+                  "Healthy"
+                ],
+                "zh": [
+                  "药房",
+                  "感冒",
+                  "疼痛",
+                  "健康"
+                ],
+                "th": [
+                  "ร้านขายยา",
+                  "หวัด",
+                  "เจ็บ",
+                  "สุขภาพดี"
+                ],
+                "ko": [
+                  "약국",
+                  "감기",
+                  "통증",
+                  "건강한"
+                ],
+                "es": [
+                  "Farmacia",
+                  "Resfriado",
+                  "Dolor",
+                  "Saludable"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "cold (illness)",
+              "romanization": "kohld",
+              "options": {
+                "en": [
+                  "Cold (illness)",
+                  "Doctor",
+                  "Medicine",
+                  "Pain"
+                ],
+                "zh": [
+                  "感冒",
+                  "医生",
+                  "药",
+                  "疼痛"
+                ],
+                "th": [
+                  "หวัด",
+                  "หมอ",
+                  "ยา",
+                  "เจ็บ"
+                ],
+                "ko": [
+                  "감기",
+                  "의사",
+                  "약",
+                  "통증"
+                ],
+                "es": [
+                  "Resfriado",
+                  "Doctor",
+                  "Medicina",
+                  "Dolor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Rest\"",
+                "zh": "\"休息\"",
+                "th": "\"พักผ่อน\"",
+                "ko": "\"쉬다\"",
+                "es": "\"Descansar\""
+              },
+              "options": {
+                "neutral": [
+                  "rest",
+                  "cough",
+                  "fever",
+                  "cold (illness)"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "pain",
+              "romanization": "payn",
+              "options": {
+                "en": [
+                  "Pain",
+                  "Cold (illness)",
+                  "Headache",
+                  "Ambulance"
+                ],
+                "zh": [
+                  "疼痛",
+                  "感冒",
+                  "头疼",
+                  "救护车"
+                ],
+                "th": [
+                  "เจ็บ",
+                  "หวัด",
+                  "ปวดหัว",
+                  "รถพยาบาล"
+                ],
+                "ko": [
+                  "통증",
+                  "감기",
+                  "두통",
+                  "구급차"
+                ],
+                "es": [
+                  "Dolor",
+                  "Resfriado",
+                  "Dolor de cabeza",
+                  "Ambulancia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "cough",
+              "romanization": "kof",
+              "options": {
+                "en": [
+                  "Cough",
+                  "Ambulance",
+                  "Pain",
+                  "Fever"
+                ],
+                "zh": [
+                  "咳嗽",
+                  "救护车",
+                  "疼痛",
+                  "发烧"
+                ],
+                "th": [
+                  "ไอ",
+                  "รถพยาบาล",
+                  "เจ็บ",
+                  "ไข้"
+                ],
+                "ko": [
+                  "기침",
+                  "구급차",
+                  "통증",
+                  "열"
+                ],
+                "es": [
+                  "Tos",
+                  "Ambulancia",
+                  "Dolor",
+                  "Fiebre"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Exercise\"",
+                "zh": "\"运动\"",
+                "th": "\"ออกกำลังกาย\"",
+                "ko": "\"운동\"",
+                "es": "\"Ejercicio\""
+              },
+              "options": {
+                "neutral": [
+                  "exercise",
+                  "pain",
+                  "medicine",
+                  "healthy"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "hurt",
+              "romanization": "hert",
+              "options": {
+                "en": [
+                  "Hurt",
+                  "Fever",
+                  "Cough",
+                  "Headache"
+                ],
+                "zh": [
+                  "受伤",
+                  "发烧",
+                  "咳嗽",
+                  "头疼"
+                ],
+                "th": [
+                  "เจ็บ",
+                  "ไข้",
+                  "ไอ",
+                  "ปวดหัว"
+                ],
+                "ko": [
+                  "다치다",
+                  "열",
+                  "기침",
+                  "두통"
+                ],
+                "es": [
+                  "Lastimarse",
+                  "Fiebre",
+                  "Tos",
+                  "Dolor de cabeza"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "exercise",
+                  "romanization": "EK-ser-syz",
+                  "native": {
+                    "en": "Exercise",
+                    "zh": "运动",
+                    "th": "ออกกำลังกาย",
+                    "ko": "운동",
+                    "es": "Ejercicio"
+                  }
+                },
+                {
+                  "target": "ambulance",
+                  "romanization": "AM-byoo-lans",
+                  "native": {
+                    "en": "Ambulance",
+                    "zh": "救护车",
+                    "th": "รถพยาบาล",
+                    "ko": "구급차",
+                    "es": "Ambulancia"
+                  }
+                },
+                {
+                  "target": "cough",
+                  "romanization": "kof",
+                  "native": {
+                    "en": "Cough",
+                    "zh": "咳嗽",
+                    "th": "ไอ",
+                    "ko": "기침",
+                    "es": "Tos"
+                  }
+                },
+                {
+                  "target": "rest",
+                  "romanization": "rest",
+                  "native": {
+                    "en": "Rest",
+                    "zh": "休息",
+                    "th": "พักผ่อน",
+                    "ko": "쉬다",
+                    "es": "Descansar"
+                  }
+                },
+                {
+                  "target": "cold (illness)",
+                  "romanization": "kohld",
+                  "native": {
+                    "en": "Cold (illness)",
+                    "zh": "感冒",
+                    "th": "หวัด",
+                    "ko": "감기",
+                    "es": "Resfriado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hurt",
+                  "romanization": "hert",
+                  "native": {
+                    "en": "Hurt",
+                    "zh": "受伤",
+                    "th": "เจ็บ",
+                    "ko": "다치다",
+                    "es": "Lastimarse"
+                  }
+                },
+                {
+                  "target": "headache",
+                  "romanization": "HED-ayk",
+                  "native": {
+                    "en": "Headache",
+                    "zh": "头疼",
+                    "th": "ปวดหัว",
+                    "ko": "두통",
+                    "es": "Dolor de cabeza"
+                  }
+                },
+                {
+                  "target": "pharmacy",
+                  "romanization": "FAR-muh-see",
+                  "native": {
+                    "en": "Pharmacy",
+                    "zh": "药房",
+                    "th": "ร้านขายยา",
+                    "ko": "약국",
+                    "es": "Farmacia"
+                  }
+                },
+                {
+                  "target": "allergy",
+                  "romanization": "AL-er-jee",
+                  "native": {
+                    "en": "Allergy",
+                    "zh": "过敏",
+                    "th": "แพ้",
+                    "ko": "알레르기",
+                    "es": "Alergia"
+                  }
+                },
+                {
+                  "target": "pain",
+                  "romanization": "payn",
+                  "native": {
+                    "en": "Pain",
+                    "zh": "疼痛",
+                    "th": "เจ็บ",
+                    "ko": "통증",
+                    "es": "Dolor"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3486,6 +6612,411 @@
                 "ko": "'should'는 조언이나 권고를 나타냅니다.",
                 "es": "'Should' da consejo o recomendación."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "recover",
+              "romanization": "ree-KUV-er",
+              "options": {
+                "en": [
+                  "Recover",
+                  "Pill",
+                  "Prescription",
+                  "Symptom"
+                ],
+                "zh": [
+                  "恢复",
+                  "药片",
+                  "处方",
+                  "症状"
+                ],
+                "th": [
+                  "ฟื้นตัว",
+                  "ยาเม็ด",
+                  "ใบสั่งยา",
+                  "อาการ"
+                ],
+                "ko": [
+                  "회복하다",
+                  "알약",
+                  "처방전",
+                  "증상"
+                ],
+                "es": [
+                  "Recuperarse",
+                  "Pastilla",
+                  "Receta médica",
+                  "Síntoma"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Thermometer\"",
+                "zh": "\"温度计\"",
+                "th": "\"เทอร์โมมิเตอร์\"",
+                "ko": "\"온도계\"",
+                "es": "\"Termómetro\""
+              },
+              "options": {
+                "neutral": [
+                  "thermometer",
+                  "breathe",
+                  "emergency",
+                  "symptom"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "symptom",
+              "romanization": "SIMP-tum",
+              "options": {
+                "en": [
+                  "Symptom",
+                  "Insurance",
+                  "Nurse",
+                  "Injection"
+                ],
+                "zh": [
+                  "症状",
+                  "保险",
+                  "护士",
+                  "注射"
+                ],
+                "th": [
+                  "อาการ",
+                  "ประกัน",
+                  "พยาบาล",
+                  "ฉีดยา"
+                ],
+                "ko": [
+                  "증상",
+                  "보험",
+                  "간호사",
+                  "주사"
+                ],
+                "es": [
+                  "Síntoma",
+                  "Seguro",
+                  "Enfermera",
+                  "Inyección"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "operation",
+              "romanization": "op-er-AY-shun",
+              "options": {
+                "en": [
+                  "Operation",
+                  "Breathe",
+                  "Emergency",
+                  "Recover"
+                ],
+                "zh": [
+                  "手术",
+                  "呼吸",
+                  "紧急情况",
+                  "恢复"
+                ],
+                "th": [
+                  "การผ่าตัด",
+                  "หายใจ",
+                  "เหตุฉุกเฉิน",
+                  "ฟื้นตัว"
+                ],
+                "ko": [
+                  "수술",
+                  "숨쉬다",
+                  "응급",
+                  "회복하다"
+                ],
+                "es": [
+                  "Operación",
+                  "Respirar",
+                  "Emergencia",
+                  "Recuperarse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Swollen\"",
+                "zh": "\"肿了\"",
+                "th": "\"บวม\"",
+                "ko": "\"부은\"",
+                "es": "\"Hinchado\""
+              },
+              "options": {
+                "neutral": [
+                  "swollen",
+                  "check-up",
+                  "operation",
+                  "recover"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "breathe",
+              "romanization": "breeth",
+              "options": {
+                "en": [
+                  "Breathe",
+                  "Nurse",
+                  "Swollen",
+                  "Operation"
+                ],
+                "zh": [
+                  "呼吸",
+                  "护士",
+                  "肿了",
+                  "手术"
+                ],
+                "th": [
+                  "หายใจ",
+                  "พยาบาล",
+                  "บวม",
+                  "การผ่าตัด"
+                ],
+                "ko": [
+                  "숨쉬다",
+                  "간호사",
+                  "부은",
+                  "수술"
+                ],
+                "es": [
+                  "Respirar",
+                  "Enfermera",
+                  "Hinchado",
+                  "Operación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "check-up",
+              "romanization": "CHEK-up",
+              "options": {
+                "en": [
+                  "Check-up",
+                  "Swollen",
+                  "Insurance",
+                  "Emergency"
+                ],
+                "zh": [
+                  "体检",
+                  "肿了",
+                  "保险",
+                  "紧急情况"
+                ],
+                "th": [
+                  "ตรวจสุขภาพ",
+                  "บวม",
+                  "ประกัน",
+                  "เหตุฉุกเฉิน"
+                ],
+                "ko": [
+                  "검진",
+                  "부은",
+                  "보험",
+                  "응급"
+                ],
+                "es": [
+                  "Chequeo",
+                  "Hinchado",
+                  "Seguro",
+                  "Emergencia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Insurance\"",
+                "zh": "\"保险\"",
+                "th": "\"ประกัน\"",
+                "ko": "\"보험\"",
+                "es": "\"Seguro\""
+              },
+              "options": {
+                "neutral": [
+                  "insurance",
+                  "emergency",
+                  "thermometer",
+                  "check-up"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "prescription",
+              "romanization": "preh-SKRIP-shun",
+              "options": {
+                "en": [
+                  "Prescription",
+                  "Insurance",
+                  "Blood",
+                  "Emergency"
+                ],
+                "zh": [
+                  "处方",
+                  "保险",
+                  "血",
+                  "紧急情况"
+                ],
+                "th": [
+                  "ใบสั่งยา",
+                  "ประกัน",
+                  "เลือด",
+                  "เหตุฉุกเฉิน"
+                ],
+                "ko": [
+                  "처방전",
+                  "보험",
+                  "피",
+                  "응급"
+                ],
+                "es": [
+                  "Receta médica",
+                  "Seguro",
+                  "Sangre",
+                  "Emergencia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "dizzy",
+                  "romanization": "DIZ-ee",
+                  "native": {
+                    "en": "Dizzy",
+                    "zh": "头晕",
+                    "th": "เวียนหัว",
+                    "ko": "어지러운",
+                    "es": "Mareado"
+                  }
+                },
+                {
+                  "target": "check-up",
+                  "romanization": "CHEK-up",
+                  "native": {
+                    "en": "Check-up",
+                    "zh": "体检",
+                    "th": "ตรวจสุขภาพ",
+                    "ko": "검진",
+                    "es": "Chequeo"
+                  }
+                },
+                {
+                  "target": "symptom",
+                  "romanization": "SIMP-tum",
+                  "native": {
+                    "en": "Symptom",
+                    "zh": "症状",
+                    "th": "อาการ",
+                    "ko": "증상",
+                    "es": "Síntoma"
+                  }
+                },
+                {
+                  "target": "recover",
+                  "romanization": "ree-KUV-er",
+                  "native": {
+                    "en": "Recover",
+                    "zh": "恢复",
+                    "th": "ฟื้นตัว",
+                    "ko": "회복하다",
+                    "es": "Recuperarse"
+                  }
+                },
+                {
+                  "target": "thermometer",
+                  "romanization": "ther-MOM-eh-ter",
+                  "native": {
+                    "en": "Thermometer",
+                    "zh": "温度计",
+                    "th": "เทอร์โมมิเตอร์",
+                    "ko": "온도계",
+                    "es": "Termómetro"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "emergency",
+                  "romanization": "ee-MER-jun-see",
+                  "native": {
+                    "en": "Emergency",
+                    "zh": "紧急情况",
+                    "th": "เหตุฉุกเฉิน",
+                    "ko": "응급",
+                    "es": "Emergencia"
+                  }
+                },
+                {
+                  "target": "breathe",
+                  "romanization": "breeth",
+                  "native": {
+                    "en": "Breathe",
+                    "zh": "呼吸",
+                    "th": "หายใจ",
+                    "ko": "숨쉬다",
+                    "es": "Respirar"
+                  }
+                },
+                {
+                  "target": "operation",
+                  "romanization": "op-er-AY-shun",
+                  "native": {
+                    "en": "Operation",
+                    "zh": "手术",
+                    "th": "การผ่าตัด",
+                    "ko": "수술",
+                    "es": "Operación"
+                  }
+                },
+                {
+                  "target": "insurance",
+                  "romanization": "in-SHOOR-uns",
+                  "native": {
+                    "en": "Insurance",
+                    "zh": "保险",
+                    "th": "ประกัน",
+                    "ko": "보험",
+                    "es": "Seguro"
+                  }
+                },
+                {
+                  "target": "swollen",
+                  "romanization": "SWOH-lun",
+                  "native": {
+                    "en": "Swollen",
+                    "zh": "肿了",
+                    "th": "บวม",
+                    "ko": "부은",
+                    "es": "Hinchado"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3885,6 +7416,411 @@
                 "ko": "'can' 뒤에는 동사 원형을 사용합니다.",
                 "es": "Después de 'can', usa la forma base del verbo."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "call",
+              "romanization": "kawl",
+              "options": {
+                "en": [
+                  "Call",
+                  "Receive",
+                  "Search",
+                  "Phone"
+                ],
+                "zh": [
+                  "打电话",
+                  "收到",
+                  "搜索",
+                  "电话"
+                ],
+                "th": [
+                  "โทร",
+                  "ได้รับ",
+                  "ค้นหา",
+                  "โทรศัพท์"
+                ],
+                "ko": [
+                  "전화하다",
+                  "받다",
+                  "검색",
+                  "전화"
+                ],
+                "es": [
+                  "Llamar",
+                  "Recibir",
+                  "Buscar",
+                  "Teléfono"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Message\"",
+                "zh": "\"消息\"",
+                "th": "\"ข้อความ\"",
+                "ko": "\"메시지\"",
+                "es": "\"Mensaje\""
+              },
+              "options": {
+                "neutral": [
+                  "message",
+                  "phone",
+                  "send",
+                  "video"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "computer",
+              "romanization": "kum-PYOO-ter",
+              "options": {
+                "en": [
+                  "Computer",
+                  "Upload",
+                  "Email",
+                  "Receive"
+                ],
+                "zh": [
+                  "电脑",
+                  "上传",
+                  "电子邮件",
+                  "收到"
+                ],
+                "th": [
+                  "คอมพิวเตอร์",
+                  "อัปโหลด",
+                  "อีเมล",
+                  "ได้รับ"
+                ],
+                "ko": [
+                  "컴퓨터",
+                  "업로드",
+                  "이메일",
+                  "받다"
+                ],
+                "es": [
+                  "Computadora",
+                  "Subir",
+                  "Correo electrónico",
+                  "Recibir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "website",
+              "romanization": "WEB-syt",
+              "options": {
+                "en": [
+                  "Website",
+                  "Photo",
+                  "Video",
+                  "Search"
+                ],
+                "zh": [
+                  "网站",
+                  "照片",
+                  "视频",
+                  "搜索"
+                ],
+                "th": [
+                  "เว็บไซต์",
+                  "รูปภาพ",
+                  "วิดีโอ",
+                  "ค้นหา"
+                ],
+                "ko": [
+                  "웹사이트",
+                  "사진",
+                  "비디오",
+                  "검색"
+                ],
+                "es": [
+                  "Sitio web",
+                  "Foto",
+                  "Video",
+                  "Buscar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Photo\"",
+                "zh": "\"照片\"",
+                "th": "\"รูปภาพ\"",
+                "ko": "\"사진\"",
+                "es": "\"Foto\""
+              },
+              "options": {
+                "neutral": [
+                  "photo",
+                  "download",
+                  "video",
+                  "send"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "video",
+              "romanization": "VID-ee-oh",
+              "options": {
+                "en": [
+                  "Video",
+                  "Email",
+                  "Message",
+                  "Send"
+                ],
+                "zh": [
+                  "视频",
+                  "电子邮件",
+                  "消息",
+                  "发送"
+                ],
+                "th": [
+                  "วิดีโอ",
+                  "อีเมล",
+                  "ข้อความ",
+                  "ส่ง"
+                ],
+                "ko": [
+                  "비디오",
+                  "이메일",
+                  "메시지",
+                  "보내다"
+                ],
+                "es": [
+                  "Video",
+                  "Correo electrónico",
+                  "Mensaje",
+                  "Enviar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "internet",
+              "romanization": "IN-ter-net",
+              "options": {
+                "en": [
+                  "Internet",
+                  "Phone",
+                  "Receive",
+                  "Message"
+                ],
+                "zh": [
+                  "互联网",
+                  "电话",
+                  "收到",
+                  "消息"
+                ],
+                "th": [
+                  "อินเทอร์เน็ต",
+                  "โทรศัพท์",
+                  "ได้รับ",
+                  "ข้อความ"
+                ],
+                "ko": [
+                  "인터넷",
+                  "전화",
+                  "받다",
+                  "메시지"
+                ],
+                "es": [
+                  "Internet",
+                  "Teléfono",
+                  "Recibir",
+                  "Mensaje"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Phone\"",
+                "zh": "\"电话\"",
+                "th": "\"โทรศัพท์\"",
+                "ko": "\"전화\"",
+                "es": "\"Teléfono\""
+              },
+              "options": {
+                "neutral": [
+                  "phone",
+                  "search",
+                  "computer",
+                  "send"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "search",
+              "romanization": "serch",
+              "options": {
+                "en": [
+                  "Search",
+                  "Phone",
+                  "Message",
+                  "Email"
+                ],
+                "zh": [
+                  "搜索",
+                  "电话",
+                  "消息",
+                  "电子邮件"
+                ],
+                "th": [
+                  "ค้นหา",
+                  "โทรศัพท์",
+                  "ข้อความ",
+                  "อีเมล"
+                ],
+                "ko": [
+                  "검색",
+                  "전화",
+                  "메시지",
+                  "이메일"
+                ],
+                "es": [
+                  "Buscar",
+                  "Teléfono",
+                  "Mensaje",
+                  "Correo electrónico"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "internet",
+                  "romanization": "IN-ter-net",
+                  "native": {
+                    "en": "Internet",
+                    "zh": "互联网",
+                    "th": "อินเทอร์เน็ต",
+                    "ko": "인터넷",
+                    "es": "Internet"
+                  }
+                },
+                {
+                  "target": "message",
+                  "romanization": "MES-ij",
+                  "native": {
+                    "en": "Message",
+                    "zh": "消息",
+                    "th": "ข้อความ",
+                    "ko": "메시지",
+                    "es": "Mensaje"
+                  }
+                },
+                {
+                  "target": "password",
+                  "romanization": "PAS-werd",
+                  "native": {
+                    "en": "Password",
+                    "zh": "密码",
+                    "th": "รหัสผ่าน",
+                    "ko": "비밀번호",
+                    "es": "Contraseña"
+                  }
+                },
+                {
+                  "target": "search",
+                  "romanization": "serch",
+                  "native": {
+                    "en": "Search",
+                    "zh": "搜索",
+                    "th": "ค้นหา",
+                    "ko": "검색",
+                    "es": "Buscar"
+                  }
+                },
+                {
+                  "target": "computer",
+                  "romanization": "kum-PYOO-ter",
+                  "native": {
+                    "en": "Computer",
+                    "zh": "电脑",
+                    "th": "คอมพิวเตอร์",
+                    "ko": "컴퓨터",
+                    "es": "Computadora"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "call",
+                  "romanization": "kawl",
+                  "native": {
+                    "en": "Call",
+                    "zh": "打电话",
+                    "th": "โทร",
+                    "ko": "전화하다",
+                    "es": "Llamar"
+                  }
+                },
+                {
+                  "target": "video",
+                  "romanization": "VID-ee-oh",
+                  "native": {
+                    "en": "Video",
+                    "zh": "视频",
+                    "th": "วิดีโอ",
+                    "ko": "비디오",
+                    "es": "Video"
+                  }
+                },
+                {
+                  "target": "photo",
+                  "romanization": "FOH-toh",
+                  "native": {
+                    "en": "Photo",
+                    "zh": "照片",
+                    "th": "รูปภาพ",
+                    "ko": "사진",
+                    "es": "Foto"
+                  }
+                },
+                {
+                  "target": "email",
+                  "romanization": "EE-mayl",
+                  "native": {
+                    "en": "Email",
+                    "zh": "电子邮件",
+                    "th": "อีเมล",
+                    "ko": "이메일",
+                    "es": "Correo electrónico"
+                  }
+                },
+                {
+                  "target": "phone",
+                  "romanization": "fohn",
+                  "native": {
+                    "en": "Phone",
+                    "zh": "电话",
+                    "th": "โทรศัพท์",
+                    "ko": "전화",
+                    "es": "Teléfono"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4265,6 +8201,373 @@
                 "ko": "'could you' 뒤에는 동사 원형을 사용합니다.",
                 "es": "Después de 'could you', usa la forma base."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "book",
+              "romanization": "book",
+              "options": {
+                "en": [
+                  "Book",
+                  "Mistake",
+                  "Practice",
+                  "Sentence"
+                ],
+                "zh": [
+                  "书",
+                  "错误",
+                  "练习",
+                  "句子"
+                ],
+                "th": [
+                  "หนังสือ",
+                  "ความผิดพลาด",
+                  "ฝึก",
+                  "ประโยค"
+                ],
+                "ko": [
+                  "책",
+                  "실수",
+                  "연습",
+                  "문장"
+                ],
+                "es": [
+                  "Libro",
+                  "Error",
+                  "Practicar",
+                  "Oración"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Language\"",
+                "zh": "\"语言\"",
+                "th": "\"ภาษา\"",
+                "ko": "\"언어\"",
+                "es": "\"Idioma\""
+              },
+              "options": {
+                "neutral": [
+                  "language",
+                  "newspaper",
+                  "news",
+                  "repeat"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "story",
+              "romanization": "STOR-ee",
+              "options": {
+                "en": [
+                  "Story",
+                  "Mistake",
+                  "Repeat",
+                  "Sentence"
+                ],
+                "zh": [
+                  "故事",
+                  "错误",
+                  "重复",
+                  "句子"
+                ],
+                "th": [
+                  "เรื่อง",
+                  "ความผิดพลาด",
+                  "พูดอีกครั้ง",
+                  "ประโยค"
+                ],
+                "ko": [
+                  "이야기",
+                  "실수",
+                  "반복하다",
+                  "문장"
+                ],
+                "es": [
+                  "Historia",
+                  "Error",
+                  "Repetir",
+                  "Oración"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "news",
+              "romanization": "nooz",
+              "options": {
+                "en": [
+                  "News",
+                  "Mistake",
+                  "Explain",
+                  "Book"
+                ],
+                "zh": [
+                  "新闻",
+                  "错误",
+                  "解释",
+                  "书"
+                ],
+                "th": [
+                  "ข่าว",
+                  "ความผิดพลาด",
+                  "อธิบาย",
+                  "หนังสือ"
+                ],
+                "ko": [
+                  "뉴스",
+                  "실수",
+                  "설명하다",
+                  "책"
+                ],
+                "es": [
+                  "Noticias",
+                  "Error",
+                  "Explicar",
+                  "Libro"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Explain\"",
+                "zh": "\"解释\"",
+                "th": "\"อธิบาย\"",
+                "ko": "\"설명하다\"",
+                "es": "\"Explicar\""
+              },
+              "options": {
+                "neutral": [
+                  "explain",
+                  "book",
+                  "word",
+                  "repeat"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "magazine",
+              "romanization": "mag-uh-ZEEN",
+              "options": {
+                "en": [
+                  "Magazine",
+                  "News",
+                  "Explain",
+                  "Word"
+                ],
+                "zh": [
+                  "杂志",
+                  "新闻",
+                  "解释",
+                  "词"
+                ],
+                "th": [
+                  "นิตยสาร",
+                  "ข่าว",
+                  "อธิบาย",
+                  "คำ"
+                ],
+                "ko": [
+                  "잡지",
+                  "뉴스",
+                  "설명하다",
+                  "단어"
+                ],
+                "es": [
+                  "Revista",
+                  "Noticias",
+                  "Explicar",
+                  "Palabra"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "letter",
+              "romanization": "LET-er",
+              "options": {
+                "en": [
+                  "Letter",
+                  "Newspaper",
+                  "Language",
+                  "Repeat"
+                ],
+                "zh": [
+                  "信",
+                  "报纸",
+                  "语言",
+                  "重复"
+                ],
+                "th": [
+                  "จดหมาย",
+                  "หนังสือพิมพ์",
+                  "ภาษา",
+                  "พูดอีกครั้ง"
+                ],
+                "ko": [
+                  "편지",
+                  "신문",
+                  "언어",
+                  "반복하다"
+                ],
+                "es": [
+                  "Carta",
+                  "Periódico",
+                  "Idioma",
+                  "Repetir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Practice\"",
+                "zh": "\"练习\"",
+                "th": "\"ฝึก\"",
+                "ko": "\"연습\"",
+                "es": "\"Practicar\""
+              },
+              "options": {
+                "neutral": [
+                  "practice",
+                  "language",
+                  "news",
+                  "word"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "book",
+                  "romanization": "book",
+                  "native": {
+                    "en": "Book",
+                    "zh": "书",
+                    "th": "หนังสือ",
+                    "ko": "책",
+                    "es": "Libro"
+                  }
+                },
+                {
+                  "target": "story",
+                  "romanization": "STOR-ee",
+                  "native": {
+                    "en": "Story",
+                    "zh": "故事",
+                    "th": "เรื่อง",
+                    "ko": "이야기",
+                    "es": "Historia"
+                  }
+                },
+                {
+                  "target": "explain",
+                  "romanization": "ek-SPLAYN",
+                  "native": {
+                    "en": "Explain",
+                    "zh": "解释",
+                    "th": "อธิบาย",
+                    "ko": "설명하다",
+                    "es": "Explicar"
+                  }
+                },
+                {
+                  "target": "mistake",
+                  "romanization": "mih-STAYK",
+                  "native": {
+                    "en": "Mistake",
+                    "zh": "错误",
+                    "th": "ความผิดพลาด",
+                    "ko": "실수",
+                    "es": "Error"
+                  }
+                },
+                {
+                  "target": "repeat",
+                  "romanization": "ree-PEET",
+                  "native": {
+                    "en": "Repeat",
+                    "zh": "重复",
+                    "th": "พูดอีกครั้ง",
+                    "ko": "반복하다",
+                    "es": "Repetir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "magazine",
+                  "romanization": "mag-uh-ZEEN",
+                  "native": {
+                    "en": "Magazine",
+                    "zh": "杂志",
+                    "th": "นิตยสาร",
+                    "ko": "잡지",
+                    "es": "Revista"
+                  }
+                },
+                {
+                  "target": "news",
+                  "romanization": "nooz",
+                  "native": {
+                    "en": "News",
+                    "zh": "新闻",
+                    "th": "ข่าว",
+                    "ko": "뉴스",
+                    "es": "Noticias"
+                  }
+                },
+                {
+                  "target": "newspaper",
+                  "romanization": "NOOZ-pay-per",
+                  "native": {
+                    "en": "Newspaper",
+                    "zh": "报纸",
+                    "th": "หนังสือพิมพ์",
+                    "ko": "신문",
+                    "es": "Periódico"
+                  }
+                },
+                {
+                  "target": "practice",
+                  "romanization": "PRAK-tis",
+                  "native": {
+                    "en": "Practice",
+                    "zh": "练习",
+                    "th": "ฝึก",
+                    "ko": "연습",
+                    "es": "Practicar"
+                  }
+                },
+                {
+                  "target": "language",
+                  "romanization": "LANG-gwij",
+                  "native": {
+                    "en": "Language",
+                    "zh": "语言",
+                    "th": "ภาษา",
+                    "ko": "언어",
+                    "es": "Idioma"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4645,6 +8948,411 @@
                 "ko": "'yesterday'는 과거를 나타냅니다 — 'shared'를 사용합니다.",
                 "es": "'Yesterday' indica pasado — usa 'shared'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "charger",
+              "romanization": "CHAR-jer",
+              "options": {
+                "en": [
+                  "Charger",
+                  "Social media",
+                  "Notification",
+                  "Share"
+                ],
+                "zh": [
+                  "充电器",
+                  "社交媒体",
+                  "通知",
+                  "分享"
+                ],
+                "th": [
+                  "ที่ชาร์จ",
+                  "โซเชียลมีเดีย",
+                  "แจ้งเตือน",
+                  "แชร์"
+                ],
+                "ko": [
+                  "충전기",
+                  "소셜 미디어",
+                  "알림",
+                  "공유하다"
+                ],
+                "es": [
+                  "Cargador",
+                  "Redes sociales",
+                  "Notificación",
+                  "Compartir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Post\"",
+                "zh": "\"帖子\"",
+                "th": "\"โพสต์\"",
+                "ko": "\"게시물\"",
+                "es": "\"Publicación\""
+              },
+              "options": {
+                "neutral": [
+                  "post",
+                  "online",
+                  "comment",
+                  "notification"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "screen",
+              "romanization": "skreen",
+              "options": {
+                "en": [
+                  "Screen",
+                  "Like (social media)",
+                  "Social media",
+                  "Online"
+                ],
+                "zh": [
+                  "屏幕",
+                  "点赞",
+                  "社交媒体",
+                  "在线"
+                ],
+                "th": [
+                  "หน้าจอ",
+                  "กดไลก์",
+                  "โซเชียลมีเดีย",
+                  "ออนไลน์"
+                ],
+                "ko": [
+                  "화면",
+                  "좋아요",
+                  "소셜 미디어",
+                  "온라인"
+                ],
+                "es": [
+                  "Pantalla",
+                  "Me gusta",
+                  "Redes sociales",
+                  "En línea"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "social media",
+              "romanization": "SOH-shul MEE-dee-uh",
+              "options": {
+                "en": [
+                  "Social media",
+                  "Update",
+                  "Account",
+                  "Battery"
+                ],
+                "zh": [
+                  "社交媒体",
+                  "更新",
+                  "账户",
+                  "电池"
+                ],
+                "th": [
+                  "โซเชียลมีเดีย",
+                  "อัปเดต",
+                  "บัญชี",
+                  "แบตเตอรี่"
+                ],
+                "ko": [
+                  "소셜 미디어",
+                  "업데이트",
+                  "계정",
+                  "배터리"
+                ],
+                "es": [
+                  "Redes sociales",
+                  "Actualizar",
+                  "Cuenta",
+                  "Batería"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Account\"",
+                "zh": "\"账户\"",
+                "th": "\"บัญชี\"",
+                "ko": "\"계정\"",
+                "es": "\"Cuenta\""
+              },
+              "options": {
+                "neutral": [
+                  "account",
+                  "share",
+                  "post",
+                  "social media"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "app",
+              "romanization": "ap",
+              "options": {
+                "en": [
+                  "App",
+                  "Screen",
+                  "Share",
+                  "Like (social media)"
+                ],
+                "zh": [
+                  "应用",
+                  "屏幕",
+                  "分享",
+                  "点赞"
+                ],
+                "th": [
+                  "แอป",
+                  "หน้าจอ",
+                  "แชร์",
+                  "กดไลก์"
+                ],
+                "ko": [
+                  "앱",
+                  "화면",
+                  "공유하다",
+                  "좋아요"
+                ],
+                "es": [
+                  "Aplicación",
+                  "Pantalla",
+                  "Compartir",
+                  "Me gusta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "comment",
+              "romanization": "KOM-ent",
+              "options": {
+                "en": [
+                  "Comment",
+                  "Online",
+                  "Share",
+                  "Account"
+                ],
+                "zh": [
+                  "评论",
+                  "在线",
+                  "分享",
+                  "账户"
+                ],
+                "th": [
+                  "คอมเมนต์",
+                  "ออนไลน์",
+                  "แชร์",
+                  "บัญชี"
+                ],
+                "ko": [
+                  "댓글",
+                  "온라인",
+                  "공유하다",
+                  "계정"
+                ],
+                "es": [
+                  "Comentario",
+                  "En línea",
+                  "Compartir",
+                  "Cuenta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Like (social media)\"",
+                "zh": "\"点赞\"",
+                "th": "\"กดไลก์\"",
+                "ko": "\"좋아요\"",
+                "es": "\"Me gusta\""
+              },
+              "options": {
+                "neutral": [
+                  "like (social)",
+                  "offline",
+                  "social media",
+                  "share"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "update",
+              "romanization": "up-DAYT",
+              "options": {
+                "en": [
+                  "Update",
+                  "Post",
+                  "Online",
+                  "Social media"
+                ],
+                "zh": [
+                  "更新",
+                  "帖子",
+                  "在线",
+                  "社交媒体"
+                ],
+                "th": [
+                  "อัปเดต",
+                  "โพสต์",
+                  "ออนไลน์",
+                  "โซเชียลมีเดีย"
+                ],
+                "ko": [
+                  "업데이트",
+                  "게시물",
+                  "온라인",
+                  "소셜 미디어"
+                ],
+                "es": [
+                  "Actualizar",
+                  "Publicación",
+                  "En línea",
+                  "Redes sociales"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "like (social)",
+                  "romanization": "lyk",
+                  "native": {
+                    "en": "Like (social media)",
+                    "zh": "点赞",
+                    "th": "กดไลก์",
+                    "ko": "좋아요",
+                    "es": "Me gusta"
+                  }
+                },
+                {
+                  "target": "battery",
+                  "romanization": "BAT-er-ee",
+                  "native": {
+                    "en": "Battery",
+                    "zh": "电池",
+                    "th": "แบตเตอรี่",
+                    "ko": "배터리",
+                    "es": "Batería"
+                  }
+                },
+                {
+                  "target": "notification",
+                  "romanization": "noh-tih-fih-KAY-shun",
+                  "native": {
+                    "en": "Notification",
+                    "zh": "通知",
+                    "th": "แจ้งเตือน",
+                    "ko": "알림",
+                    "es": "Notificación"
+                  }
+                },
+                {
+                  "target": "post",
+                  "romanization": "pohst",
+                  "native": {
+                    "en": "Post",
+                    "zh": "帖子",
+                    "th": "โพสต์",
+                    "ko": "게시물",
+                    "es": "Publicación"
+                  }
+                },
+                {
+                  "target": "comment",
+                  "romanization": "KOM-ent",
+                  "native": {
+                    "en": "Comment",
+                    "zh": "评论",
+                    "th": "คอมเมนต์",
+                    "ko": "댓글",
+                    "es": "Comentario"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "charger",
+                  "romanization": "CHAR-jer",
+                  "native": {
+                    "en": "Charger",
+                    "zh": "充电器",
+                    "th": "ที่ชาร์จ",
+                    "ko": "충전기",
+                    "es": "Cargador"
+                  }
+                },
+                {
+                  "target": "account",
+                  "romanization": "uh-KOWNT",
+                  "native": {
+                    "en": "Account",
+                    "zh": "账户",
+                    "th": "บัญชี",
+                    "ko": "계정",
+                    "es": "Cuenta"
+                  }
+                },
+                {
+                  "target": "screen",
+                  "romanization": "skreen",
+                  "native": {
+                    "en": "Screen",
+                    "zh": "屏幕",
+                    "th": "หน้าจอ",
+                    "ko": "화면",
+                    "es": "Pantalla"
+                  }
+                },
+                {
+                  "target": "update",
+                  "romanization": "up-DAYT",
+                  "native": {
+                    "en": "Update",
+                    "zh": "更新",
+                    "th": "อัปเดต",
+                    "ko": "업데이트",
+                    "es": "Actualizar"
+                  }
+                },
+                {
+                  "target": "app",
+                  "romanization": "ap",
+                  "native": {
+                    "en": "App",
+                    "zh": "应用",
+                    "th": "แอป",
+                    "ko": "앱",
+                    "es": "Aplicación"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5044,6 +9752,411 @@
                 "ko": "'yesterday'는 과거 시제가 필요합니다. 'went'는 'go'의 과거형입니다.",
                 "es": "'Yesterday' requiere pasado. 'Went' es el pasado de 'go'."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "told",
+              "romanization": "tohld",
+              "options": {
+                "en": [
+                  "Told (past of tell)",
+                  "Saw (past of see)",
+                  "Did (past of do)",
+                  "Took (past of take)"
+                ],
+                "zh": [
+                  "告诉了",
+                  "看见了",
+                  "做了",
+                  "拿了"
+                ],
+                "th": [
+                  "บอกแล้ว",
+                  "เห็นแล้ว",
+                  "ทำแล้ว",
+                  "เอาแล้ว"
+                ],
+                "ko": [
+                  "말했다",
+                  "봤다",
+                  "했다",
+                  "가져갔다"
+                ],
+                "es": [
+                  "Dije / Dijo",
+                  "Vi / Vio",
+                  "Hice / Hizo",
+                  "Tomé / Tomó"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Came (past of come)\"",
+                "zh": "\"来了\"",
+                "th": "\"มาแล้ว\"",
+                "ko": "\"왔다\"",
+                "es": "\"Vine / Vino\""
+              },
+              "options": {
+                "neutral": [
+                  "came",
+                  "found",
+                  "took",
+                  "got"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "was",
+              "romanization": "wuz",
+              "options": {
+                "en": [
+                  "Was (past of be)",
+                  "Gave (past of give)",
+                  "Had (past of have)",
+                  "Came (past of come)"
+                ],
+                "zh": [
+                  "是/在(过去)",
+                  "给了",
+                  "有了",
+                  "来了"
+                ],
+                "th": [
+                  "เป็น/อยู่(อดีต)",
+                  "ให้แล้ว",
+                  "มีแล้ว",
+                  "มาแล้ว"
+                ],
+                "ko": [
+                  "이었다",
+                  "주었다",
+                  "가졌다",
+                  "왔다"
+                ],
+                "es": [
+                  "Era / Fue",
+                  "Di / Dio",
+                  "Tuve / Tuvo",
+                  "Vine / Vino"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "did",
+              "romanization": "did",
+              "options": {
+                "en": [
+                  "Did (past of do)",
+                  "Got (past of get)",
+                  "Bought (past of buy)",
+                  "Was (past of be)"
+                ],
+                "zh": [
+                  "做了",
+                  "得到了",
+                  "买了",
+                  "是/在(过去)"
+                ],
+                "th": [
+                  "ทำแล้ว",
+                  "ได้แล้ว",
+                  "ซื้อแล้ว",
+                  "เป็น/อยู่(อดีต)"
+                ],
+                "ko": [
+                  "했다",
+                  "얻었다",
+                  "샀다",
+                  "이었다"
+                ],
+                "es": [
+                  "Hice / Hizo",
+                  "Obtuve / Obtuvo",
+                  "Compré / Compró",
+                  "Era / Fue"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Said (past of say)\"",
+                "zh": "\"说了\"",
+                "th": "\"พูดแล้ว\"",
+                "ko": "\"말했다\"",
+                "es": "\"Dije / Dijo\""
+              },
+              "options": {
+                "neutral": [
+                  "said",
+                  "did",
+                  "took",
+                  "came"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "got",
+              "romanization": "got",
+              "options": {
+                "en": [
+                  "Got (past of get)",
+                  "Saw (past of see)",
+                  "Bought (past of buy)",
+                  "Did (past of do)"
+                ],
+                "zh": [
+                  "得到了",
+                  "看见了",
+                  "买了",
+                  "做了"
+                ],
+                "th": [
+                  "ได้แล้ว",
+                  "เห็นแล้ว",
+                  "ซื้อแล้ว",
+                  "ทำแล้ว"
+                ],
+                "ko": [
+                  "얻었다",
+                  "봤다",
+                  "샀다",
+                  "했다"
+                ],
+                "es": [
+                  "Obtuve / Obtuvo",
+                  "Vi / Vio",
+                  "Compré / Compró",
+                  "Hice / Hizo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "made",
+              "romanization": "mayd",
+              "options": {
+                "en": [
+                  "Made (past of make)",
+                  "Ate (past of eat)",
+                  "Went (past of go)",
+                  "Got (past of get)"
+                ],
+                "zh": [
+                  "做了/制作了",
+                  "吃了",
+                  "去了",
+                  "得到了"
+                ],
+                "th": [
+                  "ทำ(อดีต)",
+                  "กินแล้ว",
+                  "ไปแล้ว",
+                  "ได้แล้ว"
+                ],
+                "ko": [
+                  "만들었다",
+                  "먹었다",
+                  "갔다",
+                  "얻었다"
+                ],
+                "es": [
+                  "Hice / Hizo",
+                  "Comí / Comió",
+                  "Fui / Fue",
+                  "Obtuve / Obtuvo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Took (past of take)\"",
+                "zh": "\"拿了\"",
+                "th": "\"เอาแล้ว\"",
+                "ko": "\"가져갔다\"",
+                "es": "\"Tomé / Tomó\""
+              },
+              "options": {
+                "neutral": [
+                  "took",
+                  "told",
+                  "was",
+                  "found"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "found",
+              "romanization": "fownd",
+              "options": {
+                "en": [
+                  "Found (past of find)",
+                  "Made (past of make)",
+                  "Bought (past of buy)",
+                  "Got (past of get)"
+                ],
+                "zh": [
+                  "找到了",
+                  "做了/制作了",
+                  "买了",
+                  "得到了"
+                ],
+                "th": [
+                  "พบแล้ว",
+                  "ทำ(อดีต)",
+                  "ซื้อแล้ว",
+                  "ได้แล้ว"
+                ],
+                "ko": [
+                  "찾았다",
+                  "만들었다",
+                  "샀다",
+                  "얻었다"
+                ],
+                "es": [
+                  "Encontré / Encontró",
+                  "Hice / Hizo",
+                  "Compré / Compró",
+                  "Obtuve / Obtuvo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "made",
+                  "romanization": "mayd",
+                  "native": {
+                    "en": "Made (past of make)",
+                    "zh": "做了/制作了",
+                    "th": "ทำ(อดีต)",
+                    "ko": "만들었다",
+                    "es": "Hice / Hizo"
+                  }
+                },
+                {
+                  "target": "got",
+                  "romanization": "got",
+                  "native": {
+                    "en": "Got (past of get)",
+                    "zh": "得到了",
+                    "th": "ได้แล้ว",
+                    "ko": "얻었다",
+                    "es": "Obtuve / Obtuvo"
+                  }
+                },
+                {
+                  "target": "gave",
+                  "romanization": "gayv",
+                  "native": {
+                    "en": "Gave (past of give)",
+                    "zh": "给了",
+                    "th": "ให้แล้ว",
+                    "ko": "주었다",
+                    "es": "Di / Dio"
+                  }
+                },
+                {
+                  "target": "bought",
+                  "romanization": "bawt",
+                  "native": {
+                    "en": "Bought (past of buy)",
+                    "zh": "买了",
+                    "th": "ซื้อแล้ว",
+                    "ko": "샀다",
+                    "es": "Compré / Compró"
+                  }
+                },
+                {
+                  "target": "was",
+                  "romanization": "wuz",
+                  "native": {
+                    "en": "Was (past of be)",
+                    "zh": "是/在(过去)",
+                    "th": "เป็น/อยู่(อดีต)",
+                    "ko": "이었다",
+                    "es": "Era / Fue"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "found",
+                  "romanization": "fownd",
+                  "native": {
+                    "en": "Found (past of find)",
+                    "zh": "找到了",
+                    "th": "พบแล้ว",
+                    "ko": "찾았다",
+                    "es": "Encontré / Encontró"
+                  }
+                },
+                {
+                  "target": "did",
+                  "romanization": "did",
+                  "native": {
+                    "en": "Did (past of do)",
+                    "zh": "做了",
+                    "th": "ทำแล้ว",
+                    "ko": "했다",
+                    "es": "Hice / Hizo"
+                  }
+                },
+                {
+                  "target": "said",
+                  "romanization": "sed",
+                  "native": {
+                    "en": "Said (past of say)",
+                    "zh": "说了",
+                    "th": "พูดแล้ว",
+                    "ko": "말했다",
+                    "es": "Dije / Dijo"
+                  }
+                },
+                {
+                  "target": "told",
+                  "romanization": "tohld",
+                  "native": {
+                    "en": "Told (past of tell)",
+                    "zh": "告诉了",
+                    "th": "บอกแล้ว",
+                    "ko": "말했다",
+                    "es": "Dije / Dijo"
+                  }
+                },
+                {
+                  "target": "took",
+                  "romanization": "took",
+                  "native": {
+                    "en": "Took (past of take)",
+                    "zh": "拿了",
+                    "th": "เอาแล้ว",
+                    "ko": "가져갔다",
+                    "es": "Tomé / Tomó"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5424,6 +10537,411 @@
                 "ko": "미래 계획에는 'will' + 동사 원형을 사용합니다.",
                 "es": "'Will' + verbo base para planes futuros."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "next year",
+              "romanization": "nekst yeer",
+              "options": {
+                "en": [
+                  "Next year",
+                  "Plan",
+                  "Next week",
+                  "Maybe"
+                ],
+                "zh": [
+                  "明年",
+                  "计划",
+                  "下周",
+                  "也许"
+                ],
+                "th": [
+                  "ปีหน้า",
+                  "แผน",
+                  "สัปดาห์หน้า",
+                  "อาจจะ"
+                ],
+                "ko": [
+                  "내년",
+                  "계획",
+                  "다음 주",
+                  "아마도"
+                ],
+                "es": [
+                  "El próximo año",
+                  "Plan",
+                  "La próxima semana",
+                  "Quizás"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Plan\"",
+                "zh": "\"计划\"",
+                "th": "\"แผน\"",
+                "ko": "\"계획\"",
+                "es": "\"Plan\""
+              },
+              "options": {
+                "neutral": [
+                  "plan",
+                  "going to",
+                  "hope",
+                  "will"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "hope",
+              "romanization": "hohp",
+              "options": {
+                "en": [
+                  "Hope",
+                  "Promise",
+                  "Goal",
+                  "Later"
+                ],
+                "zh": [
+                  "希望",
+                  "承诺",
+                  "目标",
+                  "稍后"
+                ],
+                "th": [
+                  "หวัง",
+                  "สัญญา",
+                  "เป้าหมาย",
+                  "ทีหลัง"
+                ],
+                "ko": [
+                  "희망하다",
+                  "약속하다",
+                  "목표",
+                  "나중에"
+                ],
+                "es": [
+                  "Esperar",
+                  "Prometer",
+                  "Meta",
+                  "Después"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "dream",
+              "romanization": "dreem",
+              "options": {
+                "en": [
+                  "Dream",
+                  "Plan",
+                  "Going to",
+                  "Soon"
+                ],
+                "zh": [
+                  "梦想",
+                  "计划",
+                  "打算",
+                  "很快"
+                ],
+                "th": [
+                  "ฝัน",
+                  "แผน",
+                  "กำลังจะ",
+                  "เร็วๆ นี้"
+                ],
+                "ko": [
+                  "꿈",
+                  "계획",
+                  "할 예정이다",
+                  "곧"
+                ],
+                "es": [
+                  "Sueño",
+                  "Plan",
+                  "Ir a",
+                  "Pronto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Definitely\"",
+                "zh": "\"一定\"",
+                "th": "\"แน่นอน\"",
+                "ko": "\"확실히\"",
+                "es": "\"Definitivamente\""
+              },
+              "options": {
+                "neutral": [
+                  "definitely",
+                  "next week",
+                  "goal",
+                  "dream"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "next week",
+              "romanization": "nekst week",
+              "options": {
+                "en": [
+                  "Next week",
+                  "Promise",
+                  "Soon",
+                  "Later"
+                ],
+                "zh": [
+                  "下周",
+                  "承诺",
+                  "很快",
+                  "稍后"
+                ],
+                "th": [
+                  "สัปดาห์หน้า",
+                  "สัญญา",
+                  "เร็วๆ นี้",
+                  "ทีหลัง"
+                ],
+                "ko": [
+                  "다음 주",
+                  "약속하다",
+                  "곧",
+                  "나중에"
+                ],
+                "es": [
+                  "La próxima semana",
+                  "Prometer",
+                  "Pronto",
+                  "Después"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "next month",
+              "romanization": "nekst munth",
+              "options": {
+                "en": [
+                  "Next month",
+                  "Maybe",
+                  "Will (future)",
+                  "Hope"
+                ],
+                "zh": [
+                  "下个月",
+                  "也许",
+                  "将",
+                  "希望"
+                ],
+                "th": [
+                  "เดือนหน้า",
+                  "อาจจะ",
+                  "จะ",
+                  "หวัง"
+                ],
+                "ko": [
+                  "다음 달",
+                  "아마도",
+                  "할 것이다",
+                  "희망하다"
+                ],
+                "es": [
+                  "El próximo mes",
+                  "Quizás",
+                  "Va a",
+                  "Esperar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Probably\"",
+                "zh": "\"可能\"",
+                "th": "\"อาจจะ(น่าจะ)\"",
+                "ko": "\"아마\"",
+                "es": "\"Probablemente\""
+              },
+              "options": {
+                "neutral": [
+                  "probably",
+                  "dream",
+                  "next week",
+                  "plan"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "goal",
+              "romanization": "gohl",
+              "options": {
+                "en": [
+                  "Goal",
+                  "Maybe",
+                  "Next week",
+                  "Plan"
+                ],
+                "zh": [
+                  "目标",
+                  "也许",
+                  "下周",
+                  "计划"
+                ],
+                "th": [
+                  "เป้าหมาย",
+                  "อาจจะ",
+                  "สัปดาห์หน้า",
+                  "แผน"
+                ],
+                "ko": [
+                  "목표",
+                  "아마도",
+                  "다음 주",
+                  "계획"
+                ],
+                "es": [
+                  "Meta",
+                  "Quizás",
+                  "La próxima semana",
+                  "Plan"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "definitely",
+                  "romanization": "DEF-ih-nit-lee",
+                  "native": {
+                    "en": "Definitely",
+                    "zh": "一定",
+                    "th": "แน่นอน",
+                    "ko": "확실히",
+                    "es": "Definitivamente"
+                  }
+                },
+                {
+                  "target": "dream",
+                  "romanization": "dreem",
+                  "native": {
+                    "en": "Dream",
+                    "zh": "梦想",
+                    "th": "ฝัน",
+                    "ko": "꿈",
+                    "es": "Sueño"
+                  }
+                },
+                {
+                  "target": "probably",
+                  "romanization": "PROB-uh-blee",
+                  "native": {
+                    "en": "Probably",
+                    "zh": "可能",
+                    "th": "อาจจะ(น่าจะ)",
+                    "ko": "아마",
+                    "es": "Probablemente"
+                  }
+                },
+                {
+                  "target": "plan",
+                  "romanization": "plan",
+                  "native": {
+                    "en": "Plan",
+                    "zh": "计划",
+                    "th": "แผน",
+                    "ko": "계획",
+                    "es": "Plan"
+                  }
+                },
+                {
+                  "target": "next month",
+                  "romanization": "nekst munth",
+                  "native": {
+                    "en": "Next month",
+                    "zh": "下个月",
+                    "th": "เดือนหน้า",
+                    "ko": "다음 달",
+                    "es": "El próximo mes"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "next week",
+                  "romanization": "nekst week",
+                  "native": {
+                    "en": "Next week",
+                    "zh": "下周",
+                    "th": "สัปดาห์หน้า",
+                    "ko": "다음 주",
+                    "es": "La próxima semana"
+                  }
+                },
+                {
+                  "target": "next year",
+                  "romanization": "nekst yeer",
+                  "native": {
+                    "en": "Next year",
+                    "zh": "明年",
+                    "th": "ปีหน้า",
+                    "ko": "내년",
+                    "es": "El próximo año"
+                  }
+                },
+                {
+                  "target": "promise",
+                  "romanization": "PROM-is",
+                  "native": {
+                    "en": "Promise",
+                    "zh": "承诺",
+                    "th": "สัญญา",
+                    "ko": "약속하다",
+                    "es": "Prometer"
+                  }
+                },
+                {
+                  "target": "going to",
+                  "romanization": "GOH-ing too",
+                  "native": {
+                    "en": "Going to",
+                    "zh": "打算",
+                    "th": "กำลังจะ",
+                    "ko": "할 예정이다",
+                    "es": "Ir a"
+                  }
+                },
+                {
+                  "target": "goal",
+                  "romanization": "gohl",
+                  "native": {
+                    "en": "Goal",
+                    "zh": "目标",
+                    "th": "เป้าหมาย",
+                    "ko": "목표",
+                    "es": "Meta"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5804,6 +11322,373 @@
                 "ko": "'because'는 행동의 이유를 제시합니다.",
                 "es": "'Because' da la razón de una acción."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "so",
+              "romanization": "soh",
+              "options": {
+                "en": [
+                  "So",
+                  "Also",
+                  "But",
+                  "Before"
+                ],
+                "zh": [
+                  "所以",
+                  "也",
+                  "但是",
+                  "在……之前"
+                ],
+                "th": [
+                  "ดังนั้น",
+                  "ด้วย",
+                  "แต่",
+                  "ก่อน"
+                ],
+                "ko": [
+                  "그래서",
+                  "또한",
+                  "하지만",
+                  "전에"
+                ],
+                "es": [
+                  "Entonces",
+                  "También",
+                  "Pero",
+                  "Antes"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"First\"",
+                "zh": "\"首先\"",
+                "th": "\"ก่อนอื่น\"",
+                "ko": "\"먼저\"",
+                "es": "\"Primero\""
+              },
+              "options": {
+                "neutral": [
+                  "first",
+                  "after",
+                  "also",
+                  "when"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "before",
+              "romanization": "bee-FOR",
+              "options": {
+                "en": [
+                  "Before",
+                  "Because",
+                  "So",
+                  "Then"
+                ],
+                "zh": [
+                  "在……之前",
+                  "因为",
+                  "所以",
+                  "然后"
+                ],
+                "th": [
+                  "ก่อน",
+                  "เพราะ",
+                  "ดังนั้น",
+                  "จากนั้น"
+                ],
+                "ko": [
+                  "전에",
+                  "왜냐하면",
+                  "그래서",
+                  "그 다음"
+                ],
+                "es": [
+                  "Antes",
+                  "Porque",
+                  "Entonces",
+                  "Luego"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "after",
+              "romanization": "AF-ter",
+              "options": {
+                "en": [
+                  "After",
+                  "Before",
+                  "Then",
+                  "Also"
+                ],
+                "zh": [
+                  "在……之后",
+                  "在……之前",
+                  "然后",
+                  "也"
+                ],
+                "th": [
+                  "หลัง",
+                  "ก่อน",
+                  "จากนั้น",
+                  "ด้วย"
+                ],
+                "ko": [
+                  "후에",
+                  "전에",
+                  "그 다음",
+                  "또한"
+                ],
+                "es": [
+                  "Después",
+                  "Antes",
+                  "Luego",
+                  "También"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"When\"",
+                "zh": "\"当……时\"",
+                "th": "\"เมื่อ\"",
+                "ko": "\"언제\"",
+                "es": "\"Cuando\""
+              },
+              "options": {
+                "neutral": [
+                  "when",
+                  "before",
+                  "so",
+                  "finally"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "then",
+              "romanization": "then",
+              "options": {
+                "en": [
+                  "Then",
+                  "Also",
+                  "If",
+                  "After"
+                ],
+                "zh": [
+                  "然后",
+                  "也",
+                  "如果",
+                  "在……之后"
+                ],
+                "th": [
+                  "จากนั้น",
+                  "ด้วย",
+                  "ถ้า",
+                  "หลัง"
+                ],
+                "ko": [
+                  "그 다음",
+                  "또한",
+                  "만약",
+                  "후에"
+                ],
+                "es": [
+                  "Luego",
+                  "También",
+                  "Si",
+                  "Después"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "also",
+              "romanization": "AWL-soh",
+              "options": {
+                "en": [
+                  "Also",
+                  "Finally",
+                  "If",
+                  "Then"
+                ],
+                "zh": [
+                  "也",
+                  "最后",
+                  "如果",
+                  "然后"
+                ],
+                "th": [
+                  "ด้วย",
+                  "สุดท้าย",
+                  "ถ้า",
+                  "จากนั้น"
+                ],
+                "ko": [
+                  "또한",
+                  "마지막으로",
+                  "만약",
+                  "그 다음"
+                ],
+                "es": [
+                  "También",
+                  "Finalmente",
+                  "Si",
+                  "Luego"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"While\"",
+                "zh": "\"在……期间\"",
+                "th": "\"ขณะที่\"",
+                "ko": "\"동안\"",
+                "es": "\"Mientras\""
+              },
+              "options": {
+                "neutral": [
+                  "while",
+                  "or",
+                  "but",
+                  "because"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "finally",
+                  "romanization": "FY-nuh-lee",
+                  "native": {
+                    "en": "Finally",
+                    "zh": "最后",
+                    "th": "สุดท้าย",
+                    "ko": "마지막으로",
+                    "es": "Finalmente"
+                  }
+                },
+                {
+                  "target": "while",
+                  "romanization": "wyl",
+                  "native": {
+                    "en": "While",
+                    "zh": "在……期间",
+                    "th": "ขณะที่",
+                    "ko": "동안",
+                    "es": "Mientras"
+                  }
+                },
+                {
+                  "target": "first",
+                  "romanization": "ferst",
+                  "native": {
+                    "en": "First",
+                    "zh": "首先",
+                    "th": "ก่อนอื่น",
+                    "ko": "먼저",
+                    "es": "Primero"
+                  }
+                },
+                {
+                  "target": "also",
+                  "romanization": "AWL-soh",
+                  "native": {
+                    "en": "Also",
+                    "zh": "也",
+                    "th": "ด้วย",
+                    "ko": "또한",
+                    "es": "También"
+                  }
+                },
+                {
+                  "target": "however",
+                  "romanization": "how-EV-er",
+                  "native": {
+                    "en": "However",
+                    "zh": "然而",
+                    "th": "อย่างไรก็ตาม",
+                    "ko": "그러나",
+                    "es": "Sin embargo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "then",
+                  "romanization": "then",
+                  "native": {
+                    "en": "Then",
+                    "zh": "然后",
+                    "th": "จากนั้น",
+                    "ko": "그 다음",
+                    "es": "Luego"
+                  }
+                },
+                {
+                  "target": "when",
+                  "romanization": "wen",
+                  "native": {
+                    "en": "When",
+                    "zh": "当……时",
+                    "th": "เมื่อ",
+                    "ko": "언제",
+                    "es": "Cuando"
+                  }
+                },
+                {
+                  "target": "before",
+                  "romanization": "bee-FOR",
+                  "native": {
+                    "en": "Before",
+                    "zh": "在……之前",
+                    "th": "ก่อน",
+                    "ko": "전에",
+                    "es": "Antes"
+                  }
+                },
+                {
+                  "target": "so",
+                  "romanization": "soh",
+                  "native": {
+                    "en": "So",
+                    "zh": "所以",
+                    "th": "ดังนั้น",
+                    "ko": "그래서",
+                    "es": "Entonces"
+                  }
+                },
+                {
+                  "target": "after",
+                  "romanization": "AF-ter",
+                  "native": {
+                    "en": "After",
+                    "zh": "在……之后",
+                    "th": "หลัง",
+                    "ko": "후에",
+                    "es": "Después"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {

@@ -550,6 +550,417 @@
                   "起床"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "起来",
+              "romanization": "qǐ lái",
+              "options": {
+                "en": [
+                  "Get up",
+                  "Have dinner",
+                  "Brush teeth",
+                  "Go to bed"
+                ],
+                "zh": [
+                  "起来",
+                  "吃晚饭",
+                  "刷牙",
+                  "睡觉"
+                ],
+                "th": [
+                  "ตื่นนอน",
+                  "กินอาหารเย็น",
+                  "แปรงฟัน",
+                  "เข้านอน"
+                ],
+                "ko": [
+                  "일어나다",
+                  "저녁 먹다",
+                  "양치하다",
+                  "잠자리에 들다"
+                ],
+                "es": [
+                  "Levantarse",
+                  "Cenar",
+                  "Cepillarse los dientes",
+                  "Ir a la cama"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "起来",
+                  "romanization": "qǐ lái"
+                },
+                "female": {
+                  "word": "起来",
+                  "romanization": "qǐ lái"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Go to work\"",
+                "zh": "\"去上班\"",
+                "th": "\"ไปทำงาน\"",
+                "ko": "\"출근하다\"",
+                "es": "\"Ir al trabajo\""
+              },
+              "options": {
+                "neutral": [
+                  "去上班",
+                  "打扫",
+                  "吃晚饭",
+                  "洗澡"
+                ],
+                "male": [
+                  "去上班",
+                  "打扫",
+                  "吃晚饭",
+                  "洗澡"
+                ],
+                "female": [
+                  "去上班",
+                  "打扫",
+                  "吃晚饭",
+                  "洗澡"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "睡觉",
+              "romanization": "shuì jiào",
+              "options": {
+                "en": [
+                  "Go to bed",
+                  "Go to work",
+                  "Come home",
+                  "Cook"
+                ],
+                "zh": [
+                  "睡觉",
+                  "去上班",
+                  "回家",
+                  "做饭"
+                ],
+                "th": [
+                  "เข้านอน",
+                  "ไปทำงาน",
+                  "กลับบ้าน",
+                  "ทำอาหาร"
+                ],
+                "ko": [
+                  "잠자리에 들다",
+                  "출근하다",
+                  "집에 오다",
+                  "요리하다"
+                ],
+                "es": [
+                  "Ir a la cama",
+                  "Ir al trabajo",
+                  "Volver a casa",
+                  "Cocinar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "睡觉",
+                  "romanization": "shuì jiào"
+                },
+                "female": {
+                  "audio_text": "睡觉",
+                  "romanization": "shuì jiào"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "吃早饭",
+              "romanization": "chī zǎo fàn",
+              "options": {
+                "en": [
+                  "Have breakfast",
+                  "Brush teeth",
+                  "Get up",
+                  "Go to bed"
+                ],
+                "zh": [
+                  "吃早饭",
+                  "刷牙",
+                  "起来",
+                  "睡觉"
+                ],
+                "th": [
+                  "กินอาหารเช้า",
+                  "แปรงฟัน",
+                  "ตื่นนอน",
+                  "เข้านอน"
+                ],
+                "ko": [
+                  "아침 먹다",
+                  "양치하다",
+                  "일어나다",
+                  "잠자리에 들다"
+                ],
+                "es": [
+                  "Desayunar",
+                  "Cepillarse los dientes",
+                  "Levantarse",
+                  "Ir a la cama"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "吃早饭",
+                  "romanization": "chī zǎo fàn"
+                },
+                "female": {
+                  "word": "吃早饭",
+                  "romanization": "chī zǎo fàn"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Clean\"",
+                "zh": "\"打扫\"",
+                "th": "\"สะอาด\"",
+                "ko": "\"깨끗한\"",
+                "es": "\"Limpio\""
+              },
+              "options": {
+                "neutral": [
+                  "打扫",
+                  "做饭",
+                  "吃早饭",
+                  "吃晚饭"
+                ],
+                "male": [
+                  "打扫",
+                  "做饭",
+                  "吃早饭",
+                  "吃晚饭"
+                ],
+                "female": [
+                  "打扫",
+                  "做饭",
+                  "吃早饭",
+                  "吃晚饭"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "吃晚饭",
+              "romanization": "chī wǎn fàn",
+              "options": {
+                "en": [
+                  "Have dinner",
+                  "Come home",
+                  "Clean",
+                  "Wake up"
+                ],
+                "zh": [
+                  "吃晚饭",
+                  "回家",
+                  "打扫",
+                  "起床"
+                ],
+                "th": [
+                  "กินอาหารเย็น",
+                  "กลับบ้าน",
+                  "สะอาด",
+                  "ตื่นนอน"
+                ],
+                "ko": [
+                  "저녁 먹다",
+                  "집에 오다",
+                  "깨끗한",
+                  "일어나다"
+                ],
+                "es": [
+                  "Cenar",
+                  "Volver a casa",
+                  "Limpio",
+                  "Despertarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "吃晚饭",
+                  "romanization": "chī wǎn fàn"
+                },
+                "female": {
+                  "audio_text": "吃晚饭",
+                  "romanization": "chī wǎn fàn"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "刷牙",
+              "romanization": "shuā yá",
+              "options": {
+                "en": [
+                  "Brush teeth",
+                  "Get up",
+                  "Rest",
+                  "Shower"
+                ],
+                "zh": [
+                  "刷牙",
+                  "起来",
+                  "休息",
+                  "洗澡"
+                ],
+                "th": [
+                  "แปรงฟัน",
+                  "ตื่นนอน",
+                  "พัก",
+                  "อาบน้ำ"
+                ],
+                "ko": [
+                  "양치하다",
+                  "일어나다",
+                  "쉬다",
+                  "샤워"
+                ],
+                "es": [
+                  "Cepillarse los dientes",
+                  "Levantarse",
+                  "Descansar",
+                  "Ducha"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "刷牙",
+                  "romanization": "shuā yá"
+                },
+                "female": {
+                  "word": "刷牙",
+                  "romanization": "shuā yá"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "回家",
+                  "romanization": "huí jiā",
+                  "native": {
+                    "en": "Come home",
+                    "zh": "回家",
+                    "th": "กลับบ้าน",
+                    "ko": "집에 오다",
+                    "es": "Volver a casa"
+                  }
+                },
+                {
+                  "target": "睡觉",
+                  "romanization": "shuì jiào",
+                  "native": {
+                    "en": "Go to bed",
+                    "zh": "睡觉",
+                    "th": "เข้านอน",
+                    "ko": "잠자리에 들다",
+                    "es": "Ir a la cama"
+                  }
+                },
+                {
+                  "target": "吃晚饭",
+                  "romanization": "chī wǎn fàn",
+                  "native": {
+                    "en": "Have dinner",
+                    "zh": "吃晚饭",
+                    "th": "กินอาหารเย็น",
+                    "ko": "저녁 먹다",
+                    "es": "Cenar"
+                  }
+                },
+                {
+                  "target": "穿衣服",
+                  "romanization": "chuān yī fu",
+                  "native": {
+                    "en": "Get dressed",
+                    "zh": "穿衣服",
+                    "th": "แต่งตัว",
+                    "ko": "옷을 입다",
+                    "es": "Vestirse"
+                  }
+                },
+                {
+                  "target": "吃早饭",
+                  "romanization": "chī zǎo fàn",
+                  "native": {
+                    "en": "Have breakfast",
+                    "zh": "吃早饭",
+                    "th": "กินอาหารเช้า",
+                    "ko": "아침 먹다",
+                    "es": "Desayunar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "刷牙",
+                  "romanization": "shuā yá",
+                  "native": {
+                    "en": "Brush teeth",
+                    "zh": "刷牙",
+                    "th": "แปรงฟัน",
+                    "ko": "양치하다",
+                    "es": "Cepillarse los dientes"
+                  }
+                },
+                {
+                  "target": "打扫",
+                  "romanization": "dǎ sǎo",
+                  "native": {
+                    "en": "Clean",
+                    "zh": "打扫",
+                    "th": "สะอาด",
+                    "ko": "깨끗한",
+                    "es": "Limpio"
+                  }
+                },
+                {
+                  "target": "去上班",
+                  "romanization": "qù shàng bān",
+                  "native": {
+                    "en": "Go to work",
+                    "zh": "去上班",
+                    "th": "ไปทำงาน",
+                    "ko": "출근하다",
+                    "es": "Ir al trabajo"
+                  }
+                },
+                {
+                  "target": "起来",
+                  "romanization": "qǐ lái",
+                  "native": {
+                    "en": "Get up",
+                    "zh": "起来",
+                    "th": "ตื่นนอน",
+                    "ko": "일어나다",
+                    "es": "Levantarse"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -1059,6 +1470,241 @@
                   "忙"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "日常",
+              "romanization": "rì cháng",
+              "options": {
+                "en": [
+                  "Routine",
+                  "Free",
+                  "Always",
+                  "Every day"
+                ],
+                "zh": [
+                  "日常",
+                  "有空",
+                  "总是",
+                  "每天"
+                ],
+                "th": [
+                  "กิจวัตร",
+                  "ว่าง",
+                  "เสมอ",
+                  "ทุกวัน"
+                ],
+                "ko": [
+                  "일과",
+                  "한가한",
+                  "항상",
+                  "매일"
+                ],
+                "es": [
+                  "Rutina",
+                  "Libre",
+                  "Siempre",
+                  "Todos los días"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "日常",
+                  "romanization": "rì cháng"
+                },
+                "female": {
+                  "word": "日常",
+                  "romanization": "rì cháng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"On time\"",
+                "zh": "\"准时\"",
+                "th": "\"ตรงเวลา\"",
+                "ko": "\"정시에\"",
+                "es": "\"A tiempo\""
+              },
+              "options": {
+                "neutral": [
+                  "准时",
+                  "早",
+                  "通常",
+                  "日常"
+                ],
+                "male": [
+                  "准时",
+                  "早",
+                  "通常",
+                  "日常"
+                ],
+                "female": [
+                  "准时",
+                  "早",
+                  "通常",
+                  "日常"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "有空",
+              "romanization": "yǒu kòng",
+              "options": {
+                "en": [
+                  "Free",
+                  "Late",
+                  "Busy",
+                  "On time"
+                ],
+                "zh": [
+                  "有空",
+                  "晚",
+                  "忙",
+                  "准时"
+                ],
+                "th": [
+                  "ว่าง",
+                  "สาย",
+                  "ยุ่ง",
+                  "ตรงเวลา"
+                ],
+                "ko": [
+                  "한가한",
+                  "늦은",
+                  "바쁜",
+                  "정시에"
+                ],
+                "es": [
+                  "Libre",
+                  "Tarde",
+                  "Ocupado",
+                  "A tiempo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "有空",
+                  "romanization": "yǒu kòng"
+                },
+                "female": {
+                  "audio_text": "有空",
+                  "romanization": "yǒu kòng"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "习惯",
+              "romanization": "xí guàn",
+              "options": {
+                "en": [
+                  "Habit",
+                  "Routine",
+                  "Early",
+                  "Always"
+                ],
+                "zh": [
+                  "习惯",
+                  "日常",
+                  "早",
+                  "总是"
+                ],
+                "th": [
+                  "นิสัย",
+                  "กิจวัตร",
+                  "เช้า",
+                  "เสมอ"
+                ],
+                "ko": [
+                  "습관",
+                  "일과",
+                  "이른",
+                  "항상"
+                ],
+                "es": [
+                  "Hábito",
+                  "Rutina",
+                  "Temprano",
+                  "Siempre"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "习惯",
+                  "romanization": "xí guàn"
+                },
+                "female": {
+                  "word": "习惯",
+                  "romanization": "xí guàn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "准时",
+                  "romanization": "zhǔn shí",
+                  "native": {
+                    "en": "On time",
+                    "zh": "准时",
+                    "th": "ตรงเวลา",
+                    "ko": "정시에",
+                    "es": "A tiempo"
+                  }
+                },
+                {
+                  "target": "有时候",
+                  "romanization": "yǒu shí hou",
+                  "native": {
+                    "en": "Sometimes",
+                    "zh": "有时候",
+                    "th": "บางครั้ง",
+                    "ko": "가끔",
+                    "es": "A veces"
+                  }
+                },
+                {
+                  "target": "有空",
+                  "romanization": "yǒu kòng",
+                  "native": {
+                    "en": "Free",
+                    "zh": "有空",
+                    "th": "ว่าง",
+                    "ko": "한가한",
+                    "es": "Libre"
+                  }
+                },
+                {
+                  "target": "习惯",
+                  "romanization": "xí guàn",
+                  "native": {
+                    "en": "Habit",
+                    "zh": "习惯",
+                    "th": "นิสัย",
+                    "ko": "습관",
+                    "es": "Hábito"
+                  }
+                },
+                {
+                  "target": "日常",
+                  "romanization": "rì cháng",
+                  "native": {
+                    "en": "Routine",
+                    "zh": "日常",
+                    "th": "กิจวัตร",
+                    "ko": "일과",
+                    "es": "Rutina"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1602,6 +2248,417 @@
                   "了"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "试穿",
+              "romanization": "shì chuān",
+              "options": {
+                "en": [
+                  "Try on",
+                  "Receipt",
+                  "Change",
+                  "Price"
+                ],
+                "zh": [
+                  "试穿",
+                  "收据",
+                  "找零",
+                  "价格"
+                ],
+                "th": [
+                  "ลองใส่",
+                  "ใบเสร็จ",
+                  "เปลี่ยน",
+                  "ราคา"
+                ],
+                "ko": [
+                  "입어보다",
+                  "영수증",
+                  "바꾸다",
+                  "가격"
+                ],
+                "es": [
+                  "Probarse",
+                  "Recibo",
+                  "Cambiar",
+                  "Precio"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "试穿",
+                  "romanization": "shì chuān"
+                },
+                "female": {
+                  "word": "试穿",
+                  "romanization": "shì chuān"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Receipt\"",
+                "zh": "\"收据\"",
+                "th": "\"ใบเสร็จ\"",
+                "ko": "\"영수증\"",
+                "es": "\"Recibo\""
+              },
+              "options": {
+                "neutral": [
+                  "收据",
+                  "买",
+                  "便宜",
+                  "打折"
+                ],
+                "male": [
+                  "收据",
+                  "买",
+                  "便宜",
+                  "打折"
+                ],
+                "female": [
+                  "收据",
+                  "买",
+                  "便宜",
+                  "打折"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "价格",
+              "romanization": "jià gé",
+              "options": {
+                "en": [
+                  "Price",
+                  "Size",
+                  "Cheap",
+                  "Sell"
+                ],
+                "zh": [
+                  "价格",
+                  "大小",
+                  "便宜",
+                  "卖"
+                ],
+                "th": [
+                  "ราคา",
+                  "ขนาด",
+                  "ถูก",
+                  "ขาย"
+                ],
+                "ko": [
+                  "가격",
+                  "사이즈",
+                  "저렴한",
+                  "팔다"
+                ],
+                "es": [
+                  "Precio",
+                  "Talla",
+                  "Barato",
+                  "Vender"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "价格",
+                  "romanization": "jià gé"
+                },
+                "female": {
+                  "audio_text": "价格",
+                  "romanization": "jià gé"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "找零",
+              "romanization": "zhǎo líng",
+              "options": {
+                "en": [
+                  "Change",
+                  "Buy",
+                  "Pay",
+                  "Receipt"
+                ],
+                "zh": [
+                  "找零",
+                  "买",
+                  "付钱",
+                  "收据"
+                ],
+                "th": [
+                  "เปลี่ยน",
+                  "ซื้อ",
+                  "จ่าย",
+                  "ใบเสร็จ"
+                ],
+                "ko": [
+                  "바꾸다",
+                  "사다",
+                  "지불하다",
+                  "영수증"
+                ],
+                "es": [
+                  "Cambiar",
+                  "Comprar",
+                  "Pagar",
+                  "Recibo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "找零",
+                  "romanization": "zhǎo líng"
+                },
+                "female": {
+                  "word": "找零",
+                  "romanization": "zhǎo líng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Pay\"",
+                "zh": "\"付钱\"",
+                "th": "\"จ่าย\"",
+                "ko": "\"지불하다\"",
+                "es": "\"Pagar\""
+              },
+              "options": {
+                "neutral": [
+                  "付钱",
+                  "价格",
+                  "衣服",
+                  "便宜"
+                ],
+                "male": [
+                  "付钱",
+                  "价格",
+                  "衣服",
+                  "便宜"
+                ],
+                "female": [
+                  "付钱",
+                  "价格",
+                  "衣服",
+                  "便宜"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "衣服",
+              "romanization": "yī fu",
+              "options": {
+                "en": [
+                  "Clothes",
+                  "Try on",
+                  "Price",
+                  "Expensive"
+                ],
+                "zh": [
+                  "衣服",
+                  "试穿",
+                  "价格",
+                  "贵"
+                ],
+                "th": [
+                  "เสื้อผ้า",
+                  "ลองใส่",
+                  "ราคา",
+                  "แพง"
+                ],
+                "ko": [
+                  "옷",
+                  "입어보다",
+                  "가격",
+                  "비싼"
+                ],
+                "es": [
+                  "Ropa",
+                  "Probarse",
+                  "Precio",
+                  "Caro"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "衣服",
+                  "romanization": "yī fu"
+                },
+                "female": {
+                  "audio_text": "衣服",
+                  "romanization": "yī fu"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "大小",
+              "romanization": "dà xiǎo",
+              "options": {
+                "en": [
+                  "Size",
+                  "Sell",
+                  "Try on",
+                  "Expensive"
+                ],
+                "zh": [
+                  "大小",
+                  "卖",
+                  "试穿",
+                  "贵"
+                ],
+                "th": [
+                  "ขนาด",
+                  "ขาย",
+                  "ลองใส่",
+                  "แพง"
+                ],
+                "ko": [
+                  "사이즈",
+                  "팔다",
+                  "입어보다",
+                  "비싼"
+                ],
+                "es": [
+                  "Talla",
+                  "Vender",
+                  "Probarse",
+                  "Caro"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "大小",
+                  "romanization": "dà xiǎo"
+                },
+                "female": {
+                  "word": "大小",
+                  "romanization": "dà xiǎo"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "试穿",
+                  "romanization": "shì chuān",
+                  "native": {
+                    "en": "Try on",
+                    "zh": "试穿",
+                    "th": "ลองใส่",
+                    "ko": "입어보다",
+                    "es": "Probarse"
+                  }
+                },
+                {
+                  "target": "收据",
+                  "romanization": "shōu jù",
+                  "native": {
+                    "en": "Receipt",
+                    "zh": "收据",
+                    "th": "ใบเสร็จ",
+                    "ko": "영수증",
+                    "es": "Recibo"
+                  }
+                },
+                {
+                  "target": "打折",
+                  "romanization": "dǎ zhé",
+                  "native": {
+                    "en": "Discount",
+                    "zh": "打折",
+                    "th": "ส่วนลด",
+                    "ko": "할인",
+                    "es": "Descuento"
+                  }
+                },
+                {
+                  "target": "衣服",
+                  "romanization": "yī fu",
+                  "native": {
+                    "en": "Clothes",
+                    "zh": "衣服",
+                    "th": "เสื้อผ้า",
+                    "ko": "옷",
+                    "es": "Ropa"
+                  }
+                },
+                {
+                  "target": "找零",
+                  "romanization": "zhǎo líng",
+                  "native": {
+                    "en": "Change",
+                    "zh": "找零",
+                    "th": "เปลี่ยน",
+                    "ko": "바꾸다",
+                    "es": "Cambiar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "超市",
+                  "romanization": "chāo shì",
+                  "native": {
+                    "en": "Supermarket",
+                    "zh": "超市",
+                    "th": "ซูเปอร์มาร์เก็ต",
+                    "ko": "슈퍼마켓",
+                    "es": "Supermercado"
+                  }
+                },
+                {
+                  "target": "价格",
+                  "romanization": "jià gé",
+                  "native": {
+                    "en": "Price",
+                    "zh": "价格",
+                    "th": "ราคา",
+                    "ko": "가격",
+                    "es": "Precio"
+                  }
+                },
+                {
+                  "target": "大小",
+                  "romanization": "dà xiǎo",
+                  "native": {
+                    "en": "Size",
+                    "zh": "大小",
+                    "th": "ขนาด",
+                    "ko": "사이즈",
+                    "es": "Talla"
+                  }
+                },
+                {
+                  "target": "付钱",
+                  "romanization": "fù qián",
+                  "native": {
+                    "en": "Pay",
+                    "zh": "付钱",
+                    "th": "จ่าย",
+                    "ko": "지불하다",
+                    "es": "Pagar"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -2105,6 +3162,320 @@
                   "买不起"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "品牌",
+              "romanization": "pǐn pái",
+              "options": {
+                "en": [
+                  "Brand",
+                  "Card",
+                  "Cost",
+                  "Sale"
+                ],
+                "zh": [
+                  "品牌",
+                  "刷卡",
+                  "花费",
+                  "促销"
+                ],
+                "th": [
+                  "แบรนด์",
+                  "บัตร",
+                  "ราคา",
+                  "ลดราคา"
+                ],
+                "ko": [
+                  "브랜드",
+                  "카드",
+                  "비용",
+                  "할인"
+                ],
+                "es": [
+                  "Marca",
+                  "Tarjeta",
+                  "Costar",
+                  "Oferta"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "品牌",
+                  "romanization": "pǐn pái"
+                },
+                "female": {
+                  "word": "品牌",
+                  "romanization": "pǐn pái"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Cost\"",
+                "zh": "\"花费\"",
+                "th": "\"ราคา\"",
+                "ko": "\"비용\"",
+                "es": "\"Costar\""
+              },
+              "options": {
+                "neutral": [
+                  "花费",
+                  "袋子",
+                  "借出",
+                  "现金"
+                ],
+                "male": [
+                  "花费",
+                  "袋子",
+                  "借出",
+                  "现金"
+                ],
+                "female": [
+                  "花费",
+                  "袋子",
+                  "借出",
+                  "现金"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "借出",
+              "romanization": "jiè chū",
+              "options": {
+                "en": [
+                  "Lend",
+                  "Brand",
+                  "Cash",
+                  "Bag"
+                ],
+                "zh": [
+                  "借出",
+                  "品牌",
+                  "现金",
+                  "袋子"
+                ],
+                "th": [
+                  "ให้ยืม",
+                  "แบรนด์",
+                  "เงินสด",
+                  "กระเป๋า"
+                ],
+                "ko": [
+                  "빌려주다",
+                  "브랜드",
+                  "현금",
+                  "가방"
+                ],
+                "es": [
+                  "Prestar",
+                  "Marca",
+                  "Efectivo",
+                  "Bolsa"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "借出",
+                  "romanization": "jiè chū"
+                },
+                "female": {
+                  "audio_text": "借出",
+                  "romanization": "jiè chū"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "袋子",
+              "romanization": "dài zi",
+              "options": {
+                "en": [
+                  "Bag",
+                  "Lend",
+                  "Queue",
+                  "Cash"
+                ],
+                "zh": [
+                  "袋子",
+                  "借出",
+                  "排队",
+                  "现金"
+                ],
+                "th": [
+                  "กระเป๋า",
+                  "ให้ยืม",
+                  "คิว",
+                  "เงินสด"
+                ],
+                "ko": [
+                  "가방",
+                  "빌려주다",
+                  "줄",
+                  "현금"
+                ],
+                "es": [
+                  "Bolsa",
+                  "Prestar",
+                  "Fila",
+                  "Efectivo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "袋子",
+                  "romanization": "dài zi"
+                },
+                "female": {
+                  "word": "袋子",
+                  "romanization": "dài zi"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Afford\"",
+                "zh": "\"买得起\"",
+                "th": "\"จ่ายไหว\"",
+                "ko": "\"여유가 되다\"",
+                "es": "\"Poder pagar\""
+              },
+              "options": {
+                "neutral": [
+                  "买得起",
+                  "排队",
+                  "袋子",
+                  "花费"
+                ],
+                "male": [
+                  "买得起",
+                  "排队",
+                  "袋子",
+                  "花费"
+                ],
+                "female": [
+                  "买得起",
+                  "排队",
+                  "袋子",
+                  "花费"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "借",
+              "romanization": "jiè",
+              "options": {
+                "en": [
+                  "Borrow",
+                  "Save",
+                  "Lend",
+                  "Afford"
+                ],
+                "zh": [
+                  "借",
+                  "存钱",
+                  "借出",
+                  "买得起"
+                ],
+                "th": [
+                  "ยืม",
+                  "ออม",
+                  "ให้ยืม",
+                  "จ่ายไหว"
+                ],
+                "ko": [
+                  "빌리다",
+                  "저축하다",
+                  "빌려주다",
+                  "여유가 되다"
+                ],
+                "es": [
+                  "Pedir prestado",
+                  "Ahorrar",
+                  "Prestar",
+                  "Poder pagar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "借",
+                  "romanization": "jiè"
+                },
+                "female": {
+                  "audio_text": "借",
+                  "romanization": "jiè"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "买得起",
+                  "romanization": "mǎi de qǐ",
+                  "native": {
+                    "en": "Afford",
+                    "zh": "买得起",
+                    "th": "จ่ายไหว",
+                    "ko": "여유가 되다",
+                    "es": "Poder pagar"
+                  }
+                },
+                {
+                  "target": "排队",
+                  "romanization": "pái duì",
+                  "native": {
+                    "en": "Queue",
+                    "zh": "排队",
+                    "th": "คิว",
+                    "ko": "줄",
+                    "es": "Fila"
+                  }
+                },
+                {
+                  "target": "袋子",
+                  "romanization": "dài zi",
+                  "native": {
+                    "en": "Bag",
+                    "zh": "袋子",
+                    "th": "กระเป๋า",
+                    "ko": "가방",
+                    "es": "Bolsa"
+                  }
+                },
+                {
+                  "target": "品牌",
+                  "romanization": "pǐn pái",
+                  "native": {
+                    "en": "Brand",
+                    "zh": "品牌",
+                    "th": "แบรนด์",
+                    "ko": "브랜드",
+                    "es": "Marca"
+                  }
+                },
+                {
+                  "target": "借",
+                  "romanization": "jiè",
+                  "native": {
+                    "en": "Borrow",
+                    "zh": "借",
+                    "th": "ยืม",
+                    "ko": "빌리다",
+                    "es": "Pedir prestado"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -2645,6 +4016,448 @@
                   "很好"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "冰冷",
+              "romanization": "bīng lěng",
+              "options": {
+                "en": [
+                  "Freezing",
+                  "Windy",
+                  "Sunny",
+                  "Flood"
+                ],
+                "zh": [
+                  "冰冷",
+                  "刮风",
+                  "晴天",
+                  "洪水"
+                ],
+                "th": [
+                  "หนาวจัด",
+                  "ลมแรง",
+                  "แดดออก",
+                  "น้ำท่วม"
+                ],
+                "ko": [
+                  "영하의",
+                  "바람 부는",
+                  "맑은",
+                  "홍수"
+                ],
+                "es": [
+                  "Helado",
+                  "Ventoso",
+                  "Soleado",
+                  "Inundación"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "冰冷",
+                  "romanization": "bīng lěng"
+                },
+                "female": {
+                  "word": "冰冷",
+                  "romanization": "bīng lěng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Drought\"",
+                "zh": "\"干旱\"",
+                "th": "\"ภัยแล้ง\"",
+                "ko": "\"가뭄\"",
+                "es": "\"Sequía\""
+              },
+              "options": {
+                "neutral": [
+                  "干旱",
+                  "温度",
+                  "晴天",
+                  "天气"
+                ],
+                "male": [
+                  "干旱",
+                  "温度",
+                  "晴天",
+                  "天气"
+                ],
+                "female": [
+                  "干旱",
+                  "温度",
+                  "晴天",
+                  "天气"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "暖和",
+              "romanization": "nuǎn huo",
+              "options": {
+                "en": [
+                  "Warm",
+                  "Snowy",
+                  "Storm",
+                  "Sunny"
+                ],
+                "zh": [
+                  "暖和",
+                  "下雪",
+                  "暴风雨",
+                  "晴天"
+                ],
+                "th": [
+                  "อบอุ่น",
+                  "หิมะตก",
+                  "พายุ",
+                  "แดดออก"
+                ],
+                "ko": [
+                  "따뜻한",
+                  "눈 오는",
+                  "폭풍",
+                  "맑은"
+                ],
+                "es": [
+                  "Cálido",
+                  "Nevado",
+                  "Tormenta",
+                  "Soleado"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "暖和",
+                  "romanization": "nuǎn huo"
+                },
+                "female": {
+                  "audio_text": "暖和",
+                  "romanization": "nuǎn huo"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "温度",
+              "romanization": "wēn dù",
+              "options": {
+                "en": [
+                  "Temperature",
+                  "Warm",
+                  "Foggy",
+                  "Cloudy"
+                ],
+                "zh": [
+                  "温度",
+                  "暖和",
+                  "有雾",
+                  "多云"
+                ],
+                "th": [
+                  "อุณหภูมิ",
+                  "อบอุ่น",
+                  "มีหมอก",
+                  "มีเมฆ"
+                ],
+                "ko": [
+                  "온도",
+                  "따뜻한",
+                  "안개 낀",
+                  "흐린"
+                ],
+                "es": [
+                  "Temperatura",
+                  "Cálido",
+                  "Neblinoso",
+                  "Nublado"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "温度",
+                  "romanization": "wēn dù"
+                },
+                "female": {
+                  "word": "温度",
+                  "romanization": "wēn dù"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Storm\"",
+                "zh": "\"暴风雨\"",
+                "th": "\"พายุ\"",
+                "ko": "\"폭풍\"",
+                "es": "\"Tormenta\""
+              },
+              "options": {
+                "neutral": [
+                  "暴风雨",
+                  "天气",
+                  "下雪",
+                  "暖和"
+                ],
+                "male": [
+                  "暴风雨",
+                  "天气",
+                  "下雪",
+                  "暖和"
+                ],
+                "female": [
+                  "暴风雨",
+                  "天气",
+                  "下雪",
+                  "暖和"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "有雾",
+              "romanization": "yǒu wù",
+              "options": {
+                "en": [
+                  "Foggy",
+                  "Rainy",
+                  "Sunny",
+                  "Windy"
+                ],
+                "zh": [
+                  "有雾",
+                  "下雨",
+                  "晴天",
+                  "刮风"
+                ],
+                "th": [
+                  "มีหมอก",
+                  "ฝนตก",
+                  "แดดออก",
+                  "ลมแรง"
+                ],
+                "ko": [
+                  "안개 낀",
+                  "비 오는",
+                  "맑은",
+                  "바람 부는"
+                ],
+                "es": [
+                  "Neblinoso",
+                  "Lluvioso",
+                  "Soleado",
+                  "Ventoso"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "有雾",
+                  "romanization": "yǒu wù"
+                },
+                "female": {
+                  "audio_text": "有雾",
+                  "romanization": "yǒu wù"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "多云",
+              "romanization": "duō yún",
+              "options": {
+                "en": [
+                  "Cloudy",
+                  "Rainy",
+                  "Storm",
+                  "Temperature"
+                ],
+                "zh": [
+                  "多云",
+                  "下雨",
+                  "暴风雨",
+                  "温度"
+                ],
+                "th": [
+                  "มีเมฆ",
+                  "ฝนตก",
+                  "พายุ",
+                  "อุณหภูมิ"
+                ],
+                "ko": [
+                  "흐린",
+                  "비 오는",
+                  "폭풍",
+                  "온도"
+                ],
+                "es": [
+                  "Nublado",
+                  "Lluvioso",
+                  "Tormenta",
+                  "Temperatura"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "多云",
+                  "romanization": "duō yún"
+                },
+                "female": {
+                  "word": "多云",
+                  "romanization": "duō yún"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Flood\"",
+                "zh": "\"洪水\"",
+                "th": "\"น้ำท่วม\"",
+                "ko": "\"홍수\"",
+                "es": "\"Inundación\""
+              },
+              "options": {
+                "neutral": [
+                  "洪水",
+                  "多云",
+                  "天气",
+                  "干旱"
+                ],
+                "male": [
+                  "洪水",
+                  "多云",
+                  "天气",
+                  "干旱"
+                ],
+                "female": [
+                  "洪水",
+                  "多云",
+                  "天气",
+                  "干旱"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "干旱",
+                  "romanization": "gān hàn",
+                  "native": {
+                    "en": "Drought",
+                    "zh": "干旱",
+                    "th": "ภัยแล้ง",
+                    "ko": "가뭄",
+                    "es": "Sequía"
+                  }
+                },
+                {
+                  "target": "天气",
+                  "romanization": "tiān qì",
+                  "native": {
+                    "en": "Weather",
+                    "zh": "天气",
+                    "th": "สภาพอากาศ",
+                    "ko": "날씨",
+                    "es": "Clima"
+                  }
+                },
+                {
+                  "target": "暴风雨",
+                  "romanization": "bào fēng yǔ",
+                  "native": {
+                    "en": "Storm",
+                    "zh": "暴风雨",
+                    "th": "พายุ",
+                    "ko": "폭풍",
+                    "es": "Tormenta"
+                  }
+                },
+                {
+                  "target": "暖和",
+                  "romanization": "nuǎn huo",
+                  "native": {
+                    "en": "Warm",
+                    "zh": "暖和",
+                    "th": "อบอุ่น",
+                    "ko": "따뜻한",
+                    "es": "Cálido"
+                  }
+                },
+                {
+                  "target": "冰冷",
+                  "romanization": "bīng lěng",
+                  "native": {
+                    "en": "Freezing",
+                    "zh": "冰冷",
+                    "th": "หนาวจัด",
+                    "ko": "영하의",
+                    "es": "Helado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "温度",
+                  "romanization": "wēn dù",
+                  "native": {
+                    "en": "Temperature",
+                    "zh": "温度",
+                    "th": "อุณหภูมิ",
+                    "ko": "온도",
+                    "es": "Temperatura"
+                  }
+                },
+                {
+                  "target": "多云",
+                  "romanization": "duō yún",
+                  "native": {
+                    "en": "Cloudy",
+                    "zh": "多云",
+                    "th": "มีเมฆ",
+                    "ko": "흐린",
+                    "es": "Nublado"
+                  }
+                },
+                {
+                  "target": "洪水",
+                  "romanization": "hóng shuǐ",
+                  "native": {
+                    "en": "Flood",
+                    "zh": "洪水",
+                    "th": "น้ำท่วม",
+                    "ko": "홍수",
+                    "es": "Inundación"
+                  }
+                },
+                {
+                  "target": "有雾",
+                  "romanization": "yǒu wù",
+                  "native": {
+                    "en": "Foggy",
+                    "zh": "有雾",
+                    "th": "มีหมอก",
+                    "ko": "안개 낀",
+                    "es": "Neblinoso"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -3151,6 +4964,399 @@
                   "冷"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "干燥",
+              "romanization": "gān zào",
+              "options": {
+                "en": [
+                  "Dry",
+                  "Mild",
+                  "Change",
+                  "Autumn"
+                ],
+                "zh": [
+                  "干燥",
+                  "温和",
+                  "变化",
+                  "秋天"
+                ],
+                "th": [
+                  "แห้ง",
+                  "อ่อน",
+                  "เปลี่ยน",
+                  "ฤดูใบไม้ร่วง"
+                ],
+                "ko": [
+                  "건조한",
+                  "순한",
+                  "바꾸다",
+                  "가을"
+                ],
+                "es": [
+                  "Seco",
+                  "Suave",
+                  "Cambiar",
+                  "Otoño"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "干燥",
+                  "romanization": "gān zào"
+                },
+                "female": {
+                  "word": "干燥",
+                  "romanization": "gān zào"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Change\"",
+                "zh": "\"变化\"",
+                "th": "\"เปลี่ยน\"",
+                "ko": "\"바꾸다\"",
+                "es": "\"Cambiar\""
+              },
+              "options": {
+                "neutral": [
+                  "变化",
+                  "雨伞",
+                  "冬天",
+                  "潮湿"
+                ],
+                "male": [
+                  "变化",
+                  "雨伞",
+                  "冬天",
+                  "潮湿"
+                ],
+                "female": [
+                  "变化",
+                  "雨伞",
+                  "冬天",
+                  "潮湿"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "天气预报",
+              "romanization": "tiān qì yù bào",
+              "options": {
+                "en": [
+                  "Forecast",
+                  "Spring",
+                  "Change",
+                  "Mild"
+                ],
+                "zh": [
+                  "天气预报",
+                  "春天",
+                  "变化",
+                  "温和"
+                ],
+                "th": [
+                  "พยากรณ์",
+                  "ฤดูใบไม้ผลิ",
+                  "เปลี่ยน",
+                  "อ่อน"
+                ],
+                "ko": [
+                  "예보",
+                  "봄",
+                  "바꾸다",
+                  "순한"
+                ],
+                "es": [
+                  "Pronóstico",
+                  "Primavera",
+                  "Cambiar",
+                  "Suave"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "天气预报",
+                  "romanization": "tiān qì yù bào"
+                },
+                "female": {
+                  "audio_text": "天气预报",
+                  "romanization": "tiān qì yù bào"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "温和",
+              "romanization": "wēn hé",
+              "options": {
+                "en": [
+                  "Mild",
+                  "Coat",
+                  "Winter",
+                  "Change"
+                ],
+                "zh": [
+                  "温和",
+                  "外套",
+                  "冬天",
+                  "变化"
+                ],
+                "th": [
+                  "อ่อน",
+                  "เสื้อโค้ท",
+                  "ฤดูหนาว",
+                  "เปลี่ยน"
+                ],
+                "ko": [
+                  "순한",
+                  "코트",
+                  "겨울",
+                  "바꾸다"
+                ],
+                "es": [
+                  "Suave",
+                  "Abrigo",
+                  "Invierno",
+                  "Cambiar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "温和",
+                  "romanization": "wēn hé"
+                },
+                "female": {
+                  "word": "温和",
+                  "romanization": "wēn hé"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Umbrella\"",
+                "zh": "\"雨伞\"",
+                "th": "\"ร่ม\"",
+                "ko": "\"우산\"",
+                "es": "\"Paraguas\""
+              },
+              "options": {
+                "neutral": [
+                  "雨伞",
+                  "春天",
+                  "外套",
+                  "变化"
+                ],
+                "male": [
+                  "雨伞",
+                  "春天",
+                  "外套",
+                  "变化"
+                ],
+                "female": [
+                  "雨伞",
+                  "春天",
+                  "外套",
+                  "变化"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "度",
+              "romanization": "dù",
+              "options": {
+                "en": [
+                  "Degree",
+                  "Umbrella",
+                  "Spring",
+                  "Humid"
+                ],
+                "zh": [
+                  "度",
+                  "雨伞",
+                  "春天",
+                  "潮湿"
+                ],
+                "th": [
+                  "องศา",
+                  "ร่ม",
+                  "ฤดูใบไม้ผลิ",
+                  "ชื้น"
+                ],
+                "ko": [
+                  "도",
+                  "우산",
+                  "봄",
+                  "습한"
+                ],
+                "es": [
+                  "Grado",
+                  "Paraguas",
+                  "Primavera",
+                  "Húmedo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "度",
+                  "romanization": "dù"
+                },
+                "female": {
+                  "audio_text": "度",
+                  "romanization": "dù"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "外套",
+              "romanization": "wài tào",
+              "options": {
+                "en": [
+                  "Coat",
+                  "Degree",
+                  "Humid",
+                  "Spring"
+                ],
+                "zh": [
+                  "外套",
+                  "度",
+                  "潮湿",
+                  "春天"
+                ],
+                "th": [
+                  "เสื้อโค้ท",
+                  "องศา",
+                  "ชื้น",
+                  "ฤดูใบไม้ผลิ"
+                ],
+                "ko": [
+                  "코트",
+                  "도",
+                  "습한",
+                  "봄"
+                ],
+                "es": [
+                  "Abrigo",
+                  "Grado",
+                  "Húmedo",
+                  "Primavera"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "外套",
+                  "romanization": "wài tào"
+                },
+                "female": {
+                  "word": "外套",
+                  "romanization": "wài tào"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Humid\"",
+                "zh": "\"潮湿\"",
+                "th": "\"ชื้น\"",
+                "ko": "\"습한\"",
+                "es": "\"Húmedo\""
+              },
+              "options": {
+                "neutral": [
+                  "潮湿",
+                  "秋天",
+                  "外套",
+                  "冬天"
+                ],
+                "male": [
+                  "潮湿",
+                  "秋天",
+                  "外套",
+                  "冬天"
+                ],
+                "female": [
+                  "潮湿",
+                  "秋天",
+                  "外套",
+                  "冬天"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "变化",
+                  "romanization": "biàn huà",
+                  "native": {
+                    "en": "Change",
+                    "zh": "变化",
+                    "th": "เปลี่ยน",
+                    "ko": "바꾸다",
+                    "es": "Cambiar"
+                  }
+                },
+                {
+                  "target": "外套",
+                  "romanization": "wài tào",
+                  "native": {
+                    "en": "Coat",
+                    "zh": "外套",
+                    "th": "เสื้อโค้ท",
+                    "ko": "코트",
+                    "es": "Abrigo"
+                  }
+                },
+                {
+                  "target": "度",
+                  "romanization": "dù",
+                  "native": {
+                    "en": "Degree",
+                    "zh": "度",
+                    "th": "องศา",
+                    "ko": "도",
+                    "es": "Grado"
+                  }
+                },
+                {
+                  "target": "天气预报",
+                  "romanization": "tiān qì yù bào",
+                  "native": {
+                    "en": "Forecast",
+                    "zh": "天气预报",
+                    "th": "พยากรณ์",
+                    "ko": "예보",
+                    "es": "Pronóstico"
+                  }
+                },
+                {
+                  "target": "干燥",
+                  "romanization": "gān zào",
+                  "native": {
+                    "en": "Dry",
+                    "zh": "干燥",
+                    "th": "แห้ง",
+                    "ko": "건조한",
+                    "es": "Seco"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -3691,6 +5897,369 @@
                   "大"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "地板",
+              "romanization": "dì bǎn",
+              "options": {
+                "en": [
+                  "Floor",
+                  "Window",
+                  "Table",
+                  "Living room"
+                ],
+                "zh": [
+                  "地板",
+                  "窗户",
+                  "桌子",
+                  "客厅"
+                ],
+                "th": [
+                  "พื้น",
+                  "หน้าต่าง",
+                  "โต๊ะ",
+                  "ห้องนั่งเล่น"
+                ],
+                "ko": [
+                  "바닥",
+                  "창문",
+                  "테이블",
+                  "거실"
+                ],
+                "es": [
+                  "Piso",
+                  "Ventana",
+                  "Mesa",
+                  "Sala de estar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "地板",
+                  "romanization": "dì bǎn"
+                },
+                "female": {
+                  "word": "地板",
+                  "romanization": "dì bǎn"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Bathroom\"",
+                "zh": "\"浴室\"",
+                "th": "\"ห้องน้ำ\"",
+                "ko": "\"욕실\"",
+                "es": "\"Baño\""
+              },
+              "options": {
+                "neutral": [
+                  "浴室",
+                  "窗户",
+                  "床",
+                  "花园"
+                ],
+                "male": [
+                  "浴室",
+                  "窗户",
+                  "床",
+                  "花园"
+                ],
+                "female": [
+                  "浴室",
+                  "窗户",
+                  "床",
+                  "花园"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "沙发",
+              "romanization": "shā fā",
+              "options": {
+                "en": [
+                  "Sofa",
+                  "Bedroom",
+                  "Living room",
+                  "Chair"
+                ],
+                "zh": [
+                  "沙发",
+                  "卧室",
+                  "客厅",
+                  "椅子"
+                ],
+                "th": [
+                  "โซฟา",
+                  "ห้องนอน",
+                  "ห้องนั่งเล่น",
+                  "เก้าอี้"
+                ],
+                "ko": [
+                  "소파",
+                  "침실",
+                  "거실",
+                  "의자"
+                ],
+                "es": [
+                  "Sofá",
+                  "Dormitorio",
+                  "Sala de estar",
+                  "Silla"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "沙发",
+                  "romanization": "shā fā"
+                },
+                "female": {
+                  "audio_text": "沙发",
+                  "romanization": "shā fā"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "椅子",
+              "romanization": "yǐ zi",
+              "options": {
+                "en": [
+                  "Chair",
+                  "Floor",
+                  "Lamp",
+                  "Kitchen"
+                ],
+                "zh": [
+                  "椅子",
+                  "地板",
+                  "灯",
+                  "厨房"
+                ],
+                "th": [
+                  "เก้าอี้",
+                  "พื้น",
+                  "โคมไฟ",
+                  "ครัว"
+                ],
+                "ko": [
+                  "의자",
+                  "바닥",
+                  "램프",
+                  "부엌"
+                ],
+                "es": [
+                  "Silla",
+                  "Piso",
+                  "Lámpara",
+                  "Cocina"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "椅子",
+                  "romanization": "yǐ zi"
+                },
+                "female": {
+                  "word": "椅子",
+                  "romanization": "yǐ zi"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Garden\"",
+                "zh": "\"花园\"",
+                "th": "\"สวน\"",
+                "ko": "\"정원\"",
+                "es": "\"Jardín\""
+              },
+              "options": {
+                "neutral": [
+                  "花园",
+                  "浴室",
+                  "桌子",
+                  "沙发"
+                ],
+                "male": [
+                  "花园",
+                  "浴室",
+                  "桌子",
+                  "沙发"
+                ],
+                "female": [
+                  "花园",
+                  "浴室",
+                  "桌子",
+                  "沙发"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "灯",
+              "romanization": "dēng",
+              "options": {
+                "en": [
+                  "Lamp",
+                  "Bedroom",
+                  "Living room",
+                  "Floor"
+                ],
+                "zh": [
+                  "灯",
+                  "卧室",
+                  "客厅",
+                  "地板"
+                ],
+                "th": [
+                  "โคมไฟ",
+                  "ห้องนอน",
+                  "ห้องนั่งเล่น",
+                  "พื้น"
+                ],
+                "ko": [
+                  "램프",
+                  "침실",
+                  "거실",
+                  "바닥"
+                ],
+                "es": [
+                  "Lámpara",
+                  "Dormitorio",
+                  "Sala de estar",
+                  "Piso"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "灯",
+                  "romanization": "dēng"
+                },
+                "female": {
+                  "audio_text": "灯",
+                  "romanization": "dēng"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "花园",
+                  "romanization": "huā yuán",
+                  "native": {
+                    "en": "Garden",
+                    "zh": "花园",
+                    "th": "สวน",
+                    "ko": "정원",
+                    "es": "Jardín"
+                  }
+                },
+                {
+                  "target": "客厅",
+                  "romanization": "kè tīng",
+                  "native": {
+                    "en": "Living room",
+                    "zh": "客厅",
+                    "th": "ห้องนั่งเล่น",
+                    "ko": "거실",
+                    "es": "Sala de estar"
+                  }
+                },
+                {
+                  "target": "灯",
+                  "romanization": "dēng",
+                  "native": {
+                    "en": "Lamp",
+                    "zh": "灯",
+                    "th": "โคมไฟ",
+                    "ko": "램프",
+                    "es": "Lámpara"
+                  }
+                },
+                {
+                  "target": "椅子",
+                  "romanization": "yǐ zi",
+                  "native": {
+                    "en": "Chair",
+                    "zh": "椅子",
+                    "th": "เก้าอี้",
+                    "ko": "의자",
+                    "es": "Silla"
+                  }
+                },
+                {
+                  "target": "地板",
+                  "romanization": "dì bǎn",
+                  "native": {
+                    "en": "Floor",
+                    "zh": "地板",
+                    "th": "พื้น",
+                    "ko": "바닥",
+                    "es": "Piso"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "卧室",
+                  "romanization": "wò shì",
+                  "native": {
+                    "en": "Bedroom",
+                    "zh": "卧室",
+                    "th": "ห้องนอน",
+                    "ko": "침실",
+                    "es": "Dormitorio"
+                  }
+                },
+                {
+                  "target": "沙发",
+                  "romanization": "shā fā",
+                  "native": {
+                    "en": "Sofa",
+                    "zh": "沙发",
+                    "th": "โซฟา",
+                    "ko": "소파",
+                    "es": "Sofá"
+                  }
+                },
+                {
+                  "target": "浴室",
+                  "romanization": "yù shì",
+                  "native": {
+                    "en": "Bathroom",
+                    "zh": "浴室",
+                    "th": "ห้องน้ำ",
+                    "ko": "욕실",
+                    "es": "Baño"
+                  }
+                },
+                {
+                  "target": "厨房",
+                  "romanization": "chú fáng",
+                  "native": {
+                    "en": "Kitchen",
+                    "zh": "厨房",
+                    "th": "ครัว",
+                    "ko": "부엌",
+                    "es": "Cocina"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -4197,6 +6766,272 @@
                   "搬进来"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "房东",
+              "romanization": "fáng dōng",
+              "options": {
+                "en": [
+                  "Landlord",
+                  "Neighbour",
+                  "Mirror",
+                  "Rent"
+                ],
+                "zh": [
+                  "房东",
+                  "邻居",
+                  "镜子",
+                  "租"
+                ],
+                "th": [
+                  "เจ้าของบ้าน",
+                  "เพื่อนบ้าน",
+                  "กระจก",
+                  "ค่าเช่า"
+                ],
+                "ko": [
+                  "집주인",
+                  "이웃",
+                  "거울",
+                  "임대료"
+                ],
+                "es": [
+                  "Arrendador",
+                  "Vecino",
+                  "Espejo",
+                  "Alquiler"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "房东",
+                  "romanization": "fáng dōng"
+                },
+                "female": {
+                  "word": "房东",
+                  "romanization": "fáng dōng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Neighbour\"",
+                "zh": "\"邻居\"",
+                "th": "\"เพื่อนบ้าน\"",
+                "ko": "\"이웃\"",
+                "es": "\"Vecino\""
+              },
+              "options": {
+                "neutral": [
+                  "邻居",
+                  "窗帘",
+                  "墙",
+                  "楼梯"
+                ],
+                "male": [
+                  "邻居",
+                  "窗帘",
+                  "墙",
+                  "楼梯"
+                ],
+                "female": [
+                  "邻居",
+                  "窗帘",
+                  "墙",
+                  "楼梯"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "天花板",
+              "romanization": "tiān huā bǎn",
+              "options": {
+                "en": [
+                  "Ceiling",
+                  "Curtain",
+                  "Mirror",
+                  "Neighbour"
+                ],
+                "zh": [
+                  "天花板",
+                  "窗帘",
+                  "镜子",
+                  "邻居"
+                ],
+                "th": [
+                  "เพดาน",
+                  "ม่าน",
+                  "กระจก",
+                  "เพื่อนบ้าน"
+                ],
+                "ko": [
+                  "천장",
+                  "커튼",
+                  "거울",
+                  "이웃"
+                ],
+                "es": [
+                  "Techo",
+                  "Cortina",
+                  "Espejo",
+                  "Vecino"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "天花板",
+                  "romanization": "tiān huā bǎn"
+                },
+                "female": {
+                  "audio_text": "天花板",
+                  "romanization": "tiān huā bǎn"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "架子",
+              "romanization": "jià zi",
+              "options": {
+                "en": [
+                  "Shelf",
+                  "Move in",
+                  "Landlord",
+                  "Fridge"
+                ],
+                "zh": [
+                  "架子",
+                  "搬进来",
+                  "房东",
+                  "冰箱"
+                ],
+                "th": [
+                  "ชั้นวาง",
+                  "ย้ายเข้า",
+                  "เจ้าของบ้าน",
+                  "ตู้เย็น"
+                ],
+                "ko": [
+                  "선반",
+                  "이사 오다",
+                  "집주인",
+                  "냉장고"
+                ],
+                "es": [
+                  "Estante",
+                  "Mudarse (a un lugar)",
+                  "Arrendador",
+                  "Refrigerador"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "架子",
+                  "romanization": "jià zi"
+                },
+                "female": {
+                  "word": "架子",
+                  "romanization": "jià zi"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Curtain\"",
+                "zh": "\"窗帘\"",
+                "th": "\"ม่าน\"",
+                "ko": "\"커튼\"",
+                "es": "\"Cortina\""
+              },
+              "options": {
+                "neutral": [
+                  "窗帘",
+                  "搬进来",
+                  "邻居",
+                  "架子"
+                ],
+                "male": [
+                  "窗帘",
+                  "搬进来",
+                  "邻居",
+                  "架子"
+                ],
+                "female": [
+                  "窗帘",
+                  "搬进来",
+                  "邻居",
+                  "架子"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "窗帘",
+                  "romanization": "chuāng lián",
+                  "native": {
+                    "en": "Curtain",
+                    "zh": "窗帘",
+                    "th": "ม่าน",
+                    "ko": "커튼",
+                    "es": "Cortina"
+                  }
+                },
+                {
+                  "target": "镜子",
+                  "romanization": "jìng zi",
+                  "native": {
+                    "en": "Mirror",
+                    "zh": "镜子",
+                    "th": "กระจก",
+                    "ko": "거울",
+                    "es": "Espejo"
+                  }
+                },
+                {
+                  "target": "搬进来",
+                  "romanization": "bān jìn lái",
+                  "native": {
+                    "en": "Move in",
+                    "zh": "搬进来",
+                    "th": "ย้ายเข้า",
+                    "ko": "이사 오다",
+                    "es": "Mudarse (a un lugar)"
+                  }
+                },
+                {
+                  "target": "架子",
+                  "romanization": "jià zi",
+                  "native": {
+                    "en": "Shelf",
+                    "zh": "架子",
+                    "th": "ชั้นวาง",
+                    "ko": "선반",
+                    "es": "Estante"
+                  }
+                },
+                {
+                  "target": "洗衣机",
+                  "romanization": "xǐ yī jī",
+                  "native": {
+                    "en": "Washing machine",
+                    "zh": "洗衣机",
+                    "th": "เครื่องซักผ้า",
+                    "ko": "세탁기",
+                    "es": "Lavadora"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -4737,6 +7572,321 @@
                   "游泳"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "旅游",
+              "romanization": "lǚ yóu",
+              "options": {
+                "en": [
+                  "Travel",
+                  "Game",
+                  "Film",
+                  "Book"
+                ],
+                "zh": [
+                  "旅游",
+                  "游戏",
+                  "电影",
+                  "书"
+                ],
+                "th": [
+                  "เดินทาง",
+                  "เกม",
+                  "ภาพยนตร์",
+                  "หนังสือ"
+                ],
+                "ko": [
+                  "여행하다",
+                  "게임",
+                  "영화",
+                  "책"
+                ],
+                "es": [
+                  "Viajar",
+                  "Juego",
+                  "Película",
+                  "Libro"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "旅游",
+                  "romanization": "lǚ yóu"
+                },
+                "female": {
+                  "word": "旅游",
+                  "romanization": "lǚ yóu"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sport\"",
+                "zh": "\"运动\"",
+                "th": "\"กีฬา\"",
+                "ko": "\"스포츠\"",
+                "es": "\"Deporte\""
+              },
+              "options": {
+                "neutral": [
+                  "运动",
+                  "爱好",
+                  "游戏",
+                  "画画"
+                ],
+                "male": [
+                  "运动",
+                  "爱好",
+                  "游戏",
+                  "画画"
+                ],
+                "female": [
+                  "运动",
+                  "爱好",
+                  "游戏",
+                  "画画"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "画",
+              "romanization": "huà",
+              "options": {
+                "en": [
+                  "Paint",
+                  "Swim",
+                  "Exercise",
+                  "Book"
+                ],
+                "zh": [
+                  "画",
+                  "游泳",
+                  "锻炼",
+                  "书"
+                ],
+                "th": [
+                  "วาดสี",
+                  "ว่ายน้ำ",
+                  "ออกกำลังกาย",
+                  "หนังสือ"
+                ],
+                "ko": [
+                  "칠하다",
+                  "수영하다",
+                  "운동",
+                  "책"
+                ],
+                "es": [
+                  "Pintar",
+                  "Nadar",
+                  "Ejercicio",
+                  "Libro"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "画",
+                  "romanization": "huà"
+                },
+                "female": {
+                  "audio_text": "画",
+                  "romanization": "huà"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "电影",
+              "romanization": "diàn yǐng",
+              "options": {
+                "en": [
+                  "Film",
+                  "Draw",
+                  "Book",
+                  "Hobby"
+                ],
+                "zh": [
+                  "电影",
+                  "画画",
+                  "书",
+                  "爱好"
+                ],
+                "th": [
+                  "ภาพยนตร์",
+                  "วาดรูป",
+                  "หนังสือ",
+                  "งานอดิเรก"
+                ],
+                "ko": [
+                  "영화",
+                  "그리다",
+                  "책",
+                  "취미"
+                ],
+                "es": [
+                  "Película",
+                  "Dibujar",
+                  "Libro",
+                  "Pasatiempo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "电影",
+                  "romanization": "diàn yǐng"
+                },
+                "female": {
+                  "word": "电影",
+                  "romanization": "diàn yǐng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Cook\"",
+                "zh": "\"做菜\"",
+                "th": "\"ทำอาหาร\"",
+                "ko": "\"요리하다\"",
+                "es": "\"Cocinar\""
+              },
+              "options": {
+                "neutral": [
+                  "做菜",
+                  "电影",
+                  "画画",
+                  "运动"
+                ],
+                "male": [
+                  "做菜",
+                  "电影",
+                  "画画",
+                  "运动"
+                ],
+                "female": [
+                  "做菜",
+                  "电影",
+                  "画画",
+                  "运动"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "电影",
+                  "romanization": "diàn yǐng",
+                  "native": {
+                    "en": "Film",
+                    "zh": "电影",
+                    "th": "ภาพยนตร์",
+                    "ko": "영화",
+                    "es": "Película"
+                  }
+                },
+                {
+                  "target": "运动",
+                  "romanization": "yùn dòng",
+                  "native": {
+                    "en": "Sport",
+                    "zh": "运动",
+                    "th": "กีฬา",
+                    "ko": "스포츠",
+                    "es": "Deporte"
+                  }
+                },
+                {
+                  "target": "旅游",
+                  "romanization": "lǚ yóu",
+                  "native": {
+                    "en": "Travel",
+                    "zh": "旅游",
+                    "th": "เดินทาง",
+                    "ko": "여행하다",
+                    "es": "Viajar"
+                  }
+                },
+                {
+                  "target": "做菜",
+                  "romanization": "zuò cài",
+                  "native": {
+                    "en": "Cook",
+                    "zh": "做菜",
+                    "th": "ทำอาหาร",
+                    "ko": "요리하다",
+                    "es": "Cocinar"
+                  }
+                },
+                {
+                  "target": "游泳",
+                  "romanization": "yóu yǒng",
+                  "native": {
+                    "en": "Swim",
+                    "zh": "游泳",
+                    "th": "ว่ายน้ำ",
+                    "ko": "수영하다",
+                    "es": "Nadar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "音乐",
+                  "romanization": "yīn yuè",
+                  "native": {
+                    "en": "Music",
+                    "zh": "音乐",
+                    "th": "เพลง",
+                    "ko": "음악",
+                    "es": "Música"
+                  }
+                },
+                {
+                  "target": "画",
+                  "romanization": "huà",
+                  "native": {
+                    "en": "Paint",
+                    "zh": "画",
+                    "th": "วาดสี",
+                    "ko": "칠하다",
+                    "es": "Pintar"
+                  }
+                },
+                {
+                  "target": "爱好",
+                  "romanization": "ài hào",
+                  "native": {
+                    "en": "Hobby",
+                    "zh": "爱好",
+                    "th": "งานอดิเรก",
+                    "ko": "취미",
+                    "es": "Pasatiempo"
+                  }
+                },
+                {
+                  "target": "锻炼",
+                  "romanization": "duàn liàn",
+                  "native": {
+                    "en": "Exercise",
+                    "zh": "锻炼",
+                    "th": "ออกกำลังกาย",
+                    "ko": "운동",
+                    "es": "Ejercicio"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -5243,6 +8393,272 @@
                   "赢了"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "放松",
+              "romanization": "fàng sōng",
+              "options": {
+                "en": [
+                  "Relax",
+                  "Outdoor",
+                  "Indoor",
+                  "Festival"
+                ],
+                "zh": [
+                  "放松",
+                  "户外",
+                  "室内",
+                  "节日"
+                ],
+                "th": [
+                  "พักผ่อน",
+                  "กลางแจ้ง",
+                  "ในร่ม",
+                  "เทศกาล"
+                ],
+                "ko": [
+                  "쉬다",
+                  "야외",
+                  "실내",
+                  "축제"
+                ],
+                "es": [
+                  "Relajarse",
+                  "Al aire libre",
+                  "Interior",
+                  "Festival"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "放松",
+                  "romanization": "fàng sōng"
+                },
+                "female": {
+                  "word": "放松",
+                  "romanization": "fàng sōng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Practice\"",
+                "zh": "\"练习\"",
+                "th": "\"ฝึก\"",
+                "ko": "\"연습\"",
+                "es": "\"Práctica\""
+              },
+              "options": {
+                "neutral": [
+                  "练习",
+                  "音乐会",
+                  "享受",
+                  "团队"
+                ],
+                "male": [
+                  "练习",
+                  "音乐会",
+                  "享受",
+                  "团队"
+                ],
+                "female": [
+                  "练习",
+                  "音乐会",
+                  "享受",
+                  "团队"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "室内",
+              "romanization": "shì nèi",
+              "options": {
+                "en": [
+                  "Indoor",
+                  "Lose",
+                  "Practice",
+                  "Win"
+                ],
+                "zh": [
+                  "室内",
+                  "输",
+                  "练习",
+                  "赢"
+                ],
+                "th": [
+                  "ในร่ม",
+                  "แพ้",
+                  "ฝึก",
+                  "ชนะ"
+                ],
+                "ko": [
+                  "실내",
+                  "지다",
+                  "연습",
+                  "이기다"
+                ],
+                "es": [
+                  "Interior",
+                  "Perder",
+                  "Práctica",
+                  "Ganar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "室内",
+                  "romanization": "shì nèi"
+                },
+                "female": {
+                  "audio_text": "室内",
+                  "romanization": "shì nèi"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "节日",
+              "romanization": "jié rì",
+              "options": {
+                "en": [
+                  "Festival",
+                  "Competition",
+                  "Indoor",
+                  "Lose"
+                ],
+                "zh": [
+                  "节日",
+                  "比赛",
+                  "室内",
+                  "输"
+                ],
+                "th": [
+                  "เทศกาล",
+                  "การแข่งขัน",
+                  "ในร่ม",
+                  "แพ้"
+                ],
+                "ko": [
+                  "축제",
+                  "대회",
+                  "실내",
+                  "지다"
+                ],
+                "es": [
+                  "Festival",
+                  "Competencia",
+                  "Interior",
+                  "Perder"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "节日",
+                  "romanization": "jié rì"
+                },
+                "female": {
+                  "word": "节日",
+                  "romanization": "jié rì"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Outdoor\"",
+                "zh": "\"户外\"",
+                "th": "\"กลางแจ้ง\"",
+                "ko": "\"야외\"",
+                "es": "\"Al aire libre\""
+              },
+              "options": {
+                "neutral": [
+                  "户外",
+                  "节日",
+                  "赢",
+                  "放松"
+                ],
+                "male": [
+                  "户外",
+                  "节日",
+                  "赢",
+                  "放松"
+                ],
+                "female": [
+                  "户外",
+                  "节日",
+                  "赢",
+                  "放松"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "享受",
+                  "romanization": "xiǎng shòu",
+                  "native": {
+                    "en": "Enjoy",
+                    "zh": "享受",
+                    "th": "สนุก",
+                    "ko": "즐기다",
+                    "es": "Disfrutar"
+                  }
+                },
+                {
+                  "target": "练习",
+                  "romanization": "liàn xí",
+                  "native": {
+                    "en": "Practice",
+                    "zh": "练习",
+                    "th": "ฝึก",
+                    "ko": "연습",
+                    "es": "Práctica"
+                  }
+                },
+                {
+                  "target": "放松",
+                  "romanization": "fàng sōng",
+                  "native": {
+                    "en": "Relax",
+                    "zh": "放松",
+                    "th": "พักผ่อน",
+                    "ko": "쉬다",
+                    "es": "Relajarse"
+                  }
+                },
+                {
+                  "target": "户外",
+                  "romanization": "hù wài",
+                  "native": {
+                    "en": "Outdoor",
+                    "zh": "户外",
+                    "th": "กลางแจ้ง",
+                    "ko": "야외",
+                    "es": "Al aire libre"
+                  }
+                },
+                {
+                  "target": "节日",
+                  "romanization": "jié rì",
+                  "native": {
+                    "en": "Festival",
+                    "zh": "节日",
+                    "th": "เทศกาล",
+                    "ko": "축제",
+                    "es": "Festival"
+                  }
+                }
+              ]
             }
           ]
         }

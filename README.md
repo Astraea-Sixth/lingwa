@@ -1,8 +1,8 @@
-# Lingwa 🦊
+# Lingwa
 
-**Learn any language with an AI tutor that actually talks back.**
+**Real AI conversation practice. Free. No account. No $168/year subscription.**
 
-Structured curriculum, spaced repetition, gender-aware speech, and real conversation practice — in Thai, Korean, Spanish, Chinese, English, and more. Runs 100% locally on your machine. Free forever. No account. No subscription.
+Learn any language with an AI tutor that actually talks back — personalized curriculum, spaced repetition, gender-aware speech, and full conversation practice. Runs locally on your machine or deploys free to the cloud.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://python.org)
@@ -11,7 +11,7 @@ Structured curriculum, spaced repetition, gender-aware speech, and real conversa
 
 ---
 
-[![Lingwa Demo — click to watch](demo_thumbnail.png)](demo.mp4)
+> **[ Screenshot / Demo GIF — want to contribute one? Open a PR! ]**
 
 ---
 

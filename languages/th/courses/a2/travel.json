@@ -570,6 +570,417 @@
                   "เช็คอิน"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ที่นั่ง",
+              "romanization": "thee-nang",
+              "options": {
+                "en": [
+                  "Seat",
+                  "Aisle seat",
+                  "Passport",
+                  "Delay"
+                ],
+                "zh": [
+                  "座位",
+                  "靠过道座位",
+                  "护照",
+                  "延误"
+                ],
+                "th": [
+                  "ที่นั่ง",
+                  "ที่นั่งริมทางเดิน",
+                  "หนังสือเดินทาง",
+                  "ล่าช้า"
+                ],
+                "ko": [
+                  "좌석",
+                  "통로 좌석",
+                  "여권",
+                  "지연"
+                ],
+                "es": [
+                  "Asiento",
+                  "Asiento de pasillo",
+                  "Pasaporte",
+                  "Retraso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ที่นั่งครับ",
+                  "romanization": "thee-nang khrap"
+                },
+                "female": {
+                  "word": "ที่นั่งค่ะ",
+                  "romanization": "thee-nang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Aisle seat\"",
+                "zh": "\"靠过道座位\"",
+                "th": "\"ที่นั่งริมทางเดิน\"",
+                "ko": "\"통로 좌석\"",
+                "es": "\"Asiento de pasillo\""
+              },
+              "options": {
+                "neutral": [
+                  "ที่นั่งริมทางเดิน",
+                  "ออกเดินทาง",
+                  "ล่าช้า",
+                  "บัตรขึ้นเครื่อง"
+                ],
+                "male": [
+                  "ที่นั่งริมทางเดินครับ",
+                  "ออกเดินทางครับ",
+                  "ล่าช้าครับ",
+                  "บัตรขึ้นเครื่องครับ"
+                ],
+                "female": [
+                  "ที่นั่งริมทางเดินค่ะ",
+                  "ออกเดินทางค่ะ",
+                  "ล่าช้าค่ะ",
+                  "บัตรขึ้นเครื่องค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "บัตรขึ้นเครื่อง",
+              "romanization": "bat khuen khrueang",
+              "options": {
+                "en": [
+                  "Boarding pass",
+                  "Luggage",
+                  "Window seat",
+                  "Check in"
+                ],
+                "zh": [
+                  "登机牌",
+                  "行李",
+                  "靠窗座位",
+                  "办理登机"
+                ],
+                "th": [
+                  "บัตรขึ้นเครื่อง",
+                  "กระเป๋าเดินทาง",
+                  "ที่นั่งริมหน้าต่าง",
+                  "เช็คอิน"
+                ],
+                "ko": [
+                  "탑승권",
+                  "짐",
+                  "창가 좌석",
+                  "체크인"
+                ],
+                "es": [
+                  "Tarjeta de embarque",
+                  "Equipaje",
+                  "Asiento de ventana",
+                  "Registrarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "บัตรขึ้นเครื่องครับ",
+                  "romanization": "bat khuen khrueang khrap"
+                },
+                "female": {
+                  "audio_text": "บัตรขึ้นเครื่องค่ะ",
+                  "romanization": "bat khuen khrueang kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "มาถึง",
+              "romanization": "maa theung",
+              "options": {
+                "en": [
+                  "Arrival",
+                  "Luggage",
+                  "Window seat",
+                  "Passport"
+                ],
+                "zh": [
+                  "到达",
+                  "行李",
+                  "靠窗座位",
+                  "护照"
+                ],
+                "th": [
+                  "การมาถึง",
+                  "กระเป๋าเดินทาง",
+                  "ที่นั่งริมหน้าต่าง",
+                  "หนังสือเดินทาง"
+                ],
+                "ko": [
+                  "도착",
+                  "짐",
+                  "창가 좌석",
+                  "여권"
+                ],
+                "es": [
+                  "Llegada",
+                  "Equipaje",
+                  "Asiento de ventana",
+                  "Pasaporte"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "มาถึงครับ",
+                  "romanization": "maa theung khrap"
+                },
+                "female": {
+                  "word": "มาถึงค่ะ",
+                  "romanization": "maa theung kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Flight\"",
+                "zh": "\"航班\"",
+                "th": "\"เที่ยวบิน\"",
+                "ko": "\"항공편\"",
+                "es": "\"Vuelo\""
+              },
+              "options": {
+                "neutral": [
+                  "เที่ยวบิน",
+                  "กระเป๋าเดินทาง",
+                  "กระเป๋าเสื้อผ้า",
+                  "ที่นั่งริมทางเดิน"
+                ],
+                "male": [
+                  "เที่ยวบินครับ",
+                  "กระเป๋าเดินทางครับ",
+                  "กระเป๋าเสื้อผ้าครับ",
+                  "ที่นั่งริมทางเดินครับ"
+                ],
+                "female": [
+                  "เที่ยวบินค่ะ",
+                  "กระเป๋าเดินทางค่ะ",
+                  "กระเป๋าเสื้อผ้าค่ะ",
+                  "ที่นั่งริมทางเดินค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "กระเป๋าเสื้อผ้า",
+              "romanization": "gra-bpao suea-phaa",
+              "options": {
+                "en": [
+                  "Suitcase",
+                  "Passport",
+                  "Arrival",
+                  "Check in"
+                ],
+                "zh": [
+                  "手提箱",
+                  "护照",
+                  "到达",
+                  "办理登机"
+                ],
+                "th": [
+                  "กระเป๋าเดินทาง",
+                  "หนังสือเดินทาง",
+                  "การมาถึง",
+                  "เช็คอิน"
+                ],
+                "ko": [
+                  "여행 가방",
+                  "여권",
+                  "도착",
+                  "체크인"
+                ],
+                "es": [
+                  "Maleta",
+                  "Pasaporte",
+                  "Llegada",
+                  "Registrarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "กระเป๋าเสื้อผ้าครับ",
+                  "romanization": "gra-bpao suea-phaa khrap"
+                },
+                "female": {
+                  "audio_text": "กระเป๋าเสื้อผ้าค่ะ",
+                  "romanization": "gra-bpao suea-phaa kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ที่นั่งริมหน้าต่าง",
+              "romanization": "thee-nang rim naa-dtaang",
+              "options": {
+                "en": [
+                  "Window seat",
+                  "Gate",
+                  "Luggage",
+                  "Delay"
+                ],
+                "zh": [
+                  "靠窗座位",
+                  "登机口",
+                  "行李",
+                  "延误"
+                ],
+                "th": [
+                  "ที่นั่งริมหน้าต่าง",
+                  "ประตูขึ้นเครื่อง",
+                  "กระเป๋าเดินทาง",
+                  "ล่าช้า"
+                ],
+                "ko": [
+                  "창가 좌석",
+                  "탑승구",
+                  "짐",
+                  "지연"
+                ],
+                "es": [
+                  "Asiento de ventana",
+                  "Puerta de embarque",
+                  "Equipaje",
+                  "Retraso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ที่นั่งริมหน้าต่างครับ",
+                  "romanization": "thee-nang rim naa-dtaang khrap"
+                },
+                "female": {
+                  "word": "ที่นั่งริมหน้าต่างค่ะ",
+                  "romanization": "thee-nang rim naa-dtaang kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เที่ยวบิน",
+                  "romanization": "thiao-bin",
+                  "native": {
+                    "en": "Flight",
+                    "zh": "航班",
+                    "th": "เที่ยวบิน",
+                    "ko": "항공편",
+                    "es": "Vuelo"
+                  }
+                },
+                {
+                  "target": "มาถึง",
+                  "romanization": "maa theung",
+                  "native": {
+                    "en": "Arrival",
+                    "zh": "到达",
+                    "th": "การมาถึง",
+                    "ko": "도착",
+                    "es": "Llegada"
+                  }
+                },
+                {
+                  "target": "ที่นั่งริมหน้าต่าง",
+                  "romanization": "thee-nang rim naa-dtaang",
+                  "native": {
+                    "en": "Window seat",
+                    "zh": "靠窗座位",
+                    "th": "ที่นั่งริมหน้าต่าง",
+                    "ko": "창가 좌석",
+                    "es": "Asiento de ventana"
+                  }
+                },
+                {
+                  "target": "ที่นั่ง",
+                  "romanization": "thee-nang",
+                  "native": {
+                    "en": "Seat",
+                    "zh": "座位",
+                    "th": "ที่นั่ง",
+                    "ko": "좌석",
+                    "es": "Asiento"
+                  }
+                },
+                {
+                  "target": "ที่นั่งริมทางเดิน",
+                  "romanization": "thee-nang rim taang-doen",
+                  "native": {
+                    "en": "Aisle seat",
+                    "zh": "靠过道座位",
+                    "th": "ที่นั่งริมทางเดิน",
+                    "ko": "통로 좌석",
+                    "es": "Asiento de pasillo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "บัตรขึ้นเครื่อง",
+                  "romanization": "bat khuen khrueang",
+                  "native": {
+                    "en": "Boarding pass",
+                    "zh": "登机牌",
+                    "th": "บัตรขึ้นเครื่อง",
+                    "ko": "탑승권",
+                    "es": "Tarjeta de embarque"
+                  }
+                },
+                {
+                  "target": "เช็คอิน",
+                  "romanization": "chek-in",
+                  "native": {
+                    "en": "Check in",
+                    "zh": "办理登机",
+                    "th": "เช็คอิน",
+                    "ko": "체크인",
+                    "es": "Registrarse"
+                  }
+                },
+                {
+                  "target": "กระเป๋าเสื้อผ้า",
+                  "romanization": "gra-bpao suea-phaa",
+                  "native": {
+                    "en": "Suitcase",
+                    "zh": "手提箱",
+                    "th": "กระเป๋าเดินทาง",
+                    "ko": "여행 가방",
+                    "es": "Maleta"
+                  }
+                },
+                {
+                  "target": "ประตู",
+                  "romanization": "bpra-dtoo",
+                  "native": {
+                    "en": "Gate",
+                    "zh": "登机口",
+                    "th": "ประตูขึ้นเครื่อง",
+                    "ko": "탑승구",
+                    "es": "Puerta de embarque"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -1096,6 +1507,320 @@
                   "ร้านปลอดภาษี"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ขึ้นบิน",
+              "romanization": "kheun bin",
+              "options": {
+                "en": [
+                  "Take off",
+                  "Transfer",
+                  "Land",
+                  "Customs"
+                ],
+                "zh": [
+                  "起飞",
+                  "转机",
+                  "降落",
+                  "海关"
+                ],
+                "th": [
+                  "ขึ้นบิน",
+                  "ต่อเครื่อง",
+                  "ลงจอด",
+                  "ศุลกากร"
+                ],
+                "ko": [
+                  "이륙하다",
+                  "환승",
+                  "착륙하다",
+                  "세관"
+                ],
+                "es": [
+                  "Despegar",
+                  "Trasbordo",
+                  "Aterrizar",
+                  "Aduana"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ขึ้นบินครับ",
+                  "romanization": "kheun bin khrap"
+                },
+                "female": {
+                  "word": "ขึ้นบินค่ะ",
+                  "romanization": "kheun bin kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Boarding\"",
+                "zh": "\"登机\"",
+                "th": "\"ขึ้นเครื่อง\"",
+                "ko": "\"탑승\"",
+                "es": "\"Embarque\""
+              },
+              "options": {
+                "neutral": [
+                  "ขึ้นเครื่อง",
+                  "ร้านปลอดภาษี",
+                  "ศุลกากร",
+                  "อาคารผู้โดยสาร"
+                ],
+                "male": [
+                  "ขึ้นเครื่องครับ",
+                  "ร้านปลอดภาษีครับ",
+                  "ศุลกากรครับ",
+                  "อาคารผู้โดยสารครับ"
+                ],
+                "female": [
+                  "ขึ้นเครื่องค่ะ",
+                  "ร้านปลอดภาษีค่ะ",
+                  "ศุลกากรค่ะ",
+                  "อาคารผู้โดยสารค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "อาคารผู้โดยสาร",
+              "romanization": "aa-khaan phoo-doi-saan",
+              "options": {
+                "en": [
+                  "Terminal",
+                  "Customs",
+                  "Transfer",
+                  "Boarding"
+                ],
+                "zh": [
+                  "航站楼",
+                  "海关",
+                  "转机",
+                  "登机"
+                ],
+                "th": [
+                  "อาคารผู้โดยสาร",
+                  "ศุลกากร",
+                  "ต่อเครื่อง",
+                  "ขึ้นเครื่อง"
+                ],
+                "ko": [
+                  "터미널",
+                  "세관",
+                  "환승",
+                  "탑승"
+                ],
+                "es": [
+                  "Terminal",
+                  "Aduana",
+                  "Trasbordo",
+                  "Embarque"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "อาคารผู้โดยสารครับ",
+                  "romanization": "aa-khaan phoo-doi-saan khrap"
+                },
+                "female": {
+                  "audio_text": "อาคารผู้โดยสารค่ะ",
+                  "romanization": "aa-khaan phoo-doi-saan kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ต่อเครื่อง",
+              "romanization": "dtor khrueang",
+              "options": {
+                "en": [
+                  "Transfer",
+                  "Immigration",
+                  "Take off",
+                  "On time"
+                ],
+                "zh": [
+                  "转机",
+                  "入境处",
+                  "起飞",
+                  "准时"
+                ],
+                "th": [
+                  "ต่อเครื่อง",
+                  "ตรวจคนเข้าเมือง",
+                  "ขึ้นบิน",
+                  "ตรงเวลา"
+                ],
+                "ko": [
+                  "환승",
+                  "출입국관리",
+                  "이륙하다",
+                  "정시에"
+                ],
+                "es": [
+                  "Trasbordo",
+                  "Inmigración",
+                  "Despegar",
+                  "A tiempo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ต่อเครื่องครับ",
+                  "romanization": "dtor khrueang khrap"
+                },
+                "female": {
+                  "word": "ต่อเครื่องค่ะ",
+                  "romanization": "dtor khrueang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"On time\"",
+                "zh": "\"准时\"",
+                "th": "\"ตรงเวลา\"",
+                "ko": "\"정시에\"",
+                "es": "\"A tiempo\""
+              },
+              "options": {
+                "neutral": [
+                  "ตรงเวลา",
+                  "ขึ้นบิน",
+                  "ร้านปลอดภาษี",
+                  "วีซ่า"
+                ],
+                "male": [
+                  "ตรงเวลาครับ",
+                  "ขึ้นบินครับ",
+                  "ร้านปลอดภาษีครับ",
+                  "วีซ่าครับ"
+                ],
+                "female": [
+                  "ตรงเวลาค่ะ",
+                  "ขึ้นบินค่ะ",
+                  "ร้านปลอดภาษีค่ะ",
+                  "วีซ่าค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "วีซ่า",
+              "romanization": "wee-saa",
+              "options": {
+                "en": [
+                  "Visa",
+                  "On time",
+                  "Transfer",
+                  "Immigration"
+                ],
+                "zh": [
+                  "签证",
+                  "准时",
+                  "转机",
+                  "入境处"
+                ],
+                "th": [
+                  "วีซ่า",
+                  "ตรงเวลา",
+                  "ต่อเครื่อง",
+                  "ตรวจคนเข้าเมือง"
+                ],
+                "ko": [
+                  "비자",
+                  "정시에",
+                  "환승",
+                  "출입국관리"
+                ],
+                "es": [
+                  "Visa",
+                  "A tiempo",
+                  "Trasbordo",
+                  "Inmigración"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "วีซ่าครับ",
+                  "romanization": "wee-saa khrap"
+                },
+                "female": {
+                  "audio_text": "วีซ่าค่ะ",
+                  "romanization": "wee-saa kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ต่อเครื่อง",
+                  "romanization": "dtor khrueang",
+                  "native": {
+                    "en": "Transfer",
+                    "zh": "转机",
+                    "th": "ต่อเครื่อง",
+                    "ko": "환승",
+                    "es": "Trasbordo"
+                  }
+                },
+                {
+                  "target": "ขึ้นบิน",
+                  "romanization": "kheun bin",
+                  "native": {
+                    "en": "Take off",
+                    "zh": "起飞",
+                    "th": "ขึ้นบิน",
+                    "ko": "이륙하다",
+                    "es": "Despegar"
+                  }
+                },
+                {
+                  "target": "ขึ้นเครื่อง",
+                  "romanization": "kheun khrueang",
+                  "native": {
+                    "en": "Boarding",
+                    "zh": "登机",
+                    "th": "ขึ้นเครื่อง",
+                    "ko": "탑승",
+                    "es": "Embarque"
+                  }
+                },
+                {
+                  "target": "ตรวจคนเข้าเมือง",
+                  "romanization": "dtruat khon khao mueang",
+                  "native": {
+                    "en": "Immigration",
+                    "zh": "入境处",
+                    "th": "ตรวจคนเข้าเมือง",
+                    "ko": "출입국관리",
+                    "es": "Inmigración"
+                  }
+                },
+                {
+                  "target": "อาคารผู้โดยสาร",
+                  "romanization": "aa-khaan phoo-doi-saan",
+                  "native": {
+                    "en": "Terminal",
+                    "zh": "航站楼",
+                    "th": "อาคารผู้โดยสาร",
+                    "ko": "터미널",
+                    "es": "Terminal"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1656,6 +2381,417 @@
                   "มุม"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "รถไฟใต้ดิน",
+              "romanization": "rot-fai dtai-din",
+              "options": {
+                "en": [
+                  "Underground",
+                  "Corner",
+                  "Traffic",
+                  "Turn right"
+                ],
+                "zh": [
+                  "地铁",
+                  "拐角",
+                  "交通",
+                  "右转"
+                ],
+                "th": [
+                  "รถไฟใต้ดิน",
+                  "มุม",
+                  "การจราจร",
+                  "เลี้ยวขวา"
+                ],
+                "ko": [
+                  "지하철",
+                  "모퉁이",
+                  "교통",
+                  "우회전"
+                ],
+                "es": [
+                  "Metro",
+                  "Esquina",
+                  "Tráfico",
+                  "Girar a la derecha"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "รถไฟใต้ดินครับ",
+                  "romanization": "rot-fai dtai-din khrap"
+                },
+                "female": {
+                  "word": "รถไฟใต้ดินค่ะ",
+                  "romanization": "rot-fai dtai-din kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Direction\"",
+                "zh": "\"方向\"",
+                "th": "\"ทิศทาง\"",
+                "ko": "\"방향\"",
+                "es": "\"Dirección\""
+              },
+              "options": {
+                "neutral": [
+                  "ทิศทาง",
+                  "ชานชาลา",
+                  "ตรงไป",
+                  "ตั๋วเที่ยวเดียว"
+                ],
+                "male": [
+                  "ทิศทางครับ",
+                  "ชานชาลาครับ",
+                  "ตรงไปครับ",
+                  "ตั๋วเที่ยวเดียวครับ"
+                ],
+                "female": [
+                  "ทิศทางค่ะ",
+                  "ชานชาลาค่ะ",
+                  "ตรงไปค่ะ",
+                  "ตั๋วเที่ยวเดียวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ป้ายรถเมล์",
+              "romanization": "bpaai rot-meh",
+              "options": {
+                "en": [
+                  "Bus stop",
+                  "Direction",
+                  "Map",
+                  "Platform"
+                ],
+                "zh": [
+                  "公交站",
+                  "方向",
+                  "地图",
+                  "站台"
+                ],
+                "th": [
+                  "ป้ายรถเมล์",
+                  "ทิศทาง",
+                  "แผนที่",
+                  "ชานชาลา"
+                ],
+                "ko": [
+                  "버스 정류장",
+                  "방향",
+                  "지도",
+                  "플랫폼"
+                ],
+                "es": [
+                  "Parada de autobús",
+                  "Dirección",
+                  "Mapa",
+                  "Andén"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ป้ายรถเมล์ครับ",
+                  "romanization": "bpaai rot-meh khrap"
+                },
+                "female": {
+                  "audio_text": "ป้ายรถเมล์ค่ะ",
+                  "romanization": "bpaai rot-meh kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ตั๋วเที่ยวเดียว",
+              "romanization": "dtua thiao-diao",
+              "options": {
+                "en": [
+                  "Single ticket",
+                  "Traffic",
+                  "Turn left",
+                  "Timetable"
+                ],
+                "zh": [
+                  "单程票",
+                  "交通",
+                  "左转",
+                  "时刻表"
+                ],
+                "th": [
+                  "ตั๋วเที่ยวเดียว",
+                  "การจราจร",
+                  "เลี้ยวซ้าย",
+                  "ตารางเวลา"
+                ],
+                "ko": [
+                  "편도 티켓",
+                  "교통",
+                  "좌회전",
+                  "시간표"
+                ],
+                "es": [
+                  "Boleto sencillo",
+                  "Tráfico",
+                  "Girar a la izquierda",
+                  "Horario"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ตั๋วเที่ยวเดียวครับ",
+                  "romanization": "dtua thiao-diao khrap"
+                },
+                "female": {
+                  "word": "ตั๋วเที่ยวเดียวค่ะ",
+                  "romanization": "dtua thiao-diao kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Straight ahead\"",
+                "zh": "\"直走\"",
+                "th": "\"ตรงไป\"",
+                "ko": "\"직진\"",
+                "es": "\"Todo recto\""
+              },
+              "options": {
+                "neutral": [
+                  "ตรงไป",
+                  "เลี้ยวขวา",
+                  "ทิศทาง",
+                  "ตั๋วเที่ยวเดียว"
+                ],
+                "male": [
+                  "ตรงไปครับ",
+                  "เลี้ยวขวาครับ",
+                  "ทิศทางครับ",
+                  "ตั๋วเที่ยวเดียวครับ"
+                ],
+                "female": [
+                  "ตรงไปค่ะ",
+                  "เลี้ยวขวาค่ะ",
+                  "ทิศทางค่ะ",
+                  "ตั๋วเที่ยวเดียวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ตารางเวลา",
+              "romanization": "dtaa-raang wee-laa",
+              "options": {
+                "en": [
+                  "Timetable",
+                  "Bus stop",
+                  "Platform",
+                  "Traffic"
+                ],
+                "zh": [
+                  "时刻表",
+                  "公交站",
+                  "站台",
+                  "交通"
+                ],
+                "th": [
+                  "ตารางเวลา",
+                  "ป้ายรถเมล์",
+                  "ชานชาลา",
+                  "การจราจร"
+                ],
+                "ko": [
+                  "시간표",
+                  "버스 정류장",
+                  "플랫폼",
+                  "교통"
+                ],
+                "es": [
+                  "Horario",
+                  "Parada de autobús",
+                  "Andén",
+                  "Tráfico"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ตารางเวลาครับ",
+                  "romanization": "dtaa-raang wee-laa khrap"
+                },
+                "female": {
+                  "audio_text": "ตารางเวลาค่ะ",
+                  "romanization": "dtaa-raang wee-laa kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ตั๋วไปกลับ",
+              "romanization": "dtua bpai-glap",
+              "options": {
+                "en": [
+                  "Return ticket",
+                  "Turn right",
+                  "Timetable",
+                  "Turn left"
+                ],
+                "zh": [
+                  "往返票",
+                  "右转",
+                  "时刻表",
+                  "左转"
+                ],
+                "th": [
+                  "ตั๋วไปกลับ",
+                  "เลี้ยวขวา",
+                  "ตารางเวลา",
+                  "เลี้ยวซ้าย"
+                ],
+                "ko": [
+                  "왕복 티켓",
+                  "우회전",
+                  "시간표",
+                  "좌회전"
+                ],
+                "es": [
+                  "Boleto de ida y vuelta",
+                  "Girar a la derecha",
+                  "Horario",
+                  "Girar a la izquierda"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ตั๋วไปกลับครับ",
+                  "romanization": "dtua bpai-glap khrap"
+                },
+                "female": {
+                  "word": "ตั๋วไปกลับค่ะ",
+                  "romanization": "dtua bpai-glap kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ป้ายรถเมล์",
+                  "romanization": "bpaai rot-meh",
+                  "native": {
+                    "en": "Bus stop",
+                    "zh": "公交站",
+                    "th": "ป้ายรถเมล์",
+                    "ko": "버스 정류장",
+                    "es": "Parada de autobús"
+                  }
+                },
+                {
+                  "target": "ทิศทาง",
+                  "romanization": "thit-taang",
+                  "native": {
+                    "en": "Direction",
+                    "zh": "方向",
+                    "th": "ทิศทาง",
+                    "ko": "방향",
+                    "es": "Dirección"
+                  }
+                },
+                {
+                  "target": "ตั๋วเที่ยวเดียว",
+                  "romanization": "dtua thiao-diao",
+                  "native": {
+                    "en": "Single ticket",
+                    "zh": "单程票",
+                    "th": "ตั๋วเที่ยวเดียว",
+                    "ko": "편도 티켓",
+                    "es": "Boleto sencillo"
+                  }
+                },
+                {
+                  "target": "ตั๋วไปกลับ",
+                  "romanization": "dtua bpai-glap",
+                  "native": {
+                    "en": "Return ticket",
+                    "zh": "往返票",
+                    "th": "ตั๋วไปกลับ",
+                    "ko": "왕복 티켓",
+                    "es": "Boleto de ida y vuelta"
+                  }
+                },
+                {
+                  "target": "ตารางเวลา",
+                  "romanization": "dtaa-raang wee-laa",
+                  "native": {
+                    "en": "Timetable",
+                    "zh": "时刻表",
+                    "th": "ตารางเวลา",
+                    "ko": "시간표",
+                    "es": "Horario"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "รถไฟใต้ดิน",
+                  "romanization": "rot-fai dtai-din",
+                  "native": {
+                    "en": "Underground",
+                    "zh": "地铁",
+                    "th": "รถไฟใต้ดิน",
+                    "ko": "지하철",
+                    "es": "Metro"
+                  }
+                },
+                {
+                  "target": "เลี้ยวซ้าย",
+                  "romanization": "liao saai",
+                  "native": {
+                    "en": "Turn left",
+                    "zh": "左转",
+                    "th": "เลี้ยวซ้าย",
+                    "ko": "좌회전",
+                    "es": "Girar a la izquierda"
+                  }
+                },
+                {
+                  "target": "มุม",
+                  "romanization": "mum",
+                  "native": {
+                    "en": "Corner",
+                    "zh": "拐角",
+                    "th": "มุม",
+                    "ko": "모퉁이",
+                    "es": "Esquina"
+                  }
+                },
+                {
+                  "target": "ตรงไป",
+                  "romanization": "dtrong bpai",
+                  "native": {
+                    "en": "Straight ahead",
+                    "zh": "直走",
+                    "th": "ตรงไป",
+                    "ko": "직진",
+                    "es": "Todo recto"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -2182,6 +3318,320 @@
                   "หลงทาง"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ค่าผ่านทาง",
+              "romanization": "khaa-phaan-taang",
+              "options": {
+                "en": [
+                  "Toll",
+                  "Shortcut",
+                  "Distance",
+                  "Pedestrian"
+                ],
+                "zh": [
+                  "过路费",
+                  "捷径",
+                  "距离",
+                  "行人"
+                ],
+                "th": [
+                  "ค่าผ่านทาง",
+                  "ทางลัด",
+                  "ระยะทาง",
+                  "คนเดินเท้า"
+                ],
+                "ko": [
+                  "통행료",
+                  "지름길",
+                  "거리",
+                  "보행자"
+                ],
+                "es": [
+                  "Peaje",
+                  "Atajo",
+                  "Distancia",
+                  "Peatón"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ค่าผ่านทางครับ",
+                  "romanization": "khaa-phaan-taang khrap"
+                },
+                "female": {
+                  "word": "ค่าผ่านทางค่ะ",
+                  "romanization": "khaa-phaan-taang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Journey\"",
+                "zh": "\"旅程\"",
+                "th": "\"การเดินทาง\"",
+                "ko": "\"여정\"",
+                "es": "\"Viaje\""
+              },
+              "options": {
+                "neutral": [
+                  "การเดินทาง",
+                  "หลงทาง",
+                  "กิโลเมตร",
+                  "ระยะทาง"
+                ],
+                "male": [
+                  "การเดินทางครับ",
+                  "หลงทางครับ",
+                  "กิโลเมตรครับ",
+                  "ระยะทางครับ"
+                ],
+                "female": [
+                  "การเดินทางค่ะ",
+                  "หลงทางค่ะ",
+                  "กิโลเมตรค่ะ",
+                  "ระยะทางค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ทางด่วน",
+              "romanization": "taang-duan",
+              "options": {
+                "en": [
+                  "Motorway",
+                  "Rush hour",
+                  "Mile",
+                  "Pedestrian"
+                ],
+                "zh": [
+                  "高速公路",
+                  "高峰时段",
+                  "英里",
+                  "行人"
+                ],
+                "th": [
+                  "ทางด่วน",
+                  "ชั่วโมงเร่งด่วน",
+                  "ไมล์",
+                  "คนเดินเท้า"
+                ],
+                "ko": [
+                  "고속도로",
+                  "러시아워",
+                  "마일",
+                  "보행자"
+                ],
+                "es": [
+                  "Autopista",
+                  "Hora pico",
+                  "Milla",
+                  "Peatón"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ทางด่วนครับ",
+                  "romanization": "taang-duan khrap"
+                },
+                "female": {
+                  "audio_text": "ทางด่วนค่ะ",
+                  "romanization": "taang-duan kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ทางข้าม",
+              "romanization": "taang-khaam",
+              "options": {
+                "en": [
+                  "Crossing",
+                  "Shortcut",
+                  "Toll",
+                  "Mile"
+                ],
+                "zh": [
+                  "人行横道",
+                  "捷径",
+                  "过路费",
+                  "英里"
+                ],
+                "th": [
+                  "ทางข้าม",
+                  "ทางลัด",
+                  "ค่าผ่านทาง",
+                  "ไมล์"
+                ],
+                "ko": [
+                  "횡단보도",
+                  "지름길",
+                  "통행료",
+                  "마일"
+                ],
+                "es": [
+                  "Cruce",
+                  "Atajo",
+                  "Peaje",
+                  "Milla"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ทางข้ามครับ",
+                  "romanization": "taang-khaam khrap"
+                },
+                "female": {
+                  "word": "ทางข้ามค่ะ",
+                  "romanization": "taang-khaam kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Mile\"",
+                "zh": "\"英里\"",
+                "th": "\"ไมล์\"",
+                "ko": "\"마일\"",
+                "es": "\"Milla\""
+              },
+              "options": {
+                "neutral": [
+                  "ไมล์",
+                  "หลงทาง",
+                  "กิโลเมตร",
+                  "ระยะทาง"
+                ],
+                "male": [
+                  "ไมล์ครับ",
+                  "หลงทางครับ",
+                  "กิโลเมตรครับ",
+                  "ระยะทางครับ"
+                ],
+                "female": [
+                  "ไมล์ค่ะ",
+                  "หลงทางค่ะ",
+                  "กิโลเมตรค่ะ",
+                  "ระยะทางค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "คนเดินเท้า",
+              "romanization": "khon doen-thao",
+              "options": {
+                "en": [
+                  "Pedestrian",
+                  "Mile",
+                  "Motorway",
+                  "Distance"
+                ],
+                "zh": [
+                  "行人",
+                  "英里",
+                  "高速公路",
+                  "距离"
+                ],
+                "th": [
+                  "คนเดินเท้า",
+                  "ไมล์",
+                  "ทางด่วน",
+                  "ระยะทาง"
+                ],
+                "ko": [
+                  "보행자",
+                  "마일",
+                  "고속도로",
+                  "거리"
+                ],
+                "es": [
+                  "Peatón",
+                  "Milla",
+                  "Autopista",
+                  "Distancia"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "คนเดินเท้าครับ",
+                  "romanization": "khon doen-thao khrap"
+                },
+                "female": {
+                  "audio_text": "คนเดินเท้าค่ะ",
+                  "romanization": "khon doen-thao kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ค่าผ่านทาง",
+                  "romanization": "khaa-phaan-taang",
+                  "native": {
+                    "en": "Toll",
+                    "zh": "过路费",
+                    "th": "ค่าผ่านทาง",
+                    "ko": "통행료",
+                    "es": "Peaje"
+                  }
+                },
+                {
+                  "target": "ทางด่วน",
+                  "romanization": "taang-duan",
+                  "native": {
+                    "en": "Motorway",
+                    "zh": "高速公路",
+                    "th": "ทางด่วน",
+                    "ko": "고속도로",
+                    "es": "Autopista"
+                  }
+                },
+                {
+                  "target": "ทางข้าม",
+                  "romanization": "taang-khaam",
+                  "native": {
+                    "en": "Crossing",
+                    "zh": "人行横道",
+                    "th": "ทางข้าม",
+                    "ko": "횡단보도",
+                    "es": "Cruce"
+                  }
+                },
+                {
+                  "target": "หลงทาง",
+                  "romanization": "long taang",
+                  "native": {
+                    "en": "Lost",
+                    "zh": "迷路",
+                    "th": "หลง",
+                    "ko": "길을 잃은",
+                    "es": "Perdido"
+                  }
+                },
+                {
+                  "target": "ไมล์",
+                  "romanization": "mai",
+                  "native": {
+                    "en": "Mile",
+                    "zh": "英里",
+                    "th": "ไมล์",
+                    "ko": "마일",
+                    "es": "Milla"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -2742,6 +4192,417 @@
                   "เช็คอิน"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "แผนกต้อนรับ",
+              "romanization": "pha-naek dton-rap",
+              "options": {
+                "en": [
+                  "Reception",
+                  "Guesthouse",
+                  "Hotel",
+                  "Key card"
+                ],
+                "zh": [
+                  "前台",
+                  "民宿",
+                  "酒店",
+                  "房卡"
+                ],
+                "th": [
+                  "แผนกต้อนรับ",
+                  "เกสต์เฮาส์",
+                  "โรงแรม",
+                  "คีย์การ์ด"
+                ],
+                "ko": [
+                  "프런트",
+                  "게스트하우스",
+                  "호텔",
+                  "키카드"
+                ],
+                "es": [
+                  "Recepción",
+                  "Casa de huéspedes",
+                  "Hotel",
+                  "Tarjeta de acceso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "แผนกต้อนรับครับ",
+                  "romanization": "pha-naek dton-rap khrap"
+                },
+                "female": {
+                  "word": "แผนกต้อนรับค่ะ",
+                  "romanization": "pha-naek dton-rap kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Twin room\"",
+                "zh": "\"双床间\"",
+                "th": "\"ห้องเตียงคู่แยก\"",
+                "ko": "\"트윈룸\"",
+                "es": "\"Habitación con dos camas\""
+              },
+              "options": {
+                "neutral": [
+                  "ห้องเตียงคู่",
+                  "โฮสเทล",
+                  "คีย์การ์ด",
+                  "เกสต์เฮาส์"
+                ],
+                "male": [
+                  "ห้องเตียงคู่ครับ",
+                  "โฮสเทลครับ",
+                  "คีย์การ์ดครับ",
+                  "เกสต์เฮาส์ครับ"
+                ],
+                "female": [
+                  "ห้องเตียงคู่ค่ะ",
+                  "โฮสเทลค่ะ",
+                  "คีย์การ์ดค่ะ",
+                  "เกสต์เฮาส์ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "โฮสเทล",
+              "romanization": "hoht-then",
+              "options": {
+                "en": [
+                  "Hostel",
+                  "Single room",
+                  "Check in",
+                  "Booking"
+                ],
+                "zh": [
+                  "青年旅舍",
+                  "单人间",
+                  "办理入住",
+                  "预订"
+                ],
+                "th": [
+                  "โฮสเทล",
+                  "ห้องเตียงเดี่ยว",
+                  "เช็คอิน",
+                  "การจอง"
+                ],
+                "ko": [
+                  "호스텔",
+                  "싱글룸",
+                  "체크인",
+                  "예약"
+                ],
+                "es": [
+                  "Hostal",
+                  "Habitación individual",
+                  "Registrarse",
+                  "Reserva"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "โฮสเทลครับ",
+                  "romanization": "hoht-then khrap"
+                },
+                "female": {
+                  "audio_text": "โฮสเทลค่ะ",
+                  "romanization": "hoht-then kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ห้องคู่",
+              "romanization": "hong-khoo",
+              "options": {
+                "en": [
+                  "Double room",
+                  "Booking",
+                  "Guesthouse",
+                  "Room"
+                ],
+                "zh": [
+                  "双人间",
+                  "预订",
+                  "民宿",
+                  "房间"
+                ],
+                "th": [
+                  "ห้องเตียงคู่",
+                  "การจอง",
+                  "เกสต์เฮาส์",
+                  "ห้อง"
+                ],
+                "ko": [
+                  "더블룸",
+                  "예약",
+                  "게스트하우스",
+                  "방"
+                ],
+                "es": [
+                  "Habitación doble",
+                  "Reserva",
+                  "Casa de huéspedes",
+                  "Habitación"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ห้องคู่ครับ",
+                  "romanization": "hong-khoo khrap"
+                },
+                "female": {
+                  "word": "ห้องคู่ค่ะ",
+                  "romanization": "hong-khoo kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Key card\"",
+                "zh": "\"房卡\"",
+                "th": "\"คีย์การ์ด\"",
+                "ko": "\"키카드\"",
+                "es": "\"Tarjeta de acceso\""
+              },
+              "options": {
+                "neutral": [
+                  "คีย์การ์ด",
+                  "ห้องคู่",
+                  "แผนกต้อนรับ",
+                  "เกสต์เฮาส์"
+                ],
+                "male": [
+                  "คีย์การ์ดครับ",
+                  "ห้องคู่ครับ",
+                  "แผนกต้อนรับครับ",
+                  "เกสต์เฮาส์ครับ"
+                ],
+                "female": [
+                  "คีย์การ์ดค่ะ",
+                  "ห้องคู่ค่ะ",
+                  "แผนกต้อนรับค่ะ",
+                  "เกสต์เฮาส์ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "การจอง",
+              "romanization": "gaan-jong",
+              "options": {
+                "en": [
+                  "Booking",
+                  "Single room",
+                  "Hostel",
+                  "Twin room"
+                ],
+                "zh": [
+                  "预订",
+                  "单人间",
+                  "青年旅舍",
+                  "双床间"
+                ],
+                "th": [
+                  "การจอง",
+                  "ห้องเตียงเดี่ยว",
+                  "โฮสเทล",
+                  "ห้องเตียงคู่แยก"
+                ],
+                "ko": [
+                  "예약",
+                  "싱글룸",
+                  "호스텔",
+                  "트윈룸"
+                ],
+                "es": [
+                  "Reserva",
+                  "Habitación individual",
+                  "Hostal",
+                  "Habitación con dos camas"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "การจองครับ",
+                  "romanization": "gaan-jong khrap"
+                },
+                "female": {
+                  "audio_text": "การจองค่ะ",
+                  "romanization": "gaan-jong kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ห้องสวีท",
+              "romanization": "hong-sa-weet",
+              "options": {
+                "en": [
+                  "Suite",
+                  "Double room",
+                  "Check out",
+                  "Key card"
+                ],
+                "zh": [
+                  "套房",
+                  "双人间",
+                  "退房",
+                  "房卡"
+                ],
+                "th": [
+                  "ห้องสวีท",
+                  "ห้องเตียงคู่",
+                  "เช็คเอาท์",
+                  "คีย์การ์ด"
+                ],
+                "ko": [
+                  "스위트룸",
+                  "더블룸",
+                  "체크아웃",
+                  "키카드"
+                ],
+                "es": [
+                  "Suite",
+                  "Habitación doble",
+                  "Salir del hotel",
+                  "Tarjeta de acceso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ห้องสวีทครับ",
+                  "romanization": "hong-sa-weet khrap"
+                },
+                "female": {
+                  "word": "ห้องสวีทค่ะ",
+                  "romanization": "hong-sa-weet kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "การจอง",
+                  "romanization": "gaan-jong",
+                  "native": {
+                    "en": "Booking",
+                    "zh": "预订",
+                    "th": "การจอง",
+                    "ko": "예약",
+                    "es": "Reserva"
+                  }
+                },
+                {
+                  "target": "เช็คอิน",
+                  "romanization": "chek-in",
+                  "native": {
+                    "en": "Check in",
+                    "zh": "办理入住",
+                    "th": "เช็คอิน",
+                    "ko": "체크인",
+                    "es": "Registrarse"
+                  }
+                },
+                {
+                  "target": "ห้องสวีท",
+                  "romanization": "hong-sa-weet",
+                  "native": {
+                    "en": "Suite",
+                    "zh": "套房",
+                    "th": "ห้องสวีท",
+                    "ko": "스위트룸",
+                    "es": "Suite"
+                  }
+                },
+                {
+                  "target": "เกสต์เฮาส์",
+                  "romanization": "geht-hao",
+                  "native": {
+                    "en": "Guesthouse",
+                    "zh": "民宿",
+                    "th": "เกสต์เฮาส์",
+                    "ko": "게스트하우스",
+                    "es": "Casa de huéspedes"
+                  }
+                },
+                {
+                  "target": "ห้องเตียงคู่",
+                  "romanization": "hong-dtiang-khoo",
+                  "native": {
+                    "en": "Twin room",
+                    "zh": "双床间",
+                    "th": "ห้องเตียงคู่แยก",
+                    "ko": "트윈룸",
+                    "es": "Habitación con dos camas"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "คีย์การ์ด",
+                  "romanization": "khee-gaat",
+                  "native": {
+                    "en": "Key card",
+                    "zh": "房卡",
+                    "th": "คีย์การ์ด",
+                    "ko": "키카드",
+                    "es": "Tarjeta de acceso"
+                  }
+                },
+                {
+                  "target": "แผนกต้อนรับ",
+                  "romanization": "pha-naek dton-rap",
+                  "native": {
+                    "en": "Reception",
+                    "zh": "前台",
+                    "th": "แผนกต้อนรับ",
+                    "ko": "프런트",
+                    "es": "Recepción"
+                  }
+                },
+                {
+                  "target": "ห้องคู่",
+                  "romanization": "hong-khoo",
+                  "native": {
+                    "en": "Double room",
+                    "zh": "双人间",
+                    "th": "ห้องเตียงคู่",
+                    "ko": "더블룸",
+                    "es": "Habitación doble"
+                  }
+                },
+                {
+                  "target": "โฮสเทล",
+                  "romanization": "hoht-then",
+                  "native": {
+                    "en": "Hostel",
+                    "zh": "青年旅舍",
+                    "th": "โฮสเทล",
+                    "ko": "호스텔",
+                    "es": "Hostal"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -3268,6 +5129,320 @@
                   "แอร์"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "เสียงดัง",
+              "romanization": "siang-dang",
+              "options": {
+                "en": [
+                  "Noisy",
+                  "Parking",
+                  "Quiet",
+                  "Floor"
+                ],
+                "zh": [
+                  "吵闹",
+                  "停车场",
+                  "安静",
+                  "楼层"
+                ],
+                "th": [
+                  "เสียงดัง",
+                  "ที่จอดรถ",
+                  "เงียบ",
+                  "พื้น"
+                ],
+                "ko": [
+                  "시끄러운",
+                  "주차장",
+                  "조용한",
+                  "바닥"
+                ],
+                "es": [
+                  "Ruidoso",
+                  "Estacionamiento",
+                  "Tranquilo",
+                  "Piso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เสียงดังครับ",
+                  "romanization": "siang-dang khrap"
+                },
+                "female": {
+                  "word": "เสียงดังค่ะ",
+                  "romanization": "siang-dang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Complaint\"",
+                "zh": "\"投诉\"",
+                "th": "\"ข้อร้องเรียน\"",
+                "ko": "\"불만\"",
+                "es": "\"Queja\""
+              },
+              "options": {
+                "neutral": [
+                  "ร้องเรียน",
+                  "ที่จอดรถ",
+                  "ลิฟต์",
+                  "รวมอาหารเช้า"
+                ],
+                "male": [
+                  "ร้องเรียนครับ",
+                  "ที่จอดรถครับ",
+                  "ลิฟต์ครับ",
+                  "รวมอาหารเช้าครับ"
+                ],
+                "female": [
+                  "ร้องเรียนค่ะ",
+                  "ที่จอดรถค่ะ",
+                  "ลิฟต์ค่ะ",
+                  "รวมอาหารเช้าค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "คืนเงิน",
+              "romanization": "khuen-ngoen",
+              "options": {
+                "en": [
+                  "Refund",
+                  "Lift",
+                  "Towel",
+                  "View"
+                ],
+                "zh": [
+                  "退款",
+                  "电梯",
+                  "毛巾",
+                  "景色"
+                ],
+                "th": [
+                  "คืนเงิน",
+                  "ลิฟต์",
+                  "ผ้าเช็ดตัว",
+                  "วิว"
+                ],
+                "ko": [
+                  "환불",
+                  "엘리베이터",
+                  "수건",
+                  "전망"
+                ],
+                "es": [
+                  "Reembolso",
+                  "Ascensor",
+                  "Toalla",
+                  "Vista"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "คืนเงินครับ",
+                  "romanization": "khuen-ngoen khrap"
+                },
+                "female": {
+                  "audio_text": "คืนเงินค่ะ",
+                  "romanization": "khuen-ngoen kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "เงียบ",
+              "romanization": "ngiap",
+              "options": {
+                "en": [
+                  "Quiet",
+                  "Complaint",
+                  "Air conditioning",
+                  "Towel"
+                ],
+                "zh": [
+                  "安静",
+                  "投诉",
+                  "空调",
+                  "毛巾"
+                ],
+                "th": [
+                  "เงียบ",
+                  "ข้อร้องเรียน",
+                  "แอร์",
+                  "ผ้าเช็ดตัว"
+                ],
+                "ko": [
+                  "조용한",
+                  "불만",
+                  "에어컨",
+                  "수건"
+                ],
+                "es": [
+                  "Tranquilo",
+                  "Queja",
+                  "Aire acondicionado",
+                  "Toalla"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เงียบครับ",
+                  "romanization": "ngiap khrap"
+                },
+                "female": {
+                  "word": "เงียบค่ะ",
+                  "romanization": "ngiap kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Lift\"",
+                "zh": "\"电梯\"",
+                "th": "\"ลิฟต์\"",
+                "ko": "\"엘리베이터\"",
+                "es": "\"Ascensor\""
+              },
+              "options": {
+                "neutral": [
+                  "ลิฟต์",
+                  "ผ้าเช็ดตัว",
+                  "เงียบ",
+                  "แอร์"
+                ],
+                "male": [
+                  "ลิฟต์ครับ",
+                  "ผ้าเช็ดตัวครับ",
+                  "เงียบครับ",
+                  "แอร์ครับ"
+                ],
+                "female": [
+                  "ลิฟต์ค่ะ",
+                  "ผ้าเช็ดตัวค่ะ",
+                  "เงียบค่ะ",
+                  "แอร์ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ไวไฟ",
+              "romanization": "wai-fai",
+              "options": {
+                "en": [
+                  "Wifi",
+                  "Complaint",
+                  "Air conditioning",
+                  "Refund"
+                ],
+                "zh": [
+                  "无线网络",
+                  "投诉",
+                  "空调",
+                  "退款"
+                ],
+                "th": [
+                  "ไวไฟ",
+                  "ข้อร้องเรียน",
+                  "แอร์",
+                  "คืนเงิน"
+                ],
+                "ko": [
+                  "와이파이",
+                  "불만",
+                  "에어컨",
+                  "환불"
+                ],
+                "es": [
+                  "Wifi",
+                  "Queja",
+                  "Aire acondicionado",
+                  "Reembolso"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ไวไฟครับ",
+                  "romanization": "wai-fai khrap"
+                },
+                "female": {
+                  "audio_text": "ไวไฟค่ะ",
+                  "romanization": "wai-fai kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ร้องเรียน",
+                  "romanization": "rong-rian",
+                  "native": {
+                    "en": "Complaint",
+                    "zh": "投诉",
+                    "th": "ข้อร้องเรียน",
+                    "ko": "불만",
+                    "es": "Queja"
+                  }
+                },
+                {
+                  "target": "ลิฟต์",
+                  "romanization": "lip",
+                  "native": {
+                    "en": "Lift",
+                    "zh": "电梯",
+                    "th": "ลิฟต์",
+                    "ko": "엘리베이터",
+                    "es": "Ascensor"
+                  }
+                },
+                {
+                  "target": "เงียบ",
+                  "romanization": "ngiap",
+                  "native": {
+                    "en": "Quiet",
+                    "zh": "安静",
+                    "th": "เงียบ",
+                    "ko": "조용한",
+                    "es": "Tranquilo"
+                  }
+                },
+                {
+                  "target": "ผ้าเช็ดตัว",
+                  "romanization": "phaa-chet-dtua",
+                  "native": {
+                    "en": "Towel",
+                    "zh": "毛巾",
+                    "th": "ผ้าเช็ดตัว",
+                    "ko": "수건",
+                    "es": "Toalla"
+                  }
+                },
+                {
+                  "target": "แอร์",
+                  "romanization": "ae",
+                  "native": {
+                    "en": "Air conditioning",
+                    "zh": "空调",
+                    "th": "แอร์",
+                    "ko": "에어컨",
+                    "es": "Aire acondicionado"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -3828,6 +6003,417 @@
                   "ทัวร์"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "กล้อง",
+              "romanization": "glong",
+              "options": {
+                "en": [
+                  "Camera",
+                  "Closed",
+                  "Castle",
+                  "Ruins"
+                ],
+                "zh": [
+                  "相机",
+                  "关闭",
+                  "城堡",
+                  "遗迹"
+                ],
+                "th": [
+                  "กล้องถ่ายรูป",
+                  "ปิด",
+                  "ปราสาท",
+                  "ซากปรักหักพัง"
+                ],
+                "ko": [
+                  "카메라",
+                  "닫힌",
+                  "성",
+                  "유적"
+                ],
+                "es": [
+                  "Cámara",
+                  "Cerrado",
+                  "Castillo",
+                  "Ruinas"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "กล้องครับ",
+                  "romanization": "glong khrap"
+                },
+                "female": {
+                  "word": "กล้องค่ะ",
+                  "romanization": "glong kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Entrance fee\"",
+                "zh": "\"门票\"",
+                "th": "\"ค่าเข้าชม\"",
+                "ko": "\"입장료\"",
+                "es": "\"Entrada\""
+              },
+              "options": {
+                "neutral": [
+                  "ค่าเข้าชม",
+                  "กล้อง",
+                  "ของที่ระลึก",
+                  "รูปถ่าย"
+                ],
+                "male": [
+                  "ค่าเข้าชมครับ",
+                  "กล้องครับ",
+                  "ของที่ระลึกครับ",
+                  "รูปถ่ายครับ"
+                ],
+                "female": [
+                  "ค่าเข้าชมค่ะ",
+                  "กล้องค่ะ",
+                  "ของที่ระลึกค่ะ",
+                  "รูปถ่ายค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "รูปถ่าย",
+              "romanization": "roop-thaai",
+              "options": {
+                "en": [
+                  "Photo",
+                  "Souvenir",
+                  "Entrance fee",
+                  "Museum"
+                ],
+                "zh": [
+                  "照片",
+                  "纪念品",
+                  "门票",
+                  "博物馆"
+                ],
+                "th": [
+                  "รูปถ่าย",
+                  "ของที่ระลึก",
+                  "ค่าเข้าชม",
+                  "พิพิธภัณฑ์"
+                ],
+                "ko": [
+                  "사진",
+                  "기념품",
+                  "입장료",
+                  "박물관"
+                ],
+                "es": [
+                  "Foto",
+                  "Recuerdo",
+                  "Entrada",
+                  "Museo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "รูปถ่ายครับ",
+                  "romanization": "roop-thaai khrap"
+                },
+                "female": {
+                  "audio_text": "รูปถ่ายค่ะ",
+                  "romanization": "roop-thaai kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "เวลาเปิด",
+              "romanization": "wee-laa bpoet",
+              "options": {
+                "en": [
+                  "Opening hours",
+                  "Photo",
+                  "Entrance fee",
+                  "Museum"
+                ],
+                "zh": [
+                  "开放时间",
+                  "照片",
+                  "门票",
+                  "博物馆"
+                ],
+                "th": [
+                  "เวลาเปิดทำการ",
+                  "รูปถ่าย",
+                  "ค่าเข้าชม",
+                  "พิพิธภัณฑ์"
+                ],
+                "ko": [
+                  "영업시간",
+                  "사진",
+                  "입장료",
+                  "박물관"
+                ],
+                "es": [
+                  "Horario de atención",
+                  "Foto",
+                  "Entrada",
+                  "Museo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เวลาเปิดครับ",
+                  "romanization": "wee-laa bpoet khrap"
+                },
+                "female": {
+                  "word": "เวลาเปิดค่ะ",
+                  "romanization": "wee-laa bpoet kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Souvenir\"",
+                "zh": "\"纪念品\"",
+                "th": "\"ของที่ระลึก\"",
+                "ko": "\"기념품\"",
+                "es": "\"Recuerdo\""
+              },
+              "options": {
+                "neutral": [
+                  "ของที่ระลึก",
+                  "ปิด",
+                  "เวลาเปิด",
+                  "อนุสาวรีย์"
+                ],
+                "male": [
+                  "ของที่ระลึกครับ",
+                  "ปิดครับ",
+                  "เวลาเปิดครับ",
+                  "อนุสาวรีย์ครับ"
+                ],
+                "female": [
+                  "ของที่ระลึกค่ะ",
+                  "ปิดค่ะ",
+                  "เวลาเปิดค่ะ",
+                  "อนุสาวรีย์ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "อนุสาวรีย์",
+              "romanization": "a-nu-saa-wa-ree",
+              "options": {
+                "en": [
+                  "Monument",
+                  "Museum",
+                  "Tour",
+                  "Camera"
+                ],
+                "zh": [
+                  "纪念碑",
+                  "博物馆",
+                  "旅游团",
+                  "相机"
+                ],
+                "th": [
+                  "อนุสาวรีย์",
+                  "พิพิธภัณฑ์",
+                  "ทัวร์",
+                  "กล้องถ่ายรูป"
+                ],
+                "ko": [
+                  "기념비",
+                  "박물관",
+                  "투어",
+                  "카메라"
+                ],
+                "es": [
+                  "Monumento",
+                  "Museo",
+                  "Tour",
+                  "Cámara"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "อนุสาวรีย์ครับ",
+                  "romanization": "a-nu-saa-wa-ree khrap"
+                },
+                "female": {
+                  "audio_text": "อนุสาวรีย์ค่ะ",
+                  "romanization": "a-nu-saa-wa-ree kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ซากปรักหักพัง",
+              "romanization": "saak-bprak-hak-phang",
+              "options": {
+                "en": [
+                  "Ruins",
+                  "Monument",
+                  "Cathedral",
+                  "Camera"
+                ],
+                "zh": [
+                  "遗迹",
+                  "纪念碑",
+                  "大教堂",
+                  "相机"
+                ],
+                "th": [
+                  "ซากปรักหักพัง",
+                  "อนุสาวรีย์",
+                  "มหาวิหาร",
+                  "กล้องถ่ายรูป"
+                ],
+                "ko": [
+                  "유적",
+                  "기념비",
+                  "대성당",
+                  "카메라"
+                ],
+                "es": [
+                  "Ruinas",
+                  "Monumento",
+                  "Catedral",
+                  "Cámara"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ซากปรักหักพังครับ",
+                  "romanization": "saak-bprak-hak-phang khrap"
+                },
+                "female": {
+                  "word": "ซากปรักหักพังค่ะ",
+                  "romanization": "saak-bprak-hak-phang kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "อนุสาวรีย์",
+                  "romanization": "a-nu-saa-wa-ree",
+                  "native": {
+                    "en": "Monument",
+                    "zh": "纪念碑",
+                    "th": "อนุสาวรีย์",
+                    "ko": "기념비",
+                    "es": "Monumento"
+                  }
+                },
+                {
+                  "target": "ค่าเข้าชม",
+                  "romanization": "khaa-khao-chom",
+                  "native": {
+                    "en": "Entrance fee",
+                    "zh": "门票",
+                    "th": "ค่าเข้าชม",
+                    "ko": "입장료",
+                    "es": "Entrada"
+                  }
+                },
+                {
+                  "target": "ของที่ระลึก",
+                  "romanization": "khong-thee-ra-luek",
+                  "native": {
+                    "en": "Souvenir",
+                    "zh": "纪念品",
+                    "th": "ของที่ระลึก",
+                    "ko": "기념품",
+                    "es": "Recuerdo"
+                  }
+                },
+                {
+                  "target": "ปราสาท",
+                  "romanization": "bpraa-saat",
+                  "native": {
+                    "en": "Castle",
+                    "zh": "城堡",
+                    "th": "ปราสาท",
+                    "ko": "성",
+                    "es": "Castillo"
+                  }
+                },
+                {
+                  "target": "ซากปรักหักพัง",
+                  "romanization": "saak-bprak-hak-phang",
+                  "native": {
+                    "en": "Ruins",
+                    "zh": "遗迹",
+                    "th": "ซากปรักหักพัง",
+                    "ko": "유적",
+                    "es": "Ruinas"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เวลาเปิด",
+                  "romanization": "wee-laa bpoet",
+                  "native": {
+                    "en": "Opening hours",
+                    "zh": "开放时间",
+                    "th": "เวลาเปิดทำการ",
+                    "ko": "영업시간",
+                    "es": "Horario de atención"
+                  }
+                },
+                {
+                  "target": "รูปถ่าย",
+                  "romanization": "roop-thaai",
+                  "native": {
+                    "en": "Photo",
+                    "zh": "照片",
+                    "th": "รูปถ่าย",
+                    "ko": "사진",
+                    "es": "Foto"
+                  }
+                },
+                {
+                  "target": "ทัวร์",
+                  "romanization": "thua",
+                  "native": {
+                    "en": "Tour",
+                    "zh": "旅游团",
+                    "th": "ทัวร์",
+                    "ko": "투어",
+                    "es": "Tour"
+                  }
+                },
+                {
+                  "target": "กล้อง",
+                  "romanization": "glong",
+                  "native": {
+                    "en": "Camera",
+                    "zh": "相机",
+                    "th": "กล้องถ่ายรูป",
+                    "ko": "카메라",
+                    "es": "Cámara"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -4354,6 +6940,320 @@
                   "แกลเลอรี่"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "เป็นที่นิยม",
+              "romanization": "bpen-thee-ni-yom",
+              "options": {
+                "en": [
+                  "Popular",
+                  "Local",
+                  "Crowded",
+                  "Culture"
+                ],
+                "zh": [
+                  "受欢迎的",
+                  "当地的",
+                  "拥挤",
+                  "文化"
+                ],
+                "th": [
+                  "เป็นที่นิยม",
+                  "ท้องถิ่น",
+                  "แออัด",
+                  "วัฒนธรรม"
+                ],
+                "ko": [
+                  "인기 있는",
+                  "현지의",
+                  "붐비는",
+                  "문화"
+                ],
+                "es": [
+                  "Popular",
+                  "Local",
+                  "Lleno de gente",
+                  "Cultura"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เป็นที่นิยมครับ",
+                  "romanization": "bpen-thee-ni-yom khrap"
+                },
+                "female": {
+                  "word": "เป็นที่นิยมค่ะ",
+                  "romanization": "bpen-thee-ni-yom kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Queue\"",
+                "zh": "\"排队\"",
+                "th": "\"คิว\"",
+                "ko": "\"줄\"",
+                "es": "\"Fila\""
+              },
+              "options": {
+                "neutral": [
+                  "เข้าคิว",
+                  "จุดชมวิว",
+                  "ท้องถิ่น",
+                  "นิทรรศการ"
+                ],
+                "male": [
+                  "เข้าคิวครับ",
+                  "จุดชมวิวครับ",
+                  "ท้องถิ่นครับ",
+                  "นิทรรศการครับ"
+                ],
+                "female": [
+                  "เข้าคิวค่ะ",
+                  "จุดชมวิวค่ะ",
+                  "ท้องถิ่นค่ะ",
+                  "นิทรรศการค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "จุดชมวิว",
+              "romanization": "jut-chom-wiu",
+              "options": {
+                "en": [
+                  "Viewpoint",
+                  "Crowded",
+                  "Architecture",
+                  "History"
+                ],
+                "zh": [
+                  "观景点",
+                  "拥挤",
+                  "建筑",
+                  "历史"
+                ],
+                "th": [
+                  "จุดชมวิว",
+                  "แออัด",
+                  "สถาปัตยกรรม",
+                  "ประวัติศาสตร์"
+                ],
+                "ko": [
+                  "전망대",
+                  "붐비는",
+                  "건축",
+                  "역사"
+                ],
+                "es": [
+                  "Mirador",
+                  "Lleno de gente",
+                  "Arquitectura",
+                  "Historia"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "จุดชมวิวครับ",
+                  "romanization": "jut-chom-wiu khrap"
+                },
+                "female": {
+                  "audio_text": "จุดชมวิวค่ะ",
+                  "romanization": "jut-chom-wiu kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "วัฒนธรรม",
+              "romanization": "wat-tha-na-tham",
+              "options": {
+                "en": [
+                  "Culture",
+                  "Park",
+                  "History",
+                  "Local"
+                ],
+                "zh": [
+                  "文化",
+                  "公园",
+                  "历史",
+                  "当地的"
+                ],
+                "th": [
+                  "วัฒนธรรม",
+                  "สวนสาธารณะ",
+                  "ประวัติศาสตร์",
+                  "ท้องถิ่น"
+                ],
+                "ko": [
+                  "문화",
+                  "공원",
+                  "역사",
+                  "현지의"
+                ],
+                "es": [
+                  "Cultura",
+                  "Parque",
+                  "Historia",
+                  "Local"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "วัฒนธรรมครับ",
+                  "romanization": "wat-tha-na-tham khrap"
+                },
+                "female": {
+                  "word": "วัฒนธรรมค่ะ",
+                  "romanization": "wat-tha-na-tham kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Worth it\"",
+                "zh": "\"值得\"",
+                "th": "\"คุ้มค่า\"",
+                "ko": "\"그만한 가치가 있는\"",
+                "es": "\"Vale la pena\""
+              },
+              "options": {
+                "neutral": [
+                  "คุ้มค่า",
+                  "ประวัติศาสตร์",
+                  "จุดชมวิว",
+                  "สถาปัตยกรรม"
+                ],
+                "male": [
+                  "คุ้มค่าครับ",
+                  "ประวัติศาสตร์ครับ",
+                  "จุดชมวิวครับ",
+                  "สถาปัตยกรรมครับ"
+                ],
+                "female": [
+                  "คุ้มค่าค่ะ",
+                  "ประวัติศาสตร์ค่ะ",
+                  "จุดชมวิวค่ะ",
+                  "สถาปัตยกรรมค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "นิทรรศการ",
+              "romanization": "ni-that-sa-gaan",
+              "options": {
+                "en": [
+                  "Exhibition",
+                  "Popular",
+                  "History",
+                  "Viewpoint"
+                ],
+                "zh": [
+                  "展览",
+                  "受欢迎的",
+                  "历史",
+                  "观景点"
+                ],
+                "th": [
+                  "นิทรรศการ",
+                  "เป็นที่นิยม",
+                  "ประวัติศาสตร์",
+                  "จุดชมวิว"
+                ],
+                "ko": [
+                  "전시회",
+                  "인기 있는",
+                  "역사",
+                  "전망대"
+                ],
+                "es": [
+                  "Exposición",
+                  "Popular",
+                  "Historia",
+                  "Mirador"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "นิทรรศการครับ",
+                  "romanization": "ni-that-sa-gaan khrap"
+                },
+                "female": {
+                  "audio_text": "นิทรรศการค่ะ",
+                  "romanization": "ni-that-sa-gaan kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ประวัติศาสตร์",
+                  "romanization": "bpra-wat-ti-saat",
+                  "native": {
+                    "en": "History",
+                    "zh": "历史",
+                    "th": "ประวัติศาสตร์",
+                    "ko": "역사",
+                    "es": "Historia"
+                  }
+                },
+                {
+                  "target": "วัฒนธรรม",
+                  "romanization": "wat-tha-na-tham",
+                  "native": {
+                    "en": "Culture",
+                    "zh": "文化",
+                    "th": "วัฒนธรรม",
+                    "ko": "문화",
+                    "es": "Cultura"
+                  }
+                },
+                {
+                  "target": "จุดชมวิว",
+                  "romanization": "jut-chom-wiu",
+                  "native": {
+                    "en": "Viewpoint",
+                    "zh": "观景点",
+                    "th": "จุดชมวิว",
+                    "ko": "전망대",
+                    "es": "Mirador"
+                  }
+                },
+                {
+                  "target": "นิทรรศการ",
+                  "romanization": "ni-that-sa-gaan",
+                  "native": {
+                    "en": "Exhibition",
+                    "zh": "展览",
+                    "th": "นิทรรศการ",
+                    "ko": "전시회",
+                    "es": "Exposición"
+                  }
+                },
+                {
+                  "target": "เข้าคิว",
+                  "romanization": "khao-khiu",
+                  "native": {
+                    "en": "Queue",
+                    "zh": "排队",
+                    "th": "คิว",
+                    "ko": "줄",
+                    "es": "Fila"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -4914,6 +7814,417 @@
                   "ตำรวจ"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ถูกขโมย",
+              "romanization": "thuuk-kha-moi",
+              "options": {
+                "en": [
+                  "Stolen",
+                  "Broken",
+                  "Emergency",
+                  "Complaint"
+                ],
+                "zh": [
+                  "被偷",
+                  "坏了",
+                  "紧急情况",
+                  "投诉"
+                ],
+                "th": [
+                  "ถูกขโมย",
+                  "พัง",
+                  "เหตุฉุกเฉิน",
+                  "ข้อร้องเรียน"
+                ],
+                "ko": [
+                  "도난당한",
+                  "고장 난",
+                  "비상사태",
+                  "불만"
+                ],
+                "es": [
+                  "Robado",
+                  "Roto",
+                  "Emergencia",
+                  "Queja"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ถูกขโมยครับ",
+                  "romanization": "thuuk-kha-moi khrap"
+                },
+                "female": {
+                  "word": "ถูกขโมยค่ะ",
+                  "romanization": "thuuk-kha-moi kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Refund\"",
+                "zh": "\"退款\"",
+                "th": "\"คืนเงิน\"",
+                "ko": "\"환불\"",
+                "es": "\"Reembolso\""
+              },
+              "options": {
+                "neutral": [
+                  "คืนเงิน",
+                  "ร้องเรียน",
+                  "สูญหาย",
+                  "ประกัน"
+                ],
+                "male": [
+                  "คืนเงินครับ",
+                  "ร้องเรียนครับ",
+                  "สูญหายครับ",
+                  "ประกันครับ"
+                ],
+                "female": [
+                  "คืนเงินค่ะ",
+                  "ร้องเรียนค่ะ",
+                  "สูญหายค่ะ",
+                  "ประกันค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ยกเลิก",
+              "romanization": "yok-loek",
+              "options": {
+                "en": [
+                  "Cancel",
+                  "Police",
+                  "Hospital",
+                  "Missing"
+                ],
+                "zh": [
+                  "取消",
+                  "警察",
+                  "医院",
+                  "遗失"
+                ],
+                "th": [
+                  "ยกเลิก",
+                  "ตำรวจ",
+                  "โรงพยาบาล",
+                  "สูญหาย"
+                ],
+                "ko": [
+                  "취소하다",
+                  "경찰",
+                  "병원",
+                  "분실된"
+                ],
+                "es": [
+                  "Cancelar",
+                  "Policía",
+                  "Hospital",
+                  "Perdido"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ยกเลิกครับ",
+                  "romanization": "yok-loek khrap"
+                },
+                "female": {
+                  "audio_text": "ยกเลิกค่ะ",
+                  "romanization": "yok-loek kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ร้องเรียน",
+              "romanization": "rong-rian",
+              "options": {
+                "en": [
+                  "Complaint",
+                  "Broken",
+                  "Cancel",
+                  "Stolen"
+                ],
+                "zh": [
+                  "投诉",
+                  "坏了",
+                  "取消",
+                  "被偷"
+                ],
+                "th": [
+                  "ข้อร้องเรียน",
+                  "พัง",
+                  "ยกเลิก",
+                  "ถูกขโมย"
+                ],
+                "ko": [
+                  "불만",
+                  "고장 난",
+                  "취소하다",
+                  "도난당한"
+                ],
+                "es": [
+                  "Queja",
+                  "Roto",
+                  "Cancelar",
+                  "Robado"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ร้องเรียนครับ",
+                  "romanization": "rong-rian khrap"
+                },
+                "female": {
+                  "word": "ร้องเรียนค่ะ",
+                  "romanization": "rong-rian kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Insurance\"",
+                "zh": "\"保险\"",
+                "th": "\"ประกัน\"",
+                "ko": "\"보험\"",
+                "es": "\"Seguro\""
+              },
+              "options": {
+                "neutral": [
+                  "ประกัน",
+                  "เปลี่ยน",
+                  "ยกเลิก",
+                  "สูญหาย"
+                ],
+                "male": [
+                  "ประกันครับ",
+                  "เปลี่ยนครับ",
+                  "ยกเลิกครับ",
+                  "สูญหายครับ"
+                ],
+                "female": [
+                  "ประกันค่ะ",
+                  "เปลี่ยนค่ะ",
+                  "ยกเลิกค่ะ",
+                  "สูญหายค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "รถพยาบาล",
+              "romanization": "rot-pha-yaa-baan",
+              "options": {
+                "en": [
+                  "Ambulance",
+                  "Hospital",
+                  "Stolen",
+                  "Broken"
+                ],
+                "zh": [
+                  "救护车",
+                  "医院",
+                  "被偷",
+                  "坏了"
+                ],
+                "th": [
+                  "รถพยาบาล",
+                  "โรงพยาบาล",
+                  "ถูกขโมย",
+                  "พัง"
+                ],
+                "ko": [
+                  "구급차",
+                  "병원",
+                  "도난당한",
+                  "고장 난"
+                ],
+                "es": [
+                  "Ambulancia",
+                  "Hospital",
+                  "Robado",
+                  "Roto"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "รถพยาบาลครับ",
+                  "romanization": "rot-pha-yaa-baan khrap"
+                },
+                "female": {
+                  "audio_text": "รถพยาบาลค่ะ",
+                  "romanization": "rot-pha-yaa-baan kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "เหตุฉุกเฉิน",
+              "romanization": "heh-tu chuk-choen",
+              "options": {
+                "en": [
+                  "Emergency",
+                  "Police",
+                  "Complaint",
+                  "Replace"
+                ],
+                "zh": [
+                  "紧急情况",
+                  "警察",
+                  "投诉",
+                  "更换"
+                ],
+                "th": [
+                  "เหตุฉุกเฉิน",
+                  "ตำรวจ",
+                  "ข้อร้องเรียน",
+                  "เปลี่ยน"
+                ],
+                "ko": [
+                  "비상사태",
+                  "경찰",
+                  "불만",
+                  "교체하다"
+                ],
+                "es": [
+                  "Emergencia",
+                  "Policía",
+                  "Queja",
+                  "Reemplazar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เหตุฉุกเฉินครับ",
+                  "romanization": "heh-tu chuk-choen khrap"
+                },
+                "female": {
+                  "word": "เหตุฉุกเฉินค่ะ",
+                  "romanization": "heh-tu chuk-choen kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "รถพยาบาล",
+                  "romanization": "rot-pha-yaa-baan",
+                  "native": {
+                    "en": "Ambulance",
+                    "zh": "救护车",
+                    "th": "รถพยาบาล",
+                    "ko": "구급차",
+                    "es": "Ambulancia"
+                  }
+                },
+                {
+                  "target": "เหตุฉุกเฉิน",
+                  "romanization": "heh-tu chuk-choen",
+                  "native": {
+                    "en": "Emergency",
+                    "zh": "紧急情况",
+                    "th": "เหตุฉุกเฉิน",
+                    "ko": "비상사태",
+                    "es": "Emergencia"
+                  }
+                },
+                {
+                  "target": "ร้องเรียน",
+                  "romanization": "rong-rian",
+                  "native": {
+                    "en": "Complaint",
+                    "zh": "投诉",
+                    "th": "ข้อร้องเรียน",
+                    "ko": "불만",
+                    "es": "Queja"
+                  }
+                },
+                {
+                  "target": "ตำรวจ",
+                  "romanization": "dtam-ruat",
+                  "native": {
+                    "en": "Police",
+                    "zh": "警察",
+                    "th": "ตำรวจ",
+                    "ko": "경찰",
+                    "es": "Policía"
+                  }
+                },
+                {
+                  "target": "ยกเลิก",
+                  "romanization": "yok-loek",
+                  "native": {
+                    "en": "Cancel",
+                    "zh": "取消",
+                    "th": "ยกเลิก",
+                    "ko": "취소하다",
+                    "es": "Cancelar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "คืนเงิน",
+                  "romanization": "khuen-ngoen",
+                  "native": {
+                    "en": "Refund",
+                    "zh": "退款",
+                    "th": "คืนเงิน",
+                    "ko": "환불",
+                    "es": "Reembolso"
+                  }
+                },
+                {
+                  "target": "ประกัน",
+                  "romanization": "bpra-gan",
+                  "native": {
+                    "en": "Insurance",
+                    "zh": "保险",
+                    "th": "ประกัน",
+                    "ko": "보험",
+                    "es": "Seguro"
+                  }
+                },
+                {
+                  "target": "ถูกขโมย",
+                  "romanization": "thuuk-kha-moi",
+                  "native": {
+                    "en": "Stolen",
+                    "zh": "被偷",
+                    "th": "ถูกขโมย",
+                    "ko": "도난당한",
+                    "es": "Robado"
+                  }
+                },
+                {
+                  "target": "พัง",
+                  "romanization": "phang",
+                  "native": {
+                    "en": "Broken",
+                    "zh": "坏了",
+                    "th": "พัง",
+                    "ko": "고장 난",
+                    "es": "Roto"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -5440,6 +8751,320 @@
                   "สถานทูต"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "คิดเกิน",
+              "romanization": "khit-goen",
+              "options": {
+                "en": [
+                  "Overcharge",
+                  "Scam",
+                  "Pickpocket",
+                  "Help"
+                ],
+                "zh": [
+                  "多收费",
+                  "骗局",
+                  "扒手",
+                  "帮忙"
+                ],
+                "th": [
+                  "คิดราคาเกิน",
+                  "หลอกลวง",
+                  "นักล้วงกระเป๋า",
+                  "ช่วย"
+                ],
+                "ko": [
+                  "바가지 씌우다",
+                  "사기",
+                  "소매치기",
+                  "돕다"
+                ],
+                "es": [
+                  "Cobrar de más",
+                  "Estafa",
+                  "Carterista",
+                  "Ayudar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "คิดเกินครับ",
+                  "romanization": "khit-goen khrap"
+                },
+                "female": {
+                  "word": "คิดเกินค่ะ",
+                  "romanization": "khit-goen kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Wrong\"",
+                "zh": "\"错的\"",
+                "th": "\"ผิด\"",
+                "ko": "\"틀린\"",
+                "es": "\"Incorrecto\""
+              },
+              "options": {
+                "neutral": [
+                  "ผิด",
+                  "แจ้งความ",
+                  "คิดเกิน",
+                  "ติดต่อ"
+                ],
+                "male": [
+                  "ผิดครับ",
+                  "แจ้งความครับ",
+                  "คิดเกินครับ",
+                  "ติดต่อครับ"
+                ],
+                "female": [
+                  "ผิดค่ะ",
+                  "แจ้งความค่ะ",
+                  "คิดเกินค่ะ",
+                  "ติดต่อค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ระวัง",
+              "romanization": "ra-wang",
+              "options": {
+                "en": [
+                  "Careful",
+                  "Scam",
+                  "Help",
+                  "Urgent"
+                ],
+                "zh": [
+                  "小心",
+                  "骗局",
+                  "帮忙",
+                  "紧急"
+                ],
+                "th": [
+                  "ระวัง",
+                  "หลอกลวง",
+                  "ช่วย",
+                  "เร่งด่วน"
+                ],
+                "ko": [
+                  "조심하는",
+                  "사기",
+                  "돕다",
+                  "긴급한"
+                ],
+                "es": [
+                  "Cuidadoso",
+                  "Estafa",
+                  "Ayudar",
+                  "Urgente"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ระวังครับ",
+                  "romanization": "ra-wang khrap"
+                },
+                "female": {
+                  "audio_text": "ระวังค่ะ",
+                  "romanization": "ra-wang kha"
+                }
+              }
+            },
+            {
+              "type": "target_to_native",
+              "word": "ปลอดภัย",
+              "romanization": "bplot-phai",
+              "options": {
+                "en": [
+                  "Safe",
+                  "Contact",
+                  "Urgent",
+                  "Embassy"
+                ],
+                "zh": [
+                  "安全",
+                  "联系",
+                  "紧急",
+                  "大使馆"
+                ],
+                "th": [
+                  "ปลอดภัย",
+                  "ติดต่อ",
+                  "เร่งด่วน",
+                  "สถานทูต"
+                ],
+                "ko": [
+                  "안전한",
+                  "연락하다",
+                  "긴급한",
+                  "대사관"
+                ],
+                "es": [
+                  "Seguro",
+                  "Contactar",
+                  "Urgente",
+                  "Embajada"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ปลอดภัยครับ",
+                  "romanization": "bplot-phai khrap"
+                },
+                "female": {
+                  "word": "ปลอดภัยค่ะ",
+                  "romanization": "bplot-phai kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Pickpocket\"",
+                "zh": "\"扒手\"",
+                "th": "\"นักล้วงกระเป๋า\"",
+                "ko": "\"소매치기\"",
+                "es": "\"Carterista\""
+              },
+              "options": {
+                "neutral": [
+                  "ล้วงกระเป๋า",
+                  "ผิดพลาด",
+                  "ปลอดภัย",
+                  "สถานทูต"
+                ],
+                "male": [
+                  "ล้วงกระเป๋าครับ",
+                  "ผิดพลาดครับ",
+                  "ปลอดภัยครับ",
+                  "สถานทูตครับ"
+                ],
+                "female": [
+                  "ล้วงกระเป๋าค่ะ",
+                  "ผิดพลาดค่ะ",
+                  "ปลอดภัยค่ะ",
+                  "สถานทูตค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ติดต่อ",
+              "romanization": "dtit-dtor",
+              "options": {
+                "en": [
+                  "Contact",
+                  "Urgent",
+                  "Report",
+                  "Overcharge"
+                ],
+                "zh": [
+                  "联系",
+                  "紧急",
+                  "报案",
+                  "多收费"
+                ],
+                "th": [
+                  "ติดต่อ",
+                  "เร่งด่วน",
+                  "แจ้งความ",
+                  "คิดราคาเกิน"
+                ],
+                "ko": [
+                  "연락하다",
+                  "긴급한",
+                  "신고하다",
+                  "바가지 씌우다"
+                ],
+                "es": [
+                  "Contactar",
+                  "Urgente",
+                  "Reportar",
+                  "Cobrar de más"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ติดต่อครับ",
+                  "romanization": "dtit-dtor khrap"
+                },
+                "female": {
+                  "audio_text": "ติดต่อค่ะ",
+                  "romanization": "dtit-dtor kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ล้วงกระเป๋า",
+                  "romanization": "luang-gra-bpao",
+                  "native": {
+                    "en": "Pickpocket",
+                    "zh": "扒手",
+                    "th": "นักล้วงกระเป๋า",
+                    "ko": "소매치기",
+                    "es": "Carterista"
+                  }
+                },
+                {
+                  "target": "สถานทูต",
+                  "romanization": "sa-thaan-thoot",
+                  "native": {
+                    "en": "Embassy",
+                    "zh": "大使馆",
+                    "th": "สถานทูต",
+                    "ko": "대사관",
+                    "es": "Embajada"
+                  }
+                },
+                {
+                  "target": "ระวัง",
+                  "romanization": "ra-wang",
+                  "native": {
+                    "en": "Careful",
+                    "zh": "小心",
+                    "th": "ระวัง",
+                    "ko": "조심하는",
+                    "es": "Cuidadoso"
+                  }
+                },
+                {
+                  "target": "ผิด",
+                  "romanization": "phit",
+                  "native": {
+                    "en": "Wrong",
+                    "zh": "错的",
+                    "th": "ผิด",
+                    "ko": "틀린",
+                    "es": "Incorrecto"
+                  }
+                },
+                {
+                  "target": "คิดเกิน",
+                  "romanization": "khit-goen",
+                  "native": {
+                    "en": "Overcharge",
+                    "zh": "多收费",
+                    "th": "คิดราคาเกิน",
+                    "ko": "바가지 씌우다",
+                    "es": "Cobrar de más"
+                  }
+                }
+              ]
             }
           ]
         }

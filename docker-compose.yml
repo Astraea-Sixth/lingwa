@@ -69,11 +69,11 @@ services:
       context: ./webapp
       dockerfile: Dockerfile
       args:
-        - API_BASE_URL=http://api:5005
+        - API_BASE_URL=http://api:5003
     ports:
       - "3004:3004"
     environment:
-      - API_BASE_URL=http://api:5005
+      - API_BASE_URL=http://api:5003
     depends_on:
       api:
         condition: service_healthy

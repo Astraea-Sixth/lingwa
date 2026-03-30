@@ -438,6 +438,449 @@
                 "ko": "자기 소개해 주세요는 첫 출근에 자주 쓰는 말이에요.",
                 "es": "자기 소개해 주세요 significa 'Preséntese'. Frase estándar del primer día."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "회사",
+              "romanization": "hoesa",
+              "options": {
+                "en": [
+                  "Company",
+                  "Team",
+                  "Greeting/HR",
+                  "Introduction"
+                ],
+                "zh": [
+                  "公司",
+                  "团队",
+                  "打招呼/人事",
+                  "介绍"
+                ],
+                "th": [
+                  "บริษัท",
+                  "ทีม",
+                  "ทักทาย/ฝ่ายบุคคล",
+                  "แนะนำตัว"
+                ],
+                "ko": [
+                  "회사",
+                  "팀",
+                  "인사",
+                  "소개"
+                ],
+                "es": [
+                  "Empresa",
+                  "Equipo",
+                  "Saludo/RRHH",
+                  "Presentación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Boss/Superior\"",
+                "zh": "\"上司\"",
+                "th": "\"หัวหน้า\"",
+                "ko": "\"상사\"",
+                "es": "\"Jefe/Superior\""
+              },
+              "options": {
+                "neutral": [
+                  "상사",
+                  "직장",
+                  "인사",
+                  "직원"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "부서",
+              "romanization": "buseo",
+              "options": {
+                "en": [
+                  "Department",
+                  "Team",
+                  "Office",
+                  "Boss/Superior"
+                ],
+                "zh": [
+                  "部门",
+                  "团队",
+                  "办公室",
+                  "上司"
+                ],
+                "th": [
+                  "แผนก",
+                  "ทีม",
+                  "สำนักงาน",
+                  "หัวหน้า"
+                ],
+                "ko": [
+                  "부서",
+                  "팀",
+                  "사무실",
+                  "상사"
+                ],
+                "es": [
+                  "Departamento",
+                  "Equipo",
+                  "Oficina",
+                  "Jefe/Superior"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "직원",
+              "romanization": "jigwon",
+              "options": {
+                "en": [
+                  "Employee",
+                  "Colleague",
+                  "Meeting",
+                  "Going to work"
+                ],
+                "zh": [
+                  "员工",
+                  "同事",
+                  "会议",
+                  "上班"
+                ],
+                "th": [
+                  "พนักงาน",
+                  "เพื่อนร่วมงาน",
+                  "การประชุม",
+                  "ไปทำงาน"
+                ],
+                "ko": [
+                  "직원",
+                  "동료",
+                  "회의",
+                  "출근"
+                ],
+                "es": [
+                  "Empleado",
+                  "Colega",
+                  "Reunión",
+                  "Ir al trabajo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Greeting/HR\"",
+                "zh": "\"打招呼/人事\"",
+                "th": "\"ทักทาย/ฝ่ายบุคคล\"",
+                "ko": "\"인사\"",
+                "es": "\"Saludo/RRHH\""
+              },
+              "options": {
+                "neutral": [
+                  "인사",
+                  "명함",
+                  "부서",
+                  "사무실"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "소개",
+              "romanization": "sogae",
+              "options": {
+                "en": [
+                  "Introduction",
+                  "Overtime",
+                  "Meeting",
+                  "Employee"
+                ],
+                "zh": [
+                  "介绍",
+                  "加班",
+                  "会议",
+                  "员工"
+                ],
+                "th": [
+                  "แนะนำตัว",
+                  "ทำงานล่วงเวลา",
+                  "การประชุม",
+                  "พนักงาน"
+                ],
+                "ko": [
+                  "소개",
+                  "야근",
+                  "회의",
+                  "직원"
+                ],
+                "es": [
+                  "Presentación",
+                  "Horas extra",
+                  "Reunión",
+                  "Empleado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "직장",
+              "romanization": "jikjang",
+              "options": {
+                "en": [
+                  "Workplace",
+                  "Business card",
+                  "Leaving work",
+                  "Department"
+                ],
+                "zh": [
+                  "职场",
+                  "名片",
+                  "下班",
+                  "部门"
+                ],
+                "th": [
+                  "ที่ทำงาน",
+                  "นามบัตร",
+                  "เลิกงาน",
+                  "แผนก"
+                ],
+                "ko": [
+                  "직장",
+                  "명함",
+                  "퇴근",
+                  "부서"
+                ],
+                "es": [
+                  "Lugar de trabajo",
+                  "Tarjeta de visita",
+                  "Salir del trabajo",
+                  "Departamento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Office\"",
+                "zh": "\"办公室\"",
+                "th": "\"สำนักงาน\"",
+                "ko": "\"사무실\"",
+                "es": "\"Oficina\""
+              },
+              "options": {
+                "neutral": [
+                  "사무실",
+                  "직장",
+                  "부서",
+                  "회의"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "팀",
+              "romanization": "tim",
+              "options": {
+                "en": [
+                  "Team",
+                  "Leaving work",
+                  "Overtime",
+                  "Boss/Superior"
+                ],
+                "zh": [
+                  "团队",
+                  "下班",
+                  "加班",
+                  "上司"
+                ],
+                "th": [
+                  "ทีม",
+                  "เลิกงาน",
+                  "ทำงานล่วงเวลา",
+                  "หัวหน้า"
+                ],
+                "ko": [
+                  "팀",
+                  "퇴근",
+                  "야근",
+                  "상사"
+                ],
+                "es": [
+                  "Equipo",
+                  "Salir del trabajo",
+                  "Horas extra",
+                  "Jefe/Superior"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "명함",
+              "romanization": "myeongham",
+              "options": {
+                "en": [
+                  "Business card",
+                  "Workplace",
+                  "Boss/Superior",
+                  "Office"
+                ],
+                "zh": [
+                  "名片",
+                  "职场",
+                  "上司",
+                  "办公室"
+                ],
+                "th": [
+                  "นามบัตร",
+                  "ที่ทำงาน",
+                  "หัวหน้า",
+                  "สำนักงาน"
+                ],
+                "ko": [
+                  "명함",
+                  "직장",
+                  "상사",
+                  "사무실"
+                ],
+                "es": [
+                  "Tarjeta de visita",
+                  "Lugar de trabajo",
+                  "Jefe/Superior",
+                  "Oficina"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "명함",
+                  "romanization": "myeongham",
+                  "native": {
+                    "en": "Business card",
+                    "zh": "名片",
+                    "th": "นามบัตร",
+                    "ko": "명함",
+                    "es": "Tarjeta de visita"
+                  }
+                },
+                {
+                  "target": "직원",
+                  "romanization": "jigwon",
+                  "native": {
+                    "en": "Employee",
+                    "zh": "员工",
+                    "th": "พนักงาน",
+                    "ko": "직원",
+                    "es": "Empleado"
+                  }
+                },
+                {
+                  "target": "부서",
+                  "romanization": "buseo",
+                  "native": {
+                    "en": "Department",
+                    "zh": "部门",
+                    "th": "แผนก",
+                    "ko": "부서",
+                    "es": "Departamento"
+                  }
+                },
+                {
+                  "target": "소개",
+                  "romanization": "sogae",
+                  "native": {
+                    "en": "Introduction",
+                    "zh": "介绍",
+                    "th": "แนะนำตัว",
+                    "ko": "소개",
+                    "es": "Presentación"
+                  }
+                },
+                {
+                  "target": "회사",
+                  "romanization": "hoesa",
+                  "native": {
+                    "en": "Company",
+                    "zh": "公司",
+                    "th": "บริษัท",
+                    "ko": "회사",
+                    "es": "Empresa"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "상사",
+                  "romanization": "sangsa",
+                  "native": {
+                    "en": "Boss/Superior",
+                    "zh": "上司",
+                    "th": "หัวหน้า",
+                    "ko": "상사",
+                    "es": "Jefe/Superior"
+                  }
+                },
+                {
+                  "target": "팀",
+                  "romanization": "tim",
+                  "native": {
+                    "en": "Team",
+                    "zh": "团队",
+                    "th": "ทีม",
+                    "ko": "팀",
+                    "es": "Equipo"
+                  }
+                },
+                {
+                  "target": "직장",
+                  "romanization": "jikjang",
+                  "native": {
+                    "en": "Workplace",
+                    "zh": "职场",
+                    "th": "ที่ทำงาน",
+                    "ko": "직장",
+                    "es": "Lugar de trabajo"
+                  }
+                },
+                {
+                  "target": "사무실",
+                  "romanization": "samusil",
+                  "native": {
+                    "en": "Office",
+                    "zh": "办公室",
+                    "th": "สำนักงาน",
+                    "ko": "사무실",
+                    "es": "Oficina"
+                  }
+                },
+                {
+                  "target": "동료",
+                  "romanization": "dongnyo",
+                  "native": {
+                    "en": "Colleague",
+                    "zh": "同事",
+                    "th": "เพื่อนร่วมงาน",
+                    "ko": "동료",
+                    "es": "Colega"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -847,6 +1290,449 @@
                 "ko": "마감이 언제예요는 업무에서 자주 쓰는 질문이에요.",
                 "es": "마감이 언제예요 significa '¿Cuándo es la fecha límite?'. Pregunta esencial de oficina."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "업무",
+              "romanization": "eommu",
+              "options": {
+                "en": [
+                  "Work/Task",
+                  "Documents",
+                  "Copier",
+                  "Computer"
+                ],
+                "zh": [
+                  "业务",
+                  "文件",
+                  "复印机",
+                  "电脑"
+                ],
+                "th": [
+                  "งาน/ภารกิจ",
+                  "เอกสาร",
+                  "เครื่องถ่ายเอกสาร",
+                  "คอมพิวเตอร์"
+                ],
+                "ko": [
+                  "업무",
+                  "서류",
+                  "복사기",
+                  "컴퓨터"
+                ],
+                "es": [
+                  "Tarea/Trabajo",
+                  "Documentos",
+                  "Copiadora",
+                  "Computadora"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Presentation\"",
+                "zh": "\"演示\"",
+                "th": "\"การนำเสนอ\"",
+                "ko": "\"프레젠테이션\"",
+                "es": "\"Presentación\""
+              },
+              "options": {
+                "neutral": [
+                  "프레젠테이션",
+                  "보고서",
+                  "출력",
+                  "복사기"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "서류",
+              "romanization": "seoryu",
+              "options": {
+                "en": [
+                  "Documents",
+                  "Printer",
+                  "Deadline",
+                  "Printout"
+                ],
+                "zh": [
+                  "文件",
+                  "打印机",
+                  "截止日期",
+                  "打印"
+                ],
+                "th": [
+                  "เอกสาร",
+                  "เครื่องพิมพ์",
+                  "เดดไลน์",
+                  "พิมพ์ออกมา"
+                ],
+                "ko": [
+                  "서류",
+                  "프린터",
+                  "마감",
+                  "출력"
+                ],
+                "es": [
+                  "Documentos",
+                  "Impresora",
+                  "Fecha límite",
+                  "Impresión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "일정",
+              "romanization": "iljeong",
+              "options": {
+                "en": [
+                  "Schedule",
+                  "Meeting room",
+                  "Report",
+                  "Email"
+                ],
+                "zh": [
+                  "日程",
+                  "会议室",
+                  "报告",
+                  "电子邮件"
+                ],
+                "th": [
+                  "ตารางเวลา",
+                  "ห้องประชุม",
+                  "รายงาน",
+                  "อีเมล"
+                ],
+                "ko": [
+                  "일정",
+                  "회의실",
+                  "보고서",
+                  "이메일"
+                ],
+                "es": [
+                  "Horario",
+                  "Sala de reuniones",
+                  "Informe",
+                  "Correo electrónico"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Printer\"",
+                "zh": "\"打印机\"",
+                "th": "\"เครื่องพิมพ์\"",
+                "ko": "\"프린터\"",
+                "es": "\"Impresora\""
+              },
+              "options": {
+                "neutral": [
+                  "프린터",
+                  "마감",
+                  "보고서",
+                  "출력"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "컴퓨터",
+              "romanization": "keompyuteo",
+              "options": {
+                "en": [
+                  "Computer",
+                  "Report",
+                  "Printout",
+                  "Email"
+                ],
+                "zh": [
+                  "电脑",
+                  "报告",
+                  "打印",
+                  "电子邮件"
+                ],
+                "th": [
+                  "คอมพิวเตอร์",
+                  "รายงาน",
+                  "พิมพ์ออกมา",
+                  "อีเมล"
+                ],
+                "ko": [
+                  "컴퓨터",
+                  "보고서",
+                  "출력",
+                  "이메일"
+                ],
+                "es": [
+                  "Computadora",
+                  "Informe",
+                  "Impresión",
+                  "Correo electrónico"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "결재",
+              "romanization": "gyeoljae",
+              "options": {
+                "en": [
+                  "Approval",
+                  "Phone/Call",
+                  "Documents",
+                  "Work/Task"
+                ],
+                "zh": [
+                  "审批",
+                  "电话",
+                  "文件",
+                  "业务"
+                ],
+                "th": [
+                  "การอนุมัติ",
+                  "โทรศัพท์",
+                  "เอกสาร",
+                  "งาน/ภารกิจ"
+                ],
+                "ko": [
+                  "결재",
+                  "전화",
+                  "서류",
+                  "업무"
+                ],
+                "es": [
+                  "Aprobación",
+                  "Teléfono/Llamada",
+                  "Documentos",
+                  "Tarea/Trabajo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"File\"",
+                "zh": "\"文件\"",
+                "th": "\"ไฟล์\"",
+                "ko": "\"파일\"",
+                "es": "\"Archivo\""
+              },
+              "options": {
+                "neutral": [
+                  "파일",
+                  "복사기",
+                  "출력",
+                  "일정"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "출력",
+              "romanization": "chullyeok",
+              "options": {
+                "en": [
+                  "Printout",
+                  "Phone/Call",
+                  "Copier",
+                  "Printer"
+                ],
+                "zh": [
+                  "打印",
+                  "电话",
+                  "复印机",
+                  "打印机"
+                ],
+                "th": [
+                  "พิมพ์ออกมา",
+                  "โทรศัพท์",
+                  "เครื่องถ่ายเอกสาร",
+                  "เครื่องพิมพ์"
+                ],
+                "ko": [
+                  "출력",
+                  "전화",
+                  "복사기",
+                  "프린터"
+                ],
+                "es": [
+                  "Impresión",
+                  "Teléfono/Llamada",
+                  "Copiadora",
+                  "Impresora"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "복사기",
+              "romanization": "boksagi",
+              "options": {
+                "en": [
+                  "Copier",
+                  "Approval",
+                  "Phone/Call",
+                  "Email"
+                ],
+                "zh": [
+                  "复印机",
+                  "审批",
+                  "电话",
+                  "电子邮件"
+                ],
+                "th": [
+                  "เครื่องถ่ายเอกสาร",
+                  "การอนุมัติ",
+                  "โทรศัพท์",
+                  "อีเมล"
+                ],
+                "ko": [
+                  "복사기",
+                  "결재",
+                  "전화",
+                  "이메일"
+                ],
+                "es": [
+                  "Copiadora",
+                  "Aprobación",
+                  "Teléfono/Llamada",
+                  "Correo electrónico"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "일정",
+                  "romanization": "iljeong",
+                  "native": {
+                    "en": "Schedule",
+                    "zh": "日程",
+                    "th": "ตารางเวลา",
+                    "ko": "일정",
+                    "es": "Horario"
+                  }
+                },
+                {
+                  "target": "업무",
+                  "romanization": "eommu",
+                  "native": {
+                    "en": "Work/Task",
+                    "zh": "业务",
+                    "th": "งาน/ภารกิจ",
+                    "ko": "업무",
+                    "es": "Tarea/Trabajo"
+                  }
+                },
+                {
+                  "target": "파일",
+                  "romanization": "pail",
+                  "native": {
+                    "en": "File",
+                    "zh": "文件",
+                    "th": "ไฟล์",
+                    "ko": "파일",
+                    "es": "Archivo"
+                  }
+                },
+                {
+                  "target": "복사기",
+                  "romanization": "boksagi",
+                  "native": {
+                    "en": "Copier",
+                    "zh": "复印机",
+                    "th": "เครื่องถ่ายเอกสาร",
+                    "ko": "복사기",
+                    "es": "Copiadora"
+                  }
+                },
+                {
+                  "target": "서류",
+                  "romanization": "seoryu",
+                  "native": {
+                    "en": "Documents",
+                    "zh": "文件",
+                    "th": "เอกสาร",
+                    "ko": "서류",
+                    "es": "Documentos"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "컴퓨터",
+                  "romanization": "keompyuteo",
+                  "native": {
+                    "en": "Computer",
+                    "zh": "电脑",
+                    "th": "คอมพิวเตอร์",
+                    "ko": "컴퓨터",
+                    "es": "Computadora"
+                  }
+                },
+                {
+                  "target": "프린터",
+                  "romanization": "peurinteo",
+                  "native": {
+                    "en": "Printer",
+                    "zh": "打印机",
+                    "th": "เครื่องพิมพ์",
+                    "ko": "프린터",
+                    "es": "Impresora"
+                  }
+                },
+                {
+                  "target": "출력",
+                  "romanization": "chullyeok",
+                  "native": {
+                    "en": "Printout",
+                    "zh": "打印",
+                    "th": "พิมพ์ออกมา",
+                    "ko": "출력",
+                    "es": "Impresión"
+                  }
+                },
+                {
+                  "target": "프레젠테이션",
+                  "romanization": "peurejentesyeon",
+                  "native": {
+                    "en": "Presentation",
+                    "zh": "演示",
+                    "th": "การนำเสนอ",
+                    "ko": "프레젠테이션",
+                    "es": "Presentación"
+                  }
+                },
+                {
+                  "target": "마감",
+                  "romanization": "magam",
+                  "native": {
+                    "en": "Deadline",
+                    "zh": "截止日期",
+                    "th": "เดดไลน์",
+                    "ko": "마감",
+                    "es": "Fecha límite"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1253,6 +2139,411 @@
                 "ko": "존댓말을 사용해야 해요는 직장 기본 예절이에요.",
                 "es": "존댓말을 = habla formal. Siempre use 존댓말 con superiores en Corea."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "존댓말",
+              "romanization": "jondaenmal",
+              "options": {
+                "en": [
+                  "Formal speech",
+                  "I'll report to you",
+                  "I'll check/confirm",
+                  "I ask of you (formal)"
+                ],
+                "zh": [
+                  "敬语",
+                  "我向您汇报",
+                  "我确认一下",
+                  "拜托了"
+                ],
+                "th": [
+                  "ภาษาสุภาพ",
+                  "จะรายงานให้ทราบ",
+                  "จะตรวจสอบ",
+                  "ขอความกรุณา"
+                ],
+                "ko": [
+                  "존댓말",
+                  "보고 드리겠습니다",
+                  "확인하겠습니다",
+                  "부탁드립니다"
+                ],
+                "es": [
+                  "Habla formal",
+                  "Le informaré",
+                  "Lo confirmaré",
+                  "Se lo pido (formal)"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"I'll revise it\"",
+                "zh": "\"我修改\"",
+                "th": "\"จะแก้ไข\"",
+                "ko": "\"수정하겠습니다\"",
+                "es": "\"Lo corregiré\""
+              },
+              "options": {
+                "neutral": [
+                  "수정하겠습니다",
+                  "말씀하세요",
+                  "검토해 주세요",
+                  "실례합니다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "말씀하세요",
+              "romanization": "malsseumhaseyo",
+              "options": {
+                "en": [
+                  "Please speak (honorific)",
+                  "Formal speech",
+                  "Excuse me (formal)",
+                  "I'll check/confirm"
+                ],
+                "zh": [
+                  "请说",
+                  "敬语",
+                  "失礼了",
+                  "我确认一下"
+                ],
+                "th": [
+                  "เชิญพูด",
+                  "ภาษาสุภาพ",
+                  "ขออนุญาต/ขอโทษ",
+                  "จะตรวจสอบ"
+                ],
+                "ko": [
+                  "말씀하세요",
+                  "존댓말",
+                  "실례합니다",
+                  "확인하겠습니다"
+                ],
+                "es": [
+                  "Hable por favor",
+                  "Habla formal",
+                  "Con permiso",
+                  "Lo confirmaré"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "보고 드리겠습니다",
+              "romanization": "bogo deurigesseumnida",
+              "options": {
+                "en": [
+                  "I'll report to you",
+                  "I'll revise it",
+                  "Casual speech",
+                  "I'm sorry (formal)"
+                ],
+                "zh": [
+                  "我向您汇报",
+                  "我修改",
+                  "非敬语",
+                  "对不起（正式）"
+                ],
+                "th": [
+                  "จะรายงานให้ทราบ",
+                  "จะแก้ไข",
+                  "ภาษาไม่เป็นทางการ",
+                  "ขอโทษ（ทางการ）"
+                ],
+                "ko": [
+                  "보고 드리겠습니다",
+                  "수정하겠습니다",
+                  "반말",
+                  "죄송합니다"
+                ],
+                "es": [
+                  "Le informaré",
+                  "Lo corregiré",
+                  "Habla informal",
+                  "Lo siento (formal)"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"I'll check/confirm\"",
+                "zh": "\"我确认一下\"",
+                "th": "\"จะตรวจสอบ\"",
+                "ko": "\"확인하겠습니다\"",
+                "es": "\"Lo confirmaré\""
+              },
+              "options": {
+                "neutral": [
+                  "확인하겠습니다",
+                  "말씀하세요",
+                  "~습니다",
+                  "존댓말"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "반말",
+              "romanization": "banmal",
+              "options": {
+                "en": [
+                  "Casual speech",
+                  "Thank you (formal)",
+                  "Please speak (honorific)",
+                  "Please review"
+                ],
+                "zh": [
+                  "非敬语",
+                  "谢谢（正式）",
+                  "请说",
+                  "请审查"
+                ],
+                "th": [
+                  "ภาษาไม่เป็นทางการ",
+                  "ขอบคุณ（ทางการ）",
+                  "เชิญพูด",
+                  "กรุณาตรวจสอบ"
+                ],
+                "ko": [
+                  "반말",
+                  "감사합니다",
+                  "말씀하세요",
+                  "검토해 주세요"
+                ],
+                "es": [
+                  "Habla informal",
+                  "Gracias (formal)",
+                  "Hable por favor",
+                  "Revise por favor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "~세요",
+              "romanization": "~seyo",
+              "options": {
+                "en": [
+                  "Polite request",
+                  "Casual speech",
+                  "Formal ending",
+                  "Formal speech"
+                ],
+                "zh": [
+                  "~请",
+                  "非敬语",
+                  "~敬语词尾",
+                  "敬语"
+                ],
+                "th": [
+                  "คำขอสุภาพ",
+                  "ภาษาไม่เป็นทางการ",
+                  "คำลงท้ายสุภาพ",
+                  "ภาษาสุภาพ"
+                ],
+                "ko": [
+                  "~세요",
+                  "반말",
+                  "~습니다",
+                  "존댓말"
+                ],
+                "es": [
+                  "Petición cortés",
+                  "Habla informal",
+                  "Terminación formal",
+                  "Habla formal"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Please review\"",
+                "zh": "\"请审查\"",
+                "th": "\"กรุณาตรวจสอบ\"",
+                "ko": "\"검토해 주세요\"",
+                "es": "\"Revise por favor\""
+              },
+              "options": {
+                "neutral": [
+                  "검토해 주세요",
+                  "~세요",
+                  "감사합니다",
+                  "반말"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "~습니다",
+              "romanization": "~seumnida",
+              "options": {
+                "en": [
+                  "Formal ending",
+                  "I'll report to you",
+                  "You've worked hard",
+                  "Please review"
+                ],
+                "zh": [
+                  "~敬语词尾",
+                  "我向您汇报",
+                  "辛苦了",
+                  "请审查"
+                ],
+                "th": [
+                  "คำลงท้ายสุภาพ",
+                  "จะรายงานให้ทราบ",
+                  "ท่านเหนื่อยแล้ว/ขอบคุณ",
+                  "กรุณาตรวจสอบ"
+                ],
+                "ko": [
+                  "~습니다",
+                  "보고 드리겠습니다",
+                  "수고하셨습니다",
+                  "검토해 주세요"
+                ],
+                "es": [
+                  "Terminación formal",
+                  "Le informaré",
+                  "Buen trabajo",
+                  "Revise por favor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "~세요",
+                  "romanization": "~seyo",
+                  "native": {
+                    "en": "Polite request",
+                    "zh": "~请",
+                    "th": "คำขอสุภาพ",
+                    "ko": "~세요",
+                    "es": "Petición cortés"
+                  }
+                },
+                {
+                  "target": "말씀하세요",
+                  "romanization": "malsseumhaseyo",
+                  "native": {
+                    "en": "Please speak (honorific)",
+                    "zh": "请说",
+                    "th": "เชิญพูด",
+                    "ko": "말씀하세요",
+                    "es": "Hable por favor"
+                  }
+                },
+                {
+                  "target": "보고 드리겠습니다",
+                  "romanization": "bogo deurigesseumnida",
+                  "native": {
+                    "en": "I'll report to you",
+                    "zh": "我向您汇报",
+                    "th": "จะรายงานให้ทราบ",
+                    "ko": "보고 드리겠습니다",
+                    "es": "Le informaré"
+                  }
+                },
+                {
+                  "target": "존댓말",
+                  "romanization": "jondaenmal",
+                  "native": {
+                    "en": "Formal speech",
+                    "zh": "敬语",
+                    "th": "ภาษาสุภาพ",
+                    "ko": "존댓말",
+                    "es": "Habla formal"
+                  }
+                },
+                {
+                  "target": "반말",
+                  "romanization": "banmal",
+                  "native": {
+                    "en": "Casual speech",
+                    "zh": "非敬语",
+                    "th": "ภาษาไม่เป็นทางการ",
+                    "ko": "반말",
+                    "es": "Habla informal"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "부탁드립니다",
+                  "romanization": "butakdeurimnida",
+                  "native": {
+                    "en": "I ask of you (formal)",
+                    "zh": "拜托了",
+                    "th": "ขอความกรุณา",
+                    "ko": "부탁드립니다",
+                    "es": "Se lo pido (formal)"
+                  }
+                },
+                {
+                  "target": "검토해 주세요",
+                  "romanization": "geomtohae juseyo",
+                  "native": {
+                    "en": "Please review",
+                    "zh": "请审查",
+                    "th": "กรุณาตรวจสอบ",
+                    "ko": "검토해 주세요",
+                    "es": "Revise por favor"
+                  }
+                },
+                {
+                  "target": "수고하셨습니다",
+                  "romanization": "sugohasyeosseumnida",
+                  "native": {
+                    "en": "You've worked hard",
+                    "zh": "辛苦了",
+                    "th": "ท่านเหนื่อยแล้ว/ขอบคุณ",
+                    "ko": "수고하셨습니다",
+                    "es": "Buen trabajo"
+                  }
+                },
+                {
+                  "target": "~습니다",
+                  "romanization": "~seumnida",
+                  "native": {
+                    "en": "Formal ending",
+                    "zh": "~敬语词尾",
+                    "th": "คำลงท้ายสุภาพ",
+                    "ko": "~습니다",
+                    "es": "Terminación formal"
+                  }
+                },
+                {
+                  "target": "수정하겠습니다",
+                  "romanization": "sujeonghagsseumnida",
+                  "native": {
+                    "en": "I'll revise it",
+                    "zh": "我修改",
+                    "th": "จะแก้ไข",
+                    "ko": "수정하겠습니다",
+                    "es": "Lo corregiré"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1678,6 +2969,411 @@
                 "ko": "공무원이 인기가 많은 이유는 안정적이기 때문이에요.",
                 "es": "공무원이 = funcionario. Los empleos públicos son muy buscados en Corea por su estabilidad."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "간호사",
+              "romanization": "ganhosa",
+              "options": {
+                "en": [
+                  "Nurse",
+                  "Job/Occupation",
+                  "Doctor",
+                  "Civil servant"
+                ],
+                "zh": [
+                  "护士",
+                  "职业",
+                  "医生",
+                  "公务员"
+                ],
+                "th": [
+                  "พยาบาล",
+                  "อาชีพ",
+                  "หมอ",
+                  "ข้าราชการ"
+                ],
+                "ko": [
+                  "간호사",
+                  "직업",
+                  "의사",
+                  "공무원"
+                ],
+                "es": [
+                  "Enfermero/a",
+                  "Profesión",
+                  "Doctor/a",
+                  "Funcionario público"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Department head\"",
+                "zh": "\"部长\"",
+                "th": "\"หัวหน้าแผนก\"",
+                "ko": "\"부장\"",
+                "es": "\"Jefe de departamento\""
+              },
+              "options": {
+                "neutral": [
+                  "부장",
+                  "의사",
+                  "과장",
+                  "대리"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "디자이너",
+              "romanization": "dijaineo",
+              "options": {
+                "en": [
+                  "Designer",
+                  "Nurse",
+                  "CEO/Boss (honorific)",
+                  "Office worker"
+                ],
+                "zh": [
+                  "设计师",
+                  "护士",
+                  "老板",
+                  "公司职员"
+                ],
+                "th": [
+                  "นักออกแบบ",
+                  "พยาบาล",
+                  "ประธาน/เจ้านาย",
+                  "พนักงานบริษัท"
+                ],
+                "ko": [
+                  "디자이너",
+                  "간호사",
+                  "사장님",
+                  "회사원"
+                ],
+                "es": [
+                  "Diseñador/a",
+                  "Enfermero/a",
+                  "Director/Jefe",
+                  "Oficinista"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "직업",
+              "romanization": "jigeop",
+              "options": {
+                "en": [
+                  "Job/Occupation",
+                  "CEO/Boss (honorific)",
+                  "Freelancer",
+                  "Experience/Career"
+                ],
+                "zh": [
+                  "职业",
+                  "老板",
+                  "自由职业者",
+                  "经验/职业经历"
+                ],
+                "th": [
+                  "อาชีพ",
+                  "ประธาน/เจ้านาย",
+                  "ฟรีแลนซ์",
+                  "ประสบการณ์/อาชีพ"
+                ],
+                "ko": [
+                  "직업",
+                  "사장님",
+                  "프리랜서",
+                  "경력"
+                ],
+                "es": [
+                  "Profesión",
+                  "Director/Jefe",
+                  "Freelancer",
+                  "Experiencia/Carrera"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Assistant manager\"",
+                "zh": "\"代理\"",
+                "th": "\"ผู้ช่วยผู้จัดการ\"",
+                "ko": "\"대리\"",
+                "es": "\"Subdirector\""
+              },
+              "options": {
+                "neutral": [
+                  "대리",
+                  "회사원",
+                  "부장",
+                  "직업"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "프리랜서",
+              "romanization": "peurilaenseo",
+              "options": {
+                "en": [
+                  "Freelancer",
+                  "Experience/Career",
+                  "Section chief",
+                  "Engineer"
+                ],
+                "zh": [
+                  "自由职业者",
+                  "经验/职业经历",
+                  "科长",
+                  "工程师"
+                ],
+                "th": [
+                  "ฟรีแลนซ์",
+                  "ประสบการณ์/อาชีพ",
+                  "หัวหน้าส่วน",
+                  "วิศวกร"
+                ],
+                "ko": [
+                  "프리랜서",
+                  "경력",
+                  "과장",
+                  "엔지니어"
+                ],
+                "es": [
+                  "Freelancer",
+                  "Experiencia/Carrera",
+                  "Jefe de sección",
+                  "Ingeniero/a"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "경력",
+              "romanization": "gyeongnyeok",
+              "options": {
+                "en": [
+                  "Experience/Career",
+                  "Assistant manager",
+                  "Office worker",
+                  "Section chief"
+                ],
+                "zh": [
+                  "经验/职业经历",
+                  "代理",
+                  "公司职员",
+                  "科长"
+                ],
+                "th": [
+                  "ประสบการณ์/อาชีพ",
+                  "ผู้ช่วยผู้จัดการ",
+                  "พนักงานบริษัท",
+                  "หัวหน้าส่วน"
+                ],
+                "ko": [
+                  "경력",
+                  "대리",
+                  "회사원",
+                  "과장"
+                ],
+                "es": [
+                  "Experiencia/Carrera",
+                  "Subdirector",
+                  "Oficinista",
+                  "Jefe de sección"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"CEO/Boss (honorific)\"",
+                "zh": "\"老板\"",
+                "th": "\"ประธาน/เจ้านาย\"",
+                "ko": "\"사장님\"",
+                "es": "\"Director/Jefe\""
+              },
+              "options": {
+                "neutral": [
+                  "사장님",
+                  "부장",
+                  "간호사",
+                  "신입"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "신입",
+              "romanization": "sinip",
+              "options": {
+                "en": [
+                  "New employee",
+                  "Nurse",
+                  "CEO/Boss (honorific)",
+                  "Doctor"
+                ],
+                "zh": [
+                  "新人",
+                  "护士",
+                  "老板",
+                  "医生"
+                ],
+                "th": [
+                  "พนักงานใหม่",
+                  "พยาบาล",
+                  "ประธาน/เจ้านาย",
+                  "หมอ"
+                ],
+                "ko": [
+                  "신입",
+                  "간호사",
+                  "사장님",
+                  "의사"
+                ],
+                "es": [
+                  "Nuevo empleado",
+                  "Enfermero/a",
+                  "Director/Jefe",
+                  "Doctor/a"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "과장",
+                  "romanization": "gwajang",
+                  "native": {
+                    "en": "Section chief",
+                    "zh": "科长",
+                    "th": "หัวหน้าส่วน",
+                    "ko": "과장",
+                    "es": "Jefe de sección"
+                  }
+                },
+                {
+                  "target": "경력",
+                  "romanization": "gyeongnyeok",
+                  "native": {
+                    "en": "Experience/Career",
+                    "zh": "经验/职业经历",
+                    "th": "ประสบการณ์/อาชีพ",
+                    "ko": "경력",
+                    "es": "Experiencia/Carrera"
+                  }
+                },
+                {
+                  "target": "부장",
+                  "romanization": "bujang",
+                  "native": {
+                    "en": "Department head",
+                    "zh": "部长",
+                    "th": "หัวหน้าแผนก",
+                    "ko": "부장",
+                    "es": "Jefe de departamento"
+                  }
+                },
+                {
+                  "target": "간호사",
+                  "romanization": "ganhosa",
+                  "native": {
+                    "en": "Nurse",
+                    "zh": "护士",
+                    "th": "พยาบาล",
+                    "ko": "간호사",
+                    "es": "Enfermero/a"
+                  }
+                },
+                {
+                  "target": "공무원",
+                  "romanization": "gongmuwon",
+                  "native": {
+                    "en": "Civil servant",
+                    "zh": "公务员",
+                    "th": "ข้าราชการ",
+                    "ko": "공무원",
+                    "es": "Funcionario público"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "디자이너",
+                  "romanization": "dijaineo",
+                  "native": {
+                    "en": "Designer",
+                    "zh": "设计师",
+                    "th": "นักออกแบบ",
+                    "ko": "디자이너",
+                    "es": "Diseñador/a"
+                  }
+                },
+                {
+                  "target": "프리랜서",
+                  "romanization": "peurilaenseo",
+                  "native": {
+                    "en": "Freelancer",
+                    "zh": "自由职业者",
+                    "th": "ฟรีแลนซ์",
+                    "ko": "프리랜서",
+                    "es": "Freelancer"
+                  }
+                },
+                {
+                  "target": "직업",
+                  "romanization": "jigeop",
+                  "native": {
+                    "en": "Job/Occupation",
+                    "zh": "职业",
+                    "th": "อาชีพ",
+                    "ko": "직업",
+                    "es": "Profesión"
+                  }
+                },
+                {
+                  "target": "사장님",
+                  "romanization": "sajangnim",
+                  "native": {
+                    "en": "CEO/Boss (honorific)",
+                    "zh": "老板",
+                    "th": "ประธาน/เจ้านาย",
+                    "ko": "사장님",
+                    "es": "Director/Jefe"
+                  }
+                },
+                {
+                  "target": "신입",
+                  "romanization": "sinip",
+                  "native": {
+                    "en": "New employee",
+                    "zh": "新人",
+                    "th": "พนักงานใหม่",
+                    "ko": "신입",
+                    "es": "Nuevo empleado"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2084,6 +3780,468 @@
                 "ko": "복지가 좋아요는 회사를 평가할 때 중요한 요소예요.",
                 "es": "복지가 좋아요 significa 'los beneficios son buenos'. Los trabajadores coreanos valoran mucho los beneficios."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "이직",
+              "romanization": "ijik",
+              "options": {
+                "en": [
+                  "Job change",
+                  "Benefits/Welfare",
+                  "Hiring/Recruitment",
+                  "Resignation"
+                ],
+                "zh": [
+                  "跳槽",
+                  "福利",
+                  "招聘",
+                  "辞职"
+                ],
+                "th": [
+                  "เปลี่ยนงาน",
+                  "สวัสดิการ",
+                  "รับสมัครงาน",
+                  "ลาออก"
+                ],
+                "ko": [
+                  "이직",
+                  "복지",
+                  "채용",
+                  "퇴사"
+                ],
+                "es": [
+                  "Cambio de trabajo",
+                  "Beneficios",
+                  "Contratación",
+                  "Renuncia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Hiring/Recruitment\"",
+                "zh": "\"招聘\"",
+                "th": "\"รับสมัครงาน\"",
+                "ko": "\"채용\"",
+                "es": "\"Contratación\""
+              },
+              "options": {
+                "neutral": [
+                  "채용",
+                  "합격",
+                  "복지",
+                  "승진"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "자격증",
+              "romanization": "jagyeokjeung",
+              "options": {
+                "en": [
+                  "Certification",
+                  "Resume/CV",
+                  "Experience",
+                  "Hiring/Recruitment"
+                ],
+                "zh": [
+                  "资格证",
+                  "简历",
+                  "经验",
+                  "招聘"
+                ],
+                "th": [
+                  "ใบรับรอง",
+                  "เรซูเม่/ประวัติย่อ",
+                  "ประสบการณ์",
+                  "รับสมัครงาน"
+                ],
+                "ko": [
+                  "자격증",
+                  "이력서",
+                  "경험",
+                  "채용"
+                ],
+                "es": [
+                  "Certificación",
+                  "Currículum",
+                  "Experiencia",
+                  "Contratación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "연봉",
+              "romanization": "yeonbong",
+              "options": {
+                "en": [
+                  "Annual salary",
+                  "Experience",
+                  "Interview",
+                  "Passing/Acceptance"
+                ],
+                "zh": [
+                  "年薪",
+                  "经验",
+                  "面试",
+                  "合格/录取"
+                ],
+                "th": [
+                  "เงินเดือนรายปี",
+                  "ประสบการณ์",
+                  "สัมภาษณ์",
+                  "สอบผ่าน/รับเข้า"
+                ],
+                "ko": [
+                  "연봉",
+                  "경험",
+                  "면접",
+                  "합격"
+                ],
+                "es": [
+                  "Salario anual",
+                  "Experiencia",
+                  "Entrevista",
+                  "Aprobación/Aceptación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Experience\"",
+                "zh": "\"经验\"",
+                "th": "\"ประสบการณ์\"",
+                "ko": "\"경험\"",
+                "es": "\"Experiencia\""
+              },
+              "options": {
+                "neutral": [
+                  "경험",
+                  "합격",
+                  "월급",
+                  "자기소개서"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "지원하다",
+              "romanization": "jiwonhada",
+              "options": {
+                "en": [
+                  "To apply",
+                  "Certification",
+                  "Resume/CV",
+                  "Failing/Rejection"
+                ],
+                "zh": [
+                  "申请",
+                  "资格证",
+                  "简历",
+                  "不合格/淘汰"
+                ],
+                "th": [
+                  "สมัคร",
+                  "ใบรับรอง",
+                  "เรซูเม่/ประวัติย่อ",
+                  "สอบไม่ผ่าน"
+                ],
+                "ko": [
+                  "지원하다",
+                  "자격증",
+                  "이력서",
+                  "불합격"
+                ],
+                "es": [
+                  "Postularse",
+                  "Certificación",
+                  "Currículum",
+                  "Reprobación/Rechazo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "퇴사",
+              "romanization": "toesa",
+              "options": {
+                "en": [
+                  "Resignation",
+                  "Experience",
+                  "Interview",
+                  "Benefits/Welfare"
+                ],
+                "zh": [
+                  "辞职",
+                  "经验",
+                  "面试",
+                  "福利"
+                ],
+                "th": [
+                  "ลาออก",
+                  "ประสบการณ์",
+                  "สัมภาษณ์",
+                  "สวัสดิการ"
+                ],
+                "ko": [
+                  "퇴사",
+                  "경험",
+                  "면접",
+                  "복지"
+                ],
+                "es": [
+                  "Renuncia",
+                  "Experiencia",
+                  "Entrevista",
+                  "Beneficios"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Benefits/Welfare\"",
+                "zh": "\"福利\"",
+                "th": "\"สวัสดิการ\"",
+                "ko": "\"복지\"",
+                "es": "\"Beneficios\""
+              },
+              "options": {
+                "neutral": [
+                  "복지",
+                  "이직",
+                  "월급",
+                  "채용"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "불합격",
+              "romanization": "bulhapgyeok",
+              "options": {
+                "en": [
+                  "Failing/Rejection",
+                  "Resume/CV",
+                  "Passing/Acceptance",
+                  "Resignation"
+                ],
+                "zh": [
+                  "不合格/淘汰",
+                  "简历",
+                  "合格/录取",
+                  "辞职"
+                ],
+                "th": [
+                  "สอบไม่ผ่าน",
+                  "เรซูเม่/ประวัติย่อ",
+                  "สอบผ่าน/รับเข้า",
+                  "ลาออก"
+                ],
+                "ko": [
+                  "불합격",
+                  "이력서",
+                  "합격",
+                  "퇴사"
+                ],
+                "es": [
+                  "Reprobación/Rechazo",
+                  "Currículum",
+                  "Aprobación/Aceptación",
+                  "Renuncia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "자기소개서",
+              "romanization": "jagisogaeseo",
+              "options": {
+                "en": [
+                  "Cover letter",
+                  "Promotion",
+                  "Failing/Rejection",
+                  "Certification"
+                ],
+                "zh": [
+                  "自我介绍信",
+                  "升职",
+                  "不合格/淘汰",
+                  "资格证"
+                ],
+                "th": [
+                  "จดหมายแนะนำตัว",
+                  "เลื่อนตำแหน่ง",
+                  "สอบไม่ผ่าน",
+                  "ใบรับรอง"
+                ],
+                "ko": [
+                  "자기소개서",
+                  "승진",
+                  "불합격",
+                  "자격증"
+                ],
+                "es": [
+                  "Carta de presentación",
+                  "Promoción",
+                  "Reprobación/Rechazo",
+                  "Certificación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Passing/Acceptance\"",
+                "zh": "\"合格/录取\"",
+                "th": "\"สอบผ่าน/รับเข้า\"",
+                "ko": "\"합격\"",
+                "es": "\"Aprobación/Aceptación\""
+              },
+              "options": {
+                "neutral": [
+                  "합격",
+                  "이직",
+                  "월급",
+                  "복지"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "불합격",
+                  "romanization": "bulhapgyeok",
+                  "native": {
+                    "en": "Failing/Rejection",
+                    "zh": "不合格/淘汰",
+                    "th": "สอบไม่ผ่าน",
+                    "ko": "불합격",
+                    "es": "Reprobación/Rechazo"
+                  }
+                },
+                {
+                  "target": "자격증",
+                  "romanization": "jagyeokjeung",
+                  "native": {
+                    "en": "Certification",
+                    "zh": "资格证",
+                    "th": "ใบรับรอง",
+                    "ko": "자격증",
+                    "es": "Certificación"
+                  }
+                },
+                {
+                  "target": "경험",
+                  "romanization": "gyeongheom",
+                  "native": {
+                    "en": "Experience",
+                    "zh": "经验",
+                    "th": "ประสบการณ์",
+                    "ko": "경험",
+                    "es": "Experiencia"
+                  }
+                },
+                {
+                  "target": "합격",
+                  "romanization": "hapgyeok",
+                  "native": {
+                    "en": "Passing/Acceptance",
+                    "zh": "合格/录取",
+                    "th": "สอบผ่าน/รับเข้า",
+                    "ko": "합격",
+                    "es": "Aprobación/Aceptación"
+                  }
+                },
+                {
+                  "target": "퇴사",
+                  "romanization": "toesa",
+                  "native": {
+                    "en": "Resignation",
+                    "zh": "辞职",
+                    "th": "ลาออก",
+                    "ko": "퇴사",
+                    "es": "Renuncia"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "지원하다",
+                  "romanization": "jiwonhada",
+                  "native": {
+                    "en": "To apply",
+                    "zh": "申请",
+                    "th": "สมัคร",
+                    "ko": "지원하다",
+                    "es": "Postularse"
+                  }
+                },
+                {
+                  "target": "채용",
+                  "romanization": "chaeyong",
+                  "native": {
+                    "en": "Hiring/Recruitment",
+                    "zh": "招聘",
+                    "th": "รับสมัครงาน",
+                    "ko": "채용",
+                    "es": "Contratación"
+                  }
+                },
+                {
+                  "target": "자기소개서",
+                  "romanization": "jagisogaeseo",
+                  "native": {
+                    "en": "Cover letter",
+                    "zh": "自我介绍信",
+                    "th": "จดหมายแนะนำตัว",
+                    "ko": "자기소개서",
+                    "es": "Carta de presentación"
+                  }
+                },
+                {
+                  "target": "연봉",
+                  "romanization": "yeonbong",
+                  "native": {
+                    "en": "Annual salary",
+                    "zh": "年薪",
+                    "th": "เงินเดือนรายปี",
+                    "ko": "연봉",
+                    "es": "Salario anual"
+                  }
+                },
+                {
+                  "target": "이직",
+                  "romanization": "ijik",
+                  "native": {
+                    "en": "Job change",
+                    "zh": "跳槽",
+                    "th": "เปลี่ยนงาน",
+                    "ko": "이직",
+                    "es": "Cambio de trabajo"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2493,6 +4651,411 @@
                 "ko": "워라밸이 중요해요는 현대 한국 직장 문화의 트렌드예요.",
                 "es": "워라밸이 중요해요 = el equilibrio es importante. Tendencia importante en la cultura laboral coreana."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "칼퇴",
+              "romanization": "kaltoe",
+              "options": {
+                "en": [
+                  "Leaving work on time",
+                  "Company dinner",
+                  "Working from home",
+                  "To change jobs"
+                ],
+                "zh": [
+                  "准时下班",
+                  "公司聚餐",
+                  "在家办公",
+                  "跳槽"
+                ],
+                "th": [
+                  "เลิกงานตรงเวลา",
+                  "เลี้ยงบริษัท",
+                  "ทำงานจากบ้าน",
+                  "เปลี่ยนงาน"
+                ],
+                "ko": [
+                  "칼퇴",
+                  "회식",
+                  "재택근무",
+                  "이직하다"
+                ],
+                "es": [
+                  "Salir puntual",
+                  "Cena de empresa",
+                  "Trabajo remoto",
+                  "Cambiar de trabajo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Retirement\"",
+                "zh": "\"退休\"",
+                "th": "\"เกษียณอายุ\"",
+                "ko": "\"정년퇴직\"",
+                "es": "\"Jubilación\""
+              },
+              "options": {
+                "neutral": [
+                  "정년퇴직",
+                  "주 52시간",
+                  "퇴직금",
+                  "이직하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "사직서",
+              "romanization": "sajikseo",
+              "options": {
+                "en": [
+                  "Resignation letter",
+                  "Leaving work on time",
+                  "To change jobs",
+                  "52-hour work week"
+                ],
+                "zh": [
+                  "辞职信",
+                  "准时下班",
+                  "跳槽",
+                  "每周52小时"
+                ],
+                "th": [
+                  "จดหมายลาออก",
+                  "เลิกงานตรงเวลา",
+                  "เปลี่ยนงาน",
+                  "สัปดาห์ละ 52 ชม."
+                ],
+                "ko": [
+                  "사직서",
+                  "칼퇴",
+                  "이직하다",
+                  "주 52시간"
+                ],
+                "es": [
+                  "Carta de renuncia",
+                  "Salir puntual",
+                  "Cambiar de trabajo",
+                  "Semana de 52 horas"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "퇴직금",
+              "romanization": "toejikgeum",
+              "options": {
+                "en": [
+                  "Severance pay",
+                  "Retirement",
+                  "52-hour work week",
+                  "Burnout"
+                ],
+                "zh": [
+                  "退职金",
+                  "退休",
+                  "每周52小时",
+                  "倦怠"
+                ],
+                "th": [
+                  "เงินชดเชย",
+                  "เกษียณอายุ",
+                  "สัปดาห์ละ 52 ชม.",
+                  "เบิร์นเอาท์"
+                ],
+                "ko": [
+                  "퇴직금",
+                  "정년퇴직",
+                  "주 52시간",
+                  "번아웃"
+                ],
+                "es": [
+                  "Indemnización",
+                  "Jubilación",
+                  "Semana de 52 horas",
+                  "Agotamiento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Stress\"",
+                "zh": "\"压力\"",
+                "th": "\"ความเครียด\"",
+                "ko": "\"스트레스\"",
+                "es": "\"Estrés\""
+              },
+              "options": {
+                "neutral": [
+                  "스트레스",
+                  "이직하다",
+                  "병가",
+                  "주 52시간"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "주 52시간",
+              "romanization": "ju 52sigan",
+              "options": {
+                "en": [
+                  "52-hour work week",
+                  "Annual leave",
+                  "Leaving work on time",
+                  "To change jobs"
+                ],
+                "zh": [
+                  "每周52小时",
+                  "年假",
+                  "准时下班",
+                  "跳槽"
+                ],
+                "th": [
+                  "สัปดาห์ละ 52 ชม.",
+                  "วันลาประจำปี",
+                  "เลิกงานตรงเวลา",
+                  "เปลี่ยนงาน"
+                ],
+                "ko": [
+                  "주 52시간",
+                  "연차",
+                  "칼퇴",
+                  "이직하다"
+                ],
+                "es": [
+                  "Semana de 52 horas",
+                  "Vacaciones anuales",
+                  "Salir puntual",
+                  "Cambiar de trabajo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "반차",
+              "romanization": "bancha",
+              "options": {
+                "en": [
+                  "Half-day leave",
+                  "Stress",
+                  "Company dinner",
+                  "Annual leave"
+                ],
+                "zh": [
+                  "半天假",
+                  "压力",
+                  "公司聚餐",
+                  "年假"
+                ],
+                "th": [
+                  "ลาครึ่งวัน",
+                  "ความเครียด",
+                  "เลี้ยงบริษัท",
+                  "วันลาประจำปี"
+                ],
+                "ko": [
+                  "반차",
+                  "스트레스",
+                  "회식",
+                  "연차"
+                ],
+                "es": [
+                  "Medio día libre",
+                  "Estrés",
+                  "Cena de empresa",
+                  "Vacaciones anuales"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Burnout\"",
+                "zh": "\"倦怠\"",
+                "th": "\"เบิร์นเอาท์\"",
+                "ko": "\"번아웃\"",
+                "es": "\"Agotamiento\""
+              },
+              "options": {
+                "neutral": [
+                  "번아웃",
+                  "연차",
+                  "퇴직금",
+                  "스트레스"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "이직하다",
+              "romanization": "ijikhada",
+              "options": {
+                "en": [
+                  "To change jobs",
+                  "Resignation letter",
+                  "Burnout",
+                  "Stress"
+                ],
+                "zh": [
+                  "跳槽",
+                  "辞职信",
+                  "倦怠",
+                  "压力"
+                ],
+                "th": [
+                  "เปลี่ยนงาน",
+                  "จดหมายลาออก",
+                  "เบิร์นเอาท์",
+                  "ความเครียด"
+                ],
+                "ko": [
+                  "이직하다",
+                  "사직서",
+                  "번아웃",
+                  "스트레스"
+                ],
+                "es": [
+                  "Cambiar de trabajo",
+                  "Carta de renuncia",
+                  "Agotamiento",
+                  "Estrés"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "워라밸",
+                  "romanization": "worabal",
+                  "native": {
+                    "en": "Work-life balance",
+                    "zh": "工作生活平衡",
+                    "th": "สมดุลชีวิตกับงาน",
+                    "ko": "워라밸",
+                    "es": "Equilibrio trabajo-vida"
+                  }
+                },
+                {
+                  "target": "반차",
+                  "romanization": "bancha",
+                  "native": {
+                    "en": "Half-day leave",
+                    "zh": "半天假",
+                    "th": "ลาครึ่งวัน",
+                    "ko": "반차",
+                    "es": "Medio día libre"
+                  }
+                },
+                {
+                  "target": "회식",
+                  "romanization": "hoesik",
+                  "native": {
+                    "en": "Company dinner",
+                    "zh": "公司聚餐",
+                    "th": "เลี้ยงบริษัท",
+                    "ko": "회식",
+                    "es": "Cena de empresa"
+                  }
+                },
+                {
+                  "target": "정년퇴직",
+                  "romanization": "jeongyeontoejik",
+                  "native": {
+                    "en": "Retirement",
+                    "zh": "退休",
+                    "th": "เกษียณอายุ",
+                    "ko": "정년퇴직",
+                    "es": "Jubilación"
+                  }
+                },
+                {
+                  "target": "이직하다",
+                  "romanization": "ijikhada",
+                  "native": {
+                    "en": "To change jobs",
+                    "zh": "跳槽",
+                    "th": "เปลี่ยนงาน",
+                    "ko": "이직하다",
+                    "es": "Cambiar de trabajo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "번아웃",
+                  "romanization": "beonaut",
+                  "native": {
+                    "en": "Burnout",
+                    "zh": "倦怠",
+                    "th": "เบิร์นเอาท์",
+                    "ko": "번아웃",
+                    "es": "Agotamiento"
+                  }
+                },
+                {
+                  "target": "스트레스",
+                  "romanization": "seuteureseu",
+                  "native": {
+                    "en": "Stress",
+                    "zh": "压力",
+                    "th": "ความเครียด",
+                    "ko": "스트레스",
+                    "es": "Estrés"
+                  }
+                },
+                {
+                  "target": "주 52시간",
+                  "romanization": "ju 52sigan",
+                  "native": {
+                    "en": "52-hour work week",
+                    "zh": "每周52小时",
+                    "th": "สัปดาห์ละ 52 ชม.",
+                    "ko": "주 52시간",
+                    "es": "Semana de 52 horas"
+                  }
+                },
+                {
+                  "target": "칼퇴",
+                  "romanization": "kaltoe",
+                  "native": {
+                    "en": "Leaving work on time",
+                    "zh": "准时下班",
+                    "th": "เลิกงานตรงเวลา",
+                    "ko": "칼퇴",
+                    "es": "Salir puntual"
+                  }
+                },
+                {
+                  "target": "퇴직금",
+                  "romanization": "toejikgeum",
+                  "native": {
+                    "en": "Severance pay",
+                    "zh": "退职金",
+                    "th": "เงินชดเชย",
+                    "ko": "퇴직금",
+                    "es": "Indemnización"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2921,6 +5484,373 @@
                 "ko": "카카오톡을 많이 써요는 한국 직장에서의 소통 방식이에요.",
                 "es": "카카오톡을 = KakaoTalk. La app de mensajería principal de Corea, también usada en negocios."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "전화번호",
+              "romanization": "jeonhwabeonho",
+              "options": {
+                "en": [
+                  "Phone number",
+                  "Just a moment",
+                  "I'll transfer you",
+                  "KakaoTalk"
+                ],
+                "zh": [
+                  "电话号码",
+                  "稍等",
+                  "我帮您转接",
+                  "Kakao Talk"
+                ],
+                "th": [
+                  "เบอร์โทร",
+                  "รอสักครู่",
+                  "จะโอนสายให้",
+                  "คาคาวทอล์ค"
+                ],
+                "ko": [
+                  "전화번호",
+                  "잠시만요",
+                  "바꿔 드릴게요",
+                  "카카오톡"
+                ],
+                "es": [
+                  "Número de teléfono",
+                  "Un momento",
+                  "Le transfiero",
+                  "KakaoTalk"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Message\"",
+                "zh": "\"信息\"",
+                "th": "\"ข้อความ\"",
+                "ko": "\"메시지\"",
+                "es": "\"Mensaje\""
+              },
+              "options": {
+                "neutral": [
+                  "메시지",
+                  "바꿔 드릴게요",
+                  "문자",
+                  "전화번호"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "바꿔 드릴게요",
+              "romanization": "bakkwo deurilgeyo",
+              "options": {
+                "en": [
+                  "I'll transfer you",
+                  "Message",
+                  "Contact info",
+                  "To make a call"
+                ],
+                "zh": [
+                  "我帮您转接",
+                  "信息",
+                  "联系方式",
+                  "打电话"
+                ],
+                "th": [
+                  "จะโอนสายให้",
+                  "ข้อความ",
+                  "ข้อมูลติดต่อ",
+                  "โทรออก"
+                ],
+                "ko": [
+                  "바꿔 드릴게요",
+                  "메시지",
+                  "연락처",
+                  "전화 걸다"
+                ],
+                "es": [
+                  "Le transfiero",
+                  "Mensaje",
+                  "Contacto",
+                  "Hacer una llamada"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "카카오톡",
+              "romanization": "kakaotok",
+              "options": {
+                "en": [
+                  "KakaoTalk",
+                  "To answer the phone",
+                  "Hello (on phone)",
+                  "Message"
+                ],
+                "zh": [
+                  "Kakao Talk",
+                  "接电话",
+                  "喂",
+                  "信息"
+                ],
+                "th": [
+                  "คาคาวทอล์ค",
+                  "รับโทรศัพท์",
+                  "ฮัลโหล（ทางโทรศัพท์）",
+                  "ข้อความ"
+                ],
+                "ko": [
+                  "카카오톡",
+                  "전화 받다",
+                  "여보세요",
+                  "메시지"
+                ],
+                "es": [
+                  "KakaoTalk",
+                  "Contestar el teléfono",
+                  "Hola (al teléfono)",
+                  "Mensaje"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"On a call\"",
+                "zh": "\"通话中\"",
+                "th": "\"กำลังคุยโทรศัพท์\"",
+                "ko": "\"통화 중\"",
+                "es": "\"En una llamada\""
+              },
+              "options": {
+                "neutral": [
+                  "통화 중",
+                  "카카오톡",
+                  "전화 받다",
+                  "메시지"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "다시 전화하겠습니다",
+              "romanization": "dasi jeonhwahagesseumnida",
+              "options": {
+                "en": [
+                  "I'll call back",
+                  "To make a call",
+                  "Phone number",
+                  "Just a moment"
+                ],
+                "zh": [
+                  "我再打过来",
+                  "打电话",
+                  "电话号码",
+                  "稍等"
+                ],
+                "th": [
+                  "จะโทรกลับ",
+                  "โทรออก",
+                  "เบอร์โทร",
+                  "รอสักครู่"
+                ],
+                "ko": [
+                  "다시 전화하겠습니다",
+                  "전화 걸다",
+                  "전화번호",
+                  "잠시만요"
+                ],
+                "es": [
+                  "Volveré a llamar",
+                  "Hacer una llamada",
+                  "Número de teléfono",
+                  "Un momento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "부재중",
+              "romanization": "bujaejung",
+              "options": {
+                "en": [
+                  "Missed/Absent",
+                  "Group chat",
+                  "Text message",
+                  "Contact info"
+                ],
+                "zh": [
+                  "未接/不在",
+                  "群聊",
+                  "短信",
+                  "联系方式"
+                ],
+                "th": [
+                  "ไม่อยู่/ไม่รับสาย",
+                  "แชทกลุ่ม",
+                  "ข้อความสั้น",
+                  "ข้อมูลติดต่อ"
+                ],
+                "ko": [
+                  "부재중",
+                  "단톡방",
+                  "문자",
+                  "연락처"
+                ],
+                "es": [
+                  "Ausente/Perdida",
+                  "Chat grupal",
+                  "Mensaje de texto",
+                  "Contacto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Extension\"",
+                "zh": "\"分机\"",
+                "th": "\"สายภายใน\"",
+                "ko": "\"내선\"",
+                "es": "\"Extensión\""
+              },
+              "options": {
+                "neutral": [
+                  "내선",
+                  "잠시만요",
+                  "여보세요",
+                  "전화 받다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "내선",
+                  "romanization": "naeseon",
+                  "native": {
+                    "en": "Extension",
+                    "zh": "分机",
+                    "th": "สายภายใน",
+                    "ko": "내선",
+                    "es": "Extensión"
+                  }
+                },
+                {
+                  "target": "여보세요",
+                  "romanization": "yeoboseyo",
+                  "native": {
+                    "en": "Hello (on phone)",
+                    "zh": "喂",
+                    "th": "ฮัลโหล（ทางโทรศัพท์）",
+                    "ko": "여보세요",
+                    "es": "Hola (al teléfono)"
+                  }
+                },
+                {
+                  "target": "단톡방",
+                  "romanization": "dantokbang",
+                  "native": {
+                    "en": "Group chat",
+                    "zh": "群聊",
+                    "th": "แชทกลุ่ม",
+                    "ko": "단톡방",
+                    "es": "Chat grupal"
+                  }
+                },
+                {
+                  "target": "메시지",
+                  "romanization": "mesiji",
+                  "native": {
+                    "en": "Message",
+                    "zh": "信息",
+                    "th": "ข้อความ",
+                    "ko": "메시지",
+                    "es": "Mensaje"
+                  }
+                },
+                {
+                  "target": "잠시만요",
+                  "romanization": "jamsimano",
+                  "native": {
+                    "en": "Just a moment",
+                    "zh": "稍等",
+                    "th": "รอสักครู่",
+                    "ko": "잠시만요",
+                    "es": "Un momento"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "다시 전화하겠습니다",
+                  "romanization": "dasi jeonhwahagesseumnida",
+                  "native": {
+                    "en": "I'll call back",
+                    "zh": "我再打过来",
+                    "th": "จะโทรกลับ",
+                    "ko": "다시 전화하겠습니다",
+                    "es": "Volveré a llamar"
+                  }
+                },
+                {
+                  "target": "전화번호",
+                  "romanization": "jeonhwabeonho",
+                  "native": {
+                    "en": "Phone number",
+                    "zh": "电话号码",
+                    "th": "เบอร์โทร",
+                    "ko": "전화번호",
+                    "es": "Número de teléfono"
+                  }
+                },
+                {
+                  "target": "부재중",
+                  "romanization": "bujaejung",
+                  "native": {
+                    "en": "Missed/Absent",
+                    "zh": "未接/不在",
+                    "th": "ไม่อยู่/ไม่รับสาย",
+                    "ko": "부재중",
+                    "es": "Ausente/Perdida"
+                  }
+                },
+                {
+                  "target": "카카오톡",
+                  "romanization": "kakaotok",
+                  "native": {
+                    "en": "KakaoTalk",
+                    "zh": "Kakao Talk",
+                    "th": "คาคาวทอล์ค",
+                    "ko": "카카오톡",
+                    "es": "KakaoTalk"
+                  }
+                },
+                {
+                  "target": "바꿔 드릴게요",
+                  "romanization": "bakkwo deurilgeyo",
+                  "native": {
+                    "en": "I'll transfer you",
+                    "zh": "我帮您转接",
+                    "th": "จะโอนสายให้",
+                    "ko": "바꿔 드릴게요",
+                    "es": "Le transfiero"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3330,6 +6260,449 @@
                 "ko": "마무리 하겠습니다는 회의를 끝낼 때 자주 쓰는 표현이에요.",
                 "es": "마무리 하겠습니다 significa 'terminemos'. Frase común para cerrar reuniones coreanas."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "참석하다",
+              "romanization": "chamseokhada",
+              "options": {
+                "en": [
+                  "To attend",
+                  "To have a meeting",
+                  "To present",
+                  "To summarize"
+                ],
+                "zh": [
+                  "参加",
+                  "开会",
+                  "发表",
+                  "总结"
+                ],
+                "th": [
+                  "เข้าร่วม",
+                  "ประชุม",
+                  "นำเสนอ",
+                  "สรุป"
+                ],
+                "ko": [
+                  "참석하다",
+                  "회의하다",
+                  "발표하다",
+                  "요약하다"
+                ],
+                "es": [
+                  "Asistir",
+                  "Tener una reunión",
+                  "Presentar",
+                  "Resumir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"To proceed\"",
+                "zh": "\"进行\"",
+                "th": "\"ดำเนินการ\"",
+                "ko": "\"진행하다\"",
+                "es": "\"Proceder\""
+              },
+              "options": {
+                "neutral": [
+                  "진행하다",
+                  "동의하다",
+                  "토론하다",
+                  "마무리"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "회의하다",
+              "romanization": "hoeuihada",
+              "options": {
+                "en": [
+                  "To have a meeting",
+                  "To proceed",
+                  "To discuss/debate",
+                  "Opinion"
+                ],
+                "zh": [
+                  "开会",
+                  "进行",
+                  "讨论",
+                  "意见"
+                ],
+                "th": [
+                  "ประชุม",
+                  "ดำเนินการ",
+                  "อภิปราย",
+                  "ความคิดเห็น"
+                ],
+                "ko": [
+                  "회의하다",
+                  "진행하다",
+                  "토론하다",
+                  "의견"
+                ],
+                "es": [
+                  "Tener una reunión",
+                  "Proceder",
+                  "Debatir",
+                  "Opinión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "토론하다",
+              "romanization": "toronhada",
+              "options": {
+                "en": [
+                  "To discuss/debate",
+                  "To decide",
+                  "Proposal/Suggestion",
+                  "To proceed"
+                ],
+                "zh": [
+                  "讨论",
+                  "决定",
+                  "提案",
+                  "进行"
+                ],
+                "th": [
+                  "อภิปราย",
+                  "ตัดสินใจ",
+                  "ข้อเสนอ",
+                  "ดำเนินการ"
+                ],
+                "ko": [
+                  "토론하다",
+                  "결정하다",
+                  "제안",
+                  "진행하다"
+                ],
+                "es": [
+                  "Debatir",
+                  "Decidir",
+                  "Propuesta",
+                  "Proceder"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"To speak up\"",
+                "zh": "\"发言\"",
+                "th": "\"อภิปราย/พูด\"",
+                "ko": "\"발언하다\"",
+                "es": "\"Tomar la palabra\""
+              },
+              "options": {
+                "neutral": [
+                  "발언하다",
+                  "동의하다",
+                  "안건",
+                  "토론하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "요약하다",
+              "romanization": "yoyakhada",
+              "options": {
+                "en": [
+                  "To summarize",
+                  "Proposal/Suggestion",
+                  "To have a meeting",
+                  "To proceed"
+                ],
+                "zh": [
+                  "总结",
+                  "提案",
+                  "开会",
+                  "进行"
+                ],
+                "th": [
+                  "สรุป",
+                  "ข้อเสนอ",
+                  "ประชุม",
+                  "ดำเนินการ"
+                ],
+                "ko": [
+                  "요약하다",
+                  "제안",
+                  "회의하다",
+                  "진행하다"
+                ],
+                "es": [
+                  "Resumir",
+                  "Propuesta",
+                  "Tener una reunión",
+                  "Proceder"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "발표하다",
+              "romanization": "balpyohada",
+              "options": {
+                "en": [
+                  "To present",
+                  "To have a meeting",
+                  "Materials/Data",
+                  "To decide"
+                ],
+                "zh": [
+                  "发表",
+                  "开会",
+                  "资料",
+                  "决定"
+                ],
+                "th": [
+                  "นำเสนอ",
+                  "ประชุม",
+                  "เอกสาร/ข้อมูล",
+                  "ตัดสินใจ"
+                ],
+                "ko": [
+                  "발표하다",
+                  "회의하다",
+                  "자료",
+                  "결정하다"
+                ],
+                "es": [
+                  "Presentar",
+                  "Tener una reunión",
+                  "Materiales/Datos",
+                  "Decidir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Wrapping up\"",
+                "zh": "\"收尾\"",
+                "th": "\"สรุป/ปิดท้าย\"",
+                "ko": "\"마무리\"",
+                "es": "\"Conclusión\""
+              },
+              "options": {
+                "neutral": [
+                  "마무리",
+                  "제안",
+                  "자료",
+                  "반대하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "의견",
+              "romanization": "uigyeon",
+              "options": {
+                "en": [
+                  "Opinion",
+                  "To summarize",
+                  "To have a meeting",
+                  "Wrapping up"
+                ],
+                "zh": [
+                  "意见",
+                  "总结",
+                  "开会",
+                  "收尾"
+                ],
+                "th": [
+                  "ความคิดเห็น",
+                  "สรุป",
+                  "ประชุม",
+                  "สรุป/ปิดท้าย"
+                ],
+                "ko": [
+                  "의견",
+                  "요약하다",
+                  "회의하다",
+                  "마무리"
+                ],
+                "es": [
+                  "Opinión",
+                  "Resumir",
+                  "Tener una reunión",
+                  "Conclusión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "자료",
+              "romanization": "jaryo",
+              "options": {
+                "en": [
+                  "Materials/Data",
+                  "Proposal/Suggestion",
+                  "Agenda item",
+                  "To have a meeting"
+                ],
+                "zh": [
+                  "资料",
+                  "提案",
+                  "议题",
+                  "开会"
+                ],
+                "th": [
+                  "เอกสาร/ข้อมูล",
+                  "ข้อเสนอ",
+                  "วาระ",
+                  "ประชุม"
+                ],
+                "ko": [
+                  "자료",
+                  "제안",
+                  "안건",
+                  "회의하다"
+                ],
+                "es": [
+                  "Materiales/Datos",
+                  "Propuesta",
+                  "Punto del orden",
+                  "Tener una reunión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "토론하다",
+                  "romanization": "toronhada",
+                  "native": {
+                    "en": "To discuss/debate",
+                    "zh": "讨论",
+                    "th": "อภิปราย",
+                    "ko": "토론하다",
+                    "es": "Debatir"
+                  }
+                },
+                {
+                  "target": "회의하다",
+                  "romanization": "hoeuihada",
+                  "native": {
+                    "en": "To have a meeting",
+                    "zh": "开会",
+                    "th": "ประชุม",
+                    "ko": "회의하다",
+                    "es": "Tener una reunión"
+                  }
+                },
+                {
+                  "target": "발언하다",
+                  "romanization": "bareonhada",
+                  "native": {
+                    "en": "To speak up",
+                    "zh": "发言",
+                    "th": "อภิปราย/พูด",
+                    "ko": "발언하다",
+                    "es": "Tomar la palabra"
+                  }
+                },
+                {
+                  "target": "안건",
+                  "romanization": "angeon",
+                  "native": {
+                    "en": "Agenda item",
+                    "zh": "议题",
+                    "th": "วาระ",
+                    "ko": "안건",
+                    "es": "Punto del orden"
+                  }
+                },
+                {
+                  "target": "참석하다",
+                  "romanization": "chamseokhada",
+                  "native": {
+                    "en": "To attend",
+                    "zh": "参加",
+                    "th": "เข้าร่วม",
+                    "ko": "참석하다",
+                    "es": "Asistir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "의견",
+                  "romanization": "uigyeon",
+                  "native": {
+                    "en": "Opinion",
+                    "zh": "意见",
+                    "th": "ความคิดเห็น",
+                    "ko": "의견",
+                    "es": "Opinión"
+                  }
+                },
+                {
+                  "target": "요약하다",
+                  "romanization": "yoyakhada",
+                  "native": {
+                    "en": "To summarize",
+                    "zh": "总结",
+                    "th": "สรุป",
+                    "ko": "요약하다",
+                    "es": "Resumir"
+                  }
+                },
+                {
+                  "target": "발표하다",
+                  "romanization": "balpyohada",
+                  "native": {
+                    "en": "To present",
+                    "zh": "发表",
+                    "th": "นำเสนอ",
+                    "ko": "발표하다",
+                    "es": "Presentar"
+                  }
+                },
+                {
+                  "target": "마무리",
+                  "romanization": "mamuri",
+                  "native": {
+                    "en": "Wrapping up",
+                    "zh": "收尾",
+                    "th": "สรุป/ปิดท้าย",
+                    "ko": "마무리",
+                    "es": "Conclusión"
+                  }
+                },
+                {
+                  "target": "자료",
+                  "romanization": "jaryo",
+                  "native": {
+                    "en": "Materials/Data",
+                    "zh": "资料",
+                    "th": "เอกสาร/ข้อมูล",
+                    "ko": "자료",
+                    "es": "Materiales/Datos"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3739,6 +7112,449 @@
                 "ko": "품질을 확인해 주세요는 거래에서 자주 쓰는 표현이에요.",
                 "es": "품질을 확인해 주세요 significa 'revise la calidad'. Esencial en negocios."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "수량",
+              "romanization": "suryang",
+              "options": {
+                "en": [
+                  "Quantity",
+                  "To inspect",
+                  "Quotation/Estimate",
+                  "Unit price"
+                ],
+                "zh": [
+                  "数量",
+                  "验收",
+                  "报价",
+                  "单价"
+                ],
+                "th": [
+                  "จำนวน",
+                  "ตรวจรับ",
+                  "ใบเสนอราคา",
+                  "ราคาต่อหน่วย"
+                ],
+                "ko": [
+                  "수량",
+                  "검수하다",
+                  "견적",
+                  "단가"
+                ],
+                "es": [
+                  "Cantidad",
+                  "Inspeccionar",
+                  "Cotización",
+                  "Precio unitario"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Unit price\"",
+                "zh": "\"单价\"",
+                "th": "\"ราคาต่อหน่วย\"",
+                "ko": "\"단가\"",
+                "es": "\"Precio unitario\""
+              },
+              "options": {
+                "neutral": [
+                  "단가",
+                  "계약",
+                  "발주",
+                  "협상"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "협상",
+              "romanization": "hyeopsang",
+              "options": {
+                "en": [
+                  "Negotiation",
+                  "Delivery date",
+                  "Terms/Conditions",
+                  "Contract"
+                ],
+                "zh": [
+                  "谈判",
+                  "交货期",
+                  "条件",
+                  "合同"
+                ],
+                "th": [
+                  "การเจรจา",
+                  "วันส่งมอบ",
+                  "เงื่อนไข",
+                  "สัญญา"
+                ],
+                "ko": [
+                  "협상",
+                  "납기",
+                  "조건",
+                  "계약"
+                ],
+                "es": [
+                  "Negociación",
+                  "Fecha de entrega",
+                  "Condiciones",
+                  "Contrato"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "납기",
+              "romanization": "napgi",
+              "options": {
+                "en": [
+                  "Delivery date",
+                  "Discount",
+                  "Order (business)",
+                  "Invoice"
+                ],
+                "zh": [
+                  "交货期",
+                  "折扣",
+                  "下单",
+                  "发票/账单"
+                ],
+                "th": [
+                  "วันส่งมอบ",
+                  "ส่วนลด",
+                  "สั่งซื้อ",
+                  "ใบแจ้งหนี้"
+                ],
+                "ko": [
+                  "납기",
+                  "할인",
+                  "발주",
+                  "청구서"
+                ],
+                "es": [
+                  "Fecha de entrega",
+                  "Descuento",
+                  "Pedido",
+                  "Factura"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Terms/Conditions\"",
+                "zh": "\"条件\"",
+                "th": "\"เงื่อนไข\"",
+                "ko": "\"조건\"",
+                "es": "\"Condiciones\""
+              },
+              "options": {
+                "neutral": [
+                  "조건",
+                  "할인",
+                  "납품",
+                  "납기"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "거래처",
+              "romanization": "georaecheo",
+              "options": {
+                "en": [
+                  "Business partner/Client",
+                  "Unit price",
+                  "Quotation/Estimate",
+                  "Delivery date"
+                ],
+                "zh": [
+                  "客户/合作方",
+                  "单价",
+                  "报价",
+                  "交货期"
+                ],
+                "th": [
+                  "ลูกค้า/คู่ค้า",
+                  "ราคาต่อหน่วย",
+                  "ใบเสนอราคา",
+                  "วันส่งมอบ"
+                ],
+                "ko": [
+                  "거래처",
+                  "단가",
+                  "견적",
+                  "납기"
+                ],
+                "es": [
+                  "Cliente/Socio",
+                  "Precio unitario",
+                  "Cotización",
+                  "Fecha de entrega"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "거래하다",
+              "romanization": "georaehada",
+              "options": {
+                "en": [
+                  "To do business",
+                  "Negotiation",
+                  "To inspect",
+                  "Contract"
+                ],
+                "zh": [
+                  "做生意",
+                  "谈判",
+                  "验收",
+                  "合同"
+                ],
+                "th": [
+                  "ทำธุรกิจ",
+                  "การเจรจา",
+                  "ตรวจรับ",
+                  "สัญญา"
+                ],
+                "ko": [
+                  "거래하다",
+                  "협상",
+                  "검수하다",
+                  "계약"
+                ],
+                "es": [
+                  "Hacer negocios",
+                  "Negociación",
+                  "Inspeccionar",
+                  "Contrato"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Order (business)\"",
+                "zh": "\"下单\"",
+                "th": "\"สั่งซื้อ\"",
+                "ko": "\"발주\"",
+                "es": "\"Pedido\""
+              },
+              "options": {
+                "neutral": [
+                  "발주",
+                  "수량",
+                  "계약",
+                  "할인"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "품질",
+              "romanization": "pumjil",
+              "options": {
+                "en": [
+                  "Quality",
+                  "Terms/Conditions",
+                  "Unit price",
+                  "Order (business)"
+                ],
+                "zh": [
+                  "质量",
+                  "条件",
+                  "单价",
+                  "下单"
+                ],
+                "th": [
+                  "คุณภาพ",
+                  "เงื่อนไข",
+                  "ราคาต่อหน่วย",
+                  "สั่งซื้อ"
+                ],
+                "ko": [
+                  "품질",
+                  "조건",
+                  "단가",
+                  "발주"
+                ],
+                "es": [
+                  "Calidad",
+                  "Condiciones",
+                  "Precio unitario",
+                  "Pedido"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "검수하다",
+              "romanization": "geomsuhada",
+              "options": {
+                "en": [
+                  "To inspect",
+                  "Unit price",
+                  "Business partner/Client",
+                  "Quality"
+                ],
+                "zh": [
+                  "验收",
+                  "单价",
+                  "客户/合作方",
+                  "质量"
+                ],
+                "th": [
+                  "ตรวจรับ",
+                  "ราคาต่อหน่วย",
+                  "ลูกค้า/คู่ค้า",
+                  "คุณภาพ"
+                ],
+                "ko": [
+                  "검수하다",
+                  "단가",
+                  "거래처",
+                  "품질"
+                ],
+                "es": [
+                  "Inspeccionar",
+                  "Precio unitario",
+                  "Cliente/Socio",
+                  "Calidad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "조건",
+                  "romanization": "jogean",
+                  "native": {
+                    "en": "Terms/Conditions",
+                    "zh": "条件",
+                    "th": "เงื่อนไข",
+                    "ko": "조건",
+                    "es": "Condiciones"
+                  }
+                },
+                {
+                  "target": "수량",
+                  "romanization": "suryang",
+                  "native": {
+                    "en": "Quantity",
+                    "zh": "数量",
+                    "th": "จำนวน",
+                    "ko": "수량",
+                    "es": "Cantidad"
+                  }
+                },
+                {
+                  "target": "할인",
+                  "romanization": "harin",
+                  "native": {
+                    "en": "Discount",
+                    "zh": "折扣",
+                    "th": "ส่วนลด",
+                    "ko": "할인",
+                    "es": "Descuento"
+                  }
+                },
+                {
+                  "target": "단가",
+                  "romanization": "danga",
+                  "native": {
+                    "en": "Unit price",
+                    "zh": "单价",
+                    "th": "ราคาต่อหน่วย",
+                    "ko": "단가",
+                    "es": "Precio unitario"
+                  }
+                },
+                {
+                  "target": "검수하다",
+                  "romanization": "geomsuhada",
+                  "native": {
+                    "en": "To inspect",
+                    "zh": "验收",
+                    "th": "ตรวจรับ",
+                    "ko": "검수하다",
+                    "es": "Inspeccionar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "납기",
+                  "romanization": "napgi",
+                  "native": {
+                    "en": "Delivery date",
+                    "zh": "交货期",
+                    "th": "วันส่งมอบ",
+                    "ko": "납기",
+                    "es": "Fecha de entrega"
+                  }
+                },
+                {
+                  "target": "거래하다",
+                  "romanization": "georaehada",
+                  "native": {
+                    "en": "To do business",
+                    "zh": "做生意",
+                    "th": "ทำธุรกิจ",
+                    "ko": "거래하다",
+                    "es": "Hacer negocios"
+                  }
+                },
+                {
+                  "target": "품질",
+                  "romanization": "pumjil",
+                  "native": {
+                    "en": "Quality",
+                    "zh": "质量",
+                    "th": "คุณภาพ",
+                    "ko": "품질",
+                    "es": "Calidad"
+                  }
+                },
+                {
+                  "target": "협상",
+                  "romanization": "hyeopsang",
+                  "native": {
+                    "en": "Negotiation",
+                    "zh": "谈判",
+                    "th": "การเจรจา",
+                    "ko": "협상",
+                    "es": "Negociación"
+                  }
+                },
+                {
+                  "target": "거래처",
+                  "romanization": "georaecheo",
+                  "native": {
+                    "en": "Business partner/Client",
+                    "zh": "客户/合作方",
+                    "th": "ลูกค้า/คู่ค้า",
+                    "ko": "거래처",
+                    "es": "Cliente/Socio"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4164,6 +7980,373 @@
                 "ko": "도시락을 먹어요는 직장인의 일반적인 점심 습관이에요.",
                 "es": "도시락을 먹어요 = comer almuerzo empacado. Muchos trabajadores coreanos llevan 도시락 para ahorrar."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "편의시설",
+              "romanization": "pyeonuisisol",
+              "options": {
+                "en": [
+                  "Amenities/Facilities",
+                  "Elevator",
+                  "Lunch break",
+                  "Packed lunch"
+                ],
+                "zh": [
+                  "便利设施",
+                  "电梯",
+                  "午餐时间",
+                  "便当"
+                ],
+                "th": [
+                  "สิ่งอำนวยความสะดวก",
+                  "ลิฟต์",
+                  "พักกลางวัน",
+                  "ข้าวกล่อง"
+                ],
+                "ko": [
+                  "편의시설",
+                  "엘리베이터",
+                  "점심시간",
+                  "도시락"
+                ],
+                "es": [
+                  "Instalaciones",
+                  "Elevador",
+                  "Hora de almuerzo",
+                  "Almuerzo empacado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Security\"",
+                "zh": "\"安保\"",
+                "th": "\"ความปลอดภัย\"",
+                "ko": "\"보안\"",
+                "es": "\"Seguridad\""
+              },
+              "options": {
+                "neutral": [
+                  "보안",
+                  "점심시간",
+                  "계단",
+                  "구내식당"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "간식",
+              "romanization": "gansik",
+              "options": {
+                "en": [
+                  "Snack",
+                  "Lunch break",
+                  "Security",
+                  "Stairs"
+                ],
+                "zh": [
+                  "零食",
+                  "午餐时间",
+                  "安保",
+                  "楼梯"
+                ],
+                "th": [
+                  "ของว่าง",
+                  "พักกลางวัน",
+                  "ความปลอดภัย",
+                  "บันได"
+                ],
+                "ko": [
+                  "간식",
+                  "점심시간",
+                  "보안",
+                  "계단"
+                ],
+                "es": [
+                  "Merienda",
+                  "Hora de almuerzo",
+                  "Seguridad",
+                  "Escaleras"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "로비",
+              "romanization": "robi",
+              "options": {
+                "en": [
+                  "Lobby",
+                  "Company cafeteria",
+                  "Bathroom",
+                  "Packed lunch"
+                ],
+                "zh": [
+                  "大厅",
+                  "食堂",
+                  "洗手间",
+                  "便当"
+                ],
+                "th": [
+                  "ล็อบบี้",
+                  "โรงอาหาร",
+                  "ห้องน้ำ",
+                  "ข้าวกล่อง"
+                ],
+                "ko": [
+                  "로비",
+                  "구내식당",
+                  "화장실",
+                  "도시락"
+                ],
+                "es": [
+                  "Vestíbulo",
+                  "Cafetería de empresa",
+                  "Baño",
+                  "Almuerzo empacado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Packed lunch\"",
+                "zh": "\"便当\"",
+                "th": "\"ข้าวกล่อง\"",
+                "ko": "\"도시락\"",
+                "es": "\"Almuerzo empacado\""
+              },
+              "options": {
+                "neutral": [
+                  "도시락",
+                  "보안",
+                  "편의시설",
+                  "화장실"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "엘리베이터",
+              "romanization": "ellibeiteo",
+              "options": {
+                "en": [
+                  "Elevator",
+                  "Stairs",
+                  "Company cafeteria",
+                  "Vending machine"
+                ],
+                "zh": [
+                  "电梯",
+                  "楼梯",
+                  "食堂",
+                  "自动售货机"
+                ],
+                "th": [
+                  "ลิฟต์",
+                  "บันได",
+                  "โรงอาหาร",
+                  "ตู้ขายของอัตโนมัติ"
+                ],
+                "ko": [
+                  "엘리베이터",
+                  "계단",
+                  "구내식당",
+                  "자판기"
+                ],
+                "es": [
+                  "Elevador",
+                  "Escaleras",
+                  "Cafetería de empresa",
+                  "Máquina expendedora"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "계단",
+              "romanization": "gyedan",
+              "options": {
+                "en": [
+                  "Stairs",
+                  "ID badge/Access card",
+                  "Break time",
+                  "Security"
+                ],
+                "zh": [
+                  "楼梯",
+                  "出入证",
+                  "休息时间",
+                  "安保"
+                ],
+                "th": [
+                  "บันได",
+                  "บัตรเข้าออก",
+                  "เวลาพักผ่อน",
+                  "ความปลอดภัย"
+                ],
+                "ko": [
+                  "계단",
+                  "출입증",
+                  "쉬는 시간",
+                  "보안"
+                ],
+                "es": [
+                  "Escaleras",
+                  "Tarjeta de acceso",
+                  "Descanso",
+                  "Seguridad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Parking lot\"",
+                "zh": "\"停车场\"",
+                "th": "\"ที่จอดรถ\"",
+                "ko": "\"주차장\"",
+                "es": "\"Estacionamiento\""
+              },
+              "options": {
+                "neutral": [
+                  "주차장",
+                  "로비",
+                  "출입증",
+                  "자판기"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "주차장",
+                  "romanization": "juchajang",
+                  "native": {
+                    "en": "Parking lot",
+                    "zh": "停车场",
+                    "th": "ที่จอดรถ",
+                    "ko": "주차장",
+                    "es": "Estacionamiento"
+                  }
+                },
+                {
+                  "target": "간식",
+                  "romanization": "gansik",
+                  "native": {
+                    "en": "Snack",
+                    "zh": "零食",
+                    "th": "ของว่าง",
+                    "ko": "간식",
+                    "es": "Merienda"
+                  }
+                },
+                {
+                  "target": "출입증",
+                  "romanization": "churipjeung",
+                  "native": {
+                    "en": "ID badge/Access card",
+                    "zh": "出入证",
+                    "th": "บัตรเข้าออก",
+                    "ko": "출입증",
+                    "es": "Tarjeta de acceso"
+                  }
+                },
+                {
+                  "target": "보안",
+                  "romanization": "boan",
+                  "native": {
+                    "en": "Security",
+                    "zh": "安保",
+                    "th": "ความปลอดภัย",
+                    "ko": "보안",
+                    "es": "Seguridad"
+                  }
+                },
+                {
+                  "target": "편의시설",
+                  "romanization": "pyeonuisisol",
+                  "native": {
+                    "en": "Amenities/Facilities",
+                    "zh": "便利设施",
+                    "th": "สิ่งอำนวยความสะดวก",
+                    "ko": "편의시설",
+                    "es": "Instalaciones"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "구내식당",
+                  "romanization": "gunae sikdang",
+                  "native": {
+                    "en": "Company cafeteria",
+                    "zh": "食堂",
+                    "th": "โรงอาหาร",
+                    "ko": "구내식당",
+                    "es": "Cafetería de empresa"
+                  }
+                },
+                {
+                  "target": "자판기",
+                  "romanization": "japangi",
+                  "native": {
+                    "en": "Vending machine",
+                    "zh": "自动售货机",
+                    "th": "ตู้ขายของอัตโนมัติ",
+                    "ko": "자판기",
+                    "es": "Máquina expendedora"
+                  }
+                },
+                {
+                  "target": "도시락",
+                  "romanization": "dosirak2",
+                  "native": {
+                    "en": "Packed lunch",
+                    "zh": "便当",
+                    "th": "ข้าวกล่อง",
+                    "ko": "도시락",
+                    "es": "Almuerzo empacado"
+                  }
+                },
+                {
+                  "target": "로비",
+                  "romanization": "robi",
+                  "native": {
+                    "en": "Lobby",
+                    "zh": "大厅",
+                    "th": "ล็อบบี้",
+                    "ko": "로비",
+                    "es": "Vestíbulo"
+                  }
+                },
+                {
+                  "target": "엘리베이터",
+                  "romanization": "ellibeiteo",
+                  "native": {
+                    "en": "Elevator",
+                    "zh": "电梯",
+                    "th": "ลิฟต์",
+                    "ko": "엘리베이터",
+                    "es": "Elevador"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4573,6 +8756,411 @@
                 "ko": "목표를 달성했어요는 업무 성과를 보고할 때 쓰는 표현이에요.",
                 "es": "목표를 달성했어요 significa 'logramos la meta'. Frase clave para informar resultados."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "성과",
+              "romanization": "seongwa",
+              "options": {
+                "en": [
+                  "Results/Performance",
+                  "Research",
+                  "Accounting",
+                  "Feedback"
+                ],
+                "zh": [
+                  "成果",
+                  "研究",
+                  "会计",
+                  "反馈"
+                ],
+                "th": [
+                  "ผลงาน",
+                  "การวิจัย",
+                  "บัญชี",
+                  "ฟีดแบ็ก"
+                ],
+                "ko": [
+                  "성과",
+                  "연구",
+                  "회계",
+                  "피드백"
+                ],
+                "es": [
+                  "Resultados",
+                  "Investigación",
+                  "Contabilidad",
+                  "Retroalimentación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Project\"",
+                "zh": "\"项目\"",
+                "th": "\"โปรเจกต์\"",
+                "ko": "\"프로젝트\"",
+                "es": "\"Proyecto\""
+              },
+              "options": {
+                "neutral": [
+                  "프로젝트",
+                  "기한",
+                  "회계",
+                  "연구"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "기한",
+              "romanization": "gihan",
+              "options": {
+                "en": [
+                  "Time limit",
+                  "Marketing",
+                  "Planning",
+                  "Progress"
+                ],
+                "zh": [
+                  "期限",
+                  "营销",
+                  "策划",
+                  "进展"
+                ],
+                "th": [
+                  "กำหนดเวลา",
+                  "การตลาด",
+                  "การวางแผน",
+                  "ความคืบหน้า"
+                ],
+                "ko": [
+                  "기한",
+                  "마케팅",
+                  "기획",
+                  "진척"
+                ],
+                "es": [
+                  "Plazo",
+                  "Marketing",
+                  "Planificación",
+                  "Progreso"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "피드백",
+              "romanization": "pideubak",
+              "options": {
+                "en": [
+                  "Feedback",
+                  "Sales",
+                  "Progress",
+                  "General affairs"
+                ],
+                "zh": [
+                  "反馈",
+                  "销售",
+                  "进展",
+                  "总务"
+                ],
+                "th": [
+                  "ฟีดแบ็ก",
+                  "ฝ่ายขาย",
+                  "ความคืบหน้า",
+                  "ธุรการ"
+                ],
+                "ko": [
+                  "피드백",
+                  "영업",
+                  "진척",
+                  "총무"
+                ],
+                "es": [
+                  "Retroalimentación",
+                  "Ventas",
+                  "Progreso",
+                  "Asuntos generales"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Research\"",
+                "zh": "\"研究\"",
+                "th": "\"การวิจัย\"",
+                "ko": "\"연구\"",
+                "es": "\"Investigación\""
+              },
+              "options": {
+                "neutral": [
+                  "연구",
+                  "목표",
+                  "개발",
+                  "피드백"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "고객 서비스",
+              "romanization": "gogaek seobiseu",
+              "options": {
+                "en": [
+                  "Customer service",
+                  "Feedback",
+                  "Planning",
+                  "Accounting"
+                ],
+                "zh": [
+                  "客服",
+                  "反馈",
+                  "策划",
+                  "会计"
+                ],
+                "th": [
+                  "บริการลูกค้า",
+                  "ฟีดแบ็ก",
+                  "การวางแผน",
+                  "บัญชี"
+                ],
+                "ko": [
+                  "고객 서비스",
+                  "피드백",
+                  "기획",
+                  "회계"
+                ],
+                "es": [
+                  "Servicio al cliente",
+                  "Retroalimentación",
+                  "Planificación",
+                  "Contabilidad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "진척",
+              "romanization": "jincheok",
+              "options": {
+                "en": [
+                  "Progress",
+                  "Time limit",
+                  "Results/Performance",
+                  "Accounting"
+                ],
+                "zh": [
+                  "进展",
+                  "期限",
+                  "成果",
+                  "会计"
+                ],
+                "th": [
+                  "ความคืบหน้า",
+                  "กำหนดเวลา",
+                  "ผลงาน",
+                  "บัญชี"
+                ],
+                "ko": [
+                  "진척",
+                  "기한",
+                  "성과",
+                  "회계"
+                ],
+                "es": [
+                  "Progreso",
+                  "Plazo",
+                  "Resultados",
+                  "Contabilidad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Accounting\"",
+                "zh": "\"会计\"",
+                "th": "\"บัญชี\"",
+                "ko": "\"회계\"",
+                "es": "\"Contabilidad\""
+              },
+              "options": {
+                "neutral": [
+                  "회계",
+                  "프로젝트",
+                  "목표",
+                  "영업"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "총무",
+              "romanization": "chongmu",
+              "options": {
+                "en": [
+                  "General affairs",
+                  "Project",
+                  "Development",
+                  "Accounting"
+                ],
+                "zh": [
+                  "总务",
+                  "项目",
+                  "开发",
+                  "会计"
+                ],
+                "th": [
+                  "ธุรการ",
+                  "โปรเจกต์",
+                  "การพัฒนา",
+                  "บัญชี"
+                ],
+                "ko": [
+                  "총무",
+                  "프로젝트",
+                  "개발",
+                  "회계"
+                ],
+                "es": [
+                  "Asuntos generales",
+                  "Proyecto",
+                  "Desarrollo",
+                  "Contabilidad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "총무",
+                  "romanization": "chongmu",
+                  "native": {
+                    "en": "General affairs",
+                    "zh": "总务",
+                    "th": "ธุรการ",
+                    "ko": "총무",
+                    "es": "Asuntos generales"
+                  }
+                },
+                {
+                  "target": "목표",
+                  "romanization": "mokpyo",
+                  "native": {
+                    "en": "Goal/Target",
+                    "zh": "目标",
+                    "th": "เป้าหมาย",
+                    "ko": "목표",
+                    "es": "Meta/Objetivo"
+                  }
+                },
+                {
+                  "target": "협업",
+                  "romanization": "hyeopeop",
+                  "native": {
+                    "en": "Collaboration",
+                    "zh": "协作",
+                    "th": "การร่วมมือ",
+                    "ko": "협업",
+                    "es": "Colaboración"
+                  }
+                },
+                {
+                  "target": "프로젝트",
+                  "romanization": "peurojekteu",
+                  "native": {
+                    "en": "Project",
+                    "zh": "项目",
+                    "th": "โปรเจกต์",
+                    "ko": "프로젝트",
+                    "es": "Proyecto"
+                  }
+                },
+                {
+                  "target": "기한",
+                  "romanization": "gihan",
+                  "native": {
+                    "en": "Time limit",
+                    "zh": "期限",
+                    "th": "กำหนดเวลา",
+                    "ko": "기한",
+                    "es": "Plazo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "연구",
+                  "romanization": "yeongu",
+                  "native": {
+                    "en": "Research",
+                    "zh": "研究",
+                    "th": "การวิจัย",
+                    "ko": "연구",
+                    "es": "Investigación"
+                  }
+                },
+                {
+                  "target": "진척",
+                  "romanization": "jincheok",
+                  "native": {
+                    "en": "Progress",
+                    "zh": "进展",
+                    "th": "ความคืบหน้า",
+                    "ko": "진척",
+                    "es": "Progreso"
+                  }
+                },
+                {
+                  "target": "회계",
+                  "romanization": "hoegye",
+                  "native": {
+                    "en": "Accounting",
+                    "zh": "会计",
+                    "th": "บัญชี",
+                    "ko": "회계",
+                    "es": "Contabilidad"
+                  }
+                },
+                {
+                  "target": "피드백",
+                  "romanization": "pideubak",
+                  "native": {
+                    "en": "Feedback",
+                    "zh": "反馈",
+                    "th": "ฟีดแบ็ก",
+                    "ko": "피드백",
+                    "es": "Retroalimentación"
+                  }
+                },
+                {
+                  "target": "고객 서비스",
+                  "romanization": "gogaek seobiseu",
+                  "native": {
+                    "en": "Customer service",
+                    "zh": "客服",
+                    "th": "บริการลูกค้า",
+                    "ko": "고객 서비스",
+                    "es": "Servicio al cliente"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4979,6 +9567,411 @@
                 "ko": "작성해서 보내 주세요는 문서 업무에서 자주 쓰는 표현이에요.",
                 "es": "작성해서 보내 주세요 significa 'llénelo y envíelo'. Frase estándar de flujo documental."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "완료",
+              "romanization": "wallyo",
+              "options": {
+                "en": [
+                  "Completion",
+                  "Official document",
+                  "Signature",
+                  "Memo/Note"
+                ],
+                "zh": [
+                  "完成",
+                  "公文",
+                  "签名",
+                  "备忘录"
+                ],
+                "th": [
+                  "เสร็จสิ้น",
+                  "เอกสารราชการ",
+                  "ลายเซ็น",
+                  "บันทึก"
+                ],
+                "ko": [
+                  "완료",
+                  "공문",
+                  "서명",
+                  "메모"
+                ],
+                "es": [
+                  "Completado",
+                  "Documento oficial",
+                  "Firma",
+                  "Nota/Memo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Draft proposal\"",
+                "zh": "\"起草文件\"",
+                "th": "\"ร่างเอกสาร\"",
+                "ko": "\"기안서\"",
+                "es": "\"Borrador\""
+              },
+              "options": {
+                "neutral": [
+                  "기안서",
+                  "양식",
+                  "공문",
+                  "마감일"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "양식",
+              "romanization": "yangsik",
+              "options": {
+                "en": [
+                  "Form/Template",
+                  "To approve",
+                  "To submit",
+                  "Memo/Note"
+                ],
+                "zh": [
+                  "表格",
+                  "批准",
+                  "提交",
+                  "备忘录"
+                ],
+                "th": [
+                  "แบบฟอร์ม",
+                  "อนุมัติ",
+                  "ส่ง/ยื่น",
+                  "บันทึก"
+                ],
+                "ko": [
+                  "양식",
+                  "승인하다",
+                  "제출하다",
+                  "메모"
+                ],
+                "es": [
+                  "Formato",
+                  "Aprobar",
+                  "Presentar/Entregar",
+                  "Nota/Memo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "반려하다",
+              "romanization": "ballyeohada",
+              "options": {
+                "en": [
+                  "To reject/return",
+                  "Form/Template",
+                  "CC (reference)",
+                  "To revise"
+                ],
+                "zh": [
+                  "退回",
+                  "表格",
+                  "抄送",
+                  "修改"
+                ],
+                "th": [
+                  "ส่งกลับ/ปฏิเสธ",
+                  "แบบฟอร์ม",
+                  "สำเนาถึง",
+                  "แก้ไข"
+                ],
+                "ko": [
+                  "반려하다",
+                  "양식",
+                  "참조",
+                  "수정하다"
+                ],
+                "es": [
+                  "Rechazar/Devolver",
+                  "Formato",
+                  "Con copia",
+                  "Revisar/Corregir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Signature\"",
+                "zh": "\"签名\"",
+                "th": "\"ลายเซ็น\"",
+                "ko": "\"서명\"",
+                "es": "\"Firma\""
+              },
+              "options": {
+                "neutral": [
+                  "서명",
+                  "제출하다",
+                  "수정하다",
+                  "완료"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "공문",
+              "romanization": "gongmun",
+              "options": {
+                "en": [
+                  "Official document",
+                  "Draft proposal",
+                  "Memo/Note",
+                  "Due date"
+                ],
+                "zh": [
+                  "公文",
+                  "起草文件",
+                  "备忘录",
+                  "截止日期"
+                ],
+                "th": [
+                  "เอกสารราชการ",
+                  "ร่างเอกสาร",
+                  "บันทึก",
+                  "วันครบกำหนด"
+                ],
+                "ko": [
+                  "공문",
+                  "기안서",
+                  "메모",
+                  "마감일"
+                ],
+                "es": [
+                  "Documento oficial",
+                  "Borrador",
+                  "Nota/Memo",
+                  "Fecha límite"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "참조",
+              "romanization": "chamjo",
+              "options": {
+                "en": [
+                  "CC (reference)",
+                  "Form/Template",
+                  "To write/fill out",
+                  "Meeting minutes"
+                ],
+                "zh": [
+                  "抄送",
+                  "表格",
+                  "填写/撰写",
+                  "会议记录"
+                ],
+                "th": [
+                  "สำเนาถึง",
+                  "แบบฟอร์ม",
+                  "เขียน/กรอก",
+                  "บันทึกการประชุม"
+                ],
+                "ko": [
+                  "참조",
+                  "양식",
+                  "작성하다",
+                  "회의록"
+                ],
+                "es": [
+                  "Con copia",
+                  "Formato",
+                  "Redactar/Llenar",
+                  "Acta de reunión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Due date\"",
+                "zh": "\"截止日期\"",
+                "th": "\"วันครบกำหนด\"",
+                "ko": "\"마감일\"",
+                "es": "\"Fecha límite\""
+              },
+              "options": {
+                "neutral": [
+                  "마감일",
+                  "메모",
+                  "양식",
+                  "승인하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "메모",
+              "romanization": "memo",
+              "options": {
+                "en": [
+                  "Memo/Note",
+                  "Draft proposal",
+                  "CC (reference)",
+                  "Meeting minutes"
+                ],
+                "zh": [
+                  "备忘录",
+                  "起草文件",
+                  "抄送",
+                  "会议记录"
+                ],
+                "th": [
+                  "บันทึก",
+                  "ร่างเอกสาร",
+                  "สำเนาถึง",
+                  "บันทึกการประชุม"
+                ],
+                "ko": [
+                  "메모",
+                  "기안서",
+                  "참조",
+                  "회의록"
+                ],
+                "es": [
+                  "Nota/Memo",
+                  "Borrador",
+                  "Con copia",
+                  "Acta de reunión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "메모",
+                  "romanization": "memo",
+                  "native": {
+                    "en": "Memo/Note",
+                    "zh": "备忘录",
+                    "th": "บันทึก",
+                    "ko": "메모",
+                    "es": "Nota/Memo"
+                  }
+                },
+                {
+                  "target": "참조",
+                  "romanization": "chamjo",
+                  "native": {
+                    "en": "CC (reference)",
+                    "zh": "抄送",
+                    "th": "สำเนาถึง",
+                    "ko": "참조",
+                    "es": "Con copia"
+                  }
+                },
+                {
+                  "target": "공문",
+                  "romanization": "gongmun",
+                  "native": {
+                    "en": "Official document",
+                    "zh": "公文",
+                    "th": "เอกสารราชการ",
+                    "ko": "공문",
+                    "es": "Documento oficial"
+                  }
+                },
+                {
+                  "target": "마감일",
+                  "romanization": "magamil",
+                  "native": {
+                    "en": "Due date",
+                    "zh": "截止日期",
+                    "th": "วันครบกำหนด",
+                    "ko": "마감일",
+                    "es": "Fecha límite"
+                  }
+                },
+                {
+                  "target": "기안서",
+                  "romanization": "gianseo",
+                  "native": {
+                    "en": "Draft proposal",
+                    "zh": "起草文件",
+                    "th": "ร่างเอกสาร",
+                    "ko": "기안서",
+                    "es": "Borrador"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "회의록",
+                  "romanization": "hoeuirok",
+                  "native": {
+                    "en": "Meeting minutes",
+                    "zh": "会议记录",
+                    "th": "บันทึกการประชุม",
+                    "ko": "회의록",
+                    "es": "Acta de reunión"
+                  }
+                },
+                {
+                  "target": "양식",
+                  "romanization": "yangsik",
+                  "native": {
+                    "en": "Form/Template",
+                    "zh": "表格",
+                    "th": "แบบฟอร์ม",
+                    "ko": "양식",
+                    "es": "Formato"
+                  }
+                },
+                {
+                  "target": "완료",
+                  "romanization": "wallyo",
+                  "native": {
+                    "en": "Completion",
+                    "zh": "完成",
+                    "th": "เสร็จสิ้น",
+                    "ko": "완료",
+                    "es": "Completado"
+                  }
+                },
+                {
+                  "target": "반려하다",
+                  "romanization": "ballyeohada",
+                  "native": {
+                    "en": "To reject/return",
+                    "zh": "退回",
+                    "th": "ส่งกลับ/ปฏิเสธ",
+                    "ko": "반려하다",
+                    "es": "Rechazar/Devolver"
+                  }
+                },
+                {
+                  "target": "서명",
+                  "romanization": "seomyeong",
+                  "native": {
+                    "en": "Signature",
+                    "zh": "签名",
+                    "th": "ลายเซ็น",
+                    "ko": "서명",
+                    "es": "Firma"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5404,6 +10397,449 @@
                 "ko": "선후배 관계는 한국 직장 문화의 핵심이에요.",
                 "es": "선후배 관계 = relación senior-junior. Fundamental en la dinámica laboral coreana."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "세미나",
+              "romanization": "semina",
+              "options": {
+                "en": [
+                  "Seminar",
+                  "Connections/Network",
+                  "To learn",
+                  "To grow"
+                ],
+                "zh": [
+                  "研讨会",
+                  "人脉",
+                  "学习",
+                  "成长"
+                ],
+                "th": [
+                  "สัมมนา",
+                  "คอนเนกชัน",
+                  "เรียนรู้",
+                  "เติบโต"
+                ],
+                "ko": [
+                  "세미나",
+                  "인맥",
+                  "배우다",
+                  "성장하다"
+                ],
+                "es": [
+                  "Seminario",
+                  "Contactos/Red",
+                  "Aprender",
+                  "Crecer"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Training/Education\"",
+                "zh": "\"培训/教育\"",
+                "th": "\"การฝึกอบรม\"",
+                "ko": "\"교육\"",
+                "es": "\"Capacitación\""
+              },
+              "options": {
+                "neutral": [
+                  "교육",
+                  "컨퍼런스",
+                  "선배",
+                  "성장하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "명함 교환",
+              "romanization": "myeongham gyohwan",
+              "options": {
+                "en": [
+                  "Business card exchange",
+                  "To communicate",
+                  "To grow",
+                  "Training/Education"
+                ],
+                "zh": [
+                  "交换名片",
+                  "沟通",
+                  "成长",
+                  "培训/教育"
+                ],
+                "th": [
+                  "แลกนามบัตร",
+                  "สื่อสาร",
+                  "เติบโต",
+                  "การฝึกอบรม"
+                ],
+                "ko": [
+                  "명함 교환",
+                  "소통하다",
+                  "성장하다",
+                  "교육"
+                ],
+                "es": [
+                  "Intercambio de tarjetas",
+                  "Comunicarse",
+                  "Crecer",
+                  "Capacitación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "협력하다",
+              "romanization": "hyeomnyeokhada",
+              "options": {
+                "en": [
+                  "To cooperate",
+                  "Networking",
+                  "Seminar",
+                  "To respect"
+                ],
+                "zh": [
+                  "合作",
+                  "社交",
+                  "研讨会",
+                  "尊敬"
+                ],
+                "th": [
+                  "ร่วมมือ",
+                  "เน็ตเวิร์กกิ้ง",
+                  "สัมมนา",
+                  "เคารพ"
+                ],
+                "ko": [
+                  "협력하다",
+                  "네트워킹",
+                  "세미나",
+                  "존경하다"
+                ],
+                "es": [
+                  "Cooperar",
+                  "Networking",
+                  "Seminario",
+                  "Respetar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"To grow\"",
+                "zh": "\"成长\"",
+                "th": "\"เติบโต\"",
+                "ko": "\"성장하다\"",
+                "es": "\"Crecer\""
+              },
+              "options": {
+                "neutral": [
+                  "성장하다",
+                  "네트워킹",
+                  "컨퍼런스",
+                  "인맥"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "배우다",
+              "romanization": "baeuda",
+              "options": {
+                "en": [
+                  "To learn",
+                  "Seminar",
+                  "To communicate",
+                  "Connections/Network"
+                ],
+                "zh": [
+                  "学习",
+                  "研讨会",
+                  "沟通",
+                  "人脉"
+                ],
+                "th": [
+                  "เรียนรู้",
+                  "สัมมนา",
+                  "สื่อสาร",
+                  "คอนเนกชัน"
+                ],
+                "ko": [
+                  "배우다",
+                  "세미나",
+                  "소통하다",
+                  "인맥"
+                ],
+                "es": [
+                  "Aprender",
+                  "Seminario",
+                  "Comunicarse",
+                  "Contactos/Red"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "컨퍼런스",
+              "romanization": "keonpereonseu",
+              "options": {
+                "en": [
+                  "Conference",
+                  "To grow",
+                  "Networking",
+                  "Business card exchange"
+                ],
+                "zh": [
+                  "会议",
+                  "成长",
+                  "社交",
+                  "交换名片"
+                ],
+                "th": [
+                  "การประชุมวิชาการ",
+                  "เติบโต",
+                  "เน็ตเวิร์กกิ้ง",
+                  "แลกนามบัตร"
+                ],
+                "ko": [
+                  "컨퍼런스",
+                  "성장하다",
+                  "네트워킹",
+                  "명함 교환"
+                ],
+                "es": [
+                  "Conferencia",
+                  "Crecer",
+                  "Networking",
+                  "Intercambio de tarjetas"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Networking\"",
+                "zh": "\"社交\"",
+                "th": "\"เน็ตเวิร์กกิ้ง\"",
+                "ko": "\"네트워킹\"",
+                "es": "\"Networking\""
+              },
+              "options": {
+                "neutral": [
+                  "네트워킹",
+                  "멘토",
+                  "존경하다",
+                  "명함 교환"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "워크숍",
+              "romanization": "wokeuswop",
+              "options": {
+                "en": [
+                  "Workshop",
+                  "Connections/Network",
+                  "Senior (at work/school)",
+                  "To learn"
+                ],
+                "zh": [
+                  "工作坊",
+                  "人脉",
+                  "前辈",
+                  "学习"
+                ],
+                "th": [
+                  "เวิร์กช็อป",
+                  "คอนเนกชัน",
+                  "รุ่นพี่",
+                  "เรียนรู้"
+                ],
+                "ko": [
+                  "워크숍",
+                  "인맥",
+                  "선배",
+                  "배우다"
+                ],
+                "es": [
+                  "Taller",
+                  "Contactos/Red",
+                  "Senior",
+                  "Aprender"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "존경하다",
+              "romanization": "jongyeonghada",
+              "options": {
+                "en": [
+                  "To respect",
+                  "Connections/Network",
+                  "Conference",
+                  "Business card exchange"
+                ],
+                "zh": [
+                  "尊敬",
+                  "人脉",
+                  "会议",
+                  "交换名片"
+                ],
+                "th": [
+                  "เคารพ",
+                  "คอนเนกชัน",
+                  "การประชุมวิชาการ",
+                  "แลกนามบัตร"
+                ],
+                "ko": [
+                  "존경하다",
+                  "인맥",
+                  "컨퍼런스",
+                  "명함 교환"
+                ],
+                "es": [
+                  "Respetar",
+                  "Contactos/Red",
+                  "Conferencia",
+                  "Intercambio de tarjetas"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "소통하다",
+                  "romanization": "sotonghada",
+                  "native": {
+                    "en": "To communicate",
+                    "zh": "沟通",
+                    "th": "สื่อสาร",
+                    "ko": "소통하다",
+                    "es": "Comunicarse"
+                  }
+                },
+                {
+                  "target": "존경하다",
+                  "romanization": "jongyeonghada",
+                  "native": {
+                    "en": "To respect",
+                    "zh": "尊敬",
+                    "th": "เคารพ",
+                    "ko": "존경하다",
+                    "es": "Respetar"
+                  }
+                },
+                {
+                  "target": "세미나",
+                  "romanization": "semina",
+                  "native": {
+                    "en": "Seminar",
+                    "zh": "研讨会",
+                    "th": "สัมมนา",
+                    "ko": "세미나",
+                    "es": "Seminario"
+                  }
+                },
+                {
+                  "target": "컨퍼런스",
+                  "romanization": "keonpereonseu",
+                  "native": {
+                    "en": "Conference",
+                    "zh": "会议",
+                    "th": "การประชุมวิชาการ",
+                    "ko": "컨퍼런스",
+                    "es": "Conferencia"
+                  }
+                },
+                {
+                  "target": "네트워킹",
+                  "romanization": "netweoking",
+                  "native": {
+                    "en": "Networking",
+                    "zh": "社交",
+                    "th": "เน็ตเวิร์กกิ้ง",
+                    "ko": "네트워킹",
+                    "es": "Networking"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "성장하다",
+                  "romanization": "seongjang hada",
+                  "native": {
+                    "en": "To grow",
+                    "zh": "成长",
+                    "th": "เติบโต",
+                    "ko": "성장하다",
+                    "es": "Crecer"
+                  }
+                },
+                {
+                  "target": "워크숍",
+                  "romanization": "wokeuswop",
+                  "native": {
+                    "en": "Workshop",
+                    "zh": "工作坊",
+                    "th": "เวิร์กช็อป",
+                    "ko": "워크숍",
+                    "es": "Taller"
+                  }
+                },
+                {
+                  "target": "배우다",
+                  "romanization": "baeuda",
+                  "native": {
+                    "en": "To learn",
+                    "zh": "学习",
+                    "th": "เรียนรู้",
+                    "ko": "배우다",
+                    "es": "Aprender"
+                  }
+                },
+                {
+                  "target": "교육",
+                  "romanization": "gyoyuk",
+                  "native": {
+                    "en": "Training/Education",
+                    "zh": "培训/教育",
+                    "th": "การฝึกอบรม",
+                    "ko": "교육",
+                    "es": "Capacitación"
+                  }
+                },
+                {
+                  "target": "명함 교환",
+                  "romanization": "myeongham gyohwan",
+                  "native": {
+                    "en": "Business card exchange",
+                    "zh": "交换名片",
+                    "th": "แลกนามบัตร",
+                    "ko": "명함 교환",
+                    "es": "Intercambio de tarjetas"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5813,6 +11249,411 @@
                 "ko": "성장할 수 있어요는 한국 직장 문화의 핵심 가치예요.",
                 "es": "성장할 수 있어요 significa 'puede crecer'. Esfuerzo + crecimiento es un valor coreano."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "인정받다",
+              "romanization": "injeongbatda",
+              "options": {
+                "en": [
+                  "To be recognized",
+                  "Motivation",
+                  "Teamwork",
+                  "Problem solving"
+                ],
+                "zh": [
+                  "被认可",
+                  "动力",
+                  "团队合作",
+                  "解决问题"
+                ],
+                "th": [
+                  "ได้รับการยอมรับ",
+                  "แรงจูงใจ",
+                  "การทำงานเป็นทีม",
+                  "การแก้ปัญหา"
+                ],
+                "ko": [
+                  "인정받다",
+                  "동기부여",
+                  "팀워크",
+                  "문제 해결"
+                ],
+                "es": [
+                  "Ser reconocido",
+                  "Motivación",
+                  "Trabajo en equipo",
+                  "Resolución de problemas"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Career\"",
+                "zh": "\"职业生涯\"",
+                "th": "\"อาชีพ/สายงาน\"",
+                "ko": "\"커리어\"",
+                "es": "\"Carrera\""
+              },
+              "options": {
+                "neutral": [
+                  "커리어",
+                  "노력하다",
+                  "자기 계발",
+                  "보람"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "도전하다",
+              "romanization": "dojeonhada",
+              "options": {
+                "en": [
+                  "To challenge",
+                  "Capability",
+                  "Fulfillment/Worth",
+                  "To develop/improve"
+                ],
+                "zh": [
+                  "挑战",
+                  "能力",
+                  "成就感",
+                  "发展"
+                ],
+                "th": [
+                  "ท้าทาย",
+                  "ศักยภาพ",
+                  "ความรู้สึกคุ้มค่า",
+                  "พัฒนา"
+                ],
+                "ko": [
+                  "도전하다",
+                  "역량",
+                  "보람",
+                  "발전하다"
+                ],
+                "es": [
+                  "Desafiarse",
+                  "Capacidad",
+                  "Satisfacción",
+                  "Desarrollarse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "노력하다",
+              "romanization": "noryeokhada",
+              "options": {
+                "en": [
+                  "To make effort",
+                  "To challenge",
+                  "Goal setting",
+                  "Time management"
+                ],
+                "zh": [
+                  "努力",
+                  "挑战",
+                  "设定目标",
+                  "时间管理"
+                ],
+                "th": [
+                  "พยายาม",
+                  "ท้าทาย",
+                  "ตั้งเป้าหมาย",
+                  "การจัดการเวลา"
+                ],
+                "ko": [
+                  "노력하다",
+                  "도전하다",
+                  "목표 설정",
+                  "시간 관리"
+                ],
+                "es": [
+                  "Esforzarse",
+                  "Desafiarse",
+                  "Establecer metas",
+                  "Gestión del tiempo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Problem solving\"",
+                "zh": "\"解决问题\"",
+                "th": "\"การแก้ปัญหา\"",
+                "ko": "\"문제 해결\"",
+                "es": "\"Resolución de problemas\""
+              },
+              "options": {
+                "neutral": [
+                  "문제 해결",
+                  "팀워크",
+                  "도전하다",
+                  "실력"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "발전하다",
+              "romanization": "baljeonhada",
+              "options": {
+                "en": [
+                  "To develop/improve",
+                  "Problem solving",
+                  "To make effort",
+                  "Motivation"
+                ],
+                "zh": [
+                  "发展",
+                  "解决问题",
+                  "努力",
+                  "动力"
+                ],
+                "th": [
+                  "พัฒนา",
+                  "การแก้ปัญหา",
+                  "พยายาม",
+                  "แรงจูงใจ"
+                ],
+                "ko": [
+                  "발전하다",
+                  "문제 해결",
+                  "노력하다",
+                  "동기부여"
+                ],
+                "es": [
+                  "Desarrollarse",
+                  "Resolución de problemas",
+                  "Esforzarse",
+                  "Motivación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "목표 설정",
+              "romanization": "mokpyo seoljeong",
+              "options": {
+                "en": [
+                  "Goal setting",
+                  "To challenge",
+                  "Fulfillment/Worth",
+                  "Career"
+                ],
+                "zh": [
+                  "设定目标",
+                  "挑战",
+                  "成就感",
+                  "职业生涯"
+                ],
+                "th": [
+                  "ตั้งเป้าหมาย",
+                  "ท้าทาย",
+                  "ความรู้สึกคุ้มค่า",
+                  "อาชีพ/สายงาน"
+                ],
+                "ko": [
+                  "목표 설정",
+                  "도전하다",
+                  "보람",
+                  "커리어"
+                ],
+                "es": [
+                  "Establecer metas",
+                  "Desafiarse",
+                  "Satisfacción",
+                  "Carrera"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Capability\"",
+                "zh": "\"能力\"",
+                "th": "\"ศักยภาพ\"",
+                "ko": "\"역량\"",
+                "es": "\"Capacidad\""
+              },
+              "options": {
+                "neutral": [
+                  "역량",
+                  "실력",
+                  "리더십",
+                  "자기 계발"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "보람",
+              "romanization": "boram",
+              "options": {
+                "en": [
+                  "Fulfillment/Worth",
+                  "To be recognized",
+                  "Career",
+                  "Time management"
+                ],
+                "zh": [
+                  "成就感",
+                  "被认可",
+                  "职业生涯",
+                  "时间管理"
+                ],
+                "th": [
+                  "ความรู้สึกคุ้มค่า",
+                  "ได้รับการยอมรับ",
+                  "อาชีพ/สายงาน",
+                  "การจัดการเวลา"
+                ],
+                "ko": [
+                  "보람",
+                  "인정받다",
+                  "커리어",
+                  "시간 관리"
+                ],
+                "es": [
+                  "Satisfacción",
+                  "Ser reconocido",
+                  "Carrera",
+                  "Gestión del tiempo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "도전하다",
+                  "romanization": "dojeonhada",
+                  "native": {
+                    "en": "To challenge",
+                    "zh": "挑战",
+                    "th": "ท้าทาย",
+                    "ko": "도전하다",
+                    "es": "Desafiarse"
+                  }
+                },
+                {
+                  "target": "보람",
+                  "romanization": "boram",
+                  "native": {
+                    "en": "Fulfillment/Worth",
+                    "zh": "成就感",
+                    "th": "ความรู้สึกคุ้มค่า",
+                    "ko": "보람",
+                    "es": "Satisfacción"
+                  }
+                },
+                {
+                  "target": "시간 관리",
+                  "romanization": "sigan gwanri",
+                  "native": {
+                    "en": "Time management",
+                    "zh": "时间管理",
+                    "th": "การจัดการเวลา",
+                    "ko": "시간 관리",
+                    "es": "Gestión del tiempo"
+                  }
+                },
+                {
+                  "target": "목표 설정",
+                  "romanization": "mokpyo seoljeong",
+                  "native": {
+                    "en": "Goal setting",
+                    "zh": "设定目标",
+                    "th": "ตั้งเป้าหมาย",
+                    "ko": "목표 설정",
+                    "es": "Establecer metas"
+                  }
+                },
+                {
+                  "target": "인정받다",
+                  "romanization": "injeongbatda",
+                  "native": {
+                    "en": "To be recognized",
+                    "zh": "被认可",
+                    "th": "ได้รับการยอมรับ",
+                    "ko": "인정받다",
+                    "es": "Ser reconocido"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "동기부여",
+                  "romanization": "donggibuyeo",
+                  "native": {
+                    "en": "Motivation",
+                    "zh": "动力",
+                    "th": "แรงจูงใจ",
+                    "ko": "동기부여",
+                    "es": "Motivación"
+                  }
+                },
+                {
+                  "target": "역량",
+                  "romanization": "yeokryang",
+                  "native": {
+                    "en": "Capability",
+                    "zh": "能力",
+                    "th": "ศักยภาพ",
+                    "ko": "역량",
+                    "es": "Capacidad"
+                  }
+                },
+                {
+                  "target": "문제 해결",
+                  "romanization": "munje haegyeol",
+                  "native": {
+                    "en": "Problem solving",
+                    "zh": "解决问题",
+                    "th": "การแก้ปัญหา",
+                    "ko": "문제 해결",
+                    "es": "Resolución de problemas"
+                  }
+                },
+                {
+                  "target": "노력하다",
+                  "romanization": "noryeokhada",
+                  "native": {
+                    "en": "To make effort",
+                    "zh": "努力",
+                    "th": "พยายาม",
+                    "ko": "노력하다",
+                    "es": "Esforzarse"
+                  }
+                },
+                {
+                  "target": "커리어",
+                  "romanization": "keorieo",
+                  "native": {
+                    "en": "Career",
+                    "zh": "职业生涯",
+                    "th": "อาชีพ/สายงาน",
+                    "ko": "커리어",
+                    "es": "Carrera"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -6219,6 +12060,411 @@
                 "ko": "문화 차이를 이해하는 것이 중요해요는 글로벌 업무의 핵심이에요.",
                 "es": "Entender las diferencias culturales es crucial para negocios internacionales."
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "현지화",
+              "romanization": "hyeonjihwa",
+              "options": {
+                "en": [
+                  "Localization",
+                  "Business English",
+                  "Expatriate worker",
+                  "Interpretation"
+                ],
+                "zh": [
+                  "本地化",
+                  "商务英语",
+                  "外派人员",
+                  "口译"
+                ],
+                "th": [
+                  "การปรับให้เข้ากับท้องถิ่น",
+                  "ภาษาอังกฤษธุรกิจ",
+                  "พนักงานต่างชาติ",
+                  "การแปลปาก"
+                ],
+                "ko": [
+                  "현지화",
+                  "비즈니스 영어",
+                  "주재원",
+                  "통역"
+                ],
+                "es": [
+                  "Localización",
+                  "Inglés de negocios",
+                  "Expatriado",
+                  "Interpretación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Business English\"",
+                "zh": "\"商务英语\"",
+                "th": "\"ภาษาอังกฤษธุรกิจ\"",
+                "ko": "\"비즈니스 영어\"",
+                "es": "\"Inglés de negocios\""
+              },
+              "options": {
+                "neutral": [
+                  "비즈니스 영어",
+                  "글로벌 매너",
+                  "화상 회의",
+                  "출장 보고서"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "출장 보고서",
+              "romanization": "chuljang bogoseo",
+              "options": {
+                "en": [
+                  "Business trip report",
+                  "Overseas",
+                  "Translation",
+                  "Multinational"
+                ],
+                "zh": [
+                  "出差报告",
+                  "海外",
+                  "翻译",
+                  "跨国"
+                ],
+                "th": [
+                  "รายงานเดินทางธุรกิจ",
+                  "ต่างประเทศ",
+                  "การแปล",
+                  "ข้ามชาติ"
+                ],
+                "ko": [
+                  "출장 보고서",
+                  "해외",
+                  "번역",
+                  "다국적"
+                ],
+                "es": [
+                  "Informe de viaje",
+                  "Extranjero",
+                  "Traducción",
+                  "Multinacional"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "외국어",
+              "romanization": "oegugeo",
+              "options": {
+                "en": [
+                  "Foreign language",
+                  "Localization",
+                  "Video conference",
+                  "Translation"
+                ],
+                "zh": [
+                  "外语",
+                  "本地化",
+                  "视频会议",
+                  "翻译"
+                ],
+                "th": [
+                  "ภาษาต่างประเทศ",
+                  "การปรับให้เข้ากับท้องถิ่น",
+                  "ประชุมทางวิดีโอ",
+                  "การแปล"
+                ],
+                "ko": [
+                  "외국어",
+                  "현지화",
+                  "화상 회의",
+                  "번역"
+                ],
+                "es": [
+                  "Idioma extranjero",
+                  "Localización",
+                  "Videoconferencia",
+                  "Traducción"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Global\"",
+                "zh": "\"全球\"",
+                "th": "\"โลก/สากล\"",
+                "ko": "\"글로벌\"",
+                "es": "\"Global\""
+              },
+              "options": {
+                "neutral": [
+                  "글로벌",
+                  "비즈니스 영어",
+                  "글로벌 매너",
+                  "번역"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "문화 차이",
+              "romanization": "munhwa chai",
+              "options": {
+                "en": [
+                  "Cultural difference",
+                  "Foreign language",
+                  "Translation",
+                  "Interpretation"
+                ],
+                "zh": [
+                  "文化差异",
+                  "外语",
+                  "翻译",
+                  "口译"
+                ],
+                "th": [
+                  "ความแตกต่างทางวัฒนธรรม",
+                  "ภาษาต่างประเทศ",
+                  "การแปล",
+                  "การแปลปาก"
+                ],
+                "ko": [
+                  "문화 차이",
+                  "외국어",
+                  "번역",
+                  "통역"
+                ],
+                "es": [
+                  "Diferencia cultural",
+                  "Idioma extranjero",
+                  "Traducción",
+                  "Interpretación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "국제 업무",
+              "romanization": "gukje eommu",
+              "options": {
+                "en": [
+                  "International business",
+                  "Translation",
+                  "Multinational",
+                  "Video conference"
+                ],
+                "zh": [
+                  "国际业务",
+                  "翻译",
+                  "跨国",
+                  "视频会议"
+                ],
+                "th": [
+                  "งานระหว่างประเทศ",
+                  "การแปล",
+                  "ข้ามชาติ",
+                  "ประชุมทางวิดีโอ"
+                ],
+                "ko": [
+                  "국제 업무",
+                  "번역",
+                  "다국적",
+                  "화상 회의"
+                ],
+                "es": [
+                  "Negocios internacionales",
+                  "Traducción",
+                  "Multinacional",
+                  "Videoconferencia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Multinational\"",
+                "zh": "\"跨国\"",
+                "th": "\"ข้ามชาติ\"",
+                "ko": "\"다국적\"",
+                "es": "\"Multinacional\""
+              },
+              "options": {
+                "neutral": [
+                  "다국적",
+                  "현지화",
+                  "문화 차이",
+                  "시차"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "글로벌 매너",
+              "romanization": "geullobeol maneo",
+              "options": {
+                "en": [
+                  "Global manners",
+                  "Overseas",
+                  "Expatriate worker",
+                  "Foreign language"
+                ],
+                "zh": [
+                  "国际礼仪",
+                  "海外",
+                  "外派人员",
+                  "外语"
+                ],
+                "th": [
+                  "มารยาทสากล",
+                  "ต่างประเทศ",
+                  "พนักงานต่างชาติ",
+                  "ภาษาต่างประเทศ"
+                ],
+                "ko": [
+                  "글로벌 매너",
+                  "해외",
+                  "주재원",
+                  "외국어"
+                ],
+                "es": [
+                  "Modales globales",
+                  "Extranjero",
+                  "Expatriado",
+                  "Idioma extranjero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "주재원",
+                  "romanization": "jujaewoman",
+                  "native": {
+                    "en": "Expatriate worker",
+                    "zh": "外派人员",
+                    "th": "พนักงานต่างชาติ",
+                    "ko": "주재원",
+                    "es": "Expatriado"
+                  }
+                },
+                {
+                  "target": "국제 업무",
+                  "romanization": "gukje eommu",
+                  "native": {
+                    "en": "International business",
+                    "zh": "国际业务",
+                    "th": "งานระหว่างประเทศ",
+                    "ko": "국제 업무",
+                    "es": "Negocios internacionales"
+                  }
+                },
+                {
+                  "target": "현지화",
+                  "romanization": "hyeonjihwa",
+                  "native": {
+                    "en": "Localization",
+                    "zh": "本地化",
+                    "th": "การปรับให้เข้ากับท้องถิ่น",
+                    "ko": "현지화",
+                    "es": "Localización"
+                  }
+                },
+                {
+                  "target": "다국적",
+                  "romanization": "dagukjeok",
+                  "native": {
+                    "en": "Multinational",
+                    "zh": "跨国",
+                    "th": "ข้ามชาติ",
+                    "ko": "다국적",
+                    "es": "Multinacional"
+                  }
+                },
+                {
+                  "target": "글로벌",
+                  "romanization": "geullobeol",
+                  "native": {
+                    "en": "Global",
+                    "zh": "全球",
+                    "th": "โลก/สากล",
+                    "ko": "글로벌",
+                    "es": "Global"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "외국어",
+                  "romanization": "oegugeo",
+                  "native": {
+                    "en": "Foreign language",
+                    "zh": "外语",
+                    "th": "ภาษาต่างประเทศ",
+                    "ko": "외국어",
+                    "es": "Idioma extranjero"
+                  }
+                },
+                {
+                  "target": "출장 보고서",
+                  "romanization": "chuljang bogoseo",
+                  "native": {
+                    "en": "Business trip report",
+                    "zh": "出差报告",
+                    "th": "รายงานเดินทางธุรกิจ",
+                    "ko": "출장 보고서",
+                    "es": "Informe de viaje"
+                  }
+                },
+                {
+                  "target": "글로벌 매너",
+                  "romanization": "geullobeol maneo",
+                  "native": {
+                    "en": "Global manners",
+                    "zh": "国际礼仪",
+                    "th": "มารยาทสากล",
+                    "ko": "글로벌 매너",
+                    "es": "Modales globales"
+                  }
+                },
+                {
+                  "target": "비즈니스 영어",
+                  "romanization": "bijeuneseu yeongeo",
+                  "native": {
+                    "en": "Business English",
+                    "zh": "商务英语",
+                    "th": "ภาษาอังกฤษธุรกิจ",
+                    "ko": "비즈니스 영어",
+                    "es": "Inglés de negocios"
+                  }
+                },
+                {
+                  "target": "화상 회의",
+                  "romanization": "hwasang hoeui",
+                  "native": {
+                    "en": "Video conference",
+                    "zh": "视频会议",
+                    "th": "ประชุมทางวิดีโอ",
+                    "ko": "화상 회의",
+                    "es": "Videoconferencia"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {

@@ -402,6 +402,468 @@
                   "thank you"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "sorry",
+              "romanization": "SAW-ree",
+              "options": {
+                "en": [
+                  "Sorry",
+                  "Excuse me",
+                  "Hi (informal)",
+                  "No"
+                ],
+                "zh": [
+                  "对不起",
+                  "打扰一下",
+                  "嗨",
+                  "不"
+                ],
+                "th": [
+                  "ขอโทษ",
+                  "ขอโทษนะ",
+                  "หวัดดี",
+                  "ไม่"
+                ],
+                "ko": [
+                  "죄송합니다",
+                  "실례합니다",
+                  "안녕",
+                  "아니요"
+                ],
+                "es": [
+                  "Lo siento",
+                  "Disculpe",
+                  "Hola (informal)",
+                  "No"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Yes\"",
+                "zh": "\"是\"",
+                "th": "\"ใช่\"",
+                "ko": "\"네\"",
+                "es": "\"Sí\""
+              },
+              "options": {
+                "neutral": [
+                  "yes",
+                  "thank you",
+                  "bye",
+                  "welcome"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "good morning",
+              "romanization": "good MOR-ning",
+              "options": {
+                "en": [
+                  "Good morning",
+                  "Sorry",
+                  "Goodbye",
+                  "Good night"
+                ],
+                "zh": [
+                  "早上好",
+                  "对不起",
+                  "再见",
+                  "晚安"
+                ],
+                "th": [
+                  "อรุณสวัสดิ์",
+                  "ขอโทษ",
+                  "ลาก่อน",
+                  "ราตรีสวัสดิ์"
+                ],
+                "ko": [
+                  "좋은 아침이에요",
+                  "죄송합니다",
+                  "안녕히 가세요",
+                  "안녕히 주무세요"
+                ],
+                "es": [
+                  "Buenos días",
+                  "Lo siento",
+                  "Adiós",
+                  "Buenas noches"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "hi",
+              "romanization": "hye",
+              "options": {
+                "en": [
+                  "Hi (informal)",
+                  "Sorry",
+                  "Hello",
+                  "Goodbye"
+                ],
+                "zh": [
+                  "嗨",
+                  "对不起",
+                  "你好",
+                  "再见"
+                ],
+                "th": [
+                  "หวัดดี",
+                  "ขอโทษ",
+                  "สวัสดี",
+                  "ลาก่อน"
+                ],
+                "ko": [
+                  "안녕",
+                  "죄송합니다",
+                  "안녕하세요",
+                  "안녕히 가세요"
+                ],
+                "es": [
+                  "Hola (informal)",
+                  "Lo siento",
+                  "Hola",
+                  "Adiós"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"No\"",
+                "zh": "\"不\"",
+                "th": "\"ไม่\"",
+                "ko": "\"아니요\"",
+                "es": "\"No\""
+              },
+              "options": {
+                "neutral": [
+                  "no",
+                  "good night",
+                  "bye",
+                  "excuse me"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "welcome",
+              "romanization": "WEL-kum",
+              "options": {
+                "en": [
+                  "Welcome",
+                  "Good night",
+                  "Good morning",
+                  "Sorry"
+                ],
+                "zh": [
+                  "欢迎",
+                  "晚安",
+                  "早上好",
+                  "对不起"
+                ],
+                "th": [
+                  "ยินดีต้อนรับ",
+                  "ราตรีสวัสดิ์",
+                  "อรุณสวัสดิ์",
+                  "ขอโทษ"
+                ],
+                "ko": [
+                  "환영합니다",
+                  "안녕히 주무세요",
+                  "좋은 아침이에요",
+                  "죄송합니다"
+                ],
+                "es": [
+                  "Bienvenido",
+                  "Buenas noches",
+                  "Buenos días",
+                  "Lo siento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "good night",
+              "romanization": "good nyte",
+              "options": {
+                "en": [
+                  "Good night",
+                  "See you",
+                  "No",
+                  "Sorry"
+                ],
+                "zh": [
+                  "晚安",
+                  "再见",
+                  "不",
+                  "对不起"
+                ],
+                "th": [
+                  "ราตรีสวัสดิ์",
+                  "แล้วเจอกัน",
+                  "ไม่",
+                  "ขอโทษ"
+                ],
+                "ko": [
+                  "안녕히 주무세요",
+                  "또 봐요",
+                  "아니요",
+                  "죄송합니다"
+                ],
+                "es": [
+                  "Buenas noches",
+                  "Nos vemos",
+                  "No",
+                  "Lo siento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"OK\"",
+                "zh": "\"好的\"",
+                "th": "\"โอเค\"",
+                "ko": "\"괜찮아요\"",
+                "es": "\"Está bien\""
+              },
+              "options": {
+                "neutral": [
+                  "OK",
+                  "hello",
+                  "bye",
+                  "hi"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "excuse me",
+              "romanization": "ek-SKYOOZ mee",
+              "options": {
+                "en": [
+                  "Excuse me",
+                  "See you",
+                  "Bye (informal)",
+                  "Good morning"
+                ],
+                "zh": [
+                  "打扰一下",
+                  "再见",
+                  "拜拜",
+                  "早上好"
+                ],
+                "th": [
+                  "ขอโทษนะ",
+                  "แล้วเจอกัน",
+                  "บาย",
+                  "อรุณสวัสดิ์"
+                ],
+                "ko": [
+                  "실례합니다",
+                  "또 봐요",
+                  "잘 가",
+                  "좋은 아침이에요"
+                ],
+                "es": [
+                  "Disculpe",
+                  "Nos vemos",
+                  "Chao",
+                  "Buenos días"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "see you",
+              "romanization": "see yoo",
+              "options": {
+                "en": [
+                  "See you",
+                  "Yes",
+                  "Hi (informal)",
+                  "OK"
+                ],
+                "zh": [
+                  "再见",
+                  "是",
+                  "嗨",
+                  "好的"
+                ],
+                "th": [
+                  "แล้วเจอกัน",
+                  "ใช่",
+                  "หวัดดี",
+                  "โอเค"
+                ],
+                "ko": [
+                  "또 봐요",
+                  "네",
+                  "안녕",
+                  "괜찮아요"
+                ],
+                "es": [
+                  "Nos vemos",
+                  "Sí",
+                  "Hola (informal)",
+                  "Está bien"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Bye (informal)\"",
+                "zh": "\"拜拜\"",
+                "th": "\"บาย\"",
+                "ko": "\"잘 가\"",
+                "es": "\"Chao\""
+              },
+              "options": {
+                "neutral": [
+                  "bye",
+                  "no",
+                  "goodbye",
+                  "OK"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "sorry",
+                  "romanization": "SAW-ree",
+                  "native": {
+                    "en": "Sorry",
+                    "zh": "对不起",
+                    "th": "ขอโทษ",
+                    "ko": "죄송합니다",
+                    "es": "Lo siento"
+                  }
+                },
+                {
+                  "target": "no",
+                  "romanization": "noh",
+                  "native": {
+                    "en": "No",
+                    "zh": "不",
+                    "th": "ไม่",
+                    "ko": "아니요",
+                    "es": "No"
+                  }
+                },
+                {
+                  "target": "welcome",
+                  "romanization": "WEL-kum",
+                  "native": {
+                    "en": "Welcome",
+                    "zh": "欢迎",
+                    "th": "ยินดีต้อนรับ",
+                    "ko": "환영합니다",
+                    "es": "Bienvenido"
+                  }
+                },
+                {
+                  "target": "yes",
+                  "romanization": "yes",
+                  "native": {
+                    "en": "Yes",
+                    "zh": "是",
+                    "th": "ใช่",
+                    "ko": "네",
+                    "es": "Sí"
+                  }
+                },
+                {
+                  "target": "excuse me",
+                  "romanization": "ek-SKYOOZ mee",
+                  "native": {
+                    "en": "Excuse me",
+                    "zh": "打扰一下",
+                    "th": "ขอโทษนะ",
+                    "ko": "실례합니다",
+                    "es": "Disculpe"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "see you",
+                  "romanization": "see yoo",
+                  "native": {
+                    "en": "See you",
+                    "zh": "再见",
+                    "th": "แล้วเจอกัน",
+                    "ko": "또 봐요",
+                    "es": "Nos vemos"
+                  }
+                },
+                {
+                  "target": "hi",
+                  "romanization": "hye",
+                  "native": {
+                    "en": "Hi (informal)",
+                    "zh": "嗨",
+                    "th": "หวัดดี",
+                    "ko": "안녕",
+                    "es": "Hola (informal)"
+                  }
+                },
+                {
+                  "target": "bye",
+                  "romanization": "bye",
+                  "native": {
+                    "en": "Bye (informal)",
+                    "zh": "拜拜",
+                    "th": "บาย",
+                    "ko": "잘 가",
+                    "es": "Chao"
+                  }
+                },
+                {
+                  "target": "OK",
+                  "romanization": "oh-KAY",
+                  "native": {
+                    "en": "OK",
+                    "zh": "好的",
+                    "th": "โอเค",
+                    "ko": "괜찮아요",
+                    "es": "Está bien"
+                  }
+                },
+                {
+                  "target": "good morning",
+                  "romanization": "good MOR-ning",
+                  "native": {
+                    "en": "Good morning",
+                    "zh": "早上好",
+                    "th": "อรุณสวัสดิ์",
+                    "ko": "좋은 아침이에요",
+                    "es": "Buenos días"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -788,6 +1250,373 @@
                   "Sam"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "and you",
+              "romanization": "and yoo",
+              "options": {
+                "en": [
+                  "And you?",
+                  "Country",
+                  "What",
+                  "I am"
+                ],
+                "zh": [
+                  "你呢？",
+                  "国家",
+                  "什么",
+                  "我是"
+                ],
+                "th": [
+                  "แล้วคุณล่ะ?",
+                  "ประเทศ",
+                  "อะไร",
+                  "ฉันเป็น"
+                ],
+                "ko": [
+                  "당신은요?",
+                  "나라",
+                  "무엇",
+                  "저는……입니다"
+                ],
+                "es": [
+                  "¿Y tú?",
+                  "País",
+                  "Qué",
+                  "Yo soy"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"What\"",
+                "zh": "\"什么\"",
+                "th": "\"อะไร\"",
+                "ko": "\"무엇\"",
+                "es": "\"Qué\""
+              },
+              "options": {
+                "neutral": [
+                  "what",
+                  "I am",
+                  "I'm from",
+                  "how are you"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "I'm fine",
+              "romanization": "eyem fyn",
+              "options": {
+                "en": [
+                  "I'm fine",
+                  "From",
+                  "You are",
+                  "Nice to meet you"
+                ],
+                "zh": [
+                  "我很好",
+                  "从",
+                  "你是",
+                  "很高兴认识你"
+                ],
+                "th": [
+                  "สบายดี",
+                  "จาก",
+                  "คุณเป็น",
+                  "ยินดีที่ได้รู้จัก"
+                ],
+                "ko": [
+                  "잘 지내요",
+                  "에서",
+                  "당신은……입니다",
+                  "만나서 반갑습니다"
+                ],
+                "es": [
+                  "Estoy bien",
+                  "De",
+                  "Tú eres",
+                  "Mucho gusto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "from",
+              "romanization": "frum",
+              "options": {
+                "en": [
+                  "From",
+                  "My name is...",
+                  "I'm fine",
+                  "Friend"
+                ],
+                "zh": [
+                  "从",
+                  "我叫……",
+                  "我很好",
+                  "朋友"
+                ],
+                "th": [
+                  "จาก",
+                  "ฉันชื่อ……",
+                  "สบายดี",
+                  "เพื่อน"
+                ],
+                "ko": [
+                  "에서",
+                  "제 이름은……",
+                  "잘 지내요",
+                  "친구"
+                ],
+                "es": [
+                  "De",
+                  "Mi nombre es...",
+                  "Estoy bien",
+                  "Amigo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Country\"",
+                "zh": "\"国家\"",
+                "th": "\"ประเทศ\"",
+                "ko": "\"나라\"",
+                "es": "\"País\""
+              },
+              "options": {
+                "neutral": [
+                  "country",
+                  "from",
+                  "your",
+                  "friend"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "where",
+              "romanization": "wair",
+              "options": {
+                "en": [
+                  "Where",
+                  "You are",
+                  "And you?",
+                  "Country"
+                ],
+                "zh": [
+                  "哪里",
+                  "你是",
+                  "你呢？",
+                  "国家"
+                ],
+                "th": [
+                  "ที่ไหน",
+                  "คุณเป็น",
+                  "แล้วคุณล่ะ?",
+                  "ประเทศ"
+                ],
+                "ko": [
+                  "어디",
+                  "당신은……입니다",
+                  "당신은요?",
+                  "나라"
+                ],
+                "es": [
+                  "Dónde",
+                  "Tú eres",
+                  "¿Y tú?",
+                  "País"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "I'm from",
+              "romanization": "eyem frum",
+              "options": {
+                "en": [
+                  "I'm from...",
+                  "From",
+                  "I'm fine",
+                  "Your"
+                ],
+                "zh": [
+                  "我来自……",
+                  "从",
+                  "我很好",
+                  "你的"
+                ],
+                "th": [
+                  "ฉันมาจาก……",
+                  "จาก",
+                  "สบายดี",
+                  "ของคุณ"
+                ],
+                "ko": [
+                  "저는……에서 왔어요",
+                  "에서",
+                  "잘 지내요",
+                  "당신의"
+                ],
+                "es": [
+                  "Soy de...",
+                  "De",
+                  "Estoy bien",
+                  "Tu / Su"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Your\"",
+                "zh": "\"你的\"",
+                "th": "\"ของคุณ\"",
+                "ko": "\"당신의\"",
+                "es": "\"Tu / Su\""
+              },
+              "options": {
+                "neutral": [
+                  "your",
+                  "and you",
+                  "where",
+                  "friend"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "your",
+                  "romanization": "yor",
+                  "native": {
+                    "en": "Your",
+                    "zh": "你的",
+                    "th": "ของคุณ",
+                    "ko": "당신의",
+                    "es": "Tu / Su"
+                  }
+                },
+                {
+                  "target": "country",
+                  "romanization": "KUN-tree",
+                  "native": {
+                    "en": "Country",
+                    "zh": "国家",
+                    "th": "ประเทศ",
+                    "ko": "나라",
+                    "es": "País"
+                  }
+                },
+                {
+                  "target": "from",
+                  "romanization": "frum",
+                  "native": {
+                    "en": "From",
+                    "zh": "从",
+                    "th": "จาก",
+                    "ko": "에서",
+                    "es": "De"
+                  }
+                },
+                {
+                  "target": "where",
+                  "romanization": "wair",
+                  "native": {
+                    "en": "Where",
+                    "zh": "哪里",
+                    "th": "ที่ไหน",
+                    "ko": "어디",
+                    "es": "Dónde"
+                  }
+                },
+                {
+                  "target": "I'm from",
+                  "romanization": "eyem frum",
+                  "native": {
+                    "en": "I'm from...",
+                    "zh": "我来自……",
+                    "th": "ฉันมาจาก……",
+                    "ko": "저는……에서 왔어요",
+                    "es": "Soy de..."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "my name is",
+                  "romanization": "my naym iz",
+                  "native": {
+                    "en": "My name is...",
+                    "zh": "我叫……",
+                    "th": "ฉันชื่อ……",
+                    "ko": "제 이름은……",
+                    "es": "Mi nombre es..."
+                  }
+                },
+                {
+                  "target": "nice to meet you",
+                  "romanization": "nys too meet yoo",
+                  "native": {
+                    "en": "Nice to meet you",
+                    "zh": "很高兴认识你",
+                    "th": "ยินดีที่ได้รู้จัก",
+                    "ko": "만나서 반갑습니다",
+                    "es": "Mucho gusto"
+                  }
+                },
+                {
+                  "target": "how are you",
+                  "romanization": "how ar yoo",
+                  "native": {
+                    "en": "How are you?",
+                    "zh": "你好吗？",
+                    "th": "สบายดีไหม",
+                    "ko": "어떻게 지내세요?",
+                    "es": "¿Cómo estás?"
+                  }
+                },
+                {
+                  "target": "and you",
+                  "romanization": "and yoo",
+                  "native": {
+                    "en": "And you?",
+                    "zh": "你呢？",
+                    "th": "แล้วคุณล่ะ?",
+                    "ko": "당신은요?",
+                    "es": "¿Y tú?"
+                  }
+                },
+                {
+                  "target": "what",
+                  "romanization": "wut",
+                  "native": {
+                    "en": "What",
+                    "zh": "什么",
+                    "th": "อะไร",
+                    "ko": "무엇",
+                    "es": "Qué"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1171,6 +2000,373 @@
                   "happy"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "angry",
+              "romanization": "ANG-gree",
+              "options": {
+                "en": [
+                  "Angry",
+                  "Bad",
+                  "Fine",
+                  "Happy"
+                ],
+                "zh": [
+                  "生气",
+                  "坏",
+                  "不错",
+                  "开心"
+                ],
+                "th": [
+                  "โกรธ",
+                  "ไม่ดี",
+                  "สบายดี",
+                  "มีความสุข"
+                ],
+                "ko": [
+                  "화난",
+                  "나쁜",
+                  "괜찮은",
+                  "행복한"
+                ],
+                "es": [
+                  "Enojado",
+                  "Malo",
+                  "Bien",
+                  "Feliz"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sick\"",
+                "zh": "\"生病\"",
+                "th": "\"ป่วย\"",
+                "ko": "\"아픈\"",
+                "es": "\"Enfermo\""
+              },
+              "options": {
+                "neutral": [
+                  "sick",
+                  "angry",
+                  "fine",
+                  "hungry"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "excited",
+              "romanization": "ek-SY-ted",
+              "options": {
+                "en": [
+                  "Excited",
+                  "Sad",
+                  "Good",
+                  "Angry"
+                ],
+                "zh": [
+                  "兴奋",
+                  "难过",
+                  "好",
+                  "生气"
+                ],
+                "th": [
+                  "ตื่นเต้น",
+                  "เศร้า",
+                  "ดี",
+                  "โกรธ"
+                ],
+                "ko": [
+                  "신나는",
+                  "슬픈",
+                  "좋은",
+                  "화난"
+                ],
+                "es": [
+                  "Emocionado",
+                  "Triste",
+                  "Bueno",
+                  "Enojado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "scared",
+              "romanization": "skaird",
+              "options": {
+                "en": [
+                  "Scared",
+                  "Angry",
+                  "Bad",
+                  "Fine"
+                ],
+                "zh": [
+                  "害怕",
+                  "生气",
+                  "坏",
+                  "不错"
+                ],
+                "th": [
+                  "กลัว",
+                  "โกรธ",
+                  "ไม่ดี",
+                  "สบายดี"
+                ],
+                "ko": [
+                  "무서운",
+                  "화난",
+                  "나쁜",
+                  "괜찮은"
+                ],
+                "es": [
+                  "Asustado",
+                  "Enojado",
+                  "Malo",
+                  "Bien"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Busy\"",
+                "zh": "\"忙\"",
+                "th": "\"ยุ่ง\"",
+                "ko": "\"바쁜\"",
+                "es": "\"Ocupado\""
+              },
+              "options": {
+                "neutral": [
+                  "busy",
+                  "hot",
+                  "tired",
+                  "sick"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "thirsty",
+              "romanization": "THUR-stee",
+              "options": {
+                "en": [
+                  "Thirsty",
+                  "Happy",
+                  "Sad",
+                  "Hot"
+                ],
+                "zh": [
+                  "渴了",
+                  "开心",
+                  "难过",
+                  "热"
+                ],
+                "th": [
+                  "กระหายน้ำ",
+                  "มีความสุข",
+                  "เศร้า",
+                  "ร้อน"
+                ],
+                "ko": [
+                  "목마른",
+                  "행복한",
+                  "슬픈",
+                  "더운"
+                ],
+                "es": [
+                  "Sediento",
+                  "Feliz",
+                  "Triste",
+                  "Caliente"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "sad",
+              "romanization": "sad",
+              "options": {
+                "en": [
+                  "Sad",
+                  "Fine",
+                  "Cold",
+                  "Angry"
+                ],
+                "zh": [
+                  "难过",
+                  "不错",
+                  "冷",
+                  "生气"
+                ],
+                "th": [
+                  "เศร้า",
+                  "สบายดี",
+                  "หนาว",
+                  "โกรธ"
+                ],
+                "ko": [
+                  "슬픈",
+                  "괜찮은",
+                  "추운",
+                  "화난"
+                ],
+                "es": [
+                  "Triste",
+                  "Bien",
+                  "Frío",
+                  "Enojado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Fine\"",
+                "zh": "\"不错\"",
+                "th": "\"สบายดี\"",
+                "ko": "\"괜찮은\"",
+                "es": "\"Bien\""
+              },
+              "options": {
+                "neutral": [
+                  "fine",
+                  "tired",
+                  "busy",
+                  "hot"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "scared",
+                  "romanization": "skaird",
+                  "native": {
+                    "en": "Scared",
+                    "zh": "害怕",
+                    "th": "กลัว",
+                    "ko": "무서운",
+                    "es": "Asustado"
+                  }
+                },
+                {
+                  "target": "sick",
+                  "romanization": "sik",
+                  "native": {
+                    "en": "Sick",
+                    "zh": "生病",
+                    "th": "ป่วย",
+                    "ko": "아픈",
+                    "es": "Enfermo"
+                  }
+                },
+                {
+                  "target": "happy",
+                  "romanization": "HAP-ee",
+                  "native": {
+                    "en": "Happy",
+                    "zh": "开心",
+                    "th": "มีความสุข",
+                    "ko": "행복한",
+                    "es": "Feliz"
+                  }
+                },
+                {
+                  "target": "thirsty",
+                  "romanization": "THUR-stee",
+                  "native": {
+                    "en": "Thirsty",
+                    "zh": "渴了",
+                    "th": "กระหายน้ำ",
+                    "ko": "목마른",
+                    "es": "Sediento"
+                  }
+                },
+                {
+                  "target": "sad",
+                  "romanization": "sad",
+                  "native": {
+                    "en": "Sad",
+                    "zh": "难过",
+                    "th": "เศร้า",
+                    "ko": "슬픈",
+                    "es": "Triste"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "excited",
+                  "romanization": "ek-SY-ted",
+                  "native": {
+                    "en": "Excited",
+                    "zh": "兴奋",
+                    "th": "ตื่นเต้น",
+                    "ko": "신나는",
+                    "es": "Emocionado"
+                  }
+                },
+                {
+                  "target": "hungry",
+                  "romanization": "HUNG-gree",
+                  "native": {
+                    "en": "Hungry",
+                    "zh": "饿了",
+                    "th": "หิว",
+                    "ko": "배고픈",
+                    "es": "Hambriento"
+                  }
+                },
+                {
+                  "target": "busy",
+                  "romanization": "BIZ-ee",
+                  "native": {
+                    "en": "Busy",
+                    "zh": "忙",
+                    "th": "ยุ่ง",
+                    "ko": "바쁜",
+                    "es": "Ocupado"
+                  }
+                },
+                {
+                  "target": "angry",
+                  "romanization": "ANG-gree",
+                  "native": {
+                    "en": "Angry",
+                    "zh": "生气",
+                    "th": "โกรธ",
+                    "ko": "화난",
+                    "es": "Enojado"
+                  }
+                },
+                {
+                  "target": "fine",
+                  "romanization": "fyn",
+                  "native": {
+                    "en": "Fine",
+                    "zh": "不错",
+                    "th": "สบายดี",
+                    "ko": "괜찮은",
+                    "es": "Bien"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1573,6 +2769,411 @@
                   "three"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "nine",
+              "romanization": "nyn",
+              "options": {
+                "en": [
+                  "Nine",
+                  "Six",
+                  "Ten",
+                  "How many?"
+                ],
+                "zh": [
+                  "九",
+                  "六",
+                  "十",
+                  "多少？"
+                ],
+                "th": [
+                  "เก้า",
+                  "หก",
+                  "สิบ",
+                  "กี่?"
+                ],
+                "ko": [
+                  "아홉",
+                  "여섯",
+                  "열",
+                  "몇 개?"
+                ],
+                "es": [
+                  "Nueve",
+                  "Seis",
+                  "Diez",
+                  "¿Cuántos?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"How many?\"",
+                "zh": "\"多少？\"",
+                "th": "\"กี่?\"",
+                "ko": "\"몇 개?\"",
+                "es": "\"¿Cuántos?\""
+              },
+              "options": {
+                "neutral": [
+                  "how many",
+                  "ten",
+                  "four",
+                  "nine"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "hundred",
+              "romanization": "HUN-dred",
+              "options": {
+                "en": [
+                  "Hundred",
+                  "Zero",
+                  "Three",
+                  "Nine"
+                ],
+                "zh": [
+                  "百",
+                  "零",
+                  "三",
+                  "九"
+                ],
+                "th": [
+                  "ร้อย",
+                  "ศูนย์",
+                  "สาม",
+                  "เก้า"
+                ],
+                "ko": [
+                  "백",
+                  "영",
+                  "셋",
+                  "아홉"
+                ],
+                "es": [
+                  "Cien",
+                  "Cero",
+                  "Tres",
+                  "Nueve"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "six",
+              "romanization": "siks",
+              "options": {
+                "en": [
+                  "Six",
+                  "Thousand",
+                  "Eight",
+                  "Five"
+                ],
+                "zh": [
+                  "六",
+                  "千",
+                  "八",
+                  "五"
+                ],
+                "th": [
+                  "หก",
+                  "พัน",
+                  "แปด",
+                  "ห้า"
+                ],
+                "ko": [
+                  "여섯",
+                  "천",
+                  "여덟",
+                  "다섯"
+                ],
+                "es": [
+                  "Seis",
+                  "Mil",
+                  "Ocho",
+                  "Cinco"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Eight\"",
+                "zh": "\"八\"",
+                "th": "\"แปด\"",
+                "ko": "\"여덟\"",
+                "es": "\"Ocho\""
+              },
+              "options": {
+                "neutral": [
+                  "eight",
+                  "thousand",
+                  "one",
+                  "nine"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "zero",
+              "romanization": "ZEER-oh",
+              "options": {
+                "en": [
+                  "Zero",
+                  "Hundred",
+                  "Seven",
+                  "How many?"
+                ],
+                "zh": [
+                  "零",
+                  "百",
+                  "七",
+                  "多少？"
+                ],
+                "th": [
+                  "ศูนย์",
+                  "ร้อย",
+                  "เจ็ด",
+                  "กี่?"
+                ],
+                "ko": [
+                  "영",
+                  "백",
+                  "일곱",
+                  "몇 개?"
+                ],
+                "es": [
+                  "Cero",
+                  "Cien",
+                  "Siete",
+                  "¿Cuántos?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "number",
+              "romanization": "NUM-ber",
+              "options": {
+                "en": [
+                  "Number",
+                  "Zero",
+                  "Five",
+                  "How many?"
+                ],
+                "zh": [
+                  "数字",
+                  "零",
+                  "五",
+                  "多少？"
+                ],
+                "th": [
+                  "ตัวเลข",
+                  "ศูนย์",
+                  "ห้า",
+                  "กี่?"
+                ],
+                "ko": [
+                  "숫자",
+                  "영",
+                  "다섯",
+                  "몇 개?"
+                ],
+                "es": [
+                  "Número",
+                  "Cero",
+                  "Cinco",
+                  "¿Cuántos?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Ten\"",
+                "zh": "\"十\"",
+                "th": "\"สิบ\"",
+                "ko": "\"열\"",
+                "es": "\"Diez\""
+              },
+              "options": {
+                "neutral": [
+                  "ten",
+                  "six",
+                  "eight",
+                  "zero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "thousand",
+              "romanization": "THOW-zand",
+              "options": {
+                "en": [
+                  "Thousand",
+                  "Ten",
+                  "Seven",
+                  "Zero"
+                ],
+                "zh": [
+                  "千",
+                  "十",
+                  "七",
+                  "零"
+                ],
+                "th": [
+                  "พัน",
+                  "สิบ",
+                  "เจ็ด",
+                  "ศูนย์"
+                ],
+                "ko": [
+                  "천",
+                  "열",
+                  "일곱",
+                  "영"
+                ],
+                "es": [
+                  "Mil",
+                  "Diez",
+                  "Siete",
+                  "Cero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hundred",
+                  "romanization": "HUN-dred",
+                  "native": {
+                    "en": "Hundred",
+                    "zh": "百",
+                    "th": "ร้อย",
+                    "ko": "백",
+                    "es": "Cien"
+                  }
+                },
+                {
+                  "target": "five",
+                  "romanization": "fyv",
+                  "native": {
+                    "en": "Five",
+                    "zh": "五",
+                    "th": "ห้า",
+                    "ko": "다섯",
+                    "es": "Cinco"
+                  }
+                },
+                {
+                  "target": "six",
+                  "romanization": "siks",
+                  "native": {
+                    "en": "Six",
+                    "zh": "六",
+                    "th": "หก",
+                    "ko": "여섯",
+                    "es": "Seis"
+                  }
+                },
+                {
+                  "target": "how many",
+                  "romanization": "how MEN-ee",
+                  "native": {
+                    "en": "How many?",
+                    "zh": "多少？",
+                    "th": "กี่?",
+                    "ko": "몇 개?",
+                    "es": "¿Cuántos?"
+                  }
+                },
+                {
+                  "target": "thousand",
+                  "romanization": "THOW-zand",
+                  "native": {
+                    "en": "Thousand",
+                    "zh": "千",
+                    "th": "พัน",
+                    "ko": "천",
+                    "es": "Mil"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "zero",
+                  "romanization": "ZEER-oh",
+                  "native": {
+                    "en": "Zero",
+                    "zh": "零",
+                    "th": "ศูนย์",
+                    "ko": "영",
+                    "es": "Cero"
+                  }
+                },
+                {
+                  "target": "nine",
+                  "romanization": "nyn",
+                  "native": {
+                    "en": "Nine",
+                    "zh": "九",
+                    "th": "เก้า",
+                    "ko": "아홉",
+                    "es": "Nueve"
+                  }
+                },
+                {
+                  "target": "number",
+                  "romanization": "NUM-ber",
+                  "native": {
+                    "en": "Number",
+                    "zh": "数字",
+                    "th": "ตัวเลข",
+                    "ko": "숫자",
+                    "es": "Número"
+                  }
+                },
+                {
+                  "target": "eight",
+                  "romanization": "ayt",
+                  "native": {
+                    "en": "Eight",
+                    "zh": "八",
+                    "th": "แปด",
+                    "ko": "여덟",
+                    "es": "Ocho"
+                  }
+                },
+                {
+                  "target": "ten",
+                  "romanization": "ten",
+                  "native": {
+                    "en": "Ten",
+                    "zh": "十",
+                    "th": "สิบ",
+                    "ko": "열",
+                    "es": "Diez"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -1953,6 +3554,373 @@
                   "morning"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "o'clock",
+              "romanization": "uh-KLOK",
+              "options": {
+                "en": [
+                  "O'clock",
+                  "Today",
+                  "Afternoon",
+                  "Month"
+                ],
+                "zh": [
+                  "点钟",
+                  "今天",
+                  "下午",
+                  "月"
+                ],
+                "th": [
+                  "นาฬิกา",
+                  "วันนี้",
+                  "บ่าย",
+                  "เดือน"
+                ],
+                "ko": [
+                  "시",
+                  "오늘",
+                  "오후",
+                  "달"
+                ],
+                "es": [
+                  "En punto",
+                  "Hoy",
+                  "Tarde",
+                  "Mes"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Now\"",
+                "zh": "\"现在\"",
+                "th": "\"ตอนนี้\"",
+                "ko": "\"지금\"",
+                "es": "\"Ahora\""
+              },
+              "options": {
+                "neutral": [
+                  "now",
+                  "month",
+                  "yesterday",
+                  "o'clock"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "month",
+              "romanization": "munth",
+              "options": {
+                "en": [
+                  "Month",
+                  "Year",
+                  "Yesterday",
+                  "Week"
+                ],
+                "zh": [
+                  "月",
+                  "年",
+                  "昨天",
+                  "周"
+                ],
+                "th": [
+                  "เดือน",
+                  "ปี",
+                  "เมื่อวาน",
+                  "สัปดาห์"
+                ],
+                "ko": [
+                  "달",
+                  "년",
+                  "어제",
+                  "주"
+                ],
+                "es": [
+                  "Mes",
+                  "Año",
+                  "Ayer",
+                  "Semana"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "year",
+              "romanization": "yeer",
+              "options": {
+                "en": [
+                  "Year",
+                  "Tomorrow",
+                  "Today",
+                  "O'clock"
+                ],
+                "zh": [
+                  "年",
+                  "明天",
+                  "今天",
+                  "点钟"
+                ],
+                "th": [
+                  "ปี",
+                  "พรุ่งนี้",
+                  "วันนี้",
+                  "นาฬิกา"
+                ],
+                "ko": [
+                  "년",
+                  "내일",
+                  "오늘",
+                  "시"
+                ],
+                "es": [
+                  "Año",
+                  "Mañana",
+                  "Hoy",
+                  "En punto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Hour\"",
+                "zh": "\"小时\"",
+                "th": "\"ชั่วโมง\"",
+                "ko": "\"시간\"",
+                "es": "\"Hora\""
+              },
+              "options": {
+                "neutral": [
+                  "hour",
+                  "minute",
+                  "now",
+                  "night"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "minute",
+              "romanization": "MIN-it",
+              "options": {
+                "en": [
+                  "Minute",
+                  "Month",
+                  "Night",
+                  "Now"
+                ],
+                "zh": [
+                  "分钟",
+                  "月",
+                  "晚上",
+                  "现在"
+                ],
+                "th": [
+                  "นาที",
+                  "เดือน",
+                  "กลางคืน",
+                  "ตอนนี้"
+                ],
+                "ko": [
+                  "분",
+                  "달",
+                  "밤",
+                  "지금"
+                ],
+                "es": [
+                  "Minuto",
+                  "Mes",
+                  "Noche",
+                  "Ahora"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "time",
+              "romanization": "tym",
+              "options": {
+                "en": [
+                  "Time",
+                  "O'clock",
+                  "Year",
+                  "Now"
+                ],
+                "zh": [
+                  "时间",
+                  "点钟",
+                  "年",
+                  "现在"
+                ],
+                "th": [
+                  "เวลา",
+                  "นาฬิกา",
+                  "ปี",
+                  "ตอนนี้"
+                ],
+                "ko": [
+                  "시간",
+                  "시",
+                  "년",
+                  "지금"
+                ],
+                "es": [
+                  "Tiempo",
+                  "En punto",
+                  "Año",
+                  "Ahora"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Week\"",
+                "zh": "\"周\"",
+                "th": "\"สัปดาห์\"",
+                "ko": "\"주\"",
+                "es": "\"Semana\""
+              },
+              "options": {
+                "neutral": [
+                  "week",
+                  "tomorrow",
+                  "evening",
+                  "yesterday"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "o'clock",
+                  "romanization": "uh-KLOK",
+                  "native": {
+                    "en": "O'clock",
+                    "zh": "点钟",
+                    "th": "นาฬิกา",
+                    "ko": "시",
+                    "es": "En punto"
+                  }
+                },
+                {
+                  "target": "minute",
+                  "romanization": "MIN-it",
+                  "native": {
+                    "en": "Minute",
+                    "zh": "分钟",
+                    "th": "นาที",
+                    "ko": "분",
+                    "es": "Minuto"
+                  }
+                },
+                {
+                  "target": "month",
+                  "romanization": "munth",
+                  "native": {
+                    "en": "Month",
+                    "zh": "月",
+                    "th": "เดือน",
+                    "ko": "달",
+                    "es": "Mes"
+                  }
+                },
+                {
+                  "target": "today",
+                  "romanization": "tuh-DAY",
+                  "native": {
+                    "en": "Today",
+                    "zh": "今天",
+                    "th": "วันนี้",
+                    "ko": "오늘",
+                    "es": "Hoy"
+                  }
+                },
+                {
+                  "target": "time",
+                  "romanization": "tym",
+                  "native": {
+                    "en": "Time",
+                    "zh": "时间",
+                    "th": "เวลา",
+                    "ko": "시간",
+                    "es": "Tiempo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "tomorrow",
+                  "romanization": "tuh-MAW-roh",
+                  "native": {
+                    "en": "Tomorrow",
+                    "zh": "明天",
+                    "th": "พรุ่งนี้",
+                    "ko": "내일",
+                    "es": "Mañana"
+                  }
+                },
+                {
+                  "target": "yesterday",
+                  "romanization": "YES-ter-day",
+                  "native": {
+                    "en": "Yesterday",
+                    "zh": "昨天",
+                    "th": "เมื่อวาน",
+                    "ko": "어제",
+                    "es": "Ayer"
+                  }
+                },
+                {
+                  "target": "now",
+                  "romanization": "now",
+                  "native": {
+                    "en": "Now",
+                    "zh": "现在",
+                    "th": "ตอนนี้",
+                    "ko": "지금",
+                    "es": "Ahora"
+                  }
+                },
+                {
+                  "target": "hour",
+                  "romanization": "ow-er",
+                  "native": {
+                    "en": "Hour",
+                    "zh": "小时",
+                    "th": "ชั่วโมง",
+                    "ko": "시간",
+                    "es": "Hora"
+                  }
+                },
+                {
+                  "target": "week",
+                  "romanization": "week",
+                  "native": {
+                    "en": "Week",
+                    "zh": "周",
+                    "th": "สัปดาห์",
+                    "ko": "주",
+                    "es": "Semana"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2336,6 +4304,411 @@
                   "breakfast"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "study",
+              "romanization": "STUD-ee",
+              "options": {
+                "en": [
+                  "Study",
+                  "Every day",
+                  "Dinner",
+                  "Eat"
+                ],
+                "zh": [
+                  "学习",
+                  "每天",
+                  "晚餐",
+                  "吃"
+                ],
+                "th": [
+                  "เรียน",
+                  "ทุกวัน",
+                  "อาหารเย็น",
+                  "กิน"
+                ],
+                "ko": [
+                  "공부하다",
+                  "매일",
+                  "저녁 식사",
+                  "먹다"
+                ],
+                "es": [
+                  "Estudiar",
+                  "Todos los días",
+                  "Cena",
+                  "Comer"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Always\"",
+                "zh": "\"总是\"",
+                "th": "\"เสมอ\"",
+                "ko": "\"항상\"",
+                "es": "\"Siempre\""
+              },
+              "options": {
+                "neutral": [
+                  "always",
+                  "wake up",
+                  "go",
+                  "breakfast"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "home",
+              "romanization": "hohm",
+              "options": {
+                "en": [
+                  "Home",
+                  "Eat",
+                  "Go",
+                  "Every day"
+                ],
+                "zh": [
+                  "家",
+                  "吃",
+                  "去",
+                  "每天"
+                ],
+                "th": [
+                  "บ้าน",
+                  "กิน",
+                  "ไป",
+                  "ทุกวัน"
+                ],
+                "ko": [
+                  "집",
+                  "먹다",
+                  "가다",
+                  "매일"
+                ],
+                "es": [
+                  "Casa",
+                  "Comer",
+                  "Ir",
+                  "Todos los días"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "office",
+              "romanization": "AW-fis",
+              "options": {
+                "en": [
+                  "Office",
+                  "Lunch",
+                  "Sleep",
+                  "Home"
+                ],
+                "zh": [
+                  "办公室",
+                  "午餐",
+                  "睡觉",
+                  "家"
+                ],
+                "th": [
+                  "ออฟฟิศ",
+                  "อาหารกลางวัน",
+                  "นอน",
+                  "บ้าน"
+                ],
+                "ko": [
+                  "사무실",
+                  "점심",
+                  "자다",
+                  "집"
+                ],
+                "es": [
+                  "Oficina",
+                  "Almuerzo",
+                  "Dormir",
+                  "Casa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Lunch\"",
+                "zh": "\"午餐\"",
+                "th": "\"อาหารกลางวัน\"",
+                "ko": "\"점심\"",
+                "es": "\"Almuerzo\""
+              },
+              "options": {
+                "neutral": [
+                  "lunch",
+                  "drink",
+                  "dinner",
+                  "study"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "come",
+              "romanization": "kum",
+              "options": {
+                "en": [
+                  "Come",
+                  "Breakfast",
+                  "Go",
+                  "Drink"
+                ],
+                "zh": [
+                  "来",
+                  "早餐",
+                  "去",
+                  "喝"
+                ],
+                "th": [
+                  "มา",
+                  "อาหารเช้า",
+                  "ไป",
+                  "ดื่ม"
+                ],
+                "ko": [
+                  "오다",
+                  "아침 식사",
+                  "가다",
+                  "마시다"
+                ],
+                "es": [
+                  "Venir",
+                  "Desayuno",
+                  "Ir",
+                  "Beber"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "go",
+              "romanization": "goh",
+              "options": {
+                "en": [
+                  "Go",
+                  "Work",
+                  "Drink",
+                  "Come"
+                ],
+                "zh": [
+                  "去",
+                  "工作",
+                  "喝",
+                  "来"
+                ],
+                "th": [
+                  "ไป",
+                  "ทำงาน",
+                  "ดื่ม",
+                  "มา"
+                ],
+                "ko": [
+                  "가다",
+                  "일하다",
+                  "마시다",
+                  "오다"
+                ],
+                "es": [
+                  "Ir",
+                  "Trabajar",
+                  "Beber",
+                  "Venir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Every day\"",
+                "zh": "\"每天\"",
+                "th": "\"ทุกวัน\"",
+                "ko": "\"매일\"",
+                "es": "\"Todos los días\""
+              },
+              "options": {
+                "neutral": [
+                  "every day",
+                  "come",
+                  "drink",
+                  "eat"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "dinner",
+              "romanization": "DIN-er",
+              "options": {
+                "en": [
+                  "Dinner",
+                  "Sleep",
+                  "Work",
+                  "Lunch"
+                ],
+                "zh": [
+                  "晚餐",
+                  "睡觉",
+                  "工作",
+                  "午餐"
+                ],
+                "th": [
+                  "อาหารเย็น",
+                  "นอน",
+                  "ทำงาน",
+                  "อาหารกลางวัน"
+                ],
+                "ko": [
+                  "저녁 식사",
+                  "자다",
+                  "일하다",
+                  "점심"
+                ],
+                "es": [
+                  "Cena",
+                  "Dormir",
+                  "Trabajar",
+                  "Almuerzo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "home",
+                  "romanization": "hohm",
+                  "native": {
+                    "en": "Home",
+                    "zh": "家",
+                    "th": "บ้าน",
+                    "ko": "집",
+                    "es": "Casa"
+                  }
+                },
+                {
+                  "target": "come",
+                  "romanization": "kum",
+                  "native": {
+                    "en": "Come",
+                    "zh": "来",
+                    "th": "มา",
+                    "ko": "오다",
+                    "es": "Venir"
+                  }
+                },
+                {
+                  "target": "go",
+                  "romanization": "goh",
+                  "native": {
+                    "en": "Go",
+                    "zh": "去",
+                    "th": "ไป",
+                    "ko": "가다",
+                    "es": "Ir"
+                  }
+                },
+                {
+                  "target": "lunch",
+                  "romanization": "lunch",
+                  "native": {
+                    "en": "Lunch",
+                    "zh": "午餐",
+                    "th": "อาหารกลางวัน",
+                    "ko": "점심",
+                    "es": "Almuerzo"
+                  }
+                },
+                {
+                  "target": "office",
+                  "romanization": "AW-fis",
+                  "native": {
+                    "en": "Office",
+                    "zh": "办公室",
+                    "th": "ออฟฟิศ",
+                    "ko": "사무실",
+                    "es": "Oficina"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "breakfast",
+                  "romanization": "BREK-fust",
+                  "native": {
+                    "en": "Breakfast",
+                    "zh": "早餐",
+                    "th": "อาหารเช้า",
+                    "ko": "아침 식사",
+                    "es": "Desayuno"
+                  }
+                },
+                {
+                  "target": "every day",
+                  "romanization": "EV-ree day",
+                  "native": {
+                    "en": "Every day",
+                    "zh": "每天",
+                    "th": "ทุกวัน",
+                    "ko": "매일",
+                    "es": "Todos los días"
+                  }
+                },
+                {
+                  "target": "always",
+                  "romanization": "AWL-wayz",
+                  "native": {
+                    "en": "Always",
+                    "zh": "总是",
+                    "th": "เสมอ",
+                    "ko": "항상",
+                    "es": "Siempre"
+                  }
+                },
+                {
+                  "target": "wake up",
+                  "romanization": "wayk up",
+                  "native": {
+                    "en": "Wake up",
+                    "zh": "起床",
+                    "th": "ตื่นนอน",
+                    "ko": "일어나다",
+                    "es": "Despertarse"
+                  }
+                },
+                {
+                  "target": "dinner",
+                  "romanization": "DIN-er",
+                  "native": {
+                    "en": "Dinner",
+                    "zh": "晚餐",
+                    "th": "อาหารเย็น",
+                    "ko": "저녁 식사",
+                    "es": "Cena"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -2738,6 +5111,373 @@
                   "water"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "tea",
+              "romanization": "tee",
+              "options": {
+                "en": [
+                  "Tea",
+                  "Salt",
+                  "Food",
+                  "Fish"
+                ],
+                "zh": [
+                  "茶",
+                  "盐",
+                  "食物",
+                  "鱼"
+                ],
+                "th": [
+                  "ชา",
+                  "เกลือ",
+                  "อาหาร",
+                  "ปลา"
+                ],
+                "ko": [
+                  "차",
+                  "소금",
+                  "음식",
+                  "생선"
+                ],
+                "es": [
+                  "Té",
+                  "Sal",
+                  "Comida",
+                  "Pescado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sugar\"",
+                "zh": "\"糖\"",
+                "th": "\"น้ำตาล\"",
+                "ko": "\"설탕\"",
+                "es": "\"Azúcar\""
+              },
+              "options": {
+                "neutral": [
+                  "sugar",
+                  "milk",
+                  "rice",
+                  "water"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "salt",
+              "romanization": "sawlt",
+              "options": {
+                "en": [
+                  "Salt",
+                  "Egg",
+                  "Coffee",
+                  "Bread"
+                ],
+                "zh": [
+                  "盐",
+                  "鸡蛋",
+                  "咖啡",
+                  "面包"
+                ],
+                "th": [
+                  "เกลือ",
+                  "ไข่",
+                  "กาแฟ",
+                  "ขนมปัง"
+                ],
+                "ko": [
+                  "소금",
+                  "달걀",
+                  "커피",
+                  "빵"
+                ],
+                "es": [
+                  "Sal",
+                  "Huevo",
+                  "Café",
+                  "Pan"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "meat",
+              "romanization": "meet",
+              "options": {
+                "en": [
+                  "Meat",
+                  "Egg",
+                  "Vegetable",
+                  "Fish"
+                ],
+                "zh": [
+                  "肉",
+                  "鸡蛋",
+                  "蔬菜",
+                  "鱼"
+                ],
+                "th": [
+                  "เนื้อ",
+                  "ไข่",
+                  "ผัก",
+                  "ปลา"
+                ],
+                "ko": [
+                  "고기",
+                  "달걀",
+                  "채소",
+                  "생선"
+                ],
+                "es": [
+                  "Carne",
+                  "Huevo",
+                  "Verdura",
+                  "Pescado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Fish\"",
+                "zh": "\"鱼\"",
+                "th": "\"ปลา\"",
+                "ko": "\"생선\"",
+                "es": "\"Pescado\""
+              },
+              "options": {
+                "neutral": [
+                  "fish",
+                  "rice",
+                  "meat",
+                  "chicken"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "food",
+              "romanization": "food",
+              "options": {
+                "en": [
+                  "Food",
+                  "Vegetable",
+                  "Rice",
+                  "Egg"
+                ],
+                "zh": [
+                  "食物",
+                  "蔬菜",
+                  "米饭",
+                  "鸡蛋"
+                ],
+                "th": [
+                  "อาหาร",
+                  "ผัก",
+                  "ข้าว",
+                  "ไข่"
+                ],
+                "ko": [
+                  "음식",
+                  "채소",
+                  "밥",
+                  "달걀"
+                ],
+                "es": [
+                  "Comida",
+                  "Verdura",
+                  "Arroz",
+                  "Huevo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "egg",
+              "romanization": "eg",
+              "options": {
+                "en": [
+                  "Egg",
+                  "Tea",
+                  "Fruit",
+                  "Coffee"
+                ],
+                "zh": [
+                  "鸡蛋",
+                  "茶",
+                  "水果",
+                  "咖啡"
+                ],
+                "th": [
+                  "ไข่",
+                  "ชา",
+                  "ผลไม้",
+                  "กาแฟ"
+                ],
+                "ko": [
+                  "달걀",
+                  "차",
+                  "과일",
+                  "커피"
+                ],
+                "es": [
+                  "Huevo",
+                  "Té",
+                  "Fruta",
+                  "Café"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Milk\"",
+                "zh": "\"牛奶\"",
+                "th": "\"นม\"",
+                "ko": "\"우유\"",
+                "es": "\"Leche\""
+              },
+              "options": {
+                "neutral": [
+                  "milk",
+                  "vegetable",
+                  "chicken",
+                  "rice"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "water",
+                  "romanization": "WAW-ter",
+                  "native": {
+                    "en": "Water",
+                    "zh": "水",
+                    "th": "น้ำ",
+                    "ko": "물",
+                    "es": "Agua"
+                  }
+                },
+                {
+                  "target": "milk",
+                  "romanization": "milk",
+                  "native": {
+                    "en": "Milk",
+                    "zh": "牛奶",
+                    "th": "นม",
+                    "ko": "우유",
+                    "es": "Leche"
+                  }
+                },
+                {
+                  "target": "fish",
+                  "romanization": "fish",
+                  "native": {
+                    "en": "Fish",
+                    "zh": "鱼",
+                    "th": "ปลา",
+                    "ko": "생선",
+                    "es": "Pescado"
+                  }
+                },
+                {
+                  "target": "chicken",
+                  "romanization": "CHIK-en",
+                  "native": {
+                    "en": "Chicken",
+                    "zh": "鸡肉",
+                    "th": "ไก่",
+                    "ko": "닭고기",
+                    "es": "Pollo"
+                  }
+                },
+                {
+                  "target": "tea",
+                  "romanization": "tee",
+                  "native": {
+                    "en": "Tea",
+                    "zh": "茶",
+                    "th": "ชา",
+                    "ko": "차",
+                    "es": "Té"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "meat",
+                  "romanization": "meet",
+                  "native": {
+                    "en": "Meat",
+                    "zh": "肉",
+                    "th": "เนื้อ",
+                    "ko": "고기",
+                    "es": "Carne"
+                  }
+                },
+                {
+                  "target": "sugar",
+                  "romanization": "SHOO-ger",
+                  "native": {
+                    "en": "Sugar",
+                    "zh": "糖",
+                    "th": "น้ำตาล",
+                    "ko": "설탕",
+                    "es": "Azúcar"
+                  }
+                },
+                {
+                  "target": "salt",
+                  "romanization": "sawlt",
+                  "native": {
+                    "en": "Salt",
+                    "zh": "盐",
+                    "th": "เกลือ",
+                    "ko": "소금",
+                    "es": "Sal"
+                  }
+                },
+                {
+                  "target": "coffee",
+                  "romanization": "KAW-fee",
+                  "native": {
+                    "en": "Coffee",
+                    "zh": "咖啡",
+                    "th": "กาแฟ",
+                    "ko": "커피",
+                    "es": "Café"
+                  }
+                },
+                {
+                  "target": "food",
+                  "romanization": "food",
+                  "native": {
+                    "en": "Food",
+                    "zh": "食物",
+                    "th": "อาหาร",
+                    "ko": "음식",
+                    "es": "Comida"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3124,6 +5864,373 @@
                   "coffee"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "sweet",
+              "romanization": "sweet",
+              "options": {
+                "en": [
+                  "Sweet",
+                  "Waiter",
+                  "Delicious",
+                  "I want"
+                ],
+                "zh": [
+                  "甜",
+                  "服务员",
+                  "好吃",
+                  "我要"
+                ],
+                "th": [
+                  "หวาน",
+                  "พนักงานเสิร์ฟ",
+                  "อร่อย",
+                  "ฉันต้องการ"
+                ],
+                "ko": [
+                  "달콤한",
+                  "웨이터",
+                  "맛있는",
+                  "저는 원해요"
+                ],
+                "es": [
+                  "Dulce",
+                  "Mesero",
+                  "Delicioso",
+                  "Quiero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Plate\"",
+                "zh": "\"盘子\"",
+                "th": "\"จาน\"",
+                "ko": "\"접시\"",
+                "es": "\"Plato\""
+              },
+              "options": {
+                "neutral": [
+                  "plate",
+                  "table",
+                  "knife",
+                  "menu"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "menu",
+              "romanization": "MEN-yoo",
+              "options": {
+                "en": [
+                  "Menu",
+                  "Delicious",
+                  "Sour",
+                  "Table"
+                ],
+                "zh": [
+                  "菜单",
+                  "好吃",
+                  "酸",
+                  "桌子"
+                ],
+                "th": [
+                  "เมนู",
+                  "อร่อย",
+                  "เปรี้ยว",
+                  "โต๊ะ"
+                ],
+                "ko": [
+                  "메뉴",
+                  "맛있는",
+                  "신",
+                  "테이블"
+                ],
+                "es": [
+                  "Menú",
+                  "Delicioso",
+                  "Ácido",
+                  "Mesa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "waiter",
+              "romanization": "WAY-ter",
+              "options": {
+                "en": [
+                  "Waiter",
+                  "Delicious",
+                  "Knife",
+                  "Spoon"
+                ],
+                "zh": [
+                  "服务员",
+                  "好吃",
+                  "刀",
+                  "勺子"
+                ],
+                "th": [
+                  "พนักงานเสิร์ฟ",
+                  "อร่อย",
+                  "มีด",
+                  "ช้อน"
+                ],
+                "ko": [
+                  "웨이터",
+                  "맛있는",
+                  "나이프",
+                  "숟가락"
+                ],
+                "es": [
+                  "Mesero",
+                  "Delicioso",
+                  "Cuchillo",
+                  "Cuchara"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Table\"",
+                "zh": "\"桌子\"",
+                "th": "\"โต๊ะ\"",
+                "ko": "\"테이블\"",
+                "es": "\"Mesa\""
+              },
+              "options": {
+                "neutral": [
+                  "table",
+                  "bill",
+                  "knife",
+                  "fork"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "spicy",
+              "romanization": "SPY-see",
+              "options": {
+                "en": [
+                  "Spicy",
+                  "Fork",
+                  "Knife",
+                  "Waiter"
+                ],
+                "zh": [
+                  "辣",
+                  "叉子",
+                  "刀",
+                  "服务员"
+                ],
+                "th": [
+                  "เผ็ด",
+                  "ส้อม",
+                  "มีด",
+                  "พนักงานเสิร์ฟ"
+                ],
+                "ko": [
+                  "매운",
+                  "포크",
+                  "나이프",
+                  "웨이터"
+                ],
+                "es": [
+                  "Picante",
+                  "Tenedor",
+                  "Cuchillo",
+                  "Mesero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "I want",
+              "romanization": "eye wont",
+              "options": {
+                "en": [
+                  "I want",
+                  "Spoon",
+                  "Knife",
+                  "Menu"
+                ],
+                "zh": [
+                  "我要",
+                  "勺子",
+                  "刀",
+                  "菜单"
+                ],
+                "th": [
+                  "ฉันต้องการ",
+                  "ช้อน",
+                  "มีด",
+                  "เมนู"
+                ],
+                "ko": [
+                  "저는 원해요",
+                  "숟가락",
+                  "나이프",
+                  "메뉴"
+                ],
+                "es": [
+                  "Quiero",
+                  "Cuchara",
+                  "Cuchillo",
+                  "Menú"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Sour\"",
+                "zh": "\"酸\"",
+                "th": "\"เปรี้ยว\"",
+                "ko": "\"신\"",
+                "es": "\"Ácido\""
+              },
+              "options": {
+                "neutral": [
+                  "sour",
+                  "knife",
+                  "bill",
+                  "menu"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "I would like",
+                  "romanization": "eye wood lyk",
+                  "native": {
+                    "en": "I would like",
+                    "zh": "我想要",
+                    "th": "ฉันอยากได้",
+                    "ko": "저는……을 원합니다",
+                    "es": "Me gustaría"
+                  }
+                },
+                {
+                  "target": "I want",
+                  "romanization": "eye wont",
+                  "native": {
+                    "en": "I want",
+                    "zh": "我要",
+                    "th": "ฉันต้องการ",
+                    "ko": "저는 원해요",
+                    "es": "Quiero"
+                  }
+                },
+                {
+                  "target": "plate",
+                  "romanization": "playt",
+                  "native": {
+                    "en": "Plate",
+                    "zh": "盘子",
+                    "th": "จาน",
+                    "ko": "접시",
+                    "es": "Plato"
+                  }
+                },
+                {
+                  "target": "menu",
+                  "romanization": "MEN-yoo",
+                  "native": {
+                    "en": "Menu",
+                    "zh": "菜单",
+                    "th": "เมนู",
+                    "ko": "메뉴",
+                    "es": "Menú"
+                  }
+                },
+                {
+                  "target": "bill",
+                  "romanization": "bil",
+                  "native": {
+                    "en": "Bill / Check",
+                    "zh": "账单",
+                    "th": "บิล",
+                    "ko": "계산서",
+                    "es": "Cuenta"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "sweet",
+                  "romanization": "sweet",
+                  "native": {
+                    "en": "Sweet",
+                    "zh": "甜",
+                    "th": "หวาน",
+                    "ko": "달콤한",
+                    "es": "Dulce"
+                  }
+                },
+                {
+                  "target": "spicy",
+                  "romanization": "SPY-see",
+                  "native": {
+                    "en": "Spicy",
+                    "zh": "辣",
+                    "th": "เผ็ด",
+                    "ko": "매운",
+                    "es": "Picante"
+                  }
+                },
+                {
+                  "target": "waiter",
+                  "romanization": "WAY-ter",
+                  "native": {
+                    "en": "Waiter",
+                    "zh": "服务员",
+                    "th": "พนักงานเสิร์ฟ",
+                    "ko": "웨이터",
+                    "es": "Mesero"
+                  }
+                },
+                {
+                  "target": "table",
+                  "romanization": "TAY-bul",
+                  "native": {
+                    "en": "Table",
+                    "zh": "桌子",
+                    "th": "โต๊ะ",
+                    "ko": "테이블",
+                    "es": "Mesa"
+                  }
+                },
+                {
+                  "target": "sour",
+                  "romanization": "sow-er",
+                  "native": {
+                    "en": "Sour",
+                    "zh": "酸",
+                    "th": "เปรี้ยว",
+                    "ko": "신",
+                    "es": "Ácido"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3507,6 +6614,373 @@
                   "rice"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "raw",
+              "romanization": "raw",
+              "options": {
+                "en": [
+                  "Raw",
+                  "Cook (verb)",
+                  "Mix",
+                  "Fresh"
+                ],
+                "zh": [
+                  "生的",
+                  "做饭",
+                  "混合",
+                  "新鲜"
+                ],
+                "th": [
+                  "ดิบ",
+                  "ทำอาหาร",
+                  "ผสม",
+                  "สด"
+                ],
+                "ko": [
+                  "날것의",
+                  "요리하다",
+                  "섞다",
+                  "신선한"
+                ],
+                "es": [
+                  "Crudo",
+                  "Cocinar",
+                  "Mezclar",
+                  "Fresco"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Full (not hungry)\"",
+                "zh": "\"饱了\"",
+                "th": "\"อิ่ม\"",
+                "ko": "\"배부른\"",
+                "es": "\"Lleno\""
+              },
+              "options": {
+                "neutral": [
+                  "full",
+                  "mix",
+                  "pot",
+                  "smell"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "recipe",
+              "romanization": "RES-ih-pee",
+              "options": {
+                "en": [
+                  "Recipe",
+                  "Pot",
+                  "Fry",
+                  "Mix"
+                ],
+                "zh": [
+                  "食谱",
+                  "锅",
+                  "炒",
+                  "混合"
+                ],
+                "th": [
+                  "สูตรอาหาร",
+                  "หม้อ",
+                  "ทอด",
+                  "ผสม"
+                ],
+                "ko": [
+                  "레시피",
+                  "냄비",
+                  "튀기다",
+                  "섞다"
+                ],
+                "es": [
+                  "Receta",
+                  "Olla",
+                  "Freír",
+                  "Mezclar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "pot",
+              "romanization": "pot",
+              "options": {
+                "en": [
+                  "Pot",
+                  "Cut",
+                  "Raw",
+                  "Recipe"
+                ],
+                "zh": [
+                  "锅",
+                  "切",
+                  "生的",
+                  "食谱"
+                ],
+                "th": [
+                  "หม้อ",
+                  "ตัด",
+                  "ดิบ",
+                  "สูตรอาหาร"
+                ],
+                "ko": [
+                  "냄비",
+                  "자르다",
+                  "날것의",
+                  "레시피"
+                ],
+                "es": [
+                  "Olla",
+                  "Cortar",
+                  "Crudo",
+                  "Receta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Hot (temperature)\"",
+                "zh": "\"热的\"",
+                "th": "\"ร้อน\"",
+                "ko": "\"뜨거운\"",
+                "es": "\"Caliente\""
+              },
+              "options": {
+                "neutral": [
+                  "hot (temperature)",
+                  "full",
+                  "cold (temperature)",
+                  "cut"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "cold (temperature)",
+              "romanization": "kohld",
+              "options": {
+                "en": [
+                  "Cold (temperature)",
+                  "Raw",
+                  "Mix",
+                  "Cut"
+                ],
+                "zh": [
+                  "冷的",
+                  "生的",
+                  "混合",
+                  "切"
+                ],
+                "th": [
+                  "เย็น",
+                  "ดิบ",
+                  "ผสม",
+                  "ตัด"
+                ],
+                "ko": [
+                  "차가운",
+                  "날것의",
+                  "섞다",
+                  "자르다"
+                ],
+                "es": [
+                  "Frío",
+                  "Crudo",
+                  "Mezclar",
+                  "Cortar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "taste",
+              "romanization": "tayst",
+              "options": {
+                "en": [
+                  "Taste",
+                  "Pot",
+                  "Cut",
+                  "Smell"
+                ],
+                "zh": [
+                  "味道",
+                  "锅",
+                  "切",
+                  "气味"
+                ],
+                "th": [
+                  "รสชาติ",
+                  "หม้อ",
+                  "ตัด",
+                  "กลิ่น"
+                ],
+                "ko": [
+                  "맛",
+                  "냄비",
+                  "자르다",
+                  "냄새"
+                ],
+                "es": [
+                  "Sabor",
+                  "Olla",
+                  "Cortar",
+                  "Olor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Smell\"",
+                "zh": "\"气味\"",
+                "th": "\"กลิ่น\"",
+                "ko": "\"냄새\"",
+                "es": "\"Olor\""
+              },
+              "options": {
+                "neutral": [
+                  "smell",
+                  "kitchen",
+                  "pot",
+                  "taste"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "cook",
+                  "romanization": "kook",
+                  "native": {
+                    "en": "Cook (verb)",
+                    "zh": "做饭",
+                    "th": "ทำอาหาร",
+                    "ko": "요리하다",
+                    "es": "Cocinar"
+                  }
+                },
+                {
+                  "target": "raw",
+                  "romanization": "raw",
+                  "native": {
+                    "en": "Raw",
+                    "zh": "生的",
+                    "th": "ดิบ",
+                    "ko": "날것의",
+                    "es": "Crudo"
+                  }
+                },
+                {
+                  "target": "fresh",
+                  "romanization": "fresh",
+                  "native": {
+                    "en": "Fresh",
+                    "zh": "新鲜",
+                    "th": "สด",
+                    "ko": "신선한",
+                    "es": "Fresco"
+                  }
+                },
+                {
+                  "target": "pot",
+                  "romanization": "pot",
+                  "native": {
+                    "en": "Pot",
+                    "zh": "锅",
+                    "th": "หม้อ",
+                    "ko": "냄비",
+                    "es": "Olla"
+                  }
+                },
+                {
+                  "target": "hot (temperature)",
+                  "romanization": "hot",
+                  "native": {
+                    "en": "Hot (temperature)",
+                    "zh": "热的",
+                    "th": "ร้อน",
+                    "ko": "뜨거운",
+                    "es": "Caliente"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "recipe",
+                  "romanization": "RES-ih-pee",
+                  "native": {
+                    "en": "Recipe",
+                    "zh": "食谱",
+                    "th": "สูตรอาหาร",
+                    "ko": "레시피",
+                    "es": "Receta"
+                  }
+                },
+                {
+                  "target": "cold (temperature)",
+                  "romanization": "kohld",
+                  "native": {
+                    "en": "Cold (temperature)",
+                    "zh": "冷的",
+                    "th": "เย็น",
+                    "ko": "차가운",
+                    "es": "Frío"
+                  }
+                },
+                {
+                  "target": "smell",
+                  "romanization": "smel",
+                  "native": {
+                    "en": "Smell",
+                    "zh": "气味",
+                    "th": "กลิ่น",
+                    "ko": "냄새",
+                    "es": "Olor"
+                  }
+                },
+                {
+                  "target": "full",
+                  "romanization": "fool",
+                  "native": {
+                    "en": "Full (not hungry)",
+                    "zh": "饱了",
+                    "th": "อิ่ม",
+                    "ko": "배부른",
+                    "es": "Lleno"
+                  }
+                },
+                {
+                  "target": "taste",
+                  "romanization": "tayst",
+                  "native": {
+                    "en": "Taste",
+                    "zh": "味道",
+                    "th": "รสชาติ",
+                    "ko": "맛",
+                    "es": "Sabor"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -3906,6 +7380,373 @@
                   "left"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "there",
+              "romanization": "thair",
+              "options": {
+                "en": [
+                  "There",
+                  "Near",
+                  "Straight (ahead)",
+                  "Left"
+                ],
+                "zh": [
+                  "那里",
+                  "近",
+                  "直走",
+                  "左"
+                ],
+                "th": [
+                  "ที่นั่น",
+                  "ใกล้",
+                  "ตรงไป",
+                  "ซ้าย"
+                ],
+                "ko": [
+                  "거기",
+                  "가까운",
+                  "직진",
+                  "왼쪽"
+                ],
+                "es": [
+                  "Allí",
+                  "Cerca",
+                  "Recto",
+                  "Izquierda"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"In front of\"",
+                "zh": "\"前面\"",
+                "th": "\"ข้างหน้า\"",
+                "ko": "\"앞에\"",
+                "es": "\"Delante de\""
+              },
+              "options": {
+                "neutral": [
+                  "in front of",
+                  "here",
+                  "left",
+                  "near"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "street",
+              "romanization": "street",
+              "options": {
+                "en": [
+                  "Street",
+                  "Here",
+                  "Right",
+                  "Map"
+                ],
+                "zh": [
+                  "街道",
+                  "这里",
+                  "右",
+                  "地图"
+                ],
+                "th": [
+                  "ถนน",
+                  "ที่นี่",
+                  "ขวา",
+                  "แผนที่"
+                ],
+                "ko": [
+                  "거리",
+                  "여기",
+                  "오른쪽",
+                  "지도"
+                ],
+                "es": [
+                  "Calle",
+                  "Aquí",
+                  "Derecha",
+                  "Mapa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "stop",
+              "romanization": "stop",
+              "options": {
+                "en": [
+                  "Stop",
+                  "Behind",
+                  "Turn",
+                  "Here"
+                ],
+                "zh": [
+                  "停",
+                  "后面",
+                  "转",
+                  "这里"
+                ],
+                "th": [
+                  "หยุด",
+                  "ข้างหลัง",
+                  "เลี้ยว",
+                  "ที่นี่"
+                ],
+                "ko": [
+                  "멈추다",
+                  "뒤에",
+                  "돌다",
+                  "여기"
+                ],
+                "es": [
+                  "Parar",
+                  "Detrás de",
+                  "Girar",
+                  "Aquí"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Here\"",
+                "zh": "\"这里\"",
+                "th": "\"ที่นี่\"",
+                "ko": "\"여기\"",
+                "es": "\"Aquí\""
+              },
+              "options": {
+                "neutral": [
+                  "here",
+                  "next to",
+                  "left",
+                  "near"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "between",
+              "romanization": "bee-TWEEN",
+              "options": {
+                "en": [
+                  "Between",
+                  "Stop",
+                  "Here",
+                  "There"
+                ],
+                "zh": [
+                  "之间",
+                  "停",
+                  "这里",
+                  "那里"
+                ],
+                "th": [
+                  "ระหว่าง",
+                  "หยุด",
+                  "ที่นี่",
+                  "ที่นั่น"
+                ],
+                "ko": [
+                  "사이에",
+                  "멈추다",
+                  "여기",
+                  "거기"
+                ],
+                "es": [
+                  "Entre",
+                  "Parar",
+                  "Aquí",
+                  "Allí"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "next to",
+              "romanization": "nekst too",
+              "options": {
+                "en": [
+                  "Next to",
+                  "Near",
+                  "Right",
+                  "Here"
+                ],
+                "zh": [
+                  "旁边",
+                  "近",
+                  "右",
+                  "这里"
+                ],
+                "th": [
+                  "ข้างๆ",
+                  "ใกล้",
+                  "ขวา",
+                  "ที่นี่"
+                ],
+                "ko": [
+                  "옆에",
+                  "가까운",
+                  "오른쪽",
+                  "여기"
+                ],
+                "es": [
+                  "Al lado de",
+                  "Cerca",
+                  "Derecha",
+                  "Aquí"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Map\"",
+                "zh": "\"地图\"",
+                "th": "\"แผนที่\"",
+                "ko": "\"지도\"",
+                "es": "\"Mapa\""
+              },
+              "options": {
+                "neutral": [
+                  "map",
+                  "far",
+                  "stop",
+                  "left"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "straight",
+                  "romanization": "strayt",
+                  "native": {
+                    "en": "Straight (ahead)",
+                    "zh": "直走",
+                    "th": "ตรงไป",
+                    "ko": "직진",
+                    "es": "Recto"
+                  }
+                },
+                {
+                  "target": "next to",
+                  "romanization": "nekst too",
+                  "native": {
+                    "en": "Next to",
+                    "zh": "旁边",
+                    "th": "ข้างๆ",
+                    "ko": "옆에",
+                    "es": "Al lado de"
+                  }
+                },
+                {
+                  "target": "turn",
+                  "romanization": "tern",
+                  "native": {
+                    "en": "Turn",
+                    "zh": "转",
+                    "th": "เลี้ยว",
+                    "ko": "돌다",
+                    "es": "Girar"
+                  }
+                },
+                {
+                  "target": "in front of",
+                  "romanization": "in frunt uv",
+                  "native": {
+                    "en": "In front of",
+                    "zh": "前面",
+                    "th": "ข้างหน้า",
+                    "ko": "앞에",
+                    "es": "Delante de"
+                  }
+                },
+                {
+                  "target": "here",
+                  "romanization": "heer",
+                  "native": {
+                    "en": "Here",
+                    "zh": "这里",
+                    "th": "ที่นี่",
+                    "ko": "여기",
+                    "es": "Aquí"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "behind",
+                  "romanization": "bee-HYND",
+                  "native": {
+                    "en": "Behind",
+                    "zh": "后面",
+                    "th": "ข้างหลัง",
+                    "ko": "뒤에",
+                    "es": "Detrás de"
+                  }
+                },
+                {
+                  "target": "there",
+                  "romanization": "thair",
+                  "native": {
+                    "en": "There",
+                    "zh": "那里",
+                    "th": "ที่นั่น",
+                    "ko": "거기",
+                    "es": "Allí"
+                  }
+                },
+                {
+                  "target": "between",
+                  "romanization": "bee-TWEEN",
+                  "native": {
+                    "en": "Between",
+                    "zh": "之间",
+                    "th": "ระหว่าง",
+                    "ko": "사이에",
+                    "es": "Entre"
+                  }
+                },
+                {
+                  "target": "street",
+                  "romanization": "street",
+                  "native": {
+                    "en": "Street",
+                    "zh": "街道",
+                    "th": "ถนน",
+                    "ko": "거리",
+                    "es": "Calle"
+                  }
+                },
+                {
+                  "target": "map",
+                  "romanization": "map",
+                  "native": {
+                    "en": "Map",
+                    "zh": "地图",
+                    "th": "แผนที่",
+                    "ko": "지도",
+                    "es": "Mapa"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4292,6 +8133,411 @@
                   "hospital"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "station",
+              "romanization": "STAY-shun",
+              "options": {
+                "en": [
+                  "Station",
+                  "Hotel",
+                  "Bank",
+                  "Church"
+                ],
+                "zh": [
+                  "车站",
+                  "酒店",
+                  "银行",
+                  "教堂"
+                ],
+                "th": [
+                  "สถานี",
+                  "โรงแรม",
+                  "ธนาคาร",
+                  "โบสถ์"
+                ],
+                "ko": [
+                  "역",
+                  "호텔",
+                  "은행",
+                  "교회"
+                ],
+                "es": [
+                  "Estación",
+                  "Hotel",
+                  "Banco",
+                  "Iglesia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"School\"",
+                "zh": "\"学校\"",
+                "th": "\"โรงเรียน\"",
+                "ko": "\"학교\"",
+                "es": "\"Escuela\""
+              },
+              "options": {
+                "neutral": [
+                  "school",
+                  "police station",
+                  "store",
+                  "bathroom"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bathroom",
+              "romanization": "BATH-room",
+              "options": {
+                "en": [
+                  "Bathroom",
+                  "School",
+                  "Hospital",
+                  "Pharmacy"
+                ],
+                "zh": [
+                  "洗手间",
+                  "学校",
+                  "医院",
+                  "药店"
+                ],
+                "th": [
+                  "ห้องน้ำ",
+                  "โรงเรียน",
+                  "โรงพยาบาล",
+                  "ร้านขายยา"
+                ],
+                "ko": [
+                  "화장실",
+                  "학교",
+                  "병원",
+                  "약국"
+                ],
+                "es": [
+                  "Baño",
+                  "Escuela",
+                  "Hospital",
+                  "Farmacia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "store",
+              "romanization": "stor",
+              "options": {
+                "en": [
+                  "Store / Shop",
+                  "Hotel",
+                  "Bank",
+                  "Park"
+                ],
+                "zh": [
+                  "商店",
+                  "酒店",
+                  "银行",
+                  "公园"
+                ],
+                "th": [
+                  "ร้านค้า",
+                  "โรงแรม",
+                  "ธนาคาร",
+                  "สวนสาธารณะ"
+                ],
+                "ko": [
+                  "가게",
+                  "호텔",
+                  "은행",
+                  "공원"
+                ],
+                "es": [
+                  "Tienda",
+                  "Hotel",
+                  "Banco",
+                  "Parque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Church\"",
+                "zh": "\"教堂\"",
+                "th": "\"โบสถ์\"",
+                "ko": "\"교회\"",
+                "es": "\"Iglesia\""
+              },
+              "options": {
+                "neutral": [
+                  "church",
+                  "bathroom",
+                  "airport",
+                  "restaurant"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "police station",
+              "romanization": "puh-LEES STAY-shun",
+              "options": {
+                "en": [
+                  "Police station",
+                  "Market",
+                  "Hospital",
+                  "Park"
+                ],
+                "zh": [
+                  "警察局",
+                  "市场",
+                  "医院",
+                  "公园"
+                ],
+                "th": [
+                  "สถานีตำรวจ",
+                  "ตลาด",
+                  "โรงพยาบาล",
+                  "สวนสาธารณะ"
+                ],
+                "ko": [
+                  "경찰서",
+                  "시장",
+                  "병원",
+                  "공원"
+                ],
+                "es": [
+                  "Comisaría",
+                  "Mercado",
+                  "Hospital",
+                  "Parque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "post office",
+              "romanization": "pohst AW-fis",
+              "options": {
+                "en": [
+                  "Post office",
+                  "Park",
+                  "Police station",
+                  "Hotel"
+                ],
+                "zh": [
+                  "邮局",
+                  "公园",
+                  "警察局",
+                  "酒店"
+                ],
+                "th": [
+                  "ไปรษณีย์",
+                  "สวนสาธารณะ",
+                  "สถานีตำรวจ",
+                  "โรงแรม"
+                ],
+                "ko": [
+                  "우체국",
+                  "공원",
+                  "경찰서",
+                  "호텔"
+                ],
+                "es": [
+                  "Oficina de correos",
+                  "Parque",
+                  "Comisaría",
+                  "Hotel"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Hotel\"",
+                "zh": "\"酒店\"",
+                "th": "\"โรงแรม\"",
+                "ko": "\"호텔\"",
+                "es": "\"Hotel\""
+              },
+              "options": {
+                "neutral": [
+                  "hotel",
+                  "bathroom",
+                  "school",
+                  "airport"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "restaurant",
+              "romanization": "RES-tuh-rawnt",
+              "options": {
+                "en": [
+                  "Restaurant",
+                  "School",
+                  "Bank",
+                  "Park"
+                ],
+                "zh": [
+                  "餐厅",
+                  "学校",
+                  "银行",
+                  "公园"
+                ],
+                "th": [
+                  "ร้านอาหาร",
+                  "โรงเรียน",
+                  "ธนาคาร",
+                  "สวนสาธารณะ"
+                ],
+                "ko": [
+                  "레스토랑",
+                  "학교",
+                  "은행",
+                  "공원"
+                ],
+                "es": [
+                  "Restaurante",
+                  "Escuela",
+                  "Banco",
+                  "Parque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "store",
+                  "romanization": "stor",
+                  "native": {
+                    "en": "Store / Shop",
+                    "zh": "商店",
+                    "th": "ร้านค้า",
+                    "ko": "가게",
+                    "es": "Tienda"
+                  }
+                },
+                {
+                  "target": "church",
+                  "romanization": "cherch",
+                  "native": {
+                    "en": "Church",
+                    "zh": "教堂",
+                    "th": "โบสถ์",
+                    "ko": "교회",
+                    "es": "Iglesia"
+                  }
+                },
+                {
+                  "target": "bathroom",
+                  "romanization": "BATH-room",
+                  "native": {
+                    "en": "Bathroom",
+                    "zh": "洗手间",
+                    "th": "ห้องน้ำ",
+                    "ko": "화장실",
+                    "es": "Baño"
+                  }
+                },
+                {
+                  "target": "market",
+                  "romanization": "MAR-kit",
+                  "native": {
+                    "en": "Market",
+                    "zh": "市场",
+                    "th": "ตลาด",
+                    "ko": "시장",
+                    "es": "Mercado"
+                  }
+                },
+                {
+                  "target": "station",
+                  "romanization": "STAY-shun",
+                  "native": {
+                    "en": "Station",
+                    "zh": "车站",
+                    "th": "สถานี",
+                    "ko": "역",
+                    "es": "Estación"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "post office",
+                  "romanization": "pohst AW-fis",
+                  "native": {
+                    "en": "Post office",
+                    "zh": "邮局",
+                    "th": "ไปรษณีย์",
+                    "ko": "우체국",
+                    "es": "Oficina de correos"
+                  }
+                },
+                {
+                  "target": "police station",
+                  "romanization": "puh-LEES STAY-shun",
+                  "native": {
+                    "en": "Police station",
+                    "zh": "警察局",
+                    "th": "สถานีตำรวจ",
+                    "ko": "경찰서",
+                    "es": "Comisaría"
+                  }
+                },
+                {
+                  "target": "school",
+                  "romanization": "skool",
+                  "native": {
+                    "en": "School",
+                    "zh": "学校",
+                    "th": "โรงเรียน",
+                    "ko": "학교",
+                    "es": "Escuela"
+                  }
+                },
+                {
+                  "target": "airport",
+                  "romanization": "AIR-port",
+                  "native": {
+                    "en": "Airport",
+                    "zh": "机场",
+                    "th": "สนามบิน",
+                    "ko": "공항",
+                    "es": "Aeropuerto"
+                  }
+                },
+                {
+                  "target": "hotel",
+                  "romanization": "hoh-TEL",
+                  "native": {
+                    "en": "Hotel",
+                    "zh": "酒店",
+                    "th": "โรงแรม",
+                    "ko": "호텔",
+                    "es": "Hotel"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -4681,6 +8927,373 @@
                   "ticket"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "how much",
+              "romanization": "how much",
+              "options": {
+                "en": [
+                  "How much?",
+                  "Fast",
+                  "Drive",
+                  "Where is...?"
+                ],
+                "zh": [
+                  "多少钱？",
+                  "快",
+                  "开车",
+                  "……在哪里？"
+                ],
+                "th": [
+                  "เท่าไหร่?",
+                  "เร็ว",
+                  "ขับรถ",
+                  "……อยู่ที่ไหน?"
+                ],
+                "ko": [
+                  "얼마예요?",
+                  "빠른",
+                  "운전하다",
+                  "……은/는 어디예요?"
+                ],
+                "es": [
+                  "¿Cuánto cuesta?",
+                  "Rápido",
+                  "Conducir",
+                  "¿Dónde está...?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Drive\"",
+                "zh": "\"开车\"",
+                "th": "\"ขับรถ\"",
+                "ko": "\"운전하다\"",
+                "es": "\"Conducir\""
+              },
+              "options": {
+                "neutral": [
+                  "drive",
+                  "ticket",
+                  "how much",
+                  "slow"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "leave",
+              "romanization": "leev",
+              "options": {
+                "en": [
+                  "Leave",
+                  "Car",
+                  "Walk",
+                  "Bus"
+                ],
+                "zh": [
+                  "离开",
+                  "汽车",
+                  "走路",
+                  "公交车"
+                ],
+                "th": [
+                  "ออกเดินทาง",
+                  "รถยนต์",
+                  "เดิน",
+                  "รถบัส"
+                ],
+                "ko": [
+                  "떠나다",
+                  "자동차",
+                  "걷다",
+                  "버스"
+                ],
+                "es": [
+                  "Salir",
+                  "Carro",
+                  "Caminar",
+                  "Autobús"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "where is",
+              "romanization": "wair iz",
+              "options": {
+                "en": [
+                  "Where is...?",
+                  "Slow",
+                  "Drive",
+                  "How much?"
+                ],
+                "zh": [
+                  "……在哪里？",
+                  "慢",
+                  "开车",
+                  "多少钱？"
+                ],
+                "th": [
+                  "……อยู่ที่ไหน?",
+                  "ช้า",
+                  "ขับรถ",
+                  "เท่าไหร่?"
+                ],
+                "ko": [
+                  "……은/는 어디예요?",
+                  "느린",
+                  "운전하다",
+                  "얼마예요?"
+                ],
+                "es": [
+                  "¿Dónde está...?",
+                  "Lento",
+                  "Conducir",
+                  "¿Cuánto cuesta?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Ride\"",
+                "zh": "\"骑\"",
+                "th": "\"ขี่\"",
+                "ko": "\"타다\"",
+                "es": "\"Montar\""
+              },
+              "options": {
+                "neutral": [
+                  "ride",
+                  "fast",
+                  "arrive",
+                  "bus"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "fast",
+              "romanization": "fast",
+              "options": {
+                "en": [
+                  "Fast",
+                  "Taxi",
+                  "Drive",
+                  "Bus"
+                ],
+                "zh": [
+                  "快",
+                  "出租车",
+                  "开车",
+                  "公交车"
+                ],
+                "th": [
+                  "เร็ว",
+                  "แท็กซี่",
+                  "ขับรถ",
+                  "รถบัส"
+                ],
+                "ko": [
+                  "빠른",
+                  "택시",
+                  "운전하다",
+                  "버스"
+                ],
+                "es": [
+                  "Rápido",
+                  "Taxi",
+                  "Conducir",
+                  "Autobús"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "arrive",
+              "romanization": "uh-RYV",
+              "options": {
+                "en": [
+                  "Arrive",
+                  "Train",
+                  "Fast",
+                  "Where is...?"
+                ],
+                "zh": [
+                  "到达",
+                  "火车",
+                  "快",
+                  "……在哪里？"
+                ],
+                "th": [
+                  "มาถึง",
+                  "รถไฟ",
+                  "เร็ว",
+                  "……อยู่ที่ไหน?"
+                ],
+                "ko": [
+                  "도착하다",
+                  "기차",
+                  "빠른",
+                  "……은/는 어디예요?"
+                ],
+                "es": [
+                  "Llegar",
+                  "Tren",
+                  "Rápido",
+                  "¿Dónde está...?"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Slow\"",
+                "zh": "\"慢\"",
+                "th": "\"ช้า\"",
+                "ko": "\"느린\"",
+                "es": "\"Lento\""
+              },
+              "options": {
+                "neutral": [
+                  "slow",
+                  "bus",
+                  "walk",
+                  "how much"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "drive",
+                  "romanization": "dryv",
+                  "native": {
+                    "en": "Drive",
+                    "zh": "开车",
+                    "th": "ขับรถ",
+                    "ko": "운전하다",
+                    "es": "Conducir"
+                  }
+                },
+                {
+                  "target": "ticket",
+                  "romanization": "TIK-it",
+                  "native": {
+                    "en": "Ticket",
+                    "zh": "票",
+                    "th": "ตั๋ว",
+                    "ko": "표",
+                    "es": "Boleto"
+                  }
+                },
+                {
+                  "target": "arrive",
+                  "romanization": "uh-RYV",
+                  "native": {
+                    "en": "Arrive",
+                    "zh": "到达",
+                    "th": "มาถึง",
+                    "ko": "도착하다",
+                    "es": "Llegar"
+                  }
+                },
+                {
+                  "target": "taxi",
+                  "romanization": "TAK-see",
+                  "native": {
+                    "en": "Taxi",
+                    "zh": "出租车",
+                    "th": "แท็กซี่",
+                    "ko": "택시",
+                    "es": "Taxi"
+                  }
+                },
+                {
+                  "target": "ride",
+                  "romanization": "ryd",
+                  "native": {
+                    "en": "Ride",
+                    "zh": "骑",
+                    "th": "ขี่",
+                    "ko": "타다",
+                    "es": "Montar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "walk",
+                  "romanization": "wawk",
+                  "native": {
+                    "en": "Walk",
+                    "zh": "走路",
+                    "th": "เดิน",
+                    "ko": "걷다",
+                    "es": "Caminar"
+                  }
+                },
+                {
+                  "target": "fast",
+                  "romanization": "fast",
+                  "native": {
+                    "en": "Fast",
+                    "zh": "快",
+                    "th": "เร็ว",
+                    "ko": "빠른",
+                    "es": "Rápido"
+                  }
+                },
+                {
+                  "target": "where is",
+                  "romanization": "wair iz",
+                  "native": {
+                    "en": "Where is...?",
+                    "zh": "……在哪里？",
+                    "th": "……อยู่ที่ไหน?",
+                    "ko": "……은/는 어디예요?",
+                    "es": "¿Dónde está...?"
+                  }
+                },
+                {
+                  "target": "leave",
+                  "romanization": "leev",
+                  "native": {
+                    "en": "Leave",
+                    "zh": "离开",
+                    "th": "ออกเดินทาง",
+                    "ko": "떠나다",
+                    "es": "Salir"
+                  }
+                },
+                {
+                  "target": "slow",
+                  "romanization": "sloh",
+                  "native": {
+                    "en": "Slow",
+                    "zh": "慢",
+                    "th": "ช้า",
+                    "ko": "느린",
+                    "es": "Lento"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5089,6 +9702,373 @@
                   "red"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "white",
+              "romanization": "wyt",
+              "options": {
+                "en": [
+                  "White",
+                  "Cheap",
+                  "Color",
+                  "New"
+                ],
+                "zh": [
+                  "白色",
+                  "便宜",
+                  "颜色",
+                  "新"
+                ],
+                "th": [
+                  "ขาว",
+                  "ถูก",
+                  "สี",
+                  "ใหม่"
+                ],
+                "ko": [
+                  "하얀",
+                  "싼",
+                  "색",
+                  "새로운"
+                ],
+                "es": [
+                  "Blanco",
+                  "Barato",
+                  "Color",
+                  "Nuevo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Ugly\"",
+                "zh": "\"丑\"",
+                "th": "\"น่าเกลียด\"",
+                "ko": "\"못생긴\"",
+                "es": "\"Feo\""
+              },
+              "options": {
+                "neutral": [
+                  "ugly",
+                  "white",
+                  "expensive",
+                  "big"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "long",
+              "romanization": "lawng",
+              "options": {
+                "en": [
+                  "Long",
+                  "Green",
+                  "Expensive",
+                  "Cheap"
+                ],
+                "zh": [
+                  "长",
+                  "绿色",
+                  "贵",
+                  "便宜"
+                ],
+                "th": [
+                  "ยาว",
+                  "เขียว",
+                  "แพง",
+                  "ถูก"
+                ],
+                "ko": [
+                  "긴",
+                  "초록",
+                  "비싼",
+                  "싼"
+                ],
+                "es": [
+                  "Largo",
+                  "Verde",
+                  "Caro",
+                  "Barato"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "blue",
+              "romanization": "bloo",
+              "options": {
+                "en": [
+                  "Blue",
+                  "Long",
+                  "Color",
+                  "Cheap"
+                ],
+                "zh": [
+                  "蓝色",
+                  "长",
+                  "颜色",
+                  "便宜"
+                ],
+                "th": [
+                  "น้ำเงิน",
+                  "ยาว",
+                  "สี",
+                  "ถูก"
+                ],
+                "ko": [
+                  "파란",
+                  "긴",
+                  "색",
+                  "싼"
+                ],
+                "es": [
+                  "Azul",
+                  "Largo",
+                  "Color",
+                  "Barato"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Short\"",
+                "zh": "\"短\"",
+                "th": "\"สั้น\"",
+                "ko": "\"짧은\"",
+                "es": "\"Corto\""
+              },
+              "options": {
+                "neutral": [
+                  "short",
+                  "white",
+                  "green",
+                  "red"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "color",
+              "romanization": "KUL-er",
+              "options": {
+                "en": [
+                  "Color",
+                  "Ugly",
+                  "Green",
+                  "New"
+                ],
+                "zh": [
+                  "颜色",
+                  "丑",
+                  "绿色",
+                  "新"
+                ],
+                "th": [
+                  "สี",
+                  "น่าเกลียด",
+                  "เขียว",
+                  "ใหม่"
+                ],
+                "ko": [
+                  "색",
+                  "못생긴",
+                  "초록",
+                  "새로운"
+                ],
+                "es": [
+                  "Color",
+                  "Feo",
+                  "Verde",
+                  "Nuevo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "cheap",
+              "romanization": "cheep",
+              "options": {
+                "en": [
+                  "Cheap",
+                  "Ugly",
+                  "White",
+                  "Red"
+                ],
+                "zh": [
+                  "便宜",
+                  "丑",
+                  "白色",
+                  "红色"
+                ],
+                "th": [
+                  "ถูก",
+                  "น่าเกลียด",
+                  "ขาว",
+                  "แดง"
+                ],
+                "ko": [
+                  "싼",
+                  "못생긴",
+                  "하얀",
+                  "빨간"
+                ],
+                "es": [
+                  "Barato",
+                  "Feo",
+                  "Blanco",
+                  "Rojo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Green\"",
+                "zh": "\"绿色\"",
+                "th": "\"เขียว\"",
+                "ko": "\"초록\"",
+                "es": "\"Verde\""
+              },
+              "options": {
+                "neutral": [
+                  "green",
+                  "expensive",
+                  "small",
+                  "blue"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ugly",
+                  "romanization": "UG-lee",
+                  "native": {
+                    "en": "Ugly",
+                    "zh": "丑",
+                    "th": "น่าเกลียด",
+                    "ko": "못생긴",
+                    "es": "Feo"
+                  }
+                },
+                {
+                  "target": "red",
+                  "romanization": "red",
+                  "native": {
+                    "en": "Red",
+                    "zh": "红色",
+                    "th": "แดง",
+                    "ko": "빨간",
+                    "es": "Rojo"
+                  }
+                },
+                {
+                  "target": "long",
+                  "romanization": "lawng",
+                  "native": {
+                    "en": "Long",
+                    "zh": "长",
+                    "th": "ยาว",
+                    "ko": "긴",
+                    "es": "Largo"
+                  }
+                },
+                {
+                  "target": "short",
+                  "romanization": "short",
+                  "native": {
+                    "en": "Short",
+                    "zh": "短",
+                    "th": "สั้น",
+                    "ko": "짧은",
+                    "es": "Corto"
+                  }
+                },
+                {
+                  "target": "green",
+                  "romanization": "green",
+                  "native": {
+                    "en": "Green",
+                    "zh": "绿色",
+                    "th": "เขียว",
+                    "ko": "초록",
+                    "es": "Verde"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "expensive",
+                  "romanization": "ek-SPEN-siv",
+                  "native": {
+                    "en": "Expensive",
+                    "zh": "贵",
+                    "th": "แพง",
+                    "ko": "비싼",
+                    "es": "Caro"
+                  }
+                },
+                {
+                  "target": "beautiful",
+                  "romanization": "BYOO-tih-ful",
+                  "native": {
+                    "en": "Beautiful",
+                    "zh": "漂亮",
+                    "th": "สวย",
+                    "ko": "아름다운",
+                    "es": "Hermoso"
+                  }
+                },
+                {
+                  "target": "cheap",
+                  "romanization": "cheep",
+                  "native": {
+                    "en": "Cheap",
+                    "zh": "便宜",
+                    "th": "ถูก",
+                    "ko": "싼",
+                    "es": "Barato"
+                  }
+                },
+                {
+                  "target": "color",
+                  "romanization": "KUL-er",
+                  "native": {
+                    "en": "Color",
+                    "zh": "颜色",
+                    "th": "สี",
+                    "ko": "색",
+                    "es": "Color"
+                  }
+                },
+                {
+                  "target": "blue",
+                  "romanization": "bloo",
+                  "native": {
+                    "en": "Blue",
+                    "zh": "蓝色",
+                    "th": "น้ำเงิน",
+                    "ko": "파란",
+                    "es": "Azul"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5475,6 +10455,373 @@
                   "this"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "change",
+              "romanization": "chaynj",
+              "options": {
+                "en": [
+                  "Change (money back)",
+                  "Too (excessive)",
+                  "Money",
+                  "Sell"
+                ],
+                "zh": [
+                  "找零",
+                  "太",
+                  "钱",
+                  "卖"
+                ],
+                "th": [
+                  "เงินทอน",
+                  "เกินไป",
+                  "เงิน",
+                  "ขาย"
+                ],
+                "ko": [
+                  "거스름돈",
+                  "너무",
+                  "돈",
+                  "팔다"
+                ],
+                "es": [
+                  "Cambio",
+                  "Demasiado",
+                  "Dinero",
+                  "Vender"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Price\"",
+                "zh": "\"价格\"",
+                "th": "\"ราคา\"",
+                "ko": "\"가격\"",
+                "es": "\"Precio\""
+              },
+              "options": {
+                "neutral": [
+                  "price",
+                  "this",
+                  "buy",
+                  "that"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bag",
+              "romanization": "bag",
+              "options": {
+                "en": [
+                  "Bag",
+                  "Hat",
+                  "Money",
+                  "This"
+                ],
+                "zh": [
+                  "包",
+                  "帽子",
+                  "钱",
+                  "这个"
+                ],
+                "th": [
+                  "กระเป๋า",
+                  "หมวก",
+                  "เงิน",
+                  "นี่"
+                ],
+                "ko": [
+                  "가방",
+                  "모자",
+                  "돈",
+                  "이것"
+                ],
+                "es": [
+                  "Bolsa",
+                  "Sombrero",
+                  "Dinero",
+                  "Esto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "that",
+              "romanization": "that",
+              "options": {
+                "en": [
+                  "That",
+                  "Pay",
+                  "Price",
+                  "This"
+                ],
+                "zh": [
+                  "那个",
+                  "付钱",
+                  "价格",
+                  "这个"
+                ],
+                "th": [
+                  "นั่น",
+                  "จ่าย",
+                  "ราคา",
+                  "นี่"
+                ],
+                "ko": [
+                  "저것",
+                  "지불하다",
+                  "가격",
+                  "이것"
+                ],
+                "es": [
+                  "Eso",
+                  "Pagar",
+                  "Precio",
+                  "Esto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Pay\"",
+                "zh": "\"付钱\"",
+                "th": "\"จ่าย\"",
+                "ko": "\"지불하다\"",
+                "es": "\"Pagar\""
+              },
+              "options": {
+                "neutral": [
+                  "pay",
+                  "shoes",
+                  "pants",
+                  "that"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "sell",
+              "romanization": "sel",
+              "options": {
+                "en": [
+                  "Sell",
+                  "This",
+                  "That",
+                  "Hat"
+                ],
+                "zh": [
+                  "卖",
+                  "这个",
+                  "那个",
+                  "帽子"
+                ],
+                "th": [
+                  "ขาย",
+                  "นี่",
+                  "นั่น",
+                  "หมวก"
+                ],
+                "ko": [
+                  "팔다",
+                  "이것",
+                  "저것",
+                  "모자"
+                ],
+                "es": [
+                  "Vender",
+                  "Esto",
+                  "Eso",
+                  "Sombrero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "size",
+              "romanization": "syz",
+              "options": {
+                "en": [
+                  "Size",
+                  "Pants",
+                  "Sell",
+                  "Money"
+                ],
+                "zh": [
+                  "尺寸",
+                  "裤子",
+                  "卖",
+                  "钱"
+                ],
+                "th": [
+                  "ขนาด",
+                  "กางเกง",
+                  "ขาย",
+                  "เงิน"
+                ],
+                "ko": [
+                  "크기",
+                  "바지",
+                  "팔다",
+                  "돈"
+                ],
+                "es": [
+                  "Talla",
+                  "Pantalones",
+                  "Vender",
+                  "Dinero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Too (excessive)\"",
+                "zh": "\"太\"",
+                "th": "\"เกินไป\"",
+                "ko": "\"너무\"",
+                "es": "\"Demasiado\""
+              },
+              "options": {
+                "neutral": [
+                  "too (expensive)",
+                  "size",
+                  "shirt",
+                  "buy"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "sell",
+                  "romanization": "sel",
+                  "native": {
+                    "en": "Sell",
+                    "zh": "卖",
+                    "th": "ขาย",
+                    "ko": "팔다",
+                    "es": "Vender"
+                  }
+                },
+                {
+                  "target": "pay",
+                  "romanization": "pay",
+                  "native": {
+                    "en": "Pay",
+                    "zh": "付钱",
+                    "th": "จ่าย",
+                    "ko": "지불하다",
+                    "es": "Pagar"
+                  }
+                },
+                {
+                  "target": "this",
+                  "romanization": "this",
+                  "native": {
+                    "en": "This",
+                    "zh": "这个",
+                    "th": "นี่",
+                    "ko": "이것",
+                    "es": "Esto"
+                  }
+                },
+                {
+                  "target": "that",
+                  "romanization": "that",
+                  "native": {
+                    "en": "That",
+                    "zh": "那个",
+                    "th": "นั่น",
+                    "ko": "저것",
+                    "es": "Eso"
+                  }
+                },
+                {
+                  "target": "money",
+                  "romanization": "MUN-ee",
+                  "native": {
+                    "en": "Money",
+                    "zh": "钱",
+                    "th": "เงิน",
+                    "ko": "돈",
+                    "es": "Dinero"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "price",
+                  "romanization": "prys",
+                  "native": {
+                    "en": "Price",
+                    "zh": "价格",
+                    "th": "ราคา",
+                    "ko": "가격",
+                    "es": "Precio"
+                  }
+                },
+                {
+                  "target": "buy",
+                  "romanization": "by",
+                  "native": {
+                    "en": "Buy",
+                    "zh": "买",
+                    "th": "ซื้อ",
+                    "ko": "사다",
+                    "es": "Comprar"
+                  }
+                },
+                {
+                  "target": "change",
+                  "romanization": "chaynj",
+                  "native": {
+                    "en": "Change (money back)",
+                    "zh": "找零",
+                    "th": "เงินทอน",
+                    "ko": "거스름돈",
+                    "es": "Cambio"
+                  }
+                },
+                {
+                  "target": "bag",
+                  "romanization": "bag",
+                  "native": {
+                    "en": "Bag",
+                    "zh": "包",
+                    "th": "กระเป๋า",
+                    "ko": "가방",
+                    "es": "Bolsa"
+                  }
+                },
+                {
+                  "target": "size",
+                  "romanization": "syz",
+                  "native": {
+                    "en": "Size",
+                    "zh": "尺寸",
+                    "th": "ขนาด",
+                    "ko": "크기",
+                    "es": "Talla"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {
@@ -5864,6 +11211,373 @@
                   "English"
                 ]
               }
+            },
+            {
+              "type": "target_to_native",
+              "word": "know",
+              "romanization": "noh",
+              "options": {
+                "en": [
+                  "Know",
+                  "Need",
+                  "Give",
+                  "Like"
+                ],
+                "zh": [
+                  "知道",
+                  "需要",
+                  "给",
+                  "喜欢"
+                ],
+                "th": [
+                  "รู้",
+                  "ต้อง",
+                  "ให้",
+                  "ชอบ"
+                ],
+                "ko": [
+                  "알다",
+                  "필요하다",
+                  "주다",
+                  "좋아하다"
+                ],
+                "es": [
+                  "Saber",
+                  "Necesitar",
+                  "Dar",
+                  "Gustar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Use\"",
+                "zh": "\"用\"",
+                "th": "\"ใช้\"",
+                "ko": "\"사용하다\"",
+                "es": "\"Usar\""
+              },
+              "options": {
+                "neutral": [
+                  "use",
+                  "learn",
+                  "think",
+                  "speak"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "take",
+              "romanization": "tayk",
+              "options": {
+                "en": [
+                  "Take",
+                  "Understand",
+                  "Want",
+                  "Like"
+                ],
+                "zh": [
+                  "拿",
+                  "理解",
+                  "想要",
+                  "喜欢"
+                ],
+                "th": [
+                  "เอา",
+                  "เข้าใจ",
+                  "ต้องการ",
+                  "ชอบ"
+                ],
+                "ko": [
+                  "가져가다",
+                  "이해하다",
+                  "원하다",
+                  "좋아하다"
+                ],
+                "es": [
+                  "Tomar",
+                  "Entender",
+                  "Querer",
+                  "Gustar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "speak",
+              "romanization": "speek",
+              "options": {
+                "en": [
+                  "Speak",
+                  "Know",
+                  "Try",
+                  "Can"
+                ],
+                "zh": [
+                  "说",
+                  "知道",
+                  "试",
+                  "能"
+                ],
+                "th": [
+                  "พูด",
+                  "รู้",
+                  "ลอง",
+                  "สามารถ"
+                ],
+                "ko": [
+                  "말하다",
+                  "알다",
+                  "시도하다",
+                  "할 수 있다"
+                ],
+                "es": [
+                  "Hablar",
+                  "Saber",
+                  "Intentar",
+                  "Poder"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Think\"",
+                "zh": "\"想\"",
+                "th": "\"คิด\"",
+                "ko": "\"생각하다\"",
+                "es": "\"Pensar\""
+              },
+              "options": {
+                "neutral": [
+                  "think",
+                  "have",
+                  "speak",
+                  "help"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "try",
+              "romanization": "try",
+              "options": {
+                "en": [
+                  "Try",
+                  "Like",
+                  "Understand",
+                  "Want"
+                ],
+                "zh": [
+                  "试",
+                  "喜欢",
+                  "理解",
+                  "想要"
+                ],
+                "th": [
+                  "ลอง",
+                  "ชอบ",
+                  "เข้าใจ",
+                  "ต้องการ"
+                ],
+                "ko": [
+                  "시도하다",
+                  "좋아하다",
+                  "이해하다",
+                  "원하다"
+                ],
+                "es": [
+                  "Intentar",
+                  "Gustar",
+                  "Entender",
+                  "Querer"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "can",
+              "romanization": "kan",
+              "options": {
+                "en": [
+                  "Can",
+                  "Understand",
+                  "Give",
+                  "Use"
+                ],
+                "zh": [
+                  "能",
+                  "理解",
+                  "给",
+                  "用"
+                ],
+                "th": [
+                  "สามารถ",
+                  "เข้าใจ",
+                  "ให้",
+                  "ใช้"
+                ],
+                "ko": [
+                  "할 수 있다",
+                  "이해하다",
+                  "주다",
+                  "사용하다"
+                ],
+                "es": [
+                  "Poder",
+                  "Entender",
+                  "Dar",
+                  "Usar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "\"Give\"",
+                "zh": "\"给\"",
+                "th": "\"ให้\"",
+                "ko": "\"주다\"",
+                "es": "\"Dar\""
+              },
+              "options": {
+                "neutral": [
+                  "give",
+                  "use",
+                  "take",
+                  "learn"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "try",
+                  "romanization": "try",
+                  "native": {
+                    "en": "Try",
+                    "zh": "试",
+                    "th": "ลอง",
+                    "ko": "시도하다",
+                    "es": "Intentar"
+                  }
+                },
+                {
+                  "target": "speak",
+                  "romanization": "speek",
+                  "native": {
+                    "en": "Speak",
+                    "zh": "说",
+                    "th": "พูด",
+                    "ko": "말하다",
+                    "es": "Hablar"
+                  }
+                },
+                {
+                  "target": "know",
+                  "romanization": "noh",
+                  "native": {
+                    "en": "Know",
+                    "zh": "知道",
+                    "th": "รู้",
+                    "ko": "알다",
+                    "es": "Saber"
+                  }
+                },
+                {
+                  "target": "think",
+                  "romanization": "thingk",
+                  "native": {
+                    "en": "Think",
+                    "zh": "想",
+                    "th": "คิด",
+                    "ko": "생각하다",
+                    "es": "Pensar"
+                  }
+                },
+                {
+                  "target": "help",
+                  "romanization": "help",
+                  "native": {
+                    "en": "Help",
+                    "zh": "帮助",
+                    "th": "ช่วย",
+                    "ko": "돕다",
+                    "es": "Ayudar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "take",
+                  "romanization": "tayk",
+                  "native": {
+                    "en": "Take",
+                    "zh": "拿",
+                    "th": "เอา",
+                    "ko": "가져가다",
+                    "es": "Tomar"
+                  }
+                },
+                {
+                  "target": "learn",
+                  "romanization": "lern",
+                  "native": {
+                    "en": "Learn",
+                    "zh": "学",
+                    "th": "เรียนรู้",
+                    "ko": "배우다",
+                    "es": "Aprender"
+                  }
+                },
+                {
+                  "target": "give",
+                  "romanization": "giv",
+                  "native": {
+                    "en": "Give",
+                    "zh": "给",
+                    "th": "ให้",
+                    "ko": "주다",
+                    "es": "Dar"
+                  }
+                },
+                {
+                  "target": "use",
+                  "romanization": "yooz",
+                  "native": {
+                    "en": "Use",
+                    "zh": "用",
+                    "th": "ใช้",
+                    "ko": "사용하다",
+                    "es": "Usar"
+                  }
+                },
+                {
+                  "target": "understand",
+                  "romanization": "un-der-STAND",
+                  "native": {
+                    "en": "Understand",
+                    "zh": "理解",
+                    "th": "เข้าใจ",
+                    "ko": "이해하다",
+                    "es": "Entender"
+                  }
+                }
+              ]
             }
           ],
           "chat_seed": {

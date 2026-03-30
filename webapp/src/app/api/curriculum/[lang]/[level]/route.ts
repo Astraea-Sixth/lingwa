@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-
-const API_BASE = process.env.API_BASE_URL || 'http://localhost:5003'
+import { API_BASE } from '@/lib/apiConfig'
 
 export async function GET(_req: NextRequest, { params }: { params: { lang: string, level: string } }) {
   try {

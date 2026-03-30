@@ -217,8 +217,19 @@ async def evaluate_speech_with_audio(
     """
     model = get_model()
 
-    # Save audio
-    suffix = ".webm" if "webm" in (audio.content_type or "") else ".wav"
+    # Save audio — detect format from content_type or filename
+    ct = audio.content_type or ""
+    fn = audio.filename or ""
+    if "webm" in ct or "webm" in fn:
+        suffix = ".webm"
+    elif "mp4" in ct or "mp4" in fn or "m4a" in ct or "m4a" in fn:
+        suffix = ".mp4"
+    elif "ogg" in ct or "ogg" in fn:
+        suffix = ".ogg"
+    elif "wav" in ct or "wav" in fn:
+        suffix = ".wav"
+    else:
+        suffix = ".webm"  # default fallback
     with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
         audio_content = await audio.read()
         tmp.write(audio_content)
@@ -253,6 +264,8 @@ async def evaluate_speech_with_audio(
         similarity = _similarity(norm_transcript, norm_expected)
         text_match = similarity >= 0.75
         partial_match = similarity >= 0.5 or norm_expected in norm_transcript or norm_transcript in norm_expected
+
+
 
         if not text_match and not partial_match:
             feedback = await _get_llm_feedback(transcript, expected, gender, level, lang, "wrong_words", native_lang=native_lang)

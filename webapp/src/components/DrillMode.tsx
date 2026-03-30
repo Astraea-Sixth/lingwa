@@ -105,7 +105,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           className="px-8 py-4 rounded-2xl font-bold text-white text-lg"
           style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
         >
-          Continue
+          {t('continue', nativeLang)}
         </motion.button>
       </div>
     )
@@ -166,11 +166,12 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     setIsProcessing(true)
 
     try {
+      const ext = recorderRef.current.fileExtension
       const blob = await recorderRef.current.stop()
       const url = URL.createObjectURL(blob)
       audioUrlRef.current = url
       setAudioUrl(url)
-      await evaluateAudio(blob)
+      await evaluateAudio(blob, ext)
     } catch {
       if (mountedRef.current) {
         setFeedback('Recording failed. Please try again.')
@@ -181,9 +182,9 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
   // ─── Evaluation ───
 
-  async function evaluateAudio(blob: Blob) {
+  async function evaluateAudio(blob: Blob, ext: string = 'webm') {
     const formData = new FormData()
-    formData.append('audio', blob, 'recording.webm')
+    formData.append('audio', blob, `recording.${ext}`)
     formData.append('expected', displayWord)
     formData.append('lang', lang)
     formData.append('gender', getGender(lang))
@@ -298,7 +299,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <p className="text-xs uppercase tracking-wider font-bold" style={{ color: 'var(--text-muted)' }}>
-          Pronunciation Drill
+          {t('pronunciationDrill', nativeLang)}
         </p>
         <div className="text-sm" style={{ color: 'var(--text-muted)' }}>
           {currentIdx + 1} / {vocabulary.length}
@@ -454,7 +455,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                   className="flex items-center gap-2 mx-auto px-4 py-2 rounded-xl text-xs font-medium"
                   style={{ background: 'var(--surface2)', color: 'var(--text-muted)' }}
                 >
-                  🔊 Hear yourself
+                  🔊 {t('hearYourself', nativeLang)}
                 </button>
               )}
             </motion.div>
