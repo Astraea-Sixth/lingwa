@@ -11,7 +11,7 @@ Structured curriculum, spaced repetition, gender-aware speech, and real conversa
 
 ---
 
-<video src="demo.mp4" autoplay loop muted playsinline width="390"></video>
+[![Lingwa Demo — click to watch](demo_thumbnail.png)](demo.mp4)
 
 ---
 
