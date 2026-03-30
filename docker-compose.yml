@@ -1,0 +1,83 @@
+# Lingwa — Docker Compose
+# First time:  docker compose --profile setup run ollama-pull
+# Then:        docker compose up
+
+services:
+  # ─── Local LLM via Ollama ───
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:11434/ || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    # Uncomment for NVIDIA GPU support on Linux:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # ─── One-time model pull ───
+  # Run once: docker compose --profile setup run ollama-pull
+  ollama-pull:
+    image: curlimages/curl:latest
+    depends_on:
+      ollama:
+        condition: service_healthy
+    entrypoint: >
+      sh -c "echo 'Pulling mistral:7b — this may take a few minutes...' &&
+             curl -sf -X POST http://ollama:11434/api/pull -d '{\"name\": \"mistral:7b\"}' &&
+             echo 'Model ready.'"
+    profiles:
+      - setup
+
+  # ─── Python FastAPI backend ───
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "5003:5003"
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+      - OLLAMA_MODEL=mistral:7b
+      - LINGWA_NUM_UNITS=3
+      - LINGWA_LESSONS_PER_UNIT=4
+      - LINGWA_VOCAB_PER_LESSON=15
+      - LINGWA_EXERCISES_PER_LESSON=6
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:5003/health')\""]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  # ─── Next.js frontend ───
+  webapp:
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+      args:
+        - API_BASE_URL=http://api:5005
+    ports:
+      - "3004:3004"
+    environment:
+      - API_BASE_URL=http://api:5005
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

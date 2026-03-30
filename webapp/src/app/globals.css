@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..900;1,14..32,300..900&family=Noto+Sans+Thai:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --green: #58cc02;
+    --green-dark: #45a800;
+    --blue: #1cb0f6;
+    --red: #ff4b4b;
+    --orange: #ff9600;
+    --yellow: #ffc800;
+    --purple: #ce82ff;
+    --bg: #131f24;
+    --surface: #1c2a32;
+    --surface2: #243040;
+    --border: #2a3a4a;
+    --text: #ffffff;
+    --text-muted: #7f9ca8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    font-family: 'Inter', 'Noto Sans Thai', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  .thai {
+    font-family: 'Noto Sans Thai', sans-serif;
+    line-height: 1.9;
+  }
+
+  /* Legacy alias */
+  .thai-text {
+    font-family: 'Noto Sans Thai', sans-serif;
+    line-height: 1.9;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--surface); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+}
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center font-bold rounded-2xl transition-all duration-150 active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed select-none;
+  }
+  .btn-green {
+    @apply btn px-6 py-3 text-white;
+    background: var(--green);
+    box-shadow: 0 4px 0 var(--green-dark);
+  }
+  .btn-green:hover:not(:disabled) {
+    filter: brightness(1.05);
+  }
+  .btn-green:active:not(:disabled) {
+    box-shadow: 0 0px 0 var(--green-dark);
+    transform: translateY(4px) scale(0.98);
+  }
+  .btn-ghost {
+    @apply btn px-6 py-3 border-2;
+    border-color: var(--border);
+    background: transparent;
+    color: var(--text-muted);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    border-color: var(--text-muted);
+    color: var(--text);
+  }
+
+  /* Legacy button classes */
+  .btn-primary {
+    @apply btn-green;
+  }
+  .btn-secondary {
+    @apply btn-ghost;
+  }
+  .btn-accent {
+    @apply btn-green;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    @apply rounded-2xl p-5;
+  }
+
+  /* Exercise options */
+  .option {
+    @apply w-full text-left p-4 rounded-2xl border-2 font-semibold transition-all duration-150 select-none cursor-pointer;
+    background: var(--surface);
+    border-color: var(--border);
+    color: var(--text);
+  }
+  .option:hover:not(:disabled) {
+    border-color: var(--blue);
+    background: var(--surface2);
+  }
+  .option-selected {
+    border-color: var(--blue) !important;
+    background: rgba(28, 176, 246, 0.1) !important;
+  }
+  .option-correct {
+    border-color: var(--green) !important;
+    background: rgba(88, 204, 2, 0.1) !important;
+    color: var(--green) !important;
+  }
+  .option-wrong {
+    border-color: var(--red) !important;
+    background: rgba(255, 75, 75, 0.1) !important;
+    color: var(--red) !important;
+  }
+
+  /* Legacy exercise option classes */
+  .exercise-option {
+    @apply option;
+  }
+  .exercise-option-correct {
+    @apply option-correct;
+  }
+  .exercise-option-wrong {
+    @apply option-wrong;
+  }
+  .exercise-option-selected {
+    @apply option-selected;
+  }
+
+  /* Progress bar */
+  .progress-bar {
+    height: 16px;
+    background: var(--surface2);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--green);
+    border-radius: 999px;
+    transition: width 0.5s ease;
+  }
+
+  /* Feedback banner */
+  .feedback-correct {
+    background: rgba(88, 204, 2, 0.15);
+    border-top: 2px solid var(--green);
+    color: var(--green);
+  }
+  .feedback-wrong {
+    background: rgba(255, 75, 75, 0.12);
+    border-top: 2px solid var(--red);
+    color: var(--red);
+  }
+}

@@ -1,0 +1,5379 @@
+{
+  "lang": "th",
+  "language": "th",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Daily Routine",
+        "zh": "日常生活",
+        "th": "กิจวัตรประจำวัน",
+        "ko": "일상생활",
+        "es": "Rutina diaria"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Morning Routine",
+            "zh": "早晨日常",
+            "th": "กิจวัตรตอนเช้า",
+            "ko": "아침 일과",
+            "es": "Rutina matutina"
+          },
+          "objectives": {
+            "en": [
+              "Learn morning routine vocabulary",
+              "Describe daily morning activities"
+            ],
+            "zh": [
+              "学习早晨日常词汇",
+              "描述每日早晨活动"
+            ],
+            "th": [
+              "Learn morning routine vocabulary",
+              "Describe daily morning activities"
+            ],
+            "ko": [
+              "Learn morning routine vocabulary",
+              "Describe daily morning activities"
+            ],
+            "es": [
+              "Learn morning routine vocabulary",
+              "Describe daily morning activities"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ตื่นนอน",
+              "romanization": "tuen non",
+              "meanings": {
+                "en": "Wake up",
+                "zh": "起床",
+                "th": "ตื่นนอน",
+                "ko": "일어나다",
+                "es": "Despertarse"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ตื่นนอนครับ",
+                  "romanization": "tuen non khrap"
+                },
+                "female": {
+                  "word": "ตื่นนอนค่ะ",
+                  "romanization": "tuen non kha"
+                }
+              }
+            },
+            {
+              "word": "ลุกขึ้น",
+              "romanization": "luk kheun",
+              "meanings": {
+                "en": "Get up",
+                "zh": "起来",
+                "th": "ตื่นนอน",
+                "ko": "일어나다",
+                "es": "Levantarse"
+              },
+              "toneClass": "high",
+              "gendered": {
+                "male": {
+                  "word": "ลุกขึ้นครับ",
+                  "romanization": "luk kheun khrap"
+                },
+                "female": {
+                  "word": "ลุกขึ้นค่ะ",
+                  "romanization": "luk kheun kha"
+                }
+              }
+            },
+            {
+              "word": "แต่งตัว",
+              "romanization": "taeng tua",
+              "meanings": {
+                "en": "Get dressed",
+                "zh": "穿衣服",
+                "th": "แต่งตัว",
+                "ko": "옷을 입다",
+                "es": "Vestirse"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แต่งตัวครับ",
+                  "romanization": "taeng tua khrap"
+                },
+                "female": {
+                  "word": "แต่งตัวค่ะ",
+                  "romanization": "taeng tua kha"
+                }
+              }
+            },
+            {
+              "word": "แปรงฟัน",
+              "romanization": "praeng fan",
+              "meanings": {
+                "en": "Brush teeth",
+                "zh": "刷牙",
+                "th": "แปรงฟัน",
+                "ko": "양치하다",
+                "es": "Cepillarse los dientes"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แปรงฟันครับ",
+                  "romanization": "praeng fan khrap"
+                },
+                "female": {
+                  "word": "แปรงฟันค่ะ",
+                  "romanization": "praeng fan kha"
+                }
+              }
+            },
+            {
+              "word": "กินข้าวเช้า",
+              "romanization": "gin khao chao",
+              "meanings": {
+                "en": "Have breakfast",
+                "zh": "吃早餐",
+                "th": "กินอาหารเช้า",
+                "ko": "아침 먹다",
+                "es": "Desayunar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กินข้าวเช้าครับ",
+                  "romanization": "gin khao chao khrap"
+                },
+                "female": {
+                  "word": "กินข้าวเช้าค่ะ",
+                  "romanization": "gin khao chao kha"
+                }
+              }
+            },
+            {
+              "word": "ไปทำงาน",
+              "romanization": "pai tam ngaan",
+              "meanings": {
+                "en": "Go to work",
+                "zh": "去上班",
+                "th": "ไปทำงาน",
+                "ko": "출근하다",
+                "es": "Ir al trabajo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไปทำงานครับ",
+                  "romanization": "pai tam ngaan khrap"
+                },
+                "female": {
+                  "word": "ไปทำงานค่ะ",
+                  "romanization": "pai tam ngaan kha"
+                }
+              }
+            },
+            {
+              "word": "กลับบ้าน",
+              "romanization": "glap baan",
+              "meanings": {
+                "en": "Come home",
+                "zh": "回家",
+                "th": "กลับบ้าน",
+                "ko": "집에 오다",
+                "es": "Volver a casa"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กลับบ้านครับ",
+                  "romanization": "glap baan khrap"
+                },
+                "female": {
+                  "word": "กลับบ้านค่ะ",
+                  "romanization": "glap baan kha"
+                }
+              }
+            },
+            {
+              "word": "กินข้าวเย็น",
+              "romanization": "gin khao yen",
+              "meanings": {
+                "en": "Have dinner",
+                "zh": "吃晚餐",
+                "th": "กินอาหารเย็น",
+                "ko": "저녁 먹다",
+                "es": "Cenar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กินข้าวเย็นครับ",
+                  "romanization": "gin khao yen khrap"
+                },
+                "female": {
+                  "word": "กินข้าวเย็นค่ะ",
+                  "romanization": "gin khao yen kha"
+                }
+              }
+            },
+            {
+              "word": "เข้านอน",
+              "romanization": "khao non",
+              "meanings": {
+                "en": "Go to bed",
+                "zh": "上床睡觉",
+                "th": "เข้านอน",
+                "ko": "잠자리에 들다",
+                "es": "Ir a la cama"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เข้านอนครับ",
+                  "romanization": "khao non khrap"
+                },
+                "female": {
+                  "word": "เข้านอนค่ะ",
+                  "romanization": "khao non kha"
+                }
+              }
+            },
+            {
+              "word": "อาบน้ำ",
+              "romanization": "aap naam",
+              "meanings": {
+                "en": "Shower",
+                "zh": "洗澡",
+                "th": "อาบน้ำ",
+                "ko": "샤워",
+                "es": "Ducha"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาบน้ำครับ",
+                  "romanization": "aap naam khrap"
+                },
+                "female": {
+                  "word": "อาบน้ำค่ะ",
+                  "romanization": "aap naam kha"
+                }
+              }
+            },
+            {
+              "word": "ทำอาหาร",
+              "romanization": "tam aa-haan",
+              "meanings": {
+                "en": "Cook",
+                "zh": "做饭",
+                "th": "ทำอาหาร",
+                "ko": "요리하다",
+                "es": "Cocinar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทำอาหารครับ",
+                  "romanization": "tam aa-haan khrap"
+                },
+                "female": {
+                  "word": "ทำอาหารค่ะ",
+                  "romanization": "tam aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "ทำความสะอาด",
+              "romanization": "tam khwaam sa-aat",
+              "meanings": {
+                "en": "Clean",
+                "zh": "打扫",
+                "th": "สะอาด",
+                "ko": "깨끗한",
+                "es": "Limpio"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ทำความสะอาดครับ",
+                  "romanization": "tam khwaam sa-aat khrap"
+                },
+                "female": {
+                  "word": "ทำความสะอาดค่ะ",
+                  "romanization": "tam khwaam sa-aat kha"
+                }
+              }
+            },
+            {
+              "word": "พักผ่อน",
+              "romanization": "phak phon",
+              "meanings": {
+                "en": "Rest",
+                "zh": "休息",
+                "th": "พัก",
+                "ko": "쉬다",
+                "es": "Descansar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "พักผ่อนครับ",
+                  "romanization": "phak phon khrap"
+                },
+                "female": {
+                  "word": "พักผ่อนค่ะ",
+                  "romanization": "phak phon kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ตื่นนอน",
+              "romanization": "tuen non",
+              "options": {
+                "en": [
+                  "Wake up",
+                  "Get up",
+                  "Get dressed",
+                  "Brush teeth"
+                ],
+                "zh": [
+                  "起床",
+                  "起来",
+                  "穿衣服",
+                  "刷牙"
+                ],
+                "th": [
+                  "ตื่นนอน",
+                  "ตื่นนอน",
+                  "แต่งตัว",
+                  "แปรงฟัน"
+                ],
+                "ko": [
+                  "일어나다",
+                  "일어나다",
+                  "옷을 입다",
+                  "양치하다"
+                ],
+                "es": [
+                  "Despertarse",
+                  "Levantarse",
+                  "Vestirse",
+                  "Cepillarse los dientes"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ตื่นนอนครับ",
+                  "romanization": "tuen non khrap"
+                },
+                "female": {
+                  "word": "ตื่นนอนค่ะ",
+                  "romanization": "tuen non kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Brush teeth' in Thai?",
+                "zh": "泰语中'刷牙'怎么说？",
+                "th": "คำว่า 'แปรงฟัน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'양치하다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Cepillarse los dientes' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "แปรงฟัน",
+                  "ตื่นนอน",
+                  "ลุกขึ้น",
+                  "แต่งตัว"
+                ],
+                "male": [
+                  "แปรงฟันครับ",
+                  "ตื่นนอนครับ",
+                  "ลุกขึ้นครับ",
+                  "แต่งตัวครับ"
+                ],
+                "female": [
+                  "แปรงฟันค่ะ",
+                  "ตื่นนอนค่ะ",
+                  "ลุกขึ้นค่ะ",
+                  "แต่งตัวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ไปทำงาน",
+              "romanization": "pai tam ngaan",
+              "options": {
+                "en": [
+                  "Go to work",
+                  "Come home",
+                  "Have dinner",
+                  "Go to bed"
+                ],
+                "zh": [
+                  "去上班",
+                  "回家",
+                  "吃晚餐",
+                  "上床睡觉"
+                ],
+                "th": [
+                  "ไปทำงาน",
+                  "กลับบ้าน",
+                  "กินอาหารเย็น",
+                  "เข้านอน"
+                ],
+                "ko": [
+                  "출근하다",
+                  "집에 오다",
+                  "저녁 먹다",
+                  "잠자리에 들다"
+                ],
+                "es": [
+                  "Ir al trabajo",
+                  "Volver a casa",
+                  "Cenar",
+                  "Ir a la cama"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ไปทำงานครับ",
+                  "romanization": "pai tam ngaan khrap"
+                },
+                "female": {
+                  "audio_text": "ไปทำงานค่ะ",
+                  "romanization": "pai tam ngaan kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "กินข้าวเย็น",
+                  "romanization": "gin khao yen",
+                  "native": {
+                    "en": "Have dinner",
+                    "zh": "吃晚餐",
+                    "th": "กินอาหารเย็น",
+                    "ko": "저녁 먹다",
+                    "es": "Cenar"
+                  }
+                },
+                {
+                  "target": "เข้านอน",
+                  "romanization": "khao non",
+                  "native": {
+                    "en": "Go to bed",
+                    "zh": "上床睡觉",
+                    "th": "เข้านอน",
+                    "ko": "잠자리에 들다",
+                    "es": "Ir a la cama"
+                  }
+                },
+                {
+                  "target": "อาบน้ำ",
+                  "romanization": "aap naam",
+                  "native": {
+                    "en": "Shower",
+                    "zh": "洗澡",
+                    "th": "อาบน้ำ",
+                    "ko": "샤워",
+                    "es": "Ducha"
+                  }
+                },
+                {
+                  "target": "ทำอาหาร",
+                  "romanization": "tam aa-haan",
+                  "native": {
+                    "en": "Cook",
+                    "zh": "做饭",
+                    "th": "ทำอาหาร",
+                    "ko": "요리하다",
+                    "es": "Cocinar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Wake up' then 'Get up'",
+                "zh": "先说'起床'再说'起来'",
+                "th": "พูด 'ตื่นนอน' แล้ว 'ตื่นนอน'",
+                "ko": "'일어나다'를 말한 다음 '일어나다'를 말하세요",
+                "es": "Di 'Despertarse' y luego 'Levantarse'"
+              },
+              "words": [
+                "ลุกขึ้น",
+                "ตื่นนอน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ],
+                "male": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ],
+                "female": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ]
+              },
+              "romanization": "tuen non luk kheun",
+              "tiles": {
+                "neutral": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ],
+                "male": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ],
+                "female": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Daily Habits",
+            "zh": "日常习惯",
+            "th": "นิสัยประจำวัน",
+            "ko": "일상 습관",
+            "es": "Hábitos diarios"
+          },
+          "objectives": {
+            "en": [
+              "Talk about frequency and habits",
+              "Use time adverbs in daily context"
+            ],
+            "zh": [
+              "谈论频率和习惯",
+              "在日常语境中使用时间副词"
+            ],
+            "th": [
+              "Talk about frequency and habits",
+              "Use time adverbs in daily context"
+            ],
+            "ko": [
+              "Talk about frequency and habits",
+              "Use time adverbs in daily context"
+            ],
+            "es": [
+              "Talk about frequency and habits",
+              "Use time adverbs in daily context"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ปกติ",
+              "romanization": "pa-ga-ti",
+              "meanings": {
+                "en": "Usually",
+                "zh": "通常",
+                "th": "โดยปกติ",
+                "ko": "보통",
+                "es": "Normalmente"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ปกติครับ",
+                  "romanization": "pa-ga-ti khrap"
+                },
+                "female": {
+                  "word": "ปกติค่ะ",
+                  "romanization": "pa-ga-ti kha"
+                }
+              }
+            },
+            {
+              "word": "ทุกวัน",
+              "romanization": "thuk wan",
+              "meanings": {
+                "en": "Every day",
+                "zh": "每天",
+                "th": "ทุกวัน",
+                "ko": "매일",
+                "es": "Todos los días"
+              },
+              "toneClass": "high",
+              "gendered": {
+                "male": {
+                  "word": "ทุกวันครับ",
+                  "romanization": "thuk wan khrap"
+                },
+                "female": {
+                  "word": "ทุกวันค่ะ",
+                  "romanization": "thuk wan kha"
+                }
+              }
+            },
+            {
+              "word": "เสมอ",
+              "romanization": "sa-moee",
+              "meanings": {
+                "en": "Always",
+                "zh": "总是",
+                "th": "เสมอ",
+                "ko": "항상",
+                "es": "Siempre"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "เสมอครับ",
+                  "romanization": "sa-moee khrap"
+                },
+                "female": {
+                  "word": "เสมอค่ะ",
+                  "romanization": "sa-moee kha"
+                }
+              }
+            },
+            {
+              "word": "บางครั้ง",
+              "romanization": "baang khrang",
+              "meanings": {
+                "en": "Sometimes",
+                "zh": "有时候",
+                "th": "บางครั้ง",
+                "ko": "가끔",
+                "es": "A veces"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "บางครั้งครับ",
+                  "romanization": "baang khrang khrap"
+                },
+                "female": {
+                  "word": "บางครั้งค่ะ",
+                  "romanization": "baang khrang kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่เคย",
+              "romanization": "mai khoei",
+              "meanings": {
+                "en": "Never",
+                "zh": "从不",
+                "th": "ไม่เคย",
+                "ko": "절대 안",
+                "es": "Nunca"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ไม่เคยครับ",
+                  "romanization": "mai khoei khrap"
+                },
+                "female": {
+                  "word": "ไม่เคยค่ะ",
+                  "romanization": "mai khoei kha"
+                }
+              }
+            },
+            {
+              "word": "กิจวัตร",
+              "romanization": "git-ja-wat",
+              "meanings": {
+                "en": "Routine",
+                "zh": "日常",
+                "th": "กิจวัตร",
+                "ko": "일과",
+                "es": "Rutina"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กิจวัตรครับ",
+                  "romanization": "git-ja-wat khrap"
+                },
+                "female": {
+                  "word": "กิจวัตรค่ะ",
+                  "romanization": "git-ja-wat kha"
+                }
+              }
+            },
+            {
+              "word": "นิสัย",
+              "romanization": "ni-sai",
+              "meanings": {
+                "en": "Habit",
+                "zh": "习惯",
+                "th": "นิสัย",
+                "ko": "습관",
+                "es": "Hábito"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "นิสัยครับ",
+                  "romanization": "ni-sai khrap"
+                },
+                "female": {
+                  "word": "นิสัยค่ะ",
+                  "romanization": "ni-sai kha"
+                }
+              }
+            },
+            {
+              "word": "เช้า",
+              "romanization": "chao",
+              "meanings": {
+                "en": "Early",
+                "zh": "早",
+                "th": "เช้า",
+                "ko": "이른",
+                "es": "Temprano"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เช้าครับ",
+                  "romanization": "chao khrap"
+                },
+                "female": {
+                  "word": "เช้าค่ะ",
+                  "romanization": "chao kha"
+                }
+              }
+            },
+            {
+              "word": "สาย",
+              "romanization": "saai",
+              "meanings": {
+                "en": "Late",
+                "zh": "晚/迟",
+                "th": "สาย",
+                "ko": "늦은",
+                "es": "Tarde"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "สายครับ",
+                  "romanization": "saai khrap"
+                },
+                "female": {
+                  "word": "สายค่ะ",
+                  "romanization": "saai kha"
+                }
+              }
+            },
+            {
+              "word": "ตรงเวลา",
+              "romanization": "trong wee-laa",
+              "meanings": {
+                "en": "On time",
+                "zh": "准时",
+                "th": "ตรงเวลา",
+                "ko": "정시에",
+                "es": "A tiempo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ตรงเวลาครับ",
+                  "romanization": "trong wee-laa khrap"
+                },
+                "female": {
+                  "word": "ตรงเวลาค่ะ",
+                  "romanization": "trong wee-laa kha"
+                }
+              }
+            },
+            {
+              "word": "ยุ่ง",
+              "romanization": "yung",
+              "meanings": {
+                "en": "Busy",
+                "zh": "忙",
+                "th": "ยุ่ง",
+                "ko": "바쁜",
+                "es": "Ocupado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ยุ่งครับ",
+                  "romanization": "yung khrap"
+                },
+                "female": {
+                  "word": "ยุ่งค่ะ",
+                  "romanization": "yung kha"
+                }
+              }
+            },
+            {
+              "word": "ว่าง",
+              "romanization": "waang",
+              "meanings": {
+                "en": "Free",
+                "zh": "空闲",
+                "th": "ว่าง",
+                "ko": "한가한",
+                "es": "Libre"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ว่างครับ",
+                  "romanization": "waang khrap"
+                },
+                "female": {
+                  "word": "ว่างค่ะ",
+                  "romanization": "waang kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ปกติ",
+              "romanization": "pa-ga-ti",
+              "options": {
+                "en": [
+                  "Usually",
+                  "Every day",
+                  "Always",
+                  "Sometimes"
+                ],
+                "zh": [
+                  "通常",
+                  "每天",
+                  "总是",
+                  "有时候"
+                ],
+                "th": [
+                  "โดยปกติ",
+                  "ทุกวัน",
+                  "เสมอ",
+                  "บางครั้ง"
+                ],
+                "ko": [
+                  "보통",
+                  "매일",
+                  "항상",
+                  "가끔"
+                ],
+                "es": [
+                  "Normalmente",
+                  "Todos los días",
+                  "Siempre",
+                  "A veces"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ปกติครับ",
+                  "romanization": "pa-ga-ti khrap"
+                },
+                "female": {
+                  "word": "ปกติค่ะ",
+                  "romanization": "pa-ga-ti kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Sometimes' in Thai?",
+                "zh": "泰语中'有时候'怎么说？",
+                "th": "คำว่า 'บางครั้ง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'가끔'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'A veces' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "บางครั้ง",
+                  "ปกติ",
+                  "ทุกวัน",
+                  "เสมอ"
+                ],
+                "male": [
+                  "บางครั้งครับ",
+                  "ปกติครับ",
+                  "ทุกวันครับ",
+                  "เสมอครับ"
+                ],
+                "female": [
+                  "บางครั้งค่ะ",
+                  "ปกติค่ะ",
+                  "ทุกวันค่ะ",
+                  "เสมอค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "กิจวัตร",
+              "romanization": "git-ja-wat",
+              "options": {
+                "en": [
+                  "Routine",
+                  "Habit",
+                  "Early",
+                  "Late"
+                ],
+                "zh": [
+                  "日常",
+                  "习惯",
+                  "早",
+                  "晚/迟"
+                ],
+                "th": [
+                  "กิจวัตร",
+                  "นิสัย",
+                  "เช้า",
+                  "สาย"
+                ],
+                "ko": [
+                  "일과",
+                  "습관",
+                  "이른",
+                  "늦은"
+                ],
+                "es": [
+                  "Rutina",
+                  "Hábito",
+                  "Temprano",
+                  "Tarde"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "กิจวัตรครับ",
+                  "romanization": "git-ja-wat khrap"
+                },
+                "female": {
+                  "audio_text": "กิจวัตรค่ะ",
+                  "romanization": "git-ja-wat kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เช้า",
+                  "romanization": "chao",
+                  "native": {
+                    "en": "Early",
+                    "zh": "早",
+                    "th": "เช้า",
+                    "ko": "이른",
+                    "es": "Temprano"
+                  }
+                },
+                {
+                  "target": "สาย",
+                  "romanization": "saai",
+                  "native": {
+                    "en": "Late",
+                    "zh": "晚/迟",
+                    "th": "สาย",
+                    "ko": "늦은",
+                    "es": "Tarde"
+                  }
+                },
+                {
+                  "target": "ตรงเวลา",
+                  "romanization": "trong wee-laa",
+                  "native": {
+                    "en": "On time",
+                    "zh": "准时",
+                    "th": "ตรงเวลา",
+                    "ko": "정시에",
+                    "es": "A tiempo"
+                  }
+                },
+                {
+                  "target": "ยุ่ง",
+                  "romanization": "yung",
+                  "native": {
+                    "en": "Busy",
+                    "zh": "忙",
+                    "th": "ยุ่ง",
+                    "ko": "바쁜",
+                    "es": "Ocupado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Usually' then 'Every day'",
+                "zh": "先说'通常'再说'每天'",
+                "th": "พูด 'โดยปกติ' แล้ว 'ทุกวัน'",
+                "ko": "'보통'를 말한 다음 '매일'를 말하세요",
+                "es": "Di 'Normalmente' y luego 'Todos los días'"
+              },
+              "words": [
+                "ทุกวัน",
+                "ปกติ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ],
+                "male": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ],
+                "female": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ]
+              },
+              "romanization": "pa-ga-ti thuk wan",
+              "tiles": {
+                "neutral": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ],
+                "male": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ],
+                "female": [
+                  "ปกติ",
+                  "ทุกวัน"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Shopping & Money",
+        "zh": "购物与金钱",
+        "th": "การช้อปปิ้งและเงิน",
+        "ko": "쇼핑과 돈",
+        "es": "Compras y dinero"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "At the Shop",
+            "zh": "在商店",
+            "th": "ที่ร้านค้า",
+            "ko": "가게에서",
+            "es": "En la tienda"
+          },
+          "objectives": {
+            "en": [
+              "Learn shopping vocabulary",
+              "Communicate in a store setting"
+            ],
+            "zh": [
+              "学习购物词汇",
+              "在商店场景中交流"
+            ],
+            "th": [
+              "Learn shopping vocabulary",
+              "Communicate in a store setting"
+            ],
+            "ko": [
+              "Learn shopping vocabulary",
+              "Communicate in a store setting"
+            ],
+            "es": [
+              "Learn shopping vocabulary",
+              "Communicate in a store setting"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ซื้อ",
+              "romanization": "sue",
+              "meanings": {
+                "en": "Buy",
+                "zh": "买",
+                "th": "ซื้อ",
+                "ko": "사다",
+                "es": "Comprar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ซื้อครับ",
+                  "romanization": "sue khrap"
+                },
+                "female": {
+                  "word": "ซื้อค่ะ",
+                  "romanization": "sue kha"
+                }
+              }
+            },
+            {
+              "word": "ขาย",
+              "romanization": "khaai",
+              "meanings": {
+                "en": "Sell",
+                "zh": "卖",
+                "th": "ขาย",
+                "ko": "팔다",
+                "es": "Vender"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ขายครับ",
+                  "romanization": "khaai khrap"
+                },
+                "female": {
+                  "word": "ขายค่ะ",
+                  "romanization": "khaai kha"
+                }
+              }
+            },
+            {
+              "word": "ราคา",
+              "romanization": "raa-khaa",
+              "meanings": {
+                "en": "Price",
+                "zh": "价格",
+                "th": "ราคา",
+                "ko": "가격",
+                "es": "Precio"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ราคาครับ",
+                  "romanization": "raa-khaa khrap"
+                },
+                "female": {
+                  "word": "ราคาค่ะ",
+                  "romanization": "raa-khaa kha"
+                }
+              }
+            },
+            {
+              "word": "ถูก",
+              "romanization": "thuuk",
+              "meanings": {
+                "en": "Cheap",
+                "zh": "便宜",
+                "th": "ถูก",
+                "ko": "저렴한",
+                "es": "Barato"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ถูกครับ",
+                  "romanization": "thuuk khrap"
+                },
+                "female": {
+                  "word": "ถูกค่ะ",
+                  "romanization": "thuuk kha"
+                }
+              }
+            },
+            {
+              "word": "แพง",
+              "romanization": "phaeng",
+              "meanings": {
+                "en": "Expensive",
+                "zh": "贵",
+                "th": "แพง",
+                "ko": "비싼",
+                "es": "Caro"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แพงครับ",
+                  "romanization": "phaeng khrap"
+                },
+                "female": {
+                  "word": "แพงค่ะ",
+                  "romanization": "phaeng kha"
+                }
+              }
+            },
+            {
+              "word": "จ่าย",
+              "romanization": "jaai",
+              "meanings": {
+                "en": "Pay",
+                "zh": "付款",
+                "th": "จ่าย",
+                "ko": "지불하다",
+                "es": "Pagar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "จ่ายครับ",
+                  "romanization": "jaai khrap"
+                },
+                "female": {
+                  "word": "จ่ายค่ะ",
+                  "romanization": "jaai kha"
+                }
+              }
+            },
+            {
+              "word": "เงินทอน",
+              "romanization": "ngoen thon",
+              "meanings": {
+                "en": "Change",
+                "zh": "找零",
+                "th": "เปลี่ยน",
+                "ko": "바꾸다",
+                "es": "Cambiar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เงินทอนครับ",
+                  "romanization": "ngoen thon khrap"
+                },
+                "female": {
+                  "word": "เงินทอนค่ะ",
+                  "romanization": "ngoen thon kha"
+                }
+              }
+            },
+            {
+              "word": "ใบเสร็จ",
+              "romanization": "bai set",
+              "meanings": {
+                "en": "Receipt",
+                "zh": "收据",
+                "th": "ใบเสร็จ",
+                "ko": "영수증",
+                "es": "Recibo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ใบเสร็จครับ",
+                  "romanization": "bai set khrap"
+                },
+                "female": {
+                  "word": "ใบเสร็จค่ะ",
+                  "romanization": "bai set kha"
+                }
+              }
+            },
+            {
+              "word": "ซูเปอร์มาร์เก็ต",
+              "romanization": "suu-poee-maa-ket",
+              "meanings": {
+                "en": "Supermarket",
+                "zh": "超市",
+                "th": "ซูเปอร์มาร์เก็ต",
+                "ko": "슈퍼마켓",
+                "es": "Supermercado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ซูเปอร์มาร์เก็ตครับ",
+                  "romanization": "suu-poee-maa-ket khrap"
+                },
+                "female": {
+                  "word": "ซูเปอร์มาร์เก็ตค่ะ",
+                  "romanization": "suu-poee-maa-ket kha"
+                }
+              }
+            },
+            {
+              "word": "เสื้อผ้า",
+              "romanization": "suea phaa",
+              "meanings": {
+                "en": "Clothes",
+                "zh": "衣服",
+                "th": "เสื้อผ้า",
+                "ko": "옷",
+                "es": "Ropa"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เสื้อผ้าครับ",
+                  "romanization": "suea phaa khrap"
+                },
+                "female": {
+                  "word": "เสื้อผ้าค่ะ",
+                  "romanization": "suea phaa kha"
+                }
+              }
+            },
+            {
+              "word": "ขนาด",
+              "romanization": "kha-naat",
+              "meanings": {
+                "en": "Size",
+                "zh": "尺寸",
+                "th": "ขนาด",
+                "ko": "사이즈",
+                "es": "Talla"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ขนาดครับ",
+                  "romanization": "kha-naat khrap"
+                },
+                "female": {
+                  "word": "ขนาดค่ะ",
+                  "romanization": "kha-naat kha"
+                }
+              }
+            },
+            {
+              "word": "ลอง",
+              "romanization": "long",
+              "meanings": {
+                "en": "Try on",
+                "zh": "试穿",
+                "th": "ลองใส่",
+                "ko": "입어보다",
+                "es": "Probarse"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ลองครับ",
+                  "romanization": "long khrap"
+                },
+                "female": {
+                  "word": "ลองค่ะ",
+                  "romanization": "long kha"
+                }
+              }
+            },
+            {
+              "word": "ส่วนลด",
+              "romanization": "suan lot",
+              "meanings": {
+                "en": "Discount",
+                "zh": "折扣",
+                "th": "ส่วนลด",
+                "ko": "할인",
+                "es": "Descuento"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ส่วนลดครับ",
+                  "romanization": "suan lot khrap"
+                },
+                "female": {
+                  "word": "ส่วนลดค่ะ",
+                  "romanization": "suan lot kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ซื้อ",
+              "romanization": "sue",
+              "options": {
+                "en": [
+                  "Buy",
+                  "Sell",
+                  "Price",
+                  "Cheap"
+                ],
+                "zh": [
+                  "买",
+                  "卖",
+                  "价格",
+                  "便宜"
+                ],
+                "th": [
+                  "ซื้อ",
+                  "ขาย",
+                  "ราคา",
+                  "ถูก"
+                ],
+                "ko": [
+                  "사다",
+                  "팔다",
+                  "가격",
+                  "저렴한"
+                ],
+                "es": [
+                  "Comprar",
+                  "Vender",
+                  "Precio",
+                  "Barato"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ซื้อครับ",
+                  "romanization": "sue khrap"
+                },
+                "female": {
+                  "word": "ซื้อค่ะ",
+                  "romanization": "sue kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Cheap' in Thai?",
+                "zh": "泰语中'便宜'怎么说？",
+                "th": "คำว่า 'ถูก' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'저렴한'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Barato' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ถูก",
+                  "ซื้อ",
+                  "ขาย",
+                  "ราคา"
+                ],
+                "male": [
+                  "ถูกครับ",
+                  "ซื้อครับ",
+                  "ขายครับ",
+                  "ราคาครับ"
+                ],
+                "female": [
+                  "ถูกค่ะ",
+                  "ซื้อค่ะ",
+                  "ขายค่ะ",
+                  "ราคาค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "จ่าย",
+              "romanization": "jaai",
+              "options": {
+                "en": [
+                  "Pay",
+                  "Change",
+                  "Receipt",
+                  "Supermarket"
+                ],
+                "zh": [
+                  "付款",
+                  "找零",
+                  "收据",
+                  "超市"
+                ],
+                "th": [
+                  "จ่าย",
+                  "เปลี่ยน",
+                  "ใบเสร็จ",
+                  "ซูเปอร์มาร์เก็ต"
+                ],
+                "ko": [
+                  "지불하다",
+                  "바꾸다",
+                  "영수증",
+                  "슈퍼마켓"
+                ],
+                "es": [
+                  "Pagar",
+                  "Cambiar",
+                  "Recibo",
+                  "Supermercado"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "จ่ายครับ",
+                  "romanization": "jaai khrap"
+                },
+                "female": {
+                  "audio_text": "จ่ายค่ะ",
+                  "romanization": "jaai kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ใบเสร็จ",
+                  "romanization": "bai set",
+                  "native": {
+                    "en": "Receipt",
+                    "zh": "收据",
+                    "th": "ใบเสร็จ",
+                    "ko": "영수증",
+                    "es": "Recibo"
+                  }
+                },
+                {
+                  "target": "ซูเปอร์มาร์เก็ต",
+                  "romanization": "suu-poee-maa-ket",
+                  "native": {
+                    "en": "Supermarket",
+                    "zh": "超市",
+                    "th": "ซูเปอร์มาร์เก็ต",
+                    "ko": "슈퍼마켓",
+                    "es": "Supermercado"
+                  }
+                },
+                {
+                  "target": "เสื้อผ้า",
+                  "romanization": "suea phaa",
+                  "native": {
+                    "en": "Clothes",
+                    "zh": "衣服",
+                    "th": "เสื้อผ้า",
+                    "ko": "옷",
+                    "es": "Ropa"
+                  }
+                },
+                {
+                  "target": "ขนาด",
+                  "romanization": "kha-naat",
+                  "native": {
+                    "en": "Size",
+                    "zh": "尺寸",
+                    "th": "ขนาด",
+                    "ko": "사이즈",
+                    "es": "Talla"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Buy' then 'Sell'",
+                "zh": "先说'买'再说'卖'",
+                "th": "พูด 'ซื้อ' แล้ว 'ขาย'",
+                "ko": "'사다'를 말한 다음 '팔다'를 말하세요",
+                "es": "Di 'Comprar' y luego 'Vender'"
+              },
+              "words": [
+                "ขาย",
+                "ซื้อ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ซื้อ",
+                  "ขาย"
+                ],
+                "male": [
+                  "ซื้อ",
+                  "ขาย"
+                ],
+                "female": [
+                  "ซื้อ",
+                  "ขาย"
+                ]
+              },
+              "romanization": "sue khaai",
+              "tiles": {
+                "neutral": [
+                  "ซื้อ",
+                  "ขาย"
+                ],
+                "male": [
+                  "ซื้อ",
+                  "ขาย"
+                ],
+                "female": [
+                  "ซื้อ",
+                  "ขาย"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Paying & Saving",
+            "zh": "付款与储蓄",
+            "th": "การจ่ายเงินและการออม",
+            "ko": "결제와 저축",
+            "es": "Pagar y ahorrar"
+          },
+          "objectives": {
+            "en": [
+              "Discuss payment methods",
+              "Talk about spending and saving money"
+            ],
+            "zh": [
+              "讨论支付方式",
+              "谈论消费和存钱"
+            ],
+            "th": [
+              "Discuss payment methods",
+              "Talk about spending and saving money"
+            ],
+            "ko": [
+              "Discuss payment methods",
+              "Talk about spending and saving money"
+            ],
+            "es": [
+              "Discuss payment methods",
+              "Talk about spending and saving money"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เงินสด",
+              "romanization": "ngoen sot",
+              "meanings": {
+                "en": "Cash",
+                "zh": "现金",
+                "th": "เงินสด",
+                "ko": "현금",
+                "es": "Efectivo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เงินสดครับ",
+                  "romanization": "ngoen sot khrap"
+                },
+                "female": {
+                  "word": "เงินสดค่ะ",
+                  "romanization": "ngoen sot kha"
+                }
+              }
+            },
+            {
+              "word": "บัตร",
+              "romanization": "bat",
+              "meanings": {
+                "en": "Card",
+                "zh": "卡",
+                "th": "บัตร",
+                "ko": "카드",
+                "es": "Tarjeta"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "บัตรครับ",
+                  "romanization": "bat khrap"
+                },
+                "female": {
+                  "word": "บัตรค่ะ",
+                  "romanization": "bat kha"
+                }
+              }
+            },
+            {
+              "word": "คิว",
+              "romanization": "khiu",
+              "meanings": {
+                "en": "Queue",
+                "zh": "排队",
+                "th": "คิว",
+                "ko": "줄",
+                "es": "Fila"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คิวครับ",
+                  "romanization": "khiu khrap"
+                },
+                "female": {
+                  "word": "คิวค่ะ",
+                  "romanization": "khiu kha"
+                }
+              }
+            },
+            {
+              "word": "ถุง",
+              "romanization": "thung",
+              "meanings": {
+                "en": "Bag",
+                "zh": "袋子",
+                "th": "กระเป๋า",
+                "ko": "가방",
+                "es": "Bolsa"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ถุงครับ",
+                  "romanization": "thung khrap"
+                },
+                "female": {
+                  "word": "ถุงค่ะ",
+                  "romanization": "thung kha"
+                }
+              }
+            },
+            {
+              "word": "แบรนด์",
+              "romanization": "braen",
+              "meanings": {
+                "en": "Brand",
+                "zh": "品牌",
+                "th": "แบรนด์",
+                "ko": "브랜드",
+                "es": "Marca"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แบรนด์ครับ",
+                  "romanization": "braen khrap"
+                },
+                "female": {
+                  "word": "แบรนด์ค่ะ",
+                  "romanization": "braen kha"
+                }
+              }
+            },
+            {
+              "word": "ลดราคา",
+              "romanization": "lot raa-khaa",
+              "meanings": {
+                "en": "Sale",
+                "zh": "打折",
+                "th": "ลดราคา",
+                "ko": "할인",
+                "es": "Oferta"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ลดราคาครับ",
+                  "romanization": "lot raa-khaa khrap"
+                },
+                "female": {
+                  "word": "ลดราคาค่ะ",
+                  "romanization": "lot raa-khaa kha"
+                }
+              }
+            },
+            {
+              "word": "ใช้จ่าย",
+              "romanization": "chai jaai",
+              "meanings": {
+                "en": "Spend",
+                "zh": "花费",
+                "th": "ใช้จ่าย",
+                "ko": "쓰다",
+                "es": "Gastar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ใช้จ่ายครับ",
+                  "romanization": "chai jaai khrap"
+                },
+                "female": {
+                  "word": "ใช้จ่ายค่ะ",
+                  "romanization": "chai jaai kha"
+                }
+              }
+            },
+            {
+              "word": "มีเงินพอ",
+              "romanization": "mee ngoen pho",
+              "meanings": {
+                "en": "Afford",
+                "zh": "负担得起",
+                "th": "จ่ายไหว",
+                "ko": "여유가 되다",
+                "es": "Poder pagar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มีเงินพอครับ",
+                  "romanization": "mee ngoen pho khrap"
+                },
+                "female": {
+                  "word": "มีเงินพอค่ะ",
+                  "romanization": "mee ngoen pho kha"
+                }
+              }
+            },
+            {
+              "word": "ต้นทุน",
+              "romanization": "ton thun",
+              "meanings": {
+                "en": "Cost",
+                "zh": "成本",
+                "th": "ราคา",
+                "ko": "비용",
+                "es": "Costar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ต้นทุนครับ",
+                  "romanization": "ton thun khrap"
+                },
+                "female": {
+                  "word": "ต้นทุนค่ะ",
+                  "romanization": "ton thun kha"
+                }
+              }
+            },
+            {
+              "word": "ยืม",
+              "romanization": "yuem",
+              "meanings": {
+                "en": "Borrow",
+                "zh": "借入",
+                "th": "ยืม",
+                "ko": "빌리다",
+                "es": "Pedir prestado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยืมครับ",
+                  "romanization": "yuem khrap"
+                },
+                "female": {
+                  "word": "ยืมค่ะ",
+                  "romanization": "yuem kha"
+                }
+              }
+            },
+            {
+              "word": "ให้ยืม",
+              "romanization": "hai yuem",
+              "meanings": {
+                "en": "Lend",
+                "zh": "借出",
+                "th": "ให้ยืม",
+                "ko": "빌려주다",
+                "es": "Prestar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ให้ยืมครับ",
+                  "romanization": "hai yuem khrap"
+                },
+                "female": {
+                  "word": "ให้ยืมค่ะ",
+                  "romanization": "hai yuem kha"
+                }
+              }
+            },
+            {
+              "word": "ออม",
+              "romanization": "om",
+              "meanings": {
+                "en": "Save",
+                "zh": "储蓄",
+                "th": "ออม",
+                "ko": "저축하다",
+                "es": "Ahorrar"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ออมครับ",
+                  "romanization": "om khrap"
+                },
+                "female": {
+                  "word": "ออมค่ะ",
+                  "romanization": "om kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เงินสด",
+              "romanization": "ngoen sot",
+              "options": {
+                "en": [
+                  "Cash",
+                  "Card",
+                  "Queue",
+                  "Bag"
+                ],
+                "zh": [
+                  "现金",
+                  "卡",
+                  "排队",
+                  "袋子"
+                ],
+                "th": [
+                  "เงินสด",
+                  "บัตร",
+                  "คิว",
+                  "กระเป๋า"
+                ],
+                "ko": [
+                  "현금",
+                  "카드",
+                  "줄",
+                  "가방"
+                ],
+                "es": [
+                  "Efectivo",
+                  "Tarjeta",
+                  "Fila",
+                  "Bolsa"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เงินสดครับ",
+                  "romanization": "ngoen sot khrap"
+                },
+                "female": {
+                  "word": "เงินสดค่ะ",
+                  "romanization": "ngoen sot kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Bag' in Thai?",
+                "zh": "泰语中'袋子'怎么说？",
+                "th": "คำว่า 'กระเป๋า' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'가방'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Bolsa' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ถุง",
+                  "เงินสด",
+                  "บัตร",
+                  "คิว"
+                ],
+                "male": [
+                  "ถุงครับ",
+                  "เงินสดครับ",
+                  "บัตรครับ",
+                  "คิวครับ"
+                ],
+                "female": [
+                  "ถุงค่ะ",
+                  "เงินสดค่ะ",
+                  "บัตรค่ะ",
+                  "คิวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ลดราคา",
+              "romanization": "lot raa-khaa",
+              "options": {
+                "en": [
+                  "Sale",
+                  "Spend",
+                  "Afford",
+                  "Cost"
+                ],
+                "zh": [
+                  "打折",
+                  "花费",
+                  "负担得起",
+                  "成本"
+                ],
+                "th": [
+                  "ลดราคา",
+                  "ใช้จ่าย",
+                  "จ่ายไหว",
+                  "ราคา"
+                ],
+                "ko": [
+                  "할인",
+                  "쓰다",
+                  "여유가 되다",
+                  "비용"
+                ],
+                "es": [
+                  "Oferta",
+                  "Gastar",
+                  "Poder pagar",
+                  "Costar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ลดราคาครับ",
+                  "romanization": "lot raa-khaa khrap"
+                },
+                "female": {
+                  "audio_text": "ลดราคาค่ะ",
+                  "romanization": "lot raa-khaa kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "มีเงินพอ",
+                  "romanization": "mee ngoen pho",
+                  "native": {
+                    "en": "Afford",
+                    "zh": "负担得起",
+                    "th": "จ่ายไหว",
+                    "ko": "여유가 되다",
+                    "es": "Poder pagar"
+                  }
+                },
+                {
+                  "target": "ต้นทุน",
+                  "romanization": "ton thun",
+                  "native": {
+                    "en": "Cost",
+                    "zh": "成本",
+                    "th": "ราคา",
+                    "ko": "비용",
+                    "es": "Costar"
+                  }
+                },
+                {
+                  "target": "ยืม",
+                  "romanization": "yuem",
+                  "native": {
+                    "en": "Borrow",
+                    "zh": "借入",
+                    "th": "ยืม",
+                    "ko": "빌리다",
+                    "es": "Pedir prestado"
+                  }
+                },
+                {
+                  "target": "ให้ยืม",
+                  "romanization": "hai yuem",
+                  "native": {
+                    "en": "Lend",
+                    "zh": "借出",
+                    "th": "ให้ยืม",
+                    "ko": "빌려주다",
+                    "es": "Prestar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Cash' then 'Card'",
+                "zh": "先说'现金'再说'卡'",
+                "th": "พูด 'เงินสด' แล้ว 'บัตร'",
+                "ko": "'현금'를 말한 다음 '카드'를 말하세요",
+                "es": "Di 'Efectivo' y luego 'Tarjeta'"
+              },
+              "words": [
+                "บัตร",
+                "เงินสด"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "เงินสด",
+                  "บัตร"
+                ],
+                "male": [
+                  "เงินสด",
+                  "บัตร"
+                ],
+                "female": [
+                  "เงินสด",
+                  "บัตร"
+                ]
+              },
+              "romanization": "ngoen sot bat",
+              "tiles": {
+                "neutral": [
+                  "เงินสด",
+                  "บัตร"
+                ],
+                "male": [
+                  "เงินสด",
+                  "บัตร"
+                ],
+                "female": [
+                  "เงินสด",
+                  "บัตร"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Weather & Seasons",
+        "zh": "天气与季节",
+        "th": "สภาพอากาศและฤดูกาล",
+        "ko": "날씨와 계절",
+        "es": "Clima y estaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Weather Conditions",
+            "zh": "天气状况",
+            "th": "สภาพอากาศ",
+            "ko": "날씨 상태",
+            "es": "Condiciones climáticas"
+          },
+          "objectives": {
+            "en": [
+              "Describe weather conditions",
+              "Understand weather-related vocabulary"
+            ],
+            "zh": [
+              "描述天气状况",
+              "理解天气相关词汇"
+            ],
+            "th": [
+              "Describe weather conditions",
+              "Understand weather-related vocabulary"
+            ],
+            "ko": [
+              "Describe weather conditions",
+              "Understand weather-related vocabulary"
+            ],
+            "es": [
+              "Describe weather conditions",
+              "Understand weather-related vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "แดดออก",
+              "romanization": "daet ok",
+              "meanings": {
+                "en": "Sunny",
+                "zh": "晴天",
+                "th": "แดดออก",
+                "ko": "맑은",
+                "es": "Soleado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แดดออกครับ",
+                  "romanization": "daet ok khrap"
+                },
+                "female": {
+                  "word": "แดดออกค่ะ",
+                  "romanization": "daet ok kha"
+                }
+              }
+            },
+            {
+              "word": "มีเมฆ",
+              "romanization": "mee mek",
+              "meanings": {
+                "en": "Cloudy",
+                "zh": "多云",
+                "th": "มีเมฆ",
+                "ko": "흐린",
+                "es": "Nublado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "มีเมฆครับ",
+                  "romanization": "mee mek khrap"
+                },
+                "female": {
+                  "word": "มีเมฆค่ะ",
+                  "romanization": "mee mek kha"
+                }
+              }
+            },
+            {
+              "word": "ฝนตก",
+              "romanization": "fon tok",
+              "meanings": {
+                "en": "Rainy",
+                "zh": "下雨",
+                "th": "ฝนตก",
+                "ko": "비 오는",
+                "es": "Lluvioso"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ฝนตกครับ",
+                  "romanization": "fon tok khrap"
+                },
+                "female": {
+                  "word": "ฝนตกค่ะ",
+                  "romanization": "fon tok kha"
+                }
+              }
+            },
+            {
+              "word": "ลมแรง",
+              "romanization": "lom raeng",
+              "meanings": {
+                "en": "Windy",
+                "zh": "刮风",
+                "th": "ลมแรง",
+                "ko": "바람 부는",
+                "es": "Ventoso"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ลมแรงครับ",
+                  "romanization": "lom raeng khrap"
+                },
+                "female": {
+                  "word": "ลมแรงค่ะ",
+                  "romanization": "lom raeng kha"
+                }
+              }
+            },
+            {
+              "word": "หิมะตก",
+              "romanization": "hi-ma tok",
+              "meanings": {
+                "en": "Snowy",
+                "zh": "下雪",
+                "th": "หิมะตก",
+                "ko": "눈 오는",
+                "es": "Nevado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หิมะตกครับ",
+                  "romanization": "hi-ma tok khrap"
+                },
+                "female": {
+                  "word": "หิมะตกค่ะ",
+                  "romanization": "hi-ma tok kha"
+                }
+              }
+            },
+            {
+              "word": "หมอกลง",
+              "romanization": "mok long",
+              "meanings": {
+                "en": "Foggy",
+                "zh": "有雾",
+                "th": "มีหมอก",
+                "ko": "안개 낀",
+                "es": "Neblinoso"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หมอกลงครับ",
+                  "romanization": "mok long khrap"
+                },
+                "female": {
+                  "word": "หมอกลงค่ะ",
+                  "romanization": "mok long kha"
+                }
+              }
+            },
+            {
+              "word": "อบอุ่น",
+              "romanization": "op un",
+              "meanings": {
+                "en": "Warm",
+                "zh": "温暖",
+                "th": "อบอุ่น",
+                "ko": "따뜻한",
+                "es": "Cálido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อบอุ่นครับ",
+                  "romanization": "op un khrap"
+                },
+                "female": {
+                  "word": "อบอุ่นค่ะ",
+                  "romanization": "op un kha"
+                }
+              }
+            },
+            {
+              "word": "หนาวจัด",
+              "romanization": "naao jat",
+              "meanings": {
+                "en": "Freezing",
+                "zh": "严寒",
+                "th": "หนาวจัด",
+                "ko": "영하의",
+                "es": "Helado"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "หนาวจัดครับ",
+                  "romanization": "naao jat khrap"
+                },
+                "female": {
+                  "word": "หนาวจัดค่ะ",
+                  "romanization": "naao jat kha"
+                }
+              }
+            },
+            {
+              "word": "อากาศ",
+              "romanization": "aa-gaat",
+              "meanings": {
+                "en": "Weather",
+                "zh": "天气",
+                "th": "สภาพอากาศ",
+                "ko": "날씨",
+                "es": "Clima"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อากาศครับ",
+                  "romanization": "aa-gaat khrap"
+                },
+                "female": {
+                  "word": "อากาศค่ะ",
+                  "romanization": "aa-gaat kha"
+                }
+              }
+            },
+            {
+              "word": "อุณหภูมิ",
+              "romanization": "un-ha-phuum",
+              "meanings": {
+                "en": "Temperature",
+                "zh": "温度",
+                "th": "อุณหภูมิ",
+                "ko": "온도",
+                "es": "Temperatura"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "อุณหภูมิครับ",
+                  "romanization": "un-ha-phuum khrap"
+                },
+                "female": {
+                  "word": "อุณหภูมิค่ะ",
+                  "romanization": "un-ha-phuum kha"
+                }
+              }
+            },
+            {
+              "word": "ฤดูใบไม้ผลิ",
+              "romanization": "rue-duu bai-mai phli",
+              "meanings": {
+                "en": "Spring",
+                "zh": "春天",
+                "th": "ฤดูใบไม้ผลิ",
+                "ko": "봄",
+                "es": "Primavera"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ฤดูใบไม้ผลิครับ",
+                  "romanization": "rue-duu bai-mai phli khrap"
+                },
+                "female": {
+                  "word": "ฤดูใบไม้ผลิค่ะ",
+                  "romanization": "rue-duu bai-mai phli kha"
+                }
+              }
+            },
+            {
+              "word": "ฤดูร้อน",
+              "romanization": "rue-duu ron",
+              "meanings": {
+                "en": "Summer",
+                "zh": "夏天",
+                "th": "ฤดูร้อน",
+                "ko": "여름",
+                "es": "Verano"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ฤดูร้อนครับ",
+                  "romanization": "rue-duu ron khrap"
+                },
+                "female": {
+                  "word": "ฤดูร้อนค่ะ",
+                  "romanization": "rue-duu ron kha"
+                }
+              }
+            },
+            {
+              "word": "ฤดูใบไม้ร่วง",
+              "romanization": "rue-duu bai-mai ruang",
+              "meanings": {
+                "en": "Autumn",
+                "zh": "秋天",
+                "th": "ฤดูใบไม้ร่วง",
+                "ko": "가을",
+                "es": "Otoño"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ฤดูใบไม้ร่วงครับ",
+                  "romanization": "rue-duu bai-mai ruang khrap"
+                },
+                "female": {
+                  "word": "ฤดูใบไม้ร่วงค่ะ",
+                  "romanization": "rue-duu bai-mai ruang kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "แดดออก",
+              "romanization": "daet ok",
+              "options": {
+                "en": [
+                  "Sunny",
+                  "Cloudy",
+                  "Rainy",
+                  "Windy"
+                ],
+                "zh": [
+                  "晴天",
+                  "多云",
+                  "下雨",
+                  "刮风"
+                ],
+                "th": [
+                  "แดดออก",
+                  "มีเมฆ",
+                  "ฝนตก",
+                  "ลมแรง"
+                ],
+                "ko": [
+                  "맑은",
+                  "흐린",
+                  "비 오는",
+                  "바람 부는"
+                ],
+                "es": [
+                  "Soleado",
+                  "Nublado",
+                  "Lluvioso",
+                  "Ventoso"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "แดดออกครับ",
+                  "romanization": "daet ok khrap"
+                },
+                "female": {
+                  "word": "แดดออกค่ะ",
+                  "romanization": "daet ok kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Windy' in Thai?",
+                "zh": "泰语中'刮风'怎么说？",
+                "th": "คำว่า 'ลมแรง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'바람 부는'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Ventoso' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ลมแรง",
+                  "แดดออก",
+                  "มีเมฆ",
+                  "ฝนตก"
+                ],
+                "male": [
+                  "ลมแรงครับ",
+                  "แดดออกครับ",
+                  "มีเมฆครับ",
+                  "ฝนตกครับ"
+                ],
+                "female": [
+                  "ลมแรงค่ะ",
+                  "แดดออกค่ะ",
+                  "มีเมฆค่ะ",
+                  "ฝนตกค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "หมอกลง",
+              "romanization": "mok long",
+              "options": {
+                "en": [
+                  "Foggy",
+                  "Warm",
+                  "Freezing",
+                  "Weather"
+                ],
+                "zh": [
+                  "有雾",
+                  "温暖",
+                  "严寒",
+                  "天气"
+                ],
+                "th": [
+                  "มีหมอก",
+                  "อบอุ่น",
+                  "หนาวจัด",
+                  "สภาพอากาศ"
+                ],
+                "ko": [
+                  "안개 낀",
+                  "따뜻한",
+                  "영하의",
+                  "날씨"
+                ],
+                "es": [
+                  "Neblinoso",
+                  "Cálido",
+                  "Helado",
+                  "Clima"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "หมอกลงครับ",
+                  "romanization": "mok long khrap"
+                },
+                "female": {
+                  "audio_text": "หมอกลงค่ะ",
+                  "romanization": "mok long kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "หนาวจัด",
+                  "romanization": "naao jat",
+                  "native": {
+                    "en": "Freezing",
+                    "zh": "严寒",
+                    "th": "หนาวจัด",
+                    "ko": "영하의",
+                    "es": "Helado"
+                  }
+                },
+                {
+                  "target": "อากาศ",
+                  "romanization": "aa-gaat",
+                  "native": {
+                    "en": "Weather",
+                    "zh": "天气",
+                    "th": "สภาพอากาศ",
+                    "ko": "날씨",
+                    "es": "Clima"
+                  }
+                },
+                {
+                  "target": "อุณหภูมิ",
+                  "romanization": "un-ha-phuum",
+                  "native": {
+                    "en": "Temperature",
+                    "zh": "温度",
+                    "th": "อุณหภูมิ",
+                    "ko": "온도",
+                    "es": "Temperatura"
+                  }
+                },
+                {
+                  "target": "ฤดูใบไม้ผลิ",
+                  "romanization": "rue-duu bai-mai phli",
+                  "native": {
+                    "en": "Spring",
+                    "zh": "春天",
+                    "th": "ฤดูใบไม้ผลิ",
+                    "ko": "봄",
+                    "es": "Primavera"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Sunny' then 'Cloudy'",
+                "zh": "先说'晴天'再说'多云'",
+                "th": "พูด 'แดดออก' แล้ว 'มีเมฆ'",
+                "ko": "'맑은'를 말한 다음 '흐린'를 말하세요",
+                "es": "Di 'Soleado' y luego 'Nublado'"
+              },
+              "words": [
+                "มีเมฆ",
+                "แดดออก"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ],
+                "male": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ],
+                "female": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ]
+              },
+              "romanization": "daet ok mee mek",
+              "tiles": {
+                "neutral": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ],
+                "male": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ],
+                "female": [
+                  "แดดออก",
+                  "มีเมฆ"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Seasons & Forecasts",
+            "zh": "季节与预报",
+            "th": "ฤดูกาลและพยากรณ์อากาศ",
+            "ko": "계절과 일기예보",
+            "es": "Estaciones y pronósticos"
+          },
+          "objectives": {
+            "en": [
+              "Talk about seasons and forecasts",
+              "Describe weather preparations"
+            ],
+            "zh": [
+              "谈论季节和天气预报",
+              "描述天气准备"
+            ],
+            "th": [
+              "Talk about seasons and forecasts",
+              "Describe weather preparations"
+            ],
+            "ko": [
+              "Talk about seasons and forecasts",
+              "Describe weather preparations"
+            ],
+            "es": [
+              "Talk about seasons and forecasts",
+              "Describe weather preparations"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ฤดูหนาว",
+              "romanization": "rue-duu naao",
+              "meanings": {
+                "en": "Winter",
+                "zh": "冬天",
+                "th": "ฤดูหนาว",
+                "ko": "겨울",
+                "es": "Invierno"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ฤดูหนาวครับ",
+                  "romanization": "rue-duu naao khrap"
+                },
+                "female": {
+                  "word": "ฤดูหนาวค่ะ",
+                  "romanization": "rue-duu naao kha"
+                }
+              }
+            },
+            {
+              "word": "พายุ",
+              "romanization": "phaa-yu",
+              "meanings": {
+                "en": "Storm",
+                "zh": "暴风雨",
+                "th": "พายุ",
+                "ko": "폭풍",
+                "es": "Tormenta"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พายุครับ",
+                  "romanization": "phaa-yu khrap"
+                },
+                "female": {
+                  "word": "พายุค่ะ",
+                  "romanization": "phaa-yu kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำท่วม",
+              "romanization": "naam thuam",
+              "meanings": {
+                "en": "Flood",
+                "zh": "洪水",
+                "th": "น้ำท่วม",
+                "ko": "홍수",
+                "es": "Inundación"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "น้ำท่วมครับ",
+                  "romanization": "naam thuam khrap"
+                },
+                "female": {
+                  "word": "น้ำท่วมค่ะ",
+                  "romanization": "naam thuam kha"
+                }
+              }
+            },
+            {
+              "word": "ภัยแล้ง",
+              "romanization": "phai laeng",
+              "meanings": {
+                "en": "Drought",
+                "zh": "干旱",
+                "th": "ภัยแล้ง",
+                "ko": "가뭄",
+                "es": "Sequía"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ภัยแล้งครับ",
+                  "romanization": "phai laeng khrap"
+                },
+                "female": {
+                  "word": "ภัยแล้งค่ะ",
+                  "romanization": "phai laeng kha"
+                }
+              }
+            },
+            {
+              "word": "พยากรณ์",
+              "romanization": "pha-yaa-gon",
+              "meanings": {
+                "en": "Forecast",
+                "zh": "预报",
+                "th": "พยากรณ์",
+                "ko": "예보",
+                "es": "Pronóstico"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พยากรณ์ครับ",
+                  "romanization": "pha-yaa-gon khrap"
+                },
+                "female": {
+                  "word": "พยากรณ์ค่ะ",
+                  "romanization": "pha-yaa-gon kha"
+                }
+              }
+            },
+            {
+              "word": "องศา",
+              "romanization": "ong-saa",
+              "meanings": {
+                "en": "Degree",
+                "zh": "度",
+                "th": "องศา",
+                "ko": "도",
+                "es": "Grado"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "องศาครับ",
+                  "romanization": "ong-saa khrap"
+                },
+                "female": {
+                  "word": "องศาค่ะ",
+                  "romanization": "ong-saa kha"
+                }
+              }
+            },
+            {
+              "word": "ร่ม",
+              "romanization": "rom",
+              "meanings": {
+                "en": "Umbrella",
+                "zh": "雨伞",
+                "th": "ร่ม",
+                "ko": "우산",
+                "es": "Paraguas"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ร่มครับ",
+                  "romanization": "rom khrap"
+                },
+                "female": {
+                  "word": "ร่มค่ะ",
+                  "romanization": "rom kha"
+                }
+              }
+            },
+            {
+              "word": "เสื้อโค้ท",
+              "romanization": "suea khot",
+              "meanings": {
+                "en": "Coat",
+                "zh": "外套",
+                "th": "เสื้อโค้ท",
+                "ko": "코트",
+                "es": "Abrigo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เสื้อโค้ทครับ",
+                  "romanization": "suea khot khrap"
+                },
+                "female": {
+                  "word": "เสื้อโค้ทค่ะ",
+                  "romanization": "suea khot kha"
+                }
+              }
+            },
+            {
+              "word": "ชื้น",
+              "romanization": "cheun",
+              "meanings": {
+                "en": "Humid",
+                "zh": "潮湿",
+                "th": "ชื้น",
+                "ko": "습한",
+                "es": "Húmedo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชื้นครับ",
+                  "romanization": "cheun khrap"
+                },
+                "female": {
+                  "word": "ชื้นค่ะ",
+                  "romanization": "cheun kha"
+                }
+              }
+            },
+            {
+              "word": "แห้ง",
+              "romanization": "haeng",
+              "meanings": {
+                "en": "Dry",
+                "zh": "干燥",
+                "th": "แห้ง",
+                "ko": "건조한",
+                "es": "Seco"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แห้งครับ",
+                  "romanization": "haeng khrap"
+                },
+                "female": {
+                  "word": "แห้งค่ะ",
+                  "romanization": "haeng kha"
+                }
+              }
+            },
+            {
+              "word": "อากาศอ่อน",
+              "romanization": "aa-gaat on",
+              "meanings": {
+                "en": "Mild",
+                "zh": "温和",
+                "th": "อ่อน",
+                "ko": "순한",
+                "es": "Suave"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อากาศอ่อนครับ",
+                  "romanization": "aa-gaat on khrap"
+                },
+                "female": {
+                  "word": "อากาศอ่อนค่ะ",
+                  "romanization": "aa-gaat on kha"
+                }
+              }
+            },
+            {
+              "word": "เปลี่ยนแปลง",
+              "romanization": "plian plaeng",
+              "meanings": {
+                "en": "Change",
+                "zh": "变化",
+                "th": "เปลี่ยน",
+                "ko": "바꾸다",
+                "es": "Cambiar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เปลี่ยนแปลงครับ",
+                  "romanization": "plian plaeng khrap"
+                },
+                "female": {
+                  "word": "เปลี่ยนแปลงค่ะ",
+                  "romanization": "plian plaeng kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ฤดูหนาว",
+              "romanization": "rue-duu naao",
+              "options": {
+                "en": [
+                  "Winter",
+                  "Storm",
+                  "Flood",
+                  "Drought"
+                ],
+                "zh": [
+                  "冬天",
+                  "暴风雨",
+                  "洪水",
+                  "干旱"
+                ],
+                "th": [
+                  "ฤดูหนาว",
+                  "พายุ",
+                  "น้ำท่วม",
+                  "ภัยแล้ง"
+                ],
+                "ko": [
+                  "겨울",
+                  "폭풍",
+                  "홍수",
+                  "가뭄"
+                ],
+                "es": [
+                  "Invierno",
+                  "Tormenta",
+                  "Inundación",
+                  "Sequía"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ฤดูหนาวครับ",
+                  "romanization": "rue-duu naao khrap"
+                },
+                "female": {
+                  "word": "ฤดูหนาวค่ะ",
+                  "romanization": "rue-duu naao kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Drought' in Thai?",
+                "zh": "泰语中'干旱'怎么说？",
+                "th": "คำว่า 'ภัยแล้ง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'가뭄'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Sequía' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ภัยแล้ง",
+                  "ฤดูหนาว",
+                  "พายุ",
+                  "น้ำท่วม"
+                ],
+                "male": [
+                  "ภัยแล้งครับ",
+                  "ฤดูหนาวครับ",
+                  "พายุครับ",
+                  "น้ำท่วมครับ"
+                ],
+                "female": [
+                  "ภัยแล้งค่ะ",
+                  "ฤดูหนาวค่ะ",
+                  "พายุค่ะ",
+                  "น้ำท่วมค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "องศา",
+              "romanization": "ong-saa",
+              "options": {
+                "en": [
+                  "Degree",
+                  "Umbrella",
+                  "Coat",
+                  "Humid"
+                ],
+                "zh": [
+                  "度",
+                  "雨伞",
+                  "外套",
+                  "潮湿"
+                ],
+                "th": [
+                  "องศา",
+                  "ร่ม",
+                  "เสื้อโค้ท",
+                  "ชื้น"
+                ],
+                "ko": [
+                  "도",
+                  "우산",
+                  "코트",
+                  "습한"
+                ],
+                "es": [
+                  "Grado",
+                  "Paraguas",
+                  "Abrigo",
+                  "Húmedo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "องศาครับ",
+                  "romanization": "ong-saa khrap"
+                },
+                "female": {
+                  "audio_text": "องศาค่ะ",
+                  "romanization": "ong-saa kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เสื้อโค้ท",
+                  "romanization": "suea khot",
+                  "native": {
+                    "en": "Coat",
+                    "zh": "外套",
+                    "th": "เสื้อโค้ท",
+                    "ko": "코트",
+                    "es": "Abrigo"
+                  }
+                },
+                {
+                  "target": "ชื้น",
+                  "romanization": "cheun",
+                  "native": {
+                    "en": "Humid",
+                    "zh": "潮湿",
+                    "th": "ชื้น",
+                    "ko": "습한",
+                    "es": "Húmedo"
+                  }
+                },
+                {
+                  "target": "แห้ง",
+                  "romanization": "haeng",
+                  "native": {
+                    "en": "Dry",
+                    "zh": "干燥",
+                    "th": "แห้ง",
+                    "ko": "건조한",
+                    "es": "Seco"
+                  }
+                },
+                {
+                  "target": "อากาศอ่อน",
+                  "romanization": "aa-gaat on",
+                  "native": {
+                    "en": "Mild",
+                    "zh": "温和",
+                    "th": "อ่อน",
+                    "ko": "순한",
+                    "es": "Suave"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Winter' then 'Storm'",
+                "zh": "先说'冬天'再说'暴风雨'",
+                "th": "พูด 'ฤดูหนาว' แล้ว 'พายุ'",
+                "ko": "'겨울'를 말한 다음 '폭풍'를 말하세요",
+                "es": "Di 'Invierno' y luego 'Tormenta'"
+              },
+              "words": [
+                "พายุ",
+                "ฤดูหนาว"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ],
+                "male": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ],
+                "female": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ]
+              },
+              "romanization": "rue-duu naao phaa-yu",
+              "tiles": {
+                "neutral": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ],
+                "male": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ],
+                "female": [
+                  "ฤดูหนาว",
+                  "พายุ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Home & Furniture",
+        "zh": "家居与家具",
+        "th": "บ้านและเฟอร์นิเจอร์",
+        "ko": "집과 가구",
+        "es": "Hogar y muebles"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Rooms & Spaces",
+            "zh": "房间与空间",
+            "th": "ห้องและพื้นที่",
+            "ko": "방과 공간",
+            "es": "Habitaciones y espacios"
+          },
+          "objectives": {
+            "en": [
+              "Name rooms in a house",
+              "Describe living spaces"
+            ],
+            "zh": [
+              "说出房间名称",
+              "描述居住空间"
+            ],
+            "th": [
+              "Name rooms in a house",
+              "Describe living spaces"
+            ],
+            "ko": [
+              "Name rooms in a house",
+              "Describe living spaces"
+            ],
+            "es": [
+              "Name rooms in a house",
+              "Describe living spaces"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ห้องนอน",
+              "romanization": "hong non",
+              "meanings": {
+                "en": "Bedroom",
+                "zh": "卧室",
+                "th": "ห้องนอน",
+                "ko": "침실",
+                "es": "Dormitorio"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ห้องนอนครับ",
+                  "romanization": "hong non khrap"
+                },
+                "female": {
+                  "word": "ห้องนอนค่ะ",
+                  "romanization": "hong non kha"
+                }
+              }
+            },
+            {
+              "word": "ห้องน้ำ",
+              "romanization": "hong naam",
+              "meanings": {
+                "en": "Bathroom",
+                "zh": "浴室",
+                "th": "ห้องน้ำ",
+                "ko": "욕실",
+                "es": "Baño"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ห้องน้ำครับ",
+                  "romanization": "hong naam khrap"
+                },
+                "female": {
+                  "word": "ห้องน้ำค่ะ",
+                  "romanization": "hong naam kha"
+                }
+              }
+            },
+            {
+              "word": "ห้องครัว",
+              "romanization": "hong khrua",
+              "meanings": {
+                "en": "Kitchen",
+                "zh": "厨房",
+                "th": "ครัว",
+                "ko": "부엌",
+                "es": "Cocina"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ห้องครัวครับ",
+                  "romanization": "hong khrua khrap"
+                },
+                "female": {
+                  "word": "ห้องครัวค่ะ",
+                  "romanization": "hong khrua kha"
+                }
+              }
+            },
+            {
+              "word": "ห้องนั่งเล่น",
+              "romanization": "hong nang len",
+              "meanings": {
+                "en": "Living room",
+                "zh": "客厅",
+                "th": "ห้องนั่งเล่น",
+                "ko": "거실",
+                "es": "Sala de estar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ห้องนั่งเล่นครับ",
+                  "romanization": "hong nang len khrap"
+                },
+                "female": {
+                  "word": "ห้องนั่งเล่นค่ะ",
+                  "romanization": "hong nang len kha"
+                }
+              }
+            },
+            {
+              "word": "สวน",
+              "romanization": "suan",
+              "meanings": {
+                "en": "Garden",
+                "zh": "花园",
+                "th": "สวน",
+                "ko": "정원",
+                "es": "Jardín"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "สวนครับ",
+                  "romanization": "suan khrap"
+                },
+                "female": {
+                  "word": "สวนค่ะ",
+                  "romanization": "suan kha"
+                }
+              }
+            },
+            {
+              "word": "ประตู",
+              "romanization": "pra-tuu",
+              "meanings": {
+                "en": "Door",
+                "zh": "门",
+                "th": "ประตู",
+                "ko": "문",
+                "es": "Puerta"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ประตูครับ",
+                  "romanization": "pra-tuu khrap"
+                },
+                "female": {
+                  "word": "ประตูค่ะ",
+                  "romanization": "pra-tuu kha"
+                }
+              }
+            },
+            {
+              "word": "หน้าต่าง",
+              "romanization": "naa taang",
+              "meanings": {
+                "en": "Window",
+                "zh": "窗户",
+                "th": "หน้าต่าง",
+                "ko": "창문",
+                "es": "Ventana"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หน้าต่างครับ",
+                  "romanization": "naa taang khrap"
+                },
+                "female": {
+                  "word": "หน้าต่างค่ะ",
+                  "romanization": "naa taang kha"
+                }
+              }
+            },
+            {
+              "word": "โต๊ะ",
+              "romanization": "to",
+              "meanings": {
+                "en": "Table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "Mesa"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "โต๊ะครับ",
+                  "romanization": "to khrap"
+                },
+                "female": {
+                  "word": "โต๊ะค่ะ",
+                  "romanization": "to kha"
+                }
+              }
+            },
+            {
+              "word": "เก้าอี้",
+              "romanization": "gao-ee",
+              "meanings": {
+                "en": "Chair",
+                "zh": "椅子",
+                "th": "เก้าอี้",
+                "ko": "의자",
+                "es": "Silla"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เก้าอี้ครับ",
+                  "romanization": "gao-ee khrap"
+                },
+                "female": {
+                  "word": "เก้าอี้ค่ะ",
+                  "romanization": "gao-ee kha"
+                }
+              }
+            },
+            {
+              "word": "เตียง",
+              "romanization": "tiang",
+              "meanings": {
+                "en": "Bed",
+                "zh": "床",
+                "th": "เตียง",
+                "ko": "침대",
+                "es": "Cama"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เตียงครับ",
+                  "romanization": "tiang khrap"
+                },
+                "female": {
+                  "word": "เตียงค่ะ",
+                  "romanization": "tiang kha"
+                }
+              }
+            },
+            {
+              "word": "โซฟา",
+              "romanization": "soo-faa",
+              "meanings": {
+                "en": "Sofa",
+                "zh": "沙发",
+                "th": "โซฟา",
+                "ko": "소파",
+                "es": "Sofá"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "โซฟาครับ",
+                  "romanization": "soo-faa khrap"
+                },
+                "female": {
+                  "word": "โซฟาค่ะ",
+                  "romanization": "soo-faa kha"
+                }
+              }
+            },
+            {
+              "word": "โคมไฟ",
+              "romanization": "khoom fai",
+              "meanings": {
+                "en": "Lamp",
+                "zh": "灯",
+                "th": "โคมไฟ",
+                "ko": "램프",
+                "es": "Lámpara"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "โคมไฟครับ",
+                  "romanization": "khoom fai khrap"
+                },
+                "female": {
+                  "word": "โคมไฟค่ะ",
+                  "romanization": "khoom fai kha"
+                }
+              }
+            },
+            {
+              "word": "พื้น",
+              "romanization": "phuen",
+              "meanings": {
+                "en": "Floor",
+                "zh": "地板",
+                "th": "พื้น",
+                "ko": "바닥",
+                "es": "Piso"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "พื้นครับ",
+                  "romanization": "phuen khrap"
+                },
+                "female": {
+                  "word": "พื้นค่ะ",
+                  "romanization": "phuen kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ห้องนอน",
+              "romanization": "hong non",
+              "options": {
+                "en": [
+                  "Bedroom",
+                  "Bathroom",
+                  "Kitchen",
+                  "Living room"
+                ],
+                "zh": [
+                  "卧室",
+                  "浴室",
+                  "厨房",
+                  "客厅"
+                ],
+                "th": [
+                  "ห้องนอน",
+                  "ห้องน้ำ",
+                  "ครัว",
+                  "ห้องนั่งเล่น"
+                ],
+                "ko": [
+                  "침실",
+                  "욕실",
+                  "부엌",
+                  "거실"
+                ],
+                "es": [
+                  "Dormitorio",
+                  "Baño",
+                  "Cocina",
+                  "Sala de estar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ห้องนอนครับ",
+                  "romanization": "hong non khrap"
+                },
+                "female": {
+                  "word": "ห้องนอนค่ะ",
+                  "romanization": "hong non kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Living room' in Thai?",
+                "zh": "泰语中'客厅'怎么说？",
+                "th": "คำว่า 'ห้องนั่งเล่น' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'거실'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Sala de estar' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ห้องนั่งเล่น",
+                  "ห้องนอน",
+                  "ห้องน้ำ",
+                  "ห้องครัว"
+                ],
+                "male": [
+                  "ห้องนั่งเล่นครับ",
+                  "ห้องนอนครับ",
+                  "ห้องน้ำครับ",
+                  "ห้องครัวครับ"
+                ],
+                "female": [
+                  "ห้องนั่งเล่นค่ะ",
+                  "ห้องนอนค่ะ",
+                  "ห้องน้ำค่ะ",
+                  "ห้องครัวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ประตู",
+              "romanization": "pra-tuu",
+              "options": {
+                "en": [
+                  "Door",
+                  "Window",
+                  "Table",
+                  "Chair"
+                ],
+                "zh": [
+                  "门",
+                  "窗户",
+                  "桌子",
+                  "椅子"
+                ],
+                "th": [
+                  "ประตู",
+                  "หน้าต่าง",
+                  "โต๊ะ",
+                  "เก้าอี้"
+                ],
+                "ko": [
+                  "문",
+                  "창문",
+                  "테이블",
+                  "의자"
+                ],
+                "es": [
+                  "Puerta",
+                  "Ventana",
+                  "Mesa",
+                  "Silla"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ประตูครับ",
+                  "romanization": "pra-tuu khrap"
+                },
+                "female": {
+                  "audio_text": "ประตูค่ะ",
+                  "romanization": "pra-tuu kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "โต๊ะ",
+                  "romanization": "to",
+                  "native": {
+                    "en": "Table",
+                    "zh": "桌子",
+                    "th": "โต๊ะ",
+                    "ko": "테이블",
+                    "es": "Mesa"
+                  }
+                },
+                {
+                  "target": "เก้าอี้",
+                  "romanization": "gao-ee",
+                  "native": {
+                    "en": "Chair",
+                    "zh": "椅子",
+                    "th": "เก้าอี้",
+                    "ko": "의자",
+                    "es": "Silla"
+                  }
+                },
+                {
+                  "target": "เตียง",
+                  "romanization": "tiang",
+                  "native": {
+                    "en": "Bed",
+                    "zh": "床",
+                    "th": "เตียง",
+                    "ko": "침대",
+                    "es": "Cama"
+                  }
+                },
+                {
+                  "target": "โซฟา",
+                  "romanization": "soo-faa",
+                  "native": {
+                    "en": "Sofa",
+                    "zh": "沙发",
+                    "th": "โซฟา",
+                    "ko": "소파",
+                    "es": "Sofá"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Bedroom' then 'Bathroom'",
+                "zh": "先说'卧室'再说'浴室'",
+                "th": "พูด 'ห้องนอน' แล้ว 'ห้องน้ำ'",
+                "ko": "'침실'를 말한 다음 '욕실'를 말하세요",
+                "es": "Di 'Dormitorio' y luego 'Baño'"
+              },
+              "words": [
+                "ห้องน้ำ",
+                "ห้องนอน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ],
+                "male": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ],
+                "female": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ]
+              },
+              "romanization": "hong non hong naam",
+              "tiles": {
+                "neutral": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ],
+                "male": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ],
+                "female": [
+                  "ห้องนอน",
+                  "ห้องน้ำ"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Furniture & Moving",
+            "zh": "家具与搬家",
+            "th": "เฟอร์นิเจอร์และการย้ายบ้าน",
+            "ko": "가구와 이사",
+            "es": "Muebles y mudanza"
+          },
+          "objectives": {
+            "en": [
+              "Identify household furniture",
+              "Talk about renting and moving"
+            ],
+            "zh": [
+              "识别家具",
+              "谈论租房和搬家"
+            ],
+            "th": [
+              "Identify household furniture",
+              "Talk about renting and moving"
+            ],
+            "ko": [
+              "Identify household furniture",
+              "Talk about renting and moving"
+            ],
+            "es": [
+              "Identify household furniture",
+              "Talk about renting and moving"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ผนัง",
+              "romanization": "pha-nang",
+              "meanings": {
+                "en": "Wall",
+                "zh": "墙",
+                "th": "กำแพง",
+                "ko": "벽",
+                "es": "Pared"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ผนังครับ",
+                  "romanization": "pha-nang khrap"
+                },
+                "female": {
+                  "word": "ผนังค่ะ",
+                  "romanization": "pha-nang kha"
+                }
+              }
+            },
+            {
+              "word": "บันได",
+              "romanization": "ban-dai",
+              "meanings": {
+                "en": "Stairs",
+                "zh": "楼梯",
+                "th": "บันได",
+                "ko": "계단",
+                "es": "Escaleras"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "บันไดครับ",
+                  "romanization": "ban-dai khrap"
+                },
+                "female": {
+                  "word": "บันไดค่ะ",
+                  "romanization": "ban-dai kha"
+                }
+              }
+            },
+            {
+              "word": "เพดาน",
+              "romanization": "phee-daan",
+              "meanings": {
+                "en": "Ceiling",
+                "zh": "天花板",
+                "th": "เพดาน",
+                "ko": "천장",
+                "es": "Techo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เพดานครับ",
+                  "romanization": "phee-daan khrap"
+                },
+                "female": {
+                  "word": "เพดานค่ะ",
+                  "romanization": "phee-daan kha"
+                }
+              }
+            },
+            {
+              "word": "ชั้นวางของ",
+              "romanization": "chan waang khong",
+              "meanings": {
+                "en": "Shelf",
+                "zh": "架子",
+                "th": "ชั้นวาง",
+                "ko": "선반",
+                "es": "Estante"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชั้นวางของครับ",
+                  "romanization": "chan waang khong khrap"
+                },
+                "female": {
+                  "word": "ชั้นวางของค่ะ",
+                  "romanization": "chan waang khong kha"
+                }
+              }
+            },
+            {
+              "word": "กระจก",
+              "romanization": "gra-jok",
+              "meanings": {
+                "en": "Mirror",
+                "zh": "镜子",
+                "th": "กระจก",
+                "ko": "거울",
+                "es": "Espejo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กระจกครับ",
+                  "romanization": "gra-jok khrap"
+                },
+                "female": {
+                  "word": "กระจกค่ะ",
+                  "romanization": "gra-jok kha"
+                }
+              }
+            },
+            {
+              "word": "ม่าน",
+              "romanization": "maan",
+              "meanings": {
+                "en": "Curtain",
+                "zh": "窗帘",
+                "th": "ม่าน",
+                "ko": "커튼",
+                "es": "Cortina"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ม่านครับ",
+                  "romanization": "maan khrap"
+                },
+                "female": {
+                  "word": "ม่านค่ะ",
+                  "romanization": "maan kha"
+                }
+              }
+            },
+            {
+              "word": "ตู้เย็น",
+              "romanization": "tuu yen",
+              "meanings": {
+                "en": "Fridge",
+                "zh": "冰箱",
+                "th": "ตู้เย็น",
+                "ko": "냉장고",
+                "es": "Refrigerador"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ตู้เย็นครับ",
+                  "romanization": "tuu yen khrap"
+                },
+                "female": {
+                  "word": "ตู้เย็นค่ะ",
+                  "romanization": "tuu yen kha"
+                }
+              }
+            },
+            {
+              "word": "เครื่องซักผ้า",
+              "romanization": "khrueang sak phaa",
+              "meanings": {
+                "en": "Washing machine",
+                "zh": "洗衣机",
+                "th": "เครื่องซักผ้า",
+                "ko": "세탁기",
+                "es": "Lavadora"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เครื่องซักผ้าครับ",
+                  "romanization": "khrueang sak phaa khrap"
+                },
+                "female": {
+                  "word": "เครื่องซักผ้าค่ะ",
+                  "romanization": "khrueang sak phaa kha"
+                }
+              }
+            },
+            {
+              "word": "ค่าเช่า",
+              "romanization": "khaa chao",
+              "meanings": {
+                "en": "Rent",
+                "zh": "房租",
+                "th": "ค่าเช่า",
+                "ko": "임대료",
+                "es": "Alquiler"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ค่าเช่าครับ",
+                  "romanization": "khaa chao khrap"
+                },
+                "female": {
+                  "word": "ค่าเช่าค่ะ",
+                  "romanization": "khaa chao kha"
+                }
+              }
+            },
+            {
+              "word": "เจ้าของบ้าน",
+              "romanization": "jao khong baan",
+              "meanings": {
+                "en": "Landlord",
+                "zh": "房东",
+                "th": "เจ้าของบ้าน",
+                "ko": "집주인",
+                "es": "Arrendador"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เจ้าของบ้านครับ",
+                  "romanization": "jao khong baan khrap"
+                },
+                "female": {
+                  "word": "เจ้าของบ้านค่ะ",
+                  "romanization": "jao khong baan kha"
+                }
+              }
+            },
+            {
+              "word": "เพื่อนบ้าน",
+              "romanization": "phuean baan",
+              "meanings": {
+                "en": "Neighbour",
+                "zh": "邻居",
+                "th": "เพื่อนบ้าน",
+                "ko": "이웃",
+                "es": "Vecino"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เพื่อนบ้านครับ",
+                  "romanization": "phuean baan khrap"
+                },
+                "female": {
+                  "word": "เพื่อนบ้านค่ะ",
+                  "romanization": "phuean baan kha"
+                }
+              }
+            },
+            {
+              "word": "ย้ายเข้า",
+              "romanization": "yaai khao",
+              "meanings": {
+                "en": "Move in",
+                "zh": "搬进",
+                "th": "ย้ายเข้า",
+                "ko": "이사 오다",
+                "es": "Mudarse (a un lugar)"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ย้ายเข้าครับ",
+                  "romanization": "yaai khao khrap"
+                },
+                "female": {
+                  "word": "ย้ายเข้าค่ะ",
+                  "romanization": "yaai khao kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ผนัง",
+              "romanization": "pha-nang",
+              "options": {
+                "en": [
+                  "Wall",
+                  "Stairs",
+                  "Ceiling",
+                  "Shelf"
+                ],
+                "zh": [
+                  "墙",
+                  "楼梯",
+                  "天花板",
+                  "架子"
+                ],
+                "th": [
+                  "กำแพง",
+                  "บันได",
+                  "เพดาน",
+                  "ชั้นวาง"
+                ],
+                "ko": [
+                  "벽",
+                  "계단",
+                  "천장",
+                  "선반"
+                ],
+                "es": [
+                  "Pared",
+                  "Escaleras",
+                  "Techo",
+                  "Estante"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ผนังครับ",
+                  "romanization": "pha-nang khrap"
+                },
+                "female": {
+                  "word": "ผนังค่ะ",
+                  "romanization": "pha-nang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Shelf' in Thai?",
+                "zh": "泰语中'架子'怎么说？",
+                "th": "คำว่า 'ชั้นวาง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'선반'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Estante' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ชั้นวางของ",
+                  "ผนัง",
+                  "บันได",
+                  "เพดาน"
+                ],
+                "male": [
+                  "ชั้นวางของครับ",
+                  "ผนังครับ",
+                  "บันไดครับ",
+                  "เพดานครับ"
+                ],
+                "female": [
+                  "ชั้นวางของค่ะ",
+                  "ผนังค่ะ",
+                  "บันไดค่ะ",
+                  "เพดานค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ม่าน",
+              "romanization": "maan",
+              "options": {
+                "en": [
+                  "Curtain",
+                  "Fridge",
+                  "Washing machine",
+                  "Rent"
+                ],
+                "zh": [
+                  "窗帘",
+                  "冰箱",
+                  "洗衣机",
+                  "房租"
+                ],
+                "th": [
+                  "ม่าน",
+                  "ตู้เย็น",
+                  "เครื่องซักผ้า",
+                  "ค่าเช่า"
+                ],
+                "ko": [
+                  "커튼",
+                  "냉장고",
+                  "세탁기",
+                  "임대료"
+                ],
+                "es": [
+                  "Cortina",
+                  "Refrigerador",
+                  "Lavadora",
+                  "Alquiler"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ม่านครับ",
+                  "romanization": "maan khrap"
+                },
+                "female": {
+                  "audio_text": "ม่านค่ะ",
+                  "romanization": "maan kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เครื่องซักผ้า",
+                  "romanization": "khrueang sak phaa",
+                  "native": {
+                    "en": "Washing machine",
+                    "zh": "洗衣机",
+                    "th": "เครื่องซักผ้า",
+                    "ko": "세탁기",
+                    "es": "Lavadora"
+                  }
+                },
+                {
+                  "target": "ค่าเช่า",
+                  "romanization": "khaa chao",
+                  "native": {
+                    "en": "Rent",
+                    "zh": "房租",
+                    "th": "ค่าเช่า",
+                    "ko": "임대료",
+                    "es": "Alquiler"
+                  }
+                },
+                {
+                  "target": "เจ้าของบ้าน",
+                  "romanization": "jao khong baan",
+                  "native": {
+                    "en": "Landlord",
+                    "zh": "房东",
+                    "th": "เจ้าของบ้าน",
+                    "ko": "집주인",
+                    "es": "Arrendador"
+                  }
+                },
+                {
+                  "target": "เพื่อนบ้าน",
+                  "romanization": "phuean baan",
+                  "native": {
+                    "en": "Neighbour",
+                    "zh": "邻居",
+                    "th": "เพื่อนบ้าน",
+                    "ko": "이웃",
+                    "es": "Vecino"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Wall' then 'Stairs'",
+                "zh": "先说'墙'再说'楼梯'",
+                "th": "พูด 'กำแพง' แล้ว 'บันได'",
+                "ko": "'벽'를 말한 다음 '계단'를 말하세요",
+                "es": "Di 'Pared' y luego 'Escaleras'"
+              },
+              "words": [
+                "บันได",
+                "ผนัง"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ผนัง",
+                  "บันได"
+                ],
+                "male": [
+                  "ผนัง",
+                  "บันได"
+                ],
+                "female": [
+                  "ผนัง",
+                  "บันได"
+                ]
+              },
+              "romanization": "pha-nang ban-dai",
+              "tiles": {
+                "neutral": [
+                  "ผนัง",
+                  "บันได"
+                ],
+                "male": [
+                  "ผนัง",
+                  "บันได"
+                ],
+                "female": [
+                  "ผนัง",
+                  "บันได"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Hobbies & Free Time",
+        "zh": "爱好与休闲",
+        "th": "งานอดิเรกและเวลาว่าง",
+        "ko": "취미와 여가",
+        "es": "Pasatiempos y tiempo libre"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Activities & Sports",
+            "zh": "活动与运动",
+            "th": "กิจกรรมและกีฬา",
+            "ko": "활동과 스포츠",
+            "es": "Actividades y deportes"
+          },
+          "objectives": {
+            "en": [
+              "Talk about hobbies and sports",
+              "Describe leisure activities"
+            ],
+            "zh": [
+              "谈论爱好和运动",
+              "描述休闲活动"
+            ],
+            "th": [
+              "Talk about hobbies and sports",
+              "Describe leisure activities"
+            ],
+            "ko": [
+              "Talk about hobbies and sports",
+              "Describe leisure activities"
+            ],
+            "es": [
+              "Talk about hobbies and sports",
+              "Describe leisure activities"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "งานอดิเรก",
+              "romanization": "ngaan a-di-rek",
+              "meanings": {
+                "en": "Hobby",
+                "zh": "爱好",
+                "th": "งานอดิเรก",
+                "ko": "취미",
+                "es": "Pasatiempo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "งานอดิเรกครับ",
+                  "romanization": "ngaan a-di-rek khrap"
+                },
+                "female": {
+                  "word": "งานอดิเรกค่ะ",
+                  "romanization": "ngaan a-di-rek kha"
+                }
+              }
+            },
+            {
+              "word": "กีฬา",
+              "romanization": "gee-laa",
+              "meanings": {
+                "en": "Sport",
+                "zh": "运动",
+                "th": "กีฬา",
+                "ko": "스포츠",
+                "es": "Deporte"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กีฬาครับ",
+                  "romanization": "gee-laa khrap"
+                },
+                "female": {
+                  "word": "กีฬาค่ะ",
+                  "romanization": "gee-laa kha"
+                }
+              }
+            },
+            {
+              "word": "ดนตรี",
+              "romanization": "don-tree",
+              "meanings": {
+                "en": "Music",
+                "zh": "音乐",
+                "th": "เพลง",
+                "ko": "음악",
+                "es": "Música"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ดนตรีครับ",
+                  "romanization": "don-tree khrap"
+                },
+                "female": {
+                  "word": "ดนตรีค่ะ",
+                  "romanization": "don-tree kha"
+                }
+              }
+            },
+            {
+              "word": "ภาพยนตร์",
+              "romanization": "phaap-pha-yon",
+              "meanings": {
+                "en": "Film",
+                "zh": "电影",
+                "th": "ภาพยนตร์",
+                "ko": "영화",
+                "es": "Película"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ภาพยนตร์ครับ",
+                  "romanization": "phaap-pha-yon khrap"
+                },
+                "female": {
+                  "word": "ภาพยนตร์ค่ะ",
+                  "romanization": "phaap-pha-yon kha"
+                }
+              }
+            },
+            {
+              "word": "หนังสือ",
+              "romanization": "nang-sue",
+              "meanings": {
+                "en": "Book",
+                "zh": "书",
+                "th": "หนังสือ",
+                "ko": "책",
+                "es": "Libro"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "หนังสือครับ",
+                  "romanization": "nang-sue khrap"
+                },
+                "female": {
+                  "word": "หนังสือค่ะ",
+                  "romanization": "nang-sue kha"
+                }
+              }
+            },
+            {
+              "word": "เกม",
+              "romanization": "gem",
+              "meanings": {
+                "en": "Game",
+                "zh": "游戏",
+                "th": "เกม",
+                "ko": "게임",
+                "es": "Juego"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เกมครับ",
+                  "romanization": "gem khrap"
+                },
+                "female": {
+                  "word": "เกมค่ะ",
+                  "romanization": "gem kha"
+                }
+              }
+            },
+            {
+              "word": "ออกกำลังกาย",
+              "romanization": "ok gam-lang gaai",
+              "meanings": {
+                "en": "Exercise",
+                "zh": "锻炼",
+                "th": "ออกกำลังกาย",
+                "ko": "운동",
+                "es": "Ejercicio"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ออกกำลังกายครับ",
+                  "romanization": "ok gam-lang gaai khrap"
+                },
+                "female": {
+                  "word": "ออกกำลังกายค่ะ",
+                  "romanization": "ok gam-lang gaai kha"
+                }
+              }
+            },
+            {
+              "word": "ว่ายน้ำ",
+              "romanization": "waai naam",
+              "meanings": {
+                "en": "Swim",
+                "zh": "游泳",
+                "th": "ว่ายน้ำ",
+                "ko": "수영하다",
+                "es": "Nadar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ว่ายน้ำครับ",
+                  "romanization": "waai naam khrap"
+                },
+                "female": {
+                  "word": "ว่ายน้ำค่ะ",
+                  "romanization": "waai naam kha"
+                }
+              }
+            },
+            {
+              "word": "วิ่ง",
+              "romanization": "wing",
+              "meanings": {
+                "en": "Run",
+                "zh": "跑步",
+                "th": "วิ่ง",
+                "ko": "달리다",
+                "es": "Correr"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "วิ่งครับ",
+                  "romanization": "wing khrap"
+                },
+                "female": {
+                  "word": "วิ่งค่ะ",
+                  "romanization": "wing kha"
+                }
+              }
+            },
+            {
+              "word": "วาด",
+              "romanization": "waat",
+              "meanings": {
+                "en": "Draw",
+                "zh": "画画",
+                "th": "วาดรูป",
+                "ko": "그리다",
+                "es": "Dibujar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "วาดครับ",
+                  "romanization": "waat khrap"
+                },
+                "female": {
+                  "word": "วาดค่ะ",
+                  "romanization": "waat kha"
+                }
+              }
+            },
+            {
+              "word": "ระบายสี",
+              "romanization": "ra-baai see",
+              "meanings": {
+                "en": "Paint",
+                "zh": "涂色",
+                "th": "วาดสี",
+                "ko": "칠하다",
+                "es": "Pintar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ระบายสีครับ",
+                  "romanization": "ra-baai see khrap"
+                },
+                "female": {
+                  "word": "ระบายสีค่ะ",
+                  "romanization": "ra-baai see kha"
+                }
+              }
+            },
+            {
+              "word": "ทำอาหาร",
+              "romanization": "tam aa-haan",
+              "meanings": {
+                "en": "Cook",
+                "zh": "烹饪",
+                "th": "ทำอาหาร",
+                "ko": "요리하다",
+                "es": "Cocinar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทำอาหารครับ",
+                  "romanization": "tam aa-haan khrap"
+                },
+                "female": {
+                  "word": "ทำอาหารค่ะ",
+                  "romanization": "tam aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "เดินทาง",
+              "romanization": "doen thaang",
+              "meanings": {
+                "en": "Travel",
+                "zh": "旅行",
+                "th": "เดินทาง",
+                "ko": "여행하다",
+                "es": "Viajar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เดินทางครับ",
+                  "romanization": "doen thaang khrap"
+                },
+                "female": {
+                  "word": "เดินทางค่ะ",
+                  "romanization": "doen thaang kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "งานอดิเรก",
+              "romanization": "ngaan a-di-rek",
+              "options": {
+                "en": [
+                  "Hobby",
+                  "Sport",
+                  "Music",
+                  "Film"
+                ],
+                "zh": [
+                  "爱好",
+                  "运动",
+                  "音乐",
+                  "电影"
+                ],
+                "th": [
+                  "งานอดิเรก",
+                  "กีฬา",
+                  "เพลง",
+                  "ภาพยนตร์"
+                ],
+                "ko": [
+                  "취미",
+                  "스포츠",
+                  "음악",
+                  "영화"
+                ],
+                "es": [
+                  "Pasatiempo",
+                  "Deporte",
+                  "Música",
+                  "Película"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "งานอดิเรกครับ",
+                  "romanization": "ngaan a-di-rek khrap"
+                },
+                "female": {
+                  "word": "งานอดิเรกค่ะ",
+                  "romanization": "ngaan a-di-rek kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Film' in Thai?",
+                "zh": "泰语中'电影'怎么说？",
+                "th": "คำว่า 'ภาพยนตร์' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'영화'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Película' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ภาพยนตร์",
+                  "งานอดิเรก",
+                  "กีฬา",
+                  "ดนตรี"
+                ],
+                "male": [
+                  "ภาพยนตร์ครับ",
+                  "งานอดิเรกครับ",
+                  "กีฬาครับ",
+                  "ดนตรีครับ"
+                ],
+                "female": [
+                  "ภาพยนตร์ค่ะ",
+                  "งานอดิเรกค่ะ",
+                  "กีฬาค่ะ",
+                  "ดนตรีค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เกม",
+              "romanization": "gem",
+              "options": {
+                "en": [
+                  "Game",
+                  "Exercise",
+                  "Swim",
+                  "Run"
+                ],
+                "zh": [
+                  "游戏",
+                  "锻炼",
+                  "游泳",
+                  "跑步"
+                ],
+                "th": [
+                  "เกม",
+                  "ออกกำลังกาย",
+                  "ว่ายน้ำ",
+                  "วิ่ง"
+                ],
+                "ko": [
+                  "게임",
+                  "운동",
+                  "수영하다",
+                  "달리다"
+                ],
+                "es": [
+                  "Juego",
+                  "Ejercicio",
+                  "Nadar",
+                  "Correr"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เกมครับ",
+                  "romanization": "gem khrap"
+                },
+                "female": {
+                  "audio_text": "เกมค่ะ",
+                  "romanization": "gem kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ว่ายน้ำ",
+                  "romanization": "waai naam",
+                  "native": {
+                    "en": "Swim",
+                    "zh": "游泳",
+                    "th": "ว่ายน้ำ",
+                    "ko": "수영하다",
+                    "es": "Nadar"
+                  }
+                },
+                {
+                  "target": "วิ่ง",
+                  "romanization": "wing",
+                  "native": {
+                    "en": "Run",
+                    "zh": "跑步",
+                    "th": "วิ่ง",
+                    "ko": "달리다",
+                    "es": "Correr"
+                  }
+                },
+                {
+                  "target": "วาด",
+                  "romanization": "waat",
+                  "native": {
+                    "en": "Draw",
+                    "zh": "画画",
+                    "th": "วาดรูป",
+                    "ko": "그리다",
+                    "es": "Dibujar"
+                  }
+                },
+                {
+                  "target": "ระบายสี",
+                  "romanization": "ra-baai see",
+                  "native": {
+                    "en": "Paint",
+                    "zh": "涂色",
+                    "th": "วาดสี",
+                    "ko": "칠하다",
+                    "es": "Pintar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Hobby' then 'Sport'",
+                "zh": "先说'爱好'再说'运动'",
+                "th": "พูด 'งานอดิเรก' แล้ว 'กีฬา'",
+                "ko": "'취미'를 말한 다음 '스포츠'를 말하세요",
+                "es": "Di 'Pasatiempo' y luego 'Deporte'"
+              },
+              "words": [
+                "กีฬา",
+                "งานอดิเรก"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ],
+                "male": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ],
+                "female": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ]
+              },
+              "romanization": "ngaan a-di-rek gee-laa",
+              "tiles": {
+                "neutral": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ],
+                "male": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ],
+                "female": [
+                  "งานอดิเรก",
+                  "กีฬา"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Entertainment & Competition",
+            "zh": "娱乐与竞赛",
+            "th": "ความบันเทิงและการแข่งขัน",
+            "ko": "오락과 경쟁",
+            "es": "Entretenimiento y competencia"
+          },
+          "objectives": {
+            "en": [
+              "Discuss entertainment options",
+              "Talk about competitions"
+            ],
+            "zh": [
+              "讨论娱乐选择",
+              "谈论比赛"
+            ],
+            "th": [
+              "Discuss entertainment options",
+              "Talk about competitions"
+            ],
+            "ko": [
+              "Discuss entertainment options",
+              "Talk about competitions"
+            ],
+            "es": [
+              "Discuss entertainment options",
+              "Talk about competitions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "สนุก",
+              "romanization": "sa-nuk",
+              "meanings": {
+                "en": "Enjoy",
+                "zh": "享受",
+                "th": "สนุก",
+                "ko": "즐기다",
+                "es": "Disfrutar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สนุกครับ",
+                  "romanization": "sa-nuk khrap"
+                },
+                "female": {
+                  "word": "สนุกค่ะ",
+                  "romanization": "sa-nuk kha"
+                }
+              }
+            },
+            {
+              "word": "ผ่อนคลาย",
+              "romanization": "phon khlaai",
+              "meanings": {
+                "en": "Relax",
+                "zh": "放松",
+                "th": "พักผ่อน",
+                "ko": "쉬다",
+                "es": "Relajarse"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ผ่อนคลายครับ",
+                  "romanization": "phon khlaai khrap"
+                },
+                "female": {
+                  "word": "ผ่อนคลายค่ะ",
+                  "romanization": "phon khlaai kha"
+                }
+              }
+            },
+            {
+              "word": "โรงภาพยนตร์",
+              "romanization": "roong phaap-pha-yon",
+              "meanings": {
+                "en": "Cinema",
+                "zh": "电影院",
+                "th": "โรงภาพยนตร์",
+                "ko": "영화관",
+                "es": "Cine"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "โรงภาพยนตร์ครับ",
+                  "romanization": "roong phaap-pha-yon khrap"
+                },
+                "female": {
+                  "word": "โรงภาพยนตร์ค่ะ",
+                  "romanization": "roong phaap-pha-yon kha"
+                }
+              }
+            },
+            {
+              "word": "คอนเสิร์ต",
+              "romanization": "khon-soet",
+              "meanings": {
+                "en": "Concert",
+                "zh": "音乐会",
+                "th": "คอนเสิร์ต",
+                "ko": "콘서트",
+                "es": "Concierto"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "คอนเสิร์ตครับ",
+                  "romanization": "khon-soet khrap"
+                },
+                "female": {
+                  "word": "คอนเสิร์ตค่ะ",
+                  "romanization": "khon-soet kha"
+                }
+              }
+            },
+            {
+              "word": "เทศกาล",
+              "romanization": "thet-sa-gaan",
+              "meanings": {
+                "en": "Festival",
+                "zh": "节日",
+                "th": "เทศกาล",
+                "ko": "축제",
+                "es": "Festival"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เทศกาลครับ",
+                  "romanization": "thet-sa-gaan khrap"
+                },
+                "female": {
+                  "word": "เทศกาลค่ะ",
+                  "romanization": "thet-sa-gaan kha"
+                }
+              }
+            },
+            {
+              "word": "กลางแจ้ง",
+              "romanization": "glaang jaeng",
+              "meanings": {
+                "en": "Outdoor",
+                "zh": "户外",
+                "th": "กลางแจ้ง",
+                "ko": "야외",
+                "es": "Al aire libre"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กลางแจ้งครับ",
+                  "romanization": "glaang jaeng khrap"
+                },
+                "female": {
+                  "word": "กลางแจ้งค่ะ",
+                  "romanization": "glaang jaeng kha"
+                }
+              }
+            },
+            {
+              "word": "ในร่ม",
+              "romanization": "nai rom",
+              "meanings": {
+                "en": "Indoor",
+                "zh": "室内",
+                "th": "ในร่ม",
+                "ko": "실내",
+                "es": "Interior"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ในร่มครับ",
+                  "romanization": "nai rom khrap"
+                },
+                "female": {
+                  "word": "ในร่มค่ะ",
+                  "romanization": "nai rom kha"
+                }
+              }
+            },
+            {
+              "word": "ทีม",
+              "romanization": "theem",
+              "meanings": {
+                "en": "Team",
+                "zh": "团队",
+                "th": "ทีม",
+                "ko": "팀",
+                "es": "Equipo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทีมครับ",
+                  "romanization": "theem khrap"
+                },
+                "female": {
+                  "word": "ทีมค่ะ",
+                  "romanization": "theem kha"
+                }
+              }
+            },
+            {
+              "word": "ฝึกซ้อม",
+              "romanization": "fuek som",
+              "meanings": {
+                "en": "Practice",
+                "zh": "练习",
+                "th": "ฝึก",
+                "ko": "연습",
+                "es": "Práctica"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ฝึกซ้อมครับ",
+                  "romanization": "fuek som khrap"
+                },
+                "female": {
+                  "word": "ฝึกซ้อมค่ะ",
+                  "romanization": "fuek som kha"
+                }
+              }
+            },
+            {
+              "word": "การแข่งขัน",
+              "romanization": "gaan khaeng khan",
+              "meanings": {
+                "en": "Competition",
+                "zh": "比赛",
+                "th": "การแข่งขัน",
+                "ko": "대회",
+                "es": "Competencia"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "การแข่งขันครับ",
+                  "romanization": "gaan khaeng khan khrap"
+                },
+                "female": {
+                  "word": "การแข่งขันค่ะ",
+                  "romanization": "gaan khaeng khan kha"
+                }
+              }
+            },
+            {
+              "word": "ชนะ",
+              "romanization": "cha-na",
+              "meanings": {
+                "en": "Win",
+                "zh": "赢",
+                "th": "ชนะ",
+                "ko": "이기다",
+                "es": "Ganar"
+              },
+              "toneClass": "high",
+              "gendered": {
+                "male": {
+                  "word": "ชนะครับ",
+                  "romanization": "cha-na khrap"
+                },
+                "female": {
+                  "word": "ชนะค่ะ",
+                  "romanization": "cha-na kha"
+                }
+              }
+            },
+            {
+              "word": "แพ้",
+              "romanization": "phae",
+              "meanings": {
+                "en": "Lose",
+                "zh": "输",
+                "th": "แพ้",
+                "ko": "지다",
+                "es": "Perder"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แพ้ครับ",
+                  "romanization": "phae khrap"
+                },
+                "female": {
+                  "word": "แพ้ค่ะ",
+                  "romanization": "phae kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "สนุก",
+              "romanization": "sa-nuk",
+              "options": {
+                "en": [
+                  "Enjoy",
+                  "Relax",
+                  "Cinema",
+                  "Concert"
+                ],
+                "zh": [
+                  "享受",
+                  "放松",
+                  "电影院",
+                  "音乐会"
+                ],
+                "th": [
+                  "สนุก",
+                  "พักผ่อน",
+                  "โรงภาพยนตร์",
+                  "คอนเสิร์ต"
+                ],
+                "ko": [
+                  "즐기다",
+                  "쉬다",
+                  "영화관",
+                  "콘서트"
+                ],
+                "es": [
+                  "Disfrutar",
+                  "Relajarse",
+                  "Cine",
+                  "Concierto"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "สนุกครับ",
+                  "romanization": "sa-nuk khrap"
+                },
+                "female": {
+                  "word": "สนุกค่ะ",
+                  "romanization": "sa-nuk kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Concert' in Thai?",
+                "zh": "泰语中'音乐会'怎么说？",
+                "th": "คำว่า 'คอนเสิร์ต' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'콘서트'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Concierto' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "คอนเสิร์ต",
+                  "สนุก",
+                  "ผ่อนคลาย",
+                  "โรงภาพยนตร์"
+                ],
+                "male": [
+                  "คอนเสิร์ตครับ",
+                  "สนุกครับ",
+                  "ผ่อนคลายครับ",
+                  "โรงภาพยนตร์ครับ"
+                ],
+                "female": [
+                  "คอนเสิร์ตค่ะ",
+                  "สนุกค่ะ",
+                  "ผ่อนคลายค่ะ",
+                  "โรงภาพยนตร์ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "กลางแจ้ง",
+              "romanization": "glaang jaeng",
+              "options": {
+                "en": [
+                  "Outdoor",
+                  "Indoor",
+                  "Team",
+                  "Practice"
+                ],
+                "zh": [
+                  "户外",
+                  "室内",
+                  "团队",
+                  "练习"
+                ],
+                "th": [
+                  "กลางแจ้ง",
+                  "ในร่ม",
+                  "ทีม",
+                  "ฝึก"
+                ],
+                "ko": [
+                  "야외",
+                  "실내",
+                  "팀",
+                  "연습"
+                ],
+                "es": [
+                  "Al aire libre",
+                  "Interior",
+                  "Equipo",
+                  "Práctica"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "กลางแจ้งครับ",
+                  "romanization": "glaang jaeng khrap"
+                },
+                "female": {
+                  "audio_text": "กลางแจ้งค่ะ",
+                  "romanization": "glaang jaeng kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ทีม",
+                  "romanization": "theem",
+                  "native": {
+                    "en": "Team",
+                    "zh": "团队",
+                    "th": "ทีม",
+                    "ko": "팀",
+                    "es": "Equipo"
+                  }
+                },
+                {
+                  "target": "ฝึกซ้อม",
+                  "romanization": "fuek som",
+                  "native": {
+                    "en": "Practice",
+                    "zh": "练习",
+                    "th": "ฝึก",
+                    "ko": "연습",
+                    "es": "Práctica"
+                  }
+                },
+                {
+                  "target": "การแข่งขัน",
+                  "romanization": "gaan khaeng khan",
+                  "native": {
+                    "en": "Competition",
+                    "zh": "比赛",
+                    "th": "การแข่งขัน",
+                    "ko": "대회",
+                    "es": "Competencia"
+                  }
+                },
+                {
+                  "target": "ชนะ",
+                  "romanization": "cha-na",
+                  "native": {
+                    "en": "Win",
+                    "zh": "赢",
+                    "th": "ชนะ",
+                    "ko": "이기다",
+                    "es": "Ganar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Enjoy' then 'Relax'",
+                "zh": "先说'享受'再说'放松'",
+                "th": "พูด 'สนุก' แล้ว 'พักผ่อน'",
+                "ko": "'즐기다'를 말한 다음 '쉬다'를 말하세요",
+                "es": "Di 'Disfrutar' y luego 'Relajarse'"
+              },
+              "words": [
+                "ผ่อนคลาย",
+                "สนุก"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ],
+                "male": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ],
+                "female": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ]
+              },
+              "romanization": "sa-nuk phon khlaai",
+              "tiles": {
+                "neutral": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ],
+                "male": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ],
+                "female": [
+                  "สนุก",
+                  "ผ่อนคลาย"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

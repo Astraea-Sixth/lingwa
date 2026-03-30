@@ -1,0 +1,14 @@
+{
+  "name": "lingwa",
+  "version": "0.2.0",
+  "description": "Language learning that actually talks back",
+  "scripts": {
+    "start": "bash start.sh",
+    "stop": "bash stop.sh",
+    "dev:api": "cd api && source venv/bin/activate && uvicorn main:app --port 5005 --reload",
+    "dev:web": "cd webapp && npm run dev"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

@@ -1,0 +1,5352 @@
+{
+  "lang": "th",
+  "language": "th",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "약속 잡기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting & Suggesting",
+            "zh": "邀请与建议",
+            "th": "การเชิญและการแนะนำ",
+            "ko": "초대와 제안",
+            "es": "Invitar y sugerir"
+          },
+          "objectives": {
+            "en": [
+              "Learn to make and respond to invitations",
+              "Suggest activities and times"
+            ],
+            "zh": [
+              "学习发出和回应邀请",
+              "建议活动和时间"
+            ],
+            "th": [
+              "Learn to make and respond to invitations",
+              "Suggest activities and times"
+            ],
+            "ko": [
+              "Learn to make and respond to invitations",
+              "Suggest activities and times"
+            ],
+            "es": [
+              "Learn to make and respond to invitations",
+              "Suggest activities and times"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เจอกัน",
+              "romanization": "joeh gan",
+              "meanings": {
+                "en": "Meet",
+                "zh": "见面",
+                "th": "พบ",
+                "ko": "만나다",
+                "es": "Encontrarse"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เจอกันครับ",
+                  "romanization": "joeh gan khrap"
+                },
+                "female": {
+                  "word": "เจอกันค่ะ",
+                  "romanization": "joeh gan kha"
+                }
+              }
+            },
+            {
+              "word": "เชิญ",
+              "romanization": "chooen",
+              "meanings": {
+                "en": "Invite",
+                "zh": "邀请",
+                "th": "เชิญ",
+                "ko": "초대하다",
+                "es": "Invitar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เชิญครับ",
+                  "romanization": "chooen khrap"
+                },
+                "female": {
+                  "word": "เชิญค่ะ",
+                  "romanization": "chooen kha"
+                }
+              }
+            },
+            {
+              "word": "วางแผน",
+              "romanization": "waang phaen",
+              "meanings": {
+                "en": "Plan",
+                "zh": "计划",
+                "th": "แผน",
+                "ko": "계획",
+                "es": "Plan"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "วางแผน",
+                  "romanization": "waang phaen"
+                },
+                "female": {
+                  "word": "วางแผน",
+                  "romanization": "waang phaen"
+                }
+              }
+            },
+            {
+              "word": "แนะนำ",
+              "romanization": "nae nam",
+              "meanings": {
+                "en": "Suggest",
+                "zh": "建议",
+                "th": "แนะนำ",
+                "ko": "제안하다",
+                "es": "Sugerir"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แนะนำครับ",
+                  "romanization": "nae nam khrap"
+                },
+                "female": {
+                  "word": "แนะนำค่ะ",
+                  "romanization": "nae nam kha"
+                }
+              }
+            },
+            {
+              "word": "ว่าง",
+              "romanization": "waang",
+              "meanings": {
+                "en": "Free",
+                "zh": "有空",
+                "th": "ว่าง",
+                "ko": "한가한",
+                "es": "Libre"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ว่าง",
+                  "romanization": "waang"
+                },
+                "female": {
+                  "word": "ว่าง",
+                  "romanization": "waang"
+                }
+              }
+            },
+            {
+              "word": "ยุ่ง",
+              "romanization": "yung",
+              "meanings": {
+                "en": "Busy",
+                "zh": "忙",
+                "th": "ยุ่ง",
+                "ko": "바쁜",
+                "es": "Ocupado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ยุ่ง",
+                  "romanization": "yung"
+                },
+                "female": {
+                  "word": "ยุ่ง",
+                  "romanization": "yung"
+                }
+              }
+            },
+            {
+              "word": "สะดวก",
+              "romanization": "sa-duak",
+              "meanings": {
+                "en": "Available",
+                "zh": "方便",
+                "th": "ว่าง",
+                "ko": "시간이 되는",
+                "es": "Disponible"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สะดวกครับ",
+                  "romanization": "sa-duak khrap"
+                },
+                "female": {
+                  "word": "สะดวกค่ะ",
+                  "romanization": "sa-duak kha"
+                }
+              }
+            },
+            {
+              "word": "ยกเลิก",
+              "romanization": "yok loek",
+              "meanings": {
+                "en": "Cancel",
+                "zh": "取消",
+                "th": "ยกเลิก",
+                "ko": "취소하다",
+                "es": "Cancelar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยกเลิกครับ",
+                  "romanization": "yok loek khrap"
+                },
+                "female": {
+                  "word": "ยกเลิกค่ะ",
+                  "romanization": "yok loek kha"
+                }
+              }
+            },
+            {
+              "word": "เลื่อน",
+              "romanization": "luean",
+              "meanings": {
+                "en": "Postpone",
+                "zh": "推迟",
+                "th": "เลื่อน",
+                "ko": "연기하다",
+                "es": "Posponer"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เลื่อน",
+                  "romanization": "luean"
+                },
+                "female": {
+                  "word": "เลื่อน",
+                  "romanization": "luean"
+                }
+              }
+            },
+            {
+              "word": "ยืนยัน",
+              "romanization": "yeun yan",
+              "meanings": {
+                "en": "Confirm",
+                "zh": "确认",
+                "th": "ยืนยัน",
+                "ko": "확인하다",
+                "es": "Confirmar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยืนยันครับ",
+                  "romanization": "yeun yan khrap"
+                },
+                "female": {
+                  "word": "ยืนยันค่ะ",
+                  "romanization": "yeun yan kha"
+                }
+              }
+            },
+            {
+              "word": "จัดการ",
+              "romanization": "jat gaan",
+              "meanings": {
+                "en": "Arrange",
+                "zh": "安排",
+                "th": "จัดเตรียม",
+                "ko": "준비하다",
+                "es": "Organizar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "จัดการ",
+                  "romanization": "jat gaan"
+                },
+                "female": {
+                  "word": "จัดการ",
+                  "romanization": "jat gaan"
+                }
+              }
+            },
+            {
+              "word": "จัดงาน",
+              "romanization": "jat ngaan",
+              "meanings": {
+                "en": "Organise",
+                "zh": "组织",
+                "th": "จัดการ",
+                "ko": "조직하다",
+                "es": "Organizar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "จัดงาน",
+                  "romanization": "jat ngaan"
+                },
+                "female": {
+                  "word": "จัดงาน",
+                  "romanization": "jat ngaan"
+                }
+              }
+            },
+            {
+              "word": "สถานที่",
+              "romanization": "sa-thaan thee",
+              "meanings": {
+                "en": "Venue",
+                "zh": "场地",
+                "th": "สถานที่จัดงาน",
+                "ko": "장소",
+                "es": "Lugar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สถานที่",
+                  "romanization": "sa-thaan thee"
+                },
+                "female": {
+                  "word": "สถานที่",
+                  "romanization": "sa-thaan thee"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เจอกัน",
+              "romanization": "joeh gan",
+              "options": {
+                "en": [
+                  "Meet",
+                  "Invite",
+                  "Plan",
+                  "Cancel"
+                ],
+                "zh": [
+                  "见面",
+                  "邀请",
+                  "计划",
+                  "取消"
+                ],
+                "th": [
+                  "พบ",
+                  "เชิญ",
+                  "แผน",
+                  "ยกเลิก"
+                ],
+                "ko": [
+                  "만나다",
+                  "초대하다",
+                  "계획",
+                  "취소하다"
+                ],
+                "es": [
+                  "Encontrarse",
+                  "Invitar",
+                  "Plan",
+                  "Cancelar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เจอกันครับ",
+                  "romanization": "joeh gan khrap"
+                },
+                "female": {
+                  "word": "เจอกันค่ะ",
+                  "romanization": "joeh gan kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Plan' in Thai?",
+                "zh": "泰语中'计划'怎么说？",
+                "th": "คำว่า 'แผน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'계획'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Plan' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "วางแผน",
+                  "เจอกัน",
+                  "เชิญ",
+                  "ยืนยัน"
+                ],
+                "male": [
+                  "วางแผนครับ",
+                  "เจอกันครับ",
+                  "เชิญครับ",
+                  "ยืนยันครับ"
+                ],
+                "female": [
+                  "วางแผนค่ะ",
+                  "เจอกันค่ะ",
+                  "เชิญค่ะ",
+                  "ยืนยันค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "สะดวก",
+              "romanization": "sa-duak",
+              "options": {
+                "en": [
+                  "Available",
+                  "Busy",
+                  "Free",
+                  "Postpone"
+                ],
+                "zh": [
+                  "方便",
+                  "忙",
+                  "有空",
+                  "推迟"
+                ],
+                "th": [
+                  "ว่าง",
+                  "ยุ่ง",
+                  "ว่าง",
+                  "เลื่อน"
+                ],
+                "ko": [
+                  "시간이 되는",
+                  "바쁜",
+                  "한가한",
+                  "연기하다"
+                ],
+                "es": [
+                  "Disponible",
+                  "Ocupado",
+                  "Libre",
+                  "Posponer"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "สะดวกครับ",
+                  "romanization": "sa-duak khrap"
+                },
+                "female": {
+                  "audio_text": "สะดวกค่ะ",
+                  "romanization": "sa-duak kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เจอกัน",
+                  "romanization": "joeh gan",
+                  "native": {
+                    "en": "Meet",
+                    "zh": "见面",
+                    "th": "พบ",
+                    "ko": "만나다",
+                    "es": "Encontrarse"
+                  }
+                },
+                {
+                  "target": "เชิญ",
+                  "romanization": "chooen",
+                  "native": {
+                    "en": "Invite",
+                    "zh": "邀请",
+                    "th": "เชิญ",
+                    "ko": "초대하다",
+                    "es": "Invitar"
+                  }
+                },
+                {
+                  "target": "ยกเลิก",
+                  "romanization": "yok loek",
+                  "native": {
+                    "en": "Cancel",
+                    "zh": "取消",
+                    "th": "ยกเลิก",
+                    "ko": "취소하다",
+                    "es": "Cancelar"
+                  }
+                },
+                {
+                  "target": "จัดการ",
+                  "romanization": "jat gaan",
+                  "native": {
+                    "en": "Arrange",
+                    "zh": "安排",
+                    "th": "จัดเตรียม",
+                    "ko": "준비하다",
+                    "es": "Organizar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's meet tomorrow'",
+                "zh": "说'明天见面吧'",
+                "th": "พูด 'เจอกันพรุ่งนี้'",
+                "ko": "'내일 만나요'라고 말하세요",
+                "es": "Di 'nos vemos mañana'"
+              },
+              "words": [
+                "พรุ่งนี้",
+                "เจอกัน",
+                "มา"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ],
+                "male": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ],
+                "female": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ]
+              },
+              "romanization": "maa joeh gan phrung nee",
+              "tiles": {
+                "neutral": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ],
+                "male": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ],
+                "female": [
+                  "มา",
+                  "เจอกัน",
+                  "พรุ่งนี้"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Coordinating & Following Up",
+            "zh": "协调与跟进",
+            "th": "การประสานงานและการติดตาม",
+            "ko": "조율과 후속 연락",
+            "es": "Coordinar y dar seguimiento"
+          },
+          "objectives": {
+            "en": [
+              "Coordinate meetups and logistics",
+              "Follow up on plans"
+            ],
+            "zh": [
+              "协调聚会和后勤",
+              "跟进计划"
+            ],
+            "th": [
+              "Coordinate meetups and logistics",
+              "Follow up on plans"
+            ],
+            "ko": [
+              "Coordinate meetups and logistics",
+              "Follow up on plans"
+            ],
+            "es": [
+              "Coordinate meetups and logistics",
+              "Follow up on plans"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "รวมตัว",
+              "romanization": "ruam tua",
+              "meanings": {
+                "en": "Gather",
+                "zh": "聚集",
+                "th": "รวมตัว",
+                "ko": "모이다",
+                "es": "Reunirse"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "รวมตัวครับ",
+                  "romanization": "ruam tua khrap"
+                },
+                "female": {
+                  "word": "รวมตัวค่ะ",
+                  "romanization": "ruam tua kha"
+                }
+              }
+            },
+            {
+              "word": "เที่ยวด้วยกัน",
+              "romanization": "thiao duay gan",
+              "meanings": {
+                "en": "Hang out",
+                "zh": "一起出去玩",
+                "th": "ออกไปเที่ยว",
+                "ko": "놀다",
+                "es": "Pasar el rato"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เที่ยวด้วยกันครับ",
+                  "romanization": "thiao duay gan khrap"
+                },
+                "female": {
+                  "word": "เที่ยวด้วยกันค่ะ",
+                  "romanization": "thiao duay gan kha"
+                }
+              }
+            },
+            {
+              "word": "เจอกันอีก",
+              "romanization": "joeh gan eek",
+              "meanings": {
+                "en": "Catch up",
+                "zh": "叙旧",
+                "th": "เจอกัน",
+                "ko": "근황을 나누다",
+                "es": "Ponerse al día"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เจอกันอีกครับ",
+                  "romanization": "joeh gan eek khrap"
+                },
+                "female": {
+                  "word": "เจอกันอีกค่ะ",
+                  "romanization": "joeh gan eek kha"
+                }
+              }
+            },
+            {
+              "word": "แทน",
+              "romanization": "thaen",
+              "meanings": {
+                "en": "Instead",
+                "zh": "代替",
+                "th": "แทน",
+                "ko": "대신",
+                "es": "En su lugar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แทน",
+                  "romanization": "thaen"
+                },
+                "female": {
+                  "word": "แทน",
+                  "romanization": "thaen"
+                }
+              }
+            },
+            {
+              "word": "เปลี่ยนนัด",
+              "romanization": "plian nat",
+              "meanings": {
+                "en": "Reschedule",
+                "zh": "改约",
+                "th": "เปลี่ยนเวลานัด",
+                "ko": "일정 변경하다",
+                "es": "Reprogramar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เปลี่ยนนัด",
+                  "romanization": "plian nat"
+                },
+                "female": {
+                  "word": "เปลี่ยนนัด",
+                  "romanization": "plian nat"
+                }
+              }
+            },
+            {
+              "word": "เตือน",
+              "romanization": "tuean",
+              "meanings": {
+                "en": "Remind",
+                "zh": "提醒",
+                "th": "เตือน",
+                "ko": "상기시키다",
+                "es": "Recordar (a alguien)"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เตือนครับ",
+                  "romanization": "tuean khrap"
+                },
+                "female": {
+                  "word": "เตือนค่ะ",
+                  "romanization": "tuean kha"
+                }
+              }
+            },
+            {
+              "word": "ตั้งตารอ",
+              "romanization": "tang taa raw",
+              "meanings": {
+                "en": "Looking forward",
+                "zh": "期待",
+                "th": "ตั้งตารอ",
+                "ko": "기대하다",
+                "es": "Con ganas de"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ตั้งตารอครับ",
+                  "romanization": "tang taa raw khrap"
+                },
+                "female": {
+                  "word": "ตั้งตารอค่ะ",
+                  "romanization": "tang taa raw kha"
+                }
+              }
+            },
+            {
+              "word": "ไปรับ",
+              "romanization": "pai rap",
+              "meanings": {
+                "en": "Pick up",
+                "zh": "接",
+                "th": "รับ",
+                "ko": "데리러 가다",
+                "es": "Recoger"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไปรับครับ",
+                  "romanization": "pai rap khrap"
+                },
+                "female": {
+                  "word": "ไปรับค่ะ",
+                  "romanization": "pai rap kha"
+                }
+              }
+            },
+            {
+              "word": "ไปส่ง",
+              "romanization": "pai song",
+              "meanings": {
+                "en": "Drop off",
+                "zh": "送",
+                "th": "ส่ง",
+                "ko": "내려주다",
+                "es": "Dejar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไปส่งครับ",
+                  "romanization": "pai song khrap"
+                },
+                "female": {
+                  "word": "ไปส่งค่ะ",
+                  "romanization": "pai song kha"
+                }
+              }
+            },
+            {
+              "word": "เอามา",
+              "romanization": "ao maa",
+              "meanings": {
+                "en": "Bring",
+                "zh": "带来",
+                "th": "นำมา",
+                "ko": "가져오다",
+                "es": "Traer"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เอามาครับ",
+                  "romanization": "ao maa khrap"
+                },
+                "female": {
+                  "word": "เอามาค่ะ",
+                  "romanization": "ao maa kha"
+                }
+              }
+            },
+            {
+              "word": "เข้าร่วม",
+              "romanization": "khao ruam",
+              "meanings": {
+                "en": "Join",
+                "zh": "加入",
+                "th": "เข้าร่วม",
+                "ko": "합류하다",
+                "es": "Unirse"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เข้าร่วมครับ",
+                  "romanization": "khao ruam khrap"
+                },
+                "female": {
+                  "word": "เข้าร่วมค่ะ",
+                  "romanization": "khao ruam kha"
+                }
+              }
+            },
+            {
+              "word": "ออกไป",
+              "romanization": "awk pai",
+              "meanings": {
+                "en": "Leave",
+                "zh": "离开",
+                "th": "ออก",
+                "ko": "떠나다",
+                "es": "Salir"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ออกไปครับ",
+                  "romanization": "awk pai khrap"
+                },
+                "female": {
+                  "word": "ออกไปค่ะ",
+                  "romanization": "awk pai kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "รวมตัว",
+              "romanization": "ruam tua",
+              "options": {
+                "en": [
+                  "Gather",
+                  "Leave",
+                  "Bring",
+                  "Remind"
+                ],
+                "zh": [
+                  "聚集",
+                  "离开",
+                  "带来",
+                  "提醒"
+                ],
+                "th": [
+                  "รวมตัว",
+                  "ออก",
+                  "นำมา",
+                  "เตือน"
+                ],
+                "ko": [
+                  "모이다",
+                  "떠나다",
+                  "가져오다",
+                  "상기시키다"
+                ],
+                "es": [
+                  "Reunirse",
+                  "Salir",
+                  "Traer",
+                  "Recordar (a alguien)"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "รวมตัวครับ",
+                  "romanization": "ruam tua khrap"
+                },
+                "female": {
+                  "word": "รวมตัวค่ะ",
+                  "romanization": "ruam tua kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Pick up' in Thai?",
+                "zh": "泰语中'接'怎么说？",
+                "th": "คำว่า 'รับ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'데리러 가다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Recoger' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ไปรับ",
+                  "ไปส่ง",
+                  "เอามา",
+                  "ออกไป"
+                ],
+                "male": [
+                  "ไปรับครับ",
+                  "ไปส่งครับ",
+                  "เอามาครับ",
+                  "ออกไปครับ"
+                ],
+                "female": [
+                  "ไปรับค่ะ",
+                  "ไปส่งค่ะ",
+                  "เอามาค่ะ",
+                  "ออกไปค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เปลี่ยนนัด",
+              "romanization": "plian nat",
+              "options": {
+                "en": [
+                  "Reschedule",
+                  "Remind",
+                  "Instead",
+                  "Gather"
+                ],
+                "zh": [
+                  "改约",
+                  "提醒",
+                  "代替",
+                  "聚集"
+                ],
+                "th": [
+                  "เปลี่ยนเวลานัด",
+                  "เตือน",
+                  "แทน",
+                  "รวมตัว"
+                ],
+                "ko": [
+                  "일정 변경하다",
+                  "상기시키다",
+                  "대신",
+                  "모이다"
+                ],
+                "es": [
+                  "Reprogramar",
+                  "Recordar (a alguien)",
+                  "En su lugar",
+                  "Reunirse"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เปลี่ยนนัด",
+                  "romanization": "plian nat"
+                },
+                "female": {
+                  "audio_text": "เปลี่ยนนัด",
+                  "romanization": "plian nat"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เที่ยวด้วยกัน",
+                  "romanization": "thiao duay gan",
+                  "native": {
+                    "en": "Hang out",
+                    "zh": "一起出去玩",
+                    "th": "ออกไปเที่ยว",
+                    "ko": "놀다",
+                    "es": "Pasar el rato"
+                  }
+                },
+                {
+                  "target": "ไปรับ",
+                  "romanization": "pai rap",
+                  "native": {
+                    "en": "Pick up",
+                    "zh": "接",
+                    "th": "รับ",
+                    "ko": "데리러 가다",
+                    "es": "Recoger"
+                  }
+                },
+                {
+                  "target": "ออกไป",
+                  "romanization": "awk pai",
+                  "native": {
+                    "en": "Leave",
+                    "zh": "离开",
+                    "th": "ออก",
+                    "ko": "떠나다",
+                    "es": "Salir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I'll go pick you up'",
+                "zh": "说'我去接你'",
+                "th": "พูด 'ฉัน'",
+                "ko": "'나/저'라고 말하세요",
+                "es": "Di 'Yo'"
+              },
+              "words": [
+                "คุณ",
+                "ไป",
+                "รับ",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ],
+                "male": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ],
+                "female": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ]
+              },
+              "romanization": "chan pai rap khun",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ],
+                "male": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ],
+                "female": [
+                  "ฉัน",
+                  "ไป",
+                  "รับ",
+                  "คุณ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Talking About Yourself",
+        "zh": "谈论自己",
+        "th": "การพูดเกี่ยวกับตัวเอง",
+        "ko": "자기소개",
+        "es": "Hablar de ti mismo"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Origins & Life Events",
+            "zh": "出身与人生大事",
+            "th": "ที่มาและเหตุการณ์ในชีวิต",
+            "ko": "출신과 인생 이야기",
+            "es": "Orígenes y eventos de vida"
+          },
+          "objectives": {
+            "en": [
+              "Talk about where you come from",
+              "Describe key life events"
+            ],
+            "zh": [
+              "谈论你来自哪里",
+              "描述关键人生事件"
+            ],
+            "th": [
+              "Talk about where you come from",
+              "Describe key life events"
+            ],
+            "ko": [
+              "Talk about where you come from",
+              "Describe key life events"
+            ],
+            "es": [
+              "Talk about where you come from",
+              "Describe key life events"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เกิด",
+              "romanization": "goet",
+              "meanings": {
+                "en": "Born",
+                "zh": "出生",
+                "th": "เกิด",
+                "ko": "태어난",
+                "es": "Nacido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เกิด",
+                  "romanization": "goet"
+                },
+                "female": {
+                  "word": "เกิด",
+                  "romanization": "goet"
+                }
+              }
+            },
+            {
+              "word": "โตขึ้น",
+              "romanization": "toh kheun",
+              "meanings": {
+                "en": "Grow up",
+                "zh": "长大",
+                "th": "เติบโต",
+                "ko": "자라다",
+                "es": "Crecer"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "โตขึ้น",
+                  "romanization": "toh kheun"
+                },
+                "female": {
+                  "word": "โตขึ้น",
+                  "romanization": "toh kheun"
+                }
+              }
+            },
+            {
+              "word": "เรียน",
+              "romanization": "rian",
+              "meanings": {
+                "en": "Study",
+                "zh": "学习",
+                "th": "เรียน",
+                "ko": "공부하다",
+                "es": "Estudiar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เรียนครับ",
+                  "romanization": "rian khrap"
+                },
+                "female": {
+                  "word": "เรียนค่ะ",
+                  "romanization": "rian kha"
+                }
+              }
+            },
+            {
+              "word": "จบการศึกษา",
+              "romanization": "jop gaan seuk-saa",
+              "meanings": {
+                "en": "Graduate",
+                "zh": "毕业",
+                "th": "จบการศึกษา",
+                "ko": "졸업하다",
+                "es": "Graduarse"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "จบการศึกษาครับ",
+                  "romanization": "jop gaan seuk-saa khrap"
+                },
+                "female": {
+                  "word": "จบการศึกษาค่ะ",
+                  "romanization": "jop gaan seuk-saa kha"
+                }
+              }
+            },
+            {
+              "word": "ย้าย",
+              "romanization": "yaai",
+              "meanings": {
+                "en": "Move",
+                "zh": "搬家",
+                "th": "ย้าย",
+                "ko": "이사하다",
+                "es": "Mudarse"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ย้ายครับ",
+                  "romanization": "yaai khrap"
+                },
+                "female": {
+                  "word": "ย้ายค่ะ",
+                  "romanization": "yaai kha"
+                }
+              }
+            },
+            {
+              "word": "แต่งงาน",
+              "romanization": "taeng ngaan",
+              "meanings": {
+                "en": "Married",
+                "zh": "已婚",
+                "th": "แต่งงานแล้ว",
+                "ko": "결혼한",
+                "es": "Casado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แต่งงาน",
+                  "romanization": "taeng ngaan"
+                },
+                "female": {
+                  "word": "แต่งงาน",
+                  "romanization": "taeng ngaan"
+                }
+              }
+            },
+            {
+              "word": "โสด",
+              "romanization": "sot",
+              "meanings": {
+                "en": "Single",
+                "zh": "单身",
+                "th": "โสด",
+                "ko": "싱글",
+                "es": "Soltero"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "โสด",
+                  "romanization": "sot"
+                },
+                "female": {
+                  "word": "โสด",
+                  "romanization": "sot"
+                }
+              }
+            },
+            {
+              "word": "หย่า",
+              "romanization": "yaa",
+              "meanings": {
+                "en": "Divorced",
+                "zh": "离婚",
+                "th": "หย่าร้าง",
+                "ko": "이혼한",
+                "es": "Divorciado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หย่า",
+                  "romanization": "yaa"
+                },
+                "female": {
+                  "word": "หย่า",
+                  "romanization": "yaa"
+                }
+              }
+            },
+            {
+              "word": "สัญชาติ",
+              "romanization": "san-chaat",
+              "meanings": {
+                "en": "Nationality",
+                "zh": "国籍",
+                "th": "สัญชาติ",
+                "ko": "국적",
+                "es": "Nacionalidad"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "สัญชาติ",
+                  "romanization": "san-chaat"
+                },
+                "female": {
+                  "word": "สัญชาติ",
+                  "romanization": "san-chaat"
+                }
+              }
+            },
+            {
+              "word": "บ้านเกิด",
+              "romanization": "baan goet",
+              "meanings": {
+                "en": "Hometown",
+                "zh": "家乡",
+                "th": "บ้านเกิด",
+                "ko": "고향",
+                "es": "Ciudad natal"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "บ้านเกิด",
+                  "romanization": "baan goet"
+                },
+                "female": {
+                  "word": "บ้านเกิด",
+                  "romanization": "baan goet"
+                }
+              }
+            },
+            {
+              "word": "พื้นเพ",
+              "romanization": "phuen pheh",
+              "meanings": {
+                "en": "Background",
+                "zh": "背景",
+                "th": "พื้นหลัง",
+                "ko": "배경",
+                "es": "Fondo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พื้นเพ",
+                  "romanization": "phuen pheh"
+                },
+                "female": {
+                  "word": "พื้นเพ",
+                  "romanization": "phuen pheh"
+                }
+              }
+            },
+            {
+              "word": "ศาสนา",
+              "romanization": "saat-sa-naa",
+              "meanings": {
+                "en": "Religion",
+                "zh": "宗教",
+                "th": "ศาสนา",
+                "ko": "종교",
+                "es": "Religión"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ศาสนา",
+                  "romanization": "saat-sa-naa"
+                },
+                "female": {
+                  "word": "ศาสนา",
+                  "romanization": "saat-sa-naa"
+                }
+              }
+            },
+            {
+              "word": "ภาษา",
+              "romanization": "phaa-saa",
+              "meanings": {
+                "en": "Language",
+                "zh": "语言",
+                "th": "ภาษา",
+                "ko": "언어",
+                "es": "Idioma"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ภาษา",
+                  "romanization": "phaa-saa"
+                },
+                "female": {
+                  "word": "ภาษา",
+                  "romanization": "phaa-saa"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เกิด",
+              "romanization": "goet",
+              "options": {
+                "en": [
+                  "Born",
+                  "Study",
+                  "Move",
+                  "Graduate"
+                ],
+                "zh": [
+                  "出生",
+                  "学习",
+                  "搬家",
+                  "毕业"
+                ],
+                "th": [
+                  "เกิด",
+                  "เรียน",
+                  "ย้าย",
+                  "จบการศึกษา"
+                ],
+                "ko": [
+                  "태어난",
+                  "공부하다",
+                  "이사하다",
+                  "졸업하다"
+                ],
+                "es": [
+                  "Nacido",
+                  "Estudiar",
+                  "Mudarse",
+                  "Graduarse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Study' in Thai?",
+                "zh": "泰语中'学习'怎么说？",
+                "th": "คำว่า 'เรียน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'공부하다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Estudiar' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "เรียน",
+                  "เกิด",
+                  "ย้าย",
+                  "หย่า"
+                ],
+                "male": [
+                  "เรียนครับ",
+                  "เกิดครับ",
+                  "ย้ายครับ",
+                  "หย่าครับ"
+                ],
+                "female": [
+                  "เรียนค่ะ",
+                  "เกิดค่ะ",
+                  "ย้ายค่ะ",
+                  "หย่าค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "บ้านเกิด",
+              "romanization": "baan goet",
+              "options": {
+                "en": [
+                  "Hometown",
+                  "Nationality",
+                  "Language",
+                  "Background"
+                ],
+                "zh": [
+                  "家乡",
+                  "国籍",
+                  "语言",
+                  "背景"
+                ],
+                "th": [
+                  "บ้านเกิด",
+                  "สัญชาติ",
+                  "ภาษา",
+                  "พื้นหลัง"
+                ],
+                "ko": [
+                  "고향",
+                  "국적",
+                  "언어",
+                  "배경"
+                ],
+                "es": [
+                  "Ciudad natal",
+                  "Nacionalidad",
+                  "Idioma",
+                  "Fondo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "บ้านเกิด",
+                  "romanization": "baan goet"
+                },
+                "female": {
+                  "audio_text": "บ้านเกิด",
+                  "romanization": "baan goet"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "เกิด",
+                  "romanization": "goet",
+                  "native": {
+                    "en": "Born",
+                    "zh": "出生",
+                    "th": "เกิด",
+                    "ko": "태어난",
+                    "es": "Nacido"
+                  }
+                },
+                {
+                  "target": "โสด",
+                  "romanization": "sot",
+                  "native": {
+                    "en": "Single",
+                    "zh": "单身",
+                    "th": "โสด",
+                    "ko": "싱글",
+                    "es": "Soltero"
+                  }
+                },
+                {
+                  "target": "แต่งงาน",
+                  "romanization": "taeng ngaan",
+                  "native": {
+                    "en": "Married",
+                    "zh": "已婚",
+                    "th": "แต่งงานแล้ว",
+                    "ko": "결혼한",
+                    "es": "Casado"
+                  }
+                },
+                {
+                  "target": "หย่า",
+                  "romanization": "yaa",
+                  "native": {
+                    "en": "Divorced",
+                    "zh": "离婚",
+                    "th": "หย่าร้าง",
+                    "ko": "이혼한",
+                    "es": "Divorciado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I was born in Bangkok'",
+                "zh": "说'我出生在曼谷'",
+                "th": "พูด 'ฉันเกิดที่กรุงเทพ'",
+                "ko": "'방콕에서 태어났어요'라고 말하세요",
+                "es": "Di 'nací en Bangkok'"
+              },
+              "words": [
+                "กรุงเทพ",
+                "เกิด",
+                "ที่",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ],
+                "male": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ],
+                "female": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ]
+              },
+              "romanization": "chan goet thee grung-thep",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ],
+                "male": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ],
+                "female": [
+                  "ฉัน",
+                  "เกิด",
+                  "ที่",
+                  "กรุงเทพ"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Identity & Personality",
+            "zh": "身份与性格",
+            "th": "ตัวตนและบุคลิกภาพ",
+            "ko": "정체성과 성격",
+            "es": "Identidad y personalidad"
+          },
+          "objectives": {
+            "en": [
+              "Describe personality types",
+              "Talk about culture and traditions"
+            ],
+            "zh": [
+              "描述性格类型",
+              "谈论文化和传统"
+            ],
+            "th": [
+              "Describe personality types",
+              "Talk about culture and traditions"
+            ],
+            "ko": [
+              "Describe personality types",
+              "Talk about culture and traditions"
+            ],
+            "es": [
+              "Describe personality types",
+              "Talk about culture and traditions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "วัฒนธรรม",
+              "romanization": "wat-tha-na-tham",
+              "meanings": {
+                "en": "Culture",
+                "zh": "文化",
+                "th": "วัฒนธรรม",
+                "ko": "문화",
+                "es": "Cultura"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "วัฒนธรรม",
+                  "romanization": "wat-tha-na-tham"
+                },
+                "female": {
+                  "word": "วัฒนธรรม",
+                  "romanization": "wat-tha-na-tham"
+                }
+              }
+            },
+            {
+              "word": "ประเพณี",
+              "romanization": "pra-pheh-nee",
+              "meanings": {
+                "en": "Tradition",
+                "zh": "传统",
+                "th": "ประเพณี",
+                "ko": "전통",
+                "es": "Tradición"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ประเพณี",
+                  "romanization": "pra-pheh-nee"
+                },
+                "female": {
+                  "word": "ประเพณี",
+                  "romanization": "pra-pheh-nee"
+                }
+              }
+            },
+            {
+              "word": "บุคลิก",
+              "romanization": "buk-kha-lik",
+              "meanings": {
+                "en": "Personality",
+                "zh": "性格",
+                "th": "บุคลิกภาพ",
+                "ko": "성격",
+                "es": "Personalidad"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "บุคลิก",
+                  "romanization": "buk-kha-lik"
+                },
+                "female": {
+                  "word": "บุคลิก",
+                  "romanization": "buk-kha-lik"
+                }
+              }
+            },
+            {
+              "word": "คนเก็บตัว",
+              "romanization": "khon gep tua",
+              "meanings": {
+                "en": "Introvert",
+                "zh": "内向的人",
+                "th": "คนเก็บตัว",
+                "ko": "내향적인 사람",
+                "es": "Introvertido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "คนเก็บตัว",
+                  "romanization": "khon gep tua"
+                },
+                "female": {
+                  "word": "คนเก็บตัว",
+                  "romanization": "khon gep tua"
+                }
+              }
+            },
+            {
+              "word": "คนชอบสังคม",
+              "romanization": "khon chawp sang-khom",
+              "meanings": {
+                "en": "Extrovert",
+                "zh": "外向的人",
+                "th": "คนเปิดเผย",
+                "ko": "외향적인 사람",
+                "es": "Extrovertido"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คนชอบสังคม",
+                  "romanization": "khon chawp sang-khom"
+                },
+                "female": {
+                  "word": "คนชอบสังคม",
+                  "romanization": "khon chawp sang-khom"
+                }
+              }
+            },
+            {
+              "word": "ทะเยอทะยาน",
+              "romanization": "tha-yoeh tha-yaan",
+              "meanings": {
+                "en": "Ambitious",
+                "zh": "有抱负的",
+                "th": "ทะเยอทะยาน",
+                "ko": "야심 찬",
+                "es": "Ambicioso"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทะเยอทะยาน",
+                  "romanization": "tha-yoeh tha-yaan"
+                },
+                "female": {
+                  "word": "ทะเยอทะยาน",
+                  "romanization": "tha-yoeh tha-yaan"
+                }
+              }
+            },
+            {
+              "word": "สร้างสรรค์",
+              "romanization": "saang san",
+              "meanings": {
+                "en": "Creative",
+                "zh": "有创造力的",
+                "th": "สร้างสรรค์",
+                "ko": "창의적인",
+                "es": "Creativo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "สร้างสรรค์",
+                  "romanization": "saang san"
+                },
+                "female": {
+                  "word": "สร้างสรรค์",
+                  "romanization": "saang san"
+                }
+              }
+            },
+            {
+              "word": "อธิบาย",
+              "romanization": "a-thi-baai",
+              "meanings": {
+                "en": "Describe",
+                "zh": "描述",
+                "th": "อธิบาย",
+                "ko": "묘사하다",
+                "es": "Describir"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อธิบายครับ",
+                  "romanization": "a-thi-baai khrap"
+                },
+                "female": {
+                  "word": "อธิบายค่ะ",
+                  "romanization": "a-thi-baai kha"
+                }
+              }
+            },
+            {
+              "word": "แนะนำตัว",
+              "romanization": "nae nam tua",
+              "meanings": {
+                "en": "Introduce",
+                "zh": "介绍",
+                "th": "แนะนำ",
+                "ko": "소개하다",
+                "es": "Presentar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แนะนำตัวครับ",
+                  "romanization": "nae nam tua khrap"
+                },
+                "female": {
+                  "word": "แนะนำตัวค่ะ",
+                  "romanization": "nae nam tua kha"
+                }
+              }
+            },
+            {
+              "word": "แบ่งปัน",
+              "romanization": "baeng pan",
+              "meanings": {
+                "en": "Share",
+                "zh": "分享",
+                "th": "แบ่งปัน",
+                "ko": "나누다",
+                "es": "Compartir"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แบ่งปันครับ",
+                  "romanization": "baeng pan khrap"
+                },
+                "female": {
+                  "word": "แบ่งปันค่ะ",
+                  "romanization": "baeng pan kha"
+                }
+              }
+            },
+            {
+              "word": "พูดถึง",
+              "romanization": "phuut theung",
+              "meanings": {
+                "en": "Mention",
+                "zh": "提到",
+                "th": "กล่าวถึง",
+                "ko": "언급하다",
+                "es": "Mencionar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "พูดถึงครับ",
+                  "romanization": "phuut theung khrap"
+                },
+                "female": {
+                  "word": "พูดถึงค่ะ",
+                  "romanization": "phuut theung kha"
+                }
+              }
+            },
+            {
+              "word": "ชี้แจง",
+              "romanization": "chee jaeng",
+              "meanings": {
+                "en": "Explain",
+                "zh": "解释",
+                "th": "อธิบาย",
+                "ko": "설명하다",
+                "es": "Explicar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชี้แจงครับ",
+                  "romanization": "chee jaeng khrap"
+                },
+                "female": {
+                  "word": "ชี้แจงค่ะ",
+                  "romanization": "chee jaeng kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "วัฒนธรรม",
+              "romanization": "wat-tha-na-tham",
+              "options": {
+                "en": [
+                  "Culture",
+                  "Tradition",
+                  "Personality",
+                  "Religion"
+                ],
+                "zh": [
+                  "文化",
+                  "传统",
+                  "性格",
+                  "宗教"
+                ],
+                "th": [
+                  "วัฒนธรรม",
+                  "ประเพณี",
+                  "บุคลิกภาพ",
+                  "ศาสนา"
+                ],
+                "ko": [
+                  "문화",
+                  "전통",
+                  "성격",
+                  "종교"
+                ],
+                "es": [
+                  "Cultura",
+                  "Tradición",
+                  "Personalidad",
+                  "Religión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Share' in Thai?",
+                "zh": "泰语中'分享'怎么说？",
+                "th": "คำว่า 'แบ่งปัน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'나누다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Compartir' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "แบ่งปัน",
+                  "พูดถึง",
+                  "ชี้แจง",
+                  "แนะนำตัว"
+                ],
+                "male": [
+                  "แบ่งปันครับ",
+                  "พูดถึงครับ",
+                  "ชี้แจงครับ",
+                  "แนะนำตัวครับ"
+                ],
+                "female": [
+                  "แบ่งปันค่ะ",
+                  "พูดถึงค่ะ",
+                  "ชี้แจงค่ะ",
+                  "แนะนำตัวค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ทะเยอทะยาน",
+              "romanization": "tha-yoeh tha-yaan",
+              "options": {
+                "en": [
+                  "Ambitious",
+                  "Creative",
+                  "Personality",
+                  "Tradition"
+                ],
+                "zh": [
+                  "有抱负的",
+                  "有创造力的",
+                  "性格",
+                  "传统"
+                ],
+                "th": [
+                  "ทะเยอทะยาน",
+                  "สร้างสรรค์",
+                  "บุคลิกภาพ",
+                  "ประเพณี"
+                ],
+                "ko": [
+                  "야심 찬",
+                  "창의적인",
+                  "성격",
+                  "전통"
+                ],
+                "es": [
+                  "Ambicioso",
+                  "Creativo",
+                  "Personalidad",
+                  "Tradición"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ทะเยอทะยาน",
+                  "romanization": "tha-yoeh tha-yaan"
+                },
+                "female": {
+                  "audio_text": "ทะเยอทะยาน",
+                  "romanization": "tha-yoeh tha-yaan"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "คนเก็บตัว",
+                  "romanization": "khon gep tua",
+                  "native": {
+                    "en": "Introvert",
+                    "zh": "内向的人",
+                    "th": "คนเก็บตัว",
+                    "ko": "내향적인 사람",
+                    "es": "Introvertido"
+                  }
+                },
+                {
+                  "target": "คนชอบสังคม",
+                  "romanization": "khon chawp sang-khom",
+                  "native": {
+                    "en": "Extrovert",
+                    "zh": "外向的人",
+                    "th": "คนเปิดเผย",
+                    "ko": "외향적인 사람",
+                    "es": "Extrovertido"
+                  }
+                },
+                {
+                  "target": "ทะเยอทะยาน",
+                  "romanization": "tha-yoeh tha-yaan",
+                  "native": {
+                    "en": "Ambitious",
+                    "zh": "有抱负的",
+                    "th": "ทะเยอทะยาน",
+                    "ko": "야심 찬",
+                    "es": "Ambicioso"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I am a creative person'",
+                "zh": "说'我是一个有创造力的人'",
+                "th": "พูด 'ฉันเป็นคนสร้างสรรค์'",
+                "ko": "'저는 창의적인 사람이에요'라고 말하세요",
+                "es": "Di 'soy una persona creativa'"
+              },
+              "words": [
+                "สร้างสรรค์",
+                "คน",
+                "เป็น",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ],
+                "male": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ],
+                "female": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ]
+              },
+              "romanization": "chan pen khon saang san",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ],
+                "male": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ],
+                "female": [
+                  "ฉัน",
+                  "เป็น",
+                  "คน",
+                  "สร้างสรรค์"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Opinions & Small Talk",
+        "zh": "观点与闲聊",
+        "th": "ความคิดเห็นและการพูดคุยทั่วไป",
+        "ko": "의견과 일상 대화",
+        "es": "Opiniones y charla informal"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Expressing Opinions",
+            "zh": "表达观点",
+            "th": "การแสดงความคิดเห็น",
+            "ko": "의견 표현하기",
+            "es": "Expresar opiniones"
+          },
+          "objectives": {
+            "en": [
+              "Express agreement and disagreement",
+              "Share opinions and beliefs"
+            ],
+            "zh": [
+              "表达赞同和反对",
+              "分享看法和信念"
+            ],
+            "th": [
+              "Express agreement and disagreement",
+              "Share opinions and beliefs"
+            ],
+            "ko": [
+              "Express agreement and disagreement",
+              "Share opinions and beliefs"
+            ],
+            "es": [
+              "Express agreement and disagreement",
+              "Share opinions and beliefs"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "คิด",
+              "romanization": "khit",
+              "meanings": {
+                "en": "Think",
+                "zh": "想/认为",
+                "th": "คิด",
+                "ko": "생각하다",
+                "es": "Pensar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คิดครับ",
+                  "romanization": "khit khrap"
+                },
+                "female": {
+                  "word": "คิดค่ะ",
+                  "romanization": "khit kha"
+                }
+              }
+            },
+            {
+              "word": "เชื่อ",
+              "romanization": "cheua",
+              "meanings": {
+                "en": "Believe",
+                "zh": "相信",
+                "th": "เชื่อ",
+                "ko": "믿다",
+                "es": "Creer"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เชื่อครับ",
+                  "romanization": "cheua khrap"
+                },
+                "female": {
+                  "word": "เชื่อค่ะ",
+                  "romanization": "cheua kha"
+                }
+              }
+            },
+            {
+              "word": "เห็นด้วย",
+              "romanization": "hen duay",
+              "meanings": {
+                "en": "Agree",
+                "zh": "同意",
+                "th": "เห็นด้วย",
+                "ko": "동의하다",
+                "es": "Estar de acuerdo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เห็นด้วยครับ",
+                  "romanization": "hen duay khrap"
+                },
+                "female": {
+                  "word": "เห็นด้วยค่ะ",
+                  "romanization": "hen duay kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่เห็นด้วย",
+              "romanization": "mai hen duay",
+              "meanings": {
+                "en": "Disagree",
+                "zh": "不同意",
+                "th": "ไม่เห็นด้วย",
+                "ko": "동의하지 않다",
+                "es": "No estar de acuerdo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ไม่เห็นด้วยครับ",
+                  "romanization": "mai hen duay khrap"
+                },
+                "female": {
+                  "word": "ไม่เห็นด้วยค่ะ",
+                  "romanization": "mai hen duay kha"
+                }
+              }
+            },
+            {
+              "word": "ความคิดเห็น",
+              "romanization": "khwaam khit hen",
+              "meanings": {
+                "en": "Opinion",
+                "zh": "意见",
+                "th": "ความคิดเห็น",
+                "ko": "의견",
+                "es": "Opinión"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ความคิดเห็น",
+                  "romanization": "khwaam khit hen"
+                },
+                "female": {
+                  "word": "ความคิดเห็น",
+                  "romanization": "khwaam khit hen"
+                }
+              }
+            },
+            {
+              "word": "มุมมอง",
+              "romanization": "mum mawng",
+              "meanings": {
+                "en": "Point of view",
+                "zh": "观点",
+                "th": "มุมมอง",
+                "ko": "관점",
+                "es": "Punto de vista"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มุมมอง",
+                  "romanization": "mum mawng"
+                },
+                "female": {
+                  "word": "มุมมอง",
+                  "romanization": "mum mawng"
+                }
+              }
+            },
+            {
+              "word": "จริงๆ",
+              "romanization": "jing jing",
+              "meanings": {
+                "en": "Really",
+                "zh": "真的",
+                "th": "จริงๆ",
+                "ko": "정말",
+                "es": "De verdad"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จริงๆ",
+                  "romanization": "jing jing"
+                },
+                "female": {
+                  "word": "จริงๆ",
+                  "romanization": "jing jing"
+                }
+              }
+            },
+            {
+              "word": "ค่อนข้าง",
+              "romanization": "khawn khaang",
+              "meanings": {
+                "en": "Quite",
+                "zh": "相当",
+                "th": "ค่อนข้าง",
+                "ko": "꽤",
+                "es": "Bastante"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ค่อนข้าง",
+                  "romanization": "khawn khaang"
+                },
+                "female": {
+                  "word": "ค่อนข้าง",
+                  "romanization": "khawn khaang"
+                }
+              }
+            },
+            {
+              "word": "แน่นอน",
+              "romanization": "nae nawn",
+              "meanings": {
+                "en": "Definitely",
+                "zh": "肯定",
+                "th": "แน่นอน",
+                "ko": "분명히",
+                "es": "Definitivamente"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แน่นอน",
+                  "romanization": "nae nawn"
+                },
+                "female": {
+                  "word": "แน่นอน",
+                  "romanization": "nae nawn"
+                }
+              }
+            },
+            {
+              "word": "อาจจะ",
+              "romanization": "aat ja",
+              "meanings": {
+                "en": "Probably",
+                "zh": "可能",
+                "th": "อาจจะ",
+                "ko": "아마",
+                "es": "Probablemente"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาจจะ",
+                  "romanization": "aat ja"
+                },
+                "female": {
+                  "word": "อาจจะ",
+                  "romanization": "aat ja"
+                }
+              }
+            },
+            {
+              "word": "คิดว่า",
+              "romanization": "khit waa",
+              "meanings": {
+                "en": "Suppose",
+                "zh": "猜想",
+                "th": "คิดว่า",
+                "ko": "생각하다",
+                "es": "Suponer"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คิดว่าครับ",
+                  "romanization": "khit waa khrap"
+                },
+                "female": {
+                  "word": "คิดว่าค่ะ",
+                  "romanization": "khit waa kha"
+                }
+              }
+            },
+            {
+              "word": "สงสัย",
+              "romanization": "song-sai",
+              "meanings": {
+                "en": "Wonder",
+                "zh": "好奇",
+                "th": "สงสัย",
+                "ko": "궁금하다",
+                "es": "Preguntarse"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สงสัยครับ",
+                  "romanization": "song-sai khrap"
+                },
+                "female": {
+                  "word": "สงสัยค่ะ",
+                  "romanization": "song-sai kha"
+                }
+              }
+            },
+            {
+              "word": "ดูเหมือน",
+              "romanization": "duu meuuan",
+              "meanings": {
+                "en": "Seems",
+                "zh": "似乎",
+                "th": "ดูเหมือน",
+                "ko": "보이다",
+                "es": "Parece"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ดูเหมือน",
+                  "romanization": "duu meuuan"
+                },
+                "female": {
+                  "word": "ดูเหมือน",
+                  "romanization": "duu meuuan"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "คิด",
+              "romanization": "khit",
+              "options": {
+                "en": [
+                  "Think",
+                  "Believe",
+                  "Agree",
+                  "Wonder"
+                ],
+                "zh": [
+                  "想/认为",
+                  "相信",
+                  "同意",
+                  "好奇"
+                ],
+                "th": [
+                  "คิด",
+                  "เชื่อ",
+                  "เห็นด้วย",
+                  "สงสัย"
+                ],
+                "ko": [
+                  "생각하다",
+                  "믿다",
+                  "동의하다",
+                  "궁금하다"
+                ],
+                "es": [
+                  "Pensar",
+                  "Creer",
+                  "Estar de acuerdo",
+                  "Preguntarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "คิดครับ",
+                  "romanization": "khit khrap"
+                },
+                "female": {
+                  "word": "คิดค่ะ",
+                  "romanization": "khit kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Believe' in Thai?",
+                "zh": "泰语中'相信'怎么说？",
+                "th": "คำว่า 'เชื่อ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'믿다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Creer' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "เชื่อ",
+                  "คิด",
+                  "สงสัย",
+                  "เห็นด้วย"
+                ],
+                "male": [
+                  "เชื่อครับ",
+                  "คิดครับ",
+                  "สงสัยครับ",
+                  "เห็นด้วยครับ"
+                ],
+                "female": [
+                  "เชื่อค่ะ",
+                  "คิดค่ะ",
+                  "สงสัยค่ะ",
+                  "เห็นด้วยค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ความคิดเห็น",
+              "romanization": "khwaam khit hen",
+              "options": {
+                "en": [
+                  "Opinion",
+                  "Point of view",
+                  "Definitely",
+                  "Wonder"
+                ],
+                "zh": [
+                  "意见",
+                  "观点",
+                  "肯定",
+                  "好奇"
+                ],
+                "th": [
+                  "ความคิดเห็น",
+                  "มุมมอง",
+                  "แน่นอน",
+                  "สงสัย"
+                ],
+                "ko": [
+                  "의견",
+                  "관점",
+                  "분명히",
+                  "궁금하다"
+                ],
+                "es": [
+                  "Opinión",
+                  "Punto de vista",
+                  "Definitivamente",
+                  "Preguntarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ความคิดเห็น",
+                  "romanization": "khwaam khit hen"
+                },
+                "female": {
+                  "audio_text": "ความคิดเห็น",
+                  "romanization": "khwaam khit hen"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "คิด",
+                  "romanization": "khit",
+                  "native": {
+                    "en": "Think",
+                    "zh": "想/认为",
+                    "th": "คิด",
+                    "ko": "생각하다",
+                    "es": "Pensar"
+                  }
+                },
+                {
+                  "target": "เชื่อ",
+                  "romanization": "cheua",
+                  "native": {
+                    "en": "Believe",
+                    "zh": "相信",
+                    "th": "เชื่อ",
+                    "ko": "믿다",
+                    "es": "Creer"
+                  }
+                },
+                {
+                  "target": "เห็นด้วย",
+                  "romanization": "hen duay",
+                  "native": {
+                    "en": "Agree",
+                    "zh": "同意",
+                    "th": "เห็นด้วย",
+                    "ko": "동의하다",
+                    "es": "Estar de acuerdo"
+                  }
+                },
+                {
+                  "target": "สงสัย",
+                  "romanization": "song-sai",
+                  "native": {
+                    "en": "Wonder",
+                    "zh": "好奇",
+                    "th": "สงสัย",
+                    "ko": "궁금하다",
+                    "es": "Preguntarse"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I think it's good'",
+                "zh": "说'我觉得好'",
+                "th": "พูด 'ฉันคิดว่าดี'",
+                "ko": "'좋다고 생각해요'라고 말하세요",
+                "es": "Di 'creo que es bueno'"
+              },
+              "words": [
+                "ดี",
+                "คิดว่า",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ],
+                "male": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ],
+                "female": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ]
+              },
+              "romanization": "chan khit waa dee",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ],
+                "male": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ],
+                "female": [
+                  "ฉัน",
+                  "คิดว่า",
+                  "ดี"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Making Conversation",
+            "zh": "日常对话",
+            "th": "การสนทนา",
+            "ko": "대화 나누기",
+            "es": "Hacer conversación"
+          },
+          "objectives": {
+            "en": [
+              "Describe things as interesting or boring",
+              "Chat casually with others"
+            ],
+            "zh": [
+              "描述事物有趣或无聊",
+              "与他人闲聊"
+            ],
+            "th": [
+              "Describe things as interesting or boring",
+              "Chat casually with others"
+            ],
+            "ko": [
+              "Describe things as interesting or boring",
+              "Chat casually with others"
+            ],
+            "es": [
+              "Describe things as interesting or boring",
+              "Chat casually with others"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "จริงๆ แล้ว",
+              "romanization": "jing jing laew",
+              "meanings": {
+                "en": "Actually",
+                "zh": "其实",
+                "th": "จริงๆ แล้ว",
+                "ko": "사실은",
+                "es": "En realidad"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จริงๆ แล้ว",
+                  "romanization": "jing jing laew"
+                },
+                "female": {
+                  "word": "จริงๆ แล้ว",
+                  "romanization": "jing jing laew"
+                }
+              }
+            },
+            {
+              "word": "พูดตรงๆ",
+              "romanization": "phuut trong trong",
+              "meanings": {
+                "en": "Honestly",
+                "zh": "老实说",
+                "th": "พูดตรงๆ",
+                "ko": "솔직히",
+                "es": "Honestamente"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พูดตรงๆครับ",
+                  "romanization": "phuut trong trong khrap"
+                },
+                "female": {
+                  "word": "พูดตรงๆค่ะ",
+                  "romanization": "phuut trong trong kha"
+                }
+              }
+            },
+            {
+              "word": "น่าสนใจ",
+              "romanization": "naa son jai",
+              "meanings": {
+                "en": "Interesting",
+                "zh": "有趣的",
+                "th": "น่าสนใจ",
+                "ko": "흥미로운",
+                "es": "Interesante"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "น่าสนใจ",
+                  "romanization": "naa son jai"
+                },
+                "female": {
+                  "word": "น่าสนใจ",
+                  "romanization": "naa son jai"
+                }
+              }
+            },
+            {
+              "word": "น่าเบื่อ",
+              "romanization": "naa beua",
+              "meanings": {
+                "en": "Boring",
+                "zh": "无聊的",
+                "th": "น่าเบื่อ",
+                "ko": "지루한",
+                "es": "Aburrido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "น่าเบื่อ",
+                  "romanization": "naa beua"
+                },
+                "female": {
+                  "word": "น่าเบื่อ",
+                  "romanization": "naa beua"
+                }
+              }
+            },
+            {
+              "word": "น่าทึ่ง",
+              "romanization": "naa theung",
+              "meanings": {
+                "en": "Amazing",
+                "zh": "令人惊叹的",
+                "th": "น่าทึ่ง",
+                "ko": "놀라운",
+                "es": "Increíble"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "น่าทึ่ง",
+                  "romanization": "naa theung"
+                },
+                "female": {
+                  "word": "น่าทึ่ง",
+                  "romanization": "naa theung"
+                }
+              }
+            },
+            {
+              "word": "แย่มาก",
+              "romanization": "yae maak",
+              "meanings": {
+                "en": "Terrible",
+                "zh": "糟糕的",
+                "th": "แย่มาก",
+                "ko": "끔찍한",
+                "es": "Terrible"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แย่มาก",
+                  "romanization": "yae maak"
+                },
+                "female": {
+                  "word": "แย่มาก",
+                  "romanization": "yae maak"
+                }
+              }
+            },
+            {
+              "word": "แปลก",
+              "romanization": "plaek",
+              "meanings": {
+                "en": "Unusual",
+                "zh": "不寻常的",
+                "th": "ไม่ธรรมดา",
+                "ko": "특이한",
+                "es": "Inusual"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แปลก",
+                  "romanization": "plaek"
+                },
+                "female": {
+                  "word": "แปลก",
+                  "romanization": "plaek"
+                }
+              }
+            },
+            {
+              "word": "หัวข้อ",
+              "romanization": "hua khaw",
+              "meanings": {
+                "en": "Topic",
+                "zh": "话题",
+                "th": "หัวข้อ",
+                "ko": "주제",
+                "es": "Tema"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หัวข้อ",
+                  "romanization": "hua khaw"
+                },
+                "female": {
+                  "word": "หัวข้อ",
+                  "romanization": "hua khaw"
+                }
+              }
+            },
+            {
+              "word": "การสนทนา",
+              "romanization": "gaan son-tha-naa",
+              "meanings": {
+                "en": "Conversation",
+                "zh": "对话",
+                "th": "การสนทนา",
+                "ko": "대화",
+                "es": "Conversación"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "การสนทนา",
+                  "romanization": "gaan son-tha-naa"
+                },
+                "female": {
+                  "word": "การสนทนา",
+                  "romanization": "gaan son-tha-naa"
+                }
+              }
+            },
+            {
+              "word": "พูดคุย",
+              "romanization": "phuut khui",
+              "meanings": {
+                "en": "Discuss",
+                "zh": "讨论",
+                "th": "พูดคุย",
+                "ko": "토론하다",
+                "es": "Discutir"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พูดคุยครับ",
+                  "romanization": "phuut khui khrap"
+                },
+                "female": {
+                  "word": "พูดคุยค่ะ",
+                  "romanization": "phuut khui kha"
+                }
+              }
+            },
+            {
+              "word": "คุยกัน",
+              "romanization": "khui gan",
+              "meanings": {
+                "en": "Chat",
+                "zh": "聊天",
+                "th": "คุย",
+                "ko": "채팅하다",
+                "es": "Chatear"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คุยกันครับ",
+                  "romanization": "khui gan khrap"
+                },
+                "female": {
+                  "word": "คุยกันค่ะ",
+                  "romanization": "khui gan kha"
+                }
+              }
+            },
+            {
+              "word": "นินทา",
+              "romanization": "nin-thaa",
+              "meanings": {
+                "en": "Gossip",
+                "zh": "八卦",
+                "th": "นินทา",
+                "ko": "가십",
+                "es": "Chisme"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "นินทาครับ",
+                  "romanization": "nin-thaa khrap"
+                },
+                "female": {
+                  "word": "นินทาค่ะ",
+                  "romanization": "nin-thaa kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "น่าสนใจ",
+              "romanization": "naa son jai",
+              "options": {
+                "en": [
+                  "Interesting",
+                  "Boring",
+                  "Amazing",
+                  "Terrible"
+                ],
+                "zh": [
+                  "有趣的",
+                  "无聊的",
+                  "令人惊叹的",
+                  "糟糕的"
+                ],
+                "th": [
+                  "น่าสนใจ",
+                  "น่าเบื่อ",
+                  "น่าทึ่ง",
+                  "แย่มาก"
+                ],
+                "ko": [
+                  "흥미로운",
+                  "지루한",
+                  "놀라운",
+                  "끔찍한"
+                ],
+                "es": [
+                  "Interesante",
+                  "Aburrido",
+                  "Increíble",
+                  "Terrible"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Boring' in Thai?",
+                "zh": "泰语中'无聊的'怎么说？",
+                "th": "คำว่า 'น่าเบื่อ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'지루한'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Aburrido' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "น่าเบื่อ",
+                  "น่าสนใจ",
+                  "น่าทึ่ง",
+                  "แปลก"
+                ],
+                "male": [
+                  "น่าเบื่อครับ",
+                  "น่าสนใจครับ",
+                  "น่าทึ่งครับ",
+                  "แปลกครับ"
+                ],
+                "female": [
+                  "น่าเบื่อค่ะ",
+                  "น่าสนใจค่ะ",
+                  "น่าทึ่งค่ะ",
+                  "แปลกค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "แย่มาก",
+              "romanization": "yae maak",
+              "options": {
+                "en": [
+                  "Terrible",
+                  "Amazing",
+                  "Unusual",
+                  "Boring"
+                ],
+                "zh": [
+                  "糟糕的",
+                  "令人惊叹的",
+                  "不寻常的",
+                  "无聊的"
+                ],
+                "th": [
+                  "แย่มาก",
+                  "น่าทึ่ง",
+                  "ไม่ธรรมดา",
+                  "น่าเบื่อ"
+                ],
+                "ko": [
+                  "끔찍한",
+                  "놀라운",
+                  "특이한",
+                  "지루한"
+                ],
+                "es": [
+                  "Terrible",
+                  "Increíble",
+                  "Inusual",
+                  "Aburrido"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "แย่มาก",
+                  "romanization": "yae maak"
+                },
+                "female": {
+                  "audio_text": "แย่มาก",
+                  "romanization": "yae maak"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "น่าสนใจ",
+                  "romanization": "naa son jai",
+                  "native": {
+                    "en": "Interesting",
+                    "zh": "有趣的",
+                    "th": "น่าสนใจ",
+                    "ko": "흥미로운",
+                    "es": "Interesante"
+                  }
+                },
+                {
+                  "target": "น่าเบื่อ",
+                  "romanization": "naa beua",
+                  "native": {
+                    "en": "Boring",
+                    "zh": "无聊的",
+                    "th": "น่าเบื่อ",
+                    "ko": "지루한",
+                    "es": "Aburrido"
+                  }
+                },
+                {
+                  "target": "น่าทึ่ง",
+                  "romanization": "naa theung",
+                  "native": {
+                    "en": "Amazing",
+                    "zh": "令人惊叹的",
+                    "th": "น่าทึ่ง",
+                    "ko": "놀라운",
+                    "es": "Increíble"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This topic is interesting'",
+                "zh": "说'这个话题有趣'",
+                "th": "พูด 'หัวข้อนี้น่าสนใจ'",
+                "ko": "'이 주제는 흥미로워요'라고 말하세요",
+                "es": "Di 'este tema es interesante'"
+              },
+              "words": [
+                "น่าสนใจ",
+                "นี้",
+                "หัวข้อ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ],
+                "male": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ],
+                "female": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ]
+              },
+              "romanization": "hua khaw nee naa son jai",
+              "tiles": {
+                "neutral": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ],
+                "male": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ],
+                "female": [
+                  "หัวข้อ",
+                  "นี้",
+                  "น่าสนใจ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Celebrations & Events",
+        "zh": "庆祝与活动",
+        "th": "การเฉลิมฉลองและกิจกรรม",
+        "ko": "축하와 행사",
+        "es": "Celebraciones y eventos"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Parties & Gifts",
+            "zh": "聚会与礼物",
+            "th": "ปาร์ตี้และของขวัญ",
+            "ko": "파티와 선물",
+            "es": "Fiestas y regalos"
+          },
+          "objectives": {
+            "en": [
+              "Talk about celebrations and events",
+              "Give and receive gifts"
+            ],
+            "zh": [
+              "谈论庆祝活动和事件",
+              "赠送和接收礼物"
+            ],
+            "th": [
+              "Talk about celebrations and events",
+              "Give and receive gifts"
+            ],
+            "ko": [
+              "Talk about celebrations and events",
+              "Give and receive gifts"
+            ],
+            "es": [
+              "Talk about celebrations and events",
+              "Give and receive gifts"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "วันเกิด",
+              "romanization": "wan goet",
+              "meanings": {
+                "en": "Birthday",
+                "zh": "生日",
+                "th": "วันเกิด",
+                "ko": "생일",
+                "es": "Cumpleaños"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "วันเกิด",
+                  "romanization": "wan goet"
+                },
+                "female": {
+                  "word": "วันเกิด",
+                  "romanization": "wan goet"
+                }
+              }
+            },
+            {
+              "word": "งานเลี้ยง",
+              "romanization": "ngaan liang",
+              "meanings": {
+                "en": "Party",
+                "zh": "派对",
+                "th": "ปาร์ตี้",
+                "ko": "파티",
+                "es": "Fiesta"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "งานเลี้ยง",
+                  "romanization": "ngaan liang"
+                },
+                "female": {
+                  "word": "งานเลี้ยง",
+                  "romanization": "ngaan liang"
+                }
+              }
+            },
+            {
+              "word": "งานแต่งงาน",
+              "romanization": "ngaan taeng ngaan",
+              "meanings": {
+                "en": "Wedding",
+                "zh": "婚礼",
+                "th": "งานแต่งงาน",
+                "ko": "결혼식",
+                "es": "Boda"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "งานแต่งงาน",
+                  "romanization": "ngaan taeng ngaan"
+                },
+                "female": {
+                  "word": "งานแต่งงาน",
+                  "romanization": "ngaan taeng ngaan"
+                }
+              }
+            },
+            {
+              "word": "วันครบรอบ",
+              "romanization": "wan khrop rawp",
+              "meanings": {
+                "en": "Anniversary",
+                "zh": "周年纪念",
+                "th": "วันครบรอบ",
+                "ko": "기념일",
+                "es": "Aniversario"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "วันครบรอบ",
+                  "romanization": "wan khrop rawp"
+                },
+                "female": {
+                  "word": "วันครบรอบ",
+                  "romanization": "wan khrop rawp"
+                }
+              }
+            },
+            {
+              "word": "งานรับปริญญา",
+              "romanization": "ngaan rap pa-rin-yaa",
+              "meanings": {
+                "en": "Graduation",
+                "zh": "毕业典礼",
+                "th": "พิธีจบการศึกษา",
+                "ko": "졸업식",
+                "es": "Graduación"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "งานรับปริญญา",
+                  "romanization": "ngaan rap pa-rin-yaa"
+                },
+                "female": {
+                  "word": "งานรับปริญญา",
+                  "romanization": "ngaan rap pa-rin-yaa"
+                }
+              }
+            },
+            {
+              "word": "ของขวัญ",
+              "romanization": "khawng khwan",
+              "meanings": {
+                "en": "Gift",
+                "zh": "礼物",
+                "th": "ของขวัญ",
+                "ko": "선물",
+                "es": "Regalo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ของขวัญ",
+                  "romanization": "khawng khwan"
+                },
+                "female": {
+                  "word": "ของขวัญ",
+                  "romanization": "khawng khwan"
+                }
+              }
+            },
+            {
+              "word": "ของฝาก",
+              "romanization": "khawng faak",
+              "meanings": {
+                "en": "Present",
+                "zh": "礼品",
+                "th": "นำเสนอ",
+                "ko": "발표하다",
+                "es": "Presentar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ของฝาก",
+                  "romanization": "khawng faak"
+                },
+                "female": {
+                  "word": "ของฝาก",
+                  "romanization": "khawng faak"
+                }
+              }
+            },
+            {
+              "word": "ฉลอง",
+              "romanization": "cha-lawng",
+              "meanings": {
+                "en": "Celebrate",
+                "zh": "庆祝",
+                "th": "ฉลอง",
+                "ko": "축하하다",
+                "es": "Celebrar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ฉลองครับ",
+                  "romanization": "cha-lawng khrap"
+                },
+                "female": {
+                  "word": "ฉลองค่ะ",
+                  "romanization": "cha-lawng kha"
+                }
+              }
+            },
+            {
+              "word": "ยินดีด้วย",
+              "romanization": "yin dee duay",
+              "meanings": {
+                "en": "Congratulations",
+                "zh": "恭喜",
+                "th": "ยินดีด้วย",
+                "ko": "축하합니다",
+                "es": "Felicidades"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยินดีด้วยครับ",
+                  "romanization": "yin dee duay khrap"
+                },
+                "female": {
+                  "word": "ยินดีด้วยค่ะ",
+                  "romanization": "yin dee duay kha"
+                }
+              }
+            },
+            {
+              "word": "ยกแก้ว",
+              "romanization": "yok gaew",
+              "meanings": {
+                "en": "Toast",
+                "zh": "敬酒",
+                "th": "ยกแก้ว",
+                "ko": "건배",
+                "es": "Brindis"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยกแก้วครับ",
+                  "romanization": "yok gaew khrap"
+                },
+                "female": {
+                  "word": "ยกแก้วค่ะ",
+                  "romanization": "yok gaew kha"
+                }
+              }
+            },
+            {
+              "word": "เค้ก",
+              "romanization": "khaek",
+              "meanings": {
+                "en": "Cake",
+                "zh": "蛋糕",
+                "th": "เค้ก",
+                "ko": "케이크",
+                "es": "Pastel"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เค้ก",
+                  "romanization": "khaek"
+                },
+                "female": {
+                  "word": "เค้ก",
+                  "romanization": "khaek"
+                }
+              }
+            },
+            {
+              "word": "เทียน",
+              "romanization": "thian",
+              "meanings": {
+                "en": "Candle",
+                "zh": "蜡烛",
+                "th": "เทียน",
+                "ko": "양초",
+                "es": "Vela"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เทียน",
+                  "romanization": "thian"
+                },
+                "female": {
+                  "word": "เทียน",
+                  "romanization": "thian"
+                }
+              }
+            },
+            {
+              "word": "ลูกโป่ง",
+              "romanization": "luuk pohng",
+              "meanings": {
+                "en": "Balloon",
+                "zh": "气球",
+                "th": "ลูกโป่ง",
+                "ko": "풍선",
+                "es": "Globo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ลูกโป่ง",
+                  "romanization": "luuk pohng"
+                },
+                "female": {
+                  "word": "ลูกโป่ง",
+                  "romanization": "luuk pohng"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "วันเกิด",
+              "romanization": "wan goet",
+              "options": {
+                "en": [
+                  "Birthday",
+                  "Wedding",
+                  "Anniversary",
+                  "Graduation"
+                ],
+                "zh": [
+                  "生日",
+                  "婚礼",
+                  "周年纪念",
+                  "毕业典礼"
+                ],
+                "th": [
+                  "วันเกิด",
+                  "งานแต่งงาน",
+                  "วันครบรอบ",
+                  "พิธีจบการศึกษา"
+                ],
+                "ko": [
+                  "생일",
+                  "결혼식",
+                  "기념일",
+                  "졸업식"
+                ],
+                "es": [
+                  "Cumpleaños",
+                  "Boda",
+                  "Aniversario",
+                  "Graduación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Wedding' in Thai?",
+                "zh": "泰语中'婚礼'怎么说？",
+                "th": "คำว่า 'งานแต่งงาน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'결혼식'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Boda' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "งานแต่งงาน",
+                  "งานเลี้ยง",
+                  "งานรับปริญญา",
+                  "วันครบรอบ"
+                ],
+                "male": [
+                  "งานแต่งงานครับ",
+                  "งานเลี้ยงครับ",
+                  "งานรับปริญญาครับ",
+                  "วันครบรอบครับ"
+                ],
+                "female": [
+                  "งานแต่งงานค่ะ",
+                  "งานเลี้ยงค่ะ",
+                  "งานรับปริญญาค่ะ",
+                  "วันครบรอบค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ลูกโป่ง",
+              "romanization": "luuk pohng",
+              "options": {
+                "en": [
+                  "Balloon",
+                  "Candle",
+                  "Cake",
+                  "Present"
+                ],
+                "zh": [
+                  "气球",
+                  "蜡烛",
+                  "蛋糕",
+                  "礼品"
+                ],
+                "th": [
+                  "ลูกโป่ง",
+                  "เทียน",
+                  "เค้ก",
+                  "นำเสนอ"
+                ],
+                "ko": [
+                  "풍선",
+                  "양초",
+                  "케이크",
+                  "발표하다"
+                ],
+                "es": [
+                  "Globo",
+                  "Vela",
+                  "Pastel",
+                  "Presentar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ลูกโป่ง",
+                  "romanization": "luuk pohng"
+                },
+                "female": {
+                  "audio_text": "ลูกโป่ง",
+                  "romanization": "luuk pohng"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "วันเกิด",
+                  "romanization": "wan goet",
+                  "native": {
+                    "en": "Birthday",
+                    "zh": "生日",
+                    "th": "วันเกิด",
+                    "ko": "생일",
+                    "es": "Cumpleaños"
+                  }
+                },
+                {
+                  "target": "งานแต่งงาน",
+                  "romanization": "ngaan taeng ngaan",
+                  "native": {
+                    "en": "Wedding",
+                    "zh": "婚礼",
+                    "th": "งานแต่งงาน",
+                    "ko": "결혼식",
+                    "es": "Boda"
+                  }
+                },
+                {
+                  "target": "ฉลอง",
+                  "romanization": "cha-lawng",
+                  "native": {
+                    "en": "Celebrate",
+                    "zh": "庆祝",
+                    "th": "ฉลอง",
+                    "ko": "축하하다",
+                    "es": "Celebrar"
+                  }
+                },
+                {
+                  "target": "ของขวัญ",
+                  "romanization": "khawng khwan",
+                  "native": {
+                    "en": "Gift",
+                    "zh": "礼物",
+                    "th": "ของขวัญ",
+                    "ko": "선물",
+                    "es": "Regalo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Happy birthday!'",
+                "zh": "说'生日快乐！'",
+                "th": "พูด 'สุขสันต์วันเกิด'",
+                "ko": "'생일 축하해요!'라고 말하세요",
+                "es": "Di '¡feliz cumpleaños!'"
+              },
+              "words": [
+                "วันเกิด",
+                "สุขสันต์"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ],
+                "male": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ],
+                "female": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ]
+              },
+              "romanization": "suk-san wan goet",
+              "tiles": {
+                "neutral": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ],
+                "male": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ],
+                "female": [
+                  "สุขสันต์",
+                  "วันเกิด"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Hosting & Attending",
+            "zh": "主办与参加",
+            "th": "การเป็นเจ้าภาพและการเข้าร่วม",
+            "ko": "행사 주최와 참석",
+            "es": "Organizar y asistir"
+          },
+          "objectives": {
+            "en": [
+              "Describe formal and casual events",
+              "Talk about hosting and attending"
+            ],
+            "zh": [
+              "描述正式和休闲活动",
+              "谈论举办和参加活动"
+            ],
+            "th": [
+              "Describe formal and casual events",
+              "Talk about hosting and attending"
+            ],
+            "ko": [
+              "Describe formal and casual events",
+              "Talk about hosting and attending"
+            ],
+            "es": [
+              "Describe formal and casual events",
+              "Talk about hosting and attending"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เซอร์ไพรส์",
+              "romanization": "soeh-phrai",
+              "meanings": {
+                "en": "Surprise",
+                "zh": "惊喜",
+                "th": "เซอร์ไพรส์",
+                "ko": "놀라움",
+                "es": "Sorpresa"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เซอร์ไพรส์",
+                  "romanization": "soeh-phrai"
+                },
+                "female": {
+                  "word": "เซอร์ไพรส์",
+                  "romanization": "soeh-phrai"
+                }
+              }
+            },
+            {
+              "word": "บัตรเชิญ",
+              "romanization": "bat chooen",
+              "meanings": {
+                "en": "Invitation",
+                "zh": "邀请函",
+                "th": "คำเชิญ",
+                "ko": "초대장",
+                "es": "Invitación"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "บัตรเชิญ",
+                  "romanization": "bat chooen"
+                },
+                "female": {
+                  "word": "บัตรเชิญ",
+                  "romanization": "bat chooen"
+                }
+              }
+            },
+            {
+              "word": "แต่งตัว",
+              "romanization": "taeng tua",
+              "meanings": {
+                "en": "Dress up",
+                "zh": "打扮",
+                "th": "แต่งตัว",
+                "ko": "차려입다",
+                "es": "Vestirse elegante"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แต่งตัว",
+                  "romanization": "taeng tua"
+                },
+                "female": {
+                  "word": "แต่งตัว",
+                  "romanization": "taeng tua"
+                }
+              }
+            },
+            {
+              "word": "เป็นทางการ",
+              "romanization": "pen thaang gaan",
+              "meanings": {
+                "en": "Formal",
+                "zh": "正式的",
+                "th": "เป็นทางการ",
+                "ko": "공식적인",
+                "es": "Formal"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เป็นทางการ",
+                  "romanization": "pen thaang gaan"
+                },
+                "female": {
+                  "word": "เป็นทางการ",
+                  "romanization": "pen thaang gaan"
+                }
+              }
+            },
+            {
+              "word": "ไม่เป็นทางการ",
+              "romanization": "mai pen thaang gaan",
+              "meanings": {
+                "en": "Casual",
+                "zh": "休闲的",
+                "th": "ลำลอง",
+                "ko": "캐주얼한",
+                "es": "Casual"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไม่เป็นทางการ",
+                  "romanization": "mai pen thaang gaan"
+                },
+                "female": {
+                  "word": "ไม่เป็นทางการ",
+                  "romanization": "mai pen thaang gaan"
+                }
+              }
+            },
+            {
+              "word": "แขก",
+              "romanization": "khaek",
+              "meanings": {
+                "en": "Guest",
+                "zh": "客人",
+                "th": "แขก",
+                "ko": "손님",
+                "es": "Huésped"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แขก",
+                  "romanization": "khaek"
+                },
+                "female": {
+                  "word": "แขก",
+                  "romanization": "khaek"
+                }
+              }
+            },
+            {
+              "word": "เจ้าภาพ",
+              "romanization": "jao phaap",
+              "meanings": {
+                "en": "Host",
+                "zh": "主人",
+                "th": "เจ้าของบ้าน",
+                "ko": "주인",
+                "es": "Anfitrión"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เจ้าภาพ",
+                  "romanization": "jao phaap"
+                },
+                "female": {
+                  "word": "เจ้าภาพ",
+                  "romanization": "jao phaap"
+                }
+              }
+            },
+            {
+              "word": "พิธี",
+              "romanization": "phi-thee",
+              "meanings": {
+                "en": "Ceremony",
+                "zh": "仪式",
+                "th": "พิธี",
+                "ko": "의식",
+                "es": "Ceremonia"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พิธี",
+                  "romanization": "phi-thee"
+                },
+                "female": {
+                  "word": "พิธี",
+                  "romanization": "phi-thee"
+                }
+              }
+            },
+            {
+              "word": "งานเลี้ยงต้อนรับ",
+              "romanization": "ngaan liang tawn rap",
+              "meanings": {
+                "en": "Reception",
+                "zh": "招待会",
+                "th": "แผนกต้อนรับ",
+                "ko": "프런트",
+                "es": "Recepción"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "งานเลี้ยงต้อนรับ",
+                  "romanization": "ngaan liang tawn rap"
+                },
+                "female": {
+                  "word": "งานเลี้ยงต้อนรับ",
+                  "romanization": "ngaan liang tawn rap"
+                }
+              }
+            },
+            {
+              "word": "กล่าวสุนทรพจน์",
+              "romanization": "glaao sun-thon-ra-phot",
+              "meanings": {
+                "en": "Speech",
+                "zh": "演讲",
+                "th": "สุนทรพจน์",
+                "ko": "연설",
+                "es": "Discurso"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กล่าวสุนทรพจน์ครับ",
+                  "romanization": "glaao sun-thon-ra-phot khrap"
+                },
+                "female": {
+                  "word": "กล่าวสุนทรพจน์ค่ะ",
+                  "romanization": "glaao sun-thon-ra-phot kha"
+                }
+              }
+            },
+            {
+              "word": "ยกแก้วให้",
+              "romanization": "yok gaew hai",
+              "meanings": {
+                "en": "Raise a glass",
+                "zh": "举杯",
+                "th": "ยกแก้ว",
+                "ko": "건배하다",
+                "es": "Brindar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ยกแก้วให้ครับ",
+                  "romanization": "yok gaew hai khrap"
+                },
+                "female": {
+                  "word": "ยกแก้วให้ค่ะ",
+                  "romanization": "yok gaew hai kha"
+                }
+              }
+            },
+            {
+              "word": "อวยพร",
+              "romanization": "uay phawn",
+              "meanings": {
+                "en": "Wish",
+                "zh": "祝愿",
+                "th": "อวยพร",
+                "ko": "소원",
+                "es": "Deseo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "อวยพรครับ",
+                  "romanization": "uay phawn khrap"
+                },
+                "female": {
+                  "word": "อวยพรค่ะ",
+                  "romanization": "uay phawn kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เซอร์ไพรส์",
+              "romanization": "soeh-phrai",
+              "options": {
+                "en": [
+                  "Surprise",
+                  "Invitation",
+                  "Ceremony",
+                  "Reception"
+                ],
+                "zh": [
+                  "惊喜",
+                  "邀请函",
+                  "仪式",
+                  "招待会"
+                ],
+                "th": [
+                  "เซอร์ไพรส์",
+                  "คำเชิญ",
+                  "พิธี",
+                  "แผนกต้อนรับ"
+                ],
+                "ko": [
+                  "놀라움",
+                  "초대장",
+                  "의식",
+                  "프런트"
+                ],
+                "es": [
+                  "Sorpresa",
+                  "Invitación",
+                  "Ceremonia",
+                  "Recepción"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Dress up' in Thai?",
+                "zh": "泰语中'打扮'怎么说？",
+                "th": "คำว่า 'แต่งตัว' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'차려입다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Vestirse elegante' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "แต่งตัว",
+                  "เป็นทางการ",
+                  "ไม่เป็นทางการ",
+                  "บัตรเชิญ"
+                ],
+                "male": [
+                  "แต่งตัวครับ",
+                  "เป็นทางการครับ",
+                  "ไม่เป็นทางการครับ",
+                  "บัตรเชิญครับ"
+                ],
+                "female": [
+                  "แต่งตัวค่ะ",
+                  "เป็นทางการค่ะ",
+                  "ไม่เป็นทางการค่ะ",
+                  "บัตรเชิญค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "พิธี",
+              "romanization": "phi-thee",
+              "options": {
+                "en": [
+                  "Ceremony",
+                  "Reception",
+                  "Speech",
+                  "Invitation"
+                ],
+                "zh": [
+                  "仪式",
+                  "招待会",
+                  "演讲",
+                  "邀请函"
+                ],
+                "th": [
+                  "พิธี",
+                  "แผนกต้อนรับ",
+                  "สุนทรพจน์",
+                  "คำเชิญ"
+                ],
+                "ko": [
+                  "의식",
+                  "프런트",
+                  "연설",
+                  "초대장"
+                ],
+                "es": [
+                  "Ceremonia",
+                  "Recepción",
+                  "Discurso",
+                  "Invitación"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "พิธี",
+                  "romanization": "phi-thee"
+                },
+                "female": {
+                  "audio_text": "พิธี",
+                  "romanization": "phi-thee"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "แขก",
+                  "romanization": "khaek",
+                  "native": {
+                    "en": "Guest",
+                    "zh": "客人",
+                    "th": "แขก",
+                    "ko": "손님",
+                    "es": "Huésped"
+                  }
+                },
+                {
+                  "target": "เจ้าภาพ",
+                  "romanization": "jao phaap",
+                  "native": {
+                    "en": "Host",
+                    "zh": "主人",
+                    "th": "เจ้าของบ้าน",
+                    "ko": "주인",
+                    "es": "Anfitrión"
+                  }
+                },
+                {
+                  "target": "บัตรเชิญ",
+                  "romanization": "bat chooen",
+                  "native": {
+                    "en": "Invitation",
+                    "zh": "邀请函",
+                    "th": "คำเชิญ",
+                    "ko": "초대장",
+                    "es": "Invitación"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's raise a glass'",
+                "zh": "说'来举杯吧'",
+                "th": "พูด 'มายกแก้วกัน'",
+                "ko": "'건배합시다'라고 말하세요",
+                "es": "Di 'brindemos'"
+              },
+              "words": [
+                "ให้",
+                "ยก",
+                "เรา",
+                "แก้ว"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ],
+                "male": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ],
+                "female": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ]
+              },
+              "romanization": "rao yok gaew hai",
+              "tiles": {
+                "neutral": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ],
+                "male": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ],
+                "female": [
+                  "เรา",
+                  "ยก",
+                  "แก้ว",
+                  "ให้"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Feelings & Experiences",
+        "zh": "感受与经历",
+        "th": "ความรู้สึกและประสบการณ์",
+        "ko": "감정과 경험",
+        "es": "Sentimientos y experiencias"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Emotions",
+            "zh": "情感",
+            "th": "อารมณ์",
+            "ko": "감정",
+            "es": "Emociones"
+          },
+          "objectives": {
+            "en": [
+              "Express a wide range of emotions",
+              "Describe how you feel"
+            ],
+            "zh": [
+              "表达各种情绪",
+              "描述你的感受"
+            ],
+            "th": [
+              "Express a wide range of emotions",
+              "Describe how you feel"
+            ],
+            "ko": [
+              "Express a wide range of emotions",
+              "Describe how you feel"
+            ],
+            "es": [
+              "Express a wide range of emotions",
+              "Describe how you feel"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ตื่นเต้น",
+              "romanization": "teun ten",
+              "meanings": {
+                "en": "Excited",
+                "zh": "兴奋的",
+                "th": "ตื่นเต้น",
+                "ko": "신나는",
+                "es": "Emocionado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ตื่นเต้น",
+                  "romanization": "teun ten"
+                },
+                "female": {
+                  "word": "ตื่นเต้น",
+                  "romanization": "teun ten"
+                }
+              }
+            },
+            {
+              "word": "กังวล",
+              "romanization": "gang-won",
+              "meanings": {
+                "en": "Nervous",
+                "zh": "紧张的",
+                "th": "ประหม่า",
+                "ko": "긴장한",
+                "es": "Nervioso"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กังวล",
+                  "romanization": "gang-won"
+                },
+                "female": {
+                  "word": "กังวล",
+                  "romanization": "gang-won"
+                }
+              }
+            },
+            {
+              "word": "ภูมิใจ",
+              "romanization": "phuum jai",
+              "meanings": {
+                "en": "Proud",
+                "zh": "自豪的",
+                "th": "ภูมิใจ",
+                "ko": "자랑스러운",
+                "es": "Orgulloso"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ภูมิใจ",
+                  "romanization": "phuum jai"
+                },
+                "female": {
+                  "word": "ภูมิใจ",
+                  "romanization": "phuum jai"
+                }
+              }
+            },
+            {
+              "word": "อาย",
+              "romanization": "aai",
+              "meanings": {
+                "en": "Embarrassed",
+                "zh": "尴尬的",
+                "th": "อาย",
+                "ko": "당황한",
+                "es": "Avergonzado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "อาย",
+                  "romanization": "aai"
+                },
+                "female": {
+                  "word": "อาย",
+                  "romanization": "aai"
+                }
+              }
+            },
+            {
+              "word": "ประหลาดใจ",
+              "romanization": "pra-laat jai",
+              "meanings": {
+                "en": "Surprised",
+                "zh": "惊讶的",
+                "th": "ประหลาดใจ",
+                "ko": "놀란",
+                "es": "Sorprendido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ประหลาดใจ",
+                  "romanization": "pra-laat jai"
+                },
+                "female": {
+                  "word": "ประหลาดใจ",
+                  "romanization": "pra-laat jai"
+                }
+              }
+            },
+            {
+              "word": "ผิดหวัง",
+              "romanization": "phit wang",
+              "meanings": {
+                "en": "Disappointed",
+                "zh": "失望的",
+                "th": "ผิดหวัง",
+                "ko": "실망한",
+                "es": "Decepcionado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ผิดหวัง",
+                  "romanization": "phit wang"
+                },
+                "female": {
+                  "word": "ผิดหวัง",
+                  "romanization": "phit wang"
+                }
+              }
+            },
+            {
+              "word": "โล่งใจ",
+              "romanization": "lohng jai",
+              "meanings": {
+                "en": "Relieved",
+                "zh": "如释重负的",
+                "th": "โล่งใจ",
+                "ko": "안도한",
+                "es": "Aliviado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "โล่งใจ",
+                  "romanization": "lohng jai"
+                },
+                "female": {
+                  "word": "โล่งใจ",
+                  "romanization": "lohng jai"
+                }
+              }
+            },
+            {
+              "word": "เบื่อ",
+              "romanization": "beua",
+              "meanings": {
+                "en": "Bored",
+                "zh": "无聊的",
+                "th": "เบื่อ",
+                "ko": "지루한",
+                "es": "Aburrido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เบื่อ",
+                  "romanization": "beua"
+                },
+                "female": {
+                  "word": "เบื่อ",
+                  "romanization": "beua"
+                }
+              }
+            },
+            {
+              "word": "สับสน",
+              "romanization": "sap son",
+              "meanings": {
+                "en": "Confused",
+                "zh": "困惑的",
+                "th": "สับสน",
+                "ko": "혼란스러운",
+                "es": "Confundido"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สับสน",
+                  "romanization": "sap son"
+                },
+                "female": {
+                  "word": "สับสน",
+                  "romanization": "sap son"
+                }
+              }
+            },
+            {
+              "word": "เป็นห่วง",
+              "romanization": "pen huang",
+              "meanings": {
+                "en": "Worried",
+                "zh": "担心的",
+                "th": "เป็นห่วง",
+                "ko": "걱정하는",
+                "es": "Preocupado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เป็นห่วง",
+                  "romanization": "pen huang"
+                },
+                "female": {
+                  "word": "เป็นห่วง",
+                  "romanization": "pen huang"
+                }
+              }
+            },
+            {
+              "word": "ซาบซึ้ง",
+              "romanization": "saap seung",
+              "meanings": {
+                "en": "Grateful",
+                "zh": "感激的",
+                "th": "ขอบคุณ",
+                "ko": "감사하는",
+                "es": "Agradecido"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ซาบซึ้ง",
+                  "romanization": "saap seung"
+                },
+                "female": {
+                  "word": "ซาบซึ้ง",
+                  "romanization": "saap seung"
+                }
+              }
+            },
+            {
+              "word": "อิจฉา",
+              "romanization": "it-chaa",
+              "meanings": {
+                "en": "Jealous",
+                "zh": "嫉妒的",
+                "th": "อิจฉา",
+                "ko": "질투하는",
+                "es": "Celoso"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อิจฉา",
+                  "romanization": "it-chaa"
+                },
+                "female": {
+                  "word": "อิจฉา",
+                  "romanization": "it-chaa"
+                }
+              }
+            },
+            {
+              "word": "เหงา",
+              "romanization": "ngao",
+              "meanings": {
+                "en": "Lonely",
+                "zh": "孤独的",
+                "th": "เหงา",
+                "ko": "외로운",
+                "es": "Solitario"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เหงา",
+                  "romanization": "ngao"
+                },
+                "female": {
+                  "word": "เหงา",
+                  "romanization": "ngao"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ตื่นเต้น",
+              "romanization": "teun ten",
+              "options": {
+                "en": [
+                  "Excited",
+                  "Nervous",
+                  "Proud",
+                  "Bored"
+                ],
+                "zh": [
+                  "兴奋的",
+                  "紧张的",
+                  "自豪的",
+                  "无聊的"
+                ],
+                "th": [
+                  "ตื่นเต้น",
+                  "ประหม่า",
+                  "ภูมิใจ",
+                  "เบื่อ"
+                ],
+                "ko": [
+                  "신나는",
+                  "긴장한",
+                  "자랑스러운",
+                  "지루한"
+                ],
+                "es": [
+                  "Emocionado",
+                  "Nervioso",
+                  "Orgulloso",
+                  "Aburrido"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Proud' in Thai?",
+                "zh": "泰语中'自豪的'怎么说？",
+                "th": "คำว่า 'ภูมิใจ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'자랑스러운'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Orgulloso' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "ภูมิใจ",
+                  "อาย",
+                  "ตื่นเต้น",
+                  "เบื่อ"
+                ],
+                "male": [
+                  "ภูมิใจครับ",
+                  "อายครับ",
+                  "ตื่นเต้นครับ",
+                  "เบื่อครับ"
+                ],
+                "female": [
+                  "ภูมิใจค่ะ",
+                  "อายค่ะ",
+                  "ตื่นเต้นค่ะ",
+                  "เบื่อค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "โล่งใจ",
+              "romanization": "lohng jai",
+              "options": {
+                "en": [
+                  "Relieved",
+                  "Disappointed",
+                  "Excited",
+                  "Lonely"
+                ],
+                "zh": [
+                  "如释重负的",
+                  "失望的",
+                  "兴奋的",
+                  "孤独的"
+                ],
+                "th": [
+                  "โล่งใจ",
+                  "ผิดหวัง",
+                  "ตื่นเต้น",
+                  "เหงา"
+                ],
+                "ko": [
+                  "안도한",
+                  "실망한",
+                  "신나는",
+                  "외로운"
+                ],
+                "es": [
+                  "Aliviado",
+                  "Decepcionado",
+                  "Emocionado",
+                  "Solitario"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "โล่งใจ",
+                  "romanization": "lohng jai"
+                },
+                "female": {
+                  "audio_text": "โล่งใจ",
+                  "romanization": "lohng jai"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ตื่นเต้น",
+                  "romanization": "teun ten",
+                  "native": {
+                    "en": "Excited",
+                    "zh": "兴奋的",
+                    "th": "ตื่นเต้น",
+                    "ko": "신나는",
+                    "es": "Emocionado"
+                  }
+                },
+                {
+                  "target": "กังวล",
+                  "romanization": "gang-won",
+                  "native": {
+                    "en": "Nervous",
+                    "zh": "紧张的",
+                    "th": "ประหม่า",
+                    "ko": "긴장한",
+                    "es": "Nervioso"
+                  }
+                },
+                {
+                  "target": "เหงา",
+                  "romanization": "ngao",
+                  "native": {
+                    "en": "Lonely",
+                    "zh": "孤独的",
+                    "th": "เหงา",
+                    "ko": "외로운",
+                    "es": "Solitario"
+                  }
+                },
+                {
+                  "target": "ซาบซึ้ง",
+                  "romanization": "saap seung",
+                  "native": {
+                    "en": "Grateful",
+                    "zh": "感激的",
+                    "th": "ขอบคุณ",
+                    "ko": "감사하는",
+                    "es": "Agradecido"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I am very excited'",
+                "zh": "说'我非常兴奋'",
+                "th": "พูด 'ฉันตื่นเต้นมาก'",
+                "ko": "'매우 신나요'라고 말하세요",
+                "es": "Di 'estoy muy emocionado'"
+              },
+              "words": [
+                "มาก",
+                "ตื่นเต้น",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ],
+                "male": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ],
+                "female": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ]
+              },
+              "romanization": "chan teun ten maak",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ],
+                "male": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ],
+                "female": [
+                  "ฉัน",
+                  "ตื่นเต้น",
+                  "มาก"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Memories & Coping",
+            "zh": "回忆与应对",
+            "th": "ความทรงจำและการรับมือ",
+            "ko": "추억과 대처",
+            "es": "Recuerdos y superación"
+          },
+          "objectives": {
+            "en": [
+              "Talk about past experiences and memories",
+              "Express regret, missing someone, and coping"
+            ],
+            "zh": [
+              "谈论过去的经历和记忆",
+              "表达遗憾、思念和应对"
+            ],
+            "th": [
+              "Talk about past experiences and memories",
+              "Express regret, missing someone, and coping"
+            ],
+            "ko": [
+              "Talk about past experiences and memories",
+              "Express regret, missing someone, and coping"
+            ],
+            "es": [
+              "Talk about past experiences and memories",
+              "Express regret, missing someone, and coping"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "สบายใจ",
+              "romanization": "sa-baai jai",
+              "meanings": {
+                "en": "Comfortable",
+                "zh": "舒适的",
+                "th": "สะดวกสบาย",
+                "ko": "편안한",
+                "es": "Cómodo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "สบายใจ",
+                  "romanization": "sa-baai jai"
+                },
+                "female": {
+                  "word": "สบายใจ",
+                  "romanization": "sa-baai jai"
+                }
+              }
+            },
+            {
+              "word": "อึดอัด",
+              "romanization": "eut at",
+              "meanings": {
+                "en": "Awkward",
+                "zh": "尴尬的",
+                "th": "น่าอึดอัด",
+                "ko": "어색한",
+                "es": "Incómodo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อึดอัด",
+                  "romanization": "eut at"
+                },
+                "female": {
+                  "word": "อึดอัด",
+                  "romanization": "eut at"
+                }
+              }
+            },
+            {
+              "word": "ประสบการณ์",
+              "romanization": "pra-sop gaan",
+              "meanings": {
+                "en": "Experience",
+                "zh": "经历",
+                "th": "ประสบการณ์",
+                "ko": "경험",
+                "es": "Experiencia"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ประสบการณ์",
+                  "romanization": "pra-sop gaan"
+                },
+                "female": {
+                  "word": "ประสบการณ์",
+                  "romanization": "pra-sop gaan"
+                }
+              }
+            },
+            {
+              "word": "ความทรงจำ",
+              "romanization": "khwaam song jam",
+              "meanings": {
+                "en": "Memory",
+                "zh": "记忆",
+                "th": "ความทรงจำ",
+                "ko": "추억",
+                "es": "Recuerdo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ความทรงจำ",
+                  "romanization": "khwaam song jam"
+                },
+                "female": {
+                  "word": "ความทรงจำ",
+                  "romanization": "khwaam song jam"
+                }
+              }
+            },
+            {
+              "word": "ช่วงเวลา",
+              "romanization": "chuang weh-laa",
+              "meanings": {
+                "en": "Moment",
+                "zh": "时刻",
+                "th": "ช่วงเวลา",
+                "ko": "순간",
+                "es": "Momento"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ช่วงเวลา",
+                  "romanization": "chuang weh-laa"
+                },
+                "female": {
+                  "word": "ช่วงเวลา",
+                  "romanization": "chuang weh-laa"
+                }
+              }
+            },
+            {
+              "word": "จำได้",
+              "romanization": "jam dai",
+              "meanings": {
+                "en": "Remember",
+                "zh": "记得",
+                "th": "จำได้",
+                "ko": "기억하다",
+                "es": "Recordar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จำได้ครับ",
+                  "romanization": "jam dai khrap"
+                },
+                "female": {
+                  "word": "จำได้ค่ะ",
+                  "romanization": "jam dai kha"
+                }
+              }
+            },
+            {
+              "word": "ลืม",
+              "romanization": "leum",
+              "meanings": {
+                "en": "Forget",
+                "zh": "忘记",
+                "th": "ลืม",
+                "ko": "잊다",
+                "es": "Olvidar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ลืมครับ",
+                  "romanization": "leum khrap"
+                },
+                "female": {
+                  "word": "ลืมค่ะ",
+                  "romanization": "leum kha"
+                }
+              }
+            },
+            {
+              "word": "เสียใจ",
+              "romanization": "sia jai",
+              "meanings": {
+                "en": "Regret",
+                "zh": "后悔",
+                "th": "เสียใจ",
+                "ko": "후회하다",
+                "es": "Lamentar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เสียใจครับ",
+                  "romanization": "sia jai khrap"
+                },
+                "female": {
+                  "word": "เสียใจค่ะ",
+                  "romanization": "sia jai kha"
+                }
+              }
+            },
+            {
+              "word": "คิดถึง",
+              "romanization": "khit theung",
+              "meanings": {
+                "en": "Miss",
+                "zh": "想念",
+                "th": "คิดถึง",
+                "ko": "그리워하다",
+                "es": "Extrañar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คิดถึงครับ",
+                  "romanization": "khit theung khrap"
+                },
+                "female": {
+                  "word": "คิดถึงค่ะ",
+                  "romanization": "khit theung kha"
+                }
+              }
+            },
+            {
+              "word": "ชื่นชม",
+              "romanization": "cheun chom",
+              "meanings": {
+                "en": "Appreciate",
+                "zh": "欣赏",
+                "th": "ซาบซึ้ง",
+                "ko": "감사하다",
+                "es": "Apreciar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชื่นชมครับ",
+                  "romanization": "cheun chom khrap"
+                },
+                "female": {
+                  "word": "ชื่นชมค่ะ",
+                  "romanization": "cheun chom kha"
+                }
+              }
+            },
+            {
+              "word": "เอาชนะ",
+              "romanization": "ao cha-na",
+              "meanings": {
+                "en": "Overcome",
+                "zh": "克服",
+                "th": "เอาชนะ",
+                "ko": "극복하다",
+                "es": "Superar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เอาชนะครับ",
+                  "romanization": "ao cha-na khrap"
+                },
+                "female": {
+                  "word": "เอาชนะค่ะ",
+                  "romanization": "ao cha-na kha"
+                }
+              }
+            },
+            {
+              "word": "รับมือ",
+              "romanization": "rap meu",
+              "meanings": {
+                "en": "Cope",
+                "zh": "应对",
+                "th": "รับมือ",
+                "ko": "대처하다",
+                "es": "Lidiar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "รับมือครับ",
+                  "romanization": "rap meu khrap"
+                },
+                "female": {
+                  "word": "รับมือค่ะ",
+                  "romanization": "rap meu kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ประสบการณ์",
+              "romanization": "pra-sop gaan",
+              "options": {
+                "en": [
+                  "Experience",
+                  "Memory",
+                  "Moment",
+                  "Regret"
+                ],
+                "zh": [
+                  "经历",
+                  "记忆",
+                  "时刻",
+                  "后悔"
+                ],
+                "th": [
+                  "ประสบการณ์",
+                  "ความทรงจำ",
+                  "ช่วงเวลา",
+                  "เสียใจ"
+                ],
+                "ko": [
+                  "경험",
+                  "추억",
+                  "순간",
+                  "후회하다"
+                ],
+                "es": [
+                  "Experiencia",
+                  "Recuerdo",
+                  "Momento",
+                  "Lamentar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Remember' in Thai?",
+                "zh": "泰语中'记得'怎么说？",
+                "th": "คำว่า 'จำได้' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'기억하다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Recordar' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "จำได้",
+                  "ลืม",
+                  "คิดถึง",
+                  "เสียใจ"
+                ],
+                "male": [
+                  "จำได้ครับ",
+                  "ลืมครับ",
+                  "คิดถึงครับ",
+                  "เสียใจครับ"
+                ],
+                "female": [
+                  "จำได้ค่ะ",
+                  "ลืมค่ะ",
+                  "คิดถึงค่ะ",
+                  "เสียใจค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เสียใจ",
+              "romanization": "sia jai",
+              "options": {
+                "en": [
+                  "Regret",
+                  "Comfortable",
+                  "Awkward",
+                  "Forget"
+                ],
+                "zh": [
+                  "后悔",
+                  "舒适的",
+                  "尴尬的",
+                  "忘记"
+                ],
+                "th": [
+                  "เสียใจ",
+                  "สะดวกสบาย",
+                  "น่าอึดอัด",
+                  "ลืม"
+                ],
+                "ko": [
+                  "후회하다",
+                  "편안한",
+                  "어색한",
+                  "잊다"
+                ],
+                "es": [
+                  "Lamentar",
+                  "Cómodo",
+                  "Incómodo",
+                  "Olvidar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เสียใจครับ",
+                  "romanization": "sia jai khrap"
+                },
+                "female": {
+                  "audio_text": "เสียใจค่ะ",
+                  "romanization": "sia jai kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "จำได้",
+                  "romanization": "jam dai",
+                  "native": {
+                    "en": "Remember",
+                    "zh": "记得",
+                    "th": "จำได้",
+                    "ko": "기억하다",
+                    "es": "Recordar"
+                  }
+                },
+                {
+                  "target": "ลืม",
+                  "romanization": "leum",
+                  "native": {
+                    "en": "Forget",
+                    "zh": "忘记",
+                    "th": "ลืม",
+                    "ko": "잊다",
+                    "es": "Olvidar"
+                  }
+                },
+                {
+                  "target": "คิดถึง",
+                  "romanization": "khit theung",
+                  "native": {
+                    "en": "Miss",
+                    "zh": "想念",
+                    "th": "คิดถึง",
+                    "ko": "그리워하다",
+                    "es": "Extrañar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I miss you very much'",
+                "zh": "说'我非常想你'",
+                "th": "พูด 'ฉันคิดถึงคุณมาก'",
+                "ko": "'많이 보고 싶어요'라고 말하세요",
+                "es": "Di 'te extraño mucho'"
+              },
+              "words": [
+                "มาก",
+                "คุณ",
+                "คิดถึง",
+                "ฉัน"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ],
+                "male": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ],
+                "female": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ]
+              },
+              "romanization": "chan khit theung khun maak",
+              "tiles": {
+                "neutral": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ],
+                "male": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ],
+                "female": [
+                  "ฉัน",
+                  "คิดถึง",
+                  "คุณ",
+                  "มาก"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

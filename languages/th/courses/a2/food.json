@@ -1,0 +1,5379 @@
+{
+  "lang": "th",
+  "language": "th",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "레스토랑에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": [
+              "Learn restaurant vocabulary",
+              "Order food at a restaurant"
+            ],
+            "zh": [
+              "学习餐厅词汇",
+              "在餐厅点餐"
+            ],
+            "th": [
+              "Learn restaurant vocabulary",
+              "Order food at a restaurant"
+            ],
+            "ko": [
+              "Learn restaurant vocabulary",
+              "Order food at a restaurant"
+            ],
+            "es": [
+              "Learn restaurant vocabulary",
+              "Order food at a restaurant"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เมนู",
+              "romanization": "mee-nuu",
+              "meanings": {
+                "en": "Menu",
+                "zh": "菜单",
+                "th": "เมนู",
+                "ko": "메뉴",
+                "es": "Menú"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เมนูครับ",
+                  "romanization": "mee-nuu khrap"
+                },
+                "female": {
+                  "word": "เมนูค่ะ",
+                  "romanization": "mee-nuu kha"
+                }
+              }
+            },
+            {
+              "word": "สั่งอาหาร",
+              "romanization": "sang aa-haan",
+              "meanings": {
+                "en": "Order",
+                "zh": "点菜",
+                "th": "สั่ง",
+                "ko": "주문하다",
+                "es": "Pedir"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สั่งอาหารครับ",
+                  "romanization": "sang aa-haan khrap"
+                },
+                "female": {
+                  "word": "สั่งอาหารค่ะ",
+                  "romanization": "sang aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "พนักงานเสิร์ฟ",
+              "romanization": "pha-nak-ngaan soep",
+              "meanings": {
+                "en": "Waiter",
+                "zh": "男服务员",
+                "th": "พนักงานเสิร์ฟ",
+                "ko": "웨이터",
+                "es": "Mesero"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พนักงานเสิร์ฟครับ",
+                  "romanization": "pha-nak-ngaan soep khrap"
+                },
+                "female": {
+                  "word": "พนักงานเสิร์ฟค่ะ",
+                  "romanization": "pha-nak-ngaan soep kha"
+                }
+              }
+            },
+            {
+              "word": "พนักงานเสิร์ฟหญิง",
+              "romanization": "pha-nak-ngaan soep ying",
+              "meanings": {
+                "en": "Waitress",
+                "zh": "女服务员",
+                "th": "พนักงานเสิร์ฟหญิง",
+                "ko": "여성 웨이터",
+                "es": "Mesera"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "พนักงานเสิร์ฟหญิงครับ",
+                  "romanization": "pha-nak-ngaan soep ying khrap"
+                },
+                "female": {
+                  "word": "พนักงานเสิร์ฟหญิงค่ะ",
+                  "romanization": "pha-nak-ngaan soep ying kha"
+                }
+              }
+            },
+            {
+              "word": "โต๊ะ",
+              "romanization": "to",
+              "meanings": {
+                "en": "Table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "Mesa"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "โต๊ะครับ",
+                  "romanization": "to khrap"
+                },
+                "female": {
+                  "word": "โต๊ะค่ะ",
+                  "romanization": "to kha"
+                }
+              }
+            },
+            {
+              "word": "จอง",
+              "romanization": "jong",
+              "meanings": {
+                "en": "Reservation",
+                "zh": "预约",
+                "th": "การจอง",
+                "ko": "예약",
+                "es": "Reservación"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จองครับ",
+                  "romanization": "jong khrap"
+                },
+                "female": {
+                  "word": "จองค่ะ",
+                  "romanization": "jong kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารเรียกน้ำย่อย",
+              "romanization": "aa-haan riak naam yoi",
+              "meanings": {
+                "en": "Starter",
+                "zh": "前菜",
+                "th": "อาหารเรียกน้ำย่อย",
+                "ko": "전채 요리",
+                "es": "Entrada"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาหารเรียกน้ำย่อยครับ",
+                  "romanization": "aa-haan riak naam yoi khrap"
+                },
+                "female": {
+                  "word": "อาหารเรียกน้ำย่อยค่ะ",
+                  "romanization": "aa-haan riak naam yoi kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารจานหลัก",
+              "romanization": "aa-haan jaan lak",
+              "meanings": {
+                "en": "Main course",
+                "zh": "主菜",
+                "th": "จานหลัก",
+                "ko": "메인 코스",
+                "es": "Plato principal"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาหารจานหลักครับ",
+                  "romanization": "aa-haan jaan lak khrap"
+                },
+                "female": {
+                  "word": "อาหารจานหลักค่ะ",
+                  "romanization": "aa-haan jaan lak kha"
+                }
+              }
+            },
+            {
+              "word": "ของหวาน",
+              "romanization": "khong waan",
+              "meanings": {
+                "en": "Dessert",
+                "zh": "甜点",
+                "th": "ของหวาน",
+                "ko": "디저트",
+                "es": "Postre"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ของหวานครับ",
+                  "romanization": "khong waan khrap"
+                },
+                "female": {
+                  "word": "ของหวานค่ะ",
+                  "romanization": "khong waan kha"
+                }
+              }
+            },
+            {
+              "word": "บิล",
+              "romanization": "bin",
+              "meanings": {
+                "en": "Bill",
+                "zh": "账单",
+                "th": "บิล",
+                "ko": "계산서",
+                "es": "Cuenta"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "บิลครับ",
+                  "romanization": "bin khrap"
+                },
+                "female": {
+                  "word": "บิลค่ะ",
+                  "romanization": "bin kha"
+                }
+              }
+            },
+            {
+              "word": "ทิป",
+              "romanization": "thip",
+              "meanings": {
+                "en": "Tip",
+                "zh": "小费",
+                "th": "ทิป",
+                "ko": "팁",
+                "es": "Propina"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทิปครับ",
+                  "romanization": "thip khrap"
+                },
+                "female": {
+                  "word": "ทิปค่ะ",
+                  "romanization": "thip kha"
+                }
+              }
+            },
+            {
+              "word": "จำนวน",
+              "romanization": "jam-nuan",
+              "meanings": {
+                "en": "Portion",
+                "zh": "份量",
+                "th": "ส่วน",
+                "ko": "1인분",
+                "es": "Porción"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จำนวนครับ",
+                  "romanization": "jam-nuan khrap"
+                },
+                "female": {
+                  "word": "จำนวนค่ะ",
+                  "romanization": "jam-nuan kha"
+                }
+              }
+            },
+            {
+              "word": "จาน",
+              "romanization": "jaan",
+              "meanings": {
+                "en": "Dish",
+                "zh": "菜肴",
+                "th": "จาน",
+                "ko": "요리",
+                "es": "Plato"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "จานครับ",
+                  "romanization": "jaan khrap"
+                },
+                "female": {
+                  "word": "จานค่ะ",
+                  "romanization": "jaan kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เมนู",
+              "romanization": "mee-nuu",
+              "options": {
+                "en": [
+                  "Menu",
+                  "Order",
+                  "Waiter",
+                  "Waitress"
+                ],
+                "zh": [
+                  "菜单",
+                  "点菜",
+                  "男服务员",
+                  "女服务员"
+                ],
+                "th": [
+                  "เมนู",
+                  "สั่ง",
+                  "พนักงานเสิร์ฟ",
+                  "พนักงานเสิร์ฟหญิง"
+                ],
+                "ko": [
+                  "메뉴",
+                  "주문하다",
+                  "웨이터",
+                  "여성 웨이터"
+                ],
+                "es": [
+                  "Menú",
+                  "Pedir",
+                  "Mesero",
+                  "Mesera"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เมนูครับ",
+                  "romanization": "mee-nuu khrap"
+                },
+                "female": {
+                  "word": "เมนูค่ะ",
+                  "romanization": "mee-nuu kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Waitress' in Thai?",
+                "zh": "泰语中'女服务员'怎么说？",
+                "th": "คำว่า 'พนักงานเสิร์ฟหญิง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'여성 웨이터'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Mesera' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "พนักงานเสิร์ฟหญิง",
+                  "เมนู",
+                  "สั่งอาหาร",
+                  "พนักงานเสิร์ฟ"
+                ],
+                "male": [
+                  "พนักงานเสิร์ฟหญิงครับ",
+                  "เมนูครับ",
+                  "สั่งอาหารครับ",
+                  "พนักงานเสิร์ฟครับ"
+                ],
+                "female": [
+                  "พนักงานเสิร์ฟหญิงค่ะ",
+                  "เมนูค่ะ",
+                  "สั่งอาหารค่ะ",
+                  "พนักงานเสิร์ฟค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "จอง",
+              "romanization": "jong",
+              "options": {
+                "en": [
+                  "Reservation",
+                  "Starter",
+                  "Main course",
+                  "Dessert"
+                ],
+                "zh": [
+                  "预约",
+                  "前菜",
+                  "主菜",
+                  "甜点"
+                ],
+                "th": [
+                  "การจอง",
+                  "อาหารเรียกน้ำย่อย",
+                  "จานหลัก",
+                  "ของหวาน"
+                ],
+                "ko": [
+                  "예약",
+                  "전채 요리",
+                  "메인 코스",
+                  "디저트"
+                ],
+                "es": [
+                  "Reservación",
+                  "Entrada",
+                  "Plato principal",
+                  "Postre"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "จองครับ",
+                  "romanization": "jong khrap"
+                },
+                "female": {
+                  "audio_text": "จองค่ะ",
+                  "romanization": "jong kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "อาหารจานหลัก",
+                  "romanization": "aa-haan jaan lak",
+                  "native": {
+                    "en": "Main course",
+                    "zh": "主菜",
+                    "th": "จานหลัก",
+                    "ko": "메인 코스",
+                    "es": "Plato principal"
+                  }
+                },
+                {
+                  "target": "ของหวาน",
+                  "romanization": "khong waan",
+                  "native": {
+                    "en": "Dessert",
+                    "zh": "甜点",
+                    "th": "ของหวาน",
+                    "ko": "디저트",
+                    "es": "Postre"
+                  }
+                },
+                {
+                  "target": "บิล",
+                  "romanization": "bin",
+                  "native": {
+                    "en": "Bill",
+                    "zh": "账单",
+                    "th": "บิล",
+                    "ko": "계산서",
+                    "es": "Cuenta"
+                  }
+                },
+                {
+                  "target": "ทิป",
+                  "romanization": "thip",
+                  "native": {
+                    "en": "Tip",
+                    "zh": "小费",
+                    "th": "ทิป",
+                    "ko": "팁",
+                    "es": "Propina"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Menu' then 'Order'",
+                "zh": "先说'菜单'再说'点菜'",
+                "th": "พูด 'เมนู' แล้ว 'สั่ง'",
+                "ko": "'메뉴'를 말한 다음 '주문하다'를 말하세요",
+                "es": "Di 'Menú' y luego 'Pedir'"
+              },
+              "words": [
+                "สั่งอาหาร",
+                "เมนู"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ],
+                "male": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ],
+                "female": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ]
+              },
+              "romanization": "mee-nuu sang aa-haan",
+              "tiles": {
+                "neutral": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ],
+                "male": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ],
+                "female": [
+                  "เมนู",
+                  "สั่งอาหาร"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Restaurant Experience",
+            "zh": "餐厅体验",
+            "th": "ประสบการณ์ที่ร้านอาหาร",
+            "ko": "레스토랑 경험",
+            "es": "Experiencia en el restaurante"
+          },
+          "objectives": {
+            "en": [
+              "Discuss restaurant preferences",
+              "Handle special requests"
+            ],
+            "zh": [
+              "讨论餐厅偏好",
+              "处理特殊要求"
+            ],
+            "th": [
+              "Discuss restaurant preferences",
+              "Handle special requests"
+            ],
+            "ko": [
+              "Discuss restaurant preferences",
+              "Handle special requests"
+            ],
+            "es": [
+              "Discuss restaurant preferences",
+              "Handle special requests"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "แนะนำ",
+              "romanization": "nae-nam",
+              "meanings": {
+                "en": "Recommend",
+                "zh": "推荐",
+                "th": "แนะนำ",
+                "ko": "추천하다",
+                "es": "Recomendar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แนะนำครับ",
+                  "romanization": "nae-nam khrap"
+                },
+                "female": {
+                  "word": "แนะนำค่ะ",
+                  "romanization": "nae-nam kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารพิเศษ",
+              "romanization": "aa-haan phi-set",
+              "meanings": {
+                "en": "Specials",
+                "zh": "特色菜",
+                "th": "เมนูพิเศษ",
+                "ko": "오늘의 특선",
+                "es": "Especialidades"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาหารพิเศษครับ",
+                  "romanization": "aa-haan phi-set khrap"
+                },
+                "female": {
+                  "word": "อาหารพิเศษค่ะ",
+                  "romanization": "aa-haan phi-set kha"
+                }
+              }
+            },
+            {
+              "word": "มังสวิรัติ",
+              "romanization": "mang-sa-wi-rat",
+              "meanings": {
+                "en": "Vegetarian",
+                "zh": "素食",
+                "th": "มังสวิรัติ",
+                "ko": "채식주의자",
+                "es": "Vegetariano"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "มังสวิรัติครับ",
+                  "romanization": "mang-sa-wi-rat khrap"
+                },
+                "female": {
+                  "word": "มังสวิรัติค่ะ",
+                  "romanization": "mang-sa-wi-rat kha"
+                }
+              }
+            },
+            {
+              "word": "แพ้อาหาร",
+              "romanization": "phae aa-haan",
+              "meanings": {
+                "en": "Allergy",
+                "zh": "过敏",
+                "th": "อาการแพ้",
+                "ko": "알레르기",
+                "es": "Alergia"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แพ้อาหารครับ",
+                  "romanization": "phae aa-haan khrap"
+                },
+                "female": {
+                  "word": "แพ้อาหารค่ะ",
+                  "romanization": "phae aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "ซื้อกลับบ้าน",
+              "romanization": "sue glap baan",
+              "meanings": {
+                "en": "Takeaway",
+                "zh": "外带",
+                "th": "สั่งกลับบ้าน",
+                "ko": "포장",
+                "es": "Para llevar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ซื้อกลับบ้านครับ",
+                  "romanization": "sue glap baan khrap"
+                },
+                "female": {
+                  "word": "ซื้อกลับบ้านค่ะ",
+                  "romanization": "sue glap baan kha"
+                }
+              }
+            },
+            {
+              "word": "ส่งอาหาร",
+              "romanization": "song aa-haan",
+              "meanings": {
+                "en": "Delivery",
+                "zh": "外卖",
+                "th": "จัดส่ง",
+                "ko": "배달",
+                "es": "Entrega"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ส่งอาหารครับ",
+                  "romanization": "song aa-haan khrap"
+                },
+                "female": {
+                  "word": "ส่งอาหารค่ะ",
+                  "romanization": "song aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "เสิร์ฟ",
+              "romanization": "soep",
+              "meanings": {
+                "en": "Serve",
+                "zh": "上菜",
+                "th": "เสิร์ฟ",
+                "ko": "서빙하다",
+                "es": "Servir"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เสิร์ฟครับ",
+                  "romanization": "soep khrap"
+                },
+                "female": {
+                  "word": "เสิร์ฟค่ะ",
+                  "romanization": "soep kha"
+                }
+              }
+            },
+            {
+              "word": "ยุ่ง",
+              "romanization": "yung",
+              "meanings": {
+                "en": "Busy",
+                "zh": "忙碌",
+                "th": "ยุ่ง",
+                "ko": "바쁜",
+                "es": "Ocupado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ยุ่งครับ",
+                  "romanization": "yung khrap"
+                },
+                "female": {
+                  "word": "ยุ่งค่ะ",
+                  "romanization": "yung kha"
+                }
+              }
+            },
+            {
+              "word": "รอ",
+              "romanization": "ro",
+              "meanings": {
+                "en": "Wait",
+                "zh": "等待",
+                "th": "รอ",
+                "ko": "기다리다",
+                "es": "Esperar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "รอครับ",
+                  "romanization": "ro khrap"
+                },
+                "female": {
+                  "word": "รอค่ะ",
+                  "romanization": "ro kha"
+                }
+              }
+            },
+            {
+              "word": "พร้อม",
+              "romanization": "phrom",
+              "meanings": {
+                "en": "Ready",
+                "zh": "准备好",
+                "th": "พร้อม",
+                "ko": "준비된",
+                "es": "Listo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "พร้อมครับ",
+                  "romanization": "phrom khrap"
+                },
+                "female": {
+                  "word": "พร้อมค่ะ",
+                  "romanization": "phrom kha"
+                }
+              }
+            },
+            {
+              "word": "เพลิดเพลิน",
+              "romanization": "phloet-phloen",
+              "meanings": {
+                "en": "Enjoy",
+                "zh": "享受",
+                "th": "สนุก",
+                "ko": "즐기다",
+                "es": "Disfrutar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เพลิดเพลินครับ",
+                  "romanization": "phloet-phloen khrap"
+                },
+                "female": {
+                  "word": "เพลิดเพลินค่ะ",
+                  "romanization": "phloet-phloen kha"
+                }
+              }
+            },
+            {
+              "word": "อร่อย",
+              "romanization": "a-roi",
+              "meanings": {
+                "en": "Delicious",
+                "zh": "美味",
+                "th": "อร่อย",
+                "ko": "맛있는",
+                "es": "Delicioso"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อร่อยครับ",
+                  "romanization": "a-roi khrap"
+                },
+                "female": {
+                  "word": "อร่อยค่ะ",
+                  "romanization": "a-roi kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "แนะนำ",
+              "romanization": "nae-nam",
+              "options": {
+                "en": [
+                  "Recommend",
+                  "Specials",
+                  "Vegetarian",
+                  "Allergy"
+                ],
+                "zh": [
+                  "推荐",
+                  "特色菜",
+                  "素食",
+                  "过敏"
+                ],
+                "th": [
+                  "แนะนำ",
+                  "เมนูพิเศษ",
+                  "มังสวิรัติ",
+                  "อาการแพ้"
+                ],
+                "ko": [
+                  "추천하다",
+                  "오늘의 특선",
+                  "채식주의자",
+                  "알레르기"
+                ],
+                "es": [
+                  "Recomendar",
+                  "Especialidades",
+                  "Vegetariano",
+                  "Alergia"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "แนะนำครับ",
+                  "romanization": "nae-nam khrap"
+                },
+                "female": {
+                  "word": "แนะนำค่ะ",
+                  "romanization": "nae-nam kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Allergy' in Thai?",
+                "zh": "泰语中'过敏'怎么说？",
+                "th": "คำว่า 'อาการแพ้' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'알레르기'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Alergia' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "แพ้อาหาร",
+                  "แนะนำ",
+                  "อาหารพิเศษ",
+                  "มังสวิรัติ"
+                ],
+                "male": [
+                  "แพ้อาหารครับ",
+                  "แนะนำครับ",
+                  "อาหารพิเศษครับ",
+                  "มังสวิรัติครับ"
+                ],
+                "female": [
+                  "แพ้อาหารค่ะ",
+                  "แนะนำค่ะ",
+                  "อาหารพิเศษค่ะ",
+                  "มังสวิรัติค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ส่งอาหาร",
+              "romanization": "song aa-haan",
+              "options": {
+                "en": [
+                  "Delivery",
+                  "Serve",
+                  "Busy",
+                  "Wait"
+                ],
+                "zh": [
+                  "外卖",
+                  "上菜",
+                  "忙碌",
+                  "等待"
+                ],
+                "th": [
+                  "จัดส่ง",
+                  "เสิร์ฟ",
+                  "ยุ่ง",
+                  "รอ"
+                ],
+                "ko": [
+                  "배달",
+                  "서빙하다",
+                  "바쁜",
+                  "기다리다"
+                ],
+                "es": [
+                  "Entrega",
+                  "Servir",
+                  "Ocupado",
+                  "Esperar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "ส่งอาหารครับ",
+                  "romanization": "song aa-haan khrap"
+                },
+                "female": {
+                  "audio_text": "ส่งอาหารค่ะ",
+                  "romanization": "song aa-haan kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ยุ่ง",
+                  "romanization": "yung",
+                  "native": {
+                    "en": "Busy",
+                    "zh": "忙碌",
+                    "th": "ยุ่ง",
+                    "ko": "바쁜",
+                    "es": "Ocupado"
+                  }
+                },
+                {
+                  "target": "รอ",
+                  "romanization": "ro",
+                  "native": {
+                    "en": "Wait",
+                    "zh": "等待",
+                    "th": "รอ",
+                    "ko": "기다리다",
+                    "es": "Esperar"
+                  }
+                },
+                {
+                  "target": "พร้อม",
+                  "romanization": "phrom",
+                  "native": {
+                    "en": "Ready",
+                    "zh": "准备好",
+                    "th": "พร้อม",
+                    "ko": "준비된",
+                    "es": "Listo"
+                  }
+                },
+                {
+                  "target": "เพลิดเพลิน",
+                  "romanization": "phloet-phloen",
+                  "native": {
+                    "en": "Enjoy",
+                    "zh": "享受",
+                    "th": "สนุก",
+                    "ko": "즐기다",
+                    "es": "Disfrutar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Recommend' then 'Specials'",
+                "zh": "先说'推荐'再说'特色菜'",
+                "th": "พูด 'แนะนำ' แล้ว 'เมนูพิเศษ'",
+                "ko": "'추천하다'를 말한 다음 '오늘의 특선'를 말하세요",
+                "es": "Di 'Recomendar' y luego 'Especialidades'"
+              },
+              "words": [
+                "อาหารพิเศษ",
+                "แนะนำ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ],
+                "male": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ],
+                "female": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ]
+              },
+              "romanization": "nae-nam aa-haan phi-set",
+              "tiles": {
+                "neutral": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ],
+                "male": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ],
+                "female": [
+                  "แนะนำ",
+                  "อาหารพิเศษ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Cooking & Kitchen",
+        "zh": "烹饪与厨房",
+        "th": "การทำอาหารและห้องครัว",
+        "ko": "요리와 주방",
+        "es": "Cocina y utensilios"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "조리법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": [
+              "Learn cooking verbs",
+              "Describe food preparation"
+            ],
+            "zh": [
+              "学习烹饪动词",
+              "描述食物准备"
+            ],
+            "th": [
+              "Learn cooking verbs",
+              "Describe food preparation"
+            ],
+            "ko": [
+              "Learn cooking verbs",
+              "Describe food preparation"
+            ],
+            "es": [
+              "Learn cooking verbs",
+              "Describe food preparation"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ทำอาหาร",
+              "romanization": "tam aa-haan",
+              "meanings": {
+                "en": "Cook",
+                "zh": "做饭",
+                "th": "ทำอาหาร",
+                "ko": "요리하다",
+                "es": "Cocinar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทำอาหารครับ",
+                  "romanization": "tam aa-haan khrap"
+                },
+                "female": {
+                  "word": "ทำอาหารค่ะ",
+                  "romanization": "tam aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "ต้ม",
+              "romanization": "tom",
+              "meanings": {
+                "en": "Boil",
+                "zh": "煮",
+                "th": "ต้ม",
+                "ko": "끓이다",
+                "es": "Hervir"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ต้มครับ",
+                  "romanization": "tom khrap"
+                },
+                "female": {
+                  "word": "ต้มค่ะ",
+                  "romanization": "tom kha"
+                }
+              }
+            },
+            {
+              "word": "ทอด",
+              "romanization": "thot",
+              "meanings": {
+                "en": "Fry",
+                "zh": "炸",
+                "th": "ทอด",
+                "ko": "튀기다",
+                "es": "Freír"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ทอดครับ",
+                  "romanization": "thot khrap"
+                },
+                "female": {
+                  "word": "ทอดค่ะ",
+                  "romanization": "thot kha"
+                }
+              }
+            },
+            {
+              "word": "อบ",
+              "romanization": "op",
+              "meanings": {
+                "en": "Bake",
+                "zh": "烤(烤箱)",
+                "th": "อบ",
+                "ko": "굽다",
+                "es": "Hornear"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อบครับ",
+                  "romanization": "op khrap"
+                },
+                "female": {
+                  "word": "อบค่ะ",
+                  "romanization": "op kha"
+                }
+              }
+            },
+            {
+              "word": "ย่าง",
+              "romanization": "yaang",
+              "meanings": {
+                "en": "Grill",
+                "zh": "烤(火烤)",
+                "th": "ย่าง",
+                "ko": "굽다",
+                "es": "Asar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ย่างครับ",
+                  "romanization": "yaang khrap"
+                },
+                "female": {
+                  "word": "ย่างค่ะ",
+                  "romanization": "yaang kha"
+                }
+              }
+            },
+            {
+              "word": "หั่น",
+              "romanization": "han",
+              "meanings": {
+                "en": "Chop",
+                "zh": "切",
+                "th": "สับ",
+                "ko": "썰다",
+                "es": "Picar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หั่นครับ",
+                  "romanization": "han khrap"
+                },
+                "female": {
+                  "word": "หั่นค่ะ",
+                  "romanization": "han kha"
+                }
+              }
+            },
+            {
+              "word": "ผสม",
+              "romanization": "pha-som",
+              "meanings": {
+                "en": "Mix",
+                "zh": "混合",
+                "th": "ผสม",
+                "ko": "섞다",
+                "es": "Mezclar"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ผสมครับ",
+                  "romanization": "pha-som khrap"
+                },
+                "female": {
+                  "word": "ผสมค่ะ",
+                  "romanization": "pha-som kha"
+                }
+              }
+            },
+            {
+              "word": "คน",
+              "romanization": "khon",
+              "meanings": {
+                "en": "Stir",
+                "zh": "搅拌",
+                "th": "คน",
+                "ko": "젓다",
+                "es": "Revolver"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คนครับ",
+                  "romanization": "khon khrap"
+                },
+                "female": {
+                  "word": "คนค่ะ",
+                  "romanization": "khon kha"
+                }
+              }
+            },
+            {
+              "word": "สูตรอาหาร",
+              "romanization": "suut aa-haan",
+              "meanings": {
+                "en": "Recipe",
+                "zh": "食谱",
+                "th": "สูตรอาหาร",
+                "ko": "레시피",
+                "es": "Receta"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สูตรอาหารครับ",
+                  "romanization": "suut aa-haan khrap"
+                },
+                "female": {
+                  "word": "สูตรอาหารค่ะ",
+                  "romanization": "suut aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "ส่วนผสม",
+              "romanization": "suan pha-som",
+              "meanings": {
+                "en": "Ingredient",
+                "zh": "食材",
+                "th": "ส่วนผสม",
+                "ko": "재료",
+                "es": "Ingrediente"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ส่วนผสมครับ",
+                  "romanization": "suan pha-som khrap"
+                },
+                "female": {
+                  "word": "ส่วนผสมค่ะ",
+                  "romanization": "suan pha-som kha"
+                }
+              }
+            },
+            {
+              "word": "เตาอบ",
+              "romanization": "tao op",
+              "meanings": {
+                "en": "Oven",
+                "zh": "烤箱",
+                "th": "เตาอบ",
+                "ko": "오븐",
+                "es": "Horno"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เตาอบครับ",
+                  "romanization": "tao op khrap"
+                },
+                "female": {
+                  "word": "เตาอบค่ะ",
+                  "romanization": "tao op kha"
+                }
+              }
+            },
+            {
+              "word": "กระทะ",
+              "romanization": "gra-tha",
+              "meanings": {
+                "en": "Pan",
+                "zh": "平底锅",
+                "th": "กระทะ",
+                "ko": "프라이팬",
+                "es": "Sartén"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กระทะครับ",
+                  "romanization": "gra-tha khrap"
+                },
+                "female": {
+                  "word": "กระทะค่ะ",
+                  "romanization": "gra-tha kha"
+                }
+              }
+            },
+            {
+              "word": "มีด",
+              "romanization": "meet",
+              "meanings": {
+                "en": "Knife",
+                "zh": "刀",
+                "th": "มีด",
+                "ko": "칼",
+                "es": "Cuchillo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "มีดครับ",
+                  "romanization": "meet khrap"
+                },
+                "female": {
+                  "word": "มีดค่ะ",
+                  "romanization": "meet kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ทำอาหาร",
+              "romanization": "tam aa-haan",
+              "options": {
+                "en": [
+                  "Cook",
+                  "Boil",
+                  "Fry",
+                  "Bake"
+                ],
+                "zh": [
+                  "做饭",
+                  "煮",
+                  "炸",
+                  "烤(烤箱)"
+                ],
+                "th": [
+                  "ทำอาหาร",
+                  "ต้ม",
+                  "ทอด",
+                  "อบ"
+                ],
+                "ko": [
+                  "요리하다",
+                  "끓이다",
+                  "튀기다",
+                  "굽다"
+                ],
+                "es": [
+                  "Cocinar",
+                  "Hervir",
+                  "Freír",
+                  "Hornear"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ทำอาหารครับ",
+                  "romanization": "tam aa-haan khrap"
+                },
+                "female": {
+                  "word": "ทำอาหารค่ะ",
+                  "romanization": "tam aa-haan kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Bake' in Thai?",
+                "zh": "泰语中'烤(烤箱)'怎么说？",
+                "th": "คำว่า 'อบ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'굽다'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Hornear' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "อบ",
+                  "ทำอาหาร",
+                  "ต้ม",
+                  "ทอด"
+                ],
+                "male": [
+                  "อบครับ",
+                  "ทำอาหารครับ",
+                  "ต้มครับ",
+                  "ทอดครับ"
+                ],
+                "female": [
+                  "อบค่ะ",
+                  "ทำอาหารค่ะ",
+                  "ต้มค่ะ",
+                  "ทอดค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "หั่น",
+              "romanization": "han",
+              "options": {
+                "en": [
+                  "Chop",
+                  "Mix",
+                  "Stir",
+                  "Recipe"
+                ],
+                "zh": [
+                  "切",
+                  "混合",
+                  "搅拌",
+                  "食谱"
+                ],
+                "th": [
+                  "สับ",
+                  "ผสม",
+                  "คน",
+                  "สูตรอาหาร"
+                ],
+                "ko": [
+                  "썰다",
+                  "섞다",
+                  "젓다",
+                  "레시피"
+                ],
+                "es": [
+                  "Picar",
+                  "Mezclar",
+                  "Revolver",
+                  "Receta"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "หั่นครับ",
+                  "romanization": "han khrap"
+                },
+                "female": {
+                  "audio_text": "หั่นค่ะ",
+                  "romanization": "han kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "คน",
+                  "romanization": "khon",
+                  "native": {
+                    "en": "Stir",
+                    "zh": "搅拌",
+                    "th": "คน",
+                    "ko": "젓다",
+                    "es": "Revolver"
+                  }
+                },
+                {
+                  "target": "สูตรอาหาร",
+                  "romanization": "suut aa-haan",
+                  "native": {
+                    "en": "Recipe",
+                    "zh": "食谱",
+                    "th": "สูตรอาหาร",
+                    "ko": "레시피",
+                    "es": "Receta"
+                  }
+                },
+                {
+                  "target": "ส่วนผสม",
+                  "romanization": "suan pha-som",
+                  "native": {
+                    "en": "Ingredient",
+                    "zh": "食材",
+                    "th": "ส่วนผสม",
+                    "ko": "재료",
+                    "es": "Ingrediente"
+                  }
+                },
+                {
+                  "target": "เตาอบ",
+                  "romanization": "tao op",
+                  "native": {
+                    "en": "Oven",
+                    "zh": "烤箱",
+                    "th": "เตาอบ",
+                    "ko": "오븐",
+                    "es": "Horno"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Cook' then 'Boil'",
+                "zh": "先说'做饭'再说'煮'",
+                "th": "พูด 'ทำอาหาร' แล้ว 'ต้ม'",
+                "ko": "'요리하다'를 말한 다음 '끓이다'를 말하세요",
+                "es": "Di 'Cocinar' y luego 'Hervir'"
+              },
+              "words": [
+                "ต้ม",
+                "ทำอาหาร"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ],
+                "male": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ],
+                "female": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ]
+              },
+              "romanization": "tam aa-haan tom",
+              "tiles": {
+                "neutral": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ],
+                "male": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ],
+                "female": [
+                  "ทำอาหาร",
+                  "ต้ม"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Tastes & Textures",
+            "zh": "味道与口感",
+            "th": "รสชาติและเนื้อสัมผัส",
+            "ko": "맛과 식감",
+            "es": "Sabores y texturas"
+          },
+          "objectives": {
+            "en": [
+              "Describe food tastes",
+              "Talk about food temperature and freshness"
+            ],
+            "zh": [
+              "描述食物味道",
+              "谈论食物温度和新鲜度"
+            ],
+            "th": [
+              "Describe food tastes",
+              "Talk about food temperature and freshness"
+            ],
+            "ko": [
+              "Describe food tastes",
+              "Talk about food temperature and freshness"
+            ],
+            "es": [
+              "Describe food tastes",
+              "Talk about food temperature and freshness"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "เขียง",
+              "romanization": "khiang",
+              "meanings": {
+                "en": "Cutting board",
+                "zh": "砧板",
+                "th": "เขียง",
+                "ko": "도마",
+                "es": "Tabla de cortar"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "เขียงครับ",
+                  "romanization": "khiang khrap"
+                },
+                "female": {
+                  "word": "เขียงค่ะ",
+                  "romanization": "khiang kha"
+                }
+              }
+            },
+            {
+              "word": "หม้อ",
+              "romanization": "mo",
+              "meanings": {
+                "en": "Pot",
+                "zh": "锅",
+                "th": "หม้อ",
+                "ko": "냄비",
+                "es": "Olla"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "หม้อครับ",
+                  "romanization": "mo khrap"
+                },
+                "female": {
+                  "word": "หม้อค่ะ",
+                  "romanization": "mo kha"
+                }
+              }
+            },
+            {
+              "word": "เผ็ด",
+              "romanization": "phet",
+              "meanings": {
+                "en": "Spicy",
+                "zh": "辣",
+                "th": "เผ็ด",
+                "ko": "매운",
+                "es": "Picante"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เผ็ดครับ",
+                  "romanization": "phet khrap"
+                },
+                "female": {
+                  "word": "เผ็ดค่ะ",
+                  "romanization": "phet kha"
+                }
+              }
+            },
+            {
+              "word": "หวาน",
+              "romanization": "waan",
+              "meanings": {
+                "en": "Sweet",
+                "zh": "甜",
+                "th": "หวาน",
+                "ko": "단",
+                "es": "Dulce"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "หวานครับ",
+                  "romanization": "waan khrap"
+                },
+                "female": {
+                  "word": "หวานค่ะ",
+                  "romanization": "waan kha"
+                }
+              }
+            },
+            {
+              "word": "เปรี้ยว",
+              "romanization": "priao",
+              "meanings": {
+                "en": "Sour",
+                "zh": "酸",
+                "th": "เปรี้ยว",
+                "ko": "신",
+                "es": "Ácido"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เปรี้ยวครับ",
+                  "romanization": "priao khrap"
+                },
+                "female": {
+                  "word": "เปรี้ยวค่ะ",
+                  "romanization": "priao kha"
+                }
+              }
+            },
+            {
+              "word": "เค็ม",
+              "romanization": "khem",
+              "meanings": {
+                "en": "Salty",
+                "zh": "咸",
+                "th": "เค็ม",
+                "ko": "짠",
+                "es": "Salado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เค็มครับ",
+                  "romanization": "khem khrap"
+                },
+                "female": {
+                  "word": "เค็มค่ะ",
+                  "romanization": "khem kha"
+                }
+              }
+            },
+            {
+              "word": "ขม",
+              "romanization": "khom",
+              "meanings": {
+                "en": "Bitter",
+                "zh": "苦",
+                "th": "ขม",
+                "ko": "쓴",
+                "es": "Amargo"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ขมครับ",
+                  "romanization": "khom khrap"
+                },
+                "female": {
+                  "word": "ขมค่ะ",
+                  "romanization": "khom kha"
+                }
+              }
+            },
+            {
+              "word": "ดิบ",
+              "romanization": "dip",
+              "meanings": {
+                "en": "Raw",
+                "zh": "生的",
+                "th": "ดิบ",
+                "ko": "날것의",
+                "es": "Crudo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ดิบครับ",
+                  "romanization": "dip khrap"
+                },
+                "female": {
+                  "word": "ดิบค่ะ",
+                  "romanization": "dip kha"
+                }
+              }
+            },
+            {
+              "word": "สด",
+              "romanization": "sot",
+              "meanings": {
+                "en": "Fresh",
+                "zh": "新鲜",
+                "th": "สด",
+                "ko": "신선한",
+                "es": "Fresco"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สดครับ",
+                  "romanization": "sot khrap"
+                },
+                "female": {
+                  "word": "สดค่ะ",
+                  "romanization": "sot kha"
+                }
+              }
+            },
+            {
+              "word": "แช่แข็ง",
+              "romanization": "chae khaeng",
+              "meanings": {
+                "en": "Frozen",
+                "zh": "冷冻",
+                "th": "แช่แข็ง",
+                "ko": "냉동의",
+                "es": "Congelado"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แช่แข็งครับ",
+                  "romanization": "chae khaeng khrap"
+                },
+                "female": {
+                  "word": "แช่แข็งค่ะ",
+                  "romanization": "chae khaeng kha"
+                }
+              }
+            },
+            {
+              "word": "อุ่น",
+              "romanization": "un",
+              "meanings": {
+                "en": "Heat",
+                "zh": "加热",
+                "th": "อุ่น",
+                "ko": "데우다",
+                "es": "Calentar"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อุ่นครับ",
+                  "romanization": "un khrap"
+                },
+                "female": {
+                  "word": "อุ่นค่ะ",
+                  "romanization": "un kha"
+                }
+              }
+            },
+            {
+              "word": "ทำให้เย็นลง",
+              "romanization": "tam hai yen long",
+              "meanings": {
+                "en": "Cool down",
+                "zh": "冷却",
+                "th": "ทำให้เย็น",
+                "ko": "식히다",
+                "es": "Enfriar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ทำให้เย็นลงครับ",
+                  "romanization": "tam hai yen long khrap"
+                },
+                "female": {
+                  "word": "ทำให้เย็นลงค่ะ",
+                  "romanization": "tam hai yen long kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "เขียง",
+              "romanization": "khiang",
+              "options": {
+                "en": [
+                  "Cutting board",
+                  "Pot",
+                  "Spicy",
+                  "Sweet"
+                ],
+                "zh": [
+                  "砧板",
+                  "锅",
+                  "辣",
+                  "甜"
+                ],
+                "th": [
+                  "เขียง",
+                  "หม้อ",
+                  "เผ็ด",
+                  "หวาน"
+                ],
+                "ko": [
+                  "도마",
+                  "냄비",
+                  "매운",
+                  "단"
+                ],
+                "es": [
+                  "Tabla de cortar",
+                  "Olla",
+                  "Picante",
+                  "Dulce"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "เขียงครับ",
+                  "romanization": "khiang khrap"
+                },
+                "female": {
+                  "word": "เขียงค่ะ",
+                  "romanization": "khiang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Sweet' in Thai?",
+                "zh": "泰语中'甜'怎么说？",
+                "th": "คำว่า 'หวาน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'단'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Dulce' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "หวาน",
+                  "เขียง",
+                  "หม้อ",
+                  "เผ็ด"
+                ],
+                "male": [
+                  "หวานครับ",
+                  "เขียงครับ",
+                  "หม้อครับ",
+                  "เผ็ดครับ"
+                ],
+                "female": [
+                  "หวานค่ะ",
+                  "เขียงค่ะ",
+                  "หม้อค่ะ",
+                  "เผ็ดค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เค็ม",
+              "romanization": "khem",
+              "options": {
+                "en": [
+                  "Salty",
+                  "Bitter",
+                  "Raw",
+                  "Fresh"
+                ],
+                "zh": [
+                  "咸",
+                  "苦",
+                  "生的",
+                  "新鲜"
+                ],
+                "th": [
+                  "เค็ม",
+                  "ขม",
+                  "ดิบ",
+                  "สด"
+                ],
+                "ko": [
+                  "짠",
+                  "쓴",
+                  "날것의",
+                  "신선한"
+                ],
+                "es": [
+                  "Salado",
+                  "Amargo",
+                  "Crudo",
+                  "Fresco"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เค็มครับ",
+                  "romanization": "khem khrap"
+                },
+                "female": {
+                  "audio_text": "เค็มค่ะ",
+                  "romanization": "khem kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ดิบ",
+                  "romanization": "dip",
+                  "native": {
+                    "en": "Raw",
+                    "zh": "生的",
+                    "th": "ดิบ",
+                    "ko": "날것의",
+                    "es": "Crudo"
+                  }
+                },
+                {
+                  "target": "สด",
+                  "romanization": "sot",
+                  "native": {
+                    "en": "Fresh",
+                    "zh": "新鲜",
+                    "th": "สด",
+                    "ko": "신선한",
+                    "es": "Fresco"
+                  }
+                },
+                {
+                  "target": "แช่แข็ง",
+                  "romanization": "chae khaeng",
+                  "native": {
+                    "en": "Frozen",
+                    "zh": "冷冻",
+                    "th": "แช่แข็ง",
+                    "ko": "냉동의",
+                    "es": "Congelado"
+                  }
+                },
+                {
+                  "target": "อุ่น",
+                  "romanization": "un",
+                  "native": {
+                    "en": "Heat",
+                    "zh": "加热",
+                    "th": "อุ่น",
+                    "ko": "데우다",
+                    "es": "Calentar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Cutting board' then 'Pot'",
+                "zh": "先说'砧板'再说'锅'",
+                "th": "พูด 'เขียง' แล้ว 'หม้อ'",
+                "ko": "'도마'를 말한 다음 '냄비'를 말하세요",
+                "es": "Di 'Tabla de cortar' y luego 'Olla'"
+              },
+              "words": [
+                "หม้อ",
+                "เขียง"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "เขียง",
+                  "หม้อ"
+                ],
+                "male": [
+                  "เขียง",
+                  "หม้อ"
+                ],
+                "female": [
+                  "เขียง",
+                  "หม้อ"
+                ]
+              },
+              "romanization": "khiang mo",
+              "tiles": {
+                "neutral": [
+                  "เขียง",
+                  "หม้อ"
+                ],
+                "male": [
+                  "เขียง",
+                  "หม้อ"
+                ],
+                "female": [
+                  "เขียง",
+                  "หม้อ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Fruits & Vegetables",
+        "zh": "水果与蔬菜",
+        "th": "ผลไม้และผัก",
+        "ko": "과일과 채소",
+        "es": "Frutas y verduras"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Common Fruits",
+            "zh": "常见水果",
+            "th": "ผลไม้ทั่วไป",
+            "ko": "흔한 과일",
+            "es": "Frutas comunes"
+          },
+          "objectives": {
+            "en": [
+              "Name common fruits in Thai",
+              "Talk about fruit preferences"
+            ],
+            "zh": [
+              "用泰语说出常见水果",
+              "谈论水果偏好"
+            ],
+            "th": [
+              "Name common fruits in Thai",
+              "Talk about fruit preferences"
+            ],
+            "ko": [
+              "Name common fruits in Thai",
+              "Talk about fruit preferences"
+            ],
+            "es": [
+              "Name common fruits in Thai",
+              "Talk about fruit preferences"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "แอปเปิ้ล",
+              "romanization": "aep-poen",
+              "meanings": {
+                "en": "Apple",
+                "zh": "苹果",
+                "th": "แอปเปิ้ล",
+                "ko": "사과",
+                "es": "Manzana"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แอปเปิ้ลครับ",
+                  "romanization": "aep-poen khrap"
+                },
+                "female": {
+                  "word": "แอปเปิ้ลค่ะ",
+                  "romanization": "aep-poen kha"
+                }
+              }
+            },
+            {
+              "word": "กล้วย",
+              "romanization": "gluai",
+              "meanings": {
+                "en": "Banana",
+                "zh": "香蕉",
+                "th": "กล้วย",
+                "ko": "바나나",
+                "es": "Plátano"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "กล้วยครับ",
+                  "romanization": "gluai khrap"
+                },
+                "female": {
+                  "word": "กล้วยค่ะ",
+                  "romanization": "gluai kha"
+                }
+              }
+            },
+            {
+              "word": "ส้ม",
+              "romanization": "som",
+              "meanings": {
+                "en": "Orange",
+                "zh": "橙子",
+                "th": "ส้ม",
+                "ko": "주황색",
+                "es": "Naranja"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ส้มครับ",
+                  "romanization": "som khrap"
+                },
+                "female": {
+                  "word": "ส้มค่ะ",
+                  "romanization": "som kha"
+                }
+              }
+            },
+            {
+              "word": "สตรอว์เบอร์รี",
+              "romanization": "sa-tro-boe-ree",
+              "meanings": {
+                "en": "Strawberry",
+                "zh": "草莓",
+                "th": "สตรอว์เบอร์รี่",
+                "ko": "딸기",
+                "es": "Fresa"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "สตรอว์เบอร์รีครับ",
+                  "romanization": "sa-tro-boe-ree khrap"
+                },
+                "female": {
+                  "word": "สตรอว์เบอร์รีค่ะ",
+                  "romanization": "sa-tro-boe-ree kha"
+                }
+              }
+            },
+            {
+              "word": "องุ่น",
+              "romanization": "a-ngun",
+              "meanings": {
+                "en": "Grape",
+                "zh": "葡萄",
+                "th": "องุ่น",
+                "ko": "포도",
+                "es": "Uva"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "องุ่นครับ",
+                  "romanization": "a-ngun khrap"
+                },
+                "female": {
+                  "word": "องุ่นค่ะ",
+                  "romanization": "a-ngun kha"
+                }
+              }
+            },
+            {
+              "word": "แตงโม",
+              "romanization": "taeng moo",
+              "meanings": {
+                "en": "Watermelon",
+                "zh": "西瓜",
+                "th": "แตงโม",
+                "ko": "수박",
+                "es": "Sandía"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แตงโมครับ",
+                  "romanization": "taeng moo khrap"
+                },
+                "female": {
+                  "word": "แตงโมค่ะ",
+                  "romanization": "taeng moo kha"
+                }
+              }
+            },
+            {
+              "word": "มะม่วง",
+              "romanization": "ma-muang",
+              "meanings": {
+                "en": "Mango",
+                "zh": "芒果",
+                "th": "มะม่วง",
+                "ko": "망고",
+                "es": "Mango"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "มะม่วงครับ",
+                  "romanization": "ma-muang khrap"
+                },
+                "female": {
+                  "word": "มะม่วงค่ะ",
+                  "romanization": "ma-muang kha"
+                }
+              }
+            },
+            {
+              "word": "สับปะรด",
+              "romanization": "sap-pa-rot",
+              "meanings": {
+                "en": "Pineapple",
+                "zh": "菠萝",
+                "th": "สับปะรด",
+                "ko": "파인애플",
+                "es": "Piña"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สับปะรดครับ",
+                  "romanization": "sap-pa-rot khrap"
+                },
+                "female": {
+                  "word": "สับปะรดค่ะ",
+                  "romanization": "sap-pa-rot kha"
+                }
+              }
+            },
+            {
+              "word": "มะนาว",
+              "romanization": "ma-naao",
+              "meanings": {
+                "en": "Lemon",
+                "zh": "柠檬",
+                "th": "มะนาว",
+                "ko": "레몬",
+                "es": "Limón"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มะนาวครับ",
+                  "romanization": "ma-naao khrap"
+                },
+                "female": {
+                  "word": "มะนาวค่ะ",
+                  "romanization": "ma-naao kha"
+                }
+              }
+            },
+            {
+              "word": "เชอร์รี",
+              "romanization": "choe-ree",
+              "meanings": {
+                "en": "Cherry",
+                "zh": "樱桃",
+                "th": "เชอร์รี่",
+                "ko": "체리",
+                "es": "Cereza"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เชอร์รีครับ",
+                  "romanization": "choe-ree khrap"
+                },
+                "female": {
+                  "word": "เชอร์รีค่ะ",
+                  "romanization": "choe-ree kha"
+                }
+              }
+            },
+            {
+              "word": "มะเขือเทศ",
+              "romanization": "ma-khuea thet",
+              "meanings": {
+                "en": "Tomato",
+                "zh": "番茄",
+                "th": "มะเขือเทศ",
+                "ko": "토마토",
+                "es": "Tomate"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "มะเขือเทศครับ",
+                  "romanization": "ma-khuea thet khrap"
+                },
+                "female": {
+                  "word": "มะเขือเทศค่ะ",
+                  "romanization": "ma-khuea thet kha"
+                }
+              }
+            },
+            {
+              "word": "มันฝรั่ง",
+              "romanization": "man fa-rang",
+              "meanings": {
+                "en": "Potato",
+                "zh": "土豆",
+                "th": "มันฝรั่ง",
+                "ko": "감자",
+                "es": "Papa"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มันฝรั่งครับ",
+                  "romanization": "man fa-rang khrap"
+                },
+                "female": {
+                  "word": "มันฝรั่งค่ะ",
+                  "romanization": "man fa-rang kha"
+                }
+              }
+            },
+            {
+              "word": "แครอท",
+              "romanization": "khae-rot",
+              "meanings": {
+                "en": "Carrot",
+                "zh": "胡萝卜",
+                "th": "แครอท",
+                "ko": "당근",
+                "es": "Zanahoria"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แครอทครับ",
+                  "romanization": "khae-rot khrap"
+                },
+                "female": {
+                  "word": "แครอทค่ะ",
+                  "romanization": "khae-rot kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "แอปเปิ้ล",
+              "romanization": "aep-poen",
+              "options": {
+                "en": [
+                  "Apple",
+                  "Banana",
+                  "Orange",
+                  "Strawberry"
+                ],
+                "zh": [
+                  "苹果",
+                  "香蕉",
+                  "橙子",
+                  "草莓"
+                ],
+                "th": [
+                  "แอปเปิ้ล",
+                  "กล้วย",
+                  "ส้ม",
+                  "สตรอว์เบอร์รี่"
+                ],
+                "ko": [
+                  "사과",
+                  "바나나",
+                  "주황색",
+                  "딸기"
+                ],
+                "es": [
+                  "Manzana",
+                  "Plátano",
+                  "Naranja",
+                  "Fresa"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "แอปเปิ้ลครับ",
+                  "romanization": "aep-poen khrap"
+                },
+                "female": {
+                  "word": "แอปเปิ้ลค่ะ",
+                  "romanization": "aep-poen kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Strawberry' in Thai?",
+                "zh": "泰语中'草莓'怎么说？",
+                "th": "คำว่า 'สตรอว์เบอร์รี่' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'딸기'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Fresa' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "สตรอว์เบอร์รี",
+                  "แอปเปิ้ล",
+                  "กล้วย",
+                  "ส้ม"
+                ],
+                "male": [
+                  "สตรอว์เบอร์รีครับ",
+                  "แอปเปิ้ลครับ",
+                  "กล้วยครับ",
+                  "ส้มครับ"
+                ],
+                "female": [
+                  "สตรอว์เบอร์รีค่ะ",
+                  "แอปเปิ้ลค่ะ",
+                  "กล้วยค่ะ",
+                  "ส้มค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "แตงโม",
+              "romanization": "taeng moo",
+              "options": {
+                "en": [
+                  "Watermelon",
+                  "Mango",
+                  "Pineapple",
+                  "Lemon"
+                ],
+                "zh": [
+                  "西瓜",
+                  "芒果",
+                  "菠萝",
+                  "柠檬"
+                ],
+                "th": [
+                  "แตงโม",
+                  "มะม่วง",
+                  "สับปะรด",
+                  "มะนาว"
+                ],
+                "ko": [
+                  "수박",
+                  "망고",
+                  "파인애플",
+                  "레몬"
+                ],
+                "es": [
+                  "Sandía",
+                  "Mango",
+                  "Piña",
+                  "Limón"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "แตงโมครับ",
+                  "romanization": "taeng moo khrap"
+                },
+                "female": {
+                  "audio_text": "แตงโมค่ะ",
+                  "romanization": "taeng moo kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "สับปะรด",
+                  "romanization": "sap-pa-rot",
+                  "native": {
+                    "en": "Pineapple",
+                    "zh": "菠萝",
+                    "th": "สับปะรด",
+                    "ko": "파인애플",
+                    "es": "Piña"
+                  }
+                },
+                {
+                  "target": "มะนาว",
+                  "romanization": "ma-naao",
+                  "native": {
+                    "en": "Lemon",
+                    "zh": "柠檬",
+                    "th": "มะนาว",
+                    "ko": "레몬",
+                    "es": "Limón"
+                  }
+                },
+                {
+                  "target": "เชอร์รี",
+                  "romanization": "choe-ree",
+                  "native": {
+                    "en": "Cherry",
+                    "zh": "樱桃",
+                    "th": "เชอร์รี่",
+                    "ko": "체리",
+                    "es": "Cereza"
+                  }
+                },
+                {
+                  "target": "มะเขือเทศ",
+                  "romanization": "ma-khuea thet",
+                  "native": {
+                    "en": "Tomato",
+                    "zh": "番茄",
+                    "th": "มะเขือเทศ",
+                    "ko": "토마토",
+                    "es": "Tomate"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Apple' then 'Banana'",
+                "zh": "先说'苹果'再说'香蕉'",
+                "th": "พูด 'แอปเปิ้ล' แล้ว 'กล้วย'",
+                "ko": "'사과'를 말한 다음 '바나나'를 말하세요",
+                "es": "Di 'Manzana' y luego 'Plátano'"
+              },
+              "words": [
+                "กล้วย",
+                "แอปเปิ้ล"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ],
+                "male": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ],
+                "female": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ]
+              },
+              "romanization": "aep-poen gluai",
+              "tiles": {
+                "neutral": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ],
+                "male": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ],
+                "female": [
+                  "แอปเปิ้ล",
+                  "กล้วย"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Vegetables & Greens",
+            "zh": "蔬菜与绿叶菜",
+            "th": "ผักและผักใบเขียว",
+            "ko": "채소와 엽채류",
+            "es": "Verduras y hortalizas"
+          },
+          "objectives": {
+            "en": [
+              "Name common vegetables",
+              "Discuss vegetable dishes"
+            ],
+            "zh": [
+              "说出常见蔬菜名称",
+              "讨论蔬菜菜肴"
+            ],
+            "th": [
+              "Name common vegetables",
+              "Discuss vegetable dishes"
+            ],
+            "ko": [
+              "Name common vegetables",
+              "Discuss vegetable dishes"
+            ],
+            "es": [
+              "Name common vegetables",
+              "Discuss vegetable dishes"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "หัวหอม",
+              "romanization": "hua hom",
+              "meanings": {
+                "en": "Onion",
+                "zh": "洋葱",
+                "th": "หัวหอม",
+                "ko": "양파",
+                "es": "Cebolla"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "หัวหอมครับ",
+                  "romanization": "hua hom khrap"
+                },
+                "female": {
+                  "word": "หัวหอมค่ะ",
+                  "romanization": "hua hom kha"
+                }
+              }
+            },
+            {
+              "word": "กระเทียม",
+              "romanization": "gra-thiam",
+              "meanings": {
+                "en": "Garlic",
+                "zh": "大蒜",
+                "th": "กระเทียม",
+                "ko": "마늘",
+                "es": "Ajo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กระเทียมครับ",
+                  "romanization": "gra-thiam khrap"
+                },
+                "female": {
+                  "word": "กระเทียมค่ะ",
+                  "romanization": "gra-thiam kha"
+                }
+              }
+            },
+            {
+              "word": "ผักกาดหอม",
+              "romanization": "phak gaat hom",
+              "meanings": {
+                "en": "Lettuce",
+                "zh": "生菜",
+                "th": "ผักกาดหอม",
+                "ko": "상추",
+                "es": "Lechuga"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ผักกาดหอมครับ",
+                  "romanization": "phak gaat hom khrap"
+                },
+                "female": {
+                  "word": "ผักกาดหอมค่ะ",
+                  "romanization": "phak gaat hom kha"
+                }
+              }
+            },
+            {
+              "word": "แตงกวา",
+              "romanization": "taeng gwaa",
+              "meanings": {
+                "en": "Cucumber",
+                "zh": "黄瓜",
+                "th": "แตงกวา",
+                "ko": "오이",
+                "es": "Pepino"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แตงกวาครับ",
+                  "romanization": "taeng gwaa khrap"
+                },
+                "female": {
+                  "word": "แตงกวาค่ะ",
+                  "romanization": "taeng gwaa kha"
+                }
+              }
+            },
+            {
+              "word": "พริก",
+              "romanization": "phrik",
+              "meanings": {
+                "en": "Pepper",
+                "zh": "辣椒",
+                "th": "พริกไทย",
+                "ko": "후추",
+                "es": "Pimienta"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "พริกครับ",
+                  "romanization": "phrik khrap"
+                },
+                "female": {
+                  "word": "พริกค่ะ",
+                  "romanization": "phrik kha"
+                }
+              }
+            },
+            {
+              "word": "เห็ด",
+              "romanization": "het",
+              "meanings": {
+                "en": "Mushroom",
+                "zh": "蘑菇",
+                "th": "เห็ด",
+                "ko": "버섯",
+                "es": "Hongo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "เห็ดครับ",
+                  "romanization": "het khrap"
+                },
+                "female": {
+                  "word": "เห็ดค่ะ",
+                  "romanization": "het kha"
+                }
+              }
+            },
+            {
+              "word": "ผักโขม",
+              "romanization": "phak khom",
+              "meanings": {
+                "en": "Spinach",
+                "zh": "菠菜",
+                "th": "ผักโขม",
+                "ko": "시금치",
+                "es": "Espinaca"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ผักโขมครับ",
+                  "romanization": "phak khom khrap"
+                },
+                "female": {
+                  "word": "ผักโขมค่ะ",
+                  "romanization": "phak khom kha"
+                }
+              }
+            },
+            {
+              "word": "บร็อคโคลี",
+              "romanization": "brok-khoo-lee",
+              "meanings": {
+                "en": "Broccoli",
+                "zh": "西兰花",
+                "th": "บร็อกโคลี",
+                "ko": "브로콜리",
+                "es": "Brócoli"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "บร็อคโคลีครับ",
+                  "romanization": "brok-khoo-lee khrap"
+                },
+                "female": {
+                  "word": "บร็อคโคลีค่ะ",
+                  "romanization": "brok-khoo-lee kha"
+                }
+              }
+            },
+            {
+              "word": "ข้าวโพด",
+              "romanization": "khao phot",
+              "meanings": {
+                "en": "Corn",
+                "zh": "玉米",
+                "th": "ข้าวโพด",
+                "ko": "옥수수",
+                "es": "Maíz"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ข้าวโพดครับ",
+                  "romanization": "khao phot khrap"
+                },
+                "female": {
+                  "word": "ข้าวโพดค่ะ",
+                  "romanization": "khao phot kha"
+                }
+              }
+            },
+            {
+              "word": "ถั่ว",
+              "romanization": "thua",
+              "meanings": {
+                "en": "Beans",
+                "zh": "豆子",
+                "th": "ถั่ว",
+                "ko": "콩",
+                "es": "Frijoles"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ถั่วครับ",
+                  "romanization": "thua khrap"
+                },
+                "female": {
+                  "word": "ถั่วค่ะ",
+                  "romanization": "thua kha"
+                }
+              }
+            },
+            {
+              "word": "ถั่วลันเตา",
+              "romanization": "thua lan-tao",
+              "meanings": {
+                "en": "Peas",
+                "zh": "豌豆",
+                "th": "ถั่วลันเตา",
+                "ko": "완두콩",
+                "es": "Chícharos"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ถั่วลันเตาครับ",
+                  "romanization": "thua lan-tao khrap"
+                },
+                "female": {
+                  "word": "ถั่วลันเตาค่ะ",
+                  "romanization": "thua lan-tao kha"
+                }
+              }
+            },
+            {
+              "word": "กะหล่ำปลี",
+              "romanization": "ga-lam-plee",
+              "meanings": {
+                "en": "Cabbage",
+                "zh": "卷心菜",
+                "th": "กะหล่ำปลี",
+                "ko": "양배추",
+                "es": "Repollo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กะหล่ำปลีครับ",
+                  "romanization": "ga-lam-plee khrap"
+                },
+                "female": {
+                  "word": "กะหล่ำปลีค่ะ",
+                  "romanization": "ga-lam-plee kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "หัวหอม",
+              "romanization": "hua hom",
+              "options": {
+                "en": [
+                  "Onion",
+                  "Garlic",
+                  "Lettuce",
+                  "Cucumber"
+                ],
+                "zh": [
+                  "洋葱",
+                  "大蒜",
+                  "生菜",
+                  "黄瓜"
+                ],
+                "th": [
+                  "หัวหอม",
+                  "กระเทียม",
+                  "ผักกาดหอม",
+                  "แตงกวา"
+                ],
+                "ko": [
+                  "양파",
+                  "마늘",
+                  "상추",
+                  "오이"
+                ],
+                "es": [
+                  "Cebolla",
+                  "Ajo",
+                  "Lechuga",
+                  "Pepino"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "หัวหอมครับ",
+                  "romanization": "hua hom khrap"
+                },
+                "female": {
+                  "word": "หัวหอมค่ะ",
+                  "romanization": "hua hom kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Cucumber' in Thai?",
+                "zh": "泰语中'黄瓜'怎么说？",
+                "th": "คำว่า 'แตงกวา' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'오이'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Pepino' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "แตงกวา",
+                  "หัวหอม",
+                  "กระเทียม",
+                  "ผักกาดหอม"
+                ],
+                "male": [
+                  "แตงกวาครับ",
+                  "หัวหอมครับ",
+                  "กระเทียมครับ",
+                  "ผักกาดหอมครับ"
+                ],
+                "female": [
+                  "แตงกวาค่ะ",
+                  "หัวหอมค่ะ",
+                  "กระเทียมค่ะ",
+                  "ผักกาดหอมค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เห็ด",
+              "romanization": "het",
+              "options": {
+                "en": [
+                  "Mushroom",
+                  "Spinach",
+                  "Broccoli",
+                  "Corn"
+                ],
+                "zh": [
+                  "蘑菇",
+                  "菠菜",
+                  "西兰花",
+                  "玉米"
+                ],
+                "th": [
+                  "เห็ด",
+                  "ผักโขม",
+                  "บร็อกโคลี",
+                  "ข้าวโพด"
+                ],
+                "ko": [
+                  "버섯",
+                  "시금치",
+                  "브로콜리",
+                  "옥수수"
+                ],
+                "es": [
+                  "Hongo",
+                  "Espinaca",
+                  "Brócoli",
+                  "Maíz"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เห็ดครับ",
+                  "romanization": "het khrap"
+                },
+                "female": {
+                  "audio_text": "เห็ดค่ะ",
+                  "romanization": "het kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "บร็อคโคลี",
+                  "romanization": "brok-khoo-lee",
+                  "native": {
+                    "en": "Broccoli",
+                    "zh": "西兰花",
+                    "th": "บร็อกโคลี",
+                    "ko": "브로콜리",
+                    "es": "Brócoli"
+                  }
+                },
+                {
+                  "target": "ข้าวโพด",
+                  "romanization": "khao phot",
+                  "native": {
+                    "en": "Corn",
+                    "zh": "玉米",
+                    "th": "ข้าวโพด",
+                    "ko": "옥수수",
+                    "es": "Maíz"
+                  }
+                },
+                {
+                  "target": "ถั่ว",
+                  "romanization": "thua",
+                  "native": {
+                    "en": "Beans",
+                    "zh": "豆子",
+                    "th": "ถั่ว",
+                    "ko": "콩",
+                    "es": "Frijoles"
+                  }
+                },
+                {
+                  "target": "ถั่วลันเตา",
+                  "romanization": "thua lan-tao",
+                  "native": {
+                    "en": "Peas",
+                    "zh": "豌豆",
+                    "th": "ถั่วลันเตา",
+                    "ko": "완두콩",
+                    "es": "Chícharos"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Onion' then 'Garlic'",
+                "zh": "先说'洋葱'再说'大蒜'",
+                "th": "พูด 'หัวหอม' แล้ว 'กระเทียม'",
+                "ko": "'양파'를 말한 다음 '마늘'를 말하세요",
+                "es": "Di 'Cebolla' y luego 'Ajo'"
+              },
+              "words": [
+                "กระเทียม",
+                "หัวหอม"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ],
+                "male": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ],
+                "female": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ]
+              },
+              "romanization": "hua hom gra-thiam",
+              "tiles": {
+                "neutral": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ],
+                "male": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ],
+                "female": [
+                  "หัวหอม",
+                  "กระเทียม"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Drinks & Cafe",
+        "zh": "饮品与咖啡馆",
+        "th": "เครื่องดื่มและคาเฟ่",
+        "ko": "음료와 카페",
+        "es": "Bebidas y café"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Hot & Cold Drinks",
+            "zh": "冷热饮品",
+            "th": "เครื่องดื่มร้อนและเย็น",
+            "ko": "뜨거운 음료와 차가운 음료",
+            "es": "Bebidas calientes y frías"
+          },
+          "objectives": {
+            "en": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "zh": [
+              "在咖啡店点饮料",
+              "说出常见饮品名称"
+            ],
+            "th": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "ko": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "es": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "กาแฟ",
+              "romanization": "gaa-fae",
+              "meanings": {
+                "en": "Coffee",
+                "zh": "咖啡",
+                "th": "กาแฟ",
+                "ko": "커피",
+                "es": "Café"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "กาแฟครับ",
+                  "romanization": "gaa-fae khrap"
+                },
+                "female": {
+                  "word": "กาแฟค่ะ",
+                  "romanization": "gaa-fae kha"
+                }
+              }
+            },
+            {
+              "word": "ชา",
+              "romanization": "chaa",
+              "meanings": {
+                "en": "Tea",
+                "zh": "茶",
+                "th": "ชา",
+                "ko": "차",
+                "es": "Té"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ชาครับ",
+                  "romanization": "chaa khrap"
+                },
+                "female": {
+                  "word": "ชาค่ะ",
+                  "romanization": "chaa kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำผลไม้",
+              "romanization": "naam phon-la-mai",
+              "meanings": {
+                "en": "Juice",
+                "zh": "果汁",
+                "th": "น้ำผลไม้",
+                "ko": "주스",
+                "es": "Jugo"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "น้ำผลไม้ครับ",
+                  "romanization": "naam phon-la-mai khrap"
+                },
+                "female": {
+                  "word": "น้ำผลไม้ค่ะ",
+                  "romanization": "naam phon-la-mai kha"
+                }
+              }
+            },
+            {
+              "word": "สมูทตี้",
+              "romanization": "sa-muut-thee",
+              "meanings": {
+                "en": "Smoothie",
+                "zh": "冰沙",
+                "th": "สมูทตี้",
+                "ko": "스무디",
+                "es": "Batido"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "สมูทตี้ครับ",
+                  "romanization": "sa-muut-thee khrap"
+                },
+                "female": {
+                  "word": "สมูทตี้ค่ะ",
+                  "romanization": "sa-muut-thee kha"
+                }
+              }
+            },
+            {
+              "word": "มิลค์เชค",
+              "romanization": "min-chek",
+              "meanings": {
+                "en": "Milkshake",
+                "zh": "奶昔",
+                "th": "มิลค์เชค",
+                "ko": "밀크쉐이크",
+                "es": "Malteada"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มิลค์เชคครับ",
+                  "romanization": "min-chek khrap"
+                },
+                "female": {
+                  "word": "มิลค์เชคค่ะ",
+                  "romanization": "min-chek kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำอัดลม",
+              "romanization": "naam at lom",
+              "meanings": {
+                "en": "Sparkling water",
+                "zh": "气泡水",
+                "th": "น้ำอัดลม",
+                "ko": "탄산수",
+                "es": "Agua con gas"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "น้ำอัดลมครับ",
+                  "romanization": "naam at lom khrap"
+                },
+                "female": {
+                  "word": "น้ำอัดลมค่ะ",
+                  "romanization": "naam at lom kha"
+                }
+              }
+            },
+            {
+              "word": "เบียร์",
+              "romanization": "bia",
+              "meanings": {
+                "en": "Beer",
+                "zh": "啤酒",
+                "th": "เบียร์",
+                "ko": "맥주",
+                "es": "Cerveza"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เบียร์ครับ",
+                  "romanization": "bia khrap"
+                },
+                "female": {
+                  "word": "เบียร์ค่ะ",
+                  "romanization": "bia kha"
+                }
+              }
+            },
+            {
+              "word": "ไวน์",
+              "romanization": "wai",
+              "meanings": {
+                "en": "Wine",
+                "zh": "葡萄酒",
+                "th": "ไวน์",
+                "ko": "와인",
+                "es": "Vino"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไวน์ครับ",
+                  "romanization": "wai khrap"
+                },
+                "female": {
+                  "word": "ไวน์ค่ะ",
+                  "romanization": "wai kha"
+                }
+              }
+            },
+            {
+              "word": "คาปูชิโน",
+              "romanization": "khaa-puu-chi-noo",
+              "meanings": {
+                "en": "Cappuccino",
+                "zh": "卡布奇诺",
+                "th": "คาปูชิโน",
+                "ko": "카푸치노",
+                "es": "Capuchino"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คาปูชิโนครับ",
+                  "romanization": "khaa-puu-chi-noo khrap"
+                },
+                "female": {
+                  "word": "คาปูชิโนค่ะ",
+                  "romanization": "khaa-puu-chi-noo kha"
+                }
+              }
+            },
+            {
+              "word": "เอสเพรสโซ",
+              "romanization": "et-phret-soo",
+              "meanings": {
+                "en": "Espresso",
+                "zh": "浓缩咖啡",
+                "th": "เอสเพรสโซ",
+                "ko": "에스프레소",
+                "es": "Espreso"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เอสเพรสโซครับ",
+                  "romanization": "et-phret-soo khrap"
+                },
+                "female": {
+                  "word": "เอสเพรสโซค่ะ",
+                  "romanization": "et-phret-soo kha"
+                }
+              }
+            },
+            {
+              "word": "ช็อกโกแลตร้อน",
+              "romanization": "chok-goo-laet ron",
+              "meanings": {
+                "en": "Hot chocolate",
+                "zh": "热巧克力",
+                "th": "ช็อกโกแลตร้อน",
+                "ko": "핫초코",
+                "es": "Chocolate caliente"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ช็อกโกแลตร้อนครับ",
+                  "romanization": "chok-goo-laet ron khrap"
+                },
+                "female": {
+                  "word": "ช็อกโกแลตร้อนค่ะ",
+                  "romanization": "chok-goo-laet ron kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำมะนาว",
+              "romanization": "naam ma-naao",
+              "meanings": {
+                "en": "Lemonade",
+                "zh": "柠檬水",
+                "th": "น้ำมะนาว",
+                "ko": "레모네이드",
+                "es": "Limonada"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "น้ำมะนาวครับ",
+                  "romanization": "naam ma-naao khrap"
+                },
+                "female": {
+                  "word": "น้ำมะนาวค่ะ",
+                  "romanization": "naam ma-naao kha"
+                }
+              }
+            },
+            {
+              "word": "แก้ว",
+              "romanization": "gaeo",
+              "meanings": {
+                "en": "Glass",
+                "zh": "杯子(玻璃)",
+                "th": "แก้ว",
+                "ko": "유리잔",
+                "es": "Vaso"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "แก้วครับ",
+                  "romanization": "gaeo khrap"
+                },
+                "female": {
+                  "word": "แก้วค่ะ",
+                  "romanization": "gaeo kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "กาแฟ",
+              "romanization": "gaa-fae",
+              "options": {
+                "en": [
+                  "Coffee",
+                  "Tea",
+                  "Juice",
+                  "Smoothie"
+                ],
+                "zh": [
+                  "咖啡",
+                  "茶",
+                  "果汁",
+                  "冰沙"
+                ],
+                "th": [
+                  "กาแฟ",
+                  "ชา",
+                  "น้ำผลไม้",
+                  "สมูทตี้"
+                ],
+                "ko": [
+                  "커피",
+                  "차",
+                  "주스",
+                  "스무디"
+                ],
+                "es": [
+                  "Café",
+                  "Té",
+                  "Jugo",
+                  "Batido"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "กาแฟครับ",
+                  "romanization": "gaa-fae khrap"
+                },
+                "female": {
+                  "word": "กาแฟค่ะ",
+                  "romanization": "gaa-fae kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Smoothie' in Thai?",
+                "zh": "泰语中'冰沙'怎么说？",
+                "th": "คำว่า 'สมูทตี้' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'스무디'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Batido' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "สมูทตี้",
+                  "กาแฟ",
+                  "ชา",
+                  "น้ำผลไม้"
+                ],
+                "male": [
+                  "สมูทตี้ครับ",
+                  "กาแฟครับ",
+                  "ชาครับ",
+                  "น้ำผลไม้ครับ"
+                ],
+                "female": [
+                  "สมูทตี้ค่ะ",
+                  "กาแฟค่ะ",
+                  "ชาค่ะ",
+                  "น้ำผลไม้ค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "น้ำอัดลม",
+              "romanization": "naam at lom",
+              "options": {
+                "en": [
+                  "Sparkling water",
+                  "Beer",
+                  "Wine",
+                  "Cappuccino"
+                ],
+                "zh": [
+                  "气泡水",
+                  "啤酒",
+                  "葡萄酒",
+                  "卡布奇诺"
+                ],
+                "th": [
+                  "น้ำอัดลม",
+                  "เบียร์",
+                  "ไวน์",
+                  "คาปูชิโน"
+                ],
+                "ko": [
+                  "탄산수",
+                  "맥주",
+                  "와인",
+                  "카푸치노"
+                ],
+                "es": [
+                  "Agua con gas",
+                  "Cerveza",
+                  "Vino",
+                  "Capuchino"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "น้ำอัดลมครับ",
+                  "romanization": "naam at lom khrap"
+                },
+                "female": {
+                  "audio_text": "น้ำอัดลมค่ะ",
+                  "romanization": "naam at lom kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ไวน์",
+                  "romanization": "wai",
+                  "native": {
+                    "en": "Wine",
+                    "zh": "葡萄酒",
+                    "th": "ไวน์",
+                    "ko": "와인",
+                    "es": "Vino"
+                  }
+                },
+                {
+                  "target": "คาปูชิโน",
+                  "romanization": "khaa-puu-chi-noo",
+                  "native": {
+                    "en": "Cappuccino",
+                    "zh": "卡布奇诺",
+                    "th": "คาปูชิโน",
+                    "ko": "카푸치노",
+                    "es": "Capuchino"
+                  }
+                },
+                {
+                  "target": "เอสเพรสโซ",
+                  "romanization": "et-phret-soo",
+                  "native": {
+                    "en": "Espresso",
+                    "zh": "浓缩咖啡",
+                    "th": "เอสเพรสโซ",
+                    "ko": "에스프레소",
+                    "es": "Espreso"
+                  }
+                },
+                {
+                  "target": "ช็อกโกแลตร้อน",
+                  "romanization": "chok-goo-laet ron",
+                  "native": {
+                    "en": "Hot chocolate",
+                    "zh": "热巧克力",
+                    "th": "ช็อกโกแลตร้อน",
+                    "ko": "핫초코",
+                    "es": "Chocolate caliente"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Coffee' then 'Tea'",
+                "zh": "先说'咖啡'再说'茶'",
+                "th": "พูด 'กาแฟ' แล้ว 'ชา'",
+                "ko": "'커피'를 말한 다음 '차'를 말하세요",
+                "es": "Di 'Café' y luego 'Té'"
+              },
+              "words": [
+                "ชา",
+                "กาแฟ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "กาแฟ",
+                  "ชา"
+                ],
+                "male": [
+                  "กาแฟ",
+                  "ชา"
+                ],
+                "female": [
+                  "กาแฟ",
+                  "ชา"
+                ]
+              },
+              "romanization": "gaa-fae chaa",
+              "tiles": {
+                "neutral": [
+                  "กาแฟ",
+                  "ชา"
+                ],
+                "male": [
+                  "กาแฟ",
+                  "ชา"
+                ],
+                "female": [
+                  "กาแฟ",
+                  "ชา"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Cafe Orders",
+            "zh": "咖啡馆点单",
+            "th": "การสั่งเครื่องดื่มในคาเฟ่",
+            "ko": "카페 주문",
+            "es": "Pedidos en el café"
+          },
+          "objectives": {
+            "en": [
+              "Customize drink orders",
+              "Discuss drink preferences"
+            ],
+            "zh": [
+              "定制饮品",
+              "讨论饮品偏好"
+            ],
+            "th": [
+              "Customize drink orders",
+              "Discuss drink preferences"
+            ],
+            "ko": [
+              "Customize drink orders",
+              "Discuss drink preferences"
+            ],
+            "es": [
+              "Customize drink orders",
+              "Discuss drink preferences"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ถ้วย",
+              "romanization": "thuai",
+              "meanings": {
+                "en": "Cup",
+                "zh": "杯子",
+                "th": "ถ้วย",
+                "ko": "컵",
+                "es": "Taza"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ถ้วยครับ",
+                  "romanization": "thuai khrap"
+                },
+                "female": {
+                  "word": "ถ้วยค่ะ",
+                  "romanization": "thuai kha"
+                }
+              }
+            },
+            {
+              "word": "ขวด",
+              "romanization": "khuat",
+              "meanings": {
+                "en": "Bottle",
+                "zh": "瓶子",
+                "th": "ขวด",
+                "ko": "병",
+                "es": "Botella"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ขวดครับ",
+                  "romanization": "khuat khrap"
+                },
+                "female": {
+                  "word": "ขวดค่ะ",
+                  "romanization": "khuat kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำตาล",
+              "romanization": "naam taan",
+              "meanings": {
+                "en": "Sugar",
+                "zh": "糖",
+                "th": "น้ำตาล",
+                "ko": "설탕",
+                "es": "Azúcar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "น้ำตาลครับ",
+                  "romanization": "naam taan khrap"
+                },
+                "female": {
+                  "word": "น้ำตาลค่ะ",
+                  "romanization": "naam taan kha"
+                }
+              }
+            },
+            {
+              "word": "น้ำแข็ง",
+              "romanization": "naam khaeng",
+              "meanings": {
+                "en": "Ice",
+                "zh": "冰",
+                "th": "น้ำแข็ง",
+                "ko": "얼음",
+                "es": "Hielo"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "น้ำแข็งครับ",
+                  "romanization": "naam khaeng khrap"
+                },
+                "female": {
+                  "word": "น้ำแข็งค่ะ",
+                  "romanization": "naam khaeng kha"
+                }
+              }
+            },
+            {
+              "word": "หลอด",
+              "romanization": "lot",
+              "meanings": {
+                "en": "Straw",
+                "zh": "吸管",
+                "th": "หลอด",
+                "ko": "빨대",
+                "es": "Popote"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "หลอดครับ",
+                  "romanization": "lot khrap"
+                },
+                "female": {
+                  "word": "หลอดค่ะ",
+                  "romanization": "lot kha"
+                }
+              }
+            },
+            {
+              "word": "เติม",
+              "romanization": "toem",
+              "meanings": {
+                "en": "Refill",
+                "zh": "续杯",
+                "th": "เติม",
+                "ko": "리필",
+                "es": "Rellenar"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "เติมครับ",
+                  "romanization": "toem khrap"
+                },
+                "female": {
+                  "word": "เติมค่ะ",
+                  "romanization": "toem kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่มีคาเฟอีน",
+              "romanization": "mai mee khaa-foe-een",
+              "meanings": {
+                "en": "Decaf",
+                "zh": "无咖啡因",
+                "th": "ไม่มีคาเฟอีน",
+                "ko": "디카페인",
+                "es": "Descafeinado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไม่มีคาเฟอีนครับ",
+                  "romanization": "mai mee khaa-foe-een khrap"
+                },
+                "female": {
+                  "word": "ไม่มีคาเฟอีนค่ะ",
+                  "romanization": "mai mee khaa-foe-een kha"
+                }
+              }
+            },
+            {
+              "word": "นมข้าวโอ๊ต",
+              "romanization": "nom khao oot",
+              "meanings": {
+                "en": "Oat milk",
+                "zh": "燕麦奶",
+                "th": "นมข้าวโอ๊ต",
+                "ko": "귀리 우유",
+                "es": "Leche de avena"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "นมข้าวโอ๊ตครับ",
+                  "romanization": "nom khao oot khrap"
+                },
+                "female": {
+                  "word": "นมข้าวโอ๊ตค่ะ",
+                  "romanization": "nom khao oot kha"
+                }
+              }
+            },
+            {
+              "word": "เข้ม",
+              "romanization": "khem",
+              "meanings": {
+                "en": "Strong",
+                "zh": "浓",
+                "th": "แข็งแรง",
+                "ko": "강한",
+                "es": "Fuerte"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "เข้มครับ",
+                  "romanization": "khem khrap"
+                },
+                "female": {
+                  "word": "เข้มค่ะ",
+                  "romanization": "khem kha"
+                }
+              }
+            },
+            {
+              "word": "อ่อน",
+              "romanization": "on",
+              "meanings": {
+                "en": "Weak",
+                "zh": "淡",
+                "th": "อ่อนแอ",
+                "ko": "약한",
+                "es": "Débil"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อ่อนครับ",
+                  "romanization": "on khrap"
+                },
+                "female": {
+                  "word": "อ่อนค่ะ",
+                  "romanization": "on kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่มีแก๊ส",
+              "romanization": "mai mee gaet",
+              "meanings": {
+                "en": "Still",
+                "zh": "无气",
+                "th": "ไม่มีแก๊ส",
+                "ko": "탄산 없는",
+                "es": "Sin gas"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ไม่มีแก๊สครับ",
+                  "romanization": "mai mee gaet khrap"
+                },
+                "female": {
+                  "word": "ไม่มีแก๊สค่ะ",
+                  "romanization": "mai mee gaet kha"
+                }
+              }
+            },
+            {
+              "word": "มีแก๊ส",
+              "romanization": "mee gaet",
+              "meanings": {
+                "en": "Fizzy",
+                "zh": "有气",
+                "th": "มีแก๊ส",
+                "ko": "탄산의",
+                "es": "Con gas"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "มีแก๊สครับ",
+                  "romanization": "mee gaet khrap"
+                },
+                "female": {
+                  "word": "มีแก๊สค่ะ",
+                  "romanization": "mee gaet kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ถ้วย",
+              "romanization": "thuai",
+              "options": {
+                "en": [
+                  "Cup",
+                  "Bottle",
+                  "Sugar",
+                  "Ice"
+                ],
+                "zh": [
+                  "杯子",
+                  "瓶子",
+                  "糖",
+                  "冰"
+                ],
+                "th": [
+                  "ถ้วย",
+                  "ขวด",
+                  "น้ำตาล",
+                  "น้ำแข็ง"
+                ],
+                "ko": [
+                  "컵",
+                  "병",
+                  "설탕",
+                  "얼음"
+                ],
+                "es": [
+                  "Taza",
+                  "Botella",
+                  "Azúcar",
+                  "Hielo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ถ้วยครับ",
+                  "romanization": "thuai khrap"
+                },
+                "female": {
+                  "word": "ถ้วยค่ะ",
+                  "romanization": "thuai kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Ice' in Thai?",
+                "zh": "泰语中'冰'怎么说？",
+                "th": "คำว่า 'น้ำแข็ง' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'얼음'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Hielo' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "น้ำแข็ง",
+                  "ถ้วย",
+                  "ขวด",
+                  "น้ำตาล"
+                ],
+                "male": [
+                  "น้ำแข็งครับ",
+                  "ถ้วยครับ",
+                  "ขวดครับ",
+                  "น้ำตาลครับ"
+                ],
+                "female": [
+                  "น้ำแข็งค่ะ",
+                  "ถ้วยค่ะ",
+                  "ขวดค่ะ",
+                  "น้ำตาลค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "เติม",
+              "romanization": "toem",
+              "options": {
+                "en": [
+                  "Refill",
+                  "Decaf",
+                  "Oat milk",
+                  "Strong"
+                ],
+                "zh": [
+                  "续杯",
+                  "无咖啡因",
+                  "燕麦奶",
+                  "浓"
+                ],
+                "th": [
+                  "เติม",
+                  "ไม่มีคาเฟอีน",
+                  "นมข้าวโอ๊ต",
+                  "แข็งแรง"
+                ],
+                "ko": [
+                  "리필",
+                  "디카페인",
+                  "귀리 우유",
+                  "강한"
+                ],
+                "es": [
+                  "Rellenar",
+                  "Descafeinado",
+                  "Leche de avena",
+                  "Fuerte"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "เติมครับ",
+                  "romanization": "toem khrap"
+                },
+                "female": {
+                  "audio_text": "เติมค่ะ",
+                  "romanization": "toem kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "นมข้าวโอ๊ต",
+                  "romanization": "nom khao oot",
+                  "native": {
+                    "en": "Oat milk",
+                    "zh": "燕麦奶",
+                    "th": "นมข้าวโอ๊ต",
+                    "ko": "귀리 우유",
+                    "es": "Leche de avena"
+                  }
+                },
+                {
+                  "target": "เข้ม",
+                  "romanization": "khem",
+                  "native": {
+                    "en": "Strong",
+                    "zh": "浓",
+                    "th": "แข็งแรง",
+                    "ko": "강한",
+                    "es": "Fuerte"
+                  }
+                },
+                {
+                  "target": "อ่อน",
+                  "romanization": "on",
+                  "native": {
+                    "en": "Weak",
+                    "zh": "淡",
+                    "th": "อ่อนแอ",
+                    "ko": "약한",
+                    "es": "Débil"
+                  }
+                },
+                {
+                  "target": "ไม่มีแก๊ส",
+                  "romanization": "mai mee gaet",
+                  "native": {
+                    "en": "Still",
+                    "zh": "无气",
+                    "th": "ไม่มีแก๊ส",
+                    "ko": "탄산 없는",
+                    "es": "Sin gas"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Cup' then 'Bottle'",
+                "zh": "先说'杯子'再说'瓶子'",
+                "th": "พูด 'ถ้วย' แล้ว 'ขวด'",
+                "ko": "'컵'를 말한 다음 '병'를 말하세요",
+                "es": "Di 'Taza' y luego 'Botella'"
+              },
+              "words": [
+                "ขวด",
+                "ถ้วย"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ถ้วย",
+                  "ขวด"
+                ],
+                "male": [
+                  "ถ้วย",
+                  "ขวด"
+                ],
+                "female": [
+                  "ถ้วย",
+                  "ขวด"
+                ]
+              },
+              "romanization": "thuai khuat",
+              "tiles": {
+                "neutral": [
+                  "ถ้วย",
+                  "ขวด"
+                ],
+                "male": [
+                  "ถ้วย",
+                  "ขวด"
+                ],
+                "female": [
+                  "ถ้วย",
+                  "ขวด"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Food Preferences & Diet",
+        "zh": "饮食偏好与饮食习惯",
+        "th": "ความชอบอาหารและอาหารการกิน",
+        "ko": "음식 취향과 식단",
+        "es": "Preferencias y dieta"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Tastes & Feelings",
+            "zh": "味觉与感受",
+            "th": "รสชาติและความรู้สึก",
+            "ko": "맛과 느낌",
+            "es": "Sabores y sensaciones"
+          },
+          "objectives": {
+            "en": [
+              "Express food preferences",
+              "Describe hunger and fullness"
+            ],
+            "zh": [
+              "表达食物偏好",
+              "描述饥饱感"
+            ],
+            "th": [
+              "Express food preferences",
+              "Describe hunger and fullness"
+            ],
+            "ko": [
+              "Express food preferences",
+              "Describe hunger and fullness"
+            ],
+            "es": [
+              "Express food preferences",
+              "Describe hunger and fullness"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ชอบ",
+              "romanization": "chop",
+              "meanings": {
+                "en": "Like",
+                "zh": "喜欢",
+                "th": "ชอบ",
+                "ko": "좋아하다",
+                "es": "Gustar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชอบครับ",
+                  "romanization": "chop khrap"
+                },
+                "female": {
+                  "word": "ชอบค่ะ",
+                  "romanization": "chop kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่ชอบ",
+              "romanization": "mai chop",
+              "meanings": {
+                "en": "Dislike",
+                "zh": "不喜欢",
+                "th": "ไม่ชอบ",
+                "ko": "싫어하다",
+                "es": "No gustar"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ไม่ชอบครับ",
+                  "romanization": "mai chop khrap"
+                },
+                "female": {
+                  "word": "ไม่ชอบค่ะ",
+                  "romanization": "mai chop kha"
+                }
+              }
+            },
+            {
+              "word": "ชอบมากกว่า",
+              "romanization": "chop maak gwaa",
+              "meanings": {
+                "en": "Prefer",
+                "zh": "更喜欢",
+                "th": "ชอบมากกว่า",
+                "ko": "선호하다",
+                "es": "Preferir"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ชอบมากกว่าครับ",
+                  "romanization": "chop maak gwaa khrap"
+                },
+                "female": {
+                  "word": "ชอบมากกว่าค่ะ",
+                  "romanization": "chop maak gwaa kha"
+                }
+              }
+            },
+            {
+              "word": "รสชาติ",
+              "romanization": "rot-chaat",
+              "meanings": {
+                "en": "Taste",
+                "zh": "味道",
+                "th": "รสชาติ",
+                "ko": "맛",
+                "es": "Sabor"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "รสชาติครับ",
+                  "romanization": "rot-chaat khrap"
+                },
+                "female": {
+                  "word": "รสชาติค่ะ",
+                  "romanization": "rot-chaat kha"
+                }
+              }
+            },
+            {
+              "word": "กลิ่น",
+              "romanization": "glin",
+              "meanings": {
+                "en": "Smell",
+                "zh": "气味",
+                "th": "กลิ่น",
+                "ko": "냄새",
+                "es": "Olor"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "กลิ่นครับ",
+                  "romanization": "glin khrap"
+                },
+                "female": {
+                  "word": "กลิ่นค่ะ",
+                  "romanization": "glin kha"
+                }
+              }
+            },
+            {
+              "word": "หิว",
+              "romanization": "hiu",
+              "meanings": {
+                "en": "Hungry",
+                "zh": "饿",
+                "th": "หิว",
+                "ko": "배고픈",
+                "es": "Hambriento"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "หิวครับ",
+                  "romanization": "hiu khrap"
+                },
+                "female": {
+                  "word": "หิวค่ะ",
+                  "romanization": "hiu kha"
+                }
+              }
+            },
+            {
+              "word": "อิ่ม",
+              "romanization": "im",
+              "meanings": {
+                "en": "Full",
+                "zh": "饱",
+                "th": "อิ่ม",
+                "ko": "배부른",
+                "es": "Lleno"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อิ่มครับ",
+                  "romanization": "im khrap"
+                },
+                "female": {
+                  "word": "อิ่มค่ะ",
+                  "romanization": "im kha"
+                }
+              }
+            },
+            {
+              "word": "กระหายน้ำ",
+              "romanization": "gra-haai naam",
+              "meanings": {
+                "en": "Thirsty",
+                "zh": "渴",
+                "th": "กระหายน้ำ",
+                "ko": "목마른",
+                "es": "Sediento"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "กระหายน้ำครับ",
+                  "romanization": "gra-haai naam khrap"
+                },
+                "female": {
+                  "word": "กระหายน้ำค่ะ",
+                  "romanization": "gra-haai naam kha"
+                }
+              }
+            },
+            {
+              "word": "สุขภาพดี",
+              "romanization": "suk-kha-phaap dee",
+              "meanings": {
+                "en": "Healthy",
+                "zh": "健康的",
+                "th": "แข็งแรง",
+                "ko": "건강한",
+                "es": "Saludable"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สุขภาพดีครับ",
+                  "romanization": "suk-kha-phaap dee khrap"
+                },
+                "female": {
+                  "word": "สุขภาพดีค่ะ",
+                  "romanization": "suk-kha-phaap dee kha"
+                }
+              }
+            },
+            {
+              "word": "ไม่ดีต่อสุขภาพ",
+              "romanization": "mai dee to suk-kha-phaap",
+              "meanings": {
+                "en": "Unhealthy",
+                "zh": "不健康的",
+                "th": "ไม่มีสุขภาพดี",
+                "ko": "건강하지 않은",
+                "es": "No saludable"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ไม่ดีต่อสุขภาพครับ",
+                  "romanization": "mai dee to suk-kha-phaap khrap"
+                },
+                "female": {
+                  "word": "ไม่ดีต่อสุขภาพค่ะ",
+                  "romanization": "mai dee to suk-kha-phaap kha"
+                }
+              }
+            },
+            {
+              "word": "ออร์แกนิก",
+              "romanization": "o-gae-nik",
+              "meanings": {
+                "en": "Organic",
+                "zh": "有机的",
+                "th": "ออร์แกนิก",
+                "ko": "유기농의",
+                "es": "Orgánico"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "ออร์แกนิกครับ",
+                  "romanization": "o-gae-nik khrap"
+                },
+                "female": {
+                  "word": "ออร์แกนิกค่ะ",
+                  "romanization": "o-gae-nik kha"
+                }
+              }
+            },
+            {
+              "word": "ท้องถิ่น",
+              "romanization": "thong thin",
+              "meanings": {
+                "en": "Local",
+                "zh": "本地的",
+                "th": "ท้องถิ่น",
+                "ko": "현지의",
+                "es": "Local"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "ท้องถิ่นครับ",
+                  "romanization": "thong thin khrap"
+                },
+                "female": {
+                  "word": "ท้องถิ่นค่ะ",
+                  "romanization": "thong thin kha"
+                }
+              }
+            },
+            {
+              "word": "แปรรูป",
+              "romanization": "prae-ruup",
+              "meanings": {
+                "en": "Processed",
+                "zh": "加工的",
+                "th": "แปรรูป",
+                "ko": "가공된",
+                "es": "Procesado"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "แปรรูปครับ",
+                  "romanization": "prae-ruup khrap"
+                },
+                "female": {
+                  "word": "แปรรูปค่ะ",
+                  "romanization": "prae-ruup kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ชอบ",
+              "romanization": "chop",
+              "options": {
+                "en": [
+                  "Like",
+                  "Dislike",
+                  "Prefer",
+                  "Taste"
+                ],
+                "zh": [
+                  "喜欢",
+                  "不喜欢",
+                  "更喜欢",
+                  "味道"
+                ],
+                "th": [
+                  "ชอบ",
+                  "ไม่ชอบ",
+                  "ชอบมากกว่า",
+                  "รสชาติ"
+                ],
+                "ko": [
+                  "좋아하다",
+                  "싫어하다",
+                  "선호하다",
+                  "맛"
+                ],
+                "es": [
+                  "Gustar",
+                  "No gustar",
+                  "Preferir",
+                  "Sabor"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ชอบครับ",
+                  "romanization": "chop khrap"
+                },
+                "female": {
+                  "word": "ชอบค่ะ",
+                  "romanization": "chop kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Taste' in Thai?",
+                "zh": "泰语中'味道'怎么说？",
+                "th": "คำว่า 'รสชาติ' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'맛'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Sabor' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "รสชาติ",
+                  "ชอบ",
+                  "ไม่ชอบ",
+                  "ชอบมากกว่า"
+                ],
+                "male": [
+                  "รสชาติครับ",
+                  "ชอบครับ",
+                  "ไม่ชอบครับ",
+                  "ชอบมากกว่าครับ"
+                ],
+                "female": [
+                  "รสชาติค่ะ",
+                  "ชอบค่ะ",
+                  "ไม่ชอบค่ะ",
+                  "ชอบมากกว่าค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "หิว",
+              "romanization": "hiu",
+              "options": {
+                "en": [
+                  "Hungry",
+                  "Full",
+                  "Thirsty",
+                  "Healthy"
+                ],
+                "zh": [
+                  "饿",
+                  "饱",
+                  "渴",
+                  "健康的"
+                ],
+                "th": [
+                  "หิว",
+                  "อิ่ม",
+                  "กระหายน้ำ",
+                  "แข็งแรง"
+                ],
+                "ko": [
+                  "배고픈",
+                  "배부른",
+                  "목마른",
+                  "건강한"
+                ],
+                "es": [
+                  "Hambriento",
+                  "Lleno",
+                  "Sediento",
+                  "Saludable"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "หิวครับ",
+                  "romanization": "hiu khrap"
+                },
+                "female": {
+                  "audio_text": "หิวค่ะ",
+                  "romanization": "hiu kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "กระหายน้ำ",
+                  "romanization": "gra-haai naam",
+                  "native": {
+                    "en": "Thirsty",
+                    "zh": "渴",
+                    "th": "กระหายน้ำ",
+                    "ko": "목마른",
+                    "es": "Sediento"
+                  }
+                },
+                {
+                  "target": "สุขภาพดี",
+                  "romanization": "suk-kha-phaap dee",
+                  "native": {
+                    "en": "Healthy",
+                    "zh": "健康的",
+                    "th": "แข็งแรง",
+                    "ko": "건강한",
+                    "es": "Saludable"
+                  }
+                },
+                {
+                  "target": "ไม่ดีต่อสุขภาพ",
+                  "romanization": "mai dee to suk-kha-phaap",
+                  "native": {
+                    "en": "Unhealthy",
+                    "zh": "不健康的",
+                    "th": "ไม่มีสุขภาพดี",
+                    "ko": "건강하지 않은",
+                    "es": "No saludable"
+                  }
+                },
+                {
+                  "target": "ออร์แกนิก",
+                  "romanization": "o-gae-nik",
+                  "native": {
+                    "en": "Organic",
+                    "zh": "有机的",
+                    "th": "ออร์แกนิก",
+                    "ko": "유기농의",
+                    "es": "Orgánico"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Like' then 'Dislike'",
+                "zh": "先说'喜欢'再说'不喜欢'",
+                "th": "พูด 'ชอบ' แล้ว 'ไม่ชอบ'",
+                "ko": "'좋아하다'를 말한 다음 '싫어하다'를 말하세요",
+                "es": "Di 'Gustar' y luego 'No gustar'"
+              },
+              "words": [
+                "ไม่ชอบ",
+                "ชอบ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ],
+                "male": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ],
+                "female": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ]
+              },
+              "romanization": "chop mai chop",
+              "tiles": {
+                "neutral": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ],
+                "male": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ],
+                "female": [
+                  "ชอบ",
+                  "ไม่ชอบ"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Meals & Nutrition",
+            "zh": "餐食与营养",
+            "th": "มื้ออาหารและโภชนาการ",
+            "ko": "식사와 영양",
+            "es": "Comidas y nutrición"
+          },
+          "objectives": {
+            "en": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "zh": [
+              "谈论膳食和饮食",
+              "讨论营养基础"
+            ],
+            "th": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "ko": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "es": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ของว่าง",
+              "romanization": "khong waang",
+              "meanings": {
+                "en": "Snack",
+                "zh": "零食",
+                "th": "ขนม",
+                "ko": "간식",
+                "es": "Bocadillo"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "ของว่างครับ",
+                  "romanization": "khong waang khrap"
+                },
+                "female": {
+                  "word": "ของว่างค่ะ",
+                  "romanization": "khong waang kha"
+                }
+              }
+            },
+            {
+              "word": "มื้ออาหาร",
+              "romanization": "mue aa-haan",
+              "meanings": {
+                "en": "Meal",
+                "zh": "一餐",
+                "th": "มื้ออาหาร",
+                "ko": "식사",
+                "es": "Comida"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "มื้ออาหารครับ",
+                  "romanization": "mue aa-haan khrap"
+                },
+                "female": {
+                  "word": "มื้ออาหารค่ะ",
+                  "romanization": "mue aa-haan kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารเช้า",
+              "romanization": "aa-haan chao",
+              "meanings": {
+                "en": "Breakfast",
+                "zh": "早餐",
+                "th": "อาหารเช้า",
+                "ko": "아침 식사",
+                "es": "Desayuno"
+              },
+              "toneClass": "falling",
+              "gendered": {
+                "male": {
+                  "word": "อาหารเช้าครับ",
+                  "romanization": "aa-haan chao khrap"
+                },
+                "female": {
+                  "word": "อาหารเช้าค่ะ",
+                  "romanization": "aa-haan chao kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารกลางวัน",
+              "romanization": "aa-haan glaang wan",
+              "meanings": {
+                "en": "Lunch",
+                "zh": "午餐",
+                "th": "อาหารกลางวัน",
+                "ko": "점심",
+                "es": "Almuerzo"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "อาหารกลางวันครับ",
+                  "romanization": "aa-haan glaang wan khrap"
+                },
+                "female": {
+                  "word": "อาหารกลางวันค่ะ",
+                  "romanization": "aa-haan glaang wan kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารเย็น",
+              "romanization": "aa-haan yen",
+              "meanings": {
+                "en": "Dinner",
+                "zh": "晚餐",
+                "th": "อาหารเย็น",
+                "ko": "저녁 식사",
+                "es": "Cena"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "อาหารเย็นครับ",
+                  "romanization": "aa-haan yen khrap"
+                },
+                "female": {
+                  "word": "อาหารเย็นค่ะ",
+                  "romanization": "aa-haan yen kha"
+                }
+              }
+            },
+            {
+              "word": "อาหารลดน้ำหนัก",
+              "romanization": "aa-haan lot naam-nak",
+              "meanings": {
+                "en": "Diet",
+                "zh": "节食",
+                "th": "อาหารเฉพาะ",
+                "ko": "식단",
+                "es": "Dieta"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "อาหารลดน้ำหนักครับ",
+                  "romanization": "aa-haan lot naam-nak khrap"
+                },
+                "female": {
+                  "word": "อาหารลดน้ำหนักค่ะ",
+                  "romanization": "aa-haan lot naam-nak kha"
+                }
+              }
+            },
+            {
+              "word": "แคลอรี",
+              "romanization": "khlae-lo-ree",
+              "meanings": {
+                "en": "Calorie",
+                "zh": "卡路里",
+                "th": "แคลอรี่",
+                "ko": "칼로리",
+                "es": "Caloría"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "แคลอรีครับ",
+                  "romanization": "khlae-lo-ree khrap"
+                },
+                "female": {
+                  "word": "แคลอรีค่ะ",
+                  "romanization": "khlae-lo-ree kha"
+                }
+              }
+            },
+            {
+              "word": "โปรตีน",
+              "romanization": "proo-teen",
+              "meanings": {
+                "en": "Protein",
+                "zh": "蛋白质",
+                "th": "โปรตีน",
+                "ko": "단백질",
+                "es": "Proteína"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "โปรตีนครับ",
+                  "romanization": "proo-teen khrap"
+                },
+                "female": {
+                  "word": "โปรตีนค่ะ",
+                  "romanization": "proo-teen kha"
+                }
+              }
+            },
+            {
+              "word": "คาร์โบไฮเดรต",
+              "romanization": "khaa-boo-hai-dret",
+              "meanings": {
+                "en": "Carbs",
+                "zh": "碳水化合物",
+                "th": "คาร์บ",
+                "ko": "탄수화물",
+                "es": "Carbohidratos"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "คาร์โบไฮเดรตครับ",
+                  "romanization": "khaa-boo-hai-dret khrap"
+                },
+                "female": {
+                  "word": "คาร์โบไฮเดรตค่ะ",
+                  "romanization": "khaa-boo-hai-dret kha"
+                }
+              }
+            },
+            {
+              "word": "ไขมัน",
+              "romanization": "khai-man",
+              "meanings": {
+                "en": "Fat",
+                "zh": "脂肪",
+                "th": "ไขมัน",
+                "ko": "지방",
+                "es": "Grasa"
+              },
+              "toneClass": "rising",
+              "gendered": {
+                "male": {
+                  "word": "ไขมันครับ",
+                  "romanization": "khai-man khrap"
+                },
+                "female": {
+                  "word": "ไขมันค่ะ",
+                  "romanization": "khai-man kha"
+                }
+              }
+            },
+            {
+              "word": "สัดส่วน",
+              "romanization": "sat-suan",
+              "meanings": {
+                "en": "Portion",
+                "zh": "分量",
+                "th": "ส่วน",
+                "ko": "1인분",
+                "es": "Porción"
+              },
+              "toneClass": "low",
+              "gendered": {
+                "male": {
+                  "word": "สัดส่วนครับ",
+                  "romanization": "sat-suan khrap"
+                },
+                "female": {
+                  "word": "สัดส่วนค่ะ",
+                  "romanization": "sat-suan kha"
+                }
+              }
+            },
+            {
+              "word": "สมดุล",
+              "romanization": "som-dun",
+              "meanings": {
+                "en": "Balanced",
+                "zh": "均衡的",
+                "th": "สมดุล",
+                "ko": "균형 잡힌",
+                "es": "Equilibrado"
+              },
+              "toneClass": "mid",
+              "gendered": {
+                "male": {
+                  "word": "สมดุลครับ",
+                  "romanization": "som-dun khrap"
+                },
+                "female": {
+                  "word": "สมดุลค่ะ",
+                  "romanization": "som-dun kha"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ของว่าง",
+              "romanization": "khong waang",
+              "options": {
+                "en": [
+                  "Snack",
+                  "Meal",
+                  "Breakfast",
+                  "Lunch"
+                ],
+                "zh": [
+                  "零食",
+                  "一餐",
+                  "早餐",
+                  "午餐"
+                ],
+                "th": [
+                  "ขนม",
+                  "มื้ออาหาร",
+                  "อาหารเช้า",
+                  "อาหารกลางวัน"
+                ],
+                "ko": [
+                  "간식",
+                  "식사",
+                  "아침 식사",
+                  "점심"
+                ],
+                "es": [
+                  "Bocadillo",
+                  "Comida",
+                  "Desayuno",
+                  "Almuerzo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "ของว่างครับ",
+                  "romanization": "khong waang khrap"
+                },
+                "female": {
+                  "word": "ของว่างค่ะ",
+                  "romanization": "khong waang kha"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Lunch' in Thai?",
+                "zh": "泰语中'午餐'怎么说？",
+                "th": "คำว่า 'อาหารกลางวัน' พูดเป็นภาษาไทยว่าอะไร?",
+                "ko": "'점심'을(를) 태국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Almuerzo' en tailandés?"
+              },
+              "options": {
+                "neutral": [
+                  "อาหารกลางวัน",
+                  "ของว่าง",
+                  "มื้ออาหาร",
+                  "อาหารเช้า"
+                ],
+                "male": [
+                  "อาหารกลางวันครับ",
+                  "ของว่างครับ",
+                  "มื้ออาหารครับ",
+                  "อาหารเช้าครับ"
+                ],
+                "female": [
+                  "อาหารกลางวันค่ะ",
+                  "ของว่างค่ะ",
+                  "มื้ออาหารค่ะ",
+                  "อาหารเช้าค่ะ"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "อาหารลดน้ำหนัก",
+              "romanization": "aa-haan lot naam-nak",
+              "options": {
+                "en": [
+                  "Diet",
+                  "Calorie",
+                  "Protein",
+                  "Carbs"
+                ],
+                "zh": [
+                  "节食",
+                  "卡路里",
+                  "蛋白质",
+                  "碳水化合物"
+                ],
+                "th": [
+                  "อาหารเฉพาะ",
+                  "แคลอรี่",
+                  "โปรตีน",
+                  "คาร์บ"
+                ],
+                "ko": [
+                  "식단",
+                  "칼로리",
+                  "단백질",
+                  "탄수화물"
+                ],
+                "es": [
+                  "Dieta",
+                  "Caloría",
+                  "Proteína",
+                  "Carbohidratos"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "อาหารลดน้ำหนักครับ",
+                  "romanization": "aa-haan lot naam-nak khrap"
+                },
+                "female": {
+                  "audio_text": "อาหารลดน้ำหนักค่ะ",
+                  "romanization": "aa-haan lot naam-nak kha"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "โปรตีน",
+                  "romanization": "proo-teen",
+                  "native": {
+                    "en": "Protein",
+                    "zh": "蛋白质",
+                    "th": "โปรตีน",
+                    "ko": "단백질",
+                    "es": "Proteína"
+                  }
+                },
+                {
+                  "target": "คาร์โบไฮเดรต",
+                  "romanization": "khaa-boo-hai-dret",
+                  "native": {
+                    "en": "Carbs",
+                    "zh": "碳水化合物",
+                    "th": "คาร์บ",
+                    "ko": "탄수화물",
+                    "es": "Carbohidratos"
+                  }
+                },
+                {
+                  "target": "ไขมัน",
+                  "romanization": "khai-man",
+                  "native": {
+                    "en": "Fat",
+                    "zh": "脂肪",
+                    "th": "ไขมัน",
+                    "ko": "지방",
+                    "es": "Grasa"
+                  }
+                },
+                {
+                  "target": "สัดส่วน",
+                  "romanization": "sat-suan",
+                  "native": {
+                    "en": "Portion",
+                    "zh": "分量",
+                    "th": "ส่วน",
+                    "ko": "1인분",
+                    "es": "Porción"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Snack' then 'Meal'",
+                "zh": "先说'零食'再说'一餐'",
+                "th": "พูด 'ขนม' แล้ว 'มื้ออาหาร'",
+                "ko": "'간식'를 말한 다음 '식사'를 말하세요",
+                "es": "Di 'Bocadillo' y luego 'Comida'"
+              },
+              "words": [
+                "มื้ออาหาร",
+                "ของว่าง"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ],
+                "male": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ],
+                "female": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ]
+              },
+              "romanization": "khong waang mue aa-haan",
+              "tiles": {
+                "neutral": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ],
+                "male": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ],
+                "female": [
+                  "ของว่าง",
+                  "มื้ออาหาร"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

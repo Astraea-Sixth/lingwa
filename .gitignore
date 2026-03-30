@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+webapp/node_modules/
+api/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Build
+webapp/.next/
+.next/
+
+# Environment
+webapp/.env.local
+api/.env
+.env.local
+.env
+
+# OS
+.DS_Store
+*.DS_Store
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# Logs
+*.log
+
+# Claude Code internal memory
+.claude/
+webapp/.claude/
+
+# Internal dev docs
+BUGS.md
+BUGS_VOICE_CHAT.md
+STATUS.md
+CLAUDE_CODE_*.md
+
+# Local env
+webapp/.env.local
+api/.env
