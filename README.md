@@ -1,53 +1,44 @@
-# Lingwa
+# Lingwa 🌍
 
-**Real AI conversation practice. Free. Open source. No account needed.**
+**Learn any language with AI. Free forever. Open source.**
 
-Learn any language with an AI tutor that actually talks back — personalized curriculum, spaced repetition, gender-aware speech, and full conversation practice. Runs locally on your machine or deploys free to the cloud.
+Try it → [**lingwa.world**](https://lingwa.world) | Self-host → see below
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-green.svg)](https://python.org)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org)
-[![Tests](https://img.shields.io/badge/Tests-127%2F127%20passing-brightgreen.svg)](#testing)
+[![Tests](https://img.shields.io/badge/Tests-130%2F130%20passing-brightgreen.svg)](#testing)
 
 ---
 
-> **[ Screenshot / Demo GIF — want to contribute one? Open a PR! ]**
+Most language apps teach you to tap the right answer. Lingwa teaches you to actually **speak**.
+
+Your AI tutor talks back, corrects you gently, adapts to your level, and remembers what you struggle with. Built-in spaced repetition. Gender-aware speech. 20+ languages. Runs 100% on your machine — or use [lingwa.world](https://lingwa.world) for free.
 
 ---
 
-## Why Lingwa?
+## ✨ Features
 
-Most language apps teach you to tap the right answer. Lingwa teaches you to actually speak.
-
-- 🆓 **Free forever** — no subscription, no account, no paywall
-- 💬 **Real AI conversation** — your tutor speaks your target language, corrects you gently, adapts to your level
-- 🔒 **100% local** — runs on your machine with Ollama, your data never leaves
-- 🌍 **Any language** — Thai, Korean, Spanish, Chinese, English, and growing
-- 🔓 **Open source** — MIT license, fork it, own it, extend it
-- 📱 **PWA** — install on any phone, no app store needed
-
----
-
-## Features
-
-- **Conversation-first** — free-form AI chat with your tutor after every unit
-- **20+ languages** — Thai, Japanese, Korean, Spanish, French, German, Portuguese, and anything else your LLM knows
-- **Personalized curriculum** — answer 6 questions, AI builds your entire course
-- **Spaced repetition** — SM-2 algorithm keeps vocabulary fresh
-- **Gender-aware speech** — Thai krap/ka, Japanese boku/watashi, French tu/vous — taught correctly from day 1
-- **Text-to-speech** — hear every word via Web Speech API, built into every browser
-- **4-phase lessons** — Teach → Quiz → Bridge → Voice in every lesson
-- **Multiple exercise types** — multiple choice, fill-in-the-blank, sentence reorder, listening, translation, matching pairs
-- **Final Challenge** — complete all units and face a real conversation test
-- **Runs 100% local** — Ollama, fully private, no API keys needed
-- **Progress sync** — SQLite backup with recovery codes, never lose your progress
-- **Zero infrastructure** — no external database, no accounts, runs entirely on your machine
+- 🗣️ **Real AI conversation** — chat with your tutor after every unit
+- 🌍 **20+ languages** — Thai, Japanese, Korean, Spanish, French, German, and more
+- 🧠 **Personalized curriculum** — answer a few questions, AI builds your course
+- 🔄 **Spaced repetition** — SM-2 algorithm, vocabulary sticks
+- 🎭 **Gender-aware speech** — Thai krap/ka, Japanese boku/watashi, French tu/vous
+- 🔊 **Text-to-speech** — hear every word, browser-native
+- 📱 **PWA** — install on your phone, no app store
+- 🔒 **100% private** — Ollama, local-only, your data never leaves
+- 💾 **Progress sync** — SQLite backup + recovery codes
+- 🆓 **Free forever** — no subscription, no paywall, no catch
 
 ---
 
-## Quickstart
+## 🚀 Try It
 
-**Prerequisites:** [Node.js](https://nodejs.org) 18+, [Python](https://python.org) 3.10+, [Ollama](https://ollama.ai)
+### Online (no setup)
+
+👉 [**lingwa.world**](https://lingwa.world)
+
+### Self-host (full AI tutor)
 
 ```bash
 git clone https://github.com/Astraea-Sixth/lingwa && cd lingwa
@@ -55,145 +46,93 @@ ollama pull mistral:7b
 ./start.sh
 ```
 
-Open [localhost:3004](http://localhost:3004), answer 6 questions, start learning.
+Open [localhost:3004](http://localhost:3004). Pick a language. Start learning.
 
-### Docker (one command)
+### Docker
 
 ```bash
 git clone https://github.com/Astraea-Sixth/lingwa && cd lingwa
-docker compose --profile setup run ollama-pull   # one-time model download
+docker compose --profile setup run ollama-pull
 docker compose up
 ```
 
----
+### Access on Your Phone
+
+```bash
+# Cloudflare Tunnel (free, works from anywhere)
+cloudflared tunnel --url http://localhost:3004
+```
+
+Progress syncs to the server automatically — even if the tunnel URL changes, enter your recovery code (⚙️ Settings) and you're back.
 
 ---
 
 ## How It Works
 
 ```
-Answer 6 onboarding questions (language, level, goals, gender)
-          |
-          v
-AI generates your personalized curriculum (~60s)
-          |
-          v
-Lesson: Teach → Quiz → Bridge → Voice
-          |
-          v
-Complete a unit → Unlock free conversation with your tutor
-          |
-          v
-Complete all units → Final Challenge
+Pick a language → Answer a few questions → AI builds your course
+                                              ↓
+                              Teach → Quiz → Bridge → Voice
+                                              ↓
+                            Complete a unit → Chat with your tutor
+                                              ↓
+                          Complete all units → Final Challenge 🎓
 ```
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
-Browser (Next.js 14 · TypeScript · Tailwind · Framer Motion)
-          |
-          | HTTP   :3004  →  :5003
-          v
-FastAPI Backend (Python 3.10+)
-          |
-          +--→ Ollama (local, any model — fully private)
-          |
-          +--→ Web Speech API (TTS, browser-native)
-
-Storage: localStorage + SQLite sync. No external database. No accounts. No telemetry.
+Browser (Next.js 14 · TypeScript · Tailwind)
+    ↓ HTTP
+FastAPI (Python 3.10+)
+    ↓
+Ollama (local LLM — fully private)
 ```
 
 | Layer | Tech |
 |---|---|
-| Frontend | Next.js 14, TypeScript, TailwindCSS, Framer Motion |
-| Backend | Python FastAPI, Pydantic |
-| AI | Ollama (local, fully private) |
+| Frontend | Next.js 14, TypeScript, Tailwind, Framer Motion |
+| Backend | Python FastAPI |
+| AI | Ollama (local, private) |
 | Speech | Web Speech API (browser-native) |
-| Storage | localStorage + SQLite (auto-sync with recovery codes) |
+| Storage | localStorage + SQLite (auto-sync) |
 
 ---
 
-## Add a Language in 5 Minutes
+## 🌐 Add a Language in 5 Minutes
 
-No coding required. A language pack is a single JSON file.
+No code required. Copy a folder, edit one JSON file:
 
 ```bash
 cp -r languages/es languages/ms
+# Edit languages/ms/config.json — name, tutor persona, flag
 ```
 
-Edit `languages/ms/config.json`:
-
-```json
-{
-  "code": "ms",
-  "name": "Malay",
-  "nativeName": "Bahasa Melayu",
-  "tutor": {
-    "name": "Nadia",
-    "nameNative": "Nadia",
-    "personality": "warm, encouraging, mixes in casual Malay phrases naturally"
-  },
-  "ttsVoice": "ms-MY",
-  "hasScript": false,
-  "tones": 0,
-  "difficulty": "easy",
-  "flag": "🇲🇾"
-}
-```
-
-Open a PR. That's it. The AI handles vocabulary, curriculum, exercises, and conversation using the config you defined. No backend changes. No frontend changes.
+The AI handles vocabulary, curriculum, exercises, and conversation from your config. Open a PR.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 ---
 
-## Project Structure
-
-```
-lingwa/
-  api/              Python FastAPI backend (port 5003)
-    routers/        chat, curriculum_gen, lessons, tts
-    services/       LLM service (Ollama), spaced repetition
-  webapp/           Next.js 14 frontend (port 3004)
-    src/app/        Pages (onboarding, lessons, chat)
-    src/components/ UI components (exercises, lesson tree, chat)
-    src/lib/        Utilities (progress, TTS, API client)
-  languages/        Language packs (JSON configs)
-    th/             Thai — Nong
-    es/             Spanish — Marco
-    fr/             French — Camille
-    ja/             Japanese — Yuki
-    ko/             Korean — Min
-    de/             German — Hans
-    pt/             Portuguese — Ana
-  tests/            Backend pytest + E2E Playwright
-```
-
----
-
-## Testing
-
-127 tests across 2 layers, all passing.
+## 🧪 Testing
 
 ```bash
-cd webapp && npm test          # Jest unit tests (63)
-pytest tests/                  # Backend API tests (64)
+cd webapp && npm test     # Jest unit tests
+pytest tests/             # API tests
 ```
 
 ---
 
 ## Contributing
 
-All skill levels welcome. The most impactful contributions right now:
+All skill levels welcome:
 
 - **Add a language pack** — pure JSON, no code
 - **Improve a tutor persona** — make conversations more natural
 - **Record a demo GIF** — show Lingwa in action
 - **Browse issues** — [good first issues](https://github.com/Astraea-Sixth/lingwa/issues?q=label%3A%22good+first+issue%22)
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ---
 
