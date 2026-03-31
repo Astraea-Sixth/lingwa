@@ -1,0 +1,5304 @@
+{
+  "lang": "zh",
+  "language": "zh",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "วางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Scheduling & Invitations",
+            "zh": "安排日程与邀请",
+            "th": "การนัดหมายและการเชิญ",
+            "ko": "일정 잡기와 초대",
+            "es": "Programación e invitaciones"
+          },
+          "objectives": {
+            "en": [
+              "Make and respond to social invitations",
+              "Discuss scheduling and availability"
+            ],
+            "zh": [
+              "发出和回应社交邀请",
+              "讨论日程安排和空闲时间"
+            ],
+            "th": [
+              "Make and respond to social invitations",
+              "Discuss scheduling and availability"
+            ],
+            "ko": [
+              "Make and respond to social invitations",
+              "Discuss scheduling and availability"
+            ],
+            "es": [
+              "Make and respond to social invitations",
+              "Discuss scheduling and availability"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "见面",
+              "romanization": "jiàn miàn",
+              "meanings": {
+                "en": "meet",
+                "zh": "见面",
+                "th": "พบ",
+                "ko": "만나다",
+                "es": "Encontrarse"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "见面",
+                  "romanization": "jiàn miàn"
+                },
+                "female": {
+                  "word": "见面",
+                  "romanization": "jiàn miàn"
+                }
+              }
+            },
+            {
+              "word": "邀请",
+              "romanization": "yāo qǐng",
+              "meanings": {
+                "en": "invite",
+                "zh": "邀请",
+                "th": "เชิญ",
+                "ko": "초대하다",
+                "es": "Invitar"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "邀请",
+                  "romanization": "yāo qǐng"
+                },
+                "female": {
+                  "word": "邀请",
+                  "romanization": "yāo qǐng"
+                }
+              }
+            },
+            {
+              "word": "计划",
+              "romanization": "jì huà",
+              "meanings": {
+                "en": "plan",
+                "zh": "计划",
+                "th": "แผน",
+                "ko": "계획",
+                "es": "Plan"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "计划",
+                  "romanization": "jì huà"
+                },
+                "female": {
+                  "word": "计划",
+                  "romanization": "jì huà"
+                }
+              }
+            },
+            {
+              "word": "建议",
+              "romanization": "jiàn yì",
+              "meanings": {
+                "en": "suggest",
+                "zh": "建议",
+                "th": "แนะนำ",
+                "ko": "제안하다",
+                "es": "Sugerir"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "建议",
+                  "romanization": "jiàn yì"
+                },
+                "female": {
+                  "word": "建议",
+                  "romanization": "jiàn yì"
+                }
+              }
+            },
+            {
+              "word": "有空",
+              "romanization": "yǒu kòng",
+              "meanings": {
+                "en": "free (available)",
+                "zh": "有空",
+                "th": "ว่าง",
+                "ko": "한가한",
+                "es": "Libre"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "有空",
+                  "romanization": "yǒu kòng"
+                },
+                "female": {
+                  "word": "有空",
+                  "romanization": "yǒu kòng"
+                }
+              }
+            },
+            {
+              "word": "忙",
+              "romanization": "máng",
+              "meanings": {
+                "en": "busy",
+                "zh": "忙",
+                "th": "ยุ่ง",
+                "ko": "바쁜",
+                "es": "Ocupado"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "忙",
+                  "romanization": "máng"
+                },
+                "female": {
+                  "word": "忙",
+                  "romanization": "máng"
+                }
+              }
+            },
+            {
+              "word": "有时间",
+              "romanization": "yǒu shí jiān",
+              "meanings": {
+                "en": "available",
+                "zh": "有时间",
+                "th": "ว่าง",
+                "ko": "시간이 되는",
+                "es": "Disponible"
+              },
+              "toneClass": "3-2-1",
+              "gendered": {
+                "male": {
+                  "word": "有时间",
+                  "romanization": "yǒu shí jiān"
+                },
+                "female": {
+                  "word": "有时间",
+                  "romanization": "yǒu shí jiān"
+                }
+              }
+            },
+            {
+              "word": "取消",
+              "romanization": "qǔ xiāo",
+              "meanings": {
+                "en": "cancel",
+                "zh": "取消",
+                "th": "ยกเลิก",
+                "ko": "취소하다",
+                "es": "Cancelar"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "取消",
+                  "romanization": "qǔ xiāo"
+                },
+                "female": {
+                  "word": "取消",
+                  "romanization": "qǔ xiāo"
+                }
+              }
+            },
+            {
+              "word": "推迟",
+              "romanization": "tuī chí",
+              "meanings": {
+                "en": "postpone",
+                "zh": "推迟",
+                "th": "เลื่อน",
+                "ko": "연기하다",
+                "es": "Posponer"
+              },
+              "toneClass": "1-2",
+              "gendered": {
+                "male": {
+                  "word": "推迟",
+                  "romanization": "tuī chí"
+                },
+                "female": {
+                  "word": "推迟",
+                  "romanization": "tuī chí"
+                }
+              }
+            },
+            {
+              "word": "确认",
+              "romanization": "què rèn",
+              "meanings": {
+                "en": "confirm",
+                "zh": "确认",
+                "th": "ยืนยัน",
+                "ko": "확인하다",
+                "es": "Confirmar"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "确认",
+                  "romanization": "què rèn"
+                },
+                "female": {
+                  "word": "确认",
+                  "romanization": "què rèn"
+                }
+              }
+            },
+            {
+              "word": "安排",
+              "romanization": "ān pái",
+              "meanings": {
+                "en": "arrange",
+                "zh": "安排",
+                "th": "จัดเตรียม",
+                "ko": "준비하다",
+                "es": "Organizar"
+              },
+              "toneClass": "1-2",
+              "gendered": {
+                "male": {
+                  "word": "安排",
+                  "romanization": "ān pái"
+                },
+                "female": {
+                  "word": "安排",
+                  "romanization": "ān pái"
+                }
+              }
+            },
+            {
+              "word": "组织",
+              "romanization": "zǔ zhī",
+              "meanings": {
+                "en": "organise",
+                "zh": "组织",
+                "th": "จัดการ",
+                "ko": "조직하다",
+                "es": "Organizar"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "组织",
+                  "romanization": "zǔ zhī"
+                },
+                "female": {
+                  "word": "组织",
+                  "romanization": "zǔ zhī"
+                }
+              }
+            },
+            {
+              "word": "场地",
+              "romanization": "chǎng dì",
+              "meanings": {
+                "en": "venue",
+                "zh": "场地",
+                "th": "สถานที่จัดงาน",
+                "ko": "장소",
+                "es": "Lugar"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "场地",
+                  "romanization": "chǎng dì"
+                },
+                "female": {
+                  "word": "场地",
+                  "romanization": "chǎng dì"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "见面",
+              "romanization": "jiàn miàn",
+              "options": {
+                "en": [
+                  "meet",
+                  "invite",
+                  "plan",
+                  "suggest"
+                ],
+                "zh": [
+                  "见面",
+                  "邀请",
+                  "计划",
+                  "建议"
+                ],
+                "th": [
+                  "พบ",
+                  "เชิญ",
+                  "แผน",
+                  "แนะนำ"
+                ],
+                "ko": [
+                  "만나다",
+                  "초대하다",
+                  "계획",
+                  "제안하다"
+                ],
+                "es": [
+                  "Encontrarse",
+                  "Invitar",
+                  "Plan",
+                  "Sugerir"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "见面",
+                "female": "见面"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'suggest' in Chinese?",
+                "zh": "'建议'用中文怎么说？",
+                "th": "คำว่า 'แนะนำ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'제안하다'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Sugerir' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "建议",
+                  "见面",
+                  "邀请",
+                  "计划"
+                ],
+                "male": [
+                  "建议",
+                  "见面",
+                  "邀请",
+                  "计划"
+                ],
+                "female": [
+                  "建议",
+                  "见面",
+                  "邀请",
+                  "计划"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "忙",
+              "romanization": "máng",
+              "options": {
+                "en": [
+                  "busy",
+                  "meet",
+                  "invite",
+                  "plan"
+                ],
+                "zh": [
+                  "忙",
+                  "见面",
+                  "邀请",
+                  "计划"
+                ],
+                "th": [
+                  "ยุ่ง",
+                  "พบ",
+                  "เชิญ",
+                  "แผน"
+                ],
+                "ko": [
+                  "바쁜",
+                  "만나다",
+                  "초대하다",
+                  "계획"
+                ],
+                "es": [
+                  "Ocupado",
+                  "Encontrarse",
+                  "Invitar",
+                  "Plan"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "忙",
+                  "romanization": "máng"
+                },
+                "female": {
+                  "audio_text": "忙",
+                  "romanization": "máng"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "见面",
+                  "romanization": "jiàn miàn",
+                  "native": {
+                    "en": "meet",
+                    "zh": "见面",
+                    "th": "พบ",
+                    "ko": "만나다",
+                    "es": "Encontrarse"
+                  }
+                },
+                {
+                  "target": "建议",
+                  "romanization": "jiàn yì",
+                  "native": {
+                    "en": "suggest",
+                    "zh": "建议",
+                    "th": "แนะนำ",
+                    "ko": "제안하다",
+                    "es": "Sugerir"
+                  }
+                },
+                {
+                  "target": "有时间",
+                  "romanization": "yǒu shí jiān",
+                  "native": {
+                    "en": "available",
+                    "zh": "有时间",
+                    "th": "ว่าง",
+                    "ko": "시간이 되는",
+                    "es": "Disponible"
+                  }
+                },
+                {
+                  "target": "确认",
+                  "romanization": "què rèn",
+                  "native": {
+                    "en": "confirm",
+                    "zh": "确认",
+                    "th": "ยืนยัน",
+                    "ko": "확인하다",
+                    "es": "Confirmar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I want to invite you to a party",
+                "zh": "我想邀请你参加派对",
+                "th": "ฉันอยากเชิญคุณไปปาร์ตี้",
+                "ko": "파티에 초대하고 싶어요",
+                "es": "Quiero invitarte a una fiesta"
+              },
+              "words": [
+                "邀请",
+                "参加",
+                "我",
+                "想",
+                "你",
+                "派对"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "邀请",
+                  "你",
+                  "参加",
+                  "派对"
+                ]
+              },
+              "romanization": "wǒ xiǎng yāo qǐng nǐ cān jiā pài duì",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "邀请",
+                  "你",
+                  "参加",
+                  "派对"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Make plans to meet a friend this weekend in Chinese",
+            "zh": "用中文计划这个周末和朋友见面",
+            "th": "วางแผนพบเพื่อนสุดสัปดาห์นี้เป็นภาษาจีน",
+            "ko": "중국어로 이번 주말에 친구 만날 계획 세우기",
+            "es": "Haz planes para ver a un amigo este fin de semana en chino"
+          }
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Catching Up & Changes",
+            "zh": "叙旧与变化",
+            "th": "เล่าข่าวคราวและการเปลี่ยนแปลง",
+            "ko": "근황 나누기와 변화",
+            "es": "Ponerse al día y cambios"
+          },
+          "objectives": {
+            "en": [
+              "Talk about gathering with friends",
+              "Handle plan changes and reminders"
+            ],
+            "zh": [
+              "谈论朋友聚会",
+              "处理计划变更和提醒"
+            ],
+            "th": [
+              "Talk about gathering with friends",
+              "Handle plan changes and reminders"
+            ],
+            "ko": [
+              "Talk about gathering with friends",
+              "Handle plan changes and reminders"
+            ],
+            "es": [
+              "Talk about gathering with friends",
+              "Handle plan changes and reminders"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "聚会",
+              "romanization": "jù huì",
+              "meanings": {
+                "en": "gather",
+                "zh": "聚会",
+                "th": "รวมตัว",
+                "ko": "모이다",
+                "es": "Reunirse"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "聚会",
+                  "romanization": "jù huì"
+                },
+                "female": {
+                  "word": "聚会",
+                  "romanization": "jù huì"
+                }
+              }
+            },
+            {
+              "word": "出去玩",
+              "romanization": "chū qù wán",
+              "meanings": {
+                "en": "hang out",
+                "zh": "出去玩",
+                "th": "ออกไปเที่ยว",
+                "ko": "놀다",
+                "es": "Pasar el rato"
+              },
+              "toneClass": "1-4-2",
+              "gendered": {
+                "male": {
+                  "word": "出去玩",
+                  "romanization": "chū qù wán"
+                },
+                "female": {
+                  "word": "出去玩",
+                  "romanization": "chū qù wán"
+                }
+              }
+            },
+            {
+              "word": "叙旧",
+              "romanization": "xù jiù",
+              "meanings": {
+                "en": "catch up",
+                "zh": "叙旧",
+                "th": "เจอกัน",
+                "ko": "근황을 나누다",
+                "es": "Ponerse al día"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "叙旧",
+                  "romanization": "xù jiù"
+                },
+                "female": {
+                  "word": "叙旧",
+                  "romanization": "xù jiù"
+                }
+              }
+            },
+            {
+              "word": "改为",
+              "romanization": "gǎi wéi",
+              "meanings": {
+                "en": "instead",
+                "zh": "改为",
+                "th": "แทน",
+                "ko": "대신",
+                "es": "En su lugar"
+              },
+              "toneClass": "3-2",
+              "gendered": {
+                "male": {
+                  "word": "改为",
+                  "romanization": "gǎi wéi"
+                },
+                "female": {
+                  "word": "改为",
+                  "romanization": "gǎi wéi"
+                }
+              }
+            },
+            {
+              "word": "改时间",
+              "romanization": "gǎi shí jiān",
+              "meanings": {
+                "en": "reschedule",
+                "zh": "改时间",
+                "th": "เปลี่ยนเวลานัด",
+                "ko": "일정 변경하다",
+                "es": "Reprogramar"
+              },
+              "toneClass": "3-2-1",
+              "gendered": {
+                "male": {
+                  "word": "改时间",
+                  "romanization": "gǎi shí jiān"
+                },
+                "female": {
+                  "word": "改时间",
+                  "romanization": "gǎi shí jiān"
+                }
+              }
+            },
+            {
+              "word": "提醒",
+              "romanization": "tí xǐng",
+              "meanings": {
+                "en": "remind",
+                "zh": "提醒",
+                "th": "เตือน",
+                "ko": "상기시키다",
+                "es": "Recordar (a alguien)"
+              },
+              "toneClass": "2-3",
+              "gendered": {
+                "male": {
+                  "word": "提醒",
+                  "romanization": "tí xǐng"
+                },
+                "female": {
+                  "word": "提醒",
+                  "romanization": "tí xǐng"
+                }
+              }
+            },
+            {
+              "word": "期待",
+              "romanization": "qī dài",
+              "meanings": {
+                "en": "looking forward",
+                "zh": "期待",
+                "th": "ตั้งตารอ",
+                "ko": "기대하다",
+                "es": "Con ganas de"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "期待",
+                  "romanization": "qī dài"
+                },
+                "female": {
+                  "word": "期待",
+                  "romanization": "qī dài"
+                }
+              }
+            },
+            {
+              "word": "接",
+              "romanization": "jiē",
+              "meanings": {
+                "en": "pick up",
+                "zh": "接",
+                "th": "รับ",
+                "ko": "데리러 가다",
+                "es": "Recoger"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "接",
+                  "romanization": "jiē"
+                },
+                "female": {
+                  "word": "接",
+                  "romanization": "jiē"
+                }
+              }
+            },
+            {
+              "word": "送",
+              "romanization": "sòng",
+              "meanings": {
+                "en": "drop off",
+                "zh": "送",
+                "th": "ส่ง",
+                "ko": "내려주다",
+                "es": "Dejar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "送",
+                  "romanization": "sòng"
+                },
+                "female": {
+                  "word": "送",
+                  "romanization": "sòng"
+                }
+              }
+            },
+            {
+              "word": "带",
+              "romanization": "dài",
+              "meanings": {
+                "en": "bring",
+                "zh": "带",
+                "th": "นำมา",
+                "ko": "가져오다",
+                "es": "Traer"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "带",
+                  "romanization": "dài"
+                },
+                "female": {
+                  "word": "带",
+                  "romanization": "dài"
+                }
+              }
+            },
+            {
+              "word": "加入",
+              "romanization": "jiā rù",
+              "meanings": {
+                "en": "join",
+                "zh": "加入",
+                "th": "เข้าร่วม",
+                "ko": "합류하다",
+                "es": "Unirse"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "加入",
+                  "romanization": "jiā rù"
+                },
+                "female": {
+                  "word": "加入",
+                  "romanization": "jiā rù"
+                }
+              }
+            },
+            {
+              "word": "离开",
+              "romanization": "lí kāi",
+              "meanings": {
+                "en": "leave",
+                "zh": "离开",
+                "th": "ออก",
+                "ko": "떠나다",
+                "es": "Salir"
+              },
+              "toneClass": "2-1",
+              "gendered": {
+                "male": {
+                  "word": "离开",
+                  "romanization": "lí kāi"
+                },
+                "female": {
+                  "word": "离开",
+                  "romanization": "lí kāi"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "聚会",
+              "romanization": "jù huì",
+              "options": {
+                "en": [
+                  "gather",
+                  "hang out",
+                  "catch up",
+                  "instead"
+                ],
+                "zh": [
+                  "聚会",
+                  "出去玩",
+                  "叙旧",
+                  "改为"
+                ],
+                "th": [
+                  "รวมตัว",
+                  "ออกไปเที่ยว",
+                  "เจอกัน",
+                  "แทน"
+                ],
+                "ko": [
+                  "모이다",
+                  "놀다",
+                  "근황을 나누다",
+                  "대신"
+                ],
+                "es": [
+                  "Reunirse",
+                  "Pasar el rato",
+                  "Ponerse al día",
+                  "En su lugar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "聚会",
+                "female": "聚会"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'instead' in Chinese?",
+                "zh": "'改为'用中文怎么说？",
+                "th": "คำว่า 'แทน' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'대신'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'En su lugar' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "改为",
+                  "聚会",
+                  "出去玩",
+                  "叙旧"
+                ],
+                "male": [
+                  "改为",
+                  "聚会",
+                  "出去玩",
+                  "叙旧"
+                ],
+                "female": [
+                  "改为",
+                  "聚会",
+                  "出去玩",
+                  "叙旧"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "提醒",
+              "romanization": "tí xǐng",
+              "options": {
+                "en": [
+                  "remind",
+                  "gather",
+                  "hang out",
+                  "catch up"
+                ],
+                "zh": [
+                  "提醒",
+                  "聚集",
+                  "一起出去玩",
+                  "叙旧"
+                ],
+                "th": [
+                  "เตือน",
+                  "รวมตัว",
+                  "ออกไปเที่ยว",
+                  "เจอกัน"
+                ],
+                "ko": [
+                  "상기시키다",
+                  "모이다",
+                  "놀다",
+                  "근황을 나누다"
+                ],
+                "es": [
+                  "Recordar (a alguien)",
+                  "Reunirse",
+                  "Pasar el rato",
+                  "Ponerse al día"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "提醒",
+                  "romanization": "tí xǐng"
+                },
+                "female": {
+                  "audio_text": "提醒",
+                  "romanization": "tí xǐng"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "聚会",
+                  "romanization": "jù huì",
+                  "native": {
+                    "en": "gather",
+                    "zh": "聚会",
+                    "th": "รวมตัว",
+                    "ko": "모이다",
+                    "es": "Reunirse"
+                  }
+                },
+                {
+                  "target": "改为",
+                  "romanization": "gǎi wéi",
+                  "native": {
+                    "en": "instead",
+                    "zh": "改为",
+                    "th": "แทน",
+                    "ko": "대신",
+                    "es": "En su lugar"
+                  }
+                },
+                {
+                  "target": "期待",
+                  "romanization": "qī dài",
+                  "native": {
+                    "en": "looking forward",
+                    "zh": "期待",
+                    "th": "ตั้งตารอ",
+                    "ko": "기대하다",
+                    "es": "Con ganas de"
+                  }
+                },
+                {
+                  "target": "带",
+                  "romanization": "dài",
+                  "native": {
+                    "en": "bring",
+                    "zh": "带",
+                    "th": "นำมา",
+                    "ko": "가져오다",
+                    "es": "Traer"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I am looking forward to seeing you",
+                "zh": "我期待见到你",
+                "th": "ตั้งตารอได้เจอคุณ",
+                "ko": "만나기를 기대해요",
+                "es": "Estoy deseando verte"
+              },
+              "words": [
+                "期待",
+                "见到",
+                "我",
+                "你"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "期待",
+                  "见到",
+                  "你"
+                ]
+              },
+              "romanization": "wǒ qī dài jiàn dào nǐ",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "期待",
+                  "见到",
+                  "你"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Reschedule plans with a friend in Chinese",
+            "zh": "用中文和朋友改约时间",
+            "th": "เปลี่ยนนัดหมายกับเพื่อนเป็นภาษาจีน",
+            "ko": "중국어로 친구와 일정 변경하기",
+            "es": "Reprograma planes con un amigo en chino"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Talking About Yourself",
+        "zh": "谈论自己",
+        "th": "พูดเกี่ยวกับตัวเอง",
+        "ko": "자기소개",
+        "es": "Hablar de ti mismo"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Background & Origins",
+            "zh": "背景与出身",
+            "th": "ภูมิหลังและที่มา",
+            "ko": "배경과 출신",
+            "es": "Antecedentes y orígenes"
+          },
+          "objectives": {
+            "en": [
+              "Share personal background information",
+              "Talk about where you are from and where you grew up"
+            ],
+            "zh": [
+              "分享个人背景信息",
+              "谈论自己的出生地和成长经历"
+            ],
+            "th": [
+              "Share personal background information",
+              "Talk about where you are from and where you grew up"
+            ],
+            "ko": [
+              "Share personal background information",
+              "Talk about where you are from and where you grew up"
+            ],
+            "es": [
+              "Share personal background information",
+              "Talk about where you are from and where you grew up"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "出生",
+              "romanization": "chū shēng",
+              "meanings": {
+                "en": "born",
+                "zh": "出生",
+                "th": "เกิด",
+                "ko": "태어난",
+                "es": "Nacido"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "出生",
+                  "romanization": "chū shēng"
+                },
+                "female": {
+                  "word": "出生",
+                  "romanization": "chū shēng"
+                }
+              }
+            },
+            {
+              "word": "长大",
+              "romanization": "zhǎng dà",
+              "meanings": {
+                "en": "grow up",
+                "zh": "长大",
+                "th": "เติบโต",
+                "ko": "자라다",
+                "es": "Crecer"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "长大",
+                  "romanization": "zhǎng dà"
+                },
+                "female": {
+                  "word": "长大",
+                  "romanization": "zhǎng dà"
+                }
+              }
+            },
+            {
+              "word": "学习",
+              "romanization": "xué xí",
+              "meanings": {
+                "en": "study",
+                "zh": "学习",
+                "th": "เรียน",
+                "ko": "공부하다",
+                "es": "Estudiar"
+              },
+              "toneClass": "2-2",
+              "gendered": {
+                "male": {
+                  "word": "学习",
+                  "romanization": "xué xí"
+                },
+                "female": {
+                  "word": "学习",
+                  "romanization": "xué xí"
+                }
+              }
+            },
+            {
+              "word": "毕业",
+              "romanization": "bì yè",
+              "meanings": {
+                "en": "graduate",
+                "zh": "毕业",
+                "th": "จบการศึกษา",
+                "ko": "졸업하다",
+                "es": "Graduarse"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "毕业",
+                  "romanization": "bì yè"
+                },
+                "female": {
+                  "word": "毕业",
+                  "romanization": "bì yè"
+                }
+              }
+            },
+            {
+              "word": "搬家",
+              "romanization": "bān jiā",
+              "meanings": {
+                "en": "move",
+                "zh": "搬家",
+                "th": "ย้าย",
+                "ko": "이사하다",
+                "es": "Mudarse"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "搬家",
+                  "romanization": "bān jiā"
+                },
+                "female": {
+                  "word": "搬家",
+                  "romanization": "bān jiā"
+                }
+              }
+            },
+            {
+              "word": "已婚",
+              "romanization": "yǐ hūn",
+              "meanings": {
+                "en": "married",
+                "zh": "已婚",
+                "th": "แต่งงานแล้ว",
+                "ko": "결혼한",
+                "es": "Casado"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "已婚",
+                  "romanization": "yǐ hūn"
+                },
+                "female": {
+                  "word": "已婚",
+                  "romanization": "yǐ hūn"
+                }
+              }
+            },
+            {
+              "word": "单身",
+              "romanization": "dān shēn",
+              "meanings": {
+                "en": "single",
+                "zh": "单身",
+                "th": "โสด",
+                "ko": "싱글",
+                "es": "Soltero"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "单身",
+                  "romanization": "dān shēn"
+                },
+                "female": {
+                  "word": "单身",
+                  "romanization": "dān shēn"
+                }
+              }
+            },
+            {
+              "word": "离婚",
+              "romanization": "lí hūn",
+              "meanings": {
+                "en": "divorced",
+                "zh": "离婚",
+                "th": "หย่าร้าง",
+                "ko": "이혼한",
+                "es": "Divorciado"
+              },
+              "toneClass": "2-1",
+              "gendered": {
+                "male": {
+                  "word": "离婚",
+                  "romanization": "lí hūn"
+                },
+                "female": {
+                  "word": "离婚",
+                  "romanization": "lí hūn"
+                }
+              }
+            },
+            {
+              "word": "国籍",
+              "romanization": "guó jí",
+              "meanings": {
+                "en": "nationality",
+                "zh": "国籍",
+                "th": "สัญชาติ",
+                "ko": "국적",
+                "es": "Nacionalidad"
+              },
+              "toneClass": "2-2",
+              "gendered": {
+                "male": {
+                  "word": "国籍",
+                  "romanization": "guó jí"
+                },
+                "female": {
+                  "word": "国籍",
+                  "romanization": "guó jí"
+                }
+              }
+            },
+            {
+              "word": "家乡",
+              "romanization": "jiā xiāng",
+              "meanings": {
+                "en": "hometown",
+                "zh": "家乡",
+                "th": "บ้านเกิด",
+                "ko": "고향",
+                "es": "Ciudad natal"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "家乡",
+                  "romanization": "jiā xiāng"
+                },
+                "female": {
+                  "word": "家乡",
+                  "romanization": "jiā xiāng"
+                }
+              }
+            },
+            {
+              "word": "背景",
+              "romanization": "bèi jǐng",
+              "meanings": {
+                "en": "background",
+                "zh": "背景",
+                "th": "พื้นหลัง",
+                "ko": "배경",
+                "es": "Fondo"
+              },
+              "toneClass": "4-3",
+              "gendered": {
+                "male": {
+                  "word": "背景",
+                  "romanization": "bèi jǐng"
+                },
+                "female": {
+                  "word": "背景",
+                  "romanization": "bèi jǐng"
+                }
+              }
+            },
+            {
+              "word": "宗教",
+              "romanization": "zōng jiào",
+              "meanings": {
+                "en": "religion",
+                "zh": "宗教",
+                "th": "ศาสนา",
+                "ko": "종교",
+                "es": "Religión"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "宗教",
+                  "romanization": "zōng jiào"
+                },
+                "female": {
+                  "word": "宗教",
+                  "romanization": "zōng jiào"
+                }
+              }
+            },
+            {
+              "word": "语言",
+              "romanization": "yǔ yán",
+              "meanings": {
+                "en": "language",
+                "zh": "语言",
+                "th": "ภาษา",
+                "ko": "언어",
+                "es": "Idioma"
+              },
+              "toneClass": "3-2",
+              "gendered": {
+                "male": {
+                  "word": "语言",
+                  "romanization": "yǔ yán"
+                },
+                "female": {
+                  "word": "语言",
+                  "romanization": "yǔ yán"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "出生",
+              "romanization": "chū shēng",
+              "options": {
+                "en": [
+                  "born",
+                  "grow up",
+                  "study",
+                  "graduate"
+                ],
+                "zh": [
+                  "出生",
+                  "长大",
+                  "学习",
+                  "毕业"
+                ],
+                "th": [
+                  "เกิด",
+                  "เติบโต",
+                  "เรียน",
+                  "จบการศึกษา"
+                ],
+                "ko": [
+                  "태어난",
+                  "자라다",
+                  "공부하다",
+                  "졸업하다"
+                ],
+                "es": [
+                  "Nacido",
+                  "Crecer",
+                  "Estudiar",
+                  "Graduarse"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "出生",
+                "female": "出生"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'graduate' in Chinese?",
+                "zh": "'毕业'用中文怎么说？",
+                "th": "คำว่า 'จบการศึกษา' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'졸업하다'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Graduarse' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "毕业",
+                  "出生",
+                  "长大",
+                  "学习"
+                ],
+                "male": [
+                  "毕业",
+                  "出生",
+                  "长大",
+                  "学习"
+                ],
+                "female": [
+                  "毕业",
+                  "出生",
+                  "长大",
+                  "学习"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "已婚",
+              "romanization": "yǐ hūn",
+              "options": {
+                "en": [
+                  "married",
+                  "born",
+                  "grow up",
+                  "study"
+                ],
+                "zh": [
+                  "已婚",
+                  "出生",
+                  "长大",
+                  "学习"
+                ],
+                "th": [
+                  "แต่งงานแล้ว",
+                  "เกิด",
+                  "เติบโต",
+                  "เรียน"
+                ],
+                "ko": [
+                  "결혼한",
+                  "태어난",
+                  "자라다",
+                  "공부하다"
+                ],
+                "es": [
+                  "Casado",
+                  "Nacido",
+                  "Crecer",
+                  "Estudiar"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "已婚",
+                  "romanization": "yǐ hūn"
+                },
+                "female": {
+                  "audio_text": "已婚",
+                  "romanization": "yǐ hūn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "出生",
+                  "romanization": "chū shēng",
+                  "native": {
+                    "en": "born",
+                    "zh": "出生",
+                    "th": "เกิด",
+                    "ko": "태어난",
+                    "es": "Nacido"
+                  }
+                },
+                {
+                  "target": "毕业",
+                  "romanization": "bì yè",
+                  "native": {
+                    "en": "graduate",
+                    "zh": "毕业",
+                    "th": "จบการศึกษา",
+                    "ko": "졸업하다",
+                    "es": "Graduarse"
+                  }
+                },
+                {
+                  "target": "单身",
+                  "romanization": "dān shēn",
+                  "native": {
+                    "en": "single",
+                    "zh": "单身",
+                    "th": "โสด",
+                    "ko": "싱글",
+                    "es": "Soltero"
+                  }
+                },
+                {
+                  "target": "家乡",
+                  "romanization": "jiā xiāng",
+                  "native": {
+                    "en": "hometown",
+                    "zh": "家乡",
+                    "th": "บ้านเกิด",
+                    "ko": "고향",
+                    "es": "Ciudad natal"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I was born in Beijing",
+                "zh": "我出生在北京",
+                "th": "ฉันเกิดที่ปักกิ่ง",
+                "ko": "베이징에서 태어났어요",
+                "es": "Nací en Beijing"
+              },
+              "words": [
+                "出生",
+                "在",
+                "我",
+                "北京"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "出生",
+                  "在",
+                  "北京"
+                ]
+              },
+              "romanization": "wǒ chū shēng zài běi jīng",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "出生",
+                  "在",
+                  "北京"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Introduce your background and where you grew up in Chinese",
+            "zh": "用中文介绍你的背景和成长的地方",
+            "th": "แนะนำภูมิหลังและที่ที่คุณเติบโตเป็นภาษาจีน",
+            "ko": "중국어로 자신의 배경과 자란 곳 소개하기",
+            "es": "Presenta tu origen y dónde creciste en chino"
+          }
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Personality & Identity",
+            "zh": "性格与身份",
+            "th": "บุคลิกภาพและตัวตน",
+            "ko": "성격과 정체성",
+            "es": "Personalidad e identidad"
+          },
+          "objectives": {
+            "en": [
+              "Describe personality traits",
+              "Introduce yourself and share about your character"
+            ],
+            "zh": [
+              "描述性格特点",
+              "介绍自己并分享性格"
+            ],
+            "th": [
+              "Describe personality traits",
+              "Introduce yourself and share about your character"
+            ],
+            "ko": [
+              "Describe personality traits",
+              "Introduce yourself and share about your character"
+            ],
+            "es": [
+              "Describe personality traits",
+              "Introduce yourself and share about your character"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "文化",
+              "romanization": "wén huà",
+              "meanings": {
+                "en": "culture",
+                "zh": "文化",
+                "th": "วัฒนธรรม",
+                "ko": "문화",
+                "es": "Cultura"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "文化",
+                  "romanization": "wén huà"
+                },
+                "female": {
+                  "word": "文化",
+                  "romanization": "wén huà"
+                }
+              }
+            },
+            {
+              "word": "传统",
+              "romanization": "chuán tǒng",
+              "meanings": {
+                "en": "tradition",
+                "zh": "传统",
+                "th": "ประเพณี",
+                "ko": "전통",
+                "es": "Tradición"
+              },
+              "toneClass": "2-3",
+              "gendered": {
+                "male": {
+                  "word": "传统",
+                  "romanization": "chuán tǒng"
+                },
+                "female": {
+                  "word": "传统",
+                  "romanization": "chuán tǒng"
+                }
+              }
+            },
+            {
+              "word": "性格",
+              "romanization": "xìng gé",
+              "meanings": {
+                "en": "personality",
+                "zh": "性格",
+                "th": "บุคลิกภาพ",
+                "ko": "성격",
+                "es": "Personalidad"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "性格",
+                  "romanization": "xìng gé"
+                },
+                "female": {
+                  "word": "性格",
+                  "romanization": "xìng gé"
+                }
+              }
+            },
+            {
+              "word": "内向",
+              "romanization": "nèi xiàng",
+              "meanings": {
+                "en": "introvert",
+                "zh": "内向",
+                "th": "คนเก็บตัว",
+                "ko": "내향적인 사람",
+                "es": "Introvertido"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "内向",
+                  "romanization": "nèi xiàng"
+                },
+                "female": {
+                  "word": "内向",
+                  "romanization": "nèi xiàng"
+                }
+              }
+            },
+            {
+              "word": "外向",
+              "romanization": "wài xiàng",
+              "meanings": {
+                "en": "extrovert",
+                "zh": "外向",
+                "th": "คนเปิดเผย",
+                "ko": "외향적인 사람",
+                "es": "Extrovertido"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "外向",
+                  "romanization": "wài xiàng"
+                },
+                "female": {
+                  "word": "外向",
+                  "romanization": "wài xiàng"
+                }
+              }
+            },
+            {
+              "word": "有野心",
+              "romanization": "yǒu yě xīn",
+              "meanings": {
+                "en": "ambitious",
+                "zh": "有野心",
+                "th": "ทะเยอทะยาน",
+                "ko": "야심 찬",
+                "es": "Ambicioso"
+              },
+              "toneClass": "3-3-1",
+              "gendered": {
+                "male": {
+                  "word": "有野心",
+                  "romanization": "yǒu yě xīn"
+                },
+                "female": {
+                  "word": "有野心",
+                  "romanization": "yǒu yě xīn"
+                }
+              }
+            },
+            {
+              "word": "有创意",
+              "romanization": "yǒu chuàng yì",
+              "meanings": {
+                "en": "creative",
+                "zh": "有创意",
+                "th": "สร้างสรรค์",
+                "ko": "창의적인",
+                "es": "Creativo"
+              },
+              "toneClass": "3-4-4",
+              "gendered": {
+                "male": {
+                  "word": "有创意",
+                  "romanization": "yǒu chuàng yì"
+                },
+                "female": {
+                  "word": "有创意",
+                  "romanization": "yǒu chuàng yì"
+                }
+              }
+            },
+            {
+              "word": "描述",
+              "romanization": "miáo shù",
+              "meanings": {
+                "en": "describe",
+                "zh": "描述",
+                "th": "อธิบาย",
+                "ko": "묘사하다",
+                "es": "Describir"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "描述",
+                  "romanization": "miáo shù"
+                },
+                "female": {
+                  "word": "描述",
+                  "romanization": "miáo shù"
+                }
+              }
+            },
+            {
+              "word": "介绍",
+              "romanization": "jiè shào",
+              "meanings": {
+                "en": "introduce",
+                "zh": "介绍",
+                "th": "แนะนำ",
+                "ko": "소개하다",
+                "es": "Presentar"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "介绍",
+                  "romanization": "jiè shào"
+                },
+                "female": {
+                  "word": "介绍",
+                  "romanization": "jiè shào"
+                }
+              }
+            },
+            {
+              "word": "分享",
+              "romanization": "fēn xiǎng",
+              "meanings": {
+                "en": "share",
+                "zh": "分享",
+                "th": "แบ่งปัน",
+                "ko": "나누다",
+                "es": "Compartir"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "分享",
+                  "romanization": "fēn xiǎng"
+                },
+                "female": {
+                  "word": "分享",
+                  "romanization": "fēn xiǎng"
+                }
+              }
+            },
+            {
+              "word": "提到",
+              "romanization": "tí dào",
+              "meanings": {
+                "en": "mention",
+                "zh": "提到",
+                "th": "กล่าวถึง",
+                "ko": "언급하다",
+                "es": "Mencionar"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "提到",
+                  "romanization": "tí dào"
+                },
+                "female": {
+                  "word": "提到",
+                  "romanization": "tí dào"
+                }
+              }
+            },
+            {
+              "word": "解释",
+              "romanization": "jiě shì",
+              "meanings": {
+                "en": "explain",
+                "zh": "解释",
+                "th": "อธิบาย",
+                "ko": "설명하다",
+                "es": "Explicar"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "解释",
+                  "romanization": "jiě shì"
+                },
+                "female": {
+                  "word": "解释",
+                  "romanization": "jiě shì"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "文化",
+              "romanization": "wén huà",
+              "options": {
+                "en": [
+                  "culture",
+                  "tradition",
+                  "personality",
+                  "introvert"
+                ],
+                "zh": [
+                  "文化",
+                  "传统",
+                  "性格",
+                  "内向"
+                ],
+                "th": [
+                  "วัฒนธรรม",
+                  "ประเพณี",
+                  "บุคลิกภาพ",
+                  "คนเก็บตัว"
+                ],
+                "ko": [
+                  "문화",
+                  "전통",
+                  "성격",
+                  "내향적인 사람"
+                ],
+                "es": [
+                  "Cultura",
+                  "Tradición",
+                  "Personalidad",
+                  "Introvertido"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "文化",
+                "female": "文化"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'introvert' in Chinese?",
+                "zh": "'内向'用中文怎么说？",
+                "th": "คำว่า 'คนเก็บตัว' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'내향적인 사람'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Introvertido' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "内向",
+                  "文化",
+                  "传统",
+                  "性格"
+                ],
+                "male": [
+                  "内向",
+                  "文化",
+                  "传统",
+                  "性格"
+                ],
+                "female": [
+                  "内向",
+                  "文化",
+                  "传统",
+                  "性格"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "有野心",
+              "romanization": "yǒu yě xīn",
+              "options": {
+                "en": [
+                  "ambitious",
+                  "culture",
+                  "tradition",
+                  "personality"
+                ],
+                "zh": [
+                  "有抱负的",
+                  "文化",
+                  "传统",
+                  "性格"
+                ],
+                "th": [
+                  "ทะเยอทะยาน",
+                  "วัฒนธรรม",
+                  "ประเพณี",
+                  "บุคลิกภาพ"
+                ],
+                "ko": [
+                  "야심 찬",
+                  "문화",
+                  "전통",
+                  "성격"
+                ],
+                "es": [
+                  "Ambicioso",
+                  "Cultura",
+                  "Tradición",
+                  "Personalidad"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "有野心",
+                  "romanization": "yǒu yě xīn"
+                },
+                "female": {
+                  "audio_text": "有野心",
+                  "romanization": "yǒu yě xīn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "文化",
+                  "romanization": "wén huà",
+                  "native": {
+                    "en": "culture",
+                    "zh": "文化",
+                    "th": "วัฒนธรรม",
+                    "ko": "문화",
+                    "es": "Cultura"
+                  }
+                },
+                {
+                  "target": "内向",
+                  "romanization": "nèi xiàng",
+                  "native": {
+                    "en": "introvert",
+                    "zh": "内向",
+                    "th": "คนเก็บตัว",
+                    "ko": "내향적인 사람",
+                    "es": "Introvertido"
+                  }
+                },
+                {
+                  "target": "有创意",
+                  "romanization": "yǒu chuàng yì",
+                  "native": {
+                    "en": "creative",
+                    "zh": "有创意",
+                    "th": "สร้างสรรค์",
+                    "ko": "창의적인",
+                    "es": "Creativo"
+                  }
+                },
+                {
+                  "target": "分享",
+                  "romanization": "fēn xiǎng",
+                  "native": {
+                    "en": "share",
+                    "zh": "分享",
+                    "th": "แบ่งปัน",
+                    "ko": "나누다",
+                    "es": "Compartir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "My personality is introverted",
+                "zh": "我的性格是内向的",
+                "th": "บุคลิกของฉันเป็นคนเก็บตัว",
+                "ko": "제 성격은 내향적이에요",
+                "es": "Mi personalidad es introvertida"
+              },
+              "words": [
+                "性格",
+                "内向",
+                "我的",
+                "是",
+                "的"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我的",
+                  "性格",
+                  "是",
+                  "内向",
+                  "的"
+                ]
+              },
+              "romanization": "wǒ de xìng gé shì nèi xiàng de",
+              "tiles": {
+                "neutral": [
+                  "我的",
+                  "性格",
+                  "是",
+                  "内向",
+                  "的"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Describe your personality and introduce yourself in Chinese",
+            "zh": "用中文描述你的性格并自我介绍",
+            "th": "อธิบายบุคลิกภาพและแนะนำตัวเองเป็นภาษาจีน",
+            "ko": "중국어로 자신의 성격을 설명하고 자기소개하기",
+            "es": "Describe tu personalidad y preséntate en chino"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Opinions & Small Talk",
+        "zh": "观点与闲聊",
+        "th": "ความคิดเห็นและการพูดคุยทั่วไป",
+        "ko": "의견과 일상 대화",
+        "es": "Opiniones y charla informal"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Sharing Opinions",
+            "zh": "分享观点",
+            "th": "แบ่งปันความคิดเห็น",
+            "ko": "의견 나누기",
+            "es": "Compartir opiniones"
+          },
+          "objectives": {
+            "en": [
+              "Express opinions and beliefs",
+              "Agree and disagree politely"
+            ],
+            "zh": [
+              "表达观点和看法",
+              "礼貌地表示同意和不同意"
+            ],
+            "th": [
+              "Express opinions and beliefs",
+              "Agree and disagree politely"
+            ],
+            "ko": [
+              "Express opinions and beliefs",
+              "Agree and disagree politely"
+            ],
+            "es": [
+              "Express opinions and beliefs",
+              "Agree and disagree politely"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "觉得",
+              "romanization": "jué de",
+              "meanings": {
+                "en": "think",
+                "zh": "觉得",
+                "th": "คิด",
+                "ko": "생각하다",
+                "es": "Pensar"
+              },
+              "toneClass": "2-0",
+              "gendered": {
+                "male": {
+                  "word": "觉得",
+                  "romanization": "jué de"
+                },
+                "female": {
+                  "word": "觉得",
+                  "romanization": "jué de"
+                }
+              }
+            },
+            {
+              "word": "相信",
+              "romanization": "xiāng xìn",
+              "meanings": {
+                "en": "believe",
+                "zh": "相信",
+                "th": "เชื่อ",
+                "ko": "믿다",
+                "es": "Creer"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "相信",
+                  "romanization": "xiāng xìn"
+                },
+                "female": {
+                  "word": "相信",
+                  "romanization": "xiāng xìn"
+                }
+              }
+            },
+            {
+              "word": "同意",
+              "romanization": "tóng yì",
+              "meanings": {
+                "en": "agree",
+                "zh": "同意",
+                "th": "เห็นด้วย",
+                "ko": "동의하다",
+                "es": "Estar de acuerdo"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "同意",
+                  "romanization": "tóng yì"
+                },
+                "female": {
+                  "word": "同意",
+                  "romanization": "tóng yì"
+                }
+              }
+            },
+            {
+              "word": "不同意",
+              "romanization": "bù tóng yì",
+              "meanings": {
+                "en": "disagree",
+                "zh": "不同意",
+                "th": "ไม่เห็นด้วย",
+                "ko": "동의하지 않다",
+                "es": "No estar de acuerdo"
+              },
+              "toneClass": "4-2-4",
+              "gendered": {
+                "male": {
+                  "word": "不同意",
+                  "romanization": "bù tóng yì"
+                },
+                "female": {
+                  "word": "不同意",
+                  "romanization": "bù tóng yì"
+                }
+              }
+            },
+            {
+              "word": "意见",
+              "romanization": "yì jiàn",
+              "meanings": {
+                "en": "opinion",
+                "zh": "意见",
+                "th": "ความคิดเห็น",
+                "ko": "의견",
+                "es": "Opinión"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "意见",
+                  "romanization": "yì jiàn"
+                },
+                "female": {
+                  "word": "意见",
+                  "romanization": "yì jiàn"
+                }
+              }
+            },
+            {
+              "word": "观点",
+              "romanization": "guān diǎn",
+              "meanings": {
+                "en": "point of view",
+                "zh": "观点",
+                "th": "มุมมอง",
+                "ko": "관점",
+                "es": "Punto de vista"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "观点",
+                  "romanization": "guān diǎn"
+                },
+                "female": {
+                  "word": "观点",
+                  "romanization": "guān diǎn"
+                }
+              }
+            },
+            {
+              "word": "真的",
+              "romanization": "zhēn de",
+              "meanings": {
+                "en": "really",
+                "zh": "真的",
+                "th": "จริงๆ",
+                "ko": "정말",
+                "es": "De verdad"
+              },
+              "toneClass": "1-0",
+              "gendered": {
+                "male": {
+                  "word": "真的",
+                  "romanization": "zhēn de"
+                },
+                "female": {
+                  "word": "真的",
+                  "romanization": "zhēn de"
+                }
+              }
+            },
+            {
+              "word": "挺",
+              "romanization": "tǐng",
+              "meanings": {
+                "en": "quite",
+                "zh": "挺",
+                "th": "ค่อนข้าง",
+                "ko": "꽤",
+                "es": "Bastante"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "挺",
+                  "romanization": "tǐng"
+                },
+                "female": {
+                  "word": "挺",
+                  "romanization": "tǐng"
+                }
+              }
+            },
+            {
+              "word": "肯定",
+              "romanization": "kěn dìng",
+              "meanings": {
+                "en": "definitely",
+                "zh": "肯定",
+                "th": "แน่นอน",
+                "ko": "분명히",
+                "es": "Definitivamente"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "肯定",
+                  "romanization": "kěn dìng"
+                },
+                "female": {
+                  "word": "肯定",
+                  "romanization": "kěn dìng"
+                }
+              }
+            },
+            {
+              "word": "可能",
+              "romanization": "kě néng",
+              "meanings": {
+                "en": "probably",
+                "zh": "可能",
+                "th": "อาจจะ",
+                "ko": "아마",
+                "es": "Probablemente"
+              },
+              "toneClass": "3-2",
+              "gendered": {
+                "male": {
+                  "word": "可能",
+                  "romanization": "kě néng"
+                },
+                "female": {
+                  "word": "可能",
+                  "romanization": "kě néng"
+                }
+              }
+            },
+            {
+              "word": "以为",
+              "romanization": "yǐ wéi",
+              "meanings": {
+                "en": "suppose",
+                "zh": "以为",
+                "th": "คิดว่า",
+                "ko": "생각하다",
+                "es": "Suponer"
+              },
+              "toneClass": "3-2",
+              "gendered": {
+                "male": {
+                  "word": "以为",
+                  "romanization": "yǐ wéi"
+                },
+                "female": {
+                  "word": "以为",
+                  "romanization": "yǐ wéi"
+                }
+              }
+            },
+            {
+              "word": "想知道",
+              "romanization": "xiǎng zhī dào",
+              "meanings": {
+                "en": "wonder",
+                "zh": "想知道",
+                "th": "สงสัย",
+                "ko": "궁금하다",
+                "es": "Preguntarse"
+              },
+              "toneClass": "3-1-4",
+              "gendered": {
+                "male": {
+                  "word": "想知道",
+                  "romanization": "xiǎng zhī dào"
+                },
+                "female": {
+                  "word": "想知道",
+                  "romanization": "xiǎng zhī dào"
+                }
+              }
+            },
+            {
+              "word": "好像",
+              "romanization": "hǎo xiàng",
+              "meanings": {
+                "en": "seems",
+                "zh": "好像",
+                "th": "ดูเหมือน",
+                "ko": "보이다",
+                "es": "Parece"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "好像",
+                  "romanization": "hǎo xiàng"
+                },
+                "female": {
+                  "word": "好像",
+                  "romanization": "hǎo xiàng"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "觉得",
+              "romanization": "jué de",
+              "options": {
+                "en": [
+                  "think",
+                  "believe",
+                  "agree",
+                  "disagree"
+                ],
+                "zh": [
+                  "觉得",
+                  "相信",
+                  "同意",
+                  "不同意"
+                ],
+                "th": [
+                  "คิด",
+                  "เชื่อ",
+                  "เห็นด้วย",
+                  "ไม่เห็นด้วย"
+                ],
+                "ko": [
+                  "생각하다",
+                  "믿다",
+                  "동의하다",
+                  "동의하지 않다"
+                ],
+                "es": [
+                  "Pensar",
+                  "Creer",
+                  "Estar de acuerdo",
+                  "No estar de acuerdo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "觉得",
+                "female": "觉得"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'disagree' in Chinese?",
+                "zh": "'不同意'用中文怎么说？",
+                "th": "คำว่า 'ไม่เห็นด้วย' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'동의하지 않다'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'No estar de acuerdo' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "不同意",
+                  "觉得",
+                  "相信",
+                  "同意"
+                ],
+                "male": [
+                  "不同意",
+                  "觉得",
+                  "相信",
+                  "同意"
+                ],
+                "female": [
+                  "不同意",
+                  "觉得",
+                  "相信",
+                  "同意"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "观点",
+              "romanization": "guān diǎn",
+              "options": {
+                "en": [
+                  "point of view",
+                  "think",
+                  "believe",
+                  "agree"
+                ],
+                "zh": [
+                  "观点",
+                  "想",
+                  "相信",
+                  "同意"
+                ],
+                "th": [
+                  "มุมมอง",
+                  "คิด",
+                  "เชื่อ",
+                  "เห็นด้วย"
+                ],
+                "ko": [
+                  "관점",
+                  "생각하다",
+                  "믿다",
+                  "동의하다"
+                ],
+                "es": [
+                  "Punto de vista",
+                  "Pensar",
+                  "Creer",
+                  "Estar de acuerdo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "观点",
+                  "romanization": "guān diǎn"
+                },
+                "female": {
+                  "audio_text": "观点",
+                  "romanization": "guān diǎn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "觉得",
+                  "romanization": "jué de",
+                  "native": {
+                    "en": "think",
+                    "zh": "觉得",
+                    "th": "คิด",
+                    "ko": "생각하다",
+                    "es": "Pensar"
+                  }
+                },
+                {
+                  "target": "不同意",
+                  "romanization": "bù tóng yì",
+                  "native": {
+                    "en": "disagree",
+                    "zh": "不同意",
+                    "th": "ไม่เห็นด้วย",
+                    "ko": "동의하지 않다",
+                    "es": "No estar de acuerdo"
+                  }
+                },
+                {
+                  "target": "真的",
+                  "romanization": "zhēn de",
+                  "native": {
+                    "en": "really",
+                    "zh": "真的",
+                    "th": "จริงๆ",
+                    "ko": "정말",
+                    "es": "De verdad"
+                  }
+                },
+                {
+                  "target": "可能",
+                  "romanization": "kě néng",
+                  "native": {
+                    "en": "probably",
+                    "zh": "可能",
+                    "th": "อาจจะ",
+                    "ko": "아마",
+                    "es": "Probablemente"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I think you are right",
+                "zh": "我觉得你说得对",
+                "th": "ฉันคิดว่าคุณพูดถูก",
+                "ko": "당신 말이 맞는 것 같아요",
+                "es": "Creo que tienes razón"
+              },
+              "words": [
+                "觉得",
+                "你",
+                "我",
+                "说得对"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "觉得",
+                  "你",
+                  "说得对"
+                ]
+              },
+              "romanization": "wǒ jué de nǐ shuō de duì",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "觉得",
+                  "你",
+                  "说得对"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Share your opinion about a topic in Chinese",
+            "zh": "用中文分享你对某个话题的看法",
+            "th": "แบ่งปันความคิดเห็นเกี่ยวกับหัวข้อเป็นภาษาจีน",
+            "ko": "중국어로 어떤 주제에 대한 의견 나누기",
+            "es": "Comparte tu opinión sobre un tema en chino"
+          }
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Conversation & Topics",
+            "zh": "对话与话题",
+            "th": "การสนทนาและหัวข้อ",
+            "ko": "대화와 화제",
+            "es": "Conversación y temas"
+          },
+          "objectives": {
+            "en": [
+              "Make small talk about various topics",
+              "Describe things as interesting, boring, or unusual"
+            ],
+            "zh": [
+              "就各种话题进行闲聊",
+              "用有趣、无聊或不寻常来描述事物"
+            ],
+            "th": [
+              "Make small talk about various topics",
+              "Describe things as interesting, boring, or unusual"
+            ],
+            "ko": [
+              "Make small talk about various topics",
+              "Describe things as interesting, boring, or unusual"
+            ],
+            "es": [
+              "Make small talk about various topics",
+              "Describe things as interesting, boring, or unusual"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "其实",
+              "romanization": "qí shí",
+              "meanings": {
+                "en": "actually",
+                "zh": "其实",
+                "th": "จริงๆ แล้ว",
+                "ko": "사실은",
+                "es": "En realidad"
+              },
+              "toneClass": "2-2",
+              "gendered": {
+                "male": {
+                  "word": "其实",
+                  "romanization": "qí shí"
+                },
+                "female": {
+                  "word": "其实",
+                  "romanization": "qí shí"
+                }
+              }
+            },
+            {
+              "word": "说实话",
+              "romanization": "shuō shí huà",
+              "meanings": {
+                "en": "honestly",
+                "zh": "说实话",
+                "th": "พูดตรงๆ",
+                "ko": "솔직히",
+                "es": "Honestamente"
+              },
+              "toneClass": "1-2-4",
+              "gendered": {
+                "male": {
+                  "word": "说实话",
+                  "romanization": "shuō shí huà"
+                },
+                "female": {
+                  "word": "说实话",
+                  "romanization": "shuō shí huà"
+                }
+              }
+            },
+            {
+              "word": "有意思",
+              "romanization": "yǒu yì si",
+              "meanings": {
+                "en": "interesting",
+                "zh": "有意思",
+                "th": "น่าสนใจ",
+                "ko": "흥미로운",
+                "es": "Interesante"
+              },
+              "toneClass": "3-4-0",
+              "gendered": {
+                "male": {
+                  "word": "有意思",
+                  "romanization": "yǒu yì si"
+                },
+                "female": {
+                  "word": "有意思",
+                  "romanization": "yǒu yì si"
+                }
+              }
+            },
+            {
+              "word": "无聊",
+              "romanization": "wú liáo",
+              "meanings": {
+                "en": "boring",
+                "zh": "无聊",
+                "th": "น่าเบื่อ",
+                "ko": "지루한",
+                "es": "Aburrido"
+              },
+              "toneClass": "2-2",
+              "gendered": {
+                "male": {
+                  "word": "无聊",
+                  "romanization": "wú liáo"
+                },
+                "female": {
+                  "word": "无聊",
+                  "romanization": "wú liáo"
+                }
+              }
+            },
+            {
+              "word": "了不起",
+              "romanization": "liǎo bù qǐ",
+              "meanings": {
+                "en": "amazing",
+                "zh": "了不起",
+                "th": "น่าทึ่ง",
+                "ko": "놀라운",
+                "es": "Increíble"
+              },
+              "toneClass": "3-4-3",
+              "gendered": {
+                "male": {
+                  "word": "了不起",
+                  "romanization": "liǎo bù qǐ"
+                },
+                "female": {
+                  "word": "了不起",
+                  "romanization": "liǎo bù qǐ"
+                }
+              }
+            },
+            {
+              "word": "糟糕",
+              "romanization": "zāo gāo",
+              "meanings": {
+                "en": "terrible",
+                "zh": "糟糕",
+                "th": "แย่มาก",
+                "ko": "끔찍한",
+                "es": "Terrible"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "糟糕",
+                  "romanization": "zāo gāo"
+                },
+                "female": {
+                  "word": "糟糕",
+                  "romanization": "zāo gāo"
+                }
+              }
+            },
+            {
+              "word": "不寻常",
+              "romanization": "bù xún cháng",
+              "meanings": {
+                "en": "unusual",
+                "zh": "不寻常",
+                "th": "ไม่ธรรมดา",
+                "ko": "특이한",
+                "es": "Inusual"
+              },
+              "toneClass": "4-2-2",
+              "gendered": {
+                "male": {
+                  "word": "不寻常",
+                  "romanization": "bù xún cháng"
+                },
+                "female": {
+                  "word": "不寻常",
+                  "romanization": "bù xún cháng"
+                }
+              }
+            },
+            {
+              "word": "话题",
+              "romanization": "huà tí",
+              "meanings": {
+                "en": "topic",
+                "zh": "话题",
+                "th": "หัวข้อ",
+                "ko": "주제",
+                "es": "Tema"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "话题",
+                  "romanization": "huà tí"
+                },
+                "female": {
+                  "word": "话题",
+                  "romanization": "huà tí"
+                }
+              }
+            },
+            {
+              "word": "对话",
+              "romanization": "duì huà",
+              "meanings": {
+                "en": "conversation",
+                "zh": "对话",
+                "th": "การสนทนา",
+                "ko": "대화",
+                "es": "Conversación"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "对话",
+                  "romanization": "duì huà"
+                },
+                "female": {
+                  "word": "对话",
+                  "romanization": "duì huà"
+                }
+              }
+            },
+            {
+              "word": "讨论",
+              "romanization": "tǎo lùn",
+              "meanings": {
+                "en": "discuss",
+                "zh": "讨论",
+                "th": "พูดคุย",
+                "ko": "토론하다",
+                "es": "Discutir"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "讨论",
+                  "romanization": "tǎo lùn"
+                },
+                "female": {
+                  "word": "讨论",
+                  "romanization": "tǎo lùn"
+                }
+              }
+            },
+            {
+              "word": "聊天",
+              "romanization": "liáo tiān",
+              "meanings": {
+                "en": "chat",
+                "zh": "聊天",
+                "th": "คุย",
+                "ko": "채팅하다",
+                "es": "Chatear"
+              },
+              "toneClass": "2-1",
+              "gendered": {
+                "male": {
+                  "word": "聊天",
+                  "romanization": "liáo tiān"
+                },
+                "female": {
+                  "word": "聊天",
+                  "romanization": "liáo tiān"
+                }
+              }
+            },
+            {
+              "word": "八卦",
+              "romanization": "bā guà",
+              "meanings": {
+                "en": "gossip",
+                "zh": "八卦",
+                "th": "นินทา",
+                "ko": "가십",
+                "es": "Chisme"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "八卦",
+                  "romanization": "bā guà"
+                },
+                "female": {
+                  "word": "八卦",
+                  "romanization": "bā guà"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "其实",
+              "romanization": "qí shí",
+              "options": {
+                "en": [
+                  "actually",
+                  "honestly",
+                  "interesting",
+                  "boring"
+                ],
+                "zh": [
+                  "其实",
+                  "说实话",
+                  "有意思",
+                  "无聊"
+                ],
+                "th": [
+                  "จริงๆ แล้ว",
+                  "พูดตรงๆ",
+                  "น่าสนใจ",
+                  "น่าเบื่อ"
+                ],
+                "ko": [
+                  "사실은",
+                  "솔직히",
+                  "흥미로운",
+                  "지루한"
+                ],
+                "es": [
+                  "En realidad",
+                  "Honestamente",
+                  "Interesante",
+                  "Aburrido"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "其实",
+                "female": "其实"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'boring' in Chinese?",
+                "zh": "'无聊'用中文怎么说？",
+                "th": "คำว่า 'น่าเบื่อ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'지루한'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Aburrido' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "无聊",
+                  "其实",
+                  "说实话",
+                  "有意思"
+                ],
+                "male": [
+                  "无聊",
+                  "其实",
+                  "说实话",
+                  "有意思"
+                ],
+                "female": [
+                  "无聊",
+                  "其实",
+                  "说实话",
+                  "有意思"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "糟糕",
+              "romanization": "zāo gāo",
+              "options": {
+                "en": [
+                  "terrible",
+                  "actually",
+                  "honestly",
+                  "interesting"
+                ],
+                "zh": [
+                  "糟糕的",
+                  "其实",
+                  "老实说",
+                  "有趣的"
+                ],
+                "th": [
+                  "แย่มาก",
+                  "จริงๆ แล้ว",
+                  "พูดตรงๆ",
+                  "น่าสนใจ"
+                ],
+                "ko": [
+                  "끔찍한",
+                  "사실은",
+                  "솔직히",
+                  "흥미로운"
+                ],
+                "es": [
+                  "Terrible",
+                  "En realidad",
+                  "Honestamente",
+                  "Interesante"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "糟糕",
+                  "romanization": "zāo gāo"
+                },
+                "female": {
+                  "audio_text": "糟糕",
+                  "romanization": "zāo gāo"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "其实",
+                  "romanization": "qí shí",
+                  "native": {
+                    "en": "actually",
+                    "zh": "其实",
+                    "th": "จริงๆ แล้ว",
+                    "ko": "사실은",
+                    "es": "En realidad"
+                  }
+                },
+                {
+                  "target": "无聊",
+                  "romanization": "wú liáo",
+                  "native": {
+                    "en": "boring",
+                    "zh": "无聊",
+                    "th": "น่าเบื่อ",
+                    "ko": "지루한",
+                    "es": "Aburrido"
+                  }
+                },
+                {
+                  "target": "不寻常",
+                  "romanization": "bù xún cháng",
+                  "native": {
+                    "en": "unusual",
+                    "zh": "不寻常",
+                    "th": "ไม่ธรรมดา",
+                    "ko": "특이한",
+                    "es": "Inusual"
+                  }
+                },
+                {
+                  "target": "讨论",
+                  "romanization": "tǎo lùn",
+                  "native": {
+                    "en": "discuss",
+                    "zh": "讨论",
+                    "th": "พูดคุย",
+                    "ko": "토론하다",
+                    "es": "Discutir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "This topic is very interesting",
+                "zh": "这个话题很有意思",
+                "th": "หัวข้อนี้น่าสนใจมาก",
+                "ko": "이 주제는 매우 흥미로워요",
+                "es": "Este tema es muy interesante"
+              },
+              "words": [
+                "话题",
+                "有意思",
+                "这个",
+                "很"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "这个",
+                  "话题",
+                  "很",
+                  "有意思"
+                ]
+              },
+              "romanization": "zhè ge huà tí hěn yǒu yì si",
+              "tiles": {
+                "neutral": [
+                  "这个",
+                  "话题",
+                  "很",
+                  "有意思"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Have small talk about an interesting topic in Chinese",
+            "zh": "用中文闲聊有趣的话题",
+            "th": "คุยเรื่องสัพเพเหระเกี่ยวกับหัวข้อที่น่าสนใจเป็นภาษาจีน",
+            "ko": "중국어로 흥미로운 주제에 대해 가벼운 대화하기",
+            "es": "Haz una charla informal sobre un tema interesante en chino"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Celebrations & Events",
+        "zh": "庆祝活动与节日",
+        "th": "การเฉลิมฉลองและกิจกรรม",
+        "ko": "축하 행사와 이벤트",
+        "es": "Celebraciones y eventos"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Parties & Gifts",
+            "zh": "派对与礼物",
+            "th": "งานปาร์ตี้และของขวัญ",
+            "ko": "파티와 선물",
+            "es": "Fiestas y regalos"
+          },
+          "objectives": {
+            "en": [
+              "Talk about birthdays and celebrations",
+              "Discuss gifts and party preparations"
+            ],
+            "zh": [
+              "谈论生日和庆祝活动",
+              "讨论礼物和派对准备"
+            ],
+            "th": [
+              "Talk about birthdays and celebrations",
+              "Discuss gifts and party preparations"
+            ],
+            "ko": [
+              "Talk about birthdays and celebrations",
+              "Discuss gifts and party preparations"
+            ],
+            "es": [
+              "Talk about birthdays and celebrations",
+              "Discuss gifts and party preparations"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "生日",
+              "romanization": "shēng rì",
+              "meanings": {
+                "en": "birthday",
+                "zh": "生日",
+                "th": "วันเกิด",
+                "ko": "생일",
+                "es": "Cumpleaños"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "生日",
+                  "romanization": "shēng rì"
+                },
+                "female": {
+                  "word": "生日",
+                  "romanization": "shēng rì"
+                }
+              }
+            },
+            {
+              "word": "派对",
+              "romanization": "pài duì",
+              "meanings": {
+                "en": "party",
+                "zh": "派对",
+                "th": "ปาร์ตี้",
+                "ko": "파티",
+                "es": "Fiesta"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "派对",
+                  "romanization": "pài duì"
+                },
+                "female": {
+                  "word": "派对",
+                  "romanization": "pài duì"
+                }
+              }
+            },
+            {
+              "word": "婚礼",
+              "romanization": "hūn lǐ",
+              "meanings": {
+                "en": "wedding",
+                "zh": "婚礼",
+                "th": "งานแต่งงาน",
+                "ko": "결혼식",
+                "es": "Boda"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "婚礼",
+                  "romanization": "hūn lǐ"
+                },
+                "female": {
+                  "word": "婚礼",
+                  "romanization": "hūn lǐ"
+                }
+              }
+            },
+            {
+              "word": "周年纪念",
+              "romanization": "zhōu nián jì niàn",
+              "meanings": {
+                "en": "anniversary",
+                "zh": "周年纪念",
+                "th": "วันครบรอบ",
+                "ko": "기념일",
+                "es": "Aniversario"
+              },
+              "toneClass": "1-2-4-4",
+              "gendered": {
+                "male": {
+                  "word": "周年纪念",
+                  "romanization": "zhōu nián jì niàn"
+                },
+                "female": {
+                  "word": "周年纪念",
+                  "romanization": "zhōu nián jì niàn"
+                }
+              }
+            },
+            {
+              "word": "毕业典礼",
+              "romanization": "bì yè diǎn lǐ",
+              "meanings": {
+                "en": "graduation",
+                "zh": "毕业典礼",
+                "th": "พิธีจบการศึกษา",
+                "ko": "졸업식",
+                "es": "Graduación"
+              },
+              "toneClass": "4-4-3-3",
+              "gendered": {
+                "male": {
+                  "word": "毕业典礼",
+                  "romanization": "bì yè diǎn lǐ"
+                },
+                "female": {
+                  "word": "毕业典礼",
+                  "romanization": "bì yè diǎn lǐ"
+                }
+              }
+            },
+            {
+              "word": "礼物",
+              "romanization": "lǐ wù",
+              "meanings": {
+                "en": "gift",
+                "zh": "礼物",
+                "th": "ของขวัญ",
+                "ko": "선물",
+                "es": "Regalo"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "礼物",
+                  "romanization": "lǐ wù"
+                },
+                "female": {
+                  "word": "礼物",
+                  "romanization": "lǐ wù"
+                }
+              }
+            },
+            {
+              "word": "礼品",
+              "romanization": "lǐ pǐn",
+              "meanings": {
+                "en": "present",
+                "zh": "礼品",
+                "th": "นำเสนอ",
+                "ko": "발표하다",
+                "es": "Presentar"
+              },
+              "toneClass": "3-3",
+              "gendered": {
+                "male": {
+                  "word": "礼品",
+                  "romanization": "lǐ pǐn"
+                },
+                "female": {
+                  "word": "礼品",
+                  "romanization": "lǐ pǐn"
+                }
+              }
+            },
+            {
+              "word": "庆祝",
+              "romanization": "qìng zhù",
+              "meanings": {
+                "en": "celebrate",
+                "zh": "庆祝",
+                "th": "ฉลอง",
+                "ko": "축하하다",
+                "es": "Celebrar"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "庆祝",
+                  "romanization": "qìng zhù"
+                },
+                "female": {
+                  "word": "庆祝",
+                  "romanization": "qìng zhù"
+                }
+              }
+            },
+            {
+              "word": "恭喜",
+              "romanization": "gōng xǐ",
+              "meanings": {
+                "en": "congratulations",
+                "zh": "恭喜",
+                "th": "ยินดีด้วย",
+                "ko": "축하합니다",
+                "es": "Felicidades"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "恭喜",
+                  "romanization": "gōng xǐ"
+                },
+                "female": {
+                  "word": "恭喜",
+                  "romanization": "gōng xǐ"
+                }
+              }
+            },
+            {
+              "word": "敬酒",
+              "romanization": "jìng jiǔ",
+              "meanings": {
+                "en": "toast",
+                "zh": "敬酒",
+                "th": "ยกแก้ว",
+                "ko": "건배",
+                "es": "Brindis"
+              },
+              "toneClass": "4-3",
+              "gendered": {
+                "male": {
+                  "word": "敬酒",
+                  "romanization": "jìng jiǔ"
+                },
+                "female": {
+                  "word": "敬酒",
+                  "romanization": "jìng jiǔ"
+                }
+              }
+            },
+            {
+              "word": "蛋糕",
+              "romanization": "dàn gāo",
+              "meanings": {
+                "en": "cake",
+                "zh": "蛋糕",
+                "th": "เค้ก",
+                "ko": "케이크",
+                "es": "Pastel"
+              },
+              "toneClass": "4-1",
+              "gendered": {
+                "male": {
+                  "word": "蛋糕",
+                  "romanization": "dàn gāo"
+                },
+                "female": {
+                  "word": "蛋糕",
+                  "romanization": "dàn gāo"
+                }
+              }
+            },
+            {
+              "word": "蜡烛",
+              "romanization": "là zhú",
+              "meanings": {
+                "en": "candle",
+                "zh": "蜡烛",
+                "th": "เทียน",
+                "ko": "양초",
+                "es": "Vela"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "蜡烛",
+                  "romanization": "là zhú"
+                },
+                "female": {
+                  "word": "蜡烛",
+                  "romanization": "là zhú"
+                }
+              }
+            },
+            {
+              "word": "气球",
+              "romanization": "qì qiú",
+              "meanings": {
+                "en": "balloon",
+                "zh": "气球",
+                "th": "ลูกโป่ง",
+                "ko": "풍선",
+                "es": "Globo"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "气球",
+                  "romanization": "qì qiú"
+                },
+                "female": {
+                  "word": "气球",
+                  "romanization": "qì qiú"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "生日",
+              "romanization": "shēng rì",
+              "options": {
+                "en": [
+                  "birthday",
+                  "party",
+                  "wedding",
+                  "anniversary"
+                ],
+                "zh": [
+                  "生日",
+                  "派对",
+                  "婚礼",
+                  "周年纪念"
+                ],
+                "th": [
+                  "วันเกิด",
+                  "ปาร์ตี้",
+                  "งานแต่งงาน",
+                  "วันครบรอบ"
+                ],
+                "ko": [
+                  "생일",
+                  "파티",
+                  "결혼식",
+                  "기념일"
+                ],
+                "es": [
+                  "Cumpleaños",
+                  "Fiesta",
+                  "Boda",
+                  "Aniversario"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "生日",
+                "female": "生日"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'anniversary' in Chinese?",
+                "zh": "'周年纪念'用中文怎么说？",
+                "th": "คำว่า 'วันครบรอบ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'기념일'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Aniversario' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "周年纪念",
+                  "生日",
+                  "派对",
+                  "婚礼"
+                ],
+                "male": [
+                  "周年纪念",
+                  "生日",
+                  "派对",
+                  "婚礼"
+                ],
+                "female": [
+                  "周年纪念",
+                  "生日",
+                  "派对",
+                  "婚礼"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "礼物",
+              "romanization": "lǐ wù",
+              "options": {
+                "en": [
+                  "gift",
+                  "birthday",
+                  "party",
+                  "wedding"
+                ],
+                "zh": [
+                  "礼物",
+                  "生日",
+                  "派对",
+                  "婚礼"
+                ],
+                "th": [
+                  "ของขวัญ",
+                  "วันเกิด",
+                  "ปาร์ตี้",
+                  "งานแต่งงาน"
+                ],
+                "ko": [
+                  "선물",
+                  "생일",
+                  "파티",
+                  "결혼식"
+                ],
+                "es": [
+                  "Regalo",
+                  "Cumpleaños",
+                  "Fiesta",
+                  "Boda"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "礼物",
+                  "romanization": "lǐ wù"
+                },
+                "female": {
+                  "audio_text": "礼物",
+                  "romanization": "lǐ wù"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "生日",
+                  "romanization": "shēng rì",
+                  "native": {
+                    "en": "birthday",
+                    "zh": "生日",
+                    "th": "วันเกิด",
+                    "ko": "생일",
+                    "es": "Cumpleaños"
+                  }
+                },
+                {
+                  "target": "周年纪念",
+                  "romanization": "zhōu nián jì niàn",
+                  "native": {
+                    "en": "anniversary",
+                    "zh": "周年纪念",
+                    "th": "วันครบรอบ",
+                    "ko": "기념일",
+                    "es": "Aniversario"
+                  }
+                },
+                {
+                  "target": "礼品",
+                  "romanization": "lǐ pǐn",
+                  "native": {
+                    "en": "present",
+                    "zh": "礼品",
+                    "th": "นำเสนอ",
+                    "ko": "발표하다",
+                    "es": "Presentar"
+                  }
+                },
+                {
+                  "target": "敬酒",
+                  "romanization": "jìng jiǔ",
+                  "native": {
+                    "en": "toast",
+                    "zh": "敬酒",
+                    "th": "ยกแก้ว",
+                    "ko": "건배",
+                    "es": "Brindis"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Happy birthday to you",
+                "zh": "祝你生日快乐",
+                "th": "สุขสันต์วันเกิด",
+                "ko": "생일 축하해요",
+                "es": "Feliz cumpleaños"
+              },
+              "words": [
+                "生日",
+                "快乐",
+                "祝",
+                "你"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "祝",
+                  "你",
+                  "生日",
+                  "快乐"
+                ]
+              },
+              "romanization": "zhù nǐ shēng rì kuài lè",
+              "tiles": {
+                "neutral": [
+                  "祝",
+                  "你",
+                  "生日",
+                  "快乐"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Plan a birthday party in Chinese",
+            "zh": "用中文计划一个生日派对",
+            "th": "วางแผนงานวันเกิดเป็นภาษาจีน",
+            "ko": "중국어로 생일 파티 계획하기",
+            "es": "Planifica una fiesta de cumpleaños en chino"
+          }
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Ceremonies & Hosting",
+            "zh": "仪式与待客",
+            "th": "พิธีการและการเป็นเจ้าภาพ",
+            "ko": "행사와 접대",
+            "es": "Ceremonias y anfitrión"
+          },
+          "objectives": {
+            "en": [
+              "Describe formal events and ceremonies",
+              "Talk about hosting and attending events"
+            ],
+            "zh": [
+              "描述正式活动和仪式",
+              "谈论举办和参加活动"
+            ],
+            "th": [
+              "Describe formal events and ceremonies",
+              "Talk about hosting and attending events"
+            ],
+            "ko": [
+              "Describe formal events and ceremonies",
+              "Talk about hosting and attending events"
+            ],
+            "es": [
+              "Describe formal events and ceremonies",
+              "Talk about hosting and attending events"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "惊喜",
+              "romanization": "jīng xǐ",
+              "meanings": {
+                "en": "surprise",
+                "zh": "惊喜",
+                "th": "เซอร์ไพรส์",
+                "ko": "놀라움",
+                "es": "Sorpresa"
+              },
+              "toneClass": "1-3",
+              "gendered": {
+                "male": {
+                  "word": "惊喜",
+                  "romanization": "jīng xǐ"
+                },
+                "female": {
+                  "word": "惊喜",
+                  "romanization": "jīng xǐ"
+                }
+              }
+            },
+            {
+              "word": "请柬",
+              "romanization": "qǐng jiǎn",
+              "meanings": {
+                "en": "invitation",
+                "zh": "请柬",
+                "th": "คำเชิญ",
+                "ko": "초대장",
+                "es": "Invitación"
+              },
+              "toneClass": "3-3",
+              "gendered": {
+                "male": {
+                  "word": "请柬",
+                  "romanization": "qǐng jiǎn"
+                },
+                "female": {
+                  "word": "请柬",
+                  "romanization": "qǐng jiǎn"
+                }
+              }
+            },
+            {
+              "word": "打扮",
+              "romanization": "dǎ bàn",
+              "meanings": {
+                "en": "dress up",
+                "zh": "打扮",
+                "th": "แต่งตัว",
+                "ko": "차려입다",
+                "es": "Vestirse elegante"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "打扮",
+                  "romanization": "dǎ bàn"
+                },
+                "female": {
+                  "word": "打扮",
+                  "romanization": "dǎ bàn"
+                }
+              }
+            },
+            {
+              "word": "正式",
+              "romanization": "zhèng shì",
+              "meanings": {
+                "en": "formal",
+                "zh": "正式",
+                "th": "เป็นทางการ",
+                "ko": "공식적인",
+                "es": "Formal"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "正式",
+                  "romanization": "zhèng shì"
+                },
+                "female": {
+                  "word": "正式",
+                  "romanization": "zhèng shì"
+                }
+              }
+            },
+            {
+              "word": "随意",
+              "romanization": "suí yì",
+              "meanings": {
+                "en": "casual",
+                "zh": "随意",
+                "th": "ลำลอง",
+                "ko": "캐주얼한",
+                "es": "Casual"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "随意",
+                  "romanization": "suí yì"
+                },
+                "female": {
+                  "word": "随意",
+                  "romanization": "suí yì"
+                }
+              }
+            },
+            {
+              "word": "客人",
+              "romanization": "kè rén",
+              "meanings": {
+                "en": "guest",
+                "zh": "客人",
+                "th": "แขก",
+                "ko": "손님",
+                "es": "Huésped"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "客人",
+                  "romanization": "kè rén"
+                },
+                "female": {
+                  "word": "客人",
+                  "romanization": "kè rén"
+                }
+              }
+            },
+            {
+              "word": "主人",
+              "romanization": "zhǔ rén",
+              "meanings": {
+                "en": "host",
+                "zh": "主人",
+                "th": "เจ้าของบ้าน",
+                "ko": "주인",
+                "es": "Anfitrión"
+              },
+              "toneClass": "3-2",
+              "gendered": {
+                "male": {
+                  "word": "主人",
+                  "romanization": "zhǔ rén"
+                },
+                "female": {
+                  "word": "主人",
+                  "romanization": "zhǔ rén"
+                }
+              }
+            },
+            {
+              "word": "仪式",
+              "romanization": "yí shì",
+              "meanings": {
+                "en": "ceremony",
+                "zh": "仪式",
+                "th": "พิธี",
+                "ko": "의식",
+                "es": "Ceremonia"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "仪式",
+                  "romanization": "yí shì"
+                },
+                "female": {
+                  "word": "仪式",
+                  "romanization": "yí shì"
+                }
+              }
+            },
+            {
+              "word": "招待会",
+              "romanization": "zhāo dài huì",
+              "meanings": {
+                "en": "reception",
+                "zh": "招待会",
+                "th": "แผนกต้อนรับ",
+                "ko": "프런트",
+                "es": "Recepción"
+              },
+              "toneClass": "1-4-4",
+              "gendered": {
+                "male": {
+                  "word": "招待会",
+                  "romanization": "zhāo dài huì"
+                },
+                "female": {
+                  "word": "招待会",
+                  "romanization": "zhāo dài huì"
+                }
+              }
+            },
+            {
+              "word": "演讲",
+              "romanization": "yǎn jiǎng",
+              "meanings": {
+                "en": "speech",
+                "zh": "演讲",
+                "th": "สุนทรพจน์",
+                "ko": "연설",
+                "es": "Discurso"
+              },
+              "toneClass": "3-3",
+              "gendered": {
+                "male": {
+                  "word": "演讲",
+                  "romanization": "yǎn jiǎng"
+                },
+                "female": {
+                  "word": "演讲",
+                  "romanization": "yǎn jiǎng"
+                }
+              }
+            },
+            {
+              "word": "举杯",
+              "romanization": "jǔ bēi",
+              "meanings": {
+                "en": "raise a glass",
+                "zh": "举杯",
+                "th": "ยกแก้ว",
+                "ko": "건배하다",
+                "es": "Brindar"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "举杯",
+                  "romanization": "jǔ bēi"
+                },
+                "female": {
+                  "word": "举杯",
+                  "romanization": "jǔ bēi"
+                }
+              }
+            },
+            {
+              "word": "祝愿",
+              "romanization": "zhù yuàn",
+              "meanings": {
+                "en": "wish",
+                "zh": "祝愿",
+                "th": "อวยพร",
+                "ko": "소원",
+                "es": "Deseo"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "祝愿",
+                  "romanization": "zhù yuàn"
+                },
+                "female": {
+                  "word": "祝愿",
+                  "romanization": "zhù yuàn"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "惊喜",
+              "romanization": "jīng xǐ",
+              "options": {
+                "en": [
+                  "surprise",
+                  "invitation",
+                  "dress up",
+                  "formal"
+                ],
+                "zh": [
+                  "惊喜",
+                  "请柬",
+                  "打扮",
+                  "正式"
+                ],
+                "th": [
+                  "เซอร์ไพรส์",
+                  "คำเชิญ",
+                  "แต่งตัว",
+                  "เป็นทางการ"
+                ],
+                "ko": [
+                  "놀라움",
+                  "초대장",
+                  "차려입다",
+                  "공식적인"
+                ],
+                "es": [
+                  "Sorpresa",
+                  "Invitación",
+                  "Vestirse elegante",
+                  "Formal"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "惊喜",
+                "female": "惊喜"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'formal' in Chinese?",
+                "zh": "'正式'用中文怎么说？",
+                "th": "คำว่า 'เป็นทางการ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'공식적인'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Formal' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "正式",
+                  "惊喜",
+                  "请柬",
+                  "打扮"
+                ],
+                "male": [
+                  "正式",
+                  "惊喜",
+                  "请柬",
+                  "打扮"
+                ],
+                "female": [
+                  "正式",
+                  "惊喜",
+                  "请柬",
+                  "打扮"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "客人",
+              "romanization": "kè rén",
+              "options": {
+                "en": [
+                  "guest",
+                  "surprise",
+                  "invitation",
+                  "dress up"
+                ],
+                "zh": [
+                  "客人",
+                  "惊喜",
+                  "邀请函",
+                  "打扮"
+                ],
+                "th": [
+                  "แขก",
+                  "เซอร์ไพรส์",
+                  "คำเชิญ",
+                  "แต่งตัว"
+                ],
+                "ko": [
+                  "손님",
+                  "놀라움",
+                  "초대장",
+                  "차려입다"
+                ],
+                "es": [
+                  "Huésped",
+                  "Sorpresa",
+                  "Invitación",
+                  "Vestirse elegante"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "客人",
+                  "romanization": "kè rén"
+                },
+                "female": {
+                  "audio_text": "客人",
+                  "romanization": "kè rén"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "惊喜",
+                  "romanization": "jīng xǐ",
+                  "native": {
+                    "en": "surprise",
+                    "zh": "惊喜",
+                    "th": "เซอร์ไพรส์",
+                    "ko": "놀라움",
+                    "es": "Sorpresa"
+                  }
+                },
+                {
+                  "target": "正式",
+                  "romanization": "zhèng shì",
+                  "native": {
+                    "en": "formal",
+                    "zh": "正式",
+                    "th": "เป็นทางการ",
+                    "ko": "공식적인",
+                    "es": "Formal"
+                  }
+                },
+                {
+                  "target": "主人",
+                  "romanization": "zhǔ rén",
+                  "native": {
+                    "en": "host",
+                    "zh": "主人",
+                    "th": "เจ้าของบ้าน",
+                    "ko": "주인",
+                    "es": "Anfitrión"
+                  }
+                },
+                {
+                  "target": "演讲",
+                  "romanization": "yǎn jiǎng",
+                  "native": {
+                    "en": "speech",
+                    "zh": "演讲",
+                    "th": "สุนทรพจน์",
+                    "ko": "연설",
+                    "es": "Discurso"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Let us raise a glass together",
+                "zh": "让我们一起举杯",
+                "th": "มายกแก้วด้วยกัน",
+                "ko": "함께 건배해요",
+                "es": "Levantemos nuestras copas juntos"
+              },
+              "words": [
+                "举杯",
+                "一起",
+                "让",
+                "我们"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "让",
+                  "我们",
+                  "一起",
+                  "举杯"
+                ]
+              },
+              "romanization": "ràng wǒ men yī qǐ jǔ bēi",
+              "tiles": {
+                "neutral": [
+                  "让",
+                  "我们",
+                  "一起",
+                  "举杯"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Describe a ceremony or event you attended in Chinese",
+            "zh": "用中文描述你参加过的仪式或活动",
+            "th": "อธิบายพิธีหรือกิจกรรมที่คุณเข้าร่วมเป็นภาษาจีน",
+            "ko": "중국어로 참석한 행사나 의식 설명하기",
+            "es": "Describe una ceremonia o evento al que asististe en chino"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Feelings & Experiences",
+        "zh": "感受与经历",
+        "th": "ความรู้สึกและประสบการณ์",
+        "ko": "감정과 경험",
+        "es": "Sentimientos y experiencias"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Emotions & Reactions",
+            "zh": "情绪与反应",
+            "th": "อารมณ์และปฏิกิริยา",
+            "ko": "감정과 반응",
+            "es": "Emociones y reacciones"
+          },
+          "objectives": {
+            "en": [
+              "Express a range of emotions",
+              "Describe how you feel in various situations"
+            ],
+            "zh": [
+              "表达各种情绪",
+              "描述不同情况下的感受"
+            ],
+            "th": [
+              "Express a range of emotions",
+              "Describe how you feel in various situations"
+            ],
+            "ko": [
+              "Express a range of emotions",
+              "Describe how you feel in various situations"
+            ],
+            "es": [
+              "Express a range of emotions",
+              "Describe how you feel in various situations"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "兴奋",
+              "romanization": "xīng fèn",
+              "meanings": {
+                "en": "excited",
+                "zh": "兴奋",
+                "th": "ตื่นเต้น",
+                "ko": "신나는",
+                "es": "Emocionado"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "兴奋",
+                  "romanization": "xīng fèn"
+                },
+                "female": {
+                  "word": "兴奋",
+                  "romanization": "xīng fèn"
+                }
+              }
+            },
+            {
+              "word": "紧张",
+              "romanization": "jǐn zhāng",
+              "meanings": {
+                "en": "nervous",
+                "zh": "紧张",
+                "th": "ประหม่า",
+                "ko": "긴장한",
+                "es": "Nervioso"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "紧张",
+                  "romanization": "jǐn zhāng"
+                },
+                "female": {
+                  "word": "紧张",
+                  "romanization": "jǐn zhāng"
+                }
+              }
+            },
+            {
+              "word": "骄傲",
+              "romanization": "jiāo ào",
+              "meanings": {
+                "en": "proud",
+                "zh": "骄傲",
+                "th": "ภูมิใจ",
+                "ko": "자랑스러운",
+                "es": "Orgulloso"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "骄傲",
+                  "romanization": "jiāo ào"
+                },
+                "female": {
+                  "word": "骄傲",
+                  "romanization": "jiāo ào"
+                }
+              }
+            },
+            {
+              "word": "尴尬",
+              "romanization": "gān gà",
+              "meanings": {
+                "en": "embarrassed",
+                "zh": "尴尬",
+                "th": "อาย",
+                "ko": "당황한",
+                "es": "Avergonzado"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "尴尬",
+                  "romanization": "gān gà"
+                },
+                "female": {
+                  "word": "尴尬",
+                  "romanization": "gān gà"
+                }
+              }
+            },
+            {
+              "word": "惊讶",
+              "romanization": "jīng yà",
+              "meanings": {
+                "en": "surprised",
+                "zh": "惊讶",
+                "th": "ประหลาดใจ",
+                "ko": "놀란",
+                "es": "Sorprendido"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "惊讶",
+                  "romanization": "jīng yà"
+                },
+                "female": {
+                  "word": "惊讶",
+                  "romanization": "jīng yà"
+                }
+              }
+            },
+            {
+              "word": "失望",
+              "romanization": "shī wàng",
+              "meanings": {
+                "en": "disappointed",
+                "zh": "失望",
+                "th": "ผิดหวัง",
+                "ko": "실망한",
+                "es": "Decepcionado"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "失望",
+                  "romanization": "shī wàng"
+                },
+                "female": {
+                  "word": "失望",
+                  "romanization": "shī wàng"
+                }
+              }
+            },
+            {
+              "word": "放心",
+              "romanization": "fàng xīn",
+              "meanings": {
+                "en": "relieved",
+                "zh": "放心",
+                "th": "โล่งใจ",
+                "ko": "안도한",
+                "es": "Aliviado"
+              },
+              "toneClass": "4-1",
+              "gendered": {
+                "male": {
+                  "word": "放心",
+                  "romanization": "fàng xīn"
+                },
+                "female": {
+                  "word": "放心",
+                  "romanization": "fàng xīn"
+                }
+              }
+            },
+            {
+              "word": "无聊",
+              "romanization": "wú liáo",
+              "meanings": {
+                "en": "bored",
+                "zh": "无聊",
+                "th": "เบื่อ",
+                "ko": "지루한",
+                "es": "Aburrido"
+              },
+              "toneClass": "2-2",
+              "gendered": {
+                "male": {
+                  "word": "无聊",
+                  "romanization": "wú liáo"
+                },
+                "female": {
+                  "word": "无聊",
+                  "romanization": "wú liáo"
+                }
+              }
+            },
+            {
+              "word": "困惑",
+              "romanization": "kùn huò",
+              "meanings": {
+                "en": "confused",
+                "zh": "困惑",
+                "th": "สับสน",
+                "ko": "혼란스러운",
+                "es": "Confundido"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "困惑",
+                  "romanization": "kùn huò"
+                },
+                "female": {
+                  "word": "困惑",
+                  "romanization": "kùn huò"
+                }
+              }
+            },
+            {
+              "word": "担心",
+              "romanization": "dān xīn",
+              "meanings": {
+                "en": "worried",
+                "zh": "担心",
+                "th": "เป็นห่วง",
+                "ko": "걱정하는",
+                "es": "Preocupado"
+              },
+              "toneClass": "1-1",
+              "gendered": {
+                "male": {
+                  "word": "担心",
+                  "romanization": "dān xīn"
+                },
+                "female": {
+                  "word": "担心",
+                  "romanization": "dān xīn"
+                }
+              }
+            },
+            {
+              "word": "感激",
+              "romanization": "gǎn jī",
+              "meanings": {
+                "en": "grateful",
+                "zh": "感激",
+                "th": "ขอบคุณ",
+                "ko": "감사하는",
+                "es": "Agradecido"
+              },
+              "toneClass": "3-1",
+              "gendered": {
+                "male": {
+                  "word": "感激",
+                  "romanization": "gǎn jī"
+                },
+                "female": {
+                  "word": "感激",
+                  "romanization": "gǎn jī"
+                }
+              }
+            },
+            {
+              "word": "嫉妒",
+              "romanization": "jí dù",
+              "meanings": {
+                "en": "jealous",
+                "zh": "嫉妒",
+                "th": "อิจฉา",
+                "ko": "질투하는",
+                "es": "Celoso"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "嫉妒",
+                  "romanization": "jí dù"
+                },
+                "female": {
+                  "word": "嫉妒",
+                  "romanization": "jí dù"
+                }
+              }
+            },
+            {
+              "word": "孤独",
+              "romanization": "gū dú",
+              "meanings": {
+                "en": "lonely",
+                "zh": "孤独",
+                "th": "เหงา",
+                "ko": "외로운",
+                "es": "Solitario"
+              },
+              "toneClass": "1-2",
+              "gendered": {
+                "male": {
+                  "word": "孤独",
+                  "romanization": "gū dú"
+                },
+                "female": {
+                  "word": "孤独",
+                  "romanization": "gū dú"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "兴奋",
+              "romanization": "xīng fèn",
+              "options": {
+                "en": [
+                  "excited",
+                  "nervous",
+                  "proud",
+                  "embarrassed"
+                ],
+                "zh": [
+                  "兴奋",
+                  "紧张",
+                  "骄傲",
+                  "尴尬"
+                ],
+                "th": [
+                  "ตื่นเต้น",
+                  "ประหม่า",
+                  "ภูมิใจ",
+                  "อาย"
+                ],
+                "ko": [
+                  "신나는",
+                  "긴장한",
+                  "자랑스러운",
+                  "당황한"
+                ],
+                "es": [
+                  "Emocionado",
+                  "Nervioso",
+                  "Orgulloso",
+                  "Avergonzado"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "兴奋",
+                "female": "兴奋"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'embarrassed' in Chinese?",
+                "zh": "'尴尬'用中文怎么说？",
+                "th": "คำว่า 'อาย' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'당황한'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Avergonzado' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "尴尬",
+                  "兴奋",
+                  "紧张",
+                  "骄傲"
+                ],
+                "male": [
+                  "尴尬",
+                  "兴奋",
+                  "紧张",
+                  "骄傲"
+                ],
+                "female": [
+                  "尴尬",
+                  "兴奋",
+                  "紧张",
+                  "骄傲"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "失望",
+              "romanization": "shī wàng",
+              "options": {
+                "en": [
+                  "disappointed",
+                  "excited",
+                  "nervous",
+                  "proud"
+                ],
+                "zh": [
+                  "失望的",
+                  "兴奋的",
+                  "紧张的",
+                  "自豪的"
+                ],
+                "th": [
+                  "ผิดหวัง",
+                  "ตื่นเต้น",
+                  "ประหม่า",
+                  "ภูมิใจ"
+                ],
+                "ko": [
+                  "실망한",
+                  "신나는",
+                  "긴장한",
+                  "자랑스러운"
+                ],
+                "es": [
+                  "Decepcionado",
+                  "Emocionado",
+                  "Nervioso",
+                  "Orgulloso"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "失望",
+                  "romanization": "shī wàng"
+                },
+                "female": {
+                  "audio_text": "失望",
+                  "romanization": "shī wàng"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "兴奋",
+                  "romanization": "xīng fèn",
+                  "native": {
+                    "en": "excited",
+                    "zh": "兴奋",
+                    "th": "ตื่นเต้น",
+                    "ko": "신나는",
+                    "es": "Emocionado"
+                  }
+                },
+                {
+                  "target": "尴尬",
+                  "romanization": "gān gà",
+                  "native": {
+                    "en": "embarrassed",
+                    "zh": "尴尬",
+                    "th": "อาย",
+                    "ko": "당황한",
+                    "es": "Avergonzado"
+                  }
+                },
+                {
+                  "target": "放心",
+                  "romanization": "fàng xīn",
+                  "native": {
+                    "en": "relieved",
+                    "zh": "放心",
+                    "th": "โล่งใจ",
+                    "ko": "안도한",
+                    "es": "Aliviado"
+                  }
+                },
+                {
+                  "target": "担心",
+                  "romanization": "dān xīn",
+                  "native": {
+                    "en": "worried",
+                    "zh": "担心",
+                    "th": "เป็นห่วง",
+                    "ko": "걱정하는",
+                    "es": "Preocupado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I feel very excited",
+                "zh": "我感到很兴奋",
+                "th": "ฉันรู้สึกตื่นเต้นมาก",
+                "ko": "매우 신나요",
+                "es": "Me siento muy emocionado"
+              },
+              "words": [
+                "兴奋",
+                "感到",
+                "我",
+                "很"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "感到",
+                  "很",
+                  "兴奋"
+                ]
+              },
+              "romanization": "wǒ gǎn dào hěn xīng fèn",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "感到",
+                  "很",
+                  "兴奋"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Talk about your emotions and feelings in Chinese",
+            "zh": "用中文谈论你的情绪和感受",
+            "th": "พูดเรื่องอารมณ์และความรู้สึกเป็นภาษาจีน",
+            "ko": "중국어로 감정과 기분에 대해 이야기하기",
+            "es": "Habla sobre tus emociones y sentimientos en chino"
+          }
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Memories & Growth",
+            "zh": "回忆与成长",
+            "th": "ความทรงจำและการเติบโต",
+            "ko": "추억과 성장",
+            "es": "Recuerdos y crecimiento"
+          },
+          "objectives": {
+            "en": [
+              "Talk about past experiences and memories",
+              "Express appreciation and coping strategies"
+            ],
+            "zh": [
+              "谈论过去的经历和回忆",
+              "表达感激和应对方法"
+            ],
+            "th": [
+              "Talk about past experiences and memories",
+              "Express appreciation and coping strategies"
+            ],
+            "ko": [
+              "Talk about past experiences and memories",
+              "Express appreciation and coping strategies"
+            ],
+            "es": [
+              "Talk about past experiences and memories",
+              "Express appreciation and coping strategies"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "舒服",
+              "romanization": "shū fu",
+              "meanings": {
+                "en": "comfortable",
+                "zh": "舒服",
+                "th": "สะดวกสบาย",
+                "ko": "편안한",
+                "es": "Cómodo"
+              },
+              "toneClass": "1-0",
+              "gendered": {
+                "male": {
+                  "word": "舒服",
+                  "romanization": "shū fu"
+                },
+                "female": {
+                  "word": "舒服",
+                  "romanization": "shū fu"
+                }
+              }
+            },
+            {
+              "word": "尴尬",
+              "romanization": "gān gà",
+              "meanings": {
+                "en": "awkward",
+                "zh": "尴尬",
+                "th": "น่าอึดอัด",
+                "ko": "어색한",
+                "es": "Incómodo"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "尴尬",
+                  "romanization": "gān gà"
+                },
+                "female": {
+                  "word": "尴尬",
+                  "romanization": "gān gà"
+                }
+              }
+            },
+            {
+              "word": "经历",
+              "romanization": "jīng lì",
+              "meanings": {
+                "en": "experience",
+                "zh": "经历",
+                "th": "ประสบการณ์",
+                "ko": "경험",
+                "es": "Experiencia"
+              },
+              "toneClass": "1-4",
+              "gendered": {
+                "male": {
+                  "word": "经历",
+                  "romanization": "jīng lì"
+                },
+                "female": {
+                  "word": "经历",
+                  "romanization": "jīng lì"
+                }
+              }
+            },
+            {
+              "word": "回忆",
+              "romanization": "huí yì",
+              "meanings": {
+                "en": "memory",
+                "zh": "回忆",
+                "th": "ความทรงจำ",
+                "ko": "추억",
+                "es": "Recuerdo"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "回忆",
+                  "romanization": "huí yì"
+                },
+                "female": {
+                  "word": "回忆",
+                  "romanization": "huí yì"
+                }
+              }
+            },
+            {
+              "word": "时刻",
+              "romanization": "shí kè",
+              "meanings": {
+                "en": "moment",
+                "zh": "时刻",
+                "th": "ช่วงเวลา",
+                "ko": "순간",
+                "es": "Momento"
+              },
+              "toneClass": "2-4",
+              "gendered": {
+                "male": {
+                  "word": "时刻",
+                  "romanization": "shí kè"
+                },
+                "female": {
+                  "word": "时刻",
+                  "romanization": "shí kè"
+                }
+              }
+            },
+            {
+              "word": "记得",
+              "romanization": "jì de",
+              "meanings": {
+                "en": "remember",
+                "zh": "记得",
+                "th": "จำได้",
+                "ko": "기억하다",
+                "es": "Recordar"
+              },
+              "toneClass": "4-0",
+              "gendered": {
+                "male": {
+                  "word": "记得",
+                  "romanization": "jì de"
+                },
+                "female": {
+                  "word": "记得",
+                  "romanization": "jì de"
+                }
+              }
+            },
+            {
+              "word": "忘记",
+              "romanization": "wàng jì",
+              "meanings": {
+                "en": "forget",
+                "zh": "忘记",
+                "th": "ลืม",
+                "ko": "잊다",
+                "es": "Olvidar"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "忘记",
+                  "romanization": "wàng jì"
+                },
+                "female": {
+                  "word": "忘记",
+                  "romanization": "wàng jì"
+                }
+              }
+            },
+            {
+              "word": "后悔",
+              "romanization": "hòu huǐ",
+              "meanings": {
+                "en": "regret",
+                "zh": "后悔",
+                "th": "เสียใจ",
+                "ko": "후회하다",
+                "es": "Lamentar"
+              },
+              "toneClass": "4-3",
+              "gendered": {
+                "male": {
+                  "word": "后悔",
+                  "romanization": "hòu huǐ"
+                },
+                "female": {
+                  "word": "后悔",
+                  "romanization": "hòu huǐ"
+                }
+              }
+            },
+            {
+              "word": "想念",
+              "romanization": "xiǎng niàn",
+              "meanings": {
+                "en": "miss",
+                "zh": "想念",
+                "th": "คิดถึง",
+                "ko": "그리워하다",
+                "es": "Extrañar"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "想念",
+                  "romanization": "xiǎng niàn"
+                },
+                "female": {
+                  "word": "想念",
+                  "romanization": "xiǎng niàn"
+                }
+              }
+            },
+            {
+              "word": "感谢",
+              "romanization": "gǎn xiè",
+              "meanings": {
+                "en": "appreciate",
+                "zh": "感谢",
+                "th": "ซาบซึ้ง",
+                "ko": "감사하다",
+                "es": "Apreciar"
+              },
+              "toneClass": "3-4",
+              "gendered": {
+                "male": {
+                  "word": "感谢",
+                  "romanization": "gǎn xiè"
+                },
+                "female": {
+                  "word": "感谢",
+                  "romanization": "gǎn xiè"
+                }
+              }
+            },
+            {
+              "word": "克服",
+              "romanization": "kè fú",
+              "meanings": {
+                "en": "overcome",
+                "zh": "克服",
+                "th": "เอาชนะ",
+                "ko": "극복하다",
+                "es": "Superar"
+              },
+              "toneClass": "4-2",
+              "gendered": {
+                "male": {
+                  "word": "克服",
+                  "romanization": "kè fú"
+                },
+                "female": {
+                  "word": "克服",
+                  "romanization": "kè fú"
+                }
+              }
+            },
+            {
+              "word": "应对",
+              "romanization": "yìng duì",
+              "meanings": {
+                "en": "cope",
+                "zh": "应对",
+                "th": "รับมือ",
+                "ko": "대처하다",
+                "es": "Lidiar"
+              },
+              "toneClass": "4-4",
+              "gendered": {
+                "male": {
+                  "word": "应对",
+                  "romanization": "yìng duì"
+                },
+                "female": {
+                  "word": "应对",
+                  "romanization": "yìng duì"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "舒服",
+              "romanization": "shū fu",
+              "options": {
+                "en": [
+                  "comfortable",
+                  "awkward",
+                  "experience",
+                  "memory"
+                ],
+                "zh": [
+                  "舒服",
+                  "尴尬",
+                  "经历",
+                  "回忆"
+                ],
+                "th": [
+                  "สะดวกสบาย",
+                  "น่าอึดอัด",
+                  "ประสบการณ์",
+                  "ความทรงจำ"
+                ],
+                "ko": [
+                  "편안한",
+                  "어색한",
+                  "경험",
+                  "추억"
+                ],
+                "es": [
+                  "Cómodo",
+                  "Incómodo",
+                  "Experiencia",
+                  "Recuerdo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": "舒服",
+                "female": "舒服"
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'memory' in Chinese?",
+                "zh": "'回忆'用中文怎么说？",
+                "th": "คำว่า 'ความทรงจำ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'추억'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Recuerdo' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "回忆",
+                  "舒服",
+                  "尴尬",
+                  "经历"
+                ],
+                "male": [
+                  "回忆",
+                  "舒服",
+                  "尴尬",
+                  "经历"
+                ],
+                "female": [
+                  "回忆",
+                  "舒服",
+                  "尴尬",
+                  "经历"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "记得",
+              "romanization": "jì de",
+              "options": {
+                "en": [
+                  "remember",
+                  "comfortable",
+                  "awkward",
+                  "experience"
+                ],
+                "zh": [
+                  "记得",
+                  "舒适",
+                  "尴尬的",
+                  "经验"
+                ],
+                "th": [
+                  "จำได้",
+                  "สะดวกสบาย",
+                  "น่าอึดอัด",
+                  "ประสบการณ์"
+                ],
+                "ko": [
+                  "기억하다",
+                  "편안한",
+                  "어색한",
+                  "경험"
+                ],
+                "es": [
+                  "Recordar",
+                  "Cómodo",
+                  "Incómodo",
+                  "Experiencia"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "记得",
+                  "romanization": "jì de"
+                },
+                "female": {
+                  "audio_text": "记得",
+                  "romanization": "jì de"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "舒服",
+                  "romanization": "shū fu",
+                  "native": {
+                    "en": "comfortable",
+                    "zh": "舒服",
+                    "th": "สะดวกสบาย",
+                    "ko": "편안한",
+                    "es": "Cómodo"
+                  }
+                },
+                {
+                  "target": "回忆",
+                  "romanization": "huí yì",
+                  "native": {
+                    "en": "memory",
+                    "zh": "回忆",
+                    "th": "ความทรงจำ",
+                    "ko": "추억",
+                    "es": "Recuerdo"
+                  }
+                },
+                {
+                  "target": "忘记",
+                  "romanization": "wàng jì",
+                  "native": {
+                    "en": "forget",
+                    "zh": "忘记",
+                    "th": "ลืม",
+                    "ko": "잊다",
+                    "es": "Olvidar"
+                  }
+                },
+                {
+                  "target": "感谢",
+                  "romanization": "gǎn xiè",
+                  "native": {
+                    "en": "appreciate",
+                    "zh": "感谢",
+                    "th": "ซาบซึ้ง",
+                    "ko": "감사하다",
+                    "es": "Apreciar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "I will never forget this experience",
+                "zh": "我永远不会忘记这次经历",
+                "th": "ฉันจะไม่มีวันลืมประสบการณ์นี้",
+                "ko": "이 경험을 절대 잊지 않을 거예요",
+                "es": "Nunca olvidaré esta experiencia"
+              },
+              "words": [
+                "忘记",
+                "经历",
+                "我",
+                "永远",
+                "不会",
+                "这次"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "永远",
+                  "不会",
+                  "忘记",
+                  "这次",
+                  "经历"
+                ]
+              },
+              "romanization": "wǒ yǒng yuǎn bú huì wàng jì zhè cì jīng lì",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "永远",
+                  "不会",
+                  "忘记",
+                  "这次",
+                  "经历"
+                ]
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Share a meaningful experience or memory in Chinese",
+            "zh": "用中文分享一段有意义的经历或回忆",
+            "th": "แบ่งปันประสบการณ์หรือความทรงจำที่มีความหมายเป็นภาษาจีน",
+            "ko": "중국어로 의미 있는 경험이나 기억 나누기",
+            "es": "Comparte una experiencia o recuerdo significativo en chino"
+          }
+        }
+      ]
+    }
+  ]
+}

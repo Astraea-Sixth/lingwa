@@ -5,6 +5,9 @@ import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
+import { isHostedMode } from '@/lib/supabase'
+import { getSession, getUser } from '@/lib/auth'
+import { loadFromCloud } from '@/lib/cloudProgress'
 
 interface UserProfile {
   targetLang: string
@@ -33,24 +36,40 @@ export default function HomePage() {
   const [showReset, setShowReset] = useState(false)
   const [mounted, setMounted] = useState(false)
   const [nativeLang, setNativeLang] = useState('en')
+  const [authChecked, setAuthChecked] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
-    setNativeLang(getNativeLang())
-    const raw = localStorage.getItem('lingwa_profile')
-    if (raw) {
-      try {
-        const p: UserProfile = JSON.parse(raw)
-        setProfile(p)
-        const progRaw = localStorage.getItem(`lingwa:progress:${p.targetLangCode}`)
-        if (progRaw) {
-          setProgress(JSON.parse(progRaw))
+    async function init() {
+      // In hosted mode, require auth
+      if (isHostedMode()) {
+        const session = await getSession()
+        if (!session) {
+          router.replace('/auth')
+          return
         }
-      } catch {
-        // corrupted — ignore
+        // Load cloud progress into localStorage
+        const user = await getUser()
+        if (user) await loadFromCloud(user.id)
+      }
+      setAuthChecked(true)
+      setMounted(true)
+      setNativeLang(getNativeLang())
+      const raw = localStorage.getItem('lingwa_profile')
+      if (raw) {
+        try {
+          const p: UserProfile = JSON.parse(raw)
+          setProfile(p)
+          const progRaw = localStorage.getItem(`lingwa:progress:${p.targetLangCode}`)
+          if (progRaw) {
+            setProgress(JSON.parse(progRaw))
+          }
+        } catch {
+          // corrupted — ignore
+        }
       }
     }
-  }, [])
+    init()
+  }, [router])
 
   function handleReset() {
     if (profile) {

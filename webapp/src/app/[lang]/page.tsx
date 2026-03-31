@@ -7,6 +7,8 @@ import LessonTree from '@/components/LessonTree'
 import { getLanguageProgress, initProgress } from '@/lib/progress'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
+import { isHostedMode } from '@/lib/supabase'
+import { loadStaticConfig } from '@/lib/staticCourses'
 
 const ALL_LEVELS = ['A1', 'A2', 'B1', 'B2'] as const
 const LEVEL_RANK: Record<string, number> = { A1: 0, A2: 1, B1: 2, B2: 3 }
@@ -62,14 +64,26 @@ export default function CoursePage() {
     initProgress(lang, level)
     setProgress(getLanguageProgress(lang))
 
-    fetch(`/api/languages/${lang}/config`)
-      .then(r => {
+    async function loadConfig() {
+      // In hosted mode, load from static files
+      if (isHostedMode()) {
+        try {
+          const data = await loadStaticConfig(lang)
+          if (data) {
+            setConfig(data)
+            localStorage.setItem(`lingwa_lang_config_${lang}`, JSON.stringify(data))
+            return
+          }
+        } catch { /* fall through */ }
+      }
+      // Non-hosted: try API
+      try {
+        const r = await fetch(`/api/languages/${lang}/config`)
         if (!r.ok) throw new Error('No config')
-        return r.json()
-      })
-      .then(setConfig)
-      .catch(() => {
-        // Build config from profile for any language — no hardcoded language list
+        const data = await r.json()
+        setConfig(data)
+      } catch {
+        // Build config from profile
         const profileRaw = typeof window !== 'undefined' ? localStorage.getItem('lingwa_profile') : null
         if (profileRaw) {
           try {
@@ -83,7 +97,9 @@ export default function CoursePage() {
             })
           } catch { /* ignore */ }
         }
-      })
+      }
+    }
+    loadConfig()
   }, [lang, level])
 
   // Re-read progress on window focus (after returning from a lesson)

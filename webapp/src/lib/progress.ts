@@ -3,6 +3,18 @@
  * Tracks: streak, XP, completed lessons, vocabulary with spaced repetition data
  */
 
+import { isHostedMode } from './supabase'
+import { getUser } from './auth'
+import { syncToCloud } from './cloudProgress'
+
+/** Fire-and-forget cloud sync when in hosted mode */
+function syncIfHosted(lang: string) {
+  if (!isHostedMode()) return
+  getUser().then(user => {
+    if (user) syncToCloud(user.id).catch(() => {})
+  })
+}
+
 export interface LessonRecord {
   completed: boolean
   perfect: boolean
@@ -113,6 +125,7 @@ export function initProgress(lang: string, level: string = 'A1') {
   if (!global.languages.includes(lang)) global.languages.push(lang)
   setGlobalProgress(global)
 
+  syncIfHosted(lang)
   return langProg
 }
 
@@ -177,6 +190,8 @@ export function completeLesson(
     global.streak = prog.streak
     setGlobalProgress(global)
   }
+
+  syncIfHosted(lang)
 }
 
 // ─────────────────────────────────────────────

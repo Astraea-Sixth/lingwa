@@ -1,0 +1,6214 @@
+{
+  "id": "ko-a2-social",
+  "targetLang": "ko",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "level": "A2",
+  "track": "social",
+  "title": {
+    "en": "Social Korean",
+    "zh": "社交韩语",
+    "th": "ภาษาเกาหลีเพื่อสังคม",
+    "ko": "사교 한국어",
+    "es": "Coreano social"
+  },
+  "description": {
+    "en": "Korean for social life — making friends, etiquette, pop culture, and community",
+    "zh": "社交韩语——交友、礼仪、流行文化和社区",
+    "th": "ภาษาเกาหลีเพื่อสังคม — คบเพื่อน มารยาท วัฒนธรรมป็อป และชุมชน",
+    "ko": "사교 생활을 위한 한국어 — 친구 사귀기, 예절, 대중문화, 커뮤니티",
+    "es": "Coreano para la vida social — hacer amigos, etiqueta, cultura pop y comunidad"
+  },
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Friends",
+        "ko": "친구 사귀기",
+        "zh": "交朋友",
+        "th": "หาเพื่อน",
+        "es": "Hacer amigos"
+      },
+      "description": {
+        "en": "Learn to make Korean friends, use appropriate speech levels, and share interests",
+        "zh": "学习交韩国朋友、使用合适的语体和分享兴趣",
+        "th": "เรียนรู้การคบเพื่อนเกาหลี ใช้ระดับภาษาที่เหมาะสม และแบ่งปันความสนใจ",
+        "ko": "한국 친구 사귀기, 적절한 말투 사용, 관심사 나누기",
+        "es": "Aprender a hacer amigos coreanos, usar niveles de habla apropiados y compartir intereses"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making Friends",
+            "ko": "친구 사귀기",
+            "zh": "交朋友",
+            "th": "หาเพื่อน",
+            "es": "Hacer amigos"
+          },
+          "objectives": {
+            "en": [
+              "Introduce yourself and make friends",
+              "Understand Korean age-based relationships"
+            ],
+            "zh": [
+              "自我介绍和交朋友",
+              "了解韩国年龄关系"
+            ],
+            "th": [
+              "แนะนำตัวและคบเพื่อน",
+              "เข้าใจระบบอายุเกาหลี"
+            ],
+            "ko": [
+              "자기소개하고 친구 사귀기",
+              "한국 나이 관계 이해하기"
+            ],
+            "es": [
+              "Presentarse y hacer amigos",
+              "Entender las relaciones por edad en Corea"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "친구",
+              "romanization": "chingu",
+              "meanings": {
+                "en": "Friend",
+                "zh": "朋友",
+                "th": "เพื่อน",
+                "ko": "친구",
+                "es": "Amigo/a"
+              }
+            },
+            {
+              "word": "사귀다",
+              "romanization": "sagwida",
+              "meanings": {
+                "en": "To make friends/date",
+                "zh": "交朋友/交往",
+                "th": "คบเพื่อน/คบหา",
+                "ko": "사귀다",
+                "es": "Hacerse amigos/Salir"
+              }
+            },
+            {
+              "word": "소개팅",
+              "romanization": "sogaeting",
+              "meanings": {
+                "en": "Blind date/Setup",
+                "zh": "相亲",
+                "th": "นัดบอด/โซเกตติ้ง",
+                "ko": "소개팅",
+                "es": "Cita a ciegas"
+              }
+            },
+            {
+              "word": "모임",
+              "romanization": "moim",
+              "meanings": {
+                "en": "Gathering/Meetup",
+                "zh": "聚会",
+                "th": "การรวมกลุ่ม",
+                "ko": "모임",
+                "es": "Reunión/Encuentro"
+              }
+            },
+            {
+              "word": "동아리",
+              "romanization": "dongari",
+              "meanings": {
+                "en": "Club/Society",
+                "zh": "社团",
+                "th": "ชมรม",
+                "ko": "동아리",
+                "es": "Club/Sociedad"
+              }
+            },
+            {
+              "word": "나이",
+              "romanization": "nai",
+              "meanings": {
+                "en": "Age",
+                "zh": "年龄",
+                "th": "อายุ",
+                "ko": "나이",
+                "es": "Edad"
+              }
+            },
+            {
+              "word": "몇 살이에요?",
+              "romanization": "myeot sarieyo?",
+              "meanings": {
+                "en": "How old are you?",
+                "zh": "你几岁？",
+                "th": "อายุเท่าไหร่?",
+                "ko": "몇 살이에요?",
+                "es": "¿Cuántos años tiene?"
+              }
+            },
+            {
+              "word": "동갑",
+              "romanization": "donggap",
+              "meanings": {
+                "en": "Same age",
+                "zh": "同龄",
+                "th": "อายุเท่ากัน",
+                "ko": "동갑",
+                "es": "Misma edad"
+              }
+            },
+            {
+              "word": "형",
+              "romanization": "hyeong",
+              "meanings": {
+                "en": "Older brother (male speaking)",
+                "zh": "哥哥（男性用）",
+                "th": "พี่ชาย（ผู้ชายเรียก）",
+                "ko": "형",
+                "es": "Hermano mayor (hombre hablando)"
+              }
+            },
+            {
+              "word": "누나",
+              "romanization": "nuna",
+              "meanings": {
+                "en": "Older sister (male speaking)",
+                "zh": "姐姐（男性用）",
+                "th": "พี่สาว（ผู้ชายเรียก）",
+                "ko": "누나",
+                "es": "Hermana mayor (hombre hablando)"
+              }
+            },
+            {
+              "word": "오빠",
+              "romanization": "oppa",
+              "meanings": {
+                "en": "Older brother (female speaking)",
+                "zh": "哥哥（女性用）",
+                "th": "พี่ชาย（ผู้หญิงเรียก）",
+                "ko": "오빠",
+                "es": "Hermano mayor (mujer hablando)"
+              }
+            },
+            {
+              "word": "언니",
+              "romanization": "eonni",
+              "meanings": {
+                "en": "Older sister (female speaking)",
+                "zh": "姐姐（女性用）",
+                "th": "พี่สาว（ผู้หญิงเรียก）",
+                "ko": "언니",
+                "es": "Hermana mayor (mujer hablando)"
+              }
+            },
+            {
+              "word": "친하다",
+              "romanization": "chinhada",
+              "meanings": {
+                "en": "To be close (friends)",
+                "zh": "亲近",
+                "th": "สนิท",
+                "ko": "친하다",
+                "es": "Ser cercanos"
+              }
+            },
+            {
+              "word": "연락하다",
+              "romanization": "yeollakhada",
+              "meanings": {
+                "en": "To contact",
+                "zh": "联系",
+                "th": "ติดต่อ",
+                "ko": "연락하다",
+                "es": "Contactar"
+              }
+            },
+            {
+              "word": "만나다",
+              "romanization": "mannada",
+              "meanings": {
+                "en": "To meet",
+                "zh": "见面",
+                "th": "เจอ/พบ",
+                "ko": "만나다",
+                "es": "Encontrarse"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "동갑",
+              "romanization": "donggap",
+              "options": {
+                "en": [
+                  "Same age",
+                  "Friend",
+                  "Gathering",
+                  "Club"
+                ],
+                "zh": [
+                  "同龄",
+                  "朋友",
+                  "聚会",
+                  "社团"
+                ],
+                "th": [
+                  "อายุเท่ากัน",
+                  "เพื่อน",
+                  "รวมกลุ่ม",
+                  "ชมรม"
+                ],
+                "ko": [
+                  "동갑",
+                  "친구",
+                  "모임",
+                  "동아리"
+                ],
+                "es": [
+                  "Misma edad",
+                  "Amigo",
+                  "Reunión",
+                  "Club"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To contact' in Korean?",
+                "zh": "韩语中'联系'怎么说？",
+                "th": "'ติดต่อ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '연락하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Contactar' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "연락하다",
+                  "만나다",
+                  "사귀다",
+                  "친하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "소개팅",
+              "romanization": "sogaeting",
+              "options": {
+                "en": [
+                  "Blind date",
+                  "Gathering",
+                  "Club",
+                  "Friend"
+                ],
+                "zh": [
+                  "相亲",
+                  "聚会",
+                  "社团",
+                  "朋友"
+                ],
+                "th": [
+                  "นัดบอด",
+                  "รวมกลุ่ม",
+                  "ชมรม",
+                  "เพื่อน"
+                ],
+                "ko": [
+                  "소개팅",
+                  "모임",
+                  "동아리",
+                  "친구"
+                ],
+                "es": [
+                  "Cita a ciegas",
+                  "Reunión",
+                  "Club",
+                  "Amigo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "형",
+                  "romanization": "hyeong",
+                  "native": {
+                    "en": "Older bro (M)",
+                    "zh": "哥（男用）",
+                    "th": "พี่ชาย（ชาย）",
+                    "ko": "형",
+                    "es": "Hermano (M)"
+                  }
+                },
+                {
+                  "target": "누나",
+                  "romanization": "nuna",
+                  "native": {
+                    "en": "Older sis (M)",
+                    "zh": "姐（男用）",
+                    "th": "พี่สาว（ชาย）",
+                    "ko": "누나",
+                    "es": "Hermana (M)"
+                  }
+                },
+                {
+                  "target": "오빠",
+                  "romanization": "oppa",
+                  "native": {
+                    "en": "Older bro (F)",
+                    "zh": "哥（女用）",
+                    "th": "พี่ชาย（หญิง）",
+                    "ko": "오빠",
+                    "es": "Hermano (F)"
+                  }
+                },
+                {
+                  "target": "언니",
+                  "romanization": "eonni",
+                  "native": {
+                    "en": "Older sis (F)",
+                    "zh": "姐（女用）",
+                    "th": "พี่สาว（หญิง）",
+                    "ko": "언니",
+                    "es": "Hermana (F)"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'How old are you?'",
+                "zh": "说'你几岁？'",
+                "th": "พูดว่า 'อายุเท่าไหร่'",
+                "ko": "'몇 살이에요?'라고 말하세요",
+                "es": "Di '¿Cuántos años tiene?'"
+              },
+              "words": [
+                "살이에요?",
+                "몇"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "몇",
+                  "살이에요?"
+                ]
+              },
+              "romanization": "myeot sarieyo",
+              "tiles": {
+                "neutral": [
+                  "몇",
+                  "살이에요?"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국에서는 _____ 중요해요"
+              },
+              "hint": {
+                "en": "In Korea _____ is important",
+                "zh": "在韩国_____很重要",
+                "th": "ในเกาหลี_____สำคัญ",
+                "ko": "한국에서는 _____ 중요해요",
+                "es": "En Corea _____ es importante"
+              },
+              "options": [
+                "나이가",
+                "이름이",
+                "키가",
+                "돈이"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "나이가 중요해요 = age is important. Age determines speech level and social dynamics in Korea.",
+                "zh": "나이가 중요해요 = 年龄重要。年龄决定韩国的说话方式和社交关系。",
+                "th": "나이가 중요해요 = อายุสำคัญ อายุกำหนดระดับภาษาและสังคมในเกาหลี",
+                "ko": "나이가 중요해요는 한국 사회에서 나이에 따른 관계를 나타내요.",
+                "es": "나이가 중요해요 = la edad es importante. La edad determina el nivel de habla en Corea."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Meet Min at a 모임 — find out their age and how to address them",
+            "zh": "在모임上认识Min——了解对方年龄和称呼方式",
+            "th": "พบ Min ที่ 모임 — หาอายุและวิธีเรียกที่เหมาะสม",
+            "ko": "모임에서 Min을 만나 보세요 — 나이를 알아보고 어떻게 부를지 정해 보세요",
+            "es": "Conoce a Min en un 모임 — averigua su edad y cómo dirigirte a ellos"
+          }
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Speech Levels & Titles",
+            "ko": "존댓말과 호칭",
+            "zh": "敬语等级与称呼",
+            "th": "ระดับภาษาและคำเรียก",
+            "es": "Niveles de habla y títulos"
+          },
+          "objectives": {
+            "en": [
+              "Switch between 존댓말 and 반말",
+              "Address people by appropriate titles"
+            ],
+            "zh": [
+              "切换敬语和非敬语",
+              "用合适称呼称呼别人"
+            ],
+            "th": [
+              "สลับระหว่าง 존댓말 และ 반말",
+              "เรียกคนอย่างเหมาะสม"
+            ],
+            "ko": [
+              "존댓말과 반말 전환하기",
+              "적절한 호칭 사용하기"
+            ],
+            "es": [
+              "Alternar entre 존댓말 y 반말",
+              "Dirigirse con títulos apropiados"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "반말 쓰다",
+              "romanization": "banmal sseuda",
+              "meanings": {
+                "en": "To use casual speech",
+                "zh": "用非敬语",
+                "th": "ใช้ภาษาไม่เป็นทางการ",
+                "ko": "반말 쓰다",
+                "es": "Usar habla informal"
+              }
+            },
+            {
+              "word": "말 놓다",
+              "romanization": "mal nota",
+              "meanings": {
+                "en": "To drop formality",
+                "zh": "放下敬语",
+                "th": "เลิกใช้ภาษาสุภาพ",
+                "ko": "말 놓다",
+                "es": "Dejar la formalidad"
+              }
+            },
+            {
+              "word": "말 놓을까요?",
+              "romanization": "mal noeulkkayo?",
+              "meanings": {
+                "en": "Shall we speak casually?",
+                "zh": "我们可以不用敬语吗？",
+                "th": "เราเลิกใช้ภาษาสุภาพได้ไหม?",
+                "ko": "말 놓을까요?",
+                "es": "¿Hablamos informalmente?"
+              }
+            },
+            {
+              "word": "편하게 말해요",
+              "romanization": "pyeonhage malhaeyo",
+              "meanings": {
+                "en": "Speak comfortably",
+                "zh": "随意说",
+                "th": "พูดสบายๆ",
+                "ko": "편하게 말해요",
+                "es": "Hable con confianza"
+              }
+            },
+            {
+              "word": "존칭",
+              "romanization": "jonching",
+              "meanings": {
+                "en": "Honorific title",
+                "zh": "尊称",
+                "th": "คำยกย่อง",
+                "ko": "존칭",
+                "es": "Título honorífico"
+              }
+            },
+            {
+              "word": "~씨",
+              "romanization": "~ssi",
+              "meanings": {
+                "en": "Mr./Ms. (name suffix)",
+                "zh": "~先生/女士",
+                "th": "~คุณ",
+                "ko": "~씨",
+                "es": "Sr./Sra."
+              }
+            },
+            {
+              "word": "~님",
+              "romanization": "~nim",
+              "meanings": {
+                "en": "Honorific suffix",
+                "zh": "~님",
+                "th": "~ท่าน",
+                "ko": "~님",
+                "es": "Sufijo honorífico"
+              }
+            },
+            {
+              "word": "아저씨",
+              "romanization": "ajeossi",
+              "meanings": {
+                "en": "Middle-aged man (uncle)",
+                "zh": "大叔",
+                "th": "ลุง/อาจ๊อซซี",
+                "ko": "아저씨",
+                "es": "Señor (mediana edad)"
+              }
+            },
+            {
+              "word": "아줌마",
+              "romanization": "ajumma",
+              "meanings": {
+                "en": "Middle-aged woman (auntie)",
+                "zh": "大妈",
+                "th": "ป้า/อาจุมม่า",
+                "ko": "아줌마",
+                "es": "Señora (mediana edad)"
+              }
+            },
+            {
+              "word": "할아버지",
+              "romanization": "harabeoji",
+              "meanings": {
+                "en": "Grandfather/Old man",
+                "zh": "爷爷",
+                "th": "ปู่/ตา",
+                "ko": "할아버지",
+                "es": "Abuelo/Señor mayor"
+              }
+            },
+            {
+              "word": "할머니",
+              "romanization": "halmeoni",
+              "meanings": {
+                "en": "Grandmother/Old woman",
+                "zh": "奶奶",
+                "th": "ย่า/ยาย",
+                "ko": "할머니",
+                "es": "Abuela/Señora mayor"
+              }
+            },
+            {
+              "word": "호칭",
+              "romanization": "hoching",
+              "meanings": {
+                "en": "Form of address",
+                "zh": "称呼",
+                "th": "คำเรียก",
+                "ko": "호칭",
+                "es": "Forma de tratamiento"
+              }
+            },
+            {
+              "word": "어르신",
+              "romanization": "eoreusin",
+              "meanings": {
+                "en": "Elder (respectful)",
+                "zh": "长者",
+                "th": "ผู้อาวุโส",
+                "ko": "어르신",
+                "es": "Anciano (respetuoso)"
+              }
+            },
+            {
+              "word": "~아/야",
+              "romanization": "~a/ya",
+              "meanings": {
+                "en": "Casual name ending",
+                "zh": "~啊（亲昵称呼）",
+                "th": "~อา/ยา（เรียกสนิท）",
+                "ko": "~아/야",
+                "es": "Sufijo informal de nombre"
+              }
+            },
+            {
+              "word": "이름",
+              "romanization": "ireum",
+              "meanings": {
+                "en": "Name",
+                "zh": "名字",
+                "th": "ชื่อ",
+                "ko": "이름",
+                "es": "Nombre"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "아저씨",
+              "romanization": "ajeossi",
+              "options": {
+                "en": [
+                  "Middle-aged man",
+                  "Grandfather",
+                  "Elder",
+                  "Name"
+                ],
+                "zh": [
+                  "大叔",
+                  "爷爷",
+                  "长者",
+                  "名字"
+                ],
+                "th": [
+                  "ลุง",
+                  "ปู่",
+                  "ผู้อาวุโส",
+                  "ชื่อ"
+                ],
+                "ko": [
+                  "아저씨",
+                  "할아버지",
+                  "어르신",
+                  "이름"
+                ],
+                "es": [
+                  "Señor",
+                  "Abuelo",
+                  "Anciano",
+                  "Nombre"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Shall we speak casually?' in Korean?",
+                "zh": "韩语中'可以不用敬语吗？'怎么说？",
+                "th": "'เราเลิกใช้ภาษาสุภาพได้ไหม' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '말 놓을까요?'를 어떻게 말해요?",
+                "es": "¿Cómo se dice '¿Hablamos informalmente?' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "말 놓을까요?",
+                  "반말 쓰다",
+                  "편하게 말해요",
+                  "존칭"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "할머니",
+              "romanization": "halmeoni",
+              "options": {
+                "en": [
+                  "Grandmother",
+                  "Grandfather",
+                  "Middle-aged woman",
+                  "Elder"
+                ],
+                "zh": [
+                  "奶奶",
+                  "爷爷",
+                  "大妈",
+                  "长者"
+                ],
+                "th": [
+                  "ย่า/ยาย",
+                  "ปู่/ตา",
+                  "ป้า",
+                  "ผู้อาวุโส"
+                ],
+                "ko": [
+                  "할머니",
+                  "할아버지",
+                  "아줌마",
+                  "어르신"
+                ],
+                "es": [
+                  "Abuela",
+                  "Abuelo",
+                  "Señora",
+                  "Anciano"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "~씨",
+                  "romanization": "~ssi",
+                  "native": {
+                    "en": "Mr./Ms.",
+                    "zh": "先生/女士",
+                    "th": "คุณ",
+                    "ko": "~씨",
+                    "es": "Sr./Sra."
+                  }
+                },
+                {
+                  "target": "~님",
+                  "romanization": "~nim",
+                  "native": {
+                    "en": "Honorific",
+                    "zh": "님",
+                    "th": "ท่าน",
+                    "ko": "~님",
+                    "es": "Honorífico"
+                  }
+                },
+                {
+                  "target": "아저씨",
+                  "romanization": "ajeossi",
+                  "native": {
+                    "en": "Uncle/Sir",
+                    "zh": "大叔",
+                    "th": "ลุง",
+                    "ko": "아저씨",
+                    "es": "Señor"
+                  }
+                },
+                {
+                  "target": "아줌마",
+                  "romanization": "ajumma",
+                  "native": {
+                    "en": "Auntie/Ma'am",
+                    "zh": "大妈",
+                    "th": "ป้า",
+                    "ko": "아줌마",
+                    "es": "Señora"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please speak comfortably'",
+                "zh": "说'请随意说'",
+                "th": "พูดว่า 'พูดสบายๆ นะ'",
+                "ko": "'편하게 말해요'라고 말하세요",
+                "es": "Di 'Hable con confianza'"
+              },
+              "words": [
+                "말해요",
+                "편하게"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "편하게",
+                  "말해요"
+                ]
+              },
+              "romanization": "pyeonhage malhaeyo",
+              "tiles": {
+                "neutral": [
+                  "편하게",
+                  "말해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "동갑이면 _____ 써도 돼요"
+              },
+              "hint": {
+                "en": "If you're the same age you can use _____",
+                "zh": "同龄的话可以用_____",
+                "th": "ถ้าอายุเท่ากันใช้_____ได้",
+                "ko": "동갑이면 _____ 써도 돼요",
+                "es": "Si tienen la misma edad pueden usar _____"
+              },
+              "options": [
+                "반말을",
+                "존댓말을",
+                "영어를",
+                "이름을"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "반말을 써도 돼요 = you can use casual speech. Same-age friends typically use 반말.",
+                "zh": "반말을 써도 돼요 = 可以用非敬语。同龄朋友通常用반말。",
+                "th": "반말을 써도 돼요 = ใช้ภาษาไม่เป็นทางการได้ เพื่อนอายุเท่ากันมักใช้반말",
+                "ko": "동갑이면 반말을 써도 돼요는 한국 사회의 기본 규칙이에요.",
+                "es": "반말을 써도 돼요 = se puede usar habla informal. Amigos de la misma edad usan 반말."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Practice switching speech levels with Min — when do you use 반말?",
+            "zh": "和Min练习切换敬语——什么时候用반말？",
+            "th": "ฝึกสลับระดับภาษากับ Min — เมื่อไหร่ใช้ 반말?",
+            "ko": "Min과 말투 바꾸기를 연습해 보세요 — 언제 반말을 써요?",
+            "es": "Practica cambiar niveles de habla con Min — ¿cuándo usas 반말?"
+          }
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Hobbies & Common Interests",
+            "ko": "취미와 공통 관심사",
+            "zh": "爱好与共同兴趣",
+            "th": "งานอดิเรกและความสนใจร่วม",
+            "es": "Pasatiempos e intereses comunes"
+          },
+          "objectives": {
+            "en": [
+              "Talk about hobbies and interests",
+              "Invite someone to do activities together"
+            ],
+            "zh": [
+              "谈论爱好和兴趣",
+              "邀请别人一起活动"
+            ],
+            "th": [
+              "พูดเรื่องงานอดิเรก",
+              "ชวนทำกิจกรรมด้วยกัน"
+            ],
+            "ko": [
+              "취미와 관심사 이야기하기",
+              "같이 활동하자고 초대하기"
+            ],
+            "es": [
+              "Hablar de pasatiempos e intereses",
+              "Invitar a hacer actividades juntos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "취미",
+              "romanization": "chwimi",
+              "meanings": {
+                "en": "Hobby",
+                "zh": "爱好",
+                "th": "งานอดิเรก",
+                "ko": "취미",
+                "es": "Pasatiempo"
+              }
+            },
+            {
+              "word": "관심사",
+              "romanization": "gwansimsa",
+              "meanings": {
+                "en": "Interest",
+                "zh": "兴趣",
+                "th": "สิ่งที่สนใจ",
+                "ko": "관심사",
+                "es": "Interés"
+              }
+            },
+            {
+              "word": "운동",
+              "romanization": "undong",
+              "meanings": {
+                "en": "Exercise/Sports",
+                "zh": "运动",
+                "th": "ออกกำลังกาย",
+                "ko": "운동",
+                "es": "Ejercicio/Deporte"
+              }
+            },
+            {
+              "word": "음악",
+              "romanization": "eumak",
+              "meanings": {
+                "en": "Music",
+                "zh": "音乐",
+                "th": "ดนตรี",
+                "ko": "음악",
+                "es": "Música"
+              }
+            },
+            {
+              "word": "영화",
+              "romanization": "yeonghwa",
+              "meanings": {
+                "en": "Movie",
+                "zh": "电影",
+                "th": "ภาพยนตร์",
+                "ko": "영화",
+                "es": "Película"
+              }
+            },
+            {
+              "word": "드라마",
+              "romanization": "deurama",
+              "meanings": {
+                "en": "K-drama",
+                "zh": "韩剧",
+                "th": "ซีรีส์เกาหลี",
+                "ko": "드라마",
+                "es": "K-drama"
+              }
+            },
+            {
+              "word": "게임",
+              "romanization": "geim",
+              "meanings": {
+                "en": "Game",
+                "zh": "游戏",
+                "th": "เกม",
+                "ko": "게임",
+                "es": "Juego"
+              }
+            },
+            {
+              "word": "여행",
+              "romanization": "yeohaeng",
+              "meanings": {
+                "en": "Travel",
+                "zh": "旅行",
+                "th": "ท่องเที่ยว",
+                "ko": "여행",
+                "es": "Viaje"
+              }
+            },
+            {
+              "word": "독서",
+              "romanization": "dokseo",
+              "meanings": {
+                "en": "Reading",
+                "zh": "读书",
+                "th": "อ่านหนังสือ",
+                "ko": "독서",
+                "es": "Lectura"
+              }
+            },
+            {
+              "word": "요리",
+              "romanization": "yori",
+              "meanings": {
+                "en": "Cooking",
+                "zh": "做饭",
+                "th": "ทำอาหาร",
+                "ko": "요리",
+                "es": "Cocinar"
+              }
+            },
+            {
+              "word": "좋아하다",
+              "romanization": "joahada",
+              "meanings": {
+                "en": "To like",
+                "zh": "喜欢",
+                "th": "ชอบ",
+                "ko": "좋아하다",
+                "es": "Gustar"
+              }
+            },
+            {
+              "word": "싫어하다",
+              "romanization": "sireohada",
+              "meanings": {
+                "en": "To dislike",
+                "zh": "讨厌",
+                "th": "ไม่ชอบ",
+                "ko": "싫어하다",
+                "es": "No gustar"
+              }
+            },
+            {
+              "word": "잘하다",
+              "romanization": "jalhada",
+              "meanings": {
+                "en": "To be good at",
+                "zh": "擅长",
+                "th": "เก่ง",
+                "ko": "잘하다",
+                "es": "Ser bueno en"
+              }
+            },
+            {
+              "word": "못하다",
+              "romanization": "mothada",
+              "meanings": {
+                "en": "To be bad at",
+                "zh": "不擅长",
+                "th": "ไม่เก่ง",
+                "ko": "못하다",
+                "es": "Ser malo en"
+              }
+            },
+            {
+              "word": "같이 하다",
+              "romanization": "gachi hada",
+              "meanings": {
+                "en": "To do together",
+                "zh": "一起做",
+                "th": "ทำด้วยกัน",
+                "ko": "같이 하다",
+                "es": "Hacer juntos"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "취미",
+              "romanization": "chwimi",
+              "options": {
+                "en": [
+                  "Hobby",
+                  "Interest",
+                  "Exercise",
+                  "Music"
+                ],
+                "zh": [
+                  "爱好",
+                  "兴趣",
+                  "运动",
+                  "音乐"
+                ],
+                "th": [
+                  "งานอดิเรก",
+                  "สนใจ",
+                  "ออกกำลังกาย",
+                  "ดนตรี"
+                ],
+                "ko": [
+                  "취미",
+                  "관심사",
+                  "운동",
+                  "음악"
+                ],
+                "es": [
+                  "Pasatiempo",
+                  "Interés",
+                  "Ejercicio",
+                  "Música"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To be good at' in Korean?",
+                "zh": "韩语中'擅长'怎么说？",
+                "th": "'เก่ง' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '잘하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Ser bueno en' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "잘하다",
+                  "못하다",
+                  "좋아하다",
+                  "싫어하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "드라마",
+              "romanization": "deurama",
+              "options": {
+                "en": [
+                  "K-drama",
+                  "Movie",
+                  "Music",
+                  "Game"
+                ],
+                "zh": [
+                  "韩剧",
+                  "电影",
+                  "音乐",
+                  "游戏"
+                ],
+                "th": [
+                  "ซีรีส์เกาหลี",
+                  "ภาพยนตร์",
+                  "ดนตรี",
+                  "เกม"
+                ],
+                "ko": [
+                  "드라마",
+                  "영화",
+                  "음악",
+                  "게임"
+                ],
+                "es": [
+                  "K-drama",
+                  "Película",
+                  "Música",
+                  "Juego"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "취미",
+                  "romanization": "chwimi",
+                  "native": {
+                    "en": "Hobby",
+                    "zh": "爱好",
+                    "th": "งานอดิเรก",
+                    "ko": "취미",
+                    "es": "Pasatiempo"
+                  }
+                },
+                {
+                  "target": "운동",
+                  "romanization": "undong",
+                  "native": {
+                    "en": "Exercise",
+                    "zh": "运动",
+                    "th": "ออกกำลังกาย",
+                    "ko": "운동",
+                    "es": "Ejercicio"
+                  }
+                },
+                {
+                  "target": "영화",
+                  "romanization": "yeonghwa",
+                  "native": {
+                    "en": "Movie",
+                    "zh": "电影",
+                    "th": "ภาพยนตร์",
+                    "ko": "영화",
+                    "es": "Película"
+                  }
+                },
+                {
+                  "target": "독서",
+                  "romanization": "dokseo",
+                  "native": {
+                    "en": "Reading",
+                    "zh": "读书",
+                    "th": "อ่านหนังสือ",
+                    "ko": "독서",
+                    "es": "Lectura"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's do it together'",
+                "zh": "说'一起做吧'",
+                "th": "พูดว่า 'ทำด้วยกัน'",
+                "ko": "'같이 해요'라고 말하세요",
+                "es": "Di 'Hagámoslo juntos'"
+              },
+              "words": [
+                "해요",
+                "같이"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "같이",
+                  "해요"
+                ]
+              },
+              "romanization": "gachi haeyo",
+              "tiles": {
+                "neutral": [
+                  "같이",
+                  "해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "취미가 _____ 물어봐요"
+              },
+              "hint": {
+                "en": "Ask about their _____",
+                "zh": "问他们的_____",
+                "th": "ถาม_____ของเขา",
+                "ko": "취미가 _____ 물어봐요",
+                "es": "Pregunte sobre su _____"
+              },
+              "options": [
+                "뭐예요?라고",
+                "어디예요?라고",
+                "누구예요?라고",
+                "언제예요?라고"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "취미가 뭐예요? = What's your hobby? Standard icebreaker question in Korean.",
+                "zh": "취미가 뭐예요? = 你的爱好是什么？韩语标准破冰问题。",
+                "th": "취미가 뭐예요? = งานอดิเรกคืออะไร? คำถามเปิดสนทนามาตรฐานในเกาหลี",
+                "ko": "취미가 뭐예요?는 한국에서 친구를 사귈 때 자주 쓰는 질문이에요.",
+                "es": "취미가 뭐예요? = ¿Cuál es tu pasatiempo? Pregunta estándar para romper el hielo en coreano."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Share hobbies with Min — find something you both enjoy",
+            "zh": "和Min分享爱好——找到共同兴趣",
+            "th": "แบ่งปันงานอดิเรกกับ Min — หาสิ่งที่ชอบเหมือนกัน",
+            "ko": "Min과 취미를 나눠 보세요 — 둘 다 좋아하는 걸 찾아보세요",
+            "es": "Comparte pasatiempos con Min — encuentren algo que les guste a ambos"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Social Situations",
+        "ko": "사교 상황",
+        "zh": "社交场合",
+        "th": "สถานการณ์ทางสังคม",
+        "es": "Situaciones sociales"
+      },
+      "description": {
+        "en": "Learn to make plans, celebrate, and use social greetings",
+        "zh": "学习制定计划、庆祝和社交问候",
+        "th": "เรียนรู้วางแผน ฉลอง และคำทักทายทางสังคม",
+        "ko": "약속 잡기, 축하하기, 사교 인사 배우기",
+        "es": "Aprender a hacer planes, celebrar y usar saludos sociales"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Making Plans",
+            "ko": "계획 세우기",
+            "zh": "制定计划",
+            "th": "วางแผน",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": [
+              "Make and change plans in Korean",
+              "Accept and decline invitations"
+            ],
+            "zh": [
+              "用韩语制定和改变计划",
+              "接受和拒绝邀请"
+            ],
+            "th": [
+              "วางแผนและเปลี่ยนแผนในภาษาเกาหลี",
+              "ตอบรับและปฏิเสธคำเชิญ"
+            ],
+            "ko": [
+              "한국어로 약속 잡고 바꾸기",
+              "초대 수락하고 거절하기"
+            ],
+            "es": [
+              "Hacer y cambiar planes en coreano",
+              "Aceptar y rechazar invitaciones"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "약속",
+              "romanization": "yaksok",
+              "meanings": {
+                "en": "Appointment/Promise",
+                "zh": "约会/约定",
+                "th": "นัดหมาย/สัญญา",
+                "ko": "약속",
+                "es": "Cita/Promesa"
+              }
+            },
+            {
+              "word": "시간 있어요?",
+              "romanization": "sigan isseoyo?",
+              "meanings": {
+                "en": "Do you have time?",
+                "zh": "你有时间吗？",
+                "th": "มีเวลาไหม?",
+                "ko": "시간 있어요?",
+                "es": "¿Tiene tiempo?"
+              }
+            },
+            {
+              "word": "같이 갈래요?",
+              "romanization": "gachi gallaeyo?",
+              "meanings": {
+                "en": "Shall we go together?",
+                "zh": "一起去吗？",
+                "th": "ไปด้วยกันไหม?",
+                "ko": "같이 갈래요?",
+                "es": "¿Vamos juntos?"
+              }
+            },
+            {
+              "word": "언제 만날까요?",
+              "romanization": "eonje mannalkkayo?",
+              "meanings": {
+                "en": "When shall we meet?",
+                "zh": "什么时候见？",
+                "th": "จะนัดเจอกันเมื่อไหร่?",
+                "ko": "언제 만날까요?",
+                "es": "¿Cuándo nos vemos?"
+              }
+            },
+            {
+              "word": "어디서 만날까요?",
+              "romanization": "eodiseo mannalkkayo?",
+              "meanings": {
+                "en": "Where shall we meet?",
+                "zh": "在哪见？",
+                "th": "จะเจอกันที่ไหน?",
+                "ko": "어디서 만날까요?",
+                "es": "¿Dónde nos vemos?"
+              }
+            },
+            {
+              "word": "초대하다",
+              "romanization": "chodaehada",
+              "meanings": {
+                "en": "To invite",
+                "zh": "邀请",
+                "th": "เชิญ",
+                "ko": "초대하다",
+                "es": "Invitar"
+              }
+            },
+            {
+              "word": "거절하다",
+              "romanization": "geojeolhada",
+              "meanings": {
+                "en": "To decline/refuse",
+                "zh": "拒绝",
+                "th": "ปฏิเสธ",
+                "ko": "거절하다",
+                "es": "Rechazar/Declinar"
+              }
+            },
+            {
+              "word": "수락하다",
+              "romanization": "surakhada",
+              "meanings": {
+                "en": "To accept",
+                "zh": "接受",
+                "th": "ตอบรับ",
+                "ko": "수락하다",
+                "es": "Aceptar"
+              }
+            },
+            {
+              "word": "늦다",
+              "romanization": "neutda",
+              "meanings": {
+                "en": "To be late",
+                "zh": "迟到",
+                "th": "สาย",
+                "ko": "늦다",
+                "es": "Llegar tarde"
+              }
+            },
+            {
+              "word": "기다리다",
+              "romanization": "gidarida",
+              "meanings": {
+                "en": "To wait",
+                "zh": "等",
+                "th": "รอ",
+                "ko": "기다리다",
+                "es": "Esperar"
+              }
+            },
+            {
+              "word": "취소하다",
+              "romanization": "chwisohada",
+              "meanings": {
+                "en": "To cancel",
+                "zh": "取消",
+                "th": "ยกเลิก",
+                "ko": "취소하다",
+                "es": "Cancelar"
+              }
+            },
+            {
+              "word": "미루다",
+              "romanization": "miruda",
+              "meanings": {
+                "en": "To postpone",
+                "zh": "推迟",
+                "th": "เลื่อน",
+                "ko": "미루다",
+                "es": "Posponer"
+              }
+            },
+            {
+              "word": "일정을 잡다",
+              "romanization": "iljeong eul japda",
+              "meanings": {
+                "en": "To set a schedule",
+                "zh": "定日程",
+                "th": "จัดตาราง",
+                "ko": "일정을 잡다",
+                "es": "Fijar una agenda"
+              }
+            },
+            {
+              "word": "바쁘다",
+              "romanization": "bappeuda",
+              "meanings": {
+                "en": "To be busy",
+                "zh": "忙",
+                "th": "ยุ่ง",
+                "ko": "바쁘다",
+                "es": "Estar ocupado"
+              }
+            },
+            {
+              "word": "한가하다",
+              "romanization": "hangahada",
+              "meanings": {
+                "en": "To be free",
+                "zh": "空闲",
+                "th": "ว่าง",
+                "ko": "한가하다",
+                "es": "Estar libre"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "약속",
+              "romanization": "yaksok",
+              "options": {
+                "en": [
+                  "Appointment",
+                  "Invitation",
+                  "Cancellation",
+                  "Schedule"
+                ],
+                "zh": [
+                  "约定",
+                  "邀请",
+                  "取消",
+                  "日程"
+                ],
+                "th": [
+                  "นัดหมาย",
+                  "เชิญ",
+                  "ยกเลิก",
+                  "ตาราง"
+                ],
+                "ko": [
+                  "약속",
+                  "초대",
+                  "취소",
+                  "일정"
+                ],
+                "es": [
+                  "Cita",
+                  "Invitación",
+                  "Cancelación",
+                  "Agenda"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To be busy' in Korean?",
+                "zh": "韩语中'忙'怎么说？",
+                "th": "'ยุ่ง' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '바쁘다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Estar ocupado' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "바쁘다",
+                  "한가하다",
+                  "늦다",
+                  "기다리다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "취소하다",
+              "romanization": "chwisohada",
+              "options": {
+                "en": [
+                  "To cancel",
+                  "To postpone",
+                  "To decline",
+                  "To accept"
+                ],
+                "zh": [
+                  "取消",
+                  "推迟",
+                  "拒绝",
+                  "接受"
+                ],
+                "th": [
+                  "ยกเลิก",
+                  "เลื่อน",
+                  "ปฏิเสธ",
+                  "ตอบรับ"
+                ],
+                "ko": [
+                  "취소하다",
+                  "미루다",
+                  "거절하다",
+                  "수락하다"
+                ],
+                "es": [
+                  "Cancelar",
+                  "Posponer",
+                  "Rechazar",
+                  "Aceptar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "초대하다",
+                  "romanization": "chodaehada",
+                  "native": {
+                    "en": "Invite",
+                    "zh": "邀请",
+                    "th": "เชิญ",
+                    "ko": "초대하다",
+                    "es": "Invitar"
+                  }
+                },
+                {
+                  "target": "거절하다",
+                  "romanization": "geojeolhada",
+                  "native": {
+                    "en": "Decline",
+                    "zh": "拒绝",
+                    "th": "ปฏิเสธ",
+                    "ko": "거절하다",
+                    "es": "Rechazar"
+                  }
+                },
+                {
+                  "target": "수락하다",
+                  "romanization": "surakhada",
+                  "native": {
+                    "en": "Accept",
+                    "zh": "接受",
+                    "th": "ตอบรับ",
+                    "ko": "수락하다",
+                    "es": "Aceptar"
+                  }
+                },
+                {
+                  "target": "취소하다",
+                  "romanization": "chwisohada",
+                  "native": {
+                    "en": "Cancel",
+                    "zh": "取消",
+                    "th": "ยกเลิก",
+                    "ko": "취소하다",
+                    "es": "Cancelar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Shall we go together?'",
+                "zh": "说'一起去吗？'",
+                "th": "พูดว่า 'ไปด้วยกันไหม'",
+                "ko": "'같이 갈래요?'라고 말하세요",
+                "es": "Di '¿Vamos juntos?'"
+              },
+              "words": [
+                "갈래요?",
+                "같이"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "같이",
+                  "갈래요?"
+                ]
+              },
+              "romanization": "gachi gallaeyo",
+              "tiles": {
+                "neutral": [
+                  "같이",
+                  "갈래요?"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "약속에 _____ 안 돼요"
+              },
+              "hint": {
+                "en": "You must not be _____ for appointments",
+                "zh": "约会不能_____",
+                "th": "นัดหมายต้องไม่_____",
+                "ko": "약속에 _____ 안 돼요",
+                "es": "No se puede _____ a las citas"
+              },
+              "options": [
+                "늦으면",
+                "빨리 오면",
+                "일찍 오면",
+                "잘 오면"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "늦으면 안 돼요 = you must not be late. Punctuality matters in Korean social situations.",
+                "zh": "늦으면 안 돼요 = 不能迟到。在韩国社交中守时很重要。",
+                "th": "늦으면 안 돼요 = ต้องไม่สาย ตรงต่อเวลาสำคัญในสังคมเกาหลี",
+                "ko": "늦으면 안 돼요는 한국에서 약속 시간을 지키는 것이 중요하다는 뜻이에요.",
+                "es": "늦으면 안 돼요 = no se puede llegar tarde. La puntualidad importa en Corea."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Make weekend plans with Min — where and when to meet?",
+            "zh": "和Min制定周末计划——在哪里、什么时候见面？",
+            "th": "วางแผนสุดสัปดาห์กับ Min — เจอกันที่ไหนเมื่อไหร่?",
+            "ko": "Min과 주말 계획을 세워 보세요 — 어디서 언제 만날까요?",
+            "es": "Haz planes de fin de semana con Min — ¿dónde y cuándo se ven?"
+          }
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Celebrations & Gifts",
+            "ko": "축하와 선물",
+            "zh": "庆祝与礼物",
+            "th": "การเฉลิมฉลองและของขวัญ",
+            "es": "Celebraciones y regalos"
+          },
+          "objectives": {
+            "en": [
+              "Celebrate Korean-style events",
+              "Give and receive gifts appropriately"
+            ],
+            "zh": [
+              "庆祝韩式活动",
+              "恰当地送收礼物"
+            ],
+            "th": [
+              "ร่วมฉลองกิจกรรมแบบเกาหลี",
+              "ให้และรับของขวัญอย่างเหมาะสม"
+            ],
+            "ko": [
+              "한국식 행사 축하하기",
+              "적절하게 선물 주고받기"
+            ],
+            "es": [
+              "Celebrar eventos al estilo coreano",
+              "Dar y recibir regalos apropiadamente"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "파티",
+              "romanization": "pati",
+              "meanings": {
+                "en": "Party",
+                "zh": "派对",
+                "th": "ปาร์ตี้",
+                "ko": "파티",
+                "es": "Fiesta"
+              }
+            },
+            {
+              "word": "생일 파티",
+              "romanization": "saengil pati",
+              "meanings": {
+                "en": "Birthday party",
+                "zh": "生日派对",
+                "th": "ปาร์ตี้วันเกิด",
+                "ko": "생일 파티",
+                "es": "Fiesta de cumpleaños"
+              }
+            },
+            {
+              "word": "집들이",
+              "romanization": "jipdeuri",
+              "meanings": {
+                "en": "Housewarming",
+                "zh": "乔迁聚会",
+                "th": "ปาร์ตี้ขึ้นบ้านใหม่",
+                "ko": "집들이",
+                "es": "Inauguración de casa"
+              }
+            },
+            {
+              "word": "선물",
+              "romanization": "seonmul",
+              "meanings": {
+                "en": "Gift",
+                "zh": "礼物",
+                "th": "ของขวัญ",
+                "ko": "선물",
+                "es": "Regalo"
+              }
+            },
+            {
+              "word": "축하하다",
+              "romanization": "chukahada",
+              "meanings": {
+                "en": "To congratulate",
+                "zh": "祝贺",
+                "th": "ยินดีด้วย",
+                "ko": "축하하다",
+                "es": "Felicitar"
+              }
+            },
+            {
+              "word": "생일 축하해요",
+              "romanization": "saengil chukahaeyo",
+              "meanings": {
+                "en": "Happy birthday",
+                "zh": "生日快乐",
+                "th": "สุขสันต์วันเกิด",
+                "ko": "생일 축하해요",
+                "es": "Feliz cumpleaños"
+              }
+            },
+            {
+              "word": "케이크",
+              "romanization": "keikeu",
+              "meanings": {
+                "en": "Cake",
+                "zh": "蛋糕",
+                "th": "เค้ก",
+                "ko": "케이크",
+                "es": "Pastel"
+              }
+            },
+            {
+              "word": "꽃",
+              "romanization": "kkot",
+              "meanings": {
+                "en": "Flowers",
+                "zh": "花",
+                "th": "ดอกไม้",
+                "ko": "꽃",
+                "es": "Flores"
+              }
+            },
+            {
+              "word": "포장하다",
+              "romanization": "pojanghada",
+              "meanings": {
+                "en": "To wrap (gift)",
+                "zh": "包装",
+                "th": "ห่อของขวัญ",
+                "ko": "포장하다",
+                "es": "Envolver"
+              }
+            },
+            {
+              "word": "감사 인사",
+              "romanization": "gamsa insa",
+              "meanings": {
+                "en": "Thank-you greeting",
+                "zh": "感谢致辞",
+                "th": "คำขอบคุณ",
+                "ko": "감사 인사",
+                "es": "Saludo de agradecimiento"
+              }
+            },
+            {
+              "word": "초대장",
+              "romanization": "chodaejang",
+              "meanings": {
+                "en": "Invitation card",
+                "zh": "邀请卡",
+                "th": "บัตรเชิญ",
+                "ko": "초대장",
+                "es": "Tarjeta de invitación"
+              }
+            },
+            {
+              "word": "참석",
+              "romanization": "chamseok",
+              "meanings": {
+                "en": "Attendance",
+                "zh": "出席",
+                "th": "การเข้าร่วม",
+                "ko": "참석",
+                "es": "Asistencia"
+              }
+            },
+            {
+              "word": "불참",
+              "romanization": "bulcham",
+              "meanings": {
+                "en": "Absence",
+                "zh": "缺席",
+                "th": "ไม่เข้าร่วม",
+                "ko": "불참",
+                "es": "Ausencia"
+              }
+            },
+            {
+              "word": "답례",
+              "romanization": "damrye",
+              "meanings": {
+                "en": "Return gift",
+                "zh": "回礼",
+                "th": "ของตอบแทน",
+                "ko": "답례",
+                "es": "Regalo de agradecimiento"
+              }
+            },
+            {
+              "word": "분위기",
+              "romanization": "bunwigi",
+              "meanings": {
+                "en": "Atmosphere/Mood",
+                "zh": "气氛",
+                "th": "บรรยากาศ",
+                "ko": "분위기",
+                "es": "Ambiente"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "집들이",
+              "romanization": "jipdeuri",
+              "options": {
+                "en": [
+                  "Housewarming",
+                  "Birthday party",
+                  "Party",
+                  "Gift"
+                ],
+                "zh": [
+                  "乔迁聚会",
+                  "生日派对",
+                  "派对",
+                  "礼物"
+                ],
+                "th": [
+                  "ปาร์ตี้ขึ้นบ้านใหม่",
+                  "ปาร์ตี้วันเกิด",
+                  "ปาร์ตี้",
+                  "ของขวัญ"
+                ],
+                "ko": [
+                  "집들이",
+                  "생일 파티",
+                  "파티",
+                  "선물"
+                ],
+                "es": [
+                  "Inauguración",
+                  "Cumpleaños",
+                  "Fiesta",
+                  "Regalo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To congratulate' in Korean?",
+                "zh": "韩语中'祝贺'怎么说？",
+                "th": "'ยินดีด้วย' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '축하하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Felicitar' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "축하하다",
+                  "감사하다",
+                  "포장하다",
+                  "초대하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "분위기",
+              "romanization": "bunwigi",
+              "options": {
+                "en": [
+                  "Atmosphere",
+                  "Attendance",
+                  "Absence",
+                  "Gift"
+                ],
+                "zh": [
+                  "气氛",
+                  "出席",
+                  "缺席",
+                  "礼物"
+                ],
+                "th": [
+                  "บรรยากาศ",
+                  "เข้าร่วม",
+                  "ไม่เข้าร่วม",
+                  "ของขวัญ"
+                ],
+                "ko": [
+                  "분위기",
+                  "참석",
+                  "불참",
+                  "선물"
+                ],
+                "es": [
+                  "Ambiente",
+                  "Asistencia",
+                  "Ausencia",
+                  "Regalo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "선물",
+                  "romanization": "seonmul",
+                  "native": {
+                    "en": "Gift",
+                    "zh": "礼物",
+                    "th": "ของขวัญ",
+                    "ko": "선물",
+                    "es": "Regalo"
+                  }
+                },
+                {
+                  "target": "케이크",
+                  "romanization": "keikeu",
+                  "native": {
+                    "en": "Cake",
+                    "zh": "蛋糕",
+                    "th": "เค้ก",
+                    "ko": "케이크",
+                    "es": "Pastel"
+                  }
+                },
+                {
+                  "target": "꽃",
+                  "romanization": "kkot",
+                  "native": {
+                    "en": "Flowers",
+                    "zh": "花",
+                    "th": "ดอกไม้",
+                    "ko": "꽃",
+                    "es": "Flores"
+                  }
+                },
+                {
+                  "target": "초대장",
+                  "romanization": "chodaejang",
+                  "native": {
+                    "en": "Invitation",
+                    "zh": "邀请卡",
+                    "th": "บัตรเชิญ",
+                    "ko": "초대장",
+                    "es": "Invitación"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Happy birthday!'",
+                "zh": "说'生日快乐！'",
+                "th": "พูดว่า 'สุขสันต์วันเกิด'",
+                "ko": "'생일 축하해요!'라고 말하세요",
+                "es": "Di '¡Feliz cumpleaños!'"
+              },
+              "words": [
+                "축하해요!",
+                "생일"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "생일",
+                  "축하해요!"
+                ]
+              },
+              "romanization": "saengil chukahaeyo",
+              "tiles": {
+                "neutral": [
+                  "생일",
+                  "축하해요!"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "집들이에는 보통 _____ 가져가요"
+              },
+              "hint": {
+                "en": "For housewarmings people usually bring _____",
+                "zh": "乔迁聚会一般带_____",
+                "th": "ปาร์ตี้ขึ้นบ้านใหม่มักจะเอา_____ไป",
+                "ko": "집들이에는 보통 _____ 가져가요",
+                "es": "Para inauguraciones normalmente se lleva _____"
+              },
+              "options": [
+                "세제를",
+                "꽃을",
+                "케이크를",
+                "옷을"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "세제를 = detergent. In Korean tradition, practical gifts like detergent or toilet paper are common for housewarmings.",
+                "zh": "세제를 = 洗涤剂。在韩国传统中，乔迁礼物通常是实用的东西如洗涤剂或卫生纸。",
+                "th": "세제를 = น้ำยาซักผ้า ในวัฒนธรรมเกาหลี ของใช้จริงเช่นน้ำยาซักผ้าเป็นของขวัญขึ้นบ้านใหม่",
+                "ko": "세제를 가져가요는 한국 집들이 문화의 전통이에요.",
+                "es": "세제를 = detergente. En Corea, regalos prácticos como detergente son comunes para inauguraciones."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "You're invited to Min's 집들이 — what gift should you bring?",
+            "zh": "Min邀请你去집들이——该带什么礼物？",
+            "th": "คุณได้รับเชิญไป 집들이 ของ Min — ควรเอาของขวัญอะไรไป?",
+            "ko": "Min의 집들이에 초대받았어요 — 무슨 선물을 가져가야 할까요?",
+            "es": "Te invitaron al 집들이 de Min — ¿qué regalo deberías llevar?"
+          }
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Greetings & Farewells",
+            "ko": "인사와 작별",
+            "zh": "问候与告别",
+            "th": "การทักทายและลาก่อน",
+            "es": "Saludos y despedidas"
+          },
+          "objectives": {
+            "en": [
+              "Use Korean greetings for different situations",
+              "Say goodbye appropriately"
+            ],
+            "zh": [
+              "在不同场合使用韩语问候",
+              "恰当地说再见"
+            ],
+            "th": [
+              "ใช้คำทักทายเกาหลีในสถานการณ์ต่างๆ",
+              "บอกลาอย่างเหมาะสม"
+            ],
+            "ko": [
+              "상황에 맞는 인사말 사용하기",
+              "적절하게 작별 인사하기"
+            ],
+            "es": [
+              "Usar saludos coreanos para diferentes situaciones",
+              "Despedirse apropiadamente"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "인사",
+              "romanization": "insa2",
+              "meanings": {
+                "en": "Greeting",
+                "zh": "问候",
+                "th": "ทักทาย",
+                "ko": "인사",
+                "es": "Saludo"
+              }
+            },
+            {
+              "word": "안부",
+              "romanization": "anbu",
+              "meanings": {
+                "en": "Regards/Well-being",
+                "zh": "问候/安否",
+                "th": "การถามข่าว",
+                "ko": "안부",
+                "es": "Saludos/Bienestar"
+              }
+            },
+            {
+              "word": "오랜만이에요",
+              "romanization": "oraenmanieyo",
+              "meanings": {
+                "en": "Long time no see",
+                "zh": "好久不见",
+                "th": "ไม่เจอนานแล้ว",
+                "ko": "오랜만이에요",
+                "es": "Hace mucho que no nos vemos"
+              }
+            },
+            {
+              "word": "잘 지내셨어요?",
+              "romanization": "jal jinaesyeosseoyo?",
+              "meanings": {
+                "en": "Have you been well?",
+                "zh": "过得好吗？",
+                "th": "สบายดีไหม?",
+                "ko": "잘 지내셨어요?",
+                "es": "¿Ha estado bien?"
+              }
+            },
+            {
+              "word": "별일 없으셨어요?",
+              "romanization": "byeoril eopseusyeosseoyo?",
+              "meanings": {
+                "en": "Nothing unusual? (polite)",
+                "zh": "没什么事吧？",
+                "th": "ไม่มีอะไรใช่ไหม?",
+                "ko": "별일 없으셨어요?",
+                "es": "¿Sin novedades?"
+              }
+            },
+            {
+              "word": "감사합니다",
+              "romanization": "gamsahamnida2",
+              "meanings": {
+                "en": "Thank you",
+                "zh": "谢谢",
+                "th": "ขอบคุณ",
+                "ko": "감사합니다",
+                "es": "Gracias"
+              }
+            },
+            {
+              "word": "천만에요",
+              "romanization": "cheonmaneyo",
+              "meanings": {
+                "en": "You're welcome",
+                "zh": "不客气",
+                "th": "ไม่เป็นไร",
+                "ko": "천만에요",
+                "es": "De nada"
+              }
+            },
+            {
+              "word": "미안해요",
+              "romanization": "mianhaeyo",
+              "meanings": {
+                "en": "I'm sorry (casual)",
+                "zh": "对不起",
+                "th": "ขอโทษ（ไม่เป็นทางการ）",
+                "ko": "미안해요",
+                "es": "Lo siento (informal)"
+              }
+            },
+            {
+              "word": "괜찮아요",
+              "romanization": "gwaenchanayo",
+              "meanings": {
+                "en": "It's okay",
+                "zh": "没关系",
+                "th": "ไม่เป็นไร",
+                "ko": "괜찮아요",
+                "es": "Está bien"
+              }
+            },
+            {
+              "word": "고마워요",
+              "romanization": "gomawoyo",
+              "meanings": {
+                "en": "Thanks (casual)",
+                "zh": "谢谢（随意）",
+                "th": "ขอบคุณ（ไม่เป็นทางการ）",
+                "ko": "고마워요",
+                "es": "Gracias (informal)"
+              }
+            },
+            {
+              "word": "실례지만",
+              "romanization": "sillyejiman",
+              "meanings": {
+                "en": "Excuse me but",
+                "zh": "请问",
+                "th": "ขอโทษแต่",
+                "ko": "실례지만",
+                "es": "Disculpe pero"
+              }
+            },
+            {
+              "word": "어떻게 지내세요?",
+              "romanization": "eotteoke jinaeseyo?",
+              "meanings": {
+                "en": "How have you been?",
+                "zh": "过得怎么样？",
+                "th": "เป็นยังไงบ้าง?",
+                "ko": "어떻게 지내세요?",
+                "es": "¿Cómo ha estado?"
+              }
+            },
+            {
+              "word": "조심하세요",
+              "romanization": "josimhaseyo",
+              "meanings": {
+                "en": "Be careful/Take care",
+                "zh": "小心/保重",
+                "th": "ระวังตัว",
+                "ko": "조심하세요",
+                "es": "Cuídese"
+              }
+            },
+            {
+              "word": "건강하세요",
+              "romanization": "geonganghaseyo",
+              "meanings": {
+                "en": "Stay healthy",
+                "zh": "身体健康",
+                "th": "ดูแลสุขภาพ",
+                "ko": "건강하세요",
+                "es": "Manténgase sano"
+              }
+            },
+            {
+              "word": "다음에 또 만나요",
+              "romanization": "daeume tto mannayo",
+              "meanings": {
+                "en": "Let's meet again",
+                "zh": "下次再见",
+                "th": "ไว้เจอกันอีก",
+                "ko": "다음에 또 만나요",
+                "es": "Nos vemos otra vez"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "오랜만이에요",
+              "romanization": "oraenmanieyo",
+              "options": {
+                "en": [
+                  "Long time no see",
+                  "How are you",
+                  "Thank you",
+                  "You're welcome"
+                ],
+                "zh": [
+                  "好久不见",
+                  "你好吗",
+                  "谢谢",
+                  "不客气"
+                ],
+                "th": [
+                  "นานแล้ว",
+                  "สบายดีไหม",
+                  "ขอบคุณ",
+                  "ไม่เป็นไร"
+                ],
+                "ko": [
+                  "오랜만이에요",
+                  "어떻게 지내세요?",
+                  "감사합니다",
+                  "천만에요"
+                ],
+                "es": [
+                  "Hace mucho",
+                  "¿Cómo está?",
+                  "Gracias",
+                  "De nada"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'It's okay' in Korean?",
+                "zh": "韩语中'没关系'怎么说？",
+                "th": "'ไม่เป็นไร' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '괜찮아요'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Está bien' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "괜찮아요",
+                  "미안해요",
+                  "고마워요",
+                  "천만에요"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "조심하세요",
+              "romanization": "josimhaseyo",
+              "options": {
+                "en": [
+                  "Be careful",
+                  "Stay healthy",
+                  "See you",
+                  "Thank you"
+                ],
+                "zh": [
+                  "小心",
+                  "健康",
+                  "再见",
+                  "谢谢"
+                ],
+                "th": [
+                  "ระวังตัว",
+                  "ดูแลสุขภาพ",
+                  "เจอกัน",
+                  "ขอบคุณ"
+                ],
+                "ko": [
+                  "조심하세요",
+                  "건강하세요",
+                  "다음에 또 만나요",
+                  "감사합니다"
+                ],
+                "es": [
+                  "Cuídese",
+                  "Sano",
+                  "Nos vemos",
+                  "Gracias"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "감사합니다",
+                  "romanization": "gamsahamnida2",
+                  "native": {
+                    "en": "Thank you",
+                    "zh": "谢谢",
+                    "th": "ขอบคุณ",
+                    "ko": "감사합니다",
+                    "es": "Gracias"
+                  }
+                },
+                {
+                  "target": "천만에요",
+                  "romanization": "cheonmaneyo",
+                  "native": {
+                    "en": "You're welcome",
+                    "zh": "不客气",
+                    "th": "ไม่เป็นไร",
+                    "ko": "천만에요",
+                    "es": "De nada"
+                  }
+                },
+                {
+                  "target": "미안해요",
+                  "romanization": "mianhaeyo",
+                  "native": {
+                    "en": "Sorry",
+                    "zh": "对不起",
+                    "th": "ขอโทษ",
+                    "ko": "미안해요",
+                    "es": "Lo siento"
+                  }
+                },
+                {
+                  "target": "괜찮아요",
+                  "romanization": "gwaenchanayo",
+                  "native": {
+                    "en": "It's okay",
+                    "zh": "没关系",
+                    "th": "ไม่เป็นไร",
+                    "ko": "괜찮아요",
+                    "es": "Está bien"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Long time no see!'",
+                "zh": "说'好久不见！'",
+                "th": "พูดว่า 'ไม่ได้เจอนาน'",
+                "ko": "'오랜만이에요!'라고 말하세요",
+                "es": "Di '¡Hace mucho que no nos vemos!'"
+              },
+              "words": [
+                "오랜만이에요!"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "오랜만이에요!"
+                ]
+              },
+              "romanization": "oraenmanieyo",
+              "tiles": {
+                "neutral": [
+                  "오랜만이에요!"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "헤어질 때 _____ 말해요"
+              },
+              "hint": {
+                "en": "When parting you say _____",
+                "zh": "分别时说_____",
+                "th": "ตอนแยกกันพูด_____",
+                "ko": "헤어질 때 _____ 말해요",
+                "es": "Al despedirse se dice _____"
+              },
+              "options": [
+                "조심하세요라고",
+                "감사합니다라고",
+                "미안해요라고",
+                "여보세요라고"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "조심하세요 = take care. Common Korean farewell phrase meaning 'be careful going home'.",
+                "zh": "조심하세요 = 保重/小心。常见的韩语告别用语，意思是'回家路上小心'。",
+                "th": "조심하세요 = ระวังตัว วลีลาสำคัญในเกาหลี แปลว่า 'ระวังตัวกลับบ้าน'",
+                "ko": "조심하세요는 한국에서 헤어질 때 자주 하는 인사예요.",
+                "es": "조심하세요 = cuídese. Frase común de despedida que significa 'tenga cuidado al volver'."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Practice greetings and farewells with Min for different scenarios",
+            "zh": "和Min练习不同场景的问候与告别",
+            "th": "ฝึกทักทายและลาก่อนกับ Min ในสถานการณ์ต่างๆ",
+            "ko": "Min과 다양한 상황에서 인사와 작별 연습을 해 보세요",
+            "es": "Practica saludos y despedidas con Min en diferentes situaciones"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Korean Etiquette",
+        "ko": "한국 예절",
+        "zh": "韩国礼仪",
+        "th": "มารยาทเกาหลี",
+        "es": "Etiqueta coreana"
+      },
+      "description": {
+        "en": "Learn Korean etiquette for social, dining, and holiday situations",
+        "zh": "学习韩国社交、用餐和节日礼仪",
+        "th": "เรียนรู้มารยาทเกาหลีในสถานการณ์สังคม อาหาร และวันหยุด",
+        "ko": "사교, 식사, 명절 예절 배우기",
+        "es": "Aprender etiqueta coreana para situaciones sociales, comida y festividades"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Basic Korean Etiquette",
+            "ko": "기본 한국 예절",
+            "zh": "韩国基本礼仪",
+            "th": "มารยาทเกาหลีพื้นฐาน",
+            "es": "Etiqueta coreana básica"
+          },
+          "objectives": {
+            "en": [
+              "Understand Korean etiquette basics",
+              "Show respect through gestures"
+            ],
+            "zh": [
+              "了解韩国基本礼仪",
+              "通过动作表示尊重"
+            ],
+            "th": [
+              "เข้าใจมารยาทเกาหลีพื้นฐาน",
+              "แสดงความเคารพผ่านท่าทาง"
+            ],
+            "ko": [
+              "한국 예절 기본 이해하기",
+              "제스처로 존경 표시하기"
+            ],
+            "es": [
+              "Entender la etiqueta coreana básica",
+              "Mostrar respeto con gestos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "예절",
+              "romanization": "yejeol",
+              "meanings": {
+                "en": "Etiquette/Manners",
+                "zh": "礼节",
+                "th": "มารยาท",
+                "ko": "예절",
+                "es": "Etiqueta/Modales"
+              }
+            },
+            {
+              "word": "예의",
+              "romanization": "yeui",
+              "meanings": {
+                "en": "Courtesy",
+                "zh": "礼仪",
+                "th": "ความสุภาพ",
+                "ko": "예의",
+                "es": "Cortesía"
+              }
+            },
+            {
+              "word": "인사하다",
+              "romanization": "insahada",
+              "meanings": {
+                "en": "To greet",
+                "zh": "打招呼",
+                "th": "ทักทาย",
+                "ko": "인사하다",
+                "es": "Saludar"
+              }
+            },
+            {
+              "word": "절하다",
+              "romanization": "jeolhada",
+              "meanings": {
+                "en": "To bow",
+                "zh": "鞠躬",
+                "th": "โค้ง",
+                "ko": "절하다",
+                "es": "Hacer reverencia"
+              }
+            },
+            {
+              "word": "악수하다",
+              "romanization": "aksuhada",
+              "meanings": {
+                "en": "To shake hands",
+                "zh": "握手",
+                "th": "จับมือ",
+                "ko": "악수하다",
+                "es": "Dar la mano"
+              }
+            },
+            {
+              "word": "두 손",
+              "romanization": "du son",
+              "meanings": {
+                "en": "Both hands",
+                "zh": "双手",
+                "th": "สองมือ",
+                "ko": "두 손",
+                "es": "Ambas manos"
+              }
+            },
+            {
+              "word": "눈 맞추다",
+              "romanization": "nun majchuda",
+              "meanings": {
+                "en": "To make eye contact",
+                "zh": "对视",
+                "th": "สบตา",
+                "ko": "눈 맞추다",
+                "es": "Hacer contacto visual"
+              }
+            },
+            {
+              "word": "고개를 숙이다",
+              "romanization": "gogaereul sugida",
+              "meanings": {
+                "en": "To bow one's head",
+                "zh": "低头",
+                "th": "ก้มหัว",
+                "ko": "고개를 숙이다",
+                "es": "Inclinar la cabeza"
+              }
+            },
+            {
+              "word": "웃어른",
+              "romanization": "useoeoreun",
+              "meanings": {
+                "en": "Elders/Seniors",
+                "zh": "长辈",
+                "th": "ผู้ใหญ่/ผู้อาวุโส",
+                "ko": "웃어른",
+                "es": "Mayores"
+              }
+            },
+            {
+              "word": "존경",
+              "romanization": "jongyeong",
+              "meanings": {
+                "en": "Respect",
+                "zh": "尊敬",
+                "th": "ความเคารพ",
+                "ko": "존경",
+                "es": "Respeto"
+              }
+            },
+            {
+              "word": "무례",
+              "romanization": "murye",
+              "meanings": {
+                "en": "Rudeness",
+                "zh": "无礼",
+                "th": "ความหยาบคาย",
+                "ko": "무례",
+                "es": "Grosería"
+              }
+            },
+            {
+              "word": "정중하다",
+              "romanization": "jeongjunghada",
+              "meanings": {
+                "en": "To be polite",
+                "zh": "郑重",
+                "th": "สุภาพ",
+                "ko": "정중하다",
+                "es": "Ser cortés"
+              }
+            },
+            {
+              "word": "배려하다",
+              "romanization": "baeryeohada",
+              "meanings": {
+                "en": "To be considerate",
+                "zh": "体贴",
+                "th": "เอาใจใส่",
+                "ko": "배려하다",
+                "es": "Ser considerado"
+              }
+            },
+            {
+              "word": "양보하다",
+              "romanization": "yangbohada",
+              "meanings": {
+                "en": "To yield/concede",
+                "zh": "让步",
+                "th": "เสียสละ/ยอม",
+                "ko": "양보하다",
+                "es": "Ceder"
+              }
+            },
+            {
+              "word": "공경하다",
+              "romanization": "gonggyeonghada",
+              "meanings": {
+                "en": "To revere",
+                "zh": "恭敬",
+                "th": "ให้ความเคารพ",
+                "ko": "공경하다",
+                "es": "Reverenciar"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "절하다",
+              "romanization": "jeolhada",
+              "options": {
+                "en": [
+                  "To bow",
+                  "To shake hands",
+                  "To greet",
+                  "To yield"
+                ],
+                "zh": [
+                  "鞠躬",
+                  "握手",
+                  "打招呼",
+                  "让步"
+                ],
+                "th": [
+                  "โค้ง",
+                  "จับมือ",
+                  "ทักทาย",
+                  "ยอม"
+                ],
+                "ko": [
+                  "절하다",
+                  "악수하다",
+                  "인사하다",
+                  "양보하다"
+                ],
+                "es": [
+                  "Reverencia",
+                  "Dar la mano",
+                  "Saludar",
+                  "Ceder"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To be considerate' in Korean?",
+                "zh": "韩语中'体贴'怎么说？",
+                "th": "'เอาใจใส่' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '배려하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Ser considerado' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "배려하다",
+                  "양보하다",
+                  "공경하다",
+                  "정중하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "무례",
+              "romanization": "murye",
+              "options": {
+                "en": [
+                  "Rudeness",
+                  "Respect",
+                  "Courtesy",
+                  "Etiquette"
+                ],
+                "zh": [
+                  "无礼",
+                  "尊敬",
+                  "礼仪",
+                  "礼节"
+                ],
+                "th": [
+                  "หยาบคาย",
+                  "เคารพ",
+                  "สุภาพ",
+                  "มารยาท"
+                ],
+                "ko": [
+                  "무례",
+                  "존경",
+                  "예의",
+                  "예절"
+                ],
+                "es": [
+                  "Grosería",
+                  "Respeto",
+                  "Cortesía",
+                  "Etiqueta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "절하다",
+                  "romanization": "jeolhada",
+                  "native": {
+                    "en": "Bow",
+                    "zh": "鞠躬",
+                    "th": "โค้ง",
+                    "ko": "절하다",
+                    "es": "Reverencia"
+                  }
+                },
+                {
+                  "target": "악수하다",
+                  "romanization": "aksuhada",
+                  "native": {
+                    "en": "Shake hands",
+                    "zh": "握手",
+                    "th": "จับมือ",
+                    "ko": "악수하다",
+                    "es": "Dar la mano"
+                  }
+                },
+                {
+                  "target": "존경",
+                  "romanization": "jongyeong",
+                  "native": {
+                    "en": "Respect",
+                    "zh": "尊敬",
+                    "th": "เคารพ",
+                    "ko": "존경",
+                    "es": "Respeto"
+                  }
+                },
+                {
+                  "target": "배려",
+                  "romanization": "baeryeo",
+                  "native": {
+                    "en": "Consideration",
+                    "zh": "体贴",
+                    "th": "เอาใจใส่",
+                    "ko": "배려",
+                    "es": "Consideración"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Bow to elders'",
+                "zh": "说'向长辈鞠躬'",
+                "th": "พูดว่า 'โค้งคำนับผู้อาวุโส'",
+                "ko": "'웃어른에게 절해요'라고 말하세요",
+                "es": "Di 'Haga reverencia a los mayores'"
+              },
+              "words": [
+                "절해요",
+                "웃어른에게"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "웃어른에게",
+                  "절해요"
+                ]
+              },
+              "romanization": "useoeoreunege jeolhaeyo",
+              "tiles": {
+                "neutral": [
+                  "웃어른에게",
+                  "절해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "물건을 받을 때 _____ 받아요"
+              },
+              "hint": {
+                "en": "When receiving things, receive with _____",
+                "zh": "接东西时用_____接",
+                "th": "ตอนรับของต้องรับด้วย_____",
+                "ko": "물건을 받을 때 _____ 받아요",
+                "es": "Al recibir cosas, reciba con _____"
+              },
+              "options": [
+                "두 손으로",
+                "한 손으로",
+                "발로",
+                "입으로"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "두 손으로 = with both hands. In Korean etiquette, receiving objects with both hands shows respect.",
+                "zh": "두 손으로 = 用双手。在韩国礼仪中，双手接物表示尊重。",
+                "th": "두 손으로 = ด้วยสองมือ ในมารยาทเกาหลี การรับของด้วยสองมือแสดงความเคารพ",
+                "ko": "두 손으로 받아요는 한국 예절의 기본이에요.",
+                "es": "두 손으로 = con ambas manos. En la etiqueta coreana, recibir con ambas manos muestra respeto."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Learn Korean etiquette with Min — what are the key rules?",
+            "zh": "和Min学韩国礼仪——有哪些重要规矩？",
+            "th": "เรียนมารยาทเกาหลีกับ Min — กฎสำคัญมีอะไรบ้าง?",
+            "ko": "Min과 한국 예절을 배워 보세요 — 중요한 규칙이 뭐예요?",
+            "es": "Aprende etiqueta coreana con Min — ¿cuáles son las reglas principales?"
+          }
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Dining & Drinking Etiquette",
+            "ko": "식사와 음주 예절",
+            "zh": "餐饮礼仪",
+            "th": "มารยาทการกินและดื่ม",
+            "es": "Etiqueta en la mesa y al beber"
+          },
+          "objectives": {
+            "en": [
+              "Follow Korean dining etiquette",
+              "Know drinking culture rules"
+            ],
+            "zh": [
+              "遵守韩国用餐礼仪",
+              "了解饮酒文化规则"
+            ],
+            "th": [
+              "ปฏิบัติตามมารยาทโต๊ะอาหารเกาหลี",
+              "รู้กฎวัฒนธรรมการดื่ม"
+            ],
+            "ko": [
+              "한국 식사 예절 따르기",
+              "술 문화 규칙 알기"
+            ],
+            "es": [
+              "Seguir la etiqueta de comida coreana",
+              "Conocer las reglas de la cultura de bebida"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "식사 예절",
+              "romanization": "siksa yejeol2",
+              "meanings": {
+                "en": "Table manners",
+                "zh": "餐桌礼仪",
+                "th": "มารยาทบนโต๊ะอาหาร",
+                "ko": "식사 예절",
+                "es": "Modales en la mesa"
+              }
+            },
+            {
+              "word": "술 예절",
+              "romanization": "sul yejeol",
+              "meanings": {
+                "en": "Drinking etiquette",
+                "zh": "饮酒礼仪",
+                "th": "มารยาทการดื่ม",
+                "ko": "술 예절",
+                "es": "Etiqueta de bebida"
+              }
+            },
+            {
+              "word": "고개를 돌리다",
+              "romanization": "gogaereul dollida",
+              "meanings": {
+                "en": "To turn one's head",
+                "zh": "转头",
+                "th": "หันหน้า",
+                "ko": "고개를 돌리다",
+                "es": "Girar la cabeza"
+              }
+            },
+            {
+              "word": "따르다",
+              "romanization": "ttareuda",
+              "meanings": {
+                "en": "To pour (drink)",
+                "zh": "倒（酒）",
+                "th": "รินเครื่องดื่ม",
+                "ko": "따르다",
+                "es": "Servir (bebida)"
+              }
+            },
+            {
+              "word": "잔을 비우다",
+              "romanization": "janeul biuda",
+              "meanings": {
+                "en": "To empty one's glass",
+                "zh": "干杯",
+                "th": "ดื่มหมดแก้ว",
+                "ko": "잔을 비우다",
+                "es": "Vaciar el vaso"
+              }
+            },
+            {
+              "word": "첫 잔",
+              "romanization": "cheot jan",
+              "meanings": {
+                "en": "First glass",
+                "zh": "第一杯",
+                "th": "แก้วแรก",
+                "ko": "첫 잔",
+                "es": "Primer vaso"
+              }
+            },
+            {
+              "word": "도리다",
+              "romanization": "dorida",
+              "meanings": {
+                "en": "To turn away (when drinking)",
+                "zh": "转过去（喝酒时）",
+                "th": "หันหน้าไป（ดื่ม）",
+                "ko": "도리다",
+                "es": "Voltear (al beber)"
+              }
+            },
+            {
+              "word": "젓가락 꽂다",
+              "romanization": "jeotgarak kkotda",
+              "meanings": {
+                "en": "To stick chopsticks (upright)",
+                "zh": "插筷子",
+                "th": "ปักตะเกียบ",
+                "ko": "젓가락 꽂다",
+                "es": "Clavar palillos"
+              }
+            },
+            {
+              "word": "밥에 숟가락",
+              "romanization": "babe sutgarak",
+              "meanings": {
+                "en": "Spoon in rice",
+                "zh": "饭里的勺子",
+                "th": "ช้อนในข้าว",
+                "ko": "밥에 숟가락",
+                "es": "Cuchara en arroz"
+              }
+            },
+            {
+              "word": "금기",
+              "romanization": "geumgi",
+              "meanings": {
+                "en": "Taboo",
+                "zh": "禁忌",
+                "th": "ข้อห้าม",
+                "ko": "금기",
+                "es": "Tabú"
+              }
+            },
+            {
+              "word": "소리 내다",
+              "romanization": "sori naeda",
+              "meanings": {
+                "en": "To make noise",
+                "zh": "发出声音",
+                "th": "ทำเสียง",
+                "ko": "소리 내다",
+                "es": "Hacer ruido"
+              }
+            },
+            {
+              "word": "국수를 먹다",
+              "romanization": "guksureul meokda",
+              "meanings": {
+                "en": "To eat noodles",
+                "zh": "吃面条",
+                "th": "กินก๋วยเตี๋ยว",
+                "ko": "국수를 먹다",
+                "es": "Comer fideos"
+              }
+            },
+            {
+              "word": "소리 내서 먹다",
+              "romanization": "sori naeseo meokda",
+              "meanings": {
+                "en": "To eat noisily",
+                "zh": "发出声音吃",
+                "th": "กินมีเสียง",
+                "ko": "소리 내서 먹다",
+                "es": "Comer con ruido"
+              }
+            },
+            {
+              "word": "건배사",
+              "romanization": "geonbaesa",
+              "meanings": {
+                "en": "Toast (speech)",
+                "zh": "干杯词",
+                "th": "คำอวยพร",
+                "ko": "건배사",
+                "es": "Brindis"
+              }
+            },
+            {
+              "word": "음식을 나누다",
+              "romanization": "eumsigeul nanuda",
+              "meanings": {
+                "en": "To share food",
+                "zh": "分享食物",
+                "th": "แบ่งอาหาร",
+                "ko": "음식을 나누다",
+                "es": "Compartir comida"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "금기",
+              "romanization": "geumgi",
+              "options": {
+                "en": [
+                  "Taboo",
+                  "Etiquette",
+                  "Drinking",
+                  "Table manners"
+                ],
+                "zh": [
+                  "禁忌",
+                  "礼仪",
+                  "饮酒",
+                  "餐桌"
+                ],
+                "th": [
+                  "ข้อห้าม",
+                  "มารยาท",
+                  "การดื่ม",
+                  "โต๊ะอาหาร"
+                ],
+                "ko": [
+                  "금기",
+                  "예절",
+                  "술",
+                  "식사"
+                ],
+                "es": [
+                  "Tabú",
+                  "Etiqueta",
+                  "Bebida",
+                  "Mesa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To pour (drink)' in Korean?",
+                "zh": "韩语中'倒酒'怎么说？",
+                "th": "'รินเครื่องดื่ม' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '따르다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Servir (bebida)' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "따르다",
+                  "마시다",
+                  "비우다",
+                  "돌리다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "건배사",
+              "romanization": "geonbaesa",
+              "options": {
+                "en": [
+                  "Toast speech",
+                  "Taboo",
+                  "Table manners",
+                  "Drinking etiquette"
+                ],
+                "zh": [
+                  "干杯词",
+                  "禁忌",
+                  "餐桌礼仪",
+                  "饮酒礼仪"
+                ],
+                "th": [
+                  "คำอวยพร",
+                  "ข้อห้าม",
+                  "มารยาทโต๊ะ",
+                  "มารยาทดื่ม"
+                ],
+                "ko": [
+                  "건배사",
+                  "금기",
+                  "식사 예절",
+                  "술 예절"
+                ],
+                "es": [
+                  "Brindis",
+                  "Tabú",
+                  "Mesa",
+                  "Bebida"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "따르다",
+                  "romanization": "ttareuda",
+                  "native": {
+                    "en": "Pour",
+                    "zh": "倒",
+                    "th": "รินเครื่องดื่ม",
+                    "ko": "따르다",
+                    "es": "Servir"
+                  }
+                },
+                {
+                  "target": "금기",
+                  "romanization": "geumgi",
+                  "native": {
+                    "en": "Taboo",
+                    "zh": "禁忌",
+                    "th": "ข้อห้าม",
+                    "ko": "금기",
+                    "es": "Tabú"
+                  }
+                },
+                {
+                  "target": "건배사",
+                  "romanization": "geonbaesa",
+                  "native": {
+                    "en": "Toast",
+                    "zh": "干杯词",
+                    "th": "คำอวยพร",
+                    "ko": "건배사",
+                    "es": "Brindis"
+                  }
+                },
+                {
+                  "target": "음식을 나누다",
+                  "romanization": "eumsigeul nanuda",
+                  "native": {
+                    "en": "Share food",
+                    "zh": "分享",
+                    "th": "แบ่งอาหาร",
+                    "ko": "음식을 나누다",
+                    "es": "Compartir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Shall we toast?'",
+                "zh": "说'干杯吧？'",
+                "th": "พูดว่า 'ชนแก้วกัน?'",
+                "ko": "'건배할까요?'라고 말하세요",
+                "es": "Di '¿Brindamos?'"
+              },
+              "words": [
+                "건배할까요?"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "건배할까요?"
+                ]
+              },
+              "romanization": "geonbaehalkkayo",
+              "tiles": {
+                "neutral": [
+                  "건배할까요?"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "어른 앞에서 술을 마실 때 _____ 마셔요"
+              },
+              "hint": {
+                "en": "When drinking in front of elders, drink _____",
+                "zh": "在长辈面前喝酒时_____喝",
+                "th": "ดื่มต่อหน้าผู้ใหญ่ต้อง_____",
+                "ko": "어른 앞에서 술을 마실 때 _____ 마셔요",
+                "es": "Al beber frente a mayores, beba _____"
+              },
+              "options": [
+                "고개를 돌리고",
+                "정면을 보고",
+                "큰 소리로",
+                "빨리"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "고개를 돌리고 = turning your head. When drinking near elders, Koreans turn away as a sign of respect.",
+                "zh": "고개를 돌리고 = 转过头。在长辈面前喝酒时韩国人会转过头表示尊重。",
+                "th": "고개를 돌리고 = หันหน้าไป เมื่อดื่มใกล้ผู้ใหญ่ คนเกาหลีจะหันหน้าแสดงความเคารพ",
+                "ko": "고개를 돌리고 마셔요는 한국 술 문화의 기본 예절이에요.",
+                "es": "고개를 돌리고 = girando la cabeza. Al beber cerca de mayores, los coreanos giran como señal de respeto."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Min teaches you Korean dining and drinking etiquette — what are the rules?",
+            "zh": "Min教你韩国餐桌和酒桌礼仪——有哪些规矩？",
+            "th": "Min สอนมารยาทการกินและดื่มเกาหลี — มีกฎอะไรบ้าง?",
+            "ko": "Min이 한국 식사와 음주 예절을 알려줍니다 — 규칙이 뭐예요?",
+            "es": "Min te enseña la etiqueta coreana en la mesa y al beber — ¿cuáles son las reglas?"
+          }
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Holidays & Visiting",
+            "ko": "명절과 방문",
+            "zh": "节日与拜访",
+            "th": "วันหยุดและการเยี่ยมเยือน",
+            "es": "Festividades y visitas"
+          },
+          "objectives": {
+            "en": [
+              "Practice Korean holiday customs",
+              "Follow visiting etiquette"
+            ],
+            "zh": [
+              "练习韩国节日习俗",
+              "遵守拜访礼仪"
+            ],
+            "th": [
+              "ฝึกประเพณีวันหยุดเกาหลี",
+              "ปฏิบัติตามมารยาทการเยี่ยม"
+            ],
+            "ko": [
+              "한국 명절 풍습 연습하기",
+              "방문 예절 지키기"
+            ],
+            "es": [
+              "Practicar costumbres festivas coreanas",
+              "Seguir la etiqueta de visita"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "명절 예절",
+              "romanization": "myeongjeol yejeol",
+              "meanings": {
+                "en": "Holiday etiquette",
+                "zh": "节日礼仪",
+                "th": "มารยาทวันหยุด",
+                "ko": "명절 예절",
+                "es": "Etiqueta festiva"
+              }
+            },
+            {
+              "word": "세배",
+              "romanization": "sebae",
+              "meanings": {
+                "en": "New Year's bow",
+                "zh": "磕头拜年",
+                "th": "ไหว้ปีใหม่",
+                "ko": "세배",
+                "es": "Reverencia de Año Nuevo"
+              }
+            },
+            {
+              "word": "세뱃돈",
+              "romanization": "sebaetdon",
+              "meanings": {
+                "en": "New Year's money",
+                "zh": "压岁钱",
+                "th": "เงินวันปีใหม่",
+                "ko": "세뱃돈",
+                "es": "Dinero de Año Nuevo"
+              }
+            },
+            {
+              "word": "차례",
+              "romanization": "charye",
+              "meanings": {
+                "en": "Ancestral rites",
+                "zh": "祭祀",
+                "th": "พิธีเซ่นไหว้บรรพบุรุษ",
+                "ko": "차례",
+                "es": "Rito ancestral"
+              }
+            },
+            {
+              "word": "한복",
+              "romanization": "hanbok",
+              "meanings": {
+                "en": "Korean traditional dress",
+                "zh": "韩服",
+                "th": "ชุดเกาหลีดั้งเดิม",
+                "ko": "한복",
+                "es": "Vestimenta tradicional coreana"
+              }
+            },
+            {
+              "word": "덕담",
+              "romanization": "deokdam",
+              "meanings": {
+                "en": "Well-wishing words",
+                "zh": "祝福话",
+                "th": "คำอวยพร",
+                "ko": "덕담",
+                "es": "Palabras de buenos deseos"
+              }
+            },
+            {
+              "word": "떡국 먹다",
+              "romanization": "tteokguk meokda",
+              "meanings": {
+                "en": "To eat rice cake soup",
+                "zh": "吃年糕汤",
+                "th": "กินซุปต๊อก",
+                "ko": "떡국 먹다",
+                "es": "Comer sopa de tteok"
+              }
+            },
+            {
+              "word": "방문 예절",
+              "romanization": "bangmun yejeol",
+              "meanings": {
+                "en": "Visiting etiquette",
+                "zh": "拜访礼仪",
+                "th": "มารยาทการเยี่ยม",
+                "ko": "방문 예절",
+                "es": "Etiqueta de visita"
+              }
+            },
+            {
+              "word": "신발을 벗다",
+              "romanization": "sinbareul beotda",
+              "meanings": {
+                "en": "To take off shoes",
+                "zh": "脱鞋",
+                "th": "ถอดรองเท้า",
+                "ko": "신발을 벗다",
+                "es": "Quitarse los zapatos"
+              }
+            },
+            {
+              "word": "손님",
+              "romanization": "sonnim",
+              "meanings": {
+                "en": "Guest",
+                "zh": "客人",
+                "th": "แขก",
+                "ko": "손님",
+                "es": "Invitado"
+              }
+            },
+            {
+              "word": "대접하다",
+              "romanization": "daejeopada",
+              "meanings": {
+                "en": "To treat/serve (guest)",
+                "zh": "招待",
+                "th": "เลี้ยงรับรอง",
+                "ko": "대접하다",
+                "es": "Atender/Servir"
+              }
+            },
+            {
+              "word": "환영하다",
+              "romanization": "hwanyeonghada",
+              "meanings": {
+                "en": "To welcome",
+                "zh": "欢迎",
+                "th": "ต้อนรับ",
+                "ko": "환영하다",
+                "es": "Dar la bienvenida"
+              }
+            },
+            {
+              "word": "어서 오세요",
+              "romanization": "eoseo oseyo",
+              "meanings": {
+                "en": "Welcome (come in)",
+                "zh": "欢迎光临",
+                "th": "ยินดีต้อนรับ",
+                "ko": "어서 오세요",
+                "es": "Bienvenido/a"
+              }
+            },
+            {
+              "word": "편히 쉬세요",
+              "romanization": "pyeonhi swiseyo",
+              "meanings": {
+                "en": "Rest comfortably",
+                "zh": "请好好休息",
+                "th": "พักผ่อนสบายๆ",
+                "ko": "편히 쉬세요",
+                "es": "Descanse cómodamente"
+              }
+            },
+            {
+              "word": "잘 가세요",
+              "romanization": "jal gaseyo",
+              "meanings": {
+                "en": "Go well (goodbye)",
+                "zh": "走好",
+                "th": "เดินทางปลอดภัย",
+                "ko": "잘 가세요",
+                "es": "Que le vaya bien"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "세배",
+              "romanization": "sebae",
+              "options": {
+                "en": [
+                  "New Year's bow",
+                  "New Year's money",
+                  "Holiday",
+                  "Ancestral rites"
+                ],
+                "zh": [
+                  "磕头拜年",
+                  "压岁钱",
+                  "节日",
+                  "祭祀"
+                ],
+                "th": [
+                  "ไหว้ปีใหม่",
+                  "เงินปีใหม่",
+                  "วันหยุด",
+                  "เซ่นไหว้"
+                ],
+                "ko": [
+                  "세배",
+                  "세뱃돈",
+                  "명절",
+                  "차례"
+                ],
+                "es": [
+                  "Reverencia",
+                  "Dinero",
+                  "Festividad",
+                  "Rito"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To take off shoes' in Korean?",
+                "zh": "韩语中'脱鞋'怎么说？",
+                "th": "'ถอดรองเท้า' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '신발을 벗다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Quitarse los zapatos' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "신발을 벗다",
+                  "한복을 입다",
+                  "세배를 하다",
+                  "떡국을 먹다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "어서 오세요",
+              "romanization": "eoseo oseyo",
+              "options": {
+                "en": [
+                  "Welcome",
+                  "Goodbye",
+                  "Rest well",
+                  "Thank you"
+                ],
+                "zh": [
+                  "欢迎",
+                  "再见",
+                  "休息好",
+                  "谢谢"
+                ],
+                "th": [
+                  "ยินดีต้อนรับ",
+                  "ลาก่อน",
+                  "พักผ่อน",
+                  "ขอบคุณ"
+                ],
+                "ko": [
+                  "어서 오세요",
+                  "잘 가세요",
+                  "편히 쉬세요",
+                  "감사합니다"
+                ],
+                "es": [
+                  "Bienvenido",
+                  "Adiós",
+                  "Descanse",
+                  "Gracias"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "세배",
+                  "romanization": "sebae",
+                  "native": {
+                    "en": "NY bow",
+                    "zh": "拜年",
+                    "th": "ไหว้ปีใหม่",
+                    "ko": "세배",
+                    "es": "Reverencia"
+                  }
+                },
+                {
+                  "target": "세뱃돈",
+                  "romanization": "sebaetdon",
+                  "native": {
+                    "en": "NY money",
+                    "zh": "压岁钱",
+                    "th": "เงินปีใหม่",
+                    "ko": "세뱃돈",
+                    "es": "Dinero"
+                  }
+                },
+                {
+                  "target": "한복",
+                  "romanization": "hanbok",
+                  "native": {
+                    "en": "Hanbok",
+                    "zh": "韩服",
+                    "th": "ชุดเกาหลี",
+                    "ko": "한복",
+                    "es": "Hanbok"
+                  }
+                },
+                {
+                  "target": "차례",
+                  "romanization": "charye",
+                  "native": {
+                    "en": "Ancestral rite",
+                    "zh": "祭祀",
+                    "th": "เซ่นไหว้",
+                    "ko": "차례",
+                    "es": "Rito"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Welcome, come in!'",
+                "zh": "说'欢迎光临！'",
+                "th": "พูดว่า 'ยินดีต้อนรับ!'",
+                "ko": "'어서 오세요!'라고 말하세요",
+                "es": "Di '¡Bienvenido, pase!'"
+              },
+              "words": [
+                "오세요!",
+                "어서"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "어서",
+                  "오세요!"
+                ]
+              },
+              "romanization": "eoseo oseyo",
+              "tiles": {
+                "neutral": [
+                  "어서",
+                  "오세요!"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국 집에 들어갈 때 _____ 해야 해요"
+              },
+              "hint": {
+                "en": "When entering a Korean home you must _____",
+                "zh": "进韩国人家时要_____",
+                "th": "เข้าบ้านเกาหลีต้อง_____",
+                "ko": "한국 집에 들어갈 때 _____ 해야 해요",
+                "es": "Al entrar a una casa coreana debe _____"
+              },
+              "options": [
+                "신발을 벗어야",
+                "모자를 써야",
+                "인사를 안",
+                "큰 소리로"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "신발을 벗어야 = take off shoes. Always remove shoes when entering a Korean home.",
+                "zh": "신발을 벗어야 = 脱鞋。进韩国人家一定要脱鞋。",
+                "th": "신발을 벗어야 = ถอดรองเท้า ต้องถอดรองเท้าทุกครั้งเมื่อเข้าบ้านเกาหลี",
+                "ko": "신발을 벗어야 해요는 한국 가정 방문의 기본 예절이에요.",
+                "es": "신발을 벗어야 = quitarse los zapatos. Siempre quítese los zapatos al entrar en una casa coreana."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Celebrate 설날 with Min — what customs should you follow?",
+            "zh": "和Min一起过설날——应该遵循什么习俗？",
+            "th": "ฉลอง 설날 กับ Min — ควรปฏิบัติตามประเพณีอะไร?",
+            "ko": "Min과 설날을 함께 보내세요 — 어떤 풍습을 따라야 할까요?",
+            "es": "Celebra 설날 con Min — ¿qué costumbres debes seguir?"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Digital & Pop Culture",
+        "ko": "디지털과 대중문화",
+        "zh": "数字与流行文化",
+        "th": "ดิจิทัลและวัฒนธรรมป๊อป",
+        "es": "Cultura digital y pop"
+      },
+      "description": {
+        "en": "Learn K-pop culture, social media, and Korean internet slang",
+        "zh": "学习K-pop文化、社交媒体和韩国网络俚语",
+        "th": "เรียนรู้วัฒนธรรมเคป็อป โซเชียลมีเดีย และสแลงอินเทอร์เน็ตเกาหลี",
+        "ko": "케이팝 문화, SNS, 한국 인터넷 유행어 배우기",
+        "es": "Aprender cultura K-pop, redes sociales y argot de internet coreano"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Korean Pop Culture",
+            "ko": "한국 대중문화",
+            "zh": "韩国流行文化",
+            "th": "วัฒนธรรมป๊อปเกาหลี",
+            "es": "Cultura pop coreana"
+          },
+          "objectives": {
+            "en": [
+              "Talk about K-pop and Korean entertainment",
+              "Express preferences about Korean media"
+            ],
+            "zh": [
+              "谈论K-pop和韩国娱乐",
+              "表达对韩国媒体的喜好"
+            ],
+            "th": [
+              "พูดเรื่องเคป็อปและบันเทิงเกาหลี",
+              "แสดงความชอบเกี่ยวกับสื่อเกาหลี"
+            ],
+            "ko": [
+              "케이팝과 한국 엔터테인먼트 이야기하기",
+              "한국 미디어 취향 표현하기"
+            ],
+            "es": [
+              "Hablar de K-pop y entretenimiento coreano",
+              "Expresar preferencias sobre medios coreanos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "한류",
+              "romanization": "hallyu",
+              "meanings": {
+                "en": "Korean Wave",
+                "zh": "韩流",
+                "th": "กระแสเกาหลี",
+                "ko": "한류",
+                "es": "Ola coreana"
+              }
+            },
+            {
+              "word": "케이팝",
+              "romanization": "keipap",
+              "meanings": {
+                "en": "K-pop",
+                "zh": "K-pop",
+                "th": "เคป็อป",
+                "ko": "케이팝",
+                "es": "K-pop"
+              }
+            },
+            {
+              "word": "아이돌",
+              "romanization": "aidol",
+              "meanings": {
+                "en": "Idol",
+                "zh": "偶像",
+                "th": "ไอดอล",
+                "ko": "아이돌",
+                "es": "Ídolo"
+              }
+            },
+            {
+              "word": "팬",
+              "romanization": "paen",
+              "meanings": {
+                "en": "Fan",
+                "zh": "粉丝",
+                "th": "แฟน（ผู้ชม）",
+                "ko": "팬",
+                "es": "Fan"
+              }
+            },
+            {
+              "word": "콘서트",
+              "romanization": "konseoteu",
+              "meanings": {
+                "en": "Concert",
+                "zh": "演唱会",
+                "th": "คอนเสิร์ต",
+                "ko": "콘서트",
+                "es": "Concierto"
+              }
+            },
+            {
+              "word": "노래",
+              "romanization": "norae",
+              "meanings": {
+                "en": "Song",
+                "zh": "歌",
+                "th": "เพลง",
+                "ko": "노래",
+                "es": "Canción"
+              }
+            },
+            {
+              "word": "춤",
+              "romanization": "chum",
+              "meanings": {
+                "en": "Dance",
+                "zh": "舞蹈",
+                "th": "การเต้น",
+                "ko": "춤",
+                "es": "Baile"
+              }
+            },
+            {
+              "word": "뮤직비디오",
+              "romanization": "myujikbidio",
+              "meanings": {
+                "en": "Music video",
+                "zh": "MV",
+                "th": "มิวสิกวิดีโอ",
+                "ko": "뮤직비디오",
+                "es": "Video musical"
+              }
+            },
+            {
+              "word": "앨범",
+              "romanization": "aelbom",
+              "meanings": {
+                "en": "Album",
+                "zh": "专辑",
+                "th": "อัลบั้ม",
+                "ko": "앨범",
+                "es": "Álbum"
+              }
+            },
+            {
+              "word": "가수",
+              "romanization": "gasu",
+              "meanings": {
+                "en": "Singer",
+                "zh": "歌手",
+                "th": "นักร้อง",
+                "ko": "가수",
+                "es": "Cantante"
+              }
+            },
+            {
+              "word": "배우",
+              "romanization": "baeu",
+              "meanings": {
+                "en": "Actor/Actress",
+                "zh": "演员",
+                "th": "นักแสดง",
+                "ko": "배우",
+                "es": "Actor/Actriz"
+              }
+            },
+            {
+              "word": "방송",
+              "romanization": "bangsong",
+              "meanings": {
+                "en": "Broadcast",
+                "zh": "节目",
+                "th": "รายการ",
+                "ko": "방송",
+                "es": "Transmisión"
+              }
+            },
+            {
+              "word": "예능",
+              "romanization": "yeneung",
+              "meanings": {
+                "en": "Variety show",
+                "zh": "综艺",
+                "th": "วาไรตี้โชว์",
+                "ko": "예능",
+                "es": "Programa de variedades"
+              }
+            },
+            {
+              "word": "웹툰",
+              "romanization": "webtun",
+              "meanings": {
+                "en": "Webtoon",
+                "zh": "网漫",
+                "th": "เว็บตูน",
+                "ko": "웹툰",
+                "es": "Webtoon"
+              }
+            },
+            {
+              "word": "OST",
+              "romanization": "OST",
+              "meanings": {
+                "en": "OST (Original Soundtrack)",
+                "zh": "原声带",
+                "th": "เพลงประกอบ",
+                "ko": "OST",
+                "es": "Banda sonora"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "한류",
+              "romanization": "hallyu",
+              "options": {
+                "en": [
+                  "Korean Wave",
+                  "K-pop",
+                  "Idol",
+                  "Concert"
+                ],
+                "zh": [
+                  "韩流",
+                  "K-pop",
+                  "偶像",
+                  "演唱会"
+                ],
+                "th": [
+                  "กระแสเกาหลี",
+                  "เคป็อป",
+                  "ไอดอล",
+                  "คอนเสิร์ต"
+                ],
+                "ko": [
+                  "한류",
+                  "케이팝",
+                  "아이돌",
+                  "콘서트"
+                ],
+                "es": [
+                  "Ola coreana",
+                  "K-pop",
+                  "Ídolo",
+                  "Concierto"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Variety show' in Korean?",
+                "zh": "韩语中'综艺'怎么说？",
+                "th": "'วาไรตี้โชว์' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '예능'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Programa de variedades' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "예능",
+                  "방송",
+                  "웹툰",
+                  "드라마"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "웹툰",
+              "romanization": "webtun",
+              "options": {
+                "en": [
+                  "Webtoon",
+                  "Album",
+                  "Music video",
+                  "OST"
+                ],
+                "zh": [
+                  "网漫",
+                  "专辑",
+                  "MV",
+                  "原声带"
+                ],
+                "th": [
+                  "เว็บตูน",
+                  "อัลบั้ม",
+                  "มิวสิกวิดีโอ",
+                  "เพลงประกอบ"
+                ],
+                "ko": [
+                  "웹툰",
+                  "앨범",
+                  "뮤직비디오",
+                  "OST"
+                ],
+                "es": [
+                  "Webtoon",
+                  "Álbum",
+                  "Video",
+                  "OST"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "가수",
+                  "romanization": "gasu",
+                  "native": {
+                    "en": "Singer",
+                    "zh": "歌手",
+                    "th": "นักร้อง",
+                    "ko": "가수",
+                    "es": "Cantante"
+                  }
+                },
+                {
+                  "target": "배우",
+                  "romanization": "baeu",
+                  "native": {
+                    "en": "Actor",
+                    "zh": "演员",
+                    "th": "นักแสดง",
+                    "ko": "배우",
+                    "es": "Actor"
+                  }
+                },
+                {
+                  "target": "노래",
+                  "romanization": "norae",
+                  "native": {
+                    "en": "Song",
+                    "zh": "歌",
+                    "th": "เพลง",
+                    "ko": "노래",
+                    "es": "Canción"
+                  }
+                },
+                {
+                  "target": "춤",
+                  "romanization": "chum",
+                  "native": {
+                    "en": "Dance",
+                    "zh": "舞蹈",
+                    "th": "เต้น",
+                    "ko": "춤",
+                    "es": "Baile"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I like K-pop'",
+                "zh": "说'我喜欢K-pop'",
+                "th": "พูดว่า 'ฉันชอบเคป็อป'",
+                "ko": "'케이팝을 좋아해요'라고 말하세요",
+                "es": "Di 'Me gusta el K-pop'"
+              },
+              "words": [
+                "좋아해요",
+                "케이팝을"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "케이팝을",
+                  "좋아해요"
+                ]
+              },
+              "romanization": "keipapeul joahaeyo",
+              "tiles": {
+                "neutral": [
+                  "케이팝을",
+                  "좋아해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한류 덕분에 한국어를 _____ 사람이 많아요"
+              },
+              "hint": {
+                "en": "Thanks to Hallyu many people _____ Korean",
+                "zh": "多亏韩流很多人_____韩语",
+                "th": "เพราะฮันรยูคนจำนวนมาก_____ภาษาเกาหลี",
+                "ko": "한류 덕분에 한국어를 _____ 사람이 많아요",
+                "es": "Gracias a Hallyu muchas personas _____ coreano"
+              },
+              "options": [
+                "배우는",
+                "파는",
+                "읽는",
+                "쓰는"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "배우는 = learn/study. The Korean Wave has motivated many people worldwide to study Korean.",
+                "zh": "배우는 = 学习。韩流激励了世界各地许多人学习韩语。",
+                "th": "배우는 = เรียน กระแสเกาหลีทำให้คนทั่วโลกเรียนภาษาเกาหลี",
+                "ko": "배우는 사람이 많아요는 한류의 영향으로 한국어 학습자가 늘었다는 뜻이에요.",
+                "es": "배우는 = aprender. La Ola Coreana ha motivado a muchas personas a estudiar coreano."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Chat about K-pop with Min — who's your favorite 아이돌?",
+            "zh": "和Min聊K-pop——你最喜欢的아이돌是谁？",
+            "th": "คุยเรื่อง K-pop กับ Min — 아이돌 คนโปรดคือใคร?",
+            "ko": "Min과 K-pop에 대해 이야기해 보세요 — 좋아하는 아이돌이 누구예요?",
+            "es": "Habla de K-pop con Min — ¿quién es tu 아이돌 favorito?"
+          }
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Social Media",
+            "ko": "소셜 미디어",
+            "zh": "社交媒体",
+            "th": "โซเชียลมีเดีย",
+            "es": "Redes sociales"
+          },
+          "objectives": {
+            "en": [
+              "Navigate Korean social media",
+              "Discuss online culture"
+            ],
+            "zh": [
+              "使用韩国社交媒体",
+              "讨论网络文化"
+            ],
+            "th": [
+              "ใช้โซเชียลมีเดียเกาหลี",
+              "พูดคุยวัฒนธรรมออนไลน์"
+            ],
+            "ko": [
+              "한국 SNS 이용하기",
+              "온라인 문화 이야기하기"
+            ],
+            "es": [
+              "Navegar redes sociales coreanas",
+              "Discutir cultura en línea"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "SNS",
+              "romanization": "SNS",
+              "meanings": {
+                "en": "Social media",
+                "zh": "社交媒体",
+                "th": "โซเชียลมีเดีย",
+                "ko": "SNS",
+                "es": "Redes sociales"
+              }
+            },
+            {
+              "word": "인스타그램",
+              "romanization": "inseutageuraem",
+              "meanings": {
+                "en": "Instagram",
+                "zh": "Instagram",
+                "th": "อินสตาแกรม",
+                "ko": "인스타그램",
+                "es": "Instagram"
+              }
+            },
+            {
+              "word": "유튜브",
+              "romanization": "yutyubeu",
+              "meanings": {
+                "en": "YouTube",
+                "zh": "YouTube",
+                "th": "ยูทูบ",
+                "ko": "유튜브",
+                "es": "YouTube"
+              }
+            },
+            {
+              "word": "팔로우",
+              "romanization": "palrou",
+              "meanings": {
+                "en": "Follow",
+                "zh": "关注",
+                "th": "ติดตาม",
+                "ko": "팔로우",
+                "es": "Seguir"
+              }
+            },
+            {
+              "word": "좋아요",
+              "romanization": "joayo",
+              "meanings": {
+                "en": "Like (social media)",
+                "zh": "点赞",
+                "th": "ถูกใจ",
+                "ko": "좋아요",
+                "es": "Me gusta"
+              }
+            },
+            {
+              "word": "댓글",
+              "romanization": "daetgeul",
+              "meanings": {
+                "en": "Comment",
+                "zh": "评论",
+                "th": "คอมเมนต์",
+                "ko": "댓글",
+                "es": "Comentario"
+              }
+            },
+            {
+              "word": "공유하다",
+              "romanization": "gongyuhada",
+              "meanings": {
+                "en": "To share",
+                "zh": "分享",
+                "th": "แชร์",
+                "ko": "공유하다",
+                "es": "Compartir"
+              }
+            },
+            {
+              "word": "게시물",
+              "romanization": "gesimul",
+              "meanings": {
+                "en": "Post",
+                "zh": "帖子",
+                "th": "โพสต์",
+                "ko": "게시물",
+                "es": "Publicación"
+              }
+            },
+            {
+              "word": "스토리",
+              "romanization": "seutori",
+              "meanings": {
+                "en": "Story",
+                "zh": "动态",
+                "th": "สตอรี่",
+                "ko": "스토리",
+                "es": "Historia"
+              }
+            },
+            {
+              "word": "해시태그",
+              "romanization": "haesitaegeu",
+              "meanings": {
+                "en": "Hashtag",
+                "zh": "话题标签",
+                "th": "แฮชแท็ก",
+                "ko": "해시태그",
+                "es": "Hashtag"
+              }
+            },
+            {
+              "word": "셀카",
+              "romanization": "selka",
+              "meanings": {
+                "en": "Selfie",
+                "zh": "自拍",
+                "th": "เซลฟี่",
+                "ko": "셀카",
+                "es": "Selfie"
+              }
+            },
+            {
+              "word": "필터",
+              "romanization": "pilteo",
+              "meanings": {
+                "en": "Filter",
+                "zh": "滤镜",
+                "th": "ฟิลเตอร์",
+                "ko": "필터",
+                "es": "Filtro"
+              }
+            },
+            {
+              "word": "바이럴",
+              "romanization": "baireo",
+              "meanings": {
+                "en": "Viral",
+                "zh": "走红",
+                "th": "ไวรัล",
+                "ko": "바이럴",
+                "es": "Viral"
+              }
+            },
+            {
+              "word": "구독하다",
+              "romanization": "gudokhada",
+              "meanings": {
+                "en": "To subscribe",
+                "zh": "订阅",
+                "th": "สมัครสมาชิก",
+                "ko": "구독하다",
+                "es": "Suscribirse"
+              }
+            },
+            {
+              "word": "알림",
+              "romanization": "allim",
+              "meanings": {
+                "en": "Notification",
+                "zh": "通知",
+                "th": "แจ้งเตือน",
+                "ko": "알림",
+                "es": "Notificación"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "셀카",
+              "romanization": "selka",
+              "options": {
+                "en": [
+                  "Selfie",
+                  "Filter",
+                  "Story",
+                  "Hashtag"
+                ],
+                "zh": [
+                  "自拍",
+                  "滤镜",
+                  "动态",
+                  "话题"
+                ],
+                "th": [
+                  "เซลฟี่",
+                  "ฟิลเตอร์",
+                  "สตอรี่",
+                  "แฮชแท็ก"
+                ],
+                "ko": [
+                  "셀카",
+                  "필터",
+                  "스토리",
+                  "해시태그"
+                ],
+                "es": [
+                  "Selfie",
+                  "Filtro",
+                  "Historia",
+                  "Hashtag"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To subscribe' in Korean?",
+                "zh": "韩语中'订阅'怎么说？",
+                "th": "'สมัครสมาชิก' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '구독하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Suscribirse' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "구독하다",
+                  "공유하다",
+                  "팔로우하다",
+                  "좋아요"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "댓글",
+              "romanization": "daetgeul",
+              "options": {
+                "en": [
+                  "Comment",
+                  "Post",
+                  "Like",
+                  "Share"
+                ],
+                "zh": [
+                  "评论",
+                  "帖子",
+                  "点赞",
+                  "分享"
+                ],
+                "th": [
+                  "คอมเมนต์",
+                  "โพสต์",
+                  "ถูกใจ",
+                  "แชร์"
+                ],
+                "ko": [
+                  "댓글",
+                  "게시물",
+                  "좋아요",
+                  "공유"
+                ],
+                "es": [
+                  "Comentario",
+                  "Publicación",
+                  "Me gusta",
+                  "Compartir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "팔로우",
+                  "romanization": "palrou",
+                  "native": {
+                    "en": "Follow",
+                    "zh": "关注",
+                    "th": "ติดตาม",
+                    "ko": "팔로우",
+                    "es": "Seguir"
+                  }
+                },
+                {
+                  "target": "좋아요",
+                  "romanization": "joayo",
+                  "native": {
+                    "en": "Like",
+                    "zh": "点赞",
+                    "th": "ถูกใจ",
+                    "ko": "좋아요",
+                    "es": "Me gusta"
+                  }
+                },
+                {
+                  "target": "댓글",
+                  "romanization": "daetgeul",
+                  "native": {
+                    "en": "Comment",
+                    "zh": "评论",
+                    "th": "คอมเมนต์",
+                    "ko": "댓글",
+                    "es": "Comentario"
+                  }
+                },
+                {
+                  "target": "공유하다",
+                  "romanization": "gongyuhada",
+                  "native": {
+                    "en": "Share",
+                    "zh": "分享",
+                    "th": "แชร์",
+                    "ko": "공유하다",
+                    "es": "Compartir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's take a selfie'",
+                "zh": "说'我们自拍吧'",
+                "th": "พูดว่า 'ถ่ายเซลฟี่กัน'",
+                "ko": "'셀카 찍어요'라고 말하세요",
+                "es": "Di 'Tomemos una selfie'"
+              },
+              "words": [
+                "찍어요",
+                "셀카"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "셀카",
+                  "찍어요"
+                ]
+              },
+              "romanization": "selka jjigeoyo",
+              "tiles": {
+                "neutral": [
+                  "셀카",
+                  "찍어요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국에서 가장 많이 쓰는 SNS는 _____"
+              },
+              "hint": {
+                "en": "The most used social media in Korea is _____",
+                "zh": "在韩国用得最多的社交媒体是_____",
+                "th": "โซเชียลที่ใช้มากที่สุดในเกาหลีคือ_____",
+                "ko": "한국에서 가장 많이 쓰는 SNS는 _____",
+                "es": "La red social más usada en Corea es _____"
+              },
+              "options": [
+                "인스타그램이에요",
+                "페이스북이에요",
+                "트위터예요",
+                "틱톡이에요"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "인스타그램이에요 = Instagram. Instagram and KakaoTalk are the dominant platforms in Korea.",
+                "zh": "인스타그램이에요 = Instagram。Instagram和KakaoTalk是韩国主流平台。",
+                "th": "인스타그램이에요 = อินสตาแกรม อินสตาแกรมและคาคาวทอล์คเป็นแพลตฟอร์มหลักในเกาหลี",
+                "ko": "인스타그램이에요는 한국에서 인기 있는 SNS를 나타내요.",
+                "es": "인스타그램이에요 = Instagram. Instagram y KakaoTalk son las plataformas dominantes en Corea."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Share your favorite Korean social media accounts with Min",
+            "zh": "和Min分享你最喜欢的韩国社交媒体账号",
+            "th": "แบ่งปันบัญชีโซเชียลมีเดียเกาหลีที่ชอบกับ Min",
+            "ko": "Min에게 좋아하는 한국 SNS 계정을 공유해 보세요",
+            "es": "Comparte tus cuentas favoritas de redes sociales coreanas con Min"
+          }
+        },
+        {
+          "id": "4.3",
+          "title": {
+            "en": "Korean Slang & Internet Language",
+            "ko": "한국 신조어와 인터넷 용어",
+            "zh": "韩语俗语与网络用语",
+            "th": "สแลงเกาหลีและภาษาอินเทอร์เน็ต",
+            "es": "Jerga coreana y lenguaje de internet"
+          },
+          "objectives": {
+            "en": [
+              "Use common Korean slang",
+              "Understand online Korean expressions"
+            ],
+            "zh": [
+              "使用常见韩语俚语",
+              "理解韩语网络用语"
+            ],
+            "th": [
+              "ใช้สแลงเกาหลีทั่วไป",
+              "เข้าใจสำนวนออนไลน์เกาหลี"
+            ],
+            "ko": [
+              "일반적인 한국 유행어 사용하기",
+              "온라인 한국어 표현 이해하기"
+            ],
+            "es": [
+              "Usar argot coreano común",
+              "Entender expresiones coreanas en línea"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "유행어",
+              "romanization": "yuhaengeo",
+              "meanings": {
+                "en": "Trending word/Slang",
+                "zh": "流行语",
+                "th": "คำฮิต",
+                "ko": "유행어",
+                "es": "Palabra de moda"
+              }
+            },
+            {
+              "word": "대박",
+              "romanization": "daebak",
+              "meanings": {
+                "en": "Awesome/Jackpot",
+                "zh": "大发/太棒了",
+                "th": "เจ๋ง/สุดยอด",
+                "ko": "대박",
+                "es": "Increíble/Genial"
+              }
+            },
+            {
+              "word": "헐",
+              "romanization": "heol",
+              "meanings": {
+                "en": "OMG/Shocked",
+                "zh": "天哪",
+                "th": "เฮ้อ/ตกใจ",
+                "ko": "헐",
+                "es": "OMG/Impactado"
+              }
+            },
+            {
+              "word": "ㅋㅋㅋ",
+              "romanization": "kkk",
+              "meanings": {
+                "en": "Haha (online laugh)",
+                "zh": "哈哈哈",
+                "th": "ฮ่าฮ่าฮ่า",
+                "ko": "ㅋㅋㅋ",
+                "es": "Jajaja"
+              }
+            },
+            {
+              "word": "ㅠㅠ",
+              "romanization": "yy",
+              "meanings": {
+                "en": "Crying (online)",
+                "zh": "呜呜",
+                "th": "ร้องไห้（ออนไลน์）",
+                "ko": "ㅠㅠ",
+                "es": "Llorando (online)"
+              }
+            },
+            {
+              "word": "짱",
+              "romanization": "jjang",
+              "meanings": {
+                "en": "The best/Awesome",
+                "zh": "最棒",
+                "th": "เยี่ยมที่สุด",
+                "ko": "짱",
+                "es": "Lo mejor"
+              }
+            },
+            {
+              "word": "썸",
+              "romanization": "sseom",
+              "meanings": {
+                "en": "Flirting stage",
+                "zh": "暧昧",
+                "th": "ช่วงจีบ",
+                "ko": "썸",
+                "es": "Etapa de coqueteo"
+              }
+            },
+            {
+              "word": "멘붕",
+              "romanization": "menbung",
+              "meanings": {
+                "en": "Mental breakdown",
+                "zh": "精神崩溃",
+                "th": "เมนทอลพัง",
+                "ko": "멘붕",
+                "es": "Colapso mental"
+              }
+            },
+            {
+              "word": "갑분싸",
+              "romanization": "gapbunssa",
+              "meanings": {
+                "en": "Sudden mood killer",
+                "zh": "突然冷场",
+                "th": "บรรยากาศเสียกะทันหัน",
+                "ko": "갑분싸",
+                "es": "Mata ambiente"
+              }
+            },
+            {
+              "word": "TMI",
+              "romanization": "TMI",
+              "meanings": {
+                "en": "TMI (Too Much Info)",
+                "zh": "信息过多",
+                "th": "ข้อมูลมากเกินไป",
+                "ko": "TMI",
+                "es": "Demasiada información"
+              }
+            },
+            {
+              "word": "존맛탱",
+              "romanization": "jonmattaeng",
+              "meanings": {
+                "en": "So delicious (slang)",
+                "zh": "超好吃",
+                "th": "อร่อยมากๆ",
+                "ko": "존맛탱",
+                "es": "Riquísimo (argot)"
+              }
+            },
+            {
+              "word": "꿀팁",
+              "romanization": "kkultip",
+              "meanings": {
+                "en": "Great tip/Honey tip",
+                "zh": "好建议",
+                "th": "ทิปดีๆ",
+                "ko": "꿀팁",
+                "es": "Gran consejo"
+              }
+            },
+            {
+              "word": "리얼",
+              "romanization": "rieol",
+              "meanings": {
+                "en": "Real/For real",
+                "zh": "真的",
+                "th": "เรียล/จริงๆ",
+                "ko": "리얼",
+                "es": "Real/De verdad"
+              }
+            },
+            {
+              "word": "인싸",
+              "romanization": "inssa",
+              "meanings": {
+                "en": "Insider/Popular person",
+                "zh": "社交达人",
+                "th": "คนที่เป็นที่นิยม",
+                "ko": "인싸",
+                "es": "Popular/Insider"
+              }
+            },
+            {
+              "word": "아싸",
+              "romanization": "assa",
+              "meanings": {
+                "en": "Outsider/Loner",
+                "zh": "边缘人",
+                "th": "คนเก็บตัว",
+                "ko": "아싸",
+                "es": "Solitario/Outsider"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "대박",
+              "romanization": "daebak",
+              "options": {
+                "en": [
+                  "Awesome",
+                  "OMG",
+                  "The best",
+                  "Crying"
+                ],
+                "zh": [
+                  "太棒了",
+                  "天哪",
+                  "最棒",
+                  "呜呜"
+                ],
+                "th": [
+                  "สุดยอด",
+                  "ตกใจ",
+                  "เยี่ยม",
+                  "ร้องไห้"
+                ],
+                "ko": [
+                  "대박",
+                  "헐",
+                  "짱",
+                  "ㅠㅠ"
+                ],
+                "es": [
+                  "Increíble",
+                  "OMG",
+                  "Lo mejor",
+                  "Llorando"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Great tip' in Korean slang?",
+                "zh": "韩语俚语中'好建议'怎么说？",
+                "th": "'ทิปดีๆ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '꿀팁'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Gran consejo' en argot coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "꿀팁",
+                  "대박",
+                  "존맛탱",
+                  "인싸"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "멘붕",
+              "romanization": "menbung",
+              "options": {
+                "en": [
+                  "Mental breakdown",
+                  "Mood killer",
+                  "OMG",
+                  "Flirting"
+                ],
+                "zh": [
+                  "精神崩溃",
+                  "冷场",
+                  "天哪",
+                  "暧昧"
+                ],
+                "th": [
+                  "เมนทอลพัง",
+                  "บรรยากาศเสีย",
+                  "ตกใจ",
+                  "จีบ"
+                ],
+                "ko": [
+                  "멘붕",
+                  "갑분싸",
+                  "헐",
+                  "썸"
+                ],
+                "es": [
+                  "Colapso",
+                  "Mata ambiente",
+                  "OMG",
+                  "Coqueteo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "대박",
+                  "romanization": "daebak",
+                  "native": {
+                    "en": "Awesome",
+                    "zh": "太棒",
+                    "th": "สุดยอด",
+                    "ko": "대박",
+                    "es": "Increíble"
+                  }
+                },
+                {
+                  "target": "헐",
+                  "romanization": "heol",
+                  "native": {
+                    "en": "OMG",
+                    "zh": "天哪",
+                    "th": "ตกใจ",
+                    "ko": "헐",
+                    "es": "OMG"
+                  }
+                },
+                {
+                  "target": "ㅋㅋㅋ",
+                  "romanization": "kkk",
+                  "native": {
+                    "en": "Haha",
+                    "zh": "哈哈",
+                    "th": "ฮ่าฮ่า",
+                    "ko": "ㅋㅋㅋ",
+                    "es": "Jaja"
+                  }
+                },
+                {
+                  "target": "ㅠㅠ",
+                  "romanization": "yy",
+                  "native": {
+                    "en": "Crying",
+                    "zh": "呜呜",
+                    "th": "ร้องไห้",
+                    "ko": "ㅠㅠ",
+                    "es": "Llorando"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'That's awesome!'",
+                "zh": "说'太棒了！'",
+                "th": "พูดว่า 'เจ๋งมาก!'",
+                "ko": "'대박이다!'라고 말하세요",
+                "es": "Di '¡Increíble!'"
+              },
+              "words": [
+                "대박이다!"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "대박이다!"
+                ]
+              },
+              "romanization": "daebagida",
+              "tiles": {
+                "neutral": [
+                  "대박이다!"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "맛있는 음식을 먹으면 _____ 말해요"
+              },
+              "hint": {
+                "en": "When you eat delicious food you say _____",
+                "zh": "吃到好吃的就说_____",
+                "th": "กินอาหารอร่อยก็พูด_____",
+                "ko": "맛있는 음식을 먹으면 _____ 말해요",
+                "es": "Cuando comes algo delicioso dices _____"
+              },
+              "options": [
+                "존맛탱이라고",
+                "멘붕이라고",
+                "갑분싸라고",
+                "TMI라고"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "존맛탱 = 'so delicious' (slang). Short for 존나 맛있는 탱구리, a popular food slang.",
+                "zh": "존맛탱 = '超好吃'（俚语）。是流行的美食俚语。",
+                "th": "존맛탱 = 'อร่อยมากๆ' (สแลง) คำสแลงอาหารยอดนิยม",
+                "ko": "존맛탱은 맛있는 음식을 표현하는 유행어예요.",
+                "es": "존맛탱 = 'riquísimo' (argot). Jerga popular de comida coreana."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Chat with Min using Korean slang — can you use 대박 and ㅋㅋㅋ naturally?",
+            "zh": "和Min用韩语俗语聊天——你能自然地用대박和ㅋㅋㅋ吗？",
+            "th": "คุยกับ Min ใช้สแลงเกาหลี — ใช้ 대박 และ ㅋㅋㅋ ได้เป็นธรรมชาติไหม?",
+            "ko": "Min과 한국 신조어로 대화해 보세요 — 대박과 ㅋㅋㅋ를 자연스럽게 쓸 수 있나요?",
+            "es": "Habla con Min usando jerga coreana — ¿puedes usar 대박 y ㅋㅋㅋ naturalmente?"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Community & Belonging",
+        "ko": "커뮤니티와 소속감",
+        "zh": "社区与归属感",
+        "th": "ชุมชนและความเป็นส่วนหนึ่ง",
+        "es": "Comunidad y pertenencia"
+      },
+      "description": {
+        "en": "Learn about neighborhood life, community groups, and multicultural Korea",
+        "zh": "学习街区生活、社区活动和多元文化韩国",
+        "th": "เรียนรู้ชีวิตในย่าน กิจกรรมชุมชน และเกาหลีหลากหลายวัฒนธรรม",
+        "ko": "동네 생활, 커뮤니티 활동, 다문화 한국 배우기",
+        "es": "Aprender sobre vida de barrio, grupos comunitarios y Corea multicultural"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Neighborhood Life",
+            "ko": "동네 생활",
+            "zh": "社区生活",
+            "th": "ชีวิตในละแวกบ้าน",
+            "es": "Vida en el barrio"
+          },
+          "objectives": {
+            "en": [
+              "Describe your neighborhood",
+              "Handle apartment living situations"
+            ],
+            "zh": [
+              "描述你的街区",
+              "处理公寓生活事务"
+            ],
+            "th": [
+              "อธิบายย่านของคุณ",
+              "จัดการเรื่องอพาร์ทเมนต์"
+            ],
+            "ko": [
+              "동네 묘사하기",
+              "아파트 생활 상황 대처하기"
+            ],
+            "es": [
+              "Describir su barrio",
+              "Manejar situaciones de vida en apartamento"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "동네",
+              "romanization": "dongne",
+              "meanings": {
+                "en": "Neighborhood",
+                "zh": "小区/街区",
+                "th": "ย่าน/ละแวก",
+                "ko": "동네",
+                "es": "Barrio/Vecindario"
+              }
+            },
+            {
+              "word": "이웃",
+              "romanization": "iut",
+              "meanings": {
+                "en": "Neighbor",
+                "zh": "邻居",
+                "th": "เพื่อนบ้าน",
+                "ko": "이웃",
+                "es": "Vecino"
+              }
+            },
+            {
+              "word": "마을",
+              "romanization": "maeul",
+              "meanings": {
+                "en": "Village/Town",
+                "zh": "村庄",
+                "th": "หมู่บ้าน",
+                "ko": "마을",
+                "es": "Pueblo"
+              }
+            },
+            {
+              "word": "주민",
+              "romanization": "jumin",
+              "meanings": {
+                "en": "Resident",
+                "zh": "居民",
+                "th": "ชาวบ้าน",
+                "ko": "주민",
+                "es": "Residente"
+              }
+            },
+            {
+              "word": "아파트",
+              "romanization": "apateu",
+              "meanings": {
+                "en": "Apartment (complex)",
+                "zh": "公寓",
+                "th": "อพาร์ทเมนต์",
+                "ko": "아파트",
+                "es": "Apartamento"
+              }
+            },
+            {
+              "word": "반상회",
+              "romanization": "bansanghoe",
+              "meanings": {
+                "en": "Neighborhood meeting",
+                "zh": "居民会议",
+                "th": "ประชุมชุมชน",
+                "ko": "반상회",
+                "es": "Reunión vecinal"
+              }
+            },
+            {
+              "word": "경비 아저씨",
+              "romanization": "gyeongbi ajeossi",
+              "meanings": {
+                "en": "Security guard (uncle)",
+                "zh": "保安大叔",
+                "th": "ลุงรปภ.",
+                "ko": "경비 아저씨",
+                "es": "Guardia de seguridad"
+              }
+            },
+            {
+              "word": "관리비",
+              "romanization": "gwanribi",
+              "meanings": {
+                "en": "Maintenance fee",
+                "zh": "物业费",
+                "th": "ค่าส่วนกลาง",
+                "ko": "관리비",
+                "es": "Cuota de mantenimiento"
+              }
+            },
+            {
+              "word": "분리수거",
+              "romanization": "bunrisugeo",
+              "meanings": {
+                "en": "Recycling/Sorting trash",
+                "zh": "垃圾分类",
+                "th": "แยกขยะ",
+                "ko": "분리수거",
+                "es": "Reciclaje/Separación"
+              }
+            },
+            {
+              "word": "재활용",
+              "romanization": "jaehwalyong",
+              "meanings": {
+                "en": "Recycling",
+                "zh": "回收",
+                "th": "รีไซเคิล",
+                "ko": "재활용",
+                "es": "Reciclaje"
+              }
+            },
+            {
+              "word": "쓰레기",
+              "romanization": "sseuregi",
+              "meanings": {
+                "en": "Trash/Garbage",
+                "zh": "垃圾",
+                "th": "ขยะ",
+                "ko": "쓰레기",
+                "es": "Basura"
+              }
+            },
+            {
+              "word": "음식물 쓰레기",
+              "romanization": "eumsikmul sseuregi",
+              "meanings": {
+                "en": "Food waste",
+                "zh": "厨余垃圾",
+                "th": "ขยะอาหาร",
+                "ko": "음식물 쓰레기",
+                "es": "Residuos de comida"
+              }
+            },
+            {
+              "word": "시끄럽다",
+              "romanization": "sikkeureobda",
+              "meanings": {
+                "en": "To be noisy",
+                "zh": "吵",
+                "th": "เสียงดัง",
+                "ko": "시끄럽다",
+                "es": "Ser ruidoso"
+              }
+            },
+            {
+              "word": "조용하다",
+              "romanization": "joyonghada",
+              "meanings": {
+                "en": "To be quiet",
+                "zh": "安静",
+                "th": "เงียบ",
+                "ko": "조용하다",
+                "es": "Ser tranquilo"
+              }
+            },
+            {
+              "word": "서로",
+              "romanization": "seoro",
+              "meanings": {
+                "en": "Each other/Mutually",
+                "zh": "互相",
+                "th": "ซึ่งกันและกัน",
+                "ko": "서로",
+                "es": "Mutuamente"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "분리수거",
+              "romanization": "bunrisugeo",
+              "options": {
+                "en": [
+                  "Recycling",
+                  "Maintenance",
+                  "Trash",
+                  "Neighbor"
+                ],
+                "zh": [
+                  "垃圾分类",
+                  "物业费",
+                  "垃圾",
+                  "邻居"
+                ],
+                "th": [
+                  "แยกขยะ",
+                  "ค่าส่วนกลาง",
+                  "ขยะ",
+                  "เพื่อนบ้าน"
+                ],
+                "ko": [
+                  "분리수거",
+                  "관리비",
+                  "쓰레기",
+                  "이웃"
+                ],
+                "es": [
+                  "Reciclaje",
+                  "Cuota",
+                  "Basura",
+                  "Vecino"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Neighborhood' in Korean?",
+                "zh": "韩语中'街区'怎么说？",
+                "th": "'ย่าน' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '동네'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Barrio' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "동네",
+                  "마을",
+                  "아파트",
+                  "주민"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "관리비",
+              "romanization": "gwanribi",
+              "options": {
+                "en": [
+                  "Maintenance fee",
+                  "Recycling",
+                  "Trash",
+                  "Meeting"
+                ],
+                "zh": [
+                  "物业费",
+                  "回收",
+                  "垃圾",
+                  "会议"
+                ],
+                "th": [
+                  "ค่าส่วนกลาง",
+                  "รีไซเคิล",
+                  "ขยะ",
+                  "ประชุม"
+                ],
+                "ko": [
+                  "관리비",
+                  "재활용",
+                  "쓰레기",
+                  "반상회"
+                ],
+                "es": [
+                  "Cuota",
+                  "Reciclaje",
+                  "Basura",
+                  "Reunión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "동네",
+                  "romanization": "dongne",
+                  "native": {
+                    "en": "Neighborhood",
+                    "zh": "街区",
+                    "th": "ย่าน",
+                    "ko": "동네",
+                    "es": "Barrio"
+                  }
+                },
+                {
+                  "target": "이웃",
+                  "romanization": "iut",
+                  "native": {
+                    "en": "Neighbor",
+                    "zh": "邻居",
+                    "th": "เพื่อนบ้าน",
+                    "ko": "이웃",
+                    "es": "Vecino"
+                  }
+                },
+                {
+                  "target": "아파트",
+                  "romanization": "apateu",
+                  "native": {
+                    "en": "Apartment",
+                    "zh": "公寓",
+                    "th": "อพาร์ทเมนต์",
+                    "ko": "아파트",
+                    "es": "Apartamento"
+                  }
+                },
+                {
+                  "target": "쓰레기",
+                  "romanization": "sseuregi",
+                  "native": {
+                    "en": "Trash",
+                    "zh": "垃圾",
+                    "th": "ขยะ",
+                    "ko": "쓰레기",
+                    "es": "Basura"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please be quiet'",
+                "zh": "说'请安静'",
+                "th": "พูดว่า 'กรุณาเงียบ'",
+                "ko": "'조용히 해 주세요'라고 말하세요",
+                "es": "Di 'Silencio por favor'"
+              },
+              "words": [
+                "주세요",
+                "조용히",
+                "해"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "조용히",
+                  "해",
+                  "주세요"
+                ]
+              },
+              "romanization": "joyonghi hae juseyo",
+              "tiles": {
+                "neutral": [
+                  "조용히",
+                  "해",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국 아파트에서는 _____ 해야 해요"
+              },
+              "hint": {
+                "en": "In Korean apartments you must do _____",
+                "zh": "在韩国公寓必须_____",
+                "th": "ในอพาร์ทเมนต์เกาหลีต้อง_____",
+                "ko": "한국 아파트에서는 _____ 해야 해요",
+                "es": "En apartamentos coreanos debe hacer _____"
+              },
+              "options": [
+                "분리수거를",
+                "파티를",
+                "노래를",
+                "운동을"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "분리수거를 해야 해요 = must do recycling. Strict waste sorting is mandatory in Korean apartments.",
+                "zh": "分리수거를 해야 해요 = 必须垃圾分类。韩国公寓严格要求垃圾分类。",
+                "th": "분리수거를 해야 해요 = ต้องแยกขยะ การแยกขยะเป็นข้อบังคับในอพาร์ทเมนต์เกาหลี",
+                "ko": "분리수거를 해야 해요는 한국 아파트 생활의 기본 규칙이에요.",
+                "es": "분리수거를 해야 해요 = debe reciclar. La separación estricta de basura es obligatoria en apartamentos coreanos."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Describe your neighborhood to Min — what's apartment living like in Korea?",
+            "zh": "向Min描述你的社区——在韩国住公寓是什么感觉？",
+            "th": "อธิบายละแวกบ้านให้ Min ฟัง — การอยู่อพาร์ตเมนต์ในเกาหลีเป็นอย่างไร?",
+            "ko": "Min에게 동네를 소개해 보세요 — 한국 아파트 생활은 어때요?",
+            "es": "Descríbele tu barrio a Min — ¿cómo es vivir en apartamento en Corea?"
+          }
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Community Groups",
+            "ko": "커뮤니티 모임",
+            "zh": "社区团体",
+            "th": "กลุ่มชุมชน",
+            "es": "Grupos comunitarios"
+          },
+          "objectives": {
+            "en": [
+              "Join and participate in Korean communities",
+              "Discuss volunteer and social activities"
+            ],
+            "zh": [
+              "加入和参与韩国社区活动",
+              "讨论志愿和社交活动"
+            ],
+            "th": [
+              "เข้าร่วมชุมชนเกาหลี",
+              "พูดคุยกิจกรรมอาสาและสังคม"
+            ],
+            "ko": [
+              "한국 커뮤니티 가입하고 참여하기",
+              "봉사와 사교 활동 이야기하기"
+            ],
+            "es": [
+              "Unirse a comunidades coreanas",
+              "Discutir actividades voluntarias y sociales"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "동호회",
+              "romanization": "donghohoe",
+              "meanings": {
+                "en": "Club/Society",
+                "zh": "兴趣小组",
+                "th": "ชมรม/สมาคม",
+                "ko": "동호회",
+                "es": "Club/Asociación"
+              }
+            },
+            {
+              "word": "봉사활동",
+              "romanization": "bongsahwaldong",
+              "meanings": {
+                "en": "Volunteer work",
+                "zh": "志愿活动",
+                "th": "กิจกรรมอาสาสมัคร",
+                "ko": "봉사활동",
+                "es": "Voluntariado"
+              }
+            },
+            {
+              "word": "종교",
+              "romanization": "jonggyo",
+              "meanings": {
+                "en": "Religion",
+                "zh": "宗教",
+                "th": "ศาสนา",
+                "ko": "종교",
+                "es": "Religión"
+              }
+            },
+            {
+              "word": "교회",
+              "romanization": "gyohoe",
+              "meanings": {
+                "en": "Church",
+                "zh": "教会",
+                "th": "โบสถ์",
+                "ko": "교회",
+                "es": "Iglesia"
+              }
+            },
+            {
+              "word": "절",
+              "romanization": "jeol",
+              "meanings": {
+                "en": "Buddhist temple",
+                "zh": "寺庙",
+                "th": "วัด",
+                "ko": "절",
+                "es": "Templo budista"
+              }
+            },
+            {
+              "word": "문화센터",
+              "romanization": "munhwasenteo",
+              "meanings": {
+                "en": "Cultural center",
+                "zh": "文化中心",
+                "th": "ศูนย์วัฒนธรรม",
+                "ko": "문화센터",
+                "es": "Centro cultural"
+              }
+            },
+            {
+              "word": "체육관",
+              "romanization": "cheyukgwan",
+              "meanings": {
+                "en": "Gym/Sports center",
+                "zh": "体育馆",
+                "th": "โรงยิม",
+                "ko": "체육관",
+                "es": "Gimnasio"
+              }
+            },
+            {
+              "word": "도서관",
+              "romanization": "doseogwan",
+              "meanings": {
+                "en": "Library",
+                "zh": "图书馆",
+                "th": "ห้องสมุด",
+                "ko": "도서관",
+                "es": "Biblioteca"
+              }
+            },
+            {
+              "word": "동문",
+              "romanization": "dongmun",
+              "meanings": {
+                "en": "Alumni",
+                "zh": "校友",
+                "th": "ศิษย์เก่า",
+                "ko": "동문",
+                "es": "Ex alumno"
+              }
+            },
+            {
+              "word": "향우회",
+              "romanization": "hyanghuhoe",
+              "meanings": {
+                "en": "Hometown association",
+                "zh": "同乡会",
+                "th": "สมาคมคนบ้านเดียวกัน",
+                "ko": "향우회",
+                "es": "Asociación de paisanos"
+              }
+            },
+            {
+              "word": "가입하다",
+              "romanization": "gaiphada",
+              "meanings": {
+                "en": "To join",
+                "zh": "加入",
+                "th": "เข้าร่วม",
+                "ko": "가입하다",
+                "es": "Unirse"
+              }
+            },
+            {
+              "word": "활동하다",
+              "romanization": "hwaldonghada",
+              "meanings": {
+                "en": "To be active/participate",
+                "zh": "活动/参与",
+                "th": "ทำกิจกรรม",
+                "ko": "활동하다",
+                "es": "Participar"
+              }
+            },
+            {
+              "word": "기부하다",
+              "romanization": "gibuhada",
+              "meanings": {
+                "en": "To donate",
+                "zh": "捐赠",
+                "th": "บริจาค",
+                "ko": "기부하다",
+                "es": "Donar"
+              }
+            },
+            {
+              "word": "회비",
+              "romanization": "hoebi",
+              "meanings": {
+                "en": "Membership fee",
+                "zh": "会费",
+                "th": "ค่าสมาชิก",
+                "ko": "회비",
+                "es": "Cuota de membresía"
+              }
+            },
+            {
+              "word": "정기 모임",
+              "romanization": "jeonggi moim",
+              "meanings": {
+                "en": "Regular meeting",
+                "zh": "定期聚会",
+                "th": "การพบปะประจำ",
+                "ko": "정기 모임",
+                "es": "Reunión regular"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "봉사활동",
+              "romanization": "bongsahwaldong",
+              "options": {
+                "en": [
+                  "Volunteer work",
+                  "Club",
+                  "Religion",
+                  "Library"
+                ],
+                "zh": [
+                  "志愿活动",
+                  "小组",
+                  "宗教",
+                  "图书馆"
+                ],
+                "th": [
+                  "อาสาสมัคร",
+                  "ชมรม",
+                  "ศาสนา",
+                  "ห้องสมุด"
+                ],
+                "ko": [
+                  "봉사활동",
+                  "동호회",
+                  "종교",
+                  "도서관"
+                ],
+                "es": [
+                  "Voluntariado",
+                  "Club",
+                  "Religión",
+                  "Biblioteca"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To join' in Korean?",
+                "zh": "韩语中'加入'怎么说？",
+                "th": "'เข้าร่วม' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '가입하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Unirse' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "가입하다",
+                  "활동하다",
+                  "기부하다",
+                  "봉사하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "문화센터",
+              "romanization": "munhwasenteo",
+              "options": {
+                "en": [
+                  "Cultural center",
+                  "Library",
+                  "Gym",
+                  "Church"
+                ],
+                "zh": [
+                  "文化中心",
+                  "图书馆",
+                  "体育馆",
+                  "教会"
+                ],
+                "th": [
+                  "ศูนย์วัฒนธรรม",
+                  "ห้องสมุด",
+                  "โรงยิม",
+                  "โบสถ์"
+                ],
+                "ko": [
+                  "문화센터",
+                  "도서관",
+                  "체육관",
+                  "교회"
+                ],
+                "es": [
+                  "Centro cultural",
+                  "Biblioteca",
+                  "Gimnasio",
+                  "Iglesia"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "교회",
+                  "romanization": "gyohoe",
+                  "native": {
+                    "en": "Church",
+                    "zh": "教会",
+                    "th": "โบสถ์",
+                    "ko": "교회",
+                    "es": "Iglesia"
+                  }
+                },
+                {
+                  "target": "절",
+                  "romanization": "jeol",
+                  "native": {
+                    "en": "Temple",
+                    "zh": "寺庙",
+                    "th": "วัด",
+                    "ko": "절",
+                    "es": "Templo"
+                  }
+                },
+                {
+                  "target": "도서관",
+                  "romanization": "doseogwan",
+                  "native": {
+                    "en": "Library",
+                    "zh": "图书馆",
+                    "th": "ห้องสมุด",
+                    "ko": "도서관",
+                    "es": "Biblioteca"
+                  }
+                },
+                {
+                  "target": "체육관",
+                  "romanization": "cheyukgwan",
+                  "native": {
+                    "en": "Gym",
+                    "zh": "体育馆",
+                    "th": "โรงยิม",
+                    "ko": "체육관",
+                    "es": "Gimnasio"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want to join a club'",
+                "zh": "说'我想加入社团'",
+                "th": "พูดว่า 'ฉันอยากเข้าชมรม'",
+                "ko": "'동호회에 가입하고 싶어요'라고 말하세요",
+                "es": "Di 'Quiero unirme a un club'"
+              },
+              "words": [
+                "싶어요",
+                "동호회에",
+                "가입하고"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "동호회에",
+                  "가입하고",
+                  "싶어요"
+                ]
+              },
+              "romanization": "donghohoee gaipago sipeoyo",
+              "tiles": {
+                "neutral": [
+                  "동호회에",
+                  "가입하고",
+                  "싶어요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국에서는 _____ 통해 친구를 사귀어요"
+              },
+              "hint": {
+                "en": "In Korea people make friends through _____",
+                "zh": "在韩国人们通过_____交朋友",
+                "th": "ในเกาหลีคนคบเพื่อนผ่าน_____",
+                "ko": "한국에서는 _____ 통해 친구를 사귀어요",
+                "es": "En Corea la gente hace amigos a través de _____"
+              },
+              "options": [
+                "동호회를",
+                "인터넷을",
+                "가족을",
+                "학교를"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "동호회를 통해 = through clubs. Joining hobby clubs is a popular way to socialize in Korea.",
+                "zh": "동호회를 통해 = 通过社团。加入兴趣小组是韩国人社交的流行方式。",
+                "th": "동호회를 통해 = ผ่านชมรม การเข้าชมรมเป็นวิธียอดนิยมในการเข้าสังคมในเกาหลี",
+                "ko": "동호회를 통해 친구를 사귀는 것은 한국에서 일반적인 사교 방식이에요.",
+                "es": "동호회를 통해 = a través de clubes. Unirse a clubes es una forma popular de socializar en Corea."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Explore Korean community groups with Min — what club would you join?",
+            "zh": "和Min探索韩国社区团体——你想加入什么俱乐部？",
+            "th": "สำรวจกลุ่มชุมชนเกาหลีกับ Min — คุณอยากเข้าชมรมอะไร?",
+            "ko": "Min과 한국 커뮤니티 모임을 알아보세요 — 어떤 동아리에 가입하고 싶어요?",
+            "es": "Explora grupos comunitarios coreanos con Min — ¿a qué club te unirías?"
+          }
+        },
+        {
+          "id": "5.3",
+          "title": {
+            "en": "Living in Korea as a Foreigner",
+            "ko": "외국인으로서 한국 생활",
+            "zh": "外国人在韩国生活",
+            "th": "ใช้ชีวิตในเกาหลีในฐานะชาวต่างชาติ",
+            "es": "Vivir en Corea como extranjero"
+          },
+          "objectives": {
+            "en": [
+              "Discuss multicultural life in Korea",
+              "Share experiences and challenges"
+            ],
+            "zh": [
+              "讨论韩国多元文化生活",
+              "分享经验和挑战"
+            ],
+            "th": [
+              "พูดคุยชีวิตหลากหลายวัฒนธรรมในเกาหลี",
+              "แบ่งปันประสบการณ์และความท้าทาย"
+            ],
+            "ko": [
+              "한국에서의 다문화 생활 이야기하기",
+              "경험과 어려움 나누기"
+            ],
+            "es": [
+              "Discutir la vida multicultural en Corea",
+              "Compartir experiencias y desafíos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "다문화",
+              "romanization": "damunhwa",
+              "meanings": {
+                "en": "Multicultural",
+                "zh": "多元文化",
+                "th": "หลากหลายวัฒนธรรม",
+                "ko": "다문화",
+                "es": "Multicultural"
+              }
+            },
+            {
+              "word": "외국인",
+              "romanization": "oegugin",
+              "meanings": {
+                "en": "Foreigner",
+                "zh": "外国人",
+                "th": "คนต่างชาติ",
+                "ko": "외국인",
+                "es": "Extranjero"
+              }
+            },
+            {
+              "word": "한국 생활",
+              "romanization": "hanguk saenghwal",
+              "meanings": {
+                "en": "Life in Korea",
+                "zh": "在韩生活",
+                "th": "ชีวิตในเกาหลี",
+                "ko": "한국 생활",
+                "es": "Vida en Corea"
+              }
+            },
+            {
+              "word": "적응하다",
+              "romanization": "jeokeunghada",
+              "meanings": {
+                "en": "To adapt",
+                "zh": "适应",
+                "th": "ปรับตัว",
+                "ko": "적응하다",
+                "es": "Adaptarse"
+              }
+            },
+            {
+              "word": "향수병",
+              "romanization": "hyangsyubyeong",
+              "meanings": {
+                "en": "Homesickness",
+                "zh": "思乡病",
+                "th": "คิดถึงบ้าน",
+                "ko": "향수병",
+                "es": "Nostalgia"
+              }
+            },
+            {
+              "word": "문화 충격",
+              "romanization": "munhwa chunggyeok",
+              "meanings": {
+                "en": "Culture shock",
+                "zh": "文化冲击",
+                "th": "ช็อกวัฒนธรรม",
+                "ko": "문화 충격",
+                "es": "Choque cultural"
+              }
+            },
+            {
+              "word": "언어 장벽",
+              "romanization": "eoneo jangbyeok",
+              "meanings": {
+                "en": "Language barrier",
+                "zh": "语言障碍",
+                "th": "กำแพงภาษา",
+                "ko": "언어 장벽",
+                "es": "Barrera lingüística"
+              }
+            },
+            {
+              "word": "도움을 주다",
+              "romanization": "doeumeul juda",
+              "meanings": {
+                "en": "To give help",
+                "zh": "给帮助",
+                "th": "ให้ความช่วยเหลือ",
+                "ko": "도움을 주다",
+                "es": "Dar ayuda"
+              }
+            },
+            {
+              "word": "이해하다",
+              "romanization": "ihaehada",
+              "meanings": {
+                "en": "To understand",
+                "zh": "理解",
+                "th": "เข้าใจ",
+                "ko": "이해하다",
+                "es": "Entender"
+              }
+            },
+            {
+              "word": "차별",
+              "romanization": "chabyeol",
+              "meanings": {
+                "en": "Discrimination",
+                "zh": "歧视",
+                "th": "การเลือกปฏิบัติ",
+                "ko": "차별",
+                "es": "Discriminación"
+              }
+            },
+            {
+              "word": "포용하다",
+              "romanization": "poyonghada",
+              "meanings": {
+                "en": "To embrace/include",
+                "zh": "包容",
+                "th": "โอบรับ",
+                "ko": "포용하다",
+                "es": "Aceptar/Incluir"
+              }
+            },
+            {
+              "word": "다양성",
+              "romanization": "dayangseong",
+              "meanings": {
+                "en": "Diversity",
+                "zh": "多样性",
+                "th": "ความหลากหลาย",
+                "ko": "다양성",
+                "es": "Diversidad"
+              }
+            },
+            {
+              "word": "교류하다",
+              "romanization": "gyoryuhada",
+              "meanings": {
+                "en": "To exchange/interact",
+                "zh": "交流",
+                "th": "แลกเปลี่ยน",
+                "ko": "교류하다",
+                "es": "Intercambiar"
+              }
+            },
+            {
+              "word": "경험을 나누다",
+              "romanization": "gyeongheomeul nanuda",
+              "meanings": {
+                "en": "To share experiences",
+                "zh": "分享经验",
+                "th": "แบ่งปันประสบการณ์",
+                "ko": "경험을 나누다",
+                "es": "Compartir experiencias"
+              }
+            },
+            {
+              "word": "함께 살다",
+              "romanization": "hamkke salda",
+              "meanings": {
+                "en": "To live together",
+                "zh": "一起生活",
+                "th": "อยู่ด้วยกัน",
+                "ko": "함께 살다",
+                "es": "Vivir juntos"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "문화 충격",
+              "romanization": "munhwa chunggyeok",
+              "options": {
+                "en": [
+                  "Culture shock",
+                  "Homesickness",
+                  "Language barrier",
+                  "Discrimination"
+                ],
+                "zh": [
+                  "文化冲击",
+                  "思乡病",
+                  "语言障碍",
+                  "歧视"
+                ],
+                "th": [
+                  "ช็อกวัฒนธรรม",
+                  "คิดถึงบ้าน",
+                  "กำแพงภาษา",
+                  "เลือกปฏิบัติ"
+                ],
+                "ko": [
+                  "문화 충격",
+                  "향수병",
+                  "언어 장벽",
+                  "차별"
+                ],
+                "es": [
+                  "Choque cultural",
+                  "Nostalgia",
+                  "Barrera",
+                  "Discriminación"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To adapt' in Korean?",
+                "zh": "韩语中'适应'怎么说？",
+                "th": "'ปรับตัว' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '적응하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Adaptarse' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "적응하다",
+                  "이해하다",
+                  "교류하다",
+                  "포용하다"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "다양성",
+              "romanization": "dayangseong",
+              "options": {
+                "en": [
+                  "Diversity",
+                  "Multicultural",
+                  "Discrimination",
+                  "Understanding"
+                ],
+                "zh": [
+                  "多样性",
+                  "多元文化",
+                  "歧视",
+                  "理解"
+                ],
+                "th": [
+                  "หลากหลาย",
+                  "หลายวัฒนธรรม",
+                  "เลือกปฏิบัติ",
+                  "เข้าใจ"
+                ],
+                "ko": [
+                  "다양성",
+                  "다문화",
+                  "차별",
+                  "이해"
+                ],
+                "es": [
+                  "Diversidad",
+                  "Multicultural",
+                  "Discriminación",
+                  "Comprensión"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "적응하다",
+                  "romanization": "jeokeunghada",
+                  "native": {
+                    "en": "Adapt",
+                    "zh": "适应",
+                    "th": "ปรับตัว",
+                    "ko": "적응하다",
+                    "es": "Adaptarse"
+                  }
+                },
+                {
+                  "target": "향수병",
+                  "romanization": "hyangsyubyeong",
+                  "native": {
+                    "en": "Homesick",
+                    "zh": "思乡",
+                    "th": "คิดถึงบ้าน",
+                    "ko": "향수병",
+                    "es": "Nostalgia"
+                  }
+                },
+                {
+                  "target": "문화 충격",
+                  "romanization": "munhwa chunggyeok",
+                  "native": {
+                    "en": "Culture shock",
+                    "zh": "文化冲击",
+                    "th": "ช็อก",
+                    "ko": "문화 충격",
+                    "es": "Choque"
+                  }
+                },
+                {
+                  "target": "언어 장벽",
+                  "romanization": "eoneo jangbyeok",
+                  "native": {
+                    "en": "Language barrier",
+                    "zh": "语言障碍",
+                    "th": "กำแพงภาษา",
+                    "ko": "언어 장벽",
+                    "es": "Barrera"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I'm adapting to Korean life'",
+                "zh": "说'我正在适应韩国生活'",
+                "th": "พูดว่า 'ฉันกำลังปรับตัวกับชีวิตในเกาหลี'",
+                "ko": "'한국 생활에 적응하고 있어요'라고 말하세요",
+                "es": "Di 'Me estoy adaptando a la vida en Corea'"
+              },
+              "words": [
+                "있어요",
+                "한국 생활에",
+                "적응하고"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "한국 생활에",
+                  "적응하고",
+                  "있어요"
+                ]
+              },
+              "romanization": "hanguk saenghware jeokeunghago isseoyo",
+              "tiles": {
+                "neutral": [
+                  "한국 생활에",
+                  "적응하고",
+                  "있어요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "외국인이 한국에서 가장 힘든 것은 _____"
+              },
+              "hint": {
+                "en": "The hardest thing for foreigners in Korea is _____",
+                "zh": "外国人在韩国最困难的是_____",
+                "th": "สิ่งที่ยากที่สุดสำหรับชาวต่างชาติในเกาหลีคือ_____",
+                "ko": "외국인이 한국에서 가장 힘든 것은 _____",
+                "es": "Lo más difícil para extranjeros en Corea es _____"
+              },
+              "options": [
+                "언어 장벽이에요",
+                "날씨예요",
+                "음식이에요",
+                "교통이에요"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "언어 장벽이에요 = language barrier. The biggest challenge for foreigners living in Korea.",
+                "zh": "语言障碍 = 语言障碍。外国人在韩国生活面临的最大挑战。",
+                "th": "언어 장벽이에요 = กำแพงภาษา ความท้าทายที่สุดสำหรับชาวต่างชาติในเกาหลี",
+                "ko": "언어 장벽이에요는 외국인이 한국에서 가장 어려워하는 부분이에요.",
+                "es": "언어 장벽이에요 = barrera lingüística. El mayor desafío para extranjeros en Corea."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Share your experience living in Korea with Min — what's been hardest?",
+            "zh": "和Min分享在韩国生活的经历——最难的是什么？",
+            "th": "แบ่งปันประสบการณ์ใช้ชีวิตในเกาหลีกับ Min — อะไรยากที่สุด?",
+            "ko": "Min과 한국 생활 경험을 나눠 보세요 — 뭐가 가장 힘들었어요?",
+            "es": "Comparte tu experiencia de vivir en Corea con Min — ¿qué ha sido lo más difícil?"
+          }
+        }
+      ]
+    }
+  ]
+}

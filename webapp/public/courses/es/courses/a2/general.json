@@ -1,0 +1,5437 @@
+{
+  "lang": "es",
+  "language": "es",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Past Tense Basics",
+        "zh": "过去时基础",
+        "th": "พื้นฐานอดีตกาล",
+        "ko": "과거 시제 기초",
+        "es": "Fundamentos del pasado"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Regular -ar Past Tense",
+            "zh": "规则-ar动词过去时",
+            "th": "อดีตกาลกริยา -ar ปกติ",
+            "ko": "규칙 -ar 동사 과거 시제",
+            "es": "Pasado regular de verbos -ar"
+          },
+          "objectives": {
+            "en": [
+              "Learn regular -ar verbs in pretérito indefinido",
+              "Use past time expressions"
+            ],
+            "zh": [
+              "学习-ar动词的简单过去时",
+              "使用过去时间表达"
+            ],
+            "th": [
+              "เรียนรู้กริยา -ar ในอดีตกาล",
+              "ใช้สำนวนเวลาอดีต"
+            ],
+            "ko": [
+              "-ar 동사의 과거 시제를 배우기",
+              "과거 시간 표현 사용하기"
+            ],
+            "es": [
+              "Aprender verbos regulares -ar en pretérito",
+              "Usar expresiones de tiempo pasado"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "hablé",
+              "meanings": {
+                "en": "I spoke",
+                "zh": "我说了",
+                "th": "ฉันพูดแล้ว",
+                "ko": "나는 말했다",
+                "es": "Hablé"
+              }
+            },
+            {
+              "word": "caminé",
+              "meanings": {
+                "en": "I walked",
+                "zh": "我走了",
+                "th": "ฉันเดินแล้ว",
+                "ko": "나는 걸었다",
+                "es": "Caminé"
+              }
+            },
+            {
+              "word": "compré",
+              "meanings": {
+                "en": "I bought",
+                "zh": "我买了",
+                "th": "ฉันซื้อแล้ว",
+                "ko": "나는 샀다",
+                "es": "Compré"
+              }
+            },
+            {
+              "word": "trabajé",
+              "meanings": {
+                "en": "I worked",
+                "zh": "我工作了",
+                "th": "ฉันทำงานแล้ว",
+                "ko": "나는 일했다",
+                "es": "Trabajé"
+              }
+            },
+            {
+              "word": "cocié",
+              "meanings": {
+                "en": "I cooked",
+                "zh": "我做饭了",
+                "th": "ฉันทำอาหารแล้ว",
+                "ko": "나는 요리했다",
+                "es": "Cocié"
+              }
+            },
+            {
+              "word": "llamé",
+              "meanings": {
+                "en": "I called",
+                "zh": "我打电话了",
+                "th": "ฉันโทรแล้ว",
+                "ko": "나는 전화했다",
+                "es": "Llamé"
+              }
+            },
+            {
+              "word": "terminé",
+              "meanings": {
+                "en": "I finished",
+                "zh": "我完成了",
+                "th": "ฉันเสร็จแล้ว",
+                "ko": "나는 끝냈다",
+                "es": "Terminé"
+              }
+            },
+            {
+              "word": "viajé",
+              "meanings": {
+                "en": "I traveled",
+                "zh": "我旅行了",
+                "th": "ฉันเดินทางแล้ว",
+                "ko": "나는 여행했다",
+                "es": "Viajé"
+              }
+            },
+            {
+              "word": "estudié",
+              "meanings": {
+                "en": "I studied",
+                "zh": "我学习了",
+                "th": "ฉันเรียนแล้ว",
+                "ko": "나는 공부했다",
+                "es": "Estudié"
+              }
+            },
+            {
+              "word": "pagué",
+              "meanings": {
+                "en": "I paid",
+                "zh": "我付钱了",
+                "th": "ฉันจ่ายแล้ว",
+                "ko": "나는 지불했다",
+                "es": "Pagué"
+              }
+            },
+            {
+              "word": "ayer",
+              "meanings": {
+                "en": "yesterday",
+                "zh": "昨天",
+                "th": "เมื่อวาน",
+                "ko": "어제",
+                "es": "ayer"
+              }
+            },
+            {
+              "word": "la semana pasada",
+              "meanings": {
+                "en": "last week",
+                "zh": "上周",
+                "th": "สัปดาห์ที่แล้ว",
+                "ko": "지난주",
+                "es": "la semana pasada"
+              }
+            },
+            {
+              "word": "el mes pasado",
+              "meanings": {
+                "en": "last month",
+                "zh": "上个月",
+                "th": "เดือนที่แล้ว",
+                "ko": "지난달",
+                "es": "el mes pasado"
+              }
+            },
+            {
+              "word": "el año pasado",
+              "meanings": {
+                "en": "last year",
+                "zh": "去年",
+                "th": "ปีที่แล้ว",
+                "ko": "작년",
+                "es": "el año pasado"
+              }
+            },
+            {
+              "word": "anoche",
+              "meanings": {
+                "en": "last night",
+                "zh": "昨晚",
+                "th": "เมื่อคืน",
+                "ko": "어젯밤",
+                "es": "anoche"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hablé",
+              "options": {
+                "en": [
+                  "I spoke",
+                  "I walked",
+                  "I bought",
+                  "I worked"
+                ],
+                "zh": [
+                  "我说了",
+                  "我走了",
+                  "我买了",
+                  "我工作了"
+                ],
+                "th": [
+                  "ฉันพูดแล้ว",
+                  "ฉันเดินแล้ว",
+                  "ฉันซื้อแล้ว",
+                  "ฉันทำงานแล้ว"
+                ],
+                "ko": [
+                  "나는 말했다",
+                  "나는 걸었다",
+                  "나는 샀다",
+                  "나는 일했다"
+                ],
+                "es": [
+                  "Hablé",
+                  "Caminé",
+                  "Compré",
+                  "Trabajé"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I bought' in Spanish?",
+                "zh": "西班牙语中'我买了'怎么说？",
+                "th": "คำว่า 'ฉันซื้อแล้ว' พูดเป็นภาษาสเปนว่าอะไร?",
+                "ko": "'나는 샀다'를 스페인어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'I bought' en español?"
+              },
+              "options": {
+                "neutral": [
+                  "compré",
+                  "caminé",
+                  "hablé",
+                  "llamé"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "estudié",
+              "options": {
+                "en": [
+                  "I studied",
+                  "I traveled",
+                  "I paid",
+                  "I finished"
+                ],
+                "zh": [
+                  "我学习了",
+                  "我旅行了",
+                  "我付钱了",
+                  "我完成了"
+                ],
+                "th": [
+                  "ฉันเรียนแล้ว",
+                  "ฉันเดินทางแล้ว",
+                  "ฉันจ่ายแล้ว",
+                  "ฉันเสร็จแล้ว"
+                ],
+                "ko": [
+                  "나는 공부했다",
+                  "나는 여행했다",
+                  "나는 지불했다",
+                  "나는 끝냈다"
+                ],
+                "es": [
+                  "Estudié",
+                  "Viajé",
+                  "Pagué",
+                  "Terminé"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "ayer",
+                  "native": {
+                    "en": "yesterday",
+                    "zh": "昨天",
+                    "th": "เมื่อวาน",
+                    "ko": "어제",
+                    "es": "ayer"
+                  }
+                },
+                {
+                  "target": "anoche",
+                  "native": {
+                    "en": "last night",
+                    "zh": "昨晚",
+                    "th": "เมื่อคืน",
+                    "ko": "어젯밤",
+                    "es": "anoche"
+                  }
+                },
+                {
+                  "target": "la semana pasada",
+                  "native": {
+                    "en": "last week",
+                    "zh": "上周",
+                    "th": "สัปดาห์ที่แล้ว",
+                    "ko": "지난주",
+                    "es": "la semana pasada"
+                  }
+                },
+                {
+                  "target": "el año pasado",
+                  "native": {
+                    "en": "last year",
+                    "zh": "去年",
+                    "th": "ปีที่แล้ว",
+                    "ko": "작년",
+                    "es": "el año pasado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I studied yesterday'",
+                "zh": "说'我昨天学习了'",
+                "th": "พูดว่า 'ฉันเรียนเมื่อวาน'",
+                "ko": "'나는 어제 공부했다'라고 말하세요",
+                "es": "Di 'Estudié ayer'"
+              },
+              "words": [
+                "ayer",
+                "estudié"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "estudié",
+                  "ayer"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "estudié",
+                  "ayer"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Regular -er/-ir Past Tense",
+            "zh": "规则-er/-ir动词过去时",
+            "th": "อดีตกาลกริยา -er/-ir ปกติ",
+            "ko": "규칙 -er/-ir 동사 과거 시제",
+            "es": "Pasado regular de verbos -er/-ir"
+          },
+          "objectives": {
+            "en": [
+              "Learn regular -er/-ir verbs in pretérito indefinido",
+              "Describe past actions"
+            ],
+            "zh": [
+              "学习-er/-ir动词的简单过去时",
+              "描述过去的动作"
+            ],
+            "th": [
+              "เรียนรู้กริยา -er/-ir ในอดีตกาล",
+              "อธิบายการกระทำในอดีต"
+            ],
+            "ko": [
+              "-er/-ir 동사의 과거 시제를 배우기",
+              "과거 행동 설명하기"
+            ],
+            "es": [
+              "Aprender verbos regulares -er/-ir en pretérito",
+              "Describir acciones pasadas"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "comí",
+              "meanings": {
+                "en": "I ate",
+                "zh": "我吃了",
+                "th": "ฉันกินแล้ว",
+                "ko": "나는 먹었다",
+                "es": "Comí"
+              }
+            },
+            {
+              "word": "bebí",
+              "meanings": {
+                "en": "I drank",
+                "zh": "我喝了",
+                "th": "ฉันดื่มแล้ว",
+                "ko": "나는 마셨다",
+                "es": "Bebí"
+              }
+            },
+            {
+              "word": "escribí",
+              "meanings": {
+                "en": "I wrote",
+                "zh": "我写了",
+                "th": "ฉันเขียนแล้ว",
+                "ko": "나는 썼다",
+                "es": "Escribí"
+              }
+            },
+            {
+              "word": "aprendí",
+              "meanings": {
+                "en": "I learned",
+                "zh": "我学了",
+                "th": "ฉันเรียนรู้แล้ว",
+                "ko": "나는 배웠다",
+                "es": "Aprendí"
+              }
+            },
+            {
+              "word": "viví",
+              "meanings": {
+                "en": "I lived",
+                "zh": "我住过",
+                "th": "ฉันอาศัยอยู่",
+                "ko": "나는 살았다",
+                "es": "Viví"
+              }
+            },
+            {
+              "word": "corrí",
+              "meanings": {
+                "en": "I ran",
+                "zh": "我跑了",
+                "th": "ฉันวิ่งแล้ว",
+                "ko": "나는 달렸다",
+                "es": "Corrí"
+              }
+            },
+            {
+              "word": "salí",
+              "meanings": {
+                "en": "I left",
+                "zh": "我出去了",
+                "th": "ฉันออกไปแล้ว",
+                "ko": "나는 나갔다",
+                "es": "Salí"
+              }
+            },
+            {
+              "word": "recibí",
+              "meanings": {
+                "en": "I received",
+                "zh": "我收到了",
+                "th": "ฉันได้รับแล้ว",
+                "ko": "나는 받았다",
+                "es": "Recibí"
+              }
+            },
+            {
+              "word": "abrí",
+              "meanings": {
+                "en": "I opened",
+                "zh": "我打开了",
+                "th": "ฉันเปิดแล้ว",
+                "ko": "나는 열었다",
+                "es": "Abrí"
+              }
+            },
+            {
+              "word": "decidí",
+              "meanings": {
+                "en": "I decided",
+                "zh": "我决定了",
+                "th": "ฉันตัดสินใจแล้ว",
+                "ko": "나는 결정했다",
+                "es": "Decidí"
+              }
+            },
+            {
+              "word": "vendí",
+              "meanings": {
+                "en": "I sold",
+                "zh": "我卖了",
+                "th": "ฉันขายแล้ว",
+                "ko": "나는 팔았다",
+                "es": "Vendí"
+              }
+            },
+            {
+              "word": "subí",
+              "meanings": {
+                "en": "I went up",
+                "zh": "我上去了",
+                "th": "ฉันขึ้นไปแล้ว",
+                "ko": "나는 올라갔다",
+                "es": "Subí"
+              }
+            },
+            {
+              "word": "conocí",
+              "meanings": {
+                "en": "I met",
+                "zh": "我认识了",
+                "th": "ฉันรู้จักแล้ว",
+                "ko": "나는 만났다",
+                "es": "Conocí"
+              }
+            },
+            {
+              "word": "entendí",
+              "meanings": {
+                "en": "I understood",
+                "zh": "我理解了",
+                "th": "ฉันเข้าใจแล้ว",
+                "ko": "나는 이해했다",
+                "es": "Entendí"
+              }
+            },
+            {
+              "word": "perdí",
+              "meanings": {
+                "en": "I lost",
+                "zh": "我丢了",
+                "th": "ฉันทำหายแล้ว",
+                "ko": "나는 잃었다",
+                "es": "Perdí"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "comí",
+              "options": {
+                "en": [
+                  "I ate",
+                  "I drank",
+                  "I wrote",
+                  "I learned"
+                ],
+                "zh": [
+                  "我吃了",
+                  "我喝了",
+                  "我写了",
+                  "我学了"
+                ],
+                "th": [
+                  "ฉันกินแล้ว",
+                  "ฉันดื่มแล้ว",
+                  "ฉันเขียนแล้ว",
+                  "ฉันเรียนรู้แล้ว"
+                ],
+                "ko": [
+                  "나는 먹었다",
+                  "나는 마셨다",
+                  "나는 썼다",
+                  "나는 배웠다"
+                ],
+                "es": [
+                  "Comí",
+                  "Bebí",
+                  "Escribí",
+                  "Aprendí"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I wrote' in Spanish?",
+                "zh": "西班牙语中'我写了'怎么说？",
+                "th": "คำว่า 'ฉันเขียนแล้ว' พูดเป็นภาษาสเปนว่าอะไร?",
+                "ko": "'나는 썼다'를 스페인어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'I wrote' en español?"
+              },
+              "options": {
+                "neutral": [
+                  "escribí",
+                  "comí",
+                  "bebí",
+                  "viví"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "salí",
+              "options": {
+                "en": [
+                  "I left",
+                  "I ran",
+                  "I received",
+                  "I opened"
+                ],
+                "zh": [
+                  "我出去了",
+                  "我跑了",
+                  "我收到了",
+                  "我打开了"
+                ],
+                "th": [
+                  "ฉันออกไปแล้ว",
+                  "ฉันวิ่งแล้ว",
+                  "ฉันได้รับแล้ว",
+                  "ฉันเปิดแล้ว"
+                ],
+                "ko": [
+                  "나는 나갔다",
+                  "나는 달렸다",
+                  "나는 받았다",
+                  "나는 열었다"
+                ],
+                "es": [
+                  "Salí",
+                  "Corrí",
+                  "Recibí",
+                  "Abrí"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "comí",
+                  "native": {
+                    "en": "I ate",
+                    "zh": "我吃了",
+                    "th": "ฉันกินแล้ว",
+                    "ko": "나는 먹었다",
+                    "es": "Comí"
+                  }
+                },
+                {
+                  "target": "bebí",
+                  "native": {
+                    "en": "I drank",
+                    "zh": "我喝了",
+                    "th": "ฉันดื่มแล้ว",
+                    "ko": "나는 마셨다",
+                    "es": "Bebí"
+                  }
+                },
+                {
+                  "target": "escribí",
+                  "native": {
+                    "en": "I wrote",
+                    "zh": "我写了",
+                    "th": "ฉันเขียนแล้ว",
+                    "ko": "나는 썼다",
+                    "es": "Escribí"
+                  }
+                },
+                {
+                  "target": "perdí",
+                  "native": {
+                    "en": "I lost",
+                    "zh": "我丢了",
+                    "th": "ฉันทำหายแล้ว",
+                    "ko": "나는 잃었다",
+                    "es": "Perdí"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I ate and I drank'",
+                "zh": "说'我吃了也喝了'",
+                "th": "พูดว่า 'ฉันกินแล้วและดื่มแล้ว'",
+                "ko": "'나는 먹고 마셨다'라고 말하세요",
+                "es": "Di 'Comí y bebí'"
+              },
+              "words": [
+                "bebí",
+                "y",
+                "comí"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "comí",
+                  "y",
+                  "bebí"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "comí",
+                  "y",
+                  "bebí"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Irregular Past Tense",
+            "zh": "不规则动词过去时",
+            "th": "อดีตกาลกริยาผิดปกติ",
+            "ko": "불규칙 동사 과거 시제",
+            "es": "Pasado irregular"
+          },
+          "objectives": {
+            "en": [
+              "Learn common irregular verbs in pretérito indefinido",
+              "Tell simple stories about the past"
+            ],
+            "zh": [
+              "学习常见不规则动词的简单过去时",
+              "讲述简单的过去故事"
+            ],
+            "th": [
+              "เรียนรู้กริยาผิดปกติในอดีตกาล",
+              "เล่าเรื่องง่ายๆ เกี่ยวกับอดีต"
+            ],
+            "ko": [
+              "불규칙 동사의 과거 시제를 배우기",
+              "과거에 대한 간단한 이야기하기"
+            ],
+            "es": [
+              "Aprender verbos irregulares comunes en pretérito",
+              "Contar historias sencillas del pasado"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "fui",
+              "meanings": {
+                "en": "I went / I was",
+                "zh": "我去了/我是了",
+                "th": "ฉันไปแล้ว/ฉันเป็นแล้ว",
+                "ko": "나는 갔다/나는 ~였다",
+                "es": "Fui"
+              }
+            },
+            {
+              "word": "tuve",
+              "meanings": {
+                "en": "I had",
+                "zh": "我有了",
+                "th": "ฉันมีแล้ว",
+                "ko": "나는 가졌다",
+                "es": "Tuve"
+              }
+            },
+            {
+              "word": "hice",
+              "meanings": {
+                "en": "I did / I made",
+                "zh": "我做了",
+                "th": "ฉันทำแล้ว",
+                "ko": "나는 했다/만들었다",
+                "es": "Hice"
+              }
+            },
+            {
+              "word": "dije",
+              "meanings": {
+                "en": "I said",
+                "zh": "我说了",
+                "th": "ฉันพูดแล้ว",
+                "ko": "나는 말했다",
+                "es": "Dije"
+              }
+            },
+            {
+              "word": "vine",
+              "meanings": {
+                "en": "I came",
+                "zh": "我来了",
+                "th": "ฉันมาแล้ว",
+                "ko": "나는 왔다",
+                "es": "Vine"
+              }
+            },
+            {
+              "word": "pude",
+              "meanings": {
+                "en": "I could / I managed",
+                "zh": "我能了",
+                "th": "ฉันทำได้แล้ว",
+                "ko": "나는 할 수 있었다",
+                "es": "Pude"
+              }
+            },
+            {
+              "word": "puse",
+              "meanings": {
+                "en": "I put",
+                "zh": "我放了",
+                "th": "ฉันวางแล้ว",
+                "ko": "나는 놓았다",
+                "es": "Puse"
+              }
+            },
+            {
+              "word": "supe",
+              "meanings": {
+                "en": "I found out / I knew",
+                "zh": "我知道了",
+                "th": "ฉันรู้แล้ว",
+                "ko": "나는 알았다",
+                "es": "Supe"
+              }
+            },
+            {
+              "word": "quise",
+              "meanings": {
+                "en": "I wanted",
+                "zh": "我想要了",
+                "th": "ฉันอยากได้แล้ว",
+                "ko": "나는 원했다",
+                "es": "Quise"
+              }
+            },
+            {
+              "word": "di",
+              "meanings": {
+                "en": "I gave",
+                "zh": "我给了",
+                "th": "ฉันให้แล้ว",
+                "ko": "나는 줬다",
+                "es": "Di"
+              }
+            },
+            {
+              "word": "vi",
+              "meanings": {
+                "en": "I saw",
+                "zh": "我看见了",
+                "th": "ฉันเห็นแล้ว",
+                "ko": "나는 봤다",
+                "es": "Vi"
+              }
+            },
+            {
+              "word": "estuve",
+              "meanings": {
+                "en": "I was (location/state)",
+                "zh": "我在了(位置/状态)",
+                "th": "ฉันอยู่แล้ว",
+                "ko": "나는 있었다",
+                "es": "Estuve"
+              }
+            },
+            {
+              "word": "hubo",
+              "meanings": {
+                "en": "there was/were",
+                "zh": "有了(存在)",
+                "th": "มีแล้ว",
+                "ko": "있었다",
+                "es": "Hubo"
+              }
+            },
+            {
+              "word": "traje",
+              "meanings": {
+                "en": "I brought",
+                "zh": "我带来了",
+                "th": "ฉันนำมาแล้ว",
+                "ko": "나는 가져왔다",
+                "es": "Traje"
+              }
+            },
+            {
+              "word": "conduje",
+              "meanings": {
+                "en": "I drove",
+                "zh": "我开车了",
+                "th": "ฉันขับรถแล้ว",
+                "ko": "나는 운전했다",
+                "es": "Conduje"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "fui",
+              "options": {
+                "en": [
+                  "I went / I was",
+                  "I had",
+                  "I did",
+                  "I said"
+                ],
+                "zh": [
+                  "我去了/我是了",
+                  "我有了",
+                  "我做了",
+                  "我说了"
+                ],
+                "th": [
+                  "ฉันไปแล้ว/ฉันเป็นแล้ว",
+                  "ฉันมีแล้ว",
+                  "ฉันทำแล้ว",
+                  "ฉันพูดแล้ว"
+                ],
+                "ko": [
+                  "나는 갔다/나는 ~였다",
+                  "나는 가졌다",
+                  "나는 했다",
+                  "나는 말했다"
+                ],
+                "es": [
+                  "Fui",
+                  "Tuve",
+                  "Hice",
+                  "Dije"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I did' in Spanish?",
+                "zh": "西班牙语中'我做了'怎么说？",
+                "th": "คำว่า 'ฉันทำแล้ว' พูดเป็นภาษาสเปนว่าอะไร?",
+                "ko": "'나는 했다'를 스페인어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'I did' en español?"
+              },
+              "options": {
+                "neutral": [
+                  "hice",
+                  "dije",
+                  "vine",
+                  "pude"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "tuve",
+              "options": {
+                "en": [
+                  "I had",
+                  "I could",
+                  "I put",
+                  "I knew"
+                ],
+                "zh": [
+                  "我有了",
+                  "我能了",
+                  "我放了",
+                  "我知道了"
+                ],
+                "th": [
+                  "ฉันมีแล้ว",
+                  "ฉันทำได้แล้ว",
+                  "ฉันวางแล้ว",
+                  "ฉันรู้แล้ว"
+                ],
+                "ko": [
+                  "나는 가졌다",
+                  "나는 할 수 있었다",
+                  "나는 놓았다",
+                  "나는 알았다"
+                ],
+                "es": [
+                  "Tuve",
+                  "Pude",
+                  "Puse",
+                  "Supe"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "vi",
+                  "native": {
+                    "en": "I saw",
+                    "zh": "我看见了",
+                    "th": "ฉันเห็นแล้ว",
+                    "ko": "나는 봤다",
+                    "es": "Vi"
+                  }
+                },
+                {
+                  "target": "di",
+                  "native": {
+                    "en": "I gave",
+                    "zh": "我给了",
+                    "th": "ฉันให้แล้ว",
+                    "ko": "나는 줬다",
+                    "es": "Di"
+                  }
+                },
+                {
+                  "target": "vine",
+                  "native": {
+                    "en": "I came",
+                    "zh": "我来了",
+                    "th": "ฉันมาแล้ว",
+                    "ko": "나는 왔다",
+                    "es": "Vine"
+                  }
+                },
+                {
+                  "target": "traje",
+                  "native": {
+                    "en": "I brought",
+                    "zh": "我带来了",
+                    "th": "ฉันนำมาแล้ว",
+                    "ko": "나는 가져왔다",
+                    "es": "Traje"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I went and I saw'",
+                "zh": "说'我去了也看见了'",
+                "th": "พูดว่า 'ฉันไปและเห็น'",
+                "ko": "'나는 가서 봤다'라고 말하세요",
+                "es": "Di 'Fui y vi'"
+              },
+              "words": [
+                "vi",
+                "y",
+                "fui"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "fui",
+                  "y",
+                  "vi"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "fui",
+                  "y",
+                  "vi"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Daily Routines & Habits",
+        "zh": "日常作息与习惯",
+        "th": "กิจวัตรและนิสัย",
+        "ko": "일상과 습관",
+        "es": "Rutinas y hábitos diarios"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Morning & Evening Routines",
+            "zh": "早晚作息",
+            "th": "กิจวัตรเช้าและเย็น",
+            "ko": "아침과 저녁 일과",
+            "es": "Rutinas de mañana y noche"
+          },
+          "objectives": {
+            "en": [
+              "Learn reflexive verbs for daily routines",
+              "Describe your typical day"
+            ],
+            "zh": [
+              "学习日常生活的反身动词",
+              "描述你的典型一天"
+            ],
+            "th": [
+              "เรียนรู้กริยาสะท้อนสำหรับกิจวัตรประจำวัน",
+              "อธิบายวันปกติของคุณ"
+            ],
+            "ko": [
+              "일상 루틴의 재귀 동사 배우기",
+              "전형적인 하루 설명하기"
+            ],
+            "es": [
+              "Aprender verbos reflexivos de rutina diaria",
+              "Describir tu día típico"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "despertarse",
+              "meanings": {
+                "en": "to wake up",
+                "zh": "醒来",
+                "th": "ตื่นนอน",
+                "ko": "일어나다",
+                "es": "despertarse"
+              }
+            },
+            {
+              "word": "levantarse",
+              "meanings": {
+                "en": "to get up",
+                "zh": "起床",
+                "th": "ลุกขึ้น",
+                "ko": "일어서다",
+                "es": "levantarse"
+              }
+            },
+            {
+              "word": "ducharse",
+              "meanings": {
+                "en": "to take a shower",
+                "zh": "洗澡",
+                "th": "อาบน้ำ",
+                "ko": "샤워하다",
+                "es": "ducharse"
+              }
+            },
+            {
+              "word": "vestirse",
+              "meanings": {
+                "en": "to get dressed",
+                "zh": "穿衣服",
+                "th": "แต่งตัว",
+                "ko": "옷을 입다",
+                "es": "vestirse"
+              }
+            },
+            {
+              "word": "desayunar",
+              "meanings": {
+                "en": "to have breakfast",
+                "zh": "吃早餐",
+                "th": "กินอาหารเช้า",
+                "ko": "아침을 먹다",
+                "es": "desayunar"
+              }
+            },
+            {
+              "word": "almorzar",
+              "meanings": {
+                "en": "to have lunch",
+                "zh": "吃午餐",
+                "th": "กินอาหารกลางวัน",
+                "ko": "점심을 먹다",
+                "es": "almorzar"
+              }
+            },
+            {
+              "word": "cenar",
+              "meanings": {
+                "en": "to have dinner",
+                "zh": "吃晚餐",
+                "th": "กินอาหารเย็น",
+                "ko": "저녁을 먹다",
+                "es": "cenar"
+              }
+            },
+            {
+              "word": "acostarse",
+              "meanings": {
+                "en": "to go to bed",
+                "zh": "上床睡觉",
+                "th": "เข้านอน",
+                "ko": "잠자리에 들다",
+                "es": "acostarse"
+              }
+            },
+            {
+              "word": "cepillarse los dientes",
+              "meanings": {
+                "en": "to brush teeth",
+                "zh": "刷牙",
+                "th": "แปรงฟัน",
+                "ko": "양치하다",
+                "es": "cepillarse los dientes"
+              }
+            },
+            {
+              "word": "peinarse",
+              "meanings": {
+                "en": "to comb hair",
+                "zh": "梳头",
+                "th": "หวีผม",
+                "ko": "머리를 빗다",
+                "es": "peinarse"
+              }
+            },
+            {
+              "word": "maquillarse",
+              "meanings": {
+                "en": "to put on makeup",
+                "zh": "化妆",
+                "th": "แต่งหน้า",
+                "ko": "화장하다",
+                "es": "maquillarse"
+              }
+            },
+            {
+              "word": "afeitarse",
+              "meanings": {
+                "en": "to shave",
+                "zh": "刮胡子",
+                "th": "โกนหนวด",
+                "ko": "면도하다",
+                "es": "afeitarse"
+              }
+            },
+            {
+              "word": "todos los días",
+              "meanings": {
+                "en": "every day",
+                "zh": "每天",
+                "th": "ทุกวัน",
+                "ko": "매일",
+                "es": "todos los días"
+              }
+            },
+            {
+              "word": "siempre",
+              "meanings": {
+                "en": "always",
+                "zh": "总是",
+                "th": "เสมอ",
+                "ko": "항상",
+                "es": "siempre"
+              }
+            },
+            {
+              "word": "normalmente",
+              "meanings": {
+                "en": "normally",
+                "zh": "通常",
+                "th": "ปกติ",
+                "ko": "보통",
+                "es": "normalmente"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "despertarse",
+              "options": {
+                "en": [
+                  "to wake up",
+                  "to get up",
+                  "to take a shower",
+                  "to get dressed"
+                ],
+                "zh": [
+                  "醒来",
+                  "起床",
+                  "洗澡",
+                  "穿衣服"
+                ],
+                "th": [
+                  "ตื่นนอน",
+                  "ลุกขึ้น",
+                  "อาบน้ำ",
+                  "แต่งตัว"
+                ],
+                "ko": [
+                  "일어나다",
+                  "일어서다",
+                  "샤워하다",
+                  "옷을 입다"
+                ],
+                "es": [
+                  "despertarse",
+                  "levantarse",
+                  "ducharse",
+                  "vestirse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to have breakfast' in Spanish?",
+                "zh": "西班牙语中'吃早餐'怎么说？",
+                "th": "คำว่า 'กินอาหารเช้า' ภาษาสเปนว่าอะไร?",
+                "ko": "'아침을 먹다'를 스페인어로?",
+                "es": "¿Cómo se dice 'to have breakfast'?"
+              },
+              "options": {
+                "neutral": [
+                  "desayunar",
+                  "almorzar",
+                  "cenar",
+                  "ducharse"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "acostarse",
+              "options": {
+                "en": [
+                  "to go to bed",
+                  "to wake up",
+                  "to get dressed",
+                  "to have dinner"
+                ],
+                "zh": [
+                  "上床睡觉",
+                  "醒来",
+                  "穿衣服",
+                  "吃晚餐"
+                ],
+                "th": [
+                  "เข้านอน",
+                  "ตื่นนอน",
+                  "แต่งตัว",
+                  "กินอาหารเย็น"
+                ],
+                "ko": [
+                  "잠자리에 들다",
+                  "일어나다",
+                  "옷을 입다",
+                  "저녁을 먹다"
+                ],
+                "es": [
+                  "acostarse",
+                  "despertarse",
+                  "vestirse",
+                  "cenar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "desayunar",
+                  "native": {
+                    "en": "to have breakfast",
+                    "zh": "吃早餐",
+                    "th": "กินอาหารเช้า",
+                    "ko": "아침을 먹다",
+                    "es": "desayunar"
+                  }
+                },
+                {
+                  "target": "almorzar",
+                  "native": {
+                    "en": "to have lunch",
+                    "zh": "吃午餐",
+                    "th": "กินอาหารกลางวัน",
+                    "ko": "점심을 먹다",
+                    "es": "almorzar"
+                  }
+                },
+                {
+                  "target": "cenar",
+                  "native": {
+                    "en": "to have dinner",
+                    "zh": "吃晚餐",
+                    "th": "กินอาหารเย็น",
+                    "ko": "저녁을 먹다",
+                    "es": "cenar"
+                  }
+                },
+                {
+                  "target": "ducharse",
+                  "native": {
+                    "en": "to take a shower",
+                    "zh": "洗澡",
+                    "th": "อาบน้ำ",
+                    "ko": "샤워하다",
+                    "es": "ducharse"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I always wake up early'",
+                "zh": "说'我总是早起'",
+                "th": "พูดว่า 'ฉันตื่นเช้าเสมอ'",
+                "ko": "'나는 항상 일찍 일어난다'라고 말하세요",
+                "es": "Di 'Siempre me despierto temprano'"
+              },
+              "words": [
+                "me",
+                "temprano",
+                "siempre",
+                "despierto"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "siempre",
+                  "me",
+                  "despierto",
+                  "temprano"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "siempre",
+                  "me",
+                  "despierto",
+                  "temprano"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Household Chores",
+            "zh": "家务",
+            "th": "งานบ้าน",
+            "ko": "집안일",
+            "es": "Tareas del hogar"
+          },
+          "objectives": {
+            "en": [
+              "Learn vocabulary for household chores",
+              "Talk about frequency of activities"
+            ],
+            "zh": [
+              "学习家务活动词汇",
+              "谈论活动频率"
+            ],
+            "th": [
+              "เรียนรู้คำศัพท์งานบ้าน",
+              "พูดถึงความถี่ของกิจกรรม"
+            ],
+            "ko": [
+              "집안일 어휘 배우기",
+              "활동 빈도 말하기"
+            ],
+            "es": [
+              "Aprender vocabulario de tareas domésticas",
+              "Hablar sobre la frecuencia de actividades"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "limpiar",
+              "meanings": {
+                "en": "to clean",
+                "zh": "打扫",
+                "th": "ทำความสะอาด",
+                "ko": "청소하다",
+                "es": "limpiar"
+              }
+            },
+            {
+              "word": "cocinar",
+              "meanings": {
+                "en": "to cook",
+                "zh": "做饭",
+                "th": "ทำอาหาร",
+                "ko": "요리하다",
+                "es": "cocinar"
+              }
+            },
+            {
+              "word": "lavar la ropa",
+              "meanings": {
+                "en": "to do laundry",
+                "zh": "洗衣服",
+                "th": "ซักผ้า",
+                "ko": "빨래하다",
+                "es": "lavar la ropa"
+              }
+            },
+            {
+              "word": "barrer",
+              "meanings": {
+                "en": "to sweep",
+                "zh": "扫地",
+                "th": "กวาดพื้น",
+                "ko": "쓸다",
+                "es": "barrer"
+              }
+            },
+            {
+              "word": "fregar los platos",
+              "meanings": {
+                "en": "to wash dishes",
+                "zh": "洗碗",
+                "th": "ล้างจาน",
+                "ko": "설거지하다",
+                "es": "fregar los platos"
+              }
+            },
+            {
+              "word": "planchar",
+              "meanings": {
+                "en": "to iron",
+                "zh": "熨衣服",
+                "th": "รีดผ้า",
+                "ko": "다림질하다",
+                "es": "planchar"
+              }
+            },
+            {
+              "word": "sacar la basura",
+              "meanings": {
+                "en": "to take out trash",
+                "zh": "倒垃圾",
+                "th": "ทิ้งขยะ",
+                "ko": "쓰레기를 버리다",
+                "es": "sacar la basura"
+              }
+            },
+            {
+              "word": "hacer la cama",
+              "meanings": {
+                "en": "to make the bed",
+                "zh": "整理床铺",
+                "th": "เก็บที่นอน",
+                "ko": "침대를 정리하다",
+                "es": "hacer la cama"
+              }
+            },
+            {
+              "word": "pasar la aspiradora",
+              "meanings": {
+                "en": "to vacuum",
+                "zh": "吸尘",
+                "th": "ดูดฝุ่น",
+                "ko": "청소기를 돌리다",
+                "es": "pasar la aspiradora"
+              }
+            },
+            {
+              "word": "regar las plantas",
+              "meanings": {
+                "en": "to water plants",
+                "zh": "浇花",
+                "th": "รดน้ำต้นไม้",
+                "ko": "식물에 물을 주다",
+                "es": "regar las plantas"
+              }
+            },
+            {
+              "word": "ordenar",
+              "meanings": {
+                "en": "to tidy up",
+                "zh": "整理",
+                "th": "จัดระเบียบ",
+                "ko": "정리하다",
+                "es": "ordenar"
+              }
+            },
+            {
+              "word": "a veces",
+              "meanings": {
+                "en": "sometimes",
+                "zh": "有时候",
+                "th": "บางครั้ง",
+                "ko": "가끔",
+                "es": "a veces"
+              }
+            },
+            {
+              "word": "nunca",
+              "meanings": {
+                "en": "never",
+                "zh": "从不",
+                "th": "ไม่เคย",
+                "ko": "절대 ~않다",
+                "es": "nunca"
+              }
+            },
+            {
+              "word": "cada semana",
+              "meanings": {
+                "en": "every week",
+                "zh": "每周",
+                "th": "ทุกสัปดาห์",
+                "ko": "매주",
+                "es": "cada semana"
+              }
+            },
+            {
+              "word": "los fines de semana",
+              "meanings": {
+                "en": "on weekends",
+                "zh": "周末",
+                "th": "วันหยุดสุดสัปดาห์",
+                "ko": "주말에",
+                "es": "los fines de semana"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "limpiar",
+              "options": {
+                "en": [
+                  "to clean",
+                  "to cook",
+                  "to sweep",
+                  "to iron"
+                ],
+                "zh": [
+                  "打扫",
+                  "做饭",
+                  "扫地",
+                  "熨衣服"
+                ],
+                "th": [
+                  "ทำความสะอาด",
+                  "ทำอาหาร",
+                  "กวาดพื้น",
+                  "รีดผ้า"
+                ],
+                "ko": [
+                  "청소하다",
+                  "요리하다",
+                  "쓸다",
+                  "다림질하다"
+                ],
+                "es": [
+                  "limpiar",
+                  "cocinar",
+                  "barrer",
+                  "planchar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to wash dishes' in Spanish?",
+                "zh": "西班牙语中'洗碗'怎么说？",
+                "th": "คำว่า 'ล้างจาน' ภาษาสเปนว่าอะไร?",
+                "ko": "'설거지하다'를 스페인어로?",
+                "es": "¿Cómo se dice 'to wash dishes'?"
+              },
+              "options": {
+                "neutral": [
+                  "fregar los platos",
+                  "lavar la ropa",
+                  "barrer",
+                  "planchar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "cocinar",
+              "options": {
+                "en": [
+                  "to cook",
+                  "to clean",
+                  "to iron",
+                  "to sweep"
+                ],
+                "zh": [
+                  "做饭",
+                  "打扫",
+                  "熨衣服",
+                  "扫地"
+                ],
+                "th": [
+                  "ทำอาหาร",
+                  "ทำความสะอาด",
+                  "รีดผ้า",
+                  "กวาดพื้น"
+                ],
+                "ko": [
+                  "요리하다",
+                  "청소하다",
+                  "다림질하다",
+                  "쓸다"
+                ],
+                "es": [
+                  "cocinar",
+                  "limpiar",
+                  "planchar",
+                  "barrer"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "lavar la ropa",
+                  "native": {
+                    "en": "to do laundry",
+                    "zh": "洗衣服",
+                    "th": "ซักผ้า",
+                    "ko": "빨래하다",
+                    "es": "lavar la ropa"
+                  }
+                },
+                {
+                  "target": "hacer la cama",
+                  "native": {
+                    "en": "to make the bed",
+                    "zh": "整理床铺",
+                    "th": "เก็บที่นอน",
+                    "ko": "침대를 정리하다",
+                    "es": "hacer la cama"
+                  }
+                },
+                {
+                  "target": "sacar la basura",
+                  "native": {
+                    "en": "to take out trash",
+                    "zh": "倒垃圾",
+                    "th": "ทิ้งขยะ",
+                    "ko": "쓰레기를 버리다",
+                    "es": "sacar la basura"
+                  }
+                },
+                {
+                  "target": "regar las plantas",
+                  "native": {
+                    "en": "to water plants",
+                    "zh": "浇花",
+                    "th": "รดน้ำต้นไม้",
+                    "ko": "식물에 물을 주다",
+                    "es": "regar las plantas"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I sometimes cook on weekends'",
+                "zh": "说'我有时候周末做饭'",
+                "th": "พูดว่า 'บางครั้งฉันทำอาหารวันหยุด'",
+                "ko": "'나는 가끔 주말에 요리한다'라고 말하세요",
+                "es": "Di 'A veces cocino los fines de semana'"
+              },
+              "words": [
+                "cocino",
+                "los",
+                "a",
+                "fines",
+                "veces",
+                "de",
+                "semana"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "a",
+                  "veces",
+                  "cocino",
+                  "los",
+                  "fines",
+                  "de",
+                  "semana"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "a",
+                  "veces",
+                  "cocino",
+                  "los",
+                  "fines",
+                  "de",
+                  "semana"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Weekly Schedule",
+            "zh": "每周日程",
+            "th": "ตารางรายสัปดาห์",
+            "ko": "주간 일정",
+            "es": "Horario semanal"
+          },
+          "objectives": {
+            "en": [
+              "Learn days of the week and times of day",
+              "Describe a weekly schedule"
+            ],
+            "zh": [
+              "学习星期和一天的时间段",
+              "描述每周日程"
+            ],
+            "th": [
+              "เรียนรู้วันในสัปดาห์และช่วงเวลาของวัน",
+              "อธิบายตารางประจำสัปดาห์"
+            ],
+            "ko": [
+              "요일과 하루의 시간대 배우기",
+              "주간 일정 설명하기"
+            ],
+            "es": [
+              "Aprender los días de la semana y momentos del día",
+              "Describir un horario semanal"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "el lunes",
+              "meanings": {
+                "en": "Monday",
+                "zh": "星期一",
+                "th": "วันจันทร์",
+                "ko": "월요일",
+                "es": "el lunes"
+              }
+            },
+            {
+              "word": "el martes",
+              "meanings": {
+                "en": "Tuesday",
+                "zh": "星期二",
+                "th": "วันอังคาร",
+                "ko": "화요일",
+                "es": "el martes"
+              }
+            },
+            {
+              "word": "el miércoles",
+              "meanings": {
+                "en": "Wednesday",
+                "zh": "星期三",
+                "th": "วันพุธ",
+                "ko": "수요일",
+                "es": "el miércoles"
+              }
+            },
+            {
+              "word": "el jueves",
+              "meanings": {
+                "en": "Thursday",
+                "zh": "星期四",
+                "th": "วันพฤหัสบดี",
+                "ko": "목요일",
+                "es": "el jueves"
+              }
+            },
+            {
+              "word": "el viernes",
+              "meanings": {
+                "en": "Friday",
+                "zh": "星期五",
+                "th": "วันศุกร์",
+                "ko": "금요일",
+                "es": "el viernes"
+              }
+            },
+            {
+              "word": "el sábado",
+              "meanings": {
+                "en": "Saturday",
+                "zh": "星期六",
+                "th": "วันเสาร์",
+                "ko": "토요일",
+                "es": "el sábado"
+              }
+            },
+            {
+              "word": "el domingo",
+              "meanings": {
+                "en": "Sunday",
+                "zh": "星期日",
+                "th": "วันอาทิตย์",
+                "ko": "일요일",
+                "es": "el domingo"
+              }
+            },
+            {
+              "word": "la mañana",
+              "meanings": {
+                "en": "the morning",
+                "zh": "早上",
+                "th": "ตอนเช้า",
+                "ko": "아침",
+                "es": "la mañana"
+              }
+            },
+            {
+              "word": "la tarde",
+              "meanings": {
+                "en": "the afternoon",
+                "zh": "下午",
+                "th": "ตอนบ่าย",
+                "ko": "오후",
+                "es": "la tarde"
+              }
+            },
+            {
+              "word": "la noche",
+              "meanings": {
+                "en": "the night",
+                "zh": "晚上",
+                "th": "ตอนกลางคืน",
+                "ko": "밤",
+                "es": "la noche"
+              }
+            },
+            {
+              "word": "temprano",
+              "meanings": {
+                "en": "early",
+                "zh": "早",
+                "th": "เช้า",
+                "ko": "일찍",
+                "es": "temprano"
+              }
+            },
+            {
+              "word": "tarde",
+              "meanings": {
+                "en": "late",
+                "zh": "晚",
+                "th": "สาย",
+                "ko": "늦게",
+                "es": "tarde"
+              }
+            },
+            {
+              "word": "la clase",
+              "meanings": {
+                "en": "the class",
+                "zh": "课",
+                "th": "คลาส",
+                "ko": "수업",
+                "es": "la clase"
+              }
+            },
+            {
+              "word": "el gimnasio",
+              "meanings": {
+                "en": "the gym",
+                "zh": "健身房",
+                "th": "ยิม",
+                "ko": "체육관",
+                "es": "el gimnasio"
+              }
+            },
+            {
+              "word": "el trabajo",
+              "meanings": {
+                "en": "the work / job",
+                "zh": "工作",
+                "th": "งาน",
+                "ko": "일/직장",
+                "es": "el trabajo"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "el miércoles",
+              "options": {
+                "en": [
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Tuesday"
+                ],
+                "zh": [
+                  "星期三",
+                  "星期四",
+                  "星期五",
+                  "星期二"
+                ],
+                "th": [
+                  "วันพุธ",
+                  "วันพฤหัสบดี",
+                  "วันศุกร์",
+                  "วันอังคาร"
+                ],
+                "ko": [
+                  "수요일",
+                  "목요일",
+                  "금요일",
+                  "화요일"
+                ],
+                "es": [
+                  "el miércoles",
+                  "el jueves",
+                  "el viernes",
+                  "el martes"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Saturday' in Spanish?",
+                "zh": "西班牙语中'星期六'怎么说？",
+                "th": "คำว่า 'วันเสาร์' ภาษาสเปนว่าอะไร?",
+                "ko": "'토요일'을 스페인어로?",
+                "es": "¿Cómo se dice 'Saturday'?"
+              },
+              "options": {
+                "neutral": [
+                  "el sábado",
+                  "el domingo",
+                  "el viernes",
+                  "el lunes"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "la mañana",
+              "options": {
+                "en": [
+                  "the morning",
+                  "the afternoon",
+                  "the night",
+                  "early"
+                ],
+                "zh": [
+                  "早上",
+                  "下午",
+                  "晚上",
+                  "早"
+                ],
+                "th": [
+                  "ตอนเช้า",
+                  "ตอนบ่าย",
+                  "ตอนกลางคืน",
+                  "เช้า"
+                ],
+                "ko": [
+                  "아침",
+                  "오후",
+                  "밤",
+                  "일찍"
+                ],
+                "es": [
+                  "la mañana",
+                  "la tarde",
+                  "la noche",
+                  "temprano"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "el lunes",
+                  "native": {
+                    "en": "Monday",
+                    "zh": "星期一",
+                    "th": "วันจันทร์",
+                    "ko": "월요일",
+                    "es": "el lunes"
+                  }
+                },
+                {
+                  "target": "el viernes",
+                  "native": {
+                    "en": "Friday",
+                    "zh": "星期五",
+                    "th": "วันศุกร์",
+                    "ko": "금요일",
+                    "es": "el viernes"
+                  }
+                },
+                {
+                  "target": "el domingo",
+                  "native": {
+                    "en": "Sunday",
+                    "zh": "星期日",
+                    "th": "วันอาทิตย์",
+                    "ko": "일요일",
+                    "es": "el domingo"
+                  }
+                },
+                {
+                  "target": "el sábado",
+                  "native": {
+                    "en": "Saturday",
+                    "zh": "星期六",
+                    "th": "วันเสาร์",
+                    "ko": "토요일",
+                    "es": "el sábado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'On Monday I go to the gym'",
+                "zh": "说'星期一我去健身房'",
+                "th": "พูดว่า 'วันจันทร์ฉันไปยิม'",
+                "ko": "'월요일에 나는 체육관에 간다'라고 말하세요",
+                "es": "Di 'El lunes voy al gimnasio'"
+              },
+              "words": [
+                "voy",
+                "el",
+                "al",
+                "lunes",
+                "gimnasio"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "el",
+                  "lunes",
+                  "voy",
+                  "al",
+                  "gimnasio"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "el",
+                  "lunes",
+                  "voy",
+                  "al",
+                  "gimnasio"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Plans & Future",
+        "zh": "计划与未来",
+        "th": "แผนและอนาคต",
+        "ko": "계획과 미래",
+        "es": "Planes y futuro"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Going to + Infinitive",
+            "zh": "ir a + 动词原形",
+            "th": "ir a + กริยาไม่ผัน",
+            "ko": "ir a + 동사 원형",
+            "es": "Ir a + infinitivo"
+          },
+          "objectives": {
+            "en": [
+              "Learn 'ir a + infinitive' to express future plans",
+              "Use future time expressions"
+            ],
+            "zh": [
+              "学习'ir a + 不定式'表达未来计划",
+              "使用未来时间表达"
+            ],
+            "th": [
+              "เรียนรู้ 'ir a + กริยา' เพื่อแสดงแผนอนาคต",
+              "ใช้สำนวนเวลาอนาคต"
+            ],
+            "ko": [
+              "'ir a + 동사원형'으로 미래 계획 표현하기",
+              "미래 시간 표현 사용하기"
+            ],
+            "es": [
+              "Aprender 'ir a + infinitivo' para expresar planes",
+              "Usar expresiones de tiempo futuro"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "voy a",
+              "meanings": {
+                "en": "I'm going to",
+                "zh": "我将要",
+                "th": "ฉันจะ",
+                "ko": "나는 ~할 것이다",
+                "es": "voy a"
+              }
+            },
+            {
+              "word": "vas a",
+              "meanings": {
+                "en": "you're going to",
+                "zh": "你将要",
+                "th": "คุณจะ",
+                "ko": "너는 ~할 것이다",
+                "es": "vas a"
+              }
+            },
+            {
+              "word": "va a",
+              "meanings": {
+                "en": "he/she is going to",
+                "zh": "他/她将要",
+                "th": "เขา/เธอจะ",
+                "ko": "그/그녀는 ~할 것이다",
+                "es": "va a"
+              }
+            },
+            {
+              "word": "vamos a",
+              "meanings": {
+                "en": "we're going to",
+                "zh": "我们将要",
+                "th": "เราจะ",
+                "ko": "우리는 ~할 것이다",
+                "es": "vamos a"
+              }
+            },
+            {
+              "word": "van a",
+              "meanings": {
+                "en": "they're going to",
+                "zh": "他们将要",
+                "th": "พวกเขาจะ",
+                "ko": "그들은 ~할 것이다",
+                "es": "van a"
+              }
+            },
+            {
+              "word": "viajar",
+              "meanings": {
+                "en": "to travel",
+                "zh": "旅行",
+                "th": "เดินทาง",
+                "ko": "여행하다",
+                "es": "viajar"
+              }
+            },
+            {
+              "word": "visitar",
+              "meanings": {
+                "en": "to visit",
+                "zh": "访问",
+                "th": "เยี่ยม",
+                "ko": "방문하다",
+                "es": "visitar"
+              }
+            },
+            {
+              "word": "estudiar",
+              "meanings": {
+                "en": "to study",
+                "zh": "学习",
+                "th": "เรียน",
+                "ko": "공부하다",
+                "es": "estudiar"
+              }
+            },
+            {
+              "word": "trabajar",
+              "meanings": {
+                "en": "to work",
+                "zh": "工作",
+                "th": "ทำงาน",
+                "ko": "일하다",
+                "es": "trabajar"
+              }
+            },
+            {
+              "word": "descansar",
+              "meanings": {
+                "en": "to rest",
+                "zh": "休息",
+                "th": "พักผ่อน",
+                "ko": "쉬다",
+                "es": "descansar"
+              }
+            },
+            {
+              "word": "mañana",
+              "meanings": {
+                "en": "tomorrow",
+                "zh": "明天",
+                "th": "พรุ่งนี้",
+                "ko": "내일",
+                "es": "mañana"
+              }
+            },
+            {
+              "word": "la próxima semana",
+              "meanings": {
+                "en": "next week",
+                "zh": "下周",
+                "th": "สัปดาห์หน้า",
+                "ko": "다음 주",
+                "es": "la próxima semana"
+              }
+            },
+            {
+              "word": "el próximo mes",
+              "meanings": {
+                "en": "next month",
+                "zh": "下个月",
+                "th": "เดือนหน้า",
+                "ko": "다음 달",
+                "es": "el próximo mes"
+              }
+            },
+            {
+              "word": "el próximo año",
+              "meanings": {
+                "en": "next year",
+                "zh": "明年",
+                "th": "ปีหน้า",
+                "ko": "내년",
+                "es": "el próximo año"
+              }
+            },
+            {
+              "word": "este fin de semana",
+              "meanings": {
+                "en": "this weekend",
+                "zh": "这个周末",
+                "th": "สุดสัปดาห์นี้",
+                "ko": "이번 주말",
+                "es": "este fin de semana"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "voy a",
+              "options": {
+                "en": [
+                  "I'm going to",
+                  "you're going to",
+                  "he's going to",
+                  "we're going to"
+                ],
+                "zh": [
+                  "我将要",
+                  "你将要",
+                  "他将要",
+                  "我们将要"
+                ],
+                "th": [
+                  "ฉันจะ",
+                  "คุณจะ",
+                  "เขาจะ",
+                  "เราจะ"
+                ],
+                "ko": [
+                  "나는 ~할 것이다",
+                  "너는 ~할 것이다",
+                  "그는 ~할 것이다",
+                  "우리는 ~할 것이다"
+                ],
+                "es": [
+                  "voy a",
+                  "vas a",
+                  "va a",
+                  "vamos a"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to travel' in Spanish?",
+                "zh": "西班牙语中'旅行'怎么说？",
+                "th": "คำว่า 'เดินทาง' ภาษาสเปนว่าอะไร?",
+                "ko": "'여행하다'를 스페인어로?",
+                "es": "¿Cómo se dice 'to travel'?"
+              },
+              "options": {
+                "neutral": [
+                  "viajar",
+                  "visitar",
+                  "estudiar",
+                  "trabajar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "mañana",
+              "options": {
+                "en": [
+                  "tomorrow",
+                  "next week",
+                  "next month",
+                  "this weekend"
+                ],
+                "zh": [
+                  "明天",
+                  "下周",
+                  "下个月",
+                  "这个周末"
+                ],
+                "th": [
+                  "พรุ่งนี้",
+                  "สัปดาห์หน้า",
+                  "เดือนหน้า",
+                  "สุดสัปดาห์นี้"
+                ],
+                "ko": [
+                  "내일",
+                  "다음 주",
+                  "다음 달",
+                  "이번 주말"
+                ],
+                "es": [
+                  "mañana",
+                  "la próxima semana",
+                  "el próximo mes",
+                  "este fin de semana"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "mañana",
+                  "native": {
+                    "en": "tomorrow",
+                    "zh": "明天",
+                    "th": "พรุ่งนี้",
+                    "ko": "내일",
+                    "es": "mañana"
+                  }
+                },
+                {
+                  "target": "la próxima semana",
+                  "native": {
+                    "en": "next week",
+                    "zh": "下周",
+                    "th": "สัปดาห์หน้า",
+                    "ko": "다음 주",
+                    "es": "la próxima semana"
+                  }
+                },
+                {
+                  "target": "el próximo año",
+                  "native": {
+                    "en": "next year",
+                    "zh": "明年",
+                    "th": "ปีหน้า",
+                    "ko": "내년",
+                    "es": "el próximo año"
+                  }
+                },
+                {
+                  "target": "este fin de semana",
+                  "native": {
+                    "en": "this weekend",
+                    "zh": "这个周末",
+                    "th": "สุดสัปดาห์นี้",
+                    "ko": "이번 주말",
+                    "es": "este fin de semana"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I'm going to travel tomorrow'",
+                "zh": "说'我明天要去旅行'",
+                "th": "พูดว่า 'ฉันจะเดินทางพรุ่งนี้'",
+                "ko": "'나는 내일 여행할 것이다'라고 말하세요",
+                "es": "Di 'Voy a viajar mañana'"
+              },
+              "words": [
+                "mañana",
+                "viajar",
+                "voy",
+                "a"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "voy",
+                  "a",
+                  "viajar",
+                  "mañana"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "voy",
+                  "a",
+                  "viajar",
+                  "mañana"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Making Plans with Friends",
+            "zh": "和朋友做计划",
+            "th": "วางแผนกับเพื่อน",
+            "ko": "친구와 계획 세우기",
+            "es": "Hacer planes con amigos"
+          },
+          "objectives": {
+            "en": [
+              "Learn to make plans and invitations",
+              "Accept and decline invitations"
+            ],
+            "zh": [
+              "学习制定计划和邀请",
+              "接受和拒绝邀请"
+            ],
+            "th": [
+              "เรียนรู้การวางแผนและเชิญ",
+              "ตอบรับและปฏิเสธคำเชิญ"
+            ],
+            "ko": [
+              "계획 세우기와 초대하기 배우기",
+              "초대를 수락하고 거절하기"
+            ],
+            "es": [
+              "Aprender a hacer planes e invitaciones",
+              "Aceptar y rechazar invitaciones"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "quedar",
+              "meanings": {
+                "en": "to meet up",
+                "zh": "约见",
+                "th": "นัดพบ",
+                "ko": "만나다",
+                "es": "quedar"
+              }
+            },
+            {
+              "word": "salir",
+              "meanings": {
+                "en": "to go out",
+                "zh": "出去",
+                "th": "ออกไป",
+                "ko": "나가다",
+                "es": "salir"
+              }
+            },
+            {
+              "word": "el cine",
+              "meanings": {
+                "en": "the cinema",
+                "zh": "电影院",
+                "th": "โรงหนัง",
+                "ko": "영화관",
+                "es": "el cine"
+              }
+            },
+            {
+              "word": "el parque",
+              "meanings": {
+                "en": "the park",
+                "zh": "公园",
+                "th": "สวนสาธารณะ",
+                "ko": "공원",
+                "es": "el parque"
+              }
+            },
+            {
+              "word": "el restaurante",
+              "meanings": {
+                "en": "the restaurant",
+                "zh": "餐厅",
+                "th": "ร้านอาหาร",
+                "ko": "식당",
+                "es": "el restaurante"
+              }
+            },
+            {
+              "word": "la fiesta",
+              "meanings": {
+                "en": "the party",
+                "zh": "派对",
+                "th": "ปาร์ตี้",
+                "ko": "파티",
+                "es": "la fiesta"
+              }
+            },
+            {
+              "word": "la playa",
+              "meanings": {
+                "en": "the beach",
+                "zh": "海滩",
+                "th": "ชายหาด",
+                "ko": "해변",
+                "es": "la playa"
+              }
+            },
+            {
+              "word": "el centro comercial",
+              "meanings": {
+                "en": "the shopping mall",
+                "zh": "购物中心",
+                "th": "ห้างสรรพสินค้า",
+                "ko": "쇼핑몰",
+                "es": "el centro comercial"
+              }
+            },
+            {
+              "word": "invitar",
+              "meanings": {
+                "en": "to invite",
+                "zh": "邀请",
+                "th": "เชิญ",
+                "ko": "초대하다",
+                "es": "invitar"
+              }
+            },
+            {
+              "word": "acompañar",
+              "meanings": {
+                "en": "to accompany",
+                "zh": "陪伴",
+                "th": "ไปด้วย",
+                "ko": "동행하다",
+                "es": "acompañar"
+              }
+            },
+            {
+              "word": "¿quieres?",
+              "meanings": {
+                "en": "do you want?",
+                "zh": "你想要吗？",
+                "th": "คุณอยากไหม?",
+                "ko": "원해?",
+                "es": "¿quieres?"
+              }
+            },
+            {
+              "word": "¿vamos?",
+              "meanings": {
+                "en": "shall we go?",
+                "zh": "我们走吗？",
+                "th": "เราไปกันไหม?",
+                "ko": "우리 갈까?",
+                "es": "¿vamos?"
+              }
+            },
+            {
+              "word": "¡claro!",
+              "meanings": {
+                "en": "of course!",
+                "zh": "当然！",
+                "th": "แน่นอน!",
+                "ko": "물론!",
+                "es": "¡claro!"
+              }
+            },
+            {
+              "word": "buena idea",
+              "meanings": {
+                "en": "good idea",
+                "zh": "好主意",
+                "th": "ความคิดดี",
+                "ko": "좋은 생각",
+                "es": "buena idea"
+              }
+            },
+            {
+              "word": "lo siento, no puedo",
+              "meanings": {
+                "en": "sorry, I can't",
+                "zh": "对不起，我不行",
+                "th": "ขอโทษ ฉันไม่ได้",
+                "ko": "미안, 안 돼",
+                "es": "lo siento, no puedo"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "el cine",
+              "options": {
+                "en": [
+                  "the cinema",
+                  "the park",
+                  "the restaurant",
+                  "the beach"
+                ],
+                "zh": [
+                  "电影院",
+                  "公园",
+                  "餐厅",
+                  "海滩"
+                ],
+                "th": [
+                  "โรงหนัง",
+                  "สวนสาธารณะ",
+                  "ร้านอาหาร",
+                  "ชายหาด"
+                ],
+                "ko": [
+                  "영화관",
+                  "공원",
+                  "식당",
+                  "해변"
+                ],
+                "es": [
+                  "el cine",
+                  "el parque",
+                  "el restaurante",
+                  "la playa"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'the party' in Spanish?",
+                "zh": "西班牙语中'派对'怎么说？",
+                "th": "คำว่า 'ปาร์ตี้' ภาษาสเปนว่าอะไร?",
+                "ko": "'파티'를 스페인어로?",
+                "es": "¿Cómo se dice 'the party'?"
+              },
+              "options": {
+                "neutral": [
+                  "la fiesta",
+                  "la playa",
+                  "el cine",
+                  "el parque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "invitar",
+              "options": {
+                "en": [
+                  "to invite",
+                  "to accompany",
+                  "to meet up",
+                  "to go out"
+                ],
+                "zh": [
+                  "邀请",
+                  "陪伴",
+                  "约见",
+                  "出去"
+                ],
+                "th": [
+                  "เชิญ",
+                  "ไปด้วย",
+                  "นัดพบ",
+                  "ออกไป"
+                ],
+                "ko": [
+                  "초대하다",
+                  "동행하다",
+                  "만나다",
+                  "나가다"
+                ],
+                "es": [
+                  "invitar",
+                  "acompañar",
+                  "quedar",
+                  "salir"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "el cine",
+                  "native": {
+                    "en": "the cinema",
+                    "zh": "电影院",
+                    "th": "โรงหนัง",
+                    "ko": "영화관",
+                    "es": "el cine"
+                  }
+                },
+                {
+                  "target": "la playa",
+                  "native": {
+                    "en": "the beach",
+                    "zh": "海滩",
+                    "th": "ชายหาด",
+                    "ko": "해변",
+                    "es": "la playa"
+                  }
+                },
+                {
+                  "target": "la fiesta",
+                  "native": {
+                    "en": "the party",
+                    "zh": "派对",
+                    "th": "ปาร์ตี้",
+                    "ko": "파티",
+                    "es": "la fiesta"
+                  }
+                },
+                {
+                  "target": "el parque",
+                  "native": {
+                    "en": "the park",
+                    "zh": "公园",
+                    "th": "สวนสาธารณะ",
+                    "ko": "공원",
+                    "es": "el parque"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Do you want to go to the cinema?'",
+                "zh": "说'你想去电影院吗？'",
+                "th": "พูดว่า 'คุณอยากไปโรงหนังไหม?'",
+                "ko": "'영화관에 가고 싶어?'라고 말하세요",
+                "es": "Di '¿Quieres ir al cine?'"
+              },
+              "words": [
+                "ir",
+                "¿quieres",
+                "cine?",
+                "al"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "¿quieres",
+                  "ir",
+                  "al",
+                  "cine?"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "¿quieres",
+                  "ir",
+                  "al",
+                  "cine?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Weekend Plans & Weather",
+            "zh": "周末计划与天气",
+            "th": "แผนสุดสัปดาห์และสภาพอากาศ",
+            "ko": "주말 계획과 날씨",
+            "es": "Planes de fin de semana y clima"
+          },
+          "objectives": {
+            "en": [
+              "Learn weather vocabulary",
+              "Make plans based on weather conditions"
+            ],
+            "zh": [
+              "学习天气词汇",
+              "根据天气制定计划"
+            ],
+            "th": [
+              "เรียนรู้คำศัพท์เกี่ยวกับสภาพอากาศ",
+              "วางแผนตามสภาพอากาศ"
+            ],
+            "ko": [
+              "날씨 어휘 배우기",
+              "날씨에 따른 계획 세우기"
+            ],
+            "es": [
+              "Aprender vocabulario del clima",
+              "Hacer planes según el clima"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "hace sol",
+              "meanings": {
+                "en": "it's sunny",
+                "zh": "晴天",
+                "th": "แดดออก",
+                "ko": "날씨가 맑다",
+                "es": "hace sol"
+              }
+            },
+            {
+              "word": "hace calor",
+              "meanings": {
+                "en": "it's hot",
+                "zh": "天气热",
+                "th": "อากาศร้อน",
+                "ko": "덥다",
+                "es": "hace calor"
+              }
+            },
+            {
+              "word": "hace frío",
+              "meanings": {
+                "en": "it's cold",
+                "zh": "天气冷",
+                "th": "อากาศหนาว",
+                "ko": "춥다",
+                "es": "hace frío"
+              }
+            },
+            {
+              "word": "llueve",
+              "meanings": {
+                "en": "it's raining",
+                "zh": "下雨",
+                "th": "ฝนตก",
+                "ko": "비가 온다",
+                "es": "llueve"
+              }
+            },
+            {
+              "word": "nieva",
+              "meanings": {
+                "en": "it's snowing",
+                "zh": "下雪",
+                "th": "หิมะตก",
+                "ko": "눈이 온다",
+                "es": "nieva"
+              }
+            },
+            {
+              "word": "está nublado",
+              "meanings": {
+                "en": "it's cloudy",
+                "zh": "多云",
+                "th": "มีเมฆ",
+                "ko": "흐리다",
+                "es": "está nublado"
+              }
+            },
+            {
+              "word": "hace viento",
+              "meanings": {
+                "en": "it's windy",
+                "zh": "刮风",
+                "th": "ลมแรง",
+                "ko": "바람이 분다",
+                "es": "hace viento"
+              }
+            },
+            {
+              "word": "el paraguas",
+              "meanings": {
+                "en": "the umbrella",
+                "zh": "雨伞",
+                "th": "ร่ม",
+                "ko": "우산",
+                "es": "el paraguas"
+              }
+            },
+            {
+              "word": "las gafas de sol",
+              "meanings": {
+                "en": "the sunglasses",
+                "zh": "太阳镜",
+                "th": "แว่นตากันแดด",
+                "ko": "선글라스",
+                "es": "las gafas de sol"
+              }
+            },
+            {
+              "word": "el abrigo",
+              "meanings": {
+                "en": "the coat",
+                "zh": "外套",
+                "th": "เสื้อโค้ท",
+                "ko": "코트",
+                "es": "el abrigo"
+              }
+            },
+            {
+              "word": "nadar",
+              "meanings": {
+                "en": "to swim",
+                "zh": "游泳",
+                "th": "ว่ายน้ำ",
+                "ko": "수영하다",
+                "es": "nadar"
+              }
+            },
+            {
+              "word": "pasear",
+              "meanings": {
+                "en": "to take a walk",
+                "zh": "散步",
+                "th": "เดินเล่น",
+                "ko": "산책하다",
+                "es": "pasear"
+              }
+            },
+            {
+              "word": "quedarse en casa",
+              "meanings": {
+                "en": "to stay home",
+                "zh": "待在家",
+                "th": "อยู่บ้าน",
+                "ko": "집에 있다",
+                "es": "quedarse en casa"
+              }
+            },
+            {
+              "word": "si",
+              "meanings": {
+                "en": "if",
+                "zh": "如果",
+                "th": "ถ้า",
+                "ko": "만약",
+                "es": "si"
+              }
+            },
+            {
+              "word": "porque",
+              "meanings": {
+                "en": "because",
+                "zh": "因为",
+                "th": "เพราะ",
+                "ko": "왜냐하면",
+                "es": "porque"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hace calor",
+              "options": {
+                "en": [
+                  "it's hot",
+                  "it's cold",
+                  "it's sunny",
+                  "it's windy"
+                ],
+                "zh": [
+                  "天气热",
+                  "天气冷",
+                  "晴天",
+                  "刮风"
+                ],
+                "th": [
+                  "อากาศร้อน",
+                  "อากาศหนาว",
+                  "แดดออก",
+                  "ลมแรง"
+                ],
+                "ko": [
+                  "덥다",
+                  "춥다",
+                  "맑다",
+                  "바람이 분다"
+                ],
+                "es": [
+                  "hace calor",
+                  "hace frío",
+                  "hace sol",
+                  "hace viento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'it's raining' in Spanish?",
+                "zh": "西班牙语中'下雨'怎么说？",
+                "th": "คำว่า 'ฝนตก' ภาษาสเปนว่าอะไร?",
+                "ko": "'비가 온다'를 스페인어로?",
+                "es": "¿Cómo se dice 'it's raining'?"
+              },
+              "options": {
+                "neutral": [
+                  "llueve",
+                  "nieva",
+                  "hace sol",
+                  "hace viento"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "el paraguas",
+              "options": {
+                "en": [
+                  "the umbrella",
+                  "the sunglasses",
+                  "the coat",
+                  "the park"
+                ],
+                "zh": [
+                  "雨伞",
+                  "太阳镜",
+                  "外套",
+                  "公园"
+                ],
+                "th": [
+                  "ร่ม",
+                  "แว่นตากันแดด",
+                  "เสื้อโค้ท",
+                  "สวนสาธารณะ"
+                ],
+                "ko": [
+                  "우산",
+                  "선글라스",
+                  "코트",
+                  "공원"
+                ],
+                "es": [
+                  "el paraguas",
+                  "las gafas de sol",
+                  "el abrigo",
+                  "el parque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hace sol",
+                  "native": {
+                    "en": "it's sunny",
+                    "zh": "晴天",
+                    "th": "แดดออก",
+                    "ko": "맑다",
+                    "es": "hace sol"
+                  }
+                },
+                {
+                  "target": "llueve",
+                  "native": {
+                    "en": "it's raining",
+                    "zh": "下雨",
+                    "th": "ฝนตก",
+                    "ko": "비가 온다",
+                    "es": "llueve"
+                  }
+                },
+                {
+                  "target": "nieva",
+                  "native": {
+                    "en": "it's snowing",
+                    "zh": "下雪",
+                    "th": "หิมะตก",
+                    "ko": "눈이 온다",
+                    "es": "nieva"
+                  }
+                },
+                {
+                  "target": "hace frío",
+                  "native": {
+                    "en": "it's cold",
+                    "zh": "天气冷",
+                    "th": "อากาศหนาว",
+                    "ko": "춥다",
+                    "es": "hace frío"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'If it rains, I'm going to stay home'",
+                "zh": "说'如果下雨，我待在家'",
+                "th": "พูดว่า 'ถ้าฝนตก ฉันจะอยู่บ้าน'",
+                "ko": "'비가 오면 집에 있을 거야'라고 말하세요",
+                "es": "Di 'Si llueve, voy a quedarme en casa'"
+              },
+              "words": [
+                "voy",
+                "quedarme",
+                "llueve,",
+                "si",
+                "en",
+                "a",
+                "casa"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "si",
+                  "llueve,",
+                  "voy",
+                  "a",
+                  "quedarme",
+                  "en",
+                  "casa"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "si",
+                  "llueve,",
+                  "voy",
+                  "a",
+                  "quedarme",
+                  "en",
+                  "casa"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Opinions & Preferences",
+        "zh": "观点与偏好",
+        "th": "ความคิดเห็นและความชอบ",
+        "ko": "의견과 선호",
+        "es": "Opiniones y preferencias"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Likes, Dislikes & Opinions",
+            "zh": "喜好与观点",
+            "th": "ชอบ ไม่ชอบ และความเห็น",
+            "ko": "좋아하는 것, 싫어하는 것과 의견",
+            "es": "Gustos, disgustos y opiniones"
+          },
+          "objectives": {
+            "en": [
+              "Express likes and dislikes with gustar",
+              "Share opinions using common expressions"
+            ],
+            "zh": [
+              "用gustar表达喜好",
+              "使用常见表达分享观点"
+            ],
+            "th": [
+              "แสดงความชอบและไม่ชอบด้วย gustar",
+              "แบ่งปันความเห็นด้วยสำนวนทั่วไป"
+            ],
+            "ko": [
+              "gustar로 좋아함과 싫어함 표현하기",
+              "일반적인 표현으로 의견 나누기"
+            ],
+            "es": [
+              "Expresar gustos con gustar",
+              "Compartir opiniones con expresiones comunes"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "me gusta",
+              "meanings": {
+                "en": "I like",
+                "zh": "我喜欢",
+                "th": "ฉันชอบ",
+                "ko": "나는 좋아한다",
+                "es": "me gusta"
+              }
+            },
+            {
+              "word": "no me gusta",
+              "meanings": {
+                "en": "I don't like",
+                "zh": "我不喜欢",
+                "th": "ฉันไม่ชอบ",
+                "ko": "나는 좋아하지 않는다",
+                "es": "no me gusta"
+              }
+            },
+            {
+              "word": "me encanta",
+              "meanings": {
+                "en": "I love",
+                "zh": "我很喜欢",
+                "th": "ฉันชอบมาก",
+                "ko": "나는 매우 좋아한다",
+                "es": "me encanta"
+              }
+            },
+            {
+              "word": "prefiero",
+              "meanings": {
+                "en": "I prefer",
+                "zh": "我更喜欢",
+                "th": "ฉันชอบมากกว่า",
+                "ko": "나는 선호한다",
+                "es": "prefiero"
+              }
+            },
+            {
+              "word": "odio",
+              "meanings": {
+                "en": "I hate",
+                "zh": "我讨厌",
+                "th": "ฉันเกลียด",
+                "ko": "나는 싫어한다",
+                "es": "odio"
+              }
+            },
+            {
+              "word": "me parece",
+              "meanings": {
+                "en": "it seems to me",
+                "zh": "我觉得",
+                "th": "ฉันคิดว่า",
+                "ko": "나에게는 ~것 같다",
+                "es": "me parece"
+              }
+            },
+            {
+              "word": "creo que",
+              "meanings": {
+                "en": "I think that",
+                "zh": "我认为",
+                "th": "ฉันคิดว่า",
+                "ko": "나는 ~라고 생각한다",
+                "es": "creo que"
+              }
+            },
+            {
+              "word": "en mi opinión",
+              "meanings": {
+                "en": "in my opinion",
+                "zh": "在我看来",
+                "th": "ในความเห็นของฉัน",
+                "ko": "내 의견으로는",
+                "es": "en mi opinión"
+              }
+            },
+            {
+              "word": "estoy de acuerdo",
+              "meanings": {
+                "en": "I agree",
+                "zh": "我同意",
+                "th": "ฉันเห็นด้วย",
+                "ko": "나는 동의한다",
+                "es": "estoy de acuerdo"
+              }
+            },
+            {
+              "word": "no estoy de acuerdo",
+              "meanings": {
+                "en": "I disagree",
+                "zh": "我不同意",
+                "th": "ฉันไม่เห็นด้วย",
+                "ko": "나는 동의하지 않는다",
+                "es": "no estoy de acuerdo"
+              }
+            },
+            {
+              "word": "interesante",
+              "meanings": {
+                "en": "interesting",
+                "zh": "有趣的",
+                "th": "น่าสนใจ",
+                "ko": "흥미로운",
+                "es": "interesante"
+              }
+            },
+            {
+              "word": "aburrido",
+              "meanings": {
+                "en": "boring",
+                "zh": "无聊的",
+                "th": "น่าเบื่อ",
+                "ko": "지루한",
+                "es": "aburrido"
+              }
+            },
+            {
+              "word": "divertido",
+              "meanings": {
+                "en": "fun",
+                "zh": "好玩的",
+                "th": "สนุก",
+                "ko": "재미있는",
+                "es": "divertido"
+              }
+            },
+            {
+              "word": "difícil",
+              "meanings": {
+                "en": "difficult",
+                "zh": "困难的",
+                "th": "ยาก",
+                "ko": "어려운",
+                "es": "difícil"
+              }
+            },
+            {
+              "word": "fácil",
+              "meanings": {
+                "en": "easy",
+                "zh": "容易的",
+                "th": "ง่าย",
+                "ko": "쉬운",
+                "es": "fácil"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "me gusta",
+              "options": {
+                "en": [
+                  "I like",
+                  "I don't like",
+                  "I love",
+                  "I prefer"
+                ],
+                "zh": [
+                  "我喜欢",
+                  "我不喜欢",
+                  "我很喜欢",
+                  "我更喜欢"
+                ],
+                "th": [
+                  "ฉันชอบ",
+                  "ฉันไม่ชอบ",
+                  "ฉันชอบมาก",
+                  "ฉันชอบมากกว่า"
+                ],
+                "ko": [
+                  "나는 좋아한다",
+                  "나는 좋아하지 않는다",
+                  "나는 매우 좋아한다",
+                  "나는 선호한다"
+                ],
+                "es": [
+                  "me gusta",
+                  "no me gusta",
+                  "me encanta",
+                  "prefiero"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I prefer' in Spanish?",
+                "zh": "西班牙语中'我更喜欢'怎么说？",
+                "th": "คำว่า 'ฉันชอบมากกว่า' ภาษาสเปนว่าอะไร?",
+                "ko": "'나는 선호한다'를 스페인어로?",
+                "es": "¿Cómo se dice 'I prefer'?"
+              },
+              "options": {
+                "neutral": [
+                  "prefiero",
+                  "me gusta",
+                  "me encanta",
+                  "odio"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "interesante",
+              "options": {
+                "en": [
+                  "interesting",
+                  "boring",
+                  "fun",
+                  "difficult"
+                ],
+                "zh": [
+                  "有趣的",
+                  "无聊的",
+                  "好玩的",
+                  "困难的"
+                ],
+                "th": [
+                  "น่าสนใจ",
+                  "น่าเบื่อ",
+                  "สนุก",
+                  "ยาก"
+                ],
+                "ko": [
+                  "흥미로운",
+                  "지루한",
+                  "재미있는",
+                  "어려운"
+                ],
+                "es": [
+                  "interesante",
+                  "aburrido",
+                  "divertido",
+                  "difícil"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "me encanta",
+                  "native": {
+                    "en": "I love",
+                    "zh": "我很喜欢",
+                    "th": "ฉันชอบมาก",
+                    "ko": "나는 매우 좋아한다",
+                    "es": "me encanta"
+                  }
+                },
+                {
+                  "target": "odio",
+                  "native": {
+                    "en": "I hate",
+                    "zh": "我讨厌",
+                    "th": "ฉันเกลียด",
+                    "ko": "나는 싫어한다",
+                    "es": "odio"
+                  }
+                },
+                {
+                  "target": "fácil",
+                  "native": {
+                    "en": "easy",
+                    "zh": "容易的",
+                    "th": "ง่าย",
+                    "ko": "쉬운",
+                    "es": "fácil"
+                  }
+                },
+                {
+                  "target": "difícil",
+                  "native": {
+                    "en": "difficult",
+                    "zh": "困难的",
+                    "th": "ยาก",
+                    "ko": "어려운",
+                    "es": "difícil"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I think it is interesting'",
+                "zh": "说'我觉得很有趣'",
+                "th": "พูดว่า 'ฉันคิดว่ามันน่าสนใจ'",
+                "ko": "'나는 흥미롭다고 생각한다'라고 말하세요",
+                "es": "Di 'Creo que es interesante'"
+              },
+              "words": [
+                "es",
+                "que",
+                "interesante",
+                "creo"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "creo",
+                  "que",
+                  "es",
+                  "interesante"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "creo",
+                  "que",
+                  "es",
+                  "interesante"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Comparing Things",
+            "zh": "比较事物",
+            "th": "การเปรียบเทียบ",
+            "ko": "비교하기",
+            "es": "Comparar cosas"
+          },
+          "objectives": {
+            "en": [
+              "Make comparisons using más/menos/mejor/peor",
+              "Use superlatives"
+            ],
+            "zh": [
+              "用más/menos/mejor/peor进行比较",
+              "使用最高级"
+            ],
+            "th": [
+              "เปรียบเทียบด้วย más/menos/mejor/peor",
+              "ใช้ขั้นสูงสุด"
+            ],
+            "ko": [
+              "más/menos/mejor/peor로 비교하기",
+              "최상급 사용하기"
+            ],
+            "es": [
+              "Hacer comparaciones con más/menos/mejor/peor",
+              "Usar superlativos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "más",
+              "meanings": {
+                "en": "more",
+                "zh": "更",
+                "th": "มากกว่า",
+                "ko": "더",
+                "es": "más"
+              }
+            },
+            {
+              "word": "menos",
+              "meanings": {
+                "en": "less",
+                "zh": "更少",
+                "th": "น้อยกว่า",
+                "ko": "덜",
+                "es": "menos"
+              }
+            },
+            {
+              "word": "mejor",
+              "meanings": {
+                "en": "better",
+                "zh": "更好",
+                "th": "ดีกว่า",
+                "ko": "더 좋은",
+                "es": "mejor"
+              }
+            },
+            {
+              "word": "peor",
+              "meanings": {
+                "en": "worse",
+                "zh": "更差",
+                "th": "แย่กว่า",
+                "ko": "더 나쁜",
+                "es": "peor"
+              }
+            },
+            {
+              "word": "más grande",
+              "meanings": {
+                "en": "bigger",
+                "zh": "更大",
+                "th": "ใหญ่กว่า",
+                "ko": "더 큰",
+                "es": "más grande"
+              }
+            },
+            {
+              "word": "más pequeño",
+              "meanings": {
+                "en": "smaller",
+                "zh": "更小",
+                "th": "เล็กกว่า",
+                "ko": "더 작은",
+                "es": "más pequeño"
+              }
+            },
+            {
+              "word": "más caro",
+              "meanings": {
+                "en": "more expensive",
+                "zh": "更贵",
+                "th": "แพงกว่า",
+                "ko": "더 비싼",
+                "es": "más caro"
+              }
+            },
+            {
+              "word": "más barato",
+              "meanings": {
+                "en": "cheaper",
+                "zh": "更便宜",
+                "th": "ถูกกว่า",
+                "ko": "더 싼",
+                "es": "más barato"
+              }
+            },
+            {
+              "word": "tan ... como",
+              "meanings": {
+                "en": "as ... as",
+                "zh": "和...一样",
+                "th": "เท่ากับ...เหมือนกัน",
+                "ko": "~만큼",
+                "es": "tan ... como"
+              }
+            },
+            {
+              "word": "que",
+              "meanings": {
+                "en": "than",
+                "zh": "比",
+                "th": "กว่า",
+                "ko": "보다",
+                "es": "que"
+              }
+            },
+            {
+              "word": "el/la mejor",
+              "meanings": {
+                "en": "the best",
+                "zh": "最好的",
+                "th": "ดีที่สุด",
+                "ko": "가장 좋은",
+                "es": "el/la mejor"
+              }
+            },
+            {
+              "word": "el/la peor",
+              "meanings": {
+                "en": "the worst",
+                "zh": "最差的",
+                "th": "แย่ที่สุด",
+                "ko": "가장 나쁜",
+                "es": "el/la peor"
+              }
+            },
+            {
+              "word": "también",
+              "meanings": {
+                "en": "also",
+                "zh": "也",
+                "th": "ด้วย",
+                "ko": "또한",
+                "es": "también"
+              }
+            },
+            {
+              "word": "pero",
+              "meanings": {
+                "en": "but",
+                "zh": "但是",
+                "th": "แต่",
+                "ko": "하지만",
+                "es": "pero"
+              }
+            },
+            {
+              "word": "o",
+              "meanings": {
+                "en": "or",
+                "zh": "或者",
+                "th": "หรือ",
+                "ko": "또는",
+                "es": "o"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "mejor",
+              "options": {
+                "en": [
+                  "better",
+                  "worse",
+                  "more",
+                  "less"
+                ],
+                "zh": [
+                  "更好",
+                  "更差",
+                  "更",
+                  "更少"
+                ],
+                "th": [
+                  "ดีกว่า",
+                  "แย่กว่า",
+                  "มากกว่า",
+                  "น้อยกว่า"
+                ],
+                "ko": [
+                  "더 좋은",
+                  "더 나쁜",
+                  "더",
+                  "덜"
+                ],
+                "es": [
+                  "mejor",
+                  "peor",
+                  "más",
+                  "menos"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'cheaper' in Spanish?",
+                "zh": "西班牙语中'更便宜'怎么说？",
+                "th": "คำว่า 'ถูกกว่า' ภาษาสเปนว่าอะไร?",
+                "ko": "'더 싼'을 스페인어로?",
+                "es": "¿Cómo se dice 'cheaper'?"
+              },
+              "options": {
+                "neutral": [
+                  "más barato",
+                  "más caro",
+                  "más grande",
+                  "más pequeño"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "peor",
+              "options": {
+                "en": [
+                  "worse",
+                  "better",
+                  "more",
+                  "less"
+                ],
+                "zh": [
+                  "更差",
+                  "更好",
+                  "更",
+                  "更少"
+                ],
+                "th": [
+                  "แย่กว่า",
+                  "ดีกว่า",
+                  "มากกว่า",
+                  "น้อยกว่า"
+                ],
+                "ko": [
+                  "더 나쁜",
+                  "더 좋은",
+                  "더",
+                  "덜"
+                ],
+                "es": [
+                  "peor",
+                  "mejor",
+                  "más",
+                  "menos"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "mejor",
+                  "native": {
+                    "en": "better",
+                    "zh": "更好",
+                    "th": "ดีกว่า",
+                    "ko": "더 좋은",
+                    "es": "mejor"
+                  }
+                },
+                {
+                  "target": "peor",
+                  "native": {
+                    "en": "worse",
+                    "zh": "更差",
+                    "th": "แย่กว่า",
+                    "ko": "더 나쁜",
+                    "es": "peor"
+                  }
+                },
+                {
+                  "target": "más caro",
+                  "native": {
+                    "en": "more expensive",
+                    "zh": "更贵",
+                    "th": "แพงกว่า",
+                    "ko": "더 비싼",
+                    "es": "más caro"
+                  }
+                },
+                {
+                  "target": "más barato",
+                  "native": {
+                    "en": "cheaper",
+                    "zh": "更便宜",
+                    "th": "ถูกกว่า",
+                    "ko": "더 싼",
+                    "es": "más barato"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This is better than that'",
+                "zh": "说'这个比那个好'",
+                "th": "พูดว่า 'อันนี้ดีกว่าอันนั้น'",
+                "ko": "'이것은 저것보다 좋다'라고 말하세요",
+                "es": "Di 'Esto es mejor que eso'"
+              },
+              "words": [
+                "que",
+                "esto",
+                "mejor",
+                "es",
+                "eso"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "esto",
+                  "es",
+                  "mejor",
+                  "que",
+                  "eso"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "esto",
+                  "es",
+                  "mejor",
+                  "que",
+                  "eso"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": {
+            "en": "Describing Experiences",
+            "zh": "描述经历",
+            "th": "บอกเล่าประสบการณ์",
+            "ko": "경험 설명하기",
+            "es": "Describir experiencias"
+          },
+          "objectives": {
+            "en": [
+              "Use adjectives to describe experiences",
+              "Intensify descriptions with muy/bastante"
+            ],
+            "zh": [
+              "用形容词描述经历",
+              "用muy/bastante加强描述"
+            ],
+            "th": [
+              "ใช้คำคุณศัพท์อธิบายประสบการณ์",
+              "เพิ่มความเข้มด้วย muy/bastante"
+            ],
+            "ko": [
+              "형용사로 경험 설명하기",
+              "muy/bastante로 설명 강화하기"
+            ],
+            "es": [
+              "Usar adjetivos para describir experiencias",
+              "Intensificar con muy/bastante"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "increíble",
+              "meanings": {
+                "en": "incredible",
+                "zh": "不可思议的",
+                "th": "เหลือเชื่อ",
+                "ko": "놀라운",
+                "es": "increíble"
+              }
+            },
+            {
+              "word": "horrible",
+              "meanings": {
+                "en": "horrible",
+                "zh": "可怕的",
+                "th": "น่ากลัว",
+                "ko": "끔찍한",
+                "es": "horrible"
+              }
+            },
+            {
+              "word": "delicioso",
+              "meanings": {
+                "en": "delicious",
+                "zh": "好吃的",
+                "th": "อร่อย",
+                "ko": "맛있는",
+                "es": "delicioso"
+              }
+            },
+            {
+              "word": "bonito",
+              "meanings": {
+                "en": "beautiful",
+                "zh": "漂亮的",
+                "th": "สวย",
+                "ko": "아름다운",
+                "es": "bonito"
+              }
+            },
+            {
+              "word": "feo",
+              "meanings": {
+                "en": "ugly",
+                "zh": "丑的",
+                "th": "น่าเกลียด",
+                "ko": "못생긴",
+                "es": "feo"
+              }
+            },
+            {
+              "word": "rápido",
+              "meanings": {
+                "en": "fast",
+                "zh": "快的",
+                "th": "เร็ว",
+                "ko": "빠른",
+                "es": "rápido"
+              }
+            },
+            {
+              "word": "lento",
+              "meanings": {
+                "en": "slow",
+                "zh": "慢的",
+                "th": "ช้า",
+                "ko": "느린",
+                "es": "lento"
+              }
+            },
+            {
+              "word": "nuevo",
+              "meanings": {
+                "en": "new",
+                "zh": "新的",
+                "th": "ใหม่",
+                "ko": "새로운",
+                "es": "nuevo"
+              }
+            },
+            {
+              "word": "viejo",
+              "meanings": {
+                "en": "old",
+                "zh": "老的/旧的",
+                "th": "เก่า",
+                "ko": "오래된",
+                "es": "viejo"
+              }
+            },
+            {
+              "word": "grande",
+              "meanings": {
+                "en": "big",
+                "zh": "大的",
+                "th": "ใหญ่",
+                "ko": "큰",
+                "es": "grande"
+              }
+            },
+            {
+              "word": "pequeño",
+              "meanings": {
+                "en": "small",
+                "zh": "小的",
+                "th": "เล็ก",
+                "ko": "작은",
+                "es": "pequeño"
+              }
+            },
+            {
+              "word": "caro",
+              "meanings": {
+                "en": "expensive",
+                "zh": "贵的",
+                "th": "แพง",
+                "ko": "비싼",
+                "es": "caro"
+              }
+            },
+            {
+              "word": "barato",
+              "meanings": {
+                "en": "cheap",
+                "zh": "便宜的",
+                "th": "ถูก",
+                "ko": "싼",
+                "es": "barato"
+              }
+            },
+            {
+              "word": "muy",
+              "meanings": {
+                "en": "very",
+                "zh": "很",
+                "th": "มาก",
+                "ko": "매우",
+                "es": "muy"
+              }
+            },
+            {
+              "word": "bastante",
+              "meanings": {
+                "en": "quite / enough",
+                "zh": "相当/足够",
+                "th": "ค่อนข้าง",
+                "ko": "꽤",
+                "es": "bastante"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "delicioso",
+              "options": {
+                "en": [
+                  "delicious",
+                  "horrible",
+                  "beautiful",
+                  "ugly"
+                ],
+                "zh": [
+                  "好吃的",
+                  "可怕的",
+                  "漂亮的",
+                  "丑的"
+                ],
+                "th": [
+                  "อร่อย",
+                  "น่ากลัว",
+                  "สวย",
+                  "น่าเกลียด"
+                ],
+                "ko": [
+                  "맛있는",
+                  "끔찍한",
+                  "아름다운",
+                  "못생긴"
+                ],
+                "es": [
+                  "delicioso",
+                  "horrible",
+                  "bonito",
+                  "feo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'fast' in Spanish?",
+                "zh": "西班牙语中'快的'怎么说？",
+                "th": "คำว่า 'เร็ว' ภาษาสเปนว่าอะไร?",
+                "ko": "'빠른'을 스페인어로?",
+                "es": "¿Cómo se dice 'fast'?"
+              },
+              "options": {
+                "neutral": [
+                  "rápido",
+                  "lento",
+                  "nuevo",
+                  "viejo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "increíble",
+              "options": {
+                "en": [
+                  "incredible",
+                  "horrible",
+                  "delicious",
+                  "beautiful"
+                ],
+                "zh": [
+                  "不可思议的",
+                  "可怕的",
+                  "好吃的",
+                  "漂亮的"
+                ],
+                "th": [
+                  "เหลือเชื่อ",
+                  "น่ากลัว",
+                  "อร่อย",
+                  "สวย"
+                ],
+                "ko": [
+                  "놀라운",
+                  "끔찍한",
+                  "맛있는",
+                  "아름다운"
+                ],
+                "es": [
+                  "increíble",
+                  "horrible",
+                  "delicioso",
+                  "bonito"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "nuevo",
+                  "native": {
+                    "en": "new",
+                    "zh": "新的",
+                    "th": "ใหม่",
+                    "ko": "새로운",
+                    "es": "nuevo"
+                  }
+                },
+                {
+                  "target": "viejo",
+                  "native": {
+                    "en": "old",
+                    "zh": "老的/旧的",
+                    "th": "เก่า",
+                    "ko": "오래된",
+                    "es": "viejo"
+                  }
+                },
+                {
+                  "target": "caro",
+                  "native": {
+                    "en": "expensive",
+                    "zh": "贵的",
+                    "th": "แพง",
+                    "ko": "비싼",
+                    "es": "caro"
+                  }
+                },
+                {
+                  "target": "barato",
+                  "native": {
+                    "en": "cheap",
+                    "zh": "便宜的",
+                    "th": "ถูก",
+                    "ko": "싼",
+                    "es": "barato"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The food was very delicious'",
+                "zh": "说'食物很好吃'",
+                "th": "พูดว่า 'อาหารอร่อยมาก'",
+                "ko": "'음식이 매우 맛있었다'라고 말하세요",
+                "es": "Di 'La comida fue muy deliciosa'"
+              },
+              "words": [
+                "muy",
+                "la",
+                "fue",
+                "comida",
+                "deliciosa"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "la",
+                  "comida",
+                  "fue",
+                  "muy",
+                  "deliciosa"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "la",
+                  "comida",
+                  "fue",
+                  "muy",
+                  "deliciosa"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Health & Body",
+        "zh": "健康与身体",
+        "th": "สุขภาพและร่างกาย",
+        "ko": "건강과 신체",
+        "es": "Salud y cuerpo"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Parts of the Body",
+            "zh": "身体部位",
+            "th": "ส่วนต่างๆ ของร่างกาย",
+            "ko": "신체 부위",
+            "es": "Partes del cuerpo"
+          },
+          "objectives": {
+            "en": [
+              "Learn vocabulary for body parts",
+              "Use articles el/la correctly with body parts"
+            ],
+            "zh": [
+              "学习身体部位词汇",
+              "正确使用冠词el/la"
+            ],
+            "th": [
+              "เรียนรู้คำศัพท์ส่วนต่างๆ ของร่างกาย",
+              "ใช้คำนำหน้า el/la อย่างถูกต้อง"
+            ],
+            "ko": [
+              "신체 부위 어휘 배우기",
+              "관사 el/la 올바르게 사용하기"
+            ],
+            "es": [
+              "Aprender vocabulario del cuerpo",
+              "Usar artículos el/la correctamente"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "la cabeza",
+              "meanings": {
+                "en": "the head",
+                "zh": "头",
+                "th": "หัว",
+                "ko": "머리",
+                "es": "la cabeza"
+              }
+            },
+            {
+              "word": "el estómago",
+              "meanings": {
+                "en": "the stomach",
+                "zh": "胃",
+                "th": "ท้อง",
+                "ko": "위/배",
+                "es": "el estómago"
+              }
+            },
+            {
+              "word": "la espalda",
+              "meanings": {
+                "en": "the back",
+                "zh": "背",
+                "th": "หลัง",
+                "ko": "등",
+                "es": "la espalda"
+              }
+            },
+            {
+              "word": "la garganta",
+              "meanings": {
+                "en": "the throat",
+                "zh": "喉咙",
+                "th": "คอ",
+                "ko": "목",
+                "es": "la garganta"
+              }
+            },
+            {
+              "word": "el brazo",
+              "meanings": {
+                "en": "the arm",
+                "zh": "手臂",
+                "th": "แขน",
+                "ko": "팔",
+                "es": "el brazo"
+              }
+            },
+            {
+              "word": "la pierna",
+              "meanings": {
+                "en": "the leg",
+                "zh": "腿",
+                "th": "ขา",
+                "ko": "다리",
+                "es": "la pierna"
+              }
+            },
+            {
+              "word": "la mano",
+              "meanings": {
+                "en": "the hand",
+                "zh": "手",
+                "th": "มือ",
+                "ko": "손",
+                "es": "la mano"
+              }
+            },
+            {
+              "word": "el pie",
+              "meanings": {
+                "en": "the foot",
+                "zh": "脚",
+                "th": "เท้า",
+                "ko": "발",
+                "es": "el pie"
+              }
+            },
+            {
+              "word": "el ojo",
+              "meanings": {
+                "en": "the eye",
+                "zh": "眼睛",
+                "th": "ตา",
+                "ko": "눈",
+                "es": "el ojo"
+              }
+            },
+            {
+              "word": "la oreja",
+              "meanings": {
+                "en": "the ear",
+                "zh": "耳朵",
+                "th": "หู",
+                "ko": "귀",
+                "es": "la oreja"
+              }
+            },
+            {
+              "word": "la nariz",
+              "meanings": {
+                "en": "the nose",
+                "zh": "鼻子",
+                "th": "จมูก",
+                "ko": "코",
+                "es": "la nariz"
+              }
+            },
+            {
+              "word": "la boca",
+              "meanings": {
+                "en": "the mouth",
+                "zh": "嘴",
+                "th": "ปาก",
+                "ko": "입",
+                "es": "la boca"
+              }
+            },
+            {
+              "word": "el diente",
+              "meanings": {
+                "en": "the tooth",
+                "zh": "牙齿",
+                "th": "ฟัน",
+                "ko": "이",
+                "es": "el diente"
+              }
+            },
+            {
+              "word": "el corazón",
+              "meanings": {
+                "en": "the heart",
+                "zh": "心脏",
+                "th": "หัวใจ",
+                "ko": "심장",
+                "es": "el corazón"
+              }
+            },
+            {
+              "word": "el cuerpo",
+              "meanings": {
+                "en": "the body",
+                "zh": "身体",
+                "th": "ร่างกาย",
+                "ko": "몸",
+                "es": "el cuerpo"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "la cabeza",
+              "options": {
+                "en": [
+                  "the head",
+                  "the stomach",
+                  "the back",
+                  "the throat"
+                ],
+                "zh": [
+                  "头",
+                  "胃",
+                  "背",
+                  "喉咙"
+                ],
+                "th": [
+                  "หัว",
+                  "ท้อง",
+                  "หลัง",
+                  "คอ"
+                ],
+                "ko": [
+                  "머리",
+                  "위/배",
+                  "등",
+                  "목"
+                ],
+                "es": [
+                  "la cabeza",
+                  "el estómago",
+                  "la espalda",
+                  "la garganta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'the hand' in Spanish?",
+                "zh": "西班牙语中'手'怎么说？",
+                "th": "คำว่า 'มือ' ภาษาสเปนว่าอะไร?",
+                "ko": "'손'을 스페인어로?",
+                "es": "¿Cómo se dice 'the hand'?"
+              },
+              "options": {
+                "neutral": [
+                  "la mano",
+                  "el pie",
+                  "el brazo",
+                  "la pierna"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "el corazón",
+              "options": {
+                "en": [
+                  "the heart",
+                  "the head",
+                  "the stomach",
+                  "the body"
+                ],
+                "zh": [
+                  "心脏",
+                  "头",
+                  "胃",
+                  "身体"
+                ],
+                "th": [
+                  "หัวใจ",
+                  "หัว",
+                  "ท้อง",
+                  "ร่างกาย"
+                ],
+                "ko": [
+                  "심장",
+                  "머리",
+                  "위/배",
+                  "몸"
+                ],
+                "es": [
+                  "el corazón",
+                  "la cabeza",
+                  "el estómago",
+                  "el cuerpo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "el ojo",
+                  "native": {
+                    "en": "the eye",
+                    "zh": "眼睛",
+                    "th": "ตา",
+                    "ko": "눈",
+                    "es": "el ojo"
+                  }
+                },
+                {
+                  "target": "la oreja",
+                  "native": {
+                    "en": "the ear",
+                    "zh": "耳朵",
+                    "th": "หู",
+                    "ko": "귀",
+                    "es": "la oreja"
+                  }
+                },
+                {
+                  "target": "la nariz",
+                  "native": {
+                    "en": "the nose",
+                    "zh": "鼻子",
+                    "th": "จมูก",
+                    "ko": "코",
+                    "es": "la nariz"
+                  }
+                },
+                {
+                  "target": "la boca",
+                  "native": {
+                    "en": "the mouth",
+                    "zh": "嘴",
+                    "th": "ปาก",
+                    "ko": "입",
+                    "es": "la boca"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The head and the hand'",
+                "zh": "说'头和手'",
+                "th": "พูดว่า 'หัวและมือ'",
+                "ko": "'머리와 손'이라고 말하세요",
+                "es": "Di 'La cabeza y la mano'"
+              },
+              "words": [
+                "y",
+                "la",
+                "la",
+                "cabeza",
+                "mano"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "la",
+                  "cabeza",
+                  "y",
+                  "la",
+                  "mano"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "la",
+                  "cabeza",
+                  "y",
+                  "la",
+                  "mano"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Feeling Sick",
+            "zh": "感觉不舒服",
+            "th": "รู้สึกไม่สบาย",
+            "ko": "아플 때",
+            "es": "Sentirse mal"
+          },
+          "objectives": {
+            "en": [
+              "Describe symptoms and how you feel",
+              "Ask for help at a pharmacy or hospital"
+            ],
+            "zh": [
+              "描述症状和感受",
+              "在药房或医院寻求帮助"
+            ],
+            "th": [
+              "อธิบายอาการและความรู้สึก",
+              "ขอความช่วยเหลือที่ร้านขายยาหรือโรงพยาบาล"
+            ],
+            "ko": [
+              "증상과 기분 설명하기",
+              "약국이나 병원에서 도움 요청하기"
+            ],
+            "es": [
+              "Describir síntomas y cómo te sientes",
+              "Pedir ayuda en una farmacia u hospital"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "me duele",
+              "meanings": {
+                "en": "it hurts me",
+                "zh": "我疼",
+                "th": "ฉันเจ็บ",
+                "ko": "아프다",
+                "es": "me duele"
+              }
+            },
+            {
+              "word": "tengo fiebre",
+              "meanings": {
+                "en": "I have a fever",
+                "zh": "我发烧",
+                "th": "ฉันมีไข้",
+                "ko": "열이 있다",
+                "es": "tengo fiebre"
+              }
+            },
+            {
+              "word": "tengo tos",
+              "meanings": {
+                "en": "I have a cough",
+                "zh": "我咳嗽",
+                "th": "ฉันมีอาการไอ",
+                "ko": "기침이 있다",
+                "es": "tengo tos"
+              }
+            },
+            {
+              "word": "estoy resfriado",
+              "meanings": {
+                "en": "I have a cold",
+                "zh": "我感冒了",
+                "th": "ฉันเป็นหวัด",
+                "ko": "감기에 걸렸다",
+                "es": "estoy resfriado"
+              }
+            },
+            {
+              "word": "me siento mal",
+              "meanings": {
+                "en": "I feel bad / sick",
+                "zh": "我不舒服",
+                "th": "ฉันรู้สึกไม่สบาย",
+                "ko": "몸이 안 좋다",
+                "es": "me siento mal"
+              }
+            },
+            {
+              "word": "estoy cansado",
+              "meanings": {
+                "en": "I'm tired",
+                "zh": "我累了",
+                "th": "ฉันเหนื่อย",
+                "ko": "피곤하다",
+                "es": "estoy cansado"
+              }
+            },
+            {
+              "word": "tengo alergia",
+              "meanings": {
+                "en": "I have an allergy",
+                "zh": "我过敏",
+                "th": "ฉันมีอาการแพ้",
+                "ko": "알레르기가 있다",
+                "es": "tengo alergia"
+              }
+            },
+            {
+              "word": "la medicina",
+              "meanings": {
+                "en": "the medicine",
+                "zh": "药",
+                "th": "ยา",
+                "ko": "약",
+                "es": "la medicina"
+              }
+            },
+            {
+              "word": "el doctor",
+              "meanings": {
+                "en": "the doctor",
+                "zh": "医生",
+                "th": "หมอ",
+                "ko": "의사",
+                "es": "el doctor"
+              }
+            },
+            {
+              "word": "el hospital",
+              "meanings": {
+                "en": "the hospital",
+                "zh": "医院",
+                "th": "โรงพยาบาล",
+                "ko": "병원",
+                "es": "el hospital"
+              }
+            },
+            {
+              "word": "la farmacia",
+              "meanings": {
+                "en": "the pharmacy",
+                "zh": "药房",
+                "th": "ร้านขายยา",
+                "ko": "약국",
+                "es": "la farmacia"
+              }
+            },
+            {
+              "word": "la receta",
+              "meanings": {
+                "en": "the prescription",
+                "zh": "处方",
+                "th": "ใบสั่งยา",
+                "ko": "처방전",
+                "es": "la receta"
+              }
+            },
+            {
+              "word": "descansar",
+              "meanings": {
+                "en": "to rest",
+                "zh": "休息",
+                "th": "พักผ่อน",
+                "ko": "쉬다",
+                "es": "descansar"
+              }
+            },
+            {
+              "word": "tomar",
+              "meanings": {
+                "en": "to take (medicine)",
+                "zh": "服用",
+                "th": "กิน(ยา)",
+                "ko": "복용하다",
+                "es": "tomar"
+              }
+            },
+            {
+              "word": "necesito",
+              "meanings": {
+                "en": "I need",
+                "zh": "我需要",
+                "th": "ฉันต้องการ",
+                "ko": "나는 필요하다",
+                "es": "necesito"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "tengo fiebre",
+              "options": {
+                "en": [
+                  "I have a fever",
+                  "I have a cough",
+                  "I have a cold",
+                  "I feel bad"
+                ],
+                "zh": [
+                  "我发烧",
+                  "我咳嗽",
+                  "我感冒了",
+                  "我不舒服"
+                ],
+                "th": [
+                  "ฉันมีไข้",
+                  "ฉันมีอาการไอ",
+                  "ฉันเป็นหวัด",
+                  "ฉันรู้สึกไม่สบาย"
+                ],
+                "ko": [
+                  "열이 있다",
+                  "기침이 있다",
+                  "감기에 걸렸다",
+                  "몸이 안 좋다"
+                ],
+                "es": [
+                  "tengo fiebre",
+                  "tengo tos",
+                  "estoy resfriado",
+                  "me siento mal"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'the pharmacy' in Spanish?",
+                "zh": "西班牙语中'药房'怎么说？",
+                "th": "คำว่า 'ร้านขายยา' ภาษาสเปนว่าอะไร?",
+                "ko": "'약국'을 스페인어로?",
+                "es": "¿Cómo se dice 'the pharmacy'?"
+              },
+              "options": {
+                "neutral": [
+                  "la farmacia",
+                  "el hospital",
+                  "la medicina",
+                  "la receta"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "me duele",
+              "options": {
+                "en": [
+                  "it hurts me",
+                  "I'm tired",
+                  "I have a fever",
+                  "I need"
+                ],
+                "zh": [
+                  "我疼",
+                  "我累了",
+                  "我发烧",
+                  "我需要"
+                ],
+                "th": [
+                  "ฉันเจ็บ",
+                  "ฉันเหนื่อย",
+                  "ฉันมีไข้",
+                  "ฉันต้องการ"
+                ],
+                "ko": [
+                  "아프다",
+                  "피곤하다",
+                  "열이 있다",
+                  "필요하다"
+                ],
+                "es": [
+                  "me duele",
+                  "estoy cansado",
+                  "tengo fiebre",
+                  "necesito"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "el doctor",
+                  "native": {
+                    "en": "the doctor",
+                    "zh": "医生",
+                    "th": "หมอ",
+                    "ko": "의사",
+                    "es": "el doctor"
+                  }
+                },
+                {
+                  "target": "el hospital",
+                  "native": {
+                    "en": "the hospital",
+                    "zh": "医院",
+                    "th": "โรงพยาบาล",
+                    "ko": "병원",
+                    "es": "el hospital"
+                  }
+                },
+                {
+                  "target": "la farmacia",
+                  "native": {
+                    "en": "the pharmacy",
+                    "zh": "药房",
+                    "th": "ร้านขายยา",
+                    "ko": "약국",
+                    "es": "la farmacia"
+                  }
+                },
+                {
+                  "target": "la medicina",
+                  "native": {
+                    "en": "the medicine",
+                    "zh": "药",
+                    "th": "ยา",
+                    "ko": "약",
+                    "es": "la medicina"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'My head hurts'",
+                "zh": "说'我头疼'",
+                "th": "พูดว่า 'ฉันปวดหัว'",
+                "ko": "'머리가 아프다'라고 말하세요",
+                "es": "Di 'Me duele la cabeza'"
+              },
+              "words": [
+                "la",
+                "duele",
+                "me",
+                "cabeza"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "me",
+                  "duele",
+                  "la",
+                  "cabeza"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "me",
+                  "duele",
+                  "la",
+                  "cabeza"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": {
+            "en": "Healthy Habits",
+            "zh": "健康习惯",
+            "th": "นิสัยเพื่อสุขภาพ",
+            "ko": "건강한 습관",
+            "es": "Hábitos saludables"
+          },
+          "objectives": {
+            "en": [
+              "Learn vocabulary for healthy lifestyle",
+              "Give and understand health advice"
+            ],
+            "zh": [
+              "学习健康生活词汇",
+              "给出和理解健康建议"
+            ],
+            "th": [
+              "เรียนรู้คำศัพท์เกี่ยวกับวิถีชีวิตสุขภาพ",
+              "ให้และเข้าใจคำแนะนำสุขภาพ"
+            ],
+            "ko": [
+              "건강한 생활 어휘 배우기",
+              "건강 조언 주고받기"
+            ],
+            "es": [
+              "Aprender vocabulario de vida saludable",
+              "Dar y entender consejos de salud"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "hacer ejercicio",
+              "meanings": {
+                "en": "to exercise",
+                "zh": "锻炼",
+                "th": "ออกกำลังกาย",
+                "ko": "운동하다",
+                "es": "hacer ejercicio"
+              }
+            },
+            {
+              "word": "comer sano",
+              "meanings": {
+                "en": "to eat healthy",
+                "zh": "吃健康食物",
+                "th": "กินอาหารสุขภาพ",
+                "ko": "건강하게 먹다",
+                "es": "comer sano"
+              }
+            },
+            {
+              "word": "dormir bien",
+              "meanings": {
+                "en": "to sleep well",
+                "zh": "睡好",
+                "th": "นอนหลับดี",
+                "ko": "잘 자다",
+                "es": "dormir bien"
+              }
+            },
+            {
+              "word": "beber agua",
+              "meanings": {
+                "en": "to drink water",
+                "zh": "喝水",
+                "th": "ดื่มน้ำ",
+                "ko": "물을 마시다",
+                "es": "beber agua"
+              }
+            },
+            {
+              "word": "caminar",
+              "meanings": {
+                "en": "to walk",
+                "zh": "走路",
+                "th": "เดิน",
+                "ko": "걷다",
+                "es": "caminar"
+              }
+            },
+            {
+              "word": "correr",
+              "meanings": {
+                "en": "to run",
+                "zh": "跑步",
+                "th": "วิ่ง",
+                "ko": "달리다",
+                "es": "correr"
+              }
+            },
+            {
+              "word": "el estrés",
+              "meanings": {
+                "en": "stress",
+                "zh": "压力",
+                "th": "ความเครียด",
+                "ko": "스트레스",
+                "es": "el estrés"
+              }
+            },
+            {
+              "word": "relajarse",
+              "meanings": {
+                "en": "to relax",
+                "zh": "放松",
+                "th": "ผ่อนคลาย",
+                "ko": "휴식을 취하다",
+                "es": "relajarse"
+              }
+            },
+            {
+              "word": "la vitamina",
+              "meanings": {
+                "en": "the vitamin",
+                "zh": "维生素",
+                "th": "วิตามิน",
+                "ko": "비타민",
+                "es": "la vitamina"
+              }
+            },
+            {
+              "word": "la fruta",
+              "meanings": {
+                "en": "the fruit",
+                "zh": "水果",
+                "th": "ผลไม้",
+                "ko": "과일",
+                "es": "la fruta"
+              }
+            },
+            {
+              "word": "la verdura",
+              "meanings": {
+                "en": "the vegetable",
+                "zh": "蔬菜",
+                "th": "ผัก",
+                "ko": "채소",
+                "es": "la verdura"
+              }
+            },
+            {
+              "word": "saludable",
+              "meanings": {
+                "en": "healthy",
+                "zh": "健康的",
+                "th": "สุขภาพดี",
+                "ko": "건강한",
+                "es": "saludable"
+              }
+            },
+            {
+              "word": "fuerte",
+              "meanings": {
+                "en": "strong",
+                "zh": "强壮的",
+                "th": "แข็งแรง",
+                "ko": "강한",
+                "es": "fuerte"
+              }
+            },
+            {
+              "word": "débil",
+              "meanings": {
+                "en": "weak",
+                "zh": "虚弱的",
+                "th": "อ่อนแอ",
+                "ko": "약한",
+                "es": "débil"
+              }
+            },
+            {
+              "word": "es importante",
+              "meanings": {
+                "en": "it is important",
+                "zh": "很重要",
+                "th": "สำคัญ",
+                "ko": "중요하다",
+                "es": "es importante"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hacer ejercicio",
+              "options": {
+                "en": [
+                  "to exercise",
+                  "to eat healthy",
+                  "to sleep well",
+                  "to walk"
+                ],
+                "zh": [
+                  "锻炼",
+                  "吃健康食物",
+                  "睡好",
+                  "走路"
+                ],
+                "th": [
+                  "ออกกำลังกาย",
+                  "กินอาหารสุขภาพ",
+                  "นอนหลับดี",
+                  "เดิน"
+                ],
+                "ko": [
+                  "운동하다",
+                  "건강하게 먹다",
+                  "잘 자다",
+                  "걷다"
+                ],
+                "es": [
+                  "hacer ejercicio",
+                  "comer sano",
+                  "dormir bien",
+                  "caminar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to relax' in Spanish?",
+                "zh": "西班牙语中'放松'怎么说？",
+                "th": "คำว่า 'ผ่อนคลาย' ภาษาสเปนว่าอะไร?",
+                "ko": "'휴식을 취하다'를 스페인어로?",
+                "es": "¿Cómo se dice 'to relax'?"
+              },
+              "options": {
+                "neutral": [
+                  "relajarse",
+                  "caminar",
+                  "correr",
+                  "dormir bien"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "la fruta",
+              "options": {
+                "en": [
+                  "the fruit",
+                  "the vegetable",
+                  "the vitamin",
+                  "the medicine"
+                ],
+                "zh": [
+                  "水果",
+                  "蔬菜",
+                  "维生素",
+                  "药"
+                ],
+                "th": [
+                  "ผลไม้",
+                  "ผัก",
+                  "วิตามิน",
+                  "ยา"
+                ],
+                "ko": [
+                  "과일",
+                  "채소",
+                  "비타민",
+                  "약"
+                ],
+                "es": [
+                  "la fruta",
+                  "la verdura",
+                  "la vitamina",
+                  "la medicina"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "saludable",
+                  "native": {
+                    "en": "healthy",
+                    "zh": "健康的",
+                    "th": "สุขภาพดี",
+                    "ko": "건강한",
+                    "es": "saludable"
+                  }
+                },
+                {
+                  "target": "fuerte",
+                  "native": {
+                    "en": "strong",
+                    "zh": "强壮的",
+                    "th": "แข็งแรง",
+                    "ko": "강한",
+                    "es": "fuerte"
+                  }
+                },
+                {
+                  "target": "débil",
+                  "native": {
+                    "en": "weak",
+                    "zh": "虚弱的",
+                    "th": "อ่อนแอ",
+                    "ko": "약한",
+                    "es": "débil"
+                  }
+                },
+                {
+                  "target": "el estrés",
+                  "native": {
+                    "en": "stress",
+                    "zh": "压力",
+                    "th": "ความเครียด",
+                    "ko": "스트레스",
+                    "es": "el estrés"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'It is important to drink water'",
+                "zh": "说'喝水很重要'",
+                "th": "พูดว่า 'ดื่มน้ำสำคัญ'",
+                "ko": "'물을 마시는 것이 중요하다'라고 말하세요",
+                "es": "Di 'Es importante beber agua'"
+              },
+              "words": [
+                "beber",
+                "importante",
+                "es",
+                "agua"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "es",
+                  "importante",
+                  "beber",
+                  "agua"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "es",
+                  "importante",
+                  "beber",
+                  "agua"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

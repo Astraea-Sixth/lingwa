@@ -1,0 +1,6240 @@
+{
+  "lang": "ko",
+  "language": "ko",
+  "level": "A2",
+  "track": "food",
+  "track_label": {
+    "en": "Korean Food Culture",
+    "zh": "韩国饮食文化",
+    "th": "วัฒนธรรมอาหารเกาหลี",
+    "ko": "한국 음식 문화",
+    "es": "Cultura gastronómica coreana"
+  },
+  "track_emoji": "🍜",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "2.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Korean Staple Foods",
+        "ko": "한국 주식",
+        "zh": "韩国主食",
+        "th": "อาหารหลักเกาหลี",
+        "es": "Alimentos básicos coreanos"
+      },
+      "description": {
+        "en": "Learn essential Korean dishes, BBQ, and street food",
+        "zh": "学习韩国基本菜肴、烤肉和街头小吃",
+        "th": "เรียนรู้อาหารเกาหลีพื้นฐาน ปิ้งย่าง และอาหารข้างทาง",
+        "ko": "필수 한국 음식, 고기 구이, 길거리 음식 배우기",
+        "es": "Aprender platos coreanos esenciales, BBQ y comida callejera"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Korean Staple Foods",
+            "ko": "한국 주요 음식",
+            "zh": "韩国主食",
+            "th": "อาหารหลักเกาหลี",
+            "es": "Alimentos básicos coreanos"
+          },
+          "objectives": {
+            "en": [
+              "Name essential Korean dishes",
+              "Know Korean table settings"
+            ],
+            "zh": [
+              "说出韩国基本菜肴",
+              "了解韩国餐桌摆设"
+            ],
+            "th": [
+              "เรียกชื่ออาหารเกาหลีพื้นฐาน",
+              "รู้จักการจัดโต๊ะแบบเกาหลี"
+            ],
+            "ko": [
+              "필수 한국 음식 이름 배우기",
+              "한국 식탁 차림 알기"
+            ],
+            "es": [
+              "Nombrar platos coreanos esenciales",
+              "Conocer la mesa coreana"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "쌀",
+              "romanization": "ssal",
+              "meanings": {
+                "en": "Rice (uncooked)",
+                "zh": "大米",
+                "th": "ข้าว（ดิบ）",
+                "ko": "쌀",
+                "es": "Arroz (crudo)"
+              }
+            },
+            {
+              "word": "국",
+              "romanization": "guk",
+              "meanings": {
+                "en": "Soup",
+                "zh": "汤",
+                "th": "ซุป/แกง",
+                "ko": "국",
+                "es": "Sopa"
+              }
+            },
+            {
+              "word": "찌개",
+              "romanization": "jjigae",
+              "meanings": {
+                "en": "Stew",
+                "zh": "炖菜",
+                "th": "แกง/สตูว์",
+                "ko": "찌개",
+                "es": "Guiso"
+              }
+            },
+            {
+              "word": "된장찌개",
+              "romanization": "doenjangjjigae",
+              "meanings": {
+                "en": "Soybean paste stew",
+                "zh": "大酱汤",
+                "th": "ซุปเต้าเจี้ยว",
+                "ko": "된장찌개",
+                "es": "Guiso de pasta de soya"
+              }
+            },
+            {
+              "word": "김치찌개",
+              "romanization": "gimchijjigae",
+              "meanings": {
+                "en": "Kimchi stew",
+                "zh": "泡菜汤",
+                "th": "ซุปกิมจิ",
+                "ko": "김치찌개",
+                "es": "Guiso de kimchi"
+              }
+            },
+            {
+              "word": "밑반찬",
+              "romanization": "mitbanchan",
+              "meanings": {
+                "en": "Side dishes",
+                "zh": "小菜",
+                "th": "เครื่องเคียง",
+                "ko": "밑반찬",
+                "es": "Guarniciones"
+              }
+            },
+            {
+              "word": "젓가락",
+              "romanization": "jeotgarak",
+              "meanings": {
+                "en": "Chopsticks",
+                "zh": "筷子",
+                "th": "ตะเกียบ",
+                "ko": "젓가락",
+                "es": "Palillos"
+              }
+            },
+            {
+              "word": "숟가락",
+              "romanization": "sutgarak",
+              "meanings": {
+                "en": "Spoon",
+                "zh": "勺子",
+                "th": "ช้อน",
+                "ko": "숟가락",
+                "es": "Cuchara"
+              }
+            },
+            {
+              "word": "그릇",
+              "romanization": "geureut",
+              "meanings": {
+                "en": "Bowl/Dish",
+                "zh": "碗/盘",
+                "th": "ชาม/จาน",
+                "ko": "그릇",
+                "es": "Tazón/Plato"
+              }
+            },
+            {
+              "word": "뚝배기",
+              "romanization": "ttukbaegi",
+              "meanings": {
+                "en": "Stone pot",
+                "zh": "砂锅",
+                "th": "หม้อหิน",
+                "ko": "뚝배기",
+                "es": "Olla de piedra"
+              }
+            },
+            {
+              "word": "냄비",
+              "romanization": "naembi",
+              "meanings": {
+                "en": "Pot",
+                "zh": "锅",
+                "th": "หม้อ",
+                "ko": "냄비",
+                "es": "Olla"
+              }
+            },
+            {
+              "word": "전",
+              "romanization": "jeon",
+              "meanings": {
+                "en": "Korean pancake",
+                "zh": "煎饼",
+                "th": "แพนเค้กเกาหลี",
+                "ko": "전",
+                "es": "Panqueque coreano"
+              }
+            },
+            {
+              "word": "떡볶이",
+              "romanization": "tteokbokki",
+              "meanings": {
+                "en": "Spicy rice cakes",
+                "zh": "炒年糕",
+                "th": "ต๊อกบกกี",
+                "ko": "떡볶이",
+                "es": "Pasteles de arroz picantes"
+              }
+            },
+            {
+              "word": "순두부",
+              "romanization": "sundubu",
+              "meanings": {
+                "en": "Soft tofu",
+                "zh": "嫩豆腐",
+                "th": "เต้าหู้อ่อน",
+                "ko": "순두부",
+                "es": "Tofu suave"
+              }
+            },
+            {
+              "word": "잡채",
+              "romanization": "japchae",
+              "meanings": {
+                "en": "Glass noodle stir-fry",
+                "zh": "杂菜",
+                "th": "จับแช（บะหมี่แก้วผัด）",
+                "ko": "잡채",
+                "es": "Fideos de cristal salteados"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "된장찌개",
+              "romanization": "doenjangjjigae",
+              "options": {
+                "en": [
+                  "Soybean paste stew",
+                  "Kimchi stew",
+                  "Spicy rice cakes",
+                  "Pancake"
+                ],
+                "zh": [
+                  "大酱汤",
+                  "泡菜汤",
+                  "炒年糕",
+                  "煎饼"
+                ],
+                "th": [
+                  "ซุปเต้าเจี้ยว",
+                  "ซุปกิมจิ",
+                  "ต๊อกบกกี",
+                  "แพนเค้ก"
+                ],
+                "ko": [
+                  "된장찌개",
+                  "김치찌개",
+                  "떡볶이",
+                  "전"
+                ],
+                "es": [
+                  "Guiso de soya",
+                  "Guiso de kimchi",
+                  "Tteokbokki",
+                  "Panqueque"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Chopsticks' in Korean?",
+                "zh": "韩语中'筷子'怎么说？",
+                "th": "'ตะเกียบ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '젓가락'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Palillos' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "젓가락",
+                  "숟가락",
+                  "그릇",
+                  "냄비"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "떡볶이",
+              "romanization": "tteokbokki",
+              "options": {
+                "en": [
+                  "Spicy rice cakes",
+                  "Glass noodles",
+                  "Soft tofu",
+                  "Pancake"
+                ],
+                "zh": [
+                  "炒年糕",
+                  "杂菜",
+                  "嫩豆腐",
+                  "煎饼"
+                ],
+                "th": [
+                  "ต๊อกบกกี",
+                  "จับแช",
+                  "ซุนดูบู",
+                  "จอน"
+                ],
+                "ko": [
+                  "떡볶이",
+                  "잡채",
+                  "순두부",
+                  "전"
+                ],
+                "es": [
+                  "Tteokbokki",
+                  "Japchae",
+                  "Sundubu",
+                  "Jeon"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "젓가락",
+                  "romanization": "jeotgarak",
+                  "native": {
+                    "en": "Chopsticks",
+                    "zh": "筷子",
+                    "th": "ตะเกียบ",
+                    "ko": "젓가락",
+                    "es": "Palillos"
+                  }
+                },
+                {
+                  "target": "숟가락",
+                  "romanization": "sutgarak",
+                  "native": {
+                    "en": "Spoon",
+                    "zh": "勺子",
+                    "th": "ช้อน",
+                    "ko": "숟가락",
+                    "es": "Cuchara"
+                  }
+                },
+                {
+                  "target": "그릇",
+                  "romanization": "geureut",
+                  "native": {
+                    "en": "Bowl",
+                    "zh": "碗",
+                    "th": "ชาม",
+                    "ko": "그릇",
+                    "es": "Tazón"
+                  }
+                },
+                {
+                  "target": "냄비",
+                  "romanization": "naembi",
+                  "native": {
+                    "en": "Pot",
+                    "zh": "锅",
+                    "th": "หม้อ",
+                    "ko": "냄비",
+                    "es": "Olla"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Kimchi stew please'",
+                "zh": "说'请来一份泡菜汤'",
+                "th": "พูดว่า 'ขอซุปกิมจิ'",
+                "ko": "'김치찌개 주세요'라고 말하세요",
+                "es": "Di 'Guiso de kimchi por favor'"
+              },
+              "words": [
+                "주세요",
+                "김치찌개"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "김치찌개",
+                  "주세요"
+                ]
+              },
+              "romanization": "gimchijjigae juseyo",
+              "tiles": {
+                "neutral": [
+                  "김치찌개",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국 사람은 밥을 _____ 먹어요"
+              },
+              "hint": {
+                "en": "Koreans eat rice with a _____",
+                "zh": "韩国人用_____吃饭",
+                "th": "คนเกาหลีกินข้าวด้วย_____",
+                "ko": "한국 사람은 밥을 _____ 먹어요",
+                "es": "Los coreanos comen arroz con _____"
+              },
+              "options": [
+                "숟가락으로",
+                "젓가락만",
+                "손으로",
+                "포크로"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "숟가락으로 means 'with a spoon'. Koreans eat rice with a spoon, not chopsticks.",
+                "zh": "숟가락으로表示'用勺子'。韩国人用勺子吃饭。",
+                "th": "숟가락으로 แปลว่า 'ด้วยช้อน' คนเกาหลีกินข้าวด้วยช้อน",
+                "ko": "숟가락으로는 '숟가락을 사용해서'라는 뜻이에요.",
+                "es": "숟가락으로 significa 'con cuchara'. Los coreanos comen arroz con cuchara."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Ask Min about their favorite 찌개 — what's in it?",
+            "zh": "问Min最喜欢的찌개——里面有什么？",
+            "th": "ถาม Min เรื่อง 찌개 ที่ชอบ — มีอะไรอยู่ข้างใน?",
+            "ko": "Min에게 가장 좋아하는 찌개에 대해 물어보세요 — 뭐가 들어가요?",
+            "es": "Pregúntale a Min sobre su 찌개 favorito — ¿qué lleva?"
+          }
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Korean BBQ & Meats",
+            "ko": "한국 바비큐와 고기",
+            "zh": "韩国烤肉",
+            "th": "บาร์บีคิวและเนื้อเกาหลี",
+            "es": "Barbacoa coreana y carnes"
+          },
+          "objectives": {
+            "en": [
+              "Order Korean BBQ confidently",
+              "Know meat types and cooking methods"
+            ],
+            "zh": [
+              "自信点韩式烤肉",
+              "了解肉类和烹饪方式"
+            ],
+            "th": [
+              "สั่งปิ้งย่างเกาหลีอย่างมั่นใจ",
+              "รู้จักเนื้อสัตว์และวิธีปรุง"
+            ],
+            "ko": [
+              "한국 고기 구이 주문하기",
+              "고기 종류와 조리법 알기"
+            ],
+            "es": [
+              "Pedir BBQ coreano con confianza",
+              "Conocer tipos de carne y métodos de cocción"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "삼겹살",
+              "romanization": "samgyeopsal",
+              "meanings": {
+                "en": "Pork belly",
+                "zh": "五花肉",
+                "th": "หมูสามชั้น",
+                "ko": "삼겹살",
+                "es": "Panceta de cerdo"
+              }
+            },
+            {
+              "word": "소고기",
+              "romanization": "sogogi",
+              "meanings": {
+                "en": "Beef",
+                "zh": "牛肉",
+                "th": "เนื้อวัว",
+                "ko": "소고기",
+                "es": "Res/Carne de res"
+              }
+            },
+            {
+              "word": "돼지고기",
+              "romanization": "dwaejigogi",
+              "meanings": {
+                "en": "Pork",
+                "zh": "猪肉",
+                "th": "เนื้อหมู",
+                "ko": "돼지고기",
+                "es": "Cerdo"
+              }
+            },
+            {
+              "word": "닭고기",
+              "romanization": "dakgogi",
+              "meanings": {
+                "en": "Chicken",
+                "zh": "鸡肉",
+                "th": "เนื้อไก่",
+                "ko": "닭고기",
+                "es": "Pollo"
+              }
+            },
+            {
+              "word": "해산물",
+              "romanization": "haesanmul",
+              "meanings": {
+                "en": "Seafood",
+                "zh": "海鲜",
+                "th": "อาหารทะเล",
+                "ko": "해산물",
+                "es": "Mariscos"
+              }
+            },
+            {
+              "word": "새우",
+              "romanization": "saeu",
+              "meanings": {
+                "en": "Shrimp",
+                "zh": "虾",
+                "th": "กุ้ง",
+                "ko": "새우",
+                "es": "Camarón"
+              }
+            },
+            {
+              "word": "오징어",
+              "romanization": "ojingeo",
+              "meanings": {
+                "en": "Squid",
+                "zh": "鱿鱼",
+                "th": "ปลาหมึก",
+                "ko": "오징어",
+                "es": "Calamar"
+              }
+            },
+            {
+              "word": "구이",
+              "romanization": "gui",
+              "meanings": {
+                "en": "Grilled",
+                "zh": "烤的",
+                "th": "ย่าง",
+                "ko": "구이",
+                "es": "A la parrilla"
+              }
+            },
+            {
+              "word": "볶음",
+              "romanization": "bokkeum",
+              "meanings": {
+                "en": "Stir-fried",
+                "zh": "炒的",
+                "th": "ผัด",
+                "ko": "볶음",
+                "es": "Salteado"
+              }
+            },
+            {
+              "word": "찜",
+              "romanization": "jjim",
+              "meanings": {
+                "en": "Steamed/Braised",
+                "zh": "蒸/炖",
+                "th": "นึ่ง/ตุ๋น",
+                "ko": "찜",
+                "es": "Al vapor/Estofado"
+              }
+            },
+            {
+              "word": "양념",
+              "romanization": "yangnyeom",
+              "meanings": {
+                "en": "Seasoning/Sauce",
+                "zh": "调味料",
+                "th": "เครื่องปรุง",
+                "ko": "양념",
+                "es": "Condimento/Salsa"
+              }
+            },
+            {
+              "word": "소스",
+              "romanization": "soseu",
+              "meanings": {
+                "en": "Sauce",
+                "zh": "酱",
+                "th": "ซอส",
+                "ko": "소스",
+                "es": "Salsa"
+              }
+            },
+            {
+              "word": "상추",
+              "romanization": "sangchu",
+              "meanings": {
+                "en": "Lettuce (for wrapping)",
+                "zh": "生菜",
+                "th": "ผักกาดใบ",
+                "ko": "상추",
+                "es": "Lechuga (para envolver)"
+              }
+            },
+            {
+              "word": "쌈",
+              "romanization": "ssam",
+              "meanings": {
+                "en": "Lettuce wrap",
+                "zh": "菜包肉",
+                "th": "เมี่ยง/ห่อผัก",
+                "ko": "쌈",
+                "es": "Envuelto en lechuga"
+              }
+            },
+            {
+              "word": "구워 주세요",
+              "romanization": "guwo juseyo",
+              "meanings": {
+                "en": "Please grill it",
+                "zh": "请烤一下",
+                "th": "ช่วยย่างให้หน่อย",
+                "ko": "구워 주세요",
+                "es": "Áselo por favor"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "삼겹살",
+              "romanization": "samgyeopsal",
+              "options": {
+                "en": [
+                  "Pork belly",
+                  "Beef",
+                  "Chicken",
+                  "Shrimp"
+                ],
+                "zh": [
+                  "五花肉",
+                  "牛肉",
+                  "鸡肉",
+                  "虾"
+                ],
+                "th": [
+                  "หมูสามชั้น",
+                  "เนื้อวัว",
+                  "เนื้อไก่",
+                  "กุ้ง"
+                ],
+                "ko": [
+                  "삼겹살",
+                  "소고기",
+                  "닭고기",
+                  "새우"
+                ],
+                "es": [
+                  "Panceta",
+                  "Res",
+                  "Pollo",
+                  "Camarón"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Seafood' in Korean?",
+                "zh": "韩语中'海鲜'怎么说？",
+                "th": "'อาหารทะเล' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '해산물'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Mariscos' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "해산물",
+                  "새우",
+                  "오징어",
+                  "생선"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "양념",
+              "romanization": "yangnyeom",
+              "options": {
+                "en": [
+                  "Seasoning",
+                  "Sauce",
+                  "Grilled",
+                  "Steamed"
+                ],
+                "zh": [
+                  "调味料",
+                  "酱",
+                  "烤",
+                  "蒸"
+                ],
+                "th": [
+                  "เครื่องปรุง",
+                  "ซอส",
+                  "ย่าง",
+                  "นึ่ง"
+                ],
+                "ko": [
+                  "양념",
+                  "소스",
+                  "구이",
+                  "찜"
+                ],
+                "es": [
+                  "Condimento",
+                  "Salsa",
+                  "Parrilla",
+                  "Vapor"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "소고기",
+                  "romanization": "sogogi",
+                  "native": {
+                    "en": "Beef",
+                    "zh": "牛肉",
+                    "th": "เนื้อวัว",
+                    "ko": "소고기",
+                    "es": "Res"
+                  }
+                },
+                {
+                  "target": "돼지고기",
+                  "romanization": "dwaejigogi",
+                  "native": {
+                    "en": "Pork",
+                    "zh": "猪肉",
+                    "th": "เนื้อหมู",
+                    "ko": "돼지고기",
+                    "es": "Cerdo"
+                  }
+                },
+                {
+                  "target": "닭고기",
+                  "romanization": "dakgogi",
+                  "native": {
+                    "en": "Chicken",
+                    "zh": "鸡肉",
+                    "th": "เนื้อไก่",
+                    "ko": "닭고기",
+                    "es": "Pollo"
+                  }
+                },
+                {
+                  "target": "해산물",
+                  "romanization": "haesanmul",
+                  "native": {
+                    "en": "Seafood",
+                    "zh": "海鲜",
+                    "th": "อาหารทะเล",
+                    "ko": "해산물",
+                    "es": "Mariscos"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Pork belly please'",
+                "zh": "说'请来五花肉'",
+                "th": "พูดว่า 'ขอหมูสามชั้น'",
+                "ko": "'삼겹살 주세요'라고 말하세요",
+                "es": "Di 'Panceta por favor'"
+              },
+              "words": [
+                "주세요",
+                "삼겹살"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "삼겹살",
+                  "주세요"
+                ]
+              },
+              "romanization": "samgyeopsal juseyo",
+              "tiles": {
+                "neutral": [
+                  "삼겹살",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "삼겹살을 _____ 싸서 먹어요"
+              },
+              "hint": {
+                "en": "Wrap pork belly in _____ and eat",
+                "zh": "用_____包五花肉吃",
+                "th": "เอาหมูสามชั้นห่อ_____กิน",
+                "ko": "삼겹살을 _____ 싸서 먹어요",
+                "es": "Envuelva la panceta en _____ y coma"
+              },
+              "options": [
+                "상추에",
+                "밥에",
+                "국에",
+                "젓가락에"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "상추에 싸서 먹어요 means 'wrap in lettuce and eat'. 쌈 culture is essential to Korean BBQ.",
+                "zh": "상추에 싸서 먹어요表示'用生菜包着吃'。쌈文化是韩式烤肉的核心。",
+                "th": "상추에 싸서 먹어요 แปลว่า 'ห่อผักกาดกิน' วัฒนธรรมเมี่ยงสำคัญในปิ้งย่างเกาหลี",
+                "ko": "상추에 싸서 먹어요는 상추 쌈 문화예요.",
+                "es": "상추에 싸서 먹어요 significa 'envolver en lechuga'. La cultura del 쌈 es esencial en el BBQ coreano."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Role-play ordering 삼겹살 at a Korean BBQ restaurant with Min",
+            "zh": "和Min模拟在韩国烤肉店点삼겹살",
+            "th": "ฝึกสั่ง 삼겹살 ที่ร้านบาร์บีคิวเกาหลีกับ Min",
+            "ko": "Min과 한국 고깃집에서 삼겹살 주문하는 역할극을 해 보세요",
+            "es": "Simula pedir 삼겹살 en un restaurante de barbacoa coreana con Min"
+          }
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Street Food & Delivery",
+            "ko": "길거리 음식과 배달",
+            "zh": "街头小吃与外卖",
+            "th": "อาหารริมทางและเดลิเวอรี",
+            "es": "Comida callejera y delivery"
+          },
+          "objectives": {
+            "en": [
+              "Know popular Korean street foods",
+              "Order food delivery"
+            ],
+            "zh": [
+              "了解韩国人气街头小吃",
+              "叫外卖"
+            ],
+            "th": [
+              "รู้จักอาหารข้างทางเกาหลียอดนิยม",
+              "สั่งอาหารเดลิเวอรี่"
+            ],
+            "ko": [
+              "인기 길거리 음식 알기",
+              "배달 주문하기"
+            ],
+            "es": [
+              "Conocer comida callejera coreana",
+              "Pedir comida a domicilio"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "김밥",
+              "romanization": "gimbap",
+              "meanings": {
+                "en": "Gimbap (seaweed rice roll)",
+                "zh": "紫菜饭卷",
+                "th": "คิมบับ（ข้าวห่อสาหร่าย）",
+                "ko": "김밥",
+                "es": "Gimbap (rollo de arroz)"
+              }
+            },
+            {
+              "word": "만두",
+              "romanization": "mandu",
+              "meanings": {
+                "en": "Dumplings",
+                "zh": "饺子",
+                "th": "เกี๊ยว",
+                "ko": "만두",
+                "es": "Dumplings"
+              }
+            },
+            {
+              "word": "냉면",
+              "romanization": "naengmyeon",
+              "meanings": {
+                "en": "Cold noodles",
+                "zh": "冷面",
+                "th": "เมียนเย็น",
+                "ko": "냉면",
+                "es": "Fideos fríos"
+              }
+            },
+            {
+              "word": "칼국수",
+              "romanization": "kalguksu",
+              "meanings": {
+                "en": "Knife-cut noodles",
+                "zh": "刀削面",
+                "th": "คัลกุกซู",
+                "ko": "칼국수",
+                "es": "Fideos cortados"
+              }
+            },
+            {
+              "word": "죽",
+              "romanization": "juk",
+              "meanings": {
+                "en": "Porridge",
+                "zh": "粥",
+                "th": "โจ๊ก",
+                "ko": "죽",
+                "es": "Gachas/Porridge"
+              }
+            },
+            {
+              "word": "해장국",
+              "romanization": "haejangguk",
+              "meanings": {
+                "en": "Hangover soup",
+                "zh": "解酒汤",
+                "th": "ซุปแก้แฮงค์",
+                "ko": "해장국",
+                "es": "Sopa para resaca"
+              }
+            },
+            {
+              "word": "치킨",
+              "romanization": "chikin",
+              "meanings": {
+                "en": "Fried chicken",
+                "zh": "炸鸡",
+                "th": "ไก่ทอด",
+                "ko": "치킨",
+                "es": "Pollo frito"
+              }
+            },
+            {
+              "word": "분식",
+              "romanization": "bunsik",
+              "meanings": {
+                "en": "Snack food (flour-based)",
+                "zh": "小吃",
+                "th": "อาหารว่าง",
+                "ko": "분식",
+                "es": "Comida rápida coreana"
+              }
+            },
+            {
+              "word": "오뎅",
+              "romanization": "odeng",
+              "meanings": {
+                "en": "Fish cake",
+                "zh": "鱼糕",
+                "th": "ลูกชิ้นปลา",
+                "ko": "오뎅",
+                "es": "Pastel de pescado"
+              }
+            },
+            {
+              "word": "순대",
+              "romanization": "sundae",
+              "meanings": {
+                "en": "Blood sausage",
+                "zh": "血肠",
+                "th": "ซุนแด（ไส้กรอกเลือด）",
+                "ko": "순대",
+                "es": "Morcilla coreana"
+              }
+            },
+            {
+              "word": "포장마차",
+              "romanization": "pojangmacha",
+              "meanings": {
+                "en": "Street food tent",
+                "zh": "路边摊",
+                "th": "ร้านข้างทาง",
+                "ko": "포장마차",
+                "es": "Puesto de comida callejera"
+              }
+            },
+            {
+              "word": "배달 시켜요",
+              "romanization": "baedal sikyeoyo",
+              "meanings": {
+                "en": "Order delivery",
+                "zh": "叫外卖",
+                "th": "สั่งเดลิเวอรี่",
+                "ko": "배달 시켜요",
+                "es": "Pedir a domicilio"
+              }
+            },
+            {
+              "word": "맵기",
+              "romanization": "maepgi",
+              "meanings": {
+                "en": "Spiciness level",
+                "zh": "辣度",
+                "th": "ระดับความเผ็ด",
+                "ko": "맵기",
+                "es": "Nivel de picante"
+              }
+            },
+            {
+              "word": "싱거워요",
+              "romanization": "singgeoweoyo",
+              "meanings": {
+                "en": "It's bland",
+                "zh": "太淡",
+                "th": "จืด",
+                "ko": "싱거워요",
+                "es": "Es insípido"
+              }
+            },
+            {
+              "word": "새콤달콤",
+              "romanization": "saekomdalkom",
+              "meanings": {
+                "en": "Sweet and sour",
+                "zh": "酸甜",
+                "th": "เปรี้ยวหวาน",
+                "ko": "새콤달콤",
+                "es": "Agridulce"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "치킨",
+              "romanization": "chikin",
+              "options": {
+                "en": [
+                  "Fried chicken",
+                  "Dumplings",
+                  "Cold noodles",
+                  "Porridge"
+                ],
+                "zh": [
+                  "炸鸡",
+                  "饺子",
+                  "冷面",
+                  "粥"
+                ],
+                "th": [
+                  "ไก่ทอด",
+                  "เกี๊ยว",
+                  "เมียนเย็น",
+                  "โจ๊ก"
+                ],
+                "ko": [
+                  "치킨",
+                  "만두",
+                  "냉면",
+                  "죽"
+                ],
+                "es": [
+                  "Pollo frito",
+                  "Dumplings",
+                  "Fideos fríos",
+                  "Porridge"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Dumplings' in Korean?",
+                "zh": "韩语中'饺子'怎么说？",
+                "th": "'เกี๊ยว' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '만두'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Dumplings' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "만두",
+                  "김밥",
+                  "순대",
+                  "오뎅"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "냉면",
+              "romanization": "naengmyeon",
+              "options": {
+                "en": [
+                  "Cold noodles",
+                  "Knife-cut noodles",
+                  "Porridge",
+                  "Gimbap"
+                ],
+                "zh": [
+                  "冷面",
+                  "刀削面",
+                  "粥",
+                  "紫菜卷"
+                ],
+                "th": [
+                  "เมียนเย็น",
+                  "คัลกุกซู",
+                  "โจ๊ก",
+                  "คิมบับ"
+                ],
+                "ko": [
+                  "냉면",
+                  "칼국수",
+                  "죽",
+                  "김밥"
+                ],
+                "es": [
+                  "Fideos fríos",
+                  "Kalguksu",
+                  "Porridge",
+                  "Gimbap"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "김밥",
+                  "romanization": "gimbap",
+                  "native": {
+                    "en": "Gimbap",
+                    "zh": "紫菜卷",
+                    "th": "คิมบับ",
+                    "ko": "김밥",
+                    "es": "Gimbap"
+                  }
+                },
+                {
+                  "target": "만두",
+                  "romanization": "mandu",
+                  "native": {
+                    "en": "Dumplings",
+                    "zh": "饺子",
+                    "th": "เกี๊ยว",
+                    "ko": "만두",
+                    "es": "Dumplings"
+                  }
+                },
+                {
+                  "target": "치킨",
+                  "romanization": "chikin",
+                  "native": {
+                    "en": "Fried chicken",
+                    "zh": "炸鸡",
+                    "th": "ไก่ทอด",
+                    "ko": "치킨",
+                    "es": "Pollo frito"
+                  }
+                },
+                {
+                  "target": "순대",
+                  "romanization": "sundae",
+                  "native": {
+                    "en": "Blood sausage",
+                    "zh": "血肠",
+                    "th": "ซุนแด",
+                    "ko": "순대",
+                    "es": "Morcilla"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's order delivery'",
+                "zh": "说'我们叫外卖吧'",
+                "th": "พูดว่า 'สั่งเดลิเวอรี่กัน'",
+                "ko": "'배달 시켜요'라고 말하세요",
+                "es": "Di 'Pidamos a domicilio'"
+              },
+              "words": [
+                "시켜요",
+                "배달"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "배달",
+                  "시켜요"
+                ]
+              },
+              "romanization": "baedal sikyeoyo",
+              "tiles": {
+                "neutral": [
+                  "배달",
+                  "시켜요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "이 음식은 _____ 맛이에요"
+              },
+              "hint": {
+                "en": "This food has a _____ taste",
+                "zh": "这个菜是_____味的",
+                "th": "อาหารนี้รสชาติ_____",
+                "ko": "이 음식은 _____ 맛이에요",
+                "es": "Esta comida tiene sabor _____"
+              },
+              "options": [
+                "새콤달콤한",
+                "뜨거운",
+                "차가운",
+                "비싼"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "새콤달콤한 means 'sweet and sour'. Use -한 to make it an adjective.",
+                "zh": "새콤달콤한表示'酸甜的'。用-한将其变为形容词。",
+                "th": "새콤달콤한 แปลว่า 'เปรี้ยวหวาน' ใช้ -한 ทำให้เป็นคุณศัพท์",
+                "ko": "새콤달콤한은 '새콤달콤하다'의 관형사형이에요.",
+                "es": "새콤달콤한 significa 'agridulce'. Use -한 para hacerlo adjetivo."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Explore Korean street food with Min — what would you try at a 포장마차?",
+            "zh": "和Min探索韩国街头小吃——你想在포장마차尝什么？",
+            "th": "สำรวจอาหารริมทางเกาหลีกับ Min — จะลองอะไรที่ 포장마차?",
+            "ko": "Min과 한국 길거리 음식을 즐겨 보세요 — 포장마차에서 뭘 먹어볼래요?",
+            "es": "Explora la comida callejera coreana con Min — ¿qué probarías en un 포장마차?"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Korean Beverages & Cafe Culture",
+        "ko": "한국 음료와 카페 문화",
+        "zh": "韩国饮品与咖啡文化",
+        "th": "เครื่องดื่มเกาหลีและวัฒนธรรมคาเฟ่",
+        "es": "Bebidas coreanas y cultura de café"
+      },
+      "description": {
+        "en": "Learn Korean drinks, drinking culture, and cooking",
+        "zh": "学习韩国饮料、饮酒文化和烹饪",
+        "th": "เรียนรู้เครื่องดื่ม วัฒนธรรมการดื่ม และการทำอาหารเกาหลี",
+        "ko": "한국 음료, 음주 문화, 요리 배우기",
+        "es": "Aprender bebidas coreanas, cultura de bebida y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Korean Drinks & Desserts",
+            "ko": "한국 음료와 디저트",
+            "zh": "韩国饮品与甜品",
+            "th": "เครื่องดื่มและของหวานเกาหลี",
+            "es": "Bebidas y postres coreanos"
+          },
+          "objectives": {
+            "en": [
+              "Order Korean drinks and desserts",
+              "Know traditional Korean beverages"
+            ],
+            "zh": [
+              "点韩国饮料和甜品",
+              "了解韩国传统饮料"
+            ],
+            "th": [
+              "สั่งเครื่องดื่มและขนมเกาหลี",
+              "รู้จักเครื่องดื่มเกาหลีดั้งเดิม"
+            ],
+            "ko": [
+              "한국 음료와 디저트 주문하기",
+              "전통 음료 알기"
+            ],
+            "es": [
+              "Pedir bebidas y postres coreanos",
+              "Conocer bebidas tradicionales coreanas"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "아메리카노",
+              "romanization": "amerikano",
+              "meanings": {
+                "en": "Americano",
+                "zh": "美式咖啡",
+                "th": "อเมริกาโน",
+                "ko": "아메리카노",
+                "es": "Americano"
+              }
+            },
+            {
+              "word": "카페라떼",
+              "romanization": "kapelatte",
+              "meanings": {
+                "en": "Cafe latte",
+                "zh": "拿铁",
+                "th": "คาเฟ่ลาเต้",
+                "ko": "카페라떼",
+                "es": "Café con leche"
+              }
+            },
+            {
+              "word": "녹차",
+              "romanization": "nokcha",
+              "meanings": {
+                "en": "Green tea",
+                "zh": "绿茶",
+                "th": "ชาเขียว",
+                "ko": "녹차",
+                "es": "Té verde"
+              }
+            },
+            {
+              "word": "유자차",
+              "romanization": "yujacha",
+              "meanings": {
+                "en": "Citron tea",
+                "zh": "柚子茶",
+                "th": "ชายูจา",
+                "ko": "유자차",
+                "es": "Té de yuzu"
+              }
+            },
+            {
+              "word": "식혜",
+              "romanization": "sikhye",
+              "meanings": {
+                "en": "Sweet rice drink",
+                "zh": "甜米露",
+                "th": "ชิกเฮ（เครื่องดื่มข้าวหวาน）",
+                "ko": "식혜",
+                "es": "Bebida dulce de arroz"
+              }
+            },
+            {
+              "word": "수정과",
+              "romanization": "sujeonggwa",
+              "meanings": {
+                "en": "Cinnamon punch",
+                "zh": "肉桂汤",
+                "th": "ซูจองกวา（เครื่องดื่มอบเชย）",
+                "ko": "수정과",
+                "es": "Ponche de canela"
+              }
+            },
+            {
+              "word": "막걸리",
+              "romanization": "makgeolli",
+              "meanings": {
+                "en": "Rice wine",
+                "zh": "米酒",
+                "th": "มักกอลลี（ไวน์ข้าว）",
+                "ko": "막걸리",
+                "es": "Vino de arroz"
+              }
+            },
+            {
+              "word": "아이스",
+              "romanization": "aiseu",
+              "meanings": {
+                "en": "Iced",
+                "zh": "冰的",
+                "th": "เย็น/ใส่น้ำแข็ง",
+                "ko": "아이스",
+                "es": "Con hielo"
+              }
+            },
+            {
+              "word": "뜨거운",
+              "romanization": "tteugeoun",
+              "meanings": {
+                "en": "Hot (drink)",
+                "zh": "热的",
+                "th": "ร้อน",
+                "ko": "뜨거운",
+                "es": "Caliente"
+              }
+            },
+            {
+              "word": "사이즈",
+              "romanization": "saijeu2",
+              "meanings": {
+                "en": "Size",
+                "zh": "杯型",
+                "th": "ไซส์",
+                "ko": "사이즈",
+                "es": "Tamaño"
+              }
+            },
+            {
+              "word": "디저트",
+              "romanization": "dijeoteu",
+              "meanings": {
+                "en": "Dessert",
+                "zh": "甜品",
+                "th": "ของหวาน",
+                "ko": "디저트",
+                "es": "Postre"
+              }
+            },
+            {
+              "word": "빙수",
+              "romanization": "bingsu",
+              "meanings": {
+                "en": "Shaved ice",
+                "zh": "刨冰",
+                "th": "บิงซู（น้ำแข็งไส）",
+                "ko": "빙수",
+                "es": "Hielo raspado"
+              }
+            },
+            {
+              "word": "호떡",
+              "romanization": "hotteok",
+              "meanings": {
+                "en": "Sweet pancake",
+                "zh": "糖饼",
+                "th": "โฮต๊อก（แพนเค้กหวาน）",
+                "ko": "호떡",
+                "es": "Panqueque dulce"
+              }
+            },
+            {
+              "word": "붕어빵",
+              "romanization": "bungeoppang",
+              "meanings": {
+                "en": "Fish-shaped bread",
+                "zh": "鲫鱼饼",
+                "th": "บุงออปัง（ขนมปังรูปปลา）",
+                "ko": "붕어빵",
+                "es": "Pan con forma de pez"
+              }
+            },
+            {
+              "word": "달달해요",
+              "romanization": "daldalahaeyo",
+              "meanings": {
+                "en": "It's sweet (cute)",
+                "zh": "甜甜的",
+                "th": "หวานๆ",
+                "ko": "달달해요",
+                "es": "Es dulcecito"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "막걸리",
+              "romanization": "makgeolli",
+              "options": {
+                "en": [
+                  "Rice wine",
+                  "Green tea",
+                  "Citron tea",
+                  "Americano"
+                ],
+                "zh": [
+                  "米酒",
+                  "绿茶",
+                  "柚子茶",
+                  "美式"
+                ],
+                "th": [
+                  "มักกอลลี",
+                  "ชาเขียว",
+                  "ชายูจา",
+                  "อเมริกาโน"
+                ],
+                "ko": [
+                  "막걸리",
+                  "녹차",
+                  "유자차",
+                  "아메리카노"
+                ],
+                "es": [
+                  "Vino de arroz",
+                  "Té verde",
+                  "Té de yuzu",
+                  "Americano"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Iced' in Korean?",
+                "zh": "韩语中'冰的'怎么说？",
+                "th": "'เย็น' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '아이스'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Con hielo' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "아이스",
+                  "뜨거운",
+                  "사이즈",
+                  "디저트"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "빙수",
+              "romanization": "bingsu",
+              "options": {
+                "en": [
+                  "Shaved ice",
+                  "Sweet pancake",
+                  "Fish bread",
+                  "Dessert"
+                ],
+                "zh": [
+                  "刨冰",
+                  "糖饼",
+                  "鲫鱼饼",
+                  "甜品"
+                ],
+                "th": [
+                  "บิงซู",
+                  "โฮต๊อก",
+                  "บุงออปัง",
+                  "ของหวาน"
+                ],
+                "ko": [
+                  "빙수",
+                  "호떡",
+                  "붕어빵",
+                  "디저트"
+                ],
+                "es": [
+                  "Hielo raspado",
+                  "Hotteok",
+                  "Bungeoppang",
+                  "Postre"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "녹차",
+                  "romanization": "nokcha",
+                  "native": {
+                    "en": "Green tea",
+                    "zh": "绿茶",
+                    "th": "ชาเขียว",
+                    "ko": "녹차",
+                    "es": "Té verde"
+                  }
+                },
+                {
+                  "target": "막걸리",
+                  "romanization": "makgeolli",
+                  "native": {
+                    "en": "Rice wine",
+                    "zh": "米酒",
+                    "th": "มักกอลลี",
+                    "ko": "막걸리",
+                    "es": "Vino de arroz"
+                  }
+                },
+                {
+                  "target": "빙수",
+                  "romanization": "bingsu",
+                  "native": {
+                    "en": "Shaved ice",
+                    "zh": "刨冰",
+                    "th": "บิงซู",
+                    "ko": "빙수",
+                    "es": "Hielo raspado"
+                  }
+                },
+                {
+                  "target": "호떡",
+                  "romanization": "hotteok",
+                  "native": {
+                    "en": "Sweet pancake",
+                    "zh": "糖饼",
+                    "th": "โฮต๊อก",
+                    "ko": "호떡",
+                    "es": "Hotteok"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Iced Americano please'",
+                "zh": "说'请来一杯冰美式'",
+                "th": "พูดว่า 'ขออเมริกาโนเย็น'",
+                "ko": "'아이스 아메리카노 주세요'라고 말하세요",
+                "es": "Di 'Un Americano con hielo por favor'"
+              },
+              "words": [
+                "주세요",
+                "아이스",
+                "아메리카노"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "아이스",
+                  "아메리카노",
+                  "주세요"
+                ]
+              },
+              "romanization": "aiseu amerikano juseyo",
+              "tiles": {
+                "neutral": [
+                  "아이스",
+                  "아메리카노",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "겨울에는 _____ 음료가 좋아요"
+              },
+              "hint": {
+                "en": "In winter _____ drinks are nice",
+                "zh": "冬天_____饮料好",
+                "th": "หน้าหนาวเครื่องดื่ม_____ดี",
+                "ko": "겨울에는 _____ 음료가 좋아요",
+                "es": "En invierno las bebidas _____ son buenas"
+              },
+              "options": [
+                "뜨거운",
+                "아이스",
+                "차가운",
+                "새콤한"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "뜨거운 means 'hot'. In winter, Koreans prefer hot drinks.",
+                "zh": "뜨거운表示'热的'。冬天韩国人喜欢热饮。",
+                "th": "뜨거운 แปลว่า 'ร้อน' หน้าหนาวคนเกาหลีชอบเครื่องดื่มร้อน",
+                "ko": "뜨거운은 '뜨겁다'의 관형사형이에요.",
+                "es": "뜨거운 significa 'caliente'. En invierno los coreanos prefieren bebidas calientes."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Order your favorite drink at a Korean cafe with Min",
+            "zh": "和Min在韩国咖啡厅点你最喜欢的饮料",
+            "th": "สั่งเครื่องดื่มที่ชอบที่คาเฟ่เกาหลีกับ Min",
+            "ko": "Min과 한국 카페에서 좋아하는 음료를 주문해 보세요",
+            "es": "Pide tu bebida favorita en un café coreano con Min"
+          }
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Drinking Culture",
+            "ko": "음주 문화",
+            "zh": "酒文化",
+            "th": "วัฒนธรรมการดื่ม",
+            "es": "Cultura del alcohol"
+          },
+          "objectives": {
+            "en": [
+              "Understand Korean drinking customs",
+              "Navigate social drinking situations"
+            ],
+            "zh": [
+              "了解韩国饮酒文化",
+              "应对社交饮酒场景"
+            ],
+            "th": [
+              "เข้าใจวัฒนธรรมการดื่มเกาหลี",
+              "รับมือสถานการณ์สังสรรค์"
+            ],
+            "ko": [
+              "한국 음주 문화 이해하기",
+              "술자리 대화하기"
+            ],
+            "es": [
+              "Entender la cultura de bebida coreana",
+              "Manejar situaciones sociales con alcohol"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "술",
+              "romanization": "sul",
+              "meanings": {
+                "en": "Alcohol",
+                "zh": "酒",
+                "th": "เหล้า",
+                "ko": "술",
+                "es": "Alcohol"
+              }
+            },
+            {
+              "word": "건배",
+              "romanization": "geonbae",
+              "meanings": {
+                "en": "Cheers",
+                "zh": "干杯",
+                "th": "ชนแก้ว",
+                "ko": "건배",
+                "es": "¡Salud!"
+              }
+            },
+            {
+              "word": "소맥",
+              "romanization": "somaek",
+              "meanings": {
+                "en": "Soju-beer mix",
+                "zh": "烧啤",
+                "th": "โซแมก（โซจูผสมเบียร์）",
+                "ko": "소맥",
+                "es": "Mezcla soju-cerveza"
+              }
+            },
+            {
+              "word": "안주",
+              "romanization": "anju",
+              "meanings": {
+                "en": "Drinking snacks",
+                "zh": "下酒菜",
+                "th": "อาหารกินกับเหล้า",
+                "ko": "안주",
+                "es": "Botanas para beber"
+              }
+            },
+            {
+              "word": "차",
+              "romanization": "cha2",
+              "meanings": {
+                "en": "One shot of alcohol",
+                "zh": "一杯/一口",
+                "th": "ดื่มหมด",
+                "ko": "차",
+                "es": "Un trago"
+              }
+            },
+            {
+              "word": "한 잔",
+              "romanization": "han jan",
+              "meanings": {
+                "en": "One glass",
+                "zh": "一杯",
+                "th": "หนึ่งแก้ว",
+                "ko": "한 잔",
+                "es": "Un vaso"
+              }
+            },
+            {
+              "word": "취했어요",
+              "romanization": "chwihasseoyo",
+              "meanings": {
+                "en": "I'm drunk",
+                "zh": "醉了",
+                "th": "เมาแล้ว",
+                "ko": "취했어요",
+                "es": "Estoy borracho/a"
+              }
+            },
+            {
+              "word": "숙취",
+              "romanization": "sukchwi",
+              "meanings": {
+                "en": "Hangover",
+                "zh": "宿醉",
+                "th": "แฮงค์โอเวอร์",
+                "ko": "숙취",
+                "es": "Resaca"
+              }
+            },
+            {
+              "word": "반주",
+              "romanization": "banju",
+              "meanings": {
+                "en": "Drink with meal",
+                "zh": "佐餐酒",
+                "th": "เครื่องดื่มกับอาหาร",
+                "ko": "반주",
+                "es": "Bebida con comida"
+              }
+            },
+            {
+              "word": "이차",
+              "romanization": "icha",
+              "meanings": {
+                "en": "Second round",
+                "zh": "二次",
+                "th": "ต่อเลาว์สอง",
+                "ko": "이차",
+                "es": "Segunda ronda"
+              }
+            },
+            {
+              "word": "삼차",
+              "romanization": "samcha",
+              "meanings": {
+                "en": "Third round",
+                "zh": "三次",
+                "th": "ต่อเลาว์สาม",
+                "ko": "삼차",
+                "es": "Tercera ronda"
+              }
+            },
+            {
+              "word": "노래방",
+              "romanization": "noraebang",
+              "meanings": {
+                "en": "Karaoke room",
+                "zh": "KTV",
+                "th": "คาราโอเกะ",
+                "ko": "노래방",
+                "es": "Karaoke"
+              }
+            },
+            {
+              "word": "폭탄주",
+              "romanization": "poktanju",
+              "meanings": {
+                "en": "Bomb shot",
+                "zh": "炸弹酒",
+                "th": "เครื่องดื่มบอมบ์",
+                "ko": "폭탄주",
+                "es": "Bomba (bebida)"
+              }
+            },
+            {
+              "word": "적당히",
+              "romanization": "jeokdanghi",
+              "meanings": {
+                "en": "Moderately",
+                "zh": "适量",
+                "th": "พอประมาณ",
+                "ko": "적당히",
+                "es": "Con moderación"
+              }
+            },
+            {
+              "word": "한턱",
+              "romanization": "hanteok",
+              "meanings": {
+                "en": "Treat/My treat",
+                "zh": "请客",
+                "th": "เลี้ยง",
+                "ko": "한턱",
+                "es": "Yo invito"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "안주",
+              "romanization": "anju",
+              "options": {
+                "en": [
+                  "Drinking snacks",
+                  "Alcohol",
+                  "Cheers",
+                  "Hangover"
+                ],
+                "zh": [
+                  "下酒菜",
+                  "酒",
+                  "干杯",
+                  "宿醉"
+                ],
+                "th": [
+                  "อาหารกินกับเหล้า",
+                  "เหล้า",
+                  "ชนแก้ว",
+                  "แฮงค์"
+                ],
+                "ko": [
+                  "안주",
+                  "술",
+                  "건배",
+                  "숙취"
+                ],
+                "es": [
+                  "Botanas",
+                  "Alcohol",
+                  "Salud",
+                  "Resaca"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Cheers' in Korean?",
+                "zh": "韩语中'干杯'怎么说？",
+                "th": "'ชนแก้ว' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '건배'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Salud' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "건배",
+                  "한턱",
+                  "한 잔",
+                  "이차"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "노래방",
+              "romanization": "noraebang",
+              "options": {
+                "en": [
+                  "Karaoke",
+                  "Second round",
+                  "Bomb shot",
+                  "Cheers"
+                ],
+                "zh": [
+                  "KTV",
+                  "二次",
+                  "炸弹酒",
+                  "干杯"
+                ],
+                "th": [
+                  "คาราโอเกะ",
+                  "ต่อเลาว์สอง",
+                  "บอมบ์",
+                  "ชนแก้ว"
+                ],
+                "ko": [
+                  "노래방",
+                  "이차",
+                  "폭탄주",
+                  "건배"
+                ],
+                "es": [
+                  "Karaoke",
+                  "Segunda ronda",
+                  "Bomba",
+                  "Salud"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "술",
+                  "romanization": "sul",
+                  "native": {
+                    "en": "Alcohol",
+                    "zh": "酒",
+                    "th": "เหล้า",
+                    "ko": "술",
+                    "es": "Alcohol"
+                  }
+                },
+                {
+                  "target": "안주",
+                  "romanization": "anju",
+                  "native": {
+                    "en": "Drinking snacks",
+                    "zh": "下酒菜",
+                    "th": "อาหารกับเหล้า",
+                    "ko": "안주",
+                    "es": "Botanas"
+                  }
+                },
+                {
+                  "target": "건배",
+                  "romanization": "geonbae",
+                  "native": {
+                    "en": "Cheers",
+                    "zh": "干杯",
+                    "th": "ชนแก้ว",
+                    "ko": "건배",
+                    "es": "Salud"
+                  }
+                },
+                {
+                  "target": "노래방",
+                  "romanization": "noraebang",
+                  "native": {
+                    "en": "Karaoke",
+                    "zh": "KTV",
+                    "th": "คาราโอเกะ",
+                    "ko": "노래방",
+                    "es": "Karaoke"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'One more glass please'",
+                "zh": "说'再来一杯'",
+                "th": "พูดว่า 'ขออีกแก้ว'",
+                "ko": "'한 잔 더 주세요'라고 말하세요",
+                "es": "Di 'Un vaso más por favor'"
+              },
+              "words": [
+                "주세요",
+                "한",
+                "잔",
+                "더"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "한",
+                  "잔",
+                  "더",
+                  "주세요"
+                ]
+              },
+              "romanization": "han jan deo juseyo",
+              "tiles": {
+                "neutral": [
+                  "한",
+                  "잔",
+                  "더",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "오늘은 제가 _____"
+              },
+              "hint": {
+                "en": "Today I'll _____",
+                "zh": "今天我_____",
+                "th": "วันนี้ฉัน_____",
+                "ko": "오늘은 제가 _____",
+                "es": "Hoy yo _____"
+              },
+              "options": [
+                "한턱 낼게요",
+                "술 마실게요",
+                "안주 먹을게요",
+                "노래할게요"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "한턱 낼게요 means 'I'll treat you'. Important Korean drinking culture phrase.",
+                "zh": "한턱 낼게요表示'我请客'。这是重要的韩国酒文化用语。",
+                "th": "한턱 낼게요 แปลว่า 'ฉันเลี้ยง' วลีสำคัญในวัฒนธรรมดื่มเกาหลี",
+                "ko": "한턱 낼게요는 '내가 살게요'라는 뜻이에요.",
+                "es": "한턱 낼게요 significa 'Yo invito'. Frase importante de la cultura de bebida coreana."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Chat with Min about Korean drinking culture — what are the rules?",
+            "zh": "和Min聊韩国酒文化——有哪些规矩？",
+            "th": "คุยกับ Min เรื่องวัฒนธรรมการดื่มเกาหลี — มีกฎอะไรบ้าง?",
+            "ko": "Min과 한국 음주 문화에 대해 이야기해 보세요 — 규칙이 뭐예요?",
+            "es": "Habla con Min sobre la cultura del alcohol coreana — ¿cuáles son las reglas?"
+          }
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Cooking Korean Food",
+            "ko": "한국 음식 요리",
+            "zh": "做韩国菜",
+            "th": "ทำอาหารเกาหลี",
+            "es": "Cocinar comida coreana"
+          },
+          "objectives": {
+            "en": [
+              "Follow a simple Korean recipe",
+              "Know cooking tools and techniques"
+            ],
+            "zh": [
+              "学做简单韩国菜",
+              "了解烹饪工具和技巧"
+            ],
+            "th": [
+              "ทำอาหารเกาหลีง่ายๆ",
+              "รู้จักอุปกรณ์และเทคนิคการทำอาหาร"
+            ],
+            "ko": [
+              "간단한 한국 요리 따라 하기",
+              "조리 도구와 기술 알기"
+            ],
+            "es": [
+              "Seguir una receta coreana simple",
+              "Conocer utensilios y técnicas de cocina"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "레시피",
+              "romanization": "resipi",
+              "meanings": {
+                "en": "Recipe",
+                "zh": "菜谱",
+                "th": "สูตรอาหาร",
+                "ko": "레시피",
+                "es": "Receta"
+              }
+            },
+            {
+              "word": "재료",
+              "romanization": "jaeryo",
+              "meanings": {
+                "en": "Ingredients",
+                "zh": "材料",
+                "th": "วัตถุดิบ",
+                "ko": "재료",
+                "es": "Ingredientes"
+              }
+            },
+            {
+              "word": "썰다",
+              "romanization": "sseolda",
+              "meanings": {
+                "en": "To cut/chop",
+                "zh": "切",
+                "th": "หั่น",
+                "ko": "썰다",
+                "es": "Cortar"
+              }
+            },
+            {
+              "word": "볶다",
+              "romanization": "bokda",
+              "meanings": {
+                "en": "To stir-fry",
+                "zh": "炒",
+                "th": "ผัด",
+                "ko": "볶다",
+                "es": "Saltear"
+              }
+            },
+            {
+              "word": "끓이다",
+              "romanization": "kkeurida",
+              "meanings": {
+                "en": "To boil",
+                "zh": "煮沸",
+                "th": "ต้ม",
+                "ko": "끓이다",
+                "es": "Hervir"
+              }
+            },
+            {
+              "word": "굽다",
+              "romanization": "gupda",
+              "meanings": {
+                "en": "To grill/bake",
+                "zh": "烤",
+                "th": "ย่าง/อบ",
+                "ko": "굽다",
+                "es": "Asar/Hornear"
+              }
+            },
+            {
+              "word": "섞다",
+              "romanization": "seokda",
+              "meanings": {
+                "en": "To mix",
+                "zh": "搅拌",
+                "th": "ผสม",
+                "ko": "섞다",
+                "es": "Mezclar"
+              }
+            },
+            {
+              "word": "넣다",
+              "romanization": "neota",
+              "meanings": {
+                "en": "To put in",
+                "zh": "放入",
+                "th": "ใส่",
+                "ko": "넣다",
+                "es": "Poner/Añadir"
+              }
+            },
+            {
+              "word": "프라이팬",
+              "romanization": "peuraipan",
+              "meanings": {
+                "en": "Frying pan",
+                "zh": "平底锅",
+                "th": "กระทะ",
+                "ko": "프라이팬",
+                "es": "Sartén"
+              }
+            },
+            {
+              "word": "칼",
+              "romanization": "kal",
+              "meanings": {
+                "en": "Knife",
+                "zh": "刀",
+                "th": "มีด",
+                "ko": "칼",
+                "es": "Cuchillo"
+              }
+            },
+            {
+              "word": "도마",
+              "romanization": "doma",
+              "meanings": {
+                "en": "Cutting board",
+                "zh": "砧板",
+                "th": "เขียง",
+                "ko": "도마",
+                "es": "Tabla de cortar"
+              }
+            },
+            {
+              "word": "불",
+              "romanization": "bul",
+              "meanings": {
+                "en": "Fire/Heat",
+                "zh": "火",
+                "th": "ไฟ",
+                "ko": "불",
+                "es": "Fuego"
+              }
+            },
+            {
+              "word": "센 불",
+              "romanization": "sen bul",
+              "meanings": {
+                "en": "High heat",
+                "zh": "大火",
+                "th": "ไฟแรง",
+                "ko": "센 불",
+                "es": "Fuego alto"
+              }
+            },
+            {
+              "word": "약한 불",
+              "romanization": "yakhan bul",
+              "meanings": {
+                "en": "Low heat",
+                "zh": "小火",
+                "th": "ไฟอ่อน",
+                "ko": "약한 불",
+                "es": "Fuego bajo"
+              }
+            },
+            {
+              "word": "완성",
+              "romanization": "wanseong",
+              "meanings": {
+                "en": "Completed/Done",
+                "zh": "完成",
+                "th": "เสร็จ",
+                "ko": "완성",
+                "es": "Completado"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "끓이다",
+              "romanization": "kkeurida",
+              "options": {
+                "en": [
+                  "To boil",
+                  "To stir-fry",
+                  "To grill",
+                  "To mix"
+                ],
+                "zh": [
+                  "煮沸",
+                  "炒",
+                  "烤",
+                  "搅拌"
+                ],
+                "th": [
+                  "ต้ม",
+                  "ผัด",
+                  "ย่าง",
+                  "ผสม"
+                ],
+                "ko": [
+                  "끓이다",
+                  "볶다",
+                  "굽다",
+                  "섞다"
+                ],
+                "es": [
+                  "Hervir",
+                  "Saltear",
+                  "Asar",
+                  "Mezclar"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Ingredients' in Korean?",
+                "zh": "韩语中'材料'怎么说？",
+                "th": "'วัตถุดิบ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '재료'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Ingredientes' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "재료",
+                  "레시피",
+                  "칼",
+                  "도마"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "도마",
+              "romanization": "doma",
+              "options": {
+                "en": [
+                  "Cutting board",
+                  "Knife",
+                  "Pan",
+                  "Fire"
+                ],
+                "zh": [
+                  "砧板",
+                  "刀",
+                  "锅",
+                  "火"
+                ],
+                "th": [
+                  "เขียง",
+                  "มีด",
+                  "กระทะ",
+                  "ไฟ"
+                ],
+                "ko": [
+                  "도마",
+                  "칼",
+                  "프라이팬",
+                  "불"
+                ],
+                "es": [
+                  "Tabla de cortar",
+                  "Cuchillo",
+                  "Sartén",
+                  "Fuego"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "썰다",
+                  "romanization": "sseolda",
+                  "native": {
+                    "en": "Cut",
+                    "zh": "切",
+                    "th": "หั่น",
+                    "ko": "썰다",
+                    "es": "Cortar"
+                  }
+                },
+                {
+                  "target": "볶다",
+                  "romanization": "bokda",
+                  "native": {
+                    "en": "Stir-fry",
+                    "zh": "炒",
+                    "th": "ผัด",
+                    "ko": "볶다",
+                    "es": "Saltear"
+                  }
+                },
+                {
+                  "target": "끓이다",
+                  "romanization": "kkeurida",
+                  "native": {
+                    "en": "Boil",
+                    "zh": "煮沸",
+                    "th": "ต้ม",
+                    "ko": "끓이다",
+                    "es": "Hervir"
+                  }
+                },
+                {
+                  "target": "굽다",
+                  "romanization": "gupda",
+                  "native": {
+                    "en": "Grill",
+                    "zh": "烤",
+                    "th": "ย่าง",
+                    "ko": "굽다",
+                    "es": "Asar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Cut the vegetables'",
+                "zh": "说'切蔬菜'",
+                "th": "พูดว่า 'หั่นผัก'",
+                "ko": "'야채를 썰어 주세요'라고 말하세요",
+                "es": "Di 'Corte las verduras'"
+              },
+              "words": [
+                "주세요",
+                "야채를",
+                "썰어"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "야채를",
+                  "썰어",
+                  "주세요"
+                ]
+              },
+              "romanization": "yachaereul sseoreo juseyo",
+              "tiles": {
+                "neutral": [
+                  "야채를",
+                  "썰어",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "먼저 야채를 _____ 주세요"
+              },
+              "hint": {
+                "en": "First _____ the vegetables please",
+                "zh": "先请_____蔬菜",
+                "th": "ก่อนอื่น_____ผักก่อน",
+                "ko": "먼저 야채를 _____ 주세요",
+                "es": "Primero _____ las verduras"
+              },
+              "options": [
+                "썰어",
+                "끓여",
+                "넣어",
+                "섞어"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "썰어 주세요 means 'please cut'. First step in most Korean recipes.",
+                "zh": "썰어 주세요表示'请切'。大多数韩国菜谱的第一步。",
+                "th": "썰어 주세요 แปลว่า 'กรุณาหั่น' ขั้นตอนแรกของสูตรอาหารเกาหลี",
+                "ko": "썰어 주세요는 '썰다'의 청유형이에요.",
+                "es": "썰어 주세요 significa 'corte por favor'. Primer paso en la mayoría de recetas coreanas."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Cook a Korean dish with Min — follow the recipe step by step",
+            "zh": "和Min一起做韩国菜——一步步跟着食谱来",
+            "th": "ทำอาหารเกาหลีกับ Min — ทำตามสูตรทีละขั้น",
+            "ko": "Min과 한국 요리를 만들어 보세요 — 레시피를 따라 하세요",
+            "es": "Cocina un platillo coreano con Min — sigue la receta paso a paso"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Regional Cuisine",
+        "ko": "지역 음식",
+        "zh": "地方美食",
+        "th": "อาหารประจำภาค",
+        "es": "Cocina regional"
+      },
+      "description": {
+        "en": "Learn regional specialties, kimchi culture, and dining etiquette",
+        "zh": "学习地方特色菜、泡菜文化和用餐礼仪",
+        "th": "เรียนรู้อาหารท้องถิ่น วัฒนธรรมกิมจิ และมารยาทบนโต๊ะ",
+        "ko": "지역 음식, 김치 문화, 식사 예절 배우기",
+        "es": "Aprender especialidades regionales, cultura del kimchi y modales en la mesa"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Regional Specialties",
+            "ko": "지역 특산물",
+            "zh": "地方特色美食",
+            "th": "อาหารเด่นประจำภาค",
+            "es": "Especialidades regionales"
+          },
+          "objectives": {
+            "en": [
+              "Know Korean regional foods",
+              "Recommend famous restaurants"
+            ],
+            "zh": [
+              "了解韩国地方美食",
+              "推荐有名餐厅"
+            ],
+            "th": [
+              "รู้จักอาหารท้องถิ่นเกาหลี",
+              "แนะนำร้านดัง"
+            ],
+            "ko": [
+              "지역 음식 알기",
+              "맛집 추천하기"
+            ],
+            "es": [
+              "Conocer comidas regionales coreanas",
+              "Recomendar restaurantes famosos"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "부산",
+              "romanization": "busan",
+              "meanings": {
+                "en": "Busan",
+                "zh": "釜山",
+                "th": "ปูซาน",
+                "ko": "부산",
+                "es": "Busan"
+              }
+            },
+            {
+              "word": "제주도",
+              "romanization": "jejudo",
+              "meanings": {
+                "en": "Jeju Island",
+                "zh": "济州岛",
+                "th": "เกาะเชจู",
+                "ko": "제주도",
+                "es": "Isla Jeju"
+              }
+            },
+            {
+              "word": "전주",
+              "romanization": "jeonju",
+              "meanings": {
+                "en": "Jeonju",
+                "zh": "全州",
+                "th": "จอนจู",
+                "ko": "전주",
+                "es": "Jeonju"
+              }
+            },
+            {
+              "word": "대구",
+              "romanization": "daegu",
+              "meanings": {
+                "en": "Daegu",
+                "zh": "大邱",
+                "th": "แทกู",
+                "ko": "대구",
+                "es": "Daegu"
+              }
+            },
+            {
+              "word": "전주비빔밥",
+              "romanization": "jeonjubibimbap",
+              "meanings": {
+                "en": "Jeonju bibimbap",
+                "zh": "全州拌饭",
+                "th": "บิบิมบับจอนจู",
+                "ko": "전주비빔밥",
+                "es": "Bibimbap de Jeonju"
+              }
+            },
+            {
+              "word": "밀면",
+              "romanization": "milmyeon",
+              "meanings": {
+                "en": "Wheat noodles (Busan)",
+                "zh": "小麦面",
+                "th": "มิลมยอน（บะหมี่ปูซาน）",
+                "ko": "밀면",
+                "es": "Fideos de trigo (Busan)"
+              }
+            },
+            {
+              "word": "흑돼지",
+              "romanization": "heukdwaeji",
+              "meanings": {
+                "en": "Black pork (Jeju)",
+                "zh": "黑猪",
+                "th": "หมูดำ（เชจู）",
+                "ko": "흑돼지",
+                "es": "Cerdo negro (Jeju)"
+              }
+            },
+            {
+              "word": "한정식",
+              "romanization": "hanjeongsik",
+              "meanings": {
+                "en": "Full Korean course meal",
+                "zh": "韩定食",
+                "th": "ฮันจองชิก（เซตอาหารเต็ม）",
+                "ko": "한정식",
+                "es": "Comida coreana completa"
+              }
+            },
+            {
+              "word": "맛집",
+              "romanization": "matjip",
+              "meanings": {
+                "en": "Famous restaurant",
+                "zh": "美食店",
+                "th": "ร้านดัง",
+                "ko": "맛집",
+                "es": "Restaurante famoso"
+              }
+            },
+            {
+              "word": "특산물",
+              "romanization": "teuksanmul",
+              "meanings": {
+                "en": "Local specialty",
+                "zh": "土特产",
+                "th": "ของขึ้นชื่อท้องถิ่น",
+                "ko": "특산물",
+                "es": "Especialidad local"
+              }
+            },
+            {
+              "word": "시장",
+              "romanization": "sijang2",
+              "meanings": {
+                "en": "Market",
+                "zh": "市场",
+                "th": "ตลาด",
+                "ko": "시장",
+                "es": "Mercado"
+              }
+            },
+            {
+              "word": "신선하다",
+              "romanization": "sinseonhada",
+              "meanings": {
+                "en": "To be fresh",
+                "zh": "新鲜",
+                "th": "สดใหม่",
+                "ko": "신선하다",
+                "es": "Ser fresco"
+              }
+            },
+            {
+              "word": "유명하다",
+              "romanization": "yumyeonghada",
+              "meanings": {
+                "en": "To be famous",
+                "zh": "有名",
+                "th": "มีชื่อเสียง",
+                "ko": "유명하다",
+                "es": "Ser famoso"
+              }
+            },
+            {
+              "word": "추천하다",
+              "romanization": "chucheonhada",
+              "meanings": {
+                "en": "To recommend",
+                "zh": "推荐",
+                "th": "แนะนำ",
+                "ko": "추천하다",
+                "es": "Recomendar"
+              }
+            },
+            {
+              "word": "전통",
+              "romanization": "jeontong",
+              "meanings": {
+                "en": "Traditional",
+                "zh": "传统",
+                "th": "ดั้งเดิม",
+                "ko": "전통",
+                "es": "Tradicional"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "맛집",
+              "romanization": "matjip",
+              "options": {
+                "en": [
+                  "Famous restaurant",
+                  "Market",
+                  "Traditional",
+                  "Local specialty"
+                ],
+                "zh": [
+                  "美食店",
+                  "市场",
+                  "传统",
+                  "土特产"
+                ],
+                "th": [
+                  "ร้านดัง",
+                  "ตลาด",
+                  "ดั้งเดิม",
+                  "ของท้องถิ่น"
+                ],
+                "ko": [
+                  "맛집",
+                  "시장",
+                  "전통",
+                  "특산물"
+                ],
+                "es": [
+                  "Restaurante famoso",
+                  "Mercado",
+                  "Tradicional",
+                  "Especialidad"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'To recommend' in Korean?",
+                "zh": "韩语中'推荐'怎么说？",
+                "th": "'แนะนำ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '추천하다'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Recomendar' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "추천하다",
+                  "유명하다",
+                  "신선하다",
+                  "전통"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "한정식",
+              "romanization": "hanjeongsik",
+              "options": {
+                "en": [
+                  "Full Korean meal",
+                  "Bibimbap",
+                  "Wheat noodles",
+                  "Black pork"
+                ],
+                "zh": [
+                  "韩定食",
+                  "拌饭",
+                  "小麦面",
+                  "黑猪"
+                ],
+                "th": [
+                  "ฮันจองชิก",
+                  "บิบิมบับ",
+                  "มิลมยอน",
+                  "หมูดำ"
+                ],
+                "ko": [
+                  "한정식",
+                  "비빔밥",
+                  "밀면",
+                  "흑돼지"
+                ],
+                "es": [
+                  "Comida completa",
+                  "Bibimbap",
+                  "Fideos",
+                  "Cerdo negro"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "전주",
+                  "romanization": "jeonju",
+                  "native": {
+                    "en": "Jeonju",
+                    "zh": "全州",
+                    "th": "จอนจู",
+                    "ko": "전주",
+                    "es": "Jeonju"
+                  }
+                },
+                {
+                  "target": "부산",
+                  "romanization": "busan",
+                  "native": {
+                    "en": "Busan",
+                    "zh": "釜山",
+                    "th": "ปูซาน",
+                    "ko": "부산",
+                    "es": "Busan"
+                  }
+                },
+                {
+                  "target": "제주도",
+                  "romanization": "jejudo",
+                  "native": {
+                    "en": "Jeju Island",
+                    "zh": "济州岛",
+                    "th": "เกาะเชจู",
+                    "ko": "제주도",
+                    "es": "Jeju"
+                  }
+                },
+                {
+                  "target": "대구",
+                  "romanization": "daegu",
+                  "native": {
+                    "en": "Daegu",
+                    "zh": "大邱",
+                    "th": "แทกู",
+                    "ko": "대구",
+                    "es": "Daegu"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This restaurant is famous'",
+                "zh": "说'这家餐厅很有名'",
+                "th": "พูดว่า 'ร้านนี้มีชื่อเสียง'",
+                "ko": "'이 식당은 유명해요'라고 말하세요",
+                "es": "Di 'Este restaurante es famoso'"
+              },
+              "words": [
+                "유명해요",
+                "식당은",
+                "이"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "이",
+                  "식당은",
+                  "유명해요"
+                ]
+              },
+              "romanization": "i sikdangeun yumyeonghaeyo",
+              "tiles": {
+                "neutral": [
+                  "이",
+                  "식당은",
+                  "유명해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "전주는 _____ 유명해요"
+              },
+              "hint": {
+                "en": "Jeonju is famous for _____",
+                "zh": "全州因_____出名",
+                "th": "จอนจูมีชื่อเสียงเรื่อง_____",
+                "ko": "전주는 _____ 유명해요",
+                "es": "Jeonju es famosa por _____"
+              },
+              "options": [
+                "비빔밥으로",
+                "밀면으로",
+                "흑돼지로",
+                "냉면으로"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "비빔밥으로 유명해요 means 'famous for bibimbap'. Use -으로 for 'for/because of'.",
+                "zh": "비빔밥으로 유명해요表示'因拌饭出名'。用-으로表示'因为'。",
+                "th": "비빔밥으로 유명해요 แปลว่า 'ดังเรื่องบิบิมบับ' ใช้ -으로 แปลว่า 'เพราะ'",
+                "ko": "비빔밥으로 유명해요는 '전주의 대표 음식'이라는 뜻이에요.",
+                "es": "비빔밥으로 유명해요 significa 'famosa por el bibimbap'. Use -으로 para 'por'."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Ask Min about the best food in different Korean cities",
+            "zh": "问Min韩国各城市最好吃的是什么",
+            "th": "ถาม Min เรื่องอาหารอร่อยในเมืองต่างๆ ของเกาหลี",
+            "ko": "Min에게 한국 각 도시의 맛집에 대해 물어보세요",
+            "es": "Pregúntale a Min sobre la mejor comida en distintas ciudades coreanas"
+          }
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Kimchi Culture",
+            "ko": "김치 문화",
+            "zh": "泡菜文化",
+            "th": "วัฒนธรรมกิมจิ",
+            "es": "Cultura del kimchi"
+          },
+          "objectives": {
+            "en": [
+              "Understand kimchi varieties and making process",
+              "Know essential kimchi ingredients"
+            ],
+            "zh": [
+              "了解泡菜种类和制作过程",
+              "知道泡菜必要材料"
+            ],
+            "th": [
+              "เข้าใจประเภทกิมจิและขั้นตอนทำ",
+              "รู้จักวัตถุดิบกิมจิ"
+            ],
+            "ko": [
+              "김치 종류와 만드는 과정 이해하기",
+              "필수 재료 알기"
+            ],
+            "es": [
+              "Entender variedades de kimchi",
+              "Conocer ingredientes esenciales del kimchi"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "김치 종류",
+              "romanization": "gimchi jongyu",
+              "meanings": {
+                "en": "Types of kimchi",
+                "zh": "泡菜种类",
+                "th": "ประเภทกิมจิ",
+                "ko": "김치 종류",
+                "es": "Tipos de kimchi"
+              }
+            },
+            {
+              "word": "배추김치",
+              "romanization": "baechugimchi",
+              "meanings": {
+                "en": "Napa cabbage kimchi",
+                "zh": "大白菜泡菜",
+                "th": "กิมจิผักกาดขาว",
+                "ko": "배추김치",
+                "es": "Kimchi de col napa"
+              }
+            },
+            {
+              "word": "깍두기",
+              "romanization": "kkakdugi",
+              "meanings": {
+                "en": "Cubed radish kimchi",
+                "zh": "萝卜块泡菜",
+                "th": "กักดูกิ（กิมจิหัวไชเท้า）",
+                "ko": "깍두기",
+                "es": "Kimchi de rábano en cubos"
+              }
+            },
+            {
+              "word": "오이소박이",
+              "romanization": "oisobagi",
+              "meanings": {
+                "en": "Cucumber kimchi",
+                "zh": "黄瓜泡菜",
+                "th": "กิมจิแตงกวา",
+                "ko": "오이소박이",
+                "es": "Kimchi de pepino"
+              }
+            },
+            {
+              "word": "김장",
+              "romanization": "gimjang",
+              "meanings": {
+                "en": "Kimchi-making season",
+                "zh": "腌泡菜季节",
+                "th": "ฤดูทำกิมจิ",
+                "ko": "김장",
+                "es": "Temporada de hacer kimchi"
+              }
+            },
+            {
+              "word": "발효",
+              "romanization": "balhyo",
+              "meanings": {
+                "en": "Fermentation",
+                "zh": "发酵",
+                "th": "การหมัก",
+                "ko": "발효",
+                "es": "Fermentación"
+              }
+            },
+            {
+              "word": "숙성",
+              "romanization": "sukseong",
+              "meanings": {
+                "en": "Aging/Maturing",
+                "zh": "熟成",
+                "th": "การบ่ม",
+                "ko": "숙성",
+                "es": "Maduración"
+              }
+            },
+            {
+              "word": "매운맛",
+              "romanization": "maeumat",
+              "meanings": {
+                "en": "Spicy flavor",
+                "zh": "辣味",
+                "th": "รสเผ็ด",
+                "ko": "매운맛",
+                "es": "Sabor picante"
+              }
+            },
+            {
+              "word": "고춧가루",
+              "romanization": "gochutgaru",
+              "meanings": {
+                "en": "Red pepper flakes",
+                "zh": "辣椒粉",
+                "th": "พริกป่น",
+                "ko": "고춧가루",
+                "es": "Hojuelas de chile"
+              }
+            },
+            {
+              "word": "마늘",
+              "romanization": "maneul",
+              "meanings": {
+                "en": "Garlic",
+                "zh": "大蒜",
+                "th": "กระเทียม",
+                "ko": "마늘",
+                "es": "Ajo"
+              }
+            },
+            {
+              "word": "생강",
+              "romanization": "saenggang",
+              "meanings": {
+                "en": "Ginger",
+                "zh": "姜",
+                "th": "ขิง",
+                "ko": "생강",
+                "es": "Jengibre"
+              }
+            },
+            {
+              "word": "젓갈",
+              "romanization": "jeotgal",
+              "meanings": {
+                "en": "Salted seafood",
+                "zh": "咸鱼酱",
+                "th": "อาหารทะเลเค็ม",
+                "ko": "젓갈",
+                "es": "Mariscos salados"
+              }
+            },
+            {
+              "word": "담그다",
+              "romanization": "damgeuda",
+              "meanings": {
+                "en": "To make/pickle (kimchi)",
+                "zh": "腌制",
+                "th": "ดอง",
+                "ko": "담그다",
+                "es": "Preparar/Encurtir"
+              }
+            },
+            {
+              "word": "익다",
+              "romanization": "ikda",
+              "meanings": {
+                "en": "To ripen/ferment",
+                "zh": "变熟/发酵",
+                "th": "สุก/หมัก",
+                "ko": "익다",
+                "es": "Madurar/Fermentar"
+              }
+            },
+            {
+              "word": "맛이 들다",
+              "romanization": "masi deulda",
+              "meanings": {
+                "en": "To develop flavor",
+                "zh": "入味",
+                "th": "เข้ารส",
+                "ko": "맛이 들다",
+                "es": "Tomar sabor"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "깍두기",
+              "romanization": "kkakdugi",
+              "options": {
+                "en": [
+                  "Cubed radish kimchi",
+                  "Napa cabbage kimchi",
+                  "Cucumber kimchi",
+                  "Garlic"
+                ],
+                "zh": [
+                  "萝卜块泡菜",
+                  "大白菜泡菜",
+                  "黄瓜泡菜",
+                  "大蒜"
+                ],
+                "th": [
+                  "กักดูกิ",
+                  "กิมจิผักกาด",
+                  "กิมจิแตงกวา",
+                  "กระเทียม"
+                ],
+                "ko": [
+                  "깍두기",
+                  "배추김치",
+                  "오이소박이",
+                  "마늘"
+                ],
+                "es": [
+                  "Kkakdugi",
+                  "Kimchi de col",
+                  "Kimchi de pepino",
+                  "Ajo"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Garlic' in Korean?",
+                "zh": "韩语中'大蒜'怎么说？",
+                "th": "'กระเทียม' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '마늘'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Ajo' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "마늘",
+                  "생강",
+                  "고춧가루",
+                  "젓갈"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "김장",
+              "romanization": "gimjang",
+              "options": {
+                "en": [
+                  "Kimchi-making season",
+                  "Fermentation",
+                  "Aging",
+                  "Spicy flavor"
+                ],
+                "zh": [
+                  "腌泡菜季节",
+                  "发酵",
+                  "熟成",
+                  "辣味"
+                ],
+                "th": [
+                  "ฤดูทำกิมจิ",
+                  "การหมัก",
+                  "การบ่ม",
+                  "รสเผ็ด"
+                ],
+                "ko": [
+                  "김장",
+                  "발효",
+                  "숙성",
+                  "매운맛"
+                ],
+                "es": [
+                  "Temporada kimchi",
+                  "Fermentación",
+                  "Maduración",
+                  "Picante"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "배추김치",
+                  "romanization": "baechugimchi",
+                  "native": {
+                    "en": "Napa kimchi",
+                    "zh": "大白菜泡菜",
+                    "th": "กิมจิผักกาด",
+                    "ko": "배추김치",
+                    "es": "Kimchi de col"
+                  }
+                },
+                {
+                  "target": "깍두기",
+                  "romanization": "kkakdugi",
+                  "native": {
+                    "en": "Radish kimchi",
+                    "zh": "萝卜泡菜",
+                    "th": "กักดูกิ",
+                    "ko": "깍두기",
+                    "es": "Kimchi de rábano"
+                  }
+                },
+                {
+                  "target": "마늘",
+                  "romanization": "maneul",
+                  "native": {
+                    "en": "Garlic",
+                    "zh": "大蒜",
+                    "th": "กระเทียม",
+                    "ko": "마늘",
+                    "es": "Ajo"
+                  }
+                },
+                {
+                  "target": "생강",
+                  "romanization": "saenggang",
+                  "native": {
+                    "en": "Ginger",
+                    "zh": "姜",
+                    "th": "ขิง",
+                    "ko": "생강",
+                    "es": "Jengibre"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Kimchi needs fermentation'",
+                "zh": "说'泡菜需要发酵'",
+                "th": "พูดว่า 'กิมจิต้องหมัก'",
+                "ko": "'김치는 발효가 필요해요'라고 말하세요",
+                "es": "Di 'El kimchi necesita fermentación'"
+              },
+              "words": [
+                "필요해요",
+                "김치는",
+                "발효가"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "김치는",
+                  "발효가",
+                  "필요해요"
+                ]
+              },
+              "romanization": "gimchineun balhyoga piryohaeyo",
+              "tiles": {
+                "neutral": [
+                  "김치는",
+                  "발효가",
+                  "필요해요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "김치를 담글 때 _____ 넣어요"
+              },
+              "hint": {
+                "en": "When making kimchi, add _____",
+                "zh": "腌泡菜时要放_____",
+                "th": "ตอนทำกิมจิต้องใส่_____",
+                "ko": "김치를 담글 때 _____ 넣어요",
+                "es": "Al hacer kimchi, se añade _____"
+              },
+              "options": [
+                "고춧가루를",
+                "설탕을",
+                "커피를",
+                "빵을"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "고춧가루를 넣어요 means 'add red pepper flakes'. Essential ingredient for kimchi.",
+                "zh": "고춧가루를 넣어요表示'放辣椒粉'。这是泡菜的必要材料。",
+                "th": "고춧가루를 넣어요 แปลว่า 'ใส่พริกป่น' วัตถุดิบสำคัญของกิมจิ",
+                "ko": "고춧가루를 넣어요는 '고춧가루를 넣다'라는 뜻이에요.",
+                "es": "고춧가루를 넣어요 significa 'añadir chile en polvo'. Ingrediente esencial del kimchi."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Learn about kimchi with Min — what types have you tried?",
+            "zh": "和Min了解泡菜——你尝过哪些种类？",
+            "th": "เรียนรู้เรื่องกิมจิกับ Min — คุณเคยลองแบบไหนบ้าง?",
+            "ko": "Min과 김치에 대해 배워 보세요 — 어떤 종류를 먹어봤어요?",
+            "es": "Aprende sobre kimchi con Min — ¿qué tipos has probado?"
+          }
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Korean Dining Etiquette",
+            "ko": "한국 식사 예절",
+            "zh": "韩国餐桌礼仪",
+            "th": "มารยาทบนโต๊ะอาหารเกาหลี",
+            "es": "Etiqueta coreana en la mesa"
+          },
+          "objectives": {
+            "en": [
+              "Practice Korean table manners",
+              "Use dining-related honorific expressions"
+            ],
+            "zh": [
+              "学习韩国餐桌礼仪",
+              "使用用餐相关敬语"
+            ],
+            "th": [
+              "ฝึกมารยาทบนโต๊ะเกาหลี",
+              "ใช้สำนวนยกย่องเกี่ยวกับอาหาร"
+            ],
+            "ko": [
+              "한국 식사 예절 배우기",
+              "식사 관련 존댓말 사용하기"
+            ],
+            "es": [
+              "Practicar modales coreanos en la mesa",
+              "Usar expresiones honoríficas de comida"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "식사 예절",
+              "romanization": "siksa yejeol",
+              "meanings": {
+                "en": "Table manners",
+                "zh": "餐桌礼仪",
+                "th": "มารยาทบนโต๊ะอาหาร",
+                "ko": "식사 예절",
+                "es": "Modales en la mesa"
+              }
+            },
+            {
+              "word": "어른",
+              "romanization": "eoreun",
+              "meanings": {
+                "en": "Elder/Adult",
+                "zh": "长辈",
+                "th": "ผู้ใหญ่",
+                "ko": "어른",
+                "es": "Mayor/Adulto"
+              }
+            },
+            {
+              "word": "먼저",
+              "romanization": "meonjeo",
+              "meanings": {
+                "en": "First",
+                "zh": "先",
+                "th": "ก่อน",
+                "ko": "먼저",
+                "es": "Primero"
+              }
+            },
+            {
+              "word": "잘 먹겠습니다",
+              "romanization": "jal meokgesseumnida",
+              "meanings": {
+                "en": "I'll eat well (before meal)",
+                "zh": "我开动了",
+                "th": "ขอเริ่มกินเลยนะ",
+                "ko": "잘 먹겠습니다",
+                "es": "Gracias por la comida (antes)"
+              }
+            },
+            {
+              "word": "잘 먹었습니다",
+              "romanization": "jal meogeosseumnida",
+              "meanings": {
+                "en": "I ate well (after meal)",
+                "zh": "我吃好了",
+                "th": "กินอิ่มแล้วครับ/ค่ะ",
+                "ko": "잘 먹었습니다",
+                "es": "Gracias por la comida (después)"
+              }
+            },
+            {
+              "word": "드세요",
+              "romanization": "deuseyo",
+              "meanings": {
+                "en": "Please eat (honorific)",
+                "zh": "请吃",
+                "th": "เชิญทานครับ/ค่ะ",
+                "ko": "드세요",
+                "es": "Sírvase (honorífico)"
+              }
+            },
+            {
+              "word": "맛있게 드세요",
+              "romanization": "masissge deuseyo",
+              "meanings": {
+                "en": "Enjoy your meal",
+                "zh": "请享用",
+                "th": "ทานให้อร่อยนะ",
+                "ko": "맛있게 드세요",
+                "es": "Buen provecho"
+              }
+            },
+            {
+              "word": "더 드릴까요?",
+              "romanization": "deo deurilkkayo?",
+              "meanings": {
+                "en": "Shall I give you more?",
+                "zh": "再给您一些吗？",
+                "th": "จะเอาเพิ่มไหม?",
+                "ko": "더 드릴까요?",
+                "es": "¿Le sirvo más?"
+              }
+            },
+            {
+              "word": "배부르세요?",
+              "romanization": "baebureuseyo?",
+              "meanings": {
+                "en": "Are you full? (honorific)",
+                "zh": "您吃饱了吗？",
+                "th": "ท่านอิ่มไหม?",
+                "ko": "배부르세요?",
+                "es": "¿Está lleno/a?"
+              }
+            },
+            {
+              "word": "됐어요",
+              "romanization": "dwaesseoyo",
+              "meanings": {
+                "en": "That's enough",
+                "zh": "够了",
+                "th": "พอแล้ว",
+                "ko": "됐어요",
+                "es": "Suficiente"
+              }
+            },
+            {
+              "word": "한상",
+              "romanization": "hansang",
+              "meanings": {
+                "en": "A full table setting",
+                "zh": "一桌菜",
+                "th": "อาหารเต็มโต๊ะ",
+                "ko": "한상",
+                "es": "Mesa completa"
+              }
+            },
+            {
+              "word": "국물",
+              "romanization": "gungmul",
+              "meanings": {
+                "en": "Broth/Soup liquid",
+                "zh": "汤汁",
+                "th": "น้ำซุป",
+                "ko": "국물",
+                "es": "Caldo"
+              }
+            },
+            {
+              "word": "리필",
+              "romanization": "ripil",
+              "meanings": {
+                "en": "Refill",
+                "zh": "续杯/加量",
+                "th": "เติม/รีฟิล",
+                "ko": "리필",
+                "es": "Recarga"
+              }
+            },
+            {
+              "word": "반찬 리필",
+              "romanization": "banchan ripil",
+              "meanings": {
+                "en": "Side dish refill",
+                "zh": "小菜续",
+                "th": "เติมเครื่องเคียง",
+                "ko": "반찬 리필",
+                "es": "Recarga de guarniciones"
+              }
+            },
+            {
+              "word": "맛있게 먹다",
+              "romanization": "masissge meokda",
+              "meanings": {
+                "en": "To enjoy eating",
+                "zh": "吃得好",
+                "th": "กินอย่างเอร็ดอร่อย",
+                "ko": "맛있게 먹다",
+                "es": "Comer con gusto"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "잘 먹겠습니다",
+              "romanization": "jal meokgesseumnida",
+              "options": {
+                "en": [
+                  "I'll eat well (before)",
+                  "I ate well (after)",
+                  "Please eat",
+                  "Enjoy"
+                ],
+                "zh": [
+                  "我开动了",
+                  "我吃好了",
+                  "请吃",
+                  "请享用"
+                ],
+                "th": [
+                  "ขอเริ่มกิน",
+                  "กินอิ่มแล้ว",
+                  "เชิญทาน",
+                  "ทานให้อร่อย"
+                ],
+                "ko": [
+                  "잘 먹겠습니다",
+                  "잘 먹었습니다",
+                  "드세요",
+                  "맛있게 드세요"
+                ],
+                "es": [
+                  "Antes de comer",
+                  "Después de comer",
+                  "Sírvase",
+                  "Buen provecho"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Side dish refill' in Korean?",
+                "zh": "韩语中'小菜续'怎么说？",
+                "th": "'เติมเครื่องเคียง' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '반찬 리필'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Recarga de guarniciones' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "반찬 리필",
+                  "국물",
+                  "한상",
+                  "리필"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "드세요",
+              "romanization": "deuseyo",
+              "options": {
+                "en": [
+                  "Please eat (honorific)",
+                  "I'll eat well",
+                  "I ate well",
+                  "Enjoy your meal"
+                ],
+                "zh": [
+                  "请吃",
+                  "我开动了",
+                  "我吃好了",
+                  "请享用"
+                ],
+                "th": [
+                  "เชิญทาน",
+                  "ขอเริ่มกิน",
+                  "กินอิ่มแล้ว",
+                  "ทานให้อร่อย"
+                ],
+                "ko": [
+                  "드세요",
+                  "잘 먹겠습니다",
+                  "잘 먹었습니다",
+                  "맛있게 드세요"
+                ],
+                "es": [
+                  "Sírvase",
+                  "Antes de comer",
+                  "Después de comer",
+                  "Buen provecho"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "잘 먹겠습니다",
+                  "romanization": "jal meokgesseumnida",
+                  "native": {
+                    "en": "Before meal",
+                    "zh": "开动了",
+                    "th": "ขอเริ่มกิน",
+                    "ko": "잘 먹겠습니다",
+                    "es": "Antes de comer"
+                  }
+                },
+                {
+                  "target": "잘 먹었습니다",
+                  "romanization": "jal meogeosseumnida",
+                  "native": {
+                    "en": "After meal",
+                    "zh": "吃好了",
+                    "th": "กินอิ่มแล้ว",
+                    "ko": "잘 먹었습니다",
+                    "es": "Después de comer"
+                  }
+                },
+                {
+                  "target": "드세요",
+                  "romanization": "deuseyo",
+                  "native": {
+                    "en": "Please eat",
+                    "zh": "请吃",
+                    "th": "เชิญทาน",
+                    "ko": "드세요",
+                    "es": "Sírvase"
+                  }
+                },
+                {
+                  "target": "됐어요",
+                  "romanization": "dwaesseoyo",
+                  "native": {
+                    "en": "Enough",
+                    "zh": "够了",
+                    "th": "พอแล้ว",
+                    "ko": "됐어요",
+                    "es": "Suficiente"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please enjoy your meal'",
+                "zh": "说'请享用'",
+                "th": "พูดว่า 'ทานให้อร่อยนะ'",
+                "ko": "'맛있게 드세요'라고 말하세요",
+                "es": "Di 'Buen provecho'"
+              },
+              "words": [
+                "드세요",
+                "맛있게"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "맛있게",
+                  "드세요"
+                ]
+              },
+              "romanization": "masissge deuseyo",
+              "tiles": {
+                "neutral": [
+                  "맛있게",
+                  "드세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "어른이 먼저 _____ 시작해요"
+              },
+              "hint": {
+                "en": "Elders _____ eating first",
+                "zh": "长辈先_____",
+                "th": "ผู้ใหญ่_____ก่อน",
+                "ko": "어른이 먼저 _____ 시작해요",
+                "es": "Los mayores _____ primero"
+              },
+              "options": [
+                "식사를",
+                "술을",
+                "노래를",
+                "이야기를"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "식사를 시작해요 = start eating. In Korean culture, elders begin eating first.",
+                "zh": "식사를 시작해요 = 开始吃饭。在韩国文化中，长辈先开始吃饭。",
+                "th": "식사를 시작해요 = เริ่มกินข้าว ในวัฒนธรรมเกาหลีผู้ใหญ่กินก่อน",
+                "ko": "식사를 시작해요는 '밥을 먹기 시작하다'라는 뜻이에요.",
+                "es": "식사를 시작해요 = empezar a comer. En la cultura coreana, los mayores comen primero."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Practice dining etiquette with Min — what do you say before and after a meal?",
+            "zh": "和Min练习餐桌礼仪——饭前饭后说什么？",
+            "th": "ฝึกมารยาทบนโต๊ะอาหารกับ Min — พูดอะไรก่อนและหลังกินข้าว?",
+            "ko": "Min과 식사 예절을 연습해 보세요 — 식사 전후에 뭐라고 해요?",
+            "es": "Practica etiqueta en la mesa con Min — ¿qué dices antes y después de comer?"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Korean Snacks & Trends",
+        "ko": "한국 간식과 트렌드",
+        "zh": "韩国零食与趋势",
+        "th": "ขนมเกาหลีและเทรนด์",
+        "es": "Snacks y tendencias coreanas"
+      },
+      "description": {
+        "en": "Learn traditional sweets, convenience store culture, and food trends",
+        "zh": "学习传统甜点、便利店文化和美食趋势",
+        "th": "เรียนรู้ขนมดั้งเดิม วัฒนธรรมร้านสะดวกซื้อ และเทรนด์อาหาร",
+        "ko": "전통 과자, 편의점 문화, 음식 트렌드 배우기",
+        "es": "Aprender dulces tradicionales, cultura de tiendas y tendencias de comida"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Traditional Sweets & Holidays",
+            "ko": "전통 과자와 명절",
+            "zh": "传统甜食与节日",
+            "th": "ขนมดั้งเดิมและวันหยุด",
+            "es": "Dulces tradicionales y festividades"
+          },
+          "objectives": {
+            "en": [
+              "Know Korean traditional sweets",
+              "Understand holiday food traditions"
+            ],
+            "zh": [
+              "了解韩国传统甜点",
+              "理解节日饮食传统"
+            ],
+            "th": [
+              "รู้จักขนมดั้งเดิมเกาหลี",
+              "เข้าใจประเพณีอาหารวันหยุด"
+            ],
+            "ko": [
+              "한국 전통 과자 알기",
+              "명절 음식 전통 이해하기"
+            ],
+            "es": [
+              "Conocer dulces tradicionales coreanos",
+              "Entender tradiciones culinarias festivas"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "떡",
+              "romanization": "tteok2",
+              "meanings": {
+                "en": "Rice cake",
+                "zh": "年糕",
+                "th": "ต๊อก",
+                "ko": "떡",
+                "es": "Pastel de arroz"
+              }
+            },
+            {
+              "word": "약과",
+              "romanization": "yakgwa",
+              "meanings": {
+                "en": "Honey cookie",
+                "zh": "药果",
+                "th": "ยักกวา（คุกกี้น้ำผึ้ง）",
+                "ko": "약과",
+                "es": "Galleta de miel"
+              }
+            },
+            {
+              "word": "한과",
+              "romanization": "hangwa",
+              "meanings": {
+                "en": "Korean traditional sweets",
+                "zh": "韩果",
+                "th": "ขนมเกาหลีดั้งเดิม",
+                "ko": "한과",
+                "es": "Dulces tradicionales coreanos"
+              }
+            },
+            {
+              "word": "팥빙수",
+              "romanization": "patbingsu",
+              "meanings": {
+                "en": "Red bean shaved ice",
+                "zh": "红豆刨冰",
+                "th": "บิงซูถั่วแดง",
+                "ko": "팥빙수",
+                "es": "Hielo de frijol rojo"
+              }
+            },
+            {
+              "word": "인절미",
+              "romanization": "injeolmi",
+              "meanings": {
+                "en": "Soybean powder rice cake",
+                "zh": "豆粉糯米糕",
+                "th": "อินจอลมี",
+                "ko": "인절미",
+                "es": "Pastel de harina de soya"
+              }
+            },
+            {
+              "word": "송편",
+              "romanization": "songpyeon",
+              "meanings": {
+                "en": "Half-moon rice cake",
+                "zh": "松糕",
+                "th": "ซงพยอน",
+                "ko": "송편",
+                "es": "Pastel de arroz media luna"
+              }
+            },
+            {
+              "word": "추석",
+              "romanization": "chuseok",
+              "meanings": {
+                "en": "Korean Thanksgiving",
+                "zh": "中秋节",
+                "th": "ชูซ็อก",
+                "ko": "추석",
+                "es": "Acción de Gracias coreano"
+              }
+            },
+            {
+              "word": "설날",
+              "romanization": "seollal",
+              "meanings": {
+                "en": "Lunar New Year",
+                "zh": "春节",
+                "th": "ซอลลัล（วันปีใหม่จันทรคติ）",
+                "ko": "설날",
+                "es": "Año Nuevo Lunar"
+              }
+            },
+            {
+              "word": "떡국",
+              "romanization": "tteokguk",
+              "meanings": {
+                "en": "Rice cake soup",
+                "zh": "年糕汤",
+                "th": "ซุปต๊อก",
+                "ko": "떡국",
+                "es": "Sopa de pastel de arroz"
+              }
+            },
+            {
+              "word": "명절",
+              "romanization": "myeongjeol",
+              "meanings": {
+                "en": "Holiday/Festival",
+                "zh": "节日",
+                "th": "วันหยุดสำคัญ",
+                "ko": "명절",
+                "es": "Festividad"
+              }
+            },
+            {
+              "word": "선물 세트",
+              "romanization": "seonmul seteu",
+              "meanings": {
+                "en": "Gift set",
+                "zh": "礼品套装",
+                "th": "เซตของขวัญ",
+                "ko": "선물 세트",
+                "es": "Set de regalo"
+              }
+            },
+            {
+              "word": "한과 세트",
+              "romanization": "hangwa seteu",
+              "meanings": {
+                "en": "Traditional sweet set",
+                "zh": "韩果套装",
+                "th": "เซตขนมดั้งเดิม",
+                "ko": "한과 세트",
+                "es": "Set de dulces tradicionales"
+              }
+            },
+            {
+              "word": "과자",
+              "romanization": "gwaja",
+              "meanings": {
+                "en": "Snack/Cookie",
+                "zh": "零食/饼干",
+                "th": "ขนม/คุกกี้",
+                "ko": "과자",
+                "es": "Galleta/Snack"
+              }
+            },
+            {
+              "word": "사탕",
+              "romanization": "satang",
+              "meanings": {
+                "en": "Candy",
+                "zh": "糖果",
+                "th": "ลูกอม",
+                "ko": "사탕",
+                "es": "Dulce/Caramelo"
+              }
+            },
+            {
+              "word": "초콜릿",
+              "romanization": "chokollit",
+              "meanings": {
+                "en": "Chocolate",
+                "zh": "巧克力",
+                "th": "ช็อกโกแลต",
+                "ko": "초콜릿",
+                "es": "Chocolate"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "송편",
+              "romanization": "songpyeon",
+              "options": {
+                "en": [
+                  "Half-moon rice cake",
+                  "Honey cookie",
+                  "Red bean ice",
+                  "Rice cake soup"
+                ],
+                "zh": [
+                  "松糕",
+                  "药果",
+                  "红豆刨冰",
+                  "年糕汤"
+                ],
+                "th": [
+                  "ซงพยอน",
+                  "ยักกวา",
+                  "บิงซูถั่วแดง",
+                  "ซุปต๊อก"
+                ],
+                "ko": [
+                  "송편",
+                  "약과",
+                  "팥빙수",
+                  "떡국"
+                ],
+                "es": [
+                  "Songpyeon",
+                  "Yakgwa",
+                  "Patbingsu",
+                  "Tteokguk"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Lunar New Year' in Korean?",
+                "zh": "韩语中'春节'怎么说？",
+                "th": "'วันปีใหม่จันทรคติ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '설날'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Año Nuevo Lunar' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "설날",
+                  "추석",
+                  "명절",
+                  "떡국"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "약과",
+              "romanization": "yakgwa",
+              "options": {
+                "en": [
+                  "Honey cookie",
+                  "Rice cake",
+                  "Candy",
+                  "Chocolate"
+                ],
+                "zh": [
+                  "药果",
+                  "年糕",
+                  "糖果",
+                  "巧克力"
+                ],
+                "th": [
+                  "ยักกวา",
+                  "ต๊อก",
+                  "ลูกอม",
+                  "ช็อกโกแลต"
+                ],
+                "ko": [
+                  "약과",
+                  "떡",
+                  "사탕",
+                  "초콜릿"
+                ],
+                "es": [
+                  "Yakgwa",
+                  "Tteok",
+                  "Caramelo",
+                  "Chocolate"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "추석",
+                  "romanization": "chuseok",
+                  "native": {
+                    "en": "Thanksgiving",
+                    "zh": "中秋节",
+                    "th": "ชูซ็อก",
+                    "ko": "추석",
+                    "es": "Chuseok"
+                  }
+                },
+                {
+                  "target": "설날",
+                  "romanization": "seollal",
+                  "native": {
+                    "en": "New Year",
+                    "zh": "春节",
+                    "th": "ซอลลัล",
+                    "ko": "설날",
+                    "es": "Seollal"
+                  }
+                },
+                {
+                  "target": "송편",
+                  "romanization": "songpyeon",
+                  "native": {
+                    "en": "Songpyeon",
+                    "zh": "松糕",
+                    "th": "ซงพยอน",
+                    "ko": "송편",
+                    "es": "Songpyeon"
+                  }
+                },
+                {
+                  "target": "떡국",
+                  "romanization": "tteokguk",
+                  "native": {
+                    "en": "Rice cake soup",
+                    "zh": "年糕汤",
+                    "th": "ซุปต๊อก",
+                    "ko": "떡국",
+                    "es": "Tteokguk"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Happy holidays'",
+                "zh": "说'节日快乐'",
+                "th": "พูดว่า 'สุขสันต์วันหยุด'",
+                "ko": "'명절 잘 보내세요'라고 말하세요",
+                "es": "Di 'Felices fiestas'"
+              },
+              "words": [
+                "보내세요",
+                "명절",
+                "잘"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "명절",
+                  "잘",
+                  "보내세요"
+                ]
+              },
+              "romanization": "myeongjeol jal bonaeseyo",
+              "tiles": {
+                "neutral": [
+                  "명절",
+                  "잘",
+                  "보내세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "설날에는 _____ 먹어요"
+              },
+              "hint": {
+                "en": "On New Year we eat _____",
+                "zh": "春节吃_____",
+                "th": "วันปีใหม่กิน_____",
+                "ko": "설날에는 _____ 먹어요",
+                "es": "En Año Nuevo comemos _____"
+              },
+              "options": [
+                "떡국을",
+                "송편을",
+                "삼겹살을",
+                "치킨을"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "떡국을 먹어요 = eat rice cake soup. Eating tteokguk on Seollal means you're a year older.",
+                "zh": "떡국을 먹어요 = 吃年糕汤。设拉尔吃年糕汤意味着长了一岁。",
+                "th": "떡국을 먹어요 = กินซุปต๊อก การกินต๊อกกุกวันซอลลัลหมายถึงอายุเพิ่มอีกปี",
+                "ko": "떡국을 먹어요는 설날 전통이에요.",
+                "es": "떡국을 먹어요 = comer sopa de tteok. Comer tteokguk en Seollal significa un año más."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Ask Min about Chuseok and Seollal food traditions",
+            "zh": "问Min中秋节和春节的饮食传统",
+            "th": "ถาม Min เรื่องประเพณีอาหารชูซอกและซอลลัล",
+            "ko": "Min에게 추석과 설날 음식 전통에 대해 물어보세요",
+            "es": "Pregúntale a Min sobre las tradiciones culinarias de Chuseok y Seollal"
+          }
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Convenience Store Culture",
+            "ko": "편의점 문화",
+            "zh": "便利店文化",
+            "th": "วัฒนธรรมร้านสะดวกซื้อ",
+            "es": "Cultura de tiendas de conveniencia"
+          },
+          "objectives": {
+            "en": [
+              "Navigate Korean convenience stores",
+              "Know popular convenience store foods"
+            ],
+            "zh": [
+              "应对韩国便利店",
+              "了解人气便利店食物"
+            ],
+            "th": [
+              "ใช้ร้านสะดวกซื้อเกาหลี",
+              "รู้จักอาหารร้านสะดวกซื้อยอดนิยม"
+            ],
+            "ko": [
+              "한국 편의점 이용하기",
+              "인기 편의점 음식 알기"
+            ],
+            "es": [
+              "Usar tiendas de conveniencia coreanas",
+              "Conocer comidas populares de tienda"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "편의점 음식",
+              "romanization": "pyeonuijeom eumsik",
+              "meanings": {
+                "en": "Convenience store food",
+                "zh": "便利店食物",
+                "th": "อาหารร้านสะดวกซื้อ",
+                "ko": "편의점 음식",
+                "es": "Comida de tienda"
+              }
+            },
+            {
+              "word": "삼각김밥",
+              "romanization": "samgakgimbap",
+              "meanings": {
+                "en": "Triangle gimbap",
+                "zh": "三角饭团",
+                "th": "คิมบับสามเหลี่ยม",
+                "ko": "삼각김밥",
+                "es": "Gimbap triangular"
+              }
+            },
+            {
+              "word": "컵라면",
+              "romanization": "keopmyeon",
+              "meanings": {
+                "en": "Cup noodles",
+                "zh": "杯面",
+                "th": "คัพราเมียน",
+                "ko": "컵라면",
+                "es": "Fideos de taza"
+              }
+            },
+            {
+              "word": "도시락",
+              "romanization": "dosirak",
+              "meanings": {
+                "en": "Lunchbox",
+                "zh": "盒饭",
+                "th": "ข้าวกล่อง",
+                "ko": "도시락",
+                "es": "Lonchera"
+              }
+            },
+            {
+              "word": "음료수",
+              "romanization": "eumnyosu",
+              "meanings": {
+                "en": "Beverage",
+                "zh": "饮料",
+                "th": "เครื่องดื่ม",
+                "ko": "음료수",
+                "es": "Bebida"
+              }
+            },
+            {
+              "word": "과자류",
+              "romanization": "gwajaryu",
+              "meanings": {
+                "en": "Snack category",
+                "zh": "零食类",
+                "th": "ประเภทขนม",
+                "ko": "과자류",
+                "es": "Categoría de snacks"
+              }
+            },
+            {
+              "word": "전자레인지",
+              "romanization": "jeonjareinji",
+              "meanings": {
+                "en": "Microwave",
+                "zh": "微波炉",
+                "th": "ไมโครเวฟ",
+                "ko": "전자레인지",
+                "es": "Microondas"
+              }
+            },
+            {
+              "word": "데우다",
+              "romanization": "deuda",
+              "meanings": {
+                "en": "To heat up",
+                "zh": "加热",
+                "th": "อุ่น",
+                "ko": "데우다",
+                "es": "Calentar"
+              }
+            },
+            {
+              "word": "24시간",
+              "romanization": "24 sigan",
+              "meanings": {
+                "en": "24 hours",
+                "zh": "24小时",
+                "th": "24 ชั่วโมง",
+                "ko": "24시간",
+                "es": "24 horas"
+              }
+            },
+            {
+              "word": "편리하다",
+              "romanization": "pyeonlihada",
+              "meanings": {
+                "en": "To be convenient",
+                "zh": "方便",
+                "th": "สะดวก",
+                "ko": "편리하다",
+                "es": "Ser conveniente"
+              }
+            },
+            {
+              "word": "결제",
+              "romanization": "gyeolje",
+              "meanings": {
+                "en": "Payment",
+                "zh": "支付",
+                "th": "การจ่ายเงิน",
+                "ko": "결제",
+                "es": "Pago"
+              }
+            },
+            {
+              "word": "충전",
+              "romanization": "chungjeon2",
+              "meanings": {
+                "en": "Top-up/Recharge",
+                "zh": "充值",
+                "th": "เติมเงิน",
+                "ko": "충전",
+                "es": "Recarga"
+              }
+            },
+            {
+              "word": "교통카드",
+              "romanization": "gyotongkadeu",
+              "meanings": {
+                "en": "Transportation card",
+                "zh": "交通卡",
+                "th": "บัตรรถ",
+                "ko": "교통카드",
+                "es": "Tarjeta de transporte"
+              }
+            },
+            {
+              "word": "ATM",
+              "romanization": "ATM",
+              "meanings": {
+                "en": "ATM",
+                "zh": "ATM取款机",
+                "th": "ตู้เอทีเอ็ม",
+                "ko": "ATM",
+                "es": "Cajero automático"
+              }
+            },
+            {
+              "word": "복사",
+              "romanization": "boksa",
+              "meanings": {
+                "en": "Copy/Photocopy",
+                "zh": "复印",
+                "th": "ถ่ายเอกสาร",
+                "ko": "복사",
+                "es": "Copia"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "삼각김밥",
+              "romanization": "samgakgimbap",
+              "options": {
+                "en": [
+                  "Triangle gimbap",
+                  "Cup noodles",
+                  "Lunchbox",
+                  "Beverage"
+                ],
+                "zh": [
+                  "三角饭团",
+                  "杯面",
+                  "盒饭",
+                  "饮料"
+                ],
+                "th": [
+                  "คิมบับสามเหลี่ยม",
+                  "คัพราเมียน",
+                  "ข้าวกล่อง",
+                  "เครื่องดื่ม"
+                ],
+                "ko": [
+                  "삼각김밥",
+                  "컵라면",
+                  "도시락",
+                  "음료수"
+                ],
+                "es": [
+                  "Gimbap triangular",
+                  "Cup noodles",
+                  "Lonchera",
+                  "Bebida"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Microwave' in Korean?",
+                "zh": "韩语中'微波炉'怎么说？",
+                "th": "'ไมโครเวฟ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '전자레인지'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Microondas' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "전자레인지",
+                  "도시락",
+                  "결제",
+                  "복사"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "도시락",
+              "romanization": "dosirak",
+              "options": {
+                "en": [
+                  "Lunchbox",
+                  "Triangle gimbap",
+                  "Cup noodles",
+                  "Snack"
+                ],
+                "zh": [
+                  "盒饭",
+                  "三角饭团",
+                  "杯面",
+                  "零食"
+                ],
+                "th": [
+                  "ข้าวกล่อง",
+                  "คิมบับสามเหลี่ยม",
+                  "คัพราเมียน",
+                  "ขนม"
+                ],
+                "ko": [
+                  "도시락",
+                  "삼각김밥",
+                  "컵라면",
+                  "과자"
+                ],
+                "es": [
+                  "Lonchera",
+                  "Gimbap",
+                  "Cup noodles",
+                  "Snack"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "삼각김밥",
+                  "romanization": "samgakgimbap",
+                  "native": {
+                    "en": "Triangle gimbap",
+                    "zh": "三角饭团",
+                    "th": "คิมบับสามเหลี่ยม",
+                    "ko": "삼각김밥",
+                    "es": "Gimbap"
+                  }
+                },
+                {
+                  "target": "컵라면",
+                  "romanization": "keopmyeon",
+                  "native": {
+                    "en": "Cup noodles",
+                    "zh": "杯面",
+                    "th": "คัพราเมียน",
+                    "ko": "컵라면",
+                    "es": "Cup noodles"
+                  }
+                },
+                {
+                  "target": "도시락",
+                  "romanization": "dosirak",
+                  "native": {
+                    "en": "Lunchbox",
+                    "zh": "盒饭",
+                    "th": "ข้าวกล่อง",
+                    "ko": "도시락",
+                    "es": "Lonchera"
+                  }
+                },
+                {
+                  "target": "음료수",
+                  "romanization": "eumnyosu",
+                  "native": {
+                    "en": "Beverage",
+                    "zh": "饮料",
+                    "th": "เครื่องดื่ม",
+                    "ko": "음료수",
+                    "es": "Bebida"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please heat this up'",
+                "zh": "说'请加热这个'",
+                "th": "พูดว่า 'ช่วยอุ่นให้หน่อย'",
+                "ko": "'데워 주세요'라고 말하세요",
+                "es": "Di 'Caliéntelo por favor'"
+              },
+              "words": [
+                "주세요",
+                "데워"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "데워",
+                  "주세요"
+                ]
+              },
+              "romanization": "dewo juseyo",
+              "tiles": {
+                "neutral": [
+                  "데워",
+                  "주세요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "편의점은 _____ 열어요"
+              },
+              "hint": {
+                "en": "The convenience store is open _____",
+                "zh": "便利店_____营业",
+                "th": "ร้านสะดวกซื้อเปิด_____",
+                "ko": "편의점은 _____ 열어요",
+                "es": "La tienda abre _____"
+              },
+              "options": [
+                "24시간",
+                "아침에",
+                "저녁에",
+                "주말에"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "24시간 열어요 = open 24 hours. Korean convenience stores (편의점) are almost all 24/7.",
+                "zh": "24시간 열어요 = 24小时营业。韩国便利店几乎都是24小时。",
+                "th": "24시간 열어요 = เปิด 24 ชม. ร้านสะดวกซื้อเกาหลีเกือบทั้งหมดเปิด 24 ชม.",
+                "ko": "24시간 열어요는 '하루 종일 영업한다'는 뜻이에요.",
+                "es": "24시간 열어요 = abierto 24 horas. Las tiendas coreanas son casi todas 24/7."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Explore a Korean convenience store with Min — what snacks would you try?",
+            "zh": "和Min逛韩国便利店——你想试什么零食？",
+            "th": "สำรวจร้านสะดวกซื้อเกาหลีกับ Min — จะลองขนมอะไร?",
+            "ko": "Min과 한국 편의점을 구경해 보세요 — 어떤 과자를 먹어볼래요?",
+            "es": "Explora una tienda de conveniencia coreana con Min — ¿qué snacks probarías?"
+          }
+        },
+        {
+          "id": "4.3",
+          "title": {
+            "en": "Food Trends & Reviews",
+            "ko": "음식 트렌드와 리뷰",
+            "zh": "美食趋势与评价",
+            "th": "เทรนด์อาหารและรีวิว",
+            "es": "Tendencias gastronómicas y reseñas"
+          },
+          "objectives": {
+            "en": [
+              "Understand Korean food trends",
+              "Read and discuss food reviews"
+            ],
+            "zh": [
+              "了解韩国美食趋势",
+              "阅读和讨论美食评价"
+            ],
+            "th": [
+              "เข้าใจเทรนด์อาหารเกาหลี",
+              "อ่านและพูดคุยเรื่องรีวิวอาหาร"
+            ],
+            "ko": [
+              "한국 음식 트렌드 이해하기",
+              "음식 리뷰 읽고 이야기하기"
+            ],
+            "es": [
+              "Entender tendencias de comida coreana",
+              "Leer y discutir reseñas de comida"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "먹방",
+              "romanization": "mukbang",
+              "meanings": {
+                "en": "Eating broadcast",
+                "zh": "吃播",
+                "th": "มุกบัง",
+                "ko": "먹방",
+                "es": "Mukbang"
+              }
+            },
+            {
+              "word": "맛있는",
+              "romanization": "masissneun",
+              "meanings": {
+                "en": "Delicious (adj.)",
+                "zh": "好吃的",
+                "th": "อร่อย（คุณศัพท์）",
+                "ko": "맛있는",
+                "es": "Delicioso (adj.)"
+              }
+            },
+            {
+              "word": "맛없는",
+              "romanization": "maeomneun",
+              "meanings": {
+                "en": "Not delicious (adj.)",
+                "zh": "难吃的",
+                "th": "ไม่อร่อย（คุณศัพท์）",
+                "ko": "맛없는",
+                "es": "No delicioso (adj.)"
+              }
+            },
+            {
+              "word": "리뷰",
+              "romanization": "ribyu",
+              "meanings": {
+                "en": "Review",
+                "zh": "评价",
+                "th": "รีวิว",
+                "ko": "리뷰",
+                "es": "Reseña"
+              }
+            },
+            {
+              "word": "별점",
+              "romanization": "byeoljeom",
+              "meanings": {
+                "en": "Star rating",
+                "zh": "星级评分",
+                "th": "คะแนนดาว",
+                "ko": "별점",
+                "es": "Calificación"
+              }
+            },
+            {
+              "word": "맛있다고 해요",
+              "romanization": "masissddago haeyo",
+              "meanings": {
+                "en": "They say it's delicious",
+                "zh": "据说好吃",
+                "th": "เขาว่าอร่อย",
+                "ko": "맛있다고 해요",
+                "es": "Dicen que es delicioso"
+              }
+            },
+            {
+              "word": "줄을 서다",
+              "romanization": "jureul seoda",
+              "meanings": {
+                "en": "To stand in line",
+                "zh": "排队",
+                "th": "ยืนต่อแถว",
+                "ko": "줄을 서다",
+                "es": "Hacer fila"
+              }
+            },
+            {
+              "word": "웨이팅",
+              "romanization": "weiting",
+              "meanings": {
+                "en": "Waiting (for a table)",
+                "zh": "等位",
+                "th": "รอคิว",
+                "ko": "웨이팅",
+                "es": "Espera (por mesa)"
+              }
+            },
+            {
+              "word": "예약 필수",
+              "romanization": "yeyak pilsu",
+              "meanings": {
+                "en": "Reservation required",
+                "zh": "必须预约",
+                "th": "ต้องจองก่อน",
+                "ko": "예약 필수",
+                "es": "Reservación obligatoria"
+              }
+            },
+            {
+              "word": "포장",
+              "romanization": "pojang2",
+              "meanings": {
+                "en": "Takeout",
+                "zh": "打包",
+                "th": "ห่อกลับ",
+                "ko": "포장",
+                "es": "Para llevar"
+              }
+            },
+            {
+              "word": "먹으러 가요",
+              "romanization": "meogeuro gayo",
+              "meanings": {
+                "en": "Let's go eat",
+                "zh": "去吃",
+                "th": "ไปกินกัน",
+                "ko": "먹으러 가요",
+                "es": "Vamos a comer"
+              }
+            },
+            {
+              "word": "배달 앱",
+              "romanization": "baedal aep",
+              "meanings": {
+                "en": "Delivery app",
+                "zh": "外卖APP",
+                "th": "แอปเดลิเวอรี่",
+                "ko": "배달 앱",
+                "es": "App de entrega"
+              }
+            },
+            {
+              "word": "쿠폰",
+              "romanization": "kupon",
+              "meanings": {
+                "en": "Coupon",
+                "zh": "优惠券",
+                "th": "คูปอง",
+                "ko": "쿠폰",
+                "es": "Cupón"
+              }
+            },
+            {
+              "word": "후기",
+              "romanization": "hugi",
+              "meanings": {
+                "en": "Review/Feedback",
+                "zh": "后记/评价",
+                "th": "รีวิว/ความเห็น",
+                "ko": "후기",
+                "es": "Reseña/Comentario"
+              }
+            },
+            {
+              "word": "가성비",
+              "romanization": "gaseongbi",
+              "meanings": {
+                "en": "Value for money",
+                "zh": "性价比",
+                "th": "คุ้มค่า",
+                "ko": "가성비",
+                "es": "Relación calidad-precio"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "먹방",
+              "romanization": "mukbang",
+              "options": {
+                "en": [
+                  "Eating broadcast",
+                  "Review",
+                  "Star rating",
+                  "Coupon"
+                ],
+                "zh": [
+                  "吃播",
+                  "评价",
+                  "评分",
+                  "优惠券"
+                ],
+                "th": [
+                  "มุกบัง",
+                  "รีวิว",
+                  "คะแนนดาว",
+                  "คูปอง"
+                ],
+                "ko": [
+                  "먹방",
+                  "리뷰",
+                  "별점",
+                  "쿠폰"
+                ],
+                "es": [
+                  "Mukbang",
+                  "Reseña",
+                  "Calificación",
+                  "Cupón"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Takeout' in Korean?",
+                "zh": "韩语中'打包'怎么说？",
+                "th": "'ห่อกลับ' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '포장'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Para llevar' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "포장",
+                  "배달",
+                  "예약",
+                  "웨이팅"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "가성비",
+              "romanization": "gaseongbi",
+              "options": {
+                "en": [
+                  "Value for money",
+                  "Coupon",
+                  "Review",
+                  "Delivery app"
+                ],
+                "zh": [
+                  "性价比",
+                  "优惠券",
+                  "评价",
+                  "外卖APP"
+                ],
+                "th": [
+                  "คุ้มค่า",
+                  "คูปอง",
+                  "รีวิว",
+                  "แอปเดลิเวอรี่"
+                ],
+                "ko": [
+                  "가성비",
+                  "쿠폰",
+                  "후기",
+                  "배달 앱"
+                ],
+                "es": [
+                  "Calidad-precio",
+                  "Cupón",
+                  "Reseña",
+                  "App"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "먹방",
+                  "romanization": "mukbang",
+                  "native": {
+                    "en": "Mukbang",
+                    "zh": "吃播",
+                    "th": "มุกบัง",
+                    "ko": "먹방",
+                    "es": "Mukbang"
+                  }
+                },
+                {
+                  "target": "리뷰",
+                  "romanization": "ribyu",
+                  "native": {
+                    "en": "Review",
+                    "zh": "评价",
+                    "th": "รีวิว",
+                    "ko": "리뷰",
+                    "es": "Reseña"
+                  }
+                },
+                {
+                  "target": "포장",
+                  "romanization": "pojang2",
+                  "native": {
+                    "en": "Takeout",
+                    "zh": "打包",
+                    "th": "ห่อกลับ",
+                    "ko": "포장",
+                    "es": "Para llevar"
+                  }
+                },
+                {
+                  "target": "가성비",
+                  "romanization": "gaseongbi",
+                  "native": {
+                    "en": "Value",
+                    "zh": "性价比",
+                    "th": "คุ้มค่า",
+                    "ko": "가성비",
+                    "es": "Calidad-precio"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let's go eat together'",
+                "zh": "说'一起去吃吧'",
+                "th": "พูดว่า 'ไปกินด้วยกัน'",
+                "ko": "'같이 먹으러 가요'라고 말하세요",
+                "es": "Di 'Vamos a comer juntos'"
+              },
+              "words": [
+                "가요",
+                "같이",
+                "먹으러"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "같이",
+                  "먹으러",
+                  "가요"
+                ]
+              },
+              "romanization": "gachi meogeuro gayo",
+              "tiles": {
+                "neutral": [
+                  "같이",
+                  "먹으러",
+                  "가요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "이 식당은 _____ 좋아요"
+              },
+              "hint": {
+                "en": "This restaurant has good _____",
+                "zh": "这家餐厅_____好",
+                "th": "ร้านนี้_____ดี",
+                "ko": "이 식당은 _____ 좋아요",
+                "es": "Este restaurante tiene buena _____"
+              },
+              "options": [
+                "가성비가",
+                "먹방이",
+                "별점이",
+                "줄이"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "가성비가 좋아요 means 'good value for money'. Very common in Korean food reviews.",
+                "zh": "가성비가 좋아요表示'性价比好'。韩国美食评价中很常见。",
+                "th": "가성비가 좋아요 แปลว่า 'คุ้มค่า' พบบ่อยในรีวิวอาหารเกาหลี",
+                "ko": "가성비가 좋아요는 '가격 대비 품질이 좋다'는 뜻이에요.",
+                "es": "가성비가 좋아요 significa 'buena relación calidad-precio'. Muy común en reseñas coreanas."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Discuss food reviews with Min — find a good 맛집 together",
+            "zh": "和Min讨论美食评价——一起找好吃的맛집",
+            "th": "คุยเรื่องรีวิวอาหารกับ Min — หา 맛집 ดีๆ ด้วยกัน",
+            "ko": "Min과 맛집 리뷰에 대해 이야기해 보세요 — 같이 맛집을 찾아보세요",
+            "es": "Habla con Min sobre reseñas de comida — encuentren un buen 맛집 juntos"
+          }
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Healthy Korean Eating",
+        "ko": "건강한 한국 식생활",
+        "zh": "韩国健康饮食",
+        "th": "การกินเพื่อสุขภาพแบบเกาหลี",
+        "es": "Alimentación saludable coreana"
+      },
+      "description": {
+        "en": "Learn healthy eating, restaurant types, and food shopping",
+        "zh": "学习健康饮食、餐厅类型和食品购物",
+        "th": "เรียนรู้การกินเพื่อสุขภาพ ประเภทร้านอาหาร และซื้อของ",
+        "ko": "건강한 식사, 식당 종류, 식품 쇼핑 배우기",
+        "es": "Aprender alimentación saludable, tipos de restaurante y compras de alimentos"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Healthy Eating",
+            "ko": "건강한 식사",
+            "zh": "健康饮食",
+            "th": "การกินเพื่อสุขภาพ",
+            "es": "Alimentación saludable"
+          },
+          "objectives": {
+            "en": [
+              "Talk about nutrition and health food",
+              "Express dietary restrictions"
+            ],
+            "zh": [
+              "谈论营养和健康食品",
+              "表达饮食限制"
+            ],
+            "th": [
+              "พูดเรื่องโภชนาการและอาหารสุขภาพ",
+              "บอกข้อจำกัดด้านอาหาร"
+            ],
+            "ko": [
+              "영양과 건강식 이야기하기",
+              "식이 제한 표현하기"
+            ],
+            "es": [
+              "Hablar de nutrición y comida saludable",
+              "Expresar restricciones dietéticas"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "건강식",
+              "romanization": "geongangsik",
+              "meanings": {
+                "en": "Health food",
+                "zh": "健康食品",
+                "th": "อาหารสุขภาพ",
+                "ko": "건강식",
+                "es": "Comida saludable"
+              }
+            },
+            {
+              "word": "채식",
+              "romanization": "chaesik",
+              "meanings": {
+                "en": "Vegetarian",
+                "zh": "素食",
+                "th": "มังสวิรัติ",
+                "ko": "채식",
+                "es": "Vegetariano"
+              }
+            },
+            {
+              "word": "비건",
+              "romanization": "bigeon",
+              "meanings": {
+                "en": "Vegan",
+                "zh": "纯素",
+                "th": "วีแกน",
+                "ko": "비건",
+                "es": "Vegano"
+              }
+            },
+            {
+              "word": "알레르기",
+              "romanization": "allereugi2",
+              "meanings": {
+                "en": "Allergy",
+                "zh": "过敏",
+                "th": "แพ้",
+                "ko": "알레르기",
+                "es": "Alergia"
+              }
+            },
+            {
+              "word": "견과류",
+              "romanization": "gyeongwaryu",
+              "meanings": {
+                "en": "Nuts",
+                "zh": "坚果",
+                "th": "ถั่วเปลือกแข็ง",
+                "ko": "견과류",
+                "es": "Frutos secos"
+              }
+            },
+            {
+              "word": "글루텐 프리",
+              "romanization": "geulluten peuri",
+              "meanings": {
+                "en": "Gluten-free",
+                "zh": "无麸质",
+                "th": "ปราศจากกลูเตน",
+                "ko": "글루텐 프리",
+                "es": "Sin gluten"
+              }
+            },
+            {
+              "word": "유기농",
+              "romanization": "yugionng",
+              "meanings": {
+                "en": "Organic",
+                "zh": "有机",
+                "th": "ออร์แกนิก",
+                "ko": "유기농",
+                "es": "Orgánico"
+              }
+            },
+            {
+              "word": "칼로리",
+              "romanization": "kallori",
+              "meanings": {
+                "en": "Calorie",
+                "zh": "卡路里",
+                "th": "แคลอรี่",
+                "ko": "칼로리",
+                "es": "Caloría"
+              }
+            },
+            {
+              "word": "영양",
+              "romanization": "yeongyang",
+              "meanings": {
+                "en": "Nutrition",
+                "zh": "营养",
+                "th": "โภชนาการ",
+                "ko": "영양",
+                "es": "Nutrición"
+              }
+            },
+            {
+              "word": "비타민",
+              "romanization": "bitamin",
+              "meanings": {
+                "en": "Vitamin",
+                "zh": "维生素",
+                "th": "วิตามิน",
+                "ko": "비타민",
+                "es": "Vitamina"
+              }
+            },
+            {
+              "word": "단백질",
+              "romanization": "danbaekjil",
+              "meanings": {
+                "en": "Protein",
+                "zh": "蛋白质",
+                "th": "โปรตีน",
+                "ko": "단백질",
+                "es": "Proteína"
+              }
+            },
+            {
+              "word": "탄수화물",
+              "romanization": "tansuhwamul",
+              "meanings": {
+                "en": "Carbohydrate",
+                "zh": "碳水化合物",
+                "th": "คาร์โบไฮเดรต",
+                "ko": "탄수화물",
+                "es": "Carbohidrato"
+              }
+            },
+            {
+              "word": "지방",
+              "romanization": "jibang",
+              "meanings": {
+                "en": "Fat",
+                "zh": "脂肪",
+                "th": "ไขมัน",
+                "ko": "지방",
+                "es": "Grasa"
+              }
+            },
+            {
+              "word": "균형 잡힌",
+              "romanization": "gyunhyeong japin",
+              "meanings": {
+                "en": "Balanced",
+                "zh": "均衡的",
+                "th": "สมดุล",
+                "ko": "균형 잡힌",
+                "es": "Equilibrado"
+              }
+            },
+            {
+              "word": "건강에 좋다",
+              "romanization": "geongage jota",
+              "meanings": {
+                "en": "Good for health",
+                "zh": "对健康好",
+                "th": "ดีต่อสุขภาพ",
+                "ko": "건강에 좋다",
+                "es": "Bueno para la salud"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "채식",
+              "romanization": "chaesik",
+              "options": {
+                "en": [
+                  "Vegetarian",
+                  "Vegan",
+                  "Organic",
+                  "Gluten-free"
+                ],
+                "zh": [
+                  "素食",
+                  "纯素",
+                  "有机",
+                  "无麸质"
+                ],
+                "th": [
+                  "มังสวิรัติ",
+                  "วีแกน",
+                  "ออร์แกนิก",
+                  "ปราศจากกลูเตน"
+                ],
+                "ko": [
+                  "채식",
+                  "비건",
+                  "유기농",
+                  "글루텐 프리"
+                ],
+                "es": [
+                  "Vegetariano",
+                  "Vegano",
+                  "Orgánico",
+                  "Sin gluten"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Protein' in Korean?",
+                "zh": "韩语中'蛋白质'怎么说？",
+                "th": "'โปรตีน' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '단백질'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Proteína' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "단백질",
+                  "탄수화물",
+                  "지방",
+                  "칼로리"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "유기농",
+              "romanization": "yugionng",
+              "options": {
+                "en": [
+                  "Organic",
+                  "Vegetarian",
+                  "Nutrition",
+                  "Vitamin"
+                ],
+                "zh": [
+                  "有机",
+                  "素食",
+                  "营养",
+                  "维生素"
+                ],
+                "th": [
+                  "ออร์แกนิก",
+                  "มังสวิรัติ",
+                  "โภชนาการ",
+                  "วิตามิน"
+                ],
+                "ko": [
+                  "유기농",
+                  "채식",
+                  "영양",
+                  "비타민"
+                ],
+                "es": [
+                  "Orgánico",
+                  "Vegetariano",
+                  "Nutrición",
+                  "Vitamina"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "단백질",
+                  "romanization": "danbaekjil",
+                  "native": {
+                    "en": "Protein",
+                    "zh": "蛋白质",
+                    "th": "โปรตีน",
+                    "ko": "단백질",
+                    "es": "Proteína"
+                  }
+                },
+                {
+                  "target": "탄수화물",
+                  "romanization": "tansuhwamul",
+                  "native": {
+                    "en": "Carbs",
+                    "zh": "碳水",
+                    "th": "คาร์โบ",
+                    "ko": "탄수화물",
+                    "es": "Carbohidrato"
+                  }
+                },
+                {
+                  "target": "지방",
+                  "romanization": "jibang",
+                  "native": {
+                    "en": "Fat",
+                    "zh": "脂肪",
+                    "th": "ไขมัน",
+                    "ko": "지방",
+                    "es": "Grasa"
+                  }
+                },
+                {
+                  "target": "비타민",
+                  "romanization": "bitamin",
+                  "native": {
+                    "en": "Vitamin",
+                    "zh": "维生素",
+                    "th": "วิตามิน",
+                    "ko": "비타민",
+                    "es": "Vitamina"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This is good for health'",
+                "zh": "说'这对健康好'",
+                "th": "พูดว่า 'ดีต่อสุขภาพ'",
+                "ko": "'건강에 좋아요'라고 말하세요",
+                "es": "Di 'Es bueno para la salud'"
+              },
+              "words": [
+                "좋아요",
+                "건강에"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "건강에",
+                  "좋아요"
+                ]
+              },
+              "romanization": "geongage joayo",
+              "tiles": {
+                "neutral": [
+                  "건강에",
+                  "좋아요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "_____ 식단이 중요해요"
+              },
+              "hint": {
+                "en": "A _____ diet is important",
+                "zh": "_____的饮食很重要",
+                "th": "อาหาร_____สำคัญ",
+                "ko": "_____ 식단이 중요해요",
+                "es": "Una dieta _____ es importante"
+              },
+              "options": [
+                "균형 잡힌",
+                "맛있는",
+                "비싼",
+                "큰"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "균형 잡힌 means 'balanced'. A balanced diet is important for health.",
+                "zh": "균형 잡힌表示'均衡的'。均衡饮食对健康很重要。",
+                "th": "균형 잡힌 แปลว่า 'สมดุล' อาหารสมดุลสำคัญต่อสุขภาพ",
+                "ko": "균형 잡힌은 '균형이 맞는'이라는 뜻이에요.",
+                "es": "균형 잡힌 significa 'equilibrado'. Una dieta equilibrada es importante."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Discuss healthy eating with Min — what Korean foods are good for you?",
+            "zh": "和Min讨论健康饮食——哪些韩国菜对健康有益？",
+            "th": "คุยกับ Min เรื่องการกินเพื่อสุขภาพ — อาหารเกาหลีอะไรดีต่อสุขภาพ?",
+            "ko": "Min과 건강한 식사에 대해 이야기해 보세요 — 어떤 한국 음식이 몸에 좋아요?",
+            "es": "Habla con Min sobre alimentación saludable — ¿qué comida coreana es buena para ti?"
+          }
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Restaurant Types & Culture",
+            "ko": "식당 종류와 문화",
+            "zh": "餐厅类型与文化",
+            "th": "ประเภทร้านอาหารและวัฒนธรรม",
+            "es": "Tipos de restaurantes y cultura"
+          },
+          "objectives": {
+            "en": [
+              "Compare different cuisine types",
+              "Navigate restaurant culture"
+            ],
+            "zh": [
+              "比较不同菜系",
+              "了解餐厅文化"
+            ],
+            "th": [
+              "เปรียบเทียบอาหารหลากประเภท",
+              "เข้าใจวัฒนธรรมร้านอาหาร"
+            ],
+            "ko": [
+              "음식 종류 비교하기",
+              "식당 문화 이해하기"
+            ],
+            "es": [
+              "Comparar tipos de cocina",
+              "Entender la cultura de restaurantes"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "한식",
+              "romanization": "hansik",
+              "meanings": {
+                "en": "Korean food",
+                "zh": "韩餐",
+                "th": "อาหารเกาหลี",
+                "ko": "한식",
+                "es": "Comida coreana"
+              }
+            },
+            {
+              "word": "양식",
+              "romanization": "yangsik",
+              "meanings": {
+                "en": "Western food",
+                "zh": "西餐",
+                "th": "อาหารตะวันตก",
+                "ko": "양식",
+                "es": "Comida occidental"
+              }
+            },
+            {
+              "word": "중식",
+              "romanization": "jungsik",
+              "meanings": {
+                "en": "Chinese food",
+                "zh": "中餐",
+                "th": "อาหารจีน",
+                "ko": "중식",
+                "es": "Comida china"
+              }
+            },
+            {
+              "word": "일식",
+              "romanization": "ilsik",
+              "meanings": {
+                "en": "Japanese food",
+                "zh": "日餐",
+                "th": "อาหารญี่ปุ่น",
+                "ko": "일식",
+                "es": "Comida japonesa"
+              }
+            },
+            {
+              "word": "분위기",
+              "romanization": "bunwigi",
+              "meanings": {
+                "en": "Atmosphere",
+                "zh": "氛围",
+                "th": "บรรยากาศ",
+                "ko": "분위기",
+                "es": "Ambiente"
+              }
+            },
+            {
+              "word": "서비스",
+              "romanization": "seobiseu",
+              "meanings": {
+                "en": "Service (free extra)",
+                "zh": "服务/赠送",
+                "th": "บริการ/ของแถม",
+                "ko": "서비스",
+                "es": "Servicio (gratis)"
+              }
+            },
+            {
+              "word": "단골",
+              "romanization": "dangol",
+              "meanings": {
+                "en": "Regular customer",
+                "zh": "常客",
+                "th": "ลูกค้าประจำ",
+                "ko": "단골",
+                "es": "Cliente habitual"
+              }
+            },
+            {
+              "word": "웰빙",
+              "romanization": "welbing",
+              "meanings": {
+                "en": "Well-being",
+                "zh": "健康生活",
+                "th": "สุขภาพดี",
+                "ko": "웰빙",
+                "es": "Bienestar"
+              }
+            },
+            {
+              "word": "음식점",
+              "romanization": "eumsikjeom",
+              "meanings": {
+                "en": "Restaurant",
+                "zh": "餐饮店",
+                "th": "ร้านอาหาร",
+                "ko": "음식점",
+                "es": "Restaurante"
+              }
+            },
+            {
+              "word": "뷔페",
+              "romanization": "bwipe",
+              "meanings": {
+                "en": "Buffet",
+                "zh": "自助餐",
+                "th": "บุฟเฟ่ต์",
+                "ko": "뷔페",
+                "es": "Buffet"
+              }
+            },
+            {
+              "word": "코스 요리",
+              "romanization": "koseu yori",
+              "meanings": {
+                "en": "Course meal",
+                "zh": "套餐",
+                "th": "อาหารเซต",
+                "ko": "코스 요리",
+                "es": "Menú degustación"
+              }
+            },
+            {
+              "word": "맛 평가",
+              "romanization": "mat pyeongga",
+              "meanings": {
+                "en": "Taste evaluation",
+                "zh": "味道评价",
+                "th": "ประเมินรสชาติ",
+                "ko": "맛 평가",
+                "es": "Evaluación de sabor"
+              }
+            },
+            {
+              "word": "음식 추천",
+              "romanization": "eumsik chucheon",
+              "meanings": {
+                "en": "Food recommendation",
+                "zh": "美食推荐",
+                "th": "แนะนำอาหาร",
+                "ko": "음식 추천",
+                "es": "Recomendación de comida"
+              }
+            },
+            {
+              "word": "입맛",
+              "romanization": "immak",
+              "meanings": {
+                "en": "Appetite/Palate",
+                "zh": "口味",
+                "th": "รสนิยม/ความอยากอาหาร",
+                "ko": "입맛",
+                "es": "Paladar/Apetito"
+              }
+            },
+            {
+              "word": "입맛에 맞다",
+              "romanization": "immake matda",
+              "meanings": {
+                "en": "To suit one's taste",
+                "zh": "合口味",
+                "th": "ถูกปาก",
+                "ko": "입맛에 맞다",
+                "es": "Ser del gusto de"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "서비스",
+              "romanization": "seobiseu",
+              "options": {
+                "en": [
+                  "Service (free extra)",
+                  "Buffet",
+                  "Atmosphere",
+                  "Regular"
+                ],
+                "zh": [
+                  "服务/赠送",
+                  "自助餐",
+                  "氛围",
+                  "常客"
+                ],
+                "th": [
+                  "บริการ/ของแถม",
+                  "บุฟเฟ่ต์",
+                  "บรรยากาศ",
+                  "ลูกค้าประจำ"
+                ],
+                "ko": [
+                  "서비스",
+                  "뷔페",
+                  "분위기",
+                  "단골"
+                ],
+                "es": [
+                  "Servicio gratis",
+                  "Buffet",
+                  "Ambiente",
+                  "Habitual"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Buffet' in Korean?",
+                "zh": "韩语中'自助餐'怎么说？",
+                "th": "'บุฟเฟ่ต์' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '뷔페'를 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Buffet' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "뷔페",
+                  "코스 요리",
+                  "음식점",
+                  "서비스"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "단골",
+              "romanization": "dangol",
+              "options": {
+                "en": [
+                  "Regular customer",
+                  "Service",
+                  "Atmosphere",
+                  "Buffet"
+                ],
+                "zh": [
+                  "常客",
+                  "服务",
+                  "氛围",
+                  "自助餐"
+                ],
+                "th": [
+                  "ลูกค้าประจำ",
+                  "บริการ",
+                  "บรรยากาศ",
+                  "บุฟเฟ่ต์"
+                ],
+                "ko": [
+                  "단골",
+                  "서비스",
+                  "분위기",
+                  "뷔페"
+                ],
+                "es": [
+                  "Habitual",
+                  "Servicio",
+                  "Ambiente",
+                  "Buffet"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "한식",
+                  "romanization": "hansik",
+                  "native": {
+                    "en": "Korean food",
+                    "zh": "韩餐",
+                    "th": "อาหารเกาหลี",
+                    "ko": "한식",
+                    "es": "Coreana"
+                  }
+                },
+                {
+                  "target": "양식",
+                  "romanization": "yangsik",
+                  "native": {
+                    "en": "Western food",
+                    "zh": "西餐",
+                    "th": "อาหารตะวันตก",
+                    "ko": "양식",
+                    "es": "Occidental"
+                  }
+                },
+                {
+                  "target": "중식",
+                  "romanization": "jungsik",
+                  "native": {
+                    "en": "Chinese food",
+                    "zh": "中餐",
+                    "th": "อาหารจีน",
+                    "ko": "중식",
+                    "es": "China"
+                  }
+                },
+                {
+                  "target": "일식",
+                  "romanization": "ilsik",
+                  "native": {
+                    "en": "Japanese food",
+                    "zh": "日餐",
+                    "th": "อาหารญี่ปุ่น",
+                    "ko": "일식",
+                    "es": "Japonesa"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This suits my taste'",
+                "zh": "说'这个合我的口味'",
+                "th": "พูดว่า 'ถูกปากฉัน'",
+                "ko": "'제 입맛에 맞아요'라고 말하세요",
+                "es": "Di 'Es de mi gusto'"
+              },
+              "words": [
+                "맞아요",
+                "입맛에",
+                "제"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "제",
+                  "입맛에",
+                  "맞아요"
+                ]
+              },
+              "romanization": "je immake majayo",
+              "tiles": {
+                "neutral": [
+                  "제",
+                  "입맛에",
+                  "맞아요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "이 식당은 _____ 좋아요"
+              },
+              "hint": {
+                "en": "This restaurant has a good _____",
+                "zh": "这家餐厅_____好",
+                "th": "ร้านนี้_____ดี",
+                "ko": "이 식당은 _____ 좋아요",
+                "es": "Este restaurante tiene buen _____"
+              },
+              "options": [
+                "분위기가",
+                "음식이",
+                "서비스가",
+                "가격이"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "분위기가 좋아요 means 'the atmosphere is good'. Koreans value ambiance when dining.",
+                "zh": "분위기가 좋아요表示'氛围好'。韩国人很重视用餐氛围。",
+                "th": "분위기가 좋아요 แปลว่า 'บรรยากาศดี' คนเกาหลีให้ความสำคัญกับบรรยากาศ",
+                "ko": "분위기가 좋아요는 '분위기가 좋다'는 뜻이에요.",
+                "es": "분위기가 좋아요 significa 'buen ambiente'. Los coreanos valoran el ambiente al comer."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Discuss restaurant recommendations with Min — what type of food do you like?",
+            "zh": "和Min讨论餐厅推荐——你喜欢什么类型的菜？",
+            "th": "คุยกับ Min เรื่องร้านอาหารแนะนำ — คุณชอบอาหารแบบไหน?",
+            "ko": "Min과 식당 추천에 대해 이야기해 보세요 — 어떤 음식을 좋아해요?",
+            "es": "Habla con Min sobre restaurantes recomendados — ¿qué tipo de comida te gusta?"
+          }
+        },
+        {
+          "id": "5.3",
+          "title": {
+            "en": "Korean Food Shopping",
+            "ko": "한국 식료품 쇼핑",
+            "zh": "韩国食品购物",
+            "th": "ช้อปปิ้งอาหารเกาหลี",
+            "es": "Compras de comida coreana"
+          },
+          "objectives": {
+            "en": [
+              "Navigate Korean grocery shopping",
+              "Understand Korean food delivery culture"
+            ],
+            "zh": [
+              "了解韩国食材购物",
+              "理解韩国食品配送文化"
+            ],
+            "th": [
+              "ซื้อของในเกาหลี",
+              "เข้าใจวัฒนธรรมการส่งอาหารเกาหลี"
+            ],
+            "ko": [
+              "한국 식료품 쇼핑하기",
+              "한국 배송 문화 이해하기"
+            ],
+            "es": [
+              "Hacer compras de alimentos en Corea",
+              "Entender la cultura de entregas de comida coreana"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "식품",
+              "romanization": "sikpum",
+              "meanings": {
+                "en": "Food product",
+                "zh": "食品",
+                "th": "ผลิตภัณฑ์อาหาร",
+                "ko": "식품",
+                "es": "Producto alimenticio"
+              }
+            },
+            {
+              "word": "성분",
+              "romanization": "seongbun",
+              "meanings": {
+                "en": "Ingredient/Component",
+                "zh": "成分",
+                "th": "ส่วนประกอบ",
+                "ko": "성분",
+                "es": "Ingrediente/Componente"
+              }
+            },
+            {
+              "word": "유통기한",
+              "romanization": "yutongihan2",
+              "meanings": {
+                "en": "Expiration date",
+                "zh": "保质期",
+                "th": "วันหมดอายุ",
+                "ko": "유통기한",
+                "es": "Fecha de vencimiento"
+              }
+            },
+            {
+              "word": "냉동",
+              "romanization": "naengdong",
+              "meanings": {
+                "en": "Frozen",
+                "zh": "冷冻",
+                "th": "แช่แข็ง",
+                "ko": "냉동",
+                "es": "Congelado"
+              }
+            },
+            {
+              "word": "냉장",
+              "romanization": "naengjang",
+              "meanings": {
+                "en": "Refrigerated",
+                "zh": "冷藏",
+                "th": "แช่เย็น",
+                "ko": "냉장",
+                "es": "Refrigerado"
+              }
+            },
+            {
+              "word": "상온",
+              "romanization": "sangon",
+              "meanings": {
+                "en": "Room temperature",
+                "zh": "常温",
+                "th": "อุณหภูมิห้อง",
+                "ko": "상온",
+                "es": "Temperatura ambiente"
+              }
+            },
+            {
+              "word": "조리법",
+              "romanization": "joribeop",
+              "meanings": {
+                "en": "Cooking method",
+                "zh": "烹饪方法",
+                "th": "วิธีปรุง",
+                "ko": "조리법",
+                "es": "Método de cocción"
+              }
+            },
+            {
+              "word": "전통시장",
+              "romanization": "jeontongsijang",
+              "meanings": {
+                "en": "Traditional market",
+                "zh": "传统市场",
+                "th": "ตลาดดั้งเดิม",
+                "ko": "전통시장",
+                "es": "Mercado tradicional"
+              }
+            },
+            {
+              "word": "대형마트",
+              "romanization": "daehyeongmateu",
+              "meanings": {
+                "en": "Large supermarket",
+                "zh": "大型超市",
+                "th": "ไฮเปอร์มาร์เก็ต",
+                "ko": "대형마트",
+                "es": "Hipermercado"
+              }
+            },
+            {
+              "word": "온라인 장보기",
+              "romanization": "onlain jangbogi",
+              "meanings": {
+                "en": "Online grocery shopping",
+                "zh": "网上买菜",
+                "th": "ซื้อของออนไลน์",
+                "ko": "온라인 장보기",
+                "es": "Compras en línea"
+              }
+            },
+            {
+              "word": "배송",
+              "romanization": "baesong",
+              "meanings": {
+                "en": "Shipping/Delivery",
+                "zh": "配送",
+                "th": "การจัดส่ง",
+                "ko": "배송",
+                "es": "Envío"
+              }
+            },
+            {
+              "word": "새벽 배송",
+              "romanization": "saebyeok baesong",
+              "meanings": {
+                "en": "Dawn delivery",
+                "zh": "凌晨配送",
+                "th": "ส่งตอนรุ่งสาง",
+                "ko": "새벽 배송",
+                "es": "Entrega al amanecer"
+              }
+            },
+            {
+              "word": "신선식품",
+              "romanization": "sinseonsikpum",
+              "meanings": {
+                "en": "Fresh food",
+                "zh": "新鲜食品",
+                "th": "อาหารสดใหม่",
+                "ko": "신선식품",
+                "es": "Alimentos frescos"
+              }
+            },
+            {
+              "word": "즉석식품",
+              "romanization": "jeukseogsikpum",
+              "meanings": {
+                "en": "Instant food",
+                "zh": "即食食品",
+                "th": "อาหารสำเร็จรูป",
+                "ko": "즉석식품",
+                "es": "Comida instantánea"
+              }
+            },
+            {
+              "word": "간편식",
+              "romanization": "ganpyeonsik",
+              "meanings": {
+                "en": "Convenient meal",
+                "zh": "方便食品",
+                "th": "อาหารง่ายๆ",
+                "ko": "간편식",
+                "es": "Comida conveniente"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "새벽 배송",
+              "romanization": "saebyeok baesong",
+              "options": {
+                "en": [
+                  "Dawn delivery",
+                  "Online shopping",
+                  "Fresh food",
+                  "Frozen"
+                ],
+                "zh": [
+                  "凌晨配送",
+                  "网购",
+                  "新鲜食品",
+                  "冷冻"
+                ],
+                "th": [
+                  "ส่งตอนรุ่งสาง",
+                  "ซื้อของออนไลน์",
+                  "อาหารสด",
+                  "แช่แข็ง"
+                ],
+                "ko": [
+                  "새벽 배송",
+                  "온라인 장보기",
+                  "신선식품",
+                  "냉동"
+                ],
+                "es": [
+                  "Entrega al amanecer",
+                  "Compras en línea",
+                  "Frescos",
+                  "Congelado"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Frozen' in Korean?",
+                "zh": "韩语中'冷冻'怎么说？",
+                "th": "'แช่แข็ง' ในภาษาเกาหลีพูดว่าอย่างไร?",
+                "ko": "한국어로 '냉동'을 어떻게 말해요?",
+                "es": "¿Cómo se dice 'Congelado' en coreano?"
+              },
+              "options": {
+                "neutral": [
+                  "냉동",
+                  "냉장",
+                  "상온",
+                  "배송"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "전통시장",
+              "romanization": "jeontongsijang",
+              "options": {
+                "en": [
+                  "Traditional market",
+                  "Supermarket",
+                  "Online shopping",
+                  "Delivery"
+                ],
+                "zh": [
+                  "传统市场",
+                  "大型超市",
+                  "网购",
+                  "配送"
+                ],
+                "th": [
+                  "ตลาดดั้งเดิม",
+                  "ไฮเปอร์มาร์เก็ต",
+                  "ซื้อของออนไลน์",
+                  "การจัดส่ง"
+                ],
+                "ko": [
+                  "전통시장",
+                  "대형마트",
+                  "온라인 장보기",
+                  "배송"
+                ],
+                "es": [
+                  "Mercado tradicional",
+                  "Hipermercado",
+                  "Compras en línea",
+                  "Envío"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "냉동",
+                  "romanization": "naengdong",
+                  "native": {
+                    "en": "Frozen",
+                    "zh": "冷冻",
+                    "th": "แช่แข็ง",
+                    "ko": "냉동",
+                    "es": "Congelado"
+                  }
+                },
+                {
+                  "target": "냉장",
+                  "romanization": "naengjang",
+                  "native": {
+                    "en": "Refrigerated",
+                    "zh": "冷藏",
+                    "th": "แช่เย็น",
+                    "ko": "냉장",
+                    "es": "Refrigerado"
+                  }
+                },
+                {
+                  "target": "상온",
+                  "romanization": "sangon",
+                  "native": {
+                    "en": "Room temp",
+                    "zh": "常温",
+                    "th": "อุณหภูมิห้อง",
+                    "ko": "상온",
+                    "es": "Temp ambiente"
+                  }
+                },
+                {
+                  "target": "신선식품",
+                  "romanization": "sinseonsikpum",
+                  "native": {
+                    "en": "Fresh food",
+                    "zh": "新鲜食品",
+                    "th": "อาหารสด",
+                    "ko": "신선식품",
+                    "es": "Frescos"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I ordered groceries online'",
+                "zh": "说'我在网上买了菜'",
+                "th": "พูดว่า 'สั่งซื้อของออนไลน์'",
+                "ko": "'온라인으로 장을 봤어요'라고 말하세요",
+                "es": "Di 'Compré comida en línea'"
+              },
+              "words": [
+                "봤어요",
+                "온라인으로",
+                "장을"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "온라인으로",
+                  "장을",
+                  "봤어요"
+                ]
+              },
+              "romanization": "onlaineuro jangeul bwasseoyo",
+              "tiles": {
+                "neutral": [
+                  "온라인으로",
+                  "장을",
+                  "봤어요"
+                ]
+              }
+            },
+            {
+              "type": "grammar_choice",
+              "sentence": {
+                "neutral": "한국에서는 _____ 배송이 인기예요"
+              },
+              "hint": {
+                "en": "In Korea _____ delivery is popular",
+                "zh": "在韩国_____配送很受欢迎",
+                "th": "ในเกาหลีการจัดส่ง_____ยอดนิยม",
+                "ko": "한국에서는 _____ 배송이 인기예요",
+                "es": "En Corea la entrega _____ es popular"
+              },
+              "options": [
+                "새벽",
+                "느린",
+                "비싼",
+                "오래된"
+              ],
+              "correct": 0,
+              "explanation": {
+                "en": "새벽 배송 (dawn delivery) is a unique Korean service — order at night, receive by early morning.",
+                "zh": "새벽 배송(凌晨配送)是韩国独特的服务——晚上下单，清晨收到。",
+                "th": "새벽 배송 (ส่งตอนรุ่งสาง) เป็นบริการพิเศษของเกาหลี สั่งตอนกลางคืน ได้รับตอนเช้ามืด",
+                "ko": "새벽 배송은 한국의 독특한 서비스예요.",
+                "es": "새벽 배송 es un servicio único coreano — pides de noche, llega al amanecer."
+              }
+            }
+          ],
+          "chat_seed": {
+            "en": "Plan a grocery shopping trip with Min — traditional market or online delivery?",
+            "zh": "和Min计划购物——去传统市场还是网上下单？",
+            "th": "วางแผนไปซื้อของกับ Min — ตลาดแบบดั้งเดิมหรือสั่งออนไลน์?",
+            "ko": "Min과 장보기를 계획해 보세요 — 전통 시장으로 갈까요, 배달 시킬까요?",
+            "es": "Planea un viaje al supermercado con Min — ¿mercado tradicional o delivery en línea?"
+          }
+        }
+      ]
+    }
+  ]
+}

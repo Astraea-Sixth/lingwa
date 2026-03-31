@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { resolveObjectives, resolveText, getNativeLang } from '@/lib/resolve'
 import { t } from '@/lib/i18n'
+import { isHostedMode } from '@/lib/supabase'
+import { loadStaticCurriculum } from '@/lib/staticCourses'
 
 interface Lesson {
   id: string
@@ -95,24 +97,38 @@ export default function LessonTree({ lang, level, completedLessons, onStartLesso
       }
     }
 
-    fetch(`/api/curriculum/${lang}/${level}`)
-      .then(r => {
+    async function loadCurriculum() {
+      // In hosted mode, try static files first
+      if (isHostedMode()) {
+        try {
+          const data = await loadStaticCurriculum(lang, level)
+          if (data?.units?.length > 0) {
+            setUnits(data.units)
+            const firstId = data.units[0].id ?? data.units[0].unit ?? 1
+            setExpandedUnits(new Set([firstId]))
+            // Cache for other components
+            localStorage.setItem(`lingwa_curriculum_${lang}`, JSON.stringify(data))
+            setLoading(false)
+            return
+          }
+        } catch { /* fall through */ }
+      }
+      // Non-hosted: try API
+      try {
+        const r = await fetch(`/api/curriculum/${lang}/${level}`)
         if (!r.ok) throw new Error('No curriculum')
-        return r.json()
-      })
-      .then(data => {
+        const data = await r.json()
         if (data.units?.length > 0) {
           setUnits(data.units)
           const firstId = data.units[0].id ?? data.units[0].unit ?? 1
           setExpandedUnits(new Set([firstId]))
         }
-        setLoading(false)
-      })
-      .catch(() => {
-        // No hardcoded fallback — curriculum must be generated via onboarding
+      } catch {
         setUnits([])
-        setLoading(false)
-      })
+      }
+      setLoading(false)
+    }
+    loadCurriculum()
   }, [lang, level])
 
   const allLessonIds = units.flatMap(u => u.lessons.map(l => l.id))

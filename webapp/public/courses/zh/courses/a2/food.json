@@ -1,0 +1,5264 @@
+{
+  "lang": "zh",
+  "language": "zh",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "레스토랑에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering & Service",
+            "zh": "点餐与服务",
+            "th": "การสั่งอาหารและบริการ",
+            "ko": "주문과 서비스",
+            "es": "Pedir y servicio"
+          },
+          "objectives": {
+            "en": [
+              "Order food at a restaurant",
+              "Interact with wait staff"
+            ],
+            "zh": [
+              "Order food at a restaurant",
+              "Interact with wait staff"
+            ],
+            "th": [
+              "Order food at a restaurant",
+              "Interact with wait staff"
+            ],
+            "ko": [
+              "Order food at a restaurant",
+              "Interact with wait staff"
+            ],
+            "es": [
+              "Order food at a restaurant",
+              "Interact with wait staff"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "菜单",
+              "romanization": "cài dān",
+              "meanings": {
+                "en": "Menu",
+                "zh": "菜单",
+                "th": "เมนู",
+                "ko": "메뉴",
+                "es": "Menú"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "菜单",
+                  "romanization": "cài dān"
+                },
+                "female": {
+                  "word": "菜单",
+                  "romanization": "cài dān"
+                }
+              }
+            },
+            {
+              "word": "点菜",
+              "romanization": "diǎn cài",
+              "meanings": {
+                "en": "Order",
+                "zh": "点菜",
+                "th": "สั่ง",
+                "ko": "주문하다",
+                "es": "Pedir"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "点菜",
+                  "romanization": "diǎn cài"
+                },
+                "female": {
+                  "word": "点菜",
+                  "romanization": "diǎn cài"
+                }
+              }
+            },
+            {
+              "word": "服务员",
+              "romanization": "fú wù yuán",
+              "meanings": {
+                "en": "Waiter",
+                "zh": "服务员",
+                "th": "พนักงานเสิร์ฟ",
+                "ko": "웨이터",
+                "es": "Mesero"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "服务员",
+                  "romanization": "fú wù yuán"
+                },
+                "female": {
+                  "word": "服务员",
+                  "romanization": "fú wù yuán"
+                }
+              }
+            },
+            {
+              "word": "女服务员",
+              "romanization": "nǚ fú wù yuán",
+              "meanings": {
+                "en": "Waitress",
+                "zh": "女服务员",
+                "th": "พนักงานเสิร์ฟหญิง",
+                "ko": "여성 웨이터",
+                "es": "Mesera"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "女服务员",
+                  "romanization": "nǚ fú wù yuán"
+                },
+                "female": {
+                  "word": "女服务员",
+                  "romanization": "nǚ fú wù yuán"
+                }
+              }
+            },
+            {
+              "word": "桌子",
+              "romanization": "zhuō zi",
+              "meanings": {
+                "en": "Table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "Mesa"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "桌子",
+                  "romanization": "zhuō zi"
+                },
+                "female": {
+                  "word": "桌子",
+                  "romanization": "zhuō zi"
+                }
+              }
+            },
+            {
+              "word": "预订",
+              "romanization": "yù dìng",
+              "meanings": {
+                "en": "Reservation",
+                "zh": "预订",
+                "th": "การจอง",
+                "ko": "예약",
+                "es": "Reservación"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "预订",
+                  "romanization": "yù dìng"
+                },
+                "female": {
+                  "word": "预订",
+                  "romanization": "yù dìng"
+                }
+              }
+            },
+            {
+              "word": "前菜",
+              "romanization": "qián cài",
+              "meanings": {
+                "en": "Starter",
+                "zh": "前菜",
+                "th": "อาหารเรียกน้ำย่อย",
+                "ko": "전채 요리",
+                "es": "Entrada"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "前菜",
+                  "romanization": "qián cài"
+                },
+                "female": {
+                  "word": "前菜",
+                  "romanization": "qián cài"
+                }
+              }
+            },
+            {
+              "word": "主菜",
+              "romanization": "zhǔ cài",
+              "meanings": {
+                "en": "Main course",
+                "zh": "主菜",
+                "th": "จานหลัก",
+                "ko": "메인 코스",
+                "es": "Plato principal"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "主菜",
+                  "romanization": "zhǔ cài"
+                },
+                "female": {
+                  "word": "主菜",
+                  "romanization": "zhǔ cài"
+                }
+              }
+            },
+            {
+              "word": "甜点",
+              "romanization": "tián diǎn",
+              "meanings": {
+                "en": "Dessert",
+                "zh": "甜点",
+                "th": "ของหวาน",
+                "ko": "디저트",
+                "es": "Postre"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "甜点",
+                  "romanization": "tián diǎn"
+                },
+                "female": {
+                  "word": "甜点",
+                  "romanization": "tián diǎn"
+                }
+              }
+            },
+            {
+              "word": "买单",
+              "romanization": "mǎi dān",
+              "meanings": {
+                "en": "Bill",
+                "zh": "买单",
+                "th": "บิล",
+                "ko": "계산서",
+                "es": "Cuenta"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "买单",
+                  "romanization": "mǎi dān"
+                },
+                "female": {
+                  "word": "买单",
+                  "romanization": "mǎi dān"
+                }
+              }
+            },
+            {
+              "word": "小费",
+              "romanization": "xiǎo fèi",
+              "meanings": {
+                "en": "Tip",
+                "zh": "小费",
+                "th": "ทิป",
+                "ko": "팁",
+                "es": "Propina"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "小费",
+                  "romanization": "xiǎo fèi"
+                },
+                "female": {
+                  "word": "小费",
+                  "romanization": "xiǎo fèi"
+                }
+              }
+            },
+            {
+              "word": "份量",
+              "romanization": "fèn liàng",
+              "meanings": {
+                "en": "Portion",
+                "zh": "份量",
+                "th": "ส่วน",
+                "ko": "1인분",
+                "es": "Porción"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "份量",
+                  "romanization": "fèn liàng"
+                },
+                "female": {
+                  "word": "份量",
+                  "romanization": "fèn liàng"
+                }
+              }
+            },
+            {
+              "word": "菜",
+              "romanization": "cài",
+              "meanings": {
+                "en": "Dish",
+                "zh": "菜",
+                "th": "จาน",
+                "ko": "요리",
+                "es": "Plato"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "菜",
+                  "romanization": "cài"
+                },
+                "female": {
+                  "word": "菜",
+                  "romanization": "cài"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "菜单",
+              "romanization": "cài dān",
+              "options": {
+                "en": [
+                  "Menu",
+                  "Order",
+                  "Bill",
+                  "Dish"
+                ],
+                "zh": [
+                  "菜单",
+                  "点菜",
+                  "买单",
+                  "菜"
+                ],
+                "th": [
+                  "เมนู",
+                  "สั่ง",
+                  "บิล",
+                  "จาน"
+                ],
+                "ko": [
+                  "메뉴",
+                  "주문하다",
+                  "계산서",
+                  "요리"
+                ],
+                "es": [
+                  "Menú",
+                  "Pedir",
+                  "Cuenta",
+                  "Plato"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "菜单",
+                  "romanization": "cài dān"
+                },
+                "female": {
+                  "word": "菜单",
+                  "romanization": "cài dān"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Bill' in Chinese?",
+                "zh": "中文怎么说'买单'？",
+                "th": "คำว่า 'บิล' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'계산서'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Cuenta' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "买单",
+                  "小费",
+                  "菜单",
+                  "份量"
+                ],
+                "male": [
+                  "买单",
+                  "小费",
+                  "菜单",
+                  "份量"
+                ],
+                "female": [
+                  "买单",
+                  "小费",
+                  "菜单",
+                  "份量"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "服务员",
+              "romanization": "fú wù yuán",
+              "options": {
+                "en": [
+                  "Waiter",
+                  "Menu",
+                  "Bill",
+                  "Table"
+                ],
+                "zh": [
+                  "服务员",
+                  "菜单",
+                  "买单",
+                  "桌子"
+                ],
+                "th": [
+                  "พนักงานเสิร์ฟ",
+                  "เมนู",
+                  "บิล",
+                  "โต๊ะ"
+                ],
+                "ko": [
+                  "웨이터",
+                  "메뉴",
+                  "계산서",
+                  "테이블"
+                ],
+                "es": [
+                  "Mesero",
+                  "Menú",
+                  "Cuenta",
+                  "Mesa"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "服务员",
+                  "romanization": "fú wù yuán"
+                },
+                "female": {
+                  "audio_text": "服务员",
+                  "romanization": "fú wù yuán"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "菜单",
+                  "romanization": "cài dān",
+                  "native": {
+                    "en": "Menu",
+                    "zh": "菜单",
+                    "th": "เมนู",
+                    "ko": "메뉴",
+                    "es": "Menú"
+                  }
+                },
+                {
+                  "target": "点菜",
+                  "romanization": "diǎn cài",
+                  "native": {
+                    "en": "Order",
+                    "zh": "点菜",
+                    "th": "สั่ง",
+                    "ko": "주문하다",
+                    "es": "Pedir"
+                  }
+                },
+                {
+                  "target": "买单",
+                  "romanization": "mǎi dān",
+                  "native": {
+                    "en": "Bill",
+                    "zh": "买单",
+                    "th": "บิล",
+                    "ko": "계산서",
+                    "es": "Cuenta"
+                  }
+                },
+                {
+                  "target": "甜点",
+                  "romanization": "tián diǎn",
+                  "native": {
+                    "en": "Dessert",
+                    "zh": "甜点",
+                    "th": "ของหวาน",
+                    "ko": "디저트",
+                    "es": "Postre"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want to order'",
+                "zh": "说'我想点菜'",
+                "th": "พูด 'ฉันอยากสั่ง'",
+                "ko": "'주문하고 싶어요'라고 말하세요",
+                "es": "Di 'quiero pedir'"
+              },
+              "words": [
+                "点菜",
+                "我",
+                "想"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "点菜"
+                ]
+              },
+              "romanization": "wǒ xiǎng diǎn cài",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "点菜"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Preferences & Delivery",
+            "zh": "偏好与外卖",
+            "th": "ความชอบและการสั่งอาหาร",
+            "ko": "취향과 배달",
+            "es": "Preferencias y delivery"
+          },
+          "objectives": {
+            "en": [
+              "Express food preferences and allergies",
+              "Order takeaway and delivery"
+            ],
+            "zh": [
+              "Express food preferences and allergies",
+              "Order takeaway and delivery"
+            ],
+            "th": [
+              "Express food preferences and allergies",
+              "Order takeaway and delivery"
+            ],
+            "ko": [
+              "Express food preferences and allergies",
+              "Order takeaway and delivery"
+            ],
+            "es": [
+              "Express food preferences and allergies",
+              "Order takeaway and delivery"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "推荐",
+              "romanization": "tuī jiàn",
+              "meanings": {
+                "en": "Recommend",
+                "zh": "推荐",
+                "th": "แนะนำ",
+                "ko": "추천하다",
+                "es": "Recomendar"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "推荐",
+                  "romanization": "tuī jiàn"
+                },
+                "female": {
+                  "word": "推荐",
+                  "romanization": "tuī jiàn"
+                }
+              }
+            },
+            {
+              "word": "特价菜",
+              "romanization": "tè jià cài",
+              "meanings": {
+                "en": "Specials",
+                "zh": "特价菜",
+                "th": "เมนูพิเศษ",
+                "ko": "오늘의 특선",
+                "es": "Especialidades"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "特价菜",
+                  "romanization": "tè jià cài"
+                },
+                "female": {
+                  "word": "特价菜",
+                  "romanization": "tè jià cài"
+                }
+              }
+            },
+            {
+              "word": "素食",
+              "romanization": "sù shí",
+              "meanings": {
+                "en": "Vegetarian",
+                "zh": "素食",
+                "th": "มังสวิรัติ",
+                "ko": "채식주의자",
+                "es": "Vegetariano"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "素食",
+                  "romanization": "sù shí"
+                },
+                "female": {
+                  "word": "素食",
+                  "romanization": "sù shí"
+                }
+              }
+            },
+            {
+              "word": "过敏",
+              "romanization": "guò mǐn",
+              "meanings": {
+                "en": "Allergy",
+                "zh": "过敏",
+                "th": "อาการแพ้",
+                "ko": "알레르기",
+                "es": "Alergia"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "过敏",
+                  "romanization": "guò mǐn"
+                },
+                "female": {
+                  "word": "过敏",
+                  "romanization": "guò mǐn"
+                }
+              }
+            },
+            {
+              "word": "外卖",
+              "romanization": "wài mài",
+              "meanings": {
+                "en": "Takeaway",
+                "zh": "外卖",
+                "th": "สั่งกลับบ้าน",
+                "ko": "포장",
+                "es": "Para llevar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "外卖",
+                  "romanization": "wài mài"
+                },
+                "female": {
+                  "word": "外卖",
+                  "romanization": "wài mài"
+                }
+              }
+            },
+            {
+              "word": "配送",
+              "romanization": "pèi sòng",
+              "meanings": {
+                "en": "Delivery",
+                "zh": "配送",
+                "th": "จัดส่ง",
+                "ko": "배달",
+                "es": "Entrega"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "配送",
+                  "romanization": "pèi sòng"
+                },
+                "female": {
+                  "word": "配送",
+                  "romanization": "pèi sòng"
+                }
+              }
+            },
+            {
+              "word": "上菜",
+              "romanization": "shàng cài",
+              "meanings": {
+                "en": "Serve",
+                "zh": "上菜",
+                "th": "เสิร์ฟ",
+                "ko": "서빙하다",
+                "es": "Servir"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "上菜",
+                  "romanization": "shàng cài"
+                },
+                "female": {
+                  "word": "上菜",
+                  "romanization": "shàng cài"
+                }
+              }
+            },
+            {
+              "word": "忙",
+              "romanization": "máng",
+              "meanings": {
+                "en": "Busy",
+                "zh": "忙",
+                "th": "ยุ่ง",
+                "ko": "바쁜",
+                "es": "Ocupado"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "忙",
+                  "romanization": "máng"
+                },
+                "female": {
+                  "word": "忙",
+                  "romanization": "máng"
+                }
+              }
+            },
+            {
+              "word": "等",
+              "romanization": "děng",
+              "meanings": {
+                "en": "Wait",
+                "zh": "等",
+                "th": "รอ",
+                "ko": "기다리다",
+                "es": "Esperar"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "等",
+                  "romanization": "děng"
+                },
+                "female": {
+                  "word": "等",
+                  "romanization": "děng"
+                }
+              }
+            },
+            {
+              "word": "准备好",
+              "romanization": "zhǔn bèi hǎo",
+              "meanings": {
+                "en": "Ready",
+                "zh": "准备好",
+                "th": "พร้อม",
+                "ko": "준비된",
+                "es": "Listo"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "准备好",
+                  "romanization": "zhǔn bèi hǎo"
+                },
+                "female": {
+                  "word": "准备好",
+                  "romanization": "zhǔn bèi hǎo"
+                }
+              }
+            },
+            {
+              "word": "享用",
+              "romanization": "xiǎng yòng",
+              "meanings": {
+                "en": "Enjoy",
+                "zh": "享用",
+                "th": "สนุก",
+                "ko": "즐기다",
+                "es": "Disfrutar"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "享用",
+                  "romanization": "xiǎng yòng"
+                },
+                "female": {
+                  "word": "享用",
+                  "romanization": "xiǎng yòng"
+                }
+              }
+            },
+            {
+              "word": "好吃",
+              "romanization": "hǎo chī",
+              "meanings": {
+                "en": "Delicious",
+                "zh": "好吃",
+                "th": "อร่อย",
+                "ko": "맛있는",
+                "es": "Delicioso"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "好吃",
+                  "romanization": "hǎo chī"
+                },
+                "female": {
+                  "word": "好吃",
+                  "romanization": "hǎo chī"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "外卖",
+              "romanization": "wài mài",
+              "options": {
+                "en": [
+                  "Takeaway",
+                  "Delivery",
+                  "Serve",
+                  "Order"
+                ],
+                "zh": [
+                  "外卖",
+                  "配送",
+                  "上菜",
+                  "点菜"
+                ],
+                "th": [
+                  "สั่งกลับบ้าน",
+                  "จัดส่ง",
+                  "เสิร์ฟ",
+                  "สั่ง"
+                ],
+                "ko": [
+                  "포장",
+                  "배달",
+                  "서빙하다",
+                  "주문하다"
+                ],
+                "es": [
+                  "Para llevar",
+                  "Entrega",
+                  "Servir",
+                  "Pedir"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "外卖",
+                  "romanization": "wài mài"
+                },
+                "female": {
+                  "word": "外卖",
+                  "romanization": "wài mài"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Vegetarian' in Chinese?",
+                "zh": "中文怎么说'素食'？",
+                "th": "คำว่า 'มังสวิรัติ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'채식주의자'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Vegetariano' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "素食",
+                  "外卖",
+                  "过敏",
+                  "特价菜"
+                ],
+                "male": [
+                  "素食",
+                  "外卖",
+                  "过敏",
+                  "特价菜"
+                ],
+                "female": [
+                  "素食",
+                  "外卖",
+                  "过敏",
+                  "特价菜"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "推荐",
+              "romanization": "tuī jiàn",
+              "options": {
+                "en": [
+                  "Recommend",
+                  "Specials",
+                  "Delicious",
+                  "Vegetarian"
+                ],
+                "zh": [
+                  "推荐",
+                  "特价菜",
+                  "好吃",
+                  "素食"
+                ],
+                "th": [
+                  "แนะนำ",
+                  "เมนูพิเศษ",
+                  "อร่อย",
+                  "มังสวิรัติ"
+                ],
+                "ko": [
+                  "추천하다",
+                  "오늘의 특선",
+                  "맛있는",
+                  "채식주의자"
+                ],
+                "es": [
+                  "Recomendar",
+                  "Especialidades",
+                  "Delicioso",
+                  "Vegetariano"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "推荐",
+                  "romanization": "tuī jiàn"
+                },
+                "female": {
+                  "audio_text": "推荐",
+                  "romanization": "tuī jiàn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "外卖",
+                  "romanization": "wài mài",
+                  "native": {
+                    "en": "Takeaway",
+                    "zh": "外卖",
+                    "th": "สั่งกลับบ้าน",
+                    "ko": "포장",
+                    "es": "Para llevar"
+                  }
+                },
+                {
+                  "target": "配送",
+                  "romanization": "pèi sòng",
+                  "native": {
+                    "en": "Delivery",
+                    "zh": "配送",
+                    "th": "จัดส่ง",
+                    "ko": "배달",
+                    "es": "Entrega"
+                  }
+                },
+                {
+                  "target": "好吃",
+                  "romanization": "hǎo chī",
+                  "native": {
+                    "en": "Delicious",
+                    "zh": "好吃",
+                    "th": "อร่อย",
+                    "ko": "맛있는",
+                    "es": "Delicioso"
+                  }
+                },
+                {
+                  "target": "素食",
+                  "romanization": "sù shí",
+                  "native": {
+                    "en": "Vegetarian",
+                    "zh": "素食",
+                    "th": "มังสวิรัติ",
+                    "ko": "채식주의자",
+                    "es": "Vegetariano"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This dish is delicious'",
+                "zh": "说'这道菜很好吃'",
+                "th": "พูด 'อาหารจานนี้อร่อย'",
+                "ko": "'이 요리 맛있어요'라고 말하세요",
+                "es": "Di 'este plato es delicioso'"
+              },
+              "words": [
+                "好吃",
+                "很",
+                "这道菜"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "这道菜",
+                  "很",
+                  "好吃"
+                ]
+              },
+              "romanization": "zhè dào cài hěn hǎo chī",
+              "tiles": {
+                "neutral": [
+                  "这道菜",
+                  "很",
+                  "好吃"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Cooking & Kitchen",
+        "zh": "烹饪与厨房",
+        "th": "การทำอาหารและห้องครัว",
+        "ko": "요리와 주방",
+        "es": "Cocina y utensilios"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "조리법",
+            "es": "Métodos de cocina"
+          },
+          "objectives": {
+            "en": [
+              "Describe common cooking methods",
+              "Follow simple recipes"
+            ],
+            "zh": [
+              "Describe common cooking methods",
+              "Follow simple recipes"
+            ],
+            "th": [
+              "Describe common cooking methods",
+              "Follow simple recipes"
+            ],
+            "ko": [
+              "Describe common cooking methods",
+              "Follow simple recipes"
+            ],
+            "es": [
+              "Describe common cooking methods",
+              "Follow simple recipes"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "做菜",
+              "romanization": "zuò cài",
+              "meanings": {
+                "en": "Cook",
+                "zh": "做菜",
+                "th": "ทำอาหาร",
+                "ko": "요리하다",
+                "es": "Cocinar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "做菜",
+                  "romanization": "zuò cài"
+                },
+                "female": {
+                  "word": "做菜",
+                  "romanization": "zuò cài"
+                }
+              }
+            },
+            {
+              "word": "煮",
+              "romanization": "zhǔ",
+              "meanings": {
+                "en": "Boil",
+                "zh": "煮",
+                "th": "ต้ม",
+                "ko": "끓이다",
+                "es": "Hervir"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "煮",
+                  "romanization": "zhǔ"
+                },
+                "female": {
+                  "word": "煮",
+                  "romanization": "zhǔ"
+                }
+              }
+            },
+            {
+              "word": "炒",
+              "romanization": "chǎo",
+              "meanings": {
+                "en": "Fry",
+                "zh": "炒",
+                "th": "ทอด",
+                "ko": "튀기다",
+                "es": "Freír"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "炒",
+                  "romanization": "chǎo"
+                },
+                "female": {
+                  "word": "炒",
+                  "romanization": "chǎo"
+                }
+              }
+            },
+            {
+              "word": "烤",
+              "romanization": "kǎo",
+              "meanings": {
+                "en": "Bake",
+                "zh": "烤",
+                "th": "อบ",
+                "ko": "굽다",
+                "es": "Hornear"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "烤",
+                  "romanization": "kǎo"
+                },
+                "female": {
+                  "word": "烤",
+                  "romanization": "kǎo"
+                }
+              }
+            },
+            {
+              "word": "烧烤",
+              "romanization": "shāo kǎo",
+              "meanings": {
+                "en": "Grill",
+                "zh": "烧烤",
+                "th": "ย่าง",
+                "ko": "굽다",
+                "es": "Asar"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "烧烤",
+                  "romanization": "shāo kǎo"
+                },
+                "female": {
+                  "word": "烧烤",
+                  "romanization": "shāo kǎo"
+                }
+              }
+            },
+            {
+              "word": "切",
+              "romanization": "qiē",
+              "meanings": {
+                "en": "Chop",
+                "zh": "切",
+                "th": "สับ",
+                "ko": "썰다",
+                "es": "Picar"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "切",
+                  "romanization": "qiē"
+                },
+                "female": {
+                  "word": "切",
+                  "romanization": "qiē"
+                }
+              }
+            },
+            {
+              "word": "混合",
+              "romanization": "hùn hé",
+              "meanings": {
+                "en": "Mix",
+                "zh": "混合",
+                "th": "ผสม",
+                "ko": "섞다",
+                "es": "Mezclar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "混合",
+                  "romanization": "hùn hé"
+                },
+                "female": {
+                  "word": "混合",
+                  "romanization": "hùn hé"
+                }
+              }
+            },
+            {
+              "word": "搅拌",
+              "romanization": "jiǎo bàn",
+              "meanings": {
+                "en": "Stir",
+                "zh": "搅拌",
+                "th": "คน",
+                "ko": "젓다",
+                "es": "Revolver"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "搅拌",
+                  "romanization": "jiǎo bàn"
+                },
+                "female": {
+                  "word": "搅拌",
+                  "romanization": "jiǎo bàn"
+                }
+              }
+            },
+            {
+              "word": "食谱",
+              "romanization": "shí pǔ",
+              "meanings": {
+                "en": "Recipe",
+                "zh": "食谱",
+                "th": "สูตรอาหาร",
+                "ko": "레시피",
+                "es": "Receta"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "食谱",
+                  "romanization": "shí pǔ"
+                },
+                "female": {
+                  "word": "食谱",
+                  "romanization": "shí pǔ"
+                }
+              }
+            },
+            {
+              "word": "食材",
+              "romanization": "shí cái",
+              "meanings": {
+                "en": "Ingredient",
+                "zh": "食材",
+                "th": "ส่วนผสม",
+                "ko": "재료",
+                "es": "Ingrediente"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "食材",
+                  "romanization": "shí cái"
+                },
+                "female": {
+                  "word": "食材",
+                  "romanization": "shí cái"
+                }
+              }
+            },
+            {
+              "word": "烤箱",
+              "romanization": "kǎo xiāng",
+              "meanings": {
+                "en": "Oven",
+                "zh": "烤箱",
+                "th": "เตาอบ",
+                "ko": "오븐",
+                "es": "Horno"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "烤箱",
+                  "romanization": "kǎo xiāng"
+                },
+                "female": {
+                  "word": "烤箱",
+                  "romanization": "kǎo xiāng"
+                }
+              }
+            },
+            {
+              "word": "平底锅",
+              "romanization": "píng dǐ guō",
+              "meanings": {
+                "en": "Pan",
+                "zh": "平底锅",
+                "th": "กระทะ",
+                "ko": "프라이팬",
+                "es": "Sartén"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "平底锅",
+                  "romanization": "píng dǐ guō"
+                },
+                "female": {
+                  "word": "平底锅",
+                  "romanization": "píng dǐ guō"
+                }
+              }
+            },
+            {
+              "word": "刀",
+              "romanization": "dāo",
+              "meanings": {
+                "en": "Knife",
+                "zh": "刀",
+                "th": "มีด",
+                "ko": "칼",
+                "es": "Cuchillo"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "刀",
+                  "romanization": "dāo"
+                },
+                "female": {
+                  "word": "刀",
+                  "romanization": "dāo"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "炒",
+              "romanization": "chǎo",
+              "options": {
+                "en": [
+                  "Fry",
+                  "Boil",
+                  "Bake",
+                  "Grill"
+                ],
+                "zh": [
+                  "炒",
+                  "煮",
+                  "烤",
+                  "烧烤"
+                ],
+                "th": [
+                  "ทอด",
+                  "ต้ม",
+                  "อบ",
+                  "ย่าง"
+                ],
+                "ko": [
+                  "튀기다",
+                  "끓이다",
+                  "굽다",
+                  "굽다"
+                ],
+                "es": [
+                  "Freír",
+                  "Hervir",
+                  "Hornear",
+                  "Asar"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "炒",
+                  "romanization": "chǎo"
+                },
+                "female": {
+                  "word": "炒",
+                  "romanization": "chǎo"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Oven' in Chinese?",
+                "zh": "中文怎么说'烤箱'？",
+                "th": "คำว่า 'เตาอบ' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'오븐'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Horno' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "烤箱",
+                  "平底锅",
+                  "刀",
+                  "食谱"
+                ],
+                "male": [
+                  "烤箱",
+                  "平底锅",
+                  "刀",
+                  "食谱"
+                ],
+                "female": [
+                  "烤箱",
+                  "平底锅",
+                  "刀",
+                  "食谱"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "搅拌",
+              "romanization": "jiǎo bàn",
+              "options": {
+                "en": [
+                  "Stir",
+                  "Mix",
+                  "Chop",
+                  "Fry"
+                ],
+                "zh": [
+                  "搅拌",
+                  "混合",
+                  "切",
+                  "炒"
+                ],
+                "th": [
+                  "คน",
+                  "ผสม",
+                  "สับ",
+                  "ทอด"
+                ],
+                "ko": [
+                  "젓다",
+                  "섞다",
+                  "썰다",
+                  "튀기다"
+                ],
+                "es": [
+                  "Revolver",
+                  "Mezclar",
+                  "Picar",
+                  "Freír"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "搅拌",
+                  "romanization": "jiǎo bàn"
+                },
+                "female": {
+                  "audio_text": "搅拌",
+                  "romanization": "jiǎo bàn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "炒",
+                  "romanization": "chǎo",
+                  "native": {
+                    "en": "Fry",
+                    "zh": "炒",
+                    "th": "ทอด",
+                    "ko": "튀기다",
+                    "es": "Freír"
+                  }
+                },
+                {
+                  "target": "煮",
+                  "romanization": "zhǔ",
+                  "native": {
+                    "en": "Boil",
+                    "zh": "煮",
+                    "th": "ต้ม",
+                    "ko": "끓이다",
+                    "es": "Hervir"
+                  }
+                },
+                {
+                  "target": "烤",
+                  "romanization": "kǎo",
+                  "native": {
+                    "en": "Bake",
+                    "zh": "烤",
+                    "th": "อบ",
+                    "ko": "굽다",
+                    "es": "Hornear"
+                  }
+                },
+                {
+                  "target": "切",
+                  "romanization": "qiē",
+                  "native": {
+                    "en": "Chop",
+                    "zh": "切",
+                    "th": "สับ",
+                    "ko": "썰다",
+                    "es": "Picar"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please chop the vegetables'",
+                "zh": "说'请切蔬菜'",
+                "th": "พูด 'กรุณาสับผัก'",
+                "ko": "'채소를 썰어 주세요'라고 말하세요",
+                "es": "Di 'por favor pica las verduras'"
+              },
+              "words": [
+                "蔬菜",
+                "请",
+                "切"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "请",
+                  "切",
+                  "蔬菜"
+                ]
+              },
+              "romanization": "qǐng qiē shū cài",
+              "tiles": {
+                "neutral": [
+                  "请",
+                  "切",
+                  "蔬菜"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Flavors & Freshness",
+            "zh": "口味与新鲜度",
+            "th": "รสชาติและความสด",
+            "ko": "맛과 신선도",
+            "es": "Sabores y frescura"
+          },
+          "objectives": {
+            "en": [
+              "Describe tastes and flavors",
+              "Talk about food freshness and temperature"
+            ],
+            "zh": [
+              "Describe tastes and flavors",
+              "Talk about food freshness and temperature"
+            ],
+            "th": [
+              "Describe tastes and flavors",
+              "Talk about food freshness and temperature"
+            ],
+            "ko": [
+              "Describe tastes and flavors",
+              "Talk about food freshness and temperature"
+            ],
+            "es": [
+              "Describe tastes and flavors",
+              "Talk about food freshness and temperature"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "砧板",
+              "romanization": "zhēn bǎn",
+              "meanings": {
+                "en": "Cutting board",
+                "zh": "砧板",
+                "th": "เขียง",
+                "ko": "도마",
+                "es": "Tabla de cortar"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "砧板",
+                  "romanization": "zhēn bǎn"
+                },
+                "female": {
+                  "word": "砧板",
+                  "romanization": "zhēn bǎn"
+                }
+              }
+            },
+            {
+              "word": "锅",
+              "romanization": "guō",
+              "meanings": {
+                "en": "Pot",
+                "zh": "锅",
+                "th": "หม้อ",
+                "ko": "냄비",
+                "es": "Olla"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "锅",
+                  "romanization": "guō"
+                },
+                "female": {
+                  "word": "锅",
+                  "romanization": "guō"
+                }
+              }
+            },
+            {
+              "word": "辣",
+              "romanization": "là",
+              "meanings": {
+                "en": "Spicy",
+                "zh": "辣",
+                "th": "เผ็ด",
+                "ko": "매운",
+                "es": "Picante"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "辣",
+                  "romanization": "là"
+                },
+                "female": {
+                  "word": "辣",
+                  "romanization": "là"
+                }
+              }
+            },
+            {
+              "word": "甜",
+              "romanization": "tián",
+              "meanings": {
+                "en": "Sweet",
+                "zh": "甜",
+                "th": "หวาน",
+                "ko": "단",
+                "es": "Dulce"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "甜",
+                  "romanization": "tián"
+                },
+                "female": {
+                  "word": "甜",
+                  "romanization": "tián"
+                }
+              }
+            },
+            {
+              "word": "酸",
+              "romanization": "suān",
+              "meanings": {
+                "en": "Sour",
+                "zh": "酸",
+                "th": "เปรี้ยว",
+                "ko": "신",
+                "es": "Ácido"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "酸",
+                  "romanization": "suān"
+                },
+                "female": {
+                  "word": "酸",
+                  "romanization": "suān"
+                }
+              }
+            },
+            {
+              "word": "咸",
+              "romanization": "xián",
+              "meanings": {
+                "en": "Salty",
+                "zh": "咸",
+                "th": "เค็ม",
+                "ko": "짠",
+                "es": "Salado"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "咸",
+                  "romanization": "xián"
+                },
+                "female": {
+                  "word": "咸",
+                  "romanization": "xián"
+                }
+              }
+            },
+            {
+              "word": "苦",
+              "romanization": "kǔ",
+              "meanings": {
+                "en": "Bitter",
+                "zh": "苦",
+                "th": "ขม",
+                "ko": "쓴",
+                "es": "Amargo"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "苦",
+                  "romanization": "kǔ"
+                },
+                "female": {
+                  "word": "苦",
+                  "romanization": "kǔ"
+                }
+              }
+            },
+            {
+              "word": "生的",
+              "romanization": "shēng de",
+              "meanings": {
+                "en": "Raw",
+                "zh": "生的",
+                "th": "ดิบ",
+                "ko": "날것의",
+                "es": "Crudo"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "生的",
+                  "romanization": "shēng de"
+                },
+                "female": {
+                  "word": "生的",
+                  "romanization": "shēng de"
+                }
+              }
+            },
+            {
+              "word": "新鲜",
+              "romanization": "xīn xiān",
+              "meanings": {
+                "en": "Fresh",
+                "zh": "新鲜",
+                "th": "สด",
+                "ko": "신선한",
+                "es": "Fresco"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "新鲜",
+                  "romanization": "xīn xiān"
+                },
+                "female": {
+                  "word": "新鲜",
+                  "romanization": "xīn xiān"
+                }
+              }
+            },
+            {
+              "word": "冷冻",
+              "romanization": "lěng dòng",
+              "meanings": {
+                "en": "Frozen",
+                "zh": "冷冻",
+                "th": "แช่แข็ง",
+                "ko": "냉동의",
+                "es": "Congelado"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "冷冻",
+                  "romanization": "lěng dòng"
+                },
+                "female": {
+                  "word": "冷冻",
+                  "romanization": "lěng dòng"
+                }
+              }
+            },
+            {
+              "word": "加热",
+              "romanization": "jiā rè",
+              "meanings": {
+                "en": "Heat",
+                "zh": "加热",
+                "th": "อุ่น",
+                "ko": "데우다",
+                "es": "Calentar"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "加热",
+                  "romanization": "jiā rè"
+                },
+                "female": {
+                  "word": "加热",
+                  "romanization": "jiā rè"
+                }
+              }
+            },
+            {
+              "word": "冷却",
+              "romanization": "lěng què",
+              "meanings": {
+                "en": "Cool down",
+                "zh": "冷却",
+                "th": "ทำให้เย็น",
+                "ko": "식히다",
+                "es": "Enfriar"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "冷却",
+                  "romanization": "lěng què"
+                },
+                "female": {
+                  "word": "冷却",
+                  "romanization": "lěng què"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "辣",
+              "romanization": "là",
+              "options": {
+                "en": [
+                  "Spicy",
+                  "Sweet",
+                  "Sour",
+                  "Salty"
+                ],
+                "zh": [
+                  "辣",
+                  "甜",
+                  "酸",
+                  "咸"
+                ],
+                "th": [
+                  "เผ็ด",
+                  "หวาน",
+                  "เปรี้ยว",
+                  "เค็ม"
+                ],
+                "ko": [
+                  "매운",
+                  "단",
+                  "신",
+                  "짠"
+                ],
+                "es": [
+                  "Picante",
+                  "Dulce",
+                  "Ácido",
+                  "Salado"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "辣",
+                  "romanization": "là"
+                },
+                "female": {
+                  "word": "辣",
+                  "romanization": "là"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Sweet' in Chinese?",
+                "zh": "中文怎么说'甜'？",
+                "th": "คำว่า 'หวาน' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'단'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Dulce' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "甜",
+                  "酸",
+                  "辣",
+                  "咸"
+                ],
+                "male": [
+                  "甜",
+                  "酸",
+                  "辣",
+                  "咸"
+                ],
+                "female": [
+                  "甜",
+                  "酸",
+                  "辣",
+                  "咸"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "酸",
+              "romanization": "suān",
+              "options": {
+                "en": [
+                  "Sour",
+                  "Sweet",
+                  "Spicy",
+                  "Salty"
+                ],
+                "zh": [
+                  "酸",
+                  "甜",
+                  "辣",
+                  "咸"
+                ],
+                "th": [
+                  "เปรี้ยว",
+                  "หวาน",
+                  "เผ็ด",
+                  "เค็ม"
+                ],
+                "ko": [
+                  "신",
+                  "단",
+                  "매운",
+                  "짠"
+                ],
+                "es": [
+                  "Ácido",
+                  "Dulce",
+                  "Picante",
+                  "Salado"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "酸",
+                  "romanization": "suān"
+                },
+                "female": {
+                  "audio_text": "酸",
+                  "romanization": "suān"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "辣",
+                  "romanization": "là",
+                  "native": {
+                    "en": "Spicy",
+                    "zh": "辣",
+                    "th": "เผ็ด",
+                    "ko": "매운",
+                    "es": "Picante"
+                  }
+                },
+                {
+                  "target": "甜",
+                  "romanization": "tián",
+                  "native": {
+                    "en": "Sweet",
+                    "zh": "甜",
+                    "th": "หวาน",
+                    "ko": "단",
+                    "es": "Dulce"
+                  }
+                },
+                {
+                  "target": "酸",
+                  "romanization": "suān",
+                  "native": {
+                    "en": "Sour",
+                    "zh": "酸",
+                    "th": "เปรี้ยว",
+                    "ko": "신",
+                    "es": "Ácido"
+                  }
+                },
+                {
+                  "target": "咸",
+                  "romanization": "xián",
+                  "native": {
+                    "en": "Salty",
+                    "zh": "咸",
+                    "th": "เค็ม",
+                    "ko": "짠",
+                    "es": "Salado"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This is too spicy'",
+                "zh": "说'这个太辣了'",
+                "th": "พูด 'เผ็ดเกินไป'",
+                "ko": "'너무 매워요'라고 말하세요",
+                "es": "Di 'esto es muy picante'"
+              },
+              "words": [
+                "太",
+                "了",
+                "辣",
+                "这个"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "这个",
+                  "太",
+                  "辣",
+                  "了"
+                ]
+              },
+              "romanization": "zhè ge tài là le",
+              "tiles": {
+                "neutral": [
+                  "这个",
+                  "太",
+                  "辣",
+                  "了"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Fruits & Vegetables",
+        "zh": "水果与蔬菜",
+        "th": "ผลไม้และผัก",
+        "ko": "과일과 채소",
+        "es": "Frutas y verduras"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Common Fruits",
+            "zh": "常见水果",
+            "th": "ผลไม้ทั่วไป",
+            "ko": "흔한 과일",
+            "es": "Frutas comunes"
+          },
+          "objectives": {
+            "en": [
+              "Name common fruits in Chinese",
+              "Buy fruits at a market"
+            ],
+            "zh": [
+              "Name common fruits in Chinese",
+              "Buy fruits at a market"
+            ],
+            "th": [
+              "Name common fruits in Chinese",
+              "Buy fruits at a market"
+            ],
+            "ko": [
+              "Name common fruits in Chinese",
+              "Buy fruits at a market"
+            ],
+            "es": [
+              "Name common fruits in Chinese",
+              "Buy fruits at a market"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "苹果",
+              "romanization": "píng guǒ",
+              "meanings": {
+                "en": "Apple",
+                "zh": "苹果",
+                "th": "แอปเปิ้ล",
+                "ko": "사과",
+                "es": "Manzana"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "苹果",
+                  "romanization": "píng guǒ"
+                },
+                "female": {
+                  "word": "苹果",
+                  "romanization": "píng guǒ"
+                }
+              }
+            },
+            {
+              "word": "香蕉",
+              "romanization": "xiāng jiāo",
+              "meanings": {
+                "en": "Banana",
+                "zh": "香蕉",
+                "th": "กล้วย",
+                "ko": "바나나",
+                "es": "Plátano"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "香蕉",
+                  "romanization": "xiāng jiāo"
+                },
+                "female": {
+                  "word": "香蕉",
+                  "romanization": "xiāng jiāo"
+                }
+              }
+            },
+            {
+              "word": "橙子",
+              "romanization": "chéng zi",
+              "meanings": {
+                "en": "Orange",
+                "zh": "橙子",
+                "th": "ส้ม",
+                "ko": "주황색",
+                "es": "Naranja"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "橙子",
+                  "romanization": "chéng zi"
+                },
+                "female": {
+                  "word": "橙子",
+                  "romanization": "chéng zi"
+                }
+              }
+            },
+            {
+              "word": "草莓",
+              "romanization": "cǎo méi",
+              "meanings": {
+                "en": "Strawberry",
+                "zh": "草莓",
+                "th": "สตรอว์เบอร์รี่",
+                "ko": "딸기",
+                "es": "Fresa"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "草莓",
+                  "romanization": "cǎo méi"
+                },
+                "female": {
+                  "word": "草莓",
+                  "romanization": "cǎo méi"
+                }
+              }
+            },
+            {
+              "word": "葡萄",
+              "romanization": "pú tao",
+              "meanings": {
+                "en": "Grape",
+                "zh": "葡萄",
+                "th": "องุ่น",
+                "ko": "포도",
+                "es": "Uva"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "葡萄",
+                  "romanization": "pú tao"
+                },
+                "female": {
+                  "word": "葡萄",
+                  "romanization": "pú tao"
+                }
+              }
+            },
+            {
+              "word": "西瓜",
+              "romanization": "xī guā",
+              "meanings": {
+                "en": "Watermelon",
+                "zh": "西瓜",
+                "th": "แตงโม",
+                "ko": "수박",
+                "es": "Sandía"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "西瓜",
+                  "romanization": "xī guā"
+                },
+                "female": {
+                  "word": "西瓜",
+                  "romanization": "xī guā"
+                }
+              }
+            },
+            {
+              "word": "芒果",
+              "romanization": "máng guǒ",
+              "meanings": {
+                "en": "Mango",
+                "zh": "芒果",
+                "th": "มะม่วง",
+                "ko": "망고",
+                "es": "Mango"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "芒果",
+                  "romanization": "máng guǒ"
+                },
+                "female": {
+                  "word": "芒果",
+                  "romanization": "máng guǒ"
+                }
+              }
+            },
+            {
+              "word": "菠萝",
+              "romanization": "bō luó",
+              "meanings": {
+                "en": "Pineapple",
+                "zh": "菠萝",
+                "th": "สับปะรด",
+                "ko": "파인애플",
+                "es": "Piña"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "菠萝",
+                  "romanization": "bō luó"
+                },
+                "female": {
+                  "word": "菠萝",
+                  "romanization": "bō luó"
+                }
+              }
+            },
+            {
+              "word": "柠檬",
+              "romanization": "níng méng",
+              "meanings": {
+                "en": "Lemon",
+                "zh": "柠檬",
+                "th": "มะนาว",
+                "ko": "레몬",
+                "es": "Limón"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "柠檬",
+                  "romanization": "níng méng"
+                },
+                "female": {
+                  "word": "柠檬",
+                  "romanization": "níng méng"
+                }
+              }
+            },
+            {
+              "word": "樱桃",
+              "romanization": "yīng táo",
+              "meanings": {
+                "en": "Cherry",
+                "zh": "樱桃",
+                "th": "เชอร์รี่",
+                "ko": "체리",
+                "es": "Cereza"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "樱桃",
+                  "romanization": "yīng táo"
+                },
+                "female": {
+                  "word": "樱桃",
+                  "romanization": "yīng táo"
+                }
+              }
+            },
+            {
+              "word": "番茄",
+              "romanization": "fān qié",
+              "meanings": {
+                "en": "Tomato",
+                "zh": "番茄",
+                "th": "มะเขือเทศ",
+                "ko": "토마토",
+                "es": "Tomate"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "番茄",
+                  "romanization": "fān qié"
+                },
+                "female": {
+                  "word": "番茄",
+                  "romanization": "fān qié"
+                }
+              }
+            },
+            {
+              "word": "土豆",
+              "romanization": "tǔ dòu",
+              "meanings": {
+                "en": "Potato",
+                "zh": "土豆",
+                "th": "มันฝรั่ง",
+                "ko": "감자",
+                "es": "Papa"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "土豆",
+                  "romanization": "tǔ dòu"
+                },
+                "female": {
+                  "word": "土豆",
+                  "romanization": "tǔ dòu"
+                }
+              }
+            },
+            {
+              "word": "胡萝卜",
+              "romanization": "hú luó bo",
+              "meanings": {
+                "en": "Carrot",
+                "zh": "胡萝卜",
+                "th": "แครอท",
+                "ko": "당근",
+                "es": "Zanahoria"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "胡萝卜",
+                  "romanization": "hú luó bo"
+                },
+                "female": {
+                  "word": "胡萝卜",
+                  "romanization": "hú luó bo"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "苹果",
+              "romanization": "píng guǒ",
+              "options": {
+                "en": [
+                  "Apple",
+                  "Banana",
+                  "Orange",
+                  "Grape"
+                ],
+                "zh": [
+                  "苹果",
+                  "香蕉",
+                  "橙子",
+                  "葡萄"
+                ],
+                "th": [
+                  "แอปเปิ้ล",
+                  "กล้วย",
+                  "ส้ม",
+                  "องุ่น"
+                ],
+                "ko": [
+                  "사과",
+                  "바나나",
+                  "주황색",
+                  "포도"
+                ],
+                "es": [
+                  "Manzana",
+                  "Plátano",
+                  "Naranja",
+                  "Uva"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "苹果",
+                  "romanization": "píng guǒ"
+                },
+                "female": {
+                  "word": "苹果",
+                  "romanization": "píng guǒ"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Banana' in Chinese?",
+                "zh": "中文怎么说'香蕉'？",
+                "th": "คำว่า 'กล้วย' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'바나나'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Plátano' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "香蕉",
+                  "苹果",
+                  "橙子",
+                  "芒果"
+                ],
+                "male": [
+                  "香蕉",
+                  "苹果",
+                  "橙子",
+                  "芒果"
+                ],
+                "female": [
+                  "香蕉",
+                  "苹果",
+                  "橙子",
+                  "芒果"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "草莓",
+              "romanization": "cǎo méi",
+              "options": {
+                "en": [
+                  "Strawberry",
+                  "Grape",
+                  "Cherry",
+                  "Mango"
+                ],
+                "zh": [
+                  "草莓",
+                  "葡萄",
+                  "樱桃",
+                  "芒果"
+                ],
+                "th": [
+                  "สตรอว์เบอร์รี่",
+                  "องุ่น",
+                  "เชอร์รี่",
+                  "มะม่วง"
+                ],
+                "ko": [
+                  "딸기",
+                  "포도",
+                  "체리",
+                  "망고"
+                ],
+                "es": [
+                  "Fresa",
+                  "Uva",
+                  "Cereza",
+                  "Mango"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "草莓",
+                  "romanization": "cǎo méi"
+                },
+                "female": {
+                  "audio_text": "草莓",
+                  "romanization": "cǎo méi"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "苹果",
+                  "romanization": "píng guǒ",
+                  "native": {
+                    "en": "Apple",
+                    "zh": "苹果",
+                    "th": "แอปเปิ้ล",
+                    "ko": "사과",
+                    "es": "Manzana"
+                  }
+                },
+                {
+                  "target": "香蕉",
+                  "romanization": "xiāng jiāo",
+                  "native": {
+                    "en": "Banana",
+                    "zh": "香蕉",
+                    "th": "กล้วย",
+                    "ko": "바나나",
+                    "es": "Plátano"
+                  }
+                },
+                {
+                  "target": "西瓜",
+                  "romanization": "xī guā",
+                  "native": {
+                    "en": "Watermelon",
+                    "zh": "西瓜",
+                    "th": "แตงโม",
+                    "ko": "수박",
+                    "es": "Sandía"
+                  }
+                },
+                {
+                  "target": "柠檬",
+                  "romanization": "níng méng",
+                  "native": {
+                    "en": "Lemon",
+                    "zh": "柠檬",
+                    "th": "มะนาว",
+                    "ko": "레몬",
+                    "es": "Limón"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want to buy apples'",
+                "zh": "说'我想买苹果'",
+                "th": "พูด 'ฉันอยากซื้อแอปเปิ้ล'",
+                "ko": "'사과를 사고 싶어요'라고 말하세요",
+                "es": "Di 'quiero comprar manzanas'"
+              },
+              "words": [
+                "苹果",
+                "买",
+                "我",
+                "想"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "买",
+                  "苹果"
+                ]
+              },
+              "romanization": "wǒ xiǎng mǎi píng guǒ",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "想",
+                  "买",
+                  "苹果"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Common Vegetables",
+            "zh": "常见蔬菜",
+            "th": "ผักทั่วไป",
+            "ko": "흔한 채소",
+            "es": "Verduras comunes"
+          },
+          "objectives": {
+            "en": [
+              "Name common vegetables in Chinese",
+              "Describe vegetables for cooking"
+            ],
+            "zh": [
+              "Name common vegetables in Chinese",
+              "Describe vegetables for cooking"
+            ],
+            "th": [
+              "Name common vegetables in Chinese",
+              "Describe vegetables for cooking"
+            ],
+            "ko": [
+              "Name common vegetables in Chinese",
+              "Describe vegetables for cooking"
+            ],
+            "es": [
+              "Name common vegetables in Chinese",
+              "Describe vegetables for cooking"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "洋葱",
+              "romanization": "yáng cōng",
+              "meanings": {
+                "en": "Onion",
+                "zh": "洋葱",
+                "th": "หัวหอม",
+                "ko": "양파",
+                "es": "Cebolla"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "洋葱",
+                  "romanization": "yáng cōng"
+                },
+                "female": {
+                  "word": "洋葱",
+                  "romanization": "yáng cōng"
+                }
+              }
+            },
+            {
+              "word": "大蒜",
+              "romanization": "dà suàn",
+              "meanings": {
+                "en": "Garlic",
+                "zh": "大蒜",
+                "th": "กระเทียม",
+                "ko": "마늘",
+                "es": "Ajo"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "大蒜",
+                  "romanization": "dà suàn"
+                },
+                "female": {
+                  "word": "大蒜",
+                  "romanization": "dà suàn"
+                }
+              }
+            },
+            {
+              "word": "生菜",
+              "romanization": "shēng cài",
+              "meanings": {
+                "en": "Lettuce",
+                "zh": "生菜",
+                "th": "ผักกาดหอม",
+                "ko": "상추",
+                "es": "Lechuga"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "生菜",
+                  "romanization": "shēng cài"
+                },
+                "female": {
+                  "word": "生菜",
+                  "romanization": "shēng cài"
+                }
+              }
+            },
+            {
+              "word": "黄瓜",
+              "romanization": "huáng guā",
+              "meanings": {
+                "en": "Cucumber",
+                "zh": "黄瓜",
+                "th": "แตงกวา",
+                "ko": "오이",
+                "es": "Pepino"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "黄瓜",
+                  "romanization": "huáng guā"
+                },
+                "female": {
+                  "word": "黄瓜",
+                  "romanization": "huáng guā"
+                }
+              }
+            },
+            {
+              "word": "辣椒",
+              "romanization": "là jiāo",
+              "meanings": {
+                "en": "Pepper",
+                "zh": "辣椒",
+                "th": "พริกไทย",
+                "ko": "후추",
+                "es": "Pimienta"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "辣椒",
+                  "romanization": "là jiāo"
+                },
+                "female": {
+                  "word": "辣椒",
+                  "romanization": "là jiāo"
+                }
+              }
+            },
+            {
+              "word": "蘑菇",
+              "romanization": "mó gu",
+              "meanings": {
+                "en": "Mushroom",
+                "zh": "蘑菇",
+                "th": "เห็ด",
+                "ko": "버섯",
+                "es": "Hongo"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "蘑菇",
+                  "romanization": "mó gu"
+                },
+                "female": {
+                  "word": "蘑菇",
+                  "romanization": "mó gu"
+                }
+              }
+            },
+            {
+              "word": "菠菜",
+              "romanization": "bō cài",
+              "meanings": {
+                "en": "Spinach",
+                "zh": "菠菜",
+                "th": "ผักโขม",
+                "ko": "시금치",
+                "es": "Espinaca"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "菠菜",
+                  "romanization": "bō cài"
+                },
+                "female": {
+                  "word": "菠菜",
+                  "romanization": "bō cài"
+                }
+              }
+            },
+            {
+              "word": "西兰花",
+              "romanization": "xī lán huā",
+              "meanings": {
+                "en": "Broccoli",
+                "zh": "西兰花",
+                "th": "บร็อกโคลี",
+                "ko": "브로콜리",
+                "es": "Brócoli"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "西兰花",
+                  "romanization": "xī lán huā"
+                },
+                "female": {
+                  "word": "西兰花",
+                  "romanization": "xī lán huā"
+                }
+              }
+            },
+            {
+              "word": "玉米",
+              "romanization": "yù mǐ",
+              "meanings": {
+                "en": "Corn",
+                "zh": "玉米",
+                "th": "ข้าวโพด",
+                "ko": "옥수수",
+                "es": "Maíz"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "玉米",
+                  "romanization": "yù mǐ"
+                },
+                "female": {
+                  "word": "玉米",
+                  "romanization": "yù mǐ"
+                }
+              }
+            },
+            {
+              "word": "豆子",
+              "romanization": "dòu zi",
+              "meanings": {
+                "en": "Beans",
+                "zh": "豆子",
+                "th": "ถั่ว",
+                "ko": "콩",
+                "es": "Frijoles"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "豆子",
+                  "romanization": "dòu zi"
+                },
+                "female": {
+                  "word": "豆子",
+                  "romanization": "dòu zi"
+                }
+              }
+            },
+            {
+              "word": "豌豆",
+              "romanization": "wān dòu",
+              "meanings": {
+                "en": "Peas",
+                "zh": "豌豆",
+                "th": "ถั่วลันเตา",
+                "ko": "완두콩",
+                "es": "Chícharos"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "豌豆",
+                  "romanization": "wān dòu"
+                },
+                "female": {
+                  "word": "豌豆",
+                  "romanization": "wān dòu"
+                }
+              }
+            },
+            {
+              "word": "白菜",
+              "romanization": "bái cài",
+              "meanings": {
+                "en": "Cabbage",
+                "zh": "白菜",
+                "th": "กะหล่ำปลี",
+                "ko": "양배추",
+                "es": "Repollo"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "白菜",
+                  "romanization": "bái cài"
+                },
+                "female": {
+                  "word": "白菜",
+                  "romanization": "bái cài"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "洋葱",
+              "romanization": "yáng cōng",
+              "options": {
+                "en": [
+                  "Onion",
+                  "Garlic",
+                  "Pepper",
+                  "Mushroom"
+                ],
+                "zh": [
+                  "洋葱",
+                  "大蒜",
+                  "辣椒",
+                  "蘑菇"
+                ],
+                "th": [
+                  "หัวหอม",
+                  "กระเทียม",
+                  "พริกไทย",
+                  "เห็ด"
+                ],
+                "ko": [
+                  "양파",
+                  "마늘",
+                  "후추",
+                  "버섯"
+                ],
+                "es": [
+                  "Cebolla",
+                  "Ajo",
+                  "Pimienta",
+                  "Hongo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "洋葱",
+                  "romanization": "yáng cōng"
+                },
+                "female": {
+                  "word": "洋葱",
+                  "romanization": "yáng cōng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Garlic' in Chinese?",
+                "zh": "中文怎么说'大蒜'？",
+                "th": "คำว่า 'กระเทียม' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'마늘'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Ajo' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "大蒜",
+                  "洋葱",
+                  "辣椒",
+                  "生菜"
+                ],
+                "male": [
+                  "大蒜",
+                  "洋葱",
+                  "辣椒",
+                  "生菜"
+                ],
+                "female": [
+                  "大蒜",
+                  "洋葱",
+                  "辣椒",
+                  "生菜"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "蘑菇",
+              "romanization": "mó gu",
+              "options": {
+                "en": [
+                  "Mushroom",
+                  "Pepper",
+                  "Onion",
+                  "Cabbage"
+                ],
+                "zh": [
+                  "蘑菇",
+                  "辣椒",
+                  "洋葱",
+                  "白菜"
+                ],
+                "th": [
+                  "เห็ด",
+                  "พริกไทย",
+                  "หัวหอม",
+                  "กะหล่ำปลี"
+                ],
+                "ko": [
+                  "버섯",
+                  "후추",
+                  "양파",
+                  "양배추"
+                ],
+                "es": [
+                  "Hongo",
+                  "Pimienta",
+                  "Cebolla",
+                  "Repollo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "蘑菇",
+                  "romanization": "mó gu"
+                },
+                "female": {
+                  "audio_text": "蘑菇",
+                  "romanization": "mó gu"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "洋葱",
+                  "romanization": "yáng cōng",
+                  "native": {
+                    "en": "Onion",
+                    "zh": "洋葱",
+                    "th": "หัวหอม",
+                    "ko": "양파",
+                    "es": "Cebolla"
+                  }
+                },
+                {
+                  "target": "大蒜",
+                  "romanization": "dà suàn",
+                  "native": {
+                    "en": "Garlic",
+                    "zh": "大蒜",
+                    "th": "กระเทียม",
+                    "ko": "마늘",
+                    "es": "Ajo"
+                  }
+                },
+                {
+                  "target": "黄瓜",
+                  "romanization": "huáng guā",
+                  "native": {
+                    "en": "Cucumber",
+                    "zh": "黄瓜",
+                    "th": "แตงกวา",
+                    "ko": "오이",
+                    "es": "Pepino"
+                  }
+                },
+                {
+                  "target": "白菜",
+                  "romanization": "bái cài",
+                  "native": {
+                    "en": "Cabbage",
+                    "zh": "白菜",
+                    "th": "กะหล่ำปลี",
+                    "ko": "양배추",
+                    "es": "Repollo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I like eating vegetables'",
+                "zh": "说'我喜欢吃蔬菜'",
+                "th": "พูด 'ฉันชอบกินผัก'",
+                "ko": "'채소 먹는 걸 좋아해요'라고 말하세요",
+                "es": "Di 'me gusta comer verduras'"
+              },
+              "words": [
+                "蔬菜",
+                "吃",
+                "喜欢",
+                "我"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "喜欢",
+                  "吃",
+                  "蔬菜"
+                ]
+              },
+              "romanization": "wǒ xǐ huān chī shū cài",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "喜欢",
+                  "吃",
+                  "蔬菜"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": {
+        "en": "Drinks & Cafe",
+        "zh": "饮品与咖啡馆",
+        "th": "เครื่องดื่มและคาเฟ่",
+        "ko": "음료와 카페",
+        "es": "Bebidas y café"
+      },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": {
+            "en": "Hot & Cold Drinks",
+            "zh": "冷热饮品",
+            "th": "เครื่องดื่มร้อนและเย็น",
+            "ko": "뜨거운 음료와 차가운 음료",
+            "es": "Bebidas calientes y frías"
+          },
+          "objectives": {
+            "en": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "zh": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "th": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "ko": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ],
+            "es": [
+              "Order drinks at a cafe",
+              "Name common beverages"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "咖啡",
+              "romanization": "kā fēi",
+              "meanings": {
+                "en": "Coffee",
+                "zh": "咖啡",
+                "th": "กาแฟ",
+                "ko": "커피",
+                "es": "Café"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "咖啡",
+                  "romanization": "kā fēi"
+                },
+                "female": {
+                  "word": "咖啡",
+                  "romanization": "kā fēi"
+                }
+              }
+            },
+            {
+              "word": "茶",
+              "romanization": "chá",
+              "meanings": {
+                "en": "Tea",
+                "zh": "茶",
+                "th": "ชา",
+                "ko": "차",
+                "es": "Té"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "茶",
+                  "romanization": "chá"
+                },
+                "female": {
+                  "word": "茶",
+                  "romanization": "chá"
+                }
+              }
+            },
+            {
+              "word": "果汁",
+              "romanization": "guǒ zhī",
+              "meanings": {
+                "en": "Juice",
+                "zh": "果汁",
+                "th": "น้ำผลไม้",
+                "ko": "주스",
+                "es": "Jugo"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "果汁",
+                  "romanization": "guǒ zhī"
+                },
+                "female": {
+                  "word": "果汁",
+                  "romanization": "guǒ zhī"
+                }
+              }
+            },
+            {
+              "word": "冰沙",
+              "romanization": "bīng shā",
+              "meanings": {
+                "en": "Smoothie",
+                "zh": "冰沙",
+                "th": "สมูทตี้",
+                "ko": "스무디",
+                "es": "Batido"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "冰沙",
+                  "romanization": "bīng shā"
+                },
+                "female": {
+                  "word": "冰沙",
+                  "romanization": "bīng shā"
+                }
+              }
+            },
+            {
+              "word": "奶昔",
+              "romanization": "nǎi xī",
+              "meanings": {
+                "en": "Milkshake",
+                "zh": "奶昔",
+                "th": "มิลค์เชค",
+                "ko": "밀크쉐이크",
+                "es": "Malteada"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "奶昔",
+                  "romanization": "nǎi xī"
+                },
+                "female": {
+                  "word": "奶昔",
+                  "romanization": "nǎi xī"
+                }
+              }
+            },
+            {
+              "word": "气泡水",
+              "romanization": "qì pào shuǐ",
+              "meanings": {
+                "en": "Sparkling water",
+                "zh": "气泡水",
+                "th": "น้ำอัดลม",
+                "ko": "탄산수",
+                "es": "Agua con gas"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "气泡水",
+                  "romanization": "qì pào shuǐ"
+                },
+                "female": {
+                  "word": "气泡水",
+                  "romanization": "qì pào shuǐ"
+                }
+              }
+            },
+            {
+              "word": "啤酒",
+              "romanization": "pí jiǔ",
+              "meanings": {
+                "en": "Beer",
+                "zh": "啤酒",
+                "th": "เบียร์",
+                "ko": "맥주",
+                "es": "Cerveza"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "啤酒",
+                  "romanization": "pí jiǔ"
+                },
+                "female": {
+                  "word": "啤酒",
+                  "romanization": "pí jiǔ"
+                }
+              }
+            },
+            {
+              "word": "葡萄酒",
+              "romanization": "pú tao jiǔ",
+              "meanings": {
+                "en": "Wine",
+                "zh": "葡萄酒",
+                "th": "ไวน์",
+                "ko": "와인",
+                "es": "Vino"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "葡萄酒",
+                  "romanization": "pú tao jiǔ"
+                },
+                "female": {
+                  "word": "葡萄酒",
+                  "romanization": "pú tao jiǔ"
+                }
+              }
+            },
+            {
+              "word": "卡布奇诺",
+              "romanization": "kǎ bù qí nuò",
+              "meanings": {
+                "en": "Cappuccino",
+                "zh": "卡布奇诺",
+                "th": "คาปูชิโน",
+                "ko": "카푸치노",
+                "es": "Capuchino"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "卡布奇诺",
+                  "romanization": "kǎ bù qí nuò"
+                },
+                "female": {
+                  "word": "卡布奇诺",
+                  "romanization": "kǎ bù qí nuò"
+                }
+              }
+            },
+            {
+              "word": "浓缩咖啡",
+              "romanization": "nóng suō kā fēi",
+              "meanings": {
+                "en": "Espresso",
+                "zh": "浓缩咖啡",
+                "th": "เอสเพรสโซ",
+                "ko": "에스프레소",
+                "es": "Espreso"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "浓缩咖啡",
+                  "romanization": "nóng suō kā fēi"
+                },
+                "female": {
+                  "word": "浓缩咖啡",
+                  "romanization": "nóng suō kā fēi"
+                }
+              }
+            },
+            {
+              "word": "热巧克力",
+              "romanization": "rè qiǎo kè lì",
+              "meanings": {
+                "en": "Hot chocolate",
+                "zh": "热巧克力",
+                "th": "ช็อกโกแลตร้อน",
+                "ko": "핫초코",
+                "es": "Chocolate caliente"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "热巧克力",
+                  "romanization": "rè qiǎo kè lì"
+                },
+                "female": {
+                  "word": "热巧克力",
+                  "romanization": "rè qiǎo kè lì"
+                }
+              }
+            },
+            {
+              "word": "柠檬水",
+              "romanization": "níng méng shuǐ",
+              "meanings": {
+                "en": "Lemonade",
+                "zh": "柠檬水",
+                "th": "น้ำมะนาว",
+                "ko": "레모네이드",
+                "es": "Limonada"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "柠檬水",
+                  "romanization": "níng méng shuǐ"
+                },
+                "female": {
+                  "word": "柠檬水",
+                  "romanization": "níng méng shuǐ"
+                }
+              }
+            },
+            {
+              "word": "杯子",
+              "romanization": "bēi zi",
+              "meanings": {
+                "en": "Glass",
+                "zh": "杯子",
+                "th": "แก้ว",
+                "ko": "유리잔",
+                "es": "Vaso"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "杯子",
+                  "romanization": "bēi zi"
+                },
+                "female": {
+                  "word": "杯子",
+                  "romanization": "bēi zi"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "咖啡",
+              "romanization": "kā fēi",
+              "options": {
+                "en": [
+                  "Coffee",
+                  "Tea",
+                  "Juice",
+                  "Beer"
+                ],
+                "zh": [
+                  "咖啡",
+                  "茶",
+                  "果汁",
+                  "啤酒"
+                ],
+                "th": [
+                  "กาแฟ",
+                  "ชา",
+                  "น้ำผลไม้",
+                  "เบียร์"
+                ],
+                "ko": [
+                  "커피",
+                  "차",
+                  "주스",
+                  "맥주"
+                ],
+                "es": [
+                  "Café",
+                  "Té",
+                  "Jugo",
+                  "Cerveza"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "咖啡",
+                  "romanization": "kā fēi"
+                },
+                "female": {
+                  "word": "咖啡",
+                  "romanization": "kā fēi"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Tea' in Chinese?",
+                "zh": "中文怎么说'茶'？",
+                "th": "คำว่า 'ชา' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'차'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Té' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "茶",
+                  "咖啡",
+                  "果汁",
+                  "啤酒"
+                ],
+                "male": [
+                  "茶",
+                  "咖啡",
+                  "果汁",
+                  "啤酒"
+                ],
+                "female": [
+                  "茶",
+                  "咖啡",
+                  "果汁",
+                  "啤酒"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "果汁",
+              "romanization": "guǒ zhī",
+              "options": {
+                "en": [
+                  "Juice",
+                  "Tea",
+                  "Coffee",
+                  "Beer"
+                ],
+                "zh": [
+                  "果汁",
+                  "茶",
+                  "咖啡",
+                  "啤酒"
+                ],
+                "th": [
+                  "น้ำผลไม้",
+                  "ชา",
+                  "กาแฟ",
+                  "เบียร์"
+                ],
+                "ko": [
+                  "주스",
+                  "차",
+                  "커피",
+                  "맥주"
+                ],
+                "es": [
+                  "Jugo",
+                  "Té",
+                  "Café",
+                  "Cerveza"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "果汁",
+                  "romanization": "guǒ zhī"
+                },
+                "female": {
+                  "audio_text": "果汁",
+                  "romanization": "guǒ zhī"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "咖啡",
+                  "romanization": "kā fēi",
+                  "native": {
+                    "en": "Coffee",
+                    "zh": "咖啡",
+                    "th": "กาแฟ",
+                    "ko": "커피",
+                    "es": "Café"
+                  }
+                },
+                {
+                  "target": "茶",
+                  "romanization": "chá",
+                  "native": {
+                    "en": "Tea",
+                    "zh": "茶",
+                    "th": "ชา",
+                    "ko": "차",
+                    "es": "Té"
+                  }
+                },
+                {
+                  "target": "啤酒",
+                  "romanization": "pí jiǔ",
+                  "native": {
+                    "en": "Beer",
+                    "zh": "啤酒",
+                    "th": "เบียร์",
+                    "ko": "맥주",
+                    "es": "Cerveza"
+                  }
+                },
+                {
+                  "target": "果汁",
+                  "romanization": "guǒ zhī",
+                  "native": {
+                    "en": "Juice",
+                    "zh": "果汁",
+                    "th": "น้ำผลไม้",
+                    "ko": "주스",
+                    "es": "Jugo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want a cup of coffee'",
+                "zh": "说'我要一杯咖啡'",
+                "th": "พูด 'ขอกาแฟหนึ่งแก้ว'",
+                "ko": "'커피 한 잔 주세요'라고 말하세요",
+                "es": "Di 'quiero una taza de café'"
+              },
+              "words": [
+                "咖啡",
+                "一杯",
+                "我",
+                "要"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "要",
+                  "一杯",
+                  "咖啡"
+                ]
+              },
+              "romanization": "wǒ yào yī bēi kā fēi",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "要",
+                  "一杯",
+                  "咖啡"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": {
+            "en": "Cafe Vocabulary",
+            "zh": "咖啡馆用语",
+            "th": "คำศัพท์ในคาเฟ่",
+            "ko": "카페 용어",
+            "es": "Vocabulario de café"
+          },
+          "objectives": {
+            "en": [
+              "Customize drink orders",
+              "Use cafe-specific vocabulary"
+            ],
+            "zh": [
+              "Customize drink orders",
+              "Use cafe-specific vocabulary"
+            ],
+            "th": [
+              "Customize drink orders",
+              "Use cafe-specific vocabulary"
+            ],
+            "ko": [
+              "Customize drink orders",
+              "Use cafe-specific vocabulary"
+            ],
+            "es": [
+              "Customize drink orders",
+              "Use cafe-specific vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "杯",
+              "romanization": "bēi",
+              "meanings": {
+                "en": "Cup",
+                "zh": "杯",
+                "th": "ถ้วย",
+                "ko": "컵",
+                "es": "Taza"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "杯",
+                  "romanization": "bēi"
+                },
+                "female": {
+                  "word": "杯",
+                  "romanization": "bēi"
+                }
+              }
+            },
+            {
+              "word": "瓶",
+              "romanization": "píng",
+              "meanings": {
+                "en": "Bottle",
+                "zh": "瓶",
+                "th": "ขวด",
+                "ko": "병",
+                "es": "Botella"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "瓶",
+                  "romanization": "píng"
+                },
+                "female": {
+                  "word": "瓶",
+                  "romanization": "píng"
+                }
+              }
+            },
+            {
+              "word": "糖",
+              "romanization": "táng",
+              "meanings": {
+                "en": "Sugar",
+                "zh": "糖",
+                "th": "น้ำตาล",
+                "ko": "설탕",
+                "es": "Azúcar"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "糖",
+                  "romanization": "táng"
+                },
+                "female": {
+                  "word": "糖",
+                  "romanization": "táng"
+                }
+              }
+            },
+            {
+              "word": "冰",
+              "romanization": "bīng",
+              "meanings": {
+                "en": "Ice",
+                "zh": "冰",
+                "th": "น้ำแข็ง",
+                "ko": "얼음",
+                "es": "Hielo"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "冰",
+                  "romanization": "bīng"
+                },
+                "female": {
+                  "word": "冰",
+                  "romanization": "bīng"
+                }
+              }
+            },
+            {
+              "word": "吸管",
+              "romanization": "xī guǎn",
+              "meanings": {
+                "en": "Straw",
+                "zh": "吸管",
+                "th": "หลอด",
+                "ko": "빨대",
+                "es": "Popote"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "吸管",
+                  "romanization": "xī guǎn"
+                },
+                "female": {
+                  "word": "吸管",
+                  "romanization": "xī guǎn"
+                }
+              }
+            },
+            {
+              "word": "续杯",
+              "romanization": "xù bēi",
+              "meanings": {
+                "en": "Refill",
+                "zh": "续杯",
+                "th": "เติม",
+                "ko": "리필",
+                "es": "Rellenar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "续杯",
+                  "romanization": "xù bēi"
+                },
+                "female": {
+                  "word": "续杯",
+                  "romanization": "xù bēi"
+                }
+              }
+            },
+            {
+              "word": "无咖啡因",
+              "romanization": "wú kā fēi yīn",
+              "meanings": {
+                "en": "Decaf",
+                "zh": "无咖啡因",
+                "th": "ไม่มีคาเฟอีน",
+                "ko": "디카페인",
+                "es": "Descafeinado"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "无咖啡因",
+                  "romanization": "wú kā fēi yīn"
+                },
+                "female": {
+                  "word": "无咖啡因",
+                  "romanization": "wú kā fēi yīn"
+                }
+              }
+            },
+            {
+              "word": "燕麦奶",
+              "romanization": "yàn mài nǎi",
+              "meanings": {
+                "en": "Oat milk",
+                "zh": "燕麦奶",
+                "th": "นมข้าวโอ๊ต",
+                "ko": "귀리 우유",
+                "es": "Leche de avena"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "燕麦奶",
+                  "romanization": "yàn mài nǎi"
+                },
+                "female": {
+                  "word": "燕麦奶",
+                  "romanization": "yàn mài nǎi"
+                }
+              }
+            },
+            {
+              "word": "浓",
+              "romanization": "nóng",
+              "meanings": {
+                "en": "Strong",
+                "zh": "浓",
+                "th": "แข็งแรง",
+                "ko": "강한",
+                "es": "Fuerte"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "浓",
+                  "romanization": "nóng"
+                },
+                "female": {
+                  "word": "浓",
+                  "romanization": "nóng"
+                }
+              }
+            },
+            {
+              "word": "淡",
+              "romanization": "dàn",
+              "meanings": {
+                "en": "Weak",
+                "zh": "淡",
+                "th": "อ่อนแอ",
+                "ko": "약한",
+                "es": "Débil"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "淡",
+                  "romanization": "dàn"
+                },
+                "female": {
+                  "word": "淡",
+                  "romanization": "dàn"
+                }
+              }
+            },
+            {
+              "word": "常温",
+              "romanization": "cháng wēn",
+              "meanings": {
+                "en": "Still",
+                "zh": "常温",
+                "th": "ไม่มีแก๊ส",
+                "ko": "탄산 없는",
+                "es": "Sin gas"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "常温",
+                  "romanization": "cháng wēn"
+                },
+                "female": {
+                  "word": "常温",
+                  "romanization": "cháng wēn"
+                }
+              }
+            },
+            {
+              "word": "气泡",
+              "romanization": "qì pào",
+              "meanings": {
+                "en": "Fizzy",
+                "zh": "气泡",
+                "th": "มีแก๊ส",
+                "ko": "탄산의",
+                "es": "Con gas"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "气泡",
+                  "romanization": "qì pào"
+                },
+                "female": {
+                  "word": "气泡",
+                  "romanization": "qì pào"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "糖",
+              "romanization": "táng",
+              "options": {
+                "en": [
+                  "Sugar",
+                  "Ice",
+                  "Straw",
+                  "Cup"
+                ],
+                "zh": [
+                  "糖",
+                  "冰",
+                  "吸管",
+                  "杯"
+                ],
+                "th": [
+                  "น้ำตาล",
+                  "น้ำแข็ง",
+                  "หลอด",
+                  "ถ้วย"
+                ],
+                "ko": [
+                  "설탕",
+                  "얼음",
+                  "빨대",
+                  "컵"
+                ],
+                "es": [
+                  "Azúcar",
+                  "Hielo",
+                  "Popote",
+                  "Taza"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "糖",
+                  "romanization": "táng"
+                },
+                "female": {
+                  "word": "糖",
+                  "romanization": "táng"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Ice' in Chinese?",
+                "zh": "中文怎么说'冰'？",
+                "th": "คำว่า 'น้ำแข็ง' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'얼음'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Hielo' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "冰",
+                  "糖",
+                  "吸管",
+                  "杯"
+                ],
+                "male": [
+                  "冰",
+                  "糖",
+                  "吸管",
+                  "杯"
+                ],
+                "female": [
+                  "冰",
+                  "糖",
+                  "吸管",
+                  "杯"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "吸管",
+              "romanization": "xī guǎn",
+              "options": {
+                "en": [
+                  "Straw",
+                  "Ice",
+                  "Sugar",
+                  "Cup"
+                ],
+                "zh": [
+                  "吸管",
+                  "冰",
+                  "糖",
+                  "杯"
+                ],
+                "th": [
+                  "หลอด",
+                  "น้ำแข็ง",
+                  "น้ำตาล",
+                  "ถ้วย"
+                ],
+                "ko": [
+                  "빨대",
+                  "얼음",
+                  "설탕",
+                  "컵"
+                ],
+                "es": [
+                  "Popote",
+                  "Hielo",
+                  "Azúcar",
+                  "Taza"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "吸管",
+                  "romanization": "xī guǎn"
+                },
+                "female": {
+                  "audio_text": "吸管",
+                  "romanization": "xī guǎn"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "糖",
+                  "romanization": "táng",
+                  "native": {
+                    "en": "Sugar",
+                    "zh": "糖",
+                    "th": "น้ำตาล",
+                    "ko": "설탕",
+                    "es": "Azúcar"
+                  }
+                },
+                {
+                  "target": "冰",
+                  "romanization": "bīng",
+                  "native": {
+                    "en": "Ice",
+                    "zh": "冰",
+                    "th": "น้ำแข็ง",
+                    "ko": "얼음",
+                    "es": "Hielo"
+                  }
+                },
+                {
+                  "target": "浓",
+                  "romanization": "nóng",
+                  "native": {
+                    "en": "Strong",
+                    "zh": "浓",
+                    "th": "แข็งแรง",
+                    "ko": "강한",
+                    "es": "Fuerte"
+                  }
+                },
+                {
+                  "target": "淡",
+                  "romanization": "dàn",
+                  "native": {
+                    "en": "Weak",
+                    "zh": "淡",
+                    "th": "อ่อนแอ",
+                    "ko": "약한",
+                    "es": "Débil"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'No sugar please'",
+                "zh": "说'请不要加糖'",
+                "th": "พูด 'ไม่ใส่น้ำตาลนะ'",
+                "ko": "'설탕 빼 주세요'라고 말하세요",
+                "es": "Di 'sin azúcar por favor'"
+              },
+              "words": [
+                "糖",
+                "不要",
+                "请",
+                "加"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "请",
+                  "不要",
+                  "加",
+                  "糖"
+                ]
+              },
+              "romanization": "qǐng bú yào jiā táng",
+              "tiles": {
+                "neutral": [
+                  "请",
+                  "不要",
+                  "加",
+                  "糖"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": {
+        "en": "Food Preferences & Diet",
+        "zh": "饮食偏好与饮食习惯",
+        "th": "ความชอบอาหารและอาหารการกิน",
+        "ko": "음식 취향과 식단",
+        "es": "Preferencias alimentarias y dieta"
+      },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": {
+            "en": "Likes & Feelings",
+            "zh": "喜好与感受",
+            "th": "ความชอบและความรู้สึก",
+            "ko": "좋아하는 것과 감정",
+            "es": "Gustos y sentimientos"
+          },
+          "objectives": {
+            "en": [
+              "Express food preferences",
+              "Describe hunger and thirst"
+            ],
+            "zh": [
+              "Express food preferences",
+              "Describe hunger and thirst"
+            ],
+            "th": [
+              "Express food preferences",
+              "Describe hunger and thirst"
+            ],
+            "ko": [
+              "Express food preferences",
+              "Describe hunger and thirst"
+            ],
+            "es": [
+              "Express food preferences",
+              "Describe hunger and thirst"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "喜欢",
+              "romanization": "xǐ huān",
+              "meanings": {
+                "en": "Like",
+                "zh": "喜欢",
+                "th": "ชอบ",
+                "ko": "좋아하다",
+                "es": "Gustar"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "喜欢",
+                  "romanization": "xǐ huān"
+                },
+                "female": {
+                  "word": "喜欢",
+                  "romanization": "xǐ huān"
+                }
+              }
+            },
+            {
+              "word": "不喜欢",
+              "romanization": "bù xǐ huān",
+              "meanings": {
+                "en": "Dislike",
+                "zh": "不喜欢",
+                "th": "ไม่ชอบ",
+                "ko": "싫어하다",
+                "es": "No gustar"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "不喜欢",
+                  "romanization": "bù xǐ huān"
+                },
+                "female": {
+                  "word": "不喜欢",
+                  "romanization": "bù xǐ huān"
+                }
+              }
+            },
+            {
+              "word": "更喜欢",
+              "romanization": "gèng xǐ huān",
+              "meanings": {
+                "en": "Prefer",
+                "zh": "更喜欢",
+                "th": "ชอบมากกว่า",
+                "ko": "선호하다",
+                "es": "Preferir"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "更喜欢",
+                  "romanization": "gèng xǐ huān"
+                },
+                "female": {
+                  "word": "更喜欢",
+                  "romanization": "gèng xǐ huān"
+                }
+              }
+            },
+            {
+              "word": "味道",
+              "romanization": "wèi dào",
+              "meanings": {
+                "en": "Taste",
+                "zh": "味道",
+                "th": "รสชาติ",
+                "ko": "맛",
+                "es": "Sabor"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "味道",
+                  "romanization": "wèi dào"
+                },
+                "female": {
+                  "word": "味道",
+                  "romanization": "wèi dào"
+                }
+              }
+            },
+            {
+              "word": "闻",
+              "romanization": "wén",
+              "meanings": {
+                "en": "Smell",
+                "zh": "闻",
+                "th": "กลิ่น",
+                "ko": "냄새",
+                "es": "Olor"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "闻",
+                  "romanization": "wén"
+                },
+                "female": {
+                  "word": "闻",
+                  "romanization": "wén"
+                }
+              }
+            },
+            {
+              "word": "饿",
+              "romanization": "è",
+              "meanings": {
+                "en": "Hungry",
+                "zh": "饿",
+                "th": "หิว",
+                "ko": "배고픈",
+                "es": "Hambriento"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "饿",
+                  "romanization": "è"
+                },
+                "female": {
+                  "word": "饿",
+                  "romanization": "è"
+                }
+              }
+            },
+            {
+              "word": "饱",
+              "romanization": "bǎo",
+              "meanings": {
+                "en": "Full",
+                "zh": "饱",
+                "th": "อิ่ม",
+                "ko": "배부른",
+                "es": "Lleno"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "饱",
+                  "romanization": "bǎo"
+                },
+                "female": {
+                  "word": "饱",
+                  "romanization": "bǎo"
+                }
+              }
+            },
+            {
+              "word": "渴",
+              "romanization": "kě",
+              "meanings": {
+                "en": "Thirsty",
+                "zh": "渴",
+                "th": "กระหายน้ำ",
+                "ko": "목마른",
+                "es": "Sediento"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "渴",
+                  "romanization": "kě"
+                },
+                "female": {
+                  "word": "渴",
+                  "romanization": "kě"
+                }
+              }
+            },
+            {
+              "word": "健康",
+              "romanization": "jiàn kāng",
+              "meanings": {
+                "en": "Healthy",
+                "zh": "健康",
+                "th": "แข็งแรง",
+                "ko": "건강한",
+                "es": "Saludable"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "健康",
+                  "romanization": "jiàn kāng"
+                },
+                "female": {
+                  "word": "健康",
+                  "romanization": "jiàn kāng"
+                }
+              }
+            },
+            {
+              "word": "不健康",
+              "romanization": "bú jiàn kāng",
+              "meanings": {
+                "en": "Unhealthy",
+                "zh": "不健康",
+                "th": "ไม่มีสุขภาพดี",
+                "ko": "건강하지 않은",
+                "es": "No saludable"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "不健康",
+                  "romanization": "bú jiàn kāng"
+                },
+                "female": {
+                  "word": "不健康",
+                  "romanization": "bú jiàn kāng"
+                }
+              }
+            },
+            {
+              "word": "有机",
+              "romanization": "yǒu jī",
+              "meanings": {
+                "en": "Organic",
+                "zh": "有机",
+                "th": "ออร์แกนิก",
+                "ko": "유기농의",
+                "es": "Orgánico"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "有机",
+                  "romanization": "yǒu jī"
+                },
+                "female": {
+                  "word": "有机",
+                  "romanization": "yǒu jī"
+                }
+              }
+            },
+            {
+              "word": "本地",
+              "romanization": "běn dì",
+              "meanings": {
+                "en": "Local",
+                "zh": "本地",
+                "th": "ท้องถิ่น",
+                "ko": "현지의",
+                "es": "Local"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "本地",
+                  "romanization": "běn dì"
+                },
+                "female": {
+                  "word": "本地",
+                  "romanization": "běn dì"
+                }
+              }
+            },
+            {
+              "word": "加工食品",
+              "romanization": "jiā gōng shí pǐn",
+              "meanings": {
+                "en": "Processed",
+                "zh": "加工食品",
+                "th": "แปรรูป",
+                "ko": "가공된",
+                "es": "Procesado"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "加工食品",
+                  "romanization": "jiā gōng shí pǐn"
+                },
+                "female": {
+                  "word": "加工食品",
+                  "romanization": "jiā gōng shí pǐn"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "喜欢",
+              "romanization": "xǐ huān",
+              "options": {
+                "en": [
+                  "Like",
+                  "Dislike",
+                  "Prefer",
+                  "Taste"
+                ],
+                "zh": [
+                  "喜欢",
+                  "不喜欢",
+                  "更喜欢",
+                  "味道"
+                ],
+                "th": [
+                  "ชอบ",
+                  "ไม่ชอบ",
+                  "ชอบมากกว่า",
+                  "รสชาติ"
+                ],
+                "ko": [
+                  "좋아하다",
+                  "싫어하다",
+                  "선호하다",
+                  "맛"
+                ],
+                "es": [
+                  "Gustar",
+                  "No gustar",
+                  "Preferir",
+                  "Sabor"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "喜欢",
+                  "romanization": "xǐ huān"
+                },
+                "female": {
+                  "word": "喜欢",
+                  "romanization": "xǐ huān"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Full' in Chinese?",
+                "zh": "中文怎么说'饱'？",
+                "th": "คำว่า 'อิ่ม' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'배부른'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Lleno' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "饱",
+                  "饿",
+                  "渴",
+                  "健康"
+                ],
+                "male": [
+                  "饱",
+                  "饿",
+                  "渴",
+                  "健康"
+                ],
+                "female": [
+                  "饱",
+                  "饿",
+                  "渴",
+                  "健康"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "味道",
+              "romanization": "wèi dào",
+              "options": {
+                "en": [
+                  "Taste",
+                  "Smell",
+                  "Like",
+                  "Hungry"
+                ],
+                "zh": [
+                  "味道",
+                  "闻",
+                  "喜欢",
+                  "饿"
+                ],
+                "th": [
+                  "รสชาติ",
+                  "กลิ่น",
+                  "ชอบ",
+                  "หิว"
+                ],
+                "ko": [
+                  "맛",
+                  "냄새",
+                  "좋아하다",
+                  "배고픈"
+                ],
+                "es": [
+                  "Sabor",
+                  "Olor",
+                  "Gustar",
+                  "Hambriento"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "味道",
+                  "romanization": "wèi dào"
+                },
+                "female": {
+                  "audio_text": "味道",
+                  "romanization": "wèi dào"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "喜欢",
+                  "romanization": "xǐ huān",
+                  "native": {
+                    "en": "Like",
+                    "zh": "喜欢",
+                    "th": "ชอบ",
+                    "ko": "좋아하다",
+                    "es": "Gustar"
+                  }
+                },
+                {
+                  "target": "不喜欢",
+                  "romanization": "bù xǐ huān",
+                  "native": {
+                    "en": "Dislike",
+                    "zh": "不喜欢",
+                    "th": "ไม่ชอบ",
+                    "ko": "싫어하다",
+                    "es": "No gustar"
+                  }
+                },
+                {
+                  "target": "饿",
+                  "romanization": "è",
+                  "native": {
+                    "en": "Hungry",
+                    "zh": "饿",
+                    "th": "หิว",
+                    "ko": "배고픈",
+                    "es": "Hambriento"
+                  }
+                },
+                {
+                  "target": "饱",
+                  "romanization": "bǎo",
+                  "native": {
+                    "en": "Full",
+                    "zh": "饱",
+                    "th": "อิ่ม",
+                    "ko": "배부른",
+                    "es": "Lleno"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I am very hungry'",
+                "zh": "说'我很饿'",
+                "th": "พูด 'ฉันหิวมาก'",
+                "ko": "'배가 매우 고파요'라고 말하세요",
+                "es": "Di 'tengo mucha hambre'"
+              },
+              "words": [
+                "很",
+                "我",
+                "饿"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "很",
+                  "饿"
+                ]
+              },
+              "romanization": "wǒ hěn è",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "很",
+                  "饿"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": {
+            "en": "Meals & Nutrition",
+            "zh": "餐食与营养",
+            "th": "มื้ออาหารและโภชนาการ",
+            "ko": "식사와 영양",
+            "es": "Comidas y nutrición"
+          },
+          "objectives": {
+            "en": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "zh": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "th": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "ko": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ],
+            "es": [
+              "Talk about meals and diet",
+              "Discuss nutrition basics"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "零食",
+              "romanization": "líng shí",
+              "meanings": {
+                "en": "Snack",
+                "zh": "零食",
+                "th": "ขนม",
+                "ko": "간식",
+                "es": "Bocadillo"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "零食",
+                  "romanization": "líng shí"
+                },
+                "female": {
+                  "word": "零食",
+                  "romanization": "líng shí"
+                }
+              }
+            },
+            {
+              "word": "一餐",
+              "romanization": "yī cān",
+              "meanings": {
+                "en": "Meal",
+                "zh": "一餐",
+                "th": "มื้ออาหาร",
+                "ko": "식사",
+                "es": "Comida"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "一餐",
+                  "romanization": "yī cān"
+                },
+                "female": {
+                  "word": "一餐",
+                  "romanization": "yī cān"
+                }
+              }
+            },
+            {
+              "word": "早餐",
+              "romanization": "zǎo cān",
+              "meanings": {
+                "en": "Breakfast",
+                "zh": "早餐",
+                "th": "อาหารเช้า",
+                "ko": "아침 식사",
+                "es": "Desayuno"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "早餐",
+                  "romanization": "zǎo cān"
+                },
+                "female": {
+                  "word": "早餐",
+                  "romanization": "zǎo cān"
+                }
+              }
+            },
+            {
+              "word": "午餐",
+              "romanization": "wǔ cān",
+              "meanings": {
+                "en": "Lunch",
+                "zh": "午餐",
+                "th": "อาหารกลางวัน",
+                "ko": "점심",
+                "es": "Almuerzo"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "午餐",
+                  "romanization": "wǔ cān"
+                },
+                "female": {
+                  "word": "午餐",
+                  "romanization": "wǔ cān"
+                }
+              }
+            },
+            {
+              "word": "晚餐",
+              "romanization": "wǎn cān",
+              "meanings": {
+                "en": "Dinner",
+                "zh": "晚餐",
+                "th": "อาหารเย็น",
+                "ko": "저녁 식사",
+                "es": "Cena"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "晚餐",
+                  "romanization": "wǎn cān"
+                },
+                "female": {
+                  "word": "晚餐",
+                  "romanization": "wǎn cān"
+                }
+              }
+            },
+            {
+              "word": "节食",
+              "romanization": "jié shí",
+              "meanings": {
+                "en": "Diet",
+                "zh": "节食",
+                "th": "อาหารเฉพาะ",
+                "ko": "식단",
+                "es": "Dieta"
+              },
+              "toneClass": "2",
+              "gendered": {
+                "male": {
+                  "word": "节食",
+                  "romanization": "jié shí"
+                },
+                "female": {
+                  "word": "节食",
+                  "romanization": "jié shí"
+                }
+              }
+            },
+            {
+              "word": "卡路里",
+              "romanization": "kǎ lù lǐ",
+              "meanings": {
+                "en": "Calorie",
+                "zh": "卡路里",
+                "th": "แคลอรี่",
+                "ko": "칼로리",
+                "es": "Caloría"
+              },
+              "toneClass": "3",
+              "gendered": {
+                "male": {
+                  "word": "卡路里",
+                  "romanization": "kǎ lù lǐ"
+                },
+                "female": {
+                  "word": "卡路里",
+                  "romanization": "kǎ lù lǐ"
+                }
+              }
+            },
+            {
+              "word": "蛋白质",
+              "romanization": "dàn bái zhì",
+              "meanings": {
+                "en": "Protein",
+                "zh": "蛋白质",
+                "th": "โปรตีน",
+                "ko": "단백질",
+                "es": "Proteína"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "蛋白质",
+                  "romanization": "dàn bái zhì"
+                },
+                "female": {
+                  "word": "蛋白质",
+                  "romanization": "dàn bái zhì"
+                }
+              }
+            },
+            {
+              "word": "碳水化合物",
+              "romanization": "tàn shuǐ huà hé wù",
+              "meanings": {
+                "en": "Carbs",
+                "zh": "碳水化合物",
+                "th": "คาร์บ",
+                "ko": "탄수화물",
+                "es": "Carbohidratos"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "碳水化合物",
+                  "romanization": "tàn shuǐ huà hé wù"
+                },
+                "female": {
+                  "word": "碳水化合物",
+                  "romanization": "tàn shuǐ huà hé wù"
+                }
+              }
+            },
+            {
+              "word": "脂肪",
+              "romanization": "zhī fáng",
+              "meanings": {
+                "en": "Fat",
+                "zh": "脂肪",
+                "th": "ไขมัน",
+                "ko": "지방",
+                "es": "Grasa"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "脂肪",
+                  "romanization": "zhī fáng"
+                },
+                "female": {
+                  "word": "脂肪",
+                  "romanization": "zhī fáng"
+                }
+              }
+            },
+            {
+              "word": "份量",
+              "romanization": "fèn liàng",
+              "meanings": {
+                "en": "Portion",
+                "zh": "份量",
+                "th": "ส่วน",
+                "ko": "1인분",
+                "es": "Porción"
+              },
+              "toneClass": "4",
+              "gendered": {
+                "male": {
+                  "word": "份量",
+                  "romanization": "fèn liàng"
+                },
+                "female": {
+                  "word": "份量",
+                  "romanization": "fèn liàng"
+                }
+              }
+            },
+            {
+              "word": "均衡",
+              "romanization": "jūn héng",
+              "meanings": {
+                "en": "Balanced",
+                "zh": "均衡",
+                "th": "สมดุล",
+                "ko": "균형 잡힌",
+                "es": "Equilibrado"
+              },
+              "toneClass": "1",
+              "gendered": {
+                "male": {
+                  "word": "均衡",
+                  "romanization": "jūn héng"
+                },
+                "female": {
+                  "word": "均衡",
+                  "romanization": "jūn héng"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "早餐",
+              "romanization": "zǎo cān",
+              "options": {
+                "en": [
+                  "Breakfast",
+                  "Lunch",
+                  "Dinner",
+                  "Snack"
+                ],
+                "zh": [
+                  "早餐",
+                  "午餐",
+                  "晚餐",
+                  "零食"
+                ],
+                "th": [
+                  "อาหารเช้า",
+                  "อาหารกลางวัน",
+                  "อาหารเย็น",
+                  "ขนม"
+                ],
+                "ko": [
+                  "아침 식사",
+                  "점심",
+                  "저녁 식사",
+                  "간식"
+                ],
+                "es": [
+                  "Desayuno",
+                  "Almuerzo",
+                  "Cena",
+                  "Bocadillo"
+                ]
+              },
+              "correct": 0,
+              "gendered_word": {
+                "male": {
+                  "word": "早餐",
+                  "romanization": "zǎo cān"
+                },
+                "female": {
+                  "word": "早餐",
+                  "romanization": "zǎo cān"
+                }
+              }
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Lunch' in Chinese?",
+                "zh": "中文怎么说'午餐'？",
+                "th": "คำว่า 'อาหารกลางวัน' พูดเป็นภาษาจีนว่าอะไร?",
+                "ko": "'점심'을(를) 중국어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Almuerzo' en chino?"
+              },
+              "options": {
+                "neutral": [
+                  "午餐",
+                  "早餐",
+                  "晚餐",
+                  "零食"
+                ],
+                "male": [
+                  "午餐",
+                  "早餐",
+                  "晚餐",
+                  "零食"
+                ],
+                "female": [
+                  "午餐",
+                  "早餐",
+                  "晚餐",
+                  "零食"
+                ]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "晚餐",
+              "romanization": "wǎn cān",
+              "options": {
+                "en": [
+                  "Dinner",
+                  "Breakfast",
+                  "Lunch",
+                  "Snack"
+                ],
+                "zh": [
+                  "晚餐",
+                  "早餐",
+                  "午餐",
+                  "零食"
+                ],
+                "th": [
+                  "อาหารเย็น",
+                  "อาหารเช้า",
+                  "อาหารกลางวัน",
+                  "ขนม"
+                ],
+                "ko": [
+                  "저녁 식사",
+                  "아침 식사",
+                  "점심",
+                  "간식"
+                ],
+                "es": [
+                  "Cena",
+                  "Desayuno",
+                  "Almuerzo",
+                  "Bocadillo"
+                ]
+              },
+              "correct": 0,
+              "gendered_audio": {
+                "male": {
+                  "audio_text": "晚餐",
+                  "romanization": "wǎn cān"
+                },
+                "female": {
+                  "audio_text": "晚餐",
+                  "romanization": "wǎn cān"
+                }
+              }
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "早餐",
+                  "romanization": "zǎo cān",
+                  "native": {
+                    "en": "Breakfast",
+                    "zh": "早餐",
+                    "th": "อาหารเช้า",
+                    "ko": "아침 식사",
+                    "es": "Desayuno"
+                  }
+                },
+                {
+                  "target": "午餐",
+                  "romanization": "wǔ cān",
+                  "native": {
+                    "en": "Lunch",
+                    "zh": "午餐",
+                    "th": "อาหารกลางวัน",
+                    "ko": "점심",
+                    "es": "Almuerzo"
+                  }
+                },
+                {
+                  "target": "晚餐",
+                  "romanization": "wǎn cān",
+                  "native": {
+                    "en": "Dinner",
+                    "zh": "晚餐",
+                    "th": "อาหารเย็น",
+                    "ko": "저녁 식사",
+                    "es": "Cena"
+                  }
+                },
+                {
+                  "target": "零食",
+                  "romanization": "líng shí",
+                  "native": {
+                    "en": "Snack",
+                    "zh": "零食",
+                    "th": "ขนม",
+                    "ko": "간식",
+                    "es": "Bocadillo"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I eat a balanced diet'",
+                "zh": "说'我饮食均衡'",
+                "th": "พูด 'ฉันกินอาหารสมดุล'",
+                "ko": "'균형 잡힌 식단을 먹어요'라고 말하세요",
+                "es": "Di 'como una dieta equilibrada'"
+              },
+              "words": [
+                "均衡",
+                "饮食",
+                "我"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "我",
+                  "饮食",
+                  "均衡"
+                ]
+              },
+              "romanization": "wǒ yǐn shí jūn héng",
+              "tiles": {
+                "neutral": [
+                  "我",
+                  "饮食",
+                  "均衡"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

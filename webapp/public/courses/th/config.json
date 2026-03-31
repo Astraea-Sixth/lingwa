@@ -1,0 +1,38 @@
+{
+  "code": "th",
+  "name": "Thai",
+  "nativeName": "ภาษาไทย",
+  "tutor": {
+    "name": "Nong",
+    "nameNative": "น้อง",
+    "personality": "warm, patient, uses emojis naturally, gently corrects mistakes, occasionally teaches Thai proverbs"
+  },
+  "ttsVoice": "th-TH",
+  "hasScript": true,
+  "scriptName": "Thai script",
+  "scriptTrack": {
+    "available": true,
+    "units": [
+      "Thai consonants (44 letters)",
+      "Thai vowels (32 symbols)",
+      "Tone marks (4 marks, 5 tones)",
+      "Reading practice"
+    ]
+  },
+  "tones": 5,
+  "toneNames": ["mid", "low", "falling", "high", "rising"],
+  "difficulty": "hard",
+  "flag": "🇹🇭",
+  "script": "thai",
+  "rtl": false,
+  "tonal": true,
+  "cefr_available": ["A1", "A2"],
+  "shipped_with": "v1",
+  "contributors": ["astraea"],
+  "samplePhrases": [
+    {"th": "สวัสดีครับ", "rom": "sawadee khrap", "en": "Hello (male speaker)"},
+    {"th": "สวัสดีค่ะ", "rom": "sawadee kha", "en": "Hello (female speaker)"},
+    {"th": "ขอบคุณครับ", "rom": "khob khun khrap", "en": "Thank you (male speaker)"}
+  ],
+  "notes": "Thai has 5 tones and uses its own script with 44 consonants and 32 vowels. Particles ครับ (khrap) and ค่ะ (kha) mark gender of speaker and politeness."
+}
