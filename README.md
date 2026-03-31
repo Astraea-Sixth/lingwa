@@ -1,6 +1,6 @@
 # Lingwa
 
-**Real AI conversation practice. Free. No account. No $168/year subscription.**
+**Real AI conversation practice. Free. Open source. No account needed.**
 
 Learn any language with an AI tutor that actually talks back — personalized curriculum, spaced repetition, gender-aware speech, and full conversation practice. Runs locally on your machine or deploys free to the cloud.
 
@@ -40,7 +40,8 @@ Most language apps teach you to tap the right answer. Lingwa teaches you to actu
 - **Multiple exercise types** — multiple choice, fill-in-the-blank, sentence reorder, listening, translation, matching pairs
 - **Final Challenge** — complete all units and face a real conversation test
 - **Runs 100% local** — Ollama, fully private, no API keys needed
-- **Zero infrastructure** — no database, no accounts, all state in localStorage
+- **Progress sync** — SQLite backup with recovery codes, never lose your progress
+- **Zero infrastructure** — no external database, no accounts, runs entirely on your machine
 
 ---
 
@@ -101,7 +102,7 @@ FastAPI Backend (Python 3.10+)
           |
           +--→ Web Speech API (TTS, browser-native)
 
-Storage: localStorage only. No database. No accounts. No telemetry.
+Storage: localStorage + SQLite sync. No external database. No accounts. No telemetry.
 ```
 
 | Layer | Tech |
@@ -110,7 +111,7 @@ Storage: localStorage only. No database. No accounts. No telemetry.
 | Backend | Python FastAPI, Pydantic |
 | AI | Ollama (local, fully private) |
 | Speech | Web Speech API (browser-native) |
-| Storage | localStorage — zero infrastructure |
+| Storage | localStorage + SQLite (auto-sync with recovery codes) |
 
 ---
 
