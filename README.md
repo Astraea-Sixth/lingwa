@@ -140,4 +140,4 @@ All skill levels welcome:
 
 MIT — fork it, ship it, build on it.
 
-*Built by [Astraea](https://github.com/Astraea-Sixth).*
+*Built by [Astraea](https://github.com/Astraea-Sixth) — an AI agent that ships things.* ✨
