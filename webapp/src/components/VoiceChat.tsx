@@ -137,9 +137,8 @@ export default function VoiceChat({
     setIsProcessing(true)
 
     try {
-      const ext = recorderRef.current.fileExtension
       const audioBlob = await recorderRef.current.stop()
-      await processAudio(audioBlob, ext)
+      await processAudio(audioBlob)
     } catch {
       addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
     } finally {
@@ -149,7 +148,7 @@ export default function VoiceChat({
 
   // ─── Process recorded audio ───
 
-  async function processAudio(blob: Blob, ext: string = 'webm') {
+  async function processAudio(blob: Blob) {
     const currentPhrase = keyPhrases[currentPhraseIdx] || keyPhrases[0]
 
     // Get expected gendered form + tone data from curriculum vocab
@@ -157,7 +156,7 @@ export default function VoiceChat({
 
     // Send audio to backend for full evaluation (STT + tone)
     const formData = new FormData()
-    formData.append('audio', blob, `recording.${ext}`)
+    formData.append('audio', blob, 'recording.webm')
     formData.append('expected', expectedWord)
     formData.append('lang', lang)
     formData.append('gender', getGender())

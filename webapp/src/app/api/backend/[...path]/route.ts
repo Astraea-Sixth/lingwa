@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { API_BASE } from '@/lib/apiConfig'
+
+const API_BASE = process.env.API_BASE_URL || 'http://localhost:5003'
 
 export async function POST(request: NextRequest, { params }: { params: { path: string[] } }) {
   const path = params.path.join('/')

@@ -147,11 +147,6 @@ const translations: Record<string, Record<string, string>> = {
     check: 'Check',
     correctOrder: 'Correct order:',
     hearCorrectSentence: 'Hear the correct sentence',
-
-    // DrillMode
-    pronunciationDrill: 'Pronunciation Drill',
-    hearYourself: 'Hear yourself',
-
   },
 
   // ─── Chinese Simplified ───
@@ -290,11 +285,6 @@ const translations: Record<string, Record<string, string>> = {
     check: '检查',
     correctOrder: '正确顺序：',
     hearCorrectSentence: '听正确的句子',
-
-    // DrillMode
-    pronunciationDrill: '发音练习',
-    hearYourself: '听听自己的发音',
-
   },
 
   // ─── Spanish (Latin American) ───
@@ -433,11 +423,6 @@ const translations: Record<string, Record<string, string>> = {
     check: 'Verificar',
     correctOrder: 'Orden correcto:',
     hearCorrectSentence: 'Escuchar la oración correcta',
-
-    // DrillMode
-    pronunciationDrill: 'Práctica de pronunciación',
-    hearYourself: 'Escúchate',
-
   },
 
   // ─── Thai (casual natural) ───
@@ -576,11 +561,6 @@ const translations: Record<string, Record<string, string>> = {
     check: 'ตรวจ',
     correctOrder: 'ลำดับที่ถูกต้อง:',
     hearCorrectSentence: 'ฟังประโยคที่ถูกต้อง',
-
-    // DrillMode
-    pronunciationDrill: 'ฝึกออกเสียง',
-    hearYourself: 'ฟังเสียงตัวเอง',
-
   },
 
   // ─── Korean (polite 존댓말) ───
@@ -719,11 +699,6 @@ const translations: Record<string, Record<string, string>> = {
     check: '확인',
     correctOrder: '올바른 순서:',
     hearCorrectSentence: '올바른 문장 듣기',
-
-    // DrillMode
-    pronunciationDrill: '발음 연습',
-    hearYourself: '내 발음 듣기',
-
   },
 }
 

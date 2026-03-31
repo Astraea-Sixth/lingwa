@@ -50,20 +50,6 @@ export class AudioRecorder {
     }, this.maxDuration)
   }
 
-  /** File extension matching the actual recorded MIME type */
-  get fileExtension(): string {
-    const mime = this.mediaRecorder?.mimeType || ''
-    if (mime.includes('mp4') || mime.includes('aac')) return 'mp4'
-    if (mime.includes('ogg')) return 'ogg'
-    if (mime.includes('wav')) return 'wav'
-    return 'webm'
-  }
-
-  /** Actual MIME type being recorded (useful for FormData uploads) */
-  get mimeType(): string {
-    return this.mediaRecorder?.mimeType || 'audio/webm'
-  }
-
   stop(): Promise<Blob> {
     return new Promise((resolve, reject) => {
       if (!this.mediaRecorder || this.mediaRecorder.state !== 'recording') {
@@ -76,11 +62,10 @@ export class AudioRecorder {
         this.timeoutId = null
       }
 
-      // Capture mime before cleanup nullifies mediaRecorder
-      const mime = this.mediaRecorder.mimeType || 'audio/webm'
-
       this.mediaRecorder.onstop = () => {
-        const blob = new Blob(this.chunks, { type: mime })
+        const blob = new Blob(this.chunks, {
+          type: this.mediaRecorder?.mimeType || 'audio/webm',
+        })
         this.cleanup()
         resolve(blob)
       }
