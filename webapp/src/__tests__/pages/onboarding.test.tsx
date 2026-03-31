@@ -1,13 +1,13 @@
 /**
  * Onboarding Page Tests (V2)
- * Tests the 3-step flow: Language → Level → Gender
- * Covers: TC-FE-057 through TC-FE-073
+ * Tests the 4-step flow: Native Language → Target Language → Level → Gender
+ * Covers: TC-FE-057 through TC-FE-074
  */
 
 import React from 'react'
 import { render, screen, fireEvent, waitFor, act } from '@testing-library/react'
 
-// Mock next/navigation
+// Mock next/navigation (overrides global mock so we can track push)
 const mockPush = jest.fn()
 jest.mock('next/navigation', () => ({
   useRouter: () => ({
@@ -21,24 +21,9 @@ jest.mock('next/navigation', () => ({
   usePathname: () => '/onboarding',
 }))
 
-// Mock framer-motion to avoid animation issues in tests
-jest.mock('framer-motion', () => ({
-  motion: {
-    div: ({ children, ...props }: React.PropsWithChildren<Record<string, unknown>>) => <div {...filterDomProps(props)}>{children}</div>,
-    button: ({ children, ...props }: React.PropsWithChildren<Record<string, unknown>>) => <button {...filterDomProps(props)}>{children}</button>,
-  },
-  AnimatePresence: ({ children }: React.PropsWithChildren) => <>{children}</>,
-}))
-
-// Filter out non-DOM props from framer-motion
-function filterDomProps(props: Record<string, unknown>) {
-  const { variants, initial, animate, exit, transition, custom, whileHover, whileTap, ...domProps } = props
-  return domProps
-}
-
 import OnboardingPage from '@/app/onboarding/page'
 
-// Mock course data
+// Mock course data returned by /api/courses
 const mockCourses = [
   { language: 'th', languageName: 'Thai', flag: '🇹🇭', level: 'A1', path: 'languages/th/courses/a1.json' },
   { language: 'es', languageName: 'Spanish', flag: '🇪🇸', level: 'A1', path: 'languages/es/courses/a1.json' },
@@ -72,6 +57,32 @@ function mockFetchSuccess() {
   }) as jest.Mock
 }
 
+/** Render and wait for courses to load (lands on step 0: native language) */
+async function renderAndWait() {
+  await act(async () => { render(<OnboardingPage />) })
+  await waitFor(() => {
+    expect(screen.getByText('English')).toBeInTheDocument()
+  })
+}
+
+/** Select English as native language and advance to step 1 (target language) */
+function selectNativeAndContinue() {
+  fireEvent.click(screen.getByText('English').closest('button')!)
+  fireEvent.click(screen.getByText(/Continue →/))
+}
+
+/** Select Thai as target language and advance to step 2 (level) */
+function selectTargetAndContinue() {
+  fireEvent.click(screen.getByText('Thai').closest('button')!)
+  fireEvent.click(screen.getByText(/Continue →/))
+}
+
+/** Select A1 level and advance to step 3 (gender) */
+function selectLevelAndContinue() {
+  fireEvent.click(screen.getByText(/A1 — Complete beginner/))
+  fireEvent.click(screen.getByText(/Continue →/))
+}
+
 describe('OnboardingPage', () => {
   beforeEach(() => {
     jest.clearAllMocks()
@@ -83,84 +94,64 @@ describe('OnboardingPage', () => {
     jest.restoreAllMocks()
   })
 
-  test('TC-FE-057: Step 1 shows available languages from API', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => {
-      expect(screen.getByText('Thai')).toBeInTheDocument()
-      expect(screen.getByText('Spanish')).toBeInTheDocument()
-    })
+  test('TC-FE-057: Step 0 shows native language options', async () => {
+    await renderAndWait()
+    expect(screen.getByText('English')).toBeInTheDocument()
+    expect(screen.getByText('中文')).toBeInTheDocument()
+    expect(screen.getByText('ภาษาไทย')).toBeInTheDocument()
+    expect(screen.getByText('한국어')).toBeInTheDocument()
+    expect(screen.getByText('Español')).toBeInTheDocument()
   })
 
   test('TC-FE-058: Shows loading state initially', async () => {
-    // Delay fetch to see loading state
     global.fetch = jest.fn(() => new Promise(() => {})) as jest.Mock
     await act(async () => { render(<OnboardingPage />) })
     expect(screen.getByText('Loading courses...')).toBeInTheDocument()
   })
 
-  test('TC-FE-059: Selecting language card highlights it', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    const thaiBtn = screen.getByText('Thai').closest('button')!
-    fireEvent.click(thaiBtn)
-    expect(thaiBtn).toHaveStyle({ borderColor: 'var(--green)' })
+  test('TC-FE-059: Step 1 shows target languages from API', async () => {
+    await renderAndWait()
+    selectNativeAndContinue()
+    // Target languages (excluding native English)
+    expect(screen.getByText('Thai')).toBeInTheDocument()
+    expect(screen.getByText('Spanish')).toBeInTheDocument()
   })
 
-  test('TC-FE-060: Continue disabled when no language selected', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
+  test('TC-FE-060: Continue disabled when no selection made', async () => {
+    await renderAndWait()
     const continueBtn = screen.getByText(/Continue →/)
     expect(continueBtn).toHaveStyle({ opacity: '0.35' })
   })
 
-  test('TC-FE-061: Continue enabled after selecting language', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
+  test('TC-FE-061: Continue enabled after selecting native language', async () => {
+    await renderAndWait()
+    fireEvent.click(screen.getByText('English').closest('button')!)
     const continueBtn = screen.getByText(/Continue →/)
     expect(continueBtn).toHaveStyle({ opacity: '1' })
   })
 
   test('TC-FE-063: Step 2 shows level options', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
-
+    await renderAndWait()
+    selectNativeAndContinue()
+    selectTargetAndContinue()
     expect(screen.getByText(/A1 — Complete beginner/)).toBeInTheDocument()
   })
 
   test('TC-FE-067: Step 3 gender options render for Thai', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    // Step 1: select Thai
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
-
-    // Step 2: select A1
-    fireEvent.click(screen.getByText(/A1 — Complete beginner/))
-    fireEvent.click(screen.getByText(/Continue →/))
-
-    // Step 3: gender
+    await renderAndWait()
+    selectNativeAndContinue()
+    selectTargetAndContinue()
+    selectLevelAndContinue()
     expect(screen.getByText('Male')).toBeInTheDocument()
     expect(screen.getByText('Female')).toBeInTheDocument()
     expect(screen.getByText('Show me both')).toBeInTheDocument()
   })
 
   test('TC-FE-069: Finish saves profile and course to localStorage', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    // Full 3-step flow
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
-    fireEvent.click(screen.getByText(/A1 — Complete beginner/))
-    fireEvent.click(screen.getByText(/Continue →/))
+    await renderAndWait()
+    selectNativeAndContinue()
+    selectTargetAndContinue()
+    selectLevelAndContinue()
     fireEvent.click(screen.getByText('Male'))
 
     await act(async () => {
@@ -177,13 +168,10 @@ describe('OnboardingPage', () => {
   })
 
   test('TC-FE-071: Finish navigates to language page', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
-    fireEvent.click(screen.getByText(/A1 — Complete beginner/))
-    fireEvent.click(screen.getByText(/Continue →/))
+    await renderAndWait()
+    selectNativeAndContinue()
+    selectTargetAndContinue()
+    selectLevelAndContinue()
     fireEvent.click(screen.getByText('Male'))
 
     await act(async () => {
@@ -196,27 +184,21 @@ describe('OnboardingPage', () => {
   })
 
   test('TC-FE-072: Back button goes to previous step', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
-    // Go to step 2
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
-    expect(screen.getByText(/your Thai level/i)).toBeInTheDocument()
-
-    // Go back
-    fireEvent.click(screen.getByText(/Back/))
+    await renderAndWait()
+    selectNativeAndContinue()
+    // Now on step 1 (target language)
     expect(screen.getByText(/What language do you want/)).toBeInTheDocument()
+
+    // Go back to step 0
+    fireEvent.click(screen.getByText(/Back/))
+    expect(screen.getByText(/Your language/)).toBeInTheDocument()
   })
 
   test('TC-FE-073: Progress bar updates per step', async () => {
-    await act(async () => { render(<OnboardingPage />) })
-    await waitFor(() => expect(screen.getByText('Thai')).toBeInTheDocument())
-
+    await renderAndWait()
     expect(screen.getByText(/Step 1 of/)).toBeInTheDocument()
 
-    fireEvent.click(screen.getByText('Thai').closest('button')!)
-    fireEvent.click(screen.getByText(/Continue →/))
+    selectNativeAndContinue()
     expect(screen.getByText(/Step 2 of/)).toBeInTheDocument()
   })
 

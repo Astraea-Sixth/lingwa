@@ -7,6 +7,9 @@ import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
 import ExerciseCard from '@/components/ExerciseCard'
 
+// Disable shuffle so options stay in order for predictable tests
+const mockRandom = jest.spyOn(Math, 'random').mockReturnValue(0.99)
+
 const baseExercise = {
   type: 'native_to_target' as const,
   question: 'How do you say "Hello" in Thai?',
@@ -34,9 +37,19 @@ const defaultProps = {
   totalExercises: 5,
 }
 
+/** Click the option button that contains the given text */
+function clickOption(text: string) {
+  // Options are rendered as buttons with the text inside a span
+  const allButtons = screen.getAllByRole('button')
+  const match = allButtons.find(b => b.textContent?.includes(text))
+  if (!match) throw new Error(`No button found containing "${text}"`)
+  fireEvent.click(match)
+}
+
 describe('ExerciseCard', () => {
   beforeEach(() => {
     jest.clearAllMocks()
+    mockRandom.mockReturnValue(0.99) // keep original order
     // Set gender in localStorage
     window.localStorage.setItem('lingwa_gender_th', 'male')
   })
@@ -67,20 +80,16 @@ describe('ExerciseCard', () => {
   test('TC-FE-007: Calls onAnswer(true) on correct selection', () => {
     const onAnswer = jest.fn()
     render(<ExerciseCard {...defaultProps} onAnswer={onAnswer} />)
-    // Click first option (correct)
-    const buttons = screen.getAllByRole('button')
-    const optionButtons = buttons.filter(b => b.textContent?.includes('สวัสดี') && b.textContent?.includes('A'))
-    fireEvent.click(optionButtons[0])
+    // The correct answer is 'สวัสดี' (index 0 in options, shuffle disabled)
+    clickOption('สวัสดี')
     expect(onAnswer).toHaveBeenCalledWith(true)
   })
 
   test('TC-FE-008: Calls onAnswer(false) on wrong selection', () => {
     const onAnswer = jest.fn()
     render(<ExerciseCard {...defaultProps} onAnswer={onAnswer} />)
-    // Click second option (wrong)
-    const buttons = screen.getAllByRole('button')
-    const wrongButton = buttons.find(b => b.textContent?.includes('B') && b.textContent?.includes('ขอบคุณ'))
-    if (wrongButton) fireEvent.click(wrongButton)
+    // Click a wrong answer
+    clickOption('ขอบคุณ')
     expect(onAnswer).toHaveBeenCalledWith(false)
   })
 
@@ -88,9 +97,7 @@ describe('ExerciseCard', () => {
     const onNext = jest.fn()
     render(<ExerciseCard {...defaultProps} onNext={onNext} />)
     // Answer first
-    const buttons = screen.getAllByRole('button')
-    const optionButton = buttons.find(b => b.textContent?.includes('A'))
-    if (optionButton) fireEvent.click(optionButton)
+    clickOption('สวัสดี')
     // Click continue
     const continueBtn = screen.getByText(/Continue/)
     fireEvent.click(continueBtn)
@@ -100,9 +107,7 @@ describe('ExerciseCard', () => {
   test('TC-FE-011: Last exercise shows "Complete Lesson"', () => {
     render(<ExerciseCard {...defaultProps} isLast={true} />)
     // Answer to show feedback
-    const buttons = screen.getAllByRole('button')
-    const optionButton = buttons.find(b => b.textContent?.includes('A'))
-    if (optionButton) fireEvent.click(optionButton)
+    clickOption('สวัสดี')
     expect(screen.getByText(/Complete Lesson/)).toBeInTheDocument()
   })
 
@@ -119,9 +124,7 @@ describe('ExerciseCard', () => {
   test('TC-FE-016: Resets state on new exercise prop', () => {
     const { rerender } = render(<ExerciseCard {...defaultProps} />)
     // Answer
-    const buttons = screen.getAllByRole('button')
-    const optionButton = buttons.find(b => b.textContent?.includes('A'))
-    if (optionButton) fireEvent.click(optionButton)
+    clickOption('สวัสดี')
 
     // New exercise
     rerender(<ExerciseCard {...defaultProps} exercise={{
@@ -155,9 +158,7 @@ describe('ExerciseCard', () => {
 
   test('TC-FE-019: Explanation text shown after answer', () => {
     render(<ExerciseCard {...defaultProps} />)
-    const buttons = screen.getAllByRole('button')
-    const optionButton = buttons.find(b => b.textContent?.includes('A'))
-    if (optionButton) fireEvent.click(optionButton)
+    clickOption('สวัสดี')
     expect(screen.getByText(/sawadee/)).toBeInTheDocument()
   })
 })

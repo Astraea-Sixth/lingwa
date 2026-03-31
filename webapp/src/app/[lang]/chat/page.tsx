@@ -1,14 +1,11 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 import VoiceChat from '@/components/VoiceChat'
 import { getLanguageProgress } from '@/lib/progress'
 import { resolveText, getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
-import { getUser } from '@/lib/auth'
-import { loadApiKeys, saveApiKeys, type ApiKeys } from '@/lib/cloudProgress'
 
 function getTutorName(lang: string): string {
   if (typeof window === 'undefined') return 'Your Tutor'
@@ -55,94 +52,12 @@ function buildChatMode(lang: string, unit: string | null, mode: string | null, t
   return ''
 }
 
-const PROVIDERS = [
-  { key: 'anthropic' as const, label: 'Anthropic', placeholder: 'sk-ant-...' },
-  { key: 'openai' as const, label: 'OpenAI', placeholder: 'sk-...' },
-  { key: 'google' as const, label: 'Google AI', placeholder: 'AIza...' },
-  { key: 'groq' as const, label: 'Groq', placeholder: 'gsk_...' },
-]
-
-function BYOKModal({ onClose, userId }: { onClose: () => void; userId: string }) {
-  const [keys, setKeys] = useState<ApiKeys>({})
-  const [saving, setSaving] = useState(false)
-  const [loaded, setLoaded] = useState(false)
-
-  useEffect(() => {
-    loadApiKeys(userId).then(k => {
-      setKeys(k)
-      setLoaded(true)
-    })
-  }, [userId])
-
-  async function handleSave() {
-    setSaving(true)
-    await saveApiKeys(userId, keys)
-    // Also cache in localStorage for immediate use
-    localStorage.setItem('lingwa_api_keys', JSON.stringify(keys))
-    setSaving(false)
-    onClose()
-  }
-
-  if (!loaded) return null
-
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.7)' }}>
-      <motion.div
-        initial={{ scale: 0.9, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        className="mx-4 p-6 rounded-2xl max-w-md w-full"
-        style={{ background: 'var(--surface)', border: '2px solid var(--border)' }}
-      >
-        <h2 className="font-black text-lg mb-1">AI Provider Keys</h2>
-        <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
-          Add at least one key to enable AI chat. Keys are stored securely in your account.
-        </p>
-
-        <div className="space-y-3">
-          {PROVIDERS.map(p => (
-            <div key={p.key}>
-              <label className="text-xs font-semibold mb-1 block" style={{ color: 'var(--text-muted)' }}>
-                {p.label}
-              </label>
-              <input
-                type="password"
-                placeholder={p.placeholder}
-                value={keys[p.key] || ''}
-                onChange={e => setKeys(prev => ({ ...prev, [p.key]: e.target.value }))}
-                className="w-full px-3 py-2.5 rounded-xl text-sm outline-none"
-                style={{ background: 'var(--bg)', border: '2px solid var(--border)', color: 'var(--text)' }}
-              />
-            </div>
-          ))}
-        </div>
-
-        <div className="flex gap-3 mt-5">
-          <button
-            onClick={onClose}
-            className="flex-1 py-3 rounded-xl font-bold text-sm border-2"
-            style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}
-          >
-            Cancel
-          </button>
-          <button
-            onClick={handleSave}
-            disabled={saving}
-            className="flex-1 py-3 rounded-xl font-bold text-sm text-white disabled:opacity-40"
-            style={{ background: 'var(--green)' }}
-          >
-            {saving ? 'Saving...' : 'Save'}
-          </button>
-        </div>
-      </motion.div>
-    </div>
-  )
-}
-
 export default function ChatPage() {
   const params = useParams()
   const router = useRouter()
   const searchParams = useSearchParams()
   const lang = params.lang as string
+  const hosted = isHostedMode()
 
   const unit = searchParams.get('unit')
   const mode = searchParams.get('mode')
@@ -172,42 +87,61 @@ export default function ChatPage() {
     router.push(`/${lang}`)
   }
 
-  // BYOK modal state (hosted mode only)
-  const [showBYOK, setShowBYOK] = useState(false)
-  const [userId, setUserId] = useState<string | null>(null)
-  const [hasKey, setHasKey] = useState(true) // assume true until checked
+  // In hosted mode, show locked screen
+  if (hosted) {
+    return (
+      <main className="min-h-screen overflow-hidden" style={{ background: 'var(--bg)' }}>
+        <header className="border-b sticky top-0 z-10 backdrop-blur-sm" style={{ borderColor: 'var(--border)', background: 'rgba(19,31,36,0.95)' }}>
+          <div className="max-w-3xl mx-auto px-6 py-4 flex items-center gap-3">
+            <button
+              onClick={() => router.back()}
+              style={{ color: 'var(--text-muted)' }}
+              className="hover:text-white transition-colors"
+            >
+              ←
+            </button>
+            <div className="flex-1">
+              <p className="font-bold text-white">AI Tutor</p>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Conversation Practice</p>
+            </div>
+          </div>
+        </header>
 
-  useEffect(() => {
-    if (!isHostedMode()) return
-    getUser().then(user => {
-      if (user) {
-        setUserId(user.id)
-        // Check if user has any API key saved locally
-        try {
-          const cached = localStorage.getItem('lingwa_api_keys')
-          if (cached) {
-            const keys: ApiKeys = JSON.parse(cached)
-            const any = Object.values(keys).some(v => v && v.length > 0)
-            setHasKey(any)
-            if (!any) setShowBYOK(true)
-          } else {
-            // Load from cloud
-            loadApiKeys(user.id).then(keys => {
-              const any = Object.values(keys).some(v => v && v.length > 0)
-              if (any) {
-                localStorage.setItem('lingwa_api_keys', JSON.stringify(keys))
-              }
-              setHasKey(any)
-              if (!any) setShowBYOK(true)
-            })
-          }
-        } catch {
-          setHasKey(false)
-          setShowBYOK(true)
-        }
-      }
-    })
-  }, [])
+        <div className="flex flex-col items-center justify-center px-6 py-20">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            className="text-center max-w-sm"
+          >
+            <div
+              className="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl mx-auto mb-6"
+              style={{ background: 'var(--surface)', border: '2px solid var(--border)' }}
+            >
+              🔒
+            </div>
+            <h2 className="text-2xl font-black mb-3">AI Tutor — Coming Soon</h2>
+            <p className="text-sm leading-relaxed mb-8" style={{ color: 'var(--text-muted)' }}>
+              Self-host Lingwa with Ollama to unlock AI conversation practice.
+              It&apos;s free, private, and runs entirely on your machine.
+            </p>
+            <a
+              href="https://github.com/openclawai/lingwa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl font-bold text-sm transition-all"
+              style={{ background: 'var(--surface)', border: '2px solid var(--border)', color: 'var(--text)' }}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              View on GitHub →
+            </a>
+          </motion.div>
+        </div>
+      </main>
+    )
+  }
 
   return (
     <main className="min-h-screen overflow-hidden" style={{ background: 'var(--bg)' }}>
@@ -230,15 +164,6 @@ export default function ChatPage() {
             <p className="font-bold text-white">{tutorName}</p>
             <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{headerSubtitle}</p>
           </div>
-          {isHostedMode() && (
-            <button
-              onClick={() => setShowBYOK(true)}
-              className="text-xs px-3 py-1.5 rounded-lg font-semibold"
-              style={{ background: 'var(--surface2)', color: 'var(--text-muted)' }}
-            >
-              API Keys
-            </button>
-          )}
         </div>
       </header>
 
@@ -254,23 +179,6 @@ export default function ChatPage() {
         chatModeKey={chatModeKey}
         onComplete={handleComplete}
       />
-
-      {showBYOK && userId && (
-        <BYOKModal
-          userId={userId}
-          onClose={() => {
-            setShowBYOK(false)
-            // Re-check keys
-            try {
-              const cached = localStorage.getItem('lingwa_api_keys')
-              if (cached) {
-                const keys: ApiKeys = JSON.parse(cached)
-                setHasKey(Object.values(keys).some(v => v && v.length > 0))
-              }
-            } catch { /* ignore */ }
-          }}
-        />
-      )}
     </main>
   )
 }

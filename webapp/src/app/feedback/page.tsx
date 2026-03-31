@@ -10,6 +10,7 @@ import { getUser } from '@/lib/auth'
 export default function FeedbackPage() {
   const router = useRouter()
   const [text, setText] = useState('')
+  const [type, setType] = useState('general')
   const [sending, setSending] = useState(false)
   const [sent, setSent] = useState(false)
   const [error, setError] = useState('')
@@ -31,13 +32,14 @@ export default function FeedbackPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!text.trim() || !userId || !supabase) return
+    if (!text.trim() || text.trim().length < 10 || !userId || !supabase) return
     setSending(true)
     setError('')
 
     const { error: err } = await supabase.from('feedback').insert({
       user_id: userId,
       message: text.trim(),
+      type,
       created_at: new Date().toISOString(),
     })
 
@@ -76,10 +78,10 @@ export default function FeedbackPage() {
         >
           {sent ? (
             <div className="text-center space-y-3">
-              <div className="text-4xl">🙏</div>
-              <p className="font-bold text-lg">Thank you!</p>
+              <div className="text-4xl">💚</div>
+              <p className="font-bold text-lg">Thanks! We read every single one.</p>
               <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                Your feedback helps us improve lingwa.
+                Your feedback helps us make lingwa better for everyone.
               </p>
               <button
                 onClick={() => router.back()}
@@ -93,6 +95,30 @@ export default function FeedbackPage() {
               <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
                 Bug reports, feature requests, or just saying hi — we read everything.
               </p>
+
+              {/* Type selector */}
+              <div className="flex gap-2">
+                {[
+                  { value: 'general', label: 'General' },
+                  { value: 'bug', label: 'Bug Report' },
+                  { value: 'feature', label: 'Feature Request' },
+                ].map(opt => (
+                  <button
+                    key={opt.value}
+                    type="button"
+                    onClick={() => setType(opt.value)}
+                    className="flex-1 py-2.5 rounded-xl text-xs font-bold transition-all"
+                    style={{
+                      background: type === opt.value ? 'rgba(88,204,2,0.12)' : 'var(--surface)',
+                      border: `2px solid ${type === opt.value ? 'var(--green)' : 'var(--border)'}`,
+                      color: type === opt.value ? 'var(--green)' : 'var(--text-muted)',
+                    }}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+
               <textarea
                 value={text}
                 onChange={e => setText(e.target.value)}
@@ -109,9 +135,14 @@ export default function FeedbackPage() {
               {error && (
                 <p className="text-sm" style={{ color: 'var(--red)' }}>{error}</p>
               )}
+              {text.trim().length > 0 && text.trim().length < 10 && (
+                <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                  Please write at least 10 characters ({10 - text.trim().length} more)
+                </p>
+              )}
               <button
                 type="submit"
-                disabled={sending || !text.trim()}
+                disabled={sending || text.trim().length < 10}
                 className="btn-green w-full py-3"
               >
                 {sending ? 'Sending...' : 'Send feedback'}
