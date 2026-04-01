@@ -31,7 +31,12 @@ export default function AuthPage() {
     setError('')
     const result = await signInWithEmail(email)
     if (result?.error) {
-      setError(typeof result.error === 'string' ? result.error : 'Failed to send link')
+      const err = result.error
+      const msg = typeof err === 'string' ? err
+        : (err.message?.includes('rate') || err.status === 429)
+          ? "Too many requests — please try Google Sign-In instead, or try again in a few minutes."
+          : err.message || 'Failed to send link'
+      setError(msg)
       setLoading(false)
     } else {
       setSent(true)
@@ -122,6 +127,9 @@ export default function AuthPage() {
                   border: '2px solid var(--border)',
                 }}
               />
+              <p className="text-xs text-center" style={{ color: 'var(--text-muted)', opacity: 0.7 }}>
+                Email sign-in may be slow. Google is recommended.
+              </p>
               <button
                 type="submit"
                 disabled={loading || !email || !agreed}

@@ -60,7 +60,11 @@ const translations: Record<string, Record<string, string>> = {
     pronunciationGood: 'Good job! Almost there — try again for a perfect score.',
     pronunciationClose: 'Keep practicing — listen and try to match the sound.',
     pronunciationTryAgain: "I couldn't quite catch that — try speaking a bit more clearly.",
-    speechNotSupported: 'Please use Chrome or Safari for pronunciation practice.',
+    speechNotSupported: 'Speech recognition requires Chrome or Safari. Please open lingwa.world in one of those browsers.',
+    speechPermissionDenied: 'Microphone access was blocked. Please allow microphone in your browser settings.',
+    speechNoInput: "No speech detected — tap the mic and try speaking closer to it.",
+    speechNetworkError: 'Speech recognition needs an internet connection. Please check your network.',
+    speechBrowserHint: 'Works on Chrome & Safari',
 
     // LessonTeach
     lessonVocabulary: 'Lesson vocabulary',

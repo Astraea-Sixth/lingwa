@@ -10,7 +10,11 @@ export async function signInWithGoogle() {
 
 export async function signInWithEmail(email: string) {
   if (!supabase) return { error: 'Supabase not configured' }
-  return supabase.auth.signInWithOtp({ email })
+  const result = await supabase.auth.signInWithOtp({ email })
+  if (result.error) {
+    console.debug('[Lingwa Auth] Magic link error:', result.error.message, result.error.status)
+  }
+  return result
 }
 
 export async function signOut() {

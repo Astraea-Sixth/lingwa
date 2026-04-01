@@ -7,7 +7,7 @@ import { resolveMeaning, getGender, getNativeLang, type Gender } from '@/lib/res
 import { t } from '@/lib/i18n'
 import { AudioRecorder } from '@/lib/audioRecorder'
 import { isHostedMode } from '@/lib/supabase'
-import { recognizeSpeech, isSpeechRecognitionSupported } from '@/lib/speechRecognition'
+import { recognizeSpeech, isSpeechRecognitionSupported, SpeechRecognitionError } from '@/lib/speechRecognition'
 import { scorePronunciation } from '@/lib/pronunciationScore'
 
 // ─── Types ───
@@ -188,11 +188,22 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           advanceToNext()
         }, 1500)
       }
-    } catch {
+    } catch (err) {
       if (mountedRef.current) {
         setIsRecording(false)
-        setFeedback(t('somethingWrong', nativeLang))
         setIsProcessing(false)
+        if (err instanceof SpeechRecognitionError) {
+          const msgKey: Record<string, string> = {
+            'permission-denied': 'speechPermissionDenied',
+            'no-speech': 'speechNoInput',
+            'network': 'speechNetworkError',
+            'unsupported': 'speechNotSupported',
+            'timeout': 'speechNoInput',
+          }
+          setFeedback(t(msgKey[err.kind] || 'somethingWrong', nativeLang))
+        } else {
+          setFeedback(t('somethingWrong', nativeLang))
+        }
       }
     }
   }
@@ -445,6 +456,13 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           {!isProcessing && !showSuccess && (
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {isRecording ? t('tapToStop', nativeLang) : t('tapToSpeak', nativeLang)}
+            </p>
+          )}
+
+          {/* Browser compatibility hint (hosted mode only) */}
+          {hosted && !isProcessing && !showSuccess && !isRecording && (
+            <p className="text-xs" style={{ color: 'var(--text-muted)', opacity: 0.5 }}>
+              {t('speechBrowserHint', nativeLang)}
             </p>
           )}
 

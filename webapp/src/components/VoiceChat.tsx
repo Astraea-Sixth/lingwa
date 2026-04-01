@@ -7,7 +7,7 @@ import { AudioRecorder } from '@/lib/audioRecorder'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
-import { recognizeSpeech, isSpeechRecognitionSupported } from '@/lib/speechRecognition'
+import { recognizeSpeech, isSpeechRecognitionSupported, SpeechRecognitionError } from '@/lib/speechRecognition'
 import { scorePronunciation } from '@/lib/pronunciationScore'
 
 interface Message {
@@ -184,9 +184,20 @@ export default function VoiceChat({
       speakNongReply(result.feedback || t('tryAgain', nativeLang), lang, nativeLang)
 
       handleSuccessTracking(stars)
-    } catch {
+    } catch (err) {
       setIsListening(false)
-      addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+      if (err instanceof SpeechRecognitionError) {
+        const msgKey: Record<string, string> = {
+          'permission-denied': 'speechPermissionDenied',
+          'no-speech': 'speechNoInput',
+          'network': 'speechNetworkError',
+          'unsupported': 'speechNotSupported',
+          'timeout': 'speechNoInput',
+        }
+        addMessage({ role: 'nong', content: t(msgKey[err.kind] || 'somethingWrong', nativeLang) })
+      } else {
+        addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+      }
     } finally {
       setIsProcessing(false)
     }
@@ -604,6 +615,11 @@ export default function VoiceChat({
           <span className="text-2xl">{isListening ? '⏹' : isProcessing ? '🔍' : '🎙️'}</span>
           {isListening ? t('tapToStop', nativeLang) : isProcessing ? t('analysing', nativeLang) : isSpeaking ? t('isSpeaking', nativeLang, { name: tutorName }) : t('tapToSpeak', nativeLang)}
         </motion.button>
+        {hosted && !isListening && !isProcessing && (
+          <p className="text-center text-xs mt-2" style={{ color: 'var(--text-muted)', opacity: 0.5 }}>
+            {t('speechBrowserHint', nativeLang)}
+          </p>
+        )}
       </div>
     </div>
   )

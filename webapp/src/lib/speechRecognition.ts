@@ -10,6 +10,20 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
+ * Speech recognition error types — lets callers show distinct messages.
+ */
+export type SpeechErrorKind = 'unsupported' | 'permission-denied' | 'no-speech' | 'network' | 'timeout' | 'unknown'
+
+export class SpeechRecognitionError extends Error {
+  kind: SpeechErrorKind
+  constructor(kind: SpeechErrorKind, message: string) {
+    super(message)
+    this.kind = kind
+    this.name = 'SpeechRecognitionError'
+  }
+}
+
+/**
  * Get the BCP-47 locale for speech recognition.
  * Reads from language config in localStorage (same source as TTS).
  */
@@ -44,17 +58,36 @@ export function isSpeechRecognitionSupported(): boolean {
 }
 
 /**
+ * Map Web Speech API error codes to our error kinds.
+ */
+function classifyError(errorCode: string): SpeechErrorKind {
+  switch (errorCode) {
+    case 'not-allowed':
+      return 'permission-denied'
+    case 'no-speech':
+      return 'no-speech'
+    case 'network':
+      return 'network'
+    case 'service-not-allowed':
+      return 'unsupported'
+    default:
+      return 'unknown'
+  }
+}
+
+/**
  * Recognize speech from the microphone using the Web Speech API.
  *
  * @param lang - Lingwa language code (e.g. "th", "ja", "es")
  * @param timeoutMs - Max listening time in milliseconds
  * @returns The recognized transcript string
+ * @throws SpeechRecognitionError with a typed `kind` for the caller to handle
  */
 export function recognizeSpeech(lang: string, timeoutMs: number = 8000): Promise<string> {
   return new Promise((resolve, reject) => {
     const Ctor = getSpeechRecognitionCtor()
     if (!Ctor) {
-      reject(new Error('Speech recognition not supported'))
+      reject(new SpeechRecognitionError('unsupported', 'Speech recognition not supported'))
       return
     }
 
@@ -70,7 +103,7 @@ export function recognizeSpeech(lang: string, timeoutMs: number = 8000): Promise
       if (!settled) {
         settled = true
         recognition.abort()
-        reject(new Error('Speech recognition timed out'))
+        reject(new SpeechRecognitionError('timeout', 'Speech recognition timed out'))
       }
     }, timeoutMs)
 
@@ -86,14 +119,15 @@ export function recognizeSpeech(lang: string, timeoutMs: number = 8000): Promise
       if (settled) return
       settled = true
       clearTimeout(timeout)
-      reject(new Error(`Speech recognition error: ${event.error}`))
+      const kind = classifyError(event.error)
+      reject(new SpeechRecognitionError(kind, `Speech recognition error: ${event.error}`))
     }
 
     recognition.onend = () => {
       if (!settled) {
         settled = true
         clearTimeout(timeout)
-        reject(new Error('Speech recognition ended without result'))
+        reject(new SpeechRecognitionError('no-speech', 'No speech detected — try again'))
       }
     }
 

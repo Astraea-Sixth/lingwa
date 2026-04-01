@@ -201,7 +201,7 @@ export default function CoursePage() {
             )}
           </div>
 
-          {/* Right: streak + XP */}
+          {/* Right: streak + XP + settings */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-1">
               <span className="text-lg">🔥</span>
@@ -213,6 +213,14 @@ export default function CoursePage() {
             >
               ⚡ {xp} XP
             </div>
+            <button
+              onClick={() => router.push(`/${lang}/settings`)}
+              className="hover:brightness-125 transition-all"
+              style={{ color: 'var(--text-muted)', fontSize: '18px', lineHeight: 1 }}
+              aria-label="Settings"
+            >
+              ⚙️
+            </button>
           </div>
         </div>
 
