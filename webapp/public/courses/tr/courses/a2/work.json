@@ -1,0 +1,792 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Jobs & Professions",
+            "zh": "工作和职业",
+            "th": "งานและอาชีพ",
+            "ko": "직업과 직종",
+            "es": "Trabajos y profesiones"
+          },
+          "objectives": {
+            "en": ["Name common jobs and professions in Turkish", "Ask about someone's occupation"],
+            "zh": ["用土耳其语说出常见工作和职业", "询问某人的职业"],
+            "th": ["พูดชื่องานและอาชีพทั่วไปเป็นภาษาตุรกี", "ถามเกี่ยวกับอาชีพของใครบางคน"],
+            "ko": ["터키어로 일반적인 직업 이름 말하기", "누군가의 직업 묻기"],
+            "es": ["Nombrar trabajos y profesiones comunes en turco", "Preguntar sobre la ocupación de alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "doktor",
+              "romanization": null,
+              "meanings": { "en": "doctor", "zh": "医生", "th": "หมอ", "ko": "의사", "es": "médico" }
+            },
+            {
+              "word": "öğretmen",
+              "romanization": null,
+              "meanings": { "en": "teacher", "zh": "老师", "th": "ครู", "ko": "선생님", "es": "profesor/a" }
+            },
+            {
+              "word": "mühendis",
+              "romanization": null,
+              "meanings": { "en": "engineer", "zh": "工程师", "th": "วิศวกร", "ko": "엔지니어", "es": "ingeniero/a" }
+            },
+            {
+              "word": "avukat",
+              "romanization": null,
+              "meanings": { "en": "lawyer", "zh": "律师", "th": "ทนายความ", "ko": "변호사", "es": "abogado/a" }
+            },
+            {
+              "word": "ne iş yapıyorsunuz?",
+              "romanization": null,
+              "meanings": { "en": "What do you do (for work)?", "zh": "你做什么工作?", "th": "คุณทำงานอะไร?", "ko": "무슨 일을 하세요?", "es": "¿A qué se dedica usted?" }
+            },
+            {
+              "word": "çalışmak",
+              "romanization": null,
+              "meanings": { "en": "to work", "zh": "工作", "th": "ทำงาน", "ko": "일하다", "es": "trabajar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am a teacher'?",
+              "options": ["Ben öğretmenim.", "Ben doktorum.", "Ben mühendisim.", "Ben avukatım."],
+              "correct": 0,
+              "explanation": "'Ben öğretmenim' = I am a teacher. In Turkish, you add the suffix '-im/-ım/-üm/-um' after the profession."
+            },
+            {
+              "type": "target_to_native",
+              "word": "avukat",
+              "options": ["lawyer", "doctor", "engineer", "accountant"],
+              "correct": 0,
+              "explanation": "'Avukat' means lawyer — from Arabic 'وكيل' (wakil) via Turkish."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["doktor", "doctor"],
+                ["öğretmen", "teacher"],
+                ["mühendis", "engineer"],
+                ["çalışmak", "to work"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ne iş yapıyorsunuz?",
+              "options": ["What do you do for work?", "Where do you work?", "How long have you worked there?", "Do you like your job?"],
+              "correct": 0,
+              "explanation": "'Ne iş yapıyorsunuz?' = What do you do for work? (polite form)."
+            },
+            {
+              "type": "reorder",
+              "words": ["öğretmenim", "ben"],
+              "correct": ["Ben", "öğretmenim"],
+              "translation": "I am a teacher."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์สำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de oficina"
+          },
+          "objectives": {
+            "en": ["Name office items and areas in Turkish", "Describe the workplace environment"],
+            "zh": ["用土耳其语说出办公室物品和区域", "描述工作环境"],
+            "th": ["พูดชื่อสิ่งของในสำนักงานและพื้นที่เป็นภาษาตุรกี", "อธิบายสภาพแวดล้อมการทำงาน"],
+            "ko": ["터키어로 사무실 물건과 공간 이름 말하기", "직장 환경 묘사하기"],
+            "es": ["Nombrar elementos y áreas de oficina en turco", "Describir el entorno de trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "ofis",
+              "romanization": null,
+              "meanings": { "en": "office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "oficina" }
+            },
+            {
+              "word": "toplantı odası",
+              "romanization": null,
+              "meanings": { "en": "meeting room/conference room", "zh": "会议室", "th": "ห้องประชุม", "ko": "회의실", "es": "sala de reuniones" }
+            },
+            {
+              "word": "bilgisayar",
+              "romanization": null,
+              "meanings": { "en": "computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "computadora/ordenador" }
+            },
+            {
+              "word": "yazıcı",
+              "romanization": null,
+              "meanings": { "en": "printer", "zh": "打印机", "th": "เครื่องพิมพ์", "ko": "프린터", "es": "impresora" }
+            },
+            {
+              "word": "iş arkadaşı",
+              "romanization": null,
+              "meanings": { "en": "colleague/coworker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "colega/compañero de trabajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The meeting is in the conference room'?",
+              "options": ["Toplantı toplantı odasında.", "Toplantı ofiste.", "Toplantı mutfakta.", "Toplantı yarın."],
+              "correct": 0,
+              "explanation": "'Toplantı toplantı odasında' = The meeting is in the conference room."
+            },
+            {
+              "type": "target_to_native",
+              "word": "iş arkadaşı",
+              "options": ["colleague/coworker", "friend", "boss", "client"],
+              "correct": 0,
+              "explanation": "'İş arkadaşı' = work colleague. 'İş' = work, 'arkadaş' = friend/companion."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ofis", "office"],
+                ["bilgisayar", "computer"],
+                ["yazıcı", "printer"],
+                ["iş arkadaşı", "colleague"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Toplantı saat ikide toplantı odasında.",
+              "options": ["The meeting is at two o'clock in the conference room.", "The office is closed at two.", "The printer is in the meeting room.", "My colleague arrives at two."],
+              "correct": 0,
+              "explanation": "'Saat ikide' = at two o'clock, 'toplantı odasında' = in the meeting room."
+            },
+            {
+              "type": "reorder",
+              "words": ["toplantı", "odasında", "toplantı"],
+              "correct": ["Toplantı", "toplantı", "odasında"],
+              "translation": "The meeting is in the conference room."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Work Schedule",
+            "zh": "工作时间表",
+            "th": "ตารางการทำงาน",
+            "ko": "업무 일정",
+            "es": "Horario de trabajo"
+          },
+          "objectives": {
+            "en": ["Discuss work hours and schedules in Turkish", "Make and cancel appointments"],
+            "zh": ["用土耳其语讨论工作时间和日程", "预约和取消预约"],
+            "th": ["พูดคุยเกี่ยวกับเวลาทำงานและตารางงานเป็นภาษาตุรกี", "นัดหมายและยกเลิกนัด"],
+            "ko": ["터키어로 근무 시간과 일정 이야기하기", "약속 잡고 취소하기"],
+            "es": ["Hablar de horarios de trabajo en turco", "Hacer y cancelar citas"]
+          },
+          "vocabulary": [
+            {
+              "word": "mesai saatleri",
+              "romanization": null,
+              "meanings": { "en": "working hours/business hours", "zh": "工作时间", "th": "เวลาทำงาน", "ko": "근무 시간", "es": "horario de trabajo" }
+            },
+            {
+              "word": "toplantı",
+              "romanization": null,
+              "meanings": { "en": "meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "reunión" }
+            },
+            {
+              "word": "iptal etmek",
+              "romanization": null,
+              "meanings": { "en": "to cancel", "zh": "取消", "th": "ยกเลิก", "ko": "취소하다", "es": "cancelar" }
+            },
+            {
+              "word": "erken",
+              "romanization": null,
+              "meanings": { "en": "early", "zh": "早", "th": "เร็ว/ก่อนเวลา", "ko": "일찍", "es": "temprano" }
+            },
+            {
+              "word": "geç kalmak",
+              "romanization": null,
+              "meanings": { "en": "to be late", "zh": "迟到", "th": "สาย", "ko": "늦다", "es": "llegar tarde" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am late for the meeting'?",
+              "options": ["Toplantıya geç kaldım.", "Toplantı iptal edildi.", "Toplantı erken başladı.", "Toplantıya gitmiyorum."],
+              "correct": 0,
+              "explanation": "'Toplantıya geç kaldım' = I am late for the meeting."
+            },
+            {
+              "type": "target_to_native",
+              "word": "iptal etmek",
+              "options": ["to cancel", "to postpone", "to schedule", "to confirm"],
+              "correct": 0,
+              "explanation": "'İptal etmek' means to cancel — from Arabic 'إبطال' (ibtal)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["toplantı", "meeting"],
+                ["iptal etmek", "to cancel"],
+                ["erken", "early"],
+                ["geç kalmak", "to be late"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Toplantıyı iptal etmek zorundayım.",
+              "options": ["I have to cancel the meeting.", "The meeting starts early.", "I will be late to the meeting.", "The meeting is tomorrow."],
+              "correct": 0,
+              "explanation": "'İptal etmek zorundayım' = I have to cancel."
+            },
+            {
+              "type": "reorder",
+              "words": ["mesai", "saatlerim", "dokuzdan", "beşe"],
+              "correct": ["Mesai", "saatlerim", "dokuzdan", "beşe"],
+              "translation": "My working hours are from nine to five."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Business Communication",
+        "zh": "商业沟通",
+        "th": "การสื่อสารทางธุรกิจ",
+        "ko": "비즈니스 커뮤니케이션",
+        "es": "Comunicación empresarial"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Emails & Phone Calls",
+            "zh": "电子邮件和电话",
+            "th": "อีเมลและโทรศัพท์",
+            "ko": "이메일과 전화",
+            "es": "Correos electrónicos y llamadas"
+          },
+          "objectives": {
+            "en": ["Write simple business emails and make calls in Turkish", "Use formal and polite language"],
+            "zh": ["用土耳其语写简单的商业邮件和打电话", "使用正式和礼貌的语言"],
+            "th": ["เขียนอีเมลธุรกิจง่ายๆ และโทรศัพท์เป็นภาษาตุรกี", "ใช้ภาษาที่เป็นทางการและสุภาพ"],
+            "ko": ["터키어로 간단한 비즈니스 이메일 쓰고 전화하기", "공식적이고 정중한 언어 사용하기"],
+            "es": ["Escribir correos y hacer llamadas de trabajo en turco", "Usar lenguaje formal y cortés"]
+          },
+          "vocabulary": [
+            {
+              "word": "e-posta",
+              "romanization": null,
+              "meanings": { "en": "email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "correo electrónico" }
+            },
+            {
+              "word": "aramak",
+              "romanization": null,
+              "meanings": { "en": "to call (phone)", "zh": "打电话", "th": "โทรหา", "ko": "전화하다", "es": "llamar" }
+            },
+            {
+              "word": "sayın",
+              "romanization": null,
+              "meanings": { "en": "dear/honorable (formal salutation)", "zh": "尊敬的", "th": "เรียน (คำทักทายอย่างเป็นทางการ)", "ko": "존경하는/귀중한 (공식 경칭)", "es": "estimado/a (saludo formal)" }
+            },
+            {
+              "word": "saygılarımla",
+              "romanization": null,
+              "meanings": { "en": "with respect / regards (email closing)", "zh": "敬上", "th": "ด้วยความเคารพ", "ko": "경의를 표하며 (이메일 마무리)", "es": "con respeto / atentamente (cierre de email)" }
+            },
+            {
+              "word": "geri dönmek",
+              "romanization": null,
+              "meanings": { "en": "to return (a call/email)", "zh": "回复", "th": "ตอบกลับ", "ko": "회신하다", "es": "responder/devolver (una llamada)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you start a formal email in Turkish?",
+              "options": ["Sayın ...,", "Merhaba ...,", "İyi günler ...,", "Selam ...,"],
+              "correct": 0,
+              "explanation": "'Sayın' is the formal salutation for Turkish business emails, equivalent to 'Dear'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "saygılarımla",
+              "options": ["with respect/regards", "yours sincerely", "best wishes", "kind regards"],
+              "correct": 0,
+              "explanation": "'Saygılarımla' = with my respects — the standard closing for formal Turkish emails."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["e-posta", "email"],
+                ["aramak", "to call"],
+                ["sayın", "dear (formal)"],
+                ["geri dönmek", "to return a call"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "En kısa sürede size geri döneceğim.",
+              "options": ["I will get back to you as soon as possible.", "Please reply to my email.", "Can I call you tomorrow?", "The office is closed today."],
+              "correct": 0,
+              "explanation": "'En kısa sürede' = as soon as possible, 'geri döneceğim' = I will return/reply."
+            },
+            {
+              "type": "reorder",
+              "words": ["e-postanıza", "döneceğim", "geri"],
+              "correct": ["E-postanıza", "geri", "döneceğim"],
+              "translation": "I will reply to your email."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "In a Meeting",
+            "zh": "在会议中",
+            "th": "ในการประชุม",
+            "ko": "회의 중",
+            "es": "En una reunión"
+          },
+          "objectives": {
+            "en": ["Participate in business meetings in Turkish", "Agree, disagree, and make suggestions"],
+            "zh": ["用土耳其语参加商务会议", "同意、反对和提出建议"],
+            "th": ["เข้าร่วมการประชุมทางธุรกิจเป็นภาษาตุรกี", "เห็นด้วย ไม่เห็นด้วย และเสนอแนะ"],
+            "ko": ["터키어로 비즈니스 회의 참여하기", "동의, 반대, 제안하기"],
+            "es": ["Participar en reuniones de negocios en turco", "Estar de acuerdo, en desacuerdo y hacer sugerencias"]
+          },
+          "vocabulary": [
+            {
+              "word": "gündem",
+              "romanization": null,
+              "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의제/안건", "es": "agenda/orden del día" }
+            },
+            {
+              "word": "önermek",
+              "romanization": null,
+              "meanings": { "en": "to suggest/propose", "zh": "建议/提议", "th": "เสนอแนะ", "ko": "제안하다", "es": "sugerir/proponer" }
+            },
+            {
+              "word": "katılıyorum",
+              "romanization": null,
+              "meanings": { "en": "I agree", "zh": "我同意", "th": "ฉันเห็นด้วย", "ko": "동의합니다", "es": "estoy de acuerdo" }
+            },
+            {
+              "word": "rapor",
+              "romanization": null,
+              "meanings": { "en": "report", "zh": "报告", "th": "รายงาน", "ko": "보고서", "es": "informe" }
+            },
+            {
+              "word": "karar vermek",
+              "romanization": null,
+              "meanings": { "en": "to make a decision", "zh": "做决定", "th": "ตัดสินใจ", "ko": "결정하다", "es": "tomar una decisión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I suggest we start with the report'?",
+              "options": ["Raporla başlamamızı öneririm.", "Raporu bitirmeliyiz.", "Kararı vermeliyiz.", "Gündem nedir?"],
+              "correct": 0,
+              "explanation": "'Raporla başlamamızı öneririm' = I suggest we start with the report."
+            },
+            {
+              "type": "target_to_native",
+              "word": "katılıyorum",
+              "options": ["I agree", "I disagree", "I suggest", "I decide"],
+              "correct": 0,
+              "explanation": "'Katılıyorum' = I agree. From 'katılmak' = to join/agree."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["gündem", "agenda"],
+                ["önermek", "to suggest"],
+                ["rapor", "report"],
+                ["karar vermek", "to decide"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Gündemin ilk maddesi nedir?",
+              "options": ["What is the first item on the agenda?", "When does the meeting start?", "Who is attending the meeting?", "Have you read the report?"],
+              "correct": 0,
+              "explanation": "'Gündemin ilk maddesi' = the first item on the agenda."
+            },
+            {
+              "type": "reorder",
+              "words": ["katılıyorum", "bu", "fikirle"],
+              "correct": ["Bu", "fikirle", "katılıyorum"],
+              "translation": "I agree with this idea."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Describing Your Work",
+            "zh": "描述你的工作",
+            "th": "การอธิบายงานของคุณ",
+            "ko": "자신의 업무 설명하기",
+            "es": "Describir tu trabajo"
+          },
+          "objectives": {
+            "en": ["Describe your job responsibilities in Turkish", "Talk about work tasks and projects"],
+            "zh": ["用土耳其语描述工作职责", "谈论工作任务和项目"],
+            "th": ["อธิบายความรับผิดชอบในงานเป็นภาษาตุรกี", "พูดคุยเกี่ยวกับงานและโครงการ"],
+            "ko": ["터키어로 직무 설명하기", "업무와 프로젝트에 대해 이야기하기"],
+            "es": ["Describir tus responsabilidades laborales en turco", "Hablar de tareas y proyectos de trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "görev",
+              "romanization": null,
+              "meanings": { "en": "task/duty/mission", "zh": "任务/职责", "th": "งาน/หน้าที่", "ko": "임무/업무", "es": "tarea/deber/misión" }
+            },
+            {
+              "word": "proje",
+              "romanization": null,
+              "meanings": { "en": "project", "zh": "项目", "th": "โครงการ", "ko": "프로젝트", "es": "proyecto" }
+            },
+            {
+              "word": "sorumlu olmak",
+              "romanization": null,
+              "meanings": { "en": "to be responsible for", "zh": "负责", "th": "รับผิดชอบ", "ko": "책임지다", "es": "ser responsable de" }
+            },
+            {
+              "word": "tamamlamak",
+              "romanization": null,
+              "meanings": { "en": "to complete/finish", "zh": "完成", "th": "ทำให้เสร็จ", "ko": "완료하다", "es": "completar/terminar" }
+            },
+            {
+              "word": "son tarih",
+              "romanization": null,
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดส่ง", "ko": "마감일", "es": "fecha límite/plazo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am responsible for this project'?",
+              "options": ["Bu projeden sorumluyum.", "Bu projeyi bitirdim.", "Bu proje zor.", "Proje son tarihi nedir?"],
+              "correct": 0,
+              "explanation": "'Bu projeden sorumluyum' = I am responsible for this project."
+            },
+            {
+              "type": "target_to_native",
+              "word": "son tarih",
+              "options": ["deadline", "start date", "meeting date", "holiday"],
+              "correct": 0,
+              "explanation": "'Son tarih' = deadline. 'Son' = last/final, 'tarih' = date."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["görev", "task/duty"],
+                ["proje", "project"],
+                ["tamamlamak", "to complete"],
+                ["son tarih", "deadline"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Projeyi son tarihe kadar tamamlamalıyız.",
+              "options": ["We must complete the project by the deadline.", "The project deadline has passed.", "This project is very difficult.", "When is the project deadline?"],
+              "correct": 0,
+              "explanation": "'Son tarihe kadar' = by the deadline, 'tamamlamalıyız' = we must complete."
+            },
+            {
+              "type": "reorder",
+              "words": ["görevi", "tamamladım"],
+              "correct": ["Görevi", "tamamladım"],
+              "translation": "I completed the task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Career Development",
+        "zh": "职业发展",
+        "th": "การพัฒนาอาชีพ",
+        "ko": "커리어 개발",
+        "es": "Desarrollo profesional"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "求职面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Prepare for a job interview in Turkish", "Talk about qualifications and experience"],
+            "zh": ["用土耳其语准备面试", "谈论资格和经验"],
+            "th": ["เตรียมตัวสัมภาษณ์งานเป็นภาษาตุรกี", "พูดคุยเกี่ยวกับคุณสมบัติและประสบการณ์"],
+            "ko": ["터키어로 취업 면접 준비하기", "자격과 경험에 대해 이야기하기"],
+            "es": ["Prepararse para una entrevista de trabajo en turco", "Hablar de cualificaciones y experiencia"]
+          },
+          "vocabulary": [
+            {
+              "word": "mülakat",
+              "romanization": null,
+              "meanings": { "en": "interview", "zh": "面试", "th": "การสัมภาษณ์", "ko": "인터뷰/면접", "es": "entrevista" }
+            },
+            {
+              "word": "özgeçmiş",
+              "romanization": null,
+              "meanings": { "en": "résumé/CV", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "currículum" }
+            },
+            {
+              "word": "deneyim",
+              "romanization": null,
+              "meanings": { "en": "experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "experiencia" }
+            },
+            {
+              "word": "yetenek",
+              "romanization": null,
+              "meanings": { "en": "skill/talent", "zh": "技能/才能", "th": "ทักษะ/ความสามารถ", "ko": "기술/재능", "es": "habilidad/talento" }
+            },
+            {
+              "word": "işe başlamak",
+              "romanization": null,
+              "meanings": { "en": "to start a job", "zh": "开始工作", "th": "เริ่มงาน", "ko": "일을 시작하다", "es": "empezar a trabajar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have five years of experience'?",
+              "options": ["Beş yıl deneyimim var.", "Beş yıldır çalışıyorum.", "Beş yıl önce işe başladım.", "Beş yıllık bir özgeçmişim var."],
+              "correct": 0,
+              "explanation": "'Beş yıl deneyimim var' = I have five years of experience."
+            },
+            {
+              "type": "target_to_native",
+              "word": "özgeçmiş",
+              "options": ["résumé/CV", "cover letter", "certificate", "business card"],
+              "correct": 0,
+              "explanation": "'Özgeçmiş' means résumé or CV — literally 'life summary'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["mülakat", "interview"],
+                ["özgeçmiş", "résumé/CV"],
+                ["deneyim", "experience"],
+                ["yetenek", "skill"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Mülakata gelmeden önce özgeçmişinizi gönderin.",
+              "options": ["Please send your CV before coming to the interview.", "The interview starts at nine o'clock.", "Do you have any work experience?", "When can you start working?"],
+              "correct": 0,
+              "explanation": "'Mülakata gelmeden önce' = before coming to the interview, 'özgeçmişinizi gönderin' = send your CV."
+            },
+            {
+              "type": "reorder",
+              "words": ["deneyimim", "beş", "yıl", "var"],
+              "correct": ["Beş", "yıl", "deneyimim", "var"],
+              "translation": "I have five years of experience."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Salaries & Benefits",
+            "zh": "薪资和福利",
+            "th": "เงินเดือนและสวัสดิการ",
+            "ko": "급여와 복리후생",
+            "es": "Salarios y beneficios"
+          },
+          "objectives": {
+            "en": ["Discuss salary and workplace benefits in Turkish", "Negotiate work conditions"],
+            "zh": ["用土耳其语讨论薪资和工作福利", "谈判工作条件"],
+            "th": ["พูดคุยเกี่ยวกับเงินเดือนและสวัสดิการที่ทำงานเป็นภาษาตุรกี", "เจรจาเงื่อนไขการทำงาน"],
+            "ko": ["터키어로 급여와 직장 복리후생 이야기하기", "근무 조건 협상하기"],
+            "es": ["Discutir sueldo y beneficios laborales en turco", "Negociar condiciones de trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "maaş",
+              "romanization": null,
+              "meanings": { "en": "salary/wage", "zh": "薪水", "th": "เงินเดือน", "ko": "월급/급여", "es": "sueldo/salario" }
+            },
+            {
+              "word": "yan haklar",
+              "romanization": null,
+              "meanings": { "en": "benefits/perks", "zh": "福利", "th": "สวัสดิการ", "ko": "복리후생", "es": "beneficios/prestaciones" }
+            },
+            {
+              "word": "sigorta",
+              "romanization": null,
+              "meanings": { "en": "insurance", "zh": "保险", "th": "ประกัน", "ko": "보험", "es": "seguro" }
+            },
+            {
+              "word": "yıllık izin",
+              "romanization": null,
+              "meanings": { "en": "annual leave/vacation", "zh": "年假", "th": "วันลาพักร้อนประจำปี", "ko": "연차 휴가", "es": "vacaciones anuales" }
+            },
+            {
+              "word": "zam",
+              "romanization": null,
+              "meanings": { "en": "raise/salary increase", "zh": "涨薪", "th": "การขึ้นเงินเดือน", "ko": "급여 인상", "es": "aumento (de sueldo)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What is the salary for this position?'",
+              "options": ["Bu pozisyonun maaşı ne kadar?", "Yan haklar nelerdir?", "Yıllık iznim kaç gün?", "Ne zaman zam alacağım?"],
+              "correct": 0,
+              "explanation": "'Bu pozisyonun maaşı ne kadar?' = What is the salary for this position?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "yıllık izin",
+              "options": ["annual leave", "sick leave", "maternity leave", "unpaid leave"],
+              "correct": 0,
+              "explanation": "'Yıllık izin' = annual leave or paid vacation time."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["maaş", "salary"],
+                ["sigorta", "insurance"],
+                ["yıllık izin", "annual leave"],
+                ["zam", "raise"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Maaş ve yan haklar hakkında konuşabilir miyiz?",
+              "options": ["Can we talk about salary and benefits?", "When do I receive my first salary?", "What are the working hours?", "Is there health insurance?"],
+              "correct": 0,
+              "explanation": "'Maaş ve yan haklar hakkında' = about salary and benefits, 'konuşabilir miyiz' = can we talk."
+            },
+            {
+              "type": "reorder",
+              "words": ["zam", "almak", "istiyorum"],
+              "correct": ["Zam", "almak", "istiyorum"],
+              "translation": "I want a salary raise."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Networking",
+            "zh": "人脉建设",
+            "th": "การสร้างเครือข่าย",
+            "ko": "네트워킹",
+            "es": "Networking / Crear contactos"
+          },
+          "objectives": {
+            "en": ["Network and build professional relationships in Turkish", "Exchange business cards and contact info"],
+            "zh": ["用土耳其语建立职业关系", "交换名片和联系方式"],
+            "th": ["สร้างเครือข่ายและความสัมพันธ์ทางวิชาชีพเป็นภาษาตุรกี", "แลกเปลี่ยนนามบัตรและข้อมูลติดต่อ"],
+            "ko": ["터키어로 네트워킹하고 직업적 관계 구축하기", "명함과 연락처 교환하기"],
+            "es": ["Hacer networking y construir relaciones profesionales en turco", "Intercambiar tarjetas y contactos"]
+          },
+          "vocabulary": [
+            {
+              "word": "kartvizit",
+              "romanization": null,
+              "meanings": { "en": "business card", "zh": "名片", "th": "นามบัตร", "ko": "명함", "es": "tarjeta de visita" }
+            },
+            {
+              "word": "bağlantı kurmak",
+              "romanization": null,
+              "meanings": { "en": "to connect/network", "zh": "建立联系", "th": "ติดต่อ/สร้างเครือข่าย", "ko": "연결하다/네트워크 구축하다", "es": "conectar/hacer contactos" }
+            },
+            {
+              "word": "şirket",
+              "romanization": null,
+              "meanings": { "en": "company/firm", "zh": "公司", "th": "บริษัท", "ko": "회사", "es": "empresa/compañía" }
+            },
+            {
+              "word": "sektör",
+              "romanization": null,
+              "meanings": { "en": "sector/industry", "zh": "行业/部门", "th": "ภาคส่วน/อุตสาหกรรม", "ko": "분야/산업", "es": "sector/industria" }
+            },
+            {
+              "word": "iş birliği yapmak",
+              "romanization": null,
+              "meanings": { "en": "to collaborate/work together", "zh": "合作", "th": "ร่วมมือ", "ko": "협력하다", "es": "colaborar/trabajar juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Can I have your business card?'",
+              "options": ["Kartvizitinizi alabilir miyim?", "Şirketinizin adı nedir?", "Hangi sektörde çalışıyorsunuz?", "Birlikte iş yapabilir miyiz?"],
+              "correct": 0,
+              "explanation": "'Kartvizitinizi alabilir miyim?' = Can I have your business card?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "iş birliği yapmak",
+              "options": ["to collaborate/work together", "to compete", "to negotiate", "to communicate"],
+              "correct": 0,
+              "explanation": "'İş birliği yapmak' = to collaborate. 'İş' = work, 'birliği' = unity/together."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["kartvizit", "business card"],
+                ["şirket", "company"],
+                ["sektör", "sector/industry"],
+                ["bağlantı kurmak", "to network"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Hangi şirkette çalışıyorsunuz?",
+              "options": ["Which company do you work for?", "What is your profession?", "How long have you worked there?", "What sector are you in?"],
+              "correct": 0,
+              "explanation": "'Hangi şirkette' = at which company, 'çalışıyorsunuz' = do you work."
+            },
+            {
+              "type": "reorder",
+              "words": ["birliği", "yapalım", "iş"],
+              "correct": ["İş", "birliği", "yapalım"],
+              "translation": "Let's collaborate."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

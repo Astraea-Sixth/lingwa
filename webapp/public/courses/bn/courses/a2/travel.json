@@ -1,0 +1,373 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "travel",
+  "track_label": {
+    "en": "Travel & Transport",
+    "zh": "旅行与交通",
+    "th": "การเดินทางและการขนส่ง",
+    "ko": "여행과 교통",
+    "es": "Viajes y transporte"
+  },
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行方式",
+        "th": "การเดินทางในเมือง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "description": {
+        "en": "Learn how to ask for directions and use public transport",
+        "zh": "学习如何问路和使用公共交通",
+        "th": "เรียนรู้วิธีถามทาง และการใช้ขนส่งสาธารณะ",
+        "ko": "길 묻기와 대중교통 이용 방법 배우기",
+        "es": "Aprender a pedir direcciones y usar el transporte público"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir direcciones"
+          },
+          "objectives": {
+            "en": ["Ask for and understand directions in Bengali", "Use directional words correctly"]
+          },
+          "vocabulary": [
+            { "word": "কোথায়", "romanization": "kothay", "meanings": { "en": "Where", "zh": "在哪里", "th": "ที่ไหน", "ko": "어디에", "es": "Dónde" } },
+            { "word": "ডানে", "romanization": "dane", "meanings": { "en": "Right (direction)", "zh": "右边", "th": "ขวา", "ko": "오른쪽", "es": "Derecha" } },
+            { "word": "বাঁয়ে", "romanization": "baye", "meanings": { "en": "Left (direction)", "zh": "左边", "th": "ซ้าย", "ko": "왼쪽", "es": "Izquierda" } },
+            { "word": "সোজা", "romanization": "shoja", "meanings": { "en": "Straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "Recto / derecho" } },
+            { "word": "কাছে", "romanization": "kache", "meanings": { "en": "Near / nearby", "zh": "附近", "th": "ใกล้", "ko": "가까이", "es": "Cerca" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ডানে", "romanization": "dane", "options": { "en": ["Right (direction)", "Left", "Straight", "Far"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সোজা", "romanization": "shoja", "options": { "en": ["Straight ahead", "Turn back", "Left", "Near"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Where' in Bengali?" }, "options": { "neutral": ["কোথায়", "ডানে", "বাঁয়ে", "কাছে"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Near / nearby' in Bengali?" }, "options": { "neutral": ["কাছে", "সোজা", "ডানে", "বাঁয়ে"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বাঁয়ে", "romanization": "baye", "options": { "en": ["Left (direction)", "Right", "Straight", "Far"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ডানে", "romanization": "dane", "native": { "en": "Right" } },
+              { "target": "বাঁয়ে", "romanization": "baye", "native": { "en": "Left" } },
+              { "target": "সোজা", "romanization": "shoja", "native": { "en": "Straight ahead" } },
+              { "target": "কাছে", "romanization": "kache", "native": { "en": "Near / nearby" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Using Public Transport",
+            "zh": "乘坐公共交通",
+            "th": "การใช้ขนส่งสาธารณะ",
+            "ko": "대중교통 이용하기",
+            "es": "Usar el transporte público"
+          },
+          "objectives": {
+            "en": ["Name types of transport in Bengali", "Buy tickets and ask about departures"]
+          },
+          "vocabulary": [
+            { "word": "বাস", "romanization": "bash", "meanings": { "en": "Bus", "zh": "公共汽车", "th": "รถบัส", "ko": "버스", "es": "Autobús" } },
+            { "word": "ট্রেন", "romanization": "tren", "meanings": { "en": "Train", "zh": "火车", "th": "รถไฟ", "ko": "기차", "es": "Tren" } },
+            { "word": "টিকিট", "romanization": "tikit", "meanings": { "en": "Ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "Boleto" } },
+            { "word": "স্টেশন", "romanization": "steshon", "meanings": { "en": "Station", "zh": "车站", "th": "สถานี", "ko": "역", "es": "Estación" } },
+            { "word": "ছাড়বে কখন?", "romanization": "charbe kokhon?", "meanings": { "en": "When does it depart?", "zh": "几点出发？", "th": "ออกเดินทางเมื่อไหร่?", "ko": "언제 출발해요?", "es": "¿Cuándo sale?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ট্রেন", "romanization": "tren", "options": { "en": ["Train", "Bus", "Taxi", "Boat"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "টিকিট", "romanization": "tikit", "options": { "en": ["Ticket", "Station", "Platform", "Schedule"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Station' in Bengali?" }, "options": { "neutral": ["স্টেশন", "বাস", "টিকিট", "ট্রেন"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'When does it depart?' in Bengali?" }, "options": { "neutral": ["ছাড়বে কখন?", "টিকিট", "স্টেশন", "বাস"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বাস", "romanization": "bash", "options": { "en": ["Bus", "Train", "Taxi", "Rickshaw"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বাস", "romanization": "bash", "native": { "en": "Bus" } },
+              { "target": "ট্রেন", "romanization": "tren", "native": { "en": "Train" } },
+              { "target": "টিকিট", "romanization": "tikit", "native": { "en": "Ticket" } },
+              { "target": "স্টেশন", "romanization": "steshon", "native": { "en": "Station" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taxis & Rickshaws",
+            "zh": "出租车和人力车",
+            "th": "แท็กซี่และสามล้อ",
+            "ko": "택시와 릭샤",
+            "es": "Taxis y rickshaws"
+          },
+          "objectives": {
+            "en": ["Hire a taxi or rickshaw", "Negotiate fares and give destinations"]
+          },
+          "vocabulary": [
+            { "word": "রিকশা", "romanization": "riksha", "meanings": { "en": "Rickshaw", "zh": "人力车", "th": "รถสามล้อ", "ko": "릭샤", "es": "Rickshaw" } },
+            { "word": "ট্যাক্সি", "romanization": "taikshi", "meanings": { "en": "Taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "Taxi" } },
+            { "word": "ভাড়া", "romanization": "bhara", "meanings": { "en": "Fare / rent", "zh": "车费/租金", "th": "ค่าโดยสาร", "ko": "요금 / 임대료", "es": "Tarifa / alquiler" } },
+            { "word": "এখানে থামুন", "romanization": "ekhane thamun", "meanings": { "en": "Stop here", "zh": "在这里停", "th": "หยุดที่นี่", "ko": "여기 세워주세요", "es": "Pare aquí" } },
+            { "word": "কত লাগবে?", "romanization": "koto lagbe?", "meanings": { "en": "How much will it cost?", "zh": "多少钱？", "th": "ค่าใช้จ่ายเท่าไหร่?", "ko": "얼마나 들어요?", "es": "¿Cuánto costará?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "রিকশা", "romanization": "riksha", "options": { "en": ["Rickshaw", "Taxi", "Bus", "Bicycle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ভাড়া", "romanization": "bhara", "options": { "en": ["Fare / rent", "Ticket", "Stop", "Route"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Stop here' in Bengali?" }, "options": { "neutral": ["এখানে থামুন", "কত লাগবে?", "ভাড়া", "রিকশা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'How much will it cost?' in Bengali?" }, "options": { "neutral": ["কত লাগবে?", "এখানে থামুন", "ভাড়া", "ট্যাক্সি"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ট্যাক্সি", "romanization": "taikshi", "options": { "en": ["Taxi", "Rickshaw", "Bus", "Train"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "রিকশা", "romanization": "riksha", "native": { "en": "Rickshaw" } },
+              { "target": "ভাড়া", "romanization": "bhara", "native": { "en": "Fare / rent" } },
+              { "target": "এখানে থামুন", "romanization": "ekhane thamun", "native": { "en": "Stop here" } },
+              { "target": "কত লাগবে?", "romanization": "koto lagbe?", "native": { "en": "How much will it cost?" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Hotels & Accommodation",
+        "zh": "酒店与住宿",
+        "th": "โรงแรมและที่พัก",
+        "ko": "호텔과 숙박",
+        "es": "Hoteles y alojamiento"
+      },
+      "description": {
+        "en": "Learn vocabulary for booking and staying in hotels",
+        "zh": "学习预订酒店和住宿的词汇",
+        "th": "เรียนรู้คำศัพท์สำหรับการจองและพักโรงแรม",
+        "ko": "호텔 예약과 숙박 관련 어휘 배우기",
+        "es": "Aprender vocabulario para reservar y alojarse en hoteles"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Checking In",
+            "zh": "办理入住",
+            "th": "เช็คอิน",
+            "ko": "체크인하기",
+            "es": "Hacer el check-in"
+          },
+          "objectives": {
+            "en": ["Check in to a hotel in Bengali", "Ask about room types and facilities"]
+          },
+          "vocabulary": [
+            { "word": "হোটেল", "romanization": "hotel", "meanings": { "en": "Hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "Hotel" } },
+            { "word": "ঘর", "romanization": "ghor", "meanings": { "en": "Room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "Habitación" } },
+            { "word": "বুকিং", "romanization": "buking", "meanings": { "en": "Booking / reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "Reserva" } },
+            { "word": "চেক আউট", "romanization": "chek out", "meanings": { "en": "Check out", "zh": "退房", "th": "เช็คเอาท์", "ko": "체크아웃", "es": "Check-out" } },
+            { "word": "চাবি", "romanization": "chabi", "meanings": { "en": "Key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "Llave" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ঘর", "romanization": "ghor", "options": { "en": ["Room", "Hotel", "Key", "Booking"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "চাবি", "romanization": "chabi", "options": { "en": ["Key", "Room", "Check out", "Booking"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Booking / reservation' in Bengali?" }, "options": { "neutral": ["বুকিং", "হোটেল", "ঘর", "চাবি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hotel' in Bengali?" }, "options": { "neutral": ["হোটেল", "ঘর", "চাবি", "বুকিং"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "চেক আউট", "romanization": "chek out", "options": { "en": ["Check out", "Check in", "Booking", "Key"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "হোটেল", "romanization": "hotel", "native": { "en": "Hotel" } },
+              { "target": "ঘর", "romanization": "ghor", "native": { "en": "Room" } },
+              { "target": "চাবি", "romanization": "chabi", "native": { "en": "Key" } },
+              { "target": "বুকিং", "romanization": "buking", "native": { "en": "Booking / reservation" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Hotel Requests",
+            "zh": "酒店要求",
+            "th": "การร้องขอในโรงแรม",
+            "ko": "호텔 요청하기",
+            "es": "Solicitudes en el hotel"
+          },
+          "objectives": {
+            "en": ["Request services and amenities at a hotel", "Report problems with a room"]
+          },
+          "vocabulary": [
+            { "word": "তোয়ালে", "romanization": "toyale", "meanings": { "en": "Towel", "zh": "毛巾", "th": "ผ้าเช็ดตัว", "ko": "수건", "es": "Toalla" } },
+            { "word": "বালিশ", "romanization": "balish", "meanings": { "en": "Pillow", "zh": "枕头", "th": "หมอน", "ko": "베개", "es": "Almohada" } },
+            { "word": "এসি / শীতাতপনিয়ন্ত্রণ", "romanization": "AC / shitaatop niyontron", "meanings": { "en": "Air conditioning", "zh": "空调", "th": "เครื่องปรับอากาศ", "ko": "에어컨", "es": "Aire acondicionado" } },
+            { "word": "সমস্যা আছে", "romanization": "shomossha ache", "meanings": { "en": "There is a problem", "zh": "有问题", "th": "มีปัญหา", "ko": "문제가 있어요", "es": "Hay un problema" } },
+            { "word": "পরিষ্কার করুন", "romanization": "porishkar korun", "meanings": { "en": "Please clean (it)", "zh": "请打扫", "th": "กรุณาทำความสะอาด", "ko": "청소해 주세요", "es": "Por favor limpie" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "তোয়ালে", "romanization": "toyale", "options": { "en": ["Towel", "Pillow", "Blanket", "Sheet"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বালিশ", "romanization": "balish", "options": { "en": ["Pillow", "Towel", "Bed", "Key"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'There is a problem' in Bengali?" }, "options": { "neutral": ["সমস্যা আছে", "পরিষ্কার করুন", "তোয়ালে", "বালিশ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please clean (it)' in Bengali?" }, "options": { "neutral": ["পরিষ্কার করুন", "সমস্যা আছে", "বালিশ", "তোয়ালে"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "এসি", "romanization": "AC", "options": { "en": ["Air conditioning", "Fan", "Heater", "Light"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "তোয়ালে", "romanization": "toyale", "native": { "en": "Towel" } },
+              { "target": "বালিশ", "romanization": "balish", "native": { "en": "Pillow" } },
+              { "target": "সমস্যা আছে", "romanization": "shomossha ache", "native": { "en": "There is a problem" } },
+              { "target": "পরিষ্কার করুন", "romanization": "porishkar korun", "native": { "en": "Please clean (it)" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "At the Airport",
+            "zh": "在机场",
+            "th": "ที่สนามบิน",
+            "ko": "공항에서",
+            "es": "En el aeropuerto"
+          },
+          "objectives": {
+            "en": ["Navigate an airport using Bengali", "Understand announcements and signage"]
+          },
+          "vocabulary": [
+            { "word": "বিমানবন্দর", "romanization": "bimanbondar", "meanings": { "en": "Airport", "zh": "机场", "th": "สนามบิน", "ko": "공항", "es": "Aeropuerto" } },
+            { "word": "বিমান", "romanization": "biman", "meanings": { "en": "Aeroplane", "zh": "飞机", "th": "เครื่องบิน", "ko": "비행기", "es": "Avión" } },
+            { "word": "পাসপোর্ট", "romanization": "passport", "meanings": { "en": "Passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "Pasaporte" } },
+            { "word": "লাগেজ", "romanization": "lagej", "meanings": { "en": "Luggage / baggage", "zh": "行李", "th": "กระเป๋าเดินทาง", "ko": "수하물", "es": "Equipaje" } },
+            { "word": "গেট", "romanization": "get", "meanings": { "en": "Gate", "zh": "登机口", "th": "เกต", "ko": "탑승구", "es": "Puerta de embarque" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বিমানবন্দর", "romanization": "bimanbondar", "options": { "en": ["Airport", "Bus station", "Train station", "Harbour"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "লাগেজ", "romanization": "lagej", "options": { "en": ["Luggage / baggage", "Passport", "Ticket", "Gate"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Passport' in Bengali?" }, "options": { "neutral": ["পাসপোর্ট", "বিমান", "লাগেজ", "গেট"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Aeroplane' in Bengali?" }, "options": { "neutral": ["বিমান", "বিমানবন্দর", "পাসপোর্ট", "লাগেজ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পাসপোর্ট", "romanization": "passport", "options": { "en": ["Passport", "Luggage", "Ticket", "Gate"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বিমানবন্দর", "romanization": "bimanbondar", "native": { "en": "Airport" } },
+              { "target": "বিমান", "romanization": "biman", "native": { "en": "Aeroplane" } },
+              { "target": "লাগেজ", "romanization": "lagej", "native": { "en": "Luggage / baggage" } },
+              { "target": "গেট", "romanization": "get", "native": { "en": "Gate" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Sightseeing & Tourism",
+        "zh": "观光与旅游",
+        "th": "การท่องเที่ยวและสถานที่",
+        "ko": "관광과 여행",
+        "es": "Turismo y lugares de interés"
+      },
+      "description": {
+        "en": "Explore tourist attractions and learn travel phrases for sightseeing",
+        "zh": "探索旅游景点并学习观光旅游用语",
+        "th": "สำรวจสถานที่ท่องเที่ยวและเรียนรู้ประโยคสำหรับการท่องเที่ยว",
+        "ko": "관광 명소 탐방과 관광 관련 표현 배우기",
+        "es": "Explorar atracciones turísticas y aprender frases de turismo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Famous Landmarks",
+            "zh": "著名地标",
+            "th": "สถานที่สำคัญ",
+            "ko": "유명 명소",
+            "es": "Lugares emblemáticos"
+          },
+          "objectives": {
+            "en": ["Name types of tourist sites in Bengali", "Ask about visiting hours and entry fees"]
+          },
+          "vocabulary": [
+            { "word": "মসজিদ", "romanization": "moshjid", "meanings": { "en": "Mosque", "zh": "清真寺", "th": "มัสยิด", "ko": "모스크", "es": "Mezquita" } },
+            { "word": "জাদুঘর", "romanization": "jadughor", "meanings": { "en": "Museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "Museo" } },
+            { "word": "নদী", "romanization": "nodi", "meanings": { "en": "River", "zh": "河流", "th": "แม่น้ำ", "ko": "강", "es": "Río" } },
+            { "word": "প্রবেশ মূল্য", "romanization": "probesh mulyo", "meanings": { "en": "Entry fee / admission", "zh": "入场费", "th": "ค่าเข้าชม", "ko": "입장료", "es": "Precio de entrada" } },
+            { "word": "খোলা আছে", "romanization": "khola ache", "meanings": { "en": "It is open", "zh": "开着", "th": "เปิดอยู่", "ko": "열려 있어요", "es": "Está abierto" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "জাদুঘর", "romanization": "jadughor", "options": { "en": ["Museum", "Mosque", "Park", "River"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "নদী", "romanization": "nodi", "options": { "en": ["River", "Lake", "Ocean", "Mountain"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Mosque' in Bengali?" }, "options": { "neutral": ["মসজিদ", "জাদুঘর", "নদী", "প্রবেশ মূল্য"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Entry fee' in Bengali?" }, "options": { "neutral": ["প্রবেশ মূল্য", "খোলা আছে", "নদী", "জাদুঘর"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "খোলা আছে", "romanization": "khola ache", "options": { "en": ["It is open", "It is closed", "It is free", "Come inside"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "মসজিদ", "romanization": "moshjid", "native": { "en": "Mosque" } },
+              { "target": "জাদুঘর", "romanization": "jadughor", "native": { "en": "Museum" } },
+              { "target": "নদী", "romanization": "nodi", "native": { "en": "River" } },
+              { "target": "প্রবেশ মূল্য", "romanization": "probesh mulyo", "native": { "en": "Entry fee / admission" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Shopping & Souvenirs",
+            "zh": "购物与纪念品",
+            "th": "การช้อปปิ้งและของที่ระลึก",
+            "ko": "쇼핑과 기념품",
+            "es": "Compras y souvenirs"
+          },
+          "objectives": {
+            "en": ["Shop for souvenirs and bargain in Bengali", "Describe items by colour and size"]
+          },
+          "vocabulary": [
+            { "word": "দোকান", "romanization": "dokan", "meanings": { "en": "Shop / store", "zh": "商店", "th": "ร้านค้า", "ko": "가게", "es": "Tienda" } },
+            { "word": "স্মারক", "romanization": "shmarok", "meanings": { "en": "Souvenir / memento", "zh": "纪念品", "th": "ของที่ระลึก", "ko": "기념품", "es": "Recuerdo / souvenir" } },
+            { "word": "দর কষাকষি", "romanization": "dor koshakoshi", "meanings": { "en": "Bargaining / haggling", "zh": "讨价还价", "th": "การต่อราคา", "ko": "흥정", "es": "Regateo" } },
+            { "word": "বড়", "romanization": "boro", "meanings": { "en": "Big / large", "zh": "大", "th": "ใหญ่", "ko": "크다", "es": "Grande" } },
+            { "word": "ছোট", "romanization": "choto", "meanings": { "en": "Small / little", "zh": "小", "th": "เล็ก", "ko": "작다", "es": "Pequeño" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "দোকান", "romanization": "dokan", "options": { "en": ["Shop / store", "Market", "Museum", "Hotel"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বড়", "romanization": "boro", "options": { "en": ["Big / large", "Small", "Cheap", "New"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Souvenir' in Bengali?" }, "options": { "neutral": ["স্মারক", "দোকান", "বড়", "ছোট"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Small / little' in Bengali?" }, "options": { "neutral": ["ছোট", "বড়", "দোকান", "স্মারক"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "দর কষাকষি", "romanization": "dor koshakoshi", "options": { "en": ["Bargaining / haggling", "Shopping", "Paying", "Selling"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "দোকান", "romanization": "dokan", "native": { "en": "Shop / store" } },
+              { "target": "স্মারক", "romanization": "shmarok", "native": { "en": "Souvenir / memento" } },
+              { "target": "বড়", "romanization": "boro", "native": { "en": "Big / large" } },
+              { "target": "ছোট", "romanization": "choto", "native": { "en": "Small / little" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Travel Emergencies",
+            "zh": "旅途紧急情况",
+            "th": "เหตุฉุกเฉินขณะเดินทาง",
+            "ko": "여행 중 긴급 상황",
+            "es": "Emergencias en el viaje"
+          },
+          "objectives": {
+            "en": ["Handle travel emergencies in Bengali", "Ask for help and report problems"]
+          },
+          "vocabulary": [
+            { "word": "সাহায্য করুন", "romanization": "shahajjo korun", "meanings": { "en": "Please help me", "zh": "请帮忙", "th": "ช่วยด้วย", "ko": "도와주세요", "es": "Por favor ayúdeme" } },
+            { "word": "হারিয়ে গেছি", "romanization": "hariye gechi", "meanings": { "en": "I am lost", "zh": "我迷路了", "th": "ฉันหลงทาง", "ko": "길을 잃었어요", "es": "Me he perdido" } },
+            { "word": "হাসপাতাল", "romanization": "hashpatal", "meanings": { "en": "Hospital", "zh": "医院", "th": "โรงพยาบาล", "ko": "병원", "es": "Hospital" } },
+            { "word": "পুলিশ", "romanization": "pulish", "meanings": { "en": "Police", "zh": "警察", "th": "ตำรวจ", "ko": "경찰", "es": "Policía" } },
+            { "word": "চুরি হয়েছে", "romanization": "churi hoyeche", "meanings": { "en": "It has been stolen", "zh": "被偷了", "th": "ถูกขโมย", "ko": "도둑맞았어요", "es": "Me lo han robado" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "হাসপাতাল", "romanization": "hashpatal", "options": { "en": ["Hospital", "Police station", "Hotel", "Embassy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "পুলিশ", "romanization": "pulish", "options": { "en": ["Police", "Doctor", "Guard", "Driver"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am lost' in Bengali?" }, "options": { "neutral": ["হারিয়ে গেছি", "সাহায্য করুন", "চুরি হয়েছে", "হাসপাতাল"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'It has been stolen' in Bengali?" }, "options": { "neutral": ["চুরি হয়েছে", "হারিয়ে গেছি", "সাহায্য করুন", "পুলিশ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সাহায্য করুন", "romanization": "shahajjo korun", "options": { "en": ["Please help me", "I am lost", "Call the police", "Thank you"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সাহায্য করুন", "romanization": "shahajjo korun", "native": { "en": "Please help me" } },
+              { "target": "হারিয়ে গেছি", "romanization": "hariye gechi", "native": { "en": "I am lost" } },
+              { "target": "হাসপাতাল", "romanization": "hashpatal", "native": { "en": "Hospital" } },
+              { "target": "পুলিশ", "romanization": "pulish", "native": { "en": "Police" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

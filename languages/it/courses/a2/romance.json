@@ -1,0 +1,217 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Meeting Someone", "zh": "认识某人", "th": "การพบปะกัน", "ko": "누군가를 만나기", "es": "Conocer a alguien" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "First Impressions", "zh": "第一印象", "th": "ความประทับใจแรก", "ko": "첫인상", "es": "Primera impresión" },
+          "objectives": { "en": ["Describe someone's appearance", "Give and receive compliments", "Start a conversation with someone new"] },
+          "vocabulary": [
+            { "word": "bello", "romanization": null, "meanings": { "en": "beautiful / handsome", "zh": "美丽的/英俊的", "th": "สวย/หล่อ", "ko": "아름다운/잘생긴", "es": "bello / guapo" }, "gendered": null },
+            { "word": "occhi", "romanization": null, "meanings": { "en": "eyes", "zh": "眼睛", "th": "ตา", "ko": "눈", "es": "ojos" }, "gendered": null },
+            { "word": "sorriso", "romanization": null, "meanings": { "en": "smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "sonrisa" }, "gendered": null },
+            { "word": "attraente", "romanization": null, "meanings": { "en": "attractive", "zh": "有吸引力的", "th": "น่าดึงดูด", "ko": "매력적인", "es": "atractivo" }, "gendered": null },
+            { "word": "che bei occhi", "romanization": null, "meanings": { "en": "what beautiful eyes", "zh": "多么美丽的眼睛", "th": "ตาสวยมาก", "ko": "눈이 정말 예쁘네요", "es": "qué ojos más bonitos" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "bello", "romanization": null, "options": { "en": ["beautiful / handsome", "ugly", "tall", "shy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "sorriso", "romanization": null, "options": { "en": ["smile", "eyes", "hair", "face"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'attractive' in Italian?" }, "options": { "neutral": ["attraente", "bello", "carino", "affascinante"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'eyes' in Italian?" }, "options": { "neutral": ["occhi", "capelli", "bocca", "naso"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "sorriso", "romanization": null, "options": { "en": ["smile", "eyes", "hair", "laugh"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Asking Someone Out", "zh": "约某人出去", "th": "การชวนใครออกไปข้างนอก", "ko": "데이트 신청하기", "es": "Invitar a alguien a salir" },
+          "objectives": { "en": ["Ask someone on a date", "Suggest activities to do together", "Accept or politely decline"] },
+          "vocabulary": [
+            { "word": "uscire insieme", "romanization": null, "meanings": { "en": "to go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "salir juntos" }, "gendered": null },
+            { "word": "cena romantica", "romanization": null, "meanings": { "en": "romantic dinner", "zh": "浪漫晚餐", "th": "อาหารค่ำสุดโรแมนติก", "ko": "로맨틱한 저녁 식사", "es": "cena romántica" }, "gendered": null },
+            { "word": "passeggiata", "romanization": null, "meanings": { "en": "walk / stroll", "zh": "散步", "th": "การเดินเล่น", "ko": "산책", "es": "paseo" }, "gendered": null },
+            { "word": "mi piaci", "romanization": null, "meanings": { "en": "I like you", "zh": "我喜欢你", "th": "ฉันชอบคุณ", "ko": "나는 당신이 좋아요", "es": "me gustas" }, "gendered": null },
+            { "word": "ci tengo", "romanization": null, "meanings": { "en": "I care about it / I mind", "zh": "我在乎", "th": "ฉันใส่ใจ", "ko": "나는 신경 써요", "es": "me importa" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "passeggiata", "romanization": null, "options": { "en": ["walk / stroll", "dinner", "movie", "trip"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "mi piaci", "romanization": null, "options": { "en": ["I like you", "I love you", "I miss you", "I know you"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to go out together' in Italian?" }, "options": { "neutral": ["uscire insieme", "stare insieme", "vivere insieme", "lavorare insieme"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'romantic dinner' in Italian?" }, "options": { "neutral": ["cena romantica", "pranzo romantico", "colazione romantica", "aperitivo romantico"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "passeggiata", "romanization": null, "native": { "en": "walk / stroll" } },
+              { "target": "mi piaci", "romanization": null, "native": { "en": "I like you" } },
+              { "target": "uscire insieme", "romanization": null, "native": { "en": "to go out together" } },
+              { "target": "cena romantica", "romanization": null, "native": { "en": "romantic dinner" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "On a First Date", "zh": "第一次约会", "th": "ในการออกเดทครั้งแรก", "ko": "첫 번째 데이트에서", "es": "En la primera cita" },
+          "objectives": { "en": ["Make small talk on a date", "Talk about your likes and dislikes", "Express how you feel about someone"] },
+          "vocabulary": [
+            { "word": "appuntamento", "romanization": null, "meanings": { "en": "date / appointment", "zh": "约会", "th": "นัดเดต", "ko": "데이트/약속", "es": "cita" }, "gendered": null },
+            { "word": "nervoso", "romanization": null, "meanings": { "en": "nervous", "zh": "紧张的", "th": "เครียด/กังวล", "ko": "긴장한", "es": "nervioso" }, "gendered": null },
+            { "word": "emozionante", "romanization": null, "meanings": { "en": "exciting / emotional", "zh": "激动人心的", "th": "น่าตื่นเต้น", "ko": "흥미진진한", "es": "emocionante" }, "gendered": null },
+            { "word": "in comune", "romanization": null, "meanings": { "en": "in common", "zh": "共同的", "th": "ที่มีร่วมกัน", "ko": "공통으로", "es": "en común" }, "gendered": null },
+            { "word": "ridere", "romanization": null, "meanings": { "en": "to laugh", "zh": "笑", "th": "หัวเราะ", "ko": "웃다", "es": "reír" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "nervoso", "romanization": null, "options": { "en": ["nervous", "happy", "excited", "calm"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "emozionante", "romanization": null, "options": { "en": ["exciting / emotional", "boring", "relaxing", "sad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to laugh' in Italian?" }, "options": { "neutral": ["ridere", "sorridere", "piangere", "parlare"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'in common' in Italian?" }, "options": { "neutral": ["in comune", "insieme", "simile", "uguale"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "appuntamento", "romanization": null, "options": { "en": ["date / appointment", "meeting", "party", "dinner"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Feelings & Emotions", "zh": "感情与情感", "th": "ความรู้สึกและอารมณ์", "ko": "감정과 느낌", "es": "Sentimientos y emociones" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Expressing Feelings", "zh": "表达感情", "th": "การแสดงออกถึงความรู้สึก", "ko": "감정 표현하기", "es": "Expresar sentimientos" },
+          "objectives": { "en": ["Describe how you feel", "Talk about emotions in Italian", "Ask someone how they are feeling"] },
+          "vocabulary": [
+            { "word": "felice", "romanization": null, "meanings": { "en": "happy", "zh": "快乐的", "th": "มีความสุข", "ko": "행복한", "es": "feliz" }, "gendered": null },
+            { "word": "triste", "romanization": null, "meanings": { "en": "sad", "zh": "悲伤的", "th": "เศร้า", "ko": "슬픈", "es": "triste" }, "gendered": null },
+            { "word": "innamorato", "romanization": null, "meanings": { "en": "in love", "zh": "恋爱中的", "th": "ตกหลุมรัก", "ko": "사랑에 빠진", "es": "enamorado" }, "gendered": null },
+            { "word": "geloso", "romanization": null, "meanings": { "en": "jealous", "zh": "嫉妒的", "th": "อิจฉา", "ko": "질투하는", "es": "celoso" }, "gendered": null },
+            { "word": "preoccupato", "romanization": null, "meanings": { "en": "worried", "zh": "担心的", "th": "กังวล", "ko": "걱정하는", "es": "preocupado" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "felice", "romanization": null, "options": { "en": ["happy", "sad", "angry", "worried"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "innamorato", "romanization": null, "options": { "en": ["in love", "jealous", "lonely", "confused"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'jealous' in Italian?" }, "options": { "neutral": ["geloso", "innamorato", "preoccupato", "triste"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'worried' in Italian?" }, "options": { "neutral": ["preoccupato", "nervoso", "arrabbiato", "stanco"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "felice", "romanization": null, "native": { "en": "happy" } },
+              { "target": "triste", "romanization": null, "native": { "en": "sad" } },
+              { "target": "innamorato", "romanization": null, "native": { "en": "in love" } },
+              { "target": "geloso", "romanization": null, "native": { "en": "jealous" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Compliments", "zh": "赞美", "th": "การชมเชย", "ko": "칭찬하기", "es": "Cumplidos" },
+          "objectives": { "en": ["Give and receive compliments gracefully", "Compliment someone's appearance", "Compliment someone's character"] },
+          "vocabulary": [
+            { "word": "complimento", "romanization": null, "meanings": { "en": "compliment", "zh": "赞美", "th": "คำชม", "ko": "칭찬", "es": "cumplido" }, "gendered": null },
+            { "word": "sei fantastico", "romanization": null, "meanings": { "en": "you are fantastic", "zh": "你太棒了", "th": "คุณยอดเยี่ยมมาก", "ko": "당신은 정말 멋져요", "es": "eres fantástico" }, "gendered": null },
+            { "word": "intelligente", "romanization": null, "meanings": { "en": "intelligent / smart", "zh": "聪明的", "th": "ฉลาด", "ko": "똑똑한", "es": "inteligente" }, "gendered": null },
+            { "word": "gentile", "romanization": null, "meanings": { "en": "kind / gentle", "zh": "善良的", "th": "ใจดี", "ko": "친절한", "es": "amable" }, "gendered": null },
+            { "word": "stai benissimo", "romanization": null, "meanings": { "en": "you look great", "zh": "你看起来很好", "th": "คุณดูดีมาก", "ko": "정말 좋아 보여요", "es": "te ves genial" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "intelligente", "romanization": null, "options": { "en": ["intelligent / smart", "kind", "funny", "beautiful"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "gentile", "romanization": null, "options": { "en": ["kind / gentle", "smart", "funny", "brave"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'you look great' in Italian?" }, "options": { "neutral": ["stai benissimo", "sei bellissimo", "ti voglio bene", "come stai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'you are fantastic' in Italian?" }, "options": { "neutral": ["sei fantastico", "sei simpatico", "sei intelligente", "sei gentile"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "complimento", "romanization": null, "options": { "en": ["compliment", "insult", "greeting", "question"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Saying 'I Love You'", "zh": "说"我爱你"", "th": "การพูดว่า 'ฉันรักคุณ'", "ko": "'사랑해' 말하기", "es": "Decir 'te quiero'" },
+          "objectives": { "en": ["Express love and affection in Italian", "Understand different levels of affection", "Talk about romantic feelings"] },
+          "vocabulary": [
+            { "word": "ti voglio bene", "romanization": null, "meanings": { "en": "I love you (affectionately)", "zh": "我爱你（亲情/友情）", "th": "ฉันรักคุณ (อบอุ่น)", "ko": "사랑해요 (따뜻하게)", "es": "te quiero" }, "gendered": null },
+            { "word": "ti amo", "romanization": null, "meanings": { "en": "I love you (romantically)", "zh": "我爱你（浪漫）", "th": "ฉันรักคุณ (โรแมนติก)", "ko": "사랑해요 (연인)", "es": "te amo" }, "gendered": null },
+            { "word": "amore", "romanization": null, "meanings": { "en": "love / my love", "zh": "爱/亲爱的", "th": "ความรัก/ที่รัก", "ko": "사랑/자기야", "es": "amor" }, "gendered": null },
+            { "word": "cuore", "romanization": null, "meanings": { "en": "heart", "zh": "心", "th": "หัวใจ", "ko": "심장/마음", "es": "corazón" }, "gendered": null },
+            { "word": "romantico", "romanization": null, "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "로맨틱한", "es": "romántico" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ti amo", "romanization": null, "options": { "en": ["I love you (romantically)", "I like you", "I miss you", "I love you (affectionately)"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "cuore", "romanization": null, "options": { "en": ["heart", "love", "soul", "mind"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'love / my love' in Italian?" }, "options": { "neutral": ["amore", "cuore", "bacio", "abbraccio"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'romantic' in Italian?" }, "options": { "neutral": ["romantico", "sentimentale", "passionale", "dolce"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ti voglio bene", "romanization": null, "options": { "en": ["I love you (affectionately)", "I love you (romantically)", "I miss you", "I need you"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Relationships", "zh": "恋爱关系", "th": "ความสัมพันธ์", "ko": "연애 관계", "es": "Relaciones" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Being in a Relationship", "zh": "恋爱中", "th": "การมีความสัมพันธ์", "ko": "연애 중", "es": "En una relación" },
+          "objectives": { "en": ["Talk about your relationship status", "Describe your partner", "Talk about how long you have been together"] },
+          "vocabulary": [
+            { "word": "fidanzato", "romanization": null, "meanings": { "en": "boyfriend / fiancé", "zh": "男朋友/未婚夫", "th": "แฟน/คู่หมั้น (ชาย)", "ko": "남자친구/약혼자", "es": "novio" }, "gendered": null },
+            { "word": "fidanzata", "romanization": null, "meanings": { "en": "girlfriend / fiancée", "zh": "女朋友/未婚妻", "th": "แฟน/คู่หมั้น (หญิง)", "ko": "여자친구/약혼녀", "es": "novia" }, "gendered": null },
+            { "word": "insieme", "romanization": null, "meanings": { "en": "together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "juntos" }, "gendered": null },
+            { "word": "da quanto tempo", "romanization": null, "meanings": { "en": "how long (for how much time)", "zh": "多久了", "th": "นานแค่ไหน", "ko": "얼마나 됐어요", "es": "desde cuánto tiempo" }, "gendered": null },
+            { "word": "coppia", "romanization": null, "meanings": { "en": "couple", "zh": "情侣/夫妻", "th": "คู่รัก", "ko": "커플", "es": "pareja" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "fidanzato", "romanization": null, "options": { "en": ["boyfriend / fiancé", "girlfriend / fiancée", "husband", "friend"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "coppia", "romanization": null, "options": { "en": ["couple", "family", "friends", "group"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'together' in Italian?" }, "options": { "neutral": ["insieme", "separati", "soli", "divisi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'how long' in Italian?" }, "options": { "neutral": ["da quanto tempo", "quante volte", "quando", "dove"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "fidanzata", "romanization": null, "options": { "en": ["girlfriend / fiancée", "boyfriend / fiancé", "wife", "sister"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Love and Arguments", "zh": "爱与争吵", "th": "ความรักและการทะเลาะกัน", "ko": "사랑과 다툼", "es": "Amor y discusiones" },
+          "objectives": { "en": ["Express disagreement and frustration", "Apologise to a partner", "Make up after an argument"] },
+          "vocabulary": [
+            { "word": "litigare", "romanization": null, "meanings": { "en": "to argue / to fight", "zh": "争吵", "th": "ทะเลาะ", "ko": "다투다", "es": "discutir / pelear" }, "gendered": null },
+            { "word": "perdonare", "romanization": null, "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }, "gendered": null },
+            { "word": "ho torto", "romanization": null, "meanings": { "en": "I am wrong", "zh": "我错了", "th": "ฉันผิด", "ko": "내가 잘못했어요", "es": "estoy equivocado" }, "gendered": null },
+            { "word": "fare pace", "romanization": null, "meanings": { "en": "to make up / to reconcile", "zh": "和好", "th": "คืนดีกัน", "ko": "화해하다", "es": "hacer las paces" }, "gendered": null },
+            { "word": "capire", "romanization": null, "meanings": { "en": "to understand", "zh": "理解", "th": "เข้าใจ", "ko": "이해하다", "es": "entender" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "litigare", "romanization": null, "options": { "en": ["to argue / to fight", "to forgive", "to love", "to understand"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "perdonare", "romanization": null, "options": { "en": ["to forgive", "to argue", "to forget", "to leave"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to make up / to reconcile' in Italian?" }, "options": { "neutral": ["fare pace", "litigare", "separarsi", "parlare"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to understand' in Italian?" }, "options": { "neutral": ["capire", "sapere", "conoscere", "sentire"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "litigare", "romanization": null, "native": { "en": "to argue / to fight" } },
+              { "target": "perdonare", "romanization": null, "native": { "en": "to forgive" } },
+              { "target": "ho torto", "romanization": null, "native": { "en": "I am wrong" } },
+              { "target": "fare pace", "romanization": null, "native": { "en": "to make up / to reconcile" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Future Plans Together", "zh": "共同的未来计划", "th": "แผนในอนาคตร่วมกัน", "ko": "함께하는 미래 계획", "es": "Planes de futuro juntos" },
+          "objectives": { "en": ["Talk about future plans as a couple", "Express hopes and dreams", "Discuss living together or marriage"] },
+          "vocabulary": [
+            { "word": "matrimonio", "romanization": null, "meanings": { "en": "wedding / marriage", "zh": "婚礼/婚姻", "th": "งานแต่งงาน", "ko": "결혼식/결혼", "es": "boda / matrimonio" }, "gendered": null },
+            { "word": "sogno", "romanization": null, "meanings": { "en": "dream", "zh": "梦想", "th": "ความฝัน", "ko": "꿈", "es": "sueño" }, "gendered": null },
+            { "word": "futuro", "romanization": null, "meanings": { "en": "future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "futuro" }, "gendered": null },
+            { "word": "vivere insieme", "romanization": null, "meanings": { "en": "to live together", "zh": "一起生活", "th": "อยู่ด้วยกัน", "ko": "같이 살다", "es": "vivir juntos" }, "gendered": null },
+            { "word": "sperare", "romanization": null, "meanings": { "en": "to hope", "zh": "希望", "th": "หวัง", "ko": "바라다", "es": "esperar" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "matrimonio", "romanization": null, "options": { "en": ["wedding / marriage", "engagement", "anniversary", "honeymoon"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "sogno", "romanization": null, "options": { "en": ["dream", "future", "hope", "plan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to hope' in Italian?" }, "options": { "neutral": ["sperare", "desiderare", "volere", "aspettare"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to live together' in Italian?" }, "options": { "neutral": ["vivere insieme", "stare insieme", "uscire insieme", "lavorare insieme"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "futuro", "romanization": null, "options": { "en": ["future", "past", "present", "dream"] }, "correct": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

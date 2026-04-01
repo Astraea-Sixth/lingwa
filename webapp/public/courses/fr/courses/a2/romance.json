@@ -1,0 +1,731 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Meeting Someone",
+        "zh": "认识某人",
+        "th": "การพบกับใครสักคน",
+        "ko": "누군가 만나기",
+        "es": "Conocer a alguien"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "First Impressions",
+            "zh": "第一印象",
+            "th": "ความประทับใจแรก",
+            "ko": "첫인상",
+            "es": "Primeras impresiones"
+          },
+          "objectives": {
+            "en": ["Compliment someone's appearance in French", "Start a conversation with someone new"],
+            "zh": ["用法语称赞某人的外貌", "与新认识的人开始对话"],
+            "th": ["ชมรูปลักษณ์ของใครเป็นภาษาฝรั่งเศส", "เริ่มต้นบทสนทนากับคนใหม่"],
+            "ko": ["프랑스어로 누군가의 외모 칭찬하기", "새로운 사람과 대화 시작하기"],
+            "es": ["Hacer cumplidos sobre la apariencia en francés", "Iniciar una conversación con alguien nuevo"]
+          },
+          "vocabulary": [
+            {
+              "word": "beau / belle",
+              "romanization": null,
+              "meanings": { "en": "handsome/beautiful (m/f)", "zh": "英俊/美丽", "th": "หล่อ/สวย", "ko": "잘생긴/아름다운", "es": "guapo/guapa" }
+            },
+            {
+              "word": "sympa",
+              "romanization": null,
+              "meanings": { "en": "nice/friendly (informal)", "zh": "友好的", "th": "ใจดี", "ko": "착한/좋은", "es": "simpático/a" }
+            },
+            {
+              "word": "sourire",
+              "romanization": null,
+              "meanings": { "en": "to smile / the smile", "zh": "微笑", "th": "ยิ้ม", "ko": "미소 짓다 / 미소", "es": "sonreír / la sonrisa" }
+            },
+            {
+              "word": "se présenter",
+              "romanization": null,
+              "meanings": { "en": "to introduce oneself", "zh": "自我介绍", "th": "แนะนำตัวเอง", "ko": "자기소개하다", "es": "presentarse" }
+            },
+            {
+              "word": "timide",
+              "romanization": null,
+              "meanings": { "en": "shy", "zh": "害羞的", "th": "ขี้อาย", "ko": "수줍은", "es": "tímido/tímida" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You are very beautiful' to a woman?",
+              "options": ["Tu es très belle.", "Tu es très beau.", "Tu es belle.", "Vous êtes très belle."],
+              "correct": 0,
+              "explanation": "'Belle' is the feminine form of 'beau'. 'Tu es très belle' = You are very beautiful (to a woman)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "timide",
+              "options": ["shy", "funny", "confident", "outgoing"],
+              "correct": 0,
+              "explanation": "'Timide' = shy. 'Je suis un peu timide' = I am a bit shy."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["beau/belle", "handsome/beautiful"],
+                ["sympa", "nice/friendly"],
+                ["sourire", "to smile"],
+                ["timide", "shy"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["présenter", "me", "permettre", "de", "Laissez-moi"],
+              "correct": ["Laissez-moi", "me", "présenter"],
+              "translation": "Allow me to introduce myself."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You have a beautiful smile'?",
+              "options": ["Tu as un beau sourire.", "Tu souris très bien.", "Ton sourire est beau.", "Tu es très belle quand tu souris."],
+              "correct": 0,
+              "explanation": "'Tu as un beau sourire' = You have a beautiful smile. 'Beau' agrees with 'sourire' (masculine)."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀约",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a una cita"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in French", "Suggest an activity for a date"],
+            "zh": ["用法语邀请某人约会", "建议约会活动"],
+            "th": ["ชวนใครออกเดทเป็นภาษาฝรั่งเศส", "เสนอกิจกรรมสำหรับเดท"],
+            "ko": ["프랑스어로 데이트 신청하기", "데이트 활동 제안하기"],
+            "es": ["Pedir una cita en francés", "Sugerir una actividad para una cita"]
+          },
+          "vocabulary": [
+            {
+              "word": "un rendez-vous romantique",
+              "romanization": null,
+              "meanings": { "en": "a romantic date", "zh": "浪漫约会", "th": "เดทโรแมนติก", "ko": "로맨틱한 데이트", "es": "una cita romántica" }
+            },
+            {
+              "word": "sortir ensemble",
+              "romanization": null,
+              "meanings": { "en": "to go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "salir juntos" }
+            },
+            {
+              "word": "Tu es libre ce soir ?",
+              "romanization": null,
+              "meanings": { "en": "Are you free tonight?", "zh": "你今晚有空吗？", "th": "คุณว่างคืนนี้ไหม?", "ko": "오늘 저녁 시간 있어?", "es": "¿Estás libre esta noche?" }
+            },
+            {
+              "word": "prendre un café",
+              "romanization": null,
+              "meanings": { "en": "to have a coffee", "zh": "喝咖啡", "th": "ดื่มกาแฟ", "ko": "커피 마시다", "es": "tomar un café" }
+            },
+            {
+              "word": "ça te dit ?",
+              "romanization": null,
+              "meanings": { "en": "Does that appeal to you? / Are you up for it?", "zh": "你感兴趣吗？", "th": "คุณสนใจไหม?", "ko": "그거 어때?", "es": "¿Te apetece? / ¿Te parece?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to have coffee with me?'",
+              "options": ["Tu veux prendre un café avec moi ?", "On peut boire un café ?", "Je t'invite à un café.", "Allons prendre un café."],
+              "correct": 0,
+              "explanation": "'Tu veux + infinitive ?' = Do you want to...? A direct and natural invitation."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ça te dit ?",
+              "options": ["Are you up for it?", "What do you say?", "Do you agree?", "Is that okay?"],
+              "correct": 0,
+              "explanation": "'Ça te dit ?' = Are you up for it? / Does that sound good to you? Very colloquial French."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sortir ensemble", "to go out together"],
+                ["prendre un café", "to have a coffee"],
+                ["Tu es libre ?", "Are you free?"],
+                ["ça te dit ?", "are you up for it?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["café", "avec", "prendre", "un", "moi", "Tu", "veux"],
+              "correct": ["Tu", "veux", "prendre", "un", "café", "avec", "moi"],
+              "translation": "Do you want to have a coffee with me?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express attraction and romantic feelings", "Describe how someone makes you feel"],
+            "zh": ["表达吸引力和浪漫感情", "描述某人给你的感受"],
+            "th": ["แสดงความรู้สึกดึงดูดและโรแมนติก", "อธิบายว่าใครทำให้คุณรู้สึกอย่างไร"],
+            "ko": ["매력과 낭만적인 감정 표현하기", "누군가가 어떤 기분을 주는지 묘사하기"],
+            "es": ["Expresar atracción y sentimientos románticos", "Describir cómo te hace sentir alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "bien aimer",
+              "romanization": null,
+              "meanings": { "en": "to really like (romantically)", "zh": "很喜欢（浪漫地）", "th": "ชอบมาก (แบบโรแมนติก)", "ko": "좋아하다 (낭만적으로)", "es": "gustar mucho" }
+            },
+            {
+              "word": "tomber amoureux/amoureuse",
+              "romanization": null,
+              "meanings": { "en": "to fall in love (m/f)", "zh": "爱上", "th": "ตกหลุมรัก", "ko": "사랑에 빠지다", "es": "enamorarse" }
+            },
+            {
+              "word": "heureux / heureuse",
+              "romanization": null,
+              "meanings": { "en": "happy (m/f)", "zh": "快乐的", "th": "มีความสุข", "ko": "행복한", "es": "feliz" }
+            },
+            {
+              "word": "nerveux / nerveuse",
+              "romanization": null,
+              "meanings": { "en": "nervous (m/f)", "zh": "紧张的", "th": "ประหม่า", "ko": "긴장한", "es": "nervioso/nerviosa" }
+            },
+            {
+              "word": "penser à toi",
+              "romanization": null,
+              "meanings": { "en": "to think of you", "zh": "想着你", "th": "คิดถึงคุณ", "ko": "당신을 생각하다", "es": "pensar en ti" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How does a man say 'I have fallen in love with you'?",
+              "options": ["Je suis tombé amoureux de toi.", "Je t'aime beaucoup.", "Tu me plais beaucoup.", "Je suis très heureux avec toi."],
+              "correct": 0,
+              "explanation": "'Je suis tombé amoureux de toi' (male). Female: 'Je suis tombée amoureuse de toi'. 'Être' + past participle."
+            },
+            {
+              "type": "target_to_native",
+              "word": "heureux / heureuse",
+              "options": ["happy", "nervous", "excited", "sad"],
+              "correct": 0,
+              "explanation": "'Je suis heureux/heureuse avec toi' = I am happy with you. Adjective agrees with gender."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["bien aimer", "to really like"],
+                ["tomber amoureux", "to fall in love"],
+                ["heureux", "happy"],
+                ["penser à toi", "to think of you"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["rends", "Tu", "heureux", "me"],
+              "correct": ["Tu", "me", "rends", "heureux"],
+              "translation": "You make me happy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "In a Relationship",
+        "zh": "恋爱中",
+        "th": "ในความสัมพันธ์",
+        "ko": "연애 중",
+        "es": "En una relación"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Talking About Partners",
+            "zh": "谈论伴侣",
+            "th": "พูดคุยเกี่ยวกับคู่รัก",
+            "ko": "파트너에 대해 이야기하기",
+            "es": "Hablar de parejas"
+          },
+          "objectives": {
+            "en": ["Describe your partner and relationship status in French", "Use possessive adjectives with relationship terms"],
+            "zh": ["用法语描述伴侣和关系状态", "使用所有格形容词描述关系"],
+            "th": ["อธิบายคู่รักและสถานะความสัมพันธ์เป็นภาษาฝรั่งเศส", "ใช้คำคุณศัพท์แสดงความเป็นเจ้าของ"],
+            "ko": ["프랑스어로 파트너와 관계 묘사하기", "소유 형용사와 관계 용어 사용하기"],
+            "es": ["Describir pareja y estado sentimental en francés", "Usar adjetivos posesivos con términos de relación"]
+          },
+          "vocabulary": [
+            {
+              "word": "le petit ami / la petite amie",
+              "romanization": null,
+              "meanings": { "en": "boyfriend/girlfriend", "zh": "男友/女友", "th": "แฟน (ชาย/หญิง)", "ko": "남자친구/여자친구", "es": "novio/novia" }
+            },
+            {
+              "word": "être ensemble",
+              "romanization": null,
+              "meanings": { "en": "to be together (as a couple)", "zh": "在一起", "th": "อยู่ด้วยกัน", "ko": "사귀다", "es": "estar juntos" }
+            },
+            {
+              "word": "amoureux / amoureuse",
+              "romanization": null,
+              "meanings": { "en": "in love (m/f)", "zh": "恋爱中", "th": "หลงรัก", "ko": "사랑에 빠진", "es": "enamorado/enamorada" }
+            },
+            {
+              "word": "manquer",
+              "romanization": null,
+              "meanings": { "en": "to miss (someone) — Tu me manques", "zh": "想念 — 我想你（你让我缺失）", "th": "คิดถึง — คุณทำให้ฉันขาดคุณ", "ko": "그리워하다 — Tu me manques", "es": "echar de menos — Tu me manques" }
+            },
+            {
+              "word": "depuis combien de temps",
+              "romanization": null,
+              "meanings": { "en": "for how long / since when", "zh": "多久了", "th": "มานานเท่าไรแล้ว", "ko": "얼마나 됐어요", "es": "¿desde cuándo / cuánto tiempo?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'This is my boyfriend'?",
+              "options": ["C'est mon petit ami.", "C'est mon ami.", "Voici mon copain.", "C'est l'homme que j'aime."],
+              "correct": 0,
+              "explanation": "'Mon petit ami' = my boyfriend. 'Ma petite amie' = my girlfriend. Also 'mon copain/ma copine' in casual speech."
+            },
+            {
+              "type": "target_to_native",
+              "word": "manquer",
+              "options": ["to miss (someone)", "to forget", "to love", "to want"],
+              "correct": 0,
+              "explanation": "In French, 'manquer' works differently: 'Tu me manques' = I miss you (lit. You are missing to me)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le petit ami", "boyfriend"],
+                ["être ensemble", "to be together"],
+                ["amoureux", "in love"],
+                ["manquer", "to miss"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["depuis", "ensemble", "mois", "sommes", "trois", "Nous"],
+              "correct": ["Nous", "sommes", "ensemble", "depuis", "trois", "mois"],
+              "translation": "We have been together for three months."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Planning a Romantic Evening",
+            "zh": "计划浪漫的夜晚",
+            "th": "การวางแผนคืนโรแมนติก",
+            "ko": "로맨틱한 저녁 계획하기",
+            "es": "Planear una velada romántica"
+          },
+          "objectives": {
+            "en": ["Plan a romantic evening using 'on pourrait'", "Suggest romantic activities in French"],
+            "zh": ["用'on pourrait'计划浪漫的夜晚", "用法语建议浪漫活动"],
+            "th": ["วางแผนคืนโรแมนติกโดยใช้ 'on pourrait'", "เสนอกิจกรรมโรแมนติกเป็นภาษาฝรั่งเศส"],
+            "ko": ["'on pourrait'를 사용해 로맨틱한 저녁 계획하기", "프랑스어로 로맨틱한 활동 제안하기"],
+            "es": ["Planear una velada romántica con 'on pourrait'", "Sugerir actividades románticas en francés"]
+          },
+          "vocabulary": [
+            {
+              "word": "le dîner",
+              "romanization": null,
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "la cena" }
+            },
+            {
+              "word": "on pourrait",
+              "romanization": null,
+              "meanings": { "en": "we could", "zh": "我们可以", "th": "เราอาจจะ", "ko": "우리는 ~할 수 있을 거야", "es": "podríamos" }
+            },
+            {
+              "word": "romantique",
+              "romanization": null,
+              "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "로맨틱한", "es": "romántico" }
+            },
+            {
+              "word": "se promener au clair de lune",
+              "romanization": null,
+              "meanings": { "en": "to walk in the moonlight", "zh": "在月光下散步", "th": "เดินในแสงจันทร์", "ko": "달빛 아래 산책하다", "es": "pasear bajo la luz de la luna" }
+            },
+            {
+              "word": "les bougies",
+              "romanization": null,
+              "meanings": { "en": "the candles", "zh": "蜡烛", "th": "เทียน", "ko": "촛불", "es": "las velas" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you suggest 'We could have dinner at a romantic restaurant'?",
+              "options": ["On pourrait dîner dans un restaurant romantique.", "Allons dans un restaurant romantique.", "Je t'invite dans un restaurant romantique.", "On va dîner ensemble."],
+              "correct": 0,
+              "explanation": "'On pourrait + infinitive' = We could... Used for polite suggestions. 'Dîner' = to have dinner."
+            },
+            {
+              "type": "target_to_native",
+              "word": "romantique",
+              "options": ["romantic", "beautiful", "exciting", "lovely"],
+              "correct": 0,
+              "explanation": "'C'est tellement romantique !' = That's so romantic! One of the most French things to say."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le dîner", "dinner"],
+                ["on pourrait", "we could"],
+                ["romantique", "romantic"],
+                ["les bougies", "candles"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["romantique", "soirée", "une", "Planifions"],
+              "correct": ["Planifions", "une", "soirée", "romantique"],
+              "translation": "Let's plan a romantic evening."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Saying 'I Love You'",
+            "zh": "说'我爱你'",
+            "th": "การพูดว่า 'ฉันรักคุณ'",
+            "ko": "'사랑해' 말하기",
+            "es": "Decir 'Te quiero'"
+          },
+          "objectives": {
+            "en": ["Express love and affection in French", "Understand differences between 'aimer' and 'aimer bien'"],
+            "zh": ["用法语表达爱意和感情", "理解'aimer'和'aimer bien'的区别"],
+            "th": ["แสดงความรักและความผูกพันเป็นภาษาฝรั่งเศส", "เข้าใจความแตกต่างของ 'aimer' และ 'aimer bien'"],
+            "ko": ["프랑스어로 사랑과 애정 표현하기", "'aimer'와 'aimer bien'의 차이 이해하기"],
+            "es": ["Expresar amor y afecto en francés", "Entender la diferencia entre 'aimer' y 'aimer bien'"]
+          },
+          "vocabulary": [
+            {
+              "word": "Je t'aime.",
+              "romanization": null,
+              "meanings": { "en": "I love you.", "zh": "我爱你。", "th": "ฉันรักคุณ", "ko": "사랑해.", "es": "Te quiero / Te amo." }
+            },
+            {
+              "word": "Je t'aime bien.",
+              "romanization": null,
+              "meanings": { "en": "I like you (friendly affection)", "zh": "我喜欢你（友好的感情）", "th": "ฉันชอบคุณ (ความรู้สึกที่เป็นมิตร)", "ko": "나는 당신을 좋아해 (우정적)", "es": "Me caes bien / Te aprecio." }
+            },
+            {
+              "word": "l'amour",
+              "romanization": null,
+              "meanings": { "en": "love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "el amor" }
+            },
+            {
+              "word": "pour toujours",
+              "romanization": null,
+              "meanings": { "en": "forever", "zh": "永远", "th": "ตลอดไป", "ko": "영원히", "es": "para siempre" }
+            },
+            {
+              "word": "le cœur",
+              "romanization": null,
+              "meanings": { "en": "the heart", "zh": "心", "th": "หัวใจ", "ko": "심장/마음", "es": "el corazón" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I love you' in French?",
+              "options": ["Je t'aime.", "Je t'aime bien.", "Tu me plais.", "Je te veux."],
+              "correct": 0,
+              "explanation": "'Je t'aime' = I love you. Note: 'Je t'aime bien' is weaker — it means 'I like you' as a friend!"
+            },
+            {
+              "type": "target_to_native",
+              "word": "l'amour",
+              "options": ["love", "heart", "kiss", "hug"],
+              "correct": 0,
+              "explanation": "'L'amour' = love. 'L'amour au premier regard' = love at first sight."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Je t'aime.", "I love you."],
+                ["l'amour", "love"],
+                ["le cœur", "the heart"],
+                ["pour toujours", "forever"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["mon", "dans", "cœur", "es", "Tu"],
+              "correct": ["Tu", "es", "dans", "mon", "cœur"],
+              "translation": "You are in my heart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Relationship Challenges",
+        "zh": "感情挑战",
+        "th": "ความท้าทายในความสัมพันธ์",
+        "ko": "관계의 어려움",
+        "es": "Desafíos en la relación"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Disagreements",
+            "zh": "分歧",
+            "th": "ความขัดแย้ง",
+            "ko": "의견 충돌",
+            "es": "Desacuerdos"
+          },
+          "objectives": {
+            "en": ["Express disagreement politely in French", "Apologize and make up"],
+            "zh": ["用法语礼貌地表达不同意见", "道歉和好"],
+            "th": ["แสดงความไม่เห็นด้วยอย่างสุภาพเป็นภาษาฝรั่งเศส", "ขอโทษและคืนดี"],
+            "ko": ["프랑스어로 정중하게 반대 의견 표현하기", "사과하고 화해하기"],
+            "es": ["Expresar desacuerdo con cortesía en francés", "Disculparse y reconciliarse"]
+          },
+          "vocabulary": [
+            {
+              "word": "la dispute",
+              "romanization": null,
+              "meanings": { "en": "the argument/quarrel", "zh": "争吵", "th": "การทะเลาะ", "ko": "다툼", "es": "la discusión/riña" }
+            },
+            {
+              "word": "se disputer",
+              "romanization": null,
+              "meanings": { "en": "to argue/quarrel", "zh": "吵架", "th": "ทะเลาะ", "ko": "다투다", "es": "discutir/pelearse" }
+            },
+            {
+              "word": "s'excuser",
+              "romanization": null,
+              "meanings": { "en": "to apologize", "zh": "道歉", "th": "ขอโทษ", "ko": "사과하다", "es": "disculparse" }
+            },
+            {
+              "word": "Je suis désolé(e).",
+              "romanization": null,
+              "meanings": { "en": "I am sorry.", "zh": "对不起。", "th": "ฉันเสียใจ/ขอโทษ", "ko": "미안해요.", "es": "Lo siento." }
+            },
+            {
+              "word": "pardonner",
+              "romanization": null,
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How does a woman say 'I am really sorry'?",
+              "options": ["Je suis vraiment désolée.", "Je suis vraiment désolé.", "Excuse-moi vraiment.", "Je m'excuse beaucoup."],
+              "correct": 0,
+              "explanation": "Female form: 'désolée' (double e). Male form: 'désolé'. 'Vraiment' = really/truly."
+            },
+            {
+              "type": "target_to_native",
+              "word": "pardonner",
+              "options": ["to forgive", "to apologize", "to argue", "to understand"],
+              "correct": 0,
+              "explanation": "'Tu peux me pardonner ?' = Can you forgive me? 'Pardonner' = to forgive."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["la dispute", "argument"],
+                ["s'excuser", "to apologize"],
+                ["pardonner", "to forgive"],
+                ["Je suis désolé(e).", "I am sorry."]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["pardonner", "peux", "me", "Tu"],
+              "correct": ["Tu", "peux", "me", "pardonner"],
+              "translation": "Can you forgive me?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Staying in Touch",
+            "zh": "保持联系",
+            "th": "การติดต่อกัน",
+            "ko": "연락 유지하기",
+            "es": "Mantenerse en contacto"
+          },
+          "objectives": {
+            "en": ["Talk about missing someone and keeping in touch", "Use communication vocabulary in French"],
+            "zh": ["谈论思念和保持联系", "用法语使用通讯词汇"],
+            "th": ["พูดถึงการคิดถึงและการติดต่อกัน", "ใช้คำศัพท์การสื่อสารเป็นภาษาฝรั่งเศส"],
+            "ko": ["누군가를 그리워하고 연락하는 것 이야기하기", "프랑스어로 통신 어휘 사용하기"],
+            "es": ["Hablar de echar de menos y mantenerse en contacto", "Usar vocabulario de comunicación en francés"]
+          },
+          "vocabulary": [
+            {
+              "word": "la distance",
+              "romanization": null,
+              "meanings": { "en": "the distance", "zh": "距离", "th": "ระยะทาง", "ko": "거리", "es": "la distancia" }
+            },
+            {
+              "word": "appeler",
+              "romanization": null,
+              "meanings": { "en": "to call (by phone)", "zh": "打电话", "th": "โทรหา", "ko": "전화하다", "es": "llamar" }
+            },
+            {
+              "word": "envoyer un message",
+              "romanization": null,
+              "meanings": { "en": "to send a message", "zh": "发信息", "th": "ส่งข้อความ", "ko": "메시지 보내다", "es": "enviar un mensaje" }
+            },
+            {
+              "word": "rester en contact",
+              "romanization": null,
+              "meanings": { "en": "to stay in touch", "zh": "保持联系", "th": "ติดต่อกัน", "ko": "연락을 유지하다", "es": "mantenerse en contacto" }
+            },
+            {
+              "word": "bientôt",
+              "romanization": null,
+              "meanings": { "en": "soon", "zh": "很快", "th": "เร็วๆ นี้", "ko": "곧", "es": "pronto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I will call you soon'?",
+              "options": ["Je t'appellerai bientôt.", "Je vais t'appeler.", "Je t'appelle ce soir.", "On se parle bientôt."],
+              "correct": 0,
+              "explanation": "'Je t'appellerai' = I will call you (future tense). 'Bientôt' = soon."
+            },
+            {
+              "type": "target_to_native",
+              "word": "rester en contact",
+              "options": ["to stay in touch", "to call", "to write", "to visit"],
+              "correct": 0,
+              "explanation": "'Restons en contact !' = Let's stay in touch! An important phrase in long-distance relationships."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["appeler", "to call"],
+                ["bientôt", "soon"],
+                ["la distance", "distance"],
+                ["rester en contact", "to stay in touch"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["contact", "resterons", "Nous", "en"],
+              "correct": ["Nous", "resterons", "en", "contact"],
+              "translation": "We will stay in touch."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Commitments",
+            "zh": "承诺",
+            "th": "ความมุ่งมั่น",
+            "ko": "헌신과 약속",
+            "es": "Compromisos"
+          },
+          "objectives": {
+            "en": ["Talk about future relationship plans in French", "Express commitment and promises"],
+            "zh": ["用法语谈论未来的感情计划", "表达承诺"],
+            "th": ["พูดคุยเกี่ยวกับแผนความสัมพันธ์ในอนาคตเป็นภาษาฝรั่งเศส", "แสดงความมุ่งมั่นและสัญญา"],
+            "ko": ["프랑스어로 미래의 관계 계획 이야기하기", "헌신과 약속 표현하기"],
+            "es": ["Hablar de planes futuros de relación en francés", "Expresar compromiso y promesas"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'avenir",
+              "romanization": null,
+              "meanings": { "en": "the future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "el futuro" }
+            },
+            {
+              "word": "promettre",
+              "romanization": null,
+              "meanings": { "en": "to promise", "zh": "承诺", "th": "สัญญา", "ko": "약속하다", "es": "prometer" }
+            },
+            {
+              "word": "se marier",
+              "romanization": null,
+              "meanings": { "en": "to get married", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "casarse" }
+            },
+            {
+              "word": "fidèle",
+              "romanization": null,
+              "meanings": { "en": "faithful/loyal", "zh": "忠诚的", "th": "ซื่อสัตย์", "ko": "충실한", "es": "fiel" }
+            },
+            {
+              "word": "la promesse",
+              "romanization": null,
+              "meanings": { "en": "the promise", "zh": "承诺/诺言", "th": "สัญญา", "ko": "약속", "es": "la promesa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I promise to always be faithful'?",
+              "options": ["Je promets d'être toujours fidèle.", "Je suis fidèle.", "Je promets tout.", "Nous allons nous marier."],
+              "correct": 0,
+              "explanation": "'Je promets de + infinitive' = I promise to... 'Fidèle' = faithful."
+            },
+            {
+              "type": "target_to_native",
+              "word": "se marier",
+              "options": ["to get married", "to date", "to be together", "to meet"],
+              "correct": 0,
+              "explanation": "'Tu veux te marier avec moi ?' = Do you want to marry me?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["promettre", "to promise"],
+                ["fidèle", "faithful"],
+                ["se marier", "to get married"],
+                ["l'avenir", "the future"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["marier", "te", "veux", "Tu", "avec", "moi"],
+              "correct": ["Tu", "veux", "te", "marier", "avec", "moi"],
+              "translation": "Do you want to marry me?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

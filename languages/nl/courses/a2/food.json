@@ -1,0 +1,1489 @@
+{
+  "lang": "nl",
+  "language": "nl",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订座位",
+            "th": "การจองที่นั่ง",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": [
+              "Reserve a table at a restaurant",
+              "State the number of people and preferred time"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "reserveren",
+              "romanization": null,
+              "meanings": {
+                "en": "to reserve / to book",
+                "zh": "预订",
+                "th": "จอง",
+                "ko": "예약하다",
+                "es": "reservar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "tafel",
+              "romanization": null,
+              "meanings": {
+                "en": "table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "mesa"
+              },
+              "gendered": null
+            },
+            {
+              "word": "persoon",
+              "romanization": null,
+              "meanings": {
+                "en": "person",
+                "zh": "人",
+                "th": "คน",
+                "ko": "사람",
+                "es": "persona"
+              },
+              "gendered": null
+            },
+            {
+              "word": "vanavond",
+              "romanization": null,
+              "meanings": {
+                "en": "tonight / this evening",
+                "zh": "今晚",
+                "th": "คืนนี้",
+                "ko": "오늘 저녁",
+                "es": "esta noche"
+              },
+              "gendered": null
+            },
+            {
+              "word": "beschikbaar",
+              "romanization": null,
+              "meanings": {
+                "en": "available",
+                "zh": "可用的",
+                "th": "ว่าง",
+                "ko": "이용 가능한",
+                "es": "disponible"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "reserveren",
+              "romanization": null,
+              "options": {
+                "en": ["to reserve / to book", "to eat", "to pay", "to order"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "tafel",
+              "romanization": null,
+              "options": {
+                "en": ["table", "chair", "menu", "glass"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'tonight' in Dutch?",
+                "zh": "荷兰语中'今晚'怎么说？",
+                "th": "ภาษาดัตช์ 'คืนนี้' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '오늘 저녁'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'esta noche' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["vanavond", "persoon", "beschikbaar", "tafel"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'available' in Dutch?",
+                "zh": "荷兰语中'可用的'怎么说？",
+                "th": "ภาษาดัตช์ 'ว่าง' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '이용 가능한'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'disponible' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["beschikbaar", "vanavond", "reserveren", "persoon"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "beschikbaar",
+              "romanization": null,
+              "options": {
+                "en": ["available", "to reserve", "tonight", "person"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "reserveren",
+                  "romanization": null,
+                  "native": { "en": "to reserve / to book" }
+                },
+                {
+                  "target": "tafel",
+                  "romanization": null,
+                  "native": { "en": "table" }
+                },
+                {
+                  "target": "vanavond",
+                  "romanization": null,
+                  "native": { "en": "tonight / this evening" }
+                },
+                {
+                  "target": "beschikbaar",
+                  "romanization": null,
+                  "native": { "en": "available" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Reading the Menu",
+            "zh": "看菜单",
+            "th": "อ่านเมนู",
+            "ko": "메뉴 읽기",
+            "es": "Leer el menú"
+          },
+          "objectives": {
+            "en": [
+              "Understand common menu items in Dutch",
+              "Ask about dishes and ingredients"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "gerecht",
+              "romanization": null,
+              "meanings": {
+                "en": "dish / course",
+                "zh": "菜肴",
+                "th": "อาหารจาน",
+                "ko": "요리",
+                "es": "plato / curso"
+              },
+              "gendered": null
+            },
+            {
+              "word": "voorgerecht",
+              "romanization": null,
+              "meanings": {
+                "en": "starter / appetizer",
+                "zh": "开胃菜",
+                "th": "อาหารเรียกน้ำย่อย",
+                "ko": "전채 요리",
+                "es": "entrante / aperitivo"
+              },
+              "gendered": null
+            },
+            {
+              "word": "hoofdgerecht",
+              "romanization": null,
+              "meanings": {
+                "en": "main course",
+                "zh": "主菜",
+                "th": "อาหารหลัก",
+                "ko": "메인 요리",
+                "es": "plato principal"
+              },
+              "gendered": null
+            },
+            {
+              "word": "nagerecht",
+              "romanization": null,
+              "meanings": {
+                "en": "dessert",
+                "zh": "甜点",
+                "th": "ของหวาน",
+                "ko": "디저트",
+                "es": "postre"
+              },
+              "gendered": null
+            },
+            {
+              "word": "ingrediënt",
+              "romanization": null,
+              "meanings": {
+                "en": "ingredient",
+                "zh": "成分",
+                "th": "ส่วนผสม",
+                "ko": "재료",
+                "es": "ingrediente"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "voorgerecht",
+              "romanization": null,
+              "options": {
+                "en": ["starter / appetizer", "main course", "dessert", "dish"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "nagerecht",
+              "romanization": null,
+              "options": {
+                "en": ["dessert", "starter", "main course", "ingredient"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'main course' in Dutch?",
+                "zh": "荷兰语中'主菜'怎么说？",
+                "th": "ภาษาดัตช์ 'อาหารหลัก' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '메인 요리'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'plato principal' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["hoofdgerecht", "voorgerecht", "nagerecht", "gerecht"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'ingredient' in Dutch?",
+                "zh": "荷兰语中'成分'怎么说？",
+                "th": "ภาษาดัตช์ 'ส่วนผสม' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '재료'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'ingrediente' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["ingrediënt", "gerecht", "nagerecht", "voorgerecht"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "hoofdgerecht",
+              "romanization": null,
+              "options": {
+                "en": ["main course", "starter", "dessert", "dish"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "voorgerecht",
+                  "romanization": null,
+                  "native": { "en": "starter / appetizer" }
+                },
+                {
+                  "target": "hoofdgerecht",
+                  "romanization": null,
+                  "native": { "en": "main course" }
+                },
+                {
+                  "target": "nagerecht",
+                  "romanization": null,
+                  "native": { "en": "dessert" }
+                },
+                {
+                  "target": "ingrediënt",
+                  "romanization": null,
+                  "native": { "en": "ingredient" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "สั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": [
+              "Order food and drinks confidently",
+              "Express preferences and dietary needs"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "bestellen",
+              "romanization": null,
+              "meanings": {
+                "en": "to order",
+                "zh": "点餐",
+                "th": "สั่ง",
+                "ko": "주문하다",
+                "es": "pedir / ordenar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "aanbevelen",
+              "romanization": null,
+              "meanings": {
+                "en": "to recommend",
+                "zh": "推荐",
+                "th": "แนะนำ",
+                "ko": "추천하다",
+                "es": "recomendar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "allergisch",
+              "romanization": null,
+              "meanings": {
+                "en": "allergic",
+                "zh": "过敏的",
+                "th": "แพ้",
+                "ko": "알레르기가 있는",
+                "es": "alérgico"
+              },
+              "gendered": null
+            },
+            {
+              "word": "vegetarisch",
+              "romanization": null,
+              "meanings": {
+                "en": "vegetarian",
+                "zh": "素食的",
+                "th": "มังสวิรัติ",
+                "ko": "채식의",
+                "es": "vegetariano"
+              },
+              "gendered": null
+            },
+            {
+              "word": "rekening",
+              "romanization": null,
+              "meanings": {
+                "en": "bill / check",
+                "zh": "账单",
+                "th": "ใบเสร็จ",
+                "ko": "계산서",
+                "es": "cuenta"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "bestellen",
+              "romanization": null,
+              "options": {
+                "en": ["to order", "to recommend", "to pay", "to reserve"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "rekening",
+              "romanization": null,
+              "options": {
+                "en": ["bill / check", "menu", "table", "reservation"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'vegetarian' in Dutch?",
+                "zh": "荷兰语中'素食的'怎么说？",
+                "th": "ภาษาดัตช์ 'มังสวิรัติ' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '채식의'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'vegetariano' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["vegetarisch", "allergisch", "bestellen", "aanbevelen"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to recommend' in Dutch?",
+                "zh": "荷兰语中'推荐'怎么说？",
+                "th": "ภาษาดัตช์ 'แนะนำ' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '추천하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'recomendar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["aanbevelen", "bestellen", "rekening", "vegetarisch"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "allergisch",
+              "romanization": null,
+              "options": {
+                "en": ["allergic", "vegetarian", "to order", "bill"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "bestellen",
+                  "romanization": null,
+                  "native": { "en": "to order" }
+                },
+                {
+                  "target": "vegetarisch",
+                  "romanization": null,
+                  "native": { "en": "vegetarian" }
+                },
+                {
+                  "target": "allergisch",
+                  "romanization": null,
+                  "native": { "en": "allergic" }
+                },
+                {
+                  "target": "rekening",
+                  "romanization": null,
+                  "native": { "en": "bill / check" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Dutch Food Culture",
+        "zh": "荷兰饮食文化",
+        "th": "วัฒนธรรมอาหารดัตช์",
+        "ko": "네덜란드 음식 문화",
+        "es": "Cultura gastronómica neerlandesa"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Traditional Dutch Dishes",
+            "zh": "传统荷兰菜肴",
+            "th": "อาหารดัตช์แบบดั้งเดิม",
+            "ko": "전통 네덜란드 요리",
+            "es": "Platos tradicionales neerlandeses"
+          },
+          "objectives": {
+            "en": [
+              "Name common Dutch traditional foods",
+              "Describe taste and texture of food"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "stampot",
+              "romanization": null,
+              "meanings": {
+                "en": "mashed potato and vegetable dish",
+                "zh": "土豆蔬菜泥",
+                "th": "อาหารมันฝรั่งบด",
+                "ko": "으깬 감자 채소 요리",
+                "es": "puré de patatas con verduras"
+              },
+              "gendered": null
+            },
+            {
+              "word": "stroopwafel",
+              "romanization": null,
+              "meanings": {
+                "en": "syrup waffle (Dutch cookie)",
+                "zh": "糖浆华夫饼",
+                "th": "วาฟเฟิลน้ำเชื่อม",
+                "ko": "시럽 와플 쿠키",
+                "es": "gofre de sirope (galleta holandesa)"
+              },
+              "gendered": null
+            },
+            {
+              "word": "haring",
+              "romanization": null,
+              "meanings": {
+                "en": "herring (raw pickled fish)",
+                "zh": "鲱鱼",
+                "th": "ปลาเฮอริ่ง",
+                "ko": "청어",
+                "es": "arenque (pescado en escabeche)"
+              },
+              "gendered": null
+            },
+            {
+              "word": "smakelijk",
+              "romanization": null,
+              "meanings": {
+                "en": "tasty / enjoy your meal",
+                "zh": "美味 / 请慢用",
+                "th": "อร่อย",
+                "ko": "맛있는 / 맛있게 드세요",
+                "es": "sabroso / buen provecho"
+              },
+              "gendered": null
+            },
+            {
+              "word": "lekker",
+              "romanization": null,
+              "meanings": {
+                "en": "delicious / nice",
+                "zh": "好吃的",
+                "th": "อร่อย",
+                "ko": "맛있는",
+                "es": "delicioso / rico"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "stroopwafel",
+              "romanization": null,
+              "options": {
+                "en": ["syrup waffle (Dutch cookie)", "herring", "mashed potato dish", "waffle iron"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "lekker",
+              "romanization": null,
+              "options": {
+                "en": ["delicious / nice", "tasty meal", "herring", "syrup"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'herring' in Dutch?",
+                "zh": "荷兰语中'鲱鱼'怎么说？",
+                "th": "ภาษาดัตช์ 'ปลาเฮอริ่ง' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '청어'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'arenque' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["haring", "stampot", "stroopwafel", "lekker"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'enjoy your meal' in Dutch?",
+                "zh": "荷兰语中'请慢用'怎么说？",
+                "th": "ภาษาดัตช์ 'ทานให้อร่อย' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '맛있게 드세요'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'buen provecho' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["smakelijk", "lekker", "haring", "stampot"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "stampot",
+              "romanization": null,
+              "options": {
+                "en": ["mashed potato and vegetable dish", "herring", "syrup waffle", "delicious"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "stampot",
+                  "romanization": null,
+                  "native": { "en": "mashed potato and vegetable dish" }
+                },
+                {
+                  "target": "stroopwafel",
+                  "romanization": null,
+                  "native": { "en": "syrup waffle (Dutch cookie)" }
+                },
+                {
+                  "target": "haring",
+                  "romanization": null,
+                  "native": { "en": "herring (raw pickled fish)" }
+                },
+                {
+                  "target": "lekker",
+                  "romanization": null,
+                  "native": { "en": "delicious / nice" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Grocery Shopping",
+            "zh": "购物",
+            "th": "ซื้อของชำ",
+            "ko": "장보기",
+            "es": "Hacer la compra"
+          },
+          "objectives": {
+            "en": [
+              "Shop for food at a Dutch supermarket",
+              "Ask for quantities and prices"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "supermarkt",
+              "romanization": null,
+              "meanings": {
+                "en": "supermarket",
+                "zh": "超市",
+                "th": "ซุปเปอร์มาร์เก็ต",
+                "ko": "슈퍼마켓",
+                "es": "supermercado"
+              },
+              "gendered": null
+            },
+            {
+              "word": "groenten",
+              "romanization": null,
+              "meanings": {
+                "en": "vegetables",
+                "zh": "蔬菜",
+                "th": "ผัก",
+                "ko": "채소",
+                "es": "verduras"
+              },
+              "gendered": null
+            },
+            {
+              "word": "fruit",
+              "romanization": null,
+              "meanings": {
+                "en": "fruit",
+                "zh": "水果",
+                "th": "ผลไม้",
+                "ko": "과일",
+                "es": "fruta"
+              },
+              "gendered": null
+            },
+            {
+              "word": "hoeveel",
+              "romanization": null,
+              "meanings": {
+                "en": "how much / how many",
+                "zh": "多少",
+                "th": "เท่าไหร่",
+                "ko": "얼마나",
+                "es": "cuánto / cuántos"
+              },
+              "gendered": null
+            },
+            {
+              "word": "aanbieding",
+              "romanization": null,
+              "meanings": {
+                "en": "special offer / deal",
+                "zh": "特价",
+                "th": "โปรโมชัน",
+                "ko": "특가 / 할인",
+                "es": "oferta especial"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "groenten",
+              "romanization": null,
+              "options": {
+                "en": ["vegetables", "fruit", "supermarket", "special offer"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "aanbieding",
+              "romanization": null,
+              "options": {
+                "en": ["special offer / deal", "vegetables", "how many", "fruit"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'how much / how many' in Dutch?",
+                "zh": "荷兰语中'多少'怎么说？",
+                "th": "ภาษาดัตช์ 'เท่าไหร่' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '얼마나'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'cuánto' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["hoeveel", "supermarkt", "groenten", "fruit"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'supermarket' in Dutch?",
+                "zh": "荷兰语中'超市'怎么说？",
+                "th": "ภาษาดัตช์ 'ซุปเปอร์มาร์เก็ต' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '슈퍼마켓'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'supermercado' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["supermarkt", "aanbieding", "hoeveel", "groenten"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "aanbieding",
+              "romanization": null,
+              "options": {
+                "en": ["special offer / deal", "vegetables", "fruit", "supermarket"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "supermarkt",
+                  "romanization": null,
+                  "native": { "en": "supermarket" }
+                },
+                {
+                  "target": "groenten",
+                  "romanization": null,
+                  "native": { "en": "vegetables" }
+                },
+                {
+                  "target": "hoeveel",
+                  "romanization": null,
+                  "native": { "en": "how much / how many" }
+                },
+                {
+                  "target": "aanbieding",
+                  "romanization": null,
+                  "native": { "en": "special offer / deal" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Cooking at Home",
+            "zh": "在家烹饪",
+            "th": "ทำอาหารที่บ้าน",
+            "ko": "집에서 요리하기",
+            "es": "Cocinar en casa"
+          },
+          "objectives": {
+            "en": [
+              "Describe basic cooking actions",
+              "Talk about recipes and preparation"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "koken",
+              "romanization": null,
+              "meanings": {
+                "en": "to cook / to boil",
+                "zh": "烹饪",
+                "th": "ทำอาหาร / ต้ม",
+                "ko": "요리하다 / 끓이다",
+                "es": "cocinar / hervir"
+              },
+              "gendered": null
+            },
+            {
+              "word": "bakken",
+              "romanization": null,
+              "meanings": {
+                "en": "to fry / to bake",
+                "zh": "煎 / 烤",
+                "th": "ทอด / อบ",
+                "ko": "튀기다 / 굽다",
+                "es": "freír / hornear"
+              },
+              "gendered": null
+            },
+            {
+              "word": "snijden",
+              "romanization": null,
+              "meanings": {
+                "en": "to cut / to chop",
+                "zh": "切",
+                "th": "หั่น",
+                "ko": "자르다",
+                "es": "cortar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "recept",
+              "romanization": null,
+              "meanings": {
+                "en": "recipe",
+                "zh": "食谱",
+                "th": "สูตรอาหาร",
+                "ko": "레시피",
+                "es": "receta"
+              },
+              "gendered": null
+            },
+            {
+              "word": "pan",
+              "romanization": null,
+              "meanings": {
+                "en": "pan / pot",
+                "zh": "锅",
+                "th": "กระทะ",
+                "ko": "냄비 / 팬",
+                "es": "sartén / olla"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "bakken",
+              "romanization": null,
+              "options": {
+                "en": ["to fry / to bake", "to cook / to boil", "to cut", "to stir"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "recept",
+              "romanization": null,
+              "options": {
+                "en": ["recipe", "pan", "ingredient", "oven"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to cut / to chop' in Dutch?",
+                "zh": "荷兰语中'切'怎么说？",
+                "th": "ภาษาดัตช์ 'หั่น' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '자르다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'cortar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["snijden", "koken", "bakken", "recept"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'pan / pot' in Dutch?",
+                "zh": "荷兰语中'锅'怎么说？",
+                "th": "ภาษาดัตช์ 'กระทะ' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '냄비'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'sartén' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["pan", "snijden", "koken", "bakken"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "koken",
+              "romanization": null,
+              "options": {
+                "en": ["to cook / to boil", "to fry", "to cut", "recipe"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "koken",
+                  "romanization": null,
+                  "native": { "en": "to cook / to boil" }
+                },
+                {
+                  "target": "bakken",
+                  "romanization": null,
+                  "native": { "en": "to fry / to bake" }
+                },
+                {
+                  "target": "snijden",
+                  "romanization": null,
+                  "native": { "en": "to cut / to chop" }
+                },
+                {
+                  "target": "recept",
+                  "romanization": null,
+                  "native": { "en": "recipe" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Drinks & Cafés",
+        "zh": "饮品与咖啡厅",
+        "th": "เครื่องดื่มและร้านกาแฟ",
+        "ko": "음료와 카페",
+        "es": "Bebidas y cafeterías"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Café",
+            "zh": "在咖啡厅",
+            "th": "ที่ร้านกาแฟ",
+            "ko": "카페에서",
+            "es": "En la cafetería"
+          },
+          "objectives": {
+            "en": [
+              "Order drinks at a Dutch café",
+              "Ask about sizes and options"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "koffie",
+              "romanization": null,
+              "meanings": {
+                "en": "coffee",
+                "zh": "咖啡",
+                "th": "กาแฟ",
+                "ko": "커피",
+                "es": "café"
+              },
+              "gendered": null
+            },
+            {
+              "word": "thee",
+              "romanization": null,
+              "meanings": {
+                "en": "tea",
+                "zh": "茶",
+                "th": "ชา",
+                "ko": "차",
+                "es": "té"
+              },
+              "gendered": null
+            },
+            {
+              "word": "melk",
+              "romanization": null,
+              "meanings": {
+                "en": "milk",
+                "zh": "牛奶",
+                "th": "นม",
+                "ko": "우유",
+                "es": "leche"
+              },
+              "gendered": null
+            },
+            {
+              "word": "suiker",
+              "romanization": null,
+              "meanings": {
+                "en": "sugar",
+                "zh": "糖",
+                "th": "น้ำตาล",
+                "ko": "설탕",
+                "es": "azúcar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "terrasje",
+              "romanization": null,
+              "meanings": {
+                "en": "outdoor terrace / patio (of a café)",
+                "zh": "露台",
+                "th": "ระเบียงกลางแจ้ง",
+                "ko": "야외 테라스",
+                "es": "terraza exterior"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "koffie",
+              "romanization": null,
+              "options": {
+                "en": ["coffee", "tea", "milk", "sugar"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "terrasje",
+              "romanization": null,
+              "options": {
+                "en": ["outdoor terrace / patio", "café", "small table", "glass"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'sugar' in Dutch?",
+                "zh": "荷兰语中'糖'怎么说？",
+                "th": "ภาษาดัตช์ 'น้ำตาล' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '설탕'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'azúcar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["suiker", "melk", "thee", "koffie"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'milk' in Dutch?",
+                "zh": "荷兰语中'牛奶'怎么说？",
+                "th": "ภาษาดัตช์ 'นม' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '우유'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'leche' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["melk", "suiker", "thee", "terrasje"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "thee",
+              "romanization": null,
+              "options": {
+                "en": ["tea", "coffee", "milk", "sugar"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "koffie",
+                  "romanization": null,
+                  "native": { "en": "coffee" }
+                },
+                {
+                  "target": "thee",
+                  "romanization": null,
+                  "native": { "en": "tea" }
+                },
+                {
+                  "target": "suiker",
+                  "romanization": null,
+                  "native": { "en": "sugar" }
+                },
+                {
+                  "target": "terrasje",
+                  "romanization": null,
+                  "native": { "en": "outdoor terrace / patio (of a café)" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Alcoholic Drinks",
+            "zh": "酒精饮料",
+            "th": "เครื่องดื่มแอลกอฮอล์",
+            "ko": "알코올 음료",
+            "es": "Bebidas alcohólicas"
+          },
+          "objectives": {
+            "en": [
+              "Order alcoholic drinks in Dutch",
+              "Make toasts and talk about drinks socially"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "bier",
+              "romanization": null,
+              "meanings": {
+                "en": "beer",
+                "zh": "啤酒",
+                "th": "เบียร์",
+                "ko": "맥주",
+                "es": "cerveza"
+              },
+              "gendered": null
+            },
+            {
+              "word": "wijn",
+              "romanization": null,
+              "meanings": {
+                "en": "wine",
+                "zh": "葡萄酒",
+                "th": "ไวน์",
+                "ko": "와인",
+                "es": "vino"
+              },
+              "gendered": null
+            },
+            {
+              "word": "jenever",
+              "romanization": null,
+              "meanings": {
+                "en": "Dutch gin / jenever",
+                "zh": "荷兰杜松子酒",
+                "th": "จินดัตช์",
+                "ko": "네덜란드 진",
+                "es": "ginebra holandesa"
+              },
+              "gendered": null
+            },
+            {
+              "word": "proost",
+              "romanization": null,
+              "meanings": {
+                "en": "cheers! (toast)",
+                "zh": "干杯！",
+                "th": "ไชโย!",
+                "ko": "건배!",
+                "es": "¡salud!"
+              },
+              "gendered": null
+            },
+            {
+              "word": "glas",
+              "romanization": null,
+              "meanings": {
+                "en": "glass",
+                "zh": "玻璃杯",
+                "th": "แก้ว",
+                "ko": "유리잔",
+                "es": "vaso / copa"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "bier",
+              "romanization": null,
+              "options": {
+                "en": ["beer", "wine", "gin", "glass"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "proost",
+              "romanization": null,
+              "options": {
+                "en": ["cheers! (toast)", "please", "thank you", "welcome"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'wine' in Dutch?",
+                "zh": "荷兰语中'葡萄酒'怎么说？",
+                "th": "ภาษาดัตช์ 'ไวน์' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '와인'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'vino' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["wijn", "bier", "jenever", "glas"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'glass' in Dutch?",
+                "zh": "荷兰语中'玻璃杯'怎么说？",
+                "th": "ภาษาดัตช์ 'แก้ว' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '유리잔'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'vaso' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["glas", "wijn", "bier", "proost"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "jenever",
+              "romanization": null,
+              "options": {
+                "en": ["Dutch gin / jenever", "beer", "wine", "glass"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "bier",
+                  "romanization": null,
+                  "native": { "en": "beer" }
+                },
+                {
+                  "target": "wijn",
+                  "romanization": null,
+                  "native": { "en": "wine" }
+                },
+                {
+                  "target": "proost",
+                  "romanization": null,
+                  "native": { "en": "cheers! (toast)" }
+                },
+                {
+                  "target": "glas",
+                  "romanization": null,
+                  "native": { "en": "glass" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Paying and Tipping",
+            "zh": "付款与小费",
+            "th": "การจ่ายเงินและทิปส์",
+            "ko": "계산과 팁",
+            "es": "Pagar y propina"
+          },
+          "objectives": {
+            "en": [
+              "Handle payment at a Dutch restaurant or café",
+              "Understand Dutch customs around tipping"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "betalen",
+              "romanization": null,
+              "meanings": {
+                "en": "to pay",
+                "zh": "付款",
+                "th": "จ่ายเงิน",
+                "ko": "지불하다",
+                "es": "pagar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "fooi",
+              "romanization": null,
+              "meanings": {
+                "en": "tip (gratuity)",
+                "zh": "小费",
+                "th": "ทิปส์",
+                "ko": "팁",
+                "es": "propina"
+              },
+              "gendered": null
+            },
+            {
+              "word": "contant",
+              "romanization": null,
+              "meanings": {
+                "en": "cash",
+                "zh": "现金",
+                "th": "เงินสด",
+                "ko": "현금",
+                "es": "efectivo"
+              },
+              "gendered": null
+            },
+            {
+              "word": "pinnen",
+              "romanization": null,
+              "meanings": {
+                "en": "to pay by card (debit/PIN)",
+                "zh": "刷卡付款",
+                "th": "จ่ายด้วยบัตร",
+                "ko": "카드로 결제하다",
+                "es": "pagar con tarjeta"
+              },
+              "gendered": null
+            },
+            {
+              "word": "wisselgeld",
+              "romanization": null,
+              "meanings": {
+                "en": "change (money returned)",
+                "zh": "找零",
+                "th": "เงินทอน",
+                "ko": "거스름돈",
+                "es": "cambio (dinero devuelto)"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "betalen",
+              "romanization": null,
+              "options": {
+                "en": ["to pay", "to tip", "to order", "to reserve"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "wisselgeld",
+              "romanization": null,
+              "options": {
+                "en": ["change (money returned)", "cash", "tip", "bill"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'cash' in Dutch?",
+                "zh": "荷兰语中'现金'怎么说？",
+                "th": "ภาษาดัตช์ 'เงินสด' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '현금'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'efectivo' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["contant", "fooi", "pinnen", "betalen"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'tip (gratuity)' in Dutch?",
+                "zh": "荷兰语中'小费'怎么说？",
+                "th": "ภาษาดัตช์ 'ทิปส์' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '팁'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'propina' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["fooi", "contant", "wisselgeld", "pinnen"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "pinnen",
+              "romanization": null,
+              "options": {
+                "en": ["to pay by card (debit/PIN)", "cash", "tip", "change"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "betalen",
+                  "romanization": null,
+                  "native": { "en": "to pay" }
+                },
+                {
+                  "target": "fooi",
+                  "romanization": null,
+                  "native": { "en": "tip (gratuity)" }
+                },
+                {
+                  "target": "contant",
+                  "romanization": null,
+                  "native": { "en": "cash" }
+                },
+                {
+                  "target": "wisselgeld",
+                  "romanization": null,
+                  "native": { "en": "change (money returned)" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

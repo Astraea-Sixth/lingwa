@@ -1,0 +1,378 @@
+{
+  "lang": "ms",
+  "language": "ms",
+  "level": "A2",
+  "track": "travel",
+  "track_label": {
+    "en": "Travel & Transport",
+    "zh": "旅行与交通",
+    "th": "การเดินทางและการขนส่ง",
+    "ko": "여행과 교통",
+    "es": "Viajes y transporte"
+  },
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行方式",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "description": {
+        "en": "Learn how to use public transport and ask for directions in Malaysia",
+        "zh": "学习在马来西亚使用公共交通和问路",
+        "th": "เรียนรู้การใช้ระบบขนส่งสาธารณะและการถามทาง",
+        "ko": "말레이시아에서 대중교통 이용 및 길 묻기",
+        "es": "Aprender a usar el transporte público y pedir direcciones en Malasia"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Transport Options",
+            "zh": "交通选择",
+            "th": "ตัวเลือกการเดินทาง",
+            "ko": "교통 수단",
+            "es": "Opciones de transporte"
+          },
+          "objectives": {
+            "en": ["Name common forms of transport", "Say how you travel"]
+          },
+          "vocabulary": [
+            { "word": "Bas", "romanization": null, "meanings": { "en": "Bus", "zh": "巴士", "th": "รถบัส", "ko": "버스", "es": "Autobús" } },
+            { "word": "Kereta api", "romanization": null, "meanings": { "en": "Train", "zh": "火车", "th": "รถไฟ", "ko": "기차", "es": "Tren" } },
+            { "word": "Teksi", "romanization": null, "meanings": { "en": "Taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "Taxi" } },
+            { "word": "Kapal terbang", "romanization": null, "meanings": { "en": "Aeroplane", "zh": "飞机", "th": "เครื่องบิน", "ko": "비행기", "es": "Avión" } },
+            { "word": "Kereta", "romanization": null, "meanings": { "en": "Car", "zh": "汽车", "th": "รถยนต์", "ko": "자동차", "es": "Coche" } },
+            { "word": "Stesen", "romanization": null, "meanings": { "en": "Station", "zh": "车站", "th": "สถานี", "ko": "역", "es": "Estación" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kereta api", "romanization": null, "options": { "en": ["Train", "Car", "Bus", "Taxi"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kapal terbang", "romanization": null, "options": { "en": ["Aeroplane", "Ship", "Bus", "Train"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Taxi' in Malay?" }, "options": { "neutral": ["Teksi", "Bas", "Kereta", "Stesen"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Station' in Malay?" }, "options": { "neutral": ["Stesen", "Teksi", "Bas", "Kereta api"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bas", "romanization": null, "options": { "en": ["Bus", "Train", "Car", "Taxi"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Bas", "romanization": null, "native": { "en": "Bus" } },
+              { "target": "Teksi", "romanization": null, "native": { "en": "Taxi" } },
+              { "target": "Kereta api", "romanization": null, "native": { "en": "Train" } },
+              { "target": "Kapal terbang", "romanization": null, "native": { "en": "Aeroplane" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir direcciones"
+          },
+          "objectives": {
+            "en": ["Ask and give simple directions", "Understand directional vocabulary"]
+          },
+          "vocabulary": [
+            { "word": "Ke mana?", "romanization": null, "meanings": { "en": "Where to?", "zh": "去哪里？", "th": "ไปไหน?", "ko": "어디로?", "es": "¿Adónde?" } },
+            { "word": "Belok kiri", "romanization": null, "meanings": { "en": "Turn left", "zh": "左转", "th": "เลี้ยวซ้าย", "ko": "왼쪽으로 돌다", "es": "Girar a la izquierda" } },
+            { "word": "Belok kanan", "romanization": null, "meanings": { "en": "Turn right", "zh": "右转", "th": "เลี้ยวขวา", "ko": "오른쪽으로 돌다", "es": "Girar a la derecha" } },
+            { "word": "Lurus", "romanization": null, "meanings": { "en": "Straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "Recto / derecho" } },
+            { "word": "Dekat", "romanization": null, "meanings": { "en": "Near / close", "zh": "近", "th": "ใกล้", "ko": "가깝다", "es": "Cerca" } },
+            { "word": "Jauh", "romanization": null, "meanings": { "en": "Far", "zh": "远", "th": "ไกล", "ko": "멀다", "es": "Lejos" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Lurus", "romanization": null, "options": { "en": ["Straight ahead", "Turn left", "Turn right", "Far"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Jauh", "romanization": null, "options": { "en": ["Far", "Near", "Left", "Right"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Turn left' in Malay?" }, "options": { "neutral": ["Belok kiri", "Belok kanan", "Lurus", "Dekat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Near / close' in Malay?" }, "options": { "neutral": ["Dekat", "Jauh", "Lurus", "Ke mana?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Belok kanan", "romanization": null, "options": { "en": ["Turn right", "Turn left", "Straight ahead", "Go back"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Belok kiri", "romanization": null, "native": { "en": "Turn left" } },
+              { "target": "Belok kanan", "romanization": null, "native": { "en": "Turn right" } },
+              { "target": "Dekat", "romanization": null, "native": { "en": "Near / close" } },
+              { "target": "Jauh", "romanization": null, "native": { "en": "Far" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Buying Tickets",
+            "zh": "购票",
+            "th": "การซื้อตั๋ว",
+            "ko": "티켓 구매",
+            "es": "Comprar billetes"
+          },
+          "objectives": {
+            "en": ["Buy transport tickets", "Understand ticket-related vocabulary"]
+          },
+          "vocabulary": [
+            { "word": "Tiket", "romanization": null, "meanings": { "en": "Ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "Billete / ticket" } },
+            { "word": "Sekali jalan", "romanization": null, "meanings": { "en": "One way", "zh": "单程", "th": "เที่ยวเดียว", "ko": "편도", "es": "Solo ida" } },
+            { "word": "Pergi balik", "romanization": null, "meanings": { "en": "Return / round trip", "zh": "来回", "th": "ไปกลับ", "ko": "왕복", "es": "Ida y vuelta" } },
+            { "word": "Berapa?", "romanization": null, "meanings": { "en": "How much?", "zh": "多少钱？", "th": "เท่าไหร่?", "ko": "얼마예요?", "es": "¿Cuánto?" } },
+            { "word": "Tempahan", "romanization": null, "meanings": { "en": "Reservation / booking", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "Reserva" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sekali jalan", "romanization": null, "options": { "en": ["One way", "Return", "First class", "Express"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tempahan", "romanization": null, "options": { "en": ["Reservation / booking", "Departure", "Arrival", "Platform"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Return / round trip' in Malay?" }, "options": { "neutral": ["Pergi balik", "Sekali jalan", "Tiket", "Tempahan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'How much?' in Malay?" }, "options": { "neutral": ["Berapa?", "Tiket", "Tempahan", "Pergi balik"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tiket", "romanization": null, "options": { "en": ["Ticket", "Platform", "Station", "Seat"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Tiket", "romanization": null, "native": { "en": "Ticket" } },
+              { "target": "Sekali jalan", "romanization": null, "native": { "en": "One way" } },
+              { "target": "Pergi balik", "romanization": null, "native": { "en": "Return / round trip" } },
+              { "target": "Tempahan", "romanization": null, "native": { "en": "Reservation / booking" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Accommodation",
+        "zh": "住宿",
+        "th": "ที่พัก",
+        "ko": "숙박",
+        "es": "Alojamiento"
+      },
+      "description": {
+        "en": "Check into hotels and understand accommodation vocabulary",
+        "zh": "办理酒店入住手续和了解住宿词汇",
+        "th": "เช็คอินโรงแรมและเรียนรู้คำศัพท์ที่พัก",
+        "ko": "호텔 체크인 및 숙박 어휘 이해",
+        "es": "Hacer el check-in en hoteles y entender vocabulario de alojamiento"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "At the Hotel",
+            "zh": "在酒店",
+            "th": "ที่โรงแรม",
+            "ko": "호텔에서",
+            "es": "En el hotel"
+          },
+          "objectives": {
+            "en": ["Check in and check out of a hotel", "Request room services"]
+          },
+          "vocabulary": [
+            { "word": "Hotel", "romanization": null, "meanings": { "en": "Hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "Hotel" } },
+            { "word": "Daftar masuk", "romanization": null, "meanings": { "en": "Check in", "zh": "入住登记", "th": "เช็คอิน", "ko": "체크인", "es": "Check-in" } },
+            { "word": "Daftar keluar", "romanization": null, "meanings": { "en": "Check out", "zh": "退房", "th": "เช็คเอาท์", "ko": "체크아웃", "es": "Check-out" } },
+            { "word": "Bilik", "romanization": null, "meanings": { "en": "Room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "Habitación" } },
+            { "word": "Sarapan disediakan", "romanization": null, "meanings": { "en": "Breakfast included", "zh": "含早餐", "th": "รวมอาหารเช้า", "ko": "조식 포함", "es": "Desayuno incluido" } },
+            { "word": "Kunci", "romanization": null, "meanings": { "en": "Key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "Llave" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Daftar masuk", "romanization": null, "options": { "en": ["Check in", "Check out", "Book now", "Pay"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kunci", "romanization": null, "options": { "en": ["Key", "Door", "Room", "Card"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Check out' in Malay?" }, "options": { "neutral": ["Daftar keluar", "Daftar masuk", "Bilik", "Hotel"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Room' in Malay?" }, "options": { "neutral": ["Bilik", "Kunci", "Hotel", "Daftar masuk"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kunci", "romanization": null, "options": { "en": ["Key", "Door", "Card", "Bag"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Daftar masuk", "romanization": null, "native": { "en": "Check in" } },
+              { "target": "Daftar keluar", "romanization": null, "native": { "en": "Check out" } },
+              { "target": "Bilik", "romanization": null, "native": { "en": "Room" } },
+              { "target": "Kunci", "romanization": null, "native": { "en": "Key" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Facilities & Amenities",
+            "zh": "设施与服务",
+            "th": "สิ่งอำนวยความสะดวก",
+            "ko": "시설과 편의시설",
+            "es": "Instalaciones y servicios"
+          },
+          "objectives": {
+            "en": ["Ask about hotel facilities", "Request items for your room"]
+          },
+          "vocabulary": [
+            { "word": "Kolam renang", "romanization": null, "meanings": { "en": "Swimming pool", "zh": "游泳池", "th": "สระว่ายน้ำ", "ko": "수영장", "es": "Piscina" } },
+            { "word": "Lif", "romanization": null, "meanings": { "en": "Lift / elevator", "zh": "电梯", "th": "ลิฟต์", "ko": "엘리베이터", "es": "Ascensor" } },
+            { "word": "Wifi percuma", "romanization": null, "meanings": { "en": "Free wifi", "zh": "免费网络", "th": "วายฟายฟรี", "ko": "무료 와이파이", "es": "Wifi gratuito" } },
+            { "word": "Tuala", "romanization": null, "meanings": { "en": "Towel", "zh": "毛巾", "th": "ผ้าขนหนู", "ko": "수건", "es": "Toalla" } },
+            { "word": "Tempahan bilik", "romanization": null, "meanings": { "en": "Room reservation", "zh": "预订房间", "th": "การจองห้อง", "ko": "방 예약", "es": "Reserva de habitación" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kolam renang", "romanization": null, "options": { "en": ["Swimming pool", "Gym", "Sauna", "Garden"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tuala", "romanization": null, "options": { "en": ["Towel", "Pillow", "Blanket", "Soap"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Lift / elevator' in Malay?" }, "options": { "neutral": ["Lif", "Kolam renang", "Tuala", "Wifi percuma"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Free wifi' in Malay?" }, "options": { "neutral": ["Wifi percuma", "Lif", "Tuala", "Tempahan bilik"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kolam renang", "romanization": null, "options": { "en": ["Swimming pool", "Restaurant", "Gym", "Lobby"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kolam renang", "romanization": null, "native": { "en": "Swimming pool" } },
+              { "target": "Lif", "romanization": null, "native": { "en": "Lift / elevator" } },
+              { "target": "Tuala", "romanization": null, "native": { "en": "Towel" } },
+              { "target": "Wifi percuma", "romanization": null, "native": { "en": "Free wifi" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Sightseeing",
+            "zh": "观光",
+            "th": "การท่องเที่ยว",
+            "ko": "관광",
+            "es": "Turismo"
+          },
+          "objectives": {
+            "en": ["Talk about tourist attractions", "Plan a sightseeing trip"]
+          },
+          "vocabulary": [
+            { "word": "Tarikan pelancong", "romanization": null, "meanings": { "en": "Tourist attraction", "zh": "旅游景点", "th": "สถานที่ท่องเที่ยว", "ko": "관광 명소", "es": "Atracción turística" } },
+            { "word": "Muzium", "romanization": null, "meanings": { "en": "Museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "Museo" } },
+            { "word": "Pantai", "romanization": null, "meanings": { "en": "Beach", "zh": "海滩", "th": "ชายหาด", "ko": "해변", "es": "Playa" } },
+            { "word": "Hutan", "romanization": null, "meanings": { "en": "Forest / jungle", "zh": "森林", "th": "ป่า", "ko": "숲", "es": "Bosque / jungla" } },
+            { "word": "Gambar", "romanization": null, "meanings": { "en": "Photo / picture", "zh": "照片", "th": "รูปภาพ", "ko": "사진", "es": "Foto" } },
+            { "word": "Cantik", "romanization": null, "meanings": { "en": "Beautiful", "zh": "美丽", "th": "สวยงาม", "ko": "아름답다", "es": "Hermoso" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Pantai", "romanization": null, "options": { "en": ["Beach", "Forest", "Mountain", "Lake"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Cantik", "romanization": null, "options": { "en": ["Beautiful", "Big", "Interesting", "Popular"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Museum' in Malay?" }, "options": { "neutral": ["Muzium", "Pantai", "Hutan", "Gambar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Photo / picture' in Malay?" }, "options": { "neutral": ["Gambar", "Cantik", "Muzium", "Pantai"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Hutan", "romanization": null, "options": { "en": ["Forest / jungle", "Beach", "Mountain", "Lake"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Muzium", "romanization": null, "native": { "en": "Museum" } },
+              { "target": "Pantai", "romanization": null, "native": { "en": "Beach" } },
+              { "target": "Hutan", "romanization": null, "native": { "en": "Forest / jungle" } },
+              { "target": "Cantik", "romanization": null, "native": { "en": "Beautiful" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Planning & Schedules",
+        "zh": "计划与日程",
+        "th": "การวางแผนและตารางเวลา",
+        "ko": "계획과 일정",
+        "es": "Planificación y horarios"
+      },
+      "description": {
+        "en": "Discuss travel plans, schedules and timing",
+        "zh": "讨论旅行计划、时间表和时间",
+        "th": "พูดคุยเกี่ยวกับแผนการเดินทาง ตารางเวลาและเวลา",
+        "ko": "여행 계획, 일정 및 시간 이야기하기",
+        "es": "Hablar de planes de viaje, horarios y tiempos"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Departure & Arrival",
+            "zh": "出发与到达",
+            "th": "การออกเดินทางและการมาถึง",
+            "ko": "출발과 도착",
+            "es": "Salida y llegada"
+          },
+          "objectives": {
+            "en": ["Talk about departure and arrival times", "Understand airport and station announcements"]
+          },
+          "vocabulary": [
+            { "word": "Berlepas", "romanization": null, "meanings": { "en": "Depart / take off", "zh": "出发/起飞", "th": "ออกเดินทาง / ขึ้น", "ko": "출발하다", "es": "Salir / despegar" } },
+            { "word": "Tiba", "romanization": null, "meanings": { "en": "Arrive", "zh": "到达", "th": "มาถึง", "ko": "도착하다", "es": "Llegar" } },
+            { "word": "Lambat", "romanization": null, "meanings": { "en": "Late / delayed", "zh": "迟到/延误", "th": "สาย / ล่าช้า", "ko": "늦다 / 지연", "es": "Tarde / con retraso" } },
+            { "word": "Tepat masa", "romanization": null, "meanings": { "en": "On time", "zh": "准时", "th": "ตรงเวลา", "ko": "제시간에", "es": "A tiempo" } },
+            { "word": "Lapangan terbang", "romanization": null, "meanings": { "en": "Airport", "zh": "机场", "th": "สนามบิน", "ko": "공항", "es": "Aeropuerto" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Tiba", "romanization": null, "options": { "en": ["Arrive", "Depart", "Board", "Wait"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tepat masa", "romanization": null, "options": { "en": ["On time", "Late", "Early", "Cancelled"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Airport' in Malay?" }, "options": { "neutral": ["Lapangan terbang", "Stesen", "Berlepas", "Tiba"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Late / delayed' in Malay?" }, "options": { "neutral": ["Lambat", "Tepat masa", "Tiba", "Berlepas"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Berlepas", "romanization": null, "options": { "en": ["Depart / take off", "Arrive", "Board", "Cancel"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Berlepas", "romanization": null, "native": { "en": "Depart / take off" } },
+              { "target": "Tiba", "romanization": null, "native": { "en": "Arrive" } },
+              { "target": "Lambat", "romanization": null, "native": { "en": "Late / delayed" } },
+              { "target": "Tepat masa", "romanization": null, "native": { "en": "On time" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Travel Vocabulary",
+            "zh": "旅行词汇",
+            "th": "คำศัพท์การเดินทาง",
+            "ko": "여행 어휘",
+            "es": "Vocabulario de viaje"
+          },
+          "objectives": {
+            "en": ["Use essential travel vocabulary", "Handle common travel situations"]
+          },
+          "vocabulary": [
+            { "word": "Pasport", "romanization": null, "meanings": { "en": "Passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "Pasaporte" } },
+            { "word": "Bagasi", "romanization": null, "meanings": { "en": "Luggage / baggage", "zh": "行李", "th": "กระเป๋าเดินทาง", "ko": "수하물", "es": "Equipaje" } },
+            { "word": "Kastam", "romanization": null, "meanings": { "en": "Customs", "zh": "海关", "th": "ศุลกากร", "ko": "세관", "es": "Aduana" } },
+            { "word": "Peta", "romanization": null, "meanings": { "en": "Map", "zh": "地图", "th": "แผนที่", "ko": "지도", "es": "Mapa" } },
+            { "word": "Pertukaran wang", "romanization": null, "meanings": { "en": "Currency exchange", "zh": "货币兑换", "th": "การแลกเปลี่ยนเงิน", "ko": "환전", "es": "Cambio de moneda" } },
+            { "word": "Insurans perjalanan", "romanization": null, "meanings": { "en": "Travel insurance", "zh": "旅游保险", "th": "ประกันการเดินทาง", "ko": "여행 보험", "es": "Seguro de viaje" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Pasport", "romanization": null, "options": { "en": ["Passport", "Ticket", "Visa", "ID"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Peta", "romanization": null, "options": { "en": ["Map", "Guide", "Book", "Brochure"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Luggage' in Malay?" }, "options": { "neutral": ["Bagasi", "Pasport", "Kastam", "Peta"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Customs' in Malay?" }, "options": { "neutral": ["Kastam", "Bagasi", "Pasport", "Pertukaran wang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pertukaran wang", "romanization": null, "options": { "en": ["Currency exchange", "Travel insurance", "Luggage", "Customs"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Pasport", "romanization": null, "native": { "en": "Passport" } },
+              { "target": "Bagasi", "romanization": null, "native": { "en": "Luggage / baggage" } },
+              { "target": "Kastam", "romanization": null, "native": { "en": "Customs" } },
+              { "target": "Peta", "romanization": null, "native": { "en": "Map" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Problems While Travelling",
+            "zh": "旅途中的问题",
+            "th": "ปัญหาระหว่างการเดินทาง",
+            "ko": "여행 중 문제",
+            "es": "Problemas durante el viaje"
+          },
+          "objectives": {
+            "en": ["Handle common travel problems", "Ask for help in emergencies"]
+          },
+          "vocabulary": [
+            { "word": "Sesat", "romanization": null, "meanings": { "en": "Lost", "zh": "迷路", "th": "หลงทาง", "ko": "길을 잃다", "es": "Perdido" } },
+            { "word": "Tolong!", "romanization": null, "meanings": { "en": "Help!", "zh": "救命！", "th": "ช่วยด้วย!", "ko": "도와주세요!", "es": "¡Ayuda!" } },
+            { "word": "Hilang", "romanization": null, "meanings": { "en": "Lost (item) / missing", "zh": "丢失", "th": "หาย", "ko": "잃어버리다", "es": "Perdido (objeto)" } },
+            { "word": "Hospital", "romanization": null, "meanings": { "en": "Hospital", "zh": "医院", "th": "โรงพยาบาล", "ko": "병원", "es": "Hospital" } },
+            { "word": "Polis", "romanization": null, "meanings": { "en": "Police", "zh": "警察", "th": "ตำรวจ", "ko": "경찰", "es": "Policía" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sesat", "romanization": null, "options": { "en": ["Lost", "Late", "Sick", "Tired"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tolong!", "romanization": null, "options": { "en": ["Help!", "Stop!", "Wait!", "Go!"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Police' in Malay?" }, "options": { "neutral": ["Polis", "Hospital", "Sesat", "Hilang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Lost (item)' in Malay?" }, "options": { "neutral": ["Hilang", "Sesat", "Tolong!", "Polis"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tolong!", "romanization": null, "options": { "en": ["Help!", "Stop!", "Please!", "Wait!"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Sesat", "romanization": null, "native": { "en": "Lost (direction)" } },
+              { "target": "Hilang", "romanization": null, "native": { "en": "Lost (item)" } },
+              { "target": "Hospital", "romanization": null, "native": { "en": "Hospital" } },
+              { "target": "Polis", "romanization": null, "native": { "en": "Police" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

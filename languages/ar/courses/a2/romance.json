@@ -1,0 +1,670 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Attraction and Compliments",
+        "zh": "吸引和称赞",
+        "th": "ความดึงดูดและการชมเชย",
+        "ko": "매력과 칭찬",
+        "es": "Atracción y cumplidos"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Describing Appearance",
+            "zh": "描述外貌",
+            "th": "การบรรยายรูปลักษณ์",
+            "ko": "외모 묘사하기",
+            "es": "Describir la apariencia"
+          },
+          "objectives": {
+            "en": ["Describe physical appearance in Arabic", "Give compliments"]
+          },
+          "vocabulary": [
+            {
+              "word": "جميل",
+              "romanization": "jameel",
+              "meanings": { "en": "beautiful / handsome (male)", "zh": "美丽的/帅气的", "th": "สวยงาม/หล่อ", "ko": "아름다운/잘생긴", "es": "hermoso / guapo" }
+            },
+            {
+              "word": "جميلة",
+              "romanization": "jameela",
+              "meanings": { "en": "beautiful (female)", "zh": "漂亮的(女)", "th": "สวยงาม (ผู้หญิง)", "ko": "아름다운 (여)", "es": "hermosa" }
+            },
+            {
+              "word": "ابتسامة",
+              "romanization": "ibtisaama",
+              "meanings": { "en": "smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "sonrisa" }
+            },
+            {
+              "word": "عيون",
+              "romanization": "'uyoon",
+              "meanings": { "en": "eyes (plural)", "zh": "眼睛", "th": "ดวงตา", "ko": "눈들", "es": "ojos" }
+            },
+            {
+              "word": "شعر",
+              "romanization": "sha'r",
+              "meanings": { "en": "hair", "zh": "头发", "th": "ผม", "ko": "머리카락", "es": "cabello / pelo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'beautiful' (for a male) in Arabic?" },
+              "answer": "جميل",
+              "choices": ["جميل", "جميلة", "ابتسامة", "عيون"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'ابتسامة' (ibtisaama) mean?" },
+              "answer": "smile",
+              "choices": ["smile", "eyes", "hair", "beautiful"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "جميل", "native": "handsome" },
+                { "target": "جميلة", "native": "beautiful (f)" },
+                { "target": "ابتسامة", "native": "smile" },
+                { "target": "عيون", "native": "eyes" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'You have beautiful eyes.'" },
+              "words": ["لديك", "عيون", "جميلة"],
+              "answer": "لديك عيون جميلة"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "约人出去",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Arabic", "Suggest romantic activities"]
+          },
+          "vocabulary": [
+            {
+              "word": "موعد غرامي",
+              "romanization": "maw'id gharaamee",
+              "meanings": { "en": "romantic date", "zh": "约会", "th": "เดทโรแมนติก", "ko": "로맨틱한 데이트", "es": "cita romántica" }
+            },
+            {
+              "word": "خروج معاً",
+              "romanization": "khurooj ma'an",
+              "meanings": { "en": "going out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "salir juntos" }
+            },
+            {
+              "word": "أحب",
+              "romanization": "uhibb",
+              "meanings": { "en": "I like / I love", "zh": "我喜欢/我爱", "th": "ฉันชอบ/ฉันรัก", "ko": "나는 좋아한다/사랑한다", "es": "me gusta / amo" }
+            },
+            {
+              "word": "رومانسي",
+              "romanization": "roomaansee",
+              "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "낭만적인", "es": "romántico" }
+            },
+            {
+              "word": "عشاء رومانسي",
+              "romanization": "'ashaa' roomaansee",
+              "meanings": { "en": "romantic dinner", "zh": "浪漫晚餐", "th": "อาหารเย็นสุดโรแมนติก", "ko": "로맨틱한 저녁 식사", "es": "cena romántica" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'romantic' in Arabic?" },
+              "answer": "رومانسي",
+              "choices": ["رومانسي", "موعد غرامي", "أحب", "خروج معاً"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'أحب' (uhibb) mean?" },
+              "answer": "I like / I love",
+              "choices": ["I like / I love", "I want", "I miss", "I think"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "موعد غرامي", "native": "romantic date" },
+                { "target": "خروج معاً", "native": "going out together" },
+                { "target": "رومانسي", "native": "romantic" },
+                { "target": "أحب", "native": "I like/love" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Would you like to have dinner with me?'" },
+              "words": ["هل", "تريد", "تناول", "العشاء", "معي"],
+              "answer": "هل تريد تناول العشاء معي"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings in Arabic", "Say 'I love you'"]
+          },
+          "vocabulary": [
+            {
+              "word": "حب",
+              "romanization": "hubb",
+              "meanings": { "en": "love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "amor" }
+            },
+            {
+              "word": "أحبك",
+              "romanization": "uhibbak",
+              "meanings": { "en": "I love you (to male)", "zh": "我爱你(对男性)", "th": "ฉันรักคุณ (กับผู้ชาย)", "ko": "당신을 사랑해 (남성에게)", "es": "te amo (a hombre)" }
+            },
+            {
+              "word": "أشتاق إليك",
+              "romanization": "ashtaaq ilayk",
+              "meanings": { "en": "I miss you (to male)", "zh": "我想念你(对男性)", "th": "ฉันคิดถึงคุณ (กับผู้ชาย)", "ko": "당신이 그립습니다 (남성에게)", "es": "te echo de menos (a hombre)" }
+            },
+            {
+              "word": "سعيد",
+              "romanization": "sa'eed",
+              "meanings": { "en": "happy (male)", "zh": "高兴的(男)", "th": "มีความสุข (ชาย)", "ko": "행복한 (남)", "es": "feliz (masculino)" }
+            },
+            {
+              "word": "قلب",
+              "romanization": "qalb",
+              "meanings": { "en": "heart", "zh": "心", "th": "หัวใจ", "ko": "심장/마음", "es": "corazón" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'love' in Arabic?" },
+              "answer": "حب",
+              "choices": ["حب", "قلب", "سعيد", "أشتاق إليك"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'قلب' (qalb) mean?" },
+              "answer": "heart",
+              "choices": ["heart", "love", "happy", "miss"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "حب", "native": "love" },
+                { "target": "أحبك", "native": "I love you" },
+                { "target": "سعيد", "native": "happy" },
+                { "target": "قلب", "native": "heart" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I love you.'" },
+              "words": ["أنا", "أحبك"],
+              "answer": "أنا أحبك"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "恋爱关系",
+        "th": "ความสัมพันธ์",
+        "ko": "연인 관계",
+        "es": "Relaciones"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "恋爱状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe relationship status in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "خطيب",
+              "romanization": "khateeb",
+              "meanings": { "en": "fiancé / boyfriend (engaged)", "zh": "未婚夫", "th": "คู่หมั้น (ชาย)", "ko": "약혼자 (남)", "es": "prometido / novio" }
+            },
+            {
+              "word": "خطيبة",
+              "romanization": "khateeba",
+              "meanings": { "en": "fiancée / girlfriend (engaged)", "zh": "未婚妻", "th": "คู่หมั้น (หญิง)", "ko": "약혼자 (여)", "es": "prometida / novia" }
+            },
+            {
+              "word": "أعزب",
+              "romanization": "a'zab",
+              "meanings": { "en": "single (male)", "zh": "单身(男)", "th": "โสด (ชาย)", "ko": "미혼/솔로 (남)", "es": "soltero" }
+            },
+            {
+              "word": "متزوج",
+              "romanization": "mutazawwij",
+              "meanings": { "en": "married (male)", "zh": "已婚(男)", "th": "แต่งงานแล้ว (ชาย)", "ko": "결혼한 (남)", "es": "casado" }
+            },
+            {
+              "word": "علاقة",
+              "romanization": "'alaqa",
+              "meanings": { "en": "relationship", "zh": "关系", "th": "ความสัมพันธ์", "ko": "관계", "es": "relación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'relationship' in Arabic?" },
+              "answer": "علاقة",
+              "choices": ["علاقة", "خطيب", "أعزب", "متزوج"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'أعزب' (a'zab) mean?" },
+              "answer": "single (male)",
+              "choices": ["single (male)", "married", "engaged", "divorced"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "خطيب", "native": "fiancé" },
+                { "target": "خطيبة", "native": "fiancée" },
+                { "target": "أعزب", "native": "single" },
+                { "target": "متزوج", "native": "married" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you single?'" },
+              "words": ["هل", "أنت", "أعزب"],
+              "answer": "هل أنت أعزب"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Going on a Date",
+            "zh": "约会",
+            "th": "การออกเดท",
+            "ko": "데이트하기",
+            "es": "Una cita"
+          },
+          "objectives": {
+            "en": ["Plan and describe a date in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "ورود",
+              "romanization": "wurood",
+              "meanings": { "en": "roses / flowers", "zh": "玫瑰/花", "th": "ดอกกุหลาบ/ดอกไม้", "ko": "장미/꽃", "es": "rosas / flores" }
+            },
+            {
+              "word": "شمعة",
+              "romanization": "sham'a",
+              "meanings": { "en": "candle", "zh": "蜡烛", "th": "เทียน", "ko": "촛불", "es": "vela" }
+            },
+            {
+              "word": "قُبلة",
+              "romanization": "qubla",
+              "meanings": { "en": "kiss", "zh": "吻", "th": "จูบ", "ko": "키스", "es": "beso" }
+            },
+            {
+              "word": "معاً",
+              "romanization": "ma'an",
+              "meanings": { "en": "together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "juntos" }
+            },
+            {
+              "word": "رومانسية",
+              "romanization": "roomaansiyya",
+              "meanings": { "en": "romance / romanticism", "zh": "浪漫/罗曼蒂克", "th": "ความโรแมนติก", "ko": "로맨스/낭만", "es": "romance / romanticismo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'roses' in Arabic?" },
+              "answer": "ورود",
+              "choices": ["ورود", "شمعة", "قُبلة", "معاً"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'شمعة' (sham'a) mean?" },
+              "answer": "candle",
+              "choices": ["candle", "roses", "kiss", "together"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ورود", "native": "roses" },
+                { "target": "شمعة", "native": "candle" },
+                { "target": "قُبلة", "native": "kiss" },
+                { "target": "معاً", "native": "together" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I brought you flowers.'" },
+              "words": ["أحضرت", "لك", "وروداً"],
+              "answer": "أحضرت لك وروداً"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Marriage in Arab Culture",
+            "zh": "阿拉伯文化中的婚姻",
+            "th": "การแต่งงานในวัฒนธรรมอาหรับ",
+            "ko": "아랍 문화에서의 결혼",
+            "es": "El matrimonio en la cultura árabe"
+          },
+          "objectives": {
+            "en": ["Discuss marriage in Arab culture", "Understand related vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "زواج",
+              "romanization": "zawaaj",
+              "meanings": { "en": "marriage / wedding", "zh": "婚姻/婚礼", "th": "การสมรส/งานแต่งงาน", "ko": "결혼/결혼식", "es": "matrimonio / boda" }
+            },
+            {
+              "word": "خطوبة",
+              "romanization": "khutuuba",
+              "meanings": { "en": "engagement", "zh": "订婚", "th": "การหมั้น", "ko": "약혼", "es": "compromiso / petición de mano" }
+            },
+            {
+              "word": "مهر",
+              "romanization": "mahr",
+              "meanings": { "en": "mahr (bridal gift in Islamic marriage)", "zh": "彩礼(伊斯兰婚礼)", "th": "มาฮ์ร (ของขวัญสมรสในอิสลาม)", "ko": "마흐르 (이슬람 결혼 예물)", "es": "mahr (dote en el matrimonio islámico)" }
+            },
+            {
+              "word": "عروس",
+              "romanization": "'aroos",
+              "meanings": { "en": "bride", "zh": "新娘", "th": "เจ้าสาว", "ko": "신부", "es": "novia" }
+            },
+            {
+              "word": "عريس",
+              "romanization": "'arees",
+              "meanings": { "en": "groom", "zh": "新郎", "th": "เจ้าบ่าว", "ko": "신랑", "es": "novio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'marriage' in Arabic?" },
+              "answer": "زواج",
+              "choices": ["زواج", "خطوبة", "مهر", "عروس"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'عروس' ('aroos)?" },
+              "answer": "bride",
+              "choices": ["bride", "groom", "engagement", "wedding"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "زواج", "native": "marriage" },
+                { "target": "خطوبة", "native": "engagement" },
+                { "target": "عروس", "native": "bride" },
+                { "target": "عريس", "native": "groom" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Will you marry me?'" },
+              "words": ["هل", "ستتزوجني"],
+              "answer": "هل ستتزوجني"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Navigating Relationships",
+        "zh": "处理恋爱关系",
+        "th": "การรับมือกับความสัมพันธ์",
+        "ko": "연애 관계 다루기",
+        "es": "Gestionar relaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Disagreements",
+            "zh": "争吵",
+            "th": "ความขัดแย้ง",
+            "ko": "다툼",
+            "es": "Desacuerdos"
+          },
+          "objectives": {
+            "en": ["Discuss disagreements in Arabic", "Apologize and reconcile"]
+          },
+          "vocabulary": [
+            {
+              "word": "خلاف",
+              "romanization": "khilaaf",
+              "meanings": { "en": "disagreement / dispute", "zh": "争执/不和", "th": "ความขัดแย้ง/การทะเลาะ", "ko": "불화/다툼", "es": "desacuerdo / disputa" }
+            },
+            {
+              "word": "اعتذار",
+              "romanization": "i'tidhaar",
+              "meanings": { "en": "apology", "zh": "道歉", "th": "คำขอโทษ", "ko": "사과", "es": "disculpa" }
+            },
+            {
+              "word": "مسامحة",
+              "romanization": "musaamaha",
+              "meanings": { "en": "forgiveness", "zh": "原谅/宽恕", "th": "การให้อภัย", "ko": "용서", "es": "perdón" }
+            },
+            {
+              "word": "صلح",
+              "romanization": "sulh",
+              "meanings": { "en": "reconciliation / peace", "zh": "和解/和好", "th": "การคืนดี/สันติ", "ko": "화해", "es": "reconciliación / paz" }
+            },
+            {
+              "word": "حل",
+              "romanization": "hall",
+              "meanings": { "en": "solution", "zh": "解决方案", "th": "ทางออก/วิธีแก้ปัญหา", "ko": "해결책", "es": "solución" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'forgiveness' in Arabic?" },
+              "answer": "مسامحة",
+              "choices": ["مسامحة", "خلاف", "اعتذار", "صلح"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'خلاف' (khilaaf) mean?" },
+              "answer": "disagreement",
+              "choices": ["disagreement", "forgiveness", "apology", "reconciliation"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "خلاف", "native": "disagreement" },
+                { "target": "اعتذار", "native": "apology" },
+                { "target": "مسامحة", "native": "forgiveness" },
+                { "target": "صلح", "native": "reconciliation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am sorry, please forgive me.'" },
+              "words": ["أنا", "آسف", "أرجوك", "سامحني"],
+              "answer": "أنا آسف أرجوك سامحني"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Long Distance",
+            "zh": "异地恋",
+            "th": "ความสัมพันธ์ทางไกล",
+            "ko": "장거리 연애",
+            "es": "Distancia"
+          },
+          "objectives": {
+            "en": ["Talk about long-distance relationships in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "مسافة",
+              "romanization": "masaafa",
+              "meanings": { "en": "distance", "zh": "距离", "th": "ระยะทาง", "ko": "거리", "es": "distancia" }
+            },
+            {
+              "word": "مكالمة فيديو",
+              "romanization": "mukaalama fideo",
+              "meanings": { "en": "video call", "zh": "视频通话", "th": "วิดีโอคอล", "ko": "화상 통화", "es": "videollamada" }
+            },
+            {
+              "word": "شوق",
+              "romanization": "shawq",
+              "meanings": { "en": "longing / yearning", "zh": "思念/渴望", "th": "ความคิดถึง/ความใฝ่หา", "ko": "그리움/갈망", "es": "anhelo / añoranza" }
+            },
+            {
+              "word": "لقاء",
+              "romanization": "liqaa'",
+              "meanings": { "en": "meeting / reunion", "zh": "会面/重聚", "th": "การพบ/การกลับมาพบ", "ko": "만남/재회", "es": "encuentro / reunión" }
+            },
+            {
+              "word": "انتظار",
+              "romanization": "intizaar",
+              "meanings": { "en": "waiting / anticipation", "zh": "等待/期待", "th": "การรอ/การคาดหวัง", "ko": "기다림/기대", "es": "espera / anticipación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'distance' in Arabic?" },
+              "answer": "مسافة",
+              "choices": ["مسافة", "لقاء", "شوق", "انتظار"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'شوق' (shawq) mean?" },
+              "answer": "longing / yearning",
+              "choices": ["longing / yearning", "distance", "reunion", "waiting"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "مسافة", "native": "distance" },
+                { "target": "مكالمة فيديو", "native": "video call" },
+                { "target": "شوق", "native": "longing" },
+                { "target": "لقاء", "native": "reunion" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I miss you every day.'" },
+              "words": ["أشتاق", "إليك", "كل", "يوم"],
+              "answer": "أشتاق إليك كل يوم"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Ending a Relationship",
+            "zh": "结束关系",
+            "th": "การสิ้นสุดความสัมพันธ์",
+            "ko": "관계 끝내기",
+            "es": "Terminar una relación"
+          },
+          "objectives": {
+            "en": ["Talk about ending a relationship in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "انفصال",
+              "romanization": "infisaal",
+              "meanings": { "en": "separation / breakup", "zh": "分离/分手", "th": "การแยกทาง", "ko": "분리/이별", "es": "separación" }
+            },
+            {
+              "word": "قلب مكسور",
+              "romanization": "qalb maksoor",
+              "meanings": { "en": "broken heart", "zh": "心碎", "th": "หัวใจสลาย", "ko": "상처받은 마음", "es": "corazón roto" }
+            },
+            {
+              "word": "المضي قُدُماً",
+              "romanization": "al-mudee quduman",
+              "meanings": { "en": "to move on", "zh": "继续前进", "th": "ก้าวไปข้างหน้า", "ko": "앞으로 나아가다", "es": "seguir adelante" }
+            },
+            {
+              "word": "صداقة",
+              "romanization": "sadaaqa",
+              "meanings": { "en": "friendship", "zh": "友谊", "th": "มิตรภาพ", "ko": "우정", "es": "amistad" }
+            },
+            {
+              "word": "وقت",
+              "romanization": "waqt",
+              "meanings": { "en": "time", "zh": "时间", "th": "เวลา", "ko": "시간", "es": "tiempo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'friendship' in Arabic?" },
+              "answer": "صداقة",
+              "choices": ["صداقة", "انفصال", "قلب مكسور", "وقت"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'قلب مكسور' (qalb maksoor) mean?" },
+              "answer": "broken heart",
+              "choices": ["broken heart", "friendship", "separation", "moving on"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "انفصال", "native": "separation" },
+                { "target": "قلب مكسور", "native": "broken heart" },
+                { "target": "صداقة", "native": "friendship" },
+                { "target": "المضي قُدُماً", "native": "to move on" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We need to talk.'" },
+              "words": ["نحن", "بحاجة", "إلى", "الحديث"],
+              "answer": "نحن بحاجة إلى الحديث"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

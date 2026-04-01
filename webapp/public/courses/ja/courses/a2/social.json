@@ -1,0 +1,724 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting Friends",
+            "zh": "邀请朋友",
+            "th": "การเชิญเพื่อน",
+            "ko": "친구 초대하기",
+            "es": "Invitar a amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to an event in Japanese", "Accept or decline an invitation"],
+            "zh": ["用日语邀请某人参加活动", "接受或拒绝邀请"],
+            "th": ["เชิญใครสักคนไปร่วมกิจกรรมเป็นภาษาญี่ปุ่น", "ตอบรับหรือปฏิเสธคำเชิญ"],
+            "ko": ["일본어로 행사에 초대하기", "초대 수락하거나 거절하기"],
+            "es": ["Invitar a alguien en japonés", "Aceptar o rechazar una invitación"]
+          },
+          "vocabulary": [
+            {
+              "word": "さそう",
+              "romanization": "sasou",
+              "meanings": { "en": "to invite / to ask (someone out)", "zh": "邀请", "th": "ชวน/เชิญ", "ko": "권유하다/초대하다", "es": "invitar" }
+            },
+            {
+              "word": "パーティー",
+              "romanization": "paatii",
+              "meanings": { "en": "party", "zh": "派对", "th": "งานปาร์ตี้", "ko": "파티", "es": "fiesta" }
+            },
+            {
+              "word": "いっしょにどうですか",
+              "romanization": "issho ni dou desu ka",
+              "meanings": { "en": "How about together? / Would you like to join?", "zh": "一起怎么样？", "th": "ไปด้วยกันไหม?", "ko": "같이 어때요?", "es": "¿Qué tal si vamos juntos?" }
+            },
+            {
+              "word": "ぜひ",
+              "romanization": "zehi",
+              "meanings": { "en": "by all means / definitely", "zh": "一定/当然", "th": "แน่นอน", "ko": "꼭", "es": "desde luego / con mucho gusto" }
+            },
+            {
+              "word": "ざんねんですが",
+              "romanization": "zannen desu ga",
+              "meanings": { "en": "unfortunately... / I'm sorry but...", "zh": "遗憾的是...", "th": "น่าเสียดายแต่...", "ko": "아쉽지만...", "es": "lamentablemente... / lo siento pero..." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Would you like to come to my party?'",
+              "options": ["パーティーにきませんか？", "パーティーにきてください。", "パーティーをします。", "パーティーがすきですか？"],
+              "correct": 0,
+              "explanation": "'〜にきませんか？' = Won't you come to ~? / Would you like to come to ~? An invitation form using negative question."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ざんねんですが",
+              "options": ["unfortunately/I'm sorry but", "I'm happy that", "I look forward to", "please"],
+              "correct": 0,
+              "explanation": "'ざんねんですが' = unfortunately / I'm sorry but — used to soften a refusal."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["さそう", "to invite"],
+                ["パーティー", "party"],
+                ["ぜひ", "by all means"],
+                ["ざんねんですが", "unfortunately"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["どうですか", "いっしょ", "に"],
+              "correct": ["いっしょ", "に", "どうですか"],
+              "translation": "How about going together?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Meeting Up",
+            "zh": "约见",
+            "th": "การนัดพบ",
+            "ko": "만남",
+            "es": "Quedar"
+          },
+          "objectives": {
+            "en": ["Agree on a time and place to meet in Japanese", "Confirm and change plans"],
+            "zh": ["用日语约定见面时间和地点", "确认和更改计划"],
+            "th": ["นัดเวลาและสถานที่พบกันเป็นภาษาญี่ปุ่น", "ยืนยันและเปลี่ยนแผน"],
+            "ko": ["일본어로 만날 시간과 장소 정하기", "계획 확인하고 변경하기"],
+            "es": ["Acordar hora y lugar para quedar en japonés", "Confirmar y cambiar planes"]
+          },
+          "vocabulary": [
+            {
+              "word": "あう",
+              "romanization": "au",
+              "meanings": { "en": "to meet", "zh": "见面", "th": "พบกัน", "ko": "만나다", "es": "encontrarse/quedar" }
+            },
+            {
+              "word": "まちあわせ",
+              "romanization": "machiawase",
+              "meanings": { "en": "meeting point / rendezvous", "zh": "集合地点", "th": "จุดนัดพบ", "ko": "만남의 장소/약속 장소", "es": "punto de encuentro" }
+            },
+            {
+              "word": "キャンセルする",
+              "romanization": "kyanseru suru",
+              "meanings": { "en": "to cancel", "zh": "取消", "th": "ยกเลิก", "ko": "취소하다", "es": "cancelar" }
+            },
+            {
+              "word": "なんじにしますか",
+              "romanization": "nanji ni shimasu ka",
+              "meanings": { "en": "What time shall we make it?", "zh": "定几点好？", "th": "กี่โมงดี?", "ko": "몇 시로 할까요?", "es": "¿A qué hora quedamos?" }
+            },
+            {
+              "word": "えきのまえ",
+              "romanization": "eki no mae",
+              "meanings": { "en": "in front of the station", "zh": "车站前面", "th": "หน้าสถานี", "ko": "역 앞", "es": "frente a la estación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What time shall we meet?'",
+              "options": ["なんじにあいますか？", "どこであいますか？", "なんじにしますか？", "いつあいますか？"],
+              "correct": 0,
+              "explanation": "'なんじにあいますか？' = At what time shall we meet? 'なんじ' = what time, 'に' = at."
+            },
+            {
+              "type": "target_to_native",
+              "word": "まちあわせ",
+              "options": ["meeting point", "waiting room", "meeting time", "cancelled plan"],
+              "correct": 0,
+              "explanation": "'まちあわせ' = a pre-arranged meeting point. 'まちあわせはえきのまえです' = The meeting spot is in front of the station."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["あう", "to meet"],
+                ["まちあわせ", "meeting point"],
+                ["キャンセルする", "to cancel"],
+                ["えきのまえ", "in front of the station"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["あいましょう", "まえ", "えき", "で", "の"],
+              "correct": ["えき", "の", "まえ", "で", "あいましょう"],
+              "translation": "Let's meet in front of the station."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "At a Gathering",
+            "zh": "在聚会上",
+            "th": "ในงานรวมตัว",
+            "ko": "모임에서",
+            "es": "En una reunión social"
+          },
+          "objectives": {
+            "en": ["Make conversation at a Japanese social gathering", "Introduce people and make small talk"],
+            "zh": ["在日本社交聚会上交流", "介绍人和进行简单交谈"],
+            "th": ["พูดคุยในงานรวมตัวสังคมญี่ปุ่น", "แนะนำคนและพูดคุยเล็กน้อย"],
+            "ko": ["일본 사교 모임에서 대화하기", "사람 소개하고 잡담하기"],
+            "es": ["Conversar en una reunión social japonesa", "Presentar personas y hacer pequeña charla"]
+          },
+          "vocabulary": [
+            {
+              "word": "しょうかいする",
+              "romanization": "shoukai suru",
+              "meanings": { "en": "to introduce", "zh": "介绍", "th": "แนะนำ", "ko": "소개하다", "es": "presentar" }
+            },
+            {
+              "word": "はじめまして",
+              "romanization": "hajimemashite",
+              "meanings": { "en": "nice to meet you (first meeting)", "zh": "初次见面", "th": "ยินดีที่ได้รู้จัก (ครั้งแรก)", "ko": "처음 뵙겠습니다", "es": "encantado de conocerle (primera vez)" }
+            },
+            {
+              "word": "こちらは〜さんです",
+              "romanization": "kochira wa ~-san desu",
+              "meanings": { "en": "This is ~ (polite introduction)", "zh": "这位是~（敬称）", "th": "นี่คือคุณ~ (สุภาพ)", "ko": "이쪽은 ~씨입니다", "es": "Este/Esta es ~ (presentación formal)" }
+            },
+            {
+              "word": "にぎやか",
+              "romanization": "nigiyaka",
+              "meanings": { "en": "lively/bustling", "zh": "热闹的", "th": "賑わい/คึกคัก", "ko": "활기찬", "es": "animado/bullicioso" }
+            },
+            {
+              "word": "たのしい",
+              "romanization": "tanoshii",
+              "meanings": { "en": "fun/enjoyable", "zh": "有趣的/快乐的", "th": "สนุก", "ko": "즐거운", "es": "divertido/entretenido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you introduce someone saying 'This is my friend Tanaka'?",
+              "options": ["こちらはともだちのたなかさんです。", "たなかさんをしょうかいします。", "たなかさんにあってください。", "ともだちのたなかです。"],
+              "correct": 0,
+              "explanation": "'こちらは〜さんです' = This is ~ (polite). 'ともだちのたなかさん' = my friend Tanaka."
+            },
+            {
+              "type": "target_to_native",
+              "word": "たのしい",
+              "options": ["fun/enjoyable", "noisy", "quiet", "boring"],
+              "correct": 0,
+              "explanation": "'たのしい' = fun/enjoyable. 'たのしかった！' = That was fun! Common after an event."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しょうかいする", "to introduce"],
+                ["はじめまして", "nice to meet you"],
+                ["にぎやか", "lively"],
+                ["たのしい", "fun"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["たのしかった", "です", "パーティー", "は"],
+              "correct": ["パーティー", "は", "たのしかった", "です"],
+              "translation": "The party was fun."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Hobbies & Free Time",
+        "zh": "爱好和空闲时间",
+        "th": "งานอดิเรกและเวลาว่าง",
+        "ko": "취미와 자유 시간",
+        "es": "Aficiones y tiempo libre"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Talking About Hobbies",
+            "zh": "聊爱好",
+            "th": "พูดคุยเกี่ยวกับงานอดิเรก",
+            "ko": "취미 이야기하기",
+            "es": "Hablar de aficiones"
+          },
+          "objectives": {
+            "en": ["Describe hobbies using 'koto ga suki desu'", "Ask about others' interests"],
+            "zh": ["用'ことがすきです'描述爱好", "询问他人的兴趣"],
+            "th": ["อธิบายงานอดิเรกโดยใช้ 'ことがすきです'", "ถามเกี่ยวกับความสนใจของผู้อื่น"],
+            "ko": ["'ことがすきです'를 사용해 취미 설명하기", "다른 사람의 관심사 물어보기"],
+            "es": ["Describir aficiones con 'koto ga suki desu'", "Preguntar por los intereses de otros"]
+          },
+          "vocabulary": [
+            {
+              "word": "しゅみ",
+              "romanization": "shumi",
+              "meanings": { "en": "hobby/interest", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "afición/hobby" }
+            },
+            {
+              "word": "〜することがすきです",
+              "romanization": "~suru koto ga suki desu",
+              "meanings": { "en": "I like doing ~", "zh": "我喜欢做~", "th": "ฉันชอบทำ~", "ko": "~하는 것을 좋아해요", "es": "me gusta hacer ~" }
+            },
+            {
+              "word": "おんがくをきく",
+              "romanization": "ongaku o kiku",
+              "meanings": { "en": "to listen to music", "zh": "听音乐", "th": "ฟังเพลง", "ko": "음악을 듣다", "es": "escuchar música" }
+            },
+            {
+              "word": "えをかく",
+              "romanization": "e o kaku",
+              "meanings": { "en": "to draw / paint", "zh": "画画", "th": "วาดรูป", "ko": "그림을 그리다", "es": "dibujar/pintar" }
+            },
+            {
+              "word": "しゅみはなんですか",
+              "romanization": "shumi wa nan desu ka",
+              "meanings": { "en": "What are your hobbies?", "zh": "你的爱好是什么？", "th": "งานอดิเรกของคุณคืออะไร?", "ko": "취미가 뭐예요?", "es": "¿Cuáles son tus aficiones?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I like listening to music'?",
+              "options": ["おんがくをきくことがすきです。", "おんがくがすきです。", "おんがくをきいています。", "おんがくはたのしいです。"],
+              "correct": 0,
+              "explanation": "'〜することがすきです' = I like doing ~. 'おんがくをきくこと' = the act of listening to music."
+            },
+            {
+              "type": "target_to_native",
+              "word": "えをかく",
+              "options": ["to draw/paint", "to write", "to read", "to photograph"],
+              "correct": 0,
+              "explanation": "'えをかく' = to draw/paint. 'え' = picture/drawing, 'かく' = to draw/write."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しゅみ", "hobby"],
+                ["おんがくをきく", "listen to music"],
+                ["えをかく", "to draw"],
+                ["しゅみはなんですか", "What are your hobbies?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["こと", "すき", "えをかく", "が", "です"],
+              "correct": ["えをかく", "こと", "が", "すき", "です"],
+              "translation": "I like drawing."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Weekend Plans",
+            "zh": "周末计划",
+            "th": "แผนสุดสัปดาห์",
+            "ko": "주말 계획",
+            "es": "Planes para el fin de semana"
+          },
+          "objectives": {
+            "en": ["Talk about weekend plans using 'tsumori desu'", "Describe past weekend activities"],
+            "zh": ["用'つもりです'谈论周末计划", "描述过去的周末活动"],
+            "th": ["ใช้ 'つもりです' พูดเกี่ยวกับแผนสุดสัปดาห์", "อธิบายกิจกรรมสุดสัปดาห์ที่ผ่านมา"],
+            "ko": ["'つもりです'로 주말 계획 이야기하기", "지난 주말 활동 설명하기"],
+            "es": ["Hablar de planes para el fin de semana con 'tsumori desu'", "Describir actividades del fin de semana pasado"]
+          },
+          "vocabulary": [
+            {
+              "word": "しゅうまつ",
+              "romanization": "shuumatsu",
+              "meanings": { "en": "weekend", "zh": "周末", "th": "สุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "〜つもりです",
+              "romanization": "~tsumori desu",
+              "meanings": { "en": "I intend to ~ / I plan to ~", "zh": "我打算~", "th": "ฉันตั้งใจจะ~", "ko": "~할 생각이에요", "es": "tengo pensado ~ / planeo ~" }
+            },
+            {
+              "word": "えいがをみる",
+              "romanization": "eiga o miru",
+              "meanings": { "en": "to watch a movie", "zh": "看电影", "th": "ดูหนัง", "ko": "영화를 보다", "es": "ver una película" }
+            },
+            {
+              "word": "さんぽする",
+              "romanization": "sanpo suru",
+              "meanings": { "en": "to take a walk", "zh": "散步", "th": "เดินเล่น", "ko": "산책하다", "es": "dar un paseo" }
+            },
+            {
+              "word": "ともだちとあう",
+              "romanization": "tomodachi to au",
+              "meanings": { "en": "to meet friends", "zh": "见朋友", "th": "พบเพื่อน", "ko": "친구를 만나다", "es": "quedar con amigos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I plan to watch a movie this weekend'?",
+              "options": ["しゅうまつにえいがをみるつもりです。", "しゅうまつにえいがをみます。", "えいがをみたいです。", "しゅうまつはえいがです。"],
+              "correct": 0,
+              "explanation": "'〜つもりです' = I intend to ~. 'しゅうまつに' = this weekend (time + に)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "さんぽする",
+              "options": ["to take a walk", "to go running", "to do sports", "to go cycling"],
+              "correct": 0,
+              "explanation": "'さんぽ' = a leisurely walk. 'こうえんでさんぽします' = I take a walk in the park."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しゅうまつ", "weekend"],
+                ["えいがをみる", "watch a movie"],
+                ["さんぽする", "take a walk"],
+                ["ともだちとあう", "meet friends"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["に", "ともだちと", "しゅうまつ", "つもりです", "あう"],
+              "correct": ["しゅうまつ", "に", "ともだちと", "あう", "つもりです"],
+              "translation": "I plan to meet friends this weekend."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Japanese Pop Culture",
+            "zh": "日本流行文化",
+            "th": "วัฒนธรรมป็อปญี่ปุ่น",
+            "ko": "일본 팝 문화",
+            "es": "Cultura popular japonesa"
+          },
+          "objectives": {
+            "en": ["Talk about Japanese pop culture interests like manga and anime", "Express enthusiasm for cultural topics"],
+            "zh": ["谈论漫画和动漫等日本流行文化", "表达对文化话题的热情"],
+            "th": ["พูดเกี่ยวกับความสนใจในวัฒนธรรมป็อปญี่ปุ่น เช่น มังงะและอนิเมะ", "แสดงความกระตือรือร้นในหัวข้อวัฒนธรรม"],
+            "ko": ["망가와 애니메 같은 일본 팝 문화 이야기하기", "문화 주제에 대한 열정 표현하기"],
+            "es": ["Hablar de intereses en la cultura popular japonesa como el manga y el anime", "Expresar entusiasmo por temas culturales"]
+          },
+          "vocabulary": [
+            {
+              "word": "まんが",
+              "romanization": "manga",
+              "meanings": { "en": "manga (Japanese comics)", "zh": "漫画", "th": "มังงะ", "ko": "망가", "es": "manga (cómic japonés)" }
+            },
+            {
+              "word": "アニメ",
+              "romanization": "anime",
+              "meanings": { "en": "anime (Japanese animation)", "zh": "动漫", "th": "อนิเมะ", "ko": "애니메이션", "es": "anime" }
+            },
+            {
+              "word": "だいすき",
+              "romanization": "daisuki",
+              "meanings": { "en": "love / really like", "zh": "非常喜欢/爱", "th": "ชอบมาก/รัก", "ko": "아주 좋아해", "es": "me encanta / quiero mucho" }
+            },
+            {
+              "word": "〜にはまっています",
+              "romanization": "~ni hamatte imasu",
+              "meanings": { "en": "I am into ~ / hooked on ~", "zh": "我沉迷于~", "th": "ฉันติดอยู่กับ~", "ko": "~에 빠져 있어요", "es": "estoy enganchado/a a ~" }
+            },
+            {
+              "word": "おすすめのアニメはなんですか",
+              "romanization": "osusume no anime wa nan desu ka",
+              "meanings": { "en": "What anime do you recommend?", "zh": "你推荐什么动漫？", "th": "คุณแนะนำอนิเมะเรื่องอะไร?", "ko": "추천하는 애니메이션이 뭐예요?", "es": "¿Qué anime recomiendas?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am really into anime'?",
+              "options": ["アニメにはまっています。", "アニメがすきです。", "アニメをみます。", "アニメはたのしいです。"],
+              "correct": 0,
+              "explanation": "'〜にはまっています' = I am hooked on/into ~. Expresses strong current interest."
+            },
+            {
+              "type": "target_to_native",
+              "word": "だいすき",
+              "options": ["love / really like", "like a little", "don't like", "hate"],
+              "correct": 0,
+              "explanation": "'だいすき' = love / really like. Stronger than 'すき' (like). 'まんががだいすきです！' = I love manga!"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["まんが", "manga"],
+                ["アニメ", "anime"],
+                ["だいすき", "love/really like"],
+                ["〜にはまっています", "I am into ~"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["まんが", "です", "が", "だいすき"],
+              "correct": ["まんが", "が", "だいすき", "です"],
+              "translation": "I love manga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Celebrations & Customs",
+        "zh": "庆典和习俗",
+        "th": "การเฉลิมฉลองและประเพณี",
+        "ko": "축하와 관습",
+        "es": "Celebraciones y costumbres"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Birthdays & Celebrations",
+            "zh": "生日和庆典",
+            "th": "วันเกิดและการเฉลิมฉลอง",
+            "ko": "생일과 축하",
+            "es": "Cumpleaños y celebraciones"
+          },
+          "objectives": {
+            "en": ["Wish someone happy birthday in Japanese", "Talk about birthday traditions"],
+            "zh": ["用日语祝某人生日快乐", "谈论生日传统"],
+            "th": ["อวยพรวันเกิดเป็นภาษาญี่ปุ่น", "พูดเกี่ยวกับประเพณีวันเกิด"],
+            "ko": ["일본어로 생일 축하하기", "생일 전통 이야기하기"],
+            "es": ["Felicitar el cumpleaños en japonés", "Hablar de tradiciones de cumpleaños"]
+          },
+          "vocabulary": [
+            {
+              "word": "たんじょうび",
+              "romanization": "tanjoubi",
+              "meanings": { "en": "birthday", "zh": "生日", "th": "วันเกิด", "ko": "생일", "es": "cumpleaños" }
+            },
+            {
+              "word": "おたんじょうびおめでとうございます",
+              "romanization": "otanjoubi omedetou gozaimasu",
+              "meanings": { "en": "Happy Birthday! (formal)", "zh": "生日快乐！（正式）", "th": "สุขสันต์วันเกิด! (ทางการ)", "ko": "생일 축하합니다! (존댓말)", "es": "¡Feliz cumpleaños! (formal)" }
+            },
+            {
+              "word": "プレゼント",
+              "romanization": "purezento",
+              "meanings": { "en": "present/gift", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            },
+            {
+              "word": "いわう",
+              "romanization": "iwau",
+              "meanings": { "en": "to celebrate", "zh": "庆祝", "th": "เฉลิมฉลอง", "ko": "축하하다", "es": "celebrar" }
+            },
+            {
+              "word": "なんさいになりましたか",
+              "romanization": "nansai ni narimashita ka",
+              "meanings": { "en": "How old have you turned?", "zh": "你几岁了？", "th": "อายุครบกี่ขวบแล้ว?", "ko": "몇 살이 됐어요?", "es": "¿Cuántos años has cumplido?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone 'Happy Birthday' formally?",
+              "options": ["おたんじょうびおめでとうございます。", "おたんじょうびおめでとう。", "はっぴーばーすでー！", "たんじょうびです。"],
+              "correct": 0,
+              "explanation": "'おたんじょうびおめでとうございます' is the formal birthday greeting. 'おめでとうございます' = congratulations (formal)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "プレゼント",
+              "options": ["present/gift", "cake", "card", "balloon"],
+              "correct": 0,
+              "explanation": "'プレゼント' (purezento) = present/gift. From English 'present'. 'プレゼントをあげます' = I'll give a present."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["たんじょうび", "birthday"],
+                ["プレゼント", "present/gift"],
+                ["いわう", "to celebrate"],
+                ["おめでとうございます", "congratulations"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ともだちと", "たんじょうびを", "いわいます"],
+              "correct": ["ともだちと", "たんじょうびを", "いわいます"],
+              "translation": "I celebrate my birthday with friends."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Japanese Festivals",
+            "zh": "日本节日",
+            "th": "เทศกาลญี่ปุ่น",
+            "ko": "일본 축제",
+            "es": "Festivales japoneses"
+          },
+          "objectives": {
+            "en": ["Name major Japanese festivals", "Describe typical festival activities"],
+            "zh": ["说出主要日本节日", "描述典型的节日活动"],
+            "th": ["พูดชื่อเทศกาลญี่ปุ่นสำคัญ", "อธิบายกิจกรรมเทศกาลทั่วไป"],
+            "ko": ["주요 일본 축제 이름 말하기", "일반적인 축제 활동 묘사하기"],
+            "es": ["Nombrar festivales japoneses importantes", "Describir actividades típicas de festivales"]
+          },
+          "vocabulary": [
+            {
+              "word": "まつり",
+              "romanization": "matsuri",
+              "meanings": { "en": "festival", "zh": "节日/祭典", "th": "เทศกาล/งานเทศกาล", "ko": "마츠리/축제", "es": "festival" }
+            },
+            {
+              "word": "はなみ",
+              "romanization": "hanami",
+              "meanings": { "en": "cherry blossom viewing", "zh": "赏樱花", "th": "การชมดอกซากุระ", "ko": "하나미 (꽃구경)", "es": "contemplación de cerezos en flor" }
+            },
+            {
+              "word": "ゆかた",
+              "romanization": "yukata",
+              "meanings": { "en": "yukata (casual summer kimono)", "zh": "浴衣（夏日和服）", "th": "ยูกาตะ (กิโมโนฤดูร้อน)", "ko": "유카타 (여름 기모노)", "es": "yukata (kimono informal de verano)" }
+            },
+            {
+              "word": "はなびたいかい",
+              "romanization": "hanabi taikai",
+              "meanings": { "en": "fireworks festival/display", "zh": "烟火大会", "th": "งานดอกไม้ไฟ", "ko": "불꽃놀이 대회", "es": "festival/exhibición de fuegos artificiales" }
+            },
+            {
+              "word": "たのしみにしています",
+              "romanization": "tanoshimi ni shite imasu",
+              "meanings": { "en": "I am looking forward to it", "zh": "我很期待", "th": "ฉันตั้งตารอ", "ko": "기대하고 있어요", "es": "estoy esperando con ganas" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is 'hanami'?",
+              "options": ["cherry blossom viewing", "a fireworks festival", "a summer dance festival", "a New Year tradition"],
+              "correct": 0,
+              "explanation": "'はなみ' (hanami) = flower viewing, specifically cherry blossom (さくら) viewing in spring. A beloved tradition."
+            },
+            {
+              "type": "target_to_native",
+              "word": "まつり",
+              "options": ["festival", "holiday", "ceremony", "tradition"],
+              "correct": 0,
+              "explanation": "'まつり' = festival. 'なつまつり' = summer festival. Common events in Japanese summer."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["まつり", "festival"],
+                ["はなみ", "cherry blossom viewing"],
+                ["ゆかた", "casual summer kimono"],
+                ["はなびたいかい", "fireworks display"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["まつり", "に", "いきたい", "なつ", "の", "です"],
+              "correct": ["なつ", "の", "まつり", "に", "いきたい", "です"],
+              "translation": "I want to go to a summer festival."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Social Customs",
+            "zh": "社交礼仪",
+            "th": "มารยาทสังคม",
+            "ko": "사회적 관습",
+            "es": "Costumbres sociales"
+          },
+          "objectives": {
+            "en": ["Understand key Japanese social customs and etiquette", "Express gratitude and apology appropriately"],
+            "zh": ["了解日本关键社交习俗和礼仪", "适当地表达感谢和道歉"],
+            "th": ["เข้าใจมารยาทสังคมญี่ปุ่นที่สำคัญ", "แสดงความขอบคุณและขอโทษอย่างเหมาะสม"],
+            "ko": ["주요 일본 사회적 관습과 예절 이해하기", "적절하게 감사와 사과 표현하기"],
+            "es": ["Entender las costumbres sociales y etiqueta japonesa", "Expresar gratitud y disculpa apropiadamente"]
+          },
+          "vocabulary": [
+            {
+              "word": "おじぎをする",
+              "romanization": "ojigi o suru",
+              "meanings": { "en": "to bow", "zh": "鞠躬", "th": "โค้งคำนับ", "ko": "절하다", "es": "hacer una reverencia" }
+            },
+            {
+              "word": "ありがとうございます",
+              "romanization": "arigatou gozaimasu",
+              "meanings": { "en": "thank you very much (formal)", "zh": "非常感谢（正式）", "th": "ขอบคุณมาก (ทางการ)", "ko": "감사합니다 (존댓말)", "es": "muchas gracias (formal)" }
+            },
+            {
+              "word": "もうしわけありません",
+              "romanization": "moushiwake arimasen",
+              "meanings": { "en": "I am terribly sorry (formal apology)", "zh": "非常抱歉（正式道歉）", "th": "ขอโทษอย่างจริงจัง (ทางการ)", "ko": "죄송합니다 (매우 공식적)", "es": "lo siento muchísimo (disculpa formal)" }
+            },
+            {
+              "word": "よろしくおねがいします",
+              "romanization": "yoroshiku onegai shimasu",
+              "meanings": { "en": "nice to meet you / please treat me well / I'm in your care", "zh": "请多关照", "th": "โปรดดูแลด้วย", "ko": "잘 부탁드립니다", "es": "mucho gusto / por favor trátenme bien" }
+            },
+            {
+              "word": "おみやげ",
+              "romanization": "omiyage",
+              "meanings": { "en": "souvenir / gift (from a trip)", "zh": "伴手礼/旅游纪念品", "th": "ของฝาก", "ko": "여행 선물/기념품", "es": "souvenir / regalo de viaje" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Thank you very much' formally?",
+              "options": ["ありがとうございます。", "ありがとう。", "どうもありがとう。", "サンキュー。"],
+              "correct": 0,
+              "explanation": "'ありがとうございます' is the formal thank you. 'ありがとう' is casual."
+            },
+            {
+              "type": "target_to_native",
+              "word": "おみやげ",
+              "options": ["souvenir/gift from a trip", "birthday gift", "hotel gift", "food gift"],
+              "correct": 0,
+              "explanation": "'おみやげ' = a gift brought back from a trip. Giving omiyage to colleagues and family is an important Japanese custom."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["おじぎをする", "to bow"],
+                ["ありがとうございます", "thank you very much"],
+                ["よろしくおねがいします", "please treat me well"],
+                ["おみやげ", "souvenir/gift from trip"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ます", "おねがい", "よろしく", "し"],
+              "correct": ["よろしく", "おねがい", "し", "ます"],
+              "translation": "Please treat me well."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

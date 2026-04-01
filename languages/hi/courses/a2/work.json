@@ -1,0 +1,670 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์สำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de oficina"
+          },
+          "objectives": {
+            "en": ["Name office items and spaces in Hindi", "Describe your workplace"]
+          },
+          "vocabulary": [
+            {
+              "word": "दफ़्तर",
+              "romanization": "daftar",
+              "meanings": { "en": "office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "oficina" }
+            },
+            {
+              "word": "बैठक",
+              "romanization": "baithak",
+              "meanings": { "en": "meeting / sitting room", "zh": "会议/客厅", "th": "การประชุม/ห้องนั่งเล่น", "ko": "회의/회의실", "es": "reunión / sala" }
+            },
+            {
+              "word": "कंप्यूटर",
+              "romanization": "kampyootar",
+              "meanings": { "en": "computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "computadora" }
+            },
+            {
+              "word": "सहकर्मी",
+              "romanization": "sahakarmee",
+              "meanings": { "en": "colleague / co-worker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "colega" }
+            },
+            {
+              "word": "समय सीमा",
+              "romanization": "samay seemaa",
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดเวลา", "ko": "마감일", "es": "fecha límite" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'office' in Hindi?" },
+              "answer": "दफ़्तर",
+              "choices": ["दफ़्तर", "बैठक", "सहकर्मी", "कंप्यूटर"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'सहकर्मी' (sahakarmee) mean?" },
+              "answer": "colleague / co-worker",
+              "choices": ["colleague / co-worker", "boss", "office", "meeting"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "दफ़्तर", "native": "office" },
+                { "target": "बैठक", "native": "meeting" },
+                { "target": "सहकर्मी", "native": "colleague" },
+                { "target": "समय सीमा", "native": "deadline" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'The deadline is tomorrow.'" },
+              "words": ["कल", "है", "समय", "सीमा"],
+              "answer": "समय सीमा कल है"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Meetings and Communication",
+            "zh": "会议与沟通",
+            "th": "การประชุมและการสื่อสาร",
+            "ko": "회의와 소통",
+            "es": "Reuniones y comunicación"
+          },
+          "objectives": {
+            "en": ["Participate in meetings in Hindi", "Express agreement and disagreement"]
+          },
+          "vocabulary": [
+            {
+              "word": "मैं सहमत हूँ",
+              "romanization": "main sahamat hoon",
+              "meanings": { "en": "I agree", "zh": "我同意", "th": "ฉันเห็นด้วย", "ko": "동의해요", "es": "estoy de acuerdo" }
+            },
+            {
+              "word": "मेरी राय में",
+              "romanization": "meree raay men",
+              "meanings": { "en": "in my opinion", "zh": "在我看来", "th": "ในความเห็นของฉัน", "ko": "내 의견으로는", "es": "en mi opinión" }
+            },
+            {
+              "word": "प्रस्तुति",
+              "romanization": "prastutee",
+              "meanings": { "en": "presentation", "zh": "演示/介绍", "th": "การนำเสนอ", "ko": "프레젠테이션", "es": "presentación" }
+            },
+            {
+              "word": "एजेंडा",
+              "romanization": "ejendaa",
+              "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의제", "es": "agenda" }
+            },
+            {
+              "word": "सारांश",
+              "romanization": "saaraansh",
+              "meanings": { "en": "summary", "zh": "总结", "th": "สรุป", "ko": "요약", "es": "resumen" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'I agree' in Hindi?" },
+              "answer": "मैं सहमत हूँ",
+              "choices": ["मैं सहमत हूँ", "एजेंडा", "सारांश", "प्रस्तुति"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'सारांश' (saaraansh) mean?" },
+              "answer": "summary",
+              "choices": ["summary", "agenda", "agree", "opinion"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "मैं सहमत हूँ", "native": "I agree" },
+                { "target": "प्रस्तुति", "native": "presentation" },
+                { "target": "एजेंडा", "native": "agenda" },
+                { "target": "सारांश", "native": "summary" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'In my opinion this is a good plan.'" },
+              "words": ["मेरी", "राय", "में", "यह", "अच्छी", "योजना", "है"],
+              "answer": "मेरी राय में यह अच्छी योजना है"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Emails in Hindi",
+            "zh": "印地语邮件",
+            "th": "อีเมลในภาษาฮินดี",
+            "ko": "힌디어 이메일",
+            "es": "Correos en hindi"
+          },
+          "objectives": {
+            "en": ["Write professional messages in Hindi", "Use formal language"]
+          },
+          "vocabulary": [
+            {
+              "word": "आदरणीय",
+              "romanization": "aadarneey",
+              "meanings": { "en": "respected / Dear (formal letter)", "zh": "尊敬的（正式信件）", "th": "ที่เคารพ (จดหมายทางการ)", "ko": "존경하는 (공식 편지)", "es": "respetado / Estimado (formal)" }
+            },
+            {
+              "word": "संलग्न",
+              "romanization": "sanlagna",
+              "meanings": { "en": "attached / enclosed", "zh": "附件/附上", "th": "แนบ", "ko": "첨부된", "es": "adjunto" }
+            },
+            {
+              "word": "धन्यवाद",
+              "romanization": "dhanyavaad",
+              "meanings": { "en": "thank you (formal)", "zh": "谢谢（正式）", "th": "ขอบคุณ (ทางการ)", "ko": "감사합니다 (격식)", "es": "gracias (formal)" }
+            },
+            {
+              "word": "भवदीय",
+              "romanization": "bhavadeey",
+              "meanings": { "en": "yours sincerely (letter ending)", "zh": "此致（信件结尾）", "th": "ของคุณอย่างจริงใจ (จบจดหมาย)", "ko": "삼가 (편지 맺음말)", "es": "atentamente (cierre de carta)" }
+            },
+            {
+              "word": "उत्तर दें",
+              "romanization": "uttar den",
+              "meanings": { "en": "please reply", "zh": "请回复", "th": "กรุณาตอบกลับ", "ko": "답변 주세요", "es": "por favor responda" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'thank you' formally in Hindi?" },
+              "answer": "धन्यवाद",
+              "choices": ["धन्यवाद", "आदरणीय", "संलग्न", "भवदीय"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'संलग्न' (sanlagna) mean?" },
+              "answer": "attached / enclosed",
+              "choices": ["attached / enclosed", "thank you", "dear", "sincerely"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "आदरणीय", "native": "Dear (formal)" },
+                { "target": "संलग्न", "native": "attached" },
+                { "target": "धन्यवाद", "native": "thank you" },
+                { "target": "भवदीय", "native": "yours sincerely" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please find the document attached.'" },
+              "words": ["दस्तावेज़", "संलग्न", "है", "कृपया", "देखें"],
+              "answer": "कृपया संलग्न दस्तावेज़ देखें"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Job Hunting",
+        "zh": "求职",
+        "th": "การหางาน",
+        "ko": "구직",
+        "es": "Búsqueda de empleo"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "CV and Job Applications",
+            "zh": "简历和工作申请",
+            "th": "CV และการสมัครงาน",
+            "ko": "이력서와 입사 지원",
+            "es": "CV y solicitudes de trabajo"
+          },
+          "objectives": {
+            "en": ["Describe work experience in Hindi", "Write key CV phrases"]
+          },
+          "vocabulary": [
+            {
+              "word": "बायोडेटा",
+              "romanization": "baayodeṭaa",
+              "meanings": { "en": "bio-data / CV / résumé", "zh": "简历", "th": "ประวัติย่อ/CV", "ko": "이력서/바이오데이터", "es": "hoja de vida / CV" }
+            },
+            {
+              "word": "अनुभव",
+              "romanization": "anubhav",
+              "meanings": { "en": "experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "experiencia" }
+            },
+            {
+              "word": "कौशल",
+              "romanization": "kaushal",
+              "meanings": { "en": "skill", "zh": "技能", "th": "ทักษะ", "ko": "기술", "es": "habilidad" }
+            },
+            {
+              "word": "शिक्षा",
+              "romanization": "shikshaa",
+              "meanings": { "en": "education", "zh": "教育", "th": "การศึกษา", "ko": "교육", "es": "educación" }
+            },
+            {
+              "word": "आवेदन",
+              "romanization": "aavedan",
+              "meanings": { "en": "application", "zh": "申请", "th": "การสมัคร", "ko": "지원", "es": "solicitud" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'experience' in Hindi?" },
+              "answer": "अनुभव",
+              "choices": ["अनुभव", "कौशल", "शिक्षा", "आवेदन"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'कौशल' (kaushal) mean?" },
+              "answer": "skill",
+              "choices": ["skill", "experience", "education", "application"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "बायोडेटा", "native": "CV/résumé" },
+                { "target": "अनुभव", "native": "experience" },
+                { "target": "कौशल", "native": "skill" },
+                { "target": "शिक्षा", "native": "education" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I have five years of experience.'" },
+              "words": ["मुझे", "पाँच", "साल", "का", "अनुभव", "है"],
+              "answer": "मुझे पाँच साल का अनुभव है"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer interview questions in Hindi", "Talk about strengths and goals"]
+          },
+          "vocabulary": [
+            {
+              "word": "साक्षात्कार",
+              "romanization": "saakshaaatkaar",
+              "meanings": { "en": "interview", "zh": "面试", "th": "การสัมภาษณ์", "ko": "면접", "es": "entrevista" }
+            },
+            {
+              "word": "वेतन",
+              "romanization": "vetan",
+              "meanings": { "en": "salary", "zh": "薪水", "th": "เงินเดือน", "ko": "급여", "es": "salario" }
+            },
+            {
+              "word": "मेरी ताकत",
+              "romanization": "meree taakat",
+              "meanings": { "en": "my strength", "zh": "我的优势", "th": "จุดแข็งของฉัน", "ko": "내 강점", "es": "mi fortaleza" }
+            },
+            {
+              "word": "लक्ष्य",
+              "romanization": "lakshya",
+              "meanings": { "en": "goal / target", "zh": "目标", "th": "เป้าหมาย", "ko": "목표", "es": "meta / objetivo" }
+            },
+            {
+              "word": "उपलब्ध",
+              "romanization": "upalabdh",
+              "meanings": { "en": "available", "zh": "可用的", "th": "พร้อม", "ko": "이용 가능한", "es": "disponible" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'salary' in Hindi?" },
+              "answer": "वेतन",
+              "choices": ["वेतन", "साक्षात्कार", "लक्ष्य", "उपलब्ध"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'लक्ष्य' (lakshya) mean?" },
+              "answer": "goal / target",
+              "choices": ["goal / target", "salary", "strength", "available"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "साक्षात्कार", "native": "interview" },
+                { "target": "वेतन", "native": "salary" },
+                { "target": "मेरी ताकत", "native": "my strength" },
+                { "target": "लक्ष्य", "native": "goal" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My goal is to become a manager.'" },
+              "words": ["मेरा", "लक्ष्य", "प्रबंधक", "बनना", "है"],
+              "answer": "मेरा लक्ष्य प्रबंधक बनना है"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Indian Business Culture",
+            "zh": "印度商业文化",
+            "th": "วัฒนธรรมธุรกิจอินเดีย",
+            "ko": "인도 비즈니스 문화",
+            "es": "Cultura empresarial india"
+          },
+          "objectives": {
+            "en": ["Understand Indian workplace culture", "Navigate professional relationships in India"]
+          },
+          "vocabulary": [
+            {
+              "word": "व्यापार",
+              "romanization": "vyaapaar",
+              "meanings": { "en": "business / trade", "zh": "商业/贸易", "th": "ธุรกิจ/การค้า", "ko": "사업/거래", "es": "negocio / comercio" }
+            },
+            {
+              "word": "साझेदार",
+              "romanization": "saajhedaar",
+              "meanings": { "en": "business partner", "zh": "商业伙伴", "th": "หุ้นส่วนธุรกิจ", "ko": "비즈니스 파트너", "es": "socio de negocios" }
+            },
+            {
+              "word": "बातचीत",
+              "romanization": "baatcheet",
+              "meanings": { "en": "negotiation / conversation", "zh": "谈判/对话", "th": "การเจรจา/การสนทนา", "ko": "협상/대화", "es": "negociación / conversación" }
+            },
+            {
+              "word": "अनुबंध",
+              "romanization": "anuband",
+              "meanings": { "en": "contract / agreement", "zh": "合同/协议", "th": "สัญญา/ข้อตกลง", "ko": "계약/합의", "es": "contrato / acuerdo" }
+            },
+            {
+              "word": "सौदा",
+              "romanization": "saudaa",
+              "meanings": { "en": "deal / bargain", "zh": "交易/成交", "th": "ดีล/การต่อรอง", "ko": "거래/협상", "es": "trato / acuerdo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'business' in Hindi?" },
+              "answer": "व्यापार",
+              "choices": ["व्यापार", "बातचीत", "अनुबंध", "सौदा"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'सौदा' (saudaa) mean?" },
+              "answer": "deal / bargain",
+              "choices": ["deal / bargain", "contract", "business", "partner"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "व्यापार", "native": "business" },
+                { "target": "साझेदार", "native": "business partner" },
+                { "target": "अनुबंध", "native": "contract" },
+                { "target": "सौदा", "native": "deal" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We signed the contract today.'" },
+              "words": ["आज", "अनुबंध", "हमने", "किया", "हस्ताक्षर"],
+              "answer": "हमने आज अनुबंध पर हस्ताक्षर किया"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Career Development",
+        "zh": "职业发展",
+        "th": "การพัฒนาอาชีพ",
+        "ko": "경력 개발",
+        "es": "Desarrollo profesional"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Promotions and Raises",
+            "zh": "晋升和加薪",
+            "th": "การเลื่อนตำแหน่งและขึ้นเงินเดือน",
+            "ko": "승진과 임금 인상",
+            "es": "Ascensos y aumentos"
+          },
+          "objectives": {
+            "en": ["Discuss career advancement in Hindi", "Ask for a raise or promotion"]
+          },
+          "vocabulary": [
+            {
+              "word": "पदोन्नति",
+              "romanization": "padonnatee",
+              "meanings": { "en": "promotion (career)", "zh": "晋升", "th": "การเลื่อนตำแหน่ง", "ko": "승진", "es": "ascenso" }
+            },
+            {
+              "word": "वेतन वृद्धि",
+              "romanization": "vetan vriddhi",
+              "meanings": { "en": "salary raise", "zh": "加薪", "th": "การขึ้นเงินเดือน", "ko": "급여 인상", "es": "aumento de sueldo" }
+            },
+            {
+              "word": "प्रदर्शन",
+              "romanization": "pradarshan",
+              "meanings": { "en": "performance", "zh": "表现", "th": "ผลงาน", "ko": "성과", "es": "desempeño" }
+            },
+            {
+              "word": "योग्यता",
+              "romanization": "yogyataa",
+              "meanings": { "en": "qualification / merit", "zh": "资格/才能", "th": "คุณสมบัติ/ความสามารถ", "ko": "자격/능력", "es": "calificación / mérito" }
+            },
+            {
+              "word": "मैं हकदार हूँ",
+              "romanization": "main hakadaar hoon",
+              "meanings": { "en": "I deserve / I am entitled to", "zh": "我应得", "th": "ฉันสมควรได้รับ", "ko": "저는 받을 자격이 있어요", "es": "me lo merezco / tengo derecho" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'promotion' in Hindi?" },
+              "answer": "पदोन्नति",
+              "choices": ["पदोन्नति", "वेतन वृद्धि", "प्रदर्शन", "योग्यता"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'प्रदर्शन' (pradarshan) mean?" },
+              "answer": "performance",
+              "choices": ["performance", "promotion", "qualification", "raise"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "पदोन्नति", "native": "promotion" },
+                { "target": "वेतन वृद्धि", "native": "salary raise" },
+                { "target": "प्रदर्शन", "native": "performance" },
+                { "target": "योग्यता", "native": "qualification" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I deserve a salary raise.'" },
+              "words": ["वेतन", "वृद्धि", "का", "मैं", "हकदार", "हूँ"],
+              "answer": "मैं वेतन वृद्धि का हकदार हूँ"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Remote and Flexible Work",
+            "zh": "远程和灵活工作",
+            "th": "การทำงานทางไกลและยืดหยุ่น",
+            "ko": "원격 및 유연 근무",
+            "es": "Trabajo remoto y flexible"
+          },
+          "objectives": {
+            "en": ["Discuss modern work arrangements in Hindi", "Talk about work-life balance"]
+          },
+          "vocabulary": [
+            {
+              "word": "घर से काम",
+              "romanization": "ghar se kaam",
+              "meanings": { "en": "work from home", "zh": "居家办公", "th": "ทำงานที่บ้าน", "ko": "재택근무", "es": "trabajo desde casa" }
+            },
+            {
+              "word": "लचीला समय",
+              "romanization": "lacheelaa samay",
+              "meanings": { "en": "flexible time / flexitime", "zh": "弹性时间", "th": "เวลายืดหยุ่น", "ko": "유연 근무 시간", "es": "horario flexible" }
+            },
+            {
+              "word": "उत्पादकता",
+              "romanization": "utpaadakataa",
+              "meanings": { "en": "productivity", "zh": "生产力", "th": "ประสิทธิภาพ", "ko": "생산성", "es": "productividad" }
+            },
+            {
+              "word": "कार्य-जीवन संतुलन",
+              "romanization": "kaary-jeevan santulan",
+              "meanings": { "en": "work-life balance", "zh": "工作生活平衡", "th": "ความสมดุลระหว่างงานและชีวิต", "ko": "일과 삶의 균형", "es": "equilibrio trabajo-vida" }
+            },
+            {
+              "word": "ऑनलाइन",
+              "romanization": "onlain",
+              "meanings": { "en": "online", "zh": "在线", "th": "ออนไลน์", "ko": "온라인", "es": "en línea" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'work from home' in Hindi?" },
+              "answer": "घर से काम",
+              "choices": ["घर से काम", "लचीला समय", "उत्पादकता", "ऑनलाइन"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'उत्पादकता' (utpaadakataa) mean?" },
+              "answer": "productivity",
+              "choices": ["productivity", "flexibility", "online", "balance"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "घर से काम", "native": "work from home" },
+                { "target": "लचीला समय", "native": "flexible time" },
+                { "target": "उत्पादकता", "native": "productivity" },
+                { "target": "ऑनलाइन", "native": "online" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I prefer to work from home.'" },
+              "words": ["मुझे", "घर", "से", "काम", "करना", "पसंद", "है"],
+              "answer": "मुझे घर से काम करना पसंद है"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Networking",
+            "zh": "职业社交",
+            "th": "การสร้างเครือข่าย",
+            "ko": "네트워킹",
+            "es": "Hacer contactos"
+          },
+          "objectives": {
+            "en": ["Network at professional events in India", "Exchange contacts and follow up"]
+          },
+          "vocabulary": [
+            {
+              "word": "संपर्क",
+              "romanization": "sampark",
+              "meanings": { "en": "contact / connection", "zh": "联系/联系人", "th": "ติดต่อ/การเชื่อมต่อ", "ko": "연락/인맥", "es": "contacto / conexión" }
+            },
+            {
+              "word": "विज़िटिंग कार्ड",
+              "romanization": "viziṭing kaard",
+              "meanings": { "en": "business card", "zh": "名片", "th": "นามบัตร", "ko": "명함", "es": "tarjeta de visita" }
+            },
+            {
+              "word": "अवसर",
+              "romanization": "avasar",
+              "meanings": { "en": "opportunity", "zh": "机会", "th": "โอกาส", "ko": "기회", "es": "oportunidad" }
+            },
+            {
+              "word": "सहयोग",
+              "romanization": "sahayog",
+              "meanings": { "en": "cooperation / collaboration", "zh": "合作", "th": "ความร่วมมือ", "ko": "협력/협조", "es": "cooperación / colaboración" }
+            },
+            {
+              "word": "नेटवर्क",
+              "romanization": "neṭavark",
+              "meanings": { "en": "network", "zh": "人际网络", "th": "เครือข่าย", "ko": "네트워크", "es": "red de contactos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'opportunity' in Hindi?" },
+              "answer": "अवसर",
+              "choices": ["अवसर", "संपर्क", "सहयोग", "नेटवर्क"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'सहयोग' (sahayog) mean?" },
+              "answer": "cooperation / collaboration",
+              "choices": ["cooperation / collaboration", "opportunity", "contact", "network"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "संपर्क", "native": "contact" },
+                { "target": "विज़िटिंग कार्ड", "native": "business card" },
+                { "target": "अवसर", "native": "opportunity" },
+                { "target": "सहयोग", "native": "cooperation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Let's stay in contact.'" },
+              "words": ["संपर्क", "में", "रहते", "हैं", "हम"],
+              "answer": "हम संपर्क में रहते हैं"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

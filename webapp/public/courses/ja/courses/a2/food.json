@@ -1,0 +1,741 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订餐位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a Japanese restaurant", "State the number of people and time"],
+            "zh": ["在日本餐厅预订桌位", "说明人数和时间"],
+            "th": ["จองโต๊ะที่ร้านอาหารญี่ปุ่น", "ระบุจำนวนคนและเวลา"],
+            "ko": ["일본 식당에서 테이블 예약하기", "인원수와 시간 말하기"],
+            "es": ["Reservar una mesa en un restaurante japonés", "Indicar el número de personas y la hora"]
+          },
+          "vocabulary": [
+            {
+              "word": "よやく",
+              "romanization": "yoyaku",
+              "meanings": { "en": "reservation/booking", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "ふたりぶん",
+              "romanization": "futari bun",
+              "meanings": { "en": "for two people", "zh": "两个人份", "th": "สำหรับสองคน", "ko": "두 명분", "es": "para dos personas" }
+            },
+            {
+              "word": "しちじ",
+              "romanization": "shichi-ji",
+              "meanings": { "en": "seven o'clock", "zh": "七点", "th": "เจ็ดโมง", "ko": "7시", "es": "las siete" }
+            },
+            {
+              "word": "おなまえ",
+              "romanization": "onamae",
+              "meanings": { "en": "your name (polite)", "zh": "您的名字", "th": "ชื่อของคุณ (สุภาพ)", "ko": "성함", "es": "su nombre (formal)" }
+            },
+            {
+              "word": "よやくしたいのですが",
+              "romanization": "yoyaku shitai no desu ga",
+              "meanings": { "en": "I would like to make a reservation", "zh": "我想预订", "th": "ฉันอยากจอง", "ko": "예약하고 싶습니다만", "es": "quisiera hacer una reserva" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to reserve a table for three'?",
+              "options": ["さんにんよやくしたいのですが。", "ふたりぶんよやくします。", "テーブルをよやくしてください。", "よやくはありますか？"],
+              "correct": 0,
+              "explanation": "'さんにんよやくしたいのですが' = I would like to make a reservation for three. 'さんにん' = three people."
+            },
+            {
+              "type": "target_to_native",
+              "word": "よやく",
+              "options": ["reservation", "menu", "table", "name"],
+              "correct": 0,
+              "explanation": "'よやく' (yoyaku) = reservation/booking. Used for restaurants, hotels, and appointments."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["よやく", "reservation"],
+                ["ふたりぶん", "for two people"],
+                ["おなまえ", "your name"],
+                ["しちじ", "seven o'clock"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["よやく", "ですが", "にん", "さん", "したい", "の"],
+              "correct": ["さん", "にん", "よやく", "したい", "の", "ですが"],
+              "translation": "I would like a reservation for three people."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What name is the reservation under?'",
+              "options": ["おなまえはなんですか？", "よやくはありますか？", "なんにんですか？", "なんじですか？"],
+              "correct": 0,
+              "explanation": "'おなまえはなんですか？' = What is your name? (polite). Used to confirm reservations."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks at a Japanese restaurant", "Ask what the chef recommends"],
+            "zh": ["在日本餐厅点餐和饮料", "询问厨师推荐"],
+            "th": ["สั่งอาหารและเครื่องดื่มที่ร้านอาหารญี่ปุ่น", "ถามว่าเชฟแนะนำอะไร"],
+            "ko": ["일본 식당에서 음식과 음료 주문하기", "셰프 추천 요리 물어보기"],
+            "es": ["Pedir comida y bebidas en un restaurante japonés", "Preguntar qué recomienda el chef"]
+          },
+          "vocabulary": [
+            {
+              "word": "メニュー",
+              "romanization": "menyuu",
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "ちゅうもんする",
+              "romanization": "chuumon suru",
+              "meanings": { "en": "to order", "zh": "点餐", "th": "สั่ง", "ko": "주문하다", "es": "pedir" }
+            },
+            {
+              "word": "おすすめ",
+              "romanization": "osusume",
+              "meanings": { "en": "recommendation", "zh": "推荐", "th": "คำแนะนำ", "ko": "추천", "es": "recomendación" }
+            },
+            {
+              "word": "〜をください",
+              "romanization": "~o kudasai",
+              "meanings": { "en": "please give me ~ / I'll have ~", "zh": "请给我~", "th": "ขอ~หน่อย", "ko": "~을/를 주세요", "es": "deme ~ por favor" }
+            },
+            {
+              "word": "ていしょく",
+              "romanization": "teishoku",
+              "meanings": { "en": "set meal", "zh": "套餐", "th": "ชุดอาหาร", "ko": "정식", "es": "menú del día/set" }
+            },
+            {
+              "word": "なにがおすすめですか",
+              "romanization": "nani ga osusume desu ka",
+              "meanings": { "en": "What do you recommend?", "zh": "有什么推荐？", "th": "มีอะไรแนะนำ?", "ko": "뭘 추천해요?", "es": "¿Qué recomienda?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'll have the ramen, please'?",
+              "options": ["ラーメンをください。", "ラーメンがすきです。", "ラーメンをちゅうもんします。", "ラーメンはありますか？"],
+              "correct": 0,
+              "explanation": "'ラーメンをください' = Please give me ramen / I'll have the ramen. '〜をください' is the standard ordering phrase."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ていしょく",
+              "options": ["set meal", "main dish", "appetizer", "dessert"],
+              "correct": 0,
+              "explanation": "'ていしょく' (teishoku) = set meal, typically includes rice, soup, main dish and sides."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["メニュー", "menu"],
+                ["おすすめ", "recommendation"],
+                ["ていしょく", "set meal"],
+                ["〜をください", "please give me ~"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["おすすめ", "なに", "ですか", "が"],
+              "correct": ["なに", "が", "おすすめ", "ですか"],
+              "translation": "What do you recommend?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Paying the Bill",
+            "zh": "结账",
+            "th": "การจ่ายเงิน",
+            "ko": "계산하기",
+            "es": "Pagar la cuenta"
+          },
+          "objectives": {
+            "en": ["Ask for and pay the bill at a Japanese restaurant", "Understand how to split the bill"],
+            "zh": ["在日本餐厅要账单并付款", "了解分账方式"],
+            "th": ["ขอบิลและจ่ายเงินที่ร้านอาหารญี่ปุ่น", "เข้าใจวิธีการหาร"],
+            "ko": ["일본 식당에서 계산서 요청하고 지불하기", "더치페이 이해하기"],
+            "es": ["Pedir y pagar la cuenta en un restaurante japonés", "Entender cómo dividir la cuenta"]
+          },
+          "vocabulary": [
+            {
+              "word": "おかんじょう",
+              "romanization": "okanjou",
+              "meanings": { "en": "the bill/check (polite)", "zh": "账单", "th": "ใบเสร็จ (สุภาพ)", "ko": "계산서 (정중)", "es": "la cuenta (formal)" }
+            },
+            {
+              "word": "おかいけい",
+              "romanization": "okaikei",
+              "meanings": { "en": "the bill/payment (polite)", "zh": "账单/支付", "th": "ใบเสร็จ/การชำระ (สุภาพ)", "ko": "계산 (정중)", "es": "la cuenta/pago (formal)" }
+            },
+            {
+              "word": "わりかん",
+              "romanization": "warikan",
+              "meanings": { "en": "splitting the bill equally", "zh": "平分账单", "th": "หารเท่าๆ กัน", "ko": "더치페이", "es": "dividir la cuenta" }
+            },
+            {
+              "word": "べつべつに",
+              "romanization": "betsubetsu ni",
+              "meanings": { "en": "separately", "zh": "分开", "th": "แยกกัน", "ko": "따로따로", "es": "por separado" }
+            },
+            {
+              "word": "〜でおねがいします",
+              "romanization": "~de onegai shimasu",
+              "meanings": { "en": "please do ~ / please use ~", "zh": "请用~/请做~", "th": "ขอ~ด้วยนะคะ/ครับ", "ko": "~로 부탁드립니다", "es": "por favor con ~" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask for the bill?",
+              "options": ["おかいけいをおねがいします。", "メニューをください。", "ちゅうもんします。", "わりかんにします。"],
+              "correct": 0,
+              "explanation": "'おかいけいをおねがいします' = Please bring the bill. 'おねがいします' = please (formal request)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "わりかん",
+              "options": ["splitting the bill equally", "the tip", "cash payment", "credit card"],
+              "correct": 0,
+              "explanation": "'わりかん' (warikan) = Dutch treat / splitting the bill. Very common in Japan."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["おかいけい", "the bill"],
+                ["わりかん", "splitting the bill"],
+                ["べつべつに", "separately"],
+                ["〜でおねがいします", "please use ~"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["おねがい", "おかいけい", "します", "を"],
+              "correct": ["おかいけい", "を", "おねがい", "します"],
+              "translation": "Please bring the bill."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Japanese Food",
+        "zh": "日本食物",
+        "th": "อาหารญี่ปุ่น",
+        "ko": "일본 음식",
+        "es": "Comida japonesa"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Classic Japanese Dishes",
+            "zh": "经典日本菜",
+            "th": "อาหารญี่ปุ่นคลาสสิก",
+            "ko": "일본 고전 요리",
+            "es": "Platos japoneses clásicos"
+          },
+          "objectives": {
+            "en": ["Name classic Japanese dishes and describe them", "Talk about your favourite Japanese foods"],
+            "zh": ["说出经典日本菜并描述", "谈论你最喜欢的日本食物"],
+            "th": ["พูดชื่ออาหารญี่ปุ่นคลาสสิกและอธิบาย", "พูดเกี่ยวกับอาหารญี่ปุ่นที่ชอบ"],
+            "ko": ["일본 고전 요리 이름 말하고 설명하기", "좋아하는 일본 음식 이야기하기"],
+            "es": ["Nombrar platos japoneses clásicos y describirlos", "Hablar de tu comida japonesa favorita"]
+          },
+          "vocabulary": [
+            {
+              "word": "すし",
+              "romanization": "sushi",
+              "meanings": { "en": "sushi", "zh": "寿司", "th": "ซูชิ", "ko": "스시", "es": "sushi" }
+            },
+            {
+              "word": "ラーメン",
+              "romanization": "raamen",
+              "meanings": { "en": "ramen (noodle soup)", "zh": "拉面", "th": "ราเมน", "ko": "라멘", "es": "ramen" }
+            },
+            {
+              "word": "てんぷら",
+              "romanization": "tenpura",
+              "meanings": { "en": "tempura (battered/fried food)", "zh": "天妇罗", "th": "เทมปุระ", "ko": "튀김/덴뿌라", "es": "tempura" }
+            },
+            {
+              "word": "やきとり",
+              "romanization": "yakitori",
+              "meanings": { "en": "grilled chicken skewers", "zh": "烤鸡肉串", "th": "ไก่ย่างเสียบไม้", "ko": "야키토리", "es": "brochetas de pollo a la parrilla" }
+            },
+            {
+              "word": "おいしい",
+              "romanization": "oishii",
+              "meanings": { "en": "delicious/tasty", "zh": "好吃/美味", "th": "อร่อย", "ko": "맛있는", "es": "delicioso/rico" }
+            },
+            {
+              "word": "いちばんすき",
+              "romanization": "ichiban suki",
+              "meanings": { "en": "favourite (number one like)", "zh": "最喜欢", "th": "ชอบที่สุด", "ko": "가장 좋아하는", "es": "favorito (el que más me gusta)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Sushi is my favourite'?",
+              "options": ["すしがいちばんすきです。", "すしはおいしいです。", "すしをたべます。", "すしがすきじゃないです。"],
+              "correct": 0,
+              "explanation": "'〜がいちばんすきです' = ~ is my favourite (lit. I like ~ the most). 'いちばん' = number one/most."
+            },
+            {
+              "type": "target_to_native",
+              "word": "てんぷら",
+              "options": ["tempura", "ramen", "sushi", "teriyaki"],
+              "correct": 0,
+              "explanation": "'てんぷら' = tempura — vegetables or seafood dipped in light batter and deep-fried."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["すし", "sushi"],
+                ["ラーメン", "ramen"],
+                ["てんぷら", "tempura"],
+                ["おいしい", "delicious"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["です", "すき", "が", "ラーメン", "いちばん"],
+              "correct": ["ラーメン", "が", "いちばん", "すき", "です"],
+              "translation": "Ramen is my favourite."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Ingredients & Tastes",
+            "zh": "食材和口味",
+            "th": "ส่วนผสมและรสชาติ",
+            "ko": "재료와 맛",
+            "es": "Ingredientes y sabores"
+          },
+          "objectives": {
+            "en": ["Describe the taste and ingredients of Japanese food", "Express food preferences using 'ga suki' and 'ga kirai'"],
+            "zh": ["描述日本食物的口味和食材", "用'がすき'和'がきらい'表达食物偏好"],
+            "th": ["อธิบายรสชาติและส่วนผสมของอาหารญี่ปุ่น", "ใช้ 'がすき' และ 'がきらい' แสดงความชอบ"],
+            "ko": ["일본 음식의 맛과 재료 설명하기", "'がすき'와 'がきらい'로 음식 취향 표현하기"],
+            "es": ["Describir el sabor e ingredientes de la comida japonesa", "Expresar preferencias con 'ga suki' y 'ga kirai'"]
+          },
+          "vocabulary": [
+            {
+              "word": "あまい",
+              "romanization": "amai",
+              "meanings": { "en": "sweet", "zh": "甜的", "th": "หวาน", "ko": "단", "es": "dulce" }
+            },
+            {
+              "word": "からい",
+              "romanization": "karai",
+              "meanings": { "en": "spicy/hot", "zh": "辣的", "th": "เผ็ด", "ko": "매운", "es": "picante" }
+            },
+            {
+              "word": "しょっぱい",
+              "romanization": "shoppai",
+              "meanings": { "en": "salty", "zh": "咸的", "th": "เค็ม", "ko": "짠", "es": "salado" }
+            },
+            {
+              "word": "だし",
+              "romanization": "dashi",
+              "meanings": { "en": "dashi (Japanese stock/broth)", "zh": "出汁/高汤", "th": "น้ำซุปญี่ปุ่น", "ko": "다시 (일본 육수)", "es": "dashi (caldo japonés)" }
+            },
+            {
+              "word": "しょうゆ",
+              "romanization": "shouyu",
+              "meanings": { "en": "soy sauce", "zh": "酱油", "th": "ซีอิ้ว", "ko": "간장", "es": "salsa de soja" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I don't like spicy food'?",
+              "options": ["からいたべものがきらいです。", "からいたべものがすきじゃないです。", "からいものはたべません。", "からいたべものはにがてです。"],
+              "correct": 0,
+              "explanation": "'〜がきらいです' = I dislike/hate ~. 'からいたべものがきらいです' = I don't like spicy food."
+            },
+            {
+              "type": "target_to_native",
+              "word": "しょうゆ",
+              "options": ["soy sauce", "miso", "sake", "mirin"],
+              "correct": 0,
+              "explanation": "'しょうゆ' (shouyu) = soy sauce. A fundamental seasoning in Japanese cooking."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["あまい", "sweet"],
+                ["からい", "spicy"],
+                ["しょっぱい", "salty"],
+                ["しょうゆ", "soy sauce"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["きらい", "たべもの", "あまい", "が", "です"],
+              "correct": ["あまい", "たべもの", "が", "きらい", "です"],
+              "translation": "I dislike sweet food."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Food Shopping",
+            "zh": "食品购物",
+            "th": "การซื้ออาหาร",
+            "ko": "식품 쇼핑",
+            "es": "Compras de alimentos"
+          },
+          "objectives": {
+            "en": ["Shop for food at a Japanese supermarket or market", "Ask about products and prices"],
+            "zh": ["在日本超市或市场购买食物", "询问商品和价格"],
+            "th": ["ซื้ออาหารที่ซูเปอร์มาร์เก็ตหรือตลาดญี่ปุ่น", "ถามเกี่ยวกับสินค้าและราคา"],
+            "ko": ["일본 슈퍼마켓이나 시장에서 식품 쇼핑하기", "상품과 가격 물어보기"],
+            "es": ["Hacer compras en un supermercado o mercado japonés", "Preguntar sobre productos y precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "スーパー",
+              "romanization": "suupaa",
+              "meanings": { "en": "supermarket", "zh": "超市", "th": "ซูเปอร์มาร์เก็ต", "ko": "슈퍼마켓", "es": "supermercado" }
+            },
+            {
+              "word": "いくらですか",
+              "romanization": "ikura desu ka",
+              "meanings": { "en": "How much is it?", "zh": "多少钱？", "th": "ราคาเท่าไร?", "ko": "얼마예요?", "es": "¿Cuánto cuesta?" }
+            },
+            {
+              "word": "やさい",
+              "romanization": "yasai",
+              "meanings": { "en": "vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verduras" }
+            },
+            {
+              "word": "さかな",
+              "romanization": "sakana",
+              "meanings": { "en": "fish", "zh": "鱼", "th": "ปลา", "ko": "생선", "es": "pescado" }
+            },
+            {
+              "word": "たまご",
+              "romanization": "tamago",
+              "meanings": { "en": "egg", "zh": "鸡蛋", "th": "ไข่", "ko": "달걀", "es": "huevo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much are the eggs?'",
+              "options": ["たまごはいくらですか？", "たまごはどこですか？", "たまごをください。", "たまごがすきです。"],
+              "correct": 0,
+              "explanation": "'〜はいくらですか？' = How much is/are ~? 'たまごはいくらですか' = How much are the eggs?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "さかな",
+              "options": ["fish", "meat", "chicken", "seafood"],
+              "correct": 0,
+              "explanation": "'さかな' (sakana) = fish. 'さかなやさん' = fish shop/fishmonger."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["スーパー", "supermarket"],
+                ["やさい", "vegetables"],
+                ["さかな", "fish"],
+                ["たまご", "egg"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["スーパー", "で", "やさい", "かいます", "を"],
+              "correct": ["スーパー", "で", "やさい", "を", "かいます"],
+              "translation": "I buy vegetables at the supermarket."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Eating Out",
+        "zh": "外出就餐",
+        "th": "การทานข้าวนอกบ้าน",
+        "ko": "외식하기",
+        "es": "Comer fuera"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Types of Restaurants",
+            "zh": "餐厅种类",
+            "th": "ประเภทของร้านอาหาร",
+            "ko": "식당 종류",
+            "es": "Tipos de restaurantes"
+          },
+          "objectives": {
+            "en": ["Name different types of Japanese eating establishments", "Describe what they serve"],
+            "zh": ["说出不同类型的日本餐饮场所", "描述它们提供的食物"],
+            "th": ["พูดชื่อสถานที่รับประทานอาหารญี่ปุ่นประเภทต่างๆ", "อธิบายว่าพวกเขาเสิร์ฟอะไร"],
+            "ko": ["일본 다양한 식당 종류 말하기", "그곳에서 무엇을 제공하는지 설명하기"],
+            "es": ["Nombrar distintos tipos de establecimientos japoneses", "Describir qué sirven"]
+          },
+          "vocabulary": [
+            {
+              "word": "すしや",
+              "romanization": "sushiya",
+              "meanings": { "en": "sushi restaurant", "zh": "寿司店", "th": "ร้านซูชิ", "ko": "스시집", "es": "restaurante de sushi" }
+            },
+            {
+              "word": "ラーメンや",
+              "romanization": "raamenya",
+              "meanings": { "en": "ramen restaurant", "zh": "拉面店", "th": "ร้านราเมน", "ko": "라멘 가게", "es": "restaurante de ramen" }
+            },
+            {
+              "word": "いざかや",
+              "romanization": "izakaya",
+              "meanings": { "en": "izakaya (Japanese pub/bar)", "zh": "居酒屋", "th": "อิซากายะ (บาร์ญี่ปุ่น)", "ko": "이자카야 (일본 선술집)", "es": "izakaya (taberna japonesa)" }
+            },
+            {
+              "word": "カフェ",
+              "romanization": "kafe",
+              "meanings": { "en": "café", "zh": "咖啡馆", "th": "คาเฟ่", "ko": "카페", "es": "café" }
+            },
+            {
+              "word": "コンビニ",
+              "romanization": "konbini",
+              "meanings": { "en": "convenience store", "zh": "便利店", "th": "ร้านสะดวกซื้อ", "ko": "편의점", "es": "tienda de conveniencia" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is an 'izakaya'?",
+              "options": ["a Japanese pub where you eat and drink", "a sushi restaurant", "a ramen shop", "a convenience store"],
+              "correct": 0,
+              "explanation": "'いざかや' (izakaya) = a Japanese-style pub where people eat small dishes and drink together."
+            },
+            {
+              "type": "target_to_native",
+              "word": "コンビニ",
+              "options": ["convenience store", "supermarket", "café", "food court"],
+              "correct": 0,
+              "explanation": "'コンビニ' = convenience store (abbreviation of 'konbiniensu sutoa'). Central to Japanese daily life."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["すしや", "sushi restaurant"],
+                ["ラーメンや", "ramen shop"],
+                ["いざかや", "Japanese pub"],
+                ["コンビニ", "convenience store"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["いざかや", "いきたい", "に", "です"],
+              "correct": ["いざかや", "に", "いきたい", "です"],
+              "translation": "I want to go to an izakaya."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Dietary Needs",
+            "zh": "饮食需求",
+            "th": "ความต้องการด้านอาหาร",
+            "ko": "식이 요구 사항",
+            "es": "Necesidades dietéticas"
+          },
+          "objectives": {
+            "en": ["Express dietary restrictions in Japanese", "Ask if a dish contains certain ingredients"],
+            "zh": ["用日语表达饮食限制", "询问菜肴是否含有某些食材"],
+            "th": ["แสดงข้อจำกัดด้านอาหารเป็นภาษาญี่ปุ่น", "ถามว่าอาหารมีส่วนผสมบางอย่างไหม"],
+            "ko": ["일본어로 식이 제한 표현하기", "요리에 특정 재료가 들어있는지 묻기"],
+            "es": ["Expresar restricciones dietéticas en japonés", "Preguntar si un plato contiene ciertos ingredientes"]
+          },
+          "vocabulary": [
+            {
+              "word": "アレルギー",
+              "romanization": "arerugii",
+              "meanings": { "en": "allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "alergia" }
+            },
+            {
+              "word": "〜はたべられません",
+              "romanization": "~wa taberaremasen",
+              "meanings": { "en": "I cannot eat ~", "zh": "我不能吃~", "th": "ฉันทานไม่ได้~", "ko": "~을/를 못 먹어요", "es": "No puedo comer ~" }
+            },
+            {
+              "word": "にく",
+              "romanization": "niku",
+              "meanings": { "en": "meat", "zh": "肉", "th": "เนื้อสัตว์", "ko": "고기", "es": "carne" }
+            },
+            {
+              "word": "ベジタリアン",
+              "romanization": "bejitarian",
+              "meanings": { "en": "vegetarian", "zh": "素食者", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "vegetariano" }
+            },
+            {
+              "word": "〜ははいっていますか",
+              "romanization": "~wa haitte imasu ka",
+              "meanings": { "en": "Does it contain ~?", "zh": "里面有~吗？", "th": "มี~อยู่ไหม?", "ko": "~이/가 들어 있어요?", "es": "¿Contiene ~?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I cannot eat meat'?",
+              "options": ["にくはたべられません。", "にくがきらいです。", "にくはたべません。", "にくはだめです。"],
+              "correct": 0,
+              "explanation": "'〜はたべられません' = I cannot eat ~ (potential form negative). Used for allergies or dietary restrictions."
+            },
+            {
+              "type": "target_to_native",
+              "word": "アレルギー",
+              "options": ["allergy", "intolerance", "preference", "diet"],
+              "correct": 0,
+              "explanation": "'アレルギーがあります' = I have an allergy. Borrowed from the German 'Allergie'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["アレルギー", "allergy"],
+                ["にく", "meat"],
+                ["ベジタリアン", "vegetarian"],
+                ["〜はたべられません", "I cannot eat ~"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["たべられません", "えびは"],
+              "correct": ["えびは", "たべられません"],
+              "translation": "I cannot eat shrimp."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Expressions",
+            "zh": "食物表达",
+            "th": "การแสดงออกเกี่ยวกับอาหาร",
+            "ko": "음식 표현",
+            "es": "Expresiones sobre comida"
+          },
+          "objectives": {
+            "en": ["Use common Japanese food expressions", "Describe meals and dining experiences"],
+            "zh": ["使用常见的日本食物表达", "描述用餐体验"],
+            "th": ["ใช้สำนวนอาหารญี่ปุ่นทั่วไป", "อธิบายมื้ออาหารและประสบการณ์การทาน"],
+            "ko": ["일반적인 일본어 식사 표현 사용하기", "식사와 외식 경험 묘사하기"],
+            "es": ["Usar expresiones japonesas de comida comunes", "Describir comidas y experiencias culinarias"]
+          },
+          "vocabulary": [
+            {
+              "word": "いただきます",
+              "romanization": "itadakimasu",
+              "meanings": { "en": "let's eat (said before eating)", "zh": "我要开吃了（吃前说）", "th": "เริ่มทานได้เลย (พูดก่อนทาน)", "ko": "잘 먹겠습니다 (먹기 전에)", "es": "que aproveche (antes de comer)" }
+            },
+            {
+              "word": "ごちそうさまでした",
+              "romanization": "gochisousama deshita",
+              "meanings": { "en": "thank you for the meal (said after eating)", "zh": "谢谢款待（吃完后说）", "th": "ขอบคุณสำหรับอาหาร (พูดหลังทาน)", "ko": "잘 먹었습니다 (먹은 후)", "es": "gracias por la comida (después de comer)" }
+            },
+            {
+              "word": "おなかがすいた",
+              "romanization": "onaka ga suita",
+              "meanings": { "en": "I am hungry", "zh": "我饿了", "th": "ฉันหิว", "ko": "배고파요", "es": "tengo hambre" }
+            },
+            {
+              "word": "おなかがいっぱい",
+              "romanization": "onaka ga ippai",
+              "meanings": { "en": "I am full", "zh": "我吃饱了", "th": "ฉันอิ่มแล้ว", "ko": "배불러요", "es": "estoy lleno/llena" }
+            },
+            {
+              "word": "まずい",
+              "romanization": "mazui",
+              "meanings": { "en": "bad tasting / not good", "zh": "难吃的", "th": "ไม่อร่อย", "ko": "맛없는", "es": "de mal sabor / no bueno" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What do you say before eating in Japan?",
+              "options": ["いただきます。", "ごちそうさまでした。", "おいしいです。", "たべましょう。"],
+              "correct": 0,
+              "explanation": "'いただきます' is said before eating — a ritual expression of gratitude for the meal."
+            },
+            {
+              "type": "target_to_native",
+              "word": "おなかがすいた",
+              "options": ["I am hungry", "I am full", "I want to eat", "It's delicious"],
+              "correct": 0,
+              "explanation": "'おなかがすいた' = I'm hungry (lit. my stomach has become empty). Casual expression."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["いただきます", "said before eating"],
+                ["ごちそうさまでした", "said after eating"],
+                ["おなかがすいた", "I am hungry"],
+                ["おなかがいっぱい", "I am full"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["です", "おいしかった", "ほんとうに"],
+              "correct": ["ほんとうに", "おいしかった", "です"],
+              "translation": "It was really delicious."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

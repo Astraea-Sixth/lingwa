@@ -1,0 +1,625 @@
+{
+  "lang": "pt",
+  "language": "pt",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์ในสำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de oficina"
+          },
+          "objectives": {
+            "en": ["Name common office items and spaces", "Describe your workplace"]
+          },
+          "vocabulary": [
+            {
+              "word": "escritório",
+              "meanings": { "en": "office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "oficina" }
+            },
+            {
+              "word": "sala de reuniões",
+              "meanings": { "en": "meeting room", "zh": "会议室", "th": "ห้องประชุม", "ko": "회의실", "es": "sala de reuniones" }
+            },
+            {
+              "word": "computador",
+              "meanings": { "en": "computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "computadora" }
+            },
+            {
+              "word": "prazo",
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดเวลา", "ko": "마감일", "es": "plazo" }
+            },
+            {
+              "word": "colega de trabalho",
+              "meanings": { "en": "work colleague", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "직장 동료", "es": "colega de trabajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'office' in Portuguese?" },
+              "answer": "escritório",
+              "choices": ["escritório", "sala", "prazo", "colega"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'prazo' mean?" },
+              "answer": "deadline",
+              "choices": ["deadline", "meeting", "project", "office"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "escritório", "native": "office" },
+                { "target": "prazo", "native": "deadline" },
+                { "target": "computador", "native": "computer" },
+                { "target": "colega de trabalho", "native": "work colleague" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'The deadline is on Friday.'" },
+              "words": ["o", "prazo", "é", "na", "sexta-feira"],
+              "answer": "O prazo é na sexta-feira"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Meetings and Discussions",
+            "zh": "会议与讨论",
+            "th": "การประชุมและการอภิปราย",
+            "ko": "회의와 토론",
+            "es": "Reuniones y discusiones"
+          },
+          "objectives": {
+            "en": ["Participate in workplace meetings", "Give opinions and ask for clarification"]
+          },
+          "vocabulary": [
+            {
+              "word": "concordo",
+              "meanings": { "en": "I agree", "zh": "我同意", "th": "ฉันเห็นด้วย", "ko": "동의해요", "es": "estoy de acuerdo" }
+            },
+            {
+              "word": "discordo",
+              "meanings": { "en": "I disagree", "zh": "我不同意", "th": "ฉันไม่เห็นด้วย", "ko": "반대해요", "es": "no estoy de acuerdo" }
+            },
+            {
+              "word": "pauta",
+              "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의제", "es": "orden del día" }
+            },
+            {
+              "word": "opinião",
+              "meanings": { "en": "opinion", "zh": "意见", "th": "ความคิดเห็น", "ko": "의견", "es": "opinión" }
+            },
+            {
+              "word": "resumindo",
+              "meanings": { "en": "in summary", "zh": "总而言之", "th": "สรุปแล้ว", "ko": "요약하자면", "es": "en resumen" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'I agree' in Portuguese?" },
+              "answer": "concordo",
+              "choices": ["concordo", "discordo", "resumindo", "opinião"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'pauta' mean?" },
+              "answer": "agenda",
+              "choices": ["agenda", "opinion", "summary", "meeting"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "concordo", "native": "I agree" },
+                { "target": "discordo", "native": "I disagree" },
+                { "target": "pauta", "native": "agenda" },
+                { "target": "resumindo", "native": "in summary" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'In my opinion it is a good idea.'" },
+              "words": ["na", "minha", "opinião", "é", "uma", "boa", "ideia"],
+              "answer": "Na minha opinião é uma boa ideia"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Professional Emails",
+            "zh": "职业邮件",
+            "th": "อีเมลวิชาชีพ",
+            "ko": "전문 이메일",
+            "es": "Correos electrónicos profesionales"
+          },
+          "objectives": {
+            "en": ["Write professional emails in Portuguese", "Use formal written expressions"]
+          },
+          "vocabulary": [
+            {
+              "word": "prezado",
+              "meanings": { "en": "Dear (formal letter)", "zh": "尊敬的", "th": "เรียน (ทางการ)", "ko": "귀중한", "es": "Estimado" }
+            },
+            {
+              "word": "em anexo",
+              "meanings": { "en": "attached", "zh": "附件", "th": "แนบมาด้วย", "ko": "첨부된", "es": "adjunto" }
+            },
+            {
+              "word": "atenciosamente",
+              "meanings": { "en": "sincerely / best regards", "zh": "此致敬礼", "th": "ด้วยความนับถือ", "ko": "진심으로", "es": "atentamente" }
+            },
+            {
+              "word": "aguardo retorno",
+              "meanings": { "en": "I await your reply", "zh": "期待您的回复", "th": "รอการตอบกลับ", "ko": "답변 기다리겠습니다", "es": "espero su respuesta" }
+            },
+            {
+              "word": "segue abaixo",
+              "meanings": { "en": "see below", "zh": "如下所示", "th": "ดังต่อไปนี้", "ko": "아래 참조", "es": "a continuación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'sincerely' in a Portuguese email?" },
+              "answer": "atenciosamente",
+              "choices": ["atenciosamente", "prezado", "em anexo", "segue abaixo"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'em anexo' mean?" },
+              "answer": "attached",
+              "choices": ["attached", "sincerely", "below", "reply"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "prezado", "native": "Dear (formal)" },
+                { "target": "em anexo", "native": "attached" },
+                { "target": "atenciosamente", "native": "sincerely" },
+                { "target": "aguardo retorno", "native": "I await your reply" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please find the document attached.'" },
+              "words": ["segue", "o", "documento", "em", "anexo"],
+              "answer": "Segue o documento em anexo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Job Hunting",
+        "zh": "求职",
+        "th": "การหางาน",
+        "ko": "구직",
+        "es": "Búsqueda de empleo"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Writing a CV",
+            "zh": "写简历",
+            "th": "การเขียน CV",
+            "ko": "이력서 작성",
+            "es": "Escribir un CV"
+          },
+          "objectives": {
+            "en": ["Describe work experience and skills", "Write key CV phrases in Portuguese"]
+          },
+          "vocabulary": [
+            {
+              "word": "currículo",
+              "meanings": { "en": "CV / résumé", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "currículum" }
+            },
+            {
+              "word": "experiência profissional",
+              "meanings": { "en": "professional experience", "zh": "职业经验", "th": "ประสบการณ์วิชาชีพ", "ko": "직업 경험", "es": "experiencia profesional" }
+            },
+            {
+              "word": "habilidades",
+              "meanings": { "en": "skills", "zh": "技能", "th": "ทักษะ", "ko": "기술", "es": "habilidades" }
+            },
+            {
+              "word": "fluente em",
+              "meanings": { "en": "fluent in", "zh": "流利的", "th": "คล่องแคล่วใน", "ko": "~에 유창한", "es": "fluido en" }
+            },
+            {
+              "word": "trabalho em equipe",
+              "meanings": { "en": "teamwork", "zh": "团队合作", "th": "การทำงานเป็นทีม", "ko": "팀워크", "es": "trabajo en equipo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'CV' in Portuguese?" },
+              "answer": "currículo",
+              "choices": ["currículo", "habilidades", "fluente", "experiência"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'habilidades' mean?" },
+              "answer": "skills",
+              "choices": ["skills", "experience", "teamwork", "fluent"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "currículo", "native": "CV/résumé" },
+                { "target": "habilidades", "native": "skills" },
+                { "target": "fluente em", "native": "fluent in" },
+                { "target": "trabalho em equipe", "native": "teamwork" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am fluent in English and Portuguese.'" },
+              "words": ["sou", "fluente", "em", "inglês", "e", "português"],
+              "answer": "Sou fluente em inglês e português"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer common interview questions in Portuguese", "Talk about strengths and goals"]
+          },
+          "vocabulary": [
+            {
+              "word": "ponto forte",
+              "meanings": { "en": "strength / strong point", "zh": "优势", "th": "จุดแข็ง", "ko": "강점", "es": "punto fuerte" }
+            },
+            {
+              "word": "salário",
+              "meanings": { "en": "salary", "zh": "薪水", "th": "เงินเดือน", "ko": "급여", "es": "salario" }
+            },
+            {
+              "word": "objetivo profissional",
+              "meanings": { "en": "professional goal", "zh": "职业目标", "th": "เป้าหมายวิชาชีพ", "ko": "직업 목표", "es": "objetivo profesional" }
+            },
+            {
+              "word": "disponível para começar",
+              "meanings": { "en": "available to start", "zh": "可以开始", "th": "พร้อมเริ่มงาน", "ko": "시작 가능한", "es": "disponible para comenzar" }
+            },
+            {
+              "word": "trabalho sob pressão",
+              "meanings": { "en": "work well under pressure", "zh": "抗压工作", "th": "ทำงานภายใต้ความกดดัน", "ko": "압박하에 일하다", "es": "trabajo bajo presión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'salary' in Portuguese?" },
+              "answer": "salário",
+              "choices": ["salário", "ponto forte", "objetivo", "entrevista"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'ponto forte' mean?" },
+              "answer": "strength / strong point",
+              "choices": ["strength / strong point", "weakness", "salary", "goal"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "salário", "native": "salary" },
+                { "target": "ponto forte", "native": "strength" },
+                { "target": "objetivo profissional", "native": "professional goal" },
+                { "target": "disponível para começar", "native": "available to start" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My professional goal is to lead a team.'" },
+              "words": ["objetivo", "profissional", "é", "liderar", "uma", "equipe", "Meu"],
+              "answer": "Meu objetivo profissional é liderar uma equipe"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Business Culture in Brazil",
+            "zh": "巴西商业文化",
+            "th": "วัฒนธรรมธุรกิจในบราซิล",
+            "ko": "브라질 비즈니스 문화",
+            "es": "Cultura empresarial en Brasil"
+          },
+          "objectives": {
+            "en": ["Understand key aspects of Brazilian business culture", "Navigate professional relationships"]
+          },
+          "vocabulary": [
+            {
+              "word": "networking",
+              "meanings": { "en": "networking", "zh": "人际网络", "th": "การสร้างเครือข่าย", "ko": "네트워킹", "es": "networking" }
+            },
+            {
+              "word": "jeitinho brasileiro",
+              "meanings": { "en": "the Brazilian way (creative problem solving)", "zh": "巴西方式", "th": "แบบบราซิล (แก้ปัญหาเชิงสร้างสรรค์)", "ko": "브라질식 방법", "es": "el jeitinho brasileño" }
+            },
+            {
+              "word": "negociar",
+              "meanings": { "en": "to negotiate", "zh": "谈判", "th": "เจรจา", "ko": "협상하다", "es": "negociar" }
+            },
+            {
+              "word": "fechar negócio",
+              "meanings": { "en": "to close a deal", "zh": "成交", "th": "ปิดดีล", "ko": "거래 성사", "es": "cerrar un trato" }
+            },
+            {
+              "word": "parceiro de negócios",
+              "meanings": { "en": "business partner", "zh": "商业伙伴", "th": "หุ้นส่วนธุรกิจ", "ko": "비즈니스 파트너", "es": "socio de negocios" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'to negotiate' in Portuguese?" },
+              "answer": "negociar",
+              "choices": ["negociar", "networking", "parceiro", "fechar"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'fechar negócio' mean?" },
+              "answer": "to close a deal",
+              "choices": ["to close a deal", "to negotiate", "to present", "to invest"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "negociar", "native": "to negotiate" },
+                { "target": "fechar negócio", "native": "close a deal" },
+                { "target": "networking", "native": "networking" },
+                { "target": "parceiro de negócios", "native": "business partner" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We closed the deal this morning.'" },
+              "words": ["fechamos", "o", "negócio", "esta", "manhã"],
+              "answer": "Fechamos o negócio esta manhã"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Career Development",
+        "zh": "职业发展",
+        "th": "การพัฒนาอาชีพ",
+        "ko": "경력 개발",
+        "es": "Desarrollo profesional"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Asking for a Raise",
+            "zh": "要求加薪",
+            "th": "การขอขึ้นเงินเดือน",
+            "ko": "임금 인상 요청",
+            "es": "Pedir un aumento"
+          },
+          "objectives": {
+            "en": ["Discuss salary and raise expectations", "Make a confident case for promotion"]
+          },
+          "vocabulary": [
+            {
+              "word": "aumento de salário",
+              "meanings": { "en": "salary raise", "zh": "加薪", "th": "การขึ้นเงินเดือน", "ko": "급여 인상", "es": "aumento de sueldo" }
+            },
+            {
+              "word": "mereço",
+              "meanings": { "en": "I deserve", "zh": "我应得", "th": "ฉันสมควรได้รับ", "ko": "받을 자격이 있다", "es": "me merezco" }
+            },
+            {
+              "word": "desempenho",
+              "meanings": { "en": "performance", "zh": "表现", "th": "ผลงาน", "ko": "성과", "es": "desempeño" }
+            },
+            {
+              "word": "promoção",
+              "meanings": { "en": "promotion (career)", "zh": "晋升", "th": "การเลื่อนตำแหน่ง", "ko": "승진", "es": "ascenso" }
+            },
+            {
+              "word": "reconhecimento",
+              "meanings": { "en": "recognition", "zh": "认可", "th": "การยอมรับ", "ko": "인정", "es": "reconocimiento" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'promotion' in Portuguese?" },
+              "answer": "promoção",
+              "choices": ["promoção", "aumento", "desempenho", "mereço"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'desempenho' mean?" },
+              "answer": "performance",
+              "choices": ["performance", "promotion", "salary", "recognition"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "aumento de salário", "native": "salary raise" },
+                { "target": "mereço", "native": "I deserve" },
+                { "target": "promoção", "native": "promotion" },
+                { "target": "reconhecimento", "native": "recognition" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I believe I deserve a raise.'" },
+              "words": ["acredito", "que", "mereço", "um", "aumento"],
+              "answer": "Acredito que mereço um aumento"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Remote Work",
+            "zh": "远程工作",
+            "th": "การทำงานทางไกล",
+            "ko": "원격 근무",
+            "es": "Trabajo remoto"
+          },
+          "objectives": {
+            "en": ["Discuss remote work arrangements", "Talk about work-life balance"]
+          },
+          "vocabulary": [
+            {
+              "word": "home office",
+              "meanings": { "en": "remote work / work from home", "zh": "居家办公", "th": "ทำงานที่บ้าน", "ko": "재택근무", "es": "trabajo desde casa" }
+            },
+            {
+              "word": "horário flexível",
+              "meanings": { "en": "flexible schedule", "zh": "弹性时间", "th": "ตารางงานยืดหยุ่น", "ko": "유연 근무", "es": "horario flexible" }
+            },
+            {
+              "word": "videoconferência",
+              "meanings": { "en": "video conference", "zh": "视频会议", "th": "การประชุมทางวิดีโอ", "ko": "화상 회의", "es": "videoconferencia" }
+            },
+            {
+              "word": "produtividade",
+              "meanings": { "en": "productivity", "zh": "生产力", "th": "ประสิทธิภาพ", "ko": "생산성", "es": "productividad" }
+            },
+            {
+              "word": "trabalho híbrido",
+              "meanings": { "en": "hybrid work model", "zh": "混合工作", "th": "การทำงานแบบไฮบริด", "ko": "하이브리드 근무", "es": "trabajo híbrido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'work from home' in Portuguese?" },
+              "answer": "home office",
+              "choices": ["home office", "horário flexível", "videoconferência", "produtividade"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'produtividade' mean?" },
+              "answer": "productivity",
+              "choices": ["productivity", "flexibility", "schedule", "conference"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "home office", "native": "work from home" },
+                { "target": "horário flexível", "native": "flexible schedule" },
+                { "target": "videoconferência", "native": "video conference" },
+                { "target": "produtividade", "native": "productivity" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I prefer a flexible working schedule.'" },
+              "words": ["prefiro", "um", "horário", "flexível"],
+              "answer": "Prefiro um horário flexível"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Professional Networking",
+            "zh": "职业社交",
+            "th": "การสร้างเครือข่ายวิชาชีพ",
+            "ko": "전문 네트워킹",
+            "es": "Networking profesional"
+          },
+          "objectives": {
+            "en": ["Network effectively at professional events", "Exchange contacts and follow up"]
+          },
+          "vocabulary": [
+            {
+              "word": "cartão de visita",
+              "meanings": { "en": "business card", "zh": "名片", "th": "นามบัตร", "ko": "명함", "es": "tarjeta de visita" }
+            },
+            {
+              "word": "ficamos em contato",
+              "meanings": { "en": "let's stay in touch", "zh": "保持联系", "th": "ติดต่อกันนะ", "ko": "연락하고 지내요", "es": "quedemos en contacto" }
+            },
+            {
+              "word": "oportunidade",
+              "meanings": { "en": "opportunity", "zh": "机会", "th": "โอกาส", "ko": "기회", "es": "oportunidad" }
+            },
+            {
+              "word": "colaborar",
+              "meanings": { "en": "to collaborate", "zh": "合作", "th": "ร่วมมือ", "ko": "협력하다", "es": "colaborar" }
+            },
+            {
+              "word": "área de atuação",
+              "meanings": { "en": "field of work / industry", "zh": "工作领域", "th": "สาขาอาชีพ", "ko": "업무 분야", "es": "área de trabajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'business card' in Portuguese?" },
+              "answer": "cartão de visita",
+              "choices": ["cartão de visita", "ficamos em contato", "colaborar", "oportunidade"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'colaborar' mean?" },
+              "answer": "to collaborate",
+              "choices": ["to collaborate", "to compete", "to contact", "to invest"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "cartão de visita", "native": "business card" },
+                { "target": "ficamos em contato", "native": "stay in touch" },
+                { "target": "oportunidade", "native": "opportunity" },
+                { "target": "colaborar", "native": "to collaborate" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Let's stay in touch on LinkedIn.'" },
+              "words": ["ficamos", "em", "contato", "no", "LinkedIn"],
+              "answer": "Ficamos em contato no LinkedIn"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

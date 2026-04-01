@@ -1,0 +1,751 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订餐位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a French restaurant", "State the number of people and preferred time"],
+            "zh": ["在法国餐厅预订桌位", "说明人数和喜欢的时间"],
+            "th": ["จองโต๊ะที่ร้านอาหารฝรั่งเศส", "ระบุจำนวนคนและเวลา"],
+            "ko": ["프랑스 식당에서 테이블 예약하기", "인원수와 시간 말하기"],
+            "es": ["Reservar una mesa en un restaurante francés", "Indicar el número de personas y la hora"]
+          },
+          "vocabulary": [
+            {
+              "word": "la réservation",
+              "romanization": null,
+              "meanings": { "en": "the reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "la reserva" }
+            },
+            {
+              "word": "la table",
+              "romanization": null,
+              "meanings": { "en": "the table", "zh": "桌子", "th": "โต๊ะ", "ko": "테이블", "es": "la mesa" }
+            },
+            {
+              "word": "pour deux personnes",
+              "romanization": null,
+              "meanings": { "en": "for two people", "zh": "两个人", "th": "สำหรับสองคน", "ko": "두 명", "es": "para dos personas" }
+            },
+            {
+              "word": "réserver",
+              "romanization": null,
+              "meanings": { "en": "to reserve", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }
+            },
+            {
+              "word": "ce soir",
+              "romanization": null,
+              "meanings": { "en": "this evening/tonight", "zh": "今晚", "th": "คืนนี้", "ko": "오늘 저녁", "es": "esta noche" }
+            },
+            {
+              "word": "le nom",
+              "romanization": null,
+              "meanings": { "en": "the name", "zh": "名字", "th": "ชื่อ", "ko": "이름", "es": "el nombre" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to reserve a table for two'?",
+              "options": ["Je voudrais réserver une table pour deux personnes.", "Je cherche une table pour deux.", "Avez-vous une table pour deux ?", "Je veux une table ce soir."],
+              "correct": 0,
+              "explanation": "'Je voudrais' = I would like (polite). 'Réserver une table pour deux personnes' = reserve a table for two people."
+            },
+            {
+              "type": "target_to_native",
+              "word": "la réservation",
+              "options": ["the reservation", "the restaurant", "the table", "the menu"],
+              "correct": 0,
+              "explanation": "'La réservation' = the reservation. 'J'ai une réservation au nom de Dupont' = I have a reservation under Dupont."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["réserver", "to reserve"],
+                ["la table", "the table"],
+                ["le nom", "the name"],
+                ["ce soir", "this evening"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["réserver", "une", "voudrais", "table", "Je"],
+              "correct": ["Je", "voudrais", "réserver", "une", "table"],
+              "translation": "I would like to reserve a table."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Do you have a table for four?'",
+              "options": ["Avez-vous une table pour quatre personnes ?", "Je voudrais une table pour quatre.", "Quatre personnes, s'il vous plaît.", "Y a-t-il de la place ?"],
+              "correct": 0,
+              "explanation": "'Avez-vous...' = Do you have... An inversion question used in formal contexts."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks from a menu", "Ask about dishes and daily specials"],
+            "zh": ["从菜单上点餐和饮料", "询问菜肴和今日特色菜"],
+            "th": ["สั่งอาหารและเครื่องดื่มจากเมนู", "ถามเกี่ยวกับอาหารและเมนูพิเศษประจำวัน"],
+            "ko": ["메뉴에서 음식과 음료 주문하기", "요리와 오늘의 특선 요리 물어보기"],
+            "es": ["Pedir comida y bebidas del menú", "Preguntar sobre los platos y el menú del día"]
+          },
+          "vocabulary": [
+            {
+              "word": "la carte",
+              "romanization": null,
+              "meanings": { "en": "the menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "la carta" }
+            },
+            {
+              "word": "commander",
+              "romanization": null,
+              "meanings": { "en": "to order", "zh": "点餐", "th": "สั่ง", "ko": "주문하다", "es": "pedir/ordenar" }
+            },
+            {
+              "word": "le plat du jour",
+              "romanization": null,
+              "meanings": { "en": "the dish of the day", "zh": "今日特色菜", "th": "อาหารประจำวัน", "ko": "오늘의 요리", "es": "el plato del día" }
+            },
+            {
+              "word": "l'entrée",
+              "romanization": null,
+              "meanings": { "en": "the starter", "zh": "开胃菜", "th": "อาหารเรียกน้ำย่อย", "ko": "전채", "es": "el entrante" }
+            },
+            {
+              "word": "le plat principal",
+              "romanization": null,
+              "meanings": { "en": "the main course", "zh": "主菜", "th": "อาหารจานหลัก", "ko": "주요리", "es": "el plato principal" }
+            },
+            {
+              "word": "Je prends...",
+              "romanization": null,
+              "meanings": { "en": "I'll have... / I'm taking...", "zh": "我要...", "th": "ฉันเอา...", "ko": "저는 ...로 할게요", "es": "Voy a tomar..." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you order 'the main course'?",
+              "options": ["Je prends le plat principal.", "Je voudrais l'entrée.", "Donnez-moi la carte.", "Qu'est-ce que vous recommandez ?"],
+              "correct": 0,
+              "explanation": "'Je prends' = I'll take/have. It's the natural way to order in French restaurants."
+            },
+            {
+              "type": "target_to_native",
+              "word": "la carte",
+              "options": ["the menu", "the bill", "the dish", "the waiter"],
+              "correct": 0,
+              "explanation": "'La carte' = the menu. 'La carte, s'il vous plaît' = The menu, please."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["commander", "to order"],
+                ["l'entrée", "the starter"],
+                ["le plat principal", "the main course"],
+                ["le plat du jour", "dish of the day"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["plat", "prends", "Je", "principal", "le"],
+              "correct": ["Je", "prends", "le", "plat", "principal"],
+              "translation": "I'll have the main course."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Paying the Bill",
+            "zh": "结账",
+            "th": "การจ่ายเงิน",
+            "ko": "계산하기",
+            "es": "Pagar la cuenta"
+          },
+          "objectives": {
+            "en": ["Ask for the bill and pay at a restaurant", "Discuss splitting the bill"],
+            "zh": ["在餐厅要账单并付款", "讨论分账"],
+            "th": ["ขอบิลและจ่ายเงินที่ร้านอาหาร", "พูดคุยเรื่องการหารค่าใช้จ่าย"],
+            "ko": ["식당에서 계산서 요청하고 지불하기", "계산 분담 이야기하기"],
+            "es": ["Pedir la cuenta y pagar en un restaurante", "Hablar de dividir la cuenta"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'addition",
+              "romanization": null,
+              "meanings": { "en": "the bill/check", "zh": "账单", "th": "ใบเสร็จ", "ko": "계산서", "es": "la cuenta" }
+            },
+            {
+              "word": "payer",
+              "romanization": null,
+              "meanings": { "en": "to pay", "zh": "付款", "th": "จ่ายเงิน", "ko": "지불하다", "es": "pagar" }
+            },
+            {
+              "word": "le pourboire",
+              "romanization": null,
+              "meanings": { "en": "the tip", "zh": "小费", "th": "ทิป", "ko": "팁", "es": "la propina" }
+            },
+            {
+              "word": "séparé",
+              "romanization": null,
+              "meanings": { "en": "separately", "zh": "分开", "th": "แยกกัน", "ko": "따로", "es": "por separado" }
+            },
+            {
+              "word": "ensemble",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "รวมกัน", "ko": "함께", "es": "juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask for the bill?",
+              "options": ["L'addition, s'il vous plaît !", "La carte, s'il vous plaît !", "Le menu, s'il vous plaît !", "Encore un verre, s'il vous plaît !"],
+              "correct": 0,
+              "explanation": "'L'addition, s'il vous plaît' is the standard phrase to request the bill in French restaurants."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le pourboire",
+              "options": ["the tip", "the drink", "the receipt", "the change"],
+              "correct": 0,
+              "explanation": "'Le pourboire' = the tip. Literally 'for drinking' — money left for the server."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["l'addition", "the bill"],
+                ["payer", "to pay"],
+                ["séparé", "separately"],
+                ["ensemble", "together"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["plaît", "l'addition", "s'il", "vous"],
+              "correct": ["L'addition", "s'il", "vous", "plaît"],
+              "translation": "The bill, please."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Food & Ingredients",
+        "zh": "食物和食材",
+        "th": "อาหารและส่วนผสม",
+        "ko": "음식과 재료",
+        "es": "Comida e ingredientes"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Produce",
+            "zh": "新鲜食材",
+            "th": "ผลผลิตสด",
+            "ko": "신선 식품",
+            "es": "Productos frescos"
+          },
+          "objectives": {
+            "en": ["Name fresh fruits and vegetables in French", "Shop at a French market"],
+            "zh": ["用法语说出新鲜水果和蔬菜", "在法国市场购物"],
+            "th": ["พูดชื่อผลไม้และผักสดเป็นภาษาฝรั่งเศส", "ช้อปปิ้งที่ตลาดฝรั่งเศส"],
+            "ko": ["프랑스어로 신선한 과일과 채소 이름 말하기", "프랑스 시장에서 쇼핑하기"],
+            "es": ["Nombrar frutas y verduras frescas en francés", "Comprar en un mercado francés"]
+          },
+          "vocabulary": [
+            {
+              "word": "les légumes",
+              "romanization": null,
+              "meanings": { "en": "the vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "las verduras" }
+            },
+            {
+              "word": "les fruits",
+              "romanization": null,
+              "meanings": { "en": "the fruits", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "las frutas" }
+            },
+            {
+              "word": "frais / fraîche",
+              "romanization": null,
+              "meanings": { "en": "fresh (m/f)", "zh": "新鲜的", "th": "สด", "ko": "신선한", "es": "fresco/fresca" }
+            },
+            {
+              "word": "la tomate",
+              "romanization": null,
+              "meanings": { "en": "the tomato", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "el tomate" }
+            },
+            {
+              "word": "l'oignon",
+              "romanization": null,
+              "meanings": { "en": "the onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "la cebolla" }
+            },
+            {
+              "word": "l'ail",
+              "romanization": null,
+              "meanings": { "en": "the garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "el ajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'fresh tomatoes'?",
+              "options": ["des tomates fraîches", "des tomates frais", "les tomates frais", "des légumes frais"],
+              "correct": 0,
+              "explanation": "'Tomates' is feminine, so 'frais' becomes 'fraîches'. 'Des' is the partitive article for plural."
+            },
+            {
+              "type": "target_to_native",
+              "word": "l'ail",
+              "options": ["garlic", "onion", "leek", "parsley"],
+              "correct": 0,
+              "explanation": "'L'ail' = garlic. Note the elision of 'le' before vowel. 'Une gousse d'ail' = a clove of garlic."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["les légumes", "vegetables"],
+                ["les fruits", "fruits"],
+                ["la tomate", "tomato"],
+                ["l'oignon", "onion"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["fraîches", "tomates", "des", "achète", "J'"],
+              "correct": ["J'", "achète", "des", "tomates", "fraîches"],
+              "translation": "I buy fresh tomatoes."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการปรุงอาหาร",
+            "ko": "조리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is prepared in French", "Follow a simple recipe"],
+            "zh": ["用法语描述食物的烹饪方式", "遵循简单的食谱"],
+            "th": ["อธิบายวิธีเตรียมอาหารเป็นภาษาฝรั่งเศส", "ทำตามสูตรอาหารง่ายๆ"],
+            "ko": ["프랑스어로 음식 조리 방법 설명하기", "간단한 레시피 따르기"],
+            "es": ["Describir cómo se prepara la comida en francés", "Seguir una receta sencilla"]
+          },
+          "vocabulary": [
+            {
+              "word": "cuire",
+              "romanization": null,
+              "meanings": { "en": "to cook/bake", "zh": "烹饪", "th": "ปรุงอาหาร/อบ", "ko": "익히다/굽다", "es": "cocinar/hornear" }
+            },
+            {
+              "word": "faire revenir",
+              "romanization": null,
+              "meanings": { "en": "to sauté/fry lightly", "zh": "翻炒", "th": "ผัด", "ko": "볶다", "es": "sofreír" }
+            },
+            {
+              "word": "couper",
+              "romanization": null,
+              "meanings": { "en": "to cut/chop", "zh": "切", "th": "หั่น", "ko": "자르다", "es": "cortar" }
+            },
+            {
+              "word": "mélanger",
+              "romanization": null,
+              "meanings": { "en": "to mix", "zh": "混合", "th": "ผสม", "ko": "섞다", "es": "mezclar" }
+            },
+            {
+              "word": "assaisonner",
+              "romanization": null,
+              "meanings": { "en": "to season", "zh": "调味", "th": "ปรุงรส", "ko": "양념하다", "es": "sazonar/condimentar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Cut the onions'?",
+              "options": ["Coupez les oignons.", "Mélangez les oignons.", "Faites cuire les oignons.", "Assaisonnez les oignons."],
+              "correct": 0,
+              "explanation": "'Coupez' = cut (imperative formal/plural). 'Les oignons' = the onions."
+            },
+            {
+              "type": "target_to_native",
+              "word": "mélanger",
+              "options": ["to mix", "to cut", "to fry", "to bake"],
+              "correct": 0,
+              "explanation": "'Mélanger' = to mix. 'Mélangez bien les ingrédients' = Mix the ingredients well."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["cuire", "to cook/bake"],
+                ["couper", "to cut"],
+                ["mélanger", "to mix"],
+                ["assaisonner", "to season"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["légumes", "les", "Coupez", "mélangez", "et", "les"],
+              "correct": ["Coupez", "les", "légumes", "et", "mélangez", "les"],
+              "translation": "Cut the vegetables and mix them."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "French Cuisine",
+            "zh": "法国美食",
+            "th": "อาหารฝรั่งเศส",
+            "ko": "프랑스 요리",
+            "es": "Cocina francesa"
+          },
+          "objectives": {
+            "en": ["Name classic French dishes", "Describe French food culture"],
+            "zh": ["说出经典法国菜", "描述法国饮食文化"],
+            "th": ["พูดชื่ออาหารฝรั่งเศสคลาสสิก", "อธิบายวัฒนธรรมอาหารฝรั่งเศส"],
+            "ko": ["프랑스 고전 요리 이름 말하기", "프랑스 음식 문화 설명하기"],
+            "es": ["Nombrar platos clásicos franceses", "Describir la cultura gastronómica francesa"]
+          },
+          "vocabulary": [
+            {
+              "word": "la baguette",
+              "romanization": null,
+              "meanings": { "en": "the baguette", "zh": "法棍面包", "th": "บาแกต", "ko": "바게트", "es": "la baguette" }
+            },
+            {
+              "word": "le fromage",
+              "romanization": null,
+              "meanings": { "en": "the cheese", "zh": "奶酪", "th": "ชีส", "ko": "치즈", "es": "el queso" }
+            },
+            {
+              "word": "la quiche",
+              "romanization": null,
+              "meanings": { "en": "the quiche", "zh": "乳蛋饼", "th": "คีช", "ko": "키슈", "es": "la quiche" }
+            },
+            {
+              "word": "la crêpe",
+              "romanization": null,
+              "meanings": { "en": "the crêpe (thin pancake)", "zh": "法式薄饼", "th": "เครป", "ko": "크레페", "es": "la crêpe" }
+            },
+            {
+              "word": "le vin",
+              "romanization": null,
+              "meanings": { "en": "the wine", "zh": "葡萄酒", "th": "ไวน์", "ko": "와인", "es": "el vino" }
+            },
+            {
+              "word": "délicieux / délicieuse",
+              "romanization": null,
+              "meanings": { "en": "delicious (m/f)", "zh": "美味的", "th": "อร่อยมาก", "ko": "맛있는", "es": "delicioso/deliciosa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The crêpe is delicious'?",
+              "options": ["La crêpe est délicieuse.", "La crêpe est délicieux.", "Le crêpe est délicieux.", "La crêpe est très bon."],
+              "correct": 0,
+              "explanation": "'Crêpe' is feminine, so 'délicieux' becomes 'délicieuse'. 'La crêpe est délicieuse.'"
+            },
+            {
+              "type": "target_to_native",
+              "word": "le fromage",
+              "options": ["cheese", "bread", "wine", "butter"],
+              "correct": 0,
+              "explanation": "'Le fromage' = cheese. France has over 1,000 types of cheese — a major part of French culture."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["la baguette", "baguette"],
+                ["le fromage", "cheese"],
+                ["la crêpe", "crêpe"],
+                ["le vin", "wine"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["fromage", "baguette", "mange", "avec", "Je", "du", "la"],
+              "correct": ["Je", "mange", "la", "baguette", "avec", "du", "fromage"],
+              "translation": "I eat the baguette with cheese."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Comprar comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at a French market", "Ask about quantities and prices"],
+            "zh": ["在法国市场购买食物", "询问数量和价格"],
+            "th": ["ซื้ออาหารที่ตลาดฝรั่งเศส", "ถามเกี่ยวกับปริมาณและราคา"],
+            "ko": ["프랑스 시장에서 음식 사기", "수량과 가격 물어보기"],
+            "es": ["Comprar comida en un mercado francés", "Preguntar cantidades y precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "le marché",
+              "romanization": null,
+              "meanings": { "en": "the market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "el mercado" }
+            },
+            {
+              "word": "un kilo de",
+              "romanization": null,
+              "meanings": { "en": "a kilo of", "zh": "一公斤的", "th": "หนึ่งกิโลของ", "ko": "1킬로의", "es": "un kilo de" }
+            },
+            {
+              "word": "Combien ça coûte ?",
+              "romanization": null,
+              "meanings": { "en": "How much does it cost?", "zh": "这个多少钱？", "th": "ราคาเท่าไร?", "ko": "얼마예요?", "es": "¿Cuánto cuesta?" }
+            },
+            {
+              "word": "bon marché",
+              "romanization": null,
+              "meanings": { "en": "cheap/inexpensive", "zh": "便宜的", "th": "ราคาถูก", "ko": "저렴한", "es": "barato" }
+            },
+            {
+              "word": "cher / chère",
+              "romanization": null,
+              "meanings": { "en": "expensive (m/f)", "zh": "贵的", "th": "แพง", "ko": "비싼", "es": "caro/cara" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much is a kilo of tomatoes?'",
+              "options": ["Combien coûte un kilo de tomates ?", "Quel est le prix des tomates ?", "Avez-vous des tomates fraîches ?", "Je veux des tomates."],
+              "correct": 0,
+              "explanation": "'Combien coûte...' = How much does... cost? 'Un kilo de tomates' = a kilo of tomatoes."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bon marché",
+              "options": ["cheap/inexpensive", "expensive", "fresh", "organic"],
+              "correct": 0,
+              "explanation": "'Bon marché' = cheap/inexpensive (literally 'good market'). Opposite: 'cher'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le marché", "market"],
+                ["bon marché", "cheap"],
+                ["cher", "expensive"],
+                ["un kilo de", "a kilo of"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["tomates", "deux", "kilos", "de", "voudrais", "Je"],
+              "correct": ["Je", "voudrais", "deux", "kilos", "de", "tomates"],
+              "translation": "I would like two kilos of tomatoes."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "At the Bakery",
+            "zh": "在面包店",
+            "th": "ที่ร้านขนมปัง",
+            "ko": "빵집에서",
+            "es": "En la panadería"
+          },
+          "objectives": {
+            "en": ["Buy bread and pastries at a French bakery", "Use quantity expressions"],
+            "zh": ["在法国面包店购买面包和糕点", "使用数量表达"],
+            "th": ["ซื้อขนมปังและเพสตรี้ที่ร้านขนมปังฝรั่งเศส", "ใช้คำแสดงปริมาณ"],
+            "ko": ["프랑스 빵집에서 빵과 패스트리 사기", "수량 표현 사용하기"],
+            "es": ["Comprar pan y pasteles en una boulangerie", "Usar expresiones de cantidad"]
+          },
+          "vocabulary": [
+            {
+              "word": "la boulangerie",
+              "romanization": null,
+              "meanings": { "en": "the bakery", "zh": "面包店", "th": "ร้านขนมปัง", "ko": "빵집", "es": "la panadería" }
+            },
+            {
+              "word": "le croissant",
+              "romanization": null,
+              "meanings": { "en": "the croissant", "zh": "牛角面包", "th": "ครัวซองต์", "ko": "크루아상", "es": "el cruasán" }
+            },
+            {
+              "word": "une tranche de",
+              "romanization": null,
+              "meanings": { "en": "a slice of", "zh": "一片", "th": "หนึ่งแผ่นของ", "ko": "한 조각의", "es": "una rebanada de" }
+            },
+            {
+              "word": "un pain au chocolat",
+              "romanization": null,
+              "meanings": { "en": "a chocolate pastry", "zh": "巧克力面包", "th": "ขนมปังช็อกโกแลต", "ko": "초콜릿 페이스트리", "es": "un pan de chocolate" }
+            },
+            {
+              "word": "s'il vous plaît",
+              "romanization": null,
+              "meanings": { "en": "please (formal)", "zh": "请（正式）", "th": "กรุณา (ทางการ)", "ko": "부탁드립니다 (존댓말)", "es": "por favor (formal)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask for a croissant at the bakery?",
+              "options": ["Un croissant, s'il vous plaît.", "Je veux un croissant.", "Donnez-moi un croissant.", "Un croissant pour moi."],
+              "correct": 0,
+              "explanation": "'Un croissant, s'il vous plaît' is the polite and natural way to order at a bakery."
+            },
+            {
+              "type": "target_to_native",
+              "word": "la boulangerie",
+              "options": ["bakery", "pastry shop", "supermarket", "café"],
+              "correct": 0,
+              "explanation": "'La boulangerie' = the bakery. A central part of French daily life — many French people visit daily."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["la boulangerie", "bakery"],
+                ["le croissant", "croissant"],
+                ["une tranche de", "a slice of"],
+                ["un pain au chocolat", "chocolate pastry"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["boulangerie", "croissants", "achète", "la", "à", "J'", "des"],
+              "correct": ["J'", "achète", "des", "croissants", "à", "la", "boulangerie"],
+              "translation": "I buy croissants at the bakery."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Preferences",
+            "zh": "饮食偏好",
+            "th": "ความชอบด้านอาหาร",
+            "ko": "음식 취향",
+            "es": "Preferencias alimentarias"
+          },
+          "objectives": {
+            "en": ["Express food preferences and dietary restrictions", "Describe flavours and tastes"],
+            "zh": ["表达饮食偏好和限制", "描述口味"],
+            "th": ["แสดงความชอบด้านอาหารและข้อจำกัด", "อธิบายรสชาติ"],
+            "ko": ["음식 취향과 식이 제한 표현하기", "맛과 풍미 묘사하기"],
+            "es": ["Expresar preferencias y restricciones alimentarias", "Describir sabores y gustos"]
+          },
+          "vocabulary": [
+            {
+              "word": "végétarien / végétarienne",
+              "romanization": null,
+              "meanings": { "en": "vegetarian (m/f)", "zh": "素食者", "th": "มังสวิรัติ", "ko": "채식주의자 (남/여)", "es": "vegetariano/vegetariana" }
+            },
+            {
+              "word": "une allergie",
+              "romanization": null,
+              "meanings": { "en": "an allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "una alergia" }
+            },
+            {
+              "word": "sucré / sucrée",
+              "romanization": null,
+              "meanings": { "en": "sweet (m/f)", "zh": "甜的", "th": "หวาน", "ko": "달콤한", "es": "dulce" }
+            },
+            {
+              "word": "salé / salée",
+              "romanization": null,
+              "meanings": { "en": "salty/savoury (m/f)", "zh": "咸的", "th": "เค็ม", "ko": "짠", "es": "salado/salada" }
+            },
+            {
+              "word": "J'adore...",
+              "romanization": null,
+              "meanings": { "en": "I love...", "zh": "我非常喜欢...", "th": "ฉันชอบมาก...", "ko": "저는 ...을 정말 좋아해요", "es": "Me encanta..." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am vegetarian'?",
+              "options": ["Je suis végétarien.", "Je ne mange pas de viande.", "Je mange végétarien.", "Je suis végane."],
+              "correct": 0,
+              "explanation": "'Je suis végétarien' (male) / 'je suis végétarienne' (female). No article after 'être' with profession/status."
+            },
+            {
+              "type": "target_to_native",
+              "word": "sucré / sucrée",
+              "options": ["sweet", "salty", "sour", "spicy"],
+              "correct": 0,
+              "explanation": "'Sucré' = sweet. 'J'aime les choses sucrées' = I like sweet things."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["végétarien", "vegetarian"],
+                ["sucré", "sweet"],
+                ["salé", "salty/savoury"],
+                ["une allergie", "an allergy"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["crêpes", "J'adore", "sucrées", "les"],
+              "correct": ["J'adore", "les", "crêpes", "sucrées"],
+              "translation": "I love sweet crêpes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

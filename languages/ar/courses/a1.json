@@ -1,0 +1,572 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings & Introductions" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Goodbye" },
+          "objectives": { "en": ["Greet people and say goodbye", "Use basic polite expressions"] },
+          "vocabulary": [
+            { "word": "مرحبا", "romanization": "marhaba", "meanings": { "en": "Hello" }, "gendered": null },
+            { "word": "مع السلامة", "romanization": "ma'a as-salama", "meanings": { "en": "Goodbye" }, "gendered": null },
+            { "word": "شكراً", "romanization": "shukran", "meanings": { "en": "Thank you" }, "gendered": null },
+            { "word": "عفواً", "romanization": "afwan", "meanings": { "en": "You're welcome / Excuse me" }, "gendered": null },
+            { "word": "نعم", "romanization": "na'am", "meanings": { "en": "Yes" }, "gendered": null },
+            { "word": "لا", "romanization": "la", "meanings": { "en": "No" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "مرحبا", "romanization": "marhaba", "options": { "en": ["Hello", "Goodbye", "Thank you", "Yes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "شكراً", "romanization": "shukran", "options": { "en": ["Thank you", "Hello", "No", "Goodbye"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Goodbye' in Arabic?" }, "options": { "neutral": ["مع السلامة", "مرحبا", "شكراً", "نعم"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'No' in Arabic?" }, "options": { "neutral": ["لا", "نعم", "عفواً", "مرحبا"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "عفواً", "romanization": "afwan", "options": { "en": ["You're welcome / Excuse me", "Thank you", "Hello", "Yes"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "مرحبا", "romanization": "marhaba", "options": { "en": ["Hello", "No", "Goodbye", "Thank you"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "مرحبا", "romanization": "marhaba", "native": { "en": "Hello" } },
+              { "target": "شكراً", "romanization": "shukran", "native": { "en": "Thank you" } },
+              { "target": "نعم", "romanization": "na'am", "native": { "en": "Yes" } },
+              { "target": "لا", "romanization": "la", "native": { "en": "No" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "What Is Your Name?" },
+          "objectives": { "en": ["Introduce yourself", "Ask someone's name"] },
+          "vocabulary": [
+            { "word": "اسمي", "romanization": "ismi", "meanings": { "en": "My name is" }, "gendered": null },
+            { "word": "ما اسمك؟", "romanization": "ma ismuk?", "meanings": { "en": "What is your name?" }, "gendered": null },
+            { "word": "أنا", "romanization": "ana", "meanings": { "en": "I" }, "gendered": null },
+            { "word": "أنت", "romanization": "anta", "meanings": { "en": "You (masculine)" }, "gendered": null },
+            { "word": "من فضلك", "romanization": "min fadlak", "meanings": { "en": "Please" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "اسمي", "romanization": "ismi", "options": { "en": ["My name is", "Your name", "His name", "Please"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أنت", "romanization": "anta", "options": { "en": ["You (masculine)", "I", "He", "She"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I' in Arabic?" }, "options": { "neutral": ["أنا", "أنت", "من فضلك", "اسمي"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please' in Arabic?" }, "options": { "neutral": ["من فضلك", "أنا", "أنت", "لا"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ما اسمك؟", "romanization": "ma ismuk?", "options": { "en": ["What is your name?", "How are you?", "Where are you from?", "Please"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أنا", "romanization": "ana", "options": { "en": ["I", "You", "He", "We"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "أنا", "romanization": "ana", "native": { "en": "I" } },
+              { "target": "أنت", "romanization": "anta", "native": { "en": "You (masculine)" } },
+              { "target": "من فضلك", "romanization": "min fadlak", "native": { "en": "Please" } },
+              { "target": "اسمي", "romanization": "ismi", "native": { "en": "My name is" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "How Are You?" },
+          "objectives": { "en": ["Ask how someone is doing", "Respond to greetings"] },
+          "vocabulary": [
+            { "word": "كيف حالك؟", "romanization": "kayf halak?", "meanings": { "en": "How are you?" }, "gendered": null },
+            { "word": "أنا بخير", "romanization": "ana bikhayr", "meanings": { "en": "I am fine" }, "gendered": null },
+            { "word": "الحمد لله", "romanization": "alhamdu lillah", "meanings": { "en": "Praise be to God (I'm well)" }, "gendered": null },
+            { "word": "جيد", "romanization": "jayyid", "meanings": { "en": "Good" }, "gendered": null },
+            { "word": "و", "romanization": "wa", "meanings": { "en": "And" }, "gendered": null },
+            { "word": "أهلاً وسهلاً", "romanization": "ahlan wa sahlan", "meanings": { "en": "Welcome" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "كيف حالك؟", "romanization": "kayf halak?", "options": { "en": ["How are you?", "What is your name?", "Where are you?", "Thank you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أنا بخير", "romanization": "ana bikhayr", "options": { "en": ["I am fine", "I am sorry", "I am going", "I don't know"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Good' in Arabic?" }, "options": { "neutral": ["جيد", "و", "أهلاً", "لا"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Welcome' in Arabic?" }, "options": { "neutral": ["أهلاً وسهلاً", "مرحبا", "شكراً", "جيد"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "الحمد لله", "romanization": "alhamdu lillah", "options": { "en": ["Praise be to God (I'm well)", "How are you?", "I am fine", "Good"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "جيد", "romanization": "jayyid", "options": { "en": ["Good", "Bad", "And", "Welcome"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "كيف حالك؟", "romanization": "kayf halak?", "native": { "en": "How are you?" } },
+              { "target": "أنا بخير", "romanization": "ana bikhayr", "native": { "en": "I am fine" } },
+              { "target": "جيد", "romanization": "jayyid", "native": { "en": "Good" } },
+              { "target": "أهلاً وسهلاً", "romanization": "ahlan wa sahlan", "native": { "en": "Welcome" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Where Are You From?" },
+          "objectives": { "en": ["Talk about where you are from", "Ask about nationality"] },
+          "vocabulary": [
+            { "word": "من أين أنت؟", "romanization": "min ayna anta?", "meanings": { "en": "Where are you from?" }, "gendered": null },
+            { "word": "أنا من مصر", "romanization": "ana min misr", "meanings": { "en": "I am from Egypt" }, "gendered": null },
+            { "word": "بلد", "romanization": "balad", "meanings": { "en": "Country" }, "gendered": null },
+            { "word": "مدينة", "romanization": "madina", "meanings": { "en": "City" }, "gendered": null },
+            { "word": "من", "romanization": "min", "meanings": { "en": "From" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "بلد", "romanization": "balad", "options": { "en": ["Country", "City", "From", "Name"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "مدينة", "romanization": "madina", "options": { "en": ["City", "Country", "House", "Road"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'From' in Arabic?" }, "options": { "neutral": ["من", "في", "إلى", "على"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'Where are you from?' in Arabic?" }, "options": { "neutral": ["من أين أنت؟", "كيف حالك؟", "ما اسمك؟", "ماذا تعمل؟"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أنا من مصر", "romanization": "ana min misr", "options": { "en": ["I am from Egypt", "I am fine", "I am going", "I am here"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "مدينة", "romanization": "madina", "options": { "en": ["City", "Country", "Village", "Road"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "بلد", "romanization": "balad", "native": { "en": "Country" } },
+              { "target": "مدينة", "romanization": "madina", "native": { "en": "City" } },
+              { "target": "من", "romanization": "min", "native": { "en": "From" } },
+              { "target": "أنا من مصر", "romanization": "ana min misr", "native": { "en": "I am from Egypt" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Numbers & Time" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Numbers 1-10" },
+          "objectives": { "en": ["Count from one to ten", "Recognize Arabic numerals"] },
+          "vocabulary": [
+            { "word": "واحد", "romanization": "wahid", "meanings": { "en": "One" }, "gendered": null },
+            { "word": "اثنان", "romanization": "ithnan", "meanings": { "en": "Two" }, "gendered": null },
+            { "word": "ثلاثة", "romanization": "thalatha", "meanings": { "en": "Three" }, "gendered": null },
+            { "word": "أربعة", "romanization": "arba'a", "meanings": { "en": "Four" }, "gendered": null },
+            { "word": "خمسة", "romanization": "khamsa", "meanings": { "en": "Five" }, "gendered": null },
+            { "word": "ستة", "romanization": "sitta", "meanings": { "en": "Six" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ثلاثة", "romanization": "thalatha", "options": { "en": ["Three", "Two", "Four", "Five"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "خمسة", "romanization": "khamsa", "options": { "en": ["Five", "Six", "Three", "One"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Two' in Arabic?" }, "options": { "neutral": ["اثنان", "واحد", "ثلاثة", "أربعة"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Four' in Arabic?" }, "options": { "neutral": ["أربعة", "ستة", "اثنان", "خمسة"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "واحد", "romanization": "wahid", "options": { "en": ["One", "Two", "Three", "Four"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ستة", "romanization": "sitta", "options": { "en": ["Six", "Five", "Four", "Three"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "واحد", "romanization": "wahid", "native": { "en": "One" } },
+              { "target": "اثنان", "romanization": "ithnan", "native": { "en": "Two" } },
+              { "target": "ثلاثة", "romanization": "thalatha", "native": { "en": "Three" } },
+              { "target": "أربعة", "romanization": "arba'a", "native": { "en": "Four" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Numbers 7-10 & Counting" },
+          "objectives": { "en": ["Count from seven to ten", "Use numbers in simple sentences"] },
+          "vocabulary": [
+            { "word": "سبعة", "romanization": "sab'a", "meanings": { "en": "Seven" }, "gendered": null },
+            { "word": "ثمانية", "romanization": "thamaniya", "meanings": { "en": "Eight" }, "gendered": null },
+            { "word": "تسعة", "romanization": "tis'a", "meanings": { "en": "Nine" }, "gendered": null },
+            { "word": "عشرة", "romanization": "ashara", "meanings": { "en": "Ten" }, "gendered": null },
+            { "word": "كم؟", "romanization": "kam?", "meanings": { "en": "How many? / How much?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "سبعة", "romanization": "sab'a", "options": { "en": ["Seven", "Eight", "Nine", "Ten"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "عشرة", "romanization": "ashara", "options": { "en": ["Ten", "Seven", "Five", "Nine"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eight' in Arabic?" }, "options": { "neutral": ["ثمانية", "سبعة", "تسعة", "عشرة"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'How many?' in Arabic?" }, "options": { "neutral": ["كم؟", "أين؟", "كيف؟", "ماذا؟"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "تسعة", "romanization": "tis'a", "options": { "en": ["Nine", "Ten", "Eight", "Seven"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "سبعة", "romanization": "sab'a", "options": { "en": ["Seven", "Six", "Eight", "Five"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "سبعة", "romanization": "sab'a", "native": { "en": "Seven" } },
+              { "target": "ثمانية", "romanization": "thamaniya", "native": { "en": "Eight" } },
+              { "target": "تسعة", "romanization": "tis'a", "native": { "en": "Nine" } },
+              { "target": "عشرة", "romanization": "ashara", "native": { "en": "Ten" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask what time it is", "Understand basic time expressions"] },
+          "vocabulary": [
+            { "word": "كم الساعة؟", "romanization": "kam as-sa'a?", "meanings": { "en": "What time is it?" }, "gendered": null },
+            { "word": "الساعة", "romanization": "as-sa'a", "meanings": { "en": "The hour / O'clock" }, "gendered": null },
+            { "word": "صباح", "romanization": "sabah", "meanings": { "en": "Morning" }, "gendered": null },
+            { "word": "ظهر", "romanization": "dhuhr", "meanings": { "en": "Noon" }, "gendered": null },
+            { "word": "مساء", "romanization": "masa'", "meanings": { "en": "Evening" }, "gendered": null },
+            { "word": "ليل", "romanization": "layl", "meanings": { "en": "Night" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "صباح", "romanization": "sabah", "options": { "en": ["Morning", "Noon", "Evening", "Night"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ليل", "romanization": "layl", "options": { "en": ["Night", "Morning", "Noon", "Evening"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'What time is it?' in Arabic?" }, "options": { "neutral": ["كم الساعة؟", "كيف حالك؟", "أين هو؟", "ما هذا؟"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Evening' in Arabic?" }, "options": { "neutral": ["مساء", "صباح", "ليل", "ظهر"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ظهر", "romanization": "dhuhr", "options": { "en": ["Noon", "Morning", "Evening", "Night"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "كم الساعة؟", "romanization": "kam as-sa'a?", "options": { "en": ["What time is it?", "How are you?", "What is this?", "Where is it?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "صباح", "romanization": "sabah", "native": { "en": "Morning" } },
+              { "target": "ظهر", "romanization": "dhuhr", "native": { "en": "Noon" } },
+              { "target": "مساء", "romanization": "masa'", "native": { "en": "Evening" } },
+              { "target": "ليل", "romanization": "layl", "native": { "en": "Night" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Name the days of the week", "Ask what day it is"] },
+          "vocabulary": [
+            { "word": "الإثنين", "romanization": "al-ithnayn", "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "الثلاثاء", "romanization": "ath-thulatha'", "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "الأربعاء", "romanization": "al-arbi'a'", "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "الخميس", "romanization": "al-khamis", "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "الجمعة", "romanization": "al-jum'a", "meanings": { "en": "Friday" }, "gendered": null },
+            { "word": "اليوم", "romanization": "al-yawm", "meanings": { "en": "Today" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "الإثنين", "romanization": "al-ithnayn", "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "الجمعة", "romanization": "al-jum'a", "options": { "en": ["Friday", "Monday", "Saturday", "Sunday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in Arabic?" }, "options": { "neutral": ["الأربعاء", "الثلاثاء", "الخميس", "الجمعة"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Today' in Arabic?" }, "options": { "neutral": ["اليوم", "غداً", "الإثنين", "ليل"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "الخميس", "romanization": "al-khamis", "options": { "en": ["Thursday", "Tuesday", "Friday", "Monday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "الثلاثاء", "romanization": "ath-thulatha'", "options": { "en": ["Tuesday", "Thursday", "Monday", "Wednesday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "الإثنين", "romanization": "al-ithnayn", "native": { "en": "Monday" } },
+              { "target": "الثلاثاء", "romanization": "ath-thulatha'", "native": { "en": "Tuesday" } },
+              { "target": "الأربعاء", "romanization": "al-arbi'a'", "native": { "en": "Wednesday" } },
+              { "target": "اليوم", "romanization": "al-yawm", "native": { "en": "Today" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food & Ordering" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Basic Food & Drink" },
+          "objectives": { "en": ["Name common food and drinks", "Express hunger and thirst"] },
+          "vocabulary": [
+            { "word": "طعام", "romanization": "ta'am", "meanings": { "en": "Food" }, "gendered": null },
+            { "word": "ماء", "romanization": "ma'", "meanings": { "en": "Water" }, "gendered": null },
+            { "word": "شاي", "romanization": "shay", "meanings": { "en": "Tea" }, "gendered": null },
+            { "word": "خبز", "romanization": "khubz", "meanings": { "en": "Bread" }, "gendered": null },
+            { "word": "أرز", "romanization": "aruzz", "meanings": { "en": "Rice" }, "gendered": null },
+            { "word": "حليب", "romanization": "halib", "meanings": { "en": "Milk" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ماء", "romanization": "ma'", "options": { "en": ["Water", "Tea", "Milk", "Food"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "شاي", "romanization": "shay", "options": { "en": ["Tea", "Water", "Rice", "Bread"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Rice' in Arabic?" }, "options": { "neutral": ["أرز", "خبز", "طعام", "حليب"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Milk' in Arabic?" }, "options": { "neutral": ["حليب", "ماء", "شاي", "أرز"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "طعام", "romanization": "ta'am", "options": { "en": ["Food", "Water", "Tea", "Bread"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "خبز", "romanization": "khubz", "options": { "en": ["Bread", "Rice", "Food", "Milk"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "طعام", "romanization": "ta'am", "native": { "en": "Food" } },
+              { "target": "ماء", "romanization": "ma'", "native": { "en": "Water" } },
+              { "target": "شاي", "romanization": "shay", "native": { "en": "Tea" } },
+              { "target": "خبز", "romanization": "khubz", "native": { "en": "Bread" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "More Foods" },
+          "objectives": { "en": ["Learn names of common foods", "Describe tastes"] },
+          "vocabulary": [
+            { "word": "خضروات", "romanization": "khudrawat", "meanings": { "en": "Vegetables" }, "gendered": null },
+            { "word": "فاكهة", "romanization": "fakiha", "meanings": { "en": "Fruit" }, "gendered": null },
+            { "word": "حار", "romanization": "harr", "meanings": { "en": "Spicy" }, "gendered": null },
+            { "word": "حلو", "romanization": "hilw", "meanings": { "en": "Sweet" }, "gendered": null },
+            { "word": "لحم", "romanization": "lahm", "meanings": { "en": "Meat" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "خضروات", "romanization": "khudrawat", "options": { "en": ["Vegetables", "Fruit", "Meat", "Rice"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "حار", "romanization": "harr", "options": { "en": ["Spicy", "Sweet", "Sour", "Bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruit' in Arabic?" }, "options": { "neutral": ["فاكهة", "خضروات", "لحم", "أرز"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sweet' in Arabic?" }, "options": { "neutral": ["حلو", "حار", "فاكهة", "لحم"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "لحم", "romanization": "lahm", "options": { "en": ["Meat", "Rice", "Bread", "Vegetables"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "فاكهة", "romanization": "fakiha", "options": { "en": ["Fruit", "Sweet", "Spicy", "Meat"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "خضروات", "romanization": "khudrawat", "native": { "en": "Vegetables" } },
+              { "target": "فاكهة", "romanization": "fakiha", "native": { "en": "Fruit" } },
+              { "target": "حلو", "romanization": "hilw", "native": { "en": "Sweet" } },
+              { "target": "لحم", "romanization": "lahm", "native": { "en": "Meat" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Ordering & Paying" },
+          "objectives": { "en": ["Order food at a restaurant", "Ask for the price"] },
+          "vocabulary": [
+            { "word": "أريد", "romanization": "urid", "meanings": { "en": "I want" }, "gendered": null },
+            { "word": "كم الثمن؟", "romanization": "kam ath-thaman?", "meanings": { "en": "How much does it cost?" }, "gendered": null },
+            { "word": "الحساب", "romanization": "al-hisab", "meanings": { "en": "The bill" }, "gendered": null },
+            { "word": "المزيد", "romanization": "al-mazid", "meanings": { "en": "More" }, "gendered": null },
+            { "word": "كفى", "romanization": "kafa", "meanings": { "en": "Enough" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "كم الثمن؟", "romanization": "kam ath-thaman?", "options": { "en": ["How much does it cost?", "What is it?", "Where is it?", "Who is it?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أريد", "romanization": "urid", "options": { "en": ["I want", "I have", "I know", "I see"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'The bill' in Arabic?" }, "options": { "neutral": ["الحساب", "كفى", "المزيد", "طعام"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Enough' in Arabic?" }, "options": { "neutral": ["كفى", "المزيد", "الحساب", "من فضلك"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أريد", "romanization": "urid", "options": { "en": ["I want", "How much?", "That's all", "Please"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "الحساب", "romanization": "al-hisab", "options": { "en": ["The bill", "Bread", "Water", "More"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "أريد", "romanization": "urid", "native": { "en": "I want" } },
+              { "target": "كم الثمن؟", "romanization": "kam ath-thaman?", "native": { "en": "How much does it cost?" } },
+              { "target": "الحساب", "romanization": "al-hisab", "native": { "en": "The bill" } },
+              { "target": "كفى", "romanization": "kafa", "native": { "en": "Enough" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "At a Restaurant" },
+          "objectives": { "en": ["Navigate a basic restaurant interaction", "Express preferences"] },
+          "vocabulary": [
+            { "word": "قائمة الطعام", "romanization": "qa'imat at-ta'am", "meanings": { "en": "Menu" }, "gendered": null },
+            { "word": "لذيذ", "romanization": "ladhidh", "meanings": { "en": "Delicious" }, "gendered": null },
+            { "word": "ساخن", "romanization": "sakhin", "meanings": { "en": "Hot" }, "gendered": null },
+            { "word": "بارد", "romanization": "barid", "meanings": { "en": "Cold" }, "gendered": null },
+            { "word": "أنا جائع", "romanization": "ana ja'i'", "meanings": { "en": "I am hungry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "لذيذ", "romanization": "ladhidh", "options": { "en": ["Delicious", "Spicy", "Hot", "Cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "بارد", "romanization": "barid", "options": { "en": ["Cold", "Hot", "Sweet", "Delicious"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Arabic?" }, "options": { "neutral": ["ساخن", "بارد", "حلو", "حار"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am hungry' in Arabic?" }, "options": { "neutral": ["أنا جائع", "أريد", "أنا بخير", "كم الثمن؟"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ساخن", "romanization": "sakhin", "options": { "en": ["Hot", "Cold", "Spicy", "Delicious"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أنا جائع", "romanization": "ana ja'i'", "options": { "en": ["I am hungry", "I am thirsty", "I want food", "I am fine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "لذيذ", "romanization": "ladhidh", "native": { "en": "Delicious" } },
+              { "target": "ساخن", "romanization": "sakhin", "native": { "en": "Hot" } },
+              { "target": "بارد", "romanization": "barid", "native": { "en": "Cold" } },
+              { "target": "أنا جائع", "romanization": "ana ja'i'", "native": { "en": "I am hungry" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Family & Descriptions" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name close family members", "Talk about your family"] },
+          "vocabulary": [
+            { "word": "عائلة", "romanization": "a'ila", "meanings": { "en": "Family" }, "gendered": null },
+            { "word": "أم", "romanization": "umm", "meanings": { "en": "Mother" }, "gendered": null },
+            { "word": "أب", "romanization": "ab", "meanings": { "en": "Father" }, "gendered": null },
+            { "word": "أخ", "romanization": "akh", "meanings": { "en": "Brother" }, "gendered": null },
+            { "word": "أخت", "romanization": "ukht", "meanings": { "en": "Sister" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "عائلة", "romanization": "a'ila", "options": { "en": ["Family", "Father", "Brother", "Mother"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أم", "romanization": "umm", "options": { "en": ["Mother", "Father", "Sister", "Brother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Brother' in Arabic?" }, "options": { "neutral": ["أخ", "أخت", "أب", "أم"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sister' in Arabic?" }, "options": { "neutral": ["أخت", "أخ", "أم", "عائلة"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أب", "romanization": "ab", "options": { "en": ["Father", "Mother", "Brother", "Family"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "عائلة", "romanization": "a'ila", "options": { "en": ["Family", "Father", "Sister", "Mother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "أم", "romanization": "umm", "native": { "en": "Mother" } },
+              { "target": "أب", "romanization": "ab", "native": { "en": "Father" } },
+              { "target": "أخ", "romanization": "akh", "native": { "en": "Brother" } },
+              { "target": "أخت", "romanization": "ukht", "native": { "en": "Sister" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Extended Family" },
+          "objectives": { "en": ["Name extended family members", "Describe family relationships"] },
+          "vocabulary": [
+            { "word": "جد", "romanization": "jadd", "meanings": { "en": "Grandfather" }, "gendered": null },
+            { "word": "جدة", "romanization": "jadda", "meanings": { "en": "Grandmother" }, "gendered": null },
+            { "word": "طفل", "romanization": "tifl", "meanings": { "en": "Child" }, "gendered": null },
+            { "word": "ابن", "romanization": "ibn", "meanings": { "en": "Son" }, "gendered": null },
+            { "word": "بنت", "romanization": "bint", "meanings": { "en": "Daughter" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "جد", "romanization": "jadd", "options": { "en": ["Grandfather", "Grandmother", "Father", "Uncle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "طفل", "romanization": "tifl", "options": { "en": ["Child", "Son", "Daughter", "Brother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Son' in Arabic?" }, "options": { "neutral": ["ابن", "بنت", "أخ", "طفل"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Daughter' in Arabic?" }, "options": { "neutral": ["بنت", "ابن", "أخت", "جدة"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "جدة", "romanization": "jadda", "options": { "en": ["Grandmother", "Grandfather", "Mother", "Daughter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ابن", "romanization": "ibn", "options": { "en": ["Son", "Daughter", "Child", "Brother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "جد", "romanization": "jadd", "native": { "en": "Grandfather" } },
+              { "target": "جدة", "romanization": "jadda", "native": { "en": "Grandmother" } },
+              { "target": "ابن", "romanization": "ibn", "native": { "en": "Son" } },
+              { "target": "بنت", "romanization": "bint", "native": { "en": "Daughter" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Describing People" },
+          "objectives": { "en": ["Describe people using adjectives", "Use big and small"] },
+          "vocabulary": [
+            { "word": "كبير", "romanization": "kabir", "meanings": { "en": "Big" }, "gendered": null },
+            { "word": "صغير", "romanization": "saghir", "meanings": { "en": "Small" }, "gendered": null },
+            { "word": "طويل", "romanization": "tawil", "meanings": { "en": "Tall / Long" }, "gendered": null },
+            { "word": "جميل", "romanization": "jamil", "meanings": { "en": "Beautiful" }, "gendered": null },
+            { "word": "شاب", "romanization": "shabb", "meanings": { "en": "Young" }, "gendered": null },
+            { "word": "كبير في السن", "romanization": "kabir fi as-sinn", "meanings": { "en": "Old (person)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "كبير", "romanization": "kabir", "options": { "en": ["Big", "Small", "Tall", "Old"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "صغير", "romanization": "saghir", "options": { "en": ["Small", "Big", "Young", "Beautiful"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tall' in Arabic?" }, "options": { "neutral": ["طويل", "كبير", "صغير", "جميل"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Beautiful' in Arabic?" }, "options": { "neutral": ["جميل", "شاب", "طويل", "كبير في السن"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "شاب", "romanization": "shabb", "options": { "en": ["Young", "Old", "Tall", "Big"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "كبير في السن", "romanization": "kabir fi as-sinn", "options": { "en": ["Old (person)", "Young", "Small", "Beautiful"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "كبير", "romanization": "kabir", "native": { "en": "Big" } },
+              { "target": "صغير", "romanization": "saghir", "native": { "en": "Small" } },
+              { "target": "طويل", "romanization": "tawil", "native": { "en": "Tall / Long" } },
+              { "target": "جميل", "romanization": "jamil", "native": { "en": "Beautiful" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Colors & Appearance" },
+          "objectives": { "en": ["Name basic colors", "Describe appearance"] },
+          "vocabulary": [
+            { "word": "أحمر", "romanization": "ahmar", "meanings": { "en": "Red" }, "gendered": null },
+            { "word": "أزرق", "romanization": "azraq", "meanings": { "en": "Blue" }, "gendered": null },
+            { "word": "أخضر", "romanization": "akhdar", "meanings": { "en": "Green" }, "gendered": null },
+            { "word": "أصفر", "romanization": "asfar", "meanings": { "en": "Yellow" }, "gendered": null },
+            { "word": "أبيض", "romanization": "abyad", "meanings": { "en": "White" }, "gendered": null },
+            { "word": "أسود", "romanization": "aswad", "meanings": { "en": "Black" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "أحمر", "romanization": "ahmar", "options": { "en": ["Red", "Blue", "Green", "Yellow"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أخضر", "romanization": "akhdar", "options": { "en": ["Green", "Red", "White", "Black"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Blue' in Arabic?" }, "options": { "neutral": ["أزرق", "أحمر", "أخضر", "أصفر"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Black' in Arabic?" }, "options": { "neutral": ["أسود", "أبيض", "أزرق", "أحمر"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أصفر", "romanization": "asfar", "options": { "en": ["Yellow", "Green", "Blue", "Red"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أبيض", "romanization": "abyad", "options": { "en": ["White", "Black", "Yellow", "Green"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "أحمر", "romanization": "ahmar", "native": { "en": "Red" } },
+              { "target": "أزرق", "romanization": "azraq", "native": { "en": "Blue" } },
+              { "target": "أخضر", "romanization": "akhdar", "native": { "en": "Green" } },
+              { "target": "أسود", "romanization": "aswad", "native": { "en": "Black" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Places & Directions" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Common Places" },
+          "objectives": { "en": ["Name common places in a city", "Ask where something is"] },
+          "vocabulary": [
+            { "word": "أين", "romanization": "ayna", "meanings": { "en": "Where" }, "gendered": null },
+            { "word": "بيت", "romanization": "bayt", "meanings": { "en": "Home / House" }, "gendered": null },
+            { "word": "دكان", "romanization": "dukkan", "meanings": { "en": "Shop" }, "gendered": null },
+            { "word": "سوق", "romanization": "suq", "meanings": { "en": "Market" }, "gendered": null },
+            { "word": "مدرسة", "romanization": "madrasa", "meanings": { "en": "School" }, "gendered": null },
+            { "word": "مستشفى", "romanization": "mustashfa", "meanings": { "en": "Hospital" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "بيت", "romanization": "bayt", "options": { "en": ["Home / House", "Shop", "School", "Market"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "سوق", "romanization": "suq", "options": { "en": ["Market", "Hospital", "Home", "Shop"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Where' in Arabic?" }, "options": { "neutral": ["أين", "ماذا", "كيف", "متى"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hospital' in Arabic?" }, "options": { "neutral": ["مستشفى", "مدرسة", "دكان", "بيت"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "دكان", "romanization": "dukkan", "options": { "en": ["Shop", "Market", "School", "Home"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أين", "romanization": "ayna", "options": { "en": ["Where", "What", "How", "When"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "بيت", "romanization": "bayt", "native": { "en": "Home / House" } },
+              { "target": "دكان", "romanization": "dukkan", "native": { "en": "Shop" } },
+              { "target": "سوق", "romanization": "suq", "native": { "en": "Market" } },
+              { "target": "مستشفى", "romanization": "mustashfa", "native": { "en": "Hospital" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Directions" },
+          "objectives": { "en": ["Give and understand basic directions", "Use left, right, straight"] },
+          "vocabulary": [
+            { "word": "يمين", "romanization": "yamin", "meanings": { "en": "Right" }, "gendered": null },
+            { "word": "يسار", "romanization": "yasar", "meanings": { "en": "Left" }, "gendered": null },
+            { "word": "مباشرة", "romanization": "mubashara", "meanings": { "en": "Straight" }, "gendered": null },
+            { "word": "هنا", "romanization": "huna", "meanings": { "en": "Here" }, "gendered": null },
+            { "word": "هناك", "romanization": "hunak", "meanings": { "en": "There" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "يمين", "romanization": "yamin", "options": { "en": ["Right", "Left", "Straight", "Here"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "يسار", "romanization": "yasar", "options": { "en": ["Left", "Right", "There", "Straight"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Straight' in Arabic?" }, "options": { "neutral": ["مباشرة", "يمين", "يسار", "هناك"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Here' in Arabic?" }, "options": { "neutral": ["هنا", "هناك", "أين", "مباشرة"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "مباشرة", "romanization": "mubashara", "options": { "en": ["Straight", "Right", "Left", "Here"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "هناك", "romanization": "hunak", "options": { "en": ["There", "Here", "Where", "Straight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "يمين", "romanization": "yamin", "native": { "en": "Right" } },
+              { "target": "يسار", "romanization": "yasar", "native": { "en": "Left" } },
+              { "target": "مباشرة", "romanization": "mubashara", "native": { "en": "Straight" } },
+              { "target": "هنا", "romanization": "huna", "native": { "en": "Here" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Getting Around" },
+          "objectives": { "en": ["Use transport vocabulary", "Ask for directions to a place"] },
+          "vocabulary": [
+            { "word": "حافلة", "romanization": "hafila", "meanings": { "en": "Bus" }, "gendered": null },
+            { "word": "قطار", "romanization": "qitar", "meanings": { "en": "Train" }, "gendered": null },
+            { "word": "سيارة أجرة", "romanization": "sayyarat ujra", "meanings": { "en": "Taxi" }, "gendered": null },
+            { "word": "سيارة", "romanization": "sayyara", "meanings": { "en": "Car" }, "gendered": null },
+            { "word": "طريق", "romanization": "tariq", "meanings": { "en": "Way / Road" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "قطار", "romanization": "qitar", "options": { "en": ["Train", "Bus", "Taxi", "Road"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "سيارة أجرة", "romanization": "sayyarat ujra", "options": { "en": ["Taxi", "Car", "Bus", "Train"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Road' in Arabic?" }, "options": { "neutral": ["طريق", "حافلة", "سيارة", "قطار"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bus' in Arabic?" }, "options": { "neutral": ["حافلة", "قطار", "سيارة أجرة", "سيارة"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "سيارة", "romanization": "sayyara", "options": { "en": ["Car", "Bus", "Train", "Road"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "طريق", "romanization": "tariq", "options": { "en": ["Way / Road", "Left", "Right", "Straight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "حافلة", "romanization": "hafila", "native": { "en": "Bus" } },
+              { "target": "قطار", "romanization": "qitar", "native": { "en": "Train" } },
+              { "target": "سيارة أجرة", "romanization": "sayyarat ujra", "native": { "en": "Taxi" } },
+              { "target": "سيارة", "romanization": "sayyara", "native": { "en": "Car" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Near & Far" },
+          "objectives": { "en": ["Describe distance and proximity", "Use near, far, next to"] },
+          "vocabulary": [
+            { "word": "قريب", "romanization": "qarib", "meanings": { "en": "Near" }, "gendered": null },
+            { "word": "بعيد", "romanization": "ba'id", "meanings": { "en": "Far" }, "gendered": null },
+            { "word": "أمام", "romanization": "amam", "meanings": { "en": "In front of" }, "gendered": null },
+            { "word": "وراء", "romanization": "wara'", "meanings": { "en": "Behind" }, "gendered": null },
+            { "word": "بجانب", "romanization": "bijanib", "meanings": { "en": "Next to" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "قريب", "romanization": "qarib", "options": { "en": ["Near", "Far", "Behind", "Next to"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "بعيد", "romanization": "ba'id", "options": { "en": ["Far", "Near", "In front of", "Behind"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'In front of' in Arabic?" }, "options": { "neutral": ["أمام", "وراء", "بجانب", "قريب"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Next to' in Arabic?" }, "options": { "neutral": ["بجانب", "أمام", "بعيد", "قريب"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "وراء", "romanization": "wara'", "options": { "en": ["Behind", "In front of", "Near", "Far"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "قريب", "romanization": "qarib", "options": { "en": ["Near", "Far", "Next to", "Behind"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "قريب", "romanization": "qarib", "native": { "en": "Near" } },
+              { "target": "بعيد", "romanization": "ba'id", "native": { "en": "Far" } },
+              { "target": "أمام", "romanization": "amam", "native": { "en": "In front of" } },
+              { "target": "وراء", "romanization": "wara'", "native": { "en": "Behind" } }
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

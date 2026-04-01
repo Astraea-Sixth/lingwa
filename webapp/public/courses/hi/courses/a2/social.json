@@ -1,0 +1,670 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Meeting People",
+        "zh": "结交朋友",
+        "th": "การพบปะผู้คน",
+        "ko": "사람 만나기",
+        "es": "Conocer a la gente"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Introductions",
+            "zh": "介绍",
+            "th": "การแนะนำตัว",
+            "ko": "소개",
+            "es": "Presentaciones"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and others in Hindi", "Use polite social greetings"]
+          },
+          "vocabulary": [
+            {
+              "word": "परिचय",
+              "romanization": "parichay",
+              "meanings": { "en": "introduction", "zh": "介绍", "th": "การแนะนำตัว", "ko": "소개", "es": "presentación" }
+            },
+            {
+              "word": "खुशी हुई",
+              "romanization": "khushee huee",
+              "meanings": { "en": "nice to meet you (lit. felt happy)", "zh": "很高兴认识你", "th": "ยินดีที่ได้รู้จัก", "ko": "만나서 반가워요", "es": "encantado de conocerte" }
+            },
+            {
+              "word": "दोस्त",
+              "romanization": "dost",
+              "meanings": { "en": "friend", "zh": "朋友", "th": "เพื่อน", "ko": "친구", "es": "amigo" }
+            },
+            {
+              "word": "पड़ोसी",
+              "romanization": "padosee",
+              "meanings": { "en": "neighbor", "zh": "邻居", "th": "เพื่อนบ้าน", "ko": "이웃", "es": "vecino" }
+            },
+            {
+              "word": "सहकर्मी",
+              "romanization": "sahakarmee",
+              "meanings": { "en": "colleague / coworker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "직장 동료", "es": "compañero de trabajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'friend' in Hindi?" },
+              "answer": "दोस्त",
+              "choices": ["दोस्त", "पड़ोसी", "परिचय", "सहकर्मी"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'पड़ोसी' (padosee) mean?" },
+              "answer": "neighbor",
+              "choices": ["neighbor", "friend", "colleague", "introduction"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "परिचय", "native": "introduction" },
+                { "target": "दोस्त", "native": "friend" },
+                { "target": "पड़ोसी", "native": "neighbor" },
+                { "target": "सहकर्मी", "native": "colleague" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Nice to meet you.'" },
+              "words": ["मिलकर", "खुशी", "हुई", "आपसे"],
+              "answer": "आपसे मिलकर खुशी हुई"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": ["Invite friends and accept/decline invitations in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "निमंत्रण",
+              "romanization": "nimantran",
+              "meanings": { "en": "invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "invitación" }
+            },
+            {
+              "word": "मिलना",
+              "romanization": "milnaa",
+              "meanings": { "en": "to meet", "zh": "见面", "th": "พบ/เจอ", "ko": "만나다", "es": "encontrarse / reunirse" }
+            },
+            {
+              "word": "स्वीकार करना",
+              "romanization": "sveekaar karnaa",
+              "meanings": { "en": "to accept", "zh": "接受", "th": "ยอมรับ", "ko": "수락하다", "es": "aceptar" }
+            },
+            {
+              "word": "मना करना",
+              "romanization": "manaa karnaa",
+              "meanings": { "en": "to decline / to refuse", "zh": "拒绝", "th": "ปฏิเสธ", "ko": "거절하다", "es": "rechazar" }
+            },
+            {
+              "word": "खाली",
+              "romanization": "khaalee",
+              "meanings": { "en": "free / available", "zh": "有空的", "th": "ว่าง", "ko": "한가한/비어있는", "es": "libre / disponible" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'invitation' in Hindi?" },
+              "answer": "निमंत्रण",
+              "choices": ["निमंत्रण", "मिलना", "खाली", "मना करना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'खाली' (khaalee) mean?" },
+              "answer": "free / available",
+              "choices": ["free / available", "busy", "meeting", "invitation"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "निमंत्रण", "native": "invitation" },
+                { "target": "मिलना", "native": "to meet" },
+                { "target": "स्वीकार करना", "native": "to accept" },
+                { "target": "मना करना", "native": "to decline" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you free on Sunday?'" },
+              "words": ["रविवार", "को", "खाली", "हैं", "आप"],
+              "answer": "आप रविवार को खाली हैं"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Hobbies and Interests",
+            "zh": "爱好和兴趣",
+            "th": "งานอดิเรกและความสนใจ",
+            "ko": "취미와 관심사",
+            "es": "Pasatiempos e intereses"
+          },
+          "objectives": {
+            "en": ["Talk about hobbies in Hindi", "Ask about others' interests"]
+          },
+          "vocabulary": [
+            {
+              "word": "शौक",
+              "romanization": "shauk",
+              "meanings": { "en": "hobby / interest", "zh": "爱好/兴趣", "th": "งานอดิเรก", "ko": "취미/관심사", "es": "afición" }
+            },
+            {
+              "word": "क्रिकेट",
+              "romanization": "kriket",
+              "meanings": { "en": "cricket", "zh": "板球", "th": "คริกเก็ต", "ko": "크리켓", "es": "cricket" }
+            },
+            {
+              "word": "संगीत",
+              "romanization": "sangeet",
+              "meanings": { "en": "music", "zh": "音乐", "th": "ดนตรี", "ko": "음악", "es": "música" }
+            },
+            {
+              "word": "पढ़ना",
+              "romanization": "padhnaa",
+              "meanings": { "en": "to read / reading", "zh": "阅读", "th": "อ่านหนังสือ", "ko": "읽다/독서", "es": "leer / lectura" }
+            },
+            {
+              "word": "नृत्य",
+              "romanization": "nritya",
+              "meanings": { "en": "dance / dancing", "zh": "舞蹈", "th": "การเต้นรำ", "ko": "춤/댄스", "es": "danza / baile" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'music' in Hindi?" },
+              "answer": "संगीत",
+              "choices": ["संगीत", "नृत्य", "शौक", "क्रिकेट"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'शौक' (shauk) mean?" },
+              "answer": "hobby",
+              "choices": ["hobby", "music", "dance", "sport"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "शौक", "native": "hobby" },
+                { "target": "क्रिकेट", "native": "cricket" },
+                { "target": "संगीत", "native": "music" },
+                { "target": "नृत्य", "native": "dance" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My hobby is listening to music.'" },
+              "words": ["संगीत", "सुनना", "मेरा", "शौक", "है"],
+              "answer": "संगीत सुनना मेरा शौक है"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Social Events",
+        "zh": "社交活动",
+        "th": "งานสังสรรค์",
+        "ko": "사교 행사",
+        "es": "Eventos sociales"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Festivals and Celebrations",
+            "zh": "节日和庆祝活动",
+            "th": "เทศกาลและการฉลอง",
+            "ko": "축제와 축하 행사",
+            "es": "Festivales y celebraciones"
+          },
+          "objectives": {
+            "en": ["Talk about Indian festivals", "Use celebration vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "त्योहार",
+              "romanization": "tyohaar",
+              "meanings": { "en": "festival / celebration", "zh": "节日/庆典", "th": "เทศกาล/งานฉลอง", "ko": "축제/기념행사", "es": "festival / celebración" }
+            },
+            {
+              "word": "दिवाली",
+              "romanization": "divaali",
+              "meanings": { "en": "Diwali (Festival of Lights)", "zh": "排灯节", "th": "ดีวาลี (เทศกาลแห่งแสงสว่าง)", "ko": "디왈리 (빛의 축제)", "es": "Diwali (Festival de las Luces)" }
+            },
+            {
+              "word": "बधाई",
+              "romanization": "badhaai",
+              "meanings": { "en": "congratulations / greetings", "zh": "恭喜/祝贺", "th": "ยินดีด้วย/อวยพร", "ko": "축하/인사", "es": "felicitaciones" }
+            },
+            {
+              "word": "उपहार",
+              "romanization": "upahaar",
+              "meanings": { "en": "gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            },
+            {
+              "word": "मिठाई",
+              "romanization": "mithaaee",
+              "meanings": { "en": "sweets (shared at celebrations)", "zh": "甜食(庆典时分享)", "th": "ขนมหวาน (แบ่งปันในงานเฉลิมฉลอง)", "ko": "단과자 (축하할 때 나눔)", "es": "dulces (compartidos en celebraciones)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'gift' in Hindi?" },
+              "answer": "उपहार",
+              "choices": ["उपहार", "मिठाई", "त्योहार", "बधाई"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'दिवाली' (divaali)?" },
+              "answer": "Festival of Lights",
+              "choices": ["Festival of Lights", "Festival of Colors", "New Year", "wedding"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "त्योहार", "native": "festival" },
+                { "target": "दिवाली", "native": "Diwali" },
+                { "target": "बधाई", "native": "congratulations" },
+                { "target": "उपहार", "native": "gift" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Happy Diwali to you!'" },
+              "words": ["दिवाली", "की", "बधाई", "आपको"],
+              "answer": "आपको दिवाली की बधाई"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "At a Gathering",
+            "zh": "在聚会上",
+            "th": "ที่งานสังสรรค์",
+            "ko": "모임에서",
+            "es": "En una reunión"
+          },
+          "objectives": {
+            "en": ["Socialize at gatherings in Hindi", "Order food and drinks"]
+          },
+          "vocabulary": [
+            {
+              "word": "पार्टी",
+              "romanization": "party",
+              "meanings": { "en": "party", "zh": "派对", "th": "งานปาร์ตี้", "ko": "파티", "es": "fiesta" }
+            },
+            {
+              "word": "समारोह",
+              "romanization": "samaaroh",
+              "meanings": { "en": "ceremony / function", "zh": "典礼/仪式", "th": "พิธีการ/งานฉลอง", "ko": "식/행사", "es": "ceremonia / función" }
+            },
+            {
+              "word": "नाचना",
+              "romanization": "naachnaa",
+              "meanings": { "en": "to dance", "zh": "跳舞", "th": "เต้นรำ", "ko": "춤추다", "es": "bailar" }
+            },
+            {
+              "word": "गाना",
+              "romanization": "gaanaa",
+              "meanings": { "en": "song / to sing", "zh": "歌曲/唱歌", "th": "เพลง/ร้องเพลง", "ko": "노래/노래하다", "es": "canción / cantar" }
+            },
+            {
+              "word": "मज़ा",
+              "romanization": "mazaa",
+              "meanings": { "en": "fun / enjoyment", "zh": "乐趣/享乐", "th": "ความสนุก", "ko": "재미/즐거움", "es": "diversión / placer" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'fun' in Hindi?" },
+              "answer": "मज़ा",
+              "choices": ["मज़ा", "गाना", "नाचना", "समारोह"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'समारोह' (samaaroh) mean?" },
+              "answer": "ceremony",
+              "choices": ["ceremony", "party", "song", "dance"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "पार्टी", "native": "party" },
+                { "target": "नाचना", "native": "to dance" },
+                { "target": "गाना", "native": "song" },
+                { "target": "मज़ा", "native": "fun" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I had a lot of fun at the party.'" },
+              "words": ["पार्टी", "में", "बहुत", "मज़ा", "आया"],
+              "answer": "पार्टी में बहुत मज़ा आया"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Weekend Activities",
+            "zh": "周末活动",
+            "th": "กิจกรรมวันหยุดสุดสัปดาห์",
+            "ko": "주말 활동",
+            "es": "Actividades del fin de semana"
+          },
+          "objectives": {
+            "en": ["Describe weekend activities in Hindi", "Use past tense for social events"]
+          },
+          "vocabulary": [
+            {
+              "word": "सप्ताहांत",
+              "romanization": "saptaahant",
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "बाहर जाना",
+              "romanization": "baahar jaanaa",
+              "meanings": { "en": "to go out", "zh": "出去", "th": "ออกไปข้างนอก", "ko": "밖에 나가다", "es": "salir" }
+            },
+            {
+              "word": "फिल्म",
+              "romanization": "film",
+              "meanings": { "en": "movie / film", "zh": "电影", "th": "ภาพยนตร์", "ko": "영화", "es": "película" }
+            },
+            {
+              "word": "पिकनिक",
+              "romanization": "piknik",
+              "meanings": { "en": "picnic", "zh": "野餐", "th": "ปิกนิก", "ko": "소풍", "es": "picnic" }
+            },
+            {
+              "word": "मॉल",
+              "romanization": "mol",
+              "meanings": { "en": "mall / shopping center", "zh": "购物中心", "th": "ห้างสรรพสินค้า", "ko": "쇼핑몰", "es": "centro comercial" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'movie' in Hindi?" },
+              "answer": "फिल्म",
+              "choices": ["फिल्म", "पिकनिक", "मॉल", "सप्ताहांत"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'सप्ताहांत' (saptaahant) mean?" },
+              "answer": "weekend",
+              "choices": ["weekend", "holiday", "picnic", "festival"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "सप्ताहांत", "native": "weekend" },
+                { "target": "बाहर जाना", "native": "to go out" },
+                { "target": "फिल्म", "native": "movie" },
+                { "target": "पिकनिक", "native": "picnic" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Last weekend we went to watch a movie.'" },
+              "words": ["पिछले", "सप्ताहांत", "हम", "फिल्म", "देखने", "गए"],
+              "answer": "पिछले सप्ताहांत हम फिल्म देखने गए"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community and Family",
+        "zh": "社区和家庭",
+        "th": "ชุมชนและครอบครัว",
+        "ko": "커뮤니티와 가족",
+        "es": "Comunidad y familia"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Family Relationships",
+            "zh": "家庭关系",
+            "th": "ความสัมพันธ์ในครอบครัว",
+            "ko": "가족 관계",
+            "es": "Relaciones familiares"
+          },
+          "objectives": {
+            "en": ["Describe extended family in Hindi", "Talk about relatives"]
+          },
+          "vocabulary": [
+            {
+              "word": "चाचा",
+              "romanization": "chaachaa",
+              "meanings": { "en": "paternal uncle (father's brother)", "zh": "叔叔(父亲的兄弟)", "th": "ลุง (พี่น้องของพ่อ)", "ko": "삼촌 (아버지의 남자 형제)", "es": "tío paterno (hermano del padre)" }
+            },
+            {
+              "word": "मामा",
+              "romanization": "maamaa",
+              "meanings": { "en": "maternal uncle (mother's brother)", "zh": "舅舅(母亲的兄弟)", "th": "น้าชาย (พี่น้องชายของแม่)", "ko": "외삼촌 (어머니의 남자 형제)", "es": "tío materno (hermano de la madre)" }
+            },
+            {
+              "word": "दादा",
+              "romanization": "daadaa",
+              "meanings": { "en": "paternal grandfather", "zh": "爷爷", "th": "ปู่ (พ่อของพ่อ)", "ko": "친할아버지", "es": "abuelo paterno" }
+            },
+            {
+              "word": "नाना",
+              "romanization": "naanaa",
+              "meanings": { "en": "maternal grandfather", "zh": "外公", "th": "ตา (พ่อของแม่)", "ko": "외할아버지", "es": "abuelo materno" }
+            },
+            {
+              "word": "रिश्तेदार",
+              "romanization": "rishtedaar",
+              "meanings": { "en": "relative", "zh": "亲戚", "th": "ญาติ", "ko": "친척", "es": "pariente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'relative' in Hindi?" },
+              "answer": "रिश्तेदार",
+              "choices": ["रिश्तेदार", "चाचा", "दादा", "नाना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'दादा' (daadaa)?" },
+              "answer": "paternal grandfather",
+              "choices": ["paternal grandfather", "maternal grandfather", "uncle", "father"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "चाचा", "native": "paternal uncle" },
+                { "target": "दादा", "native": "paternal grandfather" },
+                { "target": "नाना", "native": "maternal grandfather" },
+                { "target": "रिश्तेदार", "native": "relative" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My grandfather is very kind.'" },
+              "words": ["दादा", "बहुत", "अच्छे", "हैं", "मेरे"],
+              "answer": "मेरे दादा बहुत अच्छे हैं"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Polite Expressions",
+            "zh": "礼貌用语",
+            "th": "สำนวนที่สุภาพ",
+            "ko": "공손한 표현",
+            "es": "Expresiones de cortesía"
+          },
+          "objectives": {
+            "en": ["Use formal and polite Hindi", "Express gratitude and apology"]
+          },
+          "vocabulary": [
+            {
+              "word": "धन्यवाद",
+              "romanization": "dhanyavaad",
+              "meanings": { "en": "thank you (formal)", "zh": "谢谢(正式)", "th": "ขอบคุณ (ทางการ)", "ko": "감사합니다 (공식)", "es": "gracias (formal)" }
+            },
+            {
+              "word": "माफ़ कीजिए",
+              "romanization": "maaf keejiye",
+              "meanings": { "en": "excuse me / I'm sorry (formal)", "zh": "对不起(正式)", "th": "ขอโทษ (ทางการ)", "ko": "실례합니다/죄송합니다 (공식)", "es": "perdone / lo siento (formal)" }
+            },
+            {
+              "word": "कृपया",
+              "romanization": "kripaayaa",
+              "meanings": { "en": "please", "zh": "请", "th": "กรุณา", "ko": "제발/부탁합니다", "es": "por favor" }
+            },
+            {
+              "word": "स्वागत है",
+              "romanization": "svaagat hai",
+              "meanings": { "en": "welcome / you're welcome", "zh": "欢迎/不客气", "th": "ยินดีต้อนรับ/ไม่เป็นไร", "ko": "환영합니다/천만에요", "es": "bienvenido / de nada" }
+            },
+            {
+              "word": "नमस्ते",
+              "romanization": "namaste",
+              "meanings": { "en": "hello / goodbye (respectful greeting)", "zh": "你好/再见(尊重的问候)", "th": "สวัสดี (การทักทายที่เคารพ)", "ko": "안녕하세요/안녕히 가세요 (정중한 인사)", "es": "hola / adiós (saludo respetuoso)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'please' in Hindi?" },
+              "answer": "कृपया",
+              "choices": ["कृपया", "धन्यवाद", "नमस्ते", "स्वागत है"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'धन्यवाद' (dhanyavaad) mean?" },
+              "answer": "thank you",
+              "choices": ["thank you", "please", "welcome", "excuse me"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "धन्यवाद", "native": "thank you" },
+                { "target": "माफ़ कीजिए", "native": "excuse me" },
+                { "target": "कृपया", "native": "please" },
+                { "target": "नमस्ते", "native": "hello/goodbye" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Thank you very much.'" },
+              "words": ["बहुत", "धन्यवाद", "आपका"],
+              "answer": "आपका बहुत धन्यवाद"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Social Media and Communication",
+            "zh": "社交媒体和通讯",
+            "th": "โซเชียลมีเดียและการสื่อสาร",
+            "ko": "소셜 미디어와 소통",
+            "es": "Redes sociales y comunicación"
+          },
+          "objectives": {
+            "en": ["Talk about social media and messaging in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "संदेश",
+              "romanization": "sandesh",
+              "meanings": { "en": "message", "zh": "消息/短信", "th": "ข้อความ", "ko": "메시지", "es": "mensaje" }
+            },
+            {
+              "word": "फ़ोन करना",
+              "romanization": "phon karnaa",
+              "meanings": { "en": "to phone / to call", "zh": "打电话", "th": "โทรศัพท์", "ko": "전화하다", "es": "llamar por teléfono" }
+            },
+            {
+              "word": "सोशल मीडिया",
+              "romanization": "soshal meediyaa",
+              "meanings": { "en": "social media", "zh": "社交媒体", "th": "โซเชียลมีเดีย", "ko": "소셜 미디어", "es": "redes sociales" }
+            },
+            {
+              "word": "पोस्ट",
+              "romanization": "post",
+              "meanings": { "en": "post (social media)", "zh": "发帖", "th": "โพสต์", "ko": "게시물", "es": "publicación" }
+            },
+            {
+              "word": "ऐप",
+              "romanization": "app",
+              "meanings": { "en": "app / application", "zh": "应用程序", "th": "แอพ", "ko": "앱", "es": "aplicación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'message' in Hindi?" },
+              "answer": "संदेश",
+              "choices": ["संदेश", "पोस्ट", "ऐप", "फ़ोन करना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'फ़ोन करना' (phon karnaa) mean?" },
+              "answer": "to phone / to call",
+              "choices": ["to phone / to call", "to message", "to post", "to follow"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "संदेश", "native": "message" },
+                { "target": "फ़ोन करना", "native": "to call" },
+                { "target": "पोस्ट", "native": "post" },
+                { "target": "ऐप", "native": "app" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Send me a message later.'" },
+              "words": ["बाद", "में", "संदेश", "भेजना", "मुझे"],
+              "answer": "मुझे बाद में संदेश भेजना"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

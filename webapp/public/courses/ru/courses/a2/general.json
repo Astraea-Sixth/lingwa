@@ -1,0 +1,543 @@
+{
+  "lang": "ru",
+  "language": "ru",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "\ud83c\udfe0",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe your morning routine", "Use reflexive verbs for daily activities"] },
+          "vocabulary": [
+            { "word": "\u043f\u0440\u043e\u0441\u044b\u043f\u0430\u0442\u044c\u0441\u044f", "romanization": "prosypatsya", "meanings": { "en": "to wake up" }, "gendered": null },
+            { "word": "\u0443\u043c\u044b\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "umyvatsya", "meanings": { "en": "to wash (oneself)" }, "gendered": null },
+            { "word": "\u0437\u0430\u0432\u0442\u0440\u0430\u043a", "romanization": "zavtrak", "meanings": { "en": "breakfast" }, "gendered": null },
+            { "word": "\u043e\u0434\u0435\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "odevatsya", "meanings": { "en": "to get dressed" }, "gendered": null },
+            { "word": "\u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c", "romanization": "vykhodit", "meanings": { "en": "to go out / leave" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u043f\u0440\u043e\u0441\u044b\u043f\u0430\u0442\u044c\u0441\u044f", "romanization": "prosypatsya", "options": { "en": ["to wake up", "to sleep", "to eat", "to wash"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0437\u0430\u0432\u0442\u0440\u0430\u043a", "romanization": "zavtrak", "options": { "en": ["breakfast", "lunch", "dinner", "snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to get dressed' in Russian?" }, "options": { "neutral": ["\u043e\u0434\u0435\u0432\u0430\u0442\u044c\u0441\u044f", "\u0443\u043c\u044b\u0432\u0430\u0442\u044c\u0441\u044f", "\u043f\u0440\u043e\u0441\u044b\u043f\u0430\u0442\u044c\u0441\u044f", "\u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to go out' in Russian?" }, "options": { "neutral": ["\u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c", "\u043e\u0434\u0435\u0432\u0430\u0442\u044c\u0441\u044f", "\u0437\u0430\u0432\u0442\u0440\u0430\u043a\u0430\u0442\u044c", "\u0443\u043c\u044b\u0432\u0430\u0442\u044c\u0441\u044f"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0443\u043c\u044b\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "umyvatsya", "options": { "en": ["to wash", "to wake up", "to dress", "to leave"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u043f\u0440\u043e\u0441\u044b\u043f\u0430\u0442\u044c\u0441\u044f", "romanization": "prosypatsya", "native": { "en": "to wake up" } },
+              { "target": "\u0437\u0430\u0432\u0442\u0440\u0430\u043a", "romanization": "zavtrak", "native": { "en": "breakfast" } },
+              { "target": "\u043e\u0434\u0435\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "odevatsya", "native": { "en": "to get dressed" } },
+              { "target": "\u0432\u044b\u0445\u043e\u0434\u0438\u0442\u044c", "romanization": "vykhodit", "native": { "en": "to go out" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Evening Routine" },
+          "objectives": { "en": ["Describe evening activities", "Talk about what you do after work"] },
+          "vocabulary": [
+            { "word": "\u043e\u0431\u0435\u0434", "romanization": "obed", "meanings": { "en": "lunch" }, "gendered": null },
+            { "word": "\u0443\u0436\u0438\u043d", "romanization": "uzhin", "meanings": { "en": "dinner" }, "gendered": null },
+            { "word": "\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c", "romanization": "otdykhat", "meanings": { "en": "to rest" }, "gendered": null },
+            { "word": "\u0441\u043f\u0430\u0442\u044c", "romanization": "spat", "meanings": { "en": "to sleep" }, "gendered": null },
+            { "word": "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c", "romanization": "gotovit", "meanings": { "en": "to cook" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0443\u0436\u0438\u043d", "romanization": "uzhin", "options": { "en": ["dinner", "lunch", "breakfast", "snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c", "romanization": "gotovit", "options": { "en": ["to cook", "to eat", "to rest", "to sleep"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to rest' in Russian?" }, "options": { "neutral": ["\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c", "\u0441\u043f\u0430\u0442\u044c", "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c", "\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to sleep' in Russian?" }, "options": { "neutral": ["\u0441\u043f\u0430\u0442\u044c", "\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c", "\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c", "\u0443\u0436\u0438\u043d\u0430\u0442\u044c"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043e\u0431\u0435\u0434", "romanization": "obed", "options": { "en": ["lunch", "dinner", "breakfast", "rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u043e\u0431\u0435\u0434", "romanization": "obed", "native": { "en": "lunch" } },
+              { "target": "\u0443\u0436\u0438\u043d", "romanization": "uzhin", "native": { "en": "dinner" } },
+              { "target": "\u043e\u0442\u0434\u044b\u0445\u0430\u0442\u044c", "romanization": "otdykhat", "native": { "en": "to rest" } },
+              { "target": "\u0441\u043f\u0430\u0442\u044c", "romanization": "spat", "native": { "en": "to sleep" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Household Items" },
+          "objectives": { "en": ["Name common household items", "Describe your living space"] },
+          "vocabulary": [
+            { "word": "\u0434\u043e\u043c", "romanization": "dom", "meanings": { "en": "house / home" }, "gendered": null },
+            { "word": "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430", "romanization": "kvartira", "meanings": { "en": "apartment" }, "gendered": null },
+            { "word": "\u043a\u043e\u043c\u043d\u0430\u0442\u0430", "romanization": "komnata", "meanings": { "en": "room" }, "gendered": null },
+            { "word": "\u043a\u0443\u0445\u043d\u044f", "romanization": "kukhnya", "meanings": { "en": "kitchen" }, "gendered": null },
+            { "word": "\u0432\u0430\u043d\u043d\u0430\u044f", "romanization": "vannaya", "meanings": { "en": "bathroom" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430", "romanization": "kvartira", "options": { "en": ["apartment", "house", "room", "kitchen"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043a\u0443\u0445\u043d\u044f", "romanization": "kukhnya", "options": { "en": ["kitchen", "bathroom", "bedroom", "room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'room' in Russian?" }, "options": { "neutral": ["\u043a\u043e\u043c\u043d\u0430\u0442\u0430", "\u043a\u0443\u0445\u043d\u044f", "\u0432\u0430\u043d\u043d\u0430\u044f", "\u0434\u043e\u043c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bathroom' in Russian?" }, "options": { "neutral": ["\u0432\u0430\u043d\u043d\u0430\u044f", "\u043a\u043e\u043c\u043d\u0430\u0442\u0430", "\u043a\u0443\u0445\u043d\u044f", "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0434\u043e\u043c", "romanization": "dom", "options": { "en": ["house", "apartment", "room", "kitchen"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0434\u043e\u043c", "romanization": "dom", "native": { "en": "house" } },
+              { "target": "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430", "romanization": "kvartira", "native": { "en": "apartment" } },
+              { "target": "\u043a\u0443\u0445\u043d\u044f", "romanization": "kukhnya", "native": { "en": "kitchen" } },
+              { "target": "\u0432\u0430\u043d\u043d\u0430\u044f", "romanization": "vannaya", "native": { "en": "bathroom" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": { "en": ["Talk about hobbies", "Say what you like to do"] },
+          "vocabulary": [
+            { "word": "\u0447\u0438\u0442\u0430\u0442\u044c", "romanization": "chitat", "meanings": { "en": "to read" }, "gendered": null },
+            { "word": "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c", "romanization": "smotret", "meanings": { "en": "to watch" }, "gendered": null },
+            { "word": "\u0433\u0443\u043b\u044f\u0442\u044c", "romanization": "gulyat", "meanings": { "en": "to walk / stroll" }, "gendered": null },
+            { "word": "\u0438\u0433\u0440\u0430\u0442\u044c", "romanization": "igrat", "meanings": { "en": "to play" }, "gendered": null },
+            { "word": "\u043b\u044e\u0431\u0438\u0442\u044c", "romanization": "lyubit", "meanings": { "en": "to love / to like" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0447\u0438\u0442\u0430\u0442\u044c", "romanization": "chitat", "options": { "en": ["to read", "to write", "to watch", "to play"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0433\u0443\u043b\u044f\u0442\u044c", "romanization": "gulyat", "options": { "en": ["to walk", "to run", "to play", "to read"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to watch' in Russian?" }, "options": { "neutral": ["\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c", "\u0447\u0438\u0442\u0430\u0442\u044c", "\u0438\u0433\u0440\u0430\u0442\u044c", "\u0433\u0443\u043b\u044f\u0442\u044c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to love' in Russian?" }, "options": { "neutral": ["\u043b\u044e\u0431\u0438\u0442\u044c", "\u0438\u0433\u0440\u0430\u0442\u044c", "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c", "\u0447\u0438\u0442\u0430\u0442\u044c"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0438\u0433\u0440\u0430\u0442\u044c", "romanization": "igrat", "options": { "en": ["to play", "to read", "to walk", "to watch"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0447\u0438\u0442\u0430\u0442\u044c", "romanization": "chitat", "native": { "en": "to read" } },
+              { "target": "\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c", "romanization": "smotret", "native": { "en": "to watch" } },
+              { "target": "\u0433\u0443\u043b\u044f\u0442\u044c", "romanization": "gulyat", "native": { "en": "to walk" } },
+              { "target": "\u043b\u044e\u0431\u0438\u0442\u044c", "romanization": "lyubit", "native": { "en": "to love" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe the weather", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "\u043f\u043e\u0433\u043e\u0434\u0430", "romanization": "pogoda", "meanings": { "en": "weather" }, "gendered": null },
+            { "word": "\u0445\u043e\u043b\u043e\u0434\u043d\u043e", "romanization": "kholodno", "meanings": { "en": "cold" }, "gendered": null },
+            { "word": "\u0436\u0430\u0440\u043a\u043e", "romanization": "zharko", "meanings": { "en": "hot" }, "gendered": null },
+            { "word": "\u0434\u043e\u0436\u0434\u044c", "romanization": "dozhd", "meanings": { "en": "rain" }, "gendered": null },
+            { "word": "\u0441\u043e\u043b\u043d\u0446\u0435", "romanization": "solntse", "meanings": { "en": "sun" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u043f\u043e\u0433\u043e\u0434\u0430", "romanization": "pogoda", "options": { "en": ["weather", "temperature", "wind", "cloud"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0445\u043e\u043b\u043e\u0434\u043d\u043e", "romanization": "kholodno", "options": { "en": ["cold", "hot", "warm", "cool"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hot' in Russian?" }, "options": { "neutral": ["\u0436\u0430\u0440\u043a\u043e", "\u0445\u043e\u043b\u043e\u0434\u043d\u043e", "\u0442\u0451\u043f\u043b\u043e", "\u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'rain' in Russian?" }, "options": { "neutral": ["\u0434\u043e\u0436\u0434\u044c", "\u0441\u043d\u0435\u0433", "\u0441\u043e\u043b\u043d\u0446\u0435", "\u0432\u0435\u0442\u0435\u0440"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0441\u043e\u043b\u043d\u0446\u0435", "romanization": "solntse", "options": { "en": ["sun", "rain", "wind", "snow"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0445\u043e\u043b\u043e\u0434\u043d\u043e", "romanization": "kholodno", "native": { "en": "cold" } },
+              { "target": "\u0436\u0430\u0440\u043a\u043e", "romanization": "zharko", "native": { "en": "hot" } },
+              { "target": "\u0434\u043e\u0436\u0434\u044c", "romanization": "dozhd", "native": { "en": "rain" } },
+              { "target": "\u0441\u043e\u043b\u043d\u0446\u0435", "romanization": "solntse", "native": { "en": "sun" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Seasons" },
+          "objectives": { "en": ["Name the four seasons", "Describe seasonal activities"] },
+          "vocabulary": [
+            { "word": "\u0432\u0435\u0441\u043d\u0430", "romanization": "vesna", "meanings": { "en": "spring" }, "gendered": null },
+            { "word": "\u043b\u0435\u0442\u043e", "romanization": "leto", "meanings": { "en": "summer" }, "gendered": null },
+            { "word": "\u043e\u0441\u0435\u043d\u044c", "romanization": "osen", "meanings": { "en": "autumn" }, "gendered": null },
+            { "word": "\u0437\u0438\u043c\u0430", "romanization": "zima", "meanings": { "en": "winter" }, "gendered": null },
+            { "word": "\u0441\u043d\u0435\u0433", "romanization": "sneg", "meanings": { "en": "snow" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0432\u0435\u0441\u043d\u0430", "romanization": "vesna", "options": { "en": ["spring", "summer", "autumn", "winter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0437\u0438\u043c\u0430", "romanization": "zima", "options": { "en": ["winter", "spring", "summer", "autumn"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'summer' in Russian?" }, "options": { "neutral": ["\u043b\u0435\u0442\u043e", "\u0437\u0438\u043c\u0430", "\u0432\u0435\u0441\u043d\u0430", "\u043e\u0441\u0435\u043d\u044c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'snow' in Russian?" }, "options": { "neutral": ["\u0441\u043d\u0435\u0433", "\u0434\u043e\u0436\u0434\u044c", "\u0441\u043e\u043b\u043d\u0446\u0435", "\u0432\u0435\u0442\u0435\u0440"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043e\u0441\u0435\u043d\u044c", "romanization": "osen", "options": { "en": ["autumn", "spring", "winter", "summer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0432\u0435\u0441\u043d\u0430", "romanization": "vesna", "native": { "en": "spring" } },
+              { "target": "\u043b\u0435\u0442\u043e", "romanization": "leto", "native": { "en": "summer" } },
+              { "target": "\u043e\u0441\u0435\u043d\u044c", "romanization": "osen", "native": { "en": "autumn" } },
+              { "target": "\u0437\u0438\u043c\u0430", "romanization": "zima", "native": { "en": "winter" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Weather Forecast" },
+          "objectives": { "en": ["Understand a simple weather forecast", "Use weather-related phrases"] },
+          "vocabulary": [
+            { "word": "\u0442\u0451\u043f\u043b\u043e", "romanization": "tyoplo", "meanings": { "en": "warm" }, "gendered": null },
+            { "word": "\u0432\u0435\u0442\u0435\u0440", "romanization": "veter", "meanings": { "en": "wind" }, "gendered": null },
+            { "word": "\u043e\u0431\u043b\u0430\u0447\u043d\u043e", "romanization": "oblachno", "meanings": { "en": "cloudy" }, "gendered": null },
+            { "word": "\u044f\u0441\u043d\u043e", "romanization": "yasno", "meanings": { "en": "clear (sky)" }, "gendered": null },
+            { "word": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430", "romanization": "temperatura", "meanings": { "en": "temperature" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0442\u0451\u043f\u043b\u043e", "romanization": "tyoplo", "options": { "en": ["warm", "cold", "hot", "cool"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043e\u0431\u043b\u0430\u0447\u043d\u043e", "romanization": "oblachno", "options": { "en": ["cloudy", "sunny", "rainy", "windy"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'wind' in Russian?" }, "options": { "neutral": ["\u0432\u0435\u0442\u0435\u0440", "\u0434\u043e\u0436\u0434\u044c", "\u0441\u043d\u0435\u0433", "\u0441\u043e\u043b\u043d\u0446\u0435"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'clear sky' in Russian?" }, "options": { "neutral": ["\u044f\u0441\u043d\u043e", "\u043e\u0431\u043b\u0430\u0447\u043d\u043e", "\u0442\u0451\u043f\u043b\u043e", "\u0445\u043e\u043b\u043e\u0434\u043d\u043e"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0432\u0435\u0442\u0435\u0440", "romanization": "veter", "options": { "en": ["wind", "rain", "snow", "cloud"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0442\u0451\u043f\u043b\u043e", "romanization": "tyoplo", "native": { "en": "warm" } },
+              { "target": "\u0432\u0435\u0442\u0435\u0440", "romanization": "veter", "native": { "en": "wind" } },
+              { "target": "\u043e\u0431\u043b\u0430\u0447\u043d\u043e", "romanization": "oblachno", "native": { "en": "cloudy" } },
+              { "target": "\u044f\u0441\u043d\u043e", "romanization": "yasno", "native": { "en": "clear" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": { "en": ["Name basic clothing items", "Choose clothing based on weather"] },
+          "vocabulary": [
+            { "word": "\u043a\u0443\u0440\u0442\u043a\u0430", "romanization": "kurtka", "meanings": { "en": "jacket" }, "gendered": null },
+            { "word": "\u0448\u0430\u043f\u043a\u0430", "romanization": "shapka", "meanings": { "en": "hat (winter)" }, "gendered": null },
+            { "word": "\u0437\u043e\u043d\u0442", "romanization": "zont", "meanings": { "en": "umbrella" }, "gendered": null },
+            { "word": "\u043f\u0430\u043b\u044c\u0442\u043e", "romanization": "palto", "meanings": { "en": "coat" }, "gendered": null },
+            { "word": "\u0441\u0430\u043f\u043e\u0433\u0438", "romanization": "sapogi", "meanings": { "en": "boots" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u043a\u0443\u0440\u0442\u043a\u0430", "romanization": "kurtka", "options": { "en": ["jacket", "coat", "hat", "boots"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0437\u043e\u043d\u0442", "romanization": "zont", "options": { "en": ["umbrella", "jacket", "hat", "scarf"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hat' in Russian?" }, "options": { "neutral": ["\u0448\u0430\u043f\u043a\u0430", "\u043a\u0443\u0440\u0442\u043a\u0430", "\u0437\u043e\u043d\u0442", "\u043f\u0430\u043b\u044c\u0442\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'boots' in Russian?" }, "options": { "neutral": ["\u0441\u0430\u043f\u043e\u0433\u0438", "\u0448\u0430\u043f\u043a\u0430", "\u043a\u0443\u0440\u0442\u043a\u0430", "\u0437\u043e\u043d\u0442"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043f\u0430\u043b\u044c\u0442\u043e", "romanization": "palto", "options": { "en": ["coat", "jacket", "boots", "umbrella"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u043a\u0443\u0440\u0442\u043a\u0430", "romanization": "kurtka", "native": { "en": "jacket" } },
+              { "target": "\u0448\u0430\u043f\u043a\u0430", "romanization": "shapka", "native": { "en": "hat" } },
+              { "target": "\u0437\u043e\u043d\u0442", "romanization": "zont", "native": { "en": "umbrella" } },
+              { "target": "\u0441\u0430\u043f\u043e\u0433\u0438", "romanization": "sapogi", "native": { "en": "boots" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Body" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name basic body parts", "Describe where something hurts"] },
+          "vocabulary": [
+            { "word": "\u0433\u043e\u043b\u043e\u0432\u0430", "romanization": "golova", "meanings": { "en": "head" }, "gendered": null },
+            { "word": "\u0440\u0443\u043a\u0430", "romanization": "ruka", "meanings": { "en": "hand / arm" }, "gendered": null },
+            { "word": "\u043d\u043e\u0433\u0430", "romanization": "noga", "meanings": { "en": "leg / foot" }, "gendered": null },
+            { "word": "\u0436\u0438\u0432\u043e\u0442", "romanization": "zhivot", "meanings": { "en": "stomach" }, "gendered": null },
+            { "word": "\u0441\u043f\u0438\u043d\u0430", "romanization": "spina", "meanings": { "en": "back" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0433\u043e\u043b\u043e\u0432\u0430", "romanization": "golova", "options": { "en": ["head", "hand", "leg", "stomach"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0436\u0438\u0432\u043e\u0442", "romanization": "zhivot", "options": { "en": ["stomach", "head", "back", "arm"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hand' in Russian?" }, "options": { "neutral": ["\u0440\u0443\u043a\u0430", "\u043d\u043e\u0433\u0430", "\u0433\u043e\u043b\u043e\u0432\u0430", "\u0441\u043f\u0438\u043d\u0430"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'back' in Russian?" }, "options": { "neutral": ["\u0441\u043f\u0438\u043d\u0430", "\u0436\u0438\u0432\u043e\u0442", "\u0440\u0443\u043a\u0430", "\u043d\u043e\u0433\u0430"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043d\u043e\u0433\u0430", "romanization": "noga", "options": { "en": ["leg", "hand", "head", "stomach"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0433\u043e\u043b\u043e\u0432\u0430", "romanization": "golova", "native": { "en": "head" } },
+              { "target": "\u0440\u0443\u043a\u0430", "romanization": "ruka", "native": { "en": "hand" } },
+              { "target": "\u043d\u043e\u0433\u0430", "romanization": "noga", "native": { "en": "leg" } },
+              { "target": "\u0441\u043f\u0438\u043d\u0430", "romanization": "spina", "native": { "en": "back" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Unwell" },
+          "objectives": { "en": ["Say you feel sick", "Describe symptoms"] },
+          "vocabulary": [
+            { "word": "\u0431\u043e\u043b\u0438\u0442", "romanization": "bolit", "meanings": { "en": "it hurts" }, "gendered": null },
+            { "word": "\u0431\u043e\u043b\u044c\u043d\u043e\u0439", "romanization": "bolnoy", "meanings": { "en": "sick (male)" }, "gendered": null },
+            { "word": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430", "romanization": "temperatura", "meanings": { "en": "fever / temperature" }, "gendered": null },
+            { "word": "\u043a\u0430\u0448\u0435\u043b\u044c", "romanization": "kashel", "meanings": { "en": "cough" }, "gendered": null },
+            { "word": "\u043d\u0430\u0441\u043c\u043e\u0440\u043a", "romanization": "nasmork", "meanings": { "en": "runny nose / cold" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0431\u043e\u043b\u0438\u0442", "romanization": "bolit", "options": { "en": ["it hurts", "I'm sick", "I'm tired", "I'm cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043a\u0430\u0448\u0435\u043b\u044c", "romanization": "kashel", "options": { "en": ["cough", "fever", "headache", "cold"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'fever' in Russian?" }, "options": { "neutral": ["\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430", "\u043a\u0430\u0448\u0435\u043b\u044c", "\u043d\u0430\u0441\u043c\u043e\u0440\u043a", "\u0431\u043e\u043b\u0438\u0442"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'runny nose' in Russian?" }, "options": { "neutral": ["\u043d\u0430\u0441\u043c\u043e\u0440\u043a", "\u043a\u0430\u0448\u0435\u043b\u044c", "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430", "\u0431\u043e\u043b\u044c\u043d\u043e\u0439"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0431\u043e\u043b\u044c\u043d\u043e\u0439", "romanization": "bolnoy", "options": { "en": ["sick", "tired", "hungry", "cold"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0431\u043e\u043b\u0438\u0442", "romanization": "bolit", "native": { "en": "it hurts" } },
+              { "target": "\u043a\u0430\u0448\u0435\u043b\u044c", "romanization": "kashel", "native": { "en": "cough" } },
+              { "target": "\u043d\u0430\u0441\u043c\u043e\u0440\u043a", "romanization": "nasmork", "native": { "en": "runny nose" } },
+              { "target": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430", "romanization": "temperatura", "native": { "en": "fever" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Communicate with a doctor", "Describe what's wrong"] },
+          "vocabulary": [
+            { "word": "\u0432\u0440\u0430\u0447", "romanization": "vrach", "meanings": { "en": "doctor" }, "gendered": null },
+            { "word": "\u0430\u043f\u0442\u0435\u043a\u0430", "romanization": "apteka", "meanings": { "en": "pharmacy" }, "gendered": null },
+            { "word": "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e", "romanization": "lekarstvo", "meanings": { "en": "medicine" }, "gendered": null },
+            { "word": "\u0440\u0435\u0446\u0435\u043f\u0442", "romanization": "retsept", "meanings": { "en": "prescription" }, "gendered": null },
+            { "word": "\u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435", "romanization": "zdorovye", "meanings": { "en": "health" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0432\u0440\u0430\u0447", "romanization": "vrach", "options": { "en": ["doctor", "nurse", "pharmacist", "patient"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e", "romanization": "lekarstvo", "options": { "en": ["medicine", "prescription", "pharmacy", "health"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'pharmacy' in Russian?" }, "options": { "neutral": ["\u0430\u043f\u0442\u0435\u043a\u0430", "\u0431\u043e\u043b\u044c\u043d\u0438\u0446\u0430", "\u0432\u0440\u0430\u0447", "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'health' in Russian?" }, "options": { "neutral": ["\u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435", "\u0440\u0435\u0446\u0435\u043f\u0442", "\u0430\u043f\u0442\u0435\u043a\u0430", "\u0432\u0440\u0430\u0447"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0430\u043f\u0442\u0435\u043a\u0430", "romanization": "apteka", "options": { "en": ["pharmacy", "hospital", "doctor", "medicine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0432\u0440\u0430\u0447", "romanization": "vrach", "native": { "en": "doctor" } },
+              { "target": "\u0430\u043f\u0442\u0435\u043a\u0430", "romanization": "apteka", "native": { "en": "pharmacy" } },
+              { "target": "\u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e", "romanization": "lekarstvo", "native": { "en": "medicine" } },
+              { "target": "\u0440\u0435\u0446\u0435\u043f\u0442", "romanization": "retsept", "native": { "en": "prescription" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Staying Healthy" },
+          "objectives": { "en": ["Talk about healthy habits", "Give basic health advice"] },
+          "vocabulary": [
+            { "word": "\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f \u0441\u043f\u043e\u0440\u0442\u043e\u043c", "romanization": "zanimatsya sportom", "meanings": { "en": "to exercise / do sports" }, "gendered": null },
+            { "word": "\u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0439", "romanization": "zdorovyy", "meanings": { "en": "healthy" }, "gendered": null },
+            { "word": "\u043f\u0438\u0442\u044c \u0432\u043e\u0434\u0443", "romanization": "pit vodu", "meanings": { "en": "to drink water" }, "gendered": null },
+            { "word": "\u0444\u0440\u0443\u043a\u0442\u044b", "romanization": "frukty", "meanings": { "en": "fruits" }, "gendered": null },
+            { "word": "\u043e\u0432\u043e\u0449\u0438", "romanization": "ovoshchi", "meanings": { "en": "vegetables" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0439", "romanization": "zdorovyy", "options": { "en": ["healthy", "sick", "tired", "strong"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0444\u0440\u0443\u043a\u0442\u044b", "romanization": "frukty", "options": { "en": ["fruits", "vegetables", "meat", "bread"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to exercise' in Russian?" }, "options": { "neutral": ["\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f \u0441\u043f\u043e\u0440\u0442\u043e\u043c", "\u043f\u0438\u0442\u044c \u0432\u043e\u0434\u0443", "\u0447\u0438\u0442\u0430\u0442\u044c \u043a\u043d\u0438\u0433\u0443", "\u0433\u0443\u043b\u044f\u0442\u044c \u0432 \u043f\u0430\u0440\u043a\u0435"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'vegetables' in Russian?" }, "options": { "neutral": ["\u043e\u0432\u043e\u0449\u0438", "\u0444\u0440\u0443\u043a\u0442\u044b", "\u043c\u044f\u0441\u043e", "\u0445\u043b\u0435\u0431"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043e\u0432\u043e\u0449\u0438", "romanization": "ovoshchi", "options": { "en": ["vegetables", "fruits", "meat", "fish"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0439", "romanization": "zdorovyy", "native": { "en": "healthy" } },
+              { "target": "\u0444\u0440\u0443\u043a\u0442\u044b", "romanization": "frukty", "native": { "en": "fruits" } },
+              { "target": "\u043e\u0432\u043e\u0449\u0438", "romanization": "ovoshchi", "native": { "en": "vegetables" } },
+              { "target": "\u043f\u0438\u0442\u044c \u0432\u043e\u0434\u0443", "romanization": "pit vodu", "native": { "en": "drink water" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Make suggestions"] },
+          "vocabulary": [
+            { "word": "\u043f\u043b\u0430\u043d", "romanization": "plan", "meanings": { "en": "plan" }, "gendered": null },
+            { "word": "\u0437\u0430\u0432\u0442\u0440\u0430", "romanization": "zavtra", "meanings": { "en": "tomorrow" }, "gendered": null },
+            { "word": "\u0441\u0435\u0433\u043e\u0434\u043d\u044f", "romanization": "segodnya", "meanings": { "en": "today" }, "gendered": null },
+            { "word": "\u0432\u0447\u0435\u0440\u0430", "romanization": "vchera", "meanings": { "en": "yesterday" }, "gendered": null },
+            { "word": "\u0431\u0443\u0434\u0443", "romanization": "budu", "meanings": { "en": "I will (be)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0437\u0430\u0432\u0442\u0440\u0430", "romanization": "zavtra", "options": { "en": ["tomorrow", "today", "yesterday", "later"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0431\u0443\u0434\u0443", "romanization": "budu", "options": { "en": ["I will", "I was", "I am", "I have"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'today' in Russian?" }, "options": { "neutral": ["\u0441\u0435\u0433\u043e\u0434\u043d\u044f", "\u0437\u0430\u0432\u0442\u0440\u0430", "\u0432\u0447\u0435\u0440\u0430", "\u043f\u043e\u0442\u043e\u043c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'yesterday' in Russian?" }, "options": { "neutral": ["\u0432\u0447\u0435\u0440\u0430", "\u0441\u0435\u0433\u043e\u0434\u043d\u044f", "\u0437\u0430\u0432\u0442\u0440\u0430", "\u043d\u0435\u0434\u0435\u043b\u044f"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0441\u0435\u0433\u043e\u0434\u043d\u044f", "romanization": "segodnya", "options": { "en": ["today", "tomorrow", "yesterday", "now"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0437\u0430\u0432\u0442\u0440\u0430", "romanization": "zavtra", "native": { "en": "tomorrow" } },
+              { "target": "\u0441\u0435\u0433\u043e\u0434\u043d\u044f", "romanization": "segodnya", "native": { "en": "today" } },
+              { "target": "\u0432\u0447\u0435\u0440\u0430", "romanization": "vchera", "native": { "en": "yesterday" } },
+              { "target": "\u043f\u043b\u0430\u043d", "romanization": "plan", "native": { "en": "plan" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations" },
+          "objectives": { "en": ["Invite someone to do something", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "\u0414\u0430\u0432\u0430\u0439", "romanization": "davay", "meanings": { "en": "Let's (informal)" }, "gendered": null },
+            { "word": "\u043f\u043e\u0439\u0434\u0451\u043c", "romanization": "poydyom", "meanings": { "en": "let's go" }, "gendered": null },
+            { "word": "\u0445\u043e\u0440\u043e\u0448\u0430\u044f \u0438\u0434\u0435\u044f", "romanization": "khoroshaya ideya", "meanings": { "en": "good idea" }, "gendered": null },
+            { "word": "\u043a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e", "romanization": "k sozhaleniyu", "meanings": { "en": "unfortunately" }, "gendered": null },
+            { "word": "\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d", "romanization": "svoboden", "meanings": { "en": "free / available" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0414\u0430\u0432\u0430\u0439", "romanization": "davay", "options": { "en": ["Let's", "Go", "Come", "Wait"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e", "romanization": "k sozhaleniyu", "options": { "en": ["unfortunately", "of course", "maybe", "certainly"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'let's go' in Russian?" }, "options": { "neutral": ["\u043f\u043e\u0439\u0434\u0451\u043c", "\u0434\u0430\u0432\u0430\u0439", "\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d", "\u0445\u043e\u0440\u043e\u0448\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'free/available' in Russian?" }, "options": { "neutral": ["\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d", "\u0437\u0430\u043d\u044f\u0442", "\u0434\u0430\u0432\u0430\u0439", "\u043f\u043e\u0439\u0434\u0451\u043c"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0445\u043e\u0440\u043e\u0448\u0430\u044f \u0438\u0434\u0435\u044f", "romanization": "khoroshaya ideya", "options": { "en": ["good idea", "bad idea", "let's go", "of course"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0414\u0430\u0432\u0430\u0439", "romanization": "davay", "native": { "en": "Let's" } },
+              { "target": "\u043f\u043e\u0439\u0434\u0451\u043c", "romanization": "poydyom", "native": { "en": "let's go" } },
+              { "target": "\u043a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e", "romanization": "k sozhaleniyu", "native": { "en": "unfortunately" } },
+              { "target": "\u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d", "romanization": "svoboden", "native": { "en": "free" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Work & School" },
+          "objectives": { "en": ["Talk about work and study", "Describe your occupation"] },
+          "vocabulary": [
+            { "word": "\u0440\u0430\u0431\u043e\u0442\u0430", "romanization": "rabota", "meanings": { "en": "work / job" }, "gendered": null },
+            { "word": "\u0443\u0447\u0438\u0442\u044c\u0441\u044f", "romanization": "uchitsya", "meanings": { "en": "to study" }, "gendered": null },
+            { "word": "\u0441\u0442\u0443\u0434\u0435\u043d\u0442", "romanization": "student", "meanings": { "en": "student (male)" }, "gendered": null },
+            { "word": "\u0443\u0447\u0438\u0442\u0435\u043b\u044c", "romanization": "uchitel", "meanings": { "en": "teacher (male)" }, "gendered": null },
+            { "word": "\u043e\u0444\u0438\u0441", "romanization": "ofis", "meanings": { "en": "office" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0440\u0430\u0431\u043e\u0442\u0430", "romanization": "rabota", "options": { "en": ["work", "school", "office", "study"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0443\u0447\u0438\u0442\u0435\u043b\u044c", "romanization": "uchitel", "options": { "en": ["teacher", "student", "doctor", "worker"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to study' in Russian?" }, "options": { "neutral": ["\u0443\u0447\u0438\u0442\u044c\u0441\u044f", "\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c", "\u0447\u0438\u0442\u0430\u0442\u044c", "\u043f\u0438\u0441\u0430\u0442\u044c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'office' in Russian?" }, "options": { "neutral": ["\u043e\u0444\u0438\u0441", "\u0448\u043a\u043e\u043b\u0430", "\u0440\u0430\u0431\u043e\u0442\u0430", "\u043a\u043e\u043c\u043d\u0430\u0442\u0430"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0441\u0442\u0443\u0434\u0435\u043d\u0442", "romanization": "student", "options": { "en": ["student", "teacher", "doctor", "worker"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0440\u0430\u0431\u043e\u0442\u0430", "romanization": "rabota", "native": { "en": "work" } },
+              { "target": "\u0443\u0447\u0438\u0442\u044c\u0441\u044f", "romanization": "uchitsya", "native": { "en": "to study" } },
+              { "target": "\u0443\u0447\u0438\u0442\u0435\u043b\u044c", "romanization": "uchitel", "native": { "en": "teacher" } },
+              { "target": "\u043e\u0444\u0438\u0441", "romanization": "ofis", "native": { "en": "office" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Weekend Plans" },
+          "objectives": { "en": ["Discuss weekend activities", "Use future tense simply"] },
+          "vocabulary": [
+            { "word": "\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435", "romanization": "vykhodnye", "meanings": { "en": "weekend" }, "gendered": null },
+            { "word": "\u043f\u043e\u0435\u0445\u0430\u0442\u044c", "romanization": "poyekhat", "meanings": { "en": "to go (by transport)" }, "gendered": null },
+            { "word": "\u043a\u0438\u043d\u043e", "romanization": "kino", "meanings": { "en": "cinema" }, "gendered": null },
+            { "word": "\u043f\u0430\u0440\u043a", "romanization": "park", "meanings": { "en": "park" }, "gendered": null },
+            { "word": "\u043c\u0443\u0437\u0435\u0439", "romanization": "muzey", "meanings": { "en": "museum" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435", "romanization": "vykhodnye", "options": { "en": ["weekend", "weekday", "holiday", "vacation"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043a\u0438\u043d\u043e", "romanization": "kino", "options": { "en": ["cinema", "theater", "park", "museum"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'park' in Russian?" }, "options": { "neutral": ["\u043f\u0430\u0440\u043a", "\u043a\u0438\u043d\u043e", "\u043c\u0443\u0437\u0435\u0439", "\u043e\u0444\u0438\u0441"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'museum' in Russian?" }, "options": { "neutral": ["\u043c\u0443\u0437\u0435\u0439", "\u043f\u0430\u0440\u043a", "\u043a\u0438\u043d\u043e", "\u0448\u043a\u043e\u043b\u0430"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043f\u043e\u0435\u0445\u0430\u0442\u044c", "romanization": "poyekhat", "options": { "en": ["to go (by transport)", "to walk", "to run", "to fly"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435", "romanization": "vykhodnye", "native": { "en": "weekend" } },
+              { "target": "\u043a\u0438\u043d\u043e", "romanization": "kino", "native": { "en": "cinema" } },
+              { "target": "\u043f\u0430\u0440\u043a", "romanization": "park", "native": { "en": "park" } },
+              { "target": "\u043c\u0443\u0437\u0435\u0439", "romanization": "muzey", "native": { "en": "museum" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Opinions" },
+          "objectives": { "en": ["Share your opinion", "Agree and disagree politely"] },
+          "vocabulary": [
+            { "word": "\u044f \u0434\u0443\u043c\u0430\u044e", "romanization": "ya dumayu", "meanings": { "en": "I think" }, "gendered": null },
+            { "word": "\u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "romanization": "soglasen", "meanings": { "en": "I agree (male)" }, "gendered": null },
+            { "word": "\u043d\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "romanization": "ne soglasen", "meanings": { "en": "I disagree (male)" }, "gendered": null },
+            { "word": "\u043f\u043e-\u043c\u043e\u0435\u043c\u0443", "romanization": "po-moyemu", "meanings": { "en": "in my opinion" }, "gendered": null },
+            { "word": "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e", "romanization": "pravilno", "meanings": { "en": "correct / right" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u044f \u0434\u0443\u043c\u0430\u044e", "romanization": "ya dumayu", "options": { "en": ["I think", "I know", "I want", "I see"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u043f\u043e-\u043c\u043e\u0435\u043c\u0443", "romanization": "po-moyemu", "options": { "en": ["in my opinion", "I agree", "I disagree", "of course"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I agree' in Russian?" }, "options": { "neutral": ["\u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "\u043d\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "\u044f \u0434\u0443\u043c\u0430\u044e", "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'correct' in Russian?" }, "options": { "neutral": ["\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e", "\u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "\u043f\u043e-\u043c\u043e\u0435\u043c\u0443", "\u044f \u0434\u0443\u043c\u0430\u044e"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u043d\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "romanization": "ne soglasen", "options": { "en": ["I disagree", "I agree", "I think", "correct"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u044f \u0434\u0443\u043c\u0430\u044e", "romanization": "ya dumayu", "native": { "en": "I think" } },
+              { "target": "\u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d", "romanization": "soglasen", "native": { "en": "I agree" } },
+              { "target": "\u043f\u043e-\u043c\u043e\u0435\u043c\u0443", "romanization": "po-moyemu", "native": { "en": "in my opinion" } },
+              { "target": "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e", "romanization": "pravilno", "native": { "en": "correct" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Feelings & Emotions" },
+          "objectives": { "en": ["Express basic emotions", "Ask how someone feels"] },
+          "vocabulary": [
+            { "word": "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439", "romanization": "schastlivyy", "meanings": { "en": "happy" }, "gendered": null },
+            { "word": "\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439", "romanization": "grustnyy", "meanings": { "en": "sad" }, "gendered": null },
+            { "word": "\u0443\u0441\u0442\u0430\u043b\u044b\u0439", "romanization": "ustalyy", "meanings": { "en": "tired" }, "gendered": null },
+            { "word": "\u0437\u043b\u043e\u0439", "romanization": "zloy", "meanings": { "en": "angry" }, "gendered": null },
+            { "word": "\u0432\u043e\u043b\u043d\u043e\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "volnovatsya", "meanings": { "en": "to worry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439", "romanization": "schastlivyy", "options": { "en": ["happy", "sad", "tired", "angry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0443\u0441\u0442\u0430\u043b\u044b\u0439", "romanization": "ustalyy", "options": { "en": ["tired", "happy", "sad", "angry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sad' in Russian?" }, "options": { "neutral": ["\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439", "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439", "\u0437\u043b\u043e\u0439", "\u0443\u0441\u0442\u0430\u043b\u044b\u0439"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'angry' in Russian?" }, "options": { "neutral": ["\u0437\u043b\u043e\u0439", "\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439", "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439", "\u0443\u0441\u0442\u0430\u043b\u044b\u0439"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0432\u043e\u043b\u043d\u043e\u0432\u0430\u0442\u044c\u0441\u044f", "romanization": "volnovatsya", "options": { "en": ["to worry", "to rest", "to sleep", "to cry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u044b\u0439", "romanization": "schastlivyy", "native": { "en": "happy" } },
+              { "target": "\u0433\u0440\u0443\u0441\u0442\u043d\u044b\u0439", "romanization": "grustnyy", "native": { "en": "sad" } },
+              { "target": "\u0443\u0441\u0442\u0430\u043b\u044b\u0439", "romanization": "ustalyy", "native": { "en": "tired" } },
+              { "target": "\u0437\u043b\u043e\u0439", "romanization": "zloy", "native": { "en": "angry" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Likes & Dislikes" },
+          "objectives": { "en": ["Express what you like and dislike", "Ask about preferences"] },
+          "vocabulary": [
+            { "word": "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f", "romanization": "nravitsya", "meanings": { "en": "to like (something appeals to me)" }, "gendered": null },
+            { "word": "\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f", "romanization": "ne nravitsya", "meanings": { "en": "to not like" }, "gendered": null },
+            { "word": "\u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0442\u044c", "romanization": "predpochitat", "meanings": { "en": "to prefer" }, "gendered": null },
+            { "word": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e", "romanization": "interesno", "meanings": { "en": "interesting" }, "gendered": null },
+            { "word": "\u0441\u043a\u0443\u0447\u043d\u043e", "romanization": "skuchno", "meanings": { "en": "boring" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f", "romanization": "nravitsya", "options": { "en": ["to like", "to love", "to want", "to need"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0441\u043a\u0443\u0447\u043d\u043e", "romanization": "skuchno", "options": { "en": ["boring", "interesting", "fun", "exciting"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'interesting' in Russian?" }, "options": { "neutral": ["\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e", "\u0441\u043a\u0443\u0447\u043d\u043e", "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f", "\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to prefer' in Russian?" }, "options": { "neutral": ["\u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0442\u044c", "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f", "\u043b\u044e\u0431\u0438\u0442\u044c", "\u0445\u043e\u0442\u0435\u0442\u044c"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e", "romanization": "interesno", "options": { "en": ["interesting", "boring", "fun", "difficult"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u043d\u0440\u0430\u0432\u0438\u0442\u044c\u0441\u044f", "romanization": "nravitsya", "native": { "en": "to like" } },
+              { "target": "\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f", "romanization": "ne nravitsya", "native": { "en": "to not like" } },
+              { "target": "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e", "romanization": "interesno", "native": { "en": "interesting" } },
+              { "target": "\u0441\u043a\u0443\u0447\u043d\u043e", "romanization": "skuchno", "native": { "en": "boring" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Describing Experiences" },
+          "objectives": { "en": ["Describe past experiences simply", "Use basic past tense"] },
+          "vocabulary": [
+            { "word": "\u0431\u044b\u043b\u043e", "romanization": "bylo", "meanings": { "en": "it was" }, "gendered": null },
+            { "word": "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e", "romanization": "zamechatelno", "meanings": { "en": "wonderful" }, "gendered": null },
+            { "word": "\u0443\u0436\u0430\u0441\u043d\u043e", "romanization": "uzhasno", "meanings": { "en": "terrible" }, "gendered": null },
+            { "word": "\u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u043e\u0441\u044c", "romanization": "ponravilos", "meanings": { "en": "I liked it" }, "gendered": null },
+            { "word": "\u0432\u043f\u0435\u0440\u0432\u044b\u0435", "romanization": "vpervye", "meanings": { "en": "for the first time" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e", "romanization": "zamechatelno", "options": { "en": ["wonderful", "terrible", "boring", "okay"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0432\u043f\u0435\u0440\u0432\u044b\u0435", "romanization": "vpervye", "options": { "en": ["for the first time", "again", "always", "never"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'terrible' in Russian?" }, "options": { "neutral": ["\u0443\u0436\u0430\u0441\u043d\u043e", "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e", "\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e", "\u0441\u043a\u0443\u0447\u043d\u043e"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I liked it' in Russian?" }, "options": { "neutral": ["\u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u043e\u0441\u044c", "\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f", "\u0431\u044b\u043b\u043e", "\u0445\u043e\u0440\u043e\u0448\u043e"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0431\u044b\u043b\u043e", "romanization": "bylo", "options": { "en": ["it was", "it is", "it will be", "it seems"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e", "romanization": "zamechatelno", "native": { "en": "wonderful" } },
+              { "target": "\u0443\u0436\u0430\u0441\u043d\u043e", "romanization": "uzhasno", "native": { "en": "terrible" } },
+              { "target": "\u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u043e\u0441\u044c", "romanization": "ponravilos", "native": { "en": "I liked it" } },
+              { "target": "\u0432\u043f\u0435\u0440\u0432\u044b\u0435", "romanization": "vpervye", "native": { "en": "for the first time" } }
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

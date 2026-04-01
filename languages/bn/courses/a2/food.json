@@ -1,0 +1,378 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "food",
+  "track_label": {
+    "en": "Food & Dining",
+    "zh": "美食与餐饮",
+    "th": "อาหารและการรับประทาน",
+    "ko": "음식과 식사",
+    "es": "Comida y gastronomía"
+  },
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Bengali Cuisine Basics",
+        "zh": "孟加拉美食基础",
+        "th": "พื้นฐานอาหารเบงกาลี",
+        "ko": "벵골 음식 기초",
+        "es": "Fundamentos de la cocina bengalí"
+      },
+      "description": {
+        "en": "Learn names of popular Bengali dishes and ingredients",
+        "zh": "学习常见孟加拉菜肴和食材的名称",
+        "th": "เรียนรู้ชื่ออาหารและส่วนผสมยอดนิยมของเบงกาลี",
+        "ko": "인기 있는 벵골 요리와 재료 이름 배우기",
+        "es": "Aprender los nombres de los platos e ingredientes bengalíes más populares"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Rice & Curry Dishes",
+            "zh": "米饭和咖喱菜肴",
+            "th": "อาหารข้าวและแกง",
+            "ko": "밥과 커리 요리",
+            "es": "Platos de arroz y curry"
+          },
+          "objectives": {
+            "en": ["Name popular Bengali rice and curry dishes", "Order food at a restaurant"]
+          },
+          "vocabulary": [
+            { "word": "ভাত", "romanization": "bhat", "meanings": { "en": "Cooked rice", "zh": "米饭", "th": "ข้าวสุก", "ko": "밥", "es": "Arroz cocido" } },
+            { "word": "ডাল", "romanization": "dal", "meanings": { "en": "Lentil soup / dal", "zh": "扁豆汤", "th": "ซุปถั่วเลนทิล", "ko": "달 (렌즈콩 수프)", "es": "Sopa de lentejas / dal" } },
+            { "word": "মাছের ঝোল", "romanization": "macher jhol", "meanings": { "en": "Fish curry (Bengali style)", "zh": "孟加拉鱼咖喱", "th": "แกงปลาแบบเบงกาลี", "ko": "마체르 졸 (벵골식 생선 카레)", "es": "Curry de pescado al estilo bengalí" } },
+            { "word": "রুটি", "romanization": "ruti", "meanings": { "en": "Flatbread / roti", "zh": "薄饼", "th": "โรตี (ขนมปังแผ่น)", "ko": "루티 (납작 빵)", "es": "Pan plano / roti" } },
+            { "word": "ঝাল", "romanization": "jhal", "meanings": { "en": "Spicy / hot", "zh": "辣", "th": "เผ็ด", "ko": "맵다", "es": "Picante" } },
+            { "word": "তরকারি", "romanization": "torkari", "meanings": { "en": "Curry / vegetable dish", "zh": "咖喱/蔬菜菜肴", "th": "แกง / อาหารผัก", "ko": "토르카리 (카레/채소 요리)", "es": "Curry / plato de verduras" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ভাত", "romanization": "bhat", "options": { "en": ["Cooked rice", "Bread", "Noodles", "Porridge"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ঝাল", "romanization": "jhal", "options": { "en": ["Spicy / hot", "Sweet", "Sour", "Salty"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Lentil soup' in Bengali?" }, "options": { "neutral": ["ডাল", "ভাত", "রুটি", "তরকারি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fish curry' in Bengali?" }, "options": { "neutral": ["মাছের ঝোল", "ডাল", "ভাত", "তরকারি"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "রুটি", "romanization": "ruti", "options": { "en": ["Flatbread / roti", "Rice", "Noodles", "Curry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ভাত", "romanization": "bhat", "native": { "en": "Cooked rice" } },
+              { "target": "ডাল", "romanization": "dal", "native": { "en": "Lentil soup" } },
+              { "target": "মাছের ঝোল", "romanization": "macher jhol", "native": { "en": "Fish curry" } },
+              { "target": "ঝাল", "romanization": "jhal", "native": { "en": "Spicy / hot" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Use polite phrases to order food", "Ask about the menu and price"]
+          },
+          "vocabulary": [
+            { "word": "মেনু", "romanization": "menu", "meanings": { "en": "Menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "Menú" } },
+            { "word": "আমি খেতে চাই", "romanization": "ami khete chai", "meanings": { "en": "I want to eat", "zh": "我想吃", "th": "ฉันอยากกิน", "ko": "저는 먹고 싶어요", "es": "Quiero comer" } },
+            { "word": "দাম কত?", "romanization": "dam koto?", "meanings": { "en": "How much does it cost?", "zh": "多少钱？", "th": "ราคาเท่าไหร่?", "ko": "얼마예요?", "es": "¿Cuánto cuesta?" } },
+            { "word": "সুস্বাদু", "romanization": "shushadu", "meanings": { "en": "Delicious / tasty", "zh": "美味/好吃", "th": "อร่อย", "ko": "맛있다", "es": "Delicioso" } },
+            { "word": "ছাড়া", "romanization": "chara", "meanings": { "en": "Without", "zh": "不加/没有", "th": "ไม่ใส่ / ปราศจาก", "ko": "없이", "es": "Sin" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সুস্বাদু", "romanization": "shushadu", "options": { "en": ["Delicious / tasty", "Spicy", "Cheap", "Fresh"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "দাম কত?", "romanization": "dam koto?", "options": { "en": ["How much does it cost?", "What is this?", "Where is the menu?", "I am hungry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I want to eat' in Bengali?" }, "options": { "neutral": ["আমি খেতে চাই", "দাম কত?", "সুস্বাদু", "ছাড়া"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Without' in Bengali?" }, "options": { "neutral": ["ছাড়া", "সুস্বাদু", "মেনু", "আমি খেতে চাই"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "আমি খেতে চাই", "romanization": "ami khete chai", "options": { "en": ["I want to eat", "I am full", "I am thirsty", "How much?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "মেনু", "romanization": "menu", "native": { "en": "Menu" } },
+              { "target": "সুস্বাদু", "romanization": "shushadu", "native": { "en": "Delicious / tasty" } },
+              { "target": "ছাড়া", "romanization": "chara", "native": { "en": "Without" } },
+              { "target": "দাম কত?", "romanization": "dam koto?", "native": { "en": "How much does it cost?" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks & Sweets",
+            "zh": "饮料与甜点",
+            "th": "เครื่องดื่มและขนมหวาน",
+            "ko": "음료와 디저트",
+            "es": "Bebidas y dulces"
+          },
+          "objectives": {
+            "en": ["Name common Bengali drinks and sweets", "Express taste preferences"]
+          },
+          "vocabulary": [
+            { "word": "চা", "romanization": "cha", "meanings": { "en": "Tea", "zh": "茶", "th": "ชา", "ko": "차", "es": "Té" } },
+            { "word": "লাচ্ছি", "romanization": "lachhi", "meanings": { "en": "Lassi (yoghurt drink)", "zh": "拉西（酸奶饮料）", "th": "ลาสซี (เครื่องดื่มโยเกิร์ต)", "ko": "라씨 (요구르트 음료)", "es": "Lassi (bebida de yogur)" } },
+            { "word": "পানি", "romanization": "pani", "meanings": { "en": "Water", "zh": "水", "th": "น้ำ", "ko": "물", "es": "Agua" } },
+            { "word": "রসগোল্লা", "romanization": "rosogolla", "meanings": { "en": "Rosogolla (sweet cheese ball dessert)", "zh": "奶酪球甜点", "th": "โรโซก็อลลา (ขนมหวานลูกชีส)", "ko": "로소골라 (인도식 치즈볼 디저트)", "es": "Rosogolla (postre de bola de queso dulce)" } },
+            { "word": "মিষ্টি", "romanization": "mishti", "meanings": { "en": "Sweet", "zh": "甜/甜食", "th": "หวาน / ขนมหวาน", "ko": "달다 / 단 음식", "es": "Dulce" } },
+            { "word": "টক", "romanization": "tok", "meanings": { "en": "Sour", "zh": "酸", "th": "เปรี้ยว", "ko": "시다", "es": "Ácido" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "চা", "romanization": "cha", "options": { "en": ["Tea", "Coffee", "Juice", "Water"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "মিষ্টি", "romanization": "mishti", "options": { "en": ["Sweet", "Sour", "Spicy", "Bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sour' in Bengali?" }, "options": { "neutral": ["টক", "মিষ্টি", "ঝাল", "তেতো"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Water' in Bengali?" }, "options": { "neutral": ["পানি", "চা", "লাচ্ছি", "রসগোল্লা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "রসগোল্লা", "romanization": "rosogolla", "options": { "en": ["Sweet cheese ball dessert", "Spicy snack", "Sour pickle", "Rice pudding"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "চা", "romanization": "cha", "native": { "en": "Tea" } },
+              { "target": "পানি", "romanization": "pani", "native": { "en": "Water" } },
+              { "target": "মিষ্টি", "romanization": "mishti", "native": { "en": "Sweet" } },
+              { "target": "টক", "romanization": "tok", "native": { "en": "Sour" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการทำอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "description": {
+        "en": "Learn cooking vocabulary and common Bengali ingredients",
+        "zh": "学习烹饪词汇和常见孟加拉食材",
+        "th": "เรียนรู้คำศัพท์การทำอาหารและส่วนผสมเบงกาลีทั่วไป",
+        "ko": "요리 어휘와 일반적인 벵골 재료 배우기",
+        "es": "Aprender vocabulario de cocina e ingredientes bengalíes comunes"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Common Ingredients",
+            "zh": "常见食材",
+            "th": "ส่วนผสมทั่วไป",
+            "ko": "일반 재료",
+            "es": "Ingredientes comunes"
+          },
+          "objectives": {
+            "en": ["Name common Bengali cooking ingredients", "Identify vegetables, proteins and spices"]
+          },
+          "vocabulary": [
+            { "word": "পেঁয়াজ", "romanization": "peyaj", "meanings": { "en": "Onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "Cebolla" } },
+            { "word": "রসুন", "romanization": "roshun", "meanings": { "en": "Garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "Ajo" } },
+            { "word": "মরিচ", "romanization": "morich", "meanings": { "en": "Chilli / pepper", "zh": "辣椒", "th": "พริก", "ko": "고추", "es": "Chile / pimienta" } },
+            { "word": "মাছ", "romanization": "mach", "meanings": { "en": "Fish", "zh": "鱼", "th": "ปลา", "ko": "생선", "es": "Pescado" } },
+            { "word": "শাকসবজি", "romanization": "shak shobji", "meanings": { "en": "Vegetables / greens", "zh": "蔬菜", "th": "ผักและผักใบเขียว", "ko": "채소 / 녹색 채소", "es": "Verduras / hortalizas" } },
+            { "word": "হলুদ", "romanization": "holud", "meanings": { "en": "Turmeric", "zh": "姜黄", "th": "ขมิ้น", "ko": "강황", "es": "Cúrcuma" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "হলুদ", "romanization": "holud", "options": { "en": ["Turmeric", "Chilli", "Garlic", "Ginger"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "শাকসবজি", "romanization": "shak shobji", "options": { "en": ["Vegetables / greens", "Meat", "Fish", "Rice"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fish' in Bengali?" }, "options": { "neutral": ["মাছ", "মরিচ", "শাকসবজি", "পেঁয়াজ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Chilli / pepper' in Bengali?" }, "options": { "neutral": ["মরিচ", "পেঁয়াজ", "হলুদ", "রসুন"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পেঁয়াজ", "romanization": "peyaj", "options": { "en": ["Onion", "Garlic", "Chilli", "Ginger"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "মাছ", "romanization": "mach", "native": { "en": "Fish" } },
+              { "target": "হলুদ", "romanization": "holud", "native": { "en": "Turmeric" } },
+              { "target": "রসুন", "romanization": "roshun", "native": { "en": "Garlic" } },
+              { "target": "মরিচ", "romanization": "morich", "native": { "en": "Chilli / pepper" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "조리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked", "Use cooking verbs correctly"]
+          },
+          "vocabulary": [
+            { "word": "ভাজা", "romanization": "bhaja", "meanings": { "en": "Fry / fried", "zh": "炒/炸", "th": "ทอด / ผัด", "ko": "볶다 / 튀기다", "es": "Freír / frito" } },
+            { "word": "সেদ্ধ করা", "romanization": "sheddho kora", "meanings": { "en": "Boil / boiled", "zh": "煮/焯", "th": "ต้ม", "ko": "삶다", "es": "Hervir / hervido" } },
+            { "word": "ঝলসানো", "romanization": "jholshano", "meanings": { "en": "Grill / roast", "zh": "烤/炙烤", "th": "ย่าง / อบ", "ko": "굽다", "es": "Asar" } },
+            { "word": "ভাপানো", "romanization": "bhapano", "meanings": { "en": "Steam / steamed", "zh": "蒸", "th": "นึ่ง", "ko": "찌다", "es": "Cocinar al vapor" } },
+            { "word": "রান্না করা", "romanization": "ranna kora", "meanings": { "en": "Cook / to cook", "zh": "烹饪", "th": "ทำอาหาร / ปรุงอาหาร", "ko": "요리하다", "es": "Cocinar" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ঝলসানো", "romanization": "jholshano", "options": { "en": ["Grill / roast", "Boil", "Steam", "Fry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ভাপানো", "romanization": "bhapano", "options": { "en": ["Steam / steamed", "Fry", "Boil", "Bake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fry / fried' in Bengali?" }, "options": { "neutral": ["ভাজা", "সেদ্ধ করা", "ঝলসানো", "ভাপানো"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To cook' in Bengali?" }, "options": { "neutral": ["রান্না করা", "ভাজা", "ভাপানো", "সেদ্ধ করা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "রান্না করা", "romanization": "ranna kora", "options": { "en": ["To cook", "To eat", "To serve", "To order"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ভাজা", "romanization": "bhaja", "native": { "en": "Fry / fried" } },
+              { "target": "সেদ্ধ করা", "romanization": "sheddho kora", "native": { "en": "Boil / boiled" } },
+              { "target": "ঝলসানো", "romanization": "jholshano", "native": { "en": "Grill / roast" } },
+              { "target": "ভাপানো", "romanization": "bhapano", "native": { "en": "Steam / steamed" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Shop for food at a Bengali market", "Ask about prices and quantities"]
+          },
+          "vocabulary": [
+            { "word": "বাজার", "romanization": "bajar", "meanings": { "en": "Market / bazaar", "zh": "市场/集市", "th": "ตลาด", "ko": "시장 / 바자르", "es": "Mercado / bazar" } },
+            { "word": "সস্তা", "romanization": "shoshta", "meanings": { "en": "Cheap", "zh": "便宜", "th": "ถูก", "ko": "싸다", "es": "Barato" } },
+            { "word": "দামী", "romanization": "dami", "meanings": { "en": "Expensive", "zh": "贵", "th": "แพง", "ko": "비싸다", "es": "Caro" } },
+            { "word": "তাজা", "romanization": "taja", "meanings": { "en": "Fresh", "zh": "新鲜", "th": "สด", "ko": "신선하다", "es": "Fresco" } },
+            { "word": "কত কেজি?", "romanization": "koto keji?", "meanings": { "en": "How many kilos?", "zh": "几公斤？", "th": "กี่กิโล?", "ko": "몇 킬로예요?", "es": "¿Cuántos kilos?" } },
+            { "word": "ফলমূল", "romanization": "folmul", "meanings": { "en": "Fruits", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "Frutas" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সস্তা", "romanization": "shoshta", "options": { "en": ["Cheap", "Expensive", "Fresh", "Heavy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "তাজা", "romanization": "taja", "options": { "en": ["Fresh", "Salty", "Sweet", "Frozen"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Expensive' in Bengali?" }, "options": { "neutral": ["দামী", "সস্তা", "তাজা", "বাজার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruits' in Bengali?" }, "options": { "neutral": ["ফলমূল", "শাকসবজি", "মাছ", "বাজার"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বাজার", "romanization": "bajar", "options": { "en": ["Market / bazaar", "Restaurant", "Supermarket", "Kitchen"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সস্তা", "romanization": "shoshta", "native": { "en": "Cheap" } },
+              { "target": "দামী", "romanization": "dami", "native": { "en": "Expensive" } },
+              { "target": "তাজা", "romanization": "taja", "native": { "en": "Fresh" } },
+              { "target": "ফলমূল", "romanization": "folmul", "native": { "en": "Fruits" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Eating Out & Food Culture",
+        "zh": "外出用餐与饮食文化",
+        "th": "การทานอาหารนอกบ้านและวัฒนธรรมอาหาร",
+        "ko": "외식과 음식 문화",
+        "es": "Comer fuera y cultura gastronómica"
+      },
+      "description": {
+        "en": "Explore Bengali food culture, restaurants and dining customs",
+        "zh": "探索孟加拉饮食文化、餐厅和用餐习俗",
+        "th": "สำรวจวัฒนธรรมอาหารเบงกาลี ร้านอาหาร และมารยาทการรับประทาน",
+        "ko": "벵골 음식 문화, 식당 및 식사 관습 탐구",
+        "es": "Explorar la cultura gastronómica bengalí, restaurantes y costumbres"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Restaurant",
+            "zh": "在餐厅",
+            "th": "ที่ร้านอาหาร",
+            "ko": "식당에서",
+            "es": "En el restaurante"
+          },
+          "objectives": {
+            "en": ["Navigate a Bengali restaurant", "Order and pay for food"]
+          },
+          "vocabulary": [
+            { "word": "রেস্তোরাঁ", "romanization": "restoray", "meanings": { "en": "Restaurant", "zh": "餐厅", "th": "ร้านอาหาร", "ko": "식당", "es": "Restaurante" } },
+            { "word": "ওয়েটার", "romanization": "oeytar", "meanings": { "en": "Waiter", "zh": "服务员", "th": "บริกร", "ko": "웨이터", "es": "Camarero" } },
+            { "word": "পার্সেল করুন", "romanization": "parshel korun", "meanings": { "en": "Pack / take away", "zh": "打包/外带", "th": "ห่อกลับบ้าน", "ko": "포장해 주세요", "es": "Empacar / para llevar" } },
+            { "word": "এখানে খাব", "romanization": "ekhane khabo", "meanings": { "en": "I will eat here / dine in", "zh": "我在这里吃", "th": "ฉันจะทานที่นี่", "ko": "여기서 먹을게요", "es": "Comeré aquí" } },
+            { "word": "একটু অপেক্ষা করুন", "romanization": "ektu opekha korun", "meanings": { "en": "Please wait a moment", "zh": "请稍等", "th": "กรุณารอสักครู่", "ko": "잠시만 기다려 주세요", "es": "Por favor espere un momento" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "পার্সেল করুন", "romanization": "parshel korun", "options": { "en": ["Pack / take away", "Eat here", "Order", "Pay"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "রেস্তোরাঁ", "romanization": "restoray", "options": { "en": ["Restaurant", "Market", "Hotel", "Café"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I will eat here' in Bengali?" }, "options": { "neutral": ["এখানে খাব", "পার্সেল করুন", "রেস্তোরাঁ", "ওয়েটার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please wait a moment' in Bengali?" }, "options": { "neutral": ["একটু অপেক্ষা করুন", "এখানে খাব", "পার্সেল করুন", "ওয়েটার"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ওয়েটার", "romanization": "oeytar", "options": { "en": ["Waiter", "Chef", "Manager", "Customer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "রেস্তোরাঁ", "romanization": "restoray", "native": { "en": "Restaurant" } },
+              { "target": "পার্সেল করুন", "romanization": "parshel korun", "native": { "en": "Pack / take away" } },
+              { "target": "এখানে খাব", "romanization": "ekhane khabo", "native": { "en": "I will eat here" } },
+              { "target": "ওয়েটার", "romanization": "oeytar", "native": { "en": "Waiter" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Describing Food",
+            "zh": "描述食物",
+            "th": "การอธิบายอาหาร",
+            "ko": "음식 묘사하기",
+            "es": "Describir la comida"
+          },
+          "objectives": {
+            "en": ["Describe food using taste and texture words", "Express food opinions"]
+          },
+          "vocabulary": [
+            { "word": "মচমচে", "romanization": "mochmoche", "meanings": { "en": "Crunchy / crispy", "zh": "脆", "th": "กรอบ", "ko": "바삭바삭하다", "es": "Crujiente" } },
+            { "word": "নরম", "romanization": "norom", "meanings": { "en": "Soft / tender", "zh": "软/嫩", "th": "นุ่ม", "ko": "부드럽다", "es": "Suave / tierno" } },
+            { "word": "তেলতেলে", "romanization": "teltele", "meanings": { "en": "Oily / greasy", "zh": "油腻", "th": "มัน", "ko": "기름지다", "es": "Aceitoso / grasoso" } },
+            { "word": "সুস্বাদু", "romanization": "shushadu", "meanings": { "en": "Delicious / tasty", "zh": "美味", "th": "อร่อย", "ko": "맛있다", "es": "Delicioso" } },
+            { "word": "তেতো", "romanization": "teto", "meanings": { "en": "Bitter", "zh": "苦", "th": "ขม", "ko": "쓰다", "es": "Amargo" } },
+            { "word": "নোনতা", "romanization": "nonta", "meanings": { "en": "Salty", "zh": "咸", "th": "เค็ม", "ko": "짜다", "es": "Salado" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "মচমচে", "romanization": "mochmoche", "options": { "en": ["Crunchy / crispy", "Soft", "Bitter", "Salty"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "তেতো", "romanization": "teto", "options": { "en": ["Bitter", "Sweet", "Salty", "Sour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Salty' in Bengali?" }, "options": { "neutral": ["নোনতা", "মিষ্টি", "টক", "তেতো"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Soft / tender' in Bengali?" }, "options": { "neutral": ["নরম", "মচমচে", "তেলতেলে", "সুস্বাদু"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "তেলতেলে", "romanization": "teltele", "options": { "en": ["Oily / greasy", "Spicy", "Sweet", "Sour"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "মচমচে", "romanization": "mochmoche", "native": { "en": "Crunchy / crispy" } },
+              { "target": "নরম", "romanization": "norom", "native": { "en": "Soft / tender" } },
+              { "target": "তেতো", "romanization": "teto", "native": { "en": "Bitter" } },
+              { "target": "নোনতা", "romanization": "nonta", "native": { "en": "Salty" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Dietary Preferences",
+            "zh": "饮食偏好",
+            "th": "ความชอบด้านอาหาร",
+            "ko": "식이 선호도",
+            "es": "Preferencias dietéticas"
+          },
+          "objectives": {
+            "en": ["Communicate dietary restrictions", "Ask about vegetarian and halal options"]
+          },
+          "vocabulary": [
+            { "word": "হালাল", "romanization": "halal", "meanings": { "en": "Halal (permissible under Islamic law)", "zh": "清真", "th": "ฮาลาล", "ko": "할랄", "es": "Halal" } },
+            { "word": "নিরামিষ", "romanization": "niramisho", "meanings": { "en": "Vegetarian", "zh": "素食", "th": "มังสวิรัติ", "ko": "채식주의자 / 채식", "es": "Vegetariano" } },
+            { "word": "এলার্জি", "romanization": "elarji", "meanings": { "en": "Allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "Alergia" } },
+            { "word": "আমি খাই না", "romanization": "ami khai na", "meanings": { "en": "I do not eat", "zh": "我不吃", "th": "ฉันไม่กิน", "ko": "저는 먹지 않아요", "es": "No como" } },
+            { "word": "আছে কি?", "romanization": "ache ki?", "meanings": { "en": "Is there any?", "zh": "有没有？", "th": "มีไหม?", "ko": "있나요?", "es": "¿Hay?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "হালাল", "romanization": "halal", "options": { "en": ["Halal (permissible)", "Vegetarian", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "এলার্জি", "romanization": "elarji", "options": { "en": ["Allergy", "Preference", "Spice", "Flavour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I do not eat' in Bengali?" }, "options": { "neutral": ["আমি খাই না", "এলার্জি", "হালাল", "নিরামিষ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Is there any?' in Bengali?" }, "options": { "neutral": ["আছে কি?", "আমি খাই না", "এলার্জি", "নিরামিষ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "নিরামিষ", "romanization": "niramisho", "options": { "en": ["Vegetarian", "Halal", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "হালাল", "romanization": "halal", "native": { "en": "Halal (permissible)" } },
+              { "target": "এলার্জি", "romanization": "elarji", "native": { "en": "Allergy" } },
+              { "target": "আমি খাই না", "romanization": "ami khai na", "native": { "en": "I do not eat" } },
+              { "target": "আছে কি?", "romanization": "ache ki?", "native": { "en": "Is there any?" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

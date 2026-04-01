@@ -1,0 +1,2010 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings, Introductions & Numbers" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Goodbye" },
+          "objectives": {
+            "en": [
+              "Greet people in German at different times of day",
+              "Say goodbye using common farewell expressions",
+              "Distinguish formal and informal greetings"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Hallo",
+              "romanization": null,
+              "meanings": { "en": "Hello" },
+              "gendered": null
+            },
+            {
+              "word": "Guten Morgen",
+              "romanization": null,
+              "meanings": { "en": "Good morning" },
+              "gendered": null
+            },
+            {
+              "word": "Guten Tag",
+              "romanization": null,
+              "meanings": { "en": "Good day / Hello" },
+              "gendered": null
+            },
+            {
+              "word": "Guten Abend",
+              "romanization": null,
+              "meanings": { "en": "Good evening" },
+              "gendered": null
+            },
+            {
+              "word": "Tschüss",
+              "romanization": null,
+              "meanings": { "en": "Goodbye (informal)" },
+              "gendered": null
+            },
+            {
+              "word": "Auf Wiedersehen",
+              "romanization": null,
+              "meanings": { "en": "Goodbye (formal)" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "Hallo",
+              "romanization": null,
+              "options": { "en": ["Hello", "Goodbye", "Please", "Thank you"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "Tschüss",
+              "romanization": null,
+              "options": { "en": ["Good morning", "Goodbye", "Good evening", "Hello"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'Good morning' in German?" },
+              "options": { "neutral": ["Guten Morgen", "Guten Abend", "Guten Tag", "Gute Nacht"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'Goodbye' formally in German?" },
+              "options": { "neutral": ["Tschüss", "Hallo", "Auf Wiedersehen", "Guten Tag"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "Guten Abend",
+              "romanization": null,
+              "options": { "en": ["Good morning", "Good day", "Good evening", "Goodbye"] },
+              "correct": 2
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "Hallo", "romanization": null, "native": { "en": "Hello" } },
+                { "target": "Tschüss", "romanization": null, "native": { "en": "Goodbye" } },
+                { "target": "Guten Morgen", "romanization": null, "native": { "en": "Good morning" } },
+                { "target": "Guten Abend", "romanization": null, "native": { "en": "Good evening" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Auf Wiedersehen",
+              "romanization": null,
+              "options": { "en": ["Hello", "Goodbye (formal)", "Good morning", "Good evening"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Introductions & Pleasantries" },
+          "objectives": {
+            "en": [
+              "Introduce yourself and ask someone's name",
+              "Ask and answer 'How are you?'",
+              "Use basic polite expressions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Ich heiße",
+              "romanization": null,
+              "meanings": { "en": "My name is" },
+              "gendered": null
+            },
+            {
+              "word": "Wie heißen Sie?",
+              "romanization": null,
+              "meanings": { "en": "What is your name? (formal)" },
+              "gendered": null
+            },
+            {
+              "word": "Wie geht es Ihnen?",
+              "romanization": null,
+              "meanings": { "en": "How are you? (formal)" },
+              "gendered": null
+            },
+            {
+              "word": "Danke",
+              "romanization": null,
+              "meanings": { "en": "Thank you" },
+              "gendered": null
+            },
+            {
+              "word": "Bitte",
+              "romanization": null,
+              "meanings": { "en": "Please / You're welcome" },
+              "gendered": null
+            },
+            {
+              "word": "Freut mich",
+              "romanization": null,
+              "meanings": { "en": "Nice to meet you" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "Danke",
+              "romanization": null,
+              "options": { "en": ["Please", "Thank you", "Sorry", "Hello"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "Freut mich",
+              "romanization": null,
+              "options": { "en": ["Thank you", "Goodbye", "Nice to meet you", "How are you?"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'Please' in German?" },
+              "options": { "neutral": ["Danke", "Bitte", "Hallo", "Tschüss"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'My name is' in German?" },
+              "options": { "neutral": ["Wie heißen Sie?", "Ich heiße", "Freut mich", "Wie geht es Ihnen?"] },
+              "correct": 1
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wie heißen Sie?",
+              "romanization": null,
+              "options": { "en": ["How are you?", "What is your name?", "Nice to meet you", "Thank you"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "Danke", "romanization": null, "native": { "en": "Thank you" } },
+                { "target": "Bitte", "romanization": null, "native": { "en": "Please" } },
+                { "target": "Freut mich", "romanization": null, "native": { "en": "Nice to meet you" } },
+                { "target": "Ich heiße", "romanization": null, "native": { "en": "My name is" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wie geht es Ihnen?",
+              "romanization": null,
+              "options": { "en": ["What is your name?", "How are you?", "Nice to meet you", "Goodbye"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Numbers 0-10" },
+          "objectives": {
+            "en": [
+              "Count from zero to ten in German",
+              "Recognize written and spoken numbers"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "null",
+              "romanization": null,
+              "meanings": { "en": "zero" },
+              "gendered": null
+            },
+            {
+              "word": "eins",
+              "romanization": null,
+              "meanings": { "en": "one" },
+              "gendered": null
+            },
+            {
+              "word": "zwei",
+              "romanization": null,
+              "meanings": { "en": "two" },
+              "gendered": null
+            },
+            {
+              "word": "drei",
+              "romanization": null,
+              "meanings": { "en": "three" },
+              "gendered": null
+            },
+            {
+              "word": "vier",
+              "romanization": null,
+              "meanings": { "en": "four" },
+              "gendered": null
+            },
+            {
+              "word": "fünf",
+              "romanization": null,
+              "meanings": { "en": "five" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "drei",
+              "romanization": null,
+              "options": { "en": ["one", "two", "three", "four"] },
+              "correct": 2
+            },
+            {
+              "type": "target_to_native",
+              "word": "fünf",
+              "romanization": null,
+              "options": { "en": ["three", "four", "five", "six"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'two' in German?" },
+              "options": { "neutral": ["eins", "zwei", "drei", "vier"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'zero' in German?" },
+              "options": { "neutral": ["null", "eins", "nein", "nacht"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "vier",
+              "romanization": null,
+              "options": { "en": ["three", "four", "five", "six"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "eins", "romanization": null, "native": { "en": "one" } },
+                { "target": "zwei", "romanization": null, "native": { "en": "two" } },
+                { "target": "drei", "romanization": null, "native": { "en": "three" } },
+                { "target": "vier", "romanization": null, "native": { "en": "four" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "fünf",
+              "romanization": null,
+              "options": { "en": ["four", "five", "six", "seven"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Numbers 11-20 & Age" },
+          "objectives": {
+            "en": [
+              "Count from eleven to twenty in German",
+              "Ask and tell someone's age"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "elf",
+              "romanization": null,
+              "meanings": { "en": "eleven" },
+              "gendered": null
+            },
+            {
+              "word": "zwölf",
+              "romanization": null,
+              "meanings": { "en": "twelve" },
+              "gendered": null
+            },
+            {
+              "word": "fünfzehn",
+              "romanization": null,
+              "meanings": { "en": "fifteen" },
+              "gendered": null
+            },
+            {
+              "word": "zwanzig",
+              "romanization": null,
+              "meanings": { "en": "twenty" },
+              "gendered": null
+            },
+            {
+              "word": "Wie alt bist du?",
+              "romanization": null,
+              "meanings": { "en": "How old are you? (informal)" },
+              "gendered": null
+            },
+            {
+              "word": "Ich bin ... Jahre alt",
+              "romanization": null,
+              "meanings": { "en": "I am ... years old" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "zwölf",
+              "romanization": null,
+              "options": { "en": ["eleven", "twelve", "thirteen", "fourteen"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "zwanzig",
+              "romanization": null,
+              "options": { "en": ["fifteen", "sixteen", "eighteen", "twenty"] },
+              "correct": 3
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'eleven' in German?" },
+              "options": { "neutral": ["zehn", "elf", "zwölf", "dreizehn"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you ask 'How old are you?' informally in German?" },
+              "options": { "neutral": ["Wie heißt du?", "Wo wohnst du?", "Wie alt bist du?", "Wie geht es dir?"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "fünfzehn",
+              "romanization": null,
+              "options": { "en": ["thirteen", "fourteen", "fifteen", "sixteen"] },
+              "correct": 2
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "elf", "romanization": null, "native": { "en": "eleven" } },
+                { "target": "zwölf", "romanization": null, "native": { "en": "twelve" } },
+                { "target": "fünfzehn", "romanization": null, "native": { "en": "fifteen" } },
+                { "target": "zwanzig", "romanization": null, "native": { "en": "twenty" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wie alt bist du?",
+              "romanization": null,
+              "options": { "en": ["What is your name?", "How old are you?", "Where do you live?", "How are you?"] },
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Family, Descriptions & Colors" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Family Members" },
+          "objectives": {
+            "en": [
+              "Name immediate family members in German",
+              "Use articles with family vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "die Familie",
+              "romanization": null,
+              "meanings": { "en": "the family" },
+              "gendered": null
+            },
+            {
+              "word": "die Mutter",
+              "romanization": null,
+              "meanings": { "en": "the mother" },
+              "gendered": null
+            },
+            {
+              "word": "der Vater",
+              "romanization": null,
+              "meanings": { "en": "the father" },
+              "gendered": null
+            },
+            {
+              "word": "der Bruder",
+              "romanization": null,
+              "meanings": { "en": "the brother" },
+              "gendered": null
+            },
+            {
+              "word": "die Schwester",
+              "romanization": null,
+              "meanings": { "en": "the sister" },
+              "gendered": null
+            },
+            {
+              "word": "das Kind",
+              "romanization": null,
+              "meanings": { "en": "the child" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "die Mutter",
+              "romanization": null,
+              "options": { "en": ["the father", "the mother", "the sister", "the brother"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Bruder",
+              "romanization": null,
+              "options": { "en": ["the brother", "the sister", "the child", "the family"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the father' in German?" },
+              "options": { "neutral": ["die Mutter", "der Vater", "der Bruder", "das Kind"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the child' in German?" },
+              "options": { "neutral": ["der Bruder", "die Schwester", "das Kind", "die Familie"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "die Schwester",
+              "romanization": null,
+              "options": { "en": ["the mother", "the sister", "the brother", "the family"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "die Mutter", "romanization": null, "native": { "en": "the mother" } },
+                { "target": "der Vater", "romanization": null, "native": { "en": "the father" } },
+                { "target": "der Bruder", "romanization": null, "native": { "en": "the brother" } },
+                { "target": "die Schwester", "romanization": null, "native": { "en": "the sister" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Extended Family & Relationships" },
+          "objectives": {
+            "en": [
+              "Talk about extended family members",
+              "Describe relationships using possessives"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "die Großmutter",
+              "romanization": null,
+              "meanings": { "en": "the grandmother" },
+              "gendered": null
+            },
+            {
+              "word": "der Großvater",
+              "romanization": null,
+              "meanings": { "en": "the grandfather" },
+              "gendered": null
+            },
+            {
+              "word": "der Onkel",
+              "romanization": null,
+              "meanings": { "en": "the uncle" },
+              "gendered": null
+            },
+            {
+              "word": "die Tante",
+              "romanization": null,
+              "meanings": { "en": "the aunt" },
+              "gendered": null
+            },
+            {
+              "word": "mein",
+              "romanization": null,
+              "meanings": { "en": "my (masculine/neuter)" },
+              "gendered": {
+                "male": { "word": "mein", "romanization": null },
+                "female": { "word": "meine", "romanization": null }
+              }
+            },
+            {
+              "word": "dein",
+              "romanization": null,
+              "meanings": { "en": "your (informal, masculine/neuter)" },
+              "gendered": {
+                "male": { "word": "dein", "romanization": null },
+                "female": { "word": "deine", "romanization": null }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "die Großmutter",
+              "romanization": null,
+              "options": { "en": ["the aunt", "the grandmother", "the mother", "the sister"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Onkel",
+              "romanization": null,
+              "options": { "en": ["the uncle", "the grandfather", "the father", "the brother"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the grandfather' in German?" },
+              "options": { "neutral": ["der Großvater", "die Großmutter", "der Onkel", "der Vater"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the aunt' in German?" },
+              "options": { "neutral": ["die Großmutter", "die Schwester", "die Tante", "die Mutter"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "der Großvater",
+              "romanization": null,
+              "options": { "en": ["the grandmother", "the grandfather", "the uncle", "the father"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "die Großmutter", "romanization": null, "native": { "en": "the grandmother" } },
+                { "target": "der Großvater", "romanization": null, "native": { "en": "the grandfather" } },
+                { "target": "der Onkel", "romanization": null, "native": { "en": "the uncle" } },
+                { "target": "die Tante", "romanization": null, "native": { "en": "the aunt" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "die Tante",
+              "romanization": null,
+              "options": { "en": ["the grandmother", "the aunt", "the sister", "the mother"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Descriptions & Adjectives" },
+          "objectives": {
+            "en": [
+              "Describe people using basic adjectives",
+              "Use 'sein' (to be) with descriptions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "groß",
+              "romanization": null,
+              "meanings": { "en": "tall / big" },
+              "gendered": null
+            },
+            {
+              "word": "klein",
+              "romanization": null,
+              "meanings": { "en": "small / short" },
+              "gendered": null
+            },
+            {
+              "word": "jung",
+              "romanization": null,
+              "meanings": { "en": "young" },
+              "gendered": null
+            },
+            {
+              "word": "alt",
+              "romanization": null,
+              "meanings": { "en": "old" },
+              "gendered": null
+            },
+            {
+              "word": "schön",
+              "romanization": null,
+              "meanings": { "en": "beautiful / nice" },
+              "gendered": null
+            },
+            {
+              "word": "nett",
+              "romanization": null,
+              "meanings": { "en": "nice / kind" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "groß",
+              "romanization": null,
+              "options": { "en": ["small", "tall / big", "young", "old"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "schön",
+              "romanization": null,
+              "options": { "en": ["kind", "old", "beautiful", "small"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'young' in German?" },
+              "options": { "neutral": ["alt", "jung", "groß", "klein"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'nice / kind' in German?" },
+              "options": { "neutral": ["schön", "nett", "groß", "alt"] },
+              "correct": 1
+            },
+            {
+              "type": "listening",
+              "audio_text": "klein",
+              "romanization": null,
+              "options": { "en": ["tall", "small", "young", "beautiful"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "groß", "romanization": null, "native": { "en": "tall / big" } },
+                { "target": "klein", "romanization": null, "native": { "en": "small / short" } },
+                { "target": "jung", "romanization": null, "native": { "en": "young" } },
+                { "target": "alt", "romanization": null, "native": { "en": "old" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "nett",
+              "romanization": null,
+              "options": { "en": ["beautiful", "kind", "young", "tall"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Colors" },
+          "objectives": {
+            "en": [
+              "Name basic colors in German",
+              "Describe objects using colors"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "rot",
+              "romanization": null,
+              "meanings": { "en": "red" },
+              "gendered": null
+            },
+            {
+              "word": "blau",
+              "romanization": null,
+              "meanings": { "en": "blue" },
+              "gendered": null
+            },
+            {
+              "word": "grün",
+              "romanization": null,
+              "meanings": { "en": "green" },
+              "gendered": null
+            },
+            {
+              "word": "gelb",
+              "romanization": null,
+              "meanings": { "en": "yellow" },
+              "gendered": null
+            },
+            {
+              "word": "schwarz",
+              "romanization": null,
+              "meanings": { "en": "black" },
+              "gendered": null
+            },
+            {
+              "word": "weiß",
+              "romanization": null,
+              "meanings": { "en": "white" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "rot",
+              "romanization": null,
+              "options": { "en": ["blue", "red", "green", "yellow"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "schwarz",
+              "romanization": null,
+              "options": { "en": ["white", "green", "black", "blue"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'green' in German?" },
+              "options": { "neutral": ["gelb", "grün", "blau", "rot"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'white' in German?" },
+              "options": { "neutral": ["schwarz", "rot", "weiß", "gelb"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "blau",
+              "romanization": null,
+              "options": { "en": ["red", "blue", "yellow", "green"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "rot", "romanization": null, "native": { "en": "red" } },
+                { "target": "blau", "romanization": null, "native": { "en": "blue" } },
+                { "target": "grün", "romanization": null, "native": { "en": "green" } },
+                { "target": "gelb", "romanization": null, "native": { "en": "yellow" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "gelb",
+              "romanization": null,
+              "options": { "en": ["green", "yellow", "red", "black"] },
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food, Drinks & Ordering" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Food Basics" },
+          "objectives": {
+            "en": [
+              "Name common foods in German with articles",
+              "Understand gendered nouns for food items"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "das Brot",
+              "romanization": null,
+              "meanings": { "en": "the bread" },
+              "gendered": null
+            },
+            {
+              "word": "der Käse",
+              "romanization": null,
+              "meanings": { "en": "the cheese" },
+              "gendered": null
+            },
+            {
+              "word": "die Suppe",
+              "romanization": null,
+              "meanings": { "en": "the soup" },
+              "gendered": null
+            },
+            {
+              "word": "der Apfel",
+              "romanization": null,
+              "meanings": { "en": "the apple" },
+              "gendered": null
+            },
+            {
+              "word": "das Ei",
+              "romanization": null,
+              "meanings": { "en": "the egg" },
+              "gendered": null
+            },
+            {
+              "word": "die Kartoffel",
+              "romanization": null,
+              "meanings": { "en": "the potato" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "das Brot",
+              "romanization": null,
+              "options": { "en": ["the cheese", "the bread", "the soup", "the egg"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Kartoffel",
+              "romanization": null,
+              "options": { "en": ["the apple", "the egg", "the potato", "the soup"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the cheese' in German?" },
+              "options": { "neutral": ["das Brot", "der Käse", "die Suppe", "das Ei"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the apple' in German?" },
+              "options": { "neutral": ["der Apfel", "die Kartoffel", "das Ei", "das Brot"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "die Suppe",
+              "romanization": null,
+              "options": { "en": ["the bread", "the cheese", "the soup", "the potato"] },
+              "correct": 2
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "das Brot", "romanization": null, "native": { "en": "the bread" } },
+                { "target": "der Käse", "romanization": null, "native": { "en": "the cheese" } },
+                { "target": "der Apfel", "romanization": null, "native": { "en": "the apple" } },
+                { "target": "das Ei", "romanization": null, "native": { "en": "the egg" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Ei",
+              "romanization": null,
+              "options": { "en": ["the egg", "the bread", "the apple", "the cheese"] },
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Drinks" },
+          "objectives": {
+            "en": [
+              "Name common drinks in German",
+              "Order beverages in simple sentences"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "das Wasser",
+              "romanization": null,
+              "meanings": { "en": "the water" },
+              "gendered": null
+            },
+            {
+              "word": "der Kaffee",
+              "romanization": null,
+              "meanings": { "en": "the coffee" },
+              "gendered": null
+            },
+            {
+              "word": "der Tee",
+              "romanization": null,
+              "meanings": { "en": "the tea" },
+              "gendered": null
+            },
+            {
+              "word": "die Milch",
+              "romanization": null,
+              "meanings": { "en": "the milk" },
+              "gendered": null
+            },
+            {
+              "word": "der Saft",
+              "romanization": null,
+              "meanings": { "en": "the juice" },
+              "gendered": null
+            },
+            {
+              "word": "das Bier",
+              "romanization": null,
+              "meanings": { "en": "the beer" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "der Kaffee",
+              "romanization": null,
+              "options": { "en": ["the tea", "the coffee", "the juice", "the water"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Bier",
+              "romanization": null,
+              "options": { "en": ["the water", "the milk", "the beer", "the juice"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the water' in German?" },
+              "options": { "neutral": ["das Wasser", "die Milch", "der Saft", "der Tee"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the milk' in German?" },
+              "options": { "neutral": ["der Saft", "das Wasser", "die Milch", "das Bier"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "der Tee",
+              "romanization": null,
+              "options": { "en": ["the coffee", "the tea", "the beer", "the water"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "das Wasser", "romanization": null, "native": { "en": "the water" } },
+                { "target": "der Kaffee", "romanization": null, "native": { "en": "the coffee" } },
+                { "target": "der Tee", "romanization": null, "native": { "en": "the tea" } },
+                { "target": "die Milch", "romanization": null, "native": { "en": "the milk" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "der Saft",
+              "romanization": null,
+              "options": { "en": ["the juice", "the milk", "the tea", "the beer"] },
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Restaurant" },
+          "objectives": {
+            "en": [
+              "Order food and drinks at a restaurant",
+              "Use polite phrases for ordering"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Ich möchte",
+              "romanization": null,
+              "meanings": { "en": "I would like" },
+              "gendered": null
+            },
+            {
+              "word": "die Speisekarte",
+              "romanization": null,
+              "meanings": { "en": "the menu" },
+              "gendered": null
+            },
+            {
+              "word": "die Rechnung",
+              "romanization": null,
+              "meanings": { "en": "the bill / check" },
+              "gendered": null
+            },
+            {
+              "word": "das Frühstück",
+              "romanization": null,
+              "meanings": { "en": "the breakfast" },
+              "gendered": null
+            },
+            {
+              "word": "das Mittagessen",
+              "romanization": null,
+              "meanings": { "en": "the lunch" },
+              "gendered": null
+            },
+            {
+              "word": "das Abendessen",
+              "romanization": null,
+              "meanings": { "en": "the dinner" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "die Speisekarte",
+              "romanization": null,
+              "options": { "en": ["the bill", "the menu", "the breakfast", "the lunch"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "Ich möchte",
+              "romanization": null,
+              "options": { "en": ["I have", "I need", "I would like", "I want"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the bill' in German?" },
+              "options": { "neutral": ["die Speisekarte", "die Rechnung", "das Frühstück", "das Abendessen"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the dinner' in German?" },
+              "options": { "neutral": ["das Frühstück", "das Mittagessen", "das Abendessen", "die Speisekarte"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Frühstück",
+              "romanization": null,
+              "options": { "en": ["the breakfast", "the lunch", "the dinner", "the menu"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "das Frühstück", "romanization": null, "native": { "en": "the breakfast" } },
+                { "target": "das Mittagessen", "romanization": null, "native": { "en": "the lunch" } },
+                { "target": "das Abendessen", "romanization": null, "native": { "en": "the dinner" } },
+                { "target": "die Rechnung", "romanization": null, "native": { "en": "the bill" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Mittagessen",
+              "romanization": null,
+              "options": { "en": ["the breakfast", "the lunch", "the dinner", "the menu"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Likes, Dislikes & Tastes" },
+          "objectives": {
+            "en": [
+              "Express food preferences in German",
+              "Describe tastes using adjectives"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "lecker",
+              "romanization": null,
+              "meanings": { "en": "delicious" },
+              "gendered": null
+            },
+            {
+              "word": "süß",
+              "romanization": null,
+              "meanings": { "en": "sweet" },
+              "gendered": null
+            },
+            {
+              "word": "salzig",
+              "romanization": null,
+              "meanings": { "en": "salty" },
+              "gendered": null
+            },
+            {
+              "word": "scharf",
+              "romanization": null,
+              "meanings": { "en": "spicy" },
+              "gendered": null
+            },
+            {
+              "word": "Ich mag",
+              "romanization": null,
+              "meanings": { "en": "I like" },
+              "gendered": null
+            },
+            {
+              "word": "Ich mag nicht",
+              "romanization": null,
+              "meanings": { "en": "I don't like" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "lecker",
+              "romanization": null,
+              "options": { "en": ["salty", "sweet", "delicious", "spicy"] },
+              "correct": 2
+            },
+            {
+              "type": "target_to_native",
+              "word": "scharf",
+              "romanization": null,
+              "options": { "en": ["sweet", "salty", "delicious", "spicy"] },
+              "correct": 3
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'sweet' in German?" },
+              "options": { "neutral": ["salzig", "scharf", "süß", "lecker"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I like' in German?" },
+              "options": { "neutral": ["Ich möchte", "Ich habe", "Ich mag nicht", "Ich mag"] },
+              "correct": 3
+            },
+            {
+              "type": "listening",
+              "audio_text": "salzig",
+              "romanization": null,
+              "options": { "en": ["sweet", "salty", "spicy", "delicious"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "lecker", "romanization": null, "native": { "en": "delicious" } },
+                { "target": "süß", "romanization": null, "native": { "en": "sweet" } },
+                { "target": "salzig", "romanization": null, "native": { "en": "salty" } },
+                { "target": "scharf", "romanization": null, "native": { "en": "spicy" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich mag",
+              "romanization": null,
+              "options": { "en": ["I would like", "I don't like", "I like", "I have"] },
+              "correct": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Daily Routine & Time" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Daily Activities" },
+          "objectives": {
+            "en": [
+              "Describe daily routine activities in German",
+              "Use common reflexive verbs"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "aufstehen",
+              "romanization": null,
+              "meanings": { "en": "to get up" },
+              "gendered": null
+            },
+            {
+              "word": "schlafen",
+              "romanization": null,
+              "meanings": { "en": "to sleep" },
+              "gendered": null
+            },
+            {
+              "word": "essen",
+              "romanization": null,
+              "meanings": { "en": "to eat" },
+              "gendered": null
+            },
+            {
+              "word": "trinken",
+              "romanization": null,
+              "meanings": { "en": "to drink" },
+              "gendered": null
+            },
+            {
+              "word": "arbeiten",
+              "romanization": null,
+              "meanings": { "en": "to work" },
+              "gendered": null
+            },
+            {
+              "word": "lernen",
+              "romanization": null,
+              "meanings": { "en": "to learn / to study" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "aufstehen",
+              "romanization": null,
+              "options": { "en": ["to sleep", "to get up", "to eat", "to work"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "arbeiten",
+              "romanization": null,
+              "options": { "en": ["to learn", "to drink", "to eat", "to work"] },
+              "correct": 3
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to sleep' in German?" },
+              "options": { "neutral": ["essen", "schlafen", "trinken", "aufstehen"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to drink' in German?" },
+              "options": { "neutral": ["essen", "lernen", "trinken", "arbeiten"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "essen",
+              "romanization": null,
+              "options": { "en": ["to eat", "to drink", "to sleep", "to work"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "aufstehen", "romanization": null, "native": { "en": "to get up" } },
+                { "target": "schlafen", "romanization": null, "native": { "en": "to sleep" } },
+                { "target": "essen", "romanization": null, "native": { "en": "to eat" } },
+                { "target": "trinken", "romanization": null, "native": { "en": "to drink" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "lernen",
+              "romanization": null,
+              "options": { "en": ["to work", "to learn", "to eat", "to get up"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Telling Time" },
+          "objectives": {
+            "en": [
+              "Ask and tell the time in German",
+              "Understand clock-related vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "die Uhr",
+              "romanization": null,
+              "meanings": { "en": "the clock / o'clock" },
+              "gendered": null
+            },
+            {
+              "word": "Wie spät ist es?",
+              "romanization": null,
+              "meanings": { "en": "What time is it?" },
+              "gendered": null
+            },
+            {
+              "word": "halb",
+              "romanization": null,
+              "meanings": { "en": "half (past)" },
+              "gendered": null
+            },
+            {
+              "word": "Viertel",
+              "romanization": null,
+              "meanings": { "en": "quarter" },
+              "gendered": null
+            },
+            {
+              "word": "morgens",
+              "romanization": null,
+              "meanings": { "en": "in the morning" },
+              "gendered": null
+            },
+            {
+              "word": "abends",
+              "romanization": null,
+              "meanings": { "en": "in the evening" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "die Uhr",
+              "romanization": null,
+              "options": { "en": ["the time", "the clock", "the hour", "the minute"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "morgens",
+              "romanization": null,
+              "options": { "en": ["in the evening", "at noon", "in the morning", "at night"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you ask 'What time is it?' in German?" },
+              "options": { "neutral": ["Wie geht es?", "Wie spät ist es?", "Wie alt bist du?", "Wie heißen Sie?"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'quarter' in German?" },
+              "options": { "neutral": ["halb", "Viertel", "Uhr", "morgens"] },
+              "correct": 1
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wie spät ist es?",
+              "romanization": null,
+              "options": { "en": ["How are you?", "What time is it?", "What is your name?", "How old are you?"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "die Uhr", "romanization": null, "native": { "en": "the clock" } },
+                { "target": "halb", "romanization": null, "native": { "en": "half" } },
+                { "target": "Viertel", "romanization": null, "native": { "en": "quarter" } },
+                { "target": "morgens", "romanization": null, "native": { "en": "in the morning" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Days of the Week" },
+          "objectives": {
+            "en": [
+              "Name all seven days of the week in German",
+              "Talk about weekly schedules"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Montag",
+              "romanization": null,
+              "meanings": { "en": "Monday" },
+              "gendered": null
+            },
+            {
+              "word": "Dienstag",
+              "romanization": null,
+              "meanings": { "en": "Tuesday" },
+              "gendered": null
+            },
+            {
+              "word": "Mittwoch",
+              "romanization": null,
+              "meanings": { "en": "Wednesday" },
+              "gendered": null
+            },
+            {
+              "word": "Donnerstag",
+              "romanization": null,
+              "meanings": { "en": "Thursday" },
+              "gendered": null
+            },
+            {
+              "word": "Freitag",
+              "romanization": null,
+              "meanings": { "en": "Friday" },
+              "gendered": null
+            },
+            {
+              "word": "das Wochenende",
+              "romanization": null,
+              "meanings": { "en": "the weekend" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "Mittwoch",
+              "romanization": null,
+              "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] },
+              "correct": 2
+            },
+            {
+              "type": "target_to_native",
+              "word": "Freitag",
+              "romanization": null,
+              "options": { "en": ["Thursday", "Friday", "Saturday", "Sunday"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'Monday' in German?" },
+              "options": { "neutral": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the weekend' in German?" },
+              "options": { "neutral": ["der Freitag", "das Wochenende", "der Samstag", "der Sonntag"] },
+              "correct": 1
+            },
+            {
+              "type": "listening",
+              "audio_text": "Donnerstag",
+              "romanization": null,
+              "options": { "en": ["Tuesday", "Wednesday", "Thursday", "Friday"] },
+              "correct": 2
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "Montag", "romanization": null, "native": { "en": "Monday" } },
+                { "target": "Dienstag", "romanization": null, "native": { "en": "Tuesday" } },
+                { "target": "Mittwoch", "romanization": null, "native": { "en": "Wednesday" } },
+                { "target": "Freitag", "romanization": null, "native": { "en": "Friday" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Wochenende",
+              "romanization": null,
+              "options": { "en": ["the weekday", "the weekend", "Friday", "Monday"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Months & Seasons" },
+          "objectives": {
+            "en": [
+              "Name the months and seasons in German",
+              "Talk about birthdays and dates"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Januar",
+              "romanization": null,
+              "meanings": { "en": "January" },
+              "gendered": null
+            },
+            {
+              "word": "der Frühling",
+              "romanization": null,
+              "meanings": { "en": "the spring" },
+              "gendered": null
+            },
+            {
+              "word": "der Sommer",
+              "romanization": null,
+              "meanings": { "en": "the summer" },
+              "gendered": null
+            },
+            {
+              "word": "der Herbst",
+              "romanization": null,
+              "meanings": { "en": "the autumn" },
+              "gendered": null
+            },
+            {
+              "word": "der Winter",
+              "romanization": null,
+              "meanings": { "en": "the winter" },
+              "gendered": null
+            },
+            {
+              "word": "der Geburtstag",
+              "romanization": null,
+              "meanings": { "en": "the birthday" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "der Sommer",
+              "romanization": null,
+              "options": { "en": ["spring", "summer", "autumn", "winter"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Geburtstag",
+              "romanization": null,
+              "options": { "en": ["the holiday", "the weekend", "the birthday", "the month"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'spring' in German?" },
+              "options": { "neutral": ["der Herbst", "der Winter", "der Frühling", "der Sommer"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'winter' in German?" },
+              "options": { "neutral": ["der Frühling", "der Sommer", "der Herbst", "der Winter"] },
+              "correct": 3
+            },
+            {
+              "type": "listening",
+              "audio_text": "der Herbst",
+              "romanization": null,
+              "options": { "en": ["spring", "summer", "autumn", "winter"] },
+              "correct": 2
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "der Frühling", "romanization": null, "native": { "en": "spring" } },
+                { "target": "der Sommer", "romanization": null, "native": { "en": "summer" } },
+                { "target": "der Herbst", "romanization": null, "native": { "en": "autumn" } },
+                { "target": "der Winter", "romanization": null, "native": { "en": "winter" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "der Geburtstag",
+              "romanization": null,
+              "options": { "en": ["the weekend", "the birthday", "the holiday", "the season"] },
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Directions, Transport & Shopping" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Places in Town" },
+          "objectives": {
+            "en": [
+              "Name common places and buildings in German",
+              "Ask where something is located"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "die Straße",
+              "romanization": null,
+              "meanings": { "en": "the street" },
+              "gendered": null
+            },
+            {
+              "word": "der Bahnhof",
+              "romanization": null,
+              "meanings": { "en": "the train station" },
+              "gendered": null
+            },
+            {
+              "word": "das Krankenhaus",
+              "romanization": null,
+              "meanings": { "en": "the hospital" },
+              "gendered": null
+            },
+            {
+              "word": "die Schule",
+              "romanization": null,
+              "meanings": { "en": "the school" },
+              "gendered": null
+            },
+            {
+              "word": "der Supermarkt",
+              "romanization": null,
+              "meanings": { "en": "the supermarket" },
+              "gendered": null
+            },
+            {
+              "word": "Wo ist...?",
+              "romanization": null,
+              "meanings": { "en": "Where is...?" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "der Bahnhof",
+              "romanization": null,
+              "options": { "en": ["the airport", "the train station", "the bus stop", "the school"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Krankenhaus",
+              "romanization": null,
+              "options": { "en": ["the school", "the supermarket", "the hospital", "the street"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the supermarket' in German?" },
+              "options": { "neutral": ["die Schule", "der Bahnhof", "der Supermarkt", "die Straße"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you ask 'Where is...?' in German?" },
+              "options": { "neutral": ["Was ist...?", "Wie ist...?", "Wo ist...?", "Wer ist...?"] },
+              "correct": 2
+            },
+            {
+              "type": "listening",
+              "audio_text": "die Schule",
+              "romanization": null,
+              "options": { "en": ["the hospital", "the school", "the street", "the station"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "der Bahnhof", "romanization": null, "native": { "en": "the train station" } },
+                { "target": "das Krankenhaus", "romanization": null, "native": { "en": "the hospital" } },
+                { "target": "die Schule", "romanization": null, "native": { "en": "the school" } },
+                { "target": "der Supermarkt", "romanization": null, "native": { "en": "the supermarket" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Directions" },
+          "objectives": {
+            "en": [
+              "Give and understand simple directions in German",
+              "Use directional vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "links",
+              "romanization": null,
+              "meanings": { "en": "left" },
+              "gendered": null
+            },
+            {
+              "word": "rechts",
+              "romanization": null,
+              "meanings": { "en": "right" },
+              "gendered": null
+            },
+            {
+              "word": "geradeaus",
+              "romanization": null,
+              "meanings": { "en": "straight ahead" },
+              "gendered": null
+            },
+            {
+              "word": "neben",
+              "romanization": null,
+              "meanings": { "en": "next to" },
+              "gendered": null
+            },
+            {
+              "word": "gegenüber",
+              "romanization": null,
+              "meanings": { "en": "across from / opposite" },
+              "gendered": null
+            },
+            {
+              "word": "Entschuldigung",
+              "romanization": null,
+              "meanings": { "en": "Excuse me / Sorry" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "geradeaus",
+              "romanization": null,
+              "options": { "en": ["left", "right", "straight ahead", "behind"] },
+              "correct": 2
+            },
+            {
+              "type": "target_to_native",
+              "word": "Entschuldigung",
+              "romanization": null,
+              "options": { "en": ["Thank you", "Please", "Excuse me", "Hello"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'left' in German?" },
+              "options": { "neutral": ["rechts", "links", "geradeaus", "neben"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'across from' in German?" },
+              "options": { "neutral": ["neben", "links", "rechts", "gegenüber"] },
+              "correct": 3
+            },
+            {
+              "type": "listening",
+              "audio_text": "rechts",
+              "romanization": null,
+              "options": { "en": ["left", "right", "straight", "behind"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "links", "romanization": null, "native": { "en": "left" } },
+                { "target": "rechts", "romanization": null, "native": { "en": "right" } },
+                { "target": "geradeaus", "romanization": null, "native": { "en": "straight ahead" } },
+                { "target": "neben", "romanization": null, "native": { "en": "next to" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "gegenüber",
+              "romanization": null,
+              "options": { "en": ["next to", "behind", "across from", "in front of"] },
+              "correct": 2
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Transport" },
+          "objectives": {
+            "en": [
+              "Name common modes of transport in German",
+              "Talk about how you travel"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "der Bus",
+              "romanization": null,
+              "meanings": { "en": "the bus" },
+              "gendered": null
+            },
+            {
+              "word": "der Zug",
+              "romanization": null,
+              "meanings": { "en": "the train" },
+              "gendered": null
+            },
+            {
+              "word": "das Auto",
+              "romanization": null,
+              "meanings": { "en": "the car" },
+              "gendered": null
+            },
+            {
+              "word": "das Fahrrad",
+              "romanization": null,
+              "meanings": { "en": "the bicycle" },
+              "gendered": null
+            },
+            {
+              "word": "die U-Bahn",
+              "romanization": null,
+              "meanings": { "en": "the subway / metro" },
+              "gendered": null
+            },
+            {
+              "word": "die Fahrkarte",
+              "romanization": null,
+              "meanings": { "en": "the ticket" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "der Zug",
+              "romanization": null,
+              "options": { "en": ["the bus", "the train", "the car", "the bicycle"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Fahrkarte",
+              "romanization": null,
+              "options": { "en": ["the map", "the station", "the ticket", "the bus"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the car' in German?" },
+              "options": { "neutral": ["der Bus", "der Zug", "das Auto", "das Fahrrad"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the subway' in German?" },
+              "options": { "neutral": ["der Bus", "der Zug", "die Fahrkarte", "die U-Bahn"] },
+              "correct": 3
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Fahrrad",
+              "romanization": null,
+              "options": { "en": ["the car", "the bicycle", "the bus", "the train"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "der Bus", "romanization": null, "native": { "en": "the bus" } },
+                { "target": "der Zug", "romanization": null, "native": { "en": "the train" } },
+                { "target": "das Auto", "romanization": null, "native": { "en": "the car" } },
+                { "target": "das Fahrrad", "romanization": null, "native": { "en": "the bicycle" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "die U-Bahn",
+              "romanization": null,
+              "options": { "en": ["the train", "the subway", "the bus", "the ticket"] },
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Shopping Basics" },
+          "objectives": {
+            "en": [
+              "Ask about prices and buy items",
+              "Use basic shopping vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Wie viel kostet das?",
+              "romanization": null,
+              "meanings": { "en": "How much does that cost?" },
+              "gendered": null
+            },
+            {
+              "word": "teuer",
+              "romanization": null,
+              "meanings": { "en": "expensive" },
+              "gendered": null
+            },
+            {
+              "word": "billig",
+              "romanization": null,
+              "meanings": { "en": "cheap" },
+              "gendered": null
+            },
+            {
+              "word": "das Geld",
+              "romanization": null,
+              "meanings": { "en": "the money" },
+              "gendered": null
+            },
+            {
+              "word": "kaufen",
+              "romanization": null,
+              "meanings": { "en": "to buy" },
+              "gendered": null
+            },
+            {
+              "word": "bezahlen",
+              "romanization": null,
+              "meanings": { "en": "to pay" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "teuer",
+              "romanization": null,
+              "options": { "en": ["cheap", "expensive", "free", "new"] },
+              "correct": 1
+            },
+            {
+              "type": "target_to_native",
+              "word": "kaufen",
+              "romanization": null,
+              "options": { "en": ["to pay", "to sell", "to buy", "to cost"] },
+              "correct": 2
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you ask 'How much does that cost?' in German?" },
+              "options": { "neutral": ["Was ist das?", "Wie viel kostet das?", "Wo ist das?", "Wer ist das?"] },
+              "correct": 1
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'cheap' in German?" },
+              "options": { "neutral": ["teuer", "billig", "groß", "klein"] },
+              "correct": 1
+            },
+            {
+              "type": "listening",
+              "audio_text": "das Geld",
+              "romanization": null,
+              "options": { "en": ["the price", "the money", "the shop", "the bill"] },
+              "correct": 1
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "teuer", "romanization": null, "native": { "en": "expensive" } },
+                { "target": "billig", "romanization": null, "native": { "en": "cheap" } },
+                { "target": "kaufen", "romanization": null, "native": { "en": "to buy" } },
+                { "target": "bezahlen", "romanization": null, "native": { "en": "to pay" } }
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "bezahlen",
+              "romanization": null,
+              "options": { "en": ["to buy", "to pay", "to sell", "to cost"] },
+              "correct": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

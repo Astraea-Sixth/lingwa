@@ -1,0 +1,797 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行方式",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ระบบขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": ["Use public transport in Turkish cities", "Buy tickets and understand routes"],
+            "zh": ["在土耳其城市使用公共交通", "购票并了解路线"],
+            "th": ["ใช้ขนส่งสาธารณะในเมืองตุรกี", "ซื้อตั๋วและเข้าใจเส้นทาง"],
+            "ko": ["터키 도시에서 대중교통 이용하기", "티켓 구매하고 노선 이해하기"],
+            "es": ["Usar transporte público en ciudades turcas", "Comprar billetes y entender rutas"]
+          },
+          "vocabulary": [
+            {
+              "word": "otobüs",
+              "romanization": null,
+              "meanings": { "en": "bus", "zh": "公共汽车", "th": "รถบัส", "ko": "버스", "es": "autobús" }
+            },
+            {
+              "word": "metro",
+              "romanization": null,
+              "meanings": { "en": "metro/subway", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "metro" }
+            },
+            {
+              "word": "bilet",
+              "romanization": null,
+              "meanings": { "en": "ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "billete/tiquete" }
+            },
+            {
+              "word": "durak",
+              "romanization": null,
+              "meanings": { "en": "stop/station", "zh": "站", "th": "ป้ายรถ/สถานี", "ko": "정류장/역", "es": "parada/estación" }
+            },
+            {
+              "word": "aktarma",
+              "romanization": null,
+              "meanings": { "en": "transfer/connection", "zh": "换乘", "th": "เปลี่ยนสาย", "ko": "환승", "es": "transbordo" }
+            },
+            {
+              "word": "biniş kartı",
+              "romanization": null,
+              "meanings": { "en": "boarding pass / transit card", "zh": "乘车卡", "th": "บัตรขึ้น", "ko": "탑승권/교통카드", "es": "tarjeta de embarque" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Where is the bus stop?'",
+              "options": ["Otobüs durağı nerede?", "Metro istasyonu nerede?", "Bilet nereden alınır?", "Otobüs kaçta kalkar?"],
+              "correct": 0,
+              "explanation": "'Otobüs durağı nerede?' = Where is the bus stop? 'Durak' = stop."
+            },
+            {
+              "type": "target_to_native",
+              "word": "aktarma",
+              "options": ["transfer/connection", "ticket", "stop", "platform"],
+              "correct": 0,
+              "explanation": "'Aktarma' means a transfer between transport lines."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bir bilet lütfen.",
+              "options": ["One ticket, please.", "Two tickets, please.", "Where is the station?", "What time does the bus leave?"],
+              "correct": 0,
+              "explanation": "'Bir bilet' = one ticket, 'lütfen' = please."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["otobüs", "bus"],
+                ["metro", "subway"],
+                ["bilet", "ticket"],
+                ["durak", "stop"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["otobüs", "durağı", "nerede"],
+              "correct": ["Otobüs", "durağı", "nerede"],
+              "translation": "Where is the bus stop?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir direcciones"
+          },
+          "objectives": {
+            "en": ["Ask for and give directions in Turkish", "Understand basic navigation vocabulary"],
+            "zh": ["用土耳其语问路和指路", "理解基本导航词汇"],
+            "th": ["ถามทางและบอกทางเป็นภาษาตุรกี", "เข้าใจคำศัพท์การนำทางขั้นพื้นฐาน"],
+            "ko": ["터키어로 길 묻고 알려주기", "기본 길찾기 어휘 이해하기"],
+            "es": ["Pedir y dar direcciones en turco", "Entender vocabulario básico de navegación"]
+          },
+          "vocabulary": [
+            {
+              "word": "sağ",
+              "romanization": null,
+              "meanings": { "en": "right", "zh": "右", "th": "ขวา", "ko": "오른쪽", "es": "derecha" }
+            },
+            {
+              "word": "sol",
+              "romanization": null,
+              "meanings": { "en": "left", "zh": "左", "th": "ซ้าย", "ko": "왼쪽", "es": "izquierda" }
+            },
+            {
+              "word": "düz devam edin",
+              "romanization": null,
+              "meanings": { "en": "go straight ahead", "zh": "直走", "th": "เดินตรงไป", "ko": "직진하세요", "es": "siga recto" }
+            },
+            {
+              "word": "köşe",
+              "romanization": null,
+              "meanings": { "en": "corner", "zh": "角落/拐角", "th": "มุม", "ko": "모퉁이", "es": "esquina" }
+            },
+            {
+              "word": "yakın",
+              "romanization": null,
+              "meanings": { "en": "near/close", "zh": "近", "th": "ใกล้", "ko": "가까운", "es": "cerca" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Turn right'?",
+              "options": ["Sağa dönün.", "Sola dönün.", "Düz devam edin.", "Geri gidin."],
+              "correct": 0,
+              "explanation": "'Sağa dönün' = Turn right. 'Sağ' = right, 'dönün' = turn (polite imperative)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "yakın",
+              "options": ["near/close", "far", "right", "left"],
+              "correct": 0,
+              "explanation": "'Yakın' means near or close — opposite of 'uzak' (far)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sağ", "right"],
+                ["sol", "left"],
+                ["köşe", "corner"],
+                ["yakın", "near"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Düz devam edin, sonra sola dönün.",
+              "options": ["Go straight ahead, then turn left.", "Turn right, then go straight.", "Turn around and go back.", "The stop is on the right."],
+              "correct": 0,
+              "explanation": "'Düz devam edin' = go straight, 'sonra' = then, 'sola dönün' = turn left."
+            },
+            {
+              "type": "reorder",
+              "words": ["sağa", "dönün", "köşede"],
+              "correct": ["Köşede", "sağa", "dönün"],
+              "translation": "Turn right at the corner."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "At the Airport",
+            "zh": "在机场",
+            "th": "ที่สนามบิน",
+            "ko": "공항에서",
+            "es": "En el aeropuerto"
+          },
+          "objectives": {
+            "en": ["Navigate an airport and check in for a flight", "Understand flight announcements"],
+            "zh": ["在机场办理登机手续", "理解航班广播"],
+            "th": ["เดินทางในสนามบินและเช็คอิน", "เข้าใจประกาศเที่ยวบิน"],
+            "ko": ["공항에서 이동하고 체크인하기", "항공 안내 방송 이해하기"],
+            "es": ["Moverse por el aeropuerto y hacer el check-in", "Entender anuncios de vuelos"]
+          },
+          "vocabulary": [
+            {
+              "word": "havalimanı",
+              "romanization": null,
+              "meanings": { "en": "airport", "zh": "机场", "th": "สนามบิน", "ko": "공항", "es": "aeropuerto" }
+            },
+            {
+              "word": "uçuş",
+              "romanization": null,
+              "meanings": { "en": "flight", "zh": "航班", "th": "เที่ยวบิน", "ko": "항공편", "es": "vuelo" }
+            },
+            {
+              "word": "pasaport",
+              "romanization": null,
+              "meanings": { "en": "passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "pasaporte" }
+            },
+            {
+              "word": "çıkış kapısı",
+              "romanization": null,
+              "meanings": { "en": "departure gate", "zh": "登机口", "th": "ประตูขึ้นเครื่อง", "ko": "탑승 게이트", "es": "puerta de embarque" }
+            },
+            {
+              "word": "gecikme",
+              "romanization": null,
+              "meanings": { "en": "delay", "zh": "延误", "th": "ความล่าช้า", "ko": "지연", "es": "retraso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'My flight is delayed'?",
+              "options": ["Uçuşum gecikmeli.", "Uçuşum iptal oldu.", "Biletim kayboldu.", "Pasaportum nerede?"],
+              "correct": 0,
+              "explanation": "'Uçuşum gecikmeli' = My flight is delayed. 'Gecikme' = delay."
+            },
+            {
+              "type": "target_to_native",
+              "word": "havalimanı",
+              "options": ["airport", "airplane", "flight", "terminal"],
+              "correct": 0,
+              "explanation": "'Havalimanı' = airport. 'Hava' = air/sky, 'limanı' = port/harbor."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["uçuş", "flight"],
+                ["pasaport", "passport"],
+                ["çıkış kapısı", "gate"],
+                ["gecikme", "delay"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Pasaportunuzu ve biletinizi lütfen gösterin.",
+              "options": ["Please show your passport and ticket.", "Please proceed to the gate.", "Your flight is boarding now.", "Please collect your luggage."],
+              "correct": 0,
+              "explanation": "'Pasaportunuzu' = your passport, 'biletinizi' = your ticket, 'gösterin' = show."
+            },
+            {
+              "type": "reorder",
+              "words": ["kapısı", "çıkış", "nerede"],
+              "correct": ["Çıkış", "kapısı", "nerede"],
+              "translation": "Where is the departure gate?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Accommodation",
+        "zh": "住宿",
+        "th": "ที่พัก",
+        "ko": "숙박",
+        "es": "Alojamiento"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Booking a Hotel",
+            "zh": "预订酒店",
+            "th": "การจองโรงแรม",
+            "ko": "호텔 예약하기",
+            "es": "Reservar un hotel"
+          },
+          "objectives": {
+            "en": ["Book a hotel room in Turkish", "Describe room preferences"],
+            "zh": ["用土耳其语预订酒店房间", "描述房间偏好"],
+            "th": ["จองห้องพักโรงแรมเป็นภาษาตุรกี", "อธิบายความต้องการห้องพัก"],
+            "ko": ["터키어로 호텔 방 예약하기", "방 선호도 설명하기"],
+            "es": ["Reservar una habitación de hotel en turco", "Describir preferencias de habitación"]
+          },
+          "vocabulary": [
+            {
+              "word": "otel",
+              "romanization": null,
+              "meanings": { "en": "hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "hotel" }
+            },
+            {
+              "word": "oda",
+              "romanization": null,
+              "meanings": { "en": "room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "habitación" }
+            },
+            {
+              "word": "tek kişilik",
+              "romanization": null,
+              "meanings": { "en": "single (room)", "zh": "单人间", "th": "ห้องเดี่ยว", "ko": "싱글 룸", "es": "habitación individual" }
+            },
+            {
+              "word": "çift kişilik",
+              "romanization": null,
+              "meanings": { "en": "double (room)", "zh": "双人间", "th": "ห้องคู่", "ko": "더블 룸", "es": "habitación doble" }
+            },
+            {
+              "word": "gece",
+              "romanization": null,
+              "meanings": { "en": "night", "zh": "晚", "th": "คืน", "ko": "밤/1박", "es": "noche" }
+            },
+            {
+              "word": "kahvaltı dahil",
+              "romanization": null,
+              "meanings": { "en": "breakfast included", "zh": "含早餐", "th": "รวมอาหารเช้า", "ko": "조식 포함", "es": "desayuno incluido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Do you have a double room?'",
+              "options": ["Çift kişilik odanız var mı?", "Tek kişilik odanız var mı?", "Oda fiyatı ne kadar?", "Kaç gece kalacaksınız?"],
+              "correct": 0,
+              "explanation": "'Çift kişilik oda' = double room, 'var mı?' = do you have?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "kahvaltı dahil",
+              "options": ["breakfast included", "room service", "wifi included", "parking included"],
+              "correct": 0,
+              "explanation": "'Kahvaltı dahil' = breakfast included. 'Kahvaltı' = breakfast, 'dahil' = included."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["otel", "hotel"],
+                ["oda", "room"],
+                ["tek kişilik", "single"],
+                ["gece", "night"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "İki gecelik tek kişilik bir oda istiyorum.",
+              "options": ["I'd like a single room for two nights.", "I'd like a double room for one night.", "Do you have any rooms available?", "What time is checkout?"],
+              "correct": 0,
+              "explanation": "'İki gecelik' = for two nights, 'tek kişilik oda' = single room."
+            },
+            {
+              "type": "reorder",
+              "words": ["oda", "var", "mı", "boş"],
+              "correct": ["Boş", "oda", "var", "mı"],
+              "translation": "Do you have a vacant room?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Hotel Facilities",
+            "zh": "酒店设施",
+            "th": "สิ่งอำนวยความสะดวกในโรงแรม",
+            "ko": "호텔 시설",
+            "es": "Instalaciones del hotel"
+          },
+          "objectives": {
+            "en": ["Ask about hotel facilities and services", "Request items from hotel staff"],
+            "zh": ["询问酒店设施和服务", "向酒店工作人员要求物品"],
+            "th": ["ถามเกี่ยวกับสิ่งอำนวยความสะดวกและบริการของโรงแรม", "ขอสิ่งของจากพนักงานโรงแรม"],
+            "ko": ["호텔 시설과 서비스 묻기", "호텔 직원에게 물품 요청하기"],
+            "es": ["Preguntar sobre instalaciones y servicios del hotel", "Pedir artículos al personal del hotel"]
+          },
+          "vocabulary": [
+            {
+              "word": "asansör",
+              "romanization": null,
+              "meanings": { "en": "elevator/lift", "zh": "电梯", "th": "ลิฟต์", "ko": "엘리베이터", "es": "ascensor" }
+            },
+            {
+              "word": "havuz",
+              "romanization": null,
+              "meanings": { "en": "swimming pool", "zh": "游泳池", "th": "สระว่ายน้ำ", "ko": "수영장", "es": "piscina" }
+            },
+            {
+              "word": "otopark",
+              "romanization": null,
+              "meanings": { "en": "parking lot", "zh": "停车场", "th": "ที่จอดรถ", "ko": "주차장", "es": "aparcamiento" }
+            },
+            {
+              "word": "çarşaf",
+              "romanization": null,
+              "meanings": { "en": "bedsheet", "zh": "床单", "th": "ผ้าปูที่นอน", "ko": "침대 시트", "es": "sábana" }
+            },
+            {
+              "word": "havlu",
+              "romanization": null,
+              "meanings": { "en": "towel", "zh": "毛巾", "th": "ผ้าเช็ดตัว", "ko": "수건", "es": "toalla" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Is there a swimming pool?'",
+              "options": ["Havuz var mı?", "Asansör nerede?", "Otopark ücretsiz mi?", "Havlu getirir misiniz?"],
+              "correct": 0,
+              "explanation": "'Havuz var mı?' = Is there a swimming pool? 'Var mı?' = is there / do you have?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "havlu",
+              "options": ["towel", "sheet", "pillow", "blanket"],
+              "correct": 0,
+              "explanation": "'Havlu' means towel — an everyday essential in Turkish hotels and hamams."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["asansör", "elevator"],
+                ["havuz", "pool"],
+                ["otopark", "parking"],
+                ["havlu", "towel"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Temiz havlu getirir misiniz lütfen?",
+              "options": ["Could you bring clean towels, please?", "Could you bring extra pillows?", "Is the pool open?", "Where is the elevator?"],
+              "correct": 0,
+              "explanation": "'Temiz' = clean, 'havlu' = towel, 'getirir misiniz' = could you bring."
+            },
+            {
+              "type": "reorder",
+              "words": ["asansör", "nerede"],
+              "correct": ["Asansör", "nerede"],
+              "translation": "Where is the elevator?"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Checking Out",
+            "zh": "退房",
+            "th": "การเช็คเอาท์",
+            "ko": "체크아웃하기",
+            "es": "Hacer el check-out"
+          },
+          "objectives": {
+            "en": ["Check out of a hotel and settle the bill", "Report any issues with the room"],
+            "zh": ["退房并结账", "报告房间问题"],
+            "th": ["เช็คเอาท์และชำระเงิน", "รายงานปัญหาในห้อง"],
+            "ko": ["호텔 체크아웃하고 정산하기", "방의 문제 보고하기"],
+            "es": ["Hacer check-out y pagar la cuenta", "Reportar problemas con la habitación"]
+          },
+          "vocabulary": [
+            {
+              "word": "çıkış",
+              "romanization": null,
+              "meanings": { "en": "checkout / exit", "zh": "退房/出口", "th": "เช็คเอาท์/ทางออก", "ko": "체크아웃/출구", "es": "salida/check-out" }
+            },
+            {
+              "word": "fatura",
+              "romanization": null,
+              "meanings": { "en": "invoice/bill", "zh": "发票/账单", "th": "ใบแจ้งหนี้", "ko": "청구서/인보이스", "es": "factura/cuenta" }
+            },
+            {
+              "word": "bagaj",
+              "romanization": null,
+              "meanings": { "en": "luggage/baggage", "zh": "行李", "th": "กระเป๋า", "ko": "짐/수하물", "es": "equipaje/maleta" }
+            },
+            {
+              "word": "sorun",
+              "romanization": null,
+              "meanings": { "en": "problem/issue", "zh": "问题", "th": "ปัญหา", "ko": "문제", "es": "problema" }
+            },
+            {
+              "word": "memnun kalmak",
+              "romanization": null,
+              "meanings": { "en": "to be satisfied/pleased", "zh": "满意", "th": "พอใจ", "ko": "만족하다", "es": "estar satisfecho" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'd like to check out'?",
+              "options": ["Çıkış yapmak istiyorum.", "Oda değiştirmek istiyorum.", "Bir gece daha kalmak istiyorum.", "Bagajımı bırakmak istiyorum."],
+              "correct": 0,
+              "explanation": "'Çıkış yapmak istiyorum' = I'd like to check out."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bagaj",
+              "options": ["luggage", "elevator", "room", "checkout"],
+              "correct": 0,
+              "explanation": "'Bagaj' means luggage or baggage — borrowed from French/English."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["çıkış", "checkout"],
+                ["fatura", "bill/invoice"],
+                ["bagaj", "luggage"],
+                ["sorun", "problem"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Faturamda bir sorun var.",
+              "options": ["There is a problem with my bill.", "My luggage is missing.", "I would like to extend my stay.", "I am very satisfied with the room."],
+              "correct": 0,
+              "explanation": "'Faturamda' = in my bill, 'bir sorun var' = there is a problem."
+            },
+            {
+              "type": "reorder",
+              "words": ["yapmak", "çıkış", "istiyorum"],
+              "correct": ["Çıkış", "yapmak", "istiyorum"],
+              "translation": "I'd like to check out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Sightseeing & Activities",
+        "zh": "观光和活动",
+        "th": "การท่องเที่ยวและกิจกรรม",
+        "ko": "관광 및 활동",
+        "es": "Turismo y actividades"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Tourist Attractions",
+            "zh": "旅游景点",
+            "th": "สถานที่ท่องเที่ยว",
+            "ko": "관광 명소",
+            "es": "Atracciones turísticas"
+          },
+          "objectives": {
+            "en": ["Talk about Turkish tourist attractions", "Buy entry tickets and ask about hours"],
+            "zh": ["谈论土耳其旅游景点", "购票并询问开放时间"],
+            "th": ["พูดคุยเกี่ยวกับสถานที่ท่องเที่ยวในตุรกี", "ซื้อตั๋วและถามเวลาเปิดทำการ"],
+            "ko": ["터키 관광 명소에 대해 이야기하기", "입장권 사고 운영 시간 물어보기"],
+            "es": ["Hablar de atracciones turísticas en Turquía", "Comprar entradas y preguntar horarios"]
+          },
+          "vocabulary": [
+            {
+              "word": "müze",
+              "romanization": null,
+              "meanings": { "en": "museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "museo" }
+            },
+            {
+              "word": "cami",
+              "romanization": null,
+              "meanings": { "en": "mosque", "zh": "清真寺", "th": "มัสยิด", "ko": "모스크", "es": "mezquita" }
+            },
+            {
+              "word": "giriş ücreti",
+              "romanization": null,
+              "meanings": { "en": "entry fee", "zh": "入场费", "th": "ค่าเข้าชม", "ko": "입장료", "es": "precio de entrada" }
+            },
+            {
+              "word": "açık",
+              "romanization": null,
+              "meanings": { "en": "open", "zh": "开", "th": "เปิด", "ko": "열린", "es": "abierto" }
+            },
+            {
+              "word": "kapalı",
+              "romanization": null,
+              "meanings": { "en": "closed", "zh": "关", "th": "ปิด", "ko": "닫힌", "es": "cerrado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What time does the museum open?'",
+              "options": ["Müze saat kaçta açılıyor?", "Müzenin giriş ücreti ne kadar?", "Müze nerede?", "Müze kapalı mı?"],
+              "correct": 0,
+              "explanation": "'Müze saat kaçta açılıyor?' = What time does the museum open?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "cami",
+              "options": ["mosque", "museum", "palace", "church"],
+              "correct": 0,
+              "explanation": "'Cami' means mosque — Turkey has many famous mosques like the Blue Mosque (Sultanahmet Camii)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["müze", "museum"],
+                ["cami", "mosque"],
+                ["açık", "open"],
+                ["kapalı", "closed"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Müze bugün kapalıdır.",
+              "options": ["The museum is closed today.", "The mosque is open today.", "The entry fee is free.", "The museum opens at nine."],
+              "correct": 0,
+              "explanation": "'Bugün' = today, 'kapalıdır' = is closed."
+            },
+            {
+              "type": "reorder",
+              "words": ["giriş", "ücreti", "ne", "kadar"],
+              "correct": ["Giriş", "ücreti", "ne", "kadar"],
+              "translation": "How much is the entry fee?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Shopping for Souvenirs",
+            "zh": "购买纪念品",
+            "th": "การซื้อของที่ระลึก",
+            "ko": "기념품 쇼핑",
+            "es": "Comprar recuerdos"
+          },
+          "objectives": {
+            "en": ["Buy souvenirs at a Turkish market", "Bargain and compare prices"],
+            "zh": ["在土耳其市场购买纪念品", "讨价还价和比较价格"],
+            "th": ["ซื้อของที่ระลึกที่ตลาดตุรกี", "ต่อราคาและเปรียบเทียบราคา"],
+            "ko": ["터키 시장에서 기념품 사기", "가격 흥정하고 비교하기"],
+            "es": ["Comprar souvenirs en un mercado turco", "Regatear y comparar precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "çarşı",
+              "romanization": null,
+              "meanings": { "en": "bazaar/covered market", "zh": "集市", "th": "ตลาด/ตลาดมีหลังคา", "ko": "시장/바자르", "es": "bazar/mercado cubierto" }
+            },
+            {
+              "word": "hediyelik eşya",
+              "romanization": null,
+              "meanings": { "en": "souvenir", "zh": "纪念品", "th": "ของที่ระลึก", "ko": "기념품", "es": "recuerdo/souvenir" }
+            },
+            {
+              "word": "daha ucuz",
+              "romanization": null,
+              "meanings": { "en": "cheaper", "zh": "更便宜", "th": "ถูกกว่า", "ko": "더 싼", "es": "más barato" }
+            },
+            {
+              "word": "indirim yapıyor musunuz?",
+              "romanization": null,
+              "meanings": { "en": "can you give a discount?", "zh": "你能打折吗?", "th": "คุณลดราคาได้ไหม?", "ko": "할인해 주시나요?", "es": "¿puede hacerme un descuento?" }
+            },
+            {
+              "word": "almak",
+              "romanization": null,
+              "meanings": { "en": "to buy/take", "zh": "买/拿", "th": "ซื้อ/เอา", "ko": "사다/가져가다", "es": "comprar/tomar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask for a discount?",
+              "options": ["İndirim yapıyor musunuz?", "Bu ne kadar?", "Bunu alıyorum.", "Başka rengi var mı?"],
+              "correct": 0,
+              "explanation": "'İndirim yapıyor musunuz?' = Can you give me a discount?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "çarşı",
+              "options": ["bazaar/covered market", "supermarket", "pharmacy", "post office"],
+              "correct": 0,
+              "explanation": "'Çarşı' means bazaar or covered market — like the Grand Bazaar (Kapalıçarşı) in Istanbul."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["çarşı", "bazaar"],
+                ["hediyelik eşya", "souvenir"],
+                ["daha ucuz", "cheaper"],
+                ["almak", "to buy"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bu hediyelik eşya ne kadar?",
+              "options": ["How much is this souvenir?", "Do you have a cheaper one?", "I'll take this one.", "Is the bazaar open?"],
+              "correct": 0,
+              "explanation": "'Ne kadar?' = how much, 'hediyelik eşya' = souvenir."
+            },
+            {
+              "type": "reorder",
+              "words": ["almak", "bunu", "istiyorum"],
+              "correct": ["Bunu", "almak", "istiyorum"],
+              "translation": "I want to buy this."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Travel Emergencies",
+            "zh": "旅行紧急情况",
+            "th": "เหตุฉุกเฉินระหว่างเดินทาง",
+            "ko": "여행 중 긴급 상황",
+            "es": "Emergencias de viaje"
+          },
+          "objectives": {
+            "en": ["Handle travel emergencies in Turkish", "Ask for help and describe problems"],
+            "zh": ["用土耳其语处理旅行紧急情况", "求助并描述问题"],
+            "th": ["จัดการเหตุฉุกเฉินระหว่างเดินทางเป็นภาษาตุรกี", "ขอความช่วยเหลือและอธิบายปัญหา"],
+            "ko": ["터키어로 여행 긴급 상황 처리하기", "도움 요청하고 문제 설명하기"],
+            "es": ["Manejar emergencias de viaje en turco", "Pedir ayuda y describir problemas"]
+          },
+          "vocabulary": [
+            {
+              "word": "yardım",
+              "romanization": null,
+              "meanings": { "en": "help", "zh": "帮助", "th": "ความช่วยเหลือ", "ko": "도움", "es": "ayuda" }
+            },
+            {
+              "word": "kaybolmak",
+              "romanization": null,
+              "meanings": { "en": "to get lost", "zh": "迷路", "th": "หลงทาง", "ko": "길을 잃다", "es": "perderse" }
+            },
+            {
+              "word": "cüzdan",
+              "romanization": null,
+              "meanings": { "en": "wallet", "zh": "钱包", "th": "กระเป๋าสตางค์", "ko": "지갑", "es": "cartera/billetera" }
+            },
+            {
+              "word": "çalınmak",
+              "romanization": null,
+              "meanings": { "en": "to be stolen", "zh": "被偷", "th": "ถูกขโมย", "ko": "도난당하다", "es": "ser robado" }
+            },
+            {
+              "word": "polis",
+              "romanization": null,
+              "meanings": { "en": "police", "zh": "警察", "th": "ตำรวจ", "ko": "경찰", "es": "policía" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Help!'?",
+              "options": ["Yardım edin!", "Dur!", "Bekle!", "Dikkat!"],
+              "correct": 0,
+              "explanation": "'Yardım edin!' = Help! (asking for help from others). 'Yardım' = help."
+            },
+            {
+              "type": "target_to_native",
+              "word": "kaybolmak",
+              "options": ["to get lost", "to be stolen", "to find", "to arrive"],
+              "correct": 0,
+              "explanation": "'Kaybolmak' means to get lost — 'Yolumu kaybettim' = I've lost my way."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["yardım", "help"],
+                ["cüzdan", "wallet"],
+                ["çalınmak", "to be stolen"],
+                ["polis", "police"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Cüzdanım çalındı, polisi arayın!",
+              "options": ["My wallet was stolen, call the police!", "I have lost my passport.", "I need help, I am lost.", "Where is the nearest hospital?"],
+              "correct": 0,
+              "explanation": "'Cüzdanım çalındı' = my wallet was stolen, 'polisi arayın' = call the police."
+            },
+            {
+              "type": "reorder",
+              "words": ["edin", "yardım", "lütfen"],
+              "correct": ["Yardım", "edin", "lütfen"],
+              "translation": "Please help me."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

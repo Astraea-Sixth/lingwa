@@ -1,0 +1,731 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Jobs & Professions",
+            "zh": "工作和职业",
+            "th": "งานและอาชีพ",
+            "ko": "직업과 직종",
+            "es": "Trabajos y profesiones"
+          },
+          "objectives": {
+            "en": ["Name common professions in French", "Ask and say what someone does for work"],
+            "zh": ["用法语说出常见职业", "询问和描述某人的工作"],
+            "th": ["พูดชื่ออาชีพทั่วไปเป็นภาษาฝรั่งเศส", "ถามและบอกว่าใครทำงานอะไร"],
+            "ko": ["프랑스어로 일반 직업 이름 말하기", "직업 묻고 답하기"],
+            "es": ["Nombrar profesiones comunes en francés", "Preguntar y decir a qué se dedica alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "le métier",
+              "romanization": null,
+              "meanings": { "en": "the trade/profession", "zh": "职业/行业", "th": "อาชีพ/วิชาชีพ", "ko": "직업/직종", "es": "el oficio/la profesión" }
+            },
+            {
+              "word": "le médecin",
+              "romanization": null,
+              "meanings": { "en": "the doctor", "zh": "医生", "th": "แพทย์", "ko": "의사", "es": "el médico" }
+            },
+            {
+              "word": "l'enseignant / l'enseignante",
+              "romanization": null,
+              "meanings": { "en": "the teacher (m/f)", "zh": "教师", "th": "ครู", "ko": "교사 (남/여)", "es": "el/la docente" }
+            },
+            {
+              "word": "l'ingénieur / l'ingénieure",
+              "romanization": null,
+              "meanings": { "en": "the engineer (m/f)", "zh": "工程师", "th": "วิศวกร", "ko": "엔지니어", "es": "el/la ingeniero/a" }
+            },
+            {
+              "word": "Qu'est-ce que vous faites dans la vie ?",
+              "romanization": null,
+              "meanings": { "en": "What do you do for a living?", "zh": "你是做什么的？", "th": "คุณทำงานอะไร?", "ko": "직업이 무엇이세요?", "es": "¿A qué se dedica usted?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am a doctor'?",
+              "options": ["Je suis médecin.", "Je suis un médecin.", "Je travaille comme médecin.", "Mon métier est médecin."],
+              "correct": 0,
+              "explanation": "In French, professions after 'être' don't take an article: 'Je suis médecin', not 'Je suis un médecin'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le métier",
+              "options": ["profession/trade", "the office", "the colleague", "the boss"],
+              "correct": 0,
+              "explanation": "'Le métier' = profession or trade. 'Quel est ton métier ?' = What is your job/trade?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le médecin", "doctor"],
+                ["l'enseignant", "teacher"],
+                ["l'ingénieur", "engineer"],
+                ["le métier", "profession"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["dans", "faites", "vie", "vous", "la", "Qu'est-ce", "que"],
+              "correct": ["Qu'est-ce", "que", "vous", "faites", "dans", "la", "vie"],
+              "translation": "What do you do for a living?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'She is a teacher'?",
+              "options": ["Elle est enseignante.", "Elle est une enseignante.", "Elle travaille comme enseignante.", "Son métier est enseignante."],
+              "correct": 0,
+              "explanation": "'Elle est enseignante' — no article. The feminine form 'enseignante' is used for a woman."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "The Office",
+            "zh": "办公室",
+            "th": "สำนักงาน",
+            "ko": "사무실",
+            "es": "La oficina"
+          },
+          "objectives": {
+            "en": ["Name office items and spaces in French", "Navigate and describe the workplace"],
+            "zh": ["用法语说出办公室物品和空间名称", "描述工作环境"],
+            "th": ["พูดชื่ออุปกรณ์และพื้นที่สำนักงานเป็นภาษาฝรั่งเศส", "อธิบายสภาพแวดล้อมการทำงาน"],
+            "ko": ["프랑스어로 사무실 용품과 공간 말하기", "직장 환경 설명하기"],
+            "es": ["Nombrar objetos y espacios de oficina en francés", "Describir el entorno laboral"]
+          },
+          "vocabulary": [
+            {
+              "word": "le bureau",
+              "romanization": null,
+              "meanings": { "en": "the office / the desk", "zh": "办公室/书桌", "th": "สำนักงาน/โต๊ะทำงาน", "ko": "사무실/책상", "es": "la oficina / el escritorio" }
+            },
+            {
+              "word": "l'ordinateur",
+              "romanization": null,
+              "meanings": { "en": "the computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "el ordenador/la computadora" }
+            },
+            {
+              "word": "l'imprimante",
+              "romanization": null,
+              "meanings": { "en": "the printer", "zh": "打印机", "th": "เครื่องพิมพ์", "ko": "프린터", "es": "la impresora" }
+            },
+            {
+              "word": "la réunion",
+              "romanization": null,
+              "meanings": { "en": "the meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "la reunión" }
+            },
+            {
+              "word": "le/la collègue",
+              "romanization": null,
+              "meanings": { "en": "the colleague", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "el/la colega" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a meeting at two o'clock'?",
+              "options": ["J'ai une réunion à deux heures.", "J'ai une réunion cet après-midi.", "La réunion est à deux heures.", "Nous avons une réunion."],
+              "correct": 0,
+              "explanation": "'J'ai une réunion' = I have a meeting. 'À deux heures' = at two o'clock."
+            },
+            {
+              "type": "target_to_native",
+              "word": "l'imprimante",
+              "options": ["printer", "computer", "screen", "keyboard"],
+              "correct": 0,
+              "explanation": "'L'imprimante ne fonctionne pas' = The printer doesn't work — a classic office problem!"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le bureau", "office/desk"],
+                ["l'ordinateur", "computer"],
+                ["la réunion", "meeting"],
+                ["le/la collègue", "colleague"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["bureau", "au", "travaille", "Je", "chaque", "jour"],
+              "correct": ["Je", "travaille", "au", "bureau", "chaque", "jour"],
+              "translation": "I work at the office every day."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Work Schedule",
+            "zh": "工作时间表",
+            "th": "ตารางเวลาทำงาน",
+            "ko": "근무 일정",
+            "es": "Horario de trabajo"
+          },
+          "objectives": {
+            "en": ["Discuss your work schedule and hours", "Express start and end times in French"],
+            "zh": ["讨论工作时间表和工作时间", "用法语表达开始和结束时间"],
+            "th": ["พูดเกี่ยวกับตารางเวลาทำงาน", "แสดงเวลาเริ่มต้นและสิ้นสุดเป็นภาษาฝรั่งเศส"],
+            "ko": ["근무 일정과 시간 이야기하기", "프랑스어로 시작과 종료 시간 표현하기"],
+            "es": ["Hablar de tu horario y jornada laboral", "Expresar horas de inicio y fin en francés"]
+          },
+          "vocabulary": [
+            {
+              "word": "les horaires de travail",
+              "romanization": null,
+              "meanings": { "en": "working hours", "zh": "工作时间", "th": "เวลาทำงาน", "ko": "근무 시간", "es": "el horario laboral" }
+            },
+            {
+              "word": "commencer",
+              "romanization": null,
+              "meanings": { "en": "to start/begin", "zh": "开始", "th": "เริ่ม", "ko": "시작하다", "es": "comenzar/empezar" }
+            },
+            {
+              "word": "finir",
+              "romanization": null,
+              "meanings": { "en": "to finish/end", "zh": "结束", "th": "เสร็จ/จบ", "ko": "끝내다", "es": "terminar/acabar" }
+            },
+            {
+              "word": "la pause déjeuner",
+              "romanization": null,
+              "meanings": { "en": "the lunch break", "zh": "午休时间", "th": "พักกลางวัน", "ko": "점심 휴식", "es": "la pausa para comer" }
+            },
+            {
+              "word": "les heures supplémentaires",
+              "romanization": null,
+              "meanings": { "en": "overtime", "zh": "加班", "th": "ทำงานล่วงเวลา", "ko": "초과 근무", "es": "horas extra" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I start work at eight thirty'?",
+              "options": ["Je commence le travail à huit heures et demie.", "Je commence à travailler à huit heures trente.", "Je commence à huit heures.", "Mon travail commence à huit et demie."],
+              "correct": 0,
+              "explanation": "'Je commence le travail à huit heures et demie' = I start work at half past eight."
+            },
+            {
+              "type": "target_to_native",
+              "word": "les heures supplémentaires",
+              "options": ["overtime", "working hours", "break time", "paid leave"],
+              "correct": 0,
+              "explanation": "'Faire des heures supplémentaires' = to work overtime. Often shortened to 'heures sup'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["commencer", "to start"],
+                ["finir", "to finish"],
+                ["la pause déjeuner", "lunch break"],
+                ["les heures supplémentaires", "overtime"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["travail", "à", "je", "finis", "cinq", "heures", "le", "Mon"],
+              "correct": ["Je", "finis", "le", "travail", "à", "cinq", "heures"],
+              "translation": "I finish work at five o'clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Business Communication",
+        "zh": "商务沟通",
+        "th": "การสื่อสารทางธุรกิจ",
+        "ko": "비즈니스 커뮤니케이션",
+        "es": "Comunicación empresarial"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Professional Emails",
+            "zh": "职业邮件",
+            "th": "อีเมลอาชีพ",
+            "ko": "업무 이메일",
+            "es": "Correos profesionales"
+          },
+          "objectives": {
+            "en": ["Write a professional email in French", "Use formal salutations and closings"],
+            "zh": ["用法语写一封职业邮件", "使用正式开头和结尾"],
+            "th": ["เขียนอีเมลอาชีพเป็นภาษาฝรั่งเศส", "ใช้คำทักทายและคำปิดอย่างเป็นทางการ"],
+            "ko": ["프랑스어로 업무 이메일 쓰기", "격식 있는 인사말과 맺음말 사용하기"],
+            "es": ["Escribir un correo profesional en francés", "Usar saludos y cierres formales"]
+          },
+          "vocabulary": [
+            {
+              "word": "le courriel / l'e-mail",
+              "romanization": null,
+              "meanings": { "en": "the email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "el correo electrónico" }
+            },
+            {
+              "word": "Madame, Monsieur,",
+              "romanization": null,
+              "meanings": { "en": "Dear Sir/Madam, (formal opening)", "zh": "尊敬的女士/先生，", "th": "เรียน ท่านผู้หญิง/ท่านผู้ชาย", "ko": "존경하는 귀하, (공식 도입)", "es": "Estimada señora/señor," }
+            },
+            {
+              "word": "Veuillez agréer mes salutations distinguées.",
+              "romanization": null,
+              "meanings": { "en": "Please accept my distinguished greetings. (formal closing)", "zh": "请接受我最诚挚的问候。（正式结尾）", "th": "กรุณารับคำทักทายอย่างเป็นทางการจากข้าพเจ้า", "ko": "정중한 인사를 드립니다. (공식 결말)", "es": "Le saluda atentamente." }
+            },
+            {
+              "word": "en pièce jointe",
+              "romanization": null,
+              "meanings": { "en": "as an attachment", "zh": "作为附件", "th": "ในไฟล์แนบ", "ko": "첨부파일로", "es": "como archivo adjunto" }
+            },
+            {
+              "word": "l'objet",
+              "romanization": null,
+              "meanings": { "en": "the subject (of email)", "zh": "主题", "th": "หัวข้อ", "ko": "제목", "es": "el asunto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "Which phrase is the correct formal email closing in French?",
+              "options": ["Veuillez agréer mes salutations distinguées.", "Cordialement,", "Bien à vous,", "À bientôt,"],
+              "correct": 0,
+              "explanation": "'Veuillez agréer mes salutations distinguées' is the most formal closing in French business writing."
+            },
+            {
+              "type": "target_to_native",
+              "word": "en pièce jointe",
+              "options": ["as an attachment", "in the subject", "in the reply", "in the inbox"],
+              "correct": 0,
+              "explanation": "'Vous trouverez en pièce jointe...' = You will find attached... — standard email phrase."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le courriel", "email"],
+                ["en pièce jointe", "as attachment"],
+                ["Madame, Monsieur,", "Dear Sir/Madam,"],
+                ["l'objet", "subject"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["jointe", "document", "pièce", "trouvez", "en", "Vous", "le"],
+              "correct": ["Vous", "trouvez", "le", "document", "en", "pièce", "jointe"],
+              "translation": "You will find the document as an attachment."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Phone Calls at Work",
+            "zh": "工作中的电话",
+            "th": "การโทรศัพท์ในที่ทำงาน",
+            "ko": "직장에서의 전화 통화",
+            "es": "Llamadas telefónicas en el trabajo"
+          },
+          "objectives": {
+            "en": ["Make and answer professional phone calls in French", "Leave and take messages"],
+            "zh": ["用法语接打职业电话", "留言和接收留言"],
+            "th": ["โทรออกและรับโทรศัพท์อย่างมืออาชีพเป็นภาษาฝรั่งเศส", "ฝากและรับข้อความ"],
+            "ko": ["프랑스어로 업무 전화 걸고 받기", "메시지 남기고 받기"],
+            "es": ["Hacer y contestar llamadas profesionales en francés", "Dejar y tomar mensajes"]
+          },
+          "vocabulary": [
+            {
+              "word": "Allô, société X, bonjour.",
+              "romanization": null,
+              "meanings": { "en": "Hello, company X, good day. (phone greeting)", "zh": "喂，X公司，您好。", "th": "สวัสดี บริษัท X ค่ะ/ครับ (คำทักทายทางโทรศัพท์)", "ko": "여보세요, X 회사입니다. (전화 인사)", "es": "Hola, empresa X, buenos días." }
+            },
+            {
+              "word": "Puis-je parler à... ?",
+              "romanization": null,
+              "meanings": { "en": "May I speak with...?", "zh": "我可以和...说话吗？", "th": "ฉันขอพูดกับ...ได้ไหม?", "ko": "...와 통화할 수 있을까요?", "es": "¿Podría hablar con...?" }
+            },
+            {
+              "word": "rappeler",
+              "romanization": null,
+              "meanings": { "en": "to call back", "zh": "回电话", "th": "โทรกลับ", "ko": "다시 전화하다", "es": "devolver la llamada" }
+            },
+            {
+              "word": "laisser un message",
+              "romanization": null,
+              "meanings": { "en": "to leave a message", "zh": "留言", "th": "ฝากข้อความ", "ko": "메시지 남기다", "es": "dejar un mensaje" }
+            },
+            {
+              "word": "le poste",
+              "romanization": null,
+              "meanings": { "en": "the extension", "zh": "分机", "th": "เบอร์ต่อ", "ko": "내선 번호", "es": "la extensión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask to speak to someone on the phone?",
+              "options": ["Puis-je parler à Madame Dupont ?", "Est-ce que Madame Dupont est là ?", "Je voudrais parler à Madame Dupont.", "Madame Dupont, s'il vous plaît."],
+              "correct": 0,
+              "explanation": "'Puis-je parler à...' = May I speak with... — the most formal and polite phone request."
+            },
+            {
+              "type": "target_to_native",
+              "word": "rappeler",
+              "options": ["to call back", "to hold", "to hang up", "to transfer"],
+              "correct": 0,
+              "explanation": "'Je vous rappellerai' = I will call you back. 'Rappeler' = to call again/back."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["rappeler", "to call back"],
+                ["laisser un message", "to leave a message"],
+                ["le poste", "extension"],
+                ["Puis-je parler à ?", "May I speak with?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["rappellerai", "vous", "Je", "demain"],
+              "correct": ["Je", "vous", "rappellerai", "demain"],
+              "translation": "I will call you back tomorrow."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Meetings & Discussions",
+            "zh": "会议和讨论",
+            "th": "การประชุมและการอภิปราย",
+            "ko": "회의와 토론",
+            "es": "Reuniones y debates"
+          },
+          "objectives": {
+            "en": ["Participate in a simple work meeting in French", "Express opinions and agree or disagree"],
+            "zh": ["用法语参加简单的工作会议", "表达意见并同意或不同意"],
+            "th": ["เข้าร่วมการประชุมงานง่ายๆ เป็นภาษาฝรั่งเศส", "แสดงความเห็นและเห็นด้วยหรือไม่เห็นด้วย"],
+            "ko": ["프랑스어로 간단한 업무 회의 참여하기", "의견 표현하고 동의하거나 반대하기"],
+            "es": ["Participar en una reunión de trabajo en francés", "Expresar opiniones y estar de acuerdo o en desacuerdo"]
+          },
+          "vocabulary": [
+            {
+              "word": "Je pense que...",
+              "romanization": null,
+              "meanings": { "en": "I think that...", "zh": "我认为...", "th": "ฉันคิดว่า...", "ko": "저는 ...라고 생각합니다", "es": "Creo que..." }
+            },
+            {
+              "word": "être d'accord",
+              "romanization": null,
+              "meanings": { "en": "to agree", "zh": "同意", "th": "เห็นด้วย", "ko": "동의하다", "es": "estar de acuerdo" }
+            },
+            {
+              "word": "proposer",
+              "romanization": null,
+              "meanings": { "en": "to propose/suggest", "zh": "建议/提议", "th": "เสนอ", "ko": "제안하다", "es": "proponer/sugerir" }
+            },
+            {
+              "word": "l'ordre du jour",
+              "romanization": null,
+              "meanings": { "en": "the agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의사 일정", "es": "el orden del día" }
+            },
+            {
+              "word": "le compte rendu",
+              "romanization": null,
+              "meanings": { "en": "the meeting minutes/report", "zh": "会议记录", "th": "บันทึกการประชุม", "ko": "회의록", "es": "el acta de reunión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I agree with your proposal'?",
+              "options": ["Je suis d'accord avec votre proposition.", "J'accepte votre proposition.", "Votre proposition est bonne.", "Je pense que vous avez raison."],
+              "correct": 0,
+              "explanation": "'Je suis d'accord avec...' = I agree with... 'Votre proposition' = your proposal (formal)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "proposer",
+              "options": ["to propose/suggest", "to agree", "to decide", "to present"],
+              "correct": 0,
+              "explanation": "'Je propose que nous...' = I suggest that we... 'Proposer' is used in meetings."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["être d'accord", "to agree"],
+                ["proposer", "to suggest"],
+                ["l'ordre du jour", "agenda"],
+                ["le compte rendu", "meeting minutes"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["que", "pense", "bonne", "Je", "idée", "c'est", "une"],
+              "correct": ["Je", "pense", "que", "c'est", "une", "bonne", "idée"],
+              "translation": "I think that it is a good idea."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Finding a Job",
+        "zh": "求职",
+        "th": "การหางาน",
+        "ko": "구직",
+        "es": "Buscar trabajo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Job Applications",
+            "zh": "求职申请",
+            "th": "การสมัครงาน",
+            "ko": "취업 지원",
+            "es": "Solicitudes de empleo"
+          },
+          "objectives": {
+            "en": ["Understand French job advertisement vocabulary", "Write a basic job application letter"],
+            "zh": ["理解法国招聘广告词汇", "写一封基本的求职信"],
+            "th": ["เข้าใจคำศัพท์โฆษณารับสมัครงานฝรั่งเศส", "เขียนจดหมายสมัครงานเบื้องต้น"],
+            "ko": ["프랑스 구인 광고 어휘 이해하기", "기본 취업 지원 편지 쓰기"],
+            "es": ["Entender el vocabulario de anuncios de trabajo en francés", "Escribir una carta de solicitud básica"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'offre d'emploi",
+              "romanization": null,
+              "meanings": { "en": "the job offer/advertisement", "zh": "招聘广告", "th": "ประกาศรับสมัครงาน", "ko": "구인 광고", "es": "la oferta de empleo" }
+            },
+            {
+              "word": "la candidature",
+              "romanization": null,
+              "meanings": { "en": "the job application", "zh": "求职申请", "th": "ใบสมัครงาน", "ko": "취업 지원", "es": "la candidatura/solicitud" }
+            },
+            {
+              "word": "le CV (curriculum vitae)",
+              "romanization": null,
+              "meanings": { "en": "the CV/résumé", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "el CV" }
+            },
+            {
+              "word": "l'expérience professionnelle",
+              "romanization": null,
+              "meanings": { "en": "professional experience", "zh": "工作经验", "th": "ประสบการณ์ทำงาน", "ko": "직업 경험", "es": "la experiencia profesional" }
+            },
+            {
+              "word": "postuler",
+              "romanization": null,
+              "meanings": { "en": "to apply (for a job)", "zh": "申请（工作）", "th": "สมัครงาน", "ko": "지원하다", "es": "postularse/solicitar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am applying for the position of engineer'?",
+              "options": ["Je postule au poste d'ingénieur.", "Je cherche un poste d'ingénieur.", "Je suis candidat au poste d'ingénieur.", "Je m'intéresse au poste d'ingénieur."],
+              "correct": 0,
+              "explanation": "'Je postule à...' = I am applying for... 'Au poste de' = for the position of."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le CV",
+              "options": ["CV/résumé", "cover letter", "job application", "reference"],
+              "correct": 0,
+              "explanation": "'Le CV' = curriculum vitae. 'Envoyer son CV' = to send your CV. Essential for any French job application."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["la candidature", "job application"],
+                ["le CV", "CV/résumé"],
+                ["l'expérience professionnelle", "work experience"],
+                ["postuler", "to apply"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["poste", "postule", "ce", "à", "Je"],
+              "correct": ["Je", "postule", "à", "ce", "poste"],
+              "translation": "I am applying for this position."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer common interview questions in French", "Describe your skills and experience"],
+            "zh": ["用法语回答常见面试问题", "描述你的技能和经验"],
+            "th": ["ตอบคำถามสัมภาษณ์ทั่วไปเป็นภาษาฝรั่งเศส", "อธิบายทักษะและประสบการณ์"],
+            "ko": ["프랑스어로 일반 면접 질문 답하기", "기술과 경험 설명하기"],
+            "es": ["Responder preguntas de entrevista en francés", "Describir tus habilidades y experiencia"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'entretien d'embauche",
+              "romanization": null,
+              "meanings": { "en": "the job interview", "zh": "面试", "th": "การสัมภาษณ์งาน", "ko": "취업 면접", "es": "la entrevista de trabajo" }
+            },
+            {
+              "word": "la compétence",
+              "romanization": null,
+              "meanings": { "en": "the skill/competence", "zh": "技能/能力", "th": "ทักษะ/ความสามารถ", "ko": "기술/역량", "es": "la competencia/habilidad" }
+            },
+            {
+              "word": "capable de travailler en équipe",
+              "romanization": null,
+              "meanings": { "en": "able to work in a team", "zh": "能够团队合作", "th": "ทำงานเป็นทีมได้", "ko": "팀으로 일할 수 있는", "es": "capaz de trabajar en equipo" }
+            },
+            {
+              "word": "J'ai de l'expérience en...",
+              "romanization": null,
+              "meanings": { "en": "I have experience in...", "zh": "我在...方面有经验", "th": "ฉันมีประสบการณ์ใน...", "ko": "저는 ...분야 경험이 있습니다", "es": "Tengo experiencia en..." }
+            },
+            {
+              "word": "motivé / motivée",
+              "romanization": null,
+              "meanings": { "en": "motivated (m/f)", "zh": "积极主动的", "th": "มีแรงจูงใจ", "ko": "의욕적인", "es": "motivado/motivada" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am motivated and I like working in a team'?",
+              "options": ["Je suis motivé et j'aime travailler en équipe.", "Je travaille bien en équipe.", "Je suis compétent et capable.", "J'ai beaucoup d'expérience."],
+              "correct": 0,
+              "explanation": "'Je suis motivé(e)' = I am motivated. 'J'aime travailler en équipe' = I like working in a team."
+            },
+            {
+              "type": "target_to_native",
+              "word": "l'entretien d'embauche",
+              "options": ["job interview", "job application", "work meeting", "salary negotiation"],
+              "correct": 0,
+              "explanation": "'L'entretien d'embauche' = the hiring interview. 'Embauche' = hiring, 'entretien' = interview/meeting."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["l'entretien d'embauche", "job interview"],
+                ["la compétence", "skill"],
+                ["motivé", "motivated"],
+                ["J'ai de l'expérience en...", "I have experience in..."]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["expérience", "ce", "dans", "domaine", "ai", "de", "l'", "J'"],
+              "correct": ["J'", "ai", "de", "l'expérience", "dans", "ce", "domaine"],
+              "translation": "I have experience in this field."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Salary & Contract",
+            "zh": "薪资和合同",
+            "th": "เงินเดือนและสัญญา",
+            "ko": "급여와 계약",
+            "es": "Sueldo y contrato"
+          },
+          "objectives": {
+            "en": ["Discuss salary and work conditions", "Understand key contract vocabulary"],
+            "zh": ["讨论薪资和工作条件", "理解关键合同词汇"],
+            "th": ["พูดคุยเกี่ยวกับเงินเดือนและเงื่อนไขการทำงาน", "เข้าใจคำศัพท์หลักในสัญญา"],
+            "ko": ["급여와 근무 조건 이야기하기", "주요 계약 어휘 이해하기"],
+            "es": ["Hablar de salario y condiciones laborales", "Entender el vocabulario clave del contrato"]
+          },
+          "vocabulary": [
+            {
+              "word": "le salaire",
+              "romanization": null,
+              "meanings": { "en": "the salary", "zh": "工资", "th": "เงินเดือน", "ko": "급여", "es": "el salario" }
+            },
+            {
+              "word": "les congés payés",
+              "romanization": null,
+              "meanings": { "en": "paid holidays", "zh": "带薪假期", "th": "วันลาพักร้อนที่ได้รับค่าจ้าง", "ko": "유급 휴가", "es": "las vacaciones pagadas" }
+            },
+            {
+              "word": "le contrat de travail",
+              "romanization": null,
+              "meanings": { "en": "the employment contract", "zh": "劳动合同", "th": "สัญญาจ้างงาน", "ko": "근로 계약서", "es": "el contrato de trabajo" }
+            },
+            {
+              "word": "à temps plein / à temps partiel",
+              "romanization": null,
+              "meanings": { "en": "full time / part time", "zh": "全职/兼职", "th": "เต็มเวลา/นอกเวลา", "ko": "정규직/파트타임", "es": "a tiempo completo / a tiempo parcial" }
+            },
+            {
+              "word": "la mutuelle",
+              "romanization": null,
+              "meanings": { "en": "health insurance (complementary)", "zh": "补充医疗保险", "th": "ประกันสุขภาพเสริม", "ko": "보완 건강보험", "es": "el seguro médico complementario" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What is the salary for this position?'",
+              "options": ["Quel est le salaire pour ce poste ?", "Combien gagnez-vous ?", "Quel est le salaire mensuel ?", "Qu'est-ce que vous payez ?"],
+              "correct": 0,
+              "explanation": "'Quel est le salaire pour ce poste ?' = What is the salary for this position? Polite and direct."
+            },
+            {
+              "type": "target_to_native",
+              "word": "les congés payés",
+              "options": ["paid holidays", "salary", "bonus", "contract"],
+              "correct": 0,
+              "explanation": "'Les congés payés' = paid leave/holidays. In France, employees are entitled to 5 weeks per year."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le salaire", "salary"],
+                ["les congés payés", "paid holidays"],
+                ["le contrat de travail", "employment contract"],
+                ["à temps plein", "full time"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["plein", "cherche", "temps", "un", "poste", "à", "Je"],
+              "correct": ["Je", "cherche", "un", "poste", "à", "temps", "plein"],
+              "translation": "I am looking for a full-time position."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

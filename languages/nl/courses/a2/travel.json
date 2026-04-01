@@ -1,0 +1,1489 @@
+{
+  "lang": "nl",
+  "language": "nl",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": [
+              "Use public transport in the Netherlands",
+              "Buy tickets and ask about schedules"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "trein",
+              "romanization": null,
+              "meanings": {
+                "en": "train",
+                "zh": "火车",
+                "th": "รถไฟ",
+                "ko": "기차",
+                "es": "tren"
+              },
+              "gendered": null
+            },
+            {
+              "word": "tram",
+              "romanization": null,
+              "meanings": {
+                "en": "tram / streetcar",
+                "zh": "有轨电车",
+                "th": "รถราง",
+                "ko": "트램",
+                "es": "tranvía"
+              },
+              "gendered": null
+            },
+            {
+              "word": "kaartje",
+              "romanization": null,
+              "meanings": {
+                "en": "ticket",
+                "zh": "票",
+                "th": "ตั๋ว",
+                "ko": "티켓",
+                "es": "billete / entrada"
+              },
+              "gendered": null
+            },
+            {
+              "word": "vertrekken",
+              "romanization": null,
+              "meanings": {
+                "en": "to depart / to leave",
+                "zh": "出发",
+                "th": "ออกเดินทาง",
+                "ko": "출발하다",
+                "es": "salir / partir"
+              },
+              "gendered": null
+            },
+            {
+              "word": "aankomen",
+              "romanization": null,
+              "meanings": {
+                "en": "to arrive",
+                "zh": "到达",
+                "th": "มาถึง",
+                "ko": "도착하다",
+                "es": "llegar"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "trein",
+              "romanization": null,
+              "options": {
+                "en": ["train", "tram", "bus", "taxi"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "kaartje",
+              "romanization": null,
+              "options": {
+                "en": ["ticket", "platform", "train", "schedule"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to arrive' in Dutch?",
+                "zh": "荷兰语中'到达'怎么说？",
+                "th": "ภาษาดัตช์ 'มาถึง' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '도착하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'llegar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["aankomen", "vertrekken", "trein", "kaartje"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to depart / to leave' in Dutch?",
+                "zh": "荷兰语中'出发'怎么说？",
+                "th": "ภาษาดัตช์ 'ออกเดินทาง' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '출발하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'salir' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["vertrekken", "aankomen", "tram", "kaartje"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "tram",
+              "romanization": null,
+              "options": {
+                "en": ["tram / streetcar", "train", "bus", "taxi"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "trein",
+                  "romanization": null,
+                  "native": { "en": "train" }
+                },
+                {
+                  "target": "kaartje",
+                  "romanization": null,
+                  "native": { "en": "ticket" }
+                },
+                {
+                  "target": "vertrekken",
+                  "romanization": null,
+                  "native": { "en": "to depart / to leave" }
+                },
+                {
+                  "target": "aankomen",
+                  "romanization": null,
+                  "native": { "en": "to arrive" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 물어보기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": [
+              "Ask and give directions in Dutch",
+              "Understand common directional vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "linksaf",
+              "romanization": null,
+              "meanings": {
+                "en": "turn left",
+                "zh": "向左转",
+                "th": "เลี้ยวซ้าย",
+                "ko": "왼쪽으로",
+                "es": "girar a la izquierda"
+              },
+              "gendered": null
+            },
+            {
+              "word": "rechtsaf",
+              "romanization": null,
+              "meanings": {
+                "en": "turn right",
+                "zh": "向右转",
+                "th": "เลี้ยวขวา",
+                "ko": "오른쪽으로",
+                "es": "girar a la derecha"
+              },
+              "gendered": null
+            },
+            {
+              "word": "rechtdoor",
+              "romanization": null,
+              "meanings": {
+                "en": "straight ahead",
+                "zh": "直走",
+                "th": "ตรงไป",
+                "ko": "직진",
+                "es": "todo recto"
+              },
+              "gendered": null
+            },
+            {
+              "word": "straat",
+              "romanization": null,
+              "meanings": {
+                "en": "street",
+                "zh": "街道",
+                "th": "ถนน",
+                "ko": "거리",
+                "es": "calle"
+              },
+              "gendered": null
+            },
+            {
+              "word": "kruispunt",
+              "romanization": null,
+              "meanings": {
+                "en": "intersection / crossroads",
+                "zh": "十字路口",
+                "th": "สี่แยก",
+                "ko": "교차로",
+                "es": "intersección / cruce"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "linksaf",
+              "romanization": null,
+              "options": {
+                "en": ["turn left", "turn right", "straight ahead", "crossroads"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "kruispunt",
+              "romanization": null,
+              "options": {
+                "en": ["intersection / crossroads", "street", "turn left", "straight ahead"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'straight ahead' in Dutch?",
+                "zh": "荷兰语中'直走'怎么说？",
+                "th": "ภาษาดัตช์ 'ตรงไป' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '직진'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'todo recto' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["rechtdoor", "linksaf", "rechtsaf", "straat"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'street' in Dutch?",
+                "zh": "荷兰语中'街道'怎么说？",
+                "th": "ภาษาดัตช์ 'ถนน' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '거리'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'calle' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["straat", "kruispunt", "rechtdoor", "linksaf"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "rechtsaf",
+              "romanization": null,
+              "options": {
+                "en": ["turn right", "turn left", "straight ahead", "street"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "linksaf",
+                  "romanization": null,
+                  "native": { "en": "turn left" }
+                },
+                {
+                  "target": "rechtsaf",
+                  "romanization": null,
+                  "native": { "en": "turn right" }
+                },
+                {
+                  "target": "rechtdoor",
+                  "romanization": null,
+                  "native": { "en": "straight ahead" }
+                },
+                {
+                  "target": "kruispunt",
+                  "romanization": null,
+                  "native": { "en": "intersection / crossroads" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "By Bicycle",
+            "zh": "骑自行车",
+            "th": "โดยจักรยาน",
+            "ko": "자전거 타기",
+            "es": "En bicicleta"
+          },
+          "objectives": {
+            "en": [
+              "Talk about cycling in the Netherlands",
+              "Rent a bike and navigate cycle paths"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "fiets",
+              "romanization": null,
+              "meanings": {
+                "en": "bicycle / bike",
+                "zh": "自行车",
+                "th": "จักรยาน",
+                "ko": "자전거",
+                "es": "bicicleta"
+              },
+              "gendered": null
+            },
+            {
+              "word": "fietspad",
+              "romanization": null,
+              "meanings": {
+                "en": "cycle path / bike lane",
+                "zh": "自行车道",
+                "th": "ทางจักรยาน",
+                "ko": "자전거 도로",
+                "es": "carril bici"
+              },
+              "gendered": null
+            },
+            {
+              "word": "huren",
+              "romanization": null,
+              "meanings": {
+                "en": "to rent / to hire",
+                "zh": "租",
+                "th": "เช่า",
+                "ko": "빌리다",
+                "es": "alquilar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "helm",
+              "romanization": null,
+              "meanings": {
+                "en": "helmet",
+                "zh": "头盔",
+                "th": "หมวกกันน็อก",
+                "ko": "헬멧",
+                "es": "casco"
+              },
+              "gendered": null
+            },
+            {
+              "word": "slot",
+              "romanization": null,
+              "meanings": {
+                "en": "lock (for a bike)",
+                "zh": "锁",
+                "th": "กุญแจล็อก",
+                "ko": "자물쇠",
+                "es": "candado"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "fiets",
+              "romanization": null,
+              "options": {
+                "en": ["bicycle / bike", "cycle path", "helmet", "lock"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "fietspad",
+              "romanization": null,
+              "options": {
+                "en": ["cycle path / bike lane", "bicycle", "helmet", "to rent"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to rent / to hire' in Dutch?",
+                "zh": "荷兰语中'租'怎么说？",
+                "th": "ภาษาดัตช์ 'เช่า' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '빌리다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'alquilar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["huren", "fiets", "fietspad", "helm"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'helmet' in Dutch?",
+                "zh": "荷兰语中'头盔'怎么说？",
+                "th": "ภาษาดัตช์ 'หมวกกันน็อก' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '헬멧'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'casco' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["helm", "slot", "huren", "fiets"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "fietspad",
+              "romanization": null,
+              "options": {
+                "en": ["cycle path / bike lane", "bicycle", "lock", "helmet"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "fiets",
+                  "romanization": null,
+                  "native": { "en": "bicycle / bike" }
+                },
+                {
+                  "target": "fietspad",
+                  "romanization": null,
+                  "native": { "en": "cycle path / bike lane" }
+                },
+                {
+                  "target": "huren",
+                  "romanization": null,
+                  "native": { "en": "to rent / to hire" }
+                },
+                {
+                  "target": "slot",
+                  "romanization": null,
+                  "native": { "en": "lock (for a bike)" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Airport & Train Station",
+        "zh": "在机场和火车站",
+        "th": "ที่สนามบินและสถานีรถไฟ",
+        "ko": "공항과 기차역에서",
+        "es": "En el aeropuerto y la estación de tren"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Checking In",
+            "zh": "办理登机手续",
+            "th": "เช็คอิน",
+            "ko": "체크인",
+            "es": "Facturar el equipaje"
+          },
+          "objectives": {
+            "en": [
+              "Check in at an airport or train station",
+              "Understand announcements and signage"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "inchecken",
+              "romanization": null,
+              "meanings": {
+                "en": "to check in",
+                "zh": "办理登机手续",
+                "th": "เช็คอิน",
+                "ko": "체크인하다",
+                "es": "facturar"
+              },
+              "gendered": null
+            },
+            {
+              "word": "bagage",
+              "romanization": null,
+              "meanings": {
+                "en": "luggage / baggage",
+                "zh": "行李",
+                "th": "สัมภาระ",
+                "ko": "수하물",
+                "es": "equipaje"
+              },
+              "gendered": null
+            },
+            {
+              "word": "paspoort",
+              "romanization": null,
+              "meanings": {
+                "en": "passport",
+                "zh": "护照",
+                "th": "หนังสือเดินทาง",
+                "ko": "여권",
+                "es": "pasaporte"
+              },
+              "gendered": null
+            },
+            {
+              "word": "gate",
+              "romanization": null,
+              "meanings": {
+                "en": "gate (boarding gate)",
+                "zh": "登机口",
+                "th": "เกต",
+                "ko": "탑승 게이트",
+                "es": "puerta de embarque"
+              },
+              "gendered": null
+            },
+            {
+              "word": "vertraging",
+              "romanization": null,
+              "meanings": {
+                "en": "delay",
+                "zh": "延误",
+                "th": "ความล่าช้า",
+                "ko": "지연",
+                "es": "retraso"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "bagage",
+              "romanization": null,
+              "options": {
+                "en": ["luggage / baggage", "passport", "delay", "gate"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "vertraging",
+              "romanization": null,
+              "options": {
+                "en": ["delay", "check in", "luggage", "passport"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'passport' in Dutch?",
+                "zh": "荷兰语中'护照'怎么说？",
+                "th": "ภาษาดัตช์ 'หนังสือเดินทาง' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '여권'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'pasaporte' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["paspoort", "bagage", "gate", "inchecken"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to check in' in Dutch?",
+                "zh": "荷兰语中'办理登机手续'怎么说？",
+                "th": "ภาษาดัตช์ 'เช็คอิน' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '체크인하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'facturar' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["inchecken", "vertraging", "paspoort", "bagage"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "vertraging",
+              "romanization": null,
+              "options": {
+                "en": ["delay", "check in", "luggage", "gate"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "inchecken",
+                  "romanization": null,
+                  "native": { "en": "to check in" }
+                },
+                {
+                  "target": "bagage",
+                  "romanization": null,
+                  "native": { "en": "luggage / baggage" }
+                },
+                {
+                  "target": "paspoort",
+                  "romanization": null,
+                  "native": { "en": "passport" }
+                },
+                {
+                  "target": "vertraging",
+                  "romanization": null,
+                  "native": { "en": "delay" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Buying Train Tickets",
+            "zh": "购买火车票",
+            "th": "ซื้อตั๋วรถไฟ",
+            "ko": "기차표 사기",
+            "es": "Comprar billetes de tren"
+          },
+          "objectives": {
+            "en": [
+              "Buy train tickets at the station",
+              "Ask about destinations and platforms"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "enkel",
+              "romanization": null,
+              "meanings": {
+                "en": "single (one-way ticket)",
+                "zh": "单程",
+                "th": "เที่ยวเดียว",
+                "ko": "편도",
+                "es": "sencillo (billete de ida)"
+              },
+              "gendered": null
+            },
+            {
+              "word": "retour",
+              "romanization": null,
+              "meanings": {
+                "en": "return (round trip)",
+                "zh": "往返",
+                "th": "ไปกลับ",
+                "ko": "왕복",
+                "es": "ida y vuelta"
+              },
+              "gendered": null
+            },
+            {
+              "word": "perron",
+              "romanization": null,
+              "meanings": {
+                "en": "platform",
+                "zh": "站台",
+                "th": "ชานชาลา",
+                "ko": "플랫폼",
+                "es": "andén"
+              },
+              "gendered": null
+            },
+            {
+              "word": "spoor",
+              "romanization": null,
+              "meanings": {
+                "en": "track / rail",
+                "zh": "轨道",
+                "th": "รางรถไฟ",
+                "ko": "선로",
+                "es": "vía"
+              },
+              "gendered": null
+            },
+            {
+              "word": "overstappen",
+              "romanization": null,
+              "meanings": {
+                "en": "to transfer / to change trains",
+                "zh": "换乘",
+                "th": "เปลี่ยนขบวน",
+                "ko": "환승하다",
+                "es": "hacer transbordo"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "retour",
+              "romanization": null,
+              "options": {
+                "en": ["return (round trip)", "single", "platform", "track"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "perron",
+              "romanization": null,
+              "options": {
+                "en": ["platform", "track", "return ticket", "transfer"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'single (one-way ticket)' in Dutch?",
+                "zh": "荷兰语中'单程'怎么说？",
+                "th": "ภาษาดัตช์ 'เที่ยวเดียว' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '편도'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'sencillo' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["enkel", "retour", "perron", "spoor"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to transfer / change trains' in Dutch?",
+                "zh": "荷兰语中'换乘'怎么说？",
+                "th": "ภาษาดัตช์ 'เปลี่ยนขบวน' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '환승하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'hacer transbordo' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["overstappen", "enkel", "retour", "spoor"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "spoor",
+              "romanization": null,
+              "options": {
+                "en": ["track / rail", "platform", "single ticket", "transfer"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "enkel",
+                  "romanization": null,
+                  "native": { "en": "single (one-way ticket)" }
+                },
+                {
+                  "target": "retour",
+                  "romanization": null,
+                  "native": { "en": "return (round trip)" }
+                },
+                {
+                  "target": "perron",
+                  "romanization": null,
+                  "native": { "en": "platform" }
+                },
+                {
+                  "target": "overstappen",
+                  "romanization": null,
+                  "native": { "en": "to transfer / to change trains" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Accommodation",
+            "zh": "住宿",
+            "th": "ที่พัก",
+            "ko": "숙박",
+            "es": "Alojamiento"
+          },
+          "objectives": {
+            "en": [
+              "Check in and out of a hotel",
+              "Request information about facilities"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "hotel",
+              "romanization": null,
+              "meanings": {
+                "en": "hotel",
+                "zh": "酒店",
+                "th": "โรงแรม",
+                "ko": "호텔",
+                "es": "hotel"
+              },
+              "gendered": null
+            },
+            {
+              "word": "kamer",
+              "romanization": null,
+              "meanings": {
+                "en": "room",
+                "zh": "房间",
+                "th": "ห้อง",
+                "ko": "방",
+                "es": "habitación"
+              },
+              "gendered": null
+            },
+            {
+              "word": "ontbijt",
+              "romanization": null,
+              "meanings": {
+                "en": "breakfast",
+                "zh": "早餐",
+                "th": "อาหารเช้า",
+                "ko": "조식",
+                "es": "desayuno"
+              },
+              "gendered": null
+            },
+            {
+              "word": "uitchecken",
+              "romanization": null,
+              "meanings": {
+                "en": "to check out",
+                "zh": "退房",
+                "th": "เช็คเอาต์",
+                "ko": "체크아웃하다",
+                "es": "hacer el check-out"
+              },
+              "gendered": null
+            },
+            {
+              "word": "sleutel",
+              "romanization": null,
+              "meanings": {
+                "en": "key",
+                "zh": "钥匙",
+                "th": "กุญแจ",
+                "ko": "열쇠",
+                "es": "llave"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "kamer",
+              "romanization": null,
+              "options": {
+                "en": ["room", "hotel", "key", "breakfast"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "sleutel",
+              "romanization": null,
+              "options": {
+                "en": ["key", "room", "check out", "breakfast"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to check out' in Dutch?",
+                "zh": "荷兰语中'退房'怎么说？",
+                "th": "ภาษาดัตช์ 'เช็คเอาต์' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '체크아웃하다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'hacer el check-out' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["uitchecken", "inchecken", "kamer", "sleutel"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'breakfast' in Dutch?",
+                "zh": "荷兰语中'早餐'怎么说？",
+                "th": "ภาษาดัตช์ 'อาหารเช้า' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '조식'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'desayuno' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["ontbijt", "kamer", "sleutel", "uitchecken"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "sleutel",
+              "romanization": null,
+              "options": {
+                "en": ["key", "room", "breakfast", "hotel"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "kamer",
+                  "romanization": null,
+                  "native": { "en": "room" }
+                },
+                {
+                  "target": "ontbijt",
+                  "romanization": null,
+                  "native": { "en": "breakfast" }
+                },
+                {
+                  "target": "uitchecken",
+                  "romanization": null,
+                  "native": { "en": "to check out" }
+                },
+                {
+                  "target": "sleutel",
+                  "romanization": null,
+                  "native": { "en": "key" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Exploring the City",
+        "zh": "探索城市",
+        "th": "สำรวจเมือง",
+        "ko": "도시 탐험",
+        "es": "Explorar la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Tourist Attractions",
+            "zh": "旅游景点",
+            "th": "แหล่งท่องเที่ยว",
+            "ko": "관광 명소",
+            "es": "Atracciones turísticas"
+          },
+          "objectives": {
+            "en": [
+              "Talk about visiting tourist sites",
+              "Buy entrance tickets and ask about opening hours"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "museum",
+              "romanization": null,
+              "meanings": {
+                "en": "museum",
+                "zh": "博物馆",
+                "th": "พิพิธภัณฑ์",
+                "ko": "박물관",
+                "es": "museo"
+              },
+              "gendered": null
+            },
+            {
+              "word": "openingstijden",
+              "romanization": null,
+              "meanings": {
+                "en": "opening hours",
+                "zh": "开放时间",
+                "th": "เวลาเปิดทำการ",
+                "ko": "운영 시간",
+                "es": "horario de apertura"
+              },
+              "gendered": null
+            },
+            {
+              "word": "toegang",
+              "romanization": null,
+              "meanings": {
+                "en": "entrance / admission",
+                "zh": "入场",
+                "th": "ทางเข้า",
+                "ko": "입장",
+                "es": "entrada / acceso"
+              },
+              "gendered": null
+            },
+            {
+              "word": "bezichtigen",
+              "romanization": null,
+              "meanings": {
+                "en": "to visit / to view (sights)",
+                "zh": "参观",
+                "th": "ชม",
+                "ko": "관람하다",
+                "es": "visitar / ver"
+              },
+              "gendered": null
+            },
+            {
+              "word": "rondleiding",
+              "romanization": null,
+              "meanings": {
+                "en": "guided tour",
+                "zh": "导览",
+                "th": "ทัวร์นำเที่ยว",
+                "ko": "가이드 투어",
+                "es": "visita guiada"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "museum",
+              "romanization": null,
+              "options": {
+                "en": ["museum", "guided tour", "entrance", "opening hours"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "rondleiding",
+              "romanization": null,
+              "options": {
+                "en": ["guided tour", "museum", "opening hours", "entrance"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'opening hours' in Dutch?",
+                "zh": "荷兰语中'开放时间'怎么说？",
+                "th": "ภาษาดัตช์ 'เวลาเปิดทำการ' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '운영 시간'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'horario de apertura' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["openingstijden", "toegang", "rondleiding", "museum"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'entrance / admission' in Dutch?",
+                "zh": "荷兰语中'入场'怎么说？",
+                "th": "ภาษาดัตช์ 'ทางเข้า' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '입장'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'entrada' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["toegang", "bezichtigen", "museum", "rondleiding"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bezichtigen",
+              "romanization": null,
+              "options": {
+                "en": ["to visit / to view (sights)", "guided tour", "museum", "entrance"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "museum",
+                  "romanization": null,
+                  "native": { "en": "museum" }
+                },
+                {
+                  "target": "openingstijden",
+                  "romanization": null,
+                  "native": { "en": "opening hours" }
+                },
+                {
+                  "target": "toegang",
+                  "romanization": null,
+                  "native": { "en": "entrance / admission" }
+                },
+                {
+                  "target": "rondleiding",
+                  "romanization": null,
+                  "native": { "en": "guided tour" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Shopping in the City",
+            "zh": "在城市购物",
+            "th": "ช็อปปิ้งในเมือง",
+            "ko": "도시에서 쇼핑하기",
+            "es": "De compras por la ciudad"
+          },
+          "objectives": {
+            "en": [
+              "Shop in Dutch stores",
+              "Ask about prices and sizes"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "winkel",
+              "romanization": null,
+              "meanings": {
+                "en": "shop / store",
+                "zh": "商店",
+                "th": "ร้านค้า",
+                "ko": "가게",
+                "es": "tienda"
+              },
+              "gendered": null
+            },
+            {
+              "word": "prijs",
+              "romanization": null,
+              "meanings": {
+                "en": "price",
+                "zh": "价格",
+                "th": "ราคา",
+                "ko": "가격",
+                "es": "precio"
+              },
+              "gendered": null
+            },
+            {
+              "word": "maat",
+              "romanization": null,
+              "meanings": {
+                "en": "size",
+                "zh": "尺码",
+                "th": "ขนาด",
+                "ko": "사이즈",
+                "es": "talla / tamaño"
+              },
+              "gendered": null
+            },
+            {
+              "word": "passen",
+              "romanization": null,
+              "meanings": {
+                "en": "to try on / to fit",
+                "zh": "试穿",
+                "th": "ลองใส่",
+                "ko": "입어보다 / 맞다",
+                "es": "probarse / quedar bien"
+              },
+              "gendered": null
+            },
+            {
+              "word": "korting",
+              "romanization": null,
+              "meanings": {
+                "en": "discount",
+                "zh": "折扣",
+                "th": "ส่วนลด",
+                "ko": "할인",
+                "es": "descuento"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "winkel",
+              "romanization": null,
+              "options": {
+                "en": ["shop / store", "price", "size", "discount"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "korting",
+              "romanization": null,
+              "options": {
+                "en": ["discount", "price", "size", "shop"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'price' in Dutch?",
+                "zh": "荷兰语中'价格'怎么说？",
+                "th": "ภาษาดัตช์ 'ราคา' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '가격'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'precio' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["prijs", "maat", "korting", "winkel"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'to try on / to fit' in Dutch?",
+                "zh": "荷兰语中'试穿'怎么说？",
+                "th": "ภาษาดัตช์ 'ลองใส่' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '입어보다'는 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'probarse' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["passen", "prijs", "korting", "maat"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "korting",
+              "romanization": null,
+              "options": {
+                "en": ["discount", "price", "size", "shop"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "winkel",
+                  "romanization": null,
+                  "native": { "en": "shop / store" }
+                },
+                {
+                  "target": "prijs",
+                  "romanization": null,
+                  "native": { "en": "price" }
+                },
+                {
+                  "target": "passen",
+                  "romanization": null,
+                  "native": { "en": "to try on / to fit" }
+                },
+                {
+                  "target": "korting",
+                  "romanization": null,
+                  "native": { "en": "discount" }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Weather and Seasons",
+            "zh": "天气和季节",
+            "th": "สภาพอากาศและฤดูกาล",
+            "ko": "날씨와 계절",
+            "es": "El tiempo y las estaciones"
+          },
+          "objectives": {
+            "en": [
+              "Talk about Dutch weather",
+              "Describe seasons and plan activities accordingly"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "bewolkt",
+              "romanization": null,
+              "meanings": {
+                "en": "cloudy / overcast",
+                "zh": "多云",
+                "th": "มีเมฆมาก",
+                "ko": "흐린",
+                "es": "nublado"
+              },
+              "gendered": null
+            },
+            {
+              "word": "regen",
+              "romanization": null,
+              "meanings": {
+                "en": "rain",
+                "zh": "雨",
+                "th": "ฝน",
+                "ko": "비",
+                "es": "lluvia"
+              },
+              "gendered": null
+            },
+            {
+              "word": "paraplu",
+              "romanization": null,
+              "meanings": {
+                "en": "umbrella",
+                "zh": "雨伞",
+                "th": "ร่ม",
+                "ko": "우산",
+                "es": "paraguas"
+              },
+              "gendered": null
+            },
+            {
+              "word": "zonnig",
+              "romanization": null,
+              "meanings": {
+                "en": "sunny",
+                "zh": "晴天的",
+                "th": "แดดออก",
+                "ko": "화창한",
+                "es": "soleado"
+              },
+              "gendered": null
+            },
+            {
+              "word": "temperatuur",
+              "romanization": null,
+              "meanings": {
+                "en": "temperature",
+                "zh": "温度",
+                "th": "อุณหภูมิ",
+                "ko": "기온",
+                "es": "temperatura"
+              },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "regen",
+              "romanization": null,
+              "options": {
+                "en": ["rain", "sun", "cloud", "temperature"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "paraplu",
+              "romanization": null,
+              "options": {
+                "en": ["umbrella", "rain", "sunny", "cloudy"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'sunny' in Dutch?",
+                "zh": "荷兰语中'晴天的'怎么说？",
+                "th": "ภาษาดัตช์ 'แดดออก' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '화창한'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'soleado' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["zonnig", "bewolkt", "regen", "temperatuur"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'cloudy / overcast' in Dutch?",
+                "zh": "荷兰语中'多云'怎么说？",
+                "th": "ภาษาดัตช์ 'มีเมฆมาก' พูดว่าอะไร?",
+                "ko": "네덜란드어로 '흐린'은 뭐라고 하나요?",
+                "es": "¿Cómo se dice 'nublado' en neerlandés?"
+              },
+              "options": {
+                "neutral": ["bewolkt", "zonnig", "regen", "paraplu"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "temperatuur",
+              "romanization": null,
+              "options": {
+                "en": ["temperature", "rain", "cloudy", "umbrella"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "bewolkt",
+                  "romanization": null,
+                  "native": { "en": "cloudy / overcast" }
+                },
+                {
+                  "target": "regen",
+                  "romanization": null,
+                  "native": { "en": "rain" }
+                },
+                {
+                  "target": "zonnig",
+                  "romanization": null,
+                  "native": { "en": "sunny" }
+                },
+                {
+                  "target": "paraplu",
+                  "romanization": null,
+                  "native": { "en": "umbrella" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

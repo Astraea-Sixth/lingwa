@@ -1,0 +1,792 @@
+{
+  "lang": "pl",
+  "language": "pl",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting Friends",
+            "zh": "邀请朋友",
+            "th": "การเชิญเพื่อน",
+            "ko": "친구 초대하기",
+            "es": "Invitar amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to a social event in Polish", "Accept or decline invitations politely"],
+            "zh": ["用波兰语邀请某人参加社交活动", "礼貌地接受或拒绝邀请"],
+            "th": ["เชิญใครบางคนไปงานสังสรรค์เป็นภาษาโปแลนด์", "ตอบรับหรือปฏิเสธคำเชิญอย่างสุภาพ"],
+            "ko": ["폴란드어로 사교 행사에 초대하기", "정중하게 초대 수락 또는 거절하기"],
+            "es": ["Invitar a alguien a un evento social en polaco", "Aceptar o rechazar invitaciones con educación"]
+          },
+          "vocabulary": [
+            {
+              "word": "zaprosić",
+              "romanization": null,
+              "meanings": { "en": "to invite", "zh": "邀请", "th": "เชิญ", "ko": "초대하다", "es": "invitar" }
+            },
+            {
+              "word": "impreza",
+              "romanization": null,
+              "meanings": { "en": "party/event", "zh": "派对/活动", "th": "ปาร์ตี้/งาน", "ko": "파티/행사", "es": "fiesta/evento" }
+            },
+            {
+              "word": "przyjąć zaproszenie",
+              "romanization": null,
+              "meanings": { "en": "to accept the invitation", "zh": "接受邀请", "th": "ยอมรับคำเชิญ", "ko": "초대를 수락하다", "es": "aceptar la invitación" }
+            },
+            {
+              "word": "przepraszam, nie mogę",
+              "romanization": null,
+              "meanings": { "en": "sorry, I can't", "zh": "对不起，我不能", "th": "ขอโทษ ฉันไม่สามารถ", "ko": "죄송해요, 못 가요", "es": "lo siento, no puedo" }
+            },
+            {
+              "word": "zajęty",
+              "romanization": null,
+              "meanings": { "en": "busy", "zh": "忙", "th": "ยุ่ง", "ko": "바쁜", "es": "ocupado" }
+            },
+            {
+              "word": "bawić się",
+              "romanization": null,
+              "meanings": { "en": "to have fun/enjoy", "zh": "享受/玩乐", "th": "สนุก", "ko": "즐기다", "es": "divertirse" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to come to my party?'",
+              "options": ["Czy chciałbyś przyjść na moją imprezę?", "Zapraszam cię.", "Zobaczymy się na imprezie.", "Czy jesteś dziś zajęty?"],
+              "correct": 0,
+              "explanation": "'Czy chciałbyś przyjść na moją imprezę?' = Would you like to come to my party?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "zajęty",
+              "options": ["busy", "happy", "sad", "tired"],
+              "correct": 0,
+              "explanation": "'Zajęty' means busy — used to politely decline invitations."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["zaprosić", "to invite"],
+                ["impreza", "party"],
+                ["przyjąć zaproszenie", "to accept invitation"],
+                ["bawić się", "to have fun"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Przepraszam, tego dnia jestem zajęty.",
+              "options": ["Sorry, I'm busy that day.", "Sure, I'd love to come.", "What time is the party?", "Thanks for the invitation."],
+              "correct": 0,
+              "explanation": "'Tego dnia' = that day, 'jestem zajęty' = I am busy."
+            },
+            {
+              "type": "reorder",
+              "words": ["przyjść", "na", "chciałbyś", "imprezę", "czy"],
+              "correct": ["Czy", "chciałbyś", "przyjść", "na", "imprezę"],
+              "translation": "Would you like to come to the party?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Talking About Hobbies",
+            "zh": "谈论爱好",
+            "th": "การพูดถึงงานอดิเรก",
+            "ko": "취미 이야기하기",
+            "es": "Hablar de aficiones"
+          },
+          "objectives": {
+            "en": ["Describe hobbies and free time activities in Polish", "Ask others about their interests"],
+            "zh": ["用波兰语描述爱好和休闲活动", "询问他人的兴趣"],
+            "th": ["อธิบายงานอดิเรกและกิจกรรมยามว่างเป็นภาษาโปแลนด์", "ถามผู้อื่นเกี่ยวกับความสนใจ"],
+            "ko": ["폴란드어로 취미와 여가 활동 설명하기", "다른 사람의 관심사 묻기"],
+            "es": ["Describir aficiones y actividades de ocio en polaco", "Preguntar a otros sobre sus intereses"]
+          },
+          "vocabulary": [
+            {
+              "word": "hobby",
+              "romanization": null,
+              "meanings": { "en": "hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "afición" }
+            },
+            {
+              "word": "słuchać muzyki",
+              "romanization": null,
+              "meanings": { "en": "to listen to music", "zh": "听音乐", "th": "ฟังเพลง", "ko": "음악 듣기", "es": "escuchar música" }
+            },
+            {
+              "word": "uprawiać sport",
+              "romanization": null,
+              "meanings": { "en": "to do sports/exercise", "zh": "做运动", "th": "เล่นกีฬา", "ko": "운동하다", "es": "hacer deporte" }
+            },
+            {
+              "word": "czytać książki",
+              "romanization": null,
+              "meanings": { "en": "to read books", "zh": "读书", "th": "อ่านหนังสือ", "ko": "책 읽기", "es": "leer libros" }
+            },
+            {
+              "word": "interesować się",
+              "romanization": null,
+              "meanings": { "en": "to be interested in", "zh": "对...感兴趣", "th": "สนใจ", "ko": "관심이 있다", "es": "estar interesado en" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'My hobby is reading'?",
+              "options": ["Moim hobby jest czytanie.", "Nie lubię czytać.", "Moim hobby jest sport.", "Lubię słuchać muzyki."],
+              "correct": 0,
+              "explanation": "'Moim hobby jest czytanie' = My hobby is reading. 'Moim' = my (instrumental case)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "uprawiać sport",
+              "options": ["to do sports/exercise", "to watch sports", "to play music", "to read books"],
+              "correct": 0,
+              "explanation": "'Uprawiać sport' = to do sports or exercise."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hobby", "hobby"],
+                ["słuchać muzyki", "listen to music"],
+                ["czytać książki", "read books"],
+                ["interesować się", "to be interested in"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Czym się interesujesz?",
+              "options": ["What are you interested in?", "What is your hobby?", "Do you like sports?", "What music do you listen to?"],
+              "correct": 0,
+              "explanation": "'Czym się interesujesz?' = What are you interested in?"
+            },
+            {
+              "type": "reorder",
+              "words": ["lubię", "czytać", "książki"],
+              "correct": ["Lubię", "czytać", "książki"],
+              "translation": "I like reading books."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Weekend Plans",
+            "zh": "周末计划",
+            "th": "แผนสุดสัปดาห์",
+            "ko": "주말 계획",
+            "es": "Planes para el fin de semana"
+          },
+          "objectives": {
+            "en": ["Discuss weekend plans and activities in Polish", "Talk about past and future events"],
+            "zh": ["用波兰语讨论周末计划和活动", "谈论过去和未来的事件"],
+            "th": ["พูดคุยเกี่ยวกับแผนและกิจกรรมวันหยุดสุดสัปดาห์เป็นภาษาโปแลนด์", "พูดคุยเกี่ยวกับเหตุการณ์ในอดีตและอนาคต"],
+            "ko": ["폴란드어로 주말 계획과 활동 이야기하기", "과거와 미래 사건에 대해 이야기하기"],
+            "es": ["Discutir planes y actividades del fin de semana en polaco", "Hablar de eventos pasados y futuros"]
+          },
+          "vocabulary": [
+            {
+              "word": "weekend",
+              "romanization": null,
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "kino",
+              "romanization": null,
+              "meanings": { "en": "cinema/movies", "zh": "电影院", "th": "โรงภาพยนตร์", "ko": "영화관", "es": "cine" }
+            },
+            {
+              "word": "piknik",
+              "romanization": null,
+              "meanings": { "en": "picnic", "zh": "野餐", "th": "ปิกนิก", "ko": "소풍", "es": "picnic" }
+            },
+            {
+              "word": "spacer",
+              "romanization": null,
+              "meanings": { "en": "walk/stroll", "zh": "散步", "th": "การเดินเล่น", "ko": "산책", "es": "paseo" }
+            },
+            {
+              "word": "planować",
+              "romanization": null,
+              "meanings": { "en": "to plan", "zh": "计划", "th": "วางแผน", "ko": "계획하다", "es": "planear" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What are you doing this weekend?'",
+              "options": ["Co robisz w ten weekend?", "Dokąd idziesz w weekend?", "Czy jesteś zajęty w weekend?", "Jaki masz plan?"],
+              "correct": 0,
+              "explanation": "'Co robisz w ten weekend?' = What are you doing this weekend?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "spacer",
+              "options": ["walk/stroll", "cinema", "picnic", "party"],
+              "correct": 0,
+              "explanation": "'Spacer' means a walk or stroll — 'Iść na spacer' = to go for a walk."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["weekend", "weekend"],
+                ["kino", "cinema"],
+                ["piknik", "picnic"],
+                ["planować", "to plan"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "W weekend idziemy do kina.",
+              "options": ["We're going to the cinema this weekend.", "We're planning a picnic.", "I'm going for a walk.", "We're having a party."],
+              "correct": 0,
+              "explanation": "'W weekend' = at the weekend, 'idziemy do kina' = we are going to the cinema."
+            },
+            {
+              "type": "reorder",
+              "words": ["weekend", "piknik", "zróbmy", "w"],
+              "correct": ["W", "weekend", "zróbmy", "piknik"],
+              "translation": "Let's have a picnic this weekend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Socializing",
+        "zh": "社交",
+        "th": "การเข้าสังคม",
+        "ko": "사교",
+        "es": "Socializar"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Meeting New People",
+            "zh": "认识新朋友",
+            "th": "การพบปะคนใหม่",
+            "ko": "새로운 사람 만나기",
+            "es": "Conocer nuevas personas"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and make small talk in Polish", "Ask about someone's background"],
+            "zh": ["用波兰语自我介绍和闲聊", "询问某人的背景"],
+            "th": ["แนะนำตัวเองและพูดคุยเรื่องทั่วไปเป็นภาษาโปแลนด์", "ถามเกี่ยวกับภูมิหลังของใครบางคน"],
+            "ko": ["폴란드어로 자기소개하고 가벼운 대화하기", "누군가의 배경 물어보기"],
+            "es": ["Presentarse y hacer pequeña charla en polaco", "Preguntar sobre el origen de alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "poznać",
+              "romanization": null,
+              "meanings": { "en": "to meet/get to know", "zh": "认识", "th": "รู้จัก", "ko": "만나다/알게 되다", "es": "conocer" }
+            },
+            {
+              "word": "skąd jesteś?",
+              "romanization": null,
+              "meanings": { "en": "where are you from?", "zh": "你来自哪里?", "th": "คุณมาจากไหน?", "ko": "어디 출신이에요?", "es": "¿de dónde eres?" }
+            },
+            {
+              "word": "zawód",
+              "romanization": null,
+              "meanings": { "en": "profession/occupation", "zh": "职业", "th": "อาชีพ", "ko": "직업", "es": "profesión" }
+            },
+            {
+              "word": "dogadywać się",
+              "romanization": null,
+              "meanings": { "en": "to get along", "zh": "相处融洽", "th": "เข้ากันได้ดี", "ko": "잘 지내다", "es": "llevarse bien" }
+            },
+            {
+              "word": "znajomy",
+              "romanization": null,
+              "meanings": { "en": "acquaintance/friend", "zh": "熟人/朋友", "th": "คนรู้จัก/เพื่อน", "ko": "지인/친구", "es": "conocido/amigo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where are you from?'",
+              "options": ["Skąd jesteś?", "Co robisz?", "Jak masz na imię?", "Ile masz lat?"],
+              "correct": 0,
+              "explanation": "'Skąd jesteś?' = Where are you from? (informal). 'Skąd pan/pani jest?' is the formal version."
+            },
+            {
+              "type": "target_to_native",
+              "word": "znajomy",
+              "options": ["acquaintance/friend", "colleague", "neighbor", "family"],
+              "correct": 0,
+              "explanation": "'Znajomy' means acquaintance or friend — less close than 'przyjaciel' (close friend)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["poznać", "to meet"],
+                ["zawód", "profession"],
+                ["znajomy", "acquaintance"],
+                ["skąd jesteś?", "where are you from?"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Miło mi pana/panią poznać.",
+              "options": ["Nice to meet you.", "How are you?", "Where are you from?", "What do you do?"],
+              "correct": 0,
+              "explanation": "'Miło mi pana/panią poznać' = Nice to meet you (formal). 'Miło mi' = pleased/nice for me."
+            },
+            {
+              "type": "reorder",
+              "words": ["co", "zawodowo", "robisz"],
+              "correct": ["Co", "robisz", "zawodowo"],
+              "translation": "What do you do professionally?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Giving Compliments",
+            "zh": "给予赞美",
+            "th": "การให้คำชม",
+            "ko": "칭찬하기",
+            "es": "Dar cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments in Polish", "React positively to praise"],
+            "zh": ["用波兰语给予和接受赞美", "积极回应赞美"],
+            "th": ["ให้และรับคำชมเป็นภาษาโปแลนด์", "ตอบสนองต่อคำชมอย่างเป็นบวก"],
+            "ko": ["폴란드어로 칭찬하고 받기", "칭찬에 긍정적으로 반응하기"],
+            "es": ["Dar y recibir cumplidos en polaco", "Reaccionar positivamente a los elogios"]
+          },
+          "vocabulary": [
+            {
+              "word": "ładny",
+              "romanization": null,
+              "meanings": { "en": "beautiful/nice/pretty", "zh": "美丽/漂亮", "th": "สวยงาม/น่ารัก", "ko": "아름다운/예쁜", "es": "bonito/lindo" }
+            },
+            {
+              "word": "wspaniały",
+              "romanization": null,
+              "meanings": { "en": "wonderful/magnificent", "zh": "太棒了/壮观", "th": "วิเศษมาก/งดงาม", "ko": "훌륭한/멋진", "es": "maravilloso/magnífico" }
+            },
+            {
+              "word": "dziękować",
+              "romanization": null,
+              "meanings": { "en": "to thank", "zh": "感谢", "th": "ขอบคุณ", "ko": "감사하다", "es": "agradecer" }
+            },
+            {
+              "word": "jak miło",
+              "romanization": null,
+              "meanings": { "en": "how nice/how kind", "zh": "太好了/真友善", "th": "ช่างดีนัก", "ko": "얼마나 좋은지/정말 친절하네요", "es": "qué amable/qué bien" }
+            },
+            {
+              "word": "bardzo dobrze",
+              "romanization": null,
+              "meanings": { "en": "very well/very good", "zh": "非常好", "th": "ดีมาก", "ko": "아주 잘/아주 좋아요", "es": "muy bien/muy bueno" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Your Polish is very good'?",
+              "options": ["Pana/pani polski jest bardzo dobry.", "Uczę się polskiego.", "Mówię po polsku.", "Nie znam polskiego."],
+              "correct": 0,
+              "explanation": "'Pana/pani polski jest bardzo dobry' = Your Polish is very good (formal). A great compliment!"
+            },
+            {
+              "type": "target_to_native",
+              "word": "wspaniały",
+              "options": ["wonderful/magnificent", "bad", "ordinary", "boring"],
+              "correct": 0,
+              "explanation": "'Wspaniały' means wonderful or magnificent — strong positive praise."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ładny", "beautiful/nice"],
+                ["wspaniały", "wonderful"],
+                ["dziękować", "to thank"],
+                ["bardzo dobrze", "very well/good"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ta sukienka jest bardzo ładna.",
+              "options": ["This dress is very beautiful.", "This is very delicious.", "The weather is very nice.", "Your house is wonderful."],
+              "correct": 0,
+              "explanation": "'Ta sukienka' = this dress, 'bardzo ładna' = very beautiful."
+            },
+            {
+              "type": "reorder",
+              "words": ["to", "bardzo", "ładne", "jest"],
+              "correct": ["To", "jest", "bardzo", "ładne"],
+              "translation": "This is very beautiful."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Expressing Opinions",
+            "zh": "表达意见",
+            "th": "การแสดงความคิดเห็น",
+            "ko": "의견 표현하기",
+            "es": "Expresar opiniones"
+          },
+          "objectives": {
+            "en": ["Express agreement and disagreement in Polish", "Share opinions about social topics"],
+            "zh": ["用波兰语表示同意和不同意", "分享关于社交话题的意见"],
+            "th": ["แสดงความเห็นด้วยและไม่เห็นด้วยเป็นภาษาโปแลนด์", "แบ่งปันความคิดเห็นเกี่ยวกับหัวข้อทางสังคม"],
+            "ko": ["폴란드어로 동의와 반대 표현하기", "사회적 주제에 대한 의견 공유하기"],
+            "es": ["Expresar acuerdo y desacuerdo en polaco", "Compartir opiniones sobre temas sociales"]
+          },
+          "vocabulary": [
+            {
+              "word": "moim zdaniem",
+              "romanization": null,
+              "meanings": { "en": "in my opinion", "zh": "我认为", "th": "ในความคิดของฉัน", "ko": "내 생각에는", "es": "en mi opinión" }
+            },
+            {
+              "word": "zgadzać się",
+              "romanization": null,
+              "meanings": { "en": "to agree", "zh": "同意", "th": "เห็นด้วย", "ko": "동의하다", "es": "estar de acuerdo" }
+            },
+            {
+              "word": "nie zgadzam się",
+              "romanization": null,
+              "meanings": { "en": "I disagree", "zh": "我不同意", "th": "ฉันไม่เห็นด้วย", "ko": "저는 동의하지 않아요", "es": "no estoy de acuerdo" }
+            },
+            {
+              "word": "może",
+              "romanization": null,
+              "meanings": { "en": "maybe/perhaps", "zh": "也许", "th": "บางที", "ko": "아마도", "es": "quizás/tal vez" }
+            },
+            {
+              "word": "zdecydowanie",
+              "romanization": null,
+              "meanings": { "en": "definitely/absolutely", "zh": "绝对/肯定", "th": "แน่นอน", "ko": "분명히/절대적으로", "es": "definitivamente/absolutamente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I think this is a good idea'?",
+              "options": ["Moim zdaniem to dobry pomysł.", "To nie jest dobry pomysł.", "Nie wiem.", "Może."],
+              "correct": 0,
+              "explanation": "'Moim zdaniem to dobry pomysł' = In my opinion this is a good idea."
+            },
+            {
+              "type": "target_to_native",
+              "word": "zdecydowanie",
+              "options": ["definitely/absolutely", "maybe", "never", "sometimes"],
+              "correct": 0,
+              "explanation": "'Zdecydowanie' means definitely or absolutely — strong affirmation."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["moim zdaniem", "in my opinion"],
+                ["zgadzać się", "to agree"],
+                ["może", "maybe"],
+                ["zdecydowanie", "definitely"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Moim zdaniem masz rację.",
+              "options": ["I think you're right.", "I disagree with you.", "Maybe you're right.", "I'm not sure."],
+              "correct": 0,
+              "explanation": "'Moim zdaniem' = in my opinion, 'masz rację' = you are right."
+            },
+            {
+              "type": "reorder",
+              "words": ["zdaniem", "rację", "masz", "moim", "zdecydowanie"],
+              "correct": ["Moim", "zdaniem", "zdecydowanie", "masz", "rację"],
+              "translation": "In my opinion, you are definitely right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Celebrations",
+        "zh": "庆典",
+        "th": "การเฉลิมฉลอง",
+        "ko": "축하",
+        "es": "Celebraciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Birthdays & Celebrations",
+            "zh": "生日和庆典",
+            "th": "วันเกิดและการเฉลิมฉลอง",
+            "ko": "생일과 축하",
+            "es": "Cumpleaños y celebraciones"
+          },
+          "objectives": {
+            "en": ["Celebrate birthdays and special occasions in Polish", "Offer good wishes and congratulations"],
+            "zh": ["用波兰语庆祝生日和特殊场合", "送上祝福和祝贺"],
+            "th": ["ฉลองวันเกิดและโอกาสพิเศษเป็นภาษาโปแลนด์", "อวยพรและแสดงความยินดี"],
+            "ko": ["폴란드어로 생일과 특별한 날 축하하기", "축하와 덕담 전하기"],
+            "es": ["Celebrar cumpleaños y ocasiones especiales en polaco", "Dar buenos deseos y felicitaciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "urodziny",
+              "romanization": null,
+              "meanings": { "en": "birthday", "zh": "生日", "th": "วันเกิด", "ko": "생일", "es": "cumpleaños" }
+            },
+            {
+              "word": "wszystkiego najlepszego",
+              "romanization": null,
+              "meanings": { "en": "all the best / happy birthday", "zh": "生日快乐/一切顺利", "th": "สุขสันต์วันเกิด/ขอให้ดีที่สุด", "ko": "행복한 생일/모든 것이 잘 되길", "es": "feliz cumpleaños/todo lo mejor" }
+            },
+            {
+              "word": "świętować",
+              "romanization": null,
+              "meanings": { "en": "to celebrate", "zh": "庆祝", "th": "เฉลิมฉลอง", "ko": "축하하다", "es": "celebrar" }
+            },
+            {
+              "word": "prezent",
+              "romanization": null,
+              "meanings": { "en": "gift/present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            },
+            {
+              "word": "gratulować",
+              "romanization": null,
+              "meanings": { "en": "to congratulate", "zh": "祝贺", "th": "แสดงความยินดี", "ko": "축하하다", "es": "felicitar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Happy Birthday!'?",
+              "options": ["Wszystkiego najlepszego z okazji urodzin!", "Powodzenia!", "Smacznego!", "Zdrowie!"],
+              "correct": 0,
+              "explanation": "'Wszystkiego najlepszego z okazji urodzin!' = Happy Birthday! The full Polish birthday phrase."
+            },
+            {
+              "type": "target_to_native",
+              "word": "prezent",
+              "options": ["gift/present", "card", "cake", "balloon"],
+              "correct": 0,
+              "explanation": "'Prezent' means gift or present — from Latin 'praesens'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["urodziny", "birthday"],
+                ["świętować", "to celebrate"],
+                ["prezent", "gift"],
+                ["gratulować", "to congratulate"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wszystkiego najlepszego z okazji urodzin!",
+              "options": ["Happy birthday!", "Congratulations!", "Good luck!", "Get well soon!"],
+              "correct": 0,
+              "explanation": "'Wszystkiego najlepszego z okazji urodzin' = All the best for your birthday = Happy Birthday!"
+            },
+            {
+              "type": "reorder",
+              "words": ["z", "okazji", "urodzin", "najlepszego", "wszystkiego"],
+              "correct": ["Wszystkiego", "najlepszego", "z", "okazji", "urodzin"],
+              "translation": "Happy birthday!"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Polish Traditions",
+            "zh": "波兰传统",
+            "th": "ประเพณีโปแลนด์",
+            "ko": "폴란드 전통",
+            "es": "Tradiciones polacas"
+          },
+          "objectives": {
+            "en": ["Describe Polish national traditions and customs", "Wish others well during holidays"],
+            "zh": ["描述波兰国家传统和习俗", "在节日期间送上祝福"],
+            "th": ["อธิบายประเพณีและวัฒนธรรมแห่งชาติโปแลนด์", "อวยพรผู้อื่นในช่วงวันหยุด"],
+            "ko": ["폴란드 국가 전통과 관습 설명하기", "공휴일에 덕담 전하기"],
+            "es": ["Describir tradiciones y costumbres polacas", "Desear bien a otros durante las fiestas"]
+          },
+          "vocabulary": [
+            {
+              "word": "Boże Narodzenie",
+              "romanization": null,
+              "meanings": { "en": "Christmas", "zh": "圣诞节", "th": "คริสต์มาส", "ko": "크리스마스", "es": "Navidad" }
+            },
+            {
+              "word": "Wielkanoc",
+              "romanization": null,
+              "meanings": { "en": "Easter", "zh": "复活节", "th": "อีสเตอร์", "ko": "부활절", "es": "Pascua" }
+            },
+            {
+              "word": "życzenia",
+              "romanization": null,
+              "meanings": { "en": "wishes/greetings", "zh": "祝愿/祝福", "th": "คำอวยพร", "ko": "덕담/축하", "es": "deseos/felicitaciones" }
+            },
+            {
+              "word": "tradycja",
+              "romanization": null,
+              "meanings": { "en": "tradition", "zh": "传统", "th": "ประเพณี", "ko": "전통", "es": "tradición" }
+            },
+            {
+              "word": "Wesołych Świąt",
+              "romanization": null,
+              "meanings": { "en": "Merry Christmas / Happy Holidays", "zh": "圣诞快乐/节日快乐", "th": "สุขสันต์วันคริสต์มาส/วันหยุดสุขสันต์", "ko": "메리 크리스마스/즐거운 명절", "es": "Feliz Navidad/Felices Fiestas" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone Merry Christmas in Polish?",
+              "options": ["Wesołych Świąt!", "Wszystkiego najlepszego!", "Powodzenia!", "Zdrowe!"],
+              "correct": 0,
+              "explanation": "'Wesołych Świąt!' = Merry Christmas / Happy Holidays! The standard Polish Christmas greeting."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Wielkanoc",
+              "options": ["Easter", "Christmas", "New Year", "name day"],
+              "correct": 0,
+              "explanation": "'Wielkanoc' = Easter — an important Polish holiday with traditions like Śmigus-Dyngus (water throwing on Easter Monday)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Boże Narodzenie", "Christmas"],
+                ["Wielkanoc", "Easter"],
+                ["życzenia", "wishes"],
+                ["tradycja", "tradition"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "To jest polska tradycja świąteczna.",
+              "options": ["This is a Polish holiday tradition.", "Easter is the most important holiday.", "We celebrate Christmas every year.", "Happy holidays to you too."],
+              "correct": 0,
+              "explanation": "'Polska tradycja świąteczna' = Polish holiday tradition."
+            },
+            {
+              "type": "reorder",
+              "words": ["Świąt", "Wesołych"],
+              "correct": ["Wesołych", "Świąt"],
+              "translation": "Merry Christmas / Happy Holidays!"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Saying Goodbye",
+            "zh": "告别",
+            "th": "การบอกลา",
+            "ko": "작별 인사",
+            "es": "Despedirse"
+          },
+          "objectives": {
+            "en": ["Say goodbye and wish people well in Polish", "Exchange contact information"],
+            "zh": ["用波兰语道别并送上祝福", "交换联系方式"],
+            "th": ["บอกลาและอวยพรผู้คนเป็นภาษาโปแลนด์", "แลกเปลี่ยนข้อมูลการติดต่อ"],
+            "ko": ["폴란드어로 작별 인사하고 잘 되길 바라기", "연락처 교환하기"],
+            "es": ["Despedirse y desear lo mejor en polaco", "Intercambiar información de contacto"]
+          },
+          "vocabulary": [
+            {
+              "word": "do widzenia",
+              "romanization": null,
+              "meanings": { "en": "goodbye (formal)", "zh": "再见（正式）", "th": "ลาก่อน (ทางการ)", "ko": "안녕히 계세요 (격식)", "es": "adiós (formal)" }
+            },
+            {
+              "word": "pa",
+              "romanization": null,
+              "meanings": { "en": "bye (informal)", "zh": "再见（非正式）", "th": "บาย (ไม่เป็นทางการ)", "ko": "바이 (비격식)", "es": "hasta luego (informal)" }
+            },
+            {
+              "word": "zobaczyć się",
+              "romanization": null,
+              "meanings": { "en": "to see each other again", "zh": "再见面", "th": "พบกันอีก", "ko": "다시 만나다", "es": "volver a verse" }
+            },
+            {
+              "word": "numer telefonu",
+              "romanization": null,
+              "meanings": { "en": "phone number", "zh": "电话号码", "th": "หมายเลขโทรศัพท์", "ko": "전화번호", "es": "número de teléfono" }
+            },
+            {
+              "word": "być w kontakcie",
+              "romanization": null,
+              "meanings": { "en": "to stay in touch", "zh": "保持联系", "th": "ติดต่อกัน", "ko": "연락하며 지내다", "es": "mantenerse en contacto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Goodbye' formally in Polish?",
+              "options": ["Do widzenia.", "Pa!", "Cześć!", "Hej!"],
+              "correct": 0,
+              "explanation": "'Do widzenia' is the formal goodbye in Polish — used in professional settings or with strangers."
+            },
+            {
+              "type": "target_to_native",
+              "word": "być w kontakcie",
+              "options": ["to stay in touch", "to call each other", "to meet again", "to say goodbye"],
+              "correct": 0,
+              "explanation": "'Być w kontakcie' means to stay in touch or remain in contact."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["do widzenia", "goodbye (formal)"],
+                ["pa", "bye (informal)"],
+                ["zobaczyć się", "to see each other"],
+                ["numer telefonu", "phone number"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Do zobaczenia, bądźmy w kontakcie!",
+              "options": ["See you later, let's stay in touch!", "Goodbye, it was nice meeting you!", "Have a safe trip!", "Call me when you arrive!"],
+              "correct": 0,
+              "explanation": "'Do zobaczenia' = see you later, 'bądźmy w kontakcie' = let's stay in touch."
+            },
+            {
+              "type": "reorder",
+              "words": ["numer", "mogę", "telefonu", "dostać", "twój"],
+              "correct": ["Mogę", "dostać", "twój", "numer", "telefonu"],
+              "translation": "Can I have your phone number?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Getting Around", "zh": "出行交通", "th": "การเดินทาง", "ko": "이동하기", "es": "Moverse por la ciudad" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Asking for Directions", "zh": "问路", "th": "การถามทาง", "ko": "길 묻기", "es": "Pedir indicaciones" },
+          "objectives": { "en": ["Ask for and understand directions", "Use left, right, straight ahead", "Identify common landmarks"] },
+          "vocabulary": [
+            { "word": "destra", "romanization": null, "meanings": { "en": "right", "zh": "右边", "th": "ขวา", "ko": "오른쪽", "es": "derecha" }, "gendered": null },
+            { "word": "sinistra", "romanization": null, "meanings": { "en": "left", "zh": "左边", "th": "ซ้าย", "ko": "왼쪽", "es": "izquierda" }, "gendered": null },
+            { "word": "dritto", "romanization": null, "meanings": { "en": "straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "recto" }, "gendered": null },
+            { "word": "semaforo", "romanization": null, "meanings": { "en": "traffic light", "zh": "红绿灯", "th": "สัญญาณไฟจราจร", "ko": "신호등", "es": "semáforo" }, "gendered": null },
+            { "word": "incrocio", "romanization": null, "meanings": { "en": "crossroads / intersection", "zh": "十字路口", "th": "สี่แยก", "ko": "교차로", "es": "cruce" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "destra", "romanization": null, "options": { "en": ["right", "left", "straight", "behind"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "semaforo", "romanization": null, "options": { "en": ["traffic light", "crossroads", "street", "corner"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'left' in Italian?" }, "options": { "neutral": ["sinistra", "destra", "dritto", "dietro"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'straight ahead' in Italian?" }, "options": { "neutral": ["dritto", "sinistra", "destra", "indietro"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "incrocio", "romanization": null, "options": { "en": ["crossroads / intersection", "traffic light", "left", "right"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Public Transport", "zh": "公共交通", "th": "การขนส่งสาธารณะ", "ko": "대중교통", "es": "Transporte público" },
+          "objectives": { "en": ["Buy a bus or metro ticket", "Ask about departure times", "Find the right platform or stop"] },
+          "vocabulary": [
+            { "word": "autobus", "romanization": null, "meanings": { "en": "bus", "zh": "公共汽车", "th": "รถบัส", "ko": "버스", "es": "autobús" }, "gendered": null },
+            { "word": "metropolitana", "romanization": null, "meanings": { "en": "underground / metro", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "metro" }, "gendered": null },
+            { "word": "biglietto", "romanization": null, "meanings": { "en": "ticket", "zh": "票", "th": "ตั๋ว", "ko": "표", "es": "billete" }, "gendered": null },
+            { "word": "fermata", "romanization": null, "meanings": { "en": "stop / station", "zh": "站", "th": "ป้ายหยุด", "ko": "정류장", "es": "parada" }, "gendered": null },
+            { "word": "orario", "romanization": null, "meanings": { "en": "timetable / schedule", "zh": "时刻表", "th": "ตารางเวลา", "ko": "시간표", "es": "horario" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "biglietto", "romanization": null, "options": { "en": ["ticket", "stop", "bus", "platform"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "metropolitana", "romanization": null, "options": { "en": ["underground / metro", "bus", "train", "taxi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'stop / station' in Italian?" }, "options": { "neutral": ["fermata", "binario", "uscita", "entrata"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'timetable' in Italian?" }, "options": { "neutral": ["orario", "biglietto", "fermata", "autobus"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "autobus", "romanization": null, "native": { "en": "bus" } },
+              { "target": "biglietto", "romanization": null, "native": { "en": "ticket" } },
+              { "target": "fermata", "romanization": null, "native": { "en": "stop / station" } },
+              { "target": "orario", "romanization": null, "native": { "en": "timetable / schedule" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Taking a Taxi", "zh": "乘出租车", "th": "การนั่งแท็กซี่", "ko": "택시 타기", "es": "Coger un taxi" },
+          "objectives": { "en": ["Hail and direct a taxi", "Give an address in Italian", "Ask about the fare"] },
+          "vocabulary": [
+            { "word": "tassì", "romanization": null, "meanings": { "en": "taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "taxi" }, "gendered": null },
+            { "word": "indirizzo", "romanization": null, "meanings": { "en": "address", "zh": "地址", "th": "ที่อยู่", "ko": "주소", "es": "dirección" }, "gendered": null },
+            { "word": "quanto costa", "romanization": null, "meanings": { "en": "how much does it cost", "zh": "多少钱", "th": "เท่าไหร่", "ko": "얼마예요", "es": "cuánto cuesta" }, "gendered": null },
+            { "word": "mi porti a", "romanization": null, "meanings": { "en": "take me to", "zh": "带我去", "th": "พาฉันไปที่", "ko": "~로 데려다 주세요", "es": "lléveme a" }, "gendered": null },
+            { "word": "ricevuta", "romanization": null, "meanings": { "en": "receipt", "zh": "收据", "th": "ใบเสร็จ", "ko": "영수증", "es": "recibo" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "indirizzo", "romanization": null, "options": { "en": ["address", "receipt", "taxi", "fare"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ricevuta", "romanization": null, "options": { "en": ["receipt", "address", "ticket", "cost"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'how much does it cost' in Italian?" }, "options": { "neutral": ["quanto costa", "dove vai", "chi sei", "come stai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'take me to' in Italian?" }, "options": { "neutral": ["mi porti a", "vado a", "sono a", "arrivo a"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "tassì", "romanization": null, "options": { "en": ["taxi", "bus", "train", "metro"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Hotels & Accommodation", "zh": "酒店与住宿", "th": "โรงแรมและที่พัก", "ko": "호텔과 숙박", "es": "Hoteles y alojamiento" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Checking In", "zh": "办理入住", "th": "การเช็คอิน", "ko": "체크인하기", "es": "Registrarse" },
+          "objectives": { "en": ["Check in at a hotel", "State how many nights you are staying", "Ask for your room key"] },
+          "vocabulary": [
+            { "word": "albergo", "romanization": null, "meanings": { "en": "hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "hotel" }, "gendered": null },
+            { "word": "camera", "romanization": null, "meanings": { "en": "room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "habitación" }, "gendered": null },
+            { "word": "chiave", "romanization": null, "meanings": { "en": "key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "llave" }, "gendered": null },
+            { "word": "notte", "romanization": null, "meanings": { "en": "night", "zh": "晚上", "th": "คืน", "ko": "밤", "es": "noche" }, "gendered": null },
+            { "word": "prenotazione", "romanization": null, "meanings": { "en": "reservation / booking", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "camera", "romanization": null, "options": { "en": ["room", "key", "hotel", "night"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "chiave", "romanization": null, "options": { "en": ["key", "room", "reservation", "night"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hotel' in Italian?" }, "options": { "neutral": ["albergo", "ristorante", "ospedale", "negozio"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'reservation' in Italian?" }, "options": { "neutral": ["prenotazione", "camera", "chiave", "notte"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "notte", "romanization": null, "options": { "en": ["night", "day", "morning", "afternoon"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Hotel Facilities", "zh": "酒店设施", "th": "สิ่งอำนวยความสะดวกในโรงแรม", "ko": "호텔 시설", "es": "Instalaciones del hotel" },
+          "objectives": { "en": ["Ask about hotel facilities", "Request extra items for your room", "Report a problem in your room"] },
+          "vocabulary": [
+            { "word": "colazione", "romanization": null, "meanings": { "en": "breakfast", "zh": "早餐", "th": "อาหารเช้า", "ko": "아침 식사", "es": "desayuno" }, "gendered": null },
+            { "word": "piscina", "romanization": null, "meanings": { "en": "swimming pool", "zh": "游泳池", "th": "สระว่ายน้ำ", "ko": "수영장", "es": "piscina" }, "gendered": null },
+            { "word": "ascensore", "romanization": null, "meanings": { "en": "lift / elevator", "zh": "电梯", "th": "ลิฟต์", "ko": "엘리베이터", "es": "ascensor" }, "gendered": null },
+            { "word": "asciugamano", "romanization": null, "meanings": { "en": "towel", "zh": "毛巾", "th": "ผ้าขนหนู", "ko": "수건", "es": "toalla" }, "gendered": null },
+            { "word": "wifi", "romanization": null, "meanings": { "en": "WiFi", "zh": "无线网络", "th": "ไวไฟ", "ko": "와이파이", "es": "wifi" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "colazione", "romanization": null, "options": { "en": ["breakfast", "lunch", "dinner", "snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ascensore", "romanization": null, "options": { "en": ["lift / elevator", "pool", "towel", "stairs"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'swimming pool' in Italian?" }, "options": { "neutral": ["piscina", "palestra", "spa", "giardino"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'towel' in Italian?" }, "options": { "neutral": ["asciugamano", "lenzuolo", "cuscino", "coperta"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "colazione", "romanization": null, "native": { "en": "breakfast" } },
+              { "target": "piscina", "romanization": null, "native": { "en": "swimming pool" } },
+              { "target": "ascensore", "romanization": null, "native": { "en": "lift / elevator" } },
+              { "target": "asciugamano", "romanization": null, "native": { "en": "towel" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Checking Out", "zh": "退房", "th": "การเช็คเอาท์", "ko": "체크아웃하기", "es": "Hacer el check-out" },
+          "objectives": { "en": ["Check out of a hotel", "Understand the bill", "Ask to store luggage"] },
+          "vocabulary": [
+            { "word": "partenza", "romanization": null, "meanings": { "en": "departure", "zh": "出发", "th": "การออกเดินทาง", "ko": "출발", "es": "salida" }, "gendered": null },
+            { "word": "bagaglio", "romanization": null, "meanings": { "en": "luggage / baggage", "zh": "行李", "th": "กระเป๋า", "ko": "수하물", "es": "equipaje" }, "gendered": null },
+            { "word": "fattura", "romanization": null, "meanings": { "en": "invoice / bill", "zh": "发票", "th": "ใบแจ้งหนี้", "ko": "청구서", "es": "factura" }, "gendered": null },
+            { "word": "lasciare", "romanization": null, "meanings": { "en": "to leave", "zh": "离开", "th": "ออกจาก", "ko": "떠나다", "es": "dejar" }, "gendered": null },
+            { "word": "soddisfatto", "romanization": null, "meanings": { "en": "satisfied", "zh": "满意的", "th": "พอใจ", "ko": "만족한", "es": "satisfecho" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "bagaglio", "romanization": null, "options": { "en": ["luggage / baggage", "departure", "bill", "key"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "partenza", "romanization": null, "options": { "en": ["departure", "arrival", "stay", "room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'invoice / bill' in Italian?" }, "options": { "neutral": ["fattura", "conto", "ricevuta", "prezzo"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to leave' in Italian?" }, "options": { "neutral": ["lasciare", "arrivare", "restare", "tornare"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "soddisfatto", "romanization": null, "options": { "en": ["satisfied", "disappointed", "surprised", "tired"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Sightseeing & Tourism", "zh": "观光旅游", "th": "การท่องเที่ยว", "ko": "관광", "es": "Turismo y atracciones" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Visiting Attractions", "zh": "参观景点", "th": "การเยี่ยมชมสถานที่ท่องเที่ยว", "ko": "관광지 방문하기", "es": "Visitar lugares de interés" },
+          "objectives": { "en": ["Buy entry tickets to attractions", "Ask about opening hours", "Read a tourist map"] },
+          "vocabulary": [
+            { "word": "museo", "romanization": null, "meanings": { "en": "museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "museo" }, "gendered": null },
+            { "word": "ingresso", "romanization": null, "meanings": { "en": "entrance / entry ticket", "zh": "入口/门票", "th": "ทางเข้า/ตั๋ว", "ko": "입구/입장권", "es": "entrada" }, "gendered": null },
+            { "word": "orario di apertura", "romanization": null, "meanings": { "en": "opening hours", "zh": "开放时间", "th": "เวลาเปิดทำการ", "ko": "운영 시간", "es": "horario de apertura" }, "gendered": null },
+            { "word": "guida", "romanization": null, "meanings": { "en": "guide / guidebook", "zh": "导游/旅游手册", "th": "ไกด์/คู่มือ", "ko": "가이드/안내서", "es": "guía" }, "gendered": null },
+            { "word": "monumento", "romanization": null, "meanings": { "en": "monument", "zh": "纪念碑", "th": "อนุสาวรีย์", "ko": "기념물", "es": "monumento" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "museo", "romanization": null, "options": { "en": ["museum", "church", "castle", "park"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ingresso", "romanization": null, "options": { "en": ["entrance / entry ticket", "exit", "guide", "map"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'guide / guidebook' in Italian?" }, "options": { "neutral": ["guida", "mappa", "cartina", "orario"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'monument' in Italian?" }, "options": { "neutral": ["monumento", "museo", "palazzo", "fontana"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "orario di apertura", "romanization": null, "options": { "en": ["opening hours", "entry ticket", "guide", "monument"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Shopping for Souvenirs", "zh": "购买纪念品", "th": "การซื้อของที่ระลึก", "ko": "기념품 쇼핑", "es": "Comprar recuerdos" },
+          "objectives": { "en": ["Shop for souvenirs", "Ask for sizes and colours", "Negotiate or ask for a discount"] },
+          "vocabulary": [
+            { "word": "souvenir", "romanization": null, "meanings": { "en": "souvenir", "zh": "纪念品", "th": "ของที่ระลึก", "ko": "기념품", "es": "recuerdo" }, "gendered": null },
+            { "word": "taglia", "romanization": null, "meanings": { "en": "size (clothing)", "zh": "尺码", "th": "ขนาด", "ko": "사이즈", "es": "talla" }, "gendered": null },
+            { "word": "sconto", "romanization": null, "meanings": { "en": "discount", "zh": "折扣", "th": "ส่วนลด", "ko": "할인", "es": "descuento" }, "gendered": null },
+            { "word": "pagare", "romanization": null, "meanings": { "en": "to pay", "zh": "付款", "th": "จ่ายเงิน", "ko": "지불하다", "es": "pagar" }, "gendered": null },
+            { "word": "carta di credito", "romanization": null, "meanings": { "en": "credit card", "zh": "信用卡", "th": "บัตรเครดิต", "ko": "신용카드", "es": "tarjeta de crédito" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "sconto", "romanization": null, "options": { "en": ["discount", "price", "size", "receipt"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "taglia", "romanization": null, "options": { "en": ["size (clothing)", "colour", "style", "brand"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to pay' in Italian?" }, "options": { "neutral": ["pagare", "comprare", "vendere", "restituire"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'credit card' in Italian?" }, "options": { "neutral": ["carta di credito", "contanti", "assegno", "bancomat"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "sconto", "romanization": null, "native": { "en": "discount" } },
+              { "target": "taglia", "romanization": null, "native": { "en": "size (clothing)" } },
+              { "target": "pagare", "romanization": null, "native": { "en": "to pay" } },
+              { "target": "carta di credito", "romanization": null, "native": { "en": "credit card" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Airport", "zh": "在机场", "th": "ที่สนามบิน", "ko": "공항에서", "es": "En el aeropuerto" },
+          "objectives": { "en": ["Navigate the airport", "Check in for a flight", "Understand boarding announcements"] },
+          "vocabulary": [
+            { "word": "aeroporto", "romanization": null, "meanings": { "en": "airport", "zh": "机场", "th": "สนามบิน", "ko": "공항", "es": "aeropuerto" }, "gendered": null },
+            { "word": "volo", "romanization": null, "meanings": { "en": "flight", "zh": "航班", "th": "เที่ยวบิน", "ko": "항공편", "es": "vuelo" }, "gendered": null },
+            { "word": "imbarco", "romanization": null, "meanings": { "en": "boarding", "zh": "登机", "th": "การขึ้นเครื่อง", "ko": "탑승", "es": "embarque" }, "gendered": null },
+            { "word": "passaporto", "romanization": null, "meanings": { "en": "passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "pasaporte" }, "gendered": null },
+            { "word": "ritardo", "romanization": null, "meanings": { "en": "delay", "zh": "延误", "th": "ความล่าช้า", "ko": "지연", "es": "retraso" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "volo", "romanization": null, "options": { "en": ["flight", "airport", "boarding", "delay"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ritardo", "romanization": null, "options": { "en": ["delay", "flight", "passport", "boarding"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'passport' in Italian?" }, "options": { "neutral": ["passaporto", "biglietto", "carta", "visto"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'boarding' in Italian?" }, "options": { "neutral": ["imbarco", "partenza", "arrivo", "controllo"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "aeroporto", "romanization": null, "options": { "en": ["airport", "train station", "bus stop", "port"] }, "correct": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

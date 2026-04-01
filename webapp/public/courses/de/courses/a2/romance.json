@@ -1,0 +1,731 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Meeting Someone",
+        "zh": "认识某人",
+        "th": "การพบกับใครสักคน",
+        "ko": "누군가 만나기",
+        "es": "Conocer a alguien"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "First Impressions",
+            "zh": "第一印象",
+            "th": "ความประทับใจแรก",
+            "ko": "첫인상",
+            "es": "Primeras impresiones"
+          },
+          "objectives": {
+            "en": ["Compliment someone's appearance", "Start a conversation with a new person"],
+            "zh": ["称赞某人的外貌", "与新认识的人开始对话"],
+            "th": ["ชมรูปลักษณ์ของใครสักคน", "เริ่มต้นบทสนทนากับคนใหม่"],
+            "ko": ["누군가의 외모 칭찬하기", "새로운 사람과 대화 시작하기"],
+            "es": ["Hacer cumplidos sobre la apariencia", "Iniciar una conversación con alguien nuevo"]
+          },
+          "vocabulary": [
+            {
+              "word": "attraktiv",
+              "romanization": null,
+              "meanings": { "en": "attractive", "zh": "有魅力的", "th": "ดึงดูด", "ko": "매력적인", "es": "atractivo" }
+            },
+            {
+              "word": "sympathisch",
+              "romanization": null,
+              "meanings": { "en": "likeable / nice", "zh": "讨人喜欢的", "th": "น่าชอบ", "ko": "호감 가는", "es": "simpático" }
+            },
+            {
+              "word": "sich vorstellen",
+              "romanization": null,
+              "meanings": { "en": "to introduce oneself", "zh": "自我介绍", "th": "แนะนำตัวเอง", "ko": "자기소개하다", "es": "presentarse" }
+            },
+            {
+              "word": "lächeln",
+              "romanization": null,
+              "meanings": { "en": "to smile", "zh": "微笑", "th": "ยิ้ม", "ko": "미소 짓다", "es": "sonreír" }
+            },
+            {
+              "word": "schüchtern",
+              "romanization": null,
+              "meanings": { "en": "shy", "zh": "害羞的", "th": "ขี้อาย", "ko": "수줍은", "es": "tímido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You are very attractive'?",
+              "options": ["Du bist sehr attraktiv.", "Du bist sehr schüchtern.", "Du lächelst immer.", "Du bist sympathisch."],
+              "correct": 0,
+              "explanation": "'Du bist sehr attraktiv' = You are very attractive. 'Sehr' = very, 'attraktiv' = attractive."
+            },
+            {
+              "type": "target_to_native",
+              "word": "sympathisch",
+              "options": ["likeable/nice", "shy", "beautiful", "funny"],
+              "correct": 0,
+              "explanation": "'Sympathisch' describes someone who is pleasant and easy to like — a common compliment."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["attraktiv", "attractive"],
+                ["schüchtern", "shy"],
+                ["lächeln", "to smile"],
+                ["sich vorstellen", "to introduce oneself"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vorstellen", "darf", "kurz", "ich", "mich", "Ich", "mich"],
+              "correct": ["Ich", "darf", "mich", "kurz", "vorstellen"],
+              "translation": "Allow me to briefly introduce myself."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You have a beautiful smile'?",
+              "options": ["Du hast ein schönes Lächeln.", "Du lächelst sehr gut.", "Dein Lächeln ist schüchtern.", "Du bist sehr schön."],
+              "correct": 0,
+              "explanation": "'Du hast ein schönes Lächeln' = You have a beautiful smile. 'Schönes' agrees with 'Lächeln' (neuter noun)."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀约",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a una cita"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date", "Suggest an activity for a date"],
+            "zh": ["邀请某人约会", "建议约会活动"],
+            "th": ["ชวนใครออกเดท", "เสนอกิจกรรมสำหรับเดท"],
+            "ko": ["데이트 신청하기", "데이트 활동 제안하기"],
+            "es": ["Pedir a alguien una cita", "Sugerir una actividad para una cita"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Date",
+              "romanization": null,
+              "meanings": { "en": "the date", "zh": "约会", "th": "เดท", "ko": "데이트", "es": "la cita romántica" }
+            },
+            {
+              "word": "ausgehen",
+              "romanization": null,
+              "meanings": { "en": "to go out", "zh": "出去", "th": "ออกไป", "ko": "나가다", "es": "salir" }
+            },
+            {
+              "word": "Hast du morgen Zeit?",
+              "romanization": null,
+              "meanings": { "en": "Do you have time tomorrow?", "zh": "你明天有空吗？", "th": "คุณว่างพรุ่งนี้ไหม?", "ko": "내일 시간 있어?", "es": "¿Tienes tiempo mañana?" }
+            },
+            {
+              "word": "spazieren gehen",
+              "romanization": null,
+              "meanings": { "en": "to go for a walk", "zh": "散步", "th": "ไปเดินเล่น", "ko": "산책하다", "es": "ir a pasear" }
+            },
+            {
+              "word": "zusammen",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to go on a date with me?'",
+              "options": ["Möchtest du mit mir auf ein Date gehen?", "Gehst du gerne aus?", "Haben wir ein Date?", "Wann treffen wir uns?"],
+              "correct": 0,
+              "explanation": "'Möchtest du mit mir auf ein Date gehen?' — 'mit mir' = with me, 'auf ein Date gehen' = to go on a date."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ausgehen",
+              "options": ["to go out", "to go home", "to go on a walk", "to go dancing"],
+              "correct": 0,
+              "explanation": "'Ausgehen' = to go out (socially). It's separable: 'Ich gehe heute Abend aus' = I'm going out tonight."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Date", "the date"],
+                ["ausgehen", "to go out"],
+                ["zusammen", "together"],
+                ["spazieren gehen", "to go for a walk"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["zusammen", "gehen", "Kaffee", "Möchtest", "du", "trinken"],
+              "correct": ["Möchtest", "du", "zusammen", "Kaffee", "trinken", "gehen"],
+              "translation": "Would you like to go drink coffee together?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings", "Describe how someone makes you feel"],
+            "zh": ["表达浪漫的感情", "描述某人给你的感受"],
+            "th": ["แสดงความรู้สึกโรแมนติก", "อธิบายว่าใครทำให้คุณรู้สึกอย่างไร"],
+            "ko": ["낭만적인 감정 표현하기", "누군가가 어떤 기분을 주는지 묘사하기"],
+            "es": ["Expresar sentimientos románticos", "Describir cómo te hace sentir alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "mögen",
+              "romanization": null,
+              "meanings": { "en": "to like", "zh": "喜欢", "th": "ชอบ", "ko": "좋아하다", "es": "gustar" }
+            },
+            {
+              "word": "sich verlieben",
+              "romanization": null,
+              "meanings": { "en": "to fall in love", "zh": "爱上", "th": "ตกหลุมรัก", "ko": "사랑에 빠지다", "es": "enamorarse" }
+            },
+            {
+              "word": "glücklich",
+              "romanization": null,
+              "meanings": { "en": "happy", "zh": "快乐的", "th": "มีความสุข", "ko": "행복한", "es": "feliz" }
+            },
+            {
+              "word": "nervös",
+              "romanization": null,
+              "meanings": { "en": "nervous", "zh": "紧张的", "th": "ประหม่า", "ko": "긴장한", "es": "nervioso" }
+            },
+            {
+              "word": "Ich denke an dich.",
+              "romanization": null,
+              "meanings": { "en": "I'm thinking of you.", "zh": "我在想你。", "th": "ฉันคิดถึงคุณ", "ko": "나는 당신을 생각해요.", "es": "Estoy pensando en ti." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have fallen in love with you'?",
+              "options": ["Ich habe mich in dich verliebt.", "Ich liebe dich sehr.", "Ich mag dich gerne.", "Du machst mich glücklich."],
+              "correct": 0,
+              "explanation": "'Sich verlieben' in Perfekt: 'habe mich verliebt'. 'In dich' = in you (accusative). A heartfelt confession."
+            },
+            {
+              "type": "target_to_native",
+              "word": "glücklich",
+              "options": ["happy", "nervous", "excited", "sad"],
+              "correct": 0,
+              "explanation": "'Glücklich' means happy. 'Du machst mich glücklich' = You make me happy."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["mögen", "to like"],
+                ["sich verlieben", "to fall in love"],
+                ["glücklich", "happy"],
+                ["nervös", "nervous"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["glücklich", "machst", "Du", "mich"],
+              "correct": ["Du", "machst", "mich", "glücklich"],
+              "translation": "You make me happy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "In a Relationship",
+        "zh": "恋爱中",
+        "th": "ในความสัมพันธ์",
+        "ko": "연애 중",
+        "es": "En una relación"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Talking About Partners",
+            "zh": "谈论伴侣",
+            "th": "พูดคุยเกี่ยวกับคู่รัก",
+            "ko": "파트너에 대해 이야기하기",
+            "es": "Hablar de parejas"
+          },
+          "objectives": {
+            "en": ["Describe your partner and relationship status", "Use possessive pronouns with relationship terms"],
+            "zh": ["描述你的伴侣和关系状态", "使用所有格代词描述关系"],
+            "th": ["อธิบายคู่รักและสถานะความสัมพันธ์", "ใช้คำสรรพนามแสดงความเป็นเจ้าของ"],
+            "ko": ["파트너와 관계 상태 묘사하기", "소유 대명사와 관계 용어 사용하기"],
+            "es": ["Describir a tu pareja y estado de relación", "Usar pronombres posesivos con términos de relación"]
+          },
+          "vocabulary": [
+            {
+              "word": "der Freund / die Freundin",
+              "romanization": null,
+              "meanings": { "en": "boyfriend / girlfriend", "zh": "男友/女友", "th": "แฟน (ชาย/หญิง)", "ko": "남자친구/여자친구", "es": "novio/novia" }
+            },
+            {
+              "word": "der Partner / die Partnerin",
+              "romanization": null,
+              "meanings": { "en": "the partner (m/f)", "zh": "伴侣", "th": "คู่รัก", "ko": "파트너", "es": "el/la pareja" }
+            },
+            {
+              "word": "zusammen sein",
+              "romanization": null,
+              "meanings": { "en": "to be together (as a couple)", "zh": "在一起", "th": "อยู่ด้วยกัน", "ko": "사귀다/함께하다", "es": "estar juntos" }
+            },
+            {
+              "word": "verliebt",
+              "romanization": null,
+              "meanings": { "en": "in love", "zh": "恋爱中", "th": "หลงรัก", "ko": "사랑에 빠진", "es": "enamorado" }
+            },
+            {
+              "word": "vermissen",
+              "romanization": null,
+              "meanings": { "en": "to miss (someone)", "zh": "想念", "th": "คิดถึง", "ko": "그리워하다", "es": "echar de menos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'This is my girlfriend'?",
+              "options": ["Das ist meine Freundin.", "Das ist mein Freund.", "Das ist meine Partnerin.", "Das ist meine Frau."],
+              "correct": 0,
+              "explanation": "'Meine Freundin' = my girlfriend (feminine). Context distinguishes girlfriend from female friend."
+            },
+            {
+              "type": "target_to_native",
+              "word": "vermissen",
+              "options": ["to miss (someone)", "to love", "to forget", "to find"],
+              "correct": 0,
+              "explanation": "'Ich vermisse dich' = I miss you. A very emotional and common phrase in relationships."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["verliebt", "in love"],
+                ["vermissen", "to miss"],
+                ["zusammen sein", "to be together"],
+                ["der Partner", "the partner"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["zusammen", "wir", "seit", "drei", "Monaten", "Sind"],
+              "correct": ["Wir", "sind", "seit", "drei", "Monaten", "zusammen"],
+              "translation": "We have been together for three months."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Planning a Romantic Evening",
+            "zh": "计划浪漫的夜晚",
+            "th": "การวางแผนคืนโรแมนติก",
+            "ko": "로맨틱한 저녁 계획하기",
+            "es": "Planear una velada romántica"
+          },
+          "objectives": {
+            "en": ["Plan a romantic date or evening", "Make suggestions using 'wir könnten'"],
+            "zh": ["计划浪漫约会或夜晚", "用'wir könnten'提建议"],
+            "th": ["วางแผนเดทหรือคืนโรแมนติก", "ใช้ 'wir könnten' ในการเสนอแนะ"],
+            "ko": ["로맨틱한 데이트나 저녁 계획하기", "'wir könnten'으로 제안하기"],
+            "es": ["Planear una cita o velada romántica", "Hacer sugerencias con 'wir könnten'"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Abendessen",
+              "romanization": null,
+              "meanings": { "en": "the dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "la cena" }
+            },
+            {
+              "word": "das Restaurant",
+              "romanization": null,
+              "meanings": { "en": "the restaurant", "zh": "餐厅", "th": "ร้านอาหาร", "ko": "레스토랑", "es": "el restaurante" }
+            },
+            {
+              "word": "wir könnten",
+              "romanization": null,
+              "meanings": { "en": "we could", "zh": "我们可以", "th": "เราอาจจะ", "ko": "우리는 ~할 수 있을 거야", "es": "podríamos" }
+            },
+            {
+              "word": "romantisch",
+              "romanization": null,
+              "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "로맨틱한", "es": "romántico" }
+            },
+            {
+              "word": "einen Spaziergang machen",
+              "romanization": null,
+              "meanings": { "en": "to take a walk", "zh": "散步", "th": "ไปเดินเล่น", "ko": "산책하다", "es": "dar un paseo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you suggest 'We could have dinner at a restaurant'?",
+              "options": ["Wir könnten in einem Restaurant Abendessen.", "Wir essen im Restaurant.", "Ich lade dich zum Essen ein.", "Lass uns kochen."],
+              "correct": 0,
+              "explanation": "'Wir könnten' = we could (Konjunktiv II of 'können') — used for polite suggestions."
+            },
+            {
+              "type": "target_to_native",
+              "word": "romantisch",
+              "options": ["romantic", "beautiful", "exciting", "special"],
+              "correct": 0,
+              "explanation": "'Romantisch' = romantic. 'Das ist so romantisch!' = That is so romantic!"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Abendessen", "dinner"],
+                ["romantisch", "romantic"],
+                ["wir könnten", "we could"],
+                ["einen Spaziergang machen", "to take a walk"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Abend", "romantischen", "planen", "einen", "Wir", "wollen"],
+              "correct": ["Wir", "wollen", "einen", "romantischen", "Abend", "planen"],
+              "translation": "We want to plan a romantic evening."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Saying 'I Love You'",
+            "zh": "说'我爱你'",
+            "th": "การพูดว่า 'ฉันรักคุณ'",
+            "ko": "'사랑해' 말하기",
+            "es": "Decir 'Te quiero'"
+          },
+          "objectives": {
+            "en": ["Express love and strong affection", "Use different levels of affection in German"],
+            "zh": ["表达爱意和深厚感情", "使用不同程度的爱意表达"],
+            "th": ["แสดงความรักและความผูกพัน", "ใช้ระดับความรักที่แตกต่างกันในภาษาเยอรมัน"],
+            "ko": ["사랑과 강한 애정 표현하기", "독일어에서 다른 수준의 애정 사용하기"],
+            "es": ["Expresar amor y cariño profundo", "Usar distintos niveles de afecto en alemán"]
+          },
+          "vocabulary": [
+            {
+              "word": "Ich liebe dich.",
+              "romanization": null,
+              "meanings": { "en": "I love you.", "zh": "我爱你。", "th": "ฉันรักคุณ", "ko": "사랑해.", "es": "Te quiero / Te amo." }
+            },
+            {
+              "word": "Ich hab' dich lieb.",
+              "romanization": null,
+              "meanings": { "en": "I'm fond of you. (softer love)", "zh": "我喜欢你。(较温和)", "th": "ฉันรักคุณ (อ่อนกว่า)", "ko": "좋아해. (부드러운 표현)", "es": "Te tengo cariño." }
+            },
+            {
+              "word": "die Liebe",
+              "romanization": null,
+              "meanings": { "en": "love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "el amor" }
+            },
+            {
+              "word": "für immer",
+              "romanization": null,
+              "meanings": { "en": "forever", "zh": "永远", "th": "ตลอดไป", "ko": "영원히", "es": "para siempre" }
+            },
+            {
+              "word": "das Herz",
+              "romanization": null,
+              "meanings": { "en": "the heart", "zh": "心", "th": "หัวใจ", "ko": "심장/마음", "es": "el corazón" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I love you' in German?",
+              "options": ["Ich liebe dich.", "Ich mag dich.", "Ich hab' dich lieb.", "Du bist mein Herz."],
+              "correct": 0,
+              "explanation": "'Ich liebe dich' is the strong declaration of love. 'Ich hab' dich lieb' is softer, used for family or close friends."
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Liebe",
+              "options": ["love", "the heart", "the kiss", "the hug"],
+              "correct": 0,
+              "explanation": "'Die Liebe' = love (noun). 'Liebe auf den ersten Blick' = love at first sight."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Ich liebe dich.", "I love you."],
+                ["die Liebe", "love"],
+                ["das Herz", "the heart"],
+                ["für immer", "forever"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Herzen", "meinem", "du", "in", "bist", "Du"],
+              "correct": ["Du", "bist", "in", "meinem", "Herzen"],
+              "translation": "You are in my heart."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Relationship Challenges",
+        "zh": "感情挑战",
+        "th": "ความท้าทายในความสัมพันธ์",
+        "ko": "관계의 어려움",
+        "es": "Desafíos en la relación"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Disagreements",
+            "zh": "分歧",
+            "th": "ความขัดแย้ง",
+            "ko": "의견 충돌",
+            "es": "Desacuerdos"
+          },
+          "objectives": {
+            "en": ["Express disagreement politely", "Apologize and make up after an argument"],
+            "zh": ["礼貌地表达不同意见", "争吵后道歉和好"],
+            "th": ["แสดงความไม่เห็นด้วยอย่างสุภาพ", "ขอโทษและคืนดีหลังการโต้แย้ง"],
+            "ko": ["정중하게 반대 의견 표현하기", "말다툼 후 사과하고 화해하기"],
+            "es": ["Expresar desacuerdo con cortesía", "Disculparse y reconciliarse tras una discusión"]
+          },
+          "vocabulary": [
+            {
+              "word": "der Streit",
+              "romanization": null,
+              "meanings": { "en": "the argument/quarrel", "zh": "争吵", "th": "การทะเลาะ", "ko": "다툼", "es": "la discusión/pelea" }
+            },
+            {
+              "word": "sich streiten",
+              "romanization": null,
+              "meanings": { "en": "to argue/quarrel", "zh": "吵架", "th": "ทะเลาะ", "ko": "다투다", "es": "pelearse/discutir" }
+            },
+            {
+              "word": "sich entschuldigen",
+              "romanization": null,
+              "meanings": { "en": "to apologize", "zh": "道歉", "th": "ขอโทษ", "ko": "사과하다", "es": "disculparse" }
+            },
+            {
+              "word": "Es tut mir leid.",
+              "romanization": null,
+              "meanings": { "en": "I am sorry.", "zh": "对不起。", "th": "ฉันเสียใจ/ขอโทษ", "ko": "미안해요.", "es": "Lo siento." }
+            },
+            {
+              "word": "verzeihen",
+              "romanization": null,
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am sorry, I was wrong'?",
+              "options": ["Es tut mir leid, ich hatte Unrecht.", "Es tut mir leid, ich bin krank.", "Entschuldigung, das ist falsch.", "Ich bin traurig."],
+              "correct": 0,
+              "explanation": "'Es tut mir leid' = I'm sorry; 'ich hatte Unrecht' = I was wrong (lit. I had no right)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "verzeihen",
+              "options": ["to forgive", "to apologize", "to argue", "to explain"],
+              "correct": 0,
+              "explanation": "'Verzeih mir' = forgive me. 'Kannst du mir verzeihen?' = Can you forgive me?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["der Streit", "argument"],
+                ["sich entschuldigen", "to apologize"],
+                ["verzeihen", "to forgive"],
+                ["Es tut mir leid.", "I am sorry."]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["mir", "kannst", "du", "verzeihen", "Bitte"],
+              "correct": ["Bitte", "kannst", "du", "mir", "verzeihen"],
+              "translation": "Please can you forgive me?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Long Distance",
+            "zh": "异地恋",
+            "th": "ความรักระยะไกล",
+            "ko": "장거리 연애",
+            "es": "Relación a distancia"
+          },
+          "objectives": {
+            "en": ["Talk about missing someone and staying in touch", "Use communication vocabulary"],
+            "zh": ["谈论思念某人和保持联系", "使用通讯词汇"],
+            "th": ["พูดถึงการคิดถึงใครและการติดต่อกัน", "ใช้คำศัพท์การสื่อสาร"],
+            "ko": ["누군가를 그리워하고 연락하는 것에 대해 이야기하기", "통신 어휘 사용하기"],
+            "es": ["Hablar de echar de menos y mantenerse en contacto", "Usar vocabulario de comunicación"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Entfernung",
+              "romanization": null,
+              "meanings": { "en": "the distance", "zh": "距离", "th": "ระยะทาง", "ko": "거리", "es": "la distancia" }
+            },
+            {
+              "word": "anrufen",
+              "romanization": null,
+              "meanings": { "en": "to call (by phone)", "zh": "打电话", "th": "โทรหา", "ko": "전화하다", "es": "llamar (por teléfono)" }
+            },
+            {
+              "word": "eine Nachricht schicken",
+              "romanization": null,
+              "meanings": { "en": "to send a message", "zh": "发消息", "th": "ส่งข้อความ", "ko": "메시지 보내다", "es": "enviar un mensaje" }
+            },
+            {
+              "word": "in Kontakt bleiben",
+              "romanization": null,
+              "meanings": { "en": "to stay in touch", "zh": "保持联系", "th": "ติดต่อกัน", "ko": "연락을 유지하다", "es": "mantenerse en contacto" }
+            },
+            {
+              "word": "bald",
+              "romanization": null,
+              "meanings": { "en": "soon", "zh": "很快", "th": "เร็วๆ นี้", "ko": "곧", "es": "pronto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I will call you soon'?",
+              "options": ["Ich rufe dich bald an.", "Ich schicke dir eine Nachricht.", "Ich komme bald.", "Ich denke an dich."],
+              "correct": 0,
+              "explanation": "'Anrufen' is separable: 'rufe...an'. 'Ich rufe dich bald an' = I will call you soon."
+            },
+            {
+              "type": "target_to_native",
+              "word": "in Kontakt bleiben",
+              "options": ["to stay in touch", "to call", "to visit", "to write"],
+              "correct": 0,
+              "explanation": "'In Kontakt bleiben' = to stay in contact/touch. An important phrase for long-distance relationships."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["anrufen", "to call"],
+                ["bald", "soon"],
+                ["die Entfernung", "the distance"],
+                ["in Kontakt bleiben", "to stay in touch"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Kontakt", "bleiben", "in", "werden", "Wir"],
+              "correct": ["Wir", "werden", "in", "Kontakt", "bleiben"],
+              "translation": "We will stay in touch."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Commitments",
+            "zh": "承诺",
+            "th": "ความมุ่งมั่น",
+            "ko": "헌신과 약속",
+            "es": "Compromisos"
+          },
+          "objectives": {
+            "en": ["Talk about future relationship plans", "Express commitment and loyalty"],
+            "zh": ["谈论未来的感情计划", "表达承诺和忠诚"],
+            "th": ["พูดคุยเกี่ยวกับแผนความสัมพันธ์ในอนาคต", "แสดงความมุ่งมั่นและความซื่อสัตย์"],
+            "ko": ["미래의 관계 계획 이야기하기", "헌신과 충성심 표현하기"],
+            "es": ["Hablar de planes de relación futuros", "Expresar compromiso y lealtad"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Zukunft",
+              "romanization": null,
+              "meanings": { "en": "the future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "el futuro" }
+            },
+            {
+              "word": "versprechen",
+              "romanization": null,
+              "meanings": { "en": "to promise", "zh": "承诺", "th": "สัญญา", "ko": "약속하다", "es": "prometer" }
+            },
+            {
+              "word": "heiraten",
+              "romanization": null,
+              "meanings": { "en": "to marry / to get married", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "casarse" }
+            },
+            {
+              "word": "treu",
+              "romanization": null,
+              "meanings": { "en": "faithful / loyal", "zh": "忠诚的", "th": "ซื่อสัตย์", "ko": "충실한", "es": "fiel/leal" }
+            },
+            {
+              "word": "das Versprechen",
+              "romanization": null,
+              "meanings": { "en": "the promise", "zh": "诺言", "th": "สัญญา", "ko": "약속", "es": "la promesa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I promise to always be faithful'?",
+              "options": ["Ich verspreche, immer treu zu sein.", "Ich bin immer treu.", "Ich verspreche dir alles.", "Wir heiraten bald."],
+              "correct": 0,
+              "explanation": "'Ich verspreche, ... zu sein' = I promise to be... The infinitive comes at the end with 'zu'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "heiraten",
+              "options": ["to marry/get married", "to date", "to love", "to meet"],
+              "correct": 0,
+              "explanation": "'Heiraten' = to get married. 'Willst du mich heiraten?' = Will you marry me?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["versprechen", "to promise"],
+                ["treu", "faithful"],
+                ["heiraten", "to marry"],
+                ["die Zukunft", "the future"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["heiraten", "möchte", "eines", "Tages", "Ich", "dich"],
+              "correct": ["Ich", "möchte", "dich", "eines", "Tages", "heiraten"],
+              "translation": "I would like to marry you one day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

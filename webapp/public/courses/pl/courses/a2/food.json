@@ -1,0 +1,1277 @@
+{
+  "lang": "pl",
+  "language": "pl",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "레스토랑에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food at a Polish restaurant", "Ask for the menu and pay the bill"],
+            "zh": ["在波兰餐厅点餐", "要菜单并结账"],
+            "th": ["สั่งอาหารที่ร้านอาหารโปแลนด์", "ขอเมนูและชำระเงิน"],
+            "ko": ["폴란드 식당에서 음식 주문하기", "메뉴 요청하고 계산하기"],
+            "es": ["Pedir comida en un restaurante polaco", "Pedir el menú y pagar la cuenta"]
+          },
+          "vocabulary": [
+            {
+              "word": "menu",
+              "meanings": {
+                "en": "Menu",
+                "zh": "菜单",
+                "th": "เมนู",
+                "ko": "메뉴",
+                "es": "Menú"
+              }
+            },
+            {
+              "word": "kelner",
+              "meanings": {
+                "en": "Waiter",
+                "zh": "服务员",
+                "th": "พนักงานเสิร์ฟ",
+                "ko": "웨이터",
+                "es": "Camarero"
+              }
+            },
+            {
+              "word": "rachunek",
+              "meanings": {
+                "en": "Bill",
+                "zh": "账单",
+                "th": "บิล",
+                "ko": "계산서",
+                "es": "Cuenta"
+              }
+            },
+            {
+              "word": "zamówienie",
+              "meanings": {
+                "en": "Order",
+                "zh": "订单",
+                "th": "การสั่ง",
+                "ko": "주문",
+                "es": "Pedido"
+              }
+            },
+            {
+              "word": "stolik",
+              "meanings": {
+                "en": "Table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "Mesa"
+              }
+            },
+            {
+              "word": "rezerwacja",
+              "meanings": {
+                "en": "Reservation",
+                "zh": "预订",
+                "th": "การจอง",
+                "ko": "예약",
+                "es": "Reservación"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "menu",
+              "options": {
+                "en": ["Menu", "Bill", "Order", "Reservation"],
+                "zh": ["菜单", "账单", "订单", "预订"],
+                "th": ["เมนู", "บิล", "การสั่ง", "การจอง"],
+                "ko": ["메뉴", "계산서", "주문", "예약"],
+                "es": ["Menú", "Cuenta", "Pedido", "Reservación"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Bill' in Polish?",
+                "zh": "波兰语怎么说'账单'？",
+                "th": "คำว่า 'บิล' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'계산서'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Cuenta' en polaco?"
+              },
+              "options": {
+                "neutral": ["rachunek", "menu", "kelner", "stolik"],
+                "male": ["rachunek", "menu", "kelner", "stolik"],
+                "female": ["rachunek", "menu", "kelner", "stolik"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "kelner",
+              "options": {
+                "en": ["Waiter", "Menu", "Bill", "Table"],
+                "zh": ["服务员", "菜单", "账单", "桌子"],
+                "th": ["พนักงานเสิร์ฟ", "เมนู", "บิล", "โต๊ะ"],
+                "ko": ["웨이터", "메뉴", "계산서", "테이블"],
+                "es": ["Camarero", "Menú", "Cuenta", "Mesa"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "menu", "native": {"en": "Menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "Menú"}},
+                {"target": "rachunek", "native": {"en": "Bill", "zh": "账单", "th": "บิล", "ko": "계산서", "es": "Cuenta"}},
+                {"target": "kelner", "native": {"en": "Waiter", "zh": "服务员", "th": "พนักงานเสิร์ฟ", "ko": "웨이터", "es": "Camarero"}},
+                {"target": "rezerwacja", "native": {"en": "Reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "Reservación"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "I would like to order please",
+                "zh": "我想点餐，谢谢",
+                "th": "ฉันอยากสั่งอาหารครับ",
+                "ko": "주문하고 싶습니다",
+                "es": "Me gustaría pedir por favor"
+              },
+              "words": ["Chciałbym", "złożyć", "zamówienie", "proszę"],
+              "correct": ["Chciałbym", "złożyć", "zamówienie", "proszę"]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Polish Cuisine",
+            "zh": "波兰美食",
+            "th": "อาหารโปแลนด์",
+            "ko": "폴란드 요리",
+            "es": "Cocina polaca"
+          },
+          "objectives": {
+            "en": ["Name popular Polish dishes", "Describe traditional Polish food"],
+            "zh": ["说出热门波兰菜肴", "描述传统波兰食物"],
+            "th": ["บอกชื่ออาหารโปแลนด์ยอดนิยม", "อธิบายอาหารโปแลนด์ดั้งเดิม"],
+            "ko": ["인기 있는 폴란드 음식 이름 말하기", "전통 폴란드 음식 설명하기"],
+            "es": ["Nombrar platos polacos populares", "Describir la comida tradicional polaca"]
+          },
+          "vocabulary": [
+            {
+              "word": "pierogi",
+              "meanings": {
+                "en": "Dumplings",
+                "zh": "饺子",
+                "th": "เกี๊ยว",
+                "ko": "만두",
+                "es": "Empanadas"
+              }
+            },
+            {
+              "word": "bigos",
+              "meanings": {
+                "en": "Hunter's stew",
+                "zh": "猎人炖菜",
+                "th": "สตูเนื้อโปแลนด์",
+                "ko": "헌터스 스튜",
+                "es": "Estofado del cazador"
+              }
+            },
+            {
+              "word": "żurek",
+              "meanings": {
+                "en": "Sour rye soup",
+                "zh": "黑麦酸汤",
+                "th": "ซุปข้าวไรย์เปรี้ยว",
+                "ko": "사워 호밀 수프",
+                "es": "Sopa agria de centeno"
+              }
+            },
+            {
+              "word": "kiełbasa",
+              "meanings": {
+                "en": "Polish sausage",
+                "zh": "波兰香肠",
+                "th": "ไส้กรอกโปแลนด์",
+                "ko": "폴란드 소시지",
+                "es": "Salchicha polaca"
+              }
+            },
+            {
+              "word": "barszcz",
+              "meanings": {
+                "en": "Beetroot soup (borscht)",
+                "zh": "甜菜汤",
+                "th": "ซุปหัวบีทรูท",
+                "ko": "비트루트 수프",
+                "es": "Sopa de remolacha"
+              }
+            },
+            {
+              "word": "gołąbki",
+              "meanings": {
+                "en": "Stuffed cabbage rolls",
+                "zh": "白菜卷",
+                "th": "กะหล่ำปลียัดไส้",
+                "ko": "속 채운 양배추 롤",
+                "es": "Rollos de repollo rellenos"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "pierogi",
+              "options": {
+                "en": ["Dumplings", "Sausage", "Soup", "Stew"],
+                "zh": ["饺子", "香肠", "汤", "炖菜"],
+                "th": ["เกี๊ยว", "ไส้กรอก", "ซุป", "สตู"],
+                "ko": ["만두", "소시지", "수프", "스튜"],
+                "es": ["Empanadas", "Salchicha", "Sopa", "Estofado"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Polish sausage' in Polish?",
+                "zh": "波兰语怎么说'波兰香肠'？",
+                "th": "คำว่า 'ไส้กรอกโปแลนด์' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'폴란드 소시지'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Salchicha polaca' en polaco?"
+              },
+              "options": {
+                "neutral": ["kiełbasa", "pierogi", "bigos", "barszcz"],
+                "male": ["kiełbasa", "pierogi", "bigos", "barszcz"],
+                "female": ["kiełbasa", "pierogi", "bigos", "barszcz"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bigos",
+              "options": {
+                "en": ["Hunter's stew", "Dumplings", "Soup", "Sausage"],
+                "zh": ["猎人炖菜", "饺子", "汤", "香肠"],
+                "th": ["สตูโปแลนด์", "เกี๊ยว", "ซุป", "ไส้กรอก"],
+                "ko": ["헌터스 스튜", "만두", "수프", "소시지"],
+                "es": ["Estofado del cazador", "Empanadas", "Sopa", "Salchicha"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "pierogi", "native": {"en": "Dumplings", "zh": "饺子", "th": "เกี๊ยว", "ko": "만두", "es": "Empanadas"}},
+                {"target": "kiełbasa", "native": {"en": "Sausage", "zh": "香肠", "th": "ไส้กรอก", "ko": "소시지", "es": "Salchicha"}},
+                {"target": "barszcz", "native": {"en": "Beetroot soup", "zh": "甜菜汤", "th": "ซุปหัวบีท", "ko": "비트 수프", "es": "Sopa de remolacha"}},
+                {"target": "gołąbki", "native": {"en": "Cabbage rolls", "zh": "白菜卷", "th": "กะหล่ำปลียัดไส้", "ko": "양배추 롤", "es": "Rollos de repollo"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "Pierogi are very delicious",
+                "zh": "波兰饺子非常美味",
+                "th": "เพียโรกิอร่อยมาก",
+                "ko": "피에로기는 매우 맛있습니다",
+                "es": "Los pierogi son muy deliciosos"
+              },
+              "words": ["Pierogi", "są", "bardzo", "pyszne"],
+              "correct": ["Pierogi", "są", "bardzo", "pyszne"]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks & Beverages",
+            "zh": "饮料与饮品",
+            "th": "เครื่องดื่ม",
+            "ko": "음료",
+            "es": "Bebidas"
+          },
+          "objectives": {
+            "en": ["Order drinks at a Polish café or bar", "Understand Polish drinking customs"],
+            "zh": ["在波兰咖啡馆或酒吧点饮料", "了解波兰饮酒习俗"],
+            "th": ["สั่งเครื่องดื่มที่คาเฟ่หรือบาร์โปแลนด์", "เข้าใจประเพณีดื่มของโปแลนด์"],
+            "ko": ["폴란드 카페나 바에서 음료 주문하기", "폴란드 음주 관습 이해하기"],
+            "es": ["Pedir bebidas en un café o bar polaco", "Entender las costumbres de bebida polacas"]
+          },
+          "vocabulary": [
+            {
+              "word": "piwo",
+              "meanings": {
+                "en": "Beer",
+                "zh": "啤酒",
+                "th": "เบียร์",
+                "ko": "맥주",
+                "es": "Cerveza"
+              }
+            },
+            {
+              "word": "woda",
+              "meanings": {
+                "en": "Water",
+                "zh": "水",
+                "th": "น้ำ",
+                "ko": "물",
+                "es": "Agua"
+              }
+            },
+            {
+              "word": "kawa",
+              "meanings": {
+                "en": "Coffee",
+                "zh": "咖啡",
+                "th": "กาแฟ",
+                "ko": "커피",
+                "es": "Café"
+              }
+            },
+            {
+              "word": "herbata",
+              "meanings": {
+                "en": "Tea",
+                "zh": "茶",
+                "th": "ชา",
+                "ko": "차",
+                "es": "Té"
+              }
+            },
+            {
+              "word": "sok",
+              "meanings": {
+                "en": "Juice",
+                "zh": "果汁",
+                "th": "น้ำผลไม้",
+                "ko": "주스",
+                "es": "Jugo"
+              }
+            },
+            {
+              "word": "wódka",
+              "meanings": {
+                "en": "Vodka",
+                "zh": "伏特加",
+                "th": "วอดก้า",
+                "ko": "보드카",
+                "es": "Vodka"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "piwo",
+              "options": {
+                "en": ["Beer", "Water", "Coffee", "Juice"],
+                "zh": ["啤酒", "水", "咖啡", "果汁"],
+                "th": ["เบียร์", "น้ำ", "กาแฟ", "น้ำผลไม้"],
+                "ko": ["맥주", "물", "커피", "주스"],
+                "es": ["Cerveza", "Agua", "Café", "Jugo"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Tea' in Polish?",
+                "zh": "波兰语怎么说'茶'？",
+                "th": "คำว่า 'ชา' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'차'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Té' en polaco?"
+              },
+              "options": {
+                "neutral": ["herbata", "kawa", "piwo", "woda"],
+                "male": ["herbata", "kawa", "piwo", "woda"],
+                "female": ["herbata", "kawa", "piwo", "woda"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "kawa",
+              "options": {
+                "en": ["Coffee", "Tea", "Beer", "Water"],
+                "zh": ["咖啡", "茶", "啤酒", "水"],
+                "th": ["กาแฟ", "ชา", "เบียร์", "น้ำ"],
+                "ko": ["커피", "차", "맥주", "물"],
+                "es": ["Café", "Té", "Cerveza", "Agua"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "piwo", "native": {"en": "Beer", "zh": "啤酒", "th": "เบียร์", "ko": "맥주", "es": "Cerveza"}},
+                {"target": "woda", "native": {"en": "Water", "zh": "水", "th": "น้ำ", "ko": "물", "es": "Agua"}},
+                {"target": "kawa", "native": {"en": "Coffee", "zh": "咖啡", "th": "กาแฟ", "ko": "커피", "es": "Café"}},
+                {"target": "sok", "native": {"en": "Juice", "zh": "果汁", "th": "น้ำผลไม้", "ko": "주스", "es": "Jugo"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "One coffee and one water please",
+                "zh": "请给我一杯咖啡和一杯水",
+                "th": "กาแฟหนึ่งแก้วและน้ำหนึ่งแก้วครับ",
+                "ko": "커피 한 잔과 물 한 잔 주세요",
+                "es": "Un café y un agua por favor"
+              },
+              "words": ["Jedną", "kawę", "i", "jedną", "wodę", "proszę"],
+              "correct": ["Jedną", "kawę", "i", "jedną", "wodę", "proszę"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการปรุงอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Vegetables & Fruits",
+            "zh": "蔬菜和水果",
+            "th": "ผักและผลไม้",
+            "ko": "채소와 과일",
+            "es": "Verduras y frutas"
+          },
+          "objectives": {
+            "en": ["Name vegetables and fruits in Polish", "Shop at a Polish market"],
+            "zh": ["用波兰语说蔬菜和水果名称", "在波兰市场购物"],
+            "th": ["บอกชื่อผักและผลไม้เป็นภาษาโปแลนด์", "ช้อปปิ้งที่ตลาดโปแลนด์"],
+            "ko": ["폴란드어로 채소와 과일 이름 말하기", "폴란드 시장에서 쇼핑하기"],
+            "es": ["Nombrar verduras y frutas en polaco", "Comprar en un mercado polaco"]
+          },
+          "vocabulary": [
+            {
+              "word": "ziemniak",
+              "meanings": {
+                "en": "Potato",
+                "zh": "土豆",
+                "th": "มันฝรั่ง",
+                "ko": "감자",
+                "es": "Papa"
+              }
+            },
+            {
+              "word": "kapusta",
+              "meanings": {
+                "en": "Cabbage",
+                "zh": "白菜",
+                "th": "กะหล่ำปลี",
+                "ko": "양배추",
+                "es": "Repollo"
+              }
+            },
+            {
+              "word": "marchew",
+              "meanings": {
+                "en": "Carrot",
+                "zh": "胡萝卜",
+                "th": "แครอท",
+                "ko": "당근",
+                "es": "Zanahoria"
+              }
+            },
+            {
+              "word": "jabłko",
+              "meanings": {
+                "en": "Apple",
+                "zh": "苹果",
+                "th": "แอปเปิ้ล",
+                "ko": "사과",
+                "es": "Manzana"
+              }
+            },
+            {
+              "word": "truskawka",
+              "meanings": {
+                "en": "Strawberry",
+                "zh": "草莓",
+                "th": "สตรอว์เบอร์รี",
+                "ko": "딸기",
+                "es": "Fresa"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ziemniak",
+              "options": {
+                "en": ["Potato", "Cabbage", "Carrot", "Apple"],
+                "zh": ["土豆", "白菜", "胡萝卜", "苹果"],
+                "th": ["มันฝรั่ง", "กะหล่ำปลี", "แครอท", "แอปเปิ้ล"],
+                "ko": ["감자", "양배추", "당근", "사과"],
+                "es": ["Papa", "Repollo", "Zanahoria", "Manzana"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Apple' in Polish?",
+                "zh": "波兰语怎么说'苹果'？",
+                "th": "คำว่า 'แอปเปิ้ล' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'사과'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Manzana' en polaco?"
+              },
+              "options": {
+                "neutral": ["jabłko", "ziemniak", "kapusta", "truskawka"],
+                "male": ["jabłko", "ziemniak", "kapusta", "truskawka"],
+                "female": ["jabłko", "ziemniak", "kapusta", "truskawka"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "marchew",
+              "options": {
+                "en": ["Carrot", "Potato", "Apple", "Cabbage"],
+                "zh": ["胡萝卜", "土豆", "苹果", "白菜"],
+                "th": ["แครอท", "มันฝรั่ง", "แอปเปิ้ล", "กะหล่ำปลี"],
+                "ko": ["당근", "감자", "사과", "양배추"],
+                "es": ["Zanahoria", "Papa", "Manzana", "Repollo"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "ziemniak", "native": {"en": "Potato", "zh": "土豆", "th": "มันฝรั่ง", "ko": "감자", "es": "Papa"}},
+                {"target": "kapusta", "native": {"en": "Cabbage", "zh": "白菜", "th": "กะหล่ำปลี", "ko": "양배추", "es": "Repollo"}},
+                {"target": "jabłko", "native": {"en": "Apple", "zh": "苹果", "th": "แอปเปิ้ล", "ko": "사과", "es": "Manzana"}},
+                {"target": "truskawka", "native": {"en": "Strawberry", "zh": "草莓", "th": "สตรอว์เบอร์รี", "ko": "딸기", "es": "Fresa"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "I want fresh vegetables",
+                "zh": "我想要新鲜蔬菜",
+                "th": "ฉันต้องการผักสด",
+                "ko": "신선한 채소를 원합니다",
+                "es": "Quiero verduras frescas"
+              },
+              "words": ["Chcę", "świeże", "warzywa"],
+              "correct": ["Chcę", "świeże", "warzywa"]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Meat & Dairy",
+            "zh": "肉类与乳制品",
+            "th": "เนื้อสัตว์และผลิตภัณฑ์นม",
+            "ko": "육류와 유제품",
+            "es": "Carne y lácteos"
+          },
+          "objectives": {
+            "en": ["Name meats and dairy products in Polish", "Ask about food ingredients"],
+            "zh": ["用波兰语说肉类和乳制品名称", "询问食物成分"],
+            "th": ["บอกชื่อเนื้อสัตว์และผลิตภัณฑ์นมเป็นภาษาโปแลนด์", "ถามเกี่ยวกับส่วนผสมอาหาร"],
+            "ko": ["폴란드어로 육류와 유제품 이름 말하기", "식재료 물어보기"],
+            "es": ["Nombrar carnes y lácteos en polaco", "Preguntar sobre ingredientes de alimentos"]
+          },
+          "vocabulary": [
+            {
+              "word": "wołowina",
+              "meanings": {
+                "en": "Beef",
+                "zh": "牛肉",
+                "th": "เนื้อวัว",
+                "ko": "소고기",
+                "es": "Res"
+              }
+            },
+            {
+              "word": "wieprzowina",
+              "meanings": {
+                "en": "Pork",
+                "zh": "猪肉",
+                "th": "เนื้อหมู",
+                "ko": "돼지고기",
+                "es": "Cerdo"
+              }
+            },
+            {
+              "word": "kurczak",
+              "meanings": {
+                "en": "Chicken",
+                "zh": "鸡肉",
+                "th": "ไก่",
+                "ko": "닭고기",
+                "es": "Pollo"
+              }
+            },
+            {
+              "word": "mleko",
+              "meanings": {
+                "en": "Milk",
+                "zh": "牛奶",
+                "th": "นม",
+                "ko": "우유",
+                "es": "Leche"
+              }
+            },
+            {
+              "word": "ser",
+              "meanings": {
+                "en": "Cheese",
+                "zh": "奶酪",
+                "th": "ชีส",
+                "ko": "치즈",
+                "es": "Queso"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "kurczak",
+              "options": {
+                "en": ["Chicken", "Beef", "Pork", "Milk"],
+                "zh": ["鸡肉", "牛肉", "猪肉", "牛奶"],
+                "th": ["ไก่", "เนื้อวัว", "เนื้อหมู", "นม"],
+                "ko": ["닭고기", "소고기", "돼지고기", "우유"],
+                "es": ["Pollo", "Res", "Cerdo", "Leche"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Cheese' in Polish?",
+                "zh": "波兰语怎么说'奶酪'？",
+                "th": "คำว่า 'ชีส' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'치즈'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Queso' en polaco?"
+              },
+              "options": {
+                "neutral": ["ser", "mleko", "kurczak", "wołowina"],
+                "male": ["ser", "mleko", "kurczak", "wołowina"],
+                "female": ["ser", "mleko", "kurczak", "wołowina"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "wołowina",
+              "options": {
+                "en": ["Beef", "Chicken", "Pork", "Cheese"],
+                "zh": ["牛肉", "鸡肉", "猪肉", "奶酪"],
+                "th": ["เนื้อวัว", "ไก่", "เนื้อหมู", "ชีส"],
+                "ko": ["소고기", "닭고기", "돼지고기", "치즈"],
+                "es": ["Res", "Pollo", "Cerdo", "Queso"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "wołowina", "native": {"en": "Beef", "zh": "牛肉", "th": "เนื้อวัว", "ko": "소고기", "es": "Res"}},
+                {"target": "kurczak", "native": {"en": "Chicken", "zh": "鸡肉", "th": "ไก่", "ko": "닭고기", "es": "Pollo"}},
+                {"target": "mleko", "native": {"en": "Milk", "zh": "牛奶", "th": "นม", "ko": "우유", "es": "Leche"}},
+                {"target": "ser", "native": {"en": "Cheese", "zh": "奶酪", "th": "ชีส", "ko": "치즈", "es": "Queso"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "Does this dish contain chicken?",
+                "zh": "这道菜含有鸡肉吗？",
+                "th": "อาหารจานนี้มีไก่ไหม?",
+                "ko": "이 요리에 닭고기가 들어있나요?",
+                "es": "¿Este plato contiene pollo?"
+              },
+              "words": ["Czy", "to", "danie", "zawiera", "kurczaka"],
+              "correct": ["Czy", "to", "danie", "zawiera", "kurczaka"]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Flavors & Cooking",
+            "zh": "口味与烹饪",
+            "th": "รสชาติและการปรุงอาหาร",
+            "ko": "맛과 요리",
+            "es": "Sabores y cocina"
+          },
+          "objectives": {
+            "en": ["Describe flavors and cooking methods in Polish", "Follow simple recipes"],
+            "zh": ["用波兰语描述口味和烹饪方法", "遵循简单食谱"],
+            "th": ["อธิบายรสชาติและวิธีการปรุงอาหารเป็นภาษาโปแลนด์", "ทำตามสูตรอาหารง่ายๆ"],
+            "ko": ["폴란드어로 맛과 조리법 설명하기", "간단한 레시피 따라하기"],
+            "es": ["Describir sabores y métodos de cocción en polaco", "Seguir recetas simples"]
+          },
+          "vocabulary": [
+            {
+              "word": "słodki",
+              "meanings": {
+                "en": "Sweet",
+                "zh": "甜",
+                "th": "หวาน",
+                "ko": "달콤한",
+                "es": "Dulce"
+              }
+            },
+            {
+              "word": "kwaśny",
+              "meanings": {
+                "en": "Sour",
+                "zh": "酸",
+                "th": "เปรี้ยว",
+                "ko": "신",
+                "es": "Agrio"
+              }
+            },
+            {
+              "word": "słony",
+              "meanings": {
+                "en": "Salty",
+                "zh": "咸",
+                "th": "เค็ม",
+                "ko": "짠",
+                "es": "Salado"
+              }
+            },
+            {
+              "word": "gotowany",
+              "meanings": {
+                "en": "Boiled / Cooked",
+                "zh": "煮熟",
+                "th": "ต้ม",
+                "ko": "삶은",
+                "es": "Hervido/Cocido"
+              }
+            },
+            {
+              "word": "smażony",
+              "meanings": {
+                "en": "Fried",
+                "zh": "炒/炸",
+                "th": "ทอด",
+                "ko": "볶은/튀긴",
+                "es": "Frito"
+              }
+            },
+            {
+              "word": "pieczony",
+              "meanings": {
+                "en": "Baked / Roasted",
+                "zh": "烤",
+                "th": "อบ",
+                "ko": "구운",
+                "es": "Horneado/Asado"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "słodki",
+              "options": {
+                "en": ["Sweet", "Sour", "Salty", "Fried"],
+                "zh": ["甜", "酸", "咸", "炸"],
+                "th": ["หวาน", "เปรี้ยว", "เค็ม", "ทอด"],
+                "ko": ["달콤한", "신", "짠", "튀긴"],
+                "es": ["Dulce", "Agrio", "Salado", "Frito"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Baked' in Polish?",
+                "zh": "波兰语怎么说'烤'？",
+                "th": "คำว่า 'อบ' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'구운'을 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Horneado' en polaco?"
+              },
+              "options": {
+                "neutral": ["pieczony", "smażony", "gotowany", "słodki"],
+                "male": ["pieczony", "smażony", "gotowany", "słodki"],
+                "female": ["pieczony", "smażony", "gotowany", "słodki"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "kwaśny",
+              "options": {
+                "en": ["Sour", "Sweet", "Salty", "Boiled"],
+                "zh": ["酸", "甜", "咸", "煮"],
+                "th": ["เปรี้ยว", "หวาน", "เค็ม", "ต้ม"],
+                "ko": ["신", "달콤한", "짠", "삶은"],
+                "es": ["Agrio", "Dulce", "Salado", "Hervido"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "słodki", "native": {"en": "Sweet", "zh": "甜", "th": "หวาน", "ko": "달콤한", "es": "Dulce"}},
+                {"target": "kwaśny", "native": {"en": "Sour", "zh": "酸", "th": "เปรี้ยว", "ko": "신", "es": "Agrio"}},
+                {"target": "smażony", "native": {"en": "Fried", "zh": "炸", "th": "ทอด", "ko": "튀긴", "es": "Frito"}},
+                {"target": "pieczony", "native": {"en": "Baked", "zh": "烤", "th": "อบ", "ko": "구운", "es": "Horneado"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "This soup is too salty",
+                "zh": "这汤太咸了",
+                "th": "ซุปนี้เค็มเกินไป",
+                "ko": "이 수프는 너무 짜요",
+                "es": "Esta sopa está demasiado salada"
+              },
+              "words": ["Ta", "zupa", "jest", "za", "słona"],
+              "correct": ["Ta", "zupa", "jest", "za", "słona"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Shopping & Markets",
+        "zh": "购物与市场",
+        "th": "การช้อปปิ้งและตลาด",
+        "ko": "쇼핑과 시장",
+        "es": "Compras y mercados"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at a Polish market", "Ask about prices and portions"],
+            "zh": ["在波兰市场购买食物", "询问价格和份量"],
+            "th": ["ซื้ออาหารที่ตลาดโปแลนด์", "ถามเกี่ยวกับราคาและปริมาณ"],
+            "ko": ["폴란드 시장에서 음식 구매하기", "가격과 양 물어보기"],
+            "es": ["Comprar comida en un mercado polaco", "Preguntar sobre precios y porciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "rynek",
+              "meanings": {
+                "en": "Market square",
+                "zh": "集市广场",
+                "th": "ตลาดสดกลางเมือง",
+                "ko": "시장 광장",
+                "es": "Plaza del mercado"
+              }
+            },
+            {
+              "word": "cena",
+              "meanings": {
+                "en": "Price",
+                "zh": "价格",
+                "th": "ราคา",
+                "ko": "가격",
+                "es": "Precio"
+              }
+            },
+            {
+              "word": "kilogram",
+              "meanings": {
+                "en": "Kilogram",
+                "zh": "千克",
+                "th": "กิโลกรัม",
+                "ko": "킬로그램",
+                "es": "Kilogramo"
+              }
+            },
+            {
+              "word": "świeży",
+              "meanings": {
+                "en": "Fresh",
+                "zh": "新鲜",
+                "th": "สด",
+                "ko": "신선한",
+                "es": "Fresco"
+              }
+            },
+            {
+              "word": "sprzedawca",
+              "meanings": {
+                "en": "Seller / Vendor",
+                "zh": "卖家",
+                "th": "ผู้ขาย",
+                "ko": "판매자",
+                "es": "Vendedor"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "cena",
+              "options": {
+                "en": ["Price", "Market", "Fresh", "Seller"],
+                "zh": ["价格", "集市", "新鲜", "卖家"],
+                "th": ["ราคา", "ตลาด", "สด", "ผู้ขาย"],
+                "ko": ["가격", "시장", "신선한", "판매자"],
+                "es": ["Precio", "Mercado", "Fresco", "Vendedor"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Fresh' in Polish?",
+                "zh": "波兰语怎么说'新鲜'？",
+                "th": "คำว่า 'สด' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'신선한'을 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Fresco' en polaco?"
+              },
+              "options": {
+                "neutral": ["świeży", "rynek", "cena", "kilogram"],
+                "male": ["świeży", "rynek", "cena", "kilogram"],
+                "female": ["świeży", "rynek", "cena", "kilogram"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "rynek",
+              "options": {
+                "en": ["Market square", "Price", "Fresh", "Seller"],
+                "zh": ["集市广场", "价格", "新鲜", "卖家"],
+                "th": ["ตลาดสด", "ราคา", "สด", "ผู้ขาย"],
+                "ko": ["시장 광장", "가격", "신선한", "판매자"],
+                "es": ["Plaza del mercado", "Precio", "Fresco", "Vendedor"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "rynek", "native": {"en": "Market square", "zh": "集市广场", "th": "ตลาดสด", "ko": "시장 광장", "es": "Plaza del mercado"}},
+                {"target": "cena", "native": {"en": "Price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "Precio"}},
+                {"target": "świeży", "native": {"en": "Fresh", "zh": "新鲜", "th": "สด", "ko": "신선한", "es": "Fresco"}},
+                {"target": "sprzedawca", "native": {"en": "Seller", "zh": "卖家", "th": "ผู้ขาย", "ko": "판매자", "es": "Vendedor"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "How much does one kilogram cost?",
+                "zh": "一千克多少钱？",
+                "th": "หนึ่งกิโลกรัมราคาเท่าไหร่?",
+                "ko": "1킬로그램에 얼마예요?",
+                "es": "¿Cuánto cuesta un kilogramo?"
+              },
+              "words": ["Ile", "kosztuje", "jeden", "kilogram"],
+              "correct": ["Ile", "kosztuje", "jeden", "kilogram"]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Street Food & Snacks",
+            "zh": "街头小吃",
+            "th": "อาหารริมถนนและขนม",
+            "ko": "길거리 음식과 간식",
+            "es": "Comida callejera y aperitivos"
+          },
+          "objectives": {
+            "en": ["Order Polish street food", "Name popular Polish snacks"],
+            "zh": ["点波兰街头小吃", "说出热门波兰零食名称"],
+            "th": ["สั่งอาหารริมถนนโปแลนด์", "บอกชื่อขนมโปแลนด์ยอดนิยม"],
+            "ko": ["폴란드 길거리 음식 주문하기", "인기 있는 폴란드 간식 이름 말하기"],
+            "es": ["Pedir comida callejera polaca", "Nombrar aperitivos polacos populares"]
+          },
+          "vocabulary": [
+            {
+              "word": "zapiekanka",
+              "meanings": {
+                "en": "Open-faced toasted sandwich",
+                "zh": "开放式烤三明治",
+                "th": "แซนด์วิชอบหน้าเปิด",
+                "ko": "오픈 페이스 토스트 샌드위치",
+                "es": "Sándwich tostado abierto"
+              }
+            },
+            {
+              "word": "obwarzanek",
+              "meanings": {
+                "en": "Bagel-like pretzel",
+                "zh": "百吉饼状椒盐卷饼",
+                "th": "เพรทเซลคล้ายเบเกิล",
+                "ko": "베이글 모양 프레첼",
+                "es": "Pretzel tipo bagel"
+              }
+            },
+            {
+              "word": "oscypek",
+              "meanings": {
+                "en": "Smoked sheep cheese",
+                "zh": "烟熏羊奶酪",
+                "th": "ชีสแกะรมควัน",
+                "ko": "훈제 양 치즈",
+                "es": "Queso de oveja ahumado"
+              }
+            },
+            {
+              "word": "lody",
+              "meanings": {
+                "en": "Ice cream",
+                "zh": "冰淇淋",
+                "th": "ไอศกรีม",
+                "ko": "아이스크림",
+                "es": "Helado"
+              }
+            },
+            {
+              "word": "precel",
+              "meanings": {
+                "en": "Pretzel",
+                "zh": "椒盐卷饼",
+                "th": "เพรทเซล",
+                "ko": "프레첼",
+                "es": "Pretzel"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "lody",
+              "options": {
+                "en": ["Ice cream", "Pretzel", "Cheese", "Sandwich"],
+                "zh": ["冰淇淋", "椒盐卷饼", "奶酪", "三明治"],
+                "th": ["ไอศกรีม", "เพรทเซล", "ชีส", "แซนด์วิช"],
+                "ko": ["아이스크림", "프레첼", "치즈", "샌드위치"],
+                "es": ["Helado", "Pretzel", "Queso", "Sándwich"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Ice cream' in Polish?",
+                "zh": "波兰语怎么说'冰淇淋'？",
+                "th": "คำว่า 'ไอศกรีม' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'아이스크림'을 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Helado' en polaco?"
+              },
+              "options": {
+                "neutral": ["lody", "zapiekanka", "oscypek", "precel"],
+                "male": ["lody", "zapiekanka", "oscypek", "precel"],
+                "female": ["lody", "zapiekanka", "oscypek", "precel"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "zapiekanka",
+              "options": {
+                "en": ["Open sandwich", "Ice cream", "Pretzel", "Cheese"],
+                "zh": ["开放式三明治", "冰淇淋", "椒盐卷饼", "奶酪"],
+                "th": ["แซนด์วิชเปิด", "ไอศกรีม", "เพรทเซล", "ชีส"],
+                "ko": ["오픈 샌드위치", "아이스크림", "프레첼", "치즈"],
+                "es": ["Sándwich abierto", "Helado", "Pretzel", "Queso"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "lody", "native": {"en": "Ice cream", "zh": "冰淇淋", "th": "ไอศกรีม", "ko": "아이스크림", "es": "Helado"}},
+                {"target": "zapiekanka", "native": {"en": "Open sandwich", "zh": "开放式三明治", "th": "แซนด์วิชเปิด", "ko": "오픈 샌드위치", "es": "Sándwich abierto"}},
+                {"target": "oscypek", "native": {"en": "Smoked sheep cheese", "zh": "烟熏羊奶酪", "th": "ชีสแกะรมควัน", "ko": "훈제 양 치즈", "es": "Queso de oveja ahumado"}},
+                {"target": "precel", "native": {"en": "Pretzel", "zh": "椒盐卷饼", "th": "เพรทเซล", "ko": "프레첼", "es": "Pretzel"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "One ice cream please",
+                "zh": "请给我一个冰淇淋",
+                "th": "ขอไอศกรีมหนึ่งอันครับ",
+                "ko": "아이스크림 하나 주세요",
+                "es": "Un helado por favor"
+              },
+              "words": ["Jedno", "lody", "proszę"],
+              "correct": ["Jedno", "lody", "proszę"]
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Dietary Preferences",
+            "zh": "饮食偏好",
+            "th": "ความชอบด้านอาหาร",
+            "ko": "식이 선호도",
+            "es": "Preferencias alimentarias"
+          },
+          "objectives": {
+            "en": ["Express dietary restrictions in Polish", "Ask about allergens"],
+            "zh": ["用波兰语表达饮食限制", "询问过敏原"],
+            "th": ["แสดงข้อจำกัดด้านอาหารเป็นภาษาโปแลนด์", "ถามเกี่ยวกับสารก่อภูมิแพ้"],
+            "ko": ["폴란드어로 식이 제한 표현하기", "알레르기 유발 물질 물어보기"],
+            "es": ["Expresar restricciones dietéticas en polaco", "Preguntar sobre alérgenos"]
+          },
+          "vocabulary": [
+            {
+              "word": "wegetarianin",
+              "meanings": {
+                "en": "Vegetarian",
+                "zh": "素食者",
+                "th": "มังสวิรัติ",
+                "ko": "채식주의자",
+                "es": "Vegetariano"
+              }
+            },
+            {
+              "word": "alergia",
+              "meanings": {
+                "en": "Allergy",
+                "zh": "过敏",
+                "th": "การแพ้",
+                "ko": "알레르기",
+                "es": "Alergia"
+              }
+            },
+            {
+              "word": "bezglutenowy",
+              "meanings": {
+                "en": "Gluten-free",
+                "zh": "无麸质",
+                "th": "ปราศจากกลูเตน",
+                "ko": "글루텐 프리",
+                "es": "Sin gluten"
+              }
+            },
+            {
+              "word": "bez laktozy",
+              "meanings": {
+                "en": "Lactose-free",
+                "zh": "无乳糖",
+                "th": "ปราศจากแลคโตส",
+                "ko": "유당 프리",
+                "es": "Sin lactosa"
+              }
+            },
+            {
+              "word": "wegański",
+              "meanings": {
+                "en": "Vegan",
+                "zh": "纯素食",
+                "th": "วีแกน",
+                "ko": "비건",
+                "es": "Vegano"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "wegetarianin",
+              "options": {
+                "en": ["Vegetarian", "Vegan", "Allergy", "Gluten-free"],
+                "zh": ["素食者", "纯素食", "过敏", "无麸质"],
+                "th": ["มังสวิรัติ", "วีแกน", "การแพ้", "ปราศจากกลูเตน"],
+                "ko": ["채식주의자", "비건", "알레르기", "글루텐 프리"],
+                "es": ["Vegetariano", "Vegano", "Alergia", "Sin gluten"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'Allergy' in Polish?",
+                "zh": "波兰语怎么说'过敏'？",
+                "th": "คำว่า 'การแพ้' พูดเป็นภาษาโปแลนด์ว่าอะไร?",
+                "ko": "'알레르기'를 폴란드어로 어떻게 말하나요?",
+                "es": "¿Cómo se dice 'Alergia' en polaco?"
+              },
+              "options": {
+                "neutral": ["alergia", "wegetarianin", "wegański", "bezglutenowy"],
+                "male": ["alergia", "wegetarianin", "wegański", "bezglutenowy"],
+                "female": ["alergia", "wegetarianin", "wegański", "bezglutenowy"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "bezglutenowy",
+              "options": {
+                "en": ["Gluten-free", "Vegan", "Vegetarian", "Allergy"],
+                "zh": ["无麸质", "纯素食", "素食者", "过敏"],
+                "th": ["ปราศจากกลูเตน", "วีแกน", "มังสวิรัติ", "การแพ้"],
+                "ko": ["글루텐 프리", "비건", "채식주의자", "알레르기"],
+                "es": ["Sin gluten", "Vegano", "Vegetariano", "Alergia"]
+              },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {"target": "wegetarianin", "native": {"en": "Vegetarian", "zh": "素食者", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "Vegetariano"}},
+                {"target": "alergia", "native": {"en": "Allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "Alergia"}},
+                {"target": "bezglutenowy", "native": {"en": "Gluten-free", "zh": "无麸质", "th": "ปราศจากกลูเตน", "ko": "글루텐 프리", "es": "Sin gluten"}},
+                {"target": "wegański", "native": {"en": "Vegan", "zh": "纯素食", "th": "วีแกน", "ko": "비건", "es": "Vegano"}}
+              ]
+            },
+            {
+              "type": "reorder",
+              "sentence": {
+                "en": "I am vegetarian and have a nut allergy",
+                "zh": "我是素食者，对坚果过敏",
+                "th": "ฉันเป็นมังสวิรัติและแพ้ถั่ว",
+                "ko": "저는 채식주의자이고 견과류 알레르기가 있습니다",
+                "es": "Soy vegetariano y tengo alergia a los frutos secos"
+              },
+              "words": ["Jestem", "wegetarianinem", "i", "mam", "alergię", "na", "orzechy"],
+              "correct": ["Jestem", "wegetarianinem", "i", "mam", "alergię", "na", "orzechy"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

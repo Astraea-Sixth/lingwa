@@ -1,0 +1,787 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Office",
+        "zh": "办公室",
+        "th": "สำนักงาน",
+        "ko": "사무실",
+        "es": "La oficina"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์สำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de la oficina"
+          },
+          "objectives": {
+            "en": ["Name common objects and places found in a Japanese office", "Describe your workplace"],
+            "zh": ["说出日本办公室中常见的物品和地方", "描述你的工作场所"],
+            "th": ["พูดชื่อสิ่งของและสถานที่ทั่วไปในออฟฟิศญี่ปุ่น", "อธิบายที่ทำงานของคุณ"],
+            "ko": ["일본 사무실의 일반적인 물건과 장소 이름 말하기", "직장 묘사하기"],
+            "es": ["Nombrar objetos y lugares comunes en una oficina japonesa", "Describir tu lugar de trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "かいしゃ",
+              "romanization": "kaisha",
+              "meanings": { "en": "company / firm", "zh": "公司", "th": "บริษัท", "ko": "회사", "es": "empresa / compañía" }
+            },
+            {
+              "word": "つくえ",
+              "romanization": "tsukue",
+              "meanings": { "en": "desk", "zh": "桌子", "th": "โต๊ะทำงาน", "ko": "책상", "es": "escritorio" }
+            },
+            {
+              "word": "かいぎしつ",
+              "romanization": "kaigishitsu",
+              "meanings": { "en": "meeting room / conference room", "zh": "会议室", "th": "ห้องประชุม", "ko": "회의실", "es": "sala de reuniones" }
+            },
+            {
+              "word": "どうりょう",
+              "romanization": "douryou",
+              "meanings": { "en": "colleague / co-worker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "colega / compañero de trabajo" }
+            },
+            {
+              "word": "ぶちょう",
+              "romanization": "buchou",
+              "meanings": { "en": "department manager / section chief", "zh": "部长/科长", "th": "หัวหน้าแผนก", "ko": "부장", "es": "jefe de departamento" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'meeting room' in Japanese?",
+              "options": ["かいぎしつ", "きょうしつ", "じむしつ", "しょくどう"],
+              "correct": 0,
+              "explanation": "'かいぎしつ' (kaigishitsu) = meeting room / conference room. 'かいぎ' = meeting, 'しつ' = room."
+            },
+            {
+              "type": "target_to_native",
+              "word": "どうりょう",
+              "options": ["colleague / co-worker", "boss", "client", "intern"],
+              "correct": 0,
+              "explanation": "'どうりょう' (douryou) = colleague or co-worker. An essential word for talking about your workplace."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["かいしゃ", "company"],
+                ["つくえ", "desk"],
+                ["かいぎしつ", "meeting room"],
+                ["ぶちょう", "department manager"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["に", "かいしゃ", "います", "どうりょうが", "わたしの"],
+              "correct": ["わたしの", "かいしゃ", "に", "どうりょうが", "います"],
+              "translation": "There are colleagues at my company."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I work at a company'?",
+              "options": ["かいしゃではたらいています。", "かいしゃにいます。", "かいしゃがすきです。", "かいしゃへいきます。"],
+              "correct": 0,
+              "explanation": "'かいしゃではたらいています' = I work at a company. 'はたらく' (hataraku) = to work."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Daily Work Routines",
+            "zh": "日常工作流程",
+            "th": "กิจวัตรการทำงานประจำวัน",
+            "ko": "일상 업무 루틴",
+            "es": "Rutinas diarias de trabajo"
+          },
+          "objectives": {
+            "en": ["Describe your daily work routine in Japanese", "Talk about start and end times, and daily tasks"],
+            "zh": ["用日语描述你的日常工作流程", "谈论上下班时间和日常任务"],
+            "th": ["อธิบายกิจวัตรการทำงานประจำวันเป็นภาษาญี่ปุ่น", "พูดเกี่ยวกับเวลาเริ่มและเลิกงาน และงานประจำวัน"],
+            "ko": ["일본어로 일상 업무 루틴 설명하기", "출퇴근 시간과 일일 업무에 대해 이야기하기"],
+            "es": ["Describir tu rutina de trabajo diaria en japonés", "Hablar sobre los horarios de entrada/salida y las tareas diarias"]
+          },
+          "vocabulary": [
+            {
+              "word": "しゅっきんする",
+              "romanization": "shukkin suru",
+              "meanings": { "en": "to go to work / clock in", "zh": "上班/打卡上班", "th": "ไปทำงาน / เข้างาน", "ko": "출근하다", "es": "ir al trabajo / fichar entrada" }
+            },
+            {
+              "word": "たいきんする",
+              "romanization": "taikin suru",
+              "meanings": { "en": "to leave work / clock out", "zh": "下班/打卡下班", "th": "เลิกงาน / ออกงาน", "ko": "퇴근하다", "es": "salir del trabajo / fichar salida" }
+            },
+            {
+              "word": "ざんぎょう",
+              "romanization": "zangyou",
+              "meanings": { "en": "overtime work", "zh": "加班", "th": "ทำงานล่วงเวลา", "ko": "야근 / 초과근무", "es": "horas extra / trabajo overtime" }
+            },
+            {
+              "word": "きゅうけい",
+              "romanization": "kyuukei",
+              "meanings": { "en": "break / rest", "zh": "休息", "th": "พัก / หยุดพัก", "ko": "휴식 / 쉬는 시간", "es": "descanso / pausa" }
+            },
+            {
+              "word": "しごと",
+              "romanization": "shigoto",
+              "meanings": { "en": "work / job", "zh": "工作", "th": "งาน", "ko": "일 / 직업", "es": "trabajo / empleo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I go to work at 9 o'clock'?",
+              "options": ["くじにしゅっきんします。", "くじにたいきんします。", "くじにかいしゃへいきます。", "くじにしごとをします。"],
+              "correct": 0,
+              "explanation": "'くじにしゅっきんします' = I go to work at 9 o'clock. 'しゅっきんする' is specifically used for clocking in / going to work."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ざんぎょう",
+              "options": ["overtime work", "day off", "business trip", "lunch break"],
+              "correct": 0,
+              "explanation": "'ざんぎょう' (zangyou) = overtime work. Japan is well known for a culture of working overtime."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しゅっきんする", "go to work"],
+                ["たいきんする", "leave work"],
+                ["ざんぎょう", "overtime"],
+                ["きゅうけい", "break / rest"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["きゅうけい", "とります", "を", "じゅうにじに"],
+              "correct": ["じゅうにじに", "きゅうけい", "を", "とります"],
+              "translation": "I take a break at noon."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Today I have overtime'?",
+              "options": ["きょうはざんぎょうです。", "きょうはやすみです。", "きょうははやくたいきんします。", "きょうはいそがしいです。"],
+              "correct": 0,
+              "explanation": "'きょうはざんぎょうです' = Today I have overtime. A common phrase in Japanese workplaces."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Business Etiquette",
+            "zh": "商务礼仪",
+            "th": "มารยาททางธุรกิจ",
+            "ko": "비즈니스 에티켓",
+            "es": "Etiqueta empresarial"
+          },
+          "objectives": {
+            "en": ["Use polite business language and greetings", "Understand key customs in Japanese workplace culture"],
+            "zh": ["使用礼貌的商务语言和问候", "了解日本职场文化的重要习俗"],
+            "th": ["ใช้ภาษาธุรกิจที่สุภาพและการทักทาย", "เข้าใจธรรมเนียมสำคัญในวัฒนธรรมการทำงานของญี่ปุ่น"],
+            "ko": ["정중한 비즈니스 언어와 인사말 사용하기", "일본 직장 문화의 주요 관습 이해하기"],
+            "es": ["Usar lenguaje empresarial educado y saludos", "Entender las costumbres clave de la cultura laboral japonesa"]
+          },
+          "vocabulary": [
+            {
+              "word": "おつかれさまでした",
+              "romanization": "otsukaresama deshita",
+              "meanings": { "en": "good work / you've worked hard (end-of-day greeting)", "zh": "辛苦了（下班时说）", "th": "เหนื่อยมากนะ (ทักทายตอนเลิกงาน)", "ko": "수고하셨습니다 (퇴근 인사)", "es": "buen trabajo / has trabajado duro (saludo de fin de jornada)" }
+            },
+            {
+              "word": "よろしくおねがいします",
+              "romanization": "yoroshiku onegai shimasu",
+              "meanings": { "en": "I look forward to working with you / please treat me well", "zh": "请多关照", "th": "ขอฝากตัวด้วย / โปรดดูแลด้วย", "ko": "잘 부탁드립니다", "es": "quedo a su disposición / espero trabajar bien juntos" }
+            },
+            {
+              "word": "めいし",
+              "romanization": "meishi",
+              "meanings": { "en": "business card", "zh": "名片", "th": "นามบัตร", "ko": "명함", "es": "tarjeta de visita" }
+            },
+            {
+              "word": "おじぎ",
+              "romanization": "ojigi",
+              "meanings": { "en": "bow (respectful greeting)", "zh": "鞠躬（礼节性问候）", "th": "การโค้งคำนับ (การทักทายด้วยความเคารพ)", "ko": "인사 (경례)", "es": "reverencia (saludo respetuoso)" }
+            },
+            {
+              "word": "けいご",
+              "romanization": "keigo",
+              "meanings": { "en": "polite/formal Japanese (honorific speech)", "zh": "敬语（正式日语）", "th": "ภาษาสุภาพ/ทางการ (คำสุภาพ)", "ko": "경어 (존댓말)", "es": "japonés formal / honorífico" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What do you say to a colleague at the end of the workday?",
+              "options": ["おつかれさまでした。", "おはようございます。", "よろしくおねがいします。", "ただいま。"],
+              "correct": 0,
+              "explanation": "'おつかれさまでした' = Good work / You've worked hard. This is the standard end-of-workday farewell in Japan."
+            },
+            {
+              "type": "target_to_native",
+              "word": "めいし",
+              "options": ["business card", "resume", "contract", "invoice"],
+              "correct": 0,
+              "explanation": "'めいし' (meishi) = business card. Exchanging meishi is a very important ritual in Japanese business culture."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["おつかれさまでした", "good work (end of day)"],
+                ["よろしくおねがいします", "please treat me well"],
+                ["めいし", "business card"],
+                ["おじぎ", "bow / respectful greeting"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["おねがい", "よろしく", "します"],
+              "correct": ["よろしく", "おねがい", "します"],
+              "translation": "I look forward to working with you."
+            },
+            {
+              "type": "native_to_target",
+              "question": "What is 'keigo'?",
+              "options": ["polite/honorific Japanese used in formal situations", "a type of business card", "a respectful bow", "overtime work"],
+              "correct": 0,
+              "explanation": "'けいご' (keigo) = honorific/polite Japanese. It is essential in the Japanese workplace and shows respect to superiors and clients."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Meetings & Communication",
+        "zh": "会议与沟通",
+        "th": "การประชุมและการสื่อสาร",
+        "ko": "회의와 커뮤니케이션",
+        "es": "Reuniones y comunicación"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Meetings",
+            "zh": "开会",
+            "th": "การประชุม",
+            "ko": "회의",
+            "es": "Reuniones"
+          },
+          "objectives": {
+            "en": ["Participate in a basic business meeting in Japanese", "Use common meeting phrases"],
+            "zh": ["参与日语基本商务会议", "使用常见的会议用语"],
+            "th": ["มีส่วนร่วมในการประชุมธุรกิจพื้นฐานเป็นภาษาญี่ปุ่น", "ใช้ประโยคในการประชุมทั่วไป"],
+            "ko": ["일본어로 기본적인 비즈니스 회의에 참여하기", "일반적인 회의 표현 사용하기"],
+            "es": ["Participar en una reunión de negocios básica en japonés", "Usar frases comunes de reunión"]
+          },
+          "vocabulary": [
+            {
+              "word": "かいぎ",
+              "romanization": "kaigi",
+              "meanings": { "en": "meeting / conference", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "reunión / conferencia" }
+            },
+            {
+              "word": "いけん",
+              "romanization": "iken",
+              "meanings": { "en": "opinion / view", "zh": "意见/观点", "th": "ความคิดเห็น", "ko": "의견", "es": "opinión / punto de vista" }
+            },
+            {
+              "word": "しつもんがあります",
+              "romanization": "shitsumon ga arimasu",
+              "meanings": { "en": "I have a question", "zh": "我有一个问题", "th": "ฉันมีคำถาม", "ko": "질문이 있습니다", "es": "tengo una pregunta" }
+            },
+            {
+              "word": "さんせいします",
+              "romanization": "sansei shimasu",
+              "meanings": { "en": "I agree", "zh": "我同意", "th": "ฉันเห็นด้วย", "ko": "동의합니다", "es": "estoy de acuerdo" }
+            },
+            {
+              "word": "ぎだい",
+              "romanization": "gidai",
+              "meanings": { "en": "agenda / topic for discussion", "zh": "议题/议程", "th": "วาระการประชุม", "ko": "의제", "es": "orden del día / tema de discusión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a question' in a meeting?",
+              "options": ["しつもんがあります。", "もんだいがあります。", "いけんがあります。", "はなしがあります。"],
+              "correct": 0,
+              "explanation": "'しつもんがあります' = I have a question. 'しつもん' = question. This is the standard phrase to raise a question in a meeting."
+            },
+            {
+              "type": "target_to_native",
+              "word": "さんせいします",
+              "options": ["I agree", "I disagree", "I don't understand", "I will consider it"],
+              "correct": 0,
+              "explanation": "'さんせいします' (sansei shimasu) = I agree. From 'さんせい' (agreement) + 'します' (do)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["かいぎ", "meeting / conference"],
+                ["いけん", "opinion"],
+                ["さんせいします", "I agree"],
+                ["ぎだい", "agenda"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["があります", "について", "しつもん", "ぎだい"],
+              "correct": ["ぎだい", "について", "しつもん", "があります"],
+              "translation": "I have a question about the agenda."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'What is the agenda for today's meeting?'",
+              "options": ["きょうのかいぎのぎだいはなんですか？", "きょうのかいぎはいつですか？", "きょうはかいぎがありますか？", "かいぎしつはどこですか？"],
+              "correct": 0,
+              "explanation": "'きょうのかいぎのぎだいはなんですか？' = What is today's meeting agenda? 'ぎだい' = agenda/topic."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Business Emails",
+            "zh": "商务邮件",
+            "th": "อีเมลธุรกิจ",
+            "ko": "비즈니스 이메일",
+            "es": "Correos electrónicos de negocios"
+          },
+          "objectives": {
+            "en": ["Write a simple business email in Japanese", "Use appropriate opening and closing phrases"],
+            "zh": ["用日语写一封简单的商务邮件", "使用适当的开头和结尾语"],
+            "th": ["เขียนอีเมลธุรกิจง่ายๆ เป็นภาษาญี่ปุ่น", "ใช้ประโยคเปิดและปิดที่เหมาะสม"],
+            "ko": ["일본어로 간단한 비즈니스 이메일 쓰기", "적절한 도입 및 마무리 표현 사용하기"],
+            "es": ["Escribir un correo electrónico de negocios simple en japonés", "Usar frases de apertura y cierre apropiadas"]
+          },
+          "vocabulary": [
+            {
+              "word": "おせわになっております",
+              "romanization": "osewa ni natte orimasu",
+              "meanings": { "en": "thank you for your continued support (standard email opener)", "zh": "承蒙关照（商务邮件开头）", "th": "ขอบคุณสำหรับการสนับสนุนของคุณ (ประโยคเปิดอีเมลธุรกิจ)", "ko": "항상 신세 지고 있습니다 (표준 이메일 오프닝)", "es": "gracias por su continuo apoyo (apertura estándar de email)" }
+            },
+            {
+              "word": "かくにんのほどよろしくおねがいします",
+              "romanization": "kakunin no hodo yoroshiku onegai shimasu",
+              "meanings": { "en": "please confirm / kindly check", "zh": "请确认", "th": "กรุณายืนยัน / กรุณาตรวจสอบ", "ko": "확인 부탁드립니다", "es": "por favor confirme / tenga la amabilidad de revisar" }
+            },
+            {
+              "word": "てんぷファイル",
+              "romanization": "tenpu fairu",
+              "meanings": { "en": "attached file", "zh": "附件", "th": "ไฟล์แนบ", "ko": "첨부 파일", "es": "archivo adjunto" }
+            },
+            {
+              "word": "へんしんおまちしております",
+              "romanization": "henshin o machi shite orimasu",
+              "meanings": { "en": "I look forward to your reply", "zh": "期待您的回复", "th": "รอการตอบกลับของคุณ", "ko": "답장 기다리겠습니다", "es": "espero su respuesta" }
+            },
+            {
+              "word": "いじょうです",
+              "romanization": "ijou desu",
+              "meanings": { "en": "that is all / end of message", "zh": "以上", "th": "เพียงเท่านี้ / สิ้นสุดข้อความ", "ko": "이상입니다 / 이상으로", "es": "eso es todo / fin del mensaje" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is the standard opening line for a Japanese business email?",
+              "options": ["おせわになっております。", "はじめまして。", "おはようございます。", "よろしくおねがいします。"],
+              "correct": 0,
+              "explanation": "'おせわになっております' = Thank you for your continued support. This is the most common opening line in Japanese business emails."
+            },
+            {
+              "type": "target_to_native",
+              "word": "てんぷファイル",
+              "options": ["attached file", "email subject", "email address", "reply"],
+              "correct": 0,
+              "explanation": "'てんぷファイル' (tenpu fairu) = attached file. 'てんぷ' = attachment (from 添付), 'ファイル' = file (from English)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["おせわになっております", "standard email opener"],
+                ["てんぷファイル", "attached file"],
+                ["へんしんおまちしております", "I look forward to your reply"],
+                ["いじょうです", "that is all"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["おまちしております", "へんしんを"],
+              "correct": ["へんしんを", "おまちしております"],
+              "translation": "I look forward to your reply."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Please confirm' in a business email?",
+              "options": ["かくにんのほどよろしくおねがいします。", "かくにんしてください。", "かくにんしました。", "かくにんをします。"],
+              "correct": 0,
+              "explanation": "'かくにんのほどよろしくおねがいします' = Please kindly confirm. This is more polite than the plain 'かくにんしてください'."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "On the Phone",
+            "zh": "电话沟通",
+            "th": "การสนทนาทางโทรศัพท์",
+            "ko": "전화 통화",
+            "es": "Al teléfono"
+          },
+          "objectives": {
+            "en": ["Answer and make business phone calls in Japanese", "Take and leave a message politely"],
+            "zh": ["用日语接听和拨打商务电话", "礼貌地传达和留下信息"],
+            "th": ["รับและโทรออกทางธุรกิจเป็นภาษาญี่ปุ่น", "รับและฝากข้อความอย่างสุภาพ"],
+            "ko": ["일본어로 비즈니스 전화 받고 걸기", "정중하게 메시지 받고 남기기"],
+            "es": ["Contestar y hacer llamadas de negocios en japonés", "Tomar y dejar un mensaje educadamente"]
+          },
+          "vocabulary": [
+            {
+              "word": "はい、〜でございます",
+              "romanization": "hai, ~ de gozaimasu",
+              "meanings": { "en": "Hello, this is ~ (business phone greeting)", "zh": "您好，这里是~（商务接电话）", "th": "สวัสดีครับ/ค่ะ นี่คือ~ (ทักทายโทรศัพท์ธุรกิจ)", "ko": "네, ~입니다 (비즈니스 전화 인사)", "es": "Hola, aquí ~ (saludo telefónico de negocios)" }
+            },
+            {
+              "word": "しょうしょうおまちください",
+              "romanization": "shoushou omachi kudasai",
+              "meanings": { "en": "please wait a moment", "zh": "请稍等", "th": "กรุณารอสักครู่", "ko": "잠시만 기다려 주십시오", "es": "por favor espere un momento" }
+            },
+            {
+              "word": "でんごんをおねがいできますか",
+              "romanization": "dengon o onegai dekimasu ka",
+              "meanings": { "en": "Could I leave a message?", "zh": "可以留言吗？", "th": "ฝากข้อความได้ไหม?", "ko": "메시지를 남길 수 있을까요?", "es": "¿Podría dejar un mensaje?" }
+            },
+            {
+              "word": "おでんわありがとうございます",
+              "romanization": "odenwa arigatou gozaimasu",
+              "meanings": { "en": "thank you for calling", "zh": "感谢您的来电", "th": "ขอบคุณที่โทรมา", "ko": "전화해 주셔서 감사합니다", "es": "gracias por llamar" }
+            },
+            {
+              "word": "おなまえをうかがってもよろしいですか",
+              "romanization": "onamae o ukagatte mo yoroshii desu ka",
+              "meanings": { "en": "May I ask your name?", "zh": "请问您贵姓？", "th": "ขอทราบชื่อได้ไหมครับ/ค่ะ?", "ko": "성함을 여쭤봐도 될까요?", "es": "¿Me podría decir su nombre?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you answer the phone at a Japanese company?",
+              "options": ["はい、〜でございます。", "もしもし。", "はい、なんですか？", "こんにちは、〜です。"],
+              "correct": 0,
+              "explanation": "'はい、〜でございます' = Hello, this is ~ (company name). 'でございます' is the polite/formal form of 'です', used in business settings."
+            },
+            {
+              "type": "target_to_native",
+              "word": "でんごんをおねがいできますか",
+              "options": ["Could I leave a message?", "Please hold", "Can I speak to the manager?", "Thank you for calling"],
+              "correct": 0,
+              "explanation": "'でんごんをおねがいできますか' = Could I leave a message? 'でんごん' = message, 'おねがいできますか' = could I ask you to...?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しょうしょうおまちください", "please wait a moment"],
+                ["でんごんをおねがいできますか", "Could I leave a message?"],
+                ["おでんわありがとうございます", "thank you for calling"],
+                ["おなまえをうかがってもよろしいですか", "May I ask your name?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["おまちください", "しょうしょう"],
+              "correct": ["しょうしょう", "おまちください"],
+              "translation": "Please wait a moment."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you politely ask for someone's name on the phone?",
+              "options": ["おなまえをうかがってもよろしいですか？", "なまえはなんですか？", "あなたはだれですか？", "おなまえをおしえてください。"],
+              "correct": 0,
+              "explanation": "'おなまえをうかがってもよろしいですか？' = May I ask your name? Very polite phrasing appropriate for business calls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Job Interviews & Career",
+        "zh": "求职面试与职业",
+        "th": "การสัมภาษณ์งานและอาชีพ",
+        "ko": "취업 면접과 커리어",
+        "es": "Entrevistas de trabajo y carrera"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Job Interview Basics",
+            "zh": "求职面试基础",
+            "th": "พื้นฐานการสัมภาษณ์งาน",
+            "ko": "취업 면접 기초",
+            "es": "Conceptos básicos de la entrevista de trabajo"
+          },
+          "objectives": {
+            "en": ["Introduce yourself in a job interview in Japanese", "Talk about your experience and skills"],
+            "zh": ["在日语求职面试中做自我介紹", "谈论你的经验和技能"],
+            "th": ["แนะนำตัวเองในการสัมภาษณ์งานเป็นภาษาญี่ปุ่น", "พูดเกี่ยวกับประสบการณ์และทักษะของคุณ"],
+            "ko": ["일본어 취업 면접에서 자기소개하기", "경험과 기술에 대해 이야기하기"],
+            "es": ["Presentarte en una entrevista de trabajo en japonés", "Hablar sobre tu experiencia y habilidades"]
+          },
+          "vocabulary": [
+            {
+              "word": "めんせつ",
+              "romanization": "mensetsu",
+              "meanings": { "en": "job interview", "zh": "面试", "th": "การสัมภาษณ์งาน", "ko": "면접", "es": "entrevista de trabajo" }
+            },
+            {
+              "word": "じこしょうかい",
+              "romanization": "jiko shoukai",
+              "meanings": { "en": "self-introduction", "zh": "自我介绍", "th": "การแนะนำตัวเอง", "ko": "자기소개", "es": "presentación personal" }
+            },
+            {
+              "word": "けいけん",
+              "romanization": "keiken",
+              "meanings": { "en": "experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "experiencia" }
+            },
+            {
+              "word": "とくい",
+              "romanization": "tokui",
+              "meanings": { "en": "strength / specialty / good at", "zh": "强项/擅长", "th": "จุดแข็ง / ความเชี่ยวชาญ", "ko": "강점 / 특기 / 잘하는 것", "es": "fortaleza / especialidad / bueno en" }
+            },
+            {
+              "word": "どうきは〜です",
+              "romanization": "douki wa ~ desu",
+              "meanings": { "en": "my motivation / reason for applying is ~", "zh": "我的动机/申请原因是~", "th": "แรงจูงใจ/เหตุผลที่สมัครคือ~", "ko": "지원 동기는 ~입니다", "es": "mi motivación / razón para postular es ~" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'self-introduction' in Japanese?",
+              "options": ["じこしょうかい", "じこけいけん", "じぶんのはなし", "じこPR"],
+              "correct": 0,
+              "explanation": "'じこしょうかい' (jiko shoukai) = self-introduction. This is a key part of any Japanese job interview."
+            },
+            {
+              "type": "target_to_native",
+              "word": "けいけん",
+              "options": ["experience", "education", "qualification", "skill"],
+              "correct": 0,
+              "explanation": "'けいけん' (keiken) = experience. 'けいけんがあります' = I have experience in ~."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["めんせつ", "job interview"],
+                ["じこしょうかい", "self-introduction"],
+                ["けいけん", "experience"],
+                ["とくい", "strength / good at"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["あります", "に", "けいけんが", "えいごの"],
+              "correct": ["えいごの", "けいけんが", "あります"],
+              "translation": "I have experience in English."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'My strength is communication'?",
+              "options": ["わたしのとくいはコミュニケーションです。", "わたしのしごとはコミュニケーションです。", "わたしはコミュニケーションがすきです。", "コミュニケーションができます。"],
+              "correct": 0,
+              "explanation": "'わたしのとくいはコミュニケーションです' = My strength is communication. 'とくい' = strength/specialty."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Talking About Your Job",
+            "zh": "谈论你的工作",
+            "th": "การพูดเกี่ยวกับงานของคุณ",
+            "ko": "직업에 대해 이야기하기",
+            "es": "Hablar sobre tu trabajo"
+          },
+          "objectives": {
+            "en": ["Describe your job and responsibilities in Japanese", "Talk about what you do at work"],
+            "zh": ["用日语描述你的工作和职责", "谈论你在工作中做什么"],
+            "th": ["อธิบายงานและหน้าที่ของคุณเป็นภาษาญี่ปุ่น", "พูดเกี่ยวกับสิ่งที่คุณทำในงาน"],
+            "ko": ["일본어로 직업과 업무 설명하기", "직장에서 무엇을 하는지 이야기하기"],
+            "es": ["Describir tu trabajo y responsabilidades en japonés", "Hablar sobre lo que haces en el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "しょくぎょう",
+              "romanization": "shokugyou",
+              "meanings": { "en": "occupation / profession", "zh": "职业", "th": "อาชีพ", "ko": "직업", "es": "ocupación / profesión" }
+            },
+            {
+              "word": "たんとうする",
+              "romanization": "tantou suru",
+              "meanings": { "en": "to be in charge of / to handle", "zh": "负责/处理", "th": "รับผิดชอบ / ดูแล", "ko": "담당하다 / 맡다", "es": "encargarse de / gestionar" }
+            },
+            {
+              "word": "プロジェクト",
+              "romanization": "purojekuto",
+              "meanings": { "en": "project", "zh": "项目", "th": "โครงการ", "ko": "프로젝트", "es": "proyecto" }
+            },
+            {
+              "word": "しめきり",
+              "romanization": "shimekiri",
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดส่ง", "ko": "마감 기한", "es": "fecha límite / plazo" }
+            },
+            {
+              "word": "ほうこくする",
+              "romanization": "houkoku suru",
+              "meanings": { "en": "to report / to give a report", "zh": "汇报/报告", "th": "รายงาน / แจ้ง", "ko": "보고하다", "es": "informar / reportar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am in charge of this project'?",
+              "options": ["このプロジェクトをたんとうしています。", "このプロジェクトがすきです。", "このプロジェクトをします。", "このプロジェクトにいます。"],
+              "correct": 0,
+              "explanation": "'このプロジェクトをたんとうしています' = I am in charge of this project. 'たんとうする' = to be in charge of."
+            },
+            {
+              "type": "target_to_native",
+              "word": "しめきり",
+              "options": ["deadline", "meeting", "report", "project"],
+              "correct": 0,
+              "explanation": "'しめきり' (shimekiri) = deadline. 'しめきりはいつですか' = When is the deadline?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["しょくぎょう", "occupation"],
+                ["プロジェクト", "project"],
+                ["しめきり", "deadline"],
+                ["ほうこくする", "to report"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["しめきりは", "ですか", "いつ"],
+              "correct": ["しめきりは", "いつ", "ですか"],
+              "translation": "When is the deadline?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I will report to my boss'?",
+              "options": ["ぶちょうにほうこくします。", "ぶちょうにはなします。", "ぶちょうにいいます。", "ぶちょうにおくります。"],
+              "correct": 0,
+              "explanation": "'ぶちょうにほうこくします' = I will report to my department manager. 'ほうこくする' is the formal term for giving a report."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Business Situations",
+            "zh": "商务场景",
+            "th": "สถานการณ์ทางธุรกิจ",
+            "ko": "비즈니스 상황",
+            "es": "Situaciones de negocios"
+          },
+          "objectives": {
+            "en": ["Handle common business situations in Japanese", "Apologise, make requests, and give updates professionally"],
+            "zh": ["用日语处理常见的商务情况", "专业地道歉、提出请求和汇报进展"],
+            "th": ["จัดการสถานการณ์ธุรกิจทั่วไปเป็นภาษาญี่ปุ่น", "ขอโทษ ร้องขอ และรายงานความคืบหน้าอย่างมืออาชีพ"],
+            "ko": ["일본어로 일반적인 비즈니스 상황 처리하기", "전문적으로 사과하고 요청하며 업무 진행 상황 전달하기"],
+            "es": ["Manejar situaciones de negocios comunes en japonés", "Disculparse, hacer solicitudes y dar actualizaciones profesionalmente"]
+          },
+          "vocabulary": [
+            {
+              "word": "もうしわけございません",
+              "romanization": "moushiwake gozaimasen",
+              "meanings": { "en": "I am very sorry (formal business apology)", "zh": "非常抱歉（正式商务道歉）", "th": "ขอโทษอย่างยิ่ง (การขอโทษทางธุรกิจอย่างเป็นทางการ)", "ko": "정말 죄송합니다 (공식 비즈니스 사과)", "es": "lo siento mucho (disculpa formal de negocios)" }
+            },
+            {
+              "word": "かくにんします",
+              "romanization": "kakunin shimasu",
+              "meanings": { "en": "I will confirm / check", "zh": "我来确认", "th": "ฉันจะยืนยัน / ตรวจสอบ", "ko": "확인하겠습니다", "es": "voy a confirmar / revisar" }
+            },
+            {
+              "word": "しんちょくじょうきょう",
+              "romanization": "shinchoku joukyou",
+              "meanings": { "en": "progress status / progress report", "zh": "进展状况/进展报告", "th": "สถานะความคืบหน้า / รายงานความคืบหน้า", "ko": "진행 상황 / 진척 보고", "es": "estado de progreso / informe de avance" }
+            },
+            {
+              "word": "てつだっていただけますか",
+              "romanization": "tetsudatte itadakemasu ka",
+              "meanings": { "en": "Could you please help me?", "zh": "您能帮我吗？", "th": "คุณช่วยฉันได้ไหม?", "ko": "도와주실 수 있으신가요?", "es": "¿Podría ayudarme por favor?" }
+            },
+            {
+              "word": "かしこまりました",
+              "romanization": "kashikomarimashita",
+              "meanings": { "en": "certainly / understood (very formal agreement)", "zh": "明白了（非常正式的同意）", "th": "เข้าใจแล้วครับ/ค่ะ (การยืนยันอย่างเป็นทางการมาก)", "ko": "알겠습니다 (매우 격식체)", "es": "entendido / de acuerdo (acuerdo muy formal)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is the most formal way to apologise in a Japanese business setting?",
+              "options": ["もうしわけございません。", "すみません。", "ごめんなさい。", "しつれいしました。"],
+              "correct": 0,
+              "explanation": "'もうしわけございません' = I am very sorry. This is the most formal and sincere business apology in Japanese. More formal than 'すみません'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "かしこまりました",
+              "options": ["certainly / understood (very formal)", "I don't understand", "maybe", "I will think about it"],
+              "correct": 0,
+              "explanation": "'かしこまりました' (kashikomarimashita) = Certainly / Understood. This is the most formal way to say 'understood' in Japanese business contexts."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["もうしわけございません", "I am very sorry (formal)"],
+                ["かくにんします", "I will confirm"],
+                ["しんちょくじょうきょう", "progress status"],
+                ["かしこまりました", "certainly / understood"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["いただけますか", "てつだって"],
+              "correct": ["てつだって", "いただけますか"],
+              "translation": "Could you please help me?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I will confirm and get back to you'?",
+              "options": ["かくにんしてかられんらくします。", "かくにんしました。", "かくにんしてください。", "かくにんできません。"],
+              "correct": 0,
+              "explanation": "'かくにんしてかられんらくします' = I will confirm and then contact you. '〜してから' = after doing ~."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

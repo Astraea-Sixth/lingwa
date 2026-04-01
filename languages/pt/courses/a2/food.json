@@ -1,0 +1,625 @@
+{
+  "lang": "pt",
+  "language": "pt",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "레스토랑에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Learn restaurant vocabulary", "Order food and drinks at a restaurant"]
+          },
+          "vocabulary": [
+            {
+              "word": "cardápio",
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "garçom",
+              "meanings": { "en": "waiter", "zh": "服务员", "th": "พนักงานเสิร์ฟ", "ko": "웨이터", "es": "camarero" }
+            },
+            {
+              "word": "conta",
+              "meanings": { "en": "bill / check", "zh": "账单", "th": "บิล", "ko": "계산서", "es": "cuenta" }
+            },
+            {
+              "word": "prato",
+              "meanings": { "en": "dish / plate", "zh": "菜肴/碟子", "th": "จาน/อาหารจาน", "ko": "요리/접시", "es": "plato" }
+            },
+            {
+              "word": "reserva",
+              "meanings": { "en": "reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'menu' in Portuguese?" },
+              "answer": "cardápio",
+              "choices": ["cardápio", "conta", "prato", "garçom"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'garçom' mean?" },
+              "answer": "waiter",
+              "choices": ["waiter", "menu", "bill", "plate"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "cardápio", "native": "menu" },
+                { "target": "conta", "native": "bill" },
+                { "target": "prato", "native": "plate" },
+                { "target": "reserva", "native": "reservation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange to say: 'I would like to see the menu.'" },
+              "words": ["gostaria", "de", "ver", "o", "cardápio", "Eu"],
+              "answer": "Eu gostaria de ver o cardápio"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Brazilian Dishes",
+            "zh": "巴西菜肴",
+            "th": "อาหารบราซิล",
+            "ko": "브라질 요리",
+            "es": "Platos brasileños"
+          },
+          "objectives": {
+            "en": ["Name popular Brazilian dishes", "Describe food ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "feijoada",
+              "meanings": { "en": "black bean stew with pork (national dish)", "zh": "巴西黑豆炖肉", "th": "เฟจัวดา (อาหารประจำชาติ)", "ko": "페이조아다 (국민 요리)", "es": "feijoada (plato nacional)" }
+            },
+            {
+              "word": "churrasco",
+              "meanings": { "en": "Brazilian barbecue", "zh": "巴西烤肉", "th": "ชูร์ราสโก (บาร์บีคิวบราซิล)", "ko": "슈하스코 (브라질 바비큐)", "es": "churrasco (barbacoa brasileña)" }
+            },
+            {
+              "word": "arroz",
+              "meanings": { "en": "rice", "zh": "米饭", "th": "ข้าว", "ko": "쌀/밥", "es": "arroz" }
+            },
+            {
+              "word": "feijão",
+              "meanings": { "en": "beans", "zh": "豆子", "th": "ถั่ว", "ko": "콩", "es": "frijoles" }
+            },
+            {
+              "word": "carne",
+              "meanings": { "en": "meat", "zh": "肉", "th": "เนื้อสัตว์", "ko": "고기", "es": "carne" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'rice' in Portuguese?" },
+              "answer": "arroz",
+              "choices": ["arroz", "feijão", "carne", "pão"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'churrasco'?" },
+              "answer": "Brazilian barbecue",
+              "choices": ["Brazilian barbecue", "black bean stew", "rice and beans", "grilled fish"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "arroz", "native": "rice" },
+                { "target": "feijão", "native": "beans" },
+                { "target": "carne", "native": "meat" },
+                { "target": "feijoada", "native": "black bean stew" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want rice and beans.'" },
+              "words": ["quero", "arroz", "e", "feijão", "Eu"],
+              "answer": "Eu quero arroz e feijão"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks and Desserts",
+            "zh": "饮料和甜点",
+            "th": "เครื่องดื่มและของหวาน",
+            "ko": "음료와 디저트",
+            "es": "Bebidas y postres"
+          },
+          "objectives": {
+            "en": ["Order drinks and desserts", "Express preferences for food and drinks"]
+          },
+          "vocabulary": [
+            {
+              "word": "suco",
+              "meanings": { "en": "juice", "zh": "果汁", "th": "น้ำผลไม้", "ko": "주스", "es": "jugo" }
+            },
+            {
+              "word": "café",
+              "meanings": { "en": "coffee", "zh": "咖啡", "th": "กาแฟ", "ko": "커피", "es": "café" }
+            },
+            {
+              "word": "sobremesa",
+              "meanings": { "en": "dessert", "zh": "甜点", "th": "ของหวาน", "ko": "디저트", "es": "postre" }
+            },
+            {
+              "word": "brigadeiro",
+              "meanings": { "en": "Brazilian chocolate truffle", "zh": "巴西巧克力球", "th": "บริกาเดโร (ขนมช็อกโกแลตบราซิล)", "ko": "브리가데이루 (브라질 초콜릿 과자)", "es": "brigadeiro (dulce brasileño de chocolate)" }
+            },
+            {
+              "word": "água",
+              "meanings": { "en": "water", "zh": "水", "th": "น้ำ", "ko": "물", "es": "agua" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'dessert' in Portuguese?" },
+              "answer": "sobremesa",
+              "choices": ["sobremesa", "suco", "café", "água"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'suco' mean?" },
+              "answer": "juice",
+              "choices": ["juice", "coffee", "water", "dessert"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "suco", "native": "juice" },
+                { "target": "café", "native": "coffee" },
+                { "target": "água", "native": "water" },
+                { "target": "sobremesa", "native": "dessert" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Can I have a coffee, please?'" },
+              "words": ["um", "café", "por", "favor", "Me", "traz"],
+              "answer": "Me traz um café por favor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식료품 쇼핑",
+        "es": "Hacer la compra"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at a market", "Ask about prices and quantities"]
+          },
+          "vocabulary": [
+            {
+              "word": "mercado",
+              "meanings": { "en": "market / supermarket", "zh": "市场/超市", "th": "ตลาด/ซูเปอร์มาร์เก็ต", "ko": "시장/슈퍼마켓", "es": "mercado/supermercado" }
+            },
+            {
+              "word": "fruta",
+              "meanings": { "en": "fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "fruta" }
+            },
+            {
+              "word": "legume",
+              "meanings": { "en": "vegetable", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verdura" }
+            },
+            {
+              "word": "preço",
+              "meanings": { "en": "price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "precio" }
+            },
+            {
+              "word": "quilo",
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilogramo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'price' in Portuguese?" },
+              "answer": "preço",
+              "choices": ["preço", "quilo", "fruta", "mercado"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'legume' mean?" },
+              "answer": "vegetable",
+              "choices": ["vegetable", "fruit", "meat", "bread"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "fruta", "native": "fruit" },
+                { "target": "legume", "native": "vegetable" },
+                { "target": "preço", "native": "price" },
+                { "target": "quilo", "native": "kilogram" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'How much does it cost per kilogram?'" },
+              "words": ["custa", "por", "quilo", "Quanto"],
+              "answer": "Quanto custa por quilo"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Fruits and Vegetables",
+            "zh": "水果和蔬菜",
+            "th": "ผักและผลไม้",
+            "ko": "과일과 채소",
+            "es": "Frutas y verduras"
+          },
+          "objectives": {
+            "en": ["Name common fruits and vegetables in Portuguese", "Describe quantities"]
+          },
+          "vocabulary": [
+            {
+              "word": "abacaxi",
+              "meanings": { "en": "pineapple", "zh": "菠萝", "th": "สับปะรด", "ko": "파인애플", "es": "piña" }
+            },
+            {
+              "word": "manga",
+              "meanings": { "en": "mango", "zh": "芒果", "th": "มะม่วง", "ko": "망고", "es": "mango" }
+            },
+            {
+              "word": "tomate",
+              "meanings": { "en": "tomato", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "tomate" }
+            },
+            {
+              "word": "alface",
+              "meanings": { "en": "lettuce", "zh": "生菜", "th": "ผักกาดหอม", "ko": "상추", "es": "lechuga" }
+            },
+            {
+              "word": "cebola",
+              "meanings": { "en": "onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'mango' in Portuguese?" },
+              "answer": "manga",
+              "choices": ["manga", "abacaxi", "tomate", "cebola"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'abacaxi'?" },
+              "answer": "pineapple",
+              "choices": ["pineapple", "mango", "orange", "apple"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "abacaxi", "native": "pineapple" },
+                { "target": "tomate", "native": "tomato" },
+                { "target": "alface", "native": "lettuce" },
+                { "target": "cebola", "native": "onion" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want two kilos of tomatoes.'" },
+              "words": ["dois", "quilos", "de", "tomate", "Quero"],
+              "answer": "Quero dois quilos de tomate"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Cooking at Home",
+            "zh": "在家烹饪",
+            "th": "ทำอาหารที่บ้าน",
+            "ko": "집에서 요리하기",
+            "es": "Cocinar en casa"
+          },
+          "objectives": {
+            "en": ["Describe cooking methods", "Talk about recipes"]
+          },
+          "vocabulary": [
+            {
+              "word": "cozinhar",
+              "meanings": { "en": "to cook", "zh": "烹饪", "th": "ทำอาหาร", "ko": "요리하다", "es": "cocinar" }
+            },
+            {
+              "word": "receita",
+              "meanings": { "en": "recipe", "zh": "食谱", "th": "สูตรอาหาร", "ko": "레시피", "es": "receta" }
+            },
+            {
+              "word": "assar",
+              "meanings": { "en": "to bake / to roast", "zh": "烤", "th": "อบ/ย่าง", "ko": "굽다", "es": "hornear/asar" }
+            },
+            {
+              "word": "fritar",
+              "meanings": { "en": "to fry", "zh": "油炸", "th": "ทอด", "ko": "튀기다", "es": "freír" }
+            },
+            {
+              "word": "tempero",
+              "meanings": { "en": "seasoning / spice", "zh": "调味料", "th": "เครื่องปรุง", "ko": "양념", "es": "condimento" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'recipe' in Portuguese?" },
+              "answer": "receita",
+              "choices": ["receita", "tempero", "cozinhar", "assar"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'fritar' mean?" },
+              "answer": "to fry",
+              "choices": ["to fry", "to bake", "to boil", "to season"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "cozinhar", "native": "to cook" },
+                { "target": "assar", "native": "to bake/roast" },
+                { "target": "fritar", "native": "to fry" },
+                { "target": "tempero", "native": "seasoning" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I like to cook at home.'" },
+              "words": ["gosto", "de", "cozinhar", "em", "casa", "Eu"],
+              "answer": "Eu gosto de cozinhar em casa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Food Culture",
+        "zh": "饮食文化",
+        "th": "วัฒนธรรมอาหาร",
+        "ko": "음식 문화",
+        "es": "Cultura culinaria"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Meal Times",
+            "zh": "用餐时间",
+            "th": "เวลารับประทานอาหาร",
+            "ko": "식사 시간",
+            "es": "Horarios de comida"
+          },
+          "objectives": {
+            "en": ["Talk about meal times in Brazil", "Describe daily eating habits"]
+          },
+          "vocabulary": [
+            {
+              "word": "café da manhã",
+              "meanings": { "en": "breakfast", "zh": "早餐", "th": "อาหารเช้า", "ko": "아침 식사", "es": "desayuno" }
+            },
+            {
+              "word": "almoço",
+              "meanings": { "en": "lunch", "zh": "午餐", "th": "อาหารกลางวัน", "ko": "점심 식사", "es": "almuerzo" }
+            },
+            {
+              "word": "jantar",
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "cena" }
+            },
+            {
+              "word": "lanche",
+              "meanings": { "en": "snack", "zh": "零食/小吃", "th": "อาหารว่าง", "ko": "간식", "es": "merienda" }
+            },
+            {
+              "word": "refeição",
+              "meanings": { "en": "meal", "zh": "一餐", "th": "มื้ออาหาร", "ko": "식사", "es": "comida" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'breakfast' in Portuguese?" },
+              "answer": "café da manhã",
+              "choices": ["café da manhã", "almoço", "jantar", "lanche"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'almoço'?" },
+              "answer": "lunch",
+              "choices": ["lunch", "breakfast", "dinner", "snack"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "café da manhã", "native": "breakfast" },
+                { "target": "almoço", "native": "lunch" },
+                { "target": "jantar", "native": "dinner" },
+                { "target": "lanche", "native": "snack" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Lunch is my favorite meal.'" },
+              "words": ["é", "minha", "refeição", "favorita", "O", "almoço"],
+              "answer": "O almoço é minha refeição favorita"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Tastes and Preferences",
+            "zh": "口味和偏好",
+            "th": "รสชาติและความชอบ",
+            "ko": "맛과 선호도",
+            "es": "Sabores y preferencias"
+          },
+          "objectives": {
+            "en": ["Describe food tastes", "Express food likes and dislikes"]
+          },
+          "vocabulary": [
+            {
+              "word": "gostoso",
+              "meanings": { "en": "tasty / delicious", "zh": "美味的", "th": "อร่อย", "ko": "맛있는", "es": "sabroso" }
+            },
+            {
+              "word": "doce",
+              "meanings": { "en": "sweet", "zh": "甜", "th": "หวาน", "ko": "달콤한", "es": "dulce" }
+            },
+            {
+              "word": "salgado",
+              "meanings": { "en": "salty", "zh": "咸", "th": "เค็ม", "ko": "짠", "es": "salado" }
+            },
+            {
+              "word": "apimentado",
+              "meanings": { "en": "spicy", "zh": "辣", "th": "เผ็ด", "ko": "매운", "es": "picante" }
+            },
+            {
+              "word": "azedo",
+              "meanings": { "en": "sour", "zh": "酸", "th": "เปรี้ยว", "ko": "신", "es": "ácido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'sweet' in Portuguese?" },
+              "answer": "doce",
+              "choices": ["doce", "salgado", "azedo", "apimentado"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'apimentado' mean?" },
+              "answer": "spicy",
+              "choices": ["spicy", "salty", "sweet", "sour"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "doce", "native": "sweet" },
+                { "target": "salgado", "native": "salty" },
+                { "target": "apimentado", "native": "spicy" },
+                { "target": "azedo", "native": "sour" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'This food is very tasty.'" },
+              "words": ["comida", "é", "muito", "gostosa", "Essa"],
+              "answer": "Essa comida é muito gostosa"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Allergies and Dietary Needs",
+            "zh": "食物过敏和饮食需求",
+            "th": "อาหารแพ้และความต้องการทางอาหาร",
+            "ko": "음식 알레르기와 식이 요건",
+            "es": "Alergias alimentarias y necesidades dietéticas"
+          },
+          "objectives": {
+            "en": ["Communicate food allergies and restrictions", "Ask about ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "alergia",
+              "meanings": { "en": "allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "alergia" }
+            },
+            {
+              "word": "vegetariano",
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "vegetariano" }
+            },
+            {
+              "word": "sem glúten",
+              "meanings": { "en": "gluten-free", "zh": "无麸质", "th": "ปราศจากกลูเตน", "ko": "글루텐 프리", "es": "sin gluten" }
+            },
+            {
+              "word": "ingrediente",
+              "meanings": { "en": "ingredient", "zh": "成分", "th": "ส่วนผสม", "ko": "재료", "es": "ingrediente" }
+            },
+            {
+              "word": "intolerância",
+              "meanings": { "en": "intolerance", "zh": "不耐受", "th": "การแพ้/ความไม่ทนต่อ", "ko": "불내성", "es": "intolerancia" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'allergy' in Portuguese?" },
+              "answer": "alergia",
+              "choices": ["alergia", "intolerância", "ingrediente", "vegetariano"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'sem glúten' mean?" },
+              "answer": "gluten-free",
+              "choices": ["gluten-free", "dairy-free", "sugar-free", "salt-free"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "alergia", "native": "allergy" },
+                { "target": "vegetariano", "native": "vegetarian" },
+                { "target": "ingrediente", "native": "ingredient" },
+                { "target": "intolerância", "native": "intolerance" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am allergic to gluten.'" },
+              "words": ["sou", "alérgico", "ao", "glúten", "Eu"],
+              "answer": "Eu sou alérgico ao glúten"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

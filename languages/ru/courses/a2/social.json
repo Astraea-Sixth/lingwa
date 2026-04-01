@@ -1,0 +1,1801 @@
+{
+  "lang": "ru",
+  "language": "ru",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Friends",
+        "zh": "交朋友",
+        "th": "การสร้างมิตรภาพ",
+        "ko": "친구 사귀기",
+        "es": "Hacer amigos"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Introducing Yourself",
+            "zh": "自我介绍",
+            "th": "การแนะนำตัวเอง",
+            "ko": "자기소개",
+            "es": "Presentarse"
+          },
+          "objectives": {
+            "en": [
+              "Introduce yourself and others",
+              "Talk about where you are from and what you do"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "познакомиться",
+              "romanization": "poznakomit'sya",
+              "meanings": {
+                "en": "to meet / get acquainted",
+                "zh": "认识",
+                "th": "ทำความรู้จัก",
+                "ko": "알게 되다",
+                "es": "conocerse"
+              }
+            },
+            {
+              "word": "имя",
+              "romanization": "imya",
+              "meanings": {
+                "en": "first name",
+                "zh": "名字",
+                "th": "ชื่อ",
+                "ko": "이름",
+                "es": "nombre"
+              }
+            },
+            {
+              "word": "откуда вы",
+              "romanization": "otkuda vy",
+              "meanings": {
+                "en": "where are you from",
+                "zh": "你从哪里来",
+                "th": "คุณมาจากไหน",
+                "ko": "어디서 오셨어요",
+                "es": "¿de dónde eres?"
+              }
+            },
+            {
+              "word": "профессия",
+              "romanization": "professiya",
+              "meanings": {
+                "en": "profession / job",
+                "zh": "职业",
+                "th": "อาชีพ",
+                "ko": "직업",
+                "es": "profesión"
+              }
+            },
+            {
+              "word": "приятно познакомиться",
+              "romanization": "priyatno poznakomit'sya",
+              "meanings": {
+                "en": "nice to meet you",
+                "zh": "很高兴认识你",
+                "th": "ยินดีที่รู้จัก",
+                "ko": "만나서 반가워요",
+                "es": "mucho gusto"
+              }
+            },
+            {
+              "word": "хобби",
+              "romanization": "khobbi",
+              "meanings": {
+                "en": "hobby",
+                "zh": "爱好",
+                "th": "งานอดิเรก",
+                "ko": "취미",
+                "es": "afición"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "имя",
+              "romanization": "imya",
+              "options": {
+                "en": [
+                  "first name",
+                  "surname",
+                  "nickname",
+                  "title"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Имя means first name."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'nice to meet you' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "приятно познакомиться",
+                  "спасибо",
+                  "пожалуйста",
+                  "извините"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Приятно познакомиться means nice to meet you."
+            },
+            {
+              "type": "listening",
+              "audio_text": "профессия",
+              "romanization": "professiya",
+              "options": {
+                "en": [
+                  "profession",
+                  "name",
+                  "hobby",
+                  "nationality"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Профессия means profession."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "имя",
+                  "romanization": "imya",
+                  "native": {
+                    "en": "first name"
+                  }
+                },
+                {
+                  "target": "профессия",
+                  "romanization": "professiya",
+                  "native": {
+                    "en": "profession"
+                  }
+                },
+                {
+                  "target": "хобби",
+                  "romanization": "khobbi",
+                  "native": {
+                    "en": "hobby"
+                  }
+                },
+                {
+                  "target": "познакомиться",
+                  "romanization": "poznakomit'sya",
+                  "native": {
+                    "en": "to get acquainted"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'My name is Anna and I am from Russia'"
+              },
+              "words": [
+                "меня",
+                "зовут",
+                "Анна",
+                "я",
+                "из",
+                "России"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "меня",
+                  "зовут",
+                  "Анна",
+                  "я",
+                  "из",
+                  "России"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "меня",
+                  "зовут",
+                  "Анна",
+                  "я",
+                  "из",
+                  "России"
+                ]
+              },
+              "translation": "Меня зовут Анна, я из России."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": [
+              "Invite a friend to an activity",
+              "Accept or decline an invitation politely"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "приглашение",
+              "romanization": "priglasheniye",
+              "meanings": {
+                "en": "invitation",
+                "zh": "邀请",
+                "th": "คำเชิญ",
+                "ko": "초대",
+                "es": "invitación"
+              }
+            },
+            {
+              "word": "свободное время",
+              "romanization": "svobodnoye vremya",
+              "meanings": {
+                "en": "free time",
+                "zh": "空闲时间",
+                "th": "เวลาว่าง",
+                "ko": "여가 시간",
+                "es": "tiempo libre"
+              }
+            },
+            {
+              "word": "хочешь пойти",
+              "romanization": "khochesh' poyti",
+              "meanings": {
+                "en": "do you want to go",
+                "zh": "你想去吗",
+                "th": "อยากไปไหม",
+                "ko": "가고 싶어?",
+                "es": "¿quieres ir?"
+              }
+            },
+            {
+              "word": "с удовольствием",
+              "romanization": "s udovol'stviyem",
+              "meanings": {
+                "en": "with pleasure / I'd love to",
+                "zh": "很乐意",
+                "th": "ยินดีมาก",
+                "ko": "기꺼이",
+                "es": "con mucho gusto"
+              }
+            },
+            {
+              "word": "к сожалению",
+              "romanization": "k sozhaleniyu",
+              "meanings": {
+                "en": "unfortunately",
+                "zh": "遗憾的是",
+                "th": "น่าเสียดาย",
+                "ko": "유감스럽게도",
+                "es": "desafortunadamente"
+              }
+            },
+            {
+              "word": "встретиться",
+              "romanization": "vstretit'sya",
+              "meanings": {
+                "en": "to meet up",
+                "zh": "见面",
+                "th": "นัดพบ",
+                "ko": "만나다",
+                "es": "quedar / verse"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "приглашение",
+              "romanization": "priglasheniye",
+              "options": {
+                "en": [
+                  "invitation",
+                  "meeting",
+                  "party",
+                  "plan"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Приглашение means invitation."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'with pleasure' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "с удовольствием",
+                  "к сожалению",
+                  "может быть",
+                  "не знаю"
+                ]
+              },
+              "correct": 0,
+              "explanation": "С удовольствием means with pleasure."
+            },
+            {
+              "type": "listening",
+              "audio_text": "встретиться",
+              "romanization": "vstretit'sya",
+              "options": {
+                "en": [
+                  "to meet up",
+                  "to call",
+                  "to write",
+                  "to invite"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Встретиться means to meet up."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "приглашение",
+                  "romanization": "priglasheniye",
+                  "native": {
+                    "en": "invitation"
+                  }
+                },
+                {
+                  "target": "с удовольствием",
+                  "romanization": "s udovol'stviyem",
+                  "native": {
+                    "en": "with pleasure"
+                  }
+                },
+                {
+                  "target": "к сожалению",
+                  "romanization": "k sozhaleniyu",
+                  "native": {
+                    "en": "unfortunately"
+                  }
+                },
+                {
+                  "target": "встретиться",
+                  "romanization": "vstretit'sya",
+                  "native": {
+                    "en": "to meet up"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Do you want to go to the cinema?'"
+              },
+              "words": [
+                "хочешь",
+                "в",
+                "кино",
+                "пойти"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "хочешь",
+                  "пойти",
+                  "в",
+                  "кино"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "хочешь",
+                  "пойти",
+                  "в",
+                  "кино"
+                ]
+              },
+              "translation": "Хочешь пойти в кино?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Talking About Hobbies",
+            "zh": "谈论爱好",
+            "th": "พูดคุยเรื่องงานอดิเรก",
+            "ko": "취미에 대해 이야기하기",
+            "es": "Hablar de aficiones"
+          },
+          "objectives": {
+            "en": [
+              "Discuss hobbies and leisure activities",
+              "Express preferences and interests"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "читать",
+              "romanization": "chitat'",
+              "meanings": {
+                "en": "to read",
+                "zh": "阅读",
+                "th": "อ่าน",
+                "ko": "읽다",
+                "es": "leer"
+              }
+            },
+            {
+              "word": "спорт",
+              "romanization": "sport",
+              "meanings": {
+                "en": "sport",
+                "zh": "运动",
+                "th": "กีฬา",
+                "ko": "스포츠",
+                "es": "deporte"
+              }
+            },
+            {
+              "word": "музыка",
+              "romanization": "muzyka",
+              "meanings": {
+                "en": "music",
+                "zh": "音乐",
+                "th": "ดนตรี",
+                "ko": "음악",
+                "es": "música"
+              }
+            },
+            {
+              "word": "путешествовать",
+              "romanization": "puteshestvovat'",
+              "meanings": {
+                "en": "to travel",
+                "zh": "旅行",
+                "th": "ท่องเที่ยว",
+                "ko": "여행하다",
+                "es": "viajar"
+              }
+            },
+            {
+              "word": "мне нравится",
+              "romanization": "mne nravitsya",
+              "meanings": {
+                "en": "I like",
+                "zh": "我喜欢",
+                "th": "ฉันชอบ",
+                "ko": "나는 좋아한다",
+                "es": "me gusta"
+              }
+            },
+            {
+              "word": "мне не нравится",
+              "romanization": "mne ne nravitsya",
+              "meanings": {
+                "en": "I don't like",
+                "zh": "我不喜欢",
+                "th": "ฉันไม่ชอบ",
+                "ko": "나는 싫어한다",
+                "es": "no me gusta"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "спорт",
+              "romanization": "sport",
+              "options": {
+                "en": [
+                  "sport",
+                  "music",
+                  "art",
+                  "travel"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Спорт means sport."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I like' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "мне нравится",
+                  "я хочу",
+                  "мне нужно",
+                  "я знаю"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Мне нравится means I like (it pleases me)."
+            },
+            {
+              "type": "listening",
+              "audio_text": "путешествовать",
+              "romanization": "puteshestvovat'",
+              "options": {
+                "en": [
+                  "to travel",
+                  "to read",
+                  "to cook",
+                  "to sing"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Путешествовать means to travel."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "читать",
+                  "romanization": "chitat'",
+                  "native": {
+                    "en": "to read"
+                  }
+                },
+                {
+                  "target": "музыка",
+                  "romanization": "muzyka",
+                  "native": {
+                    "en": "music"
+                  }
+                },
+                {
+                  "target": "мне нравится",
+                  "romanization": "mne nravitsya",
+                  "native": {
+                    "en": "I like"
+                  }
+                },
+                {
+                  "target": "спорт",
+                  "romanization": "sport",
+                  "native": {
+                    "en": "sport"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I like music and sport'"
+              },
+              "words": [
+                "мне",
+                "нравится",
+                "музыка",
+                "и",
+                "спорт"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "мне",
+                  "нравится",
+                  "музыка",
+                  "и",
+                  "спорт"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "мне",
+                  "нравится",
+                  "музыка",
+                  "и",
+                  "спорт"
+                ]
+              },
+              "translation": "Мне нравится музыка и спорт."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Social Events",
+        "zh": "社交活动",
+        "th": "งานสังคม",
+        "ko": "사교 행사",
+        "es": "Eventos sociales"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Attending a Party",
+            "zh": "参加聚会",
+            "th": "ไปงานปาร์ตี้",
+            "ko": "파티 참석하기",
+            "es": "Asistir a una fiesta"
+          },
+          "objectives": {
+            "en": [
+              "Navigate a social party setting",
+              "Toast and use common party phrases"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "вечеринка",
+              "romanization": "vecherenka",
+              "meanings": {
+                "en": "party",
+                "zh": "聚会",
+                "th": "ปาร์ตี้",
+                "ko": "파티",
+                "es": "fiesta"
+              }
+            },
+            {
+              "word": "тост",
+              "romanization": "tost",
+              "meanings": {
+                "en": "toast (drink)",
+                "zh": "祝酒",
+                "th": "การดื่มอวยพร",
+                "ko": "건배",
+                "es": "brindis"
+              }
+            },
+            {
+              "word": "за здоровье",
+              "romanization": "za zdorov'ye",
+              "meanings": {
+                "en": "cheers / to your health",
+                "zh": "为您的健康干杯",
+                "th": "ไชโย",
+                "ko": "건강을 위해",
+                "es": "salud"
+              }
+            },
+            {
+              "word": "подарок",
+              "romanization": "podarok",
+              "meanings": {
+                "en": "gift",
+                "zh": "礼物",
+                "th": "ของขวัญ",
+                "ko": "선물",
+                "es": "regalo"
+              }
+            },
+            {
+              "word": "именинник",
+              "romanization": "imeninnik",
+              "meanings": {
+                "en": "birthday person",
+                "zh": "过生日的人",
+                "th": "เจ้าของวันเกิด",
+                "ko": "생일 주인공",
+                "es": "cumpleañero"
+              }
+            },
+            {
+              "word": "весело",
+              "romanization": "veselo",
+              "meanings": {
+                "en": "fun / merry",
+                "zh": "愉快",
+                "th": "สนุก",
+                "ko": "즐겁다",
+                "es": "divertido"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "вечеринка",
+              "romanization": "vecherenka",
+              "options": {
+                "en": [
+                  "party",
+                  "dinner",
+                  "meeting",
+                  "concert"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Вечеринка means party."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'cheers' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "за здоровье",
+                  "пожалуйста",
+                  "спасибо",
+                  "добро пожаловать"
+                ]
+              },
+              "correct": 0,
+              "explanation": "За здоровье means to your health / cheers."
+            },
+            {
+              "type": "listening",
+              "audio_text": "подарок",
+              "romanization": "podarok",
+              "options": {
+                "en": [
+                  "gift",
+                  "card",
+                  "flower",
+                  "balloon"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Подарок means gift."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "вечеринка",
+                  "romanization": "vecherenka",
+                  "native": {
+                    "en": "party"
+                  }
+                },
+                {
+                  "target": "тост",
+                  "romanization": "tost",
+                  "native": {
+                    "en": "toast"
+                  }
+                },
+                {
+                  "target": "подарок",
+                  "romanization": "podarok",
+                  "native": {
+                    "en": "gift"
+                  }
+                },
+                {
+                  "target": "весело",
+                  "romanization": "veselo",
+                  "native": {
+                    "en": "fun"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Happy birthday!'"
+              },
+              "words": [
+                "днём",
+                "с",
+                "рождения"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "с",
+                  "днём",
+                  "рождения"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "с",
+                  "днём",
+                  "рождения"
+                ]
+              },
+              "translation": "С днём рождения!"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Small Talk",
+            "zh": "闲聊",
+            "th": "การสนทนาเบาๆ",
+            "ko": "가벼운 대화",
+            "es": "Charla informal"
+          },
+          "objectives": {
+            "en": [
+              "Make small talk about daily life",
+              "Ask and answer personal questions politely"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "как дела",
+              "romanization": "kak dela",
+              "meanings": {
+                "en": "how are you / how are things",
+                "zh": "你好吗",
+                "th": "เป็นไงบ้าง",
+                "ko": "어떻게 지내세요",
+                "es": "¿cómo estás?"
+              }
+            },
+            {
+              "word": "неплохо",
+              "romanization": "nekplokho",
+              "meanings": {
+                "en": "not bad",
+                "zh": "还不错",
+                "th": "ก็ดีนะ",
+                "ko": "나쁘지 않아요",
+                "es": "no está mal"
+              }
+            },
+            {
+              "word": "погода",
+              "romanization": "pogoda",
+              "meanings": {
+                "en": "weather",
+                "zh": "天气",
+                "th": "สภาพอากาศ",
+                "ko": "날씨",
+                "es": "tiempo / clima"
+              }
+            },
+            {
+              "word": "работа",
+              "romanization": "rabota",
+              "meanings": {
+                "en": "work / job",
+                "zh": "工作",
+                "th": "งาน",
+                "ko": "일/직업",
+                "es": "trabajo"
+              }
+            },
+            {
+              "word": "семья",
+              "romanization": "sem'ya",
+              "meanings": {
+                "en": "family",
+                "zh": "家庭",
+                "th": "ครอบครัว",
+                "ko": "가족",
+                "es": "familia"
+              }
+            },
+            {
+              "word": "кстати",
+              "romanization": "kstati",
+              "meanings": {
+                "en": "by the way",
+                "zh": "顺便说一下",
+                "th": "อ้อ",
+                "ko": "그런데",
+                "es": "a propósito"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "погода",
+              "romanization": "pogoda",
+              "options": {
+                "en": [
+                  "weather",
+                  "news",
+                  "sport",
+                  "traffic"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Погода means weather."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'how are you?' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "как дела",
+                  "кто ты",
+                  "что это",
+                  "где ты"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Как дела means how are things / how are you."
+            },
+            {
+              "type": "listening",
+              "audio_text": "семья",
+              "romanization": "sem'ya",
+              "options": {
+                "en": [
+                  "family",
+                  "friend",
+                  "colleague",
+                  "neighbour"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Семья means family."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "как дела",
+                  "romanization": "kak dela",
+                  "native": {
+                    "en": "how are you"
+                  }
+                },
+                {
+                  "target": "погода",
+                  "romanization": "pogoda",
+                  "native": {
+                    "en": "weather"
+                  }
+                },
+                {
+                  "target": "семья",
+                  "romanization": "sem'ya",
+                  "native": {
+                    "en": "family"
+                  }
+                },
+                {
+                  "target": "работа",
+                  "romanization": "rabota",
+                  "native": {
+                    "en": "work"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The weather is great today'"
+              },
+              "words": [
+                "сегодня",
+                "отличная",
+                "погода"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "сегодня",
+                  "отличная",
+                  "погода"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "сегодня",
+                  "отличная",
+                  "погода"
+                ]
+              },
+              "translation": "Сегодня отличная погода."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Expressing Opinions",
+            "zh": "表达意见",
+            "th": "การแสดงความคิดเห็น",
+            "ko": "의견 표현하기",
+            "es": "Expresar opiniones"
+          },
+          "objectives": {
+            "en": [
+              "Share and ask for opinions",
+              "Agree and disagree politely"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "я думаю, что",
+              "romanization": "ya dumayu, chto",
+              "meanings": {
+                "en": "I think that",
+                "zh": "我认为",
+                "th": "ฉันคิดว่า",
+                "ko": "저는 ~라고 생각해요",
+                "es": "creo que"
+              }
+            },
+            {
+              "word": "по-моему",
+              "romanization": "po-moyemu",
+              "meanings": {
+                "en": "in my opinion",
+                "zh": "依我看",
+                "th": "ในความเห็นของฉัน",
+                "ko": "제 생각엔",
+                "es": "en mi opinión"
+              }
+            },
+            {
+              "word": "согласен / согласна",
+              "romanization": "soglasen / soglasna",
+              "meanings": {
+                "en": "I agree (m/f)",
+                "zh": "我同意",
+                "th": "ฉันเห็นด้วย",
+                "ko": "동의해요",
+                "es": "de acuerdo"
+              }
+            },
+            {
+              "word": "не согласен",
+              "romanization": "ne soglasen",
+              "meanings": {
+                "en": "I disagree",
+                "zh": "我不同意",
+                "th": "ฉันไม่เห็นด้วย",
+                "ko": "동의하지 않아요",
+                "es": "no estoy de acuerdo"
+              }
+            },
+            {
+              "word": "интересно",
+              "romanization": "interesno",
+              "meanings": {
+                "en": "interesting",
+                "zh": "有趣",
+                "th": "น่าสนใจ",
+                "ko": "흥미롭다",
+                "es": "interesante"
+              }
+            },
+            {
+              "word": "правда",
+              "romanization": "pravda",
+              "meanings": {
+                "en": "true / truth",
+                "zh": "真的",
+                "th": "จริง",
+                "ko": "사실",
+                "es": "verdad"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "интересно",
+              "romanization": "interesno",
+              "options": {
+                "en": [
+                  "interesting",
+                  "boring",
+                  "funny",
+                  "strange"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Интересно means interesting."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'I think that' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "я думаю, что",
+                  "я знаю, что",
+                  "я хочу, что",
+                  "я вижу, что"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Я думаю, что means I think that."
+            },
+            {
+              "type": "listening",
+              "audio_text": "согласен",
+              "romanization": "soglasen",
+              "options": {
+                "en": [
+                  "I agree",
+                  "I disagree",
+                  "I don't know",
+                  "maybe"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Согласен means I agree (masculine form)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "я думаю, что",
+                  "romanization": "ya dumayu, chto",
+                  "native": {
+                    "en": "I think that"
+                  }
+                },
+                {
+                  "target": "по-моему",
+                  "romanization": "po-moyemu",
+                  "native": {
+                    "en": "in my opinion"
+                  }
+                },
+                {
+                  "target": "согласен",
+                  "romanization": "soglasen",
+                  "native": {
+                    "en": "I agree"
+                  }
+                },
+                {
+                  "target": "правда",
+                  "romanization": "pravda",
+                  "native": {
+                    "en": "truth"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'In my opinion it is very interesting'"
+              },
+              "words": [
+                "очень",
+                "по-моему",
+                "это",
+                "интересно"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "по-моему",
+                  "это",
+                  "очень",
+                  "интересно"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "по-моему",
+                  "это",
+                  "очень",
+                  "интересно"
+                ]
+              },
+              "translation": "По-моему, это очень интересно."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Celebrations",
+        "zh": "庆典",
+        "th": "การเฉลิมฉลอง",
+        "ko": "축하 행사",
+        "es": "Celebraciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Russian Holidays",
+            "zh": "俄罗斯节日",
+            "th": "วันหยุดรัสเซีย",
+            "ko": "러시아 공휴일",
+            "es": "Fiestas rusas"
+          },
+          "objectives": {
+            "en": [
+              "Name major Russian holidays",
+              "Describe how people celebrate"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "Новый год",
+              "romanization": "Novy god",
+              "meanings": {
+                "en": "New Year",
+                "zh": "新年",
+                "th": "ปีใหม่",
+                "ko": "새해",
+                "es": "Año Nuevo"
+              }
+            },
+            {
+              "word": "праздник",
+              "romanization": "prazdnik",
+              "meanings": {
+                "en": "holiday / celebration",
+                "zh": "节日",
+                "th": "วันหยุด",
+                "ko": "명절/축제",
+                "es": "fiesta / festivo"
+              }
+            },
+            {
+              "word": "поздравлять",
+              "romanization": "pozdravlyat'",
+              "meanings": {
+                "en": "to congratulate / to wish",
+                "zh": "祝贺",
+                "th": "อวยพร",
+                "ko": "축하하다",
+                "es": "felicitar"
+              }
+            },
+            {
+              "word": "дед Мороз",
+              "romanization": "Ded Moroz",
+              "meanings": {
+                "en": "Father Frost (Russian Santa)",
+                "zh": "爷爷冻（圣诞老人）",
+                "th": "เดดโมรอซ (ซานตาคลอสรัสเซีย)",
+                "ko": "데드 모로즈 (러시아 산타)",
+                "es": "Ded Moroz (Papá Frost ruso)"
+              }
+            },
+            {
+              "word": "фейерверк",
+              "romanization": "feyerverk",
+              "meanings": {
+                "en": "fireworks",
+                "zh": "烟火",
+                "th": "ดอกไม้ไฟ",
+                "ko": "불꽃놀이",
+                "es": "fuegos artificiales"
+              }
+            },
+            {
+              "word": "желать",
+              "romanization": "zhelat'",
+              "meanings": {
+                "en": "to wish",
+                "zh": "祝愿",
+                "th": "อวยพร",
+                "ko": "바라다",
+                "es": "desear"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "праздник",
+              "romanization": "prazdnik",
+              "options": {
+                "en": [
+                  "holiday",
+                  "workday",
+                  "weekend",
+                  "event"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Праздник means holiday or celebration."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'fireworks' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "фейерверк",
+                  "праздник",
+                  "подарок",
+                  "тост"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Фейерверк means fireworks."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Новый год",
+              "romanization": "Novy god",
+              "options": {
+                "en": [
+                  "New Year",
+                  "Christmas",
+                  "Easter",
+                  "birthday"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Новый год means New Year."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "Новый год",
+                  "romanization": "Novy god",
+                  "native": {
+                    "en": "New Year"
+                  }
+                },
+                {
+                  "target": "праздник",
+                  "romanization": "prazdnik",
+                  "native": {
+                    "en": "holiday"
+                  }
+                },
+                {
+                  "target": "фейерверк",
+                  "romanization": "feyerverk",
+                  "native": {
+                    "en": "fireworks"
+                  }
+                },
+                {
+                  "target": "поздравлять",
+                  "romanization": "pozdravlyat'",
+                  "native": {
+                    "en": "to congratulate"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Happy New Year!'"
+              },
+              "words": [
+                "годом",
+                "с",
+                "новым"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "с",
+                  "новым",
+                  "годом"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "с",
+                  "новым",
+                  "годом"
+                ]
+              },
+              "translation": "С новым годом!"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Weddings and Special Events",
+            "zh": "婚礼与特殊活动",
+            "th": "งานแต่งงานและงานพิเศษ",
+            "ko": "결혼식과 특별 행사",
+            "es": "Bodas y eventos especiales"
+          },
+          "objectives": {
+            "en": [
+              "Talk about weddings and formal celebrations",
+              "Offer congratulations and toasts"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "свадьба",
+              "romanization": "svad'ba",
+              "meanings": {
+                "en": "wedding",
+                "zh": "婚礼",
+                "th": "งานแต่งงาน",
+                "ko": "결혼식",
+                "es": "boda"
+              }
+            },
+            {
+              "word": "жених",
+              "romanization": "zhenikh",
+              "meanings": {
+                "en": "groom / fiancé",
+                "zh": "新郎",
+                "th": "เจ้าบ่าว",
+                "ko": "신랑",
+                "es": "novio"
+              }
+            },
+            {
+              "word": "невеста",
+              "romanization": "nevesta",
+              "meanings": {
+                "en": "bride / fiancée",
+                "zh": "新娘",
+                "th": "เจ้าสาว",
+                "ko": "신부",
+                "es": "novia"
+              }
+            },
+            {
+              "word": "поздравления",
+              "romanization": "pozdravleniya",
+              "meanings": {
+                "en": "congratulations",
+                "zh": "恭喜",
+                "th": "ขอแสดงความยินดี",
+                "ko": "축하해요",
+                "es": "felicitaciones"
+              }
+            },
+            {
+              "word": "торжество",
+              "romanization": "torzhestvo",
+              "meanings": {
+                "en": "ceremony / celebration",
+                "zh": "典礼",
+                "th": "พิธี",
+                "ko": "의식/기념행사",
+                "es": "ceremonia / celebración"
+              }
+            },
+            {
+              "word": "банкет",
+              "romanization": "banket",
+              "meanings": {
+                "en": "banquet",
+                "zh": "宴会",
+                "th": "งานเลี้ยง",
+                "ko": "연회",
+                "es": "banquete"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "свадьба",
+              "romanization": "svad'ba",
+              "options": {
+                "en": [
+                  "wedding",
+                  "birthday",
+                  "anniversary",
+                  "graduation"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Свадьба means wedding."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'congratulations' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "поздравления",
+                  "спасибо",
+                  "извините",
+                  "пожалуйста"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Поздравления means congratulations."
+            },
+            {
+              "type": "listening",
+              "audio_text": "банкет",
+              "romanization": "banket",
+              "options": {
+                "en": [
+                  "banquet",
+                  "buffet",
+                  "picnic",
+                  "barbecue"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Банкет means banquet."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "свадьба",
+                  "romanization": "svad'ba",
+                  "native": {
+                    "en": "wedding"
+                  }
+                },
+                {
+                  "target": "жених",
+                  "romanization": "zhenikh",
+                  "native": {
+                    "en": "groom"
+                  }
+                },
+                {
+                  "target": "невеста",
+                  "romanization": "nevesta",
+                  "native": {
+                    "en": "bride"
+                  }
+                },
+                {
+                  "target": "поздравления",
+                  "romanization": "pozdravleniya",
+                  "native": {
+                    "en": "congratulations"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Congratulations on your wedding!'"
+              },
+              "words": [
+                "со",
+                "поздравляю",
+                "свадьбой"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "поздравляю",
+                  "со",
+                  "свадьбой"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "поздравляю",
+                  "со",
+                  "свадьбой"
+                ]
+              },
+              "translation": "Поздравляю со свадьбой!"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Going Out",
+            "zh": "外出娱乐",
+            "th": "ออกไปสนุก",
+            "ko": "외출하기",
+            "es": "Salir a divertirse"
+          },
+          "objectives": {
+            "en": [
+              "Plan an evening out with friends",
+              "Talk about restaurants, bars and entertainment"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "кинотеатр",
+              "romanization": "kinoteatr",
+              "meanings": {
+                "en": "cinema",
+                "zh": "电影院",
+                "th": "โรงหนัง",
+                "ko": "영화관",
+                "es": "cine"
+              }
+            },
+            {
+              "word": "концерт",
+              "romanization": "kontsert",
+              "meanings": {
+                "en": "concert",
+                "zh": "演唱会",
+                "th": "คอนเสิร์ต",
+                "ko": "콘서트",
+                "es": "concierto"
+              }
+            },
+            {
+              "word": "бар",
+              "romanization": "bar",
+              "meanings": {
+                "en": "bar",
+                "zh": "酒吧",
+                "th": "บาร์",
+                "ko": "바",
+                "es": "bar"
+              }
+            },
+            {
+              "word": "очередь",
+              "romanization": "ochered'",
+              "meanings": {
+                "en": "queue / line",
+                "zh": "队伍",
+                "th": "คิว",
+                "ko": "줄",
+                "es": "cola / fila"
+              }
+            },
+            {
+              "word": "касса",
+              "romanization": "kassa",
+              "meanings": {
+                "en": "box office / ticket booth",
+                "zh": "售票处",
+                "th": "ที่ขายตั๋ว",
+                "ko": "매표소",
+                "es": "taquilla"
+              }
+            },
+            {
+              "word": "развлечение",
+              "romanization": "razvlecheniye",
+              "meanings": {
+                "en": "entertainment",
+                "zh": "娱乐",
+                "th": "ความบันเทิง",
+                "ko": "오락/엔터테인먼트",
+                "es": "entretenimiento"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "кинотеатр",
+              "romanization": "kinoteatr",
+              "options": {
+                "en": [
+                  "cinema",
+                  "theatre",
+                  "museum",
+                  "concert hall"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Кинотеатр means cinema."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'concert' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "концерт",
+                  "спектакль",
+                  "фестиваль",
+                  "балет"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Концерт means concert."
+            },
+            {
+              "type": "listening",
+              "audio_text": "очередь",
+              "romanization": "ochered'",
+              "options": {
+                "en": [
+                  "queue",
+                  "entrance",
+                  "exit",
+                  "window"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Очередь means queue or line."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "кинотеатр",
+                  "romanization": "kinoteatr",
+                  "native": {
+                    "en": "cinema"
+                  }
+                },
+                {
+                  "target": "концерт",
+                  "romanization": "kontsert",
+                  "native": {
+                    "en": "concert"
+                  }
+                },
+                {
+                  "target": "очередь",
+                  "romanization": "ochered'",
+                  "native": {
+                    "en": "queue"
+                  }
+                },
+                {
+                  "target": "касса",
+                  "romanization": "kassa",
+                  "native": {
+                    "en": "box office"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Let us go to the cinema tonight'"
+              },
+              "words": [
+                "сегодня",
+                "в",
+                "вечером",
+                "пойдём",
+                "кино"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "пойдём",
+                  "сегодня",
+                  "вечером",
+                  "в",
+                  "кино"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "пойдём",
+                  "сегодня",
+                  "вечером",
+                  "в",
+                  "кино"
+                ]
+              },
+              "translation": "Пойдём сегодня вечером в кино!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

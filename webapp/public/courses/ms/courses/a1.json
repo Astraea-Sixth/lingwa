@@ -1,0 +1,559 @@
+{
+  "lang": "ms",
+  "language": "ms",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings & Introductions" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Good Morning" },
+          "objectives": { "en": ["Greet people at different times of day", "Use basic polite expressions"] },
+          "vocabulary": [
+            { "word": "Selamat pagi", "romanization": null, "meanings": { "en": "Good morning" }, "gendered": null },
+            { "word": "Selamat tengah hari", "romanization": null, "meanings": { "en": "Good afternoon" }, "gendered": null },
+            { "word": "Selamat petang", "romanization": null, "meanings": { "en": "Good evening" }, "gendered": null },
+            { "word": "Selamat malam", "romanization": null, "meanings": { "en": "Good night" }, "gendered": null },
+            { "word": "Selamat tinggal", "romanization": null, "meanings": { "en": "Goodbye" }, "gendered": null },
+            { "word": "Terima kasih", "romanization": null, "meanings": { "en": "Thank you" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Selamat pagi", "romanization": null, "options": { "en": ["Good morning", "Good evening", "Goodbye", "Thank you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Terima kasih", "romanization": null, "options": { "en": ["Thank you", "Good morning", "Goodbye", "Good night"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Good evening' in Malay?" }, "options": { "neutral": ["Selamat petang", "Selamat pagi", "Selamat malam", "Selamat tinggal"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Goodbye' in Malay?" }, "options": { "neutral": ["Selamat tinggal", "Terima kasih", "Selamat pagi", "Selamat petang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Selamat malam", "romanization": null, "options": { "en": ["Good night", "Good morning", "Good afternoon", "Goodbye"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Selamat pagi", "romanization": null, "native": { "en": "Good morning" } },
+              { "target": "Selamat petang", "romanization": null, "native": { "en": "Good evening" } },
+              { "target": "Selamat tinggal", "romanization": null, "native": { "en": "Goodbye" } },
+              { "target": "Terima kasih", "romanization": null, "native": { "en": "Thank you" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "What Is Your Name?" },
+          "objectives": { "en": ["Introduce yourself by name", "Ask someone's name"] },
+          "vocabulary": [
+            { "word": "Nama saya", "romanization": null, "meanings": { "en": "My name is" }, "gendered": null },
+            { "word": "Siapa nama awak?", "romanization": null, "meanings": { "en": "What is your name?" }, "gendered": null },
+            { "word": "Saya", "romanization": null, "meanings": { "en": "I / me" }, "gendered": null },
+            { "word": "Awak", "romanization": null, "meanings": { "en": "You" }, "gendered": null },
+            { "word": "Encik", "romanization": null, "meanings": { "en": "Mr." }, "gendered": null },
+            { "word": "Puan", "romanization": null, "meanings": { "en": "Mrs. / Madam" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Nama saya", "romanization": null, "options": { "en": ["My name is", "Your name is", "His name is", "What is your name?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Encik", "romanization": null, "options": { "en": ["Mr.", "Mrs.", "Miss", "Sir"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'What is your name?' in Malay?" }, "options": { "neutral": ["Siapa nama awak?", "Nama saya", "Apa khabar?", "Terima kasih"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I' in Malay?" }, "options": { "neutral": ["Saya", "Awak", "Encik", "Puan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Siapa nama awak?", "romanization": null, "options": { "en": ["What is your name?", "My name is", "How are you?", "Thank you"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Nama saya Ali", "romanization": null, "options": { "en": ["My name is Ali", "Your name is Ali", "His name is Ali", "Is your name Ali?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Nama saya", "romanization": null, "native": { "en": "My name is" } },
+              { "target": "Saya", "romanization": null, "native": { "en": "I / me" } },
+              { "target": "Awak", "romanization": null, "native": { "en": "You" } },
+              { "target": "Puan", "romanization": null, "native": { "en": "Mrs. / Madam" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "How Are You?" },
+          "objectives": { "en": ["Ask how someone is doing", "Respond to greetings about well-being"] },
+          "vocabulary": [
+            { "word": "Apa khabar?", "romanization": null, "meanings": { "en": "How are you?" }, "gendered": null },
+            { "word": "Khabar baik", "romanization": null, "meanings": { "en": "I am fine" }, "gendered": null },
+            { "word": "Baik", "romanization": null, "meanings": { "en": "Good / fine" }, "gendered": null },
+            { "word": "Tidak baik", "romanization": null, "meanings": { "en": "Not good" }, "gendered": null },
+            { "word": "Maaf", "romanization": null, "meanings": { "en": "Sorry / excuse me" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Apa khabar?", "romanization": null, "options": { "en": ["How are you?", "What is your name?", "Where are you?", "Good morning"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Maaf", "romanization": null, "options": { "en": ["Sorry / excuse me", "Thank you", "Goodbye", "Good"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am fine' in Malay?" }, "options": { "neutral": ["Khabar baik", "Tidak baik", "Apa khabar?", "Maaf"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Not good' in Malay?" }, "options": { "neutral": ["Tidak baik", "Baik", "Khabar baik", "Maaf"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Apa khabar?", "romanization": null, "options": { "en": ["How are you?", "Good morning", "Thank you", "Sorry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Apa khabar?", "romanization": null, "native": { "en": "How are you?" } },
+              { "target": "Khabar baik", "romanization": null, "native": { "en": "I am fine" } },
+              { "target": "Tidak baik", "romanization": null, "native": { "en": "Not good" } },
+              { "target": "Maaf", "romanization": null, "native": { "en": "Sorry / excuse me" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Pleased to Meet You" },
+          "objectives": { "en": ["Use polite meeting phrases", "Say where you are from"] },
+          "vocabulary": [
+            { "word": "Saya dari", "romanization": null, "meanings": { "en": "I am from" }, "gendered": null },
+            { "word": "Gembira bertemu", "romanization": null, "meanings": { "en": "Pleased to meet you" }, "gendered": null },
+            { "word": "Ya", "romanization": null, "meanings": { "en": "Yes" }, "gendered": null },
+            { "word": "Tidak", "romanization": null, "meanings": { "en": "No" }, "gendered": null },
+            { "word": "Sama-sama", "romanization": null, "meanings": { "en": "You're welcome" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Gembira bertemu", "romanization": null, "options": { "en": ["Pleased to meet you", "Good morning", "How are you?", "Thank you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sama-sama", "romanization": null, "options": { "en": ["You're welcome", "Sorry", "Yes", "No"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Yes' in Malay?" }, "options": { "neutral": ["Ya", "Tidak", "Baik", "Maaf"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am from' in Malay?" }, "options": { "neutral": ["Saya dari", "Nama saya", "Saya", "Awak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Gembira bertemu", "romanization": null, "options": { "en": ["Pleased to meet you", "Good evening", "How are you?", "Goodbye"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sama-sama", "romanization": null, "options": { "en": ["You're welcome", "Thank you", "Sorry", "Good morning"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Saya dari", "romanization": null, "native": { "en": "I am from" } },
+              { "target": "Ya", "romanization": null, "native": { "en": "Yes" } },
+              { "target": "Tidak", "romanization": null, "native": { "en": "No" } },
+              { "target": "Sama-sama", "romanization": null, "native": { "en": "You're welcome" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Numbers, Time & Days" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Numbers 1–10" },
+          "objectives": { "en": ["Count from one to ten in Malay", "Recognize written numbers"] },
+          "vocabulary": [
+            { "word": "Satu", "romanization": null, "meanings": { "en": "One" }, "gendered": null },
+            { "word": "Dua", "romanization": null, "meanings": { "en": "Two" }, "gendered": null },
+            { "word": "Tiga", "romanization": null, "meanings": { "en": "Three" }, "gendered": null },
+            { "word": "Empat", "romanization": null, "meanings": { "en": "Four" }, "gendered": null },
+            { "word": "Lima", "romanization": null, "meanings": { "en": "Five" }, "gendered": null },
+            { "word": "Enam", "romanization": null, "meanings": { "en": "Six" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Tiga", "romanization": null, "options": { "en": ["Three", "Two", "Four", "Five"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Enam", "romanization": null, "options": { "en": ["Six", "Seven", "Eight", "Five"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Five' in Malay?" }, "options": { "neutral": ["Lima", "Empat", "Enam", "Tiga"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'One' in Malay?" }, "options": { "neutral": ["Satu", "Dua", "Tiga", "Lima"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Empat", "romanization": null, "options": { "en": ["Four", "Five", "Three", "Six"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Satu", "romanization": null, "native": { "en": "One" } },
+              { "target": "Dua", "romanization": null, "native": { "en": "Two" } },
+              { "target": "Lima", "romanization": null, "native": { "en": "Five" } },
+              { "target": "Enam", "romanization": null, "native": { "en": "Six" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Numbers 7–10 & Beyond" },
+          "objectives": { "en": ["Count from seven to ten", "Learn basic larger numbers"] },
+          "vocabulary": [
+            { "word": "Tujuh", "romanization": null, "meanings": { "en": "Seven" }, "gendered": null },
+            { "word": "Lapan", "romanization": null, "meanings": { "en": "Eight" }, "gendered": null },
+            { "word": "Sembilan", "romanization": null, "meanings": { "en": "Nine" }, "gendered": null },
+            { "word": "Sepuluh", "romanization": null, "meanings": { "en": "Ten" }, "gendered": null },
+            { "word": "Kosong", "romanization": null, "meanings": { "en": "Zero" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sembilan", "romanization": null, "options": { "en": ["Nine", "Seven", "Ten", "Eight"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kosong", "romanization": null, "options": { "en": ["Zero", "One", "Ten", "Five"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eight' in Malay?" }, "options": { "neutral": ["Lapan", "Tujuh", "Sembilan", "Sepuluh"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Ten' in Malay?" }, "options": { "neutral": ["Sepuluh", "Sembilan", "Tujuh", "Lapan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tujuh", "romanization": null, "options": { "en": ["Seven", "Six", "Eight", "Nine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Tujuh", "romanization": null, "native": { "en": "Seven" } },
+              { "target": "Lapan", "romanization": null, "native": { "en": "Eight" } },
+              { "target": "Sembilan", "romanization": null, "native": { "en": "Nine" } },
+              { "target": "Sepuluh", "romanization": null, "native": { "en": "Ten" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask what time it is", "Understand time expressions"] },
+          "vocabulary": [
+            { "word": "Pukul berapa?", "romanization": null, "meanings": { "en": "What time is it?" }, "gendered": null },
+            { "word": "Pukul", "romanization": null, "meanings": { "en": "O'clock" }, "gendered": null },
+            { "word": "Pagi", "romanization": null, "meanings": { "en": "Morning" }, "gendered": null },
+            { "word": "Petang", "romanization": null, "meanings": { "en": "Afternoon / evening" }, "gendered": null },
+            { "word": "Malam", "romanization": null, "meanings": { "en": "Night" }, "gendered": null },
+            { "word": "Setengah", "romanization": null, "meanings": { "en": "Half" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Pukul berapa?", "romanization": null, "options": { "en": ["What time is it?", "What day is it?", "How much?", "Where?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Setengah", "romanization": null, "options": { "en": ["Half", "Quarter", "Full", "Hour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Morning' in Malay?" }, "options": { "neutral": ["Pagi", "Petang", "Malam", "Pukul"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Night' in Malay?" }, "options": { "neutral": ["Malam", "Pagi", "Petang", "Setengah"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pukul berapa?", "romanization": null, "options": { "en": ["What time is it?", "Good morning", "How are you?", "Where is it?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Pagi", "romanization": null, "native": { "en": "Morning" } },
+              { "target": "Petang", "romanization": null, "native": { "en": "Afternoon / evening" } },
+              { "target": "Malam", "romanization": null, "native": { "en": "Night" } },
+              { "target": "Setengah", "romanization": null, "native": { "en": "Half" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Name the days of the week", "Ask what day it is"] },
+          "vocabulary": [
+            { "word": "Hari", "romanization": null, "meanings": { "en": "Day" }, "gendered": null },
+            { "word": "Isnin", "romanization": null, "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "Selasa", "romanization": null, "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "Rabu", "romanization": null, "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "Khamis", "romanization": null, "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "Jumaat", "romanization": null, "meanings": { "en": "Friday" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Isnin", "romanization": null, "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Jumaat", "romanization": null, "options": { "en": ["Friday", "Saturday", "Sunday", "Thursday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in Malay?" }, "options": { "neutral": ["Rabu", "Selasa", "Khamis", "Jumaat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Day' in Malay?" }, "options": { "neutral": ["Hari", "Isnin", "Pagi", "Malam"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Selasa", "romanization": null, "options": { "en": ["Tuesday", "Monday", "Wednesday", "Friday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Khamis", "romanization": null, "options": { "en": ["Thursday", "Friday", "Tuesday", "Monday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Isnin", "romanization": null, "native": { "en": "Monday" } },
+              { "target": "Selasa", "romanization": null, "native": { "en": "Tuesday" } },
+              { "target": "Rabu", "romanization": null, "native": { "en": "Wednesday" } },
+              { "target": "Jumaat", "romanization": null, "native": { "en": "Friday" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food & Ordering" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Basic Foods" },
+          "objectives": { "en": ["Name common foods", "Understand food-related vocabulary"] },
+          "vocabulary": [
+            { "word": "Makan", "romanization": null, "meanings": { "en": "To eat / food" }, "gendered": null },
+            { "word": "Nasi", "romanization": null, "meanings": { "en": "Rice" }, "gendered": null },
+            { "word": "Ayam", "romanization": null, "meanings": { "en": "Chicken" }, "gendered": null },
+            { "word": "Ikan", "romanization": null, "meanings": { "en": "Fish" }, "gendered": null },
+            { "word": "Sayur", "romanization": null, "meanings": { "en": "Vegetables" }, "gendered": null },
+            { "word": "Buah", "romanization": null, "meanings": { "en": "Fruit" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Nasi", "romanization": null, "options": { "en": ["Rice", "Chicken", "Fish", "Bread"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sayur", "romanization": null, "options": { "en": ["Vegetables", "Fruit", "Rice", "Meat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Chicken' in Malay?" }, "options": { "neutral": ["Ayam", "Ikan", "Nasi", "Sayur"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruit' in Malay?" }, "options": { "neutral": ["Buah", "Sayur", "Nasi", "Makan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Ikan", "romanization": null, "options": { "en": ["Fish", "Chicken", "Rice", "Vegetables"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Nasi", "romanization": null, "native": { "en": "Rice" } },
+              { "target": "Ayam", "romanization": null, "native": { "en": "Chicken" } },
+              { "target": "Ikan", "romanization": null, "native": { "en": "Fish" } },
+              { "target": "Buah", "romanization": null, "native": { "en": "Fruit" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Drinks" },
+          "objectives": { "en": ["Order common drinks", "Ask for water and beverages"] },
+          "vocabulary": [
+            { "word": "Minum", "romanization": null, "meanings": { "en": "To drink" }, "gendered": null },
+            { "word": "Air", "romanization": null, "meanings": { "en": "Water" }, "gendered": null },
+            { "word": "Teh", "romanization": null, "meanings": { "en": "Tea" }, "gendered": null },
+            { "word": "Kopi", "romanization": null, "meanings": { "en": "Coffee" }, "gendered": null },
+            { "word": "Susu", "romanization": null, "meanings": { "en": "Milk" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Air", "romanization": null, "options": { "en": ["Water", "Tea", "Coffee", "Milk"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kopi", "romanization": null, "options": { "en": ["Coffee", "Tea", "Water", "Milk"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tea' in Malay?" }, "options": { "neutral": ["Teh", "Kopi", "Air", "Susu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To drink' in Malay?" }, "options": { "neutral": ["Minum", "Makan", "Air", "Teh"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Susu", "romanization": null, "options": { "en": ["Milk", "Water", "Tea", "Coffee"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Air", "romanization": null, "native": { "en": "Water" } },
+              { "target": "Teh", "romanization": null, "native": { "en": "Tea" } },
+              { "target": "Kopi", "romanization": null, "native": { "en": "Coffee" } },
+              { "target": "Susu", "romanization": null, "native": { "en": "Milk" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Ordering Food" },
+          "objectives": { "en": ["Order food at a restaurant or stall", "Use polite request phrases"] },
+          "vocabulary": [
+            { "word": "Saya mahu", "romanization": null, "meanings": { "en": "I want" }, "gendered": null },
+            { "word": "Tolong", "romanization": null, "meanings": { "en": "Please / help" }, "gendered": null },
+            { "word": "Satu", "romanization": null, "meanings": { "en": "One" }, "gendered": null },
+            { "word": "Pedas", "romanization": null, "meanings": { "en": "Spicy" }, "gendered": null },
+            { "word": "Tidak pedas", "romanization": null, "meanings": { "en": "Not spicy" }, "gendered": null },
+            { "word": "Sedap", "romanization": null, "meanings": { "en": "Delicious" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Saya mahu", "romanization": null, "options": { "en": ["I want", "I have", "I need", "I like"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sedap", "romanization": null, "options": { "en": ["Delicious", "Spicy", "Sweet", "Sour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please' in Malay?" }, "options": { "neutral": ["Tolong", "Terima kasih", "Maaf", "Saya mahu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Spicy' in Malay?" }, "options": { "neutral": ["Pedas", "Sedap", "Tidak pedas", "Makan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tolong", "romanization": null, "options": { "en": ["Please / help", "Thank you", "Sorry", "I want"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sedap", "romanization": null, "options": { "en": ["Delicious", "Spicy", "Hot", "Cold"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Saya mahu", "romanization": null, "native": { "en": "I want" } },
+              { "target": "Tolong", "romanization": null, "native": { "en": "Please / help" } },
+              { "target": "Pedas", "romanization": null, "native": { "en": "Spicy" } },
+              { "target": "Sedap", "romanization": null, "native": { "en": "Delicious" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "How Much Does It Cost?" },
+          "objectives": { "en": ["Ask for the price of items", "Understand basic price expressions"] },
+          "vocabulary": [
+            { "word": "Berapa harganya?", "romanization": null, "meanings": { "en": "How much does it cost?" }, "gendered": null },
+            { "word": "Ringgit", "romanization": null, "meanings": { "en": "Ringgit (Malaysian currency)" }, "gendered": null },
+            { "word": "Mahal", "romanization": null, "meanings": { "en": "Expensive" }, "gendered": null },
+            { "word": "Murah", "romanization": null, "meanings": { "en": "Cheap" }, "gendered": null },
+            { "word": "Boleh kurang?", "romanization": null, "meanings": { "en": "Can you lower the price?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Berapa harganya?", "romanization": null, "options": { "en": ["How much does it cost?", "What is this?", "Where is it?", "Do you have?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Mahal", "romanization": null, "options": { "en": ["Expensive", "Cheap", "Good", "Bad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cheap' in Malay?" }, "options": { "neutral": ["Murah", "Mahal", "Sedap", "Baik"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'Can you lower the price?' in Malay?" }, "options": { "neutral": ["Boleh kurang?", "Berapa harganya?", "Saya mahu", "Tolong"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Berapa harganya?", "romanization": null, "options": { "en": ["How much does it cost?", "What is your name?", "Where is the market?", "Do you have rice?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Berapa harganya?", "romanization": null, "native": { "en": "How much does it cost?" } },
+              { "target": "Mahal", "romanization": null, "native": { "en": "Expensive" } },
+              { "target": "Murah", "romanization": null, "native": { "en": "Cheap" } },
+              { "target": "Ringgit", "romanization": null, "native": { "en": "Ringgit (Malaysian currency)" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Family & Descriptions" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name immediate family members", "Talk about your family"] },
+          "vocabulary": [
+            { "word": "Keluarga", "romanization": null, "meanings": { "en": "Family" }, "gendered": null },
+            { "word": "Ibu", "romanization": null, "meanings": { "en": "Mother" }, "gendered": null },
+            { "word": "Bapa", "romanization": null, "meanings": { "en": "Father" }, "gendered": null },
+            { "word": "Abang", "romanization": null, "meanings": { "en": "Older brother" }, "gendered": null },
+            { "word": "Kakak", "romanization": null, "meanings": { "en": "Older sister" }, "gendered": null },
+            { "word": "Adik", "romanization": null, "meanings": { "en": "Younger sibling" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Keluarga", "romanization": null, "options": { "en": ["Family", "Mother", "Father", "Friend"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kakak", "romanization": null, "options": { "en": ["Older sister", "Older brother", "Younger sibling", "Mother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Father' in Malay?" }, "options": { "neutral": ["Bapa", "Ibu", "Abang", "Adik"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Younger sibling' in Malay?" }, "options": { "neutral": ["Adik", "Abang", "Kakak", "Ibu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Ibu", "romanization": null, "options": { "en": ["Mother", "Father", "Sister", "Brother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Ibu", "romanization": null, "native": { "en": "Mother" } },
+              { "target": "Bapa", "romanization": null, "native": { "en": "Father" } },
+              { "target": "Abang", "romanization": null, "native": { "en": "Older brother" } },
+              { "target": "Adik", "romanization": null, "native": { "en": "Younger sibling" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Extended Family" },
+          "objectives": { "en": ["Name extended family members", "Describe family relationships"] },
+          "vocabulary": [
+            { "word": "Datuk", "romanization": null, "meanings": { "en": "Grandfather" }, "gendered": null },
+            { "word": "Nenek", "romanization": null, "meanings": { "en": "Grandmother" }, "gendered": null },
+            { "word": "Anak", "romanization": null, "meanings": { "en": "Child / son / daughter" }, "gendered": null },
+            { "word": "Suami", "romanization": null, "meanings": { "en": "Husband" }, "gendered": null },
+            { "word": "Isteri", "romanization": null, "meanings": { "en": "Wife" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Datuk", "romanization": null, "options": { "en": ["Grandfather", "Grandmother", "Father", "Uncle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Anak", "romanization": null, "options": { "en": ["Child / son / daughter", "Mother", "Father", "Sibling"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wife' in Malay?" }, "options": { "neutral": ["Isteri", "Suami", "Ibu", "Kakak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Grandmother' in Malay?" }, "options": { "neutral": ["Nenek", "Datuk", "Ibu", "Kakak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Suami", "romanization": null, "options": { "en": ["Husband", "Wife", "Son", "Father"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Datuk", "romanization": null, "native": { "en": "Grandfather" } },
+              { "target": "Nenek", "romanization": null, "native": { "en": "Grandmother" } },
+              { "target": "Suami", "romanization": null, "native": { "en": "Husband" } },
+              { "target": "Isteri", "romanization": null, "native": { "en": "Wife" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Describing People" },
+          "objectives": { "en": ["Describe physical characteristics", "Use basic adjectives for people"] },
+          "vocabulary": [
+            { "word": "Besar", "romanization": null, "meanings": { "en": "Big / large" }, "gendered": null },
+            { "word": "Kecil", "romanization": null, "meanings": { "en": "Small / little" }, "gendered": null },
+            { "word": "Tinggi", "romanization": null, "meanings": { "en": "Tall" }, "gendered": null },
+            { "word": "Rendah", "romanization": null, "meanings": { "en": "Short (height)" }, "gendered": null },
+            { "word": "Cantik", "romanization": null, "meanings": { "en": "Beautiful / pretty" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Besar", "romanization": null, "options": { "en": ["Big / large", "Small", "Tall", "Short"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Cantik", "romanization": null, "options": { "en": ["Beautiful / pretty", "Ugly", "Tall", "Small"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tall' in Malay?" }, "options": { "neutral": ["Tinggi", "Rendah", "Besar", "Kecil"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Small' in Malay?" }, "options": { "neutral": ["Kecil", "Besar", "Tinggi", "Rendah"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tinggi", "romanization": null, "options": { "en": ["Tall", "Short", "Big", "Small"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Besar", "romanization": null, "native": { "en": "Big / large" } },
+              { "target": "Kecil", "romanization": null, "native": { "en": "Small / little" } },
+              { "target": "Tinggi", "romanization": null, "native": { "en": "Tall" } },
+              { "target": "Cantik", "romanization": null, "native": { "en": "Beautiful / pretty" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Colors & Appearances" },
+          "objectives": { "en": ["Name basic colors in Malay", "Describe objects by color"] },
+          "vocabulary": [
+            { "word": "Merah", "romanization": null, "meanings": { "en": "Red" }, "gendered": null },
+            { "word": "Biru", "romanization": null, "meanings": { "en": "Blue" }, "gendered": null },
+            { "word": "Hijau", "romanization": null, "meanings": { "en": "Green" }, "gendered": null },
+            { "word": "Kuning", "romanization": null, "meanings": { "en": "Yellow" }, "gendered": null },
+            { "word": "Putih", "romanization": null, "meanings": { "en": "White" }, "gendered": null },
+            { "word": "Hitam", "romanization": null, "meanings": { "en": "Black" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Merah", "romanization": null, "options": { "en": ["Red", "Blue", "Green", "Yellow"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Hitam", "romanization": null, "options": { "en": ["Black", "White", "Red", "Blue"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Green' in Malay?" }, "options": { "neutral": ["Hijau", "Biru", "Kuning", "Merah"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'White' in Malay?" }, "options": { "neutral": ["Putih", "Hitam", "Kuning", "Biru"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kuning", "romanization": null, "options": { "en": ["Yellow", "Green", "Red", "Blue"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Biru", "romanization": null, "options": { "en": ["Blue", "Green", "Yellow", "White"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Merah", "romanization": null, "native": { "en": "Red" } },
+              { "target": "Hijau", "romanization": null, "native": { "en": "Green" } },
+              { "target": "Putih", "romanization": null, "native": { "en": "White" } },
+              { "target": "Hitam", "romanization": null, "native": { "en": "Black" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Places & Directions" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Common Places" },
+          "objectives": { "en": ["Name common places in a town", "Ask where a place is"] },
+          "vocabulary": [
+            { "word": "Di mana?", "romanization": null, "meanings": { "en": "Where?" }, "gendered": null },
+            { "word": "Kedai", "romanization": null, "meanings": { "en": "Shop" }, "gendered": null },
+            { "word": "Pasar", "romanization": null, "meanings": { "en": "Market" }, "gendered": null },
+            { "word": "Hospital", "romanization": null, "meanings": { "en": "Hospital" }, "gendered": null },
+            { "word": "Sekolah", "romanization": null, "meanings": { "en": "School" }, "gendered": null },
+            { "word": "Masjid", "romanization": null, "meanings": { "en": "Mosque" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Di mana?", "romanization": null, "options": { "en": ["Where?", "What?", "When?", "Who?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pasar", "romanization": null, "options": { "en": ["Market", "Shop", "School", "Hospital"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'School' in Malay?" }, "options": { "neutral": ["Sekolah", "Kedai", "Pasar", "Hospital"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Shop' in Malay?" }, "options": { "neutral": ["Kedai", "Pasar", "Sekolah", "Masjid"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Di mana pasar?", "romanization": null, "options": { "en": ["Where is the market?", "Where is the shop?", "Where is the school?", "Where is the hospital?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kedai", "romanization": null, "native": { "en": "Shop" } },
+              { "target": "Pasar", "romanization": null, "native": { "en": "Market" } },
+              { "target": "Sekolah", "romanization": null, "native": { "en": "School" } },
+              { "target": "Masjid", "romanization": null, "native": { "en": "Mosque" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Left, Right & Straight" },
+          "objectives": { "en": ["Give and understand basic directions", "Use left, right, and straight"] },
+          "vocabulary": [
+            { "word": "Kanan", "romanization": null, "meanings": { "en": "Right" }, "gendered": null },
+            { "word": "Kiri", "romanization": null, "meanings": { "en": "Left" }, "gendered": null },
+            { "word": "Terus", "romanization": null, "meanings": { "en": "Straight / continue" }, "gendered": null },
+            { "word": "Belok", "romanization": null, "meanings": { "en": "Turn" }, "gendered": null },
+            { "word": "Dekat", "romanization": null, "meanings": { "en": "Near" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kanan", "romanization": null, "options": { "en": ["Right", "Left", "Straight", "Turn"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Terus", "romanization": null, "options": { "en": ["Straight / continue", "Turn", "Right", "Left"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Left' in Malay?" }, "options": { "neutral": ["Kiri", "Kanan", "Terus", "Belok"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Near' in Malay?" }, "options": { "neutral": ["Dekat", "Jauh", "Kanan", "Kiri"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Belok kiri", "romanization": null, "options": { "en": ["Turn left", "Turn right", "Go straight", "Stop"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kanan", "romanization": null, "native": { "en": "Right" } },
+              { "target": "Kiri", "romanization": null, "native": { "en": "Left" } },
+              { "target": "Terus", "romanization": null, "native": { "en": "Straight / continue" } },
+              { "target": "Dekat", "romanization": null, "native": { "en": "Near" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Near & Far" },
+          "objectives": { "en": ["Describe distance to places", "Use near and far in sentences"] },
+          "vocabulary": [
+            { "word": "Jauh", "romanization": null, "meanings": { "en": "Far" }, "gendered": null },
+            { "word": "Sini", "romanization": null, "meanings": { "en": "Here" }, "gendered": null },
+            { "word": "Sana", "romanization": null, "meanings": { "en": "There" }, "gendered": null },
+            { "word": "Di depan", "romanization": null, "meanings": { "en": "In front" }, "gendered": null },
+            { "word": "Di belakang", "romanization": null, "meanings": { "en": "Behind" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Jauh", "romanization": null, "options": { "en": ["Far", "Near", "Here", "There"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Di depan", "romanization": null, "options": { "en": ["In front", "Behind", "Left", "Right"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Here' in Malay?" }, "options": { "neutral": ["Sini", "Sana", "Dekat", "Jauh"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Behind' in Malay?" }, "options": { "neutral": ["Di belakang", "Di depan", "Kanan", "Kiri"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sana", "romanization": null, "options": { "en": ["There", "Here", "Far", "Near"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Jauh", "romanization": null, "native": { "en": "Far" } },
+              { "target": "Sini", "romanization": null, "native": { "en": "Here" } },
+              { "target": "Sana", "romanization": null, "native": { "en": "There" } },
+              { "target": "Di depan", "romanization": null, "native": { "en": "In front" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Getting Around" },
+          "objectives": { "en": ["Talk about transportation", "Ask how to get somewhere"] },
+          "vocabulary": [
+            { "word": "Bas", "romanization": null, "meanings": { "en": "Bus" }, "gendered": null },
+            { "word": "Teksi", "romanization": null, "meanings": { "en": "Taxi" }, "gendered": null },
+            { "word": "Kereta", "romanization": null, "meanings": { "en": "Car" }, "gendered": null },
+            { "word": "Jalan", "romanization": null, "meanings": { "en": "Road / to walk" }, "gendered": null },
+            { "word": "Berhenti", "romanization": null, "meanings": { "en": "Stop" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kereta", "romanization": null, "options": { "en": ["Car", "Bus", "Taxi", "Train"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Berhenti", "romanization": null, "options": { "en": ["Stop", "Go", "Turn", "Walk"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bus' in Malay?" }, "options": { "neutral": ["Bas", "Teksi", "Kereta", "Jalan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Road' in Malay?" }, "options": { "neutral": ["Jalan", "Bas", "Kereta", "Berhenti"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Teksi", "romanization": null, "options": { "en": ["Taxi", "Bus", "Car", "Train"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Berhenti", "romanization": null, "options": { "en": ["Stop", "Go", "Walk", "Turn"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Bas", "romanization": null, "native": { "en": "Bus" } },
+              { "target": "Teksi", "romanization": null, "native": { "en": "Taxi" } },
+              { "target": "Kereta", "romanization": null, "native": { "en": "Car" } },
+              { "target": "Jalan", "romanization": null, "native": { "en": "Road / to walk" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings, Introductions & Numbers" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Goodbye" },
+          "objectives": { "en": ["Greet people in French at any time of day", "Say goodbye using common farewell expressions", "Recognize formal vs informal greetings"] },
+          "vocabulary": [
+            { "word": "bonjour", "romanization": null, "meanings": { "en": "hello / good morning" }, "gendered": null },
+            { "word": "bonsoir", "romanization": null, "meanings": { "en": "good evening" }, "gendered": null },
+            { "word": "au revoir", "romanization": null, "meanings": { "en": "goodbye" }, "gendered": null },
+            { "word": "salut", "romanization": null, "meanings": { "en": "hi / bye (informal)" }, "gendered": null },
+            { "word": "bonne nuit", "romanization": null, "meanings": { "en": "good night" }, "gendered": null },
+            { "word": "à bientôt", "romanization": null, "meanings": { "en": "see you soon" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "bonjour", "romanization": null, "options": { "en": ["hello / good morning", "goodbye", "good night", "see you soon"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "bonsoir", "romanization": null, "options": { "en": ["good evening", "good morning", "good night", "hi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'goodbye' in French?" }, "options": { "neutral": ["au revoir", "bonjour", "salut", "bonsoir"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hi' informally in French?" }, "options": { "neutral": ["salut", "bonjour", "bonsoir", "au revoir"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "bonne nuit", "romanization": null, "options": { "en": ["good night", "good evening", "goodbye", "hello"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "bonjour", "romanization": null, "native": { "en": "hello" } },
+              { "target": "au revoir", "romanization": null, "native": { "en": "goodbye" } },
+              { "target": "bonsoir", "romanization": null, "native": { "en": "good evening" } },
+              { "target": "bonne nuit", "romanization": null, "native": { "en": "good night" } }
+            ] },
+            { "type": "listening", "audio_text": "à bientôt", "romanization": null, "options": { "en": ["see you soon", "goodbye", "good night", "hello"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Introducing Yourself" },
+          "objectives": { "en": ["Introduce yourself by name", "Ask someone's name formally and informally", "Use basic polite expressions"] },
+          "vocabulary": [
+            { "word": "je m'appelle", "romanization": null, "meanings": { "en": "my name is" }, "gendered": null },
+            { "word": "comment vous appelez-vous ?", "romanization": null, "meanings": { "en": "what is your name? (formal)" }, "gendered": null },
+            { "word": "tu t'appelles comment ?", "romanization": null, "meanings": { "en": "what is your name? (informal)" }, "gendered": null },
+            { "word": "enchanté", "romanization": null, "meanings": { "en": "nice to meet you" }, "gendered": { "male": { "word": "enchanté", "romanization": null }, "female": { "word": "enchantée", "romanization": null } } },
+            { "word": "s'il vous plaît", "romanization": null, "meanings": { "en": "please (formal)" }, "gendered": null },
+            { "word": "merci", "romanization": null, "meanings": { "en": "thank you" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "je m'appelle", "romanization": null, "options": { "en": ["my name is", "your name is", "nice to meet you", "please"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "merci", "romanization": null, "options": { "en": ["thank you", "please", "hello", "goodbye"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'please' formally in French?" }, "options": { "neutral": ["s'il vous plaît", "merci", "enchanté", "salut"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'nice to meet you' (male speaker)?" }, "options": { "neutral": ["enchanté", "je m'appelle", "merci", "bonjour"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "comment vous appelez-vous ?", "romanization": null, "options": { "en": ["what is your name? (formal)", "my name is", "nice to meet you", "how are you?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "je m'appelle", "romanization": null, "native": { "en": "my name is" } },
+              { "target": "merci", "romanization": null, "native": { "en": "thank you" } },
+              { "target": "s'il vous plaît", "romanization": null, "native": { "en": "please" } },
+              { "target": "enchanté", "romanization": null, "native": { "en": "nice to meet you" } }
+            ] },
+            { "type": "listening", "audio_text": "enchanté", "romanization": null, "options": { "en": ["nice to meet you", "thank you", "please", "my name is"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Numbers 0–10" },
+          "objectives": { "en": ["Count from zero to ten in French", "Recognize numbers when spoken", "Use numbers in simple contexts"] },
+          "vocabulary": [
+            { "word": "zéro", "romanization": null, "meanings": { "en": "zero" }, "gendered": null },
+            { "word": "un", "romanization": null, "meanings": { "en": "one" }, "gendered": null },
+            { "word": "deux", "romanization": null, "meanings": { "en": "two" }, "gendered": null },
+            { "word": "trois", "romanization": null, "meanings": { "en": "three" }, "gendered": null },
+            { "word": "quatre", "romanization": null, "meanings": { "en": "four" }, "gendered": null },
+            { "word": "cinq", "romanization": null, "meanings": { "en": "five" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "trois", "romanization": null, "options": { "en": ["three", "two", "four", "five"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "cinq", "romanization": null, "options": { "en": ["five", "four", "six", "three"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'two' in French?" }, "options": { "neutral": ["deux", "trois", "un", "quatre"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'four' in French?" }, "options": { "neutral": ["quatre", "cinq", "trois", "deux"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "zéro", "romanization": null, "options": { "en": ["zero", "one", "two", "three"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "un", "romanization": null, "options": { "en": ["one", "zero", "two", "three"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "un", "romanization": null, "native": { "en": "one" } },
+              { "target": "deux", "romanization": null, "native": { "en": "two" } },
+              { "target": "trois", "romanization": null, "native": { "en": "three" } },
+              { "target": "quatre", "romanization": null, "native": { "en": "four" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Numbers 11–20 & How Are You?" },
+          "objectives": { "en": ["Count from eleven to twenty in French", "Ask and answer 'how are you?'", "Express how you feel"] },
+          "vocabulary": [
+            { "word": "onze", "romanization": null, "meanings": { "en": "eleven" }, "gendered": null },
+            { "word": "douze", "romanization": null, "meanings": { "en": "twelve" }, "gendered": null },
+            { "word": "quinze", "romanization": null, "meanings": { "en": "fifteen" }, "gendered": null },
+            { "word": "vingt", "romanization": null, "meanings": { "en": "twenty" }, "gendered": null },
+            { "word": "comment allez-vous ?", "romanization": null, "meanings": { "en": "how are you? (formal)" }, "gendered": null },
+            { "word": "je vais bien", "romanization": null, "meanings": { "en": "I am fine" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "quinze", "romanization": null, "options": { "en": ["fifteen", "fourteen", "sixteen", "thirteen"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "vingt", "romanization": null, "options": { "en": ["twenty", "twelve", "fifteen", "eleven"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'eleven' in French?" }, "options": { "neutral": ["onze", "douze", "quinze", "vingt"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'how are you?' formally in French?" }, "options": { "neutral": ["comment allez-vous ?", "je vais bien", "je m'appelle", "merci"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "douze", "romanization": null, "options": { "en": ["twelve", "eleven", "two", "twenty"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "je vais bien", "romanization": null, "options": { "en": ["I am fine", "how are you?", "thank you", "my name is"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "onze", "romanization": null, "native": { "en": "eleven" } },
+              { "target": "douze", "romanization": null, "native": { "en": "twelve" } },
+              { "target": "quinze", "romanization": null, "native": { "en": "fifteen" } },
+              { "target": "vingt", "romanization": null, "native": { "en": "twenty" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Family, Descriptions & Colors" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name immediate family members in French", "Use possessive adjectives (mon, ma, mes)", "Talk about your family"] },
+          "vocabulary": [
+            { "word": "la famille", "romanization": null, "meanings": { "en": "the family" }, "gendered": null },
+            { "word": "le père", "romanization": null, "meanings": { "en": "the father" }, "gendered": null },
+            { "word": "la mère", "romanization": null, "meanings": { "en": "the mother" }, "gendered": null },
+            { "word": "le frère", "romanization": null, "meanings": { "en": "the brother" }, "gendered": null },
+            { "word": "la sœur", "romanization": null, "meanings": { "en": "the sister" }, "gendered": null },
+            { "word": "les enfants", "romanization": null, "meanings": { "en": "the children" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le père", "romanization": null, "options": { "en": ["the father", "the mother", "the brother", "the sister"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "la sœur", "romanization": null, "options": { "en": ["the sister", "the brother", "the mother", "the daughter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the mother' in French?" }, "options": { "neutral": ["la mère", "le père", "la sœur", "la famille"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the brother' in French?" }, "options": { "neutral": ["le frère", "la sœur", "le père", "les enfants"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la famille", "romanization": null, "options": { "en": ["the family", "the father", "the children", "the mother"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "les enfants", "romanization": null, "options": { "en": ["the children", "the family", "the parents", "the brothers"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le père", "romanization": null, "native": { "en": "the father" } },
+              { "target": "la mère", "romanization": null, "native": { "en": "the mother" } },
+              { "target": "le frère", "romanization": null, "native": { "en": "the brother" } },
+              { "target": "la sœur", "romanization": null, "native": { "en": "the sister" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "More Family & Relationships" },
+          "objectives": { "en": ["Name extended family members", "Describe relationships", "Use c'est and ce sont"] },
+          "vocabulary": [
+            { "word": "le grand-père", "romanization": null, "meanings": { "en": "the grandfather" }, "gendered": null },
+            { "word": "la grand-mère", "romanization": null, "meanings": { "en": "the grandmother" }, "gendered": null },
+            { "word": "l'oncle", "romanization": null, "meanings": { "en": "the uncle" }, "gendered": null },
+            { "word": "la tante", "romanization": null, "meanings": { "en": "the aunt" }, "gendered": null },
+            { "word": "le fils", "romanization": null, "meanings": { "en": "the son" }, "gendered": null },
+            { "word": "la fille", "romanization": null, "meanings": { "en": "the daughter" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le grand-père", "romanization": null, "options": { "en": ["the grandfather", "the grandmother", "the father", "the uncle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "la tante", "romanization": null, "options": { "en": ["the aunt", "the uncle", "the grandmother", "the sister"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the grandmother' in French?" }, "options": { "neutral": ["la grand-mère", "le grand-père", "la tante", "la mère"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the son' in French?" }, "options": { "neutral": ["le fils", "la fille", "le frère", "le père"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "l'oncle", "romanization": null, "options": { "en": ["the uncle", "the aunt", "the grandfather", "the brother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le grand-père", "romanization": null, "native": { "en": "the grandfather" } },
+              { "target": "la grand-mère", "romanization": null, "native": { "en": "the grandmother" } },
+              { "target": "le fils", "romanization": null, "native": { "en": "the son" } },
+              { "target": "la fille", "romanization": null, "native": { "en": "the daughter" } }
+            ] },
+            { "type": "listening", "audio_text": "la fille", "romanization": null, "options": { "en": ["the daughter", "the son", "the sister", "the aunt"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Descriptions & Adjectives" },
+          "objectives": { "en": ["Describe people using basic adjectives", "Understand adjective agreement (masculine/feminine)", "Use être (to be) with descriptions"] },
+          "vocabulary": [
+            { "word": "grand", "romanization": null, "meanings": { "en": "tall / big" }, "gendered": { "male": { "word": "grand", "romanization": null }, "female": { "word": "grande", "romanization": null } } },
+            { "word": "petit", "romanization": null, "meanings": { "en": "small / short" }, "gendered": { "male": { "word": "petit", "romanization": null }, "female": { "word": "petite", "romanization": null } } },
+            { "word": "jeune", "romanization": null, "meanings": { "en": "young" }, "gendered": null },
+            { "word": "vieux", "romanization": null, "meanings": { "en": "old" }, "gendered": { "male": { "word": "vieux", "romanization": null }, "female": { "word": "vieille", "romanization": null } } },
+            { "word": "beau", "romanization": null, "meanings": { "en": "beautiful / handsome" }, "gendered": { "male": { "word": "beau", "romanization": null }, "female": { "word": "belle", "romanization": null } } },
+            { "word": "gentil", "romanization": null, "meanings": { "en": "kind / nice" }, "gendered": { "male": { "word": "gentil", "romanization": null }, "female": { "word": "gentille", "romanization": null } } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "grand", "romanization": null, "options": { "en": ["tall / big", "small / short", "young", "old"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "belle", "romanization": null, "options": { "en": ["beautiful (feminine)", "kind", "young", "old"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'small' (masculine) in French?" }, "options": { "neutral": ["petit", "grand", "jeune", "vieux"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'old' (feminine) in French?" }, "options": { "neutral": ["vieille", "vieux", "belle", "gentille"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "jeune", "romanization": null, "options": { "en": ["young", "old", "tall", "kind"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "gentil", "romanization": null, "options": { "en": ["kind / nice", "beautiful", "young", "small"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "grand", "romanization": null, "native": { "en": "tall / big" } },
+              { "target": "petit", "romanization": null, "native": { "en": "small / short" } },
+              { "target": "jeune", "romanization": null, "native": { "en": "young" } },
+              { "target": "beau", "romanization": null, "native": { "en": "beautiful" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Colors" },
+          "objectives": { "en": ["Name basic colors in French", "Understand color adjective agreement", "Describe objects using colors"] },
+          "vocabulary": [
+            { "word": "rouge", "romanization": null, "meanings": { "en": "red" }, "gendered": null },
+            { "word": "bleu", "romanization": null, "meanings": { "en": "blue" }, "gendered": { "male": { "word": "bleu", "romanization": null }, "female": { "word": "bleue", "romanization": null } } },
+            { "word": "vert", "romanization": null, "meanings": { "en": "green" }, "gendered": { "male": { "word": "vert", "romanization": null }, "female": { "word": "verte", "romanization": null } } },
+            { "word": "blanc", "romanization": null, "meanings": { "en": "white" }, "gendered": { "male": { "word": "blanc", "romanization": null }, "female": { "word": "blanche", "romanization": null } } },
+            { "word": "noir", "romanization": null, "meanings": { "en": "black" }, "gendered": { "male": { "word": "noir", "romanization": null }, "female": { "word": "noire", "romanization": null } } },
+            { "word": "jaune", "romanization": null, "meanings": { "en": "yellow" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "rouge", "romanization": null, "options": { "en": ["red", "blue", "green", "yellow"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "noir", "romanization": null, "options": { "en": ["black", "white", "blue", "green"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'blue' (masculine) in French?" }, "options": { "neutral": ["bleu", "vert", "blanc", "rouge"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'white' (feminine) in French?" }, "options": { "neutral": ["blanche", "blanc", "noire", "verte"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "vert", "romanization": null, "options": { "en": ["green", "red", "yellow", "black"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "jaune", "romanization": null, "options": { "en": ["yellow", "green", "red", "white"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "rouge", "romanization": null, "native": { "en": "red" } },
+              { "target": "bleu", "romanization": null, "native": { "en": "blue" } },
+              { "target": "vert", "romanization": null, "native": { "en": "green" } },
+              { "target": "jaune", "romanization": null, "native": { "en": "yellow" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food, Drinks & Ordering at a Café" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Common Foods" },
+          "objectives": { "en": ["Name basic foods in French", "Use articles with food nouns (le, la, les)", "Express likes and dislikes about food"] },
+          "vocabulary": [
+            { "word": "le pain", "romanization": null, "meanings": { "en": "the bread" }, "gendered": null },
+            { "word": "le fromage", "romanization": null, "meanings": { "en": "the cheese" }, "gendered": null },
+            { "word": "la viande", "romanization": null, "meanings": { "en": "the meat" }, "gendered": null },
+            { "word": "le poisson", "romanization": null, "meanings": { "en": "the fish" }, "gendered": null },
+            { "word": "la salade", "romanization": null, "meanings": { "en": "the salad" }, "gendered": null },
+            { "word": "les fruits", "romanization": null, "meanings": { "en": "the fruits" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le pain", "romanization": null, "options": { "en": ["the bread", "the cheese", "the meat", "the fish"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le fromage", "romanization": null, "options": { "en": ["the cheese", "the bread", "the salad", "the fruits"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the meat' in French?" }, "options": { "neutral": ["la viande", "le poisson", "le pain", "la salade"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the fish' in French?" }, "options": { "neutral": ["le poisson", "la viande", "le fromage", "les fruits"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la salade", "romanization": null, "options": { "en": ["the salad", "the meat", "the bread", "the fish"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "les fruits", "romanization": null, "options": { "en": ["the fruits", "the salad", "the cheese", "the bread"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le pain", "romanization": null, "native": { "en": "the bread" } },
+              { "target": "le fromage", "romanization": null, "native": { "en": "the cheese" } },
+              { "target": "la viande", "romanization": null, "native": { "en": "the meat" } },
+              { "target": "la salade", "romanization": null, "native": { "en": "the salad" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Drinks & Beverages" },
+          "objectives": { "en": ["Name common drinks in French", "Order a drink politely", "Use je voudrais (I would like)"] },
+          "vocabulary": [
+            { "word": "l'eau", "romanization": null, "meanings": { "en": "the water" }, "gendered": null },
+            { "word": "le café", "romanization": null, "meanings": { "en": "the coffee" }, "gendered": null },
+            { "word": "le thé", "romanization": null, "meanings": { "en": "the tea" }, "gendered": null },
+            { "word": "le jus d'orange", "romanization": null, "meanings": { "en": "the orange juice" }, "gendered": null },
+            { "word": "le lait", "romanization": null, "meanings": { "en": "the milk" }, "gendered": null },
+            { "word": "je voudrais", "romanization": null, "meanings": { "en": "I would like" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "l'eau", "romanization": null, "options": { "en": ["the water", "the milk", "the coffee", "the tea"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le café", "romanization": null, "options": { "en": ["the coffee", "the tea", "the water", "the juice"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the tea' in French?" }, "options": { "neutral": ["le thé", "le café", "le lait", "l'eau"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I would like' in French?" }, "options": { "neutral": ["je voudrais", "je m'appelle", "s'il vous plaît", "merci"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le jus d'orange", "romanization": null, "options": { "en": ["the orange juice", "the coffee", "the milk", "the water"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le lait", "romanization": null, "options": { "en": ["the milk", "the water", "the tea", "the juice"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "l'eau", "romanization": null, "native": { "en": "the water" } },
+              { "target": "le café", "romanization": null, "native": { "en": "the coffee" } },
+              { "target": "le thé", "romanization": null, "native": { "en": "the tea" } },
+              { "target": "le lait", "romanization": null, "native": { "en": "the milk" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Café" },
+          "objectives": { "en": ["Order food and drinks at a café", "Use polite request phrases", "Understand a waiter's questions"] },
+          "vocabulary": [
+            { "word": "l'addition", "romanization": null, "meanings": { "en": "the bill / check" }, "gendered": null },
+            { "word": "le menu", "romanization": null, "meanings": { "en": "the menu" }, "gendered": null },
+            { "word": "un croissant", "romanization": null, "meanings": { "en": "a croissant" }, "gendered": null },
+            { "word": "une crêpe", "romanization": null, "meanings": { "en": "a crêpe" }, "gendered": null },
+            { "word": "vous désirez ?", "romanization": null, "meanings": { "en": "what would you like?" }, "gendered": null },
+            { "word": "c'est combien ?", "romanization": null, "meanings": { "en": "how much is it?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "l'addition", "romanization": null, "options": { "en": ["the bill / check", "the menu", "a croissant", "a crêpe"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "un croissant", "romanization": null, "options": { "en": ["a croissant", "a crêpe", "the menu", "the bread"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the menu' in French?" }, "options": { "neutral": ["le menu", "l'addition", "un croissant", "une crêpe"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'how much is it?' in French?" }, "options": { "neutral": ["c'est combien ?", "vous désirez ?", "je voudrais", "l'addition"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "vous désirez ?", "romanization": null, "options": { "en": ["what would you like?", "how much is it?", "the bill please", "a croissant please"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "une crêpe", "romanization": null, "options": { "en": ["a crêpe", "a croissant", "the bread", "the cheese"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "l'addition", "romanization": null, "native": { "en": "the bill" } },
+              { "target": "le menu", "romanization": null, "native": { "en": "the menu" } },
+              { "target": "un croissant", "romanization": null, "native": { "en": "a croissant" } },
+              { "target": "une crêpe", "romanization": null, "native": { "en": "a crêpe" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Meals & Preferences" },
+          "objectives": { "en": ["Name the three main meals", "Express food preferences using aimer and préférer", "Use basic meal-related vocabulary"] },
+          "vocabulary": [
+            { "word": "le petit déjeuner", "romanization": null, "meanings": { "en": "breakfast" }, "gendered": null },
+            { "word": "le déjeuner", "romanization": null, "meanings": { "en": "lunch" }, "gendered": null },
+            { "word": "le dîner", "romanization": null, "meanings": { "en": "dinner" }, "gendered": null },
+            { "word": "j'aime", "romanization": null, "meanings": { "en": "I like / I love" }, "gendered": null },
+            { "word": "je n'aime pas", "romanization": null, "meanings": { "en": "I don't like" }, "gendered": null },
+            { "word": "je préfère", "romanization": null, "meanings": { "en": "I prefer" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le petit déjeuner", "romanization": null, "options": { "en": ["breakfast", "lunch", "dinner", "snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "j'aime", "romanization": null, "options": { "en": ["I like / I love", "I don't like", "I prefer", "I would like"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'lunch' in French?" }, "options": { "neutral": ["le déjeuner", "le dîner", "le petit déjeuner", "le menu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I don't like' in French?" }, "options": { "neutral": ["je n'aime pas", "j'aime", "je préfère", "je voudrais"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le dîner", "romanization": null, "options": { "en": ["dinner", "lunch", "breakfast", "the menu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "je préfère", "romanization": null, "options": { "en": ["I prefer", "I like", "I don't like", "I would like"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le petit déjeuner", "romanization": null, "native": { "en": "breakfast" } },
+              { "target": "le déjeuner", "romanization": null, "native": { "en": "lunch" } },
+              { "target": "le dîner", "romanization": null, "native": { "en": "dinner" } },
+              { "target": "j'aime", "romanization": null, "native": { "en": "I like" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Daily Routine, Time & Days" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Daily Activities" },
+          "objectives": { "en": ["Describe daily routine activities", "Use reflexive verbs (se lever, se coucher)", "Talk about what you do every day"] },
+          "vocabulary": [
+            { "word": "se réveiller", "romanization": null, "meanings": { "en": "to wake up" }, "gendered": null },
+            { "word": "se lever", "romanization": null, "meanings": { "en": "to get up" }, "gendered": null },
+            { "word": "se coucher", "romanization": null, "meanings": { "en": "to go to bed" }, "gendered": null },
+            { "word": "travailler", "romanization": null, "meanings": { "en": "to work" }, "gendered": null },
+            { "word": "manger", "romanization": null, "meanings": { "en": "to eat" }, "gendered": null },
+            { "word": "dormir", "romanization": null, "meanings": { "en": "to sleep" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "se réveiller", "romanization": null, "options": { "en": ["to wake up", "to get up", "to go to bed", "to sleep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "travailler", "romanization": null, "options": { "en": ["to work", "to eat", "to sleep", "to get up"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to get up' in French?" }, "options": { "neutral": ["se lever", "se coucher", "se réveiller", "dormir"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to eat' in French?" }, "options": { "neutral": ["manger", "dormir", "travailler", "se lever"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "se coucher", "romanization": null, "options": { "en": ["to go to bed", "to wake up", "to get up", "to work"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "dormir", "romanization": null, "options": { "en": ["to sleep", "to eat", "to work", "to go to bed"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "se réveiller", "romanization": null, "native": { "en": "to wake up" } },
+              { "target": "se lever", "romanization": null, "native": { "en": "to get up" } },
+              { "target": "travailler", "romanization": null, "native": { "en": "to work" } },
+              { "target": "dormir", "romanization": null, "native": { "en": "to sleep" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask and tell the time in French", "Use il est... for telling time", "Understand half hours and quarter hours"] },
+          "vocabulary": [
+            { "word": "quelle heure est-il ?", "romanization": null, "meanings": { "en": "what time is it?" }, "gendered": null },
+            { "word": "il est une heure", "romanization": null, "meanings": { "en": "it is one o'clock" }, "gendered": null },
+            { "word": "il est midi", "romanization": null, "meanings": { "en": "it is noon" }, "gendered": null },
+            { "word": "il est minuit", "romanization": null, "meanings": { "en": "it is midnight" }, "gendered": null },
+            { "word": "et demie", "romanization": null, "meanings": { "en": "half past" }, "gendered": null },
+            { "word": "et quart", "romanization": null, "meanings": { "en": "quarter past" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "quelle heure est-il ?", "romanization": null, "options": { "en": ["what time is it?", "it is one o'clock", "it is noon", "half past"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "il est midi", "romanization": null, "options": { "en": ["it is noon", "it is midnight", "it is one o'clock", "half past"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'it is midnight' in French?" }, "options": { "neutral": ["il est minuit", "il est midi", "il est une heure", "et demie"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'half past' in French?" }, "options": { "neutral": ["et demie", "et quart", "il est midi", "quelle heure"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "il est une heure", "romanization": null, "options": { "en": ["it is one o'clock", "it is noon", "it is midnight", "what time is it?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "et quart", "romanization": null, "options": { "en": ["quarter past", "half past", "noon", "midnight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "il est midi", "romanization": null, "native": { "en": "it is noon" } },
+              { "target": "il est minuit", "romanization": null, "native": { "en": "it is midnight" } },
+              { "target": "et demie", "romanization": null, "native": { "en": "half past" } },
+              { "target": "et quart", "romanization": null, "native": { "en": "quarter past" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Name all seven days of the week", "Talk about weekly schedules", "Use aujourd'hui, demain, hier"] },
+          "vocabulary": [
+            { "word": "lundi", "romanization": null, "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "mardi", "romanization": null, "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "mercredi", "romanization": null, "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "jeudi", "romanization": null, "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "vendredi", "romanization": null, "meanings": { "en": "Friday" }, "gendered": null },
+            { "word": "samedi", "romanization": null, "meanings": { "en": "Saturday" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "lundi", "romanization": null, "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "vendredi", "romanization": null, "options": { "en": ["Friday", "Thursday", "Saturday", "Wednesday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in French?" }, "options": { "neutral": ["mercredi", "mardi", "jeudi", "vendredi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Saturday' in French?" }, "options": { "neutral": ["samedi", "lundi", "vendredi", "dimanche"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mardi", "romanization": null, "options": { "en": ["Tuesday", "Thursday", "Monday", "Friday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "jeudi", "romanization": null, "options": { "en": ["Thursday", "Tuesday", "Wednesday", "Friday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "lundi", "romanization": null, "native": { "en": "Monday" } },
+              { "target": "mercredi", "romanization": null, "native": { "en": "Wednesday" } },
+              { "target": "vendredi", "romanization": null, "native": { "en": "Friday" } },
+              { "target": "samedi", "romanization": null, "native": { "en": "Saturday" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Months & Today/Tomorrow/Yesterday" },
+          "objectives": { "en": ["Name the months of the year", "Use aujourd'hui, demain, and hier", "Talk about dates"] },
+          "vocabulary": [
+            { "word": "aujourd'hui", "romanization": null, "meanings": { "en": "today" }, "gendered": null },
+            { "word": "demain", "romanization": null, "meanings": { "en": "tomorrow" }, "gendered": null },
+            { "word": "hier", "romanization": null, "meanings": { "en": "yesterday" }, "gendered": null },
+            { "word": "janvier", "romanization": null, "meanings": { "en": "January" }, "gendered": null },
+            { "word": "juin", "romanization": null, "meanings": { "en": "June" }, "gendered": null },
+            { "word": "décembre", "romanization": null, "meanings": { "en": "December" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "aujourd'hui", "romanization": null, "options": { "en": ["today", "tomorrow", "yesterday", "now"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "hier", "romanization": null, "options": { "en": ["yesterday", "today", "tomorrow", "last week"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'tomorrow' in French?" }, "options": { "neutral": ["demain", "aujourd'hui", "hier", "lundi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'January' in French?" }, "options": { "neutral": ["janvier", "juin", "décembre", "lundi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "juin", "romanization": null, "options": { "en": ["June", "January", "July", "December"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "décembre", "romanization": null, "options": { "en": ["December", "January", "June", "November"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "aujourd'hui", "romanization": null, "native": { "en": "today" } },
+              { "target": "demain", "romanization": null, "native": { "en": "tomorrow" } },
+              { "target": "hier", "romanization": null, "native": { "en": "yesterday" } },
+              { "target": "janvier", "romanization": null, "native": { "en": "January" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Directions, Transport & Shopping" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Asking for Directions" },
+          "objectives": { "en": ["Ask where something is located", "Understand basic direction words", "Use où est... and excusez-moi"] },
+          "vocabulary": [
+            { "word": "où est... ?", "romanization": null, "meanings": { "en": "where is...?" }, "gendered": null },
+            { "word": "à gauche", "romanization": null, "meanings": { "en": "to the left" }, "gendered": null },
+            { "word": "à droite", "romanization": null, "meanings": { "en": "to the right" }, "gendered": null },
+            { "word": "tout droit", "romanization": null, "meanings": { "en": "straight ahead" }, "gendered": null },
+            { "word": "près de", "romanization": null, "meanings": { "en": "near / close to" }, "gendered": null },
+            { "word": "loin de", "romanization": null, "meanings": { "en": "far from" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "à gauche", "romanization": null, "options": { "en": ["to the left", "to the right", "straight ahead", "near"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "tout droit", "romanization": null, "options": { "en": ["straight ahead", "to the left", "to the right", "far from"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to the right' in French?" }, "options": { "neutral": ["à droite", "à gauche", "tout droit", "près de"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'where is...?' in French?" }, "options": { "neutral": ["où est... ?", "c'est combien ?", "à gauche", "tout droit"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "près de", "romanization": null, "options": { "en": ["near / close to", "far from", "to the left", "straight ahead"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "loin de", "romanization": null, "options": { "en": ["far from", "near / close to", "to the right", "where is"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "à gauche", "romanization": null, "native": { "en": "to the left" } },
+              { "target": "à droite", "romanization": null, "native": { "en": "to the right" } },
+              { "target": "tout droit", "romanization": null, "native": { "en": "straight ahead" } },
+              { "target": "près de", "romanization": null, "native": { "en": "near" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Places in Town" },
+          "objectives": { "en": ["Name common places in a town", "Ask for and give directions to places", "Use il y a (there is/are)"] },
+          "vocabulary": [
+            { "word": "la gare", "romanization": null, "meanings": { "en": "the train station" }, "gendered": null },
+            { "word": "l'hôpital", "romanization": null, "meanings": { "en": "the hospital" }, "gendered": null },
+            { "word": "la pharmacie", "romanization": null, "meanings": { "en": "the pharmacy" }, "gendered": null },
+            { "word": "le supermarché", "romanization": null, "meanings": { "en": "the supermarket" }, "gendered": null },
+            { "word": "la banque", "romanization": null, "meanings": { "en": "the bank" }, "gendered": null },
+            { "word": "le restaurant", "romanization": null, "meanings": { "en": "the restaurant" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "la gare", "romanization": null, "options": { "en": ["the train station", "the hospital", "the pharmacy", "the bank"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le supermarché", "romanization": null, "options": { "en": ["the supermarket", "the restaurant", "the bank", "the pharmacy"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the hospital' in French?" }, "options": { "neutral": ["l'hôpital", "la pharmacie", "la gare", "la banque"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the bank' in French?" }, "options": { "neutral": ["la banque", "le supermarché", "la gare", "le restaurant"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la pharmacie", "romanization": null, "options": { "en": ["the pharmacy", "the hospital", "the bank", "the supermarket"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le restaurant", "romanization": null, "options": { "en": ["the restaurant", "the supermarket", "the train station", "the pharmacy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "la gare", "romanization": null, "native": { "en": "the train station" } },
+              { "target": "l'hôpital", "romanization": null, "native": { "en": "the hospital" } },
+              { "target": "la pharmacie", "romanization": null, "native": { "en": "the pharmacy" } },
+              { "target": "la banque", "romanization": null, "native": { "en": "the bank" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Transport" },
+          "objectives": { "en": ["Name common modes of transport", "Say how you travel using je prends", "Buy a ticket"] },
+          "vocabulary": [
+            { "word": "le bus", "romanization": null, "meanings": { "en": "the bus" }, "gendered": null },
+            { "word": "le métro", "romanization": null, "meanings": { "en": "the metro / subway" }, "gendered": null },
+            { "word": "le train", "romanization": null, "meanings": { "en": "the train" }, "gendered": null },
+            { "word": "le taxi", "romanization": null, "meanings": { "en": "the taxi" }, "gendered": null },
+            { "word": "un billet", "romanization": null, "meanings": { "en": "a ticket" }, "gendered": null },
+            { "word": "je prends", "romanization": null, "meanings": { "en": "I take" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le métro", "romanization": null, "options": { "en": ["the metro / subway", "the bus", "the train", "the taxi"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "un billet", "romanization": null, "options": { "en": ["a ticket", "a taxi", "a bus", "a train"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the train' in French?" }, "options": { "neutral": ["le train", "le bus", "le métro", "le taxi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I take' in French?" }, "options": { "neutral": ["je prends", "je voudrais", "j'aime", "je préfère"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le bus", "romanization": null, "options": { "en": ["the bus", "the metro", "the train", "the taxi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le taxi", "romanization": null, "options": { "en": ["the taxi", "the bus", "the train", "the ticket"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le bus", "romanization": null, "native": { "en": "the bus" } },
+              { "target": "le métro", "romanization": null, "native": { "en": "the metro" } },
+              { "target": "le train", "romanization": null, "native": { "en": "the train" } },
+              { "target": "un billet", "romanization": null, "native": { "en": "a ticket" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Shopping Basics" },
+          "objectives": { "en": ["Ask for prices in shops", "Use basic shopping vocabulary", "Handle simple transactions"] },
+          "vocabulary": [
+            { "word": "le magasin", "romanization": null, "meanings": { "en": "the shop / store" }, "gendered": null },
+            { "word": "acheter", "romanization": null, "meanings": { "en": "to buy" }, "gendered": null },
+            { "word": "cher", "romanization": null, "meanings": { "en": "expensive" }, "gendered": { "male": { "word": "cher", "romanization": null }, "female": { "word": "chère", "romanization": null } } },
+            { "word": "bon marché", "romanization": null, "meanings": { "en": "cheap / inexpensive" }, "gendered": null },
+            { "word": "la taille", "romanization": null, "meanings": { "en": "the size" }, "gendered": null },
+            { "word": "je cherche", "romanization": null, "meanings": { "en": "I am looking for" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le magasin", "romanization": null, "options": { "en": ["the shop / store", "the supermarket", "the bank", "the restaurant"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "acheter", "romanization": null, "options": { "en": ["to buy", "to sell", "to look for", "to take"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'expensive' (masculine) in French?" }, "options": { "neutral": ["cher", "bon marché", "grand", "petit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am looking for' in French?" }, "options": { "neutral": ["je cherche", "je prends", "j'achète", "je voudrais"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "bon marché", "romanization": null, "options": { "en": ["cheap / inexpensive", "expensive", "the shop", "the size"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la taille", "romanization": null, "options": { "en": ["the size", "the price", "the shop", "expensive"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le magasin", "romanization": null, "native": { "en": "the shop" } },
+              { "target": "acheter", "romanization": null, "native": { "en": "to buy" } },
+              { "target": "cher", "romanization": null, "native": { "en": "expensive" } },
+              { "target": "bon marché", "romanization": null, "native": { "en": "cheap" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

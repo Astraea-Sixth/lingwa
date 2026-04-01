@@ -1,0 +1,583 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Household Chores" },
+          "objectives": { "en": ["Describe common household tasks", "Use devoir (must/have to) with chores", "Talk about responsibilities at home"] },
+          "vocabulary": [
+            { "word": "faire le ménage", "romanization": null, "meanings": { "en": "to do the housework" }, "gendered": null },
+            { "word": "faire la cuisine", "romanization": null, "meanings": { "en": "to cook" }, "gendered": null },
+            { "word": "faire la vaisselle", "romanization": null, "meanings": { "en": "to do the dishes" }, "gendered": null },
+            { "word": "passer l'aspirateur", "romanization": null, "meanings": { "en": "to vacuum" }, "gendered": null },
+            { "word": "ranger", "romanization": null, "meanings": { "en": "to tidy up" }, "gendered": null },
+            { "word": "je dois", "romanization": null, "meanings": { "en": "I must / I have to" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "faire le ménage", "romanization": null, "options": { "en": ["to do the housework", "to cook", "to do the dishes", "to vacuum"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "passer l'aspirateur", "romanization": null, "options": { "en": ["to vacuum", "to tidy up", "to do the housework", "to cook"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to cook' in French?" }, "options": { "neutral": ["faire la cuisine", "faire la vaisselle", "faire le ménage", "ranger"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I must' in French?" }, "options": { "neutral": ["je dois", "je peux", "je veux", "je fais"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "faire la vaisselle", "romanization": null, "options": { "en": ["to do the dishes", "to cook", "to vacuum", "to tidy up"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ranger", "romanization": null, "options": { "en": ["to tidy up", "to do the housework", "to vacuum", "to cook"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "faire le ménage", "romanization": null, "native": { "en": "to do the housework" } },
+              { "target": "faire la cuisine", "romanization": null, "native": { "en": "to cook" } },
+              { "target": "faire la vaisselle", "romanization": null, "native": { "en": "to do the dishes" } },
+              { "target": "ranger", "romanization": null, "native": { "en": "to tidy up" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Around the House" },
+          "objectives": { "en": ["Name rooms in a house", "Describe where things are located", "Use prepositions of place (dans, sur, sous)"] },
+          "vocabulary": [
+            { "word": "la cuisine", "romanization": null, "meanings": { "en": "the kitchen" }, "gendered": null },
+            { "word": "la chambre", "romanization": null, "meanings": { "en": "the bedroom" }, "gendered": null },
+            { "word": "la salle de bains", "romanization": null, "meanings": { "en": "the bathroom" }, "gendered": null },
+            { "word": "le salon", "romanization": null, "meanings": { "en": "the living room" }, "gendered": null },
+            { "word": "le jardin", "romanization": null, "meanings": { "en": "the garden" }, "gendered": null },
+            { "word": "l'escalier", "romanization": null, "meanings": { "en": "the staircase" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "la cuisine", "romanization": null, "options": { "en": ["the kitchen", "the bedroom", "the bathroom", "the living room"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le salon", "romanization": null, "options": { "en": ["the living room", "the kitchen", "the garden", "the bedroom"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the bedroom' in French?" }, "options": { "neutral": ["la chambre", "la cuisine", "le salon", "la salle de bains"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the garden' in French?" }, "options": { "neutral": ["le jardin", "le salon", "la cuisine", "l'escalier"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la salle de bains", "romanization": null, "options": { "en": ["the bathroom", "the bedroom", "the kitchen", "the living room"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "l'escalier", "romanization": null, "options": { "en": ["the staircase", "the garden", "the living room", "the bathroom"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "la cuisine", "romanization": null, "native": { "en": "the kitchen" } },
+              { "target": "la chambre", "romanization": null, "native": { "en": "the bedroom" } },
+              { "target": "le salon", "romanization": null, "native": { "en": "the living room" } },
+              { "target": "le jardin", "romanization": null, "native": { "en": "the garden" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Hobbies & Leisure" },
+          "objectives": { "en": ["Talk about hobbies and free-time activities", "Use jouer à and faire de for sports/activities", "Express frequency with souvent, parfois, jamais"] },
+          "vocabulary": [
+            { "word": "lire", "romanization": null, "meanings": { "en": "to read" }, "gendered": null },
+            { "word": "regarder la télé", "romanization": null, "meanings": { "en": "to watch TV" }, "gendered": null },
+            { "word": "faire du sport", "romanization": null, "meanings": { "en": "to do sports" }, "gendered": null },
+            { "word": "se promener", "romanization": null, "meanings": { "en": "to go for a walk" }, "gendered": null },
+            { "word": "souvent", "romanization": null, "meanings": { "en": "often" }, "gendered": null },
+            { "word": "parfois", "romanization": null, "meanings": { "en": "sometimes" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "lire", "romanization": null, "options": { "en": ["to read", "to watch TV", "to do sports", "to walk"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "souvent", "romanization": null, "options": { "en": ["often", "sometimes", "never", "always"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to do sports' in French?" }, "options": { "neutral": ["faire du sport", "regarder la télé", "lire", "se promener"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sometimes' in French?" }, "options": { "neutral": ["parfois", "souvent", "toujours", "jamais"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "regarder la télé", "romanization": null, "options": { "en": ["to watch TV", "to read", "to do sports", "to go for a walk"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "se promener", "romanization": null, "options": { "en": ["to go for a walk", "to do sports", "to read", "to watch TV"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "lire", "romanization": null, "native": { "en": "to read" } },
+              { "target": "regarder la télé", "romanization": null, "native": { "en": "to watch TV" } },
+              { "target": "faire du sport", "romanization": null, "native": { "en": "to do sports" } },
+              { "target": "se promener", "romanization": null, "native": { "en": "to go for a walk" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Describing Your Day" },
+          "objectives": { "en": ["Narrate a typical day using sequencing words", "Use d'abord, ensuite, puis, enfin", "Combine daily activities into connected speech"] },
+          "vocabulary": [
+            { "word": "d'abord", "romanization": null, "meanings": { "en": "first / at first" }, "gendered": null },
+            { "word": "ensuite", "romanization": null, "meanings": { "en": "then / next" }, "gendered": null },
+            { "word": "puis", "romanization": null, "meanings": { "en": "then / afterwards" }, "gendered": null },
+            { "word": "enfin", "romanization": null, "meanings": { "en": "finally" }, "gendered": null },
+            { "word": "pendant", "romanization": null, "meanings": { "en": "during / for (time)" }, "gendered": null },
+            { "word": "après", "romanization": null, "meanings": { "en": "after" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "d'abord", "romanization": null, "options": { "en": ["first / at first", "then", "finally", "after"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "enfin", "romanization": null, "options": { "en": ["finally", "first", "then", "during"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'then / next' in French?" }, "options": { "neutral": ["ensuite", "d'abord", "enfin", "après"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'during' in French?" }, "options": { "neutral": ["pendant", "après", "puis", "enfin"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "puis", "romanization": null, "options": { "en": ["then / afterwards", "first", "finally", "during"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "après", "romanization": null, "options": { "en": ["after", "before", "during", "first"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "d'abord", "romanization": null, "native": { "en": "first" } },
+              { "target": "ensuite", "romanization": null, "native": { "en": "then / next" } },
+              { "target": "enfin", "romanization": null, "native": { "en": "finally" } },
+              { "target": "après", "romanization": null, "native": { "en": "after" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Talking About the Weather" },
+          "objectives": { "en": ["Describe current weather conditions", "Use il fait... for weather expressions", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "quel temps fait-il ?", "romanization": null, "meanings": { "en": "what's the weather like?" }, "gendered": null },
+            { "word": "il fait beau", "romanization": null, "meanings": { "en": "it's nice weather" }, "gendered": null },
+            { "word": "il fait chaud", "romanization": null, "meanings": { "en": "it's hot" }, "gendered": null },
+            { "word": "il fait froid", "romanization": null, "meanings": { "en": "it's cold" }, "gendered": null },
+            { "word": "il pleut", "romanization": null, "meanings": { "en": "it's raining" }, "gendered": null },
+            { "word": "il neige", "romanization": null, "meanings": { "en": "it's snowing" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "il fait beau", "romanization": null, "options": { "en": ["it's nice weather", "it's hot", "it's cold", "it's raining"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "il pleut", "romanization": null, "options": { "en": ["it's raining", "it's snowing", "it's hot", "it's nice weather"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'it's cold' in French?" }, "options": { "neutral": ["il fait froid", "il fait chaud", "il fait beau", "il pleut"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'what's the weather like?' in French?" }, "options": { "neutral": ["quel temps fait-il ?", "il fait beau", "il fait chaud", "il pleut"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "il fait chaud", "romanization": null, "options": { "en": ["it's hot", "it's cold", "it's nice weather", "it's raining"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "il neige", "romanization": null, "options": { "en": ["it's snowing", "it's raining", "it's cold", "it's hot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "il fait beau", "romanization": null, "native": { "en": "it's nice weather" } },
+              { "target": "il fait chaud", "romanization": null, "native": { "en": "it's hot" } },
+              { "target": "il fait froid", "romanization": null, "native": { "en": "it's cold" } },
+              { "target": "il pleut", "romanization": null, "native": { "en": "it's raining" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "More Weather & Clothing" },
+          "objectives": { "en": ["Describe additional weather conditions", "Talk about clothing for different weather", "Use il y a du vent, du soleil"] },
+          "vocabulary": [
+            { "word": "il y a du vent", "romanization": null, "meanings": { "en": "it's windy" }, "gendered": null },
+            { "word": "il y a du soleil", "romanization": null, "meanings": { "en": "it's sunny" }, "gendered": null },
+            { "word": "le parapluie", "romanization": null, "meanings": { "en": "the umbrella" }, "gendered": null },
+            { "word": "le manteau", "romanization": null, "meanings": { "en": "the coat" }, "gendered": null },
+            { "word": "les lunettes de soleil", "romanization": null, "meanings": { "en": "the sunglasses" }, "gendered": null },
+            { "word": "il fait mauvais", "romanization": null, "meanings": { "en": "the weather is bad" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "il y a du vent", "romanization": null, "options": { "en": ["it's windy", "it's sunny", "it's raining", "it's cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le parapluie", "romanization": null, "options": { "en": ["the umbrella", "the coat", "the sunglasses", "the hat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'it's sunny' in French?" }, "options": { "neutral": ["il y a du soleil", "il y a du vent", "il fait beau", "il fait chaud"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the coat' in French?" }, "options": { "neutral": ["le manteau", "le parapluie", "les lunettes de soleil", "la veste"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "les lunettes de soleil", "romanization": null, "options": { "en": ["the sunglasses", "the umbrella", "the coat", "the sun"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "il fait mauvais", "romanization": null, "options": { "en": ["the weather is bad", "it's nice weather", "it's windy", "it's cold"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "il y a du vent", "romanization": null, "native": { "en": "it's windy" } },
+              { "target": "il y a du soleil", "romanization": null, "native": { "en": "it's sunny" } },
+              { "target": "le parapluie", "romanization": null, "native": { "en": "the umbrella" } },
+              { "target": "le manteau", "romanization": null, "native": { "en": "the coat" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "The Four Seasons" },
+          "objectives": { "en": ["Name the four seasons in French", "Describe what you do in each season", "Use en and au with seasons"] },
+          "vocabulary": [
+            { "word": "le printemps", "romanization": null, "meanings": { "en": "spring" }, "gendered": null },
+            { "word": "l'été", "romanization": null, "meanings": { "en": "summer" }, "gendered": null },
+            { "word": "l'automne", "romanization": null, "meanings": { "en": "autumn / fall" }, "gendered": null },
+            { "word": "l'hiver", "romanization": null, "meanings": { "en": "winter" }, "gendered": null },
+            { "word": "au printemps", "romanization": null, "meanings": { "en": "in spring" }, "gendered": null },
+            { "word": "en été", "romanization": null, "meanings": { "en": "in summer" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le printemps", "romanization": null, "options": { "en": ["spring", "summer", "autumn", "winter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "l'hiver", "romanization": null, "options": { "en": ["winter", "autumn", "summer", "spring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'summer' in French?" }, "options": { "neutral": ["l'été", "l'hiver", "le printemps", "l'automne"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'in spring' in French?" }, "options": { "neutral": ["au printemps", "en été", "en hiver", "en automne"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "l'automne", "romanization": null, "options": { "en": ["autumn / fall", "spring", "summer", "winter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "en été", "romanization": null, "options": { "en": ["in summer", "in spring", "in winter", "in autumn"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le printemps", "romanization": null, "native": { "en": "spring" } },
+              { "target": "l'été", "romanization": null, "native": { "en": "summer" } },
+              { "target": "l'automne", "romanization": null, "native": { "en": "autumn" } },
+              { "target": "l'hiver", "romanization": null, "native": { "en": "winter" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Seasonal Activities & Holidays" },
+          "objectives": { "en": ["Talk about seasonal activities", "Mention French holidays and celebrations", "Use pendant and en with time expressions"] },
+          "vocabulary": [
+            { "word": "les vacances", "romanization": null, "meanings": { "en": "the holidays / vacation" }, "gendered": null },
+            { "word": "la plage", "romanization": null, "meanings": { "en": "the beach" }, "gendered": null },
+            { "word": "la montagne", "romanization": null, "meanings": { "en": "the mountain" }, "gendered": null },
+            { "word": "nager", "romanization": null, "meanings": { "en": "to swim" }, "gendered": null },
+            { "word": "skier", "romanization": null, "meanings": { "en": "to ski" }, "gendered": null },
+            { "word": "voyager", "romanization": null, "meanings": { "en": "to travel" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "les vacances", "romanization": null, "options": { "en": ["the holidays / vacation", "the beach", "the mountain", "to travel"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "nager", "romanization": null, "options": { "en": ["to swim", "to ski", "to travel", "to walk"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the beach' in French?" }, "options": { "neutral": ["la plage", "la montagne", "les vacances", "la mer"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to ski' in French?" }, "options": { "neutral": ["skier", "nager", "voyager", "marcher"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la montagne", "romanization": null, "options": { "en": ["the mountain", "the beach", "the vacation", "the forest"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "voyager", "romanization": null, "options": { "en": ["to travel", "to swim", "to ski", "to walk"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "les vacances", "romanization": null, "native": { "en": "the holidays" } },
+              { "target": "la plage", "romanization": null, "native": { "en": "the beach" } },
+              { "target": "nager", "romanization": null, "native": { "en": "to swim" } },
+              { "target": "voyager", "romanization": null, "native": { "en": "to travel" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Well-being" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Parts of the Body" },
+          "objectives": { "en": ["Name common body parts in French", "Use avoir mal à... to express pain", "Describe physical symptoms"] },
+          "vocabulary": [
+            { "word": "la tête", "romanization": null, "meanings": { "en": "the head" }, "gendered": null },
+            { "word": "le bras", "romanization": null, "meanings": { "en": "the arm" }, "gendered": null },
+            { "word": "la jambe", "romanization": null, "meanings": { "en": "the leg" }, "gendered": null },
+            { "word": "le ventre", "romanization": null, "meanings": { "en": "the stomach / belly" }, "gendered": null },
+            { "word": "le dos", "romanization": null, "meanings": { "en": "the back" }, "gendered": null },
+            { "word": "la gorge", "romanization": null, "meanings": { "en": "the throat" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "la tête", "romanization": null, "options": { "en": ["the head", "the arm", "the leg", "the back"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le ventre", "romanization": null, "options": { "en": ["the stomach / belly", "the back", "the throat", "the arm"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the arm' in French?" }, "options": { "neutral": ["le bras", "la jambe", "le dos", "la tête"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the throat' in French?" }, "options": { "neutral": ["la gorge", "le ventre", "la tête", "le dos"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la jambe", "romanization": null, "options": { "en": ["the leg", "the arm", "the back", "the head"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le dos", "romanization": null, "options": { "en": ["the back", "the stomach", "the leg", "the throat"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "la tête", "romanization": null, "native": { "en": "the head" } },
+              { "target": "le bras", "romanization": null, "native": { "en": "the arm" } },
+              { "target": "la jambe", "romanization": null, "native": { "en": "the leg" } },
+              { "target": "le dos", "romanization": null, "native": { "en": "the back" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Unwell" },
+          "objectives": { "en": ["Express that you feel unwell", "Describe common symptoms", "Use avoir mal à + body part"] },
+          "vocabulary": [
+            { "word": "je suis malade", "romanization": null, "meanings": { "en": "I am sick" }, "gendered": null },
+            { "word": "j'ai mal à la tête", "romanization": null, "meanings": { "en": "I have a headache" }, "gendered": null },
+            { "word": "j'ai de la fièvre", "romanization": null, "meanings": { "en": "I have a fever" }, "gendered": null },
+            { "word": "j'ai mal au ventre", "romanization": null, "meanings": { "en": "I have a stomachache" }, "gendered": null },
+            { "word": "je suis fatigué", "romanization": null, "meanings": { "en": "I am tired" }, "gendered": { "male": { "word": "je suis fatigué", "romanization": null }, "female": { "word": "je suis fatiguée", "romanization": null } } },
+            { "word": "j'ai mal à la gorge", "romanization": null, "meanings": { "en": "I have a sore throat" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "je suis malade", "romanization": null, "options": { "en": ["I am sick", "I have a headache", "I am tired", "I have a fever"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "j'ai de la fièvre", "romanization": null, "options": { "en": ["I have a fever", "I have a headache", "I am sick", "I have a stomachache"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I have a headache' in French?" }, "options": { "neutral": ["j'ai mal à la tête", "j'ai mal au ventre", "j'ai de la fièvre", "je suis malade"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am tired' (male) in French?" }, "options": { "neutral": ["je suis fatigué", "je suis malade", "j'ai de la fièvre", "j'ai mal à la tête"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "j'ai mal au ventre", "romanization": null, "options": { "en": ["I have a stomachache", "I have a headache", "I have a sore throat", "I have a fever"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "j'ai mal à la gorge", "romanization": null, "options": { "en": ["I have a sore throat", "I have a stomachache", "I have a headache", "I am sick"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "je suis malade", "romanization": null, "native": { "en": "I am sick" } },
+              { "target": "j'ai mal à la tête", "romanization": null, "native": { "en": "I have a headache" } },
+              { "target": "j'ai de la fièvre", "romanization": null, "native": { "en": "I have a fever" } },
+              { "target": "je suis fatigué", "romanization": null, "native": { "en": "I am tired" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor's" },
+          "objectives": { "en": ["Communicate with a doctor about symptoms", "Understand basic medical instructions", "Use devoir + infinitive for advice"] },
+          "vocabulary": [
+            { "word": "le médecin", "romanization": null, "meanings": { "en": "the doctor" }, "gendered": null },
+            { "word": "le rendez-vous", "romanization": null, "meanings": { "en": "the appointment" }, "gendered": null },
+            { "word": "le médicament", "romanization": null, "meanings": { "en": "the medicine / medication" }, "gendered": null },
+            { "word": "une ordonnance", "romanization": null, "meanings": { "en": "a prescription" }, "gendered": null },
+            { "word": "vous devez vous reposer", "romanization": null, "meanings": { "en": "you must rest" }, "gendered": null },
+            { "word": "ouvrez la bouche", "romanization": null, "meanings": { "en": "open your mouth" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le médecin", "romanization": null, "options": { "en": ["the doctor", "the appointment", "the medicine", "the prescription"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "le médicament", "romanization": null, "options": { "en": ["the medicine / medication", "the prescription", "the doctor", "the appointment"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the appointment' in French?" }, "options": { "neutral": ["le rendez-vous", "le médecin", "le médicament", "une ordonnance"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'a prescription' in French?" }, "options": { "neutral": ["une ordonnance", "le médicament", "le rendez-vous", "le médecin"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "vous devez vous reposer", "romanization": null, "options": { "en": ["you must rest", "open your mouth", "take medicine", "the appointment"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ouvrez la bouche", "romanization": null, "options": { "en": ["open your mouth", "you must rest", "take medicine", "the doctor"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le médecin", "romanization": null, "native": { "en": "the doctor" } },
+              { "target": "le rendez-vous", "romanization": null, "native": { "en": "the appointment" } },
+              { "target": "le médicament", "romanization": null, "native": { "en": "the medicine" } },
+              { "target": "une ordonnance", "romanization": null, "native": { "en": "a prescription" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "At the Pharmacy" },
+          "objectives": { "en": ["Ask for common remedies at a pharmacy", "Describe symptoms to a pharmacist", "Understand dosage instructions"] },
+          "vocabulary": [
+            { "word": "la pharmacie", "romanization": null, "meanings": { "en": "the pharmacy" }, "gendered": null },
+            { "word": "le sirop", "romanization": null, "meanings": { "en": "the syrup" }, "gendered": null },
+            { "word": "le comprimé", "romanization": null, "meanings": { "en": "the tablet / pill" }, "gendered": null },
+            { "word": "la crème", "romanization": null, "meanings": { "en": "the cream / ointment" }, "gendered": null },
+            { "word": "trois fois par jour", "romanization": null, "meanings": { "en": "three times a day" }, "gendered": null },
+            { "word": "avant les repas", "romanization": null, "meanings": { "en": "before meals" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "le comprimé", "romanization": null, "options": { "en": ["the tablet / pill", "the syrup", "the cream", "the pharmacy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "trois fois par jour", "romanization": null, "options": { "en": ["three times a day", "before meals", "the tablet", "the syrup"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the syrup' in French?" }, "options": { "neutral": ["le sirop", "le comprimé", "la crème", "le médicament"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'before meals' in French?" }, "options": { "neutral": ["avant les repas", "trois fois par jour", "le comprimé", "la pharmacie"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la crème", "romanization": null, "options": { "en": ["the cream / ointment", "the syrup", "the tablet", "the pharmacy"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "la pharmacie", "romanization": null, "options": { "en": ["the pharmacy", "the cream", "the syrup", "the tablet"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "le sirop", "romanization": null, "native": { "en": "the syrup" } },
+              { "target": "le comprimé", "romanization": null, "native": { "en": "the tablet" } },
+              { "target": "la crème", "romanization": null, "native": { "en": "the cream" } },
+              { "target": "trois fois par jour", "romanization": null, "native": { "en": "three times a day" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Appointments" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Suggest activities using on pourrait", "Accept and decline invitations", "Use the near future (aller + infinitive)"] },
+          "vocabulary": [
+            { "word": "je vais", "romanization": null, "meanings": { "en": "I am going to" }, "gendered": null },
+            { "word": "on pourrait", "romanization": null, "meanings": { "en": "we could" }, "gendered": null },
+            { "word": "bonne idée", "romanization": null, "meanings": { "en": "good idea" }, "gendered": null },
+            { "word": "je ne peux pas", "romanization": null, "meanings": { "en": "I can't" }, "gendered": null },
+            { "word": "d'accord", "romanization": null, "meanings": { "en": "OK / agreed" }, "gendered": null },
+            { "word": "ça te dit ?", "romanization": null, "meanings": { "en": "how about it? / sound good?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "on pourrait", "romanization": null, "options": { "en": ["we could", "I am going to", "I can't", "good idea"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "je ne peux pas", "romanization": null, "options": { "en": ["I can't", "I am going to", "we could", "OK"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'good idea' in French?" }, "options": { "neutral": ["bonne idée", "d'accord", "ça te dit ?", "on pourrait"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'OK / agreed' in French?" }, "options": { "neutral": ["d'accord", "bonne idée", "je ne peux pas", "ça te dit ?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "je vais", "romanization": null, "options": { "en": ["I am going to", "I can't", "we could", "good idea"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ça te dit ?", "romanization": null, "options": { "en": ["how about it?", "good idea", "OK", "I can't"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "on pourrait", "romanization": null, "native": { "en": "we could" } },
+              { "target": "bonne idée", "romanization": null, "native": { "en": "good idea" } },
+              { "target": "je ne peux pas", "romanization": null, "native": { "en": "I can't" } },
+              { "target": "d'accord", "romanization": null, "native": { "en": "OK / agreed" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Setting a Date & Time" },
+          "objectives": { "en": ["Suggest specific dates and times for meetings", "Use quand and à quelle heure", "Confirm arrangements"] },
+          "vocabulary": [
+            { "word": "quand ?", "romanization": null, "meanings": { "en": "when?" }, "gendered": null },
+            { "word": "à quelle heure ?", "romanization": null, "meanings": { "en": "at what time?" }, "gendered": null },
+            { "word": "ce soir", "romanization": null, "meanings": { "en": "this evening / tonight" }, "gendered": null },
+            { "word": "ce week-end", "romanization": null, "meanings": { "en": "this weekend" }, "gendered": null },
+            { "word": "la semaine prochaine", "romanization": null, "meanings": { "en": "next week" }, "gendered": null },
+            { "word": "ça marche", "romanization": null, "meanings": { "en": "that works / sounds good" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ce soir", "romanization": null, "options": { "en": ["this evening / tonight", "this weekend", "next week", "when?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "la semaine prochaine", "romanization": null, "options": { "en": ["next week", "this weekend", "this evening", "when?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'at what time?' in French?" }, "options": { "neutral": ["à quelle heure ?", "quand ?", "ce soir", "ça marche"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'this weekend' in French?" }, "options": { "neutral": ["ce week-end", "ce soir", "la semaine prochaine", "quand ?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "quand ?", "romanization": null, "options": { "en": ["when?", "at what time?", "this evening", "next week"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ça marche", "romanization": null, "options": { "en": ["that works / sounds good", "good idea", "OK", "this weekend"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "quand ?", "romanization": null, "native": { "en": "when?" } },
+              { "target": "à quelle heure ?", "romanization": null, "native": { "en": "at what time?" } },
+              { "target": "ce soir", "romanization": null, "native": { "en": "this evening" } },
+              { "target": "ce week-end", "romanization": null, "native": { "en": "this weekend" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Phone Calls & Messages" },
+          "objectives": { "en": ["Make and receive phone calls in French", "Leave a simple message", "Use allô and common phone expressions"] },
+          "vocabulary": [
+            { "word": "allô", "romanization": null, "meanings": { "en": "hello (on the phone)" }, "gendered": null },
+            { "word": "je voudrais parler à...", "romanization": null, "meanings": { "en": "I would like to speak to..." }, "gendered": null },
+            { "word": "un instant", "romanization": null, "meanings": { "en": "one moment" }, "gendered": null },
+            { "word": "laisser un message", "romanization": null, "meanings": { "en": "to leave a message" }, "gendered": null },
+            { "word": "rappeler", "romanization": null, "meanings": { "en": "to call back" }, "gendered": null },
+            { "word": "le numéro de téléphone", "romanization": null, "meanings": { "en": "the phone number" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "allô", "romanization": null, "options": { "en": ["hello (on the phone)", "goodbye", "one moment", "please"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "rappeler", "romanization": null, "options": { "en": ["to call back", "to leave a message", "to speak", "one moment"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to leave a message' in French?" }, "options": { "neutral": ["laisser un message", "rappeler", "un instant", "allô"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'one moment' in French?" }, "options": { "neutral": ["un instant", "allô", "rappeler", "laisser un message"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "je voudrais parler à...", "romanization": null, "options": { "en": ["I would like to speak to...", "to leave a message", "hello", "one moment"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le numéro de téléphone", "romanization": null, "options": { "en": ["the phone number", "the message", "one moment", "to call back"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "allô", "romanization": null, "native": { "en": "hello (phone)" } },
+              { "target": "laisser un message", "romanization": null, "native": { "en": "to leave a message" } },
+              { "target": "rappeler", "romanization": null, "native": { "en": "to call back" } },
+              { "target": "un instant", "romanization": null, "native": { "en": "one moment" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Cancelling & Rescheduling" },
+          "objectives": { "en": ["Cancel an appointment politely", "Reschedule plans", "Apologize and give reasons"] },
+          "vocabulary": [
+            { "word": "annuler", "romanization": null, "meanings": { "en": "to cancel" }, "gendered": null },
+            { "word": "reporter", "romanization": null, "meanings": { "en": "to postpone / reschedule" }, "gendered": null },
+            { "word": "je suis désolé", "romanization": null, "meanings": { "en": "I am sorry" }, "gendered": { "male": { "word": "je suis désolé", "romanization": null }, "female": { "word": "je suis désolée", "romanization": null } } },
+            { "word": "ce n'est pas possible", "romanization": null, "meanings": { "en": "it's not possible" }, "gendered": null },
+            { "word": "est-ce qu'on peut changer ?", "romanization": null, "meanings": { "en": "can we change it?" }, "gendered": null },
+            { "word": "excusez-moi", "romanization": null, "meanings": { "en": "excuse me / I'm sorry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "annuler", "romanization": null, "options": { "en": ["to cancel", "to postpone", "I am sorry", "excuse me"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "reporter", "romanization": null, "options": { "en": ["to postpone / reschedule", "to cancel", "it's not possible", "can we change it?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am sorry' (male) in French?" }, "options": { "neutral": ["je suis désolé", "excusez-moi", "ce n'est pas possible", "annuler"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'it's not possible' in French?" }, "options": { "neutral": ["ce n'est pas possible", "je suis désolé", "annuler", "reporter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "excusez-moi", "romanization": null, "options": { "en": ["excuse me / I'm sorry", "I am sorry", "to cancel", "it's not possible"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "est-ce qu'on peut changer ?", "romanization": null, "options": { "en": ["can we change it?", "it's not possible", "to postpone", "I am sorry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "annuler", "romanization": null, "native": { "en": "to cancel" } },
+              { "target": "reporter", "romanization": null, "native": { "en": "to postpone" } },
+              { "target": "je suis désolé", "romanization": null, "native": { "en": "I am sorry" } },
+              { "target": "excusez-moi", "romanization": null, "native": { "en": "excuse me" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Preferences" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Opinions" },
+          "objectives": { "en": ["Share your opinion using je pense que and je crois que", "Agree and disagree politely", "Use opinion phrases in conversation"] },
+          "vocabulary": [
+            { "word": "je pense que", "romanization": null, "meanings": { "en": "I think that" }, "gendered": null },
+            { "word": "je crois que", "romanization": null, "meanings": { "en": "I believe that" }, "gendered": null },
+            { "word": "je suis d'accord", "romanization": null, "meanings": { "en": "I agree" }, "gendered": null },
+            { "word": "je ne suis pas d'accord", "romanization": null, "meanings": { "en": "I disagree" }, "gendered": null },
+            { "word": "à mon avis", "romanization": null, "meanings": { "en": "in my opinion" }, "gendered": null },
+            { "word": "c'est vrai", "romanization": null, "meanings": { "en": "that's true" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "je pense que", "romanization": null, "options": { "en": ["I think that", "I believe that", "I agree", "in my opinion"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "je ne suis pas d'accord", "romanization": null, "options": { "en": ["I disagree", "I agree", "that's true", "I think that"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I agree' in French?" }, "options": { "neutral": ["je suis d'accord", "je ne suis pas d'accord", "je pense que", "c'est vrai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'in my opinion' in French?" }, "options": { "neutral": ["à mon avis", "je crois que", "je pense que", "c'est vrai"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "je crois que", "romanization": null, "options": { "en": ["I believe that", "I think that", "I agree", "in my opinion"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "c'est vrai", "romanization": null, "options": { "en": ["that's true", "I agree", "I disagree", "in my opinion"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "je pense que", "romanization": null, "native": { "en": "I think that" } },
+              { "target": "je crois que", "romanization": null, "native": { "en": "I believe that" } },
+              { "target": "je suis d'accord", "romanization": null, "native": { "en": "I agree" } },
+              { "target": "à mon avis", "romanization": null, "native": { "en": "in my opinion" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Likes, Dislikes & Preferences" },
+          "objectives": { "en": ["Express detailed preferences", "Compare things using plus... que and moins... que", "Use adorer, détester, préférer"] },
+          "vocabulary": [
+            { "word": "adorer", "romanization": null, "meanings": { "en": "to love / to adore" }, "gendered": null },
+            { "word": "détester", "romanization": null, "meanings": { "en": "to hate / to detest" }, "gendered": null },
+            { "word": "préférer", "romanization": null, "meanings": { "en": "to prefer" }, "gendered": null },
+            { "word": "plus... que", "romanization": null, "meanings": { "en": "more... than" }, "gendered": null },
+            { "word": "moins... que", "romanization": null, "meanings": { "en": "less... than" }, "gendered": null },
+            { "word": "aussi... que", "romanization": null, "meanings": { "en": "as... as" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "adorer", "romanization": null, "options": { "en": ["to love / to adore", "to hate", "to prefer", "to like"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "moins... que", "romanization": null, "options": { "en": ["less... than", "more... than", "as... as", "better than"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to hate' in French?" }, "options": { "neutral": ["détester", "adorer", "préférer", "aimer"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'more... than' in French?" }, "options": { "neutral": ["plus... que", "moins... que", "aussi... que", "mieux... que"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "préférer", "romanization": null, "options": { "en": ["to prefer", "to love", "to hate", "to like"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "aussi... que", "romanization": null, "options": { "en": ["as... as", "more... than", "less... than", "better than"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "adorer", "romanization": null, "native": { "en": "to love" } },
+              { "target": "détester", "romanization": null, "native": { "en": "to hate" } },
+              { "target": "préférer", "romanization": null, "native": { "en": "to prefer" } },
+              { "target": "plus... que", "romanization": null, "native": { "en": "more... than" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Talking About Interests" },
+          "objectives": { "en": ["Discuss interests and passions", "Use s'intéresser à and être passionné par", "Ask others about their interests"] },
+          "vocabulary": [
+            { "word": "s'intéresser à", "romanization": null, "meanings": { "en": "to be interested in" }, "gendered": null },
+            { "word": "la musique", "romanization": null, "meanings": { "en": "music" }, "gendered": null },
+            { "word": "le cinéma", "romanization": null, "meanings": { "en": "cinema / movies" }, "gendered": null },
+            { "word": "la lecture", "romanization": null, "meanings": { "en": "reading" }, "gendered": null },
+            { "word": "le sport", "romanization": null, "meanings": { "en": "sport" }, "gendered": null },
+            { "word": "qu'est-ce qui vous intéresse ?", "romanization": null, "meanings": { "en": "what interests you?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "s'intéresser à", "romanization": null, "options": { "en": ["to be interested in", "music", "cinema", "reading"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "la lecture", "romanization": null, "options": { "en": ["reading", "music", "cinema", "sport"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'music' in French?" }, "options": { "neutral": ["la musique", "le cinéma", "la lecture", "le sport"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cinema / movies' in French?" }, "options": { "neutral": ["le cinéma", "la musique", "la lecture", "le sport"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "le sport", "romanization": null, "options": { "en": ["sport", "music", "cinema", "reading"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "qu'est-ce qui vous intéresse ?", "romanization": null, "options": { "en": ["what interests you?", "to be interested in", "music", "sport"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "la musique", "romanization": null, "native": { "en": "music" } },
+              { "target": "le cinéma", "romanization": null, "native": { "en": "cinema" } },
+              { "target": "la lecture", "romanization": null, "native": { "en": "reading" } },
+              { "target": "le sport", "romanization": null, "native": { "en": "sport" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Giving Recommendations" },
+          "objectives": { "en": ["Recommend places, films, and activities", "Use je vous conseille and il faut", "Ask for and give suggestions"] },
+          "vocabulary": [
+            { "word": "je vous conseille", "romanization": null, "meanings": { "en": "I recommend (to you)" }, "gendered": null },
+            { "word": "il faut", "romanization": null, "meanings": { "en": "one must / you should" }, "gendered": null },
+            { "word": "essayer", "romanization": null, "meanings": { "en": "to try" }, "gendered": null },
+            { "word": "c'est génial", "romanization": null, "meanings": { "en": "it's great / awesome" }, "gendered": null },
+            { "word": "c'est nul", "romanization": null, "meanings": { "en": "it's terrible / rubbish" }, "gendered": null },
+            { "word": "ça vaut le coup", "romanization": null, "meanings": { "en": "it's worth it" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "je vous conseille", "romanization": null, "options": { "en": ["I recommend", "you should", "to try", "it's great"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "c'est génial", "romanization": null, "options": { "en": ["it's great / awesome", "it's terrible", "it's worth it", "to try"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'you should / one must' in French?" }, "options": { "neutral": ["il faut", "je vous conseille", "essayer", "ça vaut le coup"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to try' in French?" }, "options": { "neutral": ["essayer", "il faut", "je vous conseille", "c'est génial"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "c'est nul", "romanization": null, "options": { "en": ["it's terrible / rubbish", "it's great", "it's worth it", "to try"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ça vaut le coup", "romanization": null, "options": { "en": ["it's worth it", "it's great", "it's terrible", "I recommend"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "je vous conseille", "romanization": null, "native": { "en": "I recommend" } },
+              { "target": "il faut", "romanization": null, "native": { "en": "one must" } },
+              { "target": "essayer", "romanization": null, "native": { "en": "to try" } },
+              { "target": "ça vaut le coup", "romanization": null, "native": { "en": "it's worth it" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

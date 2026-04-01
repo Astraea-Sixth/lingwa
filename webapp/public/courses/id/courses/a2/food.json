@@ -1,0 +1,378 @@
+{
+  "lang": "id",
+  "language": "id",
+  "level": "A2",
+  "track": "food",
+  "track_label": {
+    "en": "Food & Dining",
+    "zh": "美食与餐饮",
+    "th": "อาหารและการรับประทาน",
+    "ko": "음식과 식사",
+    "es": "Comida y gastronomía"
+  },
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Indonesian Cuisine Basics",
+        "zh": "印度尼西亚美食基础",
+        "th": "พื้นฐานอาหารอินโดนีเซีย",
+        "ko": "인도네시아 음식 기초",
+        "es": "Fundamentos de la cocina indonesia"
+      },
+      "description": {
+        "en": "Learn names of popular Indonesian dishes and ingredients",
+        "zh": "学习印度尼西亚常见菜肴和食材的名称",
+        "th": "เรียนรู้ชื่ออาหารและส่วนผสมยอดนิยมของอินโดนีเซีย",
+        "ko": "인도네시아의 인기 요리와 재료 이름 배우기",
+        "es": "Aprender los nombres de los platos e ingredientes indonesios más populares"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Rice & Noodle Dishes",
+            "zh": "米饭和面食",
+            "th": "อาหารข้าวและเส้น",
+            "ko": "밥과 국수 요리",
+            "es": "Platos de arroz y fideos"
+          },
+          "objectives": {
+            "en": ["Name popular Indonesian rice and noodle dishes", "Order food at a warung or restaurant"]
+          },
+          "vocabulary": [
+            { "word": "Nasi goreng", "romanization": null, "meanings": { "en": "Fried rice", "zh": "炒饭", "th": "ข้าวผัด", "ko": "나시 고렝 (볶음밥)", "es": "Arroz frito" } },
+            { "word": "Mie goreng", "romanization": null, "meanings": { "en": "Fried noodles", "zh": "炒面", "th": "มีกอแรง (บะหมี่ผัด)", "ko": "미 고렝 (볶음면)", "es": "Fideos fritos" } },
+            { "word": "Soto ayam", "romanization": null, "meanings": { "en": "Chicken soup (Indonesian style)", "zh": "印尼鸡汤", "th": "ซุปไก่สไตล์อินโดนีเซีย", "ko": "소토 아얌 (인도네시아식 닭고기 수프)", "es": "Sopa de pollo al estilo indonesio" } },
+            { "word": "Gado-gado", "romanization": null, "meanings": { "en": "Vegetable salad with peanut sauce", "zh": "花生酱蔬菜沙拉", "th": "สลัดผักราดซอสถั่ว", "ko": "가도가도 (땅콩 소스 채소 샐러드)", "es": "Ensalada de verduras con salsa de cacahuete" } },
+            { "word": "Kuah", "romanization": null, "meanings": { "en": "Gravy / broth", "zh": "咖喱汁/肉汤", "th": "น้ำแกง / น้ำซุป", "ko": "쿠아 (소스 / 국물)", "es": "Salsa / caldo" } },
+            { "word": "Pedas", "romanization": null, "meanings": { "en": "Spicy", "zh": "辣", "th": "เผ็ด", "ko": "맵다", "es": "Picante" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Nasi goreng", "romanization": null, "options": { "en": ["Fried rice", "Steamed rice", "Fried noodles", "Rice porridge"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pedas", "romanization": null, "options": { "en": ["Spicy", "Sweet", "Sour", "Salty"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fried noodles' in Indonesian?" }, "options": { "neutral": ["Mie goreng", "Nasi goreng", "Soto ayam", "Gado-gado"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Gravy / broth' in Indonesian?" }, "options": { "neutral": ["Kuah", "Pedas", "Nasi goreng", "Soto ayam"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Soto ayam", "romanization": null, "options": { "en": ["Chicken soup", "Fried chicken", "Chicken rice", "Chicken salad"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Nasi goreng", "romanization": null, "native": { "en": "Fried rice" } },
+              { "target": "Mie goreng", "romanization": null, "native": { "en": "Fried noodles" } },
+              { "target": "Gado-gado", "romanization": null, "native": { "en": "Vegetable salad with peanut sauce" } },
+              { "target": "Pedas", "romanization": null, "native": { "en": "Spicy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering at a Restaurant",
+            "zh": "在餐厅点餐",
+            "th": "การสั่งอาหารในร้านอาหาร",
+            "ko": "식당에서 주문하기",
+            "es": "Pedir en un restaurante"
+          },
+          "objectives": {
+            "en": ["Use polite phrases to order food", "Ask about the menu"]
+          },
+          "vocabulary": [
+            { "word": "Menu", "romanization": null, "meanings": { "en": "Menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "Menú" } },
+            { "word": "Saya mau pesan", "romanization": null, "meanings": { "en": "I would like to order", "zh": "我想点餐", "th": "ฉันอยากสั่ง", "ko": "저는 주문하고 싶어요", "es": "Quisiera pedir" } },
+            { "word": "Berapa harganya?", "romanization": null, "meanings": { "en": "How much does it cost?", "zh": "多少钱？", "th": "ราคาเท่าไหร่?", "ko": "얼마예요?", "es": "¿Cuánto cuesta?" } },
+            { "word": "Enak", "romanization": null, "meanings": { "en": "Delicious / tasty", "zh": "好吃", "th": "อร่อย", "ko": "맛있다", "es": "Delicioso" } },
+            { "word": "Tanpa", "romanization": null, "meanings": { "en": "Without", "zh": "不加/没有", "th": "ไม่ใส่", "ko": "없이", "es": "Sin" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Enak", "romanization": null, "options": { "en": ["Delicious / tasty", "Spicy", "Cheap", "Fresh"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Berapa harganya?", "romanization": null, "options": { "en": ["How much does it cost?", "What is this?", "Where is the menu?", "I am hungry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I would like to order' in Indonesian?" }, "options": { "neutral": ["Saya mau pesan", "Berapa harganya?", "Enak", "Tanpa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Without' in Indonesian?" }, "options": { "neutral": ["Tanpa", "Enak", "Menu", "Saya mau pesan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Saya mau pesan", "romanization": null, "options": { "en": ["I would like to order", "I am hungry", "Where is the toilet?", "How much?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Menu", "romanization": null, "native": { "en": "Menu" } },
+              { "target": "Enak", "romanization": null, "native": { "en": "Delicious / tasty" } },
+              { "target": "Tanpa", "romanization": null, "native": { "en": "Without" } },
+              { "target": "Berapa harganya?", "romanization": null, "native": { "en": "How much does it cost?" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks & Snacks",
+            "zh": "饮料与小吃",
+            "th": "เครื่องดื่มและของว่าง",
+            "ko": "음료와 간식",
+            "es": "Bebidas y aperitivos"
+          },
+          "objectives": {
+            "en": ["Name common Indonesian drinks and snacks", "Express taste preferences"]
+          },
+          "vocabulary": [
+            { "word": "Es teh manis", "romanization": null, "meanings": { "en": "Iced sweet tea", "zh": "冰甜茶", "th": "ชาหวานเย็น", "ko": "에스 테 마니스 (아이스 달콤한 차)", "es": "Té dulce con hielo" } },
+            { "word": "Kopi tubruk", "romanization": null, "meanings": { "en": "Indonesian ground coffee (unfiltered)", "zh": "印尼粗咖啡", "th": "กาแฟบดอินโดนีเซีย", "ko": "코피 투브룩 (인도네시아식 거친 커피)", "es": "Café molido indonesio (sin filtrar)" } },
+            { "word": "Air mineral", "romanization": null, "meanings": { "en": "Mineral water", "zh": "矿泉水", "th": "น้ำแร่", "ko": "미네랄 워터", "es": "Agua mineral" } },
+            { "word": "Kerupuk", "romanization": null, "meanings": { "en": "Crackers / prawn crackers", "zh": "虾片/饼干", "th": "เกรียบ / เกรียบกุ้ง", "ko": "크루뿍 (새우 크래커)", "es": "Galletas / crackers de gambas" } },
+            { "word": "Manis", "romanization": null, "meanings": { "en": "Sweet", "zh": "甜", "th": "หวาน", "ko": "달다", "es": "Dulce" } },
+            { "word": "Asam", "romanization": null, "meanings": { "en": "Sour / tamarind", "zh": "酸/罗望子", "th": "เปรี้ยว / มะขาม", "ko": "시다 / 타마린드", "es": "Ácido / tamarindo" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Es teh manis", "romanization": null, "options": { "en": ["Iced sweet tea", "Hot coffee", "Coconut water", "Fruit juice"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Manis", "romanization": null, "options": { "en": ["Sweet", "Sour", "Spicy", "Bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sour' in Indonesian?" }, "options": { "neutral": ["Asam", "Manis", "Pedas", "Pahit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Crackers' in Indonesian?" }, "options": { "neutral": ["Kerupuk", "Kopi tubruk", "Air mineral", "Es teh manis"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kerupuk", "romanization": null, "options": { "en": ["Crackers / prawn crackers", "Fried snack", "Sweet cake", "Rice roll"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Air mineral", "romanization": null, "native": { "en": "Mineral water" } },
+              { "target": "Kerupuk", "romanization": null, "native": { "en": "Crackers / prawn crackers" } },
+              { "target": "Manis", "romanization": null, "native": { "en": "Sweet" } },
+              { "target": "Asam", "romanization": null, "native": { "en": "Sour" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการทำอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "description": {
+        "en": "Learn cooking vocabulary and common Indonesian ingredients",
+        "zh": "学习烹饪词汇和常见印度尼西亚食材",
+        "th": "เรียนรู้คำศัพท์การทำอาหารและส่วนผสมอินโดนีเซียทั่วไป",
+        "ko": "요리 어휘와 일반적인 인도네시아 재료 배우기",
+        "es": "Aprender vocabulario de cocina e ingredientes indonesios comunes"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Common Ingredients",
+            "zh": "常见食材",
+            "th": "ส่วนผสมทั่วไป",
+            "ko": "일반 재료",
+            "es": "Ingredientes comunes"
+          },
+          "objectives": {
+            "en": ["Name common Indonesian cooking ingredients", "Identify vegetables, proteins and spices"]
+          },
+          "vocabulary": [
+            { "word": "Bawang merah", "romanization": null, "meanings": { "en": "Shallot / red onion", "zh": "红葱头", "th": "หอมแดง", "ko": "샬롯 / 적양파", "es": "Chalota / cebolla roja" } },
+            { "word": "Bawang putih", "romanization": null, "meanings": { "en": "Garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "Ajo" } },
+            { "word": "Cabai", "romanization": null, "meanings": { "en": "Chilli pepper", "zh": "辣椒", "th": "พริก", "ko": "고추", "es": "Chile" } },
+            { "word": "Tempe", "romanization": null, "meanings": { "en": "Tempeh (fermented soybean cake)", "zh": "天贝（发酵大豆饼）", "th": "เทมเป้ (เค้กถั่วเหลืองหมัก)", "ko": "템페 (발효 콩 케이크)", "es": "Tempeh (torta de soja fermentada)" } },
+            { "word": "Tahu", "romanization": null, "meanings": { "en": "Tofu", "zh": "豆腐", "th": "เต้าหู้", "ko": "두부", "es": "Tofu" } },
+            { "word": "Santan", "romanization": null, "meanings": { "en": "Coconut milk", "zh": "椰浆", "th": "กะทิ", "ko": "코코넛 밀크", "es": "Leche de coco" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Tempe", "romanization": null, "options": { "en": ["Tempeh (fermented soybean)", "Tofu", "Coconut milk", "Rice cake"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Bawang putih", "romanization": null, "options": { "en": ["Garlic", "Shallot", "Chilli", "Ginger"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tofu' in Indonesian?" }, "options": { "neutral": ["Tahu", "Tempe", "Santan", "Cabai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Chilli pepper' in Indonesian?" }, "options": { "neutral": ["Cabai", "Bawang merah", "Santan", "Tahu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bawang merah", "romanization": null, "options": { "en": ["Shallot / red onion", "Garlic", "Chilli", "Ginger"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Tempe", "romanization": null, "native": { "en": "Tempeh (fermented soybean)" } },
+              { "target": "Tahu", "romanization": null, "native": { "en": "Tofu" } },
+              { "target": "Santan", "romanization": null, "native": { "en": "Coconut milk" } },
+              { "target": "Cabai", "romanization": null, "native": { "en": "Chilli pepper" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "조리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked", "Use cooking verbs correctly"]
+          },
+          "vocabulary": [
+            { "word": "Menggoreng", "romanization": null, "meanings": { "en": "To fry", "zh": "炒/炸", "th": "ทอด / ผัด", "ko": "튀기다 / 볶다", "es": "Freír" } },
+            { "word": "Merebus", "romanization": null, "meanings": { "en": "To boil", "zh": "煮/焯", "th": "ต้ม", "ko": "삶다", "es": "Hervir" } },
+            { "word": "Memanggang", "romanization": null, "meanings": { "en": "To grill / roast / bake", "zh": "烤/炙烤", "th": "ย่าง / อบ", "ko": "굽다", "es": "Asar / hornear" } },
+            { "word": "Mengukus", "romanization": null, "meanings": { "en": "To steam", "zh": "蒸", "th": "นึ่ง", "ko": "찌다", "es": "Cocinar al vapor" } },
+            { "word": "Menumis", "romanization": null, "meanings": { "en": "To stir-fry / sauté", "zh": "翻炒/嫩炒", "th": "ผัด", "ko": "볶다", "es": "Saltear" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Memanggang", "romanization": null, "options": { "en": ["To grill / roast", "To boil", "To steam", "To fry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Mengukus", "romanization": null, "options": { "en": ["To steam", "To fry", "To boil", "To bake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To fry' in Indonesian?" }, "options": { "neutral": ["Menggoreng", "Merebus", "Memanggang", "Mengukus"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To boil' in Indonesian?" }, "options": { "neutral": ["Merebus", "Menggoreng", "Menumis", "Memanggang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Menumis", "romanization": null, "options": { "en": ["To stir-fry / sauté", "To steam", "To boil", "To grill"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Menggoreng", "romanization": null, "native": { "en": "To fry" } },
+              { "target": "Merebus", "romanization": null, "native": { "en": "To boil" } },
+              { "target": "Memanggang", "romanization": null, "native": { "en": "To grill / roast" } },
+              { "target": "Mengukus", "romanization": null, "native": { "en": "To steam" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Shop for food at an Indonesian market", "Bargain and ask about prices"]
+          },
+          "vocabulary": [
+            { "word": "Pasar", "romanization": null, "meanings": { "en": "Market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "Mercado" } },
+            { "word": "Murah", "romanization": null, "meanings": { "en": "Cheap", "zh": "便宜", "th": "ถูก", "ko": "싸다", "es": "Barato" } },
+            { "word": "Mahal", "romanization": null, "meanings": { "en": "Expensive", "zh": "贵", "th": "แพง", "ko": "비싸다", "es": "Caro" } },
+            { "word": "Segar", "romanization": null, "meanings": { "en": "Fresh", "zh": "新鲜", "th": "สด", "ko": "신선하다", "es": "Fresco" } },
+            { "word": "Berapa kilogram?", "romanization": null, "meanings": { "en": "How many kilograms?", "zh": "几公斤？", "th": "กี่กิโลกรัม?", "ko": "몇 킬로그램이에요?", "es": "¿Cuántos kilogramos?" } },
+            { "word": "Buah-buahan", "romanization": null, "meanings": { "en": "Fruits", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "Frutas" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Murah", "romanization": null, "options": { "en": ["Cheap", "Expensive", "Fresh", "Heavy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Segar", "romanization": null, "options": { "en": ["Fresh", "Salty", "Sweet", "Frozen"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Expensive' in Indonesian?" }, "options": { "neutral": ["Mahal", "Murah", "Segar", "Pasar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruits' in Indonesian?" }, "options": { "neutral": ["Buah-buahan", "Sayuran", "Ikan", "Pasar"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pasar", "romanization": null, "options": { "en": ["Market", "Restaurant", "Supermarket", "Kitchen"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Murah", "romanization": null, "native": { "en": "Cheap" } },
+              { "target": "Mahal", "romanization": null, "native": { "en": "Expensive" } },
+              { "target": "Segar", "romanization": null, "native": { "en": "Fresh" } },
+              { "target": "Buah-buahan", "romanization": null, "native": { "en": "Fruits" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Street Food & Warung Culture",
+        "zh": "街头小吃与瓦鲁文化",
+        "th": "อาหารข้างถนนและวัฒนธรรมวารุง",
+        "ko": "길거리 음식과 와룽 문화",
+        "es": "Comida callejera y cultura del warung"
+      },
+      "description": {
+        "en": "Explore Indonesian street food, warungs and local dining customs",
+        "zh": "探索印度尼西亚街头小吃、小餐馆和当地饮食习俗",
+        "th": "สำรวจอาหารข้างถนนอินโดนีเซีย วารุง และประเพณีการรับประทานอาหารท้องถิ่น",
+        "ko": "인도네시아 길거리 음식, 와룽 및 현지 식사 관습 탐구",
+        "es": "Explorar la comida callejera indonesia, warungs y costumbres gastronómicas locales"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Warung",
+            "zh": "在小餐馆",
+            "th": "ที่วารุง",
+            "ko": "와룽에서",
+            "es": "En el warung"
+          },
+          "objectives": {
+            "en": ["Order food at a warung (small Indonesian eatery)", "Use eating-out phrases"]
+          },
+          "vocabulary": [
+            { "word": "Warung", "romanization": null, "meanings": { "en": "Small local eatery / food stall", "zh": "小餐馆/摊位", "th": "ร้านอาหารเล็กๆ / แผงขายอาหาร", "ko": "와룽 (작은 식당 / 노점)", "es": "Pequeño restaurante local / puesto de comida" } },
+            { "word": "Ambil sendiri", "romanization": null, "meanings": { "en": "Self-service", "zh": "自取", "th": "บริการตัวเอง", "ko": "셀프서비스", "es": "Autoservicio" } },
+            { "word": "Bungkus", "romanization": null, "meanings": { "en": "Take away / wrap up", "zh": "打包", "th": "ห่อกลับบ้าน", "ko": "포장", "es": "Para llevar" } },
+            { "word": "Makan di sini", "romanization": null, "meanings": { "en": "Eat here / dine in", "zh": "在这里吃", "th": "ทานที่นี่", "ko": "여기서 먹다", "es": "Comer aquí" } },
+            { "word": "Sebentar", "romanization": null, "meanings": { "en": "Just a moment / wait a moment", "zh": "稍等", "th": "รอสักครู่", "ko": "잠깐만요", "es": "Un momento" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Bungkus", "romanization": null, "options": { "en": ["Take away / wrap up", "Eat here", "Order now", "Self-service"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Warung", "romanization": null, "options": { "en": ["Small local eatery", "Restaurant", "Canteen", "Market"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eat here' in Indonesian?" }, "options": { "neutral": ["Makan di sini", "Bungkus", "Warung", "Ambil sendiri"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Just a moment' in Indonesian?" }, "options": { "neutral": ["Sebentar", "Makan di sini", "Bungkus", "Warung"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Ambil sendiri", "romanization": null, "options": { "en": ["Self-service", "Take away", "Eat here", "Wait a moment"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Warung", "romanization": null, "native": { "en": "Small local eatery" } },
+              { "target": "Bungkus", "romanization": null, "native": { "en": "Take away / wrap up" } },
+              { "target": "Makan di sini", "romanization": null, "native": { "en": "Eat here" } },
+              { "target": "Sebentar", "romanization": null, "native": { "en": "Just a moment" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Describing Food",
+            "zh": "描述食物",
+            "th": "การอธิบายอาหาร",
+            "ko": "음식 묘사하기",
+            "es": "Describir la comida"
+          },
+          "objectives": {
+            "en": ["Describe food using taste and texture adjectives", "Give opinions about food"]
+          },
+          "vocabulary": [
+            { "word": "Renyah", "romanization": null, "meanings": { "en": "Crunchy / crispy", "zh": "脆", "th": "กรอบ", "ko": "바삭바삭하다", "es": "Crujiente" } },
+            { "word": "Empuk", "romanization": null, "meanings": { "en": "Soft / tender", "zh": "软/嫩", "th": "นุ่ม", "ko": "부드럽다", "es": "Suave / tierno" } },
+            { "word": "Berminyak", "romanization": null, "meanings": { "en": "Oily / greasy", "zh": "油腻", "th": "มัน", "ko": "기름지다", "es": "Aceitoso / grasoso" } },
+            { "word": "Lezat", "romanization": null, "meanings": { "en": "Delicious / yummy", "zh": "美味", "th": "อร่อยมาก", "ko": "아주 맛있다", "es": "Delicioso / riquísimo" } },
+            { "word": "Pahit", "romanization": null, "meanings": { "en": "Bitter", "zh": "苦", "th": "ขม", "ko": "쓰다", "es": "Amargo" } },
+            { "word": "Asin", "romanization": null, "meanings": { "en": "Salty", "zh": "咸", "th": "เค็ม", "ko": "짜다", "es": "Salado" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Renyah", "romanization": null, "options": { "en": ["Crunchy / crispy", "Soft", "Bitter", "Salty"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pahit", "romanization": null, "options": { "en": ["Bitter", "Sweet", "Salty", "Sour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Salty' in Indonesian?" }, "options": { "neutral": ["Asin", "Manis", "Asam", "Pahit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Soft / tender' in Indonesian?" }, "options": { "neutral": ["Empuk", "Renyah", "Berminyak", "Lezat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Lezat", "romanization": null, "options": { "en": ["Delicious / yummy", "Spicy", "Sweet", "Sour"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Renyah", "romanization": null, "native": { "en": "Crunchy / crispy" } },
+              { "target": "Empuk", "romanization": null, "native": { "en": "Soft / tender" } },
+              { "target": "Pahit", "romanization": null, "native": { "en": "Bitter" } },
+              { "target": "Asin", "romanization": null, "native": { "en": "Salty" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Special Diets & Preferences",
+            "zh": "特殊饮食与偏好",
+            "th": "อาหารพิเศษและความชอบ",
+            "ko": "특별 식이와 선호도",
+            "es": "Dietas especiales y preferencias"
+          },
+          "objectives": {
+            "en": ["Communicate dietary restrictions", "Ask about halal and vegetarian options"]
+          },
+          "vocabulary": [
+            { "word": "Halal", "romanization": null, "meanings": { "en": "Halal (permissible under Islamic law)", "zh": "清真", "th": "ฮาลาล", "ko": "할랄", "es": "Halal" } },
+            { "word": "Vegetarian", "romanization": null, "meanings": { "en": "Vegetarian", "zh": "素食", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "Vegetariano" } },
+            { "word": "Alergi", "romanization": null, "meanings": { "en": "Allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "Alergia" } },
+            { "word": "Saya tidak makan", "romanization": null, "meanings": { "en": "I do not eat", "zh": "我不吃", "th": "ฉันไม่ทาน", "ko": "저는 먹지 않아요", "es": "No como" } },
+            { "word": "Ada tidak?", "romanization": null, "meanings": { "en": "Is there any?", "zh": "有没有？", "th": "มีไหม?", "ko": "있나요?", "es": "¿Hay alguno?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Halal", "romanization": null, "options": { "en": ["Halal (permissible)", "Vegetarian", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Alergi", "romanization": null, "options": { "en": ["Allergy", "Preference", "Spice", "Flavour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I do not eat' in Indonesian?" }, "options": { "neutral": ["Saya tidak makan", "Alergi", "Halal", "Vegetarian"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Is there any?' in Indonesian?" }, "options": { "neutral": ["Ada tidak?", "Saya tidak makan", "Alergi", "Vegetarian"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Vegetarian", "romanization": null, "options": { "en": ["Vegetarian", "Halal", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Halal", "romanization": null, "native": { "en": "Halal (permissible)" } },
+              { "target": "Alergi", "romanization": null, "native": { "en": "Allergy" } },
+              { "target": "Saya tidak makan", "romanization": null, "native": { "en": "I do not eat" } },
+              { "target": "Ada tidak?", "romanization": null, "native": { "en": "Is there any?" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

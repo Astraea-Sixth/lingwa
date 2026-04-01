@@ -1,0 +1,670 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "레스토랑에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Learn restaurant vocabulary in Arabic", "Order food and drinks"]
+          },
+          "vocabulary": [
+            {
+              "word": "قائمة الطعام",
+              "romanization": "qaa'imat at-ta'aam",
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "نادل",
+              "romanization": "naadil",
+              "meanings": { "en": "waiter", "zh": "服务员", "th": "พนักงานเสิร์ฟ", "ko": "웨이터", "es": "camarero" }
+            },
+            {
+              "word": "الحساب",
+              "romanization": "al-hisaab",
+              "meanings": { "en": "bill / check", "zh": "账单", "th": "บิล", "ko": "계산서", "es": "cuenta" }
+            },
+            {
+              "word": "طبق",
+              "romanization": "tabaq",
+              "meanings": { "en": "dish / plate", "zh": "菜/盘子", "th": "จาน/อาหารจาน", "ko": "요리/접시", "es": "plato" }
+            },
+            {
+              "word": "حجز",
+              "romanization": "hajz",
+              "meanings": { "en": "reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'menu' in Arabic?" },
+              "answer": "قائمة الطعام",
+              "choices": ["قائمة الطعام", "الحساب", "طبق", "نادل"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'نادل' (naadil) mean?" },
+              "answer": "waiter",
+              "choices": ["waiter", "menu", "bill", "dish"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "قائمة الطعام", "native": "menu" },
+                { "target": "الحساب", "native": "bill" },
+                { "target": "طبق", "native": "dish" },
+                { "target": "حجز", "native": "reservation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please bring the menu.'" },
+              "words": ["من", "فضلك", "أحضر", "قائمة", "الطعام"],
+              "answer": "من فضلك أحضر قائمة الطعام"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Arab Dishes",
+            "zh": "阿拉伯菜肴",
+            "th": "อาหารอาหรับ",
+            "ko": "아랍 요리",
+            "es": "Platos árabes"
+          },
+          "objectives": {
+            "en": ["Name popular Arabic dishes", "Describe food ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "حمص",
+              "romanization": "hummus",
+              "meanings": { "en": "hummus (chickpea dip)", "zh": "鹰嘴豆泥", "th": "ฮัมมัส (ซอสถั่วชิกพี)", "ko": "후무스 (병아리콩 딥)", "es": "hummus (paté de garbanzos)" }
+            },
+            {
+              "word": "فلافل",
+              "romanization": "falaafil",
+              "meanings": { "en": "falafel (fried chickpea balls)", "zh": "炸豌豆球", "th": "ฟาลาเฟล (ลูกชิ้นทอดถั่วชิกพี)", "ko": "팔라펠 (튀긴 병아리콩 볼)", "es": "falafel (bolas fritas de garbanzos)" }
+            },
+            {
+              "word": "خبز",
+              "romanization": "khubz",
+              "meanings": { "en": "bread / pita bread", "zh": "面包/皮塔饼", "th": "ขนมปัง/ปิต้าเบรด", "ko": "빵/피타 빵", "es": "pan / pan pita" }
+            },
+            {
+              "word": "أرز",
+              "romanization": "aruzz",
+              "meanings": { "en": "rice", "zh": "米饭", "th": "ข้าว", "ko": "쌀/밥", "es": "arroz" }
+            },
+            {
+              "word": "كباب",
+              "romanization": "kabaab",
+              "meanings": { "en": "kebab / grilled meat", "zh": "烤肉串", "th": "เคบาบ", "ko": "케밥", "es": "kebab" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'bread' in Arabic?" },
+              "answer": "خبز",
+              "choices": ["خبز", "أرز", "فلافل", "حمص"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'فلافل' (falaafil)?" },
+              "answer": "fried chickpea balls",
+              "choices": ["fried chickpea balls", "grilled meat", "rice", "bread"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "حمص", "native": "hummus" },
+                { "target": "فلافل", "native": "falafel" },
+                { "target": "خبز", "native": "bread" },
+                { "target": "أرز", "native": "rice" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want rice and kebab.'" },
+              "words": ["أريد", "أرزاً", "وكباباً"],
+              "answer": "أريد أرزاً وكباباً"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks and Desserts",
+            "zh": "饮料和甜点",
+            "th": "เครื่องดื่มและของหวาน",
+            "ko": "음료와 디저트",
+            "es": "Bebidas y postres"
+          },
+          "objectives": {
+            "en": ["Order drinks and desserts in Arabic", "Express food preferences"]
+          },
+          "vocabulary": [
+            {
+              "word": "شاي",
+              "romanization": "shaay",
+              "meanings": { "en": "tea", "zh": "茶", "th": "ชา", "ko": "차", "es": "té" }
+            },
+            {
+              "word": "قهوة",
+              "romanization": "qahwa",
+              "meanings": { "en": "coffee", "zh": "咖啡", "th": "กาแฟ", "ko": "커피", "es": "café" }
+            },
+            {
+              "word": "ماء",
+              "romanization": "maa'",
+              "meanings": { "en": "water", "zh": "水", "th": "น้ำ", "ko": "물", "es": "agua" }
+            },
+            {
+              "word": "حلويات",
+              "romanization": "halawiyyaat",
+              "meanings": { "en": "sweets / desserts", "zh": "甜食/甜点", "th": "ขนมหวาน/ของหวาน", "ko": "단과자/디저트", "es": "dulces / postres" }
+            },
+            {
+              "word": "بقلاوة",
+              "romanization": "baqlaawa",
+              "meanings": { "en": "baklava (pastry with nuts and honey)", "zh": "巴克拉瓦(坚果蜂蜜糕点)", "th": "บาคลาวา (ขนมถั่วกับน้ำผึ้ง)", "ko": "바클라바 (견과류와 꿀 페이스트리)", "es": "baklava (pastelería con nueces y miel)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'coffee' in Arabic?" },
+              "answer": "قهوة",
+              "choices": ["قهوة", "شاي", "ماء", "حلويات"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'بقلاوة' (baqlaawa)?" },
+              "answer": "baklava",
+              "choices": ["baklava", "hummus", "falafel", "tea"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "شاي", "native": "tea" },
+                { "target": "قهوة", "native": "coffee" },
+                { "target": "ماء", "native": "water" },
+                { "target": "حلويات", "native": "sweets" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please bring one cup of coffee.'" },
+              "words": ["فنجان", "قهوة", "من", "فضلك", "أحضر"],
+              "answer": "أحضر فنجان قهوة من فضلك"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식료품 쇼핑",
+        "es": "Hacer la compra"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at an Arab market", "Ask about prices"]
+          },
+          "vocabulary": [
+            {
+              "word": "سوق",
+              "romanization": "sooq",
+              "meanings": { "en": "market / souk", "zh": "市场/集市", "th": "ตลาด/ซูก", "ko": "시장/수크", "es": "mercado/zoco" }
+            },
+            {
+              "word": "سعر",
+              "romanization": "si'r",
+              "meanings": { "en": "price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "precio" }
+            },
+            {
+              "word": "كيلو",
+              "romanization": "keelo",
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilogramo" }
+            },
+            {
+              "word": "رخيص",
+              "romanization": "rakhees",
+              "meanings": { "en": "cheap / inexpensive", "zh": "便宜的", "th": "ถูก", "ko": "저렴한", "es": "barato" }
+            },
+            {
+              "word": "غالي",
+              "romanization": "ghaalee",
+              "meanings": { "en": "expensive", "zh": "贵的", "th": "แพง", "ko": "비싼", "es": "caro" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'market' in Arabic?" },
+              "answer": "سوق",
+              "choices": ["سوق", "سعر", "كيلو", "رخيص"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'غالي' (ghaalee) mean?" },
+              "answer": "expensive",
+              "choices": ["expensive", "cheap", "market", "price"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "سوق", "native": "market" },
+                { "target": "سعر", "native": "price" },
+                { "target": "رخيص", "native": "cheap" },
+                { "target": "غالي", "native": "expensive" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'What is the price of this?'" },
+              "words": ["ما", "سعر", "هذا"],
+              "answer": "ما سعر هذا"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Fruits and Vegetables",
+            "zh": "水果和蔬菜",
+            "th": "ผักและผลไม้",
+            "ko": "과일과 채소",
+            "es": "Frutas y verduras"
+          },
+          "objectives": {
+            "en": ["Name common fruits and vegetables in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "تفاح",
+              "romanization": "tuffaah",
+              "meanings": { "en": "apple(s)", "zh": "苹果", "th": "แอปเปิล", "ko": "사과", "es": "manzana(s)" }
+            },
+            {
+              "word": "موز",
+              "romanization": "mawz",
+              "meanings": { "en": "banana(s)", "zh": "香蕉", "th": "กล้วย", "ko": "바나나", "es": "plátano(s)" }
+            },
+            {
+              "word": "طماطم",
+              "romanization": "tamaatim",
+              "meanings": { "en": "tomato(es)", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "tomate(s)" }
+            },
+            {
+              "word": "بصل",
+              "romanization": "basal",
+              "meanings": { "en": "onion(s)", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla(s)" }
+            },
+            {
+              "word": "خيار",
+              "romanization": "khiyaar",
+              "meanings": { "en": "cucumber(s)", "zh": "黄瓜", "th": "แตงกวา", "ko": "오이", "es": "pepino(s)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'apple' in Arabic?" },
+              "answer": "تفاح",
+              "choices": ["تفاح", "موز", "طماطم", "بصل"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'خيار' (khiyaar)?" },
+              "answer": "cucumber",
+              "choices": ["cucumber", "apple", "tomato", "onion"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "تفاح", "native": "apple" },
+                { "target": "موز", "native": "banana" },
+                { "target": "طماطم", "native": "tomato" },
+                { "target": "بصل", "native": "onion" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want two kilos of tomatoes.'" },
+              "words": ["أريد", "كيلوين", "من", "الطماطم"],
+              "answer": "أريد كيلوين من الطماطم"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Cooking at Home",
+            "zh": "在家烹饪",
+            "th": "ทำอาหารที่บ้าน",
+            "ko": "집에서 요리하기",
+            "es": "Cocinar en casa"
+          },
+          "objectives": {
+            "en": ["Describe cooking methods in Arabic", "Talk about recipes"]
+          },
+          "vocabulary": [
+            {
+              "word": "طبخ",
+              "romanization": "tabakh",
+              "meanings": { "en": "to cook / cooking", "zh": "烹饪", "th": "ทำอาหาร", "ko": "요리하다/요리", "es": "cocinar" }
+            },
+            {
+              "word": "وصفة",
+              "romanization": "wasfa",
+              "meanings": { "en": "recipe", "zh": "食谱", "th": "สูตรอาหาร", "ko": "레시피", "es": "receta" }
+            },
+            {
+              "word": "قلي",
+              "romanization": "qaly",
+              "meanings": { "en": "frying", "zh": "油炸", "th": "การทอด", "ko": "튀기기", "es": "freír" }
+            },
+            {
+              "word": "غلي",
+              "romanization": "ghaly",
+              "meanings": { "en": "boiling", "zh": "煮沸", "th": "การต้ม", "ko": "끓이기", "es": "hervir" }
+            },
+            {
+              "word": "زيت",
+              "romanization": "zayt",
+              "meanings": { "en": "oil", "zh": "油", "th": "น้ำมัน", "ko": "기름", "es": "aceite" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'recipe' in Arabic?" },
+              "answer": "وصفة",
+              "choices": ["وصفة", "طبخ", "زيت", "قلي"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'زيت' (zayt) mean?" },
+              "answer": "oil",
+              "choices": ["oil", "recipe", "frying", "boiling"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "طبخ", "native": "cooking" },
+                { "target": "وصفة", "native": "recipe" },
+                { "target": "قلي", "native": "frying" },
+                { "target": "زيت", "native": "oil" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I like to cook at home.'" },
+              "words": ["أحب", "الطبخ", "في", "البيت"],
+              "answer": "أحب الطبخ في البيت"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Food Culture",
+        "zh": "饮食文化",
+        "th": "วัฒนธรรมอาหาร",
+        "ko": "음식 문화",
+        "es": "Cultura culinaria"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Meal Times",
+            "zh": "用餐时间",
+            "th": "เวลารับประทานอาหาร",
+            "ko": "식사 시간",
+            "es": "Horarios de comida"
+          },
+          "objectives": {
+            "en": ["Talk about meal times in Arabic-speaking cultures"]
+          },
+          "vocabulary": [
+            {
+              "word": "فطور",
+              "romanization": "futoor",
+              "meanings": { "en": "breakfast", "zh": "早餐", "th": "อาหารเช้า", "ko": "아침 식사", "es": "desayuno" }
+            },
+            {
+              "word": "غداء",
+              "romanization": "ghadaa'",
+              "meanings": { "en": "lunch", "zh": "午餐", "th": "อาหารกลางวัน", "ko": "점심 식사", "es": "almuerzo" }
+            },
+            {
+              "word": "عشاء",
+              "romanization": "'ashaa'",
+              "meanings": { "en": "dinner / supper", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "cena" }
+            },
+            {
+              "word": "جوع",
+              "romanization": "joo'",
+              "meanings": { "en": "hunger", "zh": "饥饿", "th": "ความหิว", "ko": "배고픔", "es": "hambre" }
+            },
+            {
+              "word": "شبعان",
+              "romanization": "shab'aan",
+              "meanings": { "en": "full / satiated", "zh": "吃饱了", "th": "อิ่ม", "ko": "배부른", "es": "saciado / lleno" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'breakfast' in Arabic?" },
+              "answer": "فطور",
+              "choices": ["فطور", "غداء", "عشاء", "جوع"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'عشاء' ('ashaa')?" },
+              "answer": "dinner",
+              "choices": ["dinner", "breakfast", "lunch", "hunger"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "فطور", "native": "breakfast" },
+                { "target": "غداء", "native": "lunch" },
+                { "target": "عشاء", "native": "dinner" },
+                { "target": "جوع", "native": "hunger" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am very hungry.'" },
+              "words": ["أنا", "جائع", "جداً"],
+              "answer": "أنا جائع جداً"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Tastes and Preferences",
+            "zh": "口味和偏好",
+            "th": "รสชาติและความชอบ",
+            "ko": "맛과 선호도",
+            "es": "Sabores y preferencias"
+          },
+          "objectives": {
+            "en": ["Describe food tastes in Arabic", "Express food preferences"]
+          },
+          "vocabulary": [
+            {
+              "word": "لذيذ",
+              "romanization": "ladheedh",
+              "meanings": { "en": "delicious / tasty", "zh": "美味的", "th": "อร่อย", "ko": "맛있는", "es": "delicioso" }
+            },
+            {
+              "word": "حلو",
+              "romanization": "hilw",
+              "meanings": { "en": "sweet", "zh": "甜", "th": "หวาน", "ko": "달콤한", "es": "dulce" }
+            },
+            {
+              "word": "مالح",
+              "romanization": "maalih",
+              "meanings": { "en": "salty", "zh": "咸", "th": "เค็ม", "ko": "짠", "es": "salado" }
+            },
+            {
+              "word": "حار",
+              "romanization": "haarr",
+              "meanings": { "en": "spicy / hot", "zh": "辣/热", "th": "เผ็ด/ร้อน", "ko": "매운/뜨거운", "es": "picante / caliente" }
+            },
+            {
+              "word": "حامض",
+              "romanization": "haamid",
+              "meanings": { "en": "sour / acidic", "zh": "酸的", "th": "เปรี้ยว", "ko": "신", "es": "ácido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'delicious' in Arabic?" },
+              "answer": "لذيذ",
+              "choices": ["لذيذ", "حلو", "مالح", "حار"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'حامض' (haamid) mean?" },
+              "answer": "sour",
+              "choices": ["sour", "sweet", "salty", "spicy"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "لذيذ", "native": "delicious" },
+                { "target": "حلو", "native": "sweet" },
+                { "target": "مالح", "native": "salty" },
+                { "target": "حار", "native": "spicy" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'This food is very delicious.'" },
+              "words": ["هذا", "الطعام", "لذيذ", "جداً"],
+              "answer": "هذا الطعام لذيذ جداً"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Halal and Dietary Restrictions",
+            "zh": "清真和饮食限制",
+            "th": "ฮาลาลและข้อจำกัดด้านอาหาร",
+            "ko": "할랄과 식이 제한",
+            "es": "Halal y restricciones dietéticas"
+          },
+          "objectives": {
+            "en": ["Communicate dietary restrictions in Arabic", "Understand halal food culture"]
+          },
+          "vocabulary": [
+            {
+              "word": "حلال",
+              "romanization": "halaal",
+              "meanings": { "en": "halal (permissible under Islamic law)", "zh": "清真(伊斯兰教律法许可)", "th": "ฮาลาล (อนุญาตตามกฎหมายอิสลาม)", "ko": "할랄 (이슬람 율법상 허용)", "es": "halal (permitido según la ley islámica)" }
+            },
+            {
+              "word": "حرام",
+              "romanization": "haraam",
+              "meanings": { "en": "haram (forbidden under Islamic law)", "zh": "哈拉姆(伊斯兰教律法禁止)", "th": "ฮารอม (ต้องห้ามตามกฎหมายอิสลาม)", "ko": "하람 (이슬람 율법상 금지)", "es": "haram (prohibido según la ley islámica)" }
+            },
+            {
+              "word": "نباتي",
+              "romanization": "nabaatee",
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "vegetariano" }
+            },
+            {
+              "word": "حساسية",
+              "romanization": "hassaasiyya",
+              "meanings": { "en": "allergy / sensitivity", "zh": "过敏/敏感", "th": "การแพ้/ความไวเกิน", "ko": "알레르기/민감성", "es": "alergia / sensibilidad" }
+            },
+            {
+              "word": "بدون لحم",
+              "romanization": "bidoon lahm",
+              "meanings": { "en": "without meat", "zh": "无肉的", "th": "ไม่มีเนื้อสัตว์", "ko": "고기 없이", "es": "sin carne" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'halal' in Arabic?" },
+              "answer": "حلال",
+              "choices": ["حلال", "حرام", "نباتي", "حساسية"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'حرام' (haraam) mean in food context?" },
+              "answer": "forbidden (under Islamic law)",
+              "choices": ["forbidden (under Islamic law)", "permitted", "vegetarian", "allergy"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "حلال", "native": "halal" },
+                { "target": "حرام", "native": "forbidden" },
+                { "target": "نباتي", "native": "vegetarian" },
+                { "target": "حساسية", "native": "allergy" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Is this food halal?'" },
+              "words": ["هل", "هذا", "الطعام", "حلال"],
+              "answer": "هل هذا الطعام حلال"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

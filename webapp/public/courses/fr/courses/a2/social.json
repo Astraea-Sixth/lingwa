@@ -1,0 +1,724 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting Friends",
+            "zh": "邀请朋友",
+            "th": "การเชิญเพื่อน",
+            "ko": "친구 초대하기",
+            "es": "Invitar a amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to an event or activity in French", "Accept or politely decline an invitation"],
+            "zh": ["用法语邀请某人参加活动", "接受或礼貌拒绝邀请"],
+            "th": ["เชิญใครสักคนไปร่วมกิจกรรมเป็นภาษาฝรั่งเศส", "ตอบรับหรือปฏิเสธคำเชิญ"],
+            "ko": ["프랑스어로 행사나 활동에 초대하기", "정중하게 초대 수락하거나 거절하기"],
+            "es": ["Invitar a alguien en francés", "Aceptar o rechazar cortésmente una invitación"]
+          },
+          "vocabulary": [
+            {
+              "word": "inviter",
+              "romanization": null,
+              "meanings": { "en": "to invite", "zh": "邀请", "th": "เชิญ", "ko": "초대하다", "es": "invitar" }
+            },
+            {
+              "word": "la fête",
+              "romanization": null,
+              "meanings": { "en": "the party/celebration", "zh": "派对/庆典", "th": "งานปาร์ตี้", "ko": "파티", "es": "la fiesta" }
+            },
+            {
+              "word": "Tu es libre ?",
+              "romanization": null,
+              "meanings": { "en": "Are you free?", "zh": "你有空吗？", "th": "คุณว่างไหม?", "ko": "너 시간 있어?", "es": "¿Estás libre?" }
+            },
+            {
+              "word": "Avec plaisir !",
+              "romanization": null,
+              "meanings": { "en": "With pleasure!", "zh": "很乐意！", "th": "ยินดีมาก!", "ko": "기꺼이!", "es": "¡Con mucho gusto!" }
+            },
+            {
+              "word": "malheureusement",
+              "romanization": null,
+              "meanings": { "en": "unfortunately", "zh": "遗憾地", "th": "น่าเสียดาย", "ko": "유감스럽게도", "es": "lamentablemente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Would you like to come to my party?'",
+              "options": ["Tu veux venir à ma fête ?", "Est-ce que tu aimes les fêtes ?", "J'organise une fête.", "Où est la fête ?"],
+              "correct": 0,
+              "explanation": "'Tu veux venir à ma fête ?' = Do you want to come to my party? Direct and friendly."
+            },
+            {
+              "type": "target_to_native",
+              "word": "malheureusement",
+              "options": ["unfortunately", "gladly", "maybe", "certainly"],
+              "correct": 0,
+              "explanation": "'Malheureusement' = unfortunately. Used when politely declining: 'Malheureusement, je ne peux pas.'"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["inviter", "to invite"],
+                ["la fête", "the party"],
+                ["Avec plaisir !", "With pleasure!"],
+                ["malheureusement", "unfortunately"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ma", "venir", "fête", "veux", "Tu", "à"],
+              "correct": ["Tu", "veux", "venir", "à", "ma", "fête"],
+              "translation": "Do you want to come to my party?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Making Arrangements",
+            "zh": "安排约定",
+            "th": "การนัดหมาย",
+            "ko": "약속 잡기",
+            "es": "Hacer arreglos"
+          },
+          "objectives": {
+            "en": ["Agree on a time and place to meet", "Change or cancel a plan politely"],
+            "zh": ["约定见面时间和地点", "礼貌地更改或取消计划"],
+            "th": ["นัดเวลาและสถานที่พบกัน", "เปลี่ยนหรือยกเลิกแผนอย่างสุภาพ"],
+            "ko": ["만날 시간과 장소 정하기", "정중하게 계획 변경하거나 취소하기"],
+            "es": ["Acordar hora y lugar para quedar", "Cambiar o cancelar un plan con cortesía"]
+          },
+          "vocabulary": [
+            {
+              "word": "se retrouver",
+              "romanization": null,
+              "meanings": { "en": "to meet up", "zh": "见面", "th": "พบกัน", "ko": "만나다", "es": "quedar/encontrarse" }
+            },
+            {
+              "word": "le rendez-vous",
+              "romanization": null,
+              "meanings": { "en": "the appointment/meeting", "zh": "约会/约定", "th": "การนัดหมาย", "ko": "약속", "es": "la cita" }
+            },
+            {
+              "word": "annuler",
+              "romanization": null,
+              "meanings": { "en": "to cancel", "zh": "取消", "th": "ยกเลิก", "ko": "취소하다", "es": "cancelar" }
+            },
+            {
+              "word": "reporter",
+              "romanization": null,
+              "meanings": { "en": "to postpone/reschedule", "zh": "推迟", "th": "เลื่อน", "ko": "미루다", "es": "aplazar" }
+            },
+            {
+              "word": "À quelle heure ?",
+              "romanization": null,
+              "meanings": { "en": "At what time?", "zh": "几点？", "th": "กี่โมง?", "ko": "몇 시에?", "es": "¿A qué hora?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Let's meet at the café at seven'?",
+              "options": ["On se retrouve au café à sept heures.", "Allons au café à sept heures.", "Rendez-vous au café.", "Je t'attends à sept heures."],
+              "correct": 0,
+              "explanation": "'On se retrouve' = let's meet up (colloquial). 'Au café' = at the café, 'à sept heures' = at seven."
+            },
+            {
+              "type": "target_to_native",
+              "word": "annuler",
+              "options": ["to cancel", "to postpone", "to forget", "to confirm"],
+              "correct": 0,
+              "explanation": "'Je dois annuler notre rendez-vous' = I have to cancel our appointment."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["se retrouver", "to meet up"],
+                ["le rendez-vous", "appointment"],
+                ["annuler", "to cancel"],
+                ["reporter", "to postpone"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["café", "retrouve", "au", "On", "heures", "six", "se", "à"],
+              "correct": ["On", "se", "retrouve", "au", "café", "à", "six", "heures"],
+              "translation": "We meet at the café at six o'clock."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "At a Party",
+            "zh": "在派对上",
+            "th": "ในงานปาร์ตี้",
+            "ko": "파티에서",
+            "es": "En una fiesta"
+          },
+          "objectives": {
+            "en": ["Make conversation at a French social event", "Introduce people to each other"],
+            "zh": ["在法国社交场合进行交流", "互相介绍"],
+            "th": ["พูดคุยในงานสังคมฝรั่งเศส", "แนะนำคนให้รู้จักกัน"],
+            "ko": ["프랑스 사교 행사에서 대화하기", "사람들을 서로 소개시키기"],
+            "es": ["Conversar en un evento social francés", "Presentar a personas entre sí"]
+          },
+          "vocabulary": [
+            {
+              "word": "présenter",
+              "romanization": null,
+              "meanings": { "en": "to introduce/present", "zh": "介绍", "th": "แนะนำ", "ko": "소개하다", "es": "presentar" }
+            },
+            {
+              "word": "faire connaissance",
+              "romanization": null,
+              "meanings": { "en": "to get acquainted", "zh": "相识", "th": "ทำความรู้จัก", "ko": "알게 되다", "es": "conocerse" }
+            },
+            {
+              "word": "Enchanté(e) !",
+              "romanization": null,
+              "meanings": { "en": "Nice to meet you!", "zh": "幸会！", "th": "ยินดีที่ได้รู้จัก!", "ko": "만나서 반가워요!", "es": "¡Encantado/a!" }
+            },
+            {
+              "word": "l'ambiance",
+              "romanization": null,
+              "meanings": { "en": "the atmosphere/vibe", "zh": "气氛", "th": "บรรยากาศ", "ko": "분위기", "es": "el ambiente" }
+            },
+            {
+              "word": "Ça va ?",
+              "romanization": null,
+              "meanings": { "en": "How are you? / How's it going?", "zh": "你好吗？", "th": "เป็นไงบ้าง?", "ko": "잘 지내?", "es": "¿Qué tal?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you introduce your friend saying 'This is my friend Pierre'?",
+              "options": ["Je te présente mon ami Pierre.", "Voici mon ami Pierre.", "Il s'appelle Pierre.", "C'est Pierre, mon ami."],
+              "correct": 0,
+              "explanation": "'Je te présente...' = Let me introduce you to... (informal 'te'). The natural French introduction."
+            },
+            {
+              "type": "target_to_native",
+              "word": "l'ambiance",
+              "options": ["the atmosphere/vibe", "the party", "the music", "the crowd"],
+              "correct": 0,
+              "explanation": "'L'ambiance est super ici !' = The vibe/atmosphere is great here! Common at social events."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["présenter", "to introduce"],
+                ["Enchanté(e)!", "Nice to meet you!"],
+                ["faire connaissance", "to get acquainted"],
+                ["l'ambiance", "the atmosphere"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ami", "présente", "te", "Je", "Sophie", "mon"],
+              "correct": ["Je", "te", "présente", "mon", "ami", "Sophie"],
+              "translation": "Let me introduce my friend Sophie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Hobbies & Free Time",
+        "zh": "爱好和空闲时间",
+        "th": "งานอดิเรกและเวลาว่าง",
+        "ko": "취미와 자유 시간",
+        "es": "Aficiones y tiempo libre"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Talking About Hobbies",
+            "zh": "聊爱好",
+            "th": "พูดคุยเกี่ยวกับงานอดิเรก",
+            "ko": "취미 이야기하기",
+            "es": "Hablar de aficiones"
+          },
+          "objectives": {
+            "en": ["Describe your hobbies using 'faire' and 'jouer'", "Ask others what they enjoy"],
+            "zh": ["用'faire'和'jouer'描述爱好", "询问他人的爱好"],
+            "th": ["อธิบายงานอดิเรกโดยใช้ 'faire' และ 'jouer'", "ถามผู้อื่นเกี่ยวกับสิ่งที่ชอบ"],
+            "ko": ["'faire'와 'jouer'를 사용해 취미 설명하기", "다른 사람이 즐기는 것 물어보기"],
+            "es": ["Describir aficiones con 'faire' y 'jouer'", "Preguntar a otros qué les gusta hacer"]
+          },
+          "vocabulary": [
+            {
+              "word": "le loisir",
+              "romanization": null,
+              "meanings": { "en": "the hobby/leisure activity", "zh": "爱好/休闲活动", "th": "งานอดิเรก", "ko": "취미/여가 활동", "es": "el pasatiempo/ocio" }
+            },
+            {
+              "word": "faire du sport",
+              "romanization": null,
+              "meanings": { "en": "to do sport", "zh": "做运动", "th": "เล่นกีฬา", "ko": "운동하다", "es": "hacer deporte" }
+            },
+            {
+              "word": "jouer de la guitare",
+              "romanization": null,
+              "meanings": { "en": "to play the guitar", "zh": "弹吉他", "th": "เล่นกีตาร์", "ko": "기타를 치다", "es": "tocar la guitarra" }
+            },
+            {
+              "word": "lire",
+              "romanization": null,
+              "meanings": { "en": "to read", "zh": "阅读", "th": "อ่านหนังสือ", "ko": "읽다", "es": "leer" }
+            },
+            {
+              "word": "Qu'est-ce que tu aimes faire ?",
+              "romanization": null,
+              "meanings": { "en": "What do you like to do?", "zh": "你喜欢做什么？", "th": "คุณชอบทำอะไร?", "ko": "뭘 하는 걸 좋아해?", "es": "¿Qué te gusta hacer?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I like reading and doing sport'?",
+              "options": ["J'aime lire et faire du sport.", "J'aime la lecture et le sport.", "Je lis et je fais du sport.", "Mes loisirs sont la lecture et le sport."],
+              "correct": 0,
+              "explanation": "'J'aime + infinitive' = I like to/I like... 'Lire' = to read, 'faire du sport' = to do sport."
+            },
+            {
+              "type": "target_to_native",
+              "word": "jouer de la guitare",
+              "options": ["to play the guitar", "to sing", "to listen to music", "to dance"],
+              "correct": 0,
+              "explanation": "'Jouer de + instrument' = to play an instrument. 'Jouer à + sport/game' = to play a sport/game."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["lire", "to read"],
+                ["faire du sport", "to do sport"],
+                ["jouer de la guitare", "to play guitar"],
+                ["le loisir", "leisure activity"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["temps", "libre", "lis", "mon", "Je", "pendant"],
+              "correct": ["Je", "lis", "pendant", "mon", "temps", "libre"],
+              "translation": "I read during my free time."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Weekend Activities",
+            "zh": "周末活动",
+            "th": "กิจกรรมวันหยุดสุดสัปดาห์",
+            "ko": "주말 활동",
+            "es": "Actividades de fin de semana"
+          },
+          "objectives": {
+            "en": ["Talk about what you did at the weekend using passé composé", "Describe plans for the weekend"],
+            "zh": ["用复合过去时谈论周末活动", "描述周末计划"],
+            "th": ["ใช้ passé composé พูดเรื่องที่ทำเมื่อสุดสัปดาห์", "อธิบายแผนสุดสัปดาห์"],
+            "ko": ["복합 과거형으로 주말 이야기하기", "주말 계획 설명하기"],
+            "es": ["Hablar del fin de semana con passé composé", "Describir planes para el fin de semana"]
+          },
+          "vocabulary": [
+            {
+              "word": "le week-end",
+              "romanization": null,
+              "meanings": { "en": "the weekend", "zh": "周末", "th": "สุดสัปดาห์", "ko": "주말", "es": "el fin de semana" }
+            },
+            {
+              "word": "aller au cinéma",
+              "romanization": null,
+              "meanings": { "en": "to go to the cinema", "zh": "去看电影", "th": "ไปดูหนัง", "ko": "영화관에 가다", "es": "ir al cine" }
+            },
+            {
+              "word": "se promener",
+              "romanization": null,
+              "meanings": { "en": "to go for a walk", "zh": "散步", "th": "ไปเดินเล่น", "ko": "산책하다", "es": "pasear" }
+            },
+            {
+              "word": "rendre visite à",
+              "romanization": null,
+              "meanings": { "en": "to visit (a person)", "zh": "拜访", "th": "ไปเยี่ยม", "ko": "방문하다", "es": "visitar (a una persona)" }
+            },
+            {
+              "word": "se reposer",
+              "romanization": null,
+              "meanings": { "en": "to rest/relax", "zh": "休息", "th": "พักผ่อน", "ko": "쉬다", "es": "descansar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Last weekend I went to the cinema'?",
+              "options": ["Le week-end dernier, je suis allé au cinéma.", "Le week-end, j'allais au cinéma.", "J'ai vu un film le week-end.", "Samedi soir j'ai regardé un film."],
+              "correct": 0,
+              "explanation": "'Je suis allé(e) au cinéma' = I went to the cinema. 'Aller' uses 'être' in passé composé."
+            },
+            {
+              "type": "target_to_native",
+              "word": "se promener",
+              "options": ["to go for a walk", "to go shopping", "to visit", "to rest"],
+              "correct": 0,
+              "explanation": "'Je me suis promené(e)' = I went for a walk. Reflexive verb with 'être' in passé composé."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le week-end", "weekend"],
+                ["aller au cinéma", "go to cinema"],
+                ["se reposer", "to rest"],
+                ["rendre visite à", "to visit (a person)"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["suis", "cinéma", "allé", "Je", "au", "samedi"],
+              "correct": ["Je", "suis", "allé", "au", "cinéma", "samedi"],
+              "translation": "I went to the cinema on Saturday."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Sports & Activities",
+            "zh": "体育和活动",
+            "th": "กีฬาและกิจกรรม",
+            "ko": "스포츠와 활동",
+            "es": "Deportes y actividades"
+          },
+          "objectives": {
+            "en": ["Discuss sports and physical activities", "Talk about how often you exercise"],
+            "zh": ["讨论运动和体育活动", "谈论锻炼频率"],
+            "th": ["พูดคุยเกี่ยวกับกีฬาและกิจกรรมออกกำลังกาย", "พูดถึงความถี่ในการออกกำลังกาย"],
+            "ko": ["스포츠와 신체 활동 이야기하기", "운동 빈도 이야기하기"],
+            "es": ["Hablar de deportes y actividades físicas", "Hablar de la frecuencia con que haces ejercicio"]
+          },
+          "vocabulary": [
+            {
+              "word": "nager",
+              "romanization": null,
+              "meanings": { "en": "to swim", "zh": "游泳", "th": "ว่ายน้ำ", "ko": "수영하다", "es": "nadar" }
+            },
+            {
+              "word": "courir",
+              "romanization": null,
+              "meanings": { "en": "to run", "zh": "跑步", "th": "วิ่ง", "ko": "달리다", "es": "correr" }
+            },
+            {
+              "word": "jouer au foot",
+              "romanization": null,
+              "meanings": { "en": "to play football/soccer", "zh": "踢足球", "th": "เล่นฟุตบอล", "ko": "축구하다", "es": "jugar al fútbol" }
+            },
+            {
+              "word": "tous les jours",
+              "romanization": null,
+              "meanings": { "en": "every day", "zh": "每天", "th": "ทุกวัน", "ko": "매일", "es": "todos los días" }
+            },
+            {
+              "word": "une fois par semaine",
+              "romanization": null,
+              "meanings": { "en": "once a week", "zh": "每周一次", "th": "สัปดาห์ละครั้ง", "ko": "일주일에 한 번", "es": "una vez a la semana" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I run every day'?",
+              "options": ["Je cours tous les jours.", "Je fais du jogging chaque jour.", "Je cours souvent.", "Je cours le matin."],
+              "correct": 0,
+              "explanation": "'Je cours' = I run (irregular verb: courir). 'Tous les jours' = every day."
+            },
+            {
+              "type": "target_to_native",
+              "word": "une fois par semaine",
+              "options": ["once a week", "every day", "twice a month", "every weekend"],
+              "correct": 0,
+              "explanation": "'Une fois par semaine' = once a week. 'Je nage une fois par semaine' = I swim once a week."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["nager", "to swim"],
+                ["courir", "to run"],
+                ["jouer au foot", "to play football"],
+                ["tous les jours", "every day"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["semaine", "foot", "par", "joue", "au", "fois", "Je", "une"],
+              "correct": ["Je", "joue", "au", "foot", "une", "fois", "par", "semaine"],
+              "translation": "I play football once a week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Celebrations",
+        "zh": "庆典",
+        "th": "การเฉลิมฉลอง",
+        "ko": "축하",
+        "es": "Celebraciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Birthdays",
+            "zh": "生日",
+            "th": "วันเกิด",
+            "ko": "생일",
+            "es": "Cumpleaños"
+          },
+          "objectives": {
+            "en": ["Wish someone happy birthday in French", "Talk about birthday celebrations"],
+            "zh": ["用法语祝某人生日快乐", "谈论生日庆祝"],
+            "th": ["อวยพรวันเกิดเป็นภาษาฝรั่งเศส", "พูดคุยเกี่ยวกับการฉลองวันเกิด"],
+            "ko": ["프랑스어로 생일 축하하기", "생일 파티 이야기하기"],
+            "es": ["Felicitar el cumpleaños en francés", "Hablar de celebraciones de cumpleaños"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'anniversaire",
+              "romanization": null,
+              "meanings": { "en": "the birthday", "zh": "生日/周年纪念", "th": "วันเกิด/วันครบรอบ", "ko": "생일/기념일", "es": "el cumpleaños/aniversario" }
+            },
+            {
+              "word": "Joyeux anniversaire !",
+              "romanization": null,
+              "meanings": { "en": "Happy birthday!", "zh": "生日快乐！", "th": "สุขสันต์วันเกิด!", "ko": "생일 축하해요!", "es": "¡Feliz cumpleaños!" }
+            },
+            {
+              "word": "le cadeau",
+              "romanization": null,
+              "meanings": { "en": "the gift/present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "el regalo" }
+            },
+            {
+              "word": "souffler les bougies",
+              "romanization": null,
+              "meanings": { "en": "to blow out the candles", "zh": "吹灭蜡烛", "th": "เป่าเทียน", "ko": "촛불 끄기", "es": "soplar las velas" }
+            },
+            {
+              "word": "fêter",
+              "romanization": null,
+              "meanings": { "en": "to celebrate", "zh": "庆祝", "th": "เฉลิมฉลอง", "ko": "축하하다", "es": "celebrar/festejar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone 'Happy birthday' in French?",
+              "options": ["Joyeux anniversaire !", "Bon anniversaire !", "Bonne fête !", "Joyeux Noël !"],
+              "correct": 0,
+              "explanation": "Both 'Joyeux anniversaire!' and 'Bon anniversaire!' are correct. 'Joyeux' = joyful/happy."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le cadeau",
+              "options": ["gift/present", "cake", "card", "balloon"],
+              "correct": 0,
+              "explanation": "'Le cadeau' = the gift. 'J'ai un cadeau pour toi' = I have a gift for you."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["l'anniversaire", "birthday"],
+                ["le cadeau", "the gift"],
+                ["fêter", "to celebrate"],
+                ["souffler les bougies", "to blow out candles"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["anniversaire", "mon", "fête", "amis", "Je", "avec", "mes"],
+              "correct": ["Je", "fête", "mon", "anniversaire", "avec", "mes", "amis"],
+              "translation": "I celebrate my birthday with my friends."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "French Celebrations",
+            "zh": "法国节日",
+            "th": "การเฉลิมฉลองของฝรั่งเศส",
+            "ko": "프랑스 축제",
+            "es": "Celebraciones francesas"
+          },
+          "objectives": {
+            "en": ["Name major French holidays and traditions", "Describe typical customs"],
+            "zh": ["说出主要法国节日和传统", "描述典型习俗"],
+            "th": ["พูดชื่อวันหยุดและประเพณีสำคัญของฝรั่งเศส", "อธิบายประเพณีทั่วไป"],
+            "ko": ["주요 프랑스 공휴일과 전통 말하기", "일반적인 관습 묘사하기"],
+            "es": ["Nombrar festividades y tradiciones francesas", "Describir costumbres típicas"]
+          },
+          "vocabulary": [
+            {
+              "word": "le quatorze juillet",
+              "romanization": null,
+              "meanings": { "en": "July 14th / Bastille Day", "zh": "七月十四日/法国国庆日", "th": "วันที่ 14 กรกฎาคม / วันบาสตีย์", "ko": "7월 14일 / 프랑스 혁명 기념일", "es": "el 14 de julio / Día de la Bastilla" }
+            },
+            {
+              "word": "Noël",
+              "romanization": null,
+              "meanings": { "en": "Christmas", "zh": "圣诞节", "th": "คริสต์มาส", "ko": "크리스마스", "es": "Navidad" }
+            },
+            {
+              "word": "le défilé",
+              "romanization": null,
+              "meanings": { "en": "the parade/procession", "zh": "游行", "th": "ขบวนพาเหรด", "ko": "퍼레이드", "es": "el desfile" }
+            },
+            {
+              "word": "le feu d'artifice",
+              "romanization": null,
+              "meanings": { "en": "the fireworks", "zh": "烟火", "th": "ดอกไม้ไฟ", "ko": "불꽃놀이", "es": "los fuegos artificiales" }
+            },
+            {
+              "word": "la tradition",
+              "romanization": null,
+              "meanings": { "en": "the tradition", "zh": "传统", "th": "ประเพณี", "ko": "전통", "es": "la tradición" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is celebrated on July 14th in France?",
+              "options": ["La fête nationale (Bastille Day)", "Le Nouvel An", "Noël", "La Toussaint"],
+              "correct": 0,
+              "explanation": "July 14th ('le quatorze juillet') is France's national holiday, celebrating the French Revolution."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le feu d'artifice",
+              "options": ["fireworks", "parade", "celebration", "bonfire"],
+              "correct": 0,
+              "explanation": "'Le feu d'artifice' = fireworks. Lit. 'artificial fire'. Big displays on July 14th."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Noël", "Christmas"],
+                ["le défilé", "the parade"],
+                ["le feu d'artifice", "fireworks"],
+                ["la tradition", "tradition"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["juillet", "en", "France", "est", "fête", "le", "La", "quatorze"],
+              "correct": ["Le", "quatorze", "juillet", "est", "la", "fête", "nationale", "en", "France"],
+              "translation": "July 14th is the national holiday in France."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Expressing Thanks",
+            "zh": "表达感谢",
+            "th": "การแสดงความขอบคุณ",
+            "ko": "감사 표현하기",
+            "es": "Expresar gratitud"
+          },
+          "objectives": {
+            "en": ["Thank someone for hospitality or a gift", "Make and receive compliments in French"],
+            "zh": ["感谢某人的款待或礼物", "用法语给予和接受赞美"],
+            "th": ["ขอบคุณสำหรับการต้อนรับหรือของขวัญ", "ให้และรับคำชมเป็นภาษาฝรั่งเศส"],
+            "ko": ["환대나 선물에 감사 표현하기", "프랑스어로 칭찬하고 받기"],
+            "es": ["Agradecer hospitalidad o un regalo", "Hacer y recibir cumplidos en francés"]
+          },
+          "vocabulary": [
+            {
+              "word": "Merci beaucoup !",
+              "romanization": null,
+              "meanings": { "en": "Thank you very much!", "zh": "非常感谢！", "th": "ขอบคุณมาก!", "ko": "정말 감사합니다!", "es": "¡Muchas gracias!" }
+            },
+            {
+              "word": "C'est très gentil.",
+              "romanization": null,
+              "meanings": { "en": "That's very kind.", "zh": "你真好。", "th": "ใจดีมากเลย", "ko": "정말 친절하네요.", "es": "Es muy amable." }
+            },
+            {
+              "word": "le compliment",
+              "romanization": null,
+              "meanings": { "en": "the compliment", "zh": "称赞", "th": "คำชม", "ko": "칭찬", "es": "el cumplido" }
+            },
+            {
+              "word": "félicitations",
+              "romanization": null,
+              "meanings": { "en": "congratulations", "zh": "祝贺", "th": "ขอแสดงความยินดี", "ko": "축하해요", "es": "felicitaciones" }
+            },
+            {
+              "word": "De rien.",
+              "romanization": null,
+              "meanings": { "en": "You're welcome.", "zh": "不客气。", "th": "ยินดีครับ/ค่ะ", "ko": "천만에요.", "es": "De nada." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Thank you for the invitation'?",
+              "options": ["Merci pour l'invitation.", "Merci beaucoup.", "C'est gentil de ta part.", "Je te remercie."],
+              "correct": 0,
+              "explanation": "'Merci pour + noun' = thank you for... 'L'invitation' uses elision."
+            },
+            {
+              "type": "target_to_native",
+              "word": "félicitations",
+              "options": ["congratulations", "thank you", "good luck", "welcome"],
+              "correct": 0,
+              "explanation": "'Félicitations !' = Congratulations! Used for achievements, promotions, births, etc."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Merci beaucoup", "Thank you very much"],
+                ["De rien", "You're welcome"],
+                ["félicitations", "congratulations"],
+                ["C'est très gentil", "That's very kind"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["cadeau", "pour", "Merci", "le"],
+              "correct": ["Merci", "pour", "le", "cadeau"],
+              "translation": "Thank you for the gift."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

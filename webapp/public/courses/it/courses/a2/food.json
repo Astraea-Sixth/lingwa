@@ -1,0 +1,217 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "At the Restaurant", "zh": "在餐厅", "th": "ที่ร้านอาหาร", "ko": "식당에서", "es": "En el restaurante" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Making a Reservation", "zh": "预订餐厅", "th": "การจองโต๊ะ", "ko": "예약하기", "es": "Hacer una reserva" },
+          "objectives": { "en": ["Make a restaurant reservation", "Ask for a table for a specific number of people", "Use formal polite language"] },
+          "vocabulary": [
+            { "word": "prenotare", "romanization": null, "meanings": { "en": "to book / to reserve", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }, "gendered": null },
+            { "word": "tavolo", "romanization": null, "meanings": { "en": "table", "zh": "桌子", "th": "โต๊ะ", "ko": "테이블", "es": "mesa" }, "gendered": null },
+            { "word": "stasera", "romanization": null, "meanings": { "en": "tonight", "zh": "今晚", "th": "คืนนี้", "ko": "오늘 저녁", "es": "esta noche" }, "gendered": null },
+            { "word": "persone", "romanization": null, "meanings": { "en": "people", "zh": "人", "th": "คน", "ko": "사람들", "es": "personas" }, "gendered": null },
+            { "word": "disponibile", "romanization": null, "meanings": { "en": "available", "zh": "可用的", "th": "ว่าง", "ko": "이용 가능한", "es": "disponible" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "prenotare", "romanization": null, "options": { "en": ["to book / to reserve", "to order", "to pay", "to arrive"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "tavolo", "romanization": null, "options": { "en": ["table", "chair", "menu", "bill"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'tonight' in Italian?" }, "options": { "neutral": ["stasera", "domani", "ieri", "adesso"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'available' in Italian?" }, "options": { "neutral": ["disponibile", "prenotare", "persone", "tavolo"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "persone", "romanization": null, "options": { "en": ["people", "table", "tonight", "available"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Reading the Menu", "zh": "看菜单", "th": "อ่านเมนู", "ko": "메뉴 읽기", "es": "Leer el menú" },
+          "objectives": { "en": ["Understand a typical Italian menu", "Identify courses (antipasto, primo, secondo)", "Ask about dishes"] },
+          "vocabulary": [
+            { "word": "menù", "romanization": null, "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }, "gendered": null },
+            { "word": "antipasto", "romanization": null, "meanings": { "en": "starter / appetizer", "zh": "开胃菜", "th": "อาหารเรียกน้ำย่อย", "ko": "전채 요리", "es": "entrante" }, "gendered": null },
+            { "word": "primo piatto", "romanization": null, "meanings": { "en": "first course (pasta/soup)", "zh": "第一道菜", "th": "คอร์สแรก", "ko": "첫 번째 코스", "es": "primer plato" }, "gendered": null },
+            { "word": "secondo piatto", "romanization": null, "meanings": { "en": "main course (meat/fish)", "zh": "主菜", "th": "คอร์สหลัก", "ko": "메인 코스", "es": "segundo plato" }, "gendered": null },
+            { "word": "dolce", "romanization": null, "meanings": { "en": "dessert / sweet", "zh": "甜点", "th": "ของหวาน", "ko": "디저트", "es": "postre" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "antipasto", "romanization": null, "options": { "en": ["starter / appetizer", "main course", "dessert", "menu"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "dolce", "romanization": null, "options": { "en": ["dessert / sweet", "starter", "pasta", "first course"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'menu' in Italian?" }, "options": { "neutral": ["menù", "dolce", "antipasto", "primo piatto"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'main course' in Italian?" }, "options": { "neutral": ["secondo piatto", "primo piatto", "antipasto", "dolce"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "antipasto", "romanization": null, "native": { "en": "starter / appetizer" } },
+              { "target": "primo piatto", "romanization": null, "native": { "en": "first course" } },
+              { "target": "secondo piatto", "romanization": null, "native": { "en": "main course" } },
+              { "target": "dolce", "romanization": null, "native": { "en": "dessert / sweet" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Ordering Food", "zh": "点餐", "th": "สั่งอาหาร", "ko": "음식 주문하기", "es": "Pedir comida" },
+          "objectives": { "en": ["Order food and drinks at a restaurant", "Express preferences", "Ask for the bill"] },
+          "vocabulary": [
+            { "word": "ordinare", "romanization": null, "meanings": { "en": "to order", "zh": "点餐", "th": "สั่ง", "ko": "주문하다", "es": "pedir" }, "gendered": null },
+            { "word": "vorrei", "romanization": null, "meanings": { "en": "I would like", "zh": "我想要", "th": "ฉันอยากได้", "ko": "저는 ~을 원합니다", "es": "me gustaría" }, "gendered": null },
+            { "word": "conto", "romanization": null, "meanings": { "en": "bill / check", "zh": "账单", "th": "บิล", "ko": "계산서", "es": "cuenta" }, "gendered": null },
+            { "word": "cameriere", "romanization": null, "meanings": { "en": "waiter", "zh": "服务员", "th": "บริกร", "ko": "웨이터", "es": "camarero" }, "gendered": null },
+            { "word": "acqua minerale", "romanization": null, "meanings": { "en": "mineral water", "zh": "矿泉水", "th": "น้ำแร่", "ko": "미네랄 워터", "es": "agua mineral" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ordinare", "romanization": null, "options": { "en": ["to order", "to pay", "to reserve", "to arrive"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "conto", "romanization": null, "options": { "en": ["bill / check", "menu", "table", "waiter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I would like' in Italian?" }, "options": { "neutral": ["vorrei", "voglio", "posso", "devo"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'waiter' in Italian?" }, "options": { "neutral": ["cameriere", "cuoco", "cliente", "conto"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "acqua minerale", "romanization": null, "options": { "en": ["mineral water", "red wine", "coffee", "fruit juice"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Italian Food Culture", "zh": "意大利饮食文化", "th": "วัฒนธรรมอาหารอิตาลี", "ko": "이탈리아 음식 문화", "es": "Cultura gastronómica italiana" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Pasta and Pizza", "zh": "意面和披萨", "th": "พาสต้าและพิซซ่า", "ko": "파스타와 피자", "es": "Pasta y pizza" },
+          "objectives": { "en": ["Name popular pasta dishes", "Describe pizza varieties", "Talk about Italian food you like"] },
+          "vocabulary": [
+            { "word": "pasta", "romanization": null, "meanings": { "en": "pasta", "zh": "意面", "th": "พาสต้า", "ko": "파스타", "es": "pasta" }, "gendered": null },
+            { "word": "salsa", "romanization": null, "meanings": { "en": "sauce", "zh": "酱汁", "th": "ซอส", "ko": "소스", "es": "salsa" }, "gendered": null },
+            { "word": "pomodoro", "romanization": null, "meanings": { "en": "tomato", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "tomate" }, "gendered": null },
+            { "word": "formaggio", "romanization": null, "meanings": { "en": "cheese", "zh": "奶酪", "th": "ชีส", "ko": "치즈", "es": "queso" }, "gendered": null },
+            { "word": "al forno", "romanization": null, "meanings": { "en": "baked / oven-cooked", "zh": "烤箱烤的", "th": "อบในเตาอบ", "ko": "오븐에 구운", "es": "al horno" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "pomodoro", "romanization": null, "options": { "en": ["tomato", "cheese", "sauce", "pasta"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "formaggio", "romanization": null, "options": { "en": ["cheese", "tomato", "sauce", "pepper"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sauce' in Italian?" }, "options": { "neutral": ["salsa", "pasta", "formaggio", "forno"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'baked' in Italian?" }, "options": { "neutral": ["al forno", "alla griglia", "fritto", "bollito"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "pasta", "romanization": null, "options": { "en": ["pasta", "pizza", "risotto", "polenta"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Ingredients and Flavors", "zh": "食材与口味", "th": "วัตถุดิบและรสชาติ", "ko": "재료와 맛", "es": "Ingredientes y sabores" },
+          "objectives": { "en": ["Name common ingredients", "Describe flavors and tastes", "Ask what is in a dish"] },
+          "vocabulary": [
+            { "word": "aglio", "romanization": null, "meanings": { "en": "garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "ajo" }, "gendered": null },
+            { "word": "olio d'oliva", "romanization": null, "meanings": { "en": "olive oil", "zh": "橄榄油", "th": "น้ำมันมะกอก", "ko": "올리브 오일", "es": "aceite de oliva" }, "gendered": null },
+            { "word": "piccante", "romanization": null, "meanings": { "en": "spicy / hot", "zh": "辣的", "th": "เผ็ด", "ko": "매운", "es": "picante" }, "gendered": null },
+            { "word": "dolce", "romanization": null, "meanings": { "en": "sweet", "zh": "甜的", "th": "หวาน", "ko": "달콤한", "es": "dulce" }, "gendered": null },
+            { "word": "salato", "romanization": null, "meanings": { "en": "salty", "zh": "咸的", "th": "เค็ม", "ko": "짠", "es": "salado" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "aglio", "romanization": null, "options": { "en": ["garlic", "onion", "pepper", "basil"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "piccante", "romanization": null, "options": { "en": ["spicy / hot", "sweet", "salty", "bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'olive oil' in Italian?" }, "options": { "neutral": ["olio d'oliva", "burro", "aceto", "vino"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'salty' in Italian?" }, "options": { "neutral": ["salato", "dolce", "piccante", "amaro"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "aglio", "romanization": null, "native": { "en": "garlic" } },
+              { "target": "piccante", "romanization": null, "native": { "en": "spicy / hot" } },
+              { "target": "dolce", "romanization": null, "native": { "en": "sweet" } },
+              { "target": "salato", "romanization": null, "native": { "en": "salty" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Coffee and Drinks", "zh": "咖啡与饮品", "th": "กาแฟและเครื่องดื่ม", "ko": "커피와 음료", "es": "Café y bebidas" },
+          "objectives": { "en": ["Order coffee Italian-style", "Know different types of coffee drinks", "Order alcoholic and non-alcoholic drinks"] },
+          "vocabulary": [
+            { "word": "caffè", "romanization": null, "meanings": { "en": "coffee / espresso", "zh": "咖啡", "th": "กาแฟ", "ko": "커피", "es": "café" }, "gendered": null },
+            { "word": "cappuccino", "romanization": null, "meanings": { "en": "cappuccino", "zh": "卡布奇诺", "th": "คาปูชิโน", "ko": "카푸치노", "es": "capuchino" }, "gendered": null },
+            { "word": "vino rosso", "romanization": null, "meanings": { "en": "red wine", "zh": "红葡萄酒", "th": "ไวน์แดง", "ko": "레드 와인", "es": "vino tinto" }, "gendered": null },
+            { "word": "birra", "romanization": null, "meanings": { "en": "beer", "zh": "啤酒", "th": "เบียร์", "ko": "맥주", "es": "cerveza" }, "gendered": null },
+            { "word": "succo di frutta", "romanization": null, "meanings": { "en": "fruit juice", "zh": "果汁", "th": "น้ำผลไม้", "ko": "과일 주스", "es": "zumo de fruta" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "caffè", "romanization": null, "options": { "en": ["coffee / espresso", "tea", "juice", "water"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "birra", "romanization": null, "options": { "en": ["beer", "wine", "coffee", "water"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'red wine' in Italian?" }, "options": { "neutral": ["vino rosso", "vino bianco", "birra", "caffè"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'fruit juice' in Italian?" }, "options": { "neutral": ["succo di frutta", "acqua minerale", "cappuccino", "birra"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "cappuccino", "romanization": null, "options": { "en": ["cappuccino", "espresso", "latte", "tea"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Shopping for Food", "zh": "食品购物", "th": "การซื้ออาหาร", "ko": "식품 쇼핑", "es": "Comprar comida" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "At the Market", "zh": "在市场", "th": "ที่ตลาด", "ko": "시장에서", "es": "En el mercado" },
+          "objectives": { "en": ["Shop at an Italian market", "Ask for quantities of food", "Use numbers and weights"] },
+          "vocabulary": [
+            { "word": "mercato", "romanization": null, "meanings": { "en": "market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "mercado" }, "gendered": null },
+            { "word": "chilo", "romanization": null, "meanings": { "en": "kilogram", "zh": "千克", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilo" }, "gendered": null },
+            { "word": "fresco", "romanization": null, "meanings": { "en": "fresh", "zh": "新鲜的", "th": "สด", "ko": "신선한", "es": "fresco" }, "gendered": null },
+            { "word": "verdura", "romanization": null, "meanings": { "en": "vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verduras" }, "gendered": null },
+            { "word": "frutta", "romanization": null, "meanings": { "en": "fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "fruta" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mercato", "romanization": null, "options": { "en": ["market", "supermarket", "shop", "bakery"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "fresco", "romanization": null, "options": { "en": ["fresh", "frozen", "cooked", "raw"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'vegetables' in Italian?" }, "options": { "neutral": ["verdura", "frutta", "carne", "pesce"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'kilogram' in Italian?" }, "options": { "neutral": ["chilo", "grammo", "litro", "etto"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "frutta", "romanization": null, "options": { "en": ["fruit", "vegetables", "meat", "fish"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "At the Bakery", "zh": "在面包店", "th": "ที่ร้านขนมปัง", "ko": "빵집에서", "es": "En la panadería" },
+          "objectives": { "en": ["Buy bread and pastries", "Know types of Italian bread", "Ask for specific items"] },
+          "vocabulary": [
+            { "word": "panetteria", "romanization": null, "meanings": { "en": "bakery", "zh": "面包店", "th": "ร้านขนมปัง", "ko": "빵집", "es": "panadería" }, "gendered": null },
+            { "word": "pane", "romanization": null, "meanings": { "en": "bread", "zh": "面包", "th": "ขนมปัง", "ko": "빵", "es": "pan" }, "gendered": null },
+            { "word": "cornetto", "romanization": null, "meanings": { "en": "croissant", "zh": "可颂", "th": "ครัวซองต์", "ko": "크루아상", "es": "croissant" }, "gendered": null },
+            { "word": "torta", "romanization": null, "meanings": { "en": "cake / tart", "zh": "蛋糕", "th": "เค้ก", "ko": "케이크", "es": "tarta" }, "gendered": null },
+            { "word": "biscotti", "romanization": null, "meanings": { "en": "cookies / biscuits", "zh": "饼干", "th": "บิสกิต", "ko": "쿠키", "es": "galletas" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "pane", "romanization": null, "options": { "en": ["bread", "cake", "cookie", "croissant"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "torta", "romanization": null, "options": { "en": ["cake / tart", "bread", "cookie", "pastry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bakery' in Italian?" }, "options": { "neutral": ["panetteria", "pasticceria", "gelateria", "pizzeria"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cookies / biscuits' in Italian?" }, "options": { "neutral": ["biscotti", "cornetti", "torte", "pani"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "pane", "romanization": null, "native": { "en": "bread" } },
+              { "target": "cornetto", "romanization": null, "native": { "en": "croissant" } },
+              { "target": "torta", "romanization": null, "native": { "en": "cake / tart" } },
+              { "target": "biscotti", "romanization": null, "native": { "en": "cookies / biscuits" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Cooking at Home", "zh": "在家烹饪", "th": "ทำอาหารที่บ้าน", "ko": "집에서 요리하기", "es": "Cocinar en casa" },
+          "objectives": { "en": ["Talk about cooking methods", "Follow a simple recipe", "Describe how you prepare food"] },
+          "vocabulary": [
+            { "word": "ricetta", "romanization": null, "meanings": { "en": "recipe", "zh": "食谱", "th": "สูตรอาหาร", "ko": "레시피", "es": "receta" }, "gendered": null },
+            { "word": "cuocere", "romanization": null, "meanings": { "en": "to cook", "zh": "烹饪", "th": "ปรุงอาหาร", "ko": "요리하다", "es": "cocinar" }, "gendered": null },
+            { "word": "mescolare", "romanization": null, "meanings": { "en": "to mix / to stir", "zh": "混合", "th": "ผสม", "ko": "섞다", "es": "mezclar" }, "gendered": null },
+            { "word": "tagliare", "romanization": null, "meanings": { "en": "to cut / to chop", "zh": "切", "th": "หั่น", "ko": "자르다", "es": "cortar" }, "gendered": null },
+            { "word": "ingredienti", "romanization": null, "meanings": { "en": "ingredients", "zh": "食材", "th": "ส่วนผสม", "ko": "재료", "es": "ingredientes" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ricetta", "romanization": null, "options": { "en": ["recipe", "ingredient", "meal", "kitchen"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "tagliare", "romanization": null, "options": { "en": ["to cut / to chop", "to cook", "to mix", "to boil"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to mix / to stir' in Italian?" }, "options": { "neutral": ["mescolare", "cuocere", "tagliare", "aggiungere"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'ingredients' in Italian?" }, "options": { "neutral": ["ingredienti", "ricette", "sapori", "piatti"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "cuocere", "romanization": null, "options": { "en": ["to cook", "to cut", "to mix", "to add"] }, "correct": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

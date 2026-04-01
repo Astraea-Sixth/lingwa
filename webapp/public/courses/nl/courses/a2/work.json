@@ -1,0 +1,832 @@
+{
+  "lang": "nl",
+  "language": "nl",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Describing Your Job",
+            "zh": "描述你的工作",
+            "th": "การอธิบายงานของคุณ",
+            "ko": "직업 설명하기",
+            "es": "Describir tu trabajo"
+          },
+          "objectives": {
+            "en": ["Name your profession and workplace in Dutch", "Describe basic job duties"],
+            "zh": ["用荷兰语说出职业和工作地点", "描述基本工作职责"],
+            "th": ["พูดชื่ออาชีพและสถานที่ทำงานเป็นภาษาดัตช์", "อธิบายหน้าที่งานเบื้องต้น"],
+            "ko": ["네덜란드어로 직업과 직장 말하기", "기본 업무 설명하기"],
+            "es": ["Nombrar tu profesión y lugar de trabajo en neerlandés", "Describir tareas laborales básicas"]
+          },
+          "vocabulary": [
+            {
+              "word": "werk",
+              "romanization": null,
+              "meanings": { "en": "work / job", "zh": "工作", "th": "งาน", "ko": "일/직업", "es": "trabajo" },
+              "gendered": "het"
+            },
+            {
+              "word": "kantoor",
+              "romanization": null,
+              "meanings": { "en": "office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "oficina" },
+              "gendered": "het"
+            },
+            {
+              "word": "werknemer",
+              "romanization": null,
+              "meanings": { "en": "employee", "zh": "员工", "th": "พนักงาน", "ko": "직원", "es": "empleado" },
+              "gendered": "de"
+            },
+            {
+              "word": "beroep",
+              "romanization": null,
+              "meanings": { "en": "profession / occupation", "zh": "职业", "th": "อาชีพ", "ko": "직종", "es": "profesión" },
+              "gendered": "het"
+            },
+            {
+              "word": "werken",
+              "romanization": null,
+              "meanings": { "en": "to work", "zh": "工作", "th": "ทำงาน", "ko": "일하다", "es": "trabajar" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I work in an office'?",
+              "options": ["Ik werk op een kantoor.", "Ik werk in een winkel.", "Ik werk thuis.", "Ik werk op school."],
+              "correct": 0,
+              "explanation": "'Ik werk op een kantoor' = I work in an office. Note: Dutch uses 'op' (on/at) rather than 'in' with 'kantoor'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "beroep",
+              "options": ["profession / occupation", "salary", "office", "colleague"],
+              "correct": 0,
+              "explanation": "'Beroep' means profession or occupation — the type of work you do."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wat is jouw beroep?",
+              "options": ["What is your profession?", "Where do you work?", "How long have you worked here?", "Do you like your job?"],
+              "correct": 0,
+              "explanation": "'Wat is jouw beroep?' = What is your profession? 'Jouw' = your (informal)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["werk", "work / job"],
+                ["kantoor", "office"],
+                ["werknemer", "employee"],
+                ["werken", "to work"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["op", "ik", "kantoor", "werk", "een"],
+              "correct": ["Ik", "werk", "op", "een", "kantoor"],
+              "translation": "I work in an office."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Colleagues & Team",
+            "zh": "同事与团队",
+            "th": "เพื่อนร่วมงานและทีม",
+            "ko": "동료와 팀",
+            "es": "Compañeros y equipo"
+          },
+          "objectives": {
+            "en": ["Talk about colleagues and team members in Dutch", "Introduce someone at work"],
+            "zh": ["用荷兰语谈论同事和团队成员", "在工作中介绍他人"],
+            "th": ["พูดเกี่ยวกับเพื่อนร่วมงานและสมาชิกในทีมเป็นภาษาดัตช์", "แนะนำคนอื่นในที่ทำงาน"],
+            "ko": ["네덜란드어로 동료와 팀원에 대해 이야기하기", "직장에서 누군가를 소개하기"],
+            "es": ["Hablar de compañeros y miembros del equipo en neerlandés", "Presentar a alguien en el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "collega",
+              "romanization": null,
+              "meanings": { "en": "colleague", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "compañero de trabajo" },
+              "gendered": "de"
+            },
+            {
+              "word": "baas",
+              "romanization": null,
+              "meanings": { "en": "boss / manager", "zh": "老板/经理", "th": "หัวหน้า/ผู้จัดการ", "ko": "상사/관리자", "es": "jefe / director" },
+              "gendered": "de"
+            },
+            {
+              "word": "team",
+              "romanization": null,
+              "meanings": { "en": "team", "zh": "团队", "th": "ทีม", "ko": "팀", "es": "equipo" },
+              "gendered": "het"
+            },
+            {
+              "word": "kennis maken met",
+              "romanization": null,
+              "meanings": { "en": "to get acquainted with / to meet", "zh": "认识/结识", "th": "รู้จักกับ", "ko": "알게 되다/만나다", "es": "conocer a" },
+              "gendered": null
+            },
+            {
+              "word": "voorstellen",
+              "romanization": null,
+              "meanings": { "en": "to introduce", "zh": "介绍", "th": "แนะนำตัว", "ko": "소개하다", "es": "presentar" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'This is my colleague Pieter'?",
+              "options": ["Dit is mijn collega Pieter.", "Dit is mijn baas.", "Dit is mijn team.", "Dit is mijn manager."],
+              "correct": 0,
+              "explanation": "'Dit is mijn collega Pieter' = This is my colleague Pieter. 'Mijn' = my."
+            },
+            {
+              "type": "target_to_native",
+              "word": "team",
+              "options": ["team", "office", "project", "department"],
+              "correct": 0,
+              "explanation": "'Team' is the same in Dutch — a group of people working together."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik wil je graag voorstellen aan mijn collega.",
+              "options": ["I would like to introduce you to my colleague.", "I would like to meet your boss.", "My team works very well together.", "The meeting starts in ten minutes."],
+              "correct": 0,
+              "explanation": "'Ik wil je graag voorstellen aan' = I would like to introduce you to. 'Mijn collega' = my colleague."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["collega", "colleague"],
+                ["baas", "boss"],
+                ["team", "team"],
+                ["voorstellen", "to introduce"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["collega", "mijn", "is", "dit"],
+              "correct": ["Dit", "is", "mijn", "collega"],
+              "translation": "This is my colleague."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Working Hours & Schedule",
+            "zh": "工作时间和日程",
+            "th": "ชั่วโมงทำงานและตารางงาน",
+            "ko": "근무 시간과 일정",
+            "es": "Horario de trabajo"
+          },
+          "objectives": {
+            "en": ["Talk about working hours and schedule in Dutch", "Say when you start and finish work"],
+            "zh": ["用荷兰语谈论工作时间和日程", "说明上下班时间"],
+            "th": ["พูดเกี่ยวกับชั่วโมงทำงานและตารางงานเป็นภาษาดัตช์", "บอกเวลาเริ่มและเลิกงาน"],
+            "ko": ["네덜란드어로 근무 시간과 일정에 대해 이야기하기", "출근 및 퇴근 시간 말하기"],
+            "es": ["Hablar del horario de trabajo en neerlandés", "Decir cuándo empiezas y terminas de trabajar"]
+          },
+          "vocabulary": [
+            {
+              "word": "werktijden",
+              "romanization": null,
+              "meanings": { "en": "working hours", "zh": "工作时间", "th": "ชั่วโมงทำงาน", "ko": "근무 시간", "es": "horas de trabajo" },
+              "gendered": null
+            },
+            {
+              "word": "beginnen",
+              "romanization": null,
+              "meanings": { "en": "to start / begin", "zh": "开始", "th": "เริ่ม", "ko": "시작하다", "es": "empezar / comenzar" },
+              "gendered": null
+            },
+            {
+              "word": "eindigen",
+              "romanization": null,
+              "meanings": { "en": "to finish / end", "zh": "结束", "th": "สิ้นสุด", "ko": "끝나다/마치다", "es": "terminar / acabar" },
+              "gendered": null
+            },
+            {
+              "word": "verlof",
+              "romanization": null,
+              "meanings": { "en": "leave / time off", "zh": "假期/休假", "th": "วันลา", "ko": "휴가/휴직", "es": "permiso / vacaciones" },
+              "gendered": "het"
+            },
+            {
+              "word": "pauze",
+              "romanization": null,
+              "meanings": { "en": "break / pause", "zh": "休息", "th": "พักเบรก", "ko": "휴식", "es": "pausa / descanso" },
+              "gendered": "de"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I start work at nine o'clock'?",
+              "options": ["Ik begin met werken om negen uur.", "Ik eindig om negen uur.", "Ik heb pauze om negen uur.", "Ik ga naar het kantoor om negen uur."],
+              "correct": 0,
+              "explanation": "'Ik begin met werken om negen uur' = I start work at nine o'clock. 'Om' = at (for times)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "verlof",
+              "options": ["leave / time off", "overtime", "break", "salary"],
+              "correct": 0,
+              "explanation": "'Verlof' means leave or time off — days away from work such as annual leave or sick leave."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik werk van negen tot vijf.",
+              "options": ["I work from nine to five.", "I start work at nine.", "I finish work at five.", "I take a break at lunch."],
+              "correct": 0,
+              "explanation": "'Ik werk van negen tot vijf' = I work from nine to five. 'Van...tot' = from...to/until."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["beginnen", "to start"],
+                ["eindigen", "to finish"],
+                ["pauze", "break"],
+                ["verlof", "leave / time off"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vijf", "ik", "tot", "negen", "van", "werk"],
+              "correct": ["Ik", "werk", "van", "negen", "tot", "vijf"],
+              "translation": "I work from nine to five."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Communication at Work",
+        "zh": "职场沟通",
+        "th": "การสื่อสารในที่ทำงาน",
+        "ko": "직장 내 의사소통",
+        "es": "Comunicación en el trabajo"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Meetings & Discussions",
+            "zh": "会议与讨论",
+            "th": "การประชุมและการอภิปราย",
+            "ko": "회의와 토론",
+            "es": "Reuniones y debates"
+          },
+          "objectives": {
+            "en": ["Talk about meetings in Dutch and schedule them", "Use key phrases during a work meeting"],
+            "zh": ["用荷兰语讨论会议并安排日程", "在工作会议中使用关键短语"],
+            "th": ["พูดเกี่ยวกับการประชุมและจัดตารางเป็นภาษาดัตช์", "ใช้วลีสำคัญในการประชุมงาน"],
+            "ko": ["네덜란드어로 회의를 이야기하고 일정 잡기", "업무 회의 중 핵심 표현 사용하기"],
+            "es": ["Hablar de reuniones en neerlandés y programarlas", "Usar frases clave durante una reunión de trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "vergadering",
+              "romanization": null,
+              "meanings": { "en": "meeting / conference", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "reunión" },
+              "gendered": "de"
+            },
+            {
+              "word": "agenda",
+              "romanization": null,
+              "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의제", "es": "orden del día / agenda" },
+              "gendered": "de"
+            },
+            {
+              "word": "bespreken",
+              "romanization": null,
+              "meanings": { "en": "to discuss", "zh": "讨论", "th": "อภิปราย", "ko": "토의하다", "es": "debatir / tratar" },
+              "gendered": null
+            },
+            {
+              "word": "voorstellen",
+              "romanization": null,
+              "meanings": { "en": "to propose / suggest", "zh": "提议/建议", "th": "เสนอ/แนะนำ", "ko": "제안하다", "es": "proponer / sugerir" },
+              "gendered": null
+            },
+            {
+              "word": "eens zijn",
+              "romanization": null,
+              "meanings": { "en": "to agree", "zh": "同意", "th": "เห็นด้วย", "ko": "동의하다", "es": "estar de acuerdo" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'We have a meeting at ten'?",
+              "options": ["We hebben om tien uur een vergadering.", "We hebben om acht uur een vergadering.", "De vergadering is morgen.", "Ik begin de vergadering."],
+              "correct": 0,
+              "explanation": "'We hebben om tien uur een vergadering' = We have a meeting at ten. 'Om tien uur' = at ten o'clock."
+            },
+            {
+              "type": "target_to_native",
+              "word": "eens zijn",
+              "options": ["to agree", "to discuss", "to propose", "to cancel"],
+              "correct": 0,
+              "explanation": "'Eens zijn' means to agree — 'ik ben het eens' = I agree."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik wil de agenda van de vergadering bespreken.",
+              "options": ["I want to discuss the meeting agenda.", "I want to cancel the meeting.", "The agenda is ready for tomorrow.", "We agreed on the meeting time."],
+              "correct": 0,
+              "explanation": "'De agenda van de vergadering bespreken' = to discuss the meeting agenda."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["vergadering", "meeting"],
+                ["agenda", "agenda"],
+                ["bespreken", "to discuss"],
+                ["eens zijn", "to agree"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["om", "hebben", "we", "vergadering", "tien", "een", "uur"],
+              "correct": ["We", "hebben", "om", "tien", "uur", "een", "vergadering"],
+              "translation": "We have a meeting at ten."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Phone & Email",
+            "zh": "电话与电子邮件",
+            "th": "โทรศัพท์และอีเมล",
+            "ko": "전화와 이메일",
+            "es": "Teléfono y correo electrónico"
+          },
+          "objectives": {
+            "en": ["Handle a basic work phone call in Dutch", "Understand email vocabulary at work"],
+            "zh": ["用荷兰语处理基本工作电话", "理解工作中的电子邮件词汇"],
+            "th": ["รับสายโทรศัพท์งานเบื้องต้นเป็นภาษาดัตช์", "เข้าใจคำศัพท์อีเมลในที่ทำงาน"],
+            "ko": ["네덜란드어로 기본 업무 전화 응대하기", "직장 이메일 어휘 이해하기"],
+            "es": ["Manejar una llamada de trabajo básica en neerlandés", "Entender el vocabulario de correo electrónico en el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "telefoon",
+              "romanization": null,
+              "meanings": { "en": "telephone / phone call", "zh": "电话", "th": "โทรศัพท์", "ko": "전화", "es": "teléfono / llamada" },
+              "gendered": "de"
+            },
+            {
+              "word": "e-mail",
+              "romanization": null,
+              "meanings": { "en": "email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "correo electrónico" },
+              "gendered": "de"
+            },
+            {
+              "word": "bericht",
+              "romanization": null,
+              "meanings": { "en": "message", "zh": "信息/消息", "th": "ข้อความ", "ko": "메시지", "es": "mensaje" },
+              "gendered": "het"
+            },
+            {
+              "word": "terugbellen",
+              "romanization": null,
+              "meanings": { "en": "to call back", "zh": "回电话", "th": "โทรกลับ", "ko": "다시 전화하다", "es": "volver a llamar" },
+              "gendered": null
+            },
+            {
+              "word": "een bericht achterlaten",
+              "romanization": null,
+              "meanings": { "en": "to leave a message", "zh": "留言", "th": "ฝากข้อความ", "ko": "메시지를 남기다", "es": "dejar un mensaje" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I will call you back'?",
+              "options": ["Ik bel je terug.", "Ik stuur je een e-mail.", "Ik bel het kantoor.", "Ik laat een bericht achter."],
+              "correct": 0,
+              "explanation": "'Ik bel je terug' = I will call you back. 'Terugbellen' is a separable verb: 'bel...terug'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bericht",
+              "options": ["message", "email", "phone", "office"],
+              "correct": 0,
+              "explanation": "'Bericht' means message — used for phone messages, texts, and email messages."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Kan ik een bericht achterlaten?",
+              "options": ["Can I leave a message?", "Can I speak to the manager?", "Is the office open?", "Can you call me back?"],
+              "correct": 0,
+              "explanation": "'Kan ik een bericht achterlaten?' = Can I leave a message? 'Kan ik' = can I."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["telefoon", "phone call"],
+                ["e-mail", "email"],
+                ["bericht", "message"],
+                ["terugbellen", "to call back"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["je", "bel", "ik", "terug"],
+              "correct": ["Ik", "bel", "je", "terug"],
+              "translation": "I will call you back."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Tasks & Deadlines",
+            "zh": "任务与截止日期",
+            "th": "งานและกำหนดส่งงาน",
+            "ko": "업무와 마감일",
+            "es": "Tareas y plazos"
+          },
+          "objectives": {
+            "en": ["Talk about work tasks and deadlines in Dutch", "Ask for help or clarification at work"],
+            "zh": ["用荷兰语谈论工作任务和截止日期", "在工作中请求帮助或澄清"],
+            "th": ["พูดเกี่ยวกับงานและกำหนดส่งงานเป็นภาษาดัตช์", "ขอความช่วยเหลือหรือคำชี้แจงในที่ทำงาน"],
+            "ko": ["네덜란드어로 업무와 마감일 이야기하기", "직장에서 도움이나 설명 요청하기"],
+            "es": ["Hablar de tareas y plazos en neerlandés", "Pedir ayuda o aclaración en el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "taak",
+              "romanization": null,
+              "meanings": { "en": "task / assignment", "zh": "任务", "th": "งาน/ภารกิจ", "ko": "과제/임무", "es": "tarea" },
+              "gendered": "de"
+            },
+            {
+              "word": "deadline",
+              "romanization": null,
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดเวลา", "ko": "마감 기한", "es": "plazo / fecha límite" },
+              "gendered": "de"
+            },
+            {
+              "word": "afmaken",
+              "romanization": null,
+              "meanings": { "en": "to finish / complete", "zh": "完成", "th": "ทำให้เสร็จ", "ko": "끝내다/완료하다", "es": "terminar / completar" },
+              "gendered": null
+            },
+            {
+              "word": "helpen",
+              "romanization": null,
+              "meanings": { "en": "to help", "zh": "帮助", "th": "ช่วย", "ko": "돕다", "es": "ayudar" },
+              "gendered": null
+            },
+            {
+              "word": "dringend",
+              "romanization": null,
+              "meanings": { "en": "urgent", "zh": "紧急的", "th": "เร่งด่วน", "ko": "긴급한", "es": "urgente" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The deadline is on Friday'?",
+              "options": ["De deadline is op vrijdag.", "De taak is op vrijdag.", "We maken het af op vrijdag.", "Kun je mij helpen op vrijdag?"],
+              "correct": 0,
+              "explanation": "'De deadline is op vrijdag' = The deadline is on Friday. 'Op vrijdag' = on Friday."
+            },
+            {
+              "type": "target_to_native",
+              "word": "dringend",
+              "options": ["urgent", "important", "difficult", "new"],
+              "correct": 0,
+              "explanation": "'Dringend' means urgent — requiring immediate attention."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Kun je mij helpen met deze taak?",
+              "options": ["Can you help me with this task?", "Can you finish this task?", "Is this task urgent?", "When is the deadline?"],
+              "correct": 0,
+              "explanation": "'Kun je mij helpen met?' = Can you help me with? 'Deze taak' = this task."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["taak", "task"],
+                ["deadline", "deadline"],
+                ["afmaken", "to finish"],
+                ["dringend", "urgent"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vrijdag", "is", "deadline", "op", "de"],
+              "correct": ["De", "deadline", "is", "op", "vrijdag"],
+              "translation": "The deadline is on Friday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Career & Professional Life",
+        "zh": "职业与职业生涯",
+        "th": "อาชีพและชีวิตมืออาชีพ",
+        "ko": "경력과 직업 생활",
+        "es": "Carrera y vida profesional"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "求职面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer basic interview questions in Dutch", "Describe your experience and skills"],
+            "zh": ["用荷兰语回答基本面试问题", "描述你的经验和技能"],
+            "th": ["ตอบคำถามสัมภาษณ์เบื้องต้นเป็นภาษาดัตช์", "อธิบายประสบการณ์และทักษะของคุณ"],
+            "ko": ["네덜란드어로 기본 면접 질문에 답하기", "경험과 기술 설명하기"],
+            "es": ["Responder preguntas básicas de entrevista en neerlandés", "Describir tu experiencia y habilidades"]
+          },
+          "vocabulary": [
+            {
+              "word": "sollicitatiegesprek",
+              "romanization": null,
+              "meanings": { "en": "job interview", "zh": "求职面试", "th": "การสัมภาษณ์งาน", "ko": "취업 면접", "es": "entrevista de trabajo" },
+              "gendered": "het"
+            },
+            {
+              "word": "ervaring",
+              "romanization": null,
+              "meanings": { "en": "experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "experiencia" },
+              "gendered": "de"
+            },
+            {
+              "word": "vaardigheden",
+              "romanization": null,
+              "meanings": { "en": "skills", "zh": "技能", "th": "ทักษะ", "ko": "기술/능력", "es": "habilidades" },
+              "gendered": null
+            },
+            {
+              "word": "opleiding",
+              "romanization": null,
+              "meanings": { "en": "education / training", "zh": "教育/培训", "th": "การศึกษา/การฝึกอบรม", "ko": "교육/훈련", "es": "formación / educación" },
+              "gendered": "de"
+            },
+            {
+              "word": "solliciteren",
+              "romanization": null,
+              "meanings": { "en": "to apply (for a job)", "zh": "申请（工作）", "th": "สมัครงาน", "ko": "지원하다", "es": "solicitar / postular" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have five years of experience'?",
+              "options": ["Ik heb vijf jaar ervaring.", "Ik heb vijf jaar gewerkt.", "Ik heb veel vaardigheden.", "Ik solliciteer al vijf jaar."],
+              "correct": 0,
+              "explanation": "'Ik heb vijf jaar ervaring' = I have five years of experience."
+            },
+            {
+              "type": "target_to_native",
+              "word": "vaardigheden",
+              "options": ["skills", "experience", "education", "salary"],
+              "correct": 0,
+              "explanation": "'Vaardigheden' means skills — the abilities you have developed and can offer an employer."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Waarom solliciteert u naar deze functie?",
+              "options": ["Why are you applying for this position?", "What is your salary expectation?", "Do you have any experience?", "When can you start?"],
+              "correct": 0,
+              "explanation": "'Waarom solliciteert u naar deze functie?' = Why are you applying for this position? Uses formal 'u'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sollicitatiegesprek", "job interview"],
+                ["ervaring", "experience"],
+                ["opleiding", "education / training"],
+                ["solliciteren", "to apply"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ik", "ervaring", "vijf", "heb", "jaar"],
+              "correct": ["Ik", "heb", "vijf", "jaar", "ervaring"],
+              "translation": "I have five years of experience."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Salary & Benefits",
+            "zh": "薪资与福利",
+            "th": "เงินเดือนและสวัสดิการ",
+            "ko": "급여와 복리후생",
+            "es": "Salario y beneficios"
+          },
+          "objectives": {
+            "en": ["Discuss salary and workplace benefits in Dutch", "Understand terms related to pay"],
+            "zh": ["用荷兰语讨论薪资和工作福利", "理解与工资相关的术语"],
+            "th": ["พูดเกี่ยวกับเงินเดือนและสวัสดิการในที่ทำงานเป็นภาษาดัตช์", "เข้าใจคำศัพท์ที่เกี่ยวกับค่าจ้าง"],
+            "ko": ["네덜란드어로 급여와 직장 복리후생 이야기하기", "급여 관련 용어 이해하기"],
+            "es": ["Hablar de salario y beneficios laborales en neerlandés", "Entender términos relacionados con el pago"]
+          },
+          "vocabulary": [
+            {
+              "word": "salaris",
+              "romanization": null,
+              "meanings": { "en": "salary", "zh": "薪资", "th": "เงินเดือน", "ko": "급여", "es": "salario" },
+              "gendered": "het"
+            },
+            {
+              "word": "bonus",
+              "romanization": null,
+              "meanings": { "en": "bonus", "zh": "奖金", "th": "โบนัส", "ko": "보너스", "es": "bono" },
+              "gendered": "de"
+            },
+            {
+              "word": "verzekering",
+              "romanization": null,
+              "meanings": { "en": "insurance", "zh": "保险", "th": "การประกัน", "ko": "보험", "es": "seguro" },
+              "gendered": "de"
+            },
+            {
+              "word": "loonsverhoging",
+              "romanization": null,
+              "meanings": { "en": "pay rise / salary increase", "zh": "加薪", "th": "การขึ้นเงินเดือน", "ko": "임금 인상", "es": "aumento de sueldo" },
+              "gendered": "de"
+            },
+            {
+              "word": "contract",
+              "romanization": null,
+              "meanings": { "en": "contract", "zh": "合同", "th": "สัญญา", "ko": "계약서", "es": "contrato" },
+              "gendered": "het"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What is the salary?'",
+              "options": ["Wat is het salaris?", "Wanneer krijg ik een bonus?", "Wat staat er in het contract?", "Is er een verzekering?"],
+              "correct": 0,
+              "explanation": "'Wat is het salaris?' = What is the salary? A direct question using 'wat' = what."
+            },
+            {
+              "type": "target_to_native",
+              "word": "loonsverhoging",
+              "options": ["pay rise / salary increase", "bonus", "insurance", "contract"],
+              "correct": 0,
+              "explanation": "'Loonsverhoging' means pay rise — an increase in your salary."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik wil graag een loonsverhoging aanvragen.",
+              "options": ["I would like to request a pay rise.", "I would like to see my contract.", "When will I receive my bonus?", "Does the job include insurance?"],
+              "correct": 0,
+              "explanation": "'Ik wil graag een loonsverhoging aanvragen' = I would like to request a pay rise."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["salaris", "salary"],
+                ["bonus", "bonus"],
+                ["loonsverhoging", "pay rise"],
+                ["contract", "contract"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["aanvragen", "loonsverhoging", "een", "wil", "ik", "graag"],
+              "correct": ["Ik", "wil", "graag", "een", "loonsverhoging", "aanvragen"],
+              "translation": "I would like to request a pay rise."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Business Travel",
+            "zh": "商务出差",
+            "th": "การเดินทางเพื่อธุรกิจ",
+            "ko": "출장",
+            "es": "Viajes de negocios"
+          },
+          "objectives": {
+            "en": ["Talk about business travel and trips in Dutch", "Handle simple travel arrangements for work"],
+            "zh": ["用荷兰语谈论商务出差", "处理简单的工作出行安排"],
+            "th": ["พูดเกี่ยวกับการเดินทางเพื่อธุรกิจเป็นภาษาดัตช์", "จัดการการเดินทางงานเบื้องต้น"],
+            "ko": ["네덜란드어로 출장 이야기하기", "간단한 업무 출장 준비하기"],
+            "es": ["Hablar de viajes de negocios en neerlandés", "Gestionar arreglos de viaje sencillos para el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "zakenreis",
+              "romanization": null,
+              "meanings": { "en": "business trip", "zh": "出差", "th": "การเดินทางเพื่อธุรกิจ", "ko": "출장", "es": "viaje de negocios" },
+              "gendered": "de"
+            },
+            {
+              "word": "hotel",
+              "romanization": null,
+              "meanings": { "en": "hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "hotel" },
+              "gendered": "het"
+            },
+            {
+              "word": "vlucht",
+              "romanization": null,
+              "meanings": { "en": "flight", "zh": "航班", "th": "เที่ยวบิน", "ko": "항공편", "es": "vuelo" },
+              "gendered": "de"
+            },
+            {
+              "word": "klant",
+              "romanization": null,
+              "meanings": { "en": "client / customer", "zh": "客户", "th": "ลูกค้า", "ko": "고객", "es": "cliente" },
+              "gendered": "de"
+            },
+            {
+              "word": "conferentie",
+              "romanization": null,
+              "meanings": { "en": "conference", "zh": "会议/会展", "th": "การประชุมสัมมนา", "ko": "컨퍼런스", "es": "conferencia" },
+              "gendered": "de"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am going on a business trip'?",
+              "options": ["Ik ga op zakenreis.", "Ik ga naar een conferentie.", "Ik vlieg naar de klant.", "Ik reserveer een hotel."],
+              "correct": 0,
+              "explanation": "'Ik ga op zakenreis' = I am going on a business trip. 'Op zakenreis gaan' is the standard phrase."
+            },
+            {
+              "type": "target_to_native",
+              "word": "conferentie",
+              "options": ["conference", "client meeting", "business trip", "flight"],
+              "correct": 0,
+              "explanation": "'Conferentie' means conference — a formal professional gathering or event."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik moet een hotel boeken voor mijn zakenreis.",
+              "options": ["I need to book a hotel for my business trip.", "I need to book a flight for the conference.", "I am meeting the client at the hotel.", "The conference starts tomorrow."],
+              "correct": 0,
+              "explanation": "'Ik moet een hotel boeken' = I need to book a hotel, 'voor mijn zakenreis' = for my business trip."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["zakenreis", "business trip"],
+                ["vlucht", "flight"],
+                ["klant", "client"],
+                ["conferentie", "conference"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["op", "ga", "ik", "zakenreis"],
+              "correct": ["Ik", "ga", "op", "zakenreis"],
+              "translation": "I am going on a business trip."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

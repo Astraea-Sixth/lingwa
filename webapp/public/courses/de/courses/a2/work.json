@@ -1,0 +1,731 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Jobs & Professions",
+            "zh": "工作和职业",
+            "th": "งานและอาชีพ",
+            "ko": "직업과 직종",
+            "es": "Trabajos y profesiones"
+          },
+          "objectives": {
+            "en": ["Name common professions in German", "Ask and say what someone does for work"],
+            "zh": ["用德语说出常见职业", "询问和描述某人的工作"],
+            "th": ["พูดชื่ออาชีพทั่วไปเป็นภาษาเยอรมัน", "ถามและบอกว่าใครทำงานอะไร"],
+            "ko": ["독일어로 일반 직업 이름 말하기", "직업 묻고 답하기"],
+            "es": ["Nombrar profesiones comunes en alemán", "Preguntar y decir a qué se dedica alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "der Beruf",
+              "romanization": null,
+              "meanings": { "en": "the profession/job", "zh": "职业", "th": "อาชีพ", "ko": "직업", "es": "la profesión" }
+            },
+            {
+              "word": "der Arzt / die Ärztin",
+              "romanization": null,
+              "meanings": { "en": "the doctor (m/f)", "zh": "医生", "th": "แพทย์", "ko": "의사 (남/여)", "es": "el médico/la médica" }
+            },
+            {
+              "word": "der Lehrer / die Lehrerin",
+              "romanization": null,
+              "meanings": { "en": "the teacher (m/f)", "zh": "教师", "th": "ครู (ชาย/หญิง)", "ko": "교사 (남/여)", "es": "el profesor/la profesora" }
+            },
+            {
+              "word": "der Ingenieur / die Ingenieurin",
+              "romanization": null,
+              "meanings": { "en": "the engineer (m/f)", "zh": "工程师", "th": "วิศวกร", "ko": "엔지니어", "es": "el/la ingeniero/a" }
+            },
+            {
+              "word": "Was bist du von Beruf?",
+              "romanization": null,
+              "meanings": { "en": "What is your profession?", "zh": "你的职业是什么？", "th": "คุณทำงานอะไร?", "ko": "직업이 뭐예요?", "es": "¿A qué te dedicas?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am a teacher'?",
+              "options": ["Ich bin Lehrer.", "Ich bin ein Lehrer.", "Ich arbeite als Lehrerin.", "Mein Beruf ist Lehrer."],
+              "correct": 0,
+              "explanation": "In German, job titles after 'sein' (to be) do NOT use an article: 'Ich bin Lehrer' not 'Ich bin ein Lehrer'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Beruf",
+              "options": ["the profession/job", "the office", "the colleague", "the boss"],
+              "correct": 0,
+              "explanation": "'Der Beruf' means profession or occupation. 'Was bist du von Beruf?' = What do you do for a living?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["der Arzt", "doctor"],
+                ["der Lehrer", "teacher"],
+                ["der Ingenieur", "engineer"],
+                ["der Beruf", "profession"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Beruf", "von", "Ingenieur", "bin", "Ich"],
+              "correct": ["Ich", "bin", "Ingenieur", "von", "Beruf"],
+              "translation": "I am an engineer by profession."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What is your job?'",
+              "options": ["Was bist du von Beruf?", "Was machst du auf der Arbeit?", "Wo arbeitest du?", "Wie ist deine Arbeit?"],
+              "correct": 0,
+              "explanation": "'Was bist du von Beruf?' is the standard question to ask someone's profession in German."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "The Office",
+            "zh": "办公室",
+            "th": "สำนักงาน",
+            "ko": "사무실",
+            "es": "La oficina"
+          },
+          "objectives": {
+            "en": ["Name office items and spaces", "Ask where things are in the workplace"],
+            "zh": ["说出办公室物品和空间名称", "询问工作场所中物品的位置"],
+            "th": ["พูดชื่ออุปกรณ์และพื้นที่สำนักงาน", "ถามว่าของอยู่ที่ไหนในที่ทำงาน"],
+            "ko": ["사무실 용품과 공간 이름 말하기", "직장에서 물건 위치 물어보기"],
+            "es": ["Nombrar objetos y espacios de oficina", "Preguntar dónde están las cosas en el trabajo"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Büro",
+              "romanization": null,
+              "meanings": { "en": "the office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "la oficina" }
+            },
+            {
+              "word": "der Computer",
+              "romanization": null,
+              "meanings": { "en": "the computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "el ordenador" }
+            },
+            {
+              "word": "der Drucker",
+              "romanization": null,
+              "meanings": { "en": "the printer", "zh": "打印机", "th": "เครื่องพิมพ์", "ko": "프린터", "es": "la impresora" }
+            },
+            {
+              "word": "die Besprechung",
+              "romanization": null,
+              "meanings": { "en": "the meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "la reunión" }
+            },
+            {
+              "word": "der Kollege / die Kollegin",
+              "romanization": null,
+              "meanings": { "en": "the colleague (m/f)", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료 (남/여)", "es": "el/la colega" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a meeting at ten o'clock'?",
+              "options": ["Ich habe eine Besprechung um zehn Uhr.", "Ich treffe meine Kollegen um zehn.", "Die Besprechung ist jetzt.", "Wir haben eine Sitzung."],
+              "correct": 0,
+              "explanation": "'Ich habe eine Besprechung' = I have a meeting. 'Um zehn Uhr' = at ten o'clock."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Drucker",
+              "options": ["the printer", "the computer", "the desk", "the fax"],
+              "correct": 0,
+              "explanation": "'Der Drucker' = the printer. 'Der Drucker funktioniert nicht' = The printer is not working."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Büro", "the office"],
+                ["der Computer", "the computer"],
+                ["die Besprechung", "the meeting"],
+                ["der Kollege", "the colleague"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Büro", "im", "arbeite", "Ich", "täglich"],
+              "correct": ["Ich", "arbeite", "täglich", "im", "Büro"],
+              "translation": "I work in the office every day."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Work Hours & Schedule",
+            "zh": "工作时间和日程",
+            "th": "ชั่วโมงทำงานและตารางเวลา",
+            "ko": "근무 시간과 일정",
+            "es": "Horario y jornada laboral"
+          },
+          "objectives": {
+            "en": ["Talk about working hours and daily schedule", "Express start and end times"],
+            "zh": ["谈论工作时间和日程安排", "表达开始和结束时间"],
+            "th": ["พูดเกี่ยวกับชั่วโมงทำงานและตารางประจำวัน", "แสดงเวลาเริ่มต้นและสิ้นสุด"],
+            "ko": ["근무 시간과 일과 이야기하기", "시작과 종료 시간 표현하기"],
+            "es": ["Hablar del horario de trabajo", "Expresar horas de inicio y fin"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Arbeitszeit",
+              "romanization": null,
+              "meanings": { "en": "working hours", "zh": "工作时间", "th": "เวลาทำงาน", "ko": "근무 시간", "es": "el horario de trabajo" }
+            },
+            {
+              "word": "anfangen",
+              "romanization": null,
+              "meanings": { "en": "to start/begin", "zh": "开始", "th": "เริ่ม", "ko": "시작하다", "es": "empezar/comenzar" }
+            },
+            {
+              "word": "aufhören",
+              "romanization": null,
+              "meanings": { "en": "to finish/stop", "zh": "结束", "th": "เลิก", "ko": "끝내다", "es": "terminar/acabar" }
+            },
+            {
+              "word": "die Pause",
+              "romanization": null,
+              "meanings": { "en": "the break", "zh": "休息时间", "th": "พักเบรก", "ko": "휴식", "es": "el descanso" }
+            },
+            {
+              "word": "Überstunden",
+              "romanization": null,
+              "meanings": { "en": "overtime", "zh": "加班", "th": "ทำงานล่วงเวลา", "ko": "초과 근무", "es": "horas extra" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I start work at eight o'clock'?",
+              "options": ["Ich fange um acht Uhr mit der Arbeit an.", "Ich beginne die Arbeit früh.", "Die Arbeit startet um acht.", "Ich arbeite ab acht Uhr."],
+              "correct": 0,
+              "explanation": "'Anfangen' is separable: 'fange...an'. 'Mit der Arbeit anfangen' = to start work."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Überstunden",
+              "options": ["overtime", "lunch break", "holidays", "working hours"],
+              "correct": 0,
+              "explanation": "'Überstunden machen' = to work overtime. A common complaint: 'Ich mache zu viele Überstunden'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["anfangen", "to start"],
+                ["aufhören", "to finish"],
+                ["die Pause", "the break"],
+                ["Überstunden", "overtime"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["fünf", "ich", "Uhr", "aufhöre", "Ich", "um"],
+              "correct": ["Ich", "höre", "um", "fünf", "Uhr", "auf"],
+              "translation": "I finish at five o'clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Business Communication",
+        "zh": "商务沟通",
+        "th": "การสื่อสารทางธุรกิจ",
+        "ko": "비즈니스 커뮤니케이션",
+        "es": "Comunicación empresarial"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Emails & Messages",
+            "zh": "电子邮件和消息",
+            "th": "อีเมลและข้อความ",
+            "ko": "이메일과 메시지",
+            "es": "Correos y mensajes"
+          },
+          "objectives": {
+            "en": ["Write a simple professional email in German", "Use formal opening and closing phrases"],
+            "zh": ["用德语写简单的正式邮件", "使用正式开头和结尾语"],
+            "th": ["เขียนอีเมลอาชีพง่ายๆ เป็นภาษาเยอรมัน", "ใช้วลีเปิดและปิดอย่างเป็นทางการ"],
+            "ko": ["독일어로 간단한 업무 이메일 쓰기", "정식 인사말과 맺음말 사용하기"],
+            "es": ["Escribir un correo profesional sencillo", "Usar fórmulas de saludo y despedida formales"]
+          },
+          "vocabulary": [
+            {
+              "word": "die E-Mail",
+              "romanization": null,
+              "meanings": { "en": "the email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "el correo electrónico" }
+            },
+            {
+              "word": "Sehr geehrte Damen und Herren",
+              "romanization": null,
+              "meanings": { "en": "Dear Sir/Madam (formal)", "zh": "尊敬的女士/先生", "th": "เรียน ท่านผู้หญิง/ท่านผู้ชาย", "ko": "귀하 (공식 편지 인사)", "es": "Estimados señores y señoras" }
+            },
+            {
+              "word": "Mit freundlichen Grüßen",
+              "romanization": null,
+              "meanings": { "en": "Kind regards (formal closing)", "zh": "致以友好的问候（正式结尾）", "th": "ด้วยความนับถือ (ปิดอย่างเป็นทางการ)", "ko": "정중히 인사드립니다 (공식 결말)", "es": "Atentamente (cierre formal)" }
+            },
+            {
+              "word": "betreff",
+              "romanization": null,
+              "meanings": { "en": "subject (of email)", "zh": "主题", "th": "เรื่อง", "ko": "제목", "es": "asunto" }
+            },
+            {
+              "word": "im Anhang",
+              "romanization": null,
+              "meanings": { "en": "in the attachment", "zh": "在附件中", "th": "ในไฟล์แนบ", "ko": "첨부파일에", "es": "en el archivo adjunto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "Which phrase is the correct formal email closing in German?",
+              "options": ["Mit freundlichen Grüßen", "Herzliche Grüße", "Bis bald", "Tschüss"],
+              "correct": 0,
+              "explanation": "'Mit freundlichen Grüßen' = Kind regards — the standard formal closing for professional German emails."
+            },
+            {
+              "type": "target_to_native",
+              "word": "im Anhang",
+              "options": ["in the attachment", "in the subject", "in the reply", "in the inbox"],
+              "correct": 0,
+              "explanation": "'Im Anhang finden Sie...' = In the attachment you will find... — a common email phrase."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die E-Mail", "email"],
+                ["im Anhang", "in the attachment"],
+                ["Mit freundlichen Grüßen", "Kind regards"],
+                ["Sehr geehrte Damen und Herren", "Dear Sir/Madam"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Anhang", "Dokument", "im", "das", "finden", "Sie"],
+              "correct": ["Sie", "finden", "das", "Dokument", "im", "Anhang"],
+              "translation": "You will find the document in the attachment."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Phone Calls at Work",
+            "zh": "工作中的电话",
+            "th": "การโทรศัพท์ในที่ทำงาน",
+            "ko": "직장에서의 전화 통화",
+            "es": "Llamadas telefónicas en el trabajo"
+          },
+          "objectives": {
+            "en": ["Answer and make professional phone calls", "Take and leave messages"],
+            "zh": ["接听和拨打正式电话", "接收和留言"],
+            "th": ["รับและโทรออกอย่างมืออาชีพ", "รับและฝากข้อความ"],
+            "ko": ["전문적인 전화 받고 걸기", "메시지 받고 남기기"],
+            "es": ["Contestar y hacer llamadas profesionales", "Tomar y dejar mensajes"]
+          },
+          "vocabulary": [
+            {
+              "word": "Guten Tag, hier spricht...",
+              "romanization": null,
+              "meanings": { "en": "Good day, this is... (phone greeting)", "zh": "你好，我是...（电话问候）", "th": "สวัสดี นี่คือ... (คำทักทายทางโทรศัพท์)", "ko": "안녕하세요, ...입니다 (전화 인사)", "es": "Buenos días, le habla..." }
+            },
+            {
+              "word": "Kann ich bitte mit ... sprechen?",
+              "romanization": null,
+              "meanings": { "en": "Can I please speak with...?", "zh": "我可以和...说话吗？", "th": "ฉันขอพูดกับ...ได้ไหม?", "ko": "...와 통화할 수 있을까요?", "es": "¿Puedo hablar con...?" }
+            },
+            {
+              "word": "ausrichten",
+              "romanization": null,
+              "meanings": { "en": "to pass on a message", "zh": "传话", "th": "ฝากข้อความ", "ko": "전언하다", "es": "transmitir un mensaje" }
+            },
+            {
+              "word": "zurückrufen",
+              "romanization": null,
+              "meanings": { "en": "to call back", "zh": "回电话", "th": "โทรกลับ", "ko": "다시 전화하다", "es": "devolver la llamada" }
+            },
+            {
+              "word": "die Durchwahl",
+              "romanization": null,
+              "meanings": { "en": "the extension (number)", "zh": "分机号", "th": "หมายเลขต่อ", "ko": "내선 번호", "es": "la extensión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask to speak to someone on the phone?",
+              "options": ["Kann ich bitte mit Herrn Müller sprechen?", "Ist Herr Müller da?", "Sprechen Sie mit Herrn Müller.", "Herr Müller, bitte."],
+              "correct": 0,
+              "explanation": "'Kann ich bitte mit ... sprechen?' is the polite standard to ask for someone on the phone."
+            },
+            {
+              "type": "target_to_native",
+              "word": "zurückrufen",
+              "options": ["to call back", "to hang up", "to hold", "to transfer"],
+              "correct": 0,
+              "explanation": "'Zurückrufen' is separable: 'Ich rufe Sie zurück' = I will call you back."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["zurückrufen", "to call back"],
+                ["ausrichten", "to pass a message"],
+                ["die Durchwahl", "extension number"],
+                ["Hier spricht...", "This is... speaking"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["zurück", "ich", "Sie", "rufe", "Ich", "gleich"],
+              "correct": ["Ich", "rufe", "Sie", "gleich", "zurück"],
+              "translation": "I will call you right back."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Meetings & Presentations",
+            "zh": "会议和演示",
+            "th": "การประชุมและการนำเสนอ",
+            "ko": "회의와 발표",
+            "es": "Reuniones y presentaciones"
+          },
+          "objectives": {
+            "en": ["Participate in a simple work meeting", "Give and respond to opinions"],
+            "zh": ["参加简单的工作会议", "提出和回应意见"],
+            "th": ["เข้าร่วมการประชุมงานง่ายๆ", "แสดงและตอบสนองความคิดเห็น"],
+            "ko": ["간단한 업무 회의 참여하기", "의견 제시하고 반응하기"],
+            "es": ["Participar en una reunión de trabajo sencilla", "Dar y responder a opiniones"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Präsentation",
+              "romanization": null,
+              "meanings": { "en": "the presentation", "zh": "演示/报告", "th": "การนำเสนอ", "ko": "발표", "es": "la presentación" }
+            },
+            {
+              "word": "Ich bin der Meinung, dass...",
+              "romanization": null,
+              "meanings": { "en": "I am of the opinion that...", "zh": "我认为...", "th": "ฉันเห็นว่า...", "ko": "저는 ...라고 생각합니다", "es": "Soy de la opinión de que..." }
+            },
+            {
+              "word": "zustimmen",
+              "romanization": null,
+              "meanings": { "en": "to agree", "zh": "同意", "th": "เห็นด้วย", "ko": "동의하다", "es": "estar de acuerdo" }
+            },
+            {
+              "word": "die Tagesordnung",
+              "romanization": null,
+              "meanings": { "en": "the agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "의사 일정", "es": "el orden del día" }
+            },
+            {
+              "word": "vorschlagen",
+              "romanization": null,
+              "meanings": { "en": "to suggest/propose", "zh": "建议", "th": "เสนอ", "ko": "제안하다", "es": "proponer/sugerir" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I agree with your suggestion'?",
+              "options": ["Ich stimme Ihrem Vorschlag zu.", "Ich mag Ihren Vorschlag.", "Ihr Vorschlag ist gut.", "Ich habe einen Vorschlag."],
+              "correct": 0,
+              "explanation": "'Zustimmen' requires dative: 'Ich stimme dem Vorschlag zu'. 'Ihrem' is dative of 'Ihr' (your formal)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "vorschlagen",
+              "options": ["to suggest/propose", "to agree", "to present", "to decide"],
+              "correct": 0,
+              "explanation": "'Vorschlagen' is separable: 'Ich schlage vor, dass...' = I suggest that..."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die Präsentation", "presentation"],
+                ["zustimmen", "to agree"],
+                ["vorschlagen", "to suggest"],
+                ["die Tagesordnung", "agenda"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Meinung", "der", "Ich", "bin", "Vorschlag", "gut", "ist", "dass"],
+              "correct": ["Ich", "bin", "der", "Meinung", "dass", "der", "Vorschlag", "gut", "ist"],
+              "translation": "I am of the opinion that the suggestion is good."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Job Seeking",
+        "zh": "求职",
+        "th": "การหางาน",
+        "ko": "구직",
+        "es": "Búsqueda de empleo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Job Applications",
+            "zh": "求职申请",
+            "th": "การสมัครงาน",
+            "ko": "취업 지원",
+            "es": "Solicitudes de empleo"
+          },
+          "objectives": {
+            "en": ["Understand job advertisement vocabulary", "Write a basic job application"],
+            "zh": ["理解招聘广告词汇", "写一份基本的求职申请"],
+            "th": ["เข้าใจคำศัพท์โฆษณางาน", "เขียนใบสมัครงานเบื้องต้น"],
+            "ko": ["구인 광고 어휘 이해하기", "기본 취업 지원서 쓰기"],
+            "es": ["Entender el vocabulario de anuncios de trabajo", "Escribir una solicitud básica"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Stellenanzeige",
+              "romanization": null,
+              "meanings": { "en": "the job advertisement", "zh": "招聘广告", "th": "โฆษณารับสมัครงาน", "ko": "구인 광고", "es": "el anuncio de trabajo" }
+            },
+            {
+              "word": "die Bewerbung",
+              "romanization": null,
+              "meanings": { "en": "the job application", "zh": "求职申请", "th": "ใบสมัครงาน", "ko": "취업 지원서", "es": "la solicitud de empleo" }
+            },
+            {
+              "word": "der Lebenslauf",
+              "romanization": null,
+              "meanings": { "en": "the CV/résumé", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "el currículum" }
+            },
+            {
+              "word": "die Erfahrung",
+              "romanization": null,
+              "meanings": { "en": "the experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "la experiencia" }
+            },
+            {
+              "word": "sich bewerben",
+              "romanization": null,
+              "meanings": { "en": "to apply (for a job)", "zh": "申请（工作）", "th": "สมัคร (งาน)", "ko": "지원하다", "es": "solicitar/postularse" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am applying for the position'?",
+              "options": ["Ich bewerbe mich um die Stelle.", "Ich suche eine neue Stelle.", "Ich habe Interesse an der Stelle.", "Ich möchte die Stelle."],
+              "correct": 0,
+              "explanation": "'Sich bewerben um' = to apply for. 'Die Stelle' = the position/post."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Lebenslauf",
+              "options": ["the CV/résumé", "the cover letter", "the job ad", "the interview"],
+              "correct": 0,
+              "explanation": "'Der Lebenslauf' = CV (literally 'life course'). Every job application in Germany requires one."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die Bewerbung", "job application"],
+                ["der Lebenslauf", "CV"],
+                ["die Erfahrung", "experience"],
+                ["sich bewerben", "to apply"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Stelle", "um", "bewerbe", "ich", "diese", "mich", "Ich"],
+              "correct": ["Ich", "bewerbe", "mich", "um", "diese", "Stelle"],
+              "translation": "I am applying for this position."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer common job interview questions in German", "Talk about your strengths and experience"],
+            "zh": ["用德语回答常见的面试问题", "谈论你的优势和经验"],
+            "th": ["ตอบคำถามสัมภาษณ์งานทั่วไปเป็นภาษาเยอรมัน", "พูดถึงจุดแข็งและประสบการณ์"],
+            "ko": ["독일어로 일반 면접 질문 답하기", "강점과 경험 이야기하기"],
+            "es": ["Responder preguntas de entrevista en alemán", "Hablar de tus fortalezas y experiencia"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Vorstellungsgespräch",
+              "romanization": null,
+              "meanings": { "en": "the job interview", "zh": "面试", "th": "การสัมภาษณ์งาน", "ko": "취업 면접", "es": "la entrevista de trabajo" }
+            },
+            {
+              "word": "die Stärke",
+              "romanization": null,
+              "meanings": { "en": "the strength", "zh": "优势/长处", "th": "จุดแข็ง", "ko": "강점", "es": "la fortaleza" }
+            },
+            {
+              "word": "teamfähig",
+              "romanization": null,
+              "meanings": { "en": "able to work in a team", "zh": "有团队合作能力", "th": "ทำงานเป็นทีมได้", "ko": "팀워크 능력 있는", "es": "capaz de trabajar en equipo" }
+            },
+            {
+              "word": "Ich habe Erfahrung in...",
+              "romanization": null,
+              "meanings": { "en": "I have experience in...", "zh": "我在...方面有经验", "th": "ฉันมีประสบการณ์ใน...", "ko": "저는 ...분야 경험이 있습니다", "es": "Tengo experiencia en..." }
+            },
+            {
+              "word": "motiviert",
+              "romanization": null,
+              "meanings": { "en": "motivated", "zh": "积极主动的", "th": "มีแรงจูงใจ", "ko": "의욕적인", "es": "motivado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am motivated and team-oriented'?",
+              "options": ["Ich bin motiviert und teamfähig.", "Ich arbeite gut und bin fleißig.", "Ich habe viel Erfahrung.", "Ich bin ein guter Mitarbeiter."],
+              "correct": 0,
+              "explanation": "'Motiviert' = motivated, 'teamfähig' = able to work in a team. Both are key interview adjectives."
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Vorstellungsgespräch",
+              "options": ["job interview", "job application", "work meeting", "performance review"],
+              "correct": 0,
+              "explanation": "'Das Vorstellungsgespräch' = job interview. 'Vorstellen' = to introduce/present, 'Gespräch' = conversation."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Vorstellungsgespräch", "job interview"],
+                ["die Stärke", "strength"],
+                ["teamfähig", "able to work in a team"],
+                ["motiviert", "motivated"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Erfahrung", "Bereich", "diesem", "in", "Ich", "habe"],
+              "correct": ["Ich", "habe", "Erfahrung", "in", "diesem", "Bereich"],
+              "translation": "I have experience in this field."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Salary & Benefits",
+            "zh": "薪资和福利",
+            "th": "เงินเดือนและสวัสดิการ",
+            "ko": "급여와 복리후생",
+            "es": "Sueldo y beneficios"
+          },
+          "objectives": {
+            "en": ["Discuss salary expectations and benefits", "Understand job contract vocabulary"],
+            "zh": ["讨论薪资期望和福利", "理解劳动合同词汇"],
+            "th": ["พูดคุยเกี่ยวกับความคาดหวังด้านเงินเดือนและสวัสดิการ", "เข้าใจคำศัพท์ในสัญญาจ้างงาน"],
+            "ko": ["급여 기대치와 복리후생 이야기하기", "고용 계약 어휘 이해하기"],
+            "es": ["Hablar de expectativas salariales y beneficios", "Entender vocabulario de contratos laborales"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Gehalt",
+              "romanization": null,
+              "meanings": { "en": "the salary", "zh": "工资", "th": "เงินเดือน", "ko": "급여", "es": "el sueldo" }
+            },
+            {
+              "word": "der Urlaub",
+              "romanization": null,
+              "meanings": { "en": "the holiday/vacation", "zh": "假期", "th": "วันหยุดพักร้อน", "ko": "휴가", "es": "las vacaciones" }
+            },
+            {
+              "word": "der Vertrag",
+              "romanization": null,
+              "meanings": { "en": "the contract", "zh": "合同", "th": "สัญญา", "ko": "계약서", "es": "el contrato" }
+            },
+            {
+              "word": "Vollzeit / Teilzeit",
+              "romanization": null,
+              "meanings": { "en": "full time / part time", "zh": "全职/兼职", "th": "เต็มเวลา/นอกเวลา", "ko": "정규직/파트타임", "es": "tiempo completo / tiempo parcial" }
+            },
+            {
+              "word": "die Krankenversicherung",
+              "romanization": null,
+              "meanings": { "en": "health insurance", "zh": "医疗保险", "th": "ประกันสุขภาพ", "ko": "건강보험", "es": "el seguro médico" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask about the salary?",
+              "options": ["Wie hoch ist das Gehalt?", "Was kostet die Stelle?", "Wie viel arbeite ich?", "Was verdiene ich?"],
+              "correct": 0,
+              "explanation": "'Wie hoch ist das Gehalt?' = How high is the salary? 'Wie hoch' = how high/much."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Vertrag",
+              "options": ["the contract", "the salary", "the interview", "the holiday"],
+              "correct": 0,
+              "explanation": "'Den Vertrag unterschreiben' = to sign the contract. An important step when starting a job."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Gehalt", "salary"],
+                ["der Urlaub", "holiday/vacation"],
+                ["der Vertrag", "contract"],
+                ["Vollzeit", "full time"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Vollzeit", "suche", "eine", "Stelle", "Ich"],
+              "correct": ["Ich", "suche", "eine", "Vollzeit", "Stelle"],
+              "translation": "I am looking for a full-time position."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

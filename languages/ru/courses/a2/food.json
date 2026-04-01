@@ -1,0 +1,840 @@
+{
+  "lang": "ru",
+  "language": "ru",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订座位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a restaurant", "Ask about availability and timing"]
+          },
+          "vocabulary": [
+            {
+              "word": "бронирование",
+              "romanization": "bronirovanie",
+              "meanings": { "en": "reservation / booking", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "столик",
+              "romanization": "stolik",
+              "meanings": { "en": "table (restaurant)", "zh": "餐桌", "th": "โต๊ะ", "ko": "테이블", "es": "mesa" }
+            },
+            {
+              "word": "свободный",
+              "romanization": "svobodnyy",
+              "meanings": { "en": "free / available", "zh": "空闲的", "th": "ว่าง", "ko": "비어 있는", "es": "libre / disponible" }
+            },
+            {
+              "word": "на сколько человек",
+              "romanization": "na skol'ko chelovek",
+              "meanings": { "en": "for how many people", "zh": "几位", "th": "สำหรับกี่คน", "ko": "몇 명", "es": "para cuántas personas" }
+            },
+            {
+              "word": "ужин",
+              "romanization": "uzhin",
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "cena" }
+            },
+            {
+              "word": "подтвердить",
+              "romanization": "podtverdit'",
+              "meanings": { "en": "to confirm", "zh": "确认", "th": "ยืนยัน", "ko": "확인하다", "es": "confirmar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "бронирование",
+              "romanization": "bronirovanie",
+              "options": { "en": ["reservation", "menu", "bill", "table"] },
+              "correct": 0,
+              "explanation": "Бронирование means reservation or booking."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'table' at a restaurant in Russian?" },
+              "options": { "neutral": ["столик", "стул", "тарелка", "стакан"] },
+              "correct": 0,
+              "explanation": "Столик is the diminutive of стол used for restaurant tables."
+            },
+            {
+              "type": "listening",
+              "audio_text": "свободный",
+              "romanization": "svobodnyy",
+              "options": { "en": ["free / available", "reserved", "closed", "busy"] },
+              "correct": 0,
+              "explanation": "Свободный means free or available."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "бронирование", "romanization": "bronirovanie", "native": { "en": "reservation" } },
+                { "target": "столик", "romanization": "stolik", "native": { "en": "table" } },
+                { "target": "ужин", "romanization": "uzhin", "native": { "en": "dinner" } },
+                { "target": "подтвердить", "romanization": "podtverdit'", "native": { "en": "to confirm" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I want to reserve a table for two'" },
+              "words": ["хочу", "я", "столик", "забронировать", "на", "двоих"],
+              "correct_order": { "neutral": ["я", "хочу", "забронировать", "столик", "на", "двоих"] },
+              "tiles": { "neutral": ["я", "хочу", "забронировать", "столик", "на", "двоих"] },
+              "translation": "Я хочу забронировать столик на двоих."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Reading the Menu",
+            "zh": "看菜单",
+            "th": "อ่านเมนู",
+            "ko": "메뉴 읽기",
+            "es": "Leer el menú"
+          },
+          "objectives": {
+            "en": ["Understand common menu sections", "Ask about dishes and ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "меню",
+              "romanization": "menyu",
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "блюдо дня",
+              "romanization": "blyudo dnya",
+              "meanings": { "en": "dish of the day", "zh": "每日特餐", "th": "เมนูประจำวัน", "ko": "오늘의 요리", "es": "plato del día" }
+            },
+            {
+              "word": "закуска",
+              "romanization": "zakuska",
+              "meanings": { "en": "appetizer / starter", "zh": "前菜", "th": "อาหารเรียกน้ำย่อย", "ko": "전채 요리", "es": "entrante" }
+            },
+            {
+              "word": "основное блюдо",
+              "romanization": "osnovnoye blyudo",
+              "meanings": { "en": "main course", "zh": "主菜", "th": "อาหารจานหลัก", "ko": "메인 요리", "es": "plato principal" }
+            },
+            {
+              "word": "десерт",
+              "romanization": "desert",
+              "meanings": { "en": "dessert", "zh": "甜点", "th": "ของหวาน", "ko": "디저트", "es": "postre" }
+            },
+            {
+              "word": "вегетарианский",
+              "romanization": "vegetarianskiy",
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식의", "es": "vegetariano" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "меню",
+              "romanization": "menyu",
+              "options": { "en": ["menu", "bill", "dish", "receipt"] },
+              "correct": 0,
+              "explanation": "Меню is a loanword meaning menu."
+            },
+            {
+              "type": "target_to_native",
+              "word": "десерт",
+              "romanization": "desert",
+              "options": { "en": ["dessert", "starter", "main course", "side dish"] },
+              "correct": 0,
+              "explanation": "Десерт means dessert."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'main course' in Russian?" },
+              "options": { "neutral": ["основное блюдо", "закуска", "десерт", "меню"] },
+              "correct": 0,
+              "explanation": "Основное блюдо literally means 'main dish'."
+            },
+            {
+              "type": "listening",
+              "audio_text": "закуска",
+              "romanization": "zakuska",
+              "options": { "en": ["appetizer", "dessert", "main course", "menu"] },
+              "correct": 0,
+              "explanation": "Закуска means appetizer or starter."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "меню", "romanization": "menyu", "native": { "en": "menu" } },
+                { "target": "закуска", "romanization": "zakuska", "native": { "en": "appetizer" } },
+                { "target": "десерт", "romanization": "desert", "native": { "en": "dessert" } },
+                { "target": "блюдо дня", "romanization": "blyudo dnya", "native": { "en": "dish of the day" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'What is the dish of the day?'" },
+              "words": ["блюдо", "что", "сегодня", "дня"],
+              "correct_order": { "neutral": ["что", "сегодня", "блюдо", "дня"] },
+              "tiles": { "neutral": ["что", "сегодня", "блюдо", "дня"] },
+              "translation": "Что сегодня блюдо дня?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks politely", "Make dietary requests and get the bill"]
+          },
+          "vocabulary": [
+            {
+              "word": "я хотел(а) бы",
+              "romanization": "ya khotel(a) by",
+              "meanings": { "en": "I would like", "zh": "我想要", "th": "ฉันอยากได้", "ko": "저는 원합니다", "es": "me gustaría" }
+            },
+            {
+              "word": "без мяса",
+              "romanization": "bez myasa",
+              "meanings": { "en": "without meat", "zh": "不含肉", "th": "ไม่มีเนื้อสัตว์", "ko": "고기 없이", "es": "sin carne" }
+            },
+            {
+              "word": "аллергия на",
+              "romanization": "allergiya na",
+              "meanings": { "en": "allergy to", "zh": "对…过敏", "th": "แพ้", "ko": "~에 알레르기", "es": "alergia a" }
+            },
+            {
+              "word": "хорошо прожаренный",
+              "romanization": "khorosho prozharenny",
+              "meanings": { "en": "well done (meat)", "zh": "全熟", "th": "สุกมาก", "ko": "웰던", "es": "bien cocido" }
+            },
+            {
+              "word": "счёт, пожалуйста",
+              "romanization": "schyot, pozhaluysta",
+              "meanings": { "en": "the bill, please", "zh": "请结账", "th": "เช็คบิลด้วย", "ko": "계산서 주세요", "es": "la cuenta, por favor" }
+            },
+            {
+              "word": "включено",
+              "romanization": "vklyucheno",
+              "meanings": { "en": "included", "zh": "包含在内", "th": "รวมแล้ว", "ko": "포함됨", "es": "incluido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I would like' in Russian?" },
+              "options": { "neutral": ["я хотел(а) бы", "я очень хочу", "мне нужно", "я должен"] },
+              "correct": 0,
+              "explanation": "Я хотел(а) бы is the polite conditional form of 'I want'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "хорошо прожаренный",
+              "romanization": "khorosho prozharenny",
+              "options": { "en": ["well done", "medium rare", "raw", "grilled"] },
+              "correct": 0,
+              "explanation": "Хорошо прожаренный describes well-done meat."
+            },
+            {
+              "type": "listening",
+              "audio_text": "счёт, пожалуйста",
+              "romanization": "schyot, pozhaluysta",
+              "options": { "en": ["the bill, please", "the menu, please", "water, please", "a table, please"] },
+              "correct": 0,
+              "explanation": "Счёт means bill or check."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "без мяса", "romanization": "bez myasa", "native": { "en": "without meat" } },
+                { "target": "аллергия на", "romanization": "allergiya na", "native": { "en": "allergy to" } },
+                { "target": "включено", "romanization": "vklyucheno", "native": { "en": "included" } },
+                { "target": "счёт", "romanization": "schyot", "native": { "en": "bill" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I am allergic to nuts'" },
+              "words": ["у", "аллергия", "меня", "на", "орехи"],
+              "correct_order": { "neutral": ["у", "меня", "аллергия", "на", "орехи"] },
+              "tiles": { "neutral": ["у", "меня", "аллергия", "на", "орехи"] },
+              "translation": "У меня аллергия на орехи."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการทำอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Ingredients",
+            "zh": "新鲜食材",
+            "th": "ส่วนผสมสด",
+            "ko": "신선한 재료",
+            "es": "Ingredientes frescos"
+          },
+          "objectives": {
+            "en": ["Name common vegetables and fruits in Russian", "Talk about buying fresh produce"]
+          },
+          "vocabulary": [
+            {
+              "word": "лук",
+              "romanization": "luk",
+              "meanings": { "en": "onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla" }
+            },
+            {
+              "word": "чеснок",
+              "romanization": "chesnok",
+              "meanings": { "en": "garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "ajo" }
+            },
+            {
+              "word": "помидор",
+              "romanization": "pomidor",
+              "meanings": { "en": "tomato", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "tomate" }
+            },
+            {
+              "word": "морковь",
+              "romanization": "morkov'",
+              "meanings": { "en": "carrot", "zh": "胡萝卜", "th": "แครอต", "ko": "당근", "es": "zanahoria" }
+            },
+            {
+              "word": "свежий",
+              "romanization": "svezhiy",
+              "meanings": { "en": "fresh", "zh": "新鲜的", "th": "สด", "ko": "신선한", "es": "fresco" }
+            },
+            {
+              "word": "рынок",
+              "romanization": "rynok",
+              "meanings": { "en": "market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "mercado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "лук",
+              "romanization": "luk",
+              "options": { "en": ["onion", "garlic", "carrot", "potato"] },
+              "correct": 0,
+              "explanation": "Лук means onion in Russian."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'garlic' in Russian?" },
+              "options": { "neutral": ["чеснок", "лук", "помидор", "морковь"] },
+              "correct": 0,
+              "explanation": "Чеснок is garlic in Russian."
+            },
+            {
+              "type": "listening",
+              "audio_text": "рынок",
+              "romanization": "rynok",
+              "options": { "en": ["market", "restaurant", "supermarket", "bakery"] },
+              "correct": 0,
+              "explanation": "Рынок means market."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "лук", "romanization": "luk", "native": { "en": "onion" } },
+                { "target": "чеснок", "romanization": "chesnok", "native": { "en": "garlic" } },
+                { "target": "помидор", "romanization": "pomidor", "native": { "en": "tomato" } },
+                { "target": "свежий", "romanization": "svezhiy", "native": { "en": "fresh" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I buy vegetables at the market'" },
+              "words": ["овощи", "я", "на", "рынке", "покупаю"],
+              "correct_order": { "neutral": ["я", "покупаю", "овощи", "на", "рынке"] },
+              "tiles": { "neutral": ["я", "покупаю", "овощи", "на", "рынке"] },
+              "translation": "Я покупаю овощи на рынке."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "요리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is prepared", "Follow simple cooking instructions in Russian"]
+          },
+          "vocabulary": [
+            {
+              "word": "жареный",
+              "romanization": "zhareny",
+              "meanings": { "en": "fried / grilled", "zh": "炸/烤的", "th": "ทอด/ย่าง", "ko": "튀긴/구운", "es": "frito / a la plancha" }
+            },
+            {
+              "word": "варёный",
+              "romanization": "vareny",
+              "meanings": { "en": "boiled", "zh": "煮熟的", "th": "ต้ม", "ko": "삶은", "es": "hervido" }
+            },
+            {
+              "word": "тушёный",
+              "romanization": "tusheny",
+              "meanings": { "en": "braised / stewed", "zh": "炖的", "th": "ตุ๋น", "ko": "조린", "es": "estofado" }
+            },
+            {
+              "word": "запечённый",
+              "romanization": "zapechyonny",
+              "meanings": { "en": "baked / roasted", "zh": "烤的", "th": "อบ", "ko": "구운", "es": "horneado / asado" }
+            },
+            {
+              "word": "приправлять",
+              "romanization": "pripravlyat'",
+              "meanings": { "en": "to season", "zh": "调味", "th": "ปรุงรส", "ko": "양념하다", "es": "sazonar" }
+            },
+            {
+              "word": "перемешать",
+              "romanization": "peremeshat'",
+              "meanings": { "en": "to stir / to mix", "zh": "搅拌", "th": "คน/ผสม", "ko": "젓다/섞다", "es": "revolver / mezclar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "жареный",
+              "romanization": "zhareny",
+              "options": { "en": ["fried / grilled", "boiled", "steamed", "baked"] },
+              "correct": 0,
+              "explanation": "Жареный means fried or grilled."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'boiled' in Russian?" },
+              "options": { "neutral": ["варёный", "жареный", "тушёный", "запечённый"] },
+              "correct": 0,
+              "explanation": "Варёный means boiled."
+            },
+            {
+              "type": "listening",
+              "audio_text": "приправлять",
+              "romanization": "pripravlyat'",
+              "options": { "en": ["to season", "to stir", "to grill", "to bake"] },
+              "correct": 0,
+              "explanation": "Приправлять means to season food."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "жареный", "romanization": "zhareny", "native": { "en": "fried" } },
+                { "target": "варёный", "romanization": "vareny", "native": { "en": "boiled" } },
+                { "target": "запечённый", "romanization": "zapechyonny", "native": { "en": "baked" } },
+                { "target": "перемешать", "romanization": "peremeshat'", "native": { "en": "to stir" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'The fish is baked'" },
+              "words": ["рыба", "запечённая", "эта"],
+              "correct_order": { "neutral": ["эта", "рыба", "запечённая"] },
+              "tiles": { "neutral": ["эта", "рыба", "запечённая"] },
+              "translation": "Эта рыба запечённая."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Russian Cuisine",
+            "zh": "俄罗斯美食",
+            "th": "อาหารรัสเซีย",
+            "ko": "러시아 요리",
+            "es": "Cocina rusa"
+          },
+          "objectives": {
+            "en": ["Identify popular Russian dishes", "Describe traditional Russian flavors and ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "борщ",
+              "romanization": "borshch",
+              "meanings": { "en": "borscht (beet soup)", "zh": "罗宋汤", "th": "บอร์ชต์ (ซุปบีทรูท)", "ko": "보르시 (비트 수프)", "es": "borscht (sopa de remolacha)" }
+            },
+            {
+              "word": "пельмени",
+              "romanization": "pel'meni",
+              "meanings": { "en": "pelmeni (meat dumplings)", "zh": "俄式饺子", "th": "เพลเมนี (เกี๊ยวเนื้อ)", "ko": "펠메니 (고기만두)", "es": "pelmeni (dumplings de carne)" }
+            },
+            {
+              "word": "блины",
+              "romanization": "bliny",
+              "meanings": { "en": "blini (Russian pancakes)", "zh": "俄式薄饼", "th": "บลินี (แพนเค้กรัสเซีย)", "ko": "블리니 (러시아식 팬케이크)", "es": "blini (crepes rusos)" }
+            },
+            {
+              "word": "сметана",
+              "romanization": "smetana",
+              "meanings": { "en": "sour cream", "zh": "酸奶油", "th": "ครีมเปรี้ยว", "ko": "사워크림", "es": "crema agria" }
+            },
+            {
+              "word": "острый",
+              "romanization": "ostry",
+              "meanings": { "en": "spicy / hot", "zh": "辣的", "th": "เผ็ด", "ko": "매운", "es": "picante" }
+            },
+            {
+              "word": "сладкий",
+              "romanization": "sladky",
+              "meanings": { "en": "sweet", "zh": "甜的", "th": "หวาน", "ko": "달콤한", "es": "dulce" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "борщ",
+              "romanization": "borshch",
+              "options": { "en": ["beet soup", "meat stew", "noodle soup", "mushroom soup"] },
+              "correct": 0,
+              "explanation": "Борщ is a traditional Eastern European soup made with beets."
+            },
+            {
+              "type": "target_to_native",
+              "word": "блины",
+              "romanization": "bliny",
+              "options": { "en": ["Russian pancakes", "dumplings", "pies", "cookies"] },
+              "correct": 0,
+              "explanation": "Блины are thin Russian pancakes similar to crêpes."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'sweet' in Russian?" },
+              "options": { "neutral": ["сладкий", "острый", "кислый", "солёный"] },
+              "correct": 0,
+              "explanation": "Сладкий means sweet."
+            },
+            {
+              "type": "listening",
+              "audio_text": "пельмени",
+              "romanization": "pel'meni",
+              "options": { "en": ["meat dumplings", "pancakes", "beet soup", "sour cream"] },
+              "correct": 0,
+              "explanation": "Пельмени are traditional Russian meat-filled dumplings."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "борщ", "romanization": "borshch", "native": { "en": "beet soup" } },
+                { "target": "пельмени", "romanization": "pel'meni", "native": { "en": "meat dumplings" } },
+                { "target": "сладкий", "romanization": "sladky", "native": { "en": "sweet" } },
+                { "target": "острый", "romanization": "ostry", "native": { "en": "spicy" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Food Shopping",
+        "zh": "购物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Compras de comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Supermarket",
+            "zh": "在超市",
+            "th": "ที่ซูเปอร์มาร์เก็ต",
+            "ko": "슈퍼마켓에서",
+            "es": "En el supermercado"
+          },
+          "objectives": {
+            "en": ["Navigate a supermarket and find products", "Ask staff for help in Russian"]
+          },
+          "vocabulary": [
+            {
+              "word": "супермаркет",
+              "romanization": "supermarket",
+              "meanings": { "en": "supermarket", "zh": "超市", "th": "ซูเปอร์มาร์เก็ต", "ko": "슈퍼마켓", "es": "supermercado" }
+            },
+            {
+              "word": "скидка",
+              "romanization": "skidka",
+              "meanings": { "en": "discount", "zh": "折扣", "th": "ส่วนลด", "ko": "할인", "es": "descuento" }
+            },
+            {
+              "word": "акция",
+              "romanization": "aktsiya",
+              "meanings": { "en": "sale / promotion", "zh": "促销", "th": "โปรโมชั่น", "ko": "특가 행사", "es": "oferta / promoción" }
+            },
+            {
+              "word": "срок годности",
+              "romanization": "srok godnosti",
+              "meanings": { "en": "expiration date", "zh": "保质期", "th": "วันหมดอายุ", "ko": "유통기한", "es": "fecha de caducidad" }
+            },
+            {
+              "word": "полка",
+              "romanization": "polka",
+              "meanings": { "en": "shelf / aisle", "zh": "货架", "th": "ชั้นวาง", "ko": "선반", "es": "estante" }
+            },
+            {
+              "word": "касса",
+              "romanization": "kassa",
+              "meanings": { "en": "checkout / cashier", "zh": "收银台", "th": "แคชเชียร์", "ko": "계산대", "es": "caja" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "скидка",
+              "romanization": "skidka",
+              "options": { "en": ["discount", "price", "receipt", "coupon"] },
+              "correct": 0,
+              "explanation": "Скидка means discount."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'checkout / cashier' in Russian?" },
+              "options": { "neutral": ["касса", "полка", "скидка", "акция"] },
+              "correct": 0,
+              "explanation": "Касса means cashier or checkout."
+            },
+            {
+              "type": "listening",
+              "audio_text": "срок годности",
+              "romanization": "srok godnosti",
+              "options": { "en": ["expiration date", "price tag", "discount", "receipt"] },
+              "correct": 0,
+              "explanation": "Срок годности is the expiration date."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "скидка", "romanization": "skidka", "native": { "en": "discount" } },
+                { "target": "акция", "romanization": "aktsiya", "native": { "en": "promotion" } },
+                { "target": "полка", "romanization": "polka", "native": { "en": "shelf" } },
+                { "target": "касса", "romanization": "kassa", "native": { "en": "checkout" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'Where is the checkout?'" },
+              "words": ["касса", "где", "находится"],
+              "correct_order": { "neutral": ["где", "находится", "касса"] },
+              "tiles": { "neutral": ["где", "находится", "касса"] },
+              "translation": "Где находится касса?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Quantities and Measurements",
+            "zh": "数量与计量",
+            "th": "ปริมาณและการวัด",
+            "ko": "양과 측정",
+            "es": "Cantidades y medidas"
+          },
+          "objectives": {
+            "en": ["Express quantities when shopping for food", "Understand weights and measures in Russian"]
+          },
+          "vocabulary": [
+            {
+              "word": "килограмм",
+              "romanization": "kilogramm",
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilogramo" }
+            },
+            {
+              "word": "полкило",
+              "romanization": "polkilo",
+              "meanings": { "en": "half a kilogram", "zh": "半公斤", "th": "ครึ่งกิโลกรัม", "ko": "500그램", "es": "medio kilo" }
+            },
+            {
+              "word": "дюжина",
+              "romanization": "dyuzhina",
+              "meanings": { "en": "dozen", "zh": "一打", "th": "หนึ่งโหล", "ko": "12개", "es": "docena" }
+            },
+            {
+              "word": "литр",
+              "romanization": "litr",
+              "meanings": { "en": "litre", "zh": "升", "th": "ลิตร", "ko": "리터", "es": "litro" }
+            },
+            {
+              "word": "кусок",
+              "romanization": "kusok",
+              "meanings": { "en": "piece / slice", "zh": "一块", "th": "ชิ้น", "ko": "조각", "es": "trozo / rebanada" }
+            },
+            {
+              "word": "упаковка",
+              "romanization": "upakovka",
+              "meanings": { "en": "packet / package", "zh": "包装", "th": "แพ็กเกจ", "ko": "패키지", "es": "paquete" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "дюжина",
+              "romanization": "dyuzhina",
+              "options": { "en": ["dozen", "half", "quarter", "pair"] },
+              "correct": 0,
+              "explanation": "Дюжина means dozen."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'piece / slice' in Russian?" },
+              "options": { "neutral": ["кусок", "упаковка", "килограмм", "литр"] },
+              "correct": 0,
+              "explanation": "Кусок means piece or slice."
+            },
+            {
+              "type": "listening",
+              "audio_text": "килограмм",
+              "romanization": "kilogramm",
+              "options": { "en": ["kilogram", "litre", "dozen", "slice"] },
+              "correct": 0,
+              "explanation": "Килограмм is kilogram."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "килограмм", "romanization": "kilogramm", "native": { "en": "kilogram" } },
+                { "target": "дюжина", "romanization": "dyuzhina", "native": { "en": "dozen" } },
+                { "target": "кусок", "romanization": "kusok", "native": { "en": "slice" } },
+                { "target": "упаковка", "romanization": "upakovka", "native": { "en": "packet" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I want half a kilogram of cheese'" },
+              "words": ["полкило", "сыра", "хочу", "я"],
+              "correct_order": { "neutral": ["я", "хочу", "полкило", "сыра"] },
+              "tiles": { "neutral": ["я", "хочу", "полкило", "сыра"] },
+              "translation": "Я хочу полкило сыра."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Labels and Packaging",
+            "zh": "食品标签与包装",
+            "th": "ฉลากอาหารและบรรจุภัณฑ์",
+            "ko": "식품 라벨과 포장",
+            "es": "Etiquetas y envases de alimentos"
+          },
+          "objectives": {
+            "en": ["Read and understand food labels in Russian", "Identify nutritional and allergen information"]
+          },
+          "vocabulary": [
+            {
+              "word": "состав",
+              "romanization": "sostav",
+              "meanings": { "en": "ingredients / composition", "zh": "成分", "th": "ส่วนประกอบ", "ko": "성분", "es": "ingredientes / composición" }
+            },
+            {
+              "word": "калории",
+              "romanization": "kalorii",
+              "meanings": { "en": "calories", "zh": "卡路里", "th": "แคลอรี่", "ko": "칼로리", "es": "calorías" }
+            },
+            {
+              "word": "органический",
+              "romanization": "organicheskiy",
+              "meanings": { "en": "organic", "zh": "有机的", "th": "อินทรีย์", "ko": "유기농", "es": "orgánico" }
+            },
+            {
+              "word": "веганский",
+              "romanization": "veganskiy",
+              "meanings": { "en": "vegan", "zh": "纯素食", "th": "วีแกน", "ko": "비건", "es": "vegano" }
+            },
+            {
+              "word": "содержит",
+              "romanization": "soderzhit",
+              "meanings": { "en": "contains", "zh": "含有", "th": "มีส่วนประกอบ", "ko": "포함한다", "es": "contiene" }
+            },
+            {
+              "word": "годен до",
+              "romanization": "goden do",
+              "meanings": { "en": "best before", "zh": "最佳食用期至", "th": "ดีที่สุดก่อน", "ko": "유통기한", "es": "consumir preferentemente antes de" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "органический",
+              "romanization": "organicheskiy",
+              "options": { "en": ["organic", "vegan", "gluten-free", "natural"] },
+              "correct": 0,
+              "explanation": "Органический means organic."
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'ingredients' in Russian?" },
+              "options": { "neutral": ["состав", "калории", "срок", "продукт"] },
+              "correct": 0,
+              "explanation": "Состав means composition or ingredients list."
+            },
+            {
+              "type": "listening",
+              "audio_text": "содержит",
+              "romanization": "soderzhit",
+              "options": { "en": ["contains", "without", "free from", "does not include"] },
+              "correct": 0,
+              "explanation": "Содержит means contains."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "органический", "romanization": "organicheskiy", "native": { "en": "organic" } },
+                { "target": "веганский", "romanization": "veganskiy", "native": { "en": "vegan" } },
+                { "target": "содержит", "romanization": "soderzhit", "native": { "en": "contains" } },
+                { "target": "калории", "romanization": "kalorii", "native": { "en": "calories" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'This product is organic'" },
+              "words": ["органический", "этот", "продукт"],
+              "correct_order": { "neutral": ["этот", "продукт", "органический"] },
+              "tiles": { "neutral": ["этот", "продукт", "органический"] },
+              "translation": "Этот продукт органический."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

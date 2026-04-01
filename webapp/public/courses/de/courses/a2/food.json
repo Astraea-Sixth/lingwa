@@ -1,0 +1,807 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订餐位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a restaurant", "State the number of people and time"],
+            "zh": ["在餐厅预订桌位", "说明人数和时间"],
+            "th": ["จองโต๊ะที่ร้านอาหาร", "ระบุจำนวนคนและเวลา"],
+            "ko": ["식당에서 테이블 예약하기", "인원수와 시간 말하기"],
+            "es": ["Reservar una mesa en un restaurante", "Indicar el número de personas y la hora"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Reservierung",
+              "romanization": null,
+              "meanings": { "en": "the reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "la reserva" }
+            },
+            {
+              "word": "der Tisch",
+              "romanization": null,
+              "meanings": { "en": "the table", "zh": "桌子", "th": "โต๊ะ", "ko": "테이블", "es": "la mesa" }
+            },
+            {
+              "word": "für zwei Personen",
+              "romanization": null,
+              "meanings": { "en": "for two people", "zh": "两个人", "th": "สำหรับสองคน", "ko": "두 명", "es": "para dos personas" }
+            },
+            {
+              "word": "um acht Uhr",
+              "romanization": null,
+              "meanings": { "en": "at eight o'clock", "zh": "八点钟", "th": "เวลาแปดโมง", "ko": "8시에", "es": "a las ocho" }
+            },
+            {
+              "word": "reservieren",
+              "romanization": null,
+              "meanings": { "en": "to reserve", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }
+            },
+            {
+              "word": "der Name",
+              "romanization": null,
+              "meanings": { "en": "the name", "zh": "名字", "th": "ชื่อ", "ko": "이름", "es": "el nombre" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to reserve a table'?",
+              "options": ["Ich möchte einen Tisch reservieren.", "Ich kaufe einen Tisch.", "Ich suche einen Tisch.", "Ich brauche kein Tisch."],
+              "correct": 0,
+              "explanation": "'Ich möchte einen Tisch reservieren' means 'I would like to reserve a table'. 'Möchte' is the polite form of 'wollen'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Reservierung",
+              "options": ["the reservation", "the restaurant", "the table", "the menu"],
+              "correct": 0,
+              "explanation": "'Die Reservierung' means 'the reservation'. It comes from the verb 'reservieren'."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich möchte einen Tisch für zwei Personen reservieren.",
+              "options": ["I'd like to reserve a table for two.", "I'd like a table for four.", "I want to cancel my reservation.", "Can I see the menu?"],
+              "correct": 0,
+              "explanation": "'Für zwei Personen' means 'for two people'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["reservieren", "to reserve"],
+                ["der Tisch", "the table"],
+                ["der Name", "the name"],
+                ["um acht Uhr", "at eight o'clock"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Tisch", "einen", "reservieren", "möchte", "Ich"],
+              "correct": ["Ich", "möchte", "einen", "Tisch", "reservieren"],
+              "translation": "I would like to reserve a table."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks from a menu", "Ask about dishes and ingredients"],
+            "zh": ["从菜单上点餐和饮料", "询问菜肴和食材"],
+            "th": ["สั่งอาหารและเครื่องดื่มจากเมนู", "ถามเกี่ยวกับอาหารและส่วนผสม"],
+            "ko": ["메뉴에서 음식과 음료 주문하기", "요리와 재료에 대해 묻기"],
+            "es": ["Pedir comida y bebidas del menú", "Preguntar sobre los platos e ingredientes"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Speisekarte",
+              "romanization": null,
+              "meanings": { "en": "the menu", "zh": "菜单", "th": "เมนูอาหาร", "ko": "메뉴판", "es": "la carta" }
+            },
+            {
+              "word": "bestellen",
+              "romanization": null,
+              "meanings": { "en": "to order", "zh": "点餐", "th": "สั่ง", "ko": "주문하다", "es": "pedir" }
+            },
+            {
+              "word": "das Gericht",
+              "romanization": null,
+              "meanings": { "en": "the dish", "zh": "菜肴", "th": "อาหารจาน", "ko": "요리", "es": "el plato" }
+            },
+            {
+              "word": "die Vorspeise",
+              "romanization": null,
+              "meanings": { "en": "the starter/appetizer", "zh": "开胃菜", "th": "อาหารเรียกน้ำย่อย", "ko": "전채", "es": "el entrante" }
+            },
+            {
+              "word": "das Hauptgericht",
+              "romanization": null,
+              "meanings": { "en": "the main course", "zh": "主菜", "th": "อาหารจานหลัก", "ko": "주요리", "es": "el plato principal" }
+            },
+            {
+              "word": "empfehlen",
+              "romanization": null,
+              "meanings": { "en": "to recommend", "zh": "推荐", "th": "แนะนำ", "ko": "추천하다", "es": "recomendar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What do you recommend?'",
+              "options": ["Was empfehlen Sie?", "Was kaufen Sie?", "Was essen Sie gerne?", "Was kostet das?"],
+              "correct": 0,
+              "explanation": "'Was empfehlen Sie?' is the polite way to ask for recommendations. 'Empfehlen' means 'to recommend'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Speisekarte",
+              "options": ["the menu", "the bill", "the waiter", "the kitchen"],
+              "correct": 0,
+              "explanation": "'Die Speisekarte' is the menu. 'Speise' means food/dish and 'Karte' means card/list."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'll take the main course'?",
+              "options": ["Ich nehme das Hauptgericht.", "Ich esse die Vorspeise.", "Ich bestelle die Getränke.", "Ich möchte die Rechnung."],
+              "correct": 0,
+              "explanation": "'Ich nehme das Hauptgericht' = 'I'll take the main course'. 'Nehmen' is commonly used when ordering."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["bestellen", "to order"],
+                ["die Vorspeise", "the starter"],
+                ["das Hauptgericht", "the main course"],
+                ["empfehlen", "to recommend"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Speisekarte", "bitte", "die", "mir", "Geben", "Sie"],
+              "correct": ["Geben", "Sie", "mir", "die", "Speisekarte", "bitte"],
+              "translation": "Please give me the menu."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Paying the Bill",
+            "zh": "结账",
+            "th": "การจ่ายเงิน",
+            "ko": "계산하기",
+            "es": "Pagar la cuenta"
+          },
+          "objectives": {
+            "en": ["Ask for the bill and pay at a restaurant", "Understand prices and handle payment"],
+            "zh": ["在餐厅结账", "了解价格并处理付款"],
+            "th": ["ขอบิลและจ่ายเงินที่ร้านอาหาร", "เข้าใจราคาและการชำระเงิน"],
+            "ko": ["식당에서 계산서 요청하고 지불하기", "가격 이해하고 결제하기"],
+            "es": ["Pedir la cuenta y pagar en el restaurante", "Entender los precios y gestionar el pago"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Rechnung",
+              "romanization": null,
+              "meanings": { "en": "the bill/check", "zh": "账单", "th": "ใบเสร็จ", "ko": "계산서", "es": "la cuenta" }
+            },
+            {
+              "word": "bezahlen",
+              "romanization": null,
+              "meanings": { "en": "to pay", "zh": "付款", "th": "จ่ายเงิน", "ko": "지불하다", "es": "pagar" }
+            },
+            {
+              "word": "das Trinkgeld",
+              "romanization": null,
+              "meanings": { "en": "the tip", "zh": "小费", "th": "ทิป", "ko": "팁", "es": "la propina" }
+            },
+            {
+              "word": "getrennt",
+              "romanization": null,
+              "meanings": { "en": "separately", "zh": "分开", "th": "แยกกัน", "ko": "따로따로", "es": "por separado" }
+            },
+            {
+              "word": "zusammen",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "รวมกัน", "ko": "함께", "es": "junto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The bill, please'?",
+              "options": ["Die Rechnung, bitte.", "Das Menü, bitte.", "Den Tisch, bitte.", "Das Essen, bitte."],
+              "correct": 0,
+              "explanation": "'Die Rechnung, bitte' is the standard phrase to ask for the bill in German."
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Trinkgeld",
+              "options": ["the tip", "the drink", "the water", "the receipt"],
+              "correct": 0,
+              "explanation": "'Trinkgeld' literally means 'drinking money' — the tip you leave for service."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Möchten Sie getrennt oder zusammen bezahlen?",
+              "options": ["Would you like to pay separately or together?", "Would you like to order more?", "Are you ready to pay?", "How was your meal?"],
+              "correct": 0,
+              "explanation": "'Getrennt' = separately, 'zusammen' = together, 'bezahlen' = to pay."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die Rechnung", "the bill"],
+                ["bezahlen", "to pay"],
+                ["getrennt", "separately"],
+                ["zusammen", "together"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["bitte", "Rechnung", "die", "ich", "Kann", "haben"],
+              "correct": ["Kann", "ich", "die", "Rechnung", "haben", "bitte"],
+              "translation": "Can I have the bill, please?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Food Ingredients & Cooking",
+        "zh": "食材和烹饪",
+        "th": "ส่วนผสมและการปรุงอาหาร",
+        "ko": "식재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Ingredients",
+            "zh": "新鲜食材",
+            "th": "ส่วนผสมสด",
+            "ko": "신선한 재료",
+            "es": "Ingredientes frescos"
+          },
+          "objectives": {
+            "en": ["Name common fresh ingredients in German", "Ask for ingredients at a market or shop"],
+            "zh": ["用德语说出常见的新鲜食材", "在市场或商店询问食材"],
+            "th": ["พูดชื่อส่วนผสมสดทั่วไปเป็นภาษาเยอรมัน", "ถามหาส่วนผสมที่ตลาดหรือร้านค้า"],
+            "ko": ["독일어로 신선한 재료 이름 말하기", "시장이나 가게에서 재료 물어보기"],
+            "es": ["Nombrar ingredientes frescos en alemán", "Pedir ingredientes en un mercado o tienda"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Gemüse",
+              "romanization": null,
+              "meanings": { "en": "the vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "las verduras" }
+            },
+            {
+              "word": "das Obst",
+              "romanization": null,
+              "meanings": { "en": "the fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "la fruta" }
+            },
+            {
+              "word": "das Fleisch",
+              "romanization": null,
+              "meanings": { "en": "the meat", "zh": "肉", "th": "เนื้อสัตว์", "ko": "고기", "es": "la carne" }
+            },
+            {
+              "word": "frisch",
+              "romanization": null,
+              "meanings": { "en": "fresh", "zh": "新鲜", "th": "สด", "ko": "신선한", "es": "fresco" }
+            },
+            {
+              "word": "die Zwiebel",
+              "romanization": null,
+              "meanings": { "en": "the onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "la cebolla" }
+            },
+            {
+              "word": "der Knoblauch",
+              "romanization": null,
+              "meanings": { "en": "the garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "el ajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'fresh vegetables'?",
+              "options": ["frisches Gemüse", "frisches Obst", "frisches Fleisch", "frische Milch"],
+              "correct": 0,
+              "explanation": "'Frisches Gemüse' = fresh vegetables. 'Gemüse' is neuter, so 'frisch' takes the ending '-es'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Knoblauch",
+              "options": ["garlic", "onion", "leek", "ginger"],
+              "correct": 0,
+              "explanation": "'Knoblauch' is garlic. It's a masculine noun: 'der Knoblauch'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Gemüse", "vegetables"],
+                ["das Obst", "fruit"],
+                ["das Fleisch", "meat"],
+                ["die Zwiebel", "onion"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Haben Sie frisches Gemüse und Obst?",
+              "options": ["Do you have fresh vegetables and fruit?", "Do you sell meat and fish?", "Is the food organic?", "How much does it cost?"],
+              "correct": 0,
+              "explanation": "'Haben Sie' = do you have, 'frisch' = fresh, 'und' = and."
+            },
+            {
+              "type": "reorder",
+              "words": ["Knoblauch", "und", "Zwiebeln", "frischen", "kaufe", "Ich"],
+              "correct": ["Ich", "kaufe", "frischen", "Knoblauch", "und", "Zwiebeln"],
+              "translation": "I buy fresh garlic and onions."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการปรุงอาหาร",
+            "ko": "요리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked", "Follow simple cooking instructions"],
+            "zh": ["描述食物的烹饪方式", "遵循简单的烹饪说明"],
+            "th": ["อธิบายวิธีปรุงอาหาร", "ทำตามคำแนะนำการปรุงอาหารง่ายๆ"],
+            "ko": ["음식 조리 방법 설명하기", "간단한 요리 지시 따르기"],
+            "es": ["Describir cómo se cocina la comida", "Seguir instrucciones simples de cocina"]
+          },
+          "vocabulary": [
+            {
+              "word": "kochen",
+              "romanization": null,
+              "meanings": { "en": "to cook / to boil", "zh": "烹饪/煮", "th": "ปรุงอาหาร/ต้ม", "ko": "요리하다/삶다", "es": "cocinar/hervir" }
+            },
+            {
+              "word": "braten",
+              "romanization": null,
+              "meanings": { "en": "to fry / to roast", "zh": "煎/烤", "th": "ทอด/ย่าง", "ko": "볶다/굽다", "es": "freír/asar" }
+            },
+            {
+              "word": "backen",
+              "romanization": null,
+              "meanings": { "en": "to bake", "zh": "烘焙", "th": "อบ", "ko": "굽다(오븐)", "es": "hornear" }
+            },
+            {
+              "word": "schneiden",
+              "romanization": null,
+              "meanings": { "en": "to cut/chop", "zh": "切", "th": "หั่น", "ko": "자르다", "es": "cortar" }
+            },
+            {
+              "word": "würzen",
+              "romanization": null,
+              "meanings": { "en": "to season/spice", "zh": "调味", "th": "ปรุงรส", "ko": "양념하다", "es": "condimentar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'to bake a cake'?",
+              "options": ["einen Kuchen backen", "einen Kuchen kochen", "einen Kuchen braten", "einen Kuchen schneiden"],
+              "correct": 0,
+              "explanation": "'Backen' is used for baking in an oven. A cake (Kuchen) is always baked ('backen'), not cooked."
+            },
+            {
+              "type": "target_to_native",
+              "word": "braten",
+              "options": ["to fry / to roast", "to boil", "to bake", "to steam"],
+              "correct": 0,
+              "explanation": "'Braten' means to fry or roast — cooking with dry heat or fat in a pan."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["kochen", "to boil/cook"],
+                ["backen", "to bake"],
+                ["schneiden", "to cut"],
+                ["würzen", "to season"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Gemüse", "und", "schneide", "das", "Ich", "es", "brate"],
+              "correct": ["Ich", "schneide", "das", "Gemüse", "und", "brate", "es"],
+              "translation": "I cut the vegetables and fry them."
+            },
+            {
+              "type": "native_to_target",
+              "question": "Which verb means 'to season the food'?",
+              "options": ["das Essen würzen", "das Essen backen", "das Essen schneiden", "das Essen kochen"],
+              "correct": 0,
+              "explanation": "'Würzen' means to add seasoning or spices to food."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "German Cuisine",
+            "zh": "德国美食",
+            "th": "อาหารเยอรมัน",
+            "ko": "독일 요리",
+            "es": "Cocina alemana"
+          },
+          "objectives": {
+            "en": ["Name traditional German dishes", "Describe popular German foods and drinks"],
+            "zh": ["说出传统德国菜名", "描述流行的德国食物和饮料"],
+            "th": ["พูดชื่ออาหารเยอรมันดั้งเดิม", "อธิบายอาหารและเครื่องดื่มยอดนิยมของเยอรมัน"],
+            "ko": ["전통 독일 음식 이름 말하기", "인기 있는 독일 음식과 음료 설명하기"],
+            "es": ["Nombrar platos tradicionales alemanes", "Describir comidas y bebidas alemanas populares"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Schnitzel",
+              "romanization": null,
+              "meanings": { "en": "the schnitzel (breaded cutlet)", "zh": "炸肉排", "th": "ชนิตเซล", "ko": "슈니첼", "es": "el escalope empanado" }
+            },
+            {
+              "word": "die Bratwurst",
+              "romanization": null,
+              "meanings": { "en": "the grilled sausage", "zh": "烤香肠", "th": "ไส้กรอกย่าง", "ko": "브라트부르스트", "es": "la salchicha asada" }
+            },
+            {
+              "word": "das Sauerkraut",
+              "romanization": null,
+              "meanings": { "en": "the sauerkraut (fermented cabbage)", "zh": "酸菜", "th": "กะหล่ำปลีดอง", "ko": "사우어크라우트", "es": "el chucrut" }
+            },
+            {
+              "word": "das Bier",
+              "romanization": null,
+              "meanings": { "en": "the beer", "zh": "啤酒", "th": "เบียร์", "ko": "맥주", "es": "la cerveza" }
+            },
+            {
+              "word": "das Brot",
+              "romanization": null,
+              "meanings": { "en": "the bread", "zh": "面包", "th": "ขนมปัง", "ko": "빵", "es": "el pan" }
+            },
+            {
+              "word": "typisch deutsch",
+              "romanization": null,
+              "meanings": { "en": "typically German", "zh": "典型德国", "th": "แบบเยอรมันดั้งเดิม", "ko": "전형적인 독일", "es": "típicamente alemán" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is 'Bratwurst'?",
+              "options": ["a grilled pork sausage", "a breaded cutlet", "fermented cabbage", "a type of bread"],
+              "correct": 0,
+              "explanation": "'Bratwurst' is a popular German grilled sausage, often eaten with mustard and bread."
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Sauerkraut",
+              "options": ["fermented cabbage", "sour cream", "pickled cucumber", "smoked meat"],
+              "correct": 0,
+              "explanation": "'Sauerkraut' = 'sour cabbage' — finely cut cabbage that has been fermented."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Das Schnitzel ist ein typisch deutsches Gericht.",
+              "options": ["The schnitzel is a typically German dish.", "The sausage is very popular in Germany.", "German bread is very delicious.", "Beer is the national drink of Germany."],
+              "correct": 0,
+              "explanation": "'Typisch deutsch' = typically German, 'Gericht' = dish/meal."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Schnitzel", "breaded cutlet"],
+                ["die Bratwurst", "grilled sausage"],
+                ["das Brot", "bread"],
+                ["das Bier", "beer"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["esse", "gerne", "Schnitzel", "Ich", "mit", "Sauerkraut"],
+              "correct": ["Ich", "esse", "gerne", "Schnitzel", "mit", "Sauerkraut"],
+              "translation": "I like to eat schnitzel with sauerkraut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Comprar comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Supermarket",
+            "zh": "在超市",
+            "th": "ที่ซูเปอร์มาร์เก็ต",
+            "ko": "슈퍼마켓에서",
+            "es": "En el supermercado"
+          },
+          "objectives": {
+            "en": ["Navigate a supermarket and find products", "Ask for help locating items"],
+            "zh": ["在超市找到产品", "询问如何找到商品"],
+            "th": ["เดินในซูเปอร์มาร์เก็ตและหาสินค้า", "ขอความช่วยเหลือในการหาสินค้า"],
+            "ko": ["슈퍼마켓에서 제품 찾기", "물건 찾는 데 도움 요청하기"],
+            "es": ["Orientarse en un supermercado", "Pedir ayuda para encontrar productos"]
+          },
+          "vocabulary": [
+            {
+              "word": "der Supermarkt",
+              "romanization": null,
+              "meanings": { "en": "the supermarket", "zh": "超市", "th": "ซูเปอร์มาร์เก็ต", "ko": "슈퍼마켓", "es": "el supermercado" }
+            },
+            {
+              "word": "die Abteilung",
+              "romanization": null,
+              "meanings": { "en": "the section/department", "zh": "区域/部门", "th": "แผนก", "ko": "코너/부서", "es": "la sección" }
+            },
+            {
+              "word": "die Kasse",
+              "romanization": null,
+              "meanings": { "en": "the checkout/cashier", "zh": "收银台", "th": "แคชเชียร์", "ko": "계산대", "es": "la caja" }
+            },
+            {
+              "word": "das Angebot",
+              "romanization": null,
+              "meanings": { "en": "the offer/deal/special", "zh": "特价", "th": "ของลดราคา", "ko": "특가/할인", "es": "la oferta" }
+            },
+            {
+              "word": "suchen",
+              "romanization": null,
+              "meanings": { "en": "to look for/search", "zh": "寻找", "th": "หา", "ko": "찾다", "es": "buscar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where is the dairy section?'",
+              "options": ["Wo ist die Milchabteilung?", "Wo ist die Gemüseabteilung?", "Wo ist die Kasse?", "Wo ist der Ausgang?"],
+              "correct": 0,
+              "explanation": "'Milchabteilung' = dairy section (Milch = milk, Abteilung = section). 'Wo ist' = where is."
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Angebot",
+              "options": ["the special offer/deal", "the product", "the price", "the receipt"],
+              "correct": 0,
+              "explanation": "'Das Angebot' means an offer or deal — often used for sales and promotions."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["der Supermarkt", "supermarket"],
+                ["die Kasse", "checkout"],
+                ["suchen", "to look for"],
+                ["die Abteilung", "section"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Entschuldigung, wo finde ich die Brotabteilung?",
+              "options": ["Excuse me, where can I find the bread section?", "Excuse me, where is the exit?", "Do you have this on offer?", "How much does this cost?"],
+              "correct": 0,
+              "explanation": "'Entschuldigung' = excuse me, 'wo finde ich' = where do I find, 'Brotabteilung' = bread section."
+            },
+            {
+              "type": "reorder",
+              "words": ["Supermarkt", "im", "ich", "Gemüse", "suche", "frisches"],
+              "correct": ["Ich", "suche", "frisches", "Gemüse", "im", "Supermarkt"],
+              "translation": "I am looking for fresh vegetables in the supermarket."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at an open market", "Bargain and ask about prices"],
+            "zh": ["在露天市场购买食物", "讨价还价和询问价格"],
+            "th": ["ซื้ออาหารที่ตลาดสด", "ต่อราคาและถามราคา"],
+            "ko": ["야외 시장에서 음식 사기", "가격 흥정하고 물어보기"],
+            "es": ["Comprar comida en un mercado", "Regatear y preguntar precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "der Markt",
+              "romanization": null,
+              "meanings": { "en": "the market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "el mercado" }
+            },
+            {
+              "word": "das Kilo",
+              "romanization": null,
+              "meanings": { "en": "the kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "el kilo" }
+            },
+            {
+              "word": "günstig",
+              "romanization": null,
+              "meanings": { "en": "cheap/affordable", "zh": "便宜", "th": "ราคาถูก", "ko": "저렴한", "es": "barato/asequible" }
+            },
+            {
+              "word": "teuer",
+              "romanization": null,
+              "meanings": { "en": "expensive", "zh": "贵", "th": "แพง", "ko": "비싼", "es": "caro" }
+            },
+            {
+              "word": "der Preis",
+              "romanization": null,
+              "meanings": { "en": "the price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "el precio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much does a kilo of apples cost?'",
+              "options": ["Was kostet ein Kilo Äpfel?", "Wie viel Kilo Äpfel haben Sie?", "Wo sind die Äpfel?", "Sind die Äpfel frisch?"],
+              "correct": 0,
+              "explanation": "'Was kostet' = how much does it cost, 'ein Kilo Äpfel' = a kilo of apples."
+            },
+            {
+              "type": "target_to_native",
+              "word": "günstig",
+              "options": ["cheap/affordable", "expensive", "fresh", "organic"],
+              "correct": 0,
+              "explanation": "'Günstig' means favorable in price — cheap or affordable."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Zwei Kilo Tomaten kosten drei Euro.",
+              "options": ["Two kilos of tomatoes cost three euros.", "One kilo of apples costs two euros.", "The tomatoes are very fresh today.", "The market closes at three."],
+              "correct": 0,
+              "explanation": "'Zwei Kilo Tomaten' = two kilos of tomatoes, 'kosten' = cost, 'drei Euro' = three euros."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["der Markt", "market"],
+                ["der Preis", "price"],
+                ["teuer", "expensive"],
+                ["günstig", "cheap"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Kilos", "zwei", "Tomaten", "möchte", "Ich"],
+              "correct": ["Ich", "möchte", "zwei", "Kilos", "Tomaten"],
+              "translation": "I would like two kilos of tomatoes."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Preferences & Diets",
+            "zh": "饮食偏好和饮食习惯",
+            "th": "ความชอบด้านอาหารและอาหารพิเศษ",
+            "ko": "음식 취향과 식이 요법",
+            "es": "Preferencias alimentarias y dietas"
+          },
+          "objectives": {
+            "en": ["Express food preferences and dietary needs", "Discuss allergies and restrictions"],
+            "zh": ["表达饮食偏好和需求", "讨论过敏和饮食限制"],
+            "th": ["แสดงความชอบและความต้องการด้านอาหาร", "พูดคุยเกี่ยวกับการแพ้และข้อจำกัด"],
+            "ko": ["음식 취향과 식이 요구 사항 표현하기", "알레르기와 제한 사항 이야기하기"],
+            "es": ["Expresar preferencias alimentarias", "Hablar de alergias y restricciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "vegetarisch",
+              "romanization": null,
+              "meanings": { "en": "vegetarian", "zh": "素食", "th": "มังสวิรัติ", "ko": "채식주의", "es": "vegetariano" }
+            },
+            {
+              "word": "die Allergie",
+              "romanization": null,
+              "meanings": { "en": "the allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "la alergia" }
+            },
+            {
+              "word": "ohne Gluten",
+              "romanization": null,
+              "meanings": { "en": "without gluten / gluten-free", "zh": "无麸质", "th": "ปราศจากกลูเตน", "ko": "글루텐 없이", "es": "sin gluten" }
+            },
+            {
+              "word": "ich vertragekeit",
+              "romanization": null,
+              "meanings": { "en": "I cannot tolerate / I am intolerant of", "zh": "我不耐受", "th": "ฉันแพ้/ทนไม่ได้", "ko": "저는 ~을 못 먹어요", "es": "soy intolerante a" }
+            },
+            {
+              "word": "lecker",
+              "romanization": null,
+              "meanings": { "en": "delicious/tasty", "zh": "好吃", "th": "อร่อย", "ko": "맛있는", "es": "delicioso/sabroso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am vegetarian'?",
+              "options": ["Ich bin Vegetarier.", "Ich esse kein Fleisch gerne.", "Ich mag kein Gemüse.", "Ich esse viel Fleisch."],
+              "correct": 0,
+              "explanation": "'Ich bin Vegetarier' (male) or 'Ich bin Vegetarierin' (female) = I am vegetarian."
+            },
+            {
+              "type": "target_to_native",
+              "word": "lecker",
+              "options": ["delicious/tasty", "spicy", "sour", "bitter"],
+              "correct": 0,
+              "explanation": "'Lecker' is a very common German word meaning delicious or yummy."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich habe eine Allergie gegen Nüsse.",
+              "options": ["I have a nut allergy.", "I don't like nuts.", "I am vegan.", "I can't eat dairy."],
+              "correct": 0,
+              "explanation": "'Allergie gegen' = allergy to, 'Nüsse' = nuts."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["vegetarisch", "vegetarian"],
+                ["die Allergie", "the allergy"],
+                ["ohne Gluten", "gluten-free"],
+                ["lecker", "delicious"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["bin", "und", "esse", "Vegetarier", "Ich", "kein", "Fleisch"],
+              "correct": ["Ich", "bin", "Vegetarier", "und", "esse", "kein", "Fleisch"],
+              "translation": "I am a vegetarian and don't eat meat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

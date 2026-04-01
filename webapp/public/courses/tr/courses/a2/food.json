@@ -1,0 +1,807 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订餐位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a Turkish restaurant", "State number of guests and time"],
+            "zh": ["在土耳其餐厅预订桌位", "说明人数和时间"],
+            "th": ["จองโต๊ะที่ร้านอาหารตุรกี", "ระบุจำนวนผู้เข้าพักและเวลา"],
+            "ko": ["터키 식당에서 테이블 예약하기", "인원수와 시간 말하기"],
+            "es": ["Reservar una mesa en un restaurante turco", "Indicar número de personas y hora"]
+          },
+          "vocabulary": [
+            {
+              "word": "rezervasyon",
+              "romanization": null,
+              "meanings": { "en": "reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "masa",
+              "romanization": null,
+              "meanings": { "en": "table", "zh": "桌子", "th": "โต๊ะ", "ko": "테이블", "es": "mesa" }
+            },
+            {
+              "word": "iki kişi için",
+              "romanization": null,
+              "meanings": { "en": "for two people", "zh": "两个人", "th": "สำหรับสองคน", "ko": "두 명을 위해", "es": "para dos personas" }
+            },
+            {
+              "word": "saat sekizde",
+              "romanization": null,
+              "meanings": { "en": "at eight o'clock", "zh": "八点钟", "th": "เวลาแปดโมง", "ko": "8시에", "es": "a las ocho" }
+            },
+            {
+              "word": "ayırtmak",
+              "romanization": null,
+              "meanings": { "en": "to reserve/book", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }
+            },
+            {
+              "word": "isim",
+              "romanization": null,
+              "meanings": { "en": "name", "zh": "名字", "th": "ชื่อ", "ko": "이름", "es": "nombre" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to reserve a table'?",
+              "options": ["Bir masa ayırtmak istiyorum.", "Bir masa arıyorum.", "Masayı satın almak istiyorum.", "Masa lazım değil."],
+              "correct": 0,
+              "explanation": "'Bir masa ayırtmak istiyorum' means 'I would like to reserve a table'. 'Ayırtmak' means to reserve/book."
+            },
+            {
+              "type": "target_to_native",
+              "word": "rezervasyon",
+              "options": ["reservation", "restaurant", "table", "menu"],
+              "correct": 0,
+              "explanation": "'Rezervasyon' means reservation — borrowed from French/English."
+            },
+            {
+              "type": "listening",
+              "audio_text": "İki kişi için bir masa ayırtmak istiyorum.",
+              "options": ["I'd like to reserve a table for two.", "I'd like a table for four.", "I want to cancel my reservation.", "Can I see the menu?"],
+              "correct": 0,
+              "explanation": "'İki kişi için' means 'for two people'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ayırtmak", "to reserve"],
+                ["masa", "table"],
+                ["isim", "name"],
+                ["saat sekizde", "at eight o'clock"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["masa", "bir", "ayırtmak", "istiyorum"],
+              "correct": ["Bir", "masa", "ayırtmak", "istiyorum"],
+              "translation": "I would like to reserve a table."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks from a menu", "Ask about dishes and ingredients"],
+            "zh": ["从菜单上点餐和饮料", "询问菜肴和食材"],
+            "th": ["สั่งอาหารและเครื่องดื่มจากเมนู", "ถามเกี่ยวกับอาหารและส่วนผสม"],
+            "ko": ["메뉴에서 음식과 음료 주문하기", "요리와 재료에 대해 묻기"],
+            "es": ["Pedir comida y bebidas del menú", "Preguntar sobre los platos e ingredientes"]
+          },
+          "vocabulary": [
+            {
+              "word": "menü",
+              "romanization": null,
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนูอาหาร", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "sipariş vermek",
+              "romanization": null,
+              "meanings": { "en": "to order", "zh": "点餐", "th": "สั่งอาหาร", "ko": "주문하다", "es": "pedir" }
+            },
+            {
+              "word": "yemek",
+              "romanization": null,
+              "meanings": { "en": "dish / food", "zh": "菜肴/食物", "th": "อาหาร", "ko": "음식/요리", "es": "comida/plato" }
+            },
+            {
+              "word": "içecek",
+              "romanization": null,
+              "meanings": { "en": "drink/beverage", "zh": "饮料", "th": "เครื่องดื่ม", "ko": "음료", "es": "bebida" }
+            },
+            {
+              "word": "tavsiye etmek",
+              "romanization": null,
+              "meanings": { "en": "to recommend", "zh": "推荐", "th": "แนะนำ", "ko": "추천하다", "es": "recomendar" }
+            },
+            {
+              "word": "ana yemek",
+              "romanization": null,
+              "meanings": { "en": "main course", "zh": "主菜", "th": "อาหารจานหลัก", "ko": "주요리", "es": "plato principal" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What do you recommend?'",
+              "options": ["Ne tavsiye edersiniz?", "Ne satın alırsınız?", "Ne yemek istersiniz?", "Ne kadar?"],
+              "correct": 0,
+              "explanation": "'Ne tavsiye edersiniz?' is the polite way to ask for recommendations."
+            },
+            {
+              "type": "target_to_native",
+              "word": "menü",
+              "options": ["menu", "bill", "waiter", "kitchen"],
+              "correct": 0,
+              "explanation": "'Menü' is the menu — a loanword from French."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'll take the main course'?",
+              "options": ["Ana yemeği alacağım.", "Tatlıyı yiyeceğim.", "İçeceği sipariş edeceğim.", "Hesabı istiyorum."],
+              "correct": 0,
+              "explanation": "'Ana yemeği alacağım' = 'I'll take the main course'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sipariş vermek", "to order"],
+                ["içecek", "drink"],
+                ["ana yemek", "main course"],
+                ["tavsiye etmek", "to recommend"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["menüyü", "bana", "verir", "misiniz", "lütfen"],
+              "correct": ["Bana", "menüyü", "verir", "misiniz", "lütfen"],
+              "translation": "Could you give me the menu, please?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Paying the Bill",
+            "zh": "结账",
+            "th": "การจ่ายเงิน",
+            "ko": "계산하기",
+            "es": "Pagar la cuenta"
+          },
+          "objectives": {
+            "en": ["Ask for the bill and pay at a restaurant", "Understand prices and handle payment"],
+            "zh": ["在餐厅结账", "了解价格并处理付款"],
+            "th": ["ขอบิลและจ่ายเงินที่ร้านอาหาร", "เข้าใจราคาและการชำระเงิน"],
+            "ko": ["식당에서 계산서 요청하고 지불하기", "가격 이해하고 결제하기"],
+            "es": ["Pedir la cuenta y pagar en el restaurante", "Entender los precios y gestionar el pago"]
+          },
+          "vocabulary": [
+            {
+              "word": "hesap",
+              "romanization": null,
+              "meanings": { "en": "the bill/check", "zh": "账单", "th": "ใบเสร็จ", "ko": "계산서", "es": "la cuenta" }
+            },
+            {
+              "word": "ödemek",
+              "romanization": null,
+              "meanings": { "en": "to pay", "zh": "付款", "th": "จ่ายเงิน", "ko": "지불하다", "es": "pagar" }
+            },
+            {
+              "word": "bahşiş",
+              "romanization": null,
+              "meanings": { "en": "tip/gratuity", "zh": "小费", "th": "ทิป", "ko": "팁", "es": "propina" }
+            },
+            {
+              "word": "ayrı ayrı",
+              "romanization": null,
+              "meanings": { "en": "separately", "zh": "分开", "th": "แยกกัน", "ko": "따로따로", "es": "por separado" }
+            },
+            {
+              "word": "birlikte",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "รวมกัน", "ko": "함께", "es": "juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The bill, please'?",
+              "options": ["Hesabı getirir misiniz, lütfen.", "Menüyü getirir misiniz.", "Masayı gösterir misiniz.", "Yemeği getirin lütfen."],
+              "correct": 0,
+              "explanation": "'Hesabı getirir misiniz, lütfen' is the polite way to ask for the bill in Turkish."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bahşiş",
+              "options": ["tip", "drink", "water", "receipt"],
+              "correct": 0,
+              "explanation": "'Bahşiş' means tip or gratuity — money given to service staff."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ayrı ayrı mı yoksa birlikte mi ödeyeceksiniz?",
+              "options": ["Will you pay separately or together?", "Would you like to order more?", "Are you ready to pay?", "How was your meal?"],
+              "correct": 0,
+              "explanation": "'Ayrı ayrı' = separately, 'birlikte' = together, 'ödeyeceksiniz' = will you pay."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hesap", "bill"],
+                ["ödemek", "to pay"],
+                ["ayrı ayrı", "separately"],
+                ["birlikte", "together"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["hesabı", "alabilir", "miyim", "lütfen"],
+              "correct": ["Hesabı", "alabilir", "miyim", "lütfen"],
+              "translation": "Can I have the bill, please?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材和烹饪",
+        "th": "ส่วนผสมและการปรุงอาหาร",
+        "ko": "식재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Ingredients",
+            "zh": "新鲜食材",
+            "th": "ส่วนผสมสด",
+            "ko": "신선한 재료",
+            "es": "Ingredientes frescos"
+          },
+          "objectives": {
+            "en": ["Name common fresh ingredients in Turkish", "Ask for ingredients at a market"],
+            "zh": ["用土耳其语说出常见新鲜食材", "在市场询问食材"],
+            "th": ["พูดชื่อส่วนผสมสดทั่วไปเป็นภาษาตุรกี", "ถามหาส่วนผสมที่ตลาด"],
+            "ko": ["터키어로 신선한 재료 이름 말하기", "시장에서 재료 물어보기"],
+            "es": ["Nombrar ingredientes frescos en turco", "Pedir ingredientes en un mercado"]
+          },
+          "vocabulary": [
+            {
+              "word": "sebze",
+              "romanization": null,
+              "meanings": { "en": "vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verduras" }
+            },
+            {
+              "word": "meyve",
+              "romanization": null,
+              "meanings": { "en": "fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "fruta" }
+            },
+            {
+              "word": "et",
+              "romanization": null,
+              "meanings": { "en": "meat", "zh": "肉", "th": "เนื้อสัตว์", "ko": "고기", "es": "carne" }
+            },
+            {
+              "word": "taze",
+              "romanization": null,
+              "meanings": { "en": "fresh", "zh": "新鲜", "th": "สด", "ko": "신선한", "es": "fresco" }
+            },
+            {
+              "word": "soğan",
+              "romanization": null,
+              "meanings": { "en": "onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla" }
+            },
+            {
+              "word": "sarımsak",
+              "romanization": null,
+              "meanings": { "en": "garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "ajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'fresh vegetables'?",
+              "options": ["taze sebze", "taze meyve", "taze et", "taze süt"],
+              "correct": 0,
+              "explanation": "'Taze sebze' = fresh vegetables. 'Taze' means fresh and 'sebze' means vegetables."
+            },
+            {
+              "type": "target_to_native",
+              "word": "sarımsak",
+              "options": ["garlic", "onion", "leek", "ginger"],
+              "correct": 0,
+              "explanation": "'Sarımsak' is garlic — an essential ingredient in Turkish cooking."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sebze", "vegetables"],
+                ["meyve", "fruit"],
+                ["et", "meat"],
+                ["soğan", "onion"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Taze sebze ve meyveniz var mı?",
+              "options": ["Do you have fresh vegetables and fruit?", "Do you sell meat and fish?", "Is the food organic?", "How much does it cost?"],
+              "correct": 0,
+              "explanation": "'Taze' = fresh, 'var mı?' = do you have?"
+            },
+            {
+              "type": "reorder",
+              "words": ["sarımsak", "ve", "soğan", "taze", "alıyorum"],
+              "correct": ["Taze", "sarımsak", "ve", "soğan", "alıyorum"],
+              "translation": "I am buying fresh garlic and onion."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการปรุงอาหาร",
+            "ko": "요리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked in Turkish", "Follow simple cooking instructions"],
+            "zh": ["用土耳其语描述食物烹饪方式", "遵循简单的烹饪说明"],
+            "th": ["อธิบายวิธีปรุงอาหารเป็นภาษาตุรกี", "ทำตามคำแนะนำการปรุงอาหารง่ายๆ"],
+            "ko": ["터키어로 음식 조리 방법 설명하기", "간단한 요리 지시 따르기"],
+            "es": ["Describir cómo se cocina la comida en turco", "Seguir instrucciones simples de cocina"]
+          },
+          "vocabulary": [
+            {
+              "word": "pişirmek",
+              "romanization": null,
+              "meanings": { "en": "to cook", "zh": "烹饪", "th": "ปรุงอาหาร", "ko": "요리하다", "es": "cocinar" }
+            },
+            {
+              "word": "kızartmak",
+              "romanization": null,
+              "meanings": { "en": "to fry", "zh": "煎炸", "th": "ทอด", "ko": "볶다/튀기다", "es": "freír" }
+            },
+            {
+              "word": "haşlamak",
+              "romanization": null,
+              "meanings": { "en": "to boil", "zh": "煮", "th": "ต้ม", "ko": "삶다", "es": "hervir" }
+            },
+            {
+              "word": "kesmek",
+              "romanization": null,
+              "meanings": { "en": "to cut/chop", "zh": "切", "th": "หั่น", "ko": "자르다", "es": "cortar" }
+            },
+            {
+              "word": "baharatlamak",
+              "romanization": null,
+              "meanings": { "en": "to season/spice", "zh": "调味", "th": "ปรุงรส", "ko": "양념하다", "es": "condimentar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'to fry meat'?",
+              "options": ["eti kızartmak", "eti haşlamak", "eti kesmek", "eti pişirmek"],
+              "correct": 0,
+              "explanation": "'Eti kızartmak' = to fry meat. 'Kızartmak' means to fry in oil."
+            },
+            {
+              "type": "target_to_native",
+              "word": "haşlamak",
+              "options": ["to boil", "to fry", "to bake", "to steam"],
+              "correct": 0,
+              "explanation": "'Haşlamak' means to boil — cooking in water."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["pişirmek", "to cook"],
+                ["kızartmak", "to fry"],
+                ["kesmek", "to cut"],
+                ["baharatlamak", "to season"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["sebzeyi", "kesip", "kızartıyorum"],
+              "correct": ["Sebzeyi", "kesip", "kızartıyorum"],
+              "translation": "I cut and fry the vegetables."
+            },
+            {
+              "type": "native_to_target",
+              "question": "Which verb means 'to season the food'?",
+              "options": ["yemeği baharatlamak", "yemeği haşlamak", "yemeği kesmek", "yemeği pişirmek"],
+              "correct": 0,
+              "explanation": "'Baharatlamak' means to add spices or seasoning to food."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Turkish Cuisine",
+            "zh": "土耳其美食",
+            "th": "อาหารตุรกี",
+            "ko": "터키 요리",
+            "es": "Cocina turca"
+          },
+          "objectives": {
+            "en": ["Name traditional Turkish dishes", "Describe popular Turkish foods"],
+            "zh": ["说出传统土耳其菜名", "描述流行的土耳其食物"],
+            "th": ["พูดชื่ออาหารตุรกีดั้งเดิม", "อธิบายอาหารตุรกียอดนิยม"],
+            "ko": ["전통 터키 음식 이름 말하기", "인기 있는 터키 음식 설명하기"],
+            "es": ["Nombrar platos tradicionales turcos", "Describir comidas turcas populares"]
+          },
+          "vocabulary": [
+            {
+              "word": "kebap",
+              "romanization": null,
+              "meanings": { "en": "kebab (grilled meat)", "zh": "烤肉串", "th": "เคบับ", "ko": "케밥", "es": "kebab (carne a la parrilla)" }
+            },
+            {
+              "word": "börek",
+              "romanization": null,
+              "meanings": { "en": "börek (savory pastry)", "zh": "土耳其酥饼", "th": "เบอเร็ค (พาสทรี่รสเค็ม)", "ko": "뵈렉 (짭짤한 페이스트리)", "es": "börek (pastelito salado)" }
+            },
+            {
+              "word": "baklava",
+              "romanization": null,
+              "meanings": { "en": "baklava (sweet pastry)", "zh": "果仁蜜饼", "th": "บักลาวา (ขนมหวาน)", "ko": "바클라바 (달콤한 과자)", "es": "baklava (dulce de hojaldre)" }
+            },
+            {
+              "word": "çay",
+              "romanization": null,
+              "meanings": { "en": "tea", "zh": "茶", "th": "ชา", "ko": "차", "es": "té" }
+            },
+            {
+              "word": "ekmek",
+              "romanization": null,
+              "meanings": { "en": "bread", "zh": "面包", "th": "ขนมปัง", "ko": "빵", "es": "pan" }
+            },
+            {
+              "word": "geleneksel",
+              "romanization": null,
+              "meanings": { "en": "traditional", "zh": "传统的", "th": "ดั้งเดิม", "ko": "전통적인", "es": "tradicional" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What is 'börek'?",
+              "options": ["a savory pastry filled with cheese or meat", "a type of kebab", "a sweet dessert", "a type of bread"],
+              "correct": 0,
+              "explanation": "'Börek' is a traditional Turkish savory pastry, often filled with cheese (peynir) or minced meat."
+            },
+            {
+              "type": "target_to_native",
+              "word": "baklava",
+              "options": ["sweet pastry with nuts and syrup", "sour cream", "pickled vegetable", "smoked meat"],
+              "correct": 0,
+              "explanation": "'Baklava' is a rich sweet pastry made of layers of filo filled with nuts and sweetened with syrup."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Kebap geleneksel bir Türk yemeğidir.",
+              "options": ["Kebab is a traditional Turkish dish.", "The tea is very popular in Turkey.", "Turkish bread is delicious.", "Baklava is a sweet dessert."],
+              "correct": 0,
+              "explanation": "'Geleneksel' = traditional, 'Türk yemeği' = Turkish dish."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["kebap", "grilled meat"],
+                ["börek", "savory pastry"],
+                ["ekmek", "bread"],
+                ["çay", "tea"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["kebap", "ve", "baklava", "severim"],
+              "correct": ["Kebap", "ve", "baklava", "severim"],
+              "translation": "I like kebab and baklava."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Comprar comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Supermarket",
+            "zh": "在超市",
+            "th": "ที่ซูเปอร์มาร์เก็ต",
+            "ko": "슈퍼마켓에서",
+            "es": "En el supermercado"
+          },
+          "objectives": {
+            "en": ["Navigate a supermarket and find products", "Ask for help locating items"],
+            "zh": ["在超市找到产品", "询问如何找到商品"],
+            "th": ["เดินในซูเปอร์มาร์เก็ตและหาสินค้า", "ขอความช่วยเหลือในการหาสินค้า"],
+            "ko": ["슈퍼마켓에서 제품 찾기", "물건 찾는 데 도움 요청하기"],
+            "es": ["Orientarse en un supermercado", "Pedir ayuda para encontrar productos"]
+          },
+          "vocabulary": [
+            {
+              "word": "süpermarket",
+              "romanization": null,
+              "meanings": { "en": "supermarket", "zh": "超市", "th": "ซูเปอร์มาร์เก็ต", "ko": "슈퍼마켓", "es": "supermercado" }
+            },
+            {
+              "word": "bölüm",
+              "romanization": null,
+              "meanings": { "en": "section/department", "zh": "区域/部门", "th": "แผนก", "ko": "코너/부서", "es": "sección" }
+            },
+            {
+              "word": "kasa",
+              "romanization": null,
+              "meanings": { "en": "checkout/cashier", "zh": "收银台", "th": "แคชเชียร์", "ko": "계산대", "es": "caja" }
+            },
+            {
+              "word": "indirim",
+              "romanization": null,
+              "meanings": { "en": "discount/sale", "zh": "折扣/特价", "th": "ส่วนลด", "ko": "할인", "es": "descuento/oferta" }
+            },
+            {
+              "word": "aramak",
+              "romanization": null,
+              "meanings": { "en": "to look for/search", "zh": "寻找", "th": "หา", "ko": "찾다", "es": "buscar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where is the dairy section?'",
+              "options": ["Süt ürünleri bölümü nerede?", "Sebze bölümü nerede?", "Kasa nerede?", "Çıkış nerede?"],
+              "correct": 0,
+              "explanation": "'Süt ürünleri bölümü nerede?' = Where is the dairy section? 'Nerede' = where."
+            },
+            {
+              "type": "target_to_native",
+              "word": "indirim",
+              "options": ["discount/sale", "product", "price", "receipt"],
+              "correct": 0,
+              "explanation": "'İndirim' means discount or sale — commonly seen in Turkish stores."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["süpermarket", "supermarket"],
+                ["kasa", "checkout"],
+                ["aramak", "to look for"],
+                ["bölüm", "section"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Affedersiniz, ekmek bölümü nerede?",
+              "options": ["Excuse me, where is the bread section?", "Excuse me, where is the exit?", "Do you have this on sale?", "How much does this cost?"],
+              "correct": 0,
+              "explanation": "'Affedersiniz' = excuse me, 'nerede' = where."
+            },
+            {
+              "type": "reorder",
+              "words": ["süpermarkette", "taze", "sebze", "arıyorum"],
+              "correct": ["Süpermarkette", "taze", "sebze", "arıyorum"],
+              "translation": "I am looking for fresh vegetables in the supermarket."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at an open market", "Ask about prices and quantities"],
+            "zh": ["在露天市场购买食物", "询问价格和数量"],
+            "th": ["ซื้ออาหารที่ตลาดสด", "ถามราคาและจำนวน"],
+            "ko": ["야외 시장에서 음식 사기", "가격과 수량 물어보기"],
+            "es": ["Comprar comida en un mercado", "Preguntar precios y cantidades"]
+          },
+          "vocabulary": [
+            {
+              "word": "pazar",
+              "romanization": null,
+              "meanings": { "en": "market / bazaar", "zh": "市场/集市", "th": "ตลาด", "ko": "시장", "es": "mercado/bazar" }
+            },
+            {
+              "word": "kilo",
+              "romanization": null,
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilo" }
+            },
+            {
+              "word": "ucuz",
+              "romanization": null,
+              "meanings": { "en": "cheap/affordable", "zh": "便宜", "th": "ราคาถูก", "ko": "저렴한", "es": "barato" }
+            },
+            {
+              "word": "pahalı",
+              "romanization": null,
+              "meanings": { "en": "expensive", "zh": "贵", "th": "แพง", "ko": "비싼", "es": "caro" }
+            },
+            {
+              "word": "fiyat",
+              "romanization": null,
+              "meanings": { "en": "price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "precio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much does a kilo of apples cost?'",
+              "options": ["Bir kilo elma ne kadar?", "Kaç kilo elmanız var?", "Elmalar nerede?", "Elmalar taze mi?"],
+              "correct": 0,
+              "explanation": "'Ne kadar?' = how much? 'Bir kilo elma' = a kilo of apples."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ucuz",
+              "options": ["cheap/affordable", "expensive", "fresh", "organic"],
+              "correct": 0,
+              "explanation": "'Ucuz' means cheap or affordable — the opposite of 'pahalı'."
+            },
+            {
+              "type": "listening",
+              "audio_text": "İki kilo domates üç lira.",
+              "options": ["Two kilos of tomatoes cost three lira.", "One kilo of apples costs two lira.", "The tomatoes are very fresh today.", "The market closes at three."],
+              "correct": 0,
+              "explanation": "'İki kilo domates' = two kilos of tomatoes, 'üç lira' = three lira."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["pazar", "market"],
+                ["fiyat", "price"],
+                ["pahalı", "expensive"],
+                ["ucuz", "cheap"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["iki", "kilo", "domates", "istiyorum"],
+              "correct": ["İki", "kilo", "domates", "istiyorum"],
+              "translation": "I want two kilos of tomatoes."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Preferences & Diets",
+            "zh": "饮食偏好和饮食习惯",
+            "th": "ความชอบด้านอาหารและอาหารพิเศษ",
+            "ko": "음식 취향과 식이 요법",
+            "es": "Preferencias alimentarias y dietas"
+          },
+          "objectives": {
+            "en": ["Express food preferences and dietary needs", "Discuss allergies and restrictions"],
+            "zh": ["表达饮食偏好和需求", "讨论过敏和饮食限制"],
+            "th": ["แสดงความชอบและความต้องการด้านอาหาร", "พูดคุยเกี่ยวกับการแพ้และข้อจำกัด"],
+            "ko": ["음식 취향과 식이 요구 사항 표현하기", "알레르기와 제한 사항 이야기하기"],
+            "es": ["Expresar preferencias alimentarias", "Hablar de alergias y restricciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "vejetaryen",
+              "romanization": null,
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식주의", "es": "vegetariano" }
+            },
+            {
+              "word": "alerji",
+              "romanization": null,
+              "meanings": { "en": "allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "alergia" }
+            },
+            {
+              "word": "glutensiz",
+              "romanization": null,
+              "meanings": { "en": "gluten-free", "zh": "无麸质", "th": "ปราศจากกลูเตน", "ko": "글루텐 없이", "es": "sin gluten" }
+            },
+            {
+              "word": "lezzetli",
+              "romanization": null,
+              "meanings": { "en": "delicious/tasty", "zh": "好吃", "th": "อร่อย", "ko": "맛있는", "es": "delicioso" }
+            },
+            {
+              "word": "et yemiyorum",
+              "romanization": null,
+              "meanings": { "en": "I don't eat meat", "zh": "我不吃肉", "th": "ฉันไม่กินเนื้อสัตว์", "ko": "저는 고기를 먹지 않아요", "es": "no como carne" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am vegetarian'?",
+              "options": ["Ben vejetaryenim.", "Et sevmiyorum.", "Sebze yemiyorum.", "Çok et yiyorum."],
+              "correct": 0,
+              "explanation": "'Ben vejetaryenim' = I am vegetarian. 'Vejetaryen' is a loanword from English/French."
+            },
+            {
+              "type": "target_to_native",
+              "word": "lezzetli",
+              "options": ["delicious/tasty", "spicy", "sour", "bitter"],
+              "correct": 0,
+              "explanation": "'Lezzetli' means delicious or tasty — a very common Turkish compliment for food."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Fındığa alerjim var.",
+              "options": ["I have a hazelnut allergy.", "I don't like nuts.", "I am vegan.", "I can't eat dairy."],
+              "correct": 0,
+              "explanation": "'Alerji' = allergy, 'fındık' = hazelnut, 'var' = I have/there is."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["vejetaryen", "vegetarian"],
+                ["alerji", "allergy"],
+                ["glutensiz", "gluten-free"],
+                ["lezzetli", "delicious"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vejetaryenim", "et", "yemiyorum", "ve", "ben"],
+              "correct": ["Ben", "vejetaryenim", "ve", "et", "yemiyorum"],
+              "translation": "I am vegetarian and I don't eat meat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

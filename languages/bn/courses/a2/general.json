@@ -1,0 +1,545 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe your morning routine", "Use daily activity vocabulary"] },
+          "vocabulary": [
+            { "word": "ঘুম থেকে ওঠা", "romanization": "ghum theke otha", "meanings": { "en": "Wake up" }, "gendered": null },
+            { "word": "স্নান করা", "romanization": "snan kora", "meanings": { "en": "Bathe / shower" }, "gendered": null },
+            { "word": "জলখাবার", "romanization": "jolkhabar", "meanings": { "en": "Breakfast" }, "gendered": null },
+            { "word": "তৈরি হওয়া", "romanization": "toiri howa", "meanings": { "en": "Get ready" }, "gendered": null },
+            { "word": "কাজে যাওয়া", "romanization": "kaje jaowa", "meanings": { "en": "Go to work" }, "gendered": null },
+            { "word": "প্রতিদিন", "romanization": "protidin", "meanings": { "en": "Every day" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ঘুম থেকে ওঠা", "romanization": "ghum theke otha", "options": { "en": ["Wake up", "Sleep", "Eat", "Walk"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "জলখাবার", "romanization": "jolkhabar", "options": { "en": ["Breakfast", "Lunch", "Dinner", "Snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bathe' in Bengali?" }, "options": { "neutral": ["স্নান করা", "ঘুম থেকে ওঠা", "জলখাবার", "তৈরি হওয়া"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Every day' in Bengali?" }, "options": { "neutral": ["প্রতিদিন", "কাজে যাওয়া", "ঘুম থেকে ওঠা", "স্নান করা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "কাজে যাওয়া", "romanization": "kaje jaowa", "options": { "en": ["Go to work", "Go to school", "Go home", "Go to market"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ঘুম থেকে ওঠা", "romanization": "ghum theke otha", "native": { "en": "Wake up" } },
+              { "target": "স্নান করা", "romanization": "snan kora", "native": { "en": "Bathe / shower" } },
+              { "target": "জলখাবার", "romanization": "jolkhabar", "native": { "en": "Breakfast" } },
+              { "target": "তৈরি হওয়া", "romanization": "toiri howa", "native": { "en": "Get ready" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "At Home" },
+          "objectives": { "en": ["Name rooms and household items", "Describe activities at home"] },
+          "vocabulary": [
+            { "word": "বাড়ি", "romanization": "bari", "meanings": { "en": "House / home" }, "gendered": null },
+            { "word": "ঘর", "romanization": "ghor", "meanings": { "en": "Room" }, "gendered": null },
+            { "word": "রান্নাঘর", "romanization": "rannaghor", "meanings": { "en": "Kitchen" }, "gendered": null },
+            { "word": "শোয়ার ঘর", "romanization": "showar ghor", "meanings": { "en": "Bedroom" }, "gendered": null },
+            { "word": "বাথরুম", "romanization": "bathroom", "meanings": { "en": "Bathroom" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বাড়ি", "romanization": "bari", "options": { "en": ["House / home", "Room", "Kitchen", "School"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "রান্নাঘর", "romanization": "rannaghor", "options": { "en": ["Kitchen", "Bedroom", "Bathroom", "Living room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bedroom' in Bengali?" }, "options": { "neutral": ["শোয়ার ঘর", "বাথরুম", "রান্নাঘর", "বাড়ি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Room' in Bengali?" }, "options": { "neutral": ["ঘর", "বাড়ি", "রান্নাঘর", "বাথরুম"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "শোয়ার ঘর", "romanization": "showar ghor", "options": { "en": ["Bedroom", "Bathroom", "Kitchen", "Room"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বাড়ি", "romanization": "bari", "native": { "en": "House / home" } },
+              { "target": "রান্নাঘর", "romanization": "rannaghor", "native": { "en": "Kitchen" } },
+              { "target": "শোয়ার ঘর", "romanization": "showar ghor", "native": { "en": "Bedroom" } },
+              { "target": "বাথরুম", "romanization": "bathroom", "native": { "en": "Bathroom" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": { "en": ["Talk about hobbies", "Express likes and dislikes"] },
+          "vocabulary": [
+            { "word": "পছন্দ", "romanization": "pochhondo", "meanings": { "en": "Like / favorite" }, "gendered": null },
+            { "word": "পছন্দ নয়", "romanization": "pochhondo noy", "meanings": { "en": "Don't like" }, "gendered": null },
+            { "word": "পড়া", "romanization": "pora", "meanings": { "en": "Reading" }, "gendered": null },
+            { "word": "দেখা", "romanization": "dekha", "meanings": { "en": "Watching" }, "gendered": null },
+            { "word": "খেলা", "romanization": "khela", "meanings": { "en": "Playing" }, "gendered": null },
+            { "word": "রান্না করা", "romanization": "ranna kora", "meanings": { "en": "Cooking" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "পছন্দ", "romanization": "pochhondo", "options": { "en": ["Like / favorite", "Dislike", "Want", "Need"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "রান্না করা", "romanization": "ranna kora", "options": { "en": ["Cooking", "Reading", "Playing", "Watching"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Reading' in Bengali?" }, "options": { "neutral": ["পড়া", "দেখা", "খেলা", "রান্না করা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Playing' in Bengali?" }, "options": { "neutral": ["খেলা", "পড়া", "দেখা", "রান্না করা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "খেলা", "romanization": "khela", "options": { "en": ["Playing", "Cooking", "Reading", "Watching"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "পড়া", "romanization": "pora", "native": { "en": "Reading" } },
+              { "target": "দেখা", "romanization": "dekha", "native": { "en": "Watching" } },
+              { "target": "খেলা", "romanization": "khela", "native": { "en": "Playing" } },
+              { "target": "রান্না করা", "romanization": "ranna kora", "native": { "en": "Cooking" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Work & School" },
+          "objectives": { "en": ["Talk about work and study", "Describe your occupation"] },
+          "vocabulary": [
+            { "word": "কাজ", "romanization": "kaj", "meanings": { "en": "Work" }, "gendered": null },
+            { "word": "পড়াশোনা", "romanization": "porashona", "meanings": { "en": "Study / learning" }, "gendered": null },
+            { "word": "শিক্ষক", "romanization": "shikkhok", "meanings": { "en": "Teacher" }, "gendered": null },
+            { "word": "ছাত্র", "romanization": "chatro", "meanings": { "en": "Student" }, "gendered": null },
+            { "word": "অফিস", "romanization": "office", "meanings": { "en": "Office" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "শিক্ষক", "romanization": "shikkhok", "options": { "en": ["Teacher", "Student", "Doctor", "Worker"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "পড়াশোনা", "romanization": "porashona", "options": { "en": ["Study / learning", "Work", "Teach", "Play"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Student' in Bengali?" }, "options": { "neutral": ["ছাত্র", "শিক্ষক", "কাজ", "পড়াশোনা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Office' in Bengali?" }, "options": { "neutral": ["অফিস", "স্কুল", "বাড়ি", "দোকান"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "কাজ", "romanization": "kaj", "options": { "en": ["Work", "Study", "Play", "Rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "কাজ", "romanization": "kaj", "native": { "en": "Work" } },
+              { "target": "পড়াশোনা", "romanization": "porashona", "native": { "en": "Study / learning" } },
+              { "target": "শিক্ষক", "romanization": "shikkhok", "native": { "en": "Teacher" } },
+              { "target": "ছাত্র", "romanization": "chatro", "native": { "en": "Student" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe the weather", "Understand weather vocabulary"] },
+          "vocabulary": [
+            { "word": "আবহাওয়া", "romanization": "abohawa", "meanings": { "en": "Weather" }, "gendered": null },
+            { "word": "গরম", "romanization": "gorom", "meanings": { "en": "Hot" }, "gendered": null },
+            { "word": "ঠান্ডা", "romanization": "thanda", "meanings": { "en": "Cold" }, "gendered": null },
+            { "word": "বৃষ্টি", "romanization": "brishti", "meanings": { "en": "Rain" }, "gendered": null },
+            { "word": "রোদ", "romanization": "rod", "meanings": { "en": "Sunny / sunshine" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "আবহাওয়া", "romanization": "abohawa", "options": { "en": ["Weather", "Wind", "Rain", "Sun"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বৃষ্টি", "romanization": "brishti", "options": { "en": ["Rain", "Snow", "Wind", "Sun"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Bengali?" }, "options": { "neutral": ["গরম", "ঠান্ডা", "রোদ", "বৃষ্টি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cold' in Bengali?" }, "options": { "neutral": ["ঠান্ডা", "গরম", "বৃষ্টি", "রোদ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "রোদ", "romanization": "rod", "options": { "en": ["Sunny / sunshine", "Rainy", "Cold", "Hot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "গরম", "romanization": "gorom", "native": { "en": "Hot" } },
+              { "target": "ঠান্ডা", "romanization": "thanda", "native": { "en": "Cold" } },
+              { "target": "বৃষ্টি", "romanization": "brishti", "native": { "en": "Rain" } },
+              { "target": "রোদ", "romanization": "rod", "native": { "en": "Sunny / sunshine" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Talking About Weather" },
+          "objectives": { "en": ["Ask about the weather", "Describe weather changes"] },
+          "vocabulary": [
+            { "word": "বাতাস", "romanization": "batash", "meanings": { "en": "Wind" }, "gendered": null },
+            { "word": "মেঘলা", "romanization": "meghla", "meanings": { "en": "Cloudy" }, "gendered": null },
+            { "word": "ঝড়", "romanization": "jhor", "meanings": { "en": "Storm" }, "gendered": null },
+            { "word": "আর্দ্র", "romanization": "ardro", "meanings": { "en": "Humid" }, "gendered": null },
+            { "word": "আজ", "romanization": "aj", "meanings": { "en": "Today" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "মেঘলা", "romanization": "meghla", "options": { "en": ["Cloudy", "Sunny", "Rainy", "Windy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ঝড়", "romanization": "jhor", "options": { "en": ["Storm", "Cloud", "Wind", "Rain"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wind' in Bengali?" }, "options": { "neutral": ["বাতাস", "বৃষ্টি", "ঝড়", "মেঘলা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Today' in Bengali?" }, "options": { "neutral": ["আজ", "কাল", "গতকাল", "পরশু"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বাতাস", "romanization": "batash", "options": { "en": ["Wind", "Rain", "Storm", "Cloud"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বাতাস", "romanization": "batash", "native": { "en": "Wind" } },
+              { "target": "মেঘলা", "romanization": "meghla", "native": { "en": "Cloudy" } },
+              { "target": "ঝড়", "romanization": "jhor", "native": { "en": "Storm" } },
+              { "target": "আর্দ্র", "romanization": "ardro", "native": { "en": "Humid" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": { "en": ["Name basic clothing items", "Choose clothes for weather"] },
+          "vocabulary": [
+            { "word": "জামা", "romanization": "jama", "meanings": { "en": "Shirt / clothes" }, "gendered": null },
+            { "word": "প্যান্ট", "romanization": "pant", "meanings": { "en": "Pants" }, "gendered": null },
+            { "word": "ছাতা", "romanization": "chhata", "meanings": { "en": "Umbrella" }, "gendered": null },
+            { "word": "জুতো", "romanization": "juto", "meanings": { "en": "Shoes" }, "gendered": null },
+            { "word": "টুপি", "romanization": "tupi", "meanings": { "en": "Hat / cap" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ছাতা", "romanization": "chhata", "options": { "en": ["Umbrella", "Hat", "Shirt", "Shoes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "জুতো", "romanization": "juto", "options": { "en": ["Shoes", "Pants", "Hat", "Shirt"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Shirt' in Bengali?" }, "options": { "neutral": ["জামা", "প্যান্ট", "জুতো", "টুপি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hat' in Bengali?" }, "options": { "neutral": ["টুপি", "ছাতা", "জামা", "জুতো"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "টুপি", "romanization": "tupi", "options": { "en": ["Hat / cap", "Shoes", "Umbrella", "Shirt"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "জামা", "romanization": "jama", "native": { "en": "Shirt / clothes" } },
+              { "target": "ছাতা", "romanization": "chhata", "native": { "en": "Umbrella" } },
+              { "target": "জুতো", "romanization": "juto", "native": { "en": "Shoes" } },
+              { "target": "টুপি", "romanization": "tupi", "native": { "en": "Hat / cap" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Seasons" },
+          "objectives": { "en": ["Name the six Bengali seasons", "Discuss seasonal changes"] },
+          "vocabulary": [
+            { "word": "ঋতু", "romanization": "ritu", "meanings": { "en": "Season" }, "gendered": null },
+            { "word": "গ্রীষ্ম", "romanization": "grishmo", "meanings": { "en": "Summer" }, "gendered": null },
+            { "word": "বর্ষা", "romanization": "borsha", "meanings": { "en": "Monsoon / rainy season" }, "gendered": null },
+            { "word": "শীত", "romanization": "shit", "meanings": { "en": "Winter" }, "gendered": null },
+            { "word": "সূর্য", "romanization": "shurjo", "meanings": { "en": "Sun" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বর্ষা", "romanization": "borsha", "options": { "en": ["Monsoon / rainy season", "Winter", "Summer", "Spring"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সূর্য", "romanization": "shurjo", "options": { "en": ["Sun", "Moon", "Star", "Cloud"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Winter' in Bengali?" }, "options": { "neutral": ["শীত", "গ্রীষ্ম", "বর্ষা", "ঋতু"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Season' in Bengali?" }, "options": { "neutral": ["ঋতু", "আবহাওয়া", "বৃষ্টি", "বাতাস"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "গ্রীষ্ম", "romanization": "grishmo", "options": { "en": ["Summer", "Winter", "Rain", "Wind"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ঋতু", "romanization": "ritu", "native": { "en": "Season" } },
+              { "target": "গ্রীষ্ম", "romanization": "grishmo", "native": { "en": "Summer" } },
+              { "target": "বর্ষা", "romanization": "borsha", "native": { "en": "Monsoon / rainy season" } },
+              { "target": "শীত", "romanization": "shit", "native": { "en": "Winter" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Well-being" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name basic body parts", "Point to body parts when speaking"] },
+          "vocabulary": [
+            { "word": "মাথা", "romanization": "matha", "meanings": { "en": "Head" }, "gendered": null },
+            { "word": "হাত", "romanization": "hat", "meanings": { "en": "Hand / arm" }, "gendered": null },
+            { "word": "পা", "romanization": "pa", "meanings": { "en": "Leg / foot" }, "gendered": null },
+            { "word": "চোখ", "romanization": "chokh", "meanings": { "en": "Eye" }, "gendered": null },
+            { "word": "পেট", "romanization": "pet", "meanings": { "en": "Stomach" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "মাথা", "romanization": "matha", "options": { "en": ["Head", "Hand", "Leg", "Eye"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "পেট", "romanization": "pet", "options": { "en": ["Stomach", "Head", "Foot", "Hand"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eye' in Bengali?" }, "options": { "neutral": ["চোখ", "মাথা", "হাত", "পা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hand' in Bengali?" }, "options": { "neutral": ["হাত", "পা", "মাথা", "পেট"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পা", "romanization": "pa", "options": { "en": ["Leg / foot", "Hand", "Head", "Eye"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "মাথা", "romanization": "matha", "native": { "en": "Head" } },
+              { "target": "হাত", "romanization": "hat", "native": { "en": "Hand / arm" } },
+              { "target": "চোখ", "romanization": "chokh", "native": { "en": "Eye" } },
+              { "target": "পেট", "romanization": "pet", "native": { "en": "Stomach" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Sick" },
+          "objectives": { "en": ["Describe symptoms", "Say you are not feeling well"] },
+          "vocabulary": [
+            { "word": "অসুস্থ", "romanization": "oshustho", "meanings": { "en": "Sick / unwell" }, "gendered": null },
+            { "word": "জ্বর", "romanization": "jor", "meanings": { "en": "Fever" }, "gendered": null },
+            { "word": "কাশি", "romanization": "kashi", "meanings": { "en": "Cough" }, "gendered": null },
+            { "word": "সর্দি", "romanization": "shordi", "meanings": { "en": "Cold (illness)" }, "gendered": null },
+            { "word": "মাথা ব্যথা", "romanization": "matha byatha", "meanings": { "en": "Headache" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "জ্বর", "romanization": "jor", "options": { "en": ["Fever", "Cough", "Cold", "Headache"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "মাথা ব্যথা", "romanization": "matha byatha", "options": { "en": ["Headache", "Stomachache", "Fever", "Cough"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cough' in Bengali?" }, "options": { "neutral": ["কাশি", "জ্বর", "সর্দি", "অসুস্থ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sick' in Bengali?" }, "options": { "neutral": ["অসুস্থ", "কাশি", "জ্বর", "সর্দি"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সর্দি", "romanization": "shordi", "options": { "en": ["Cold (illness)", "Fever", "Cough", "Headache"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "অসুস্থ", "romanization": "oshustho", "native": { "en": "Sick / unwell" } },
+              { "target": "জ্বর", "romanization": "jor", "native": { "en": "Fever" } },
+              { "target": "কাশি", "romanization": "kashi", "native": { "en": "Cough" } },
+              { "target": "মাথা ব্যথা", "romanization": "matha byatha", "native": { "en": "Headache" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Communicate at a clinic", "Understand medical instructions"] },
+          "vocabulary": [
+            { "word": "ডাক্তার", "romanization": "daktar", "meanings": { "en": "Doctor" }, "gendered": null },
+            { "word": "ওষুধ", "romanization": "oshudh", "meanings": { "en": "Medicine" }, "gendered": null },
+            { "word": "হাসপাতাল", "romanization": "hashpatal", "meanings": { "en": "Hospital" }, "gendered": null },
+            { "word": "বিশ্রাম", "romanization": "bishram", "meanings": { "en": "Rest" }, "gendered": null },
+            { "word": "সুস্থ", "romanization": "shustho", "meanings": { "en": "Healthy" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ওষুধ", "romanization": "oshudh", "options": { "en": ["Medicine", "Doctor", "Hospital", "Rest"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সুস্থ", "romanization": "shustho", "options": { "en": ["Healthy", "Sick", "Tired", "Weak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Doctor' in Bengali?" }, "options": { "neutral": ["ডাক্তার", "ওষুধ", "হাসপাতাল", "শিক্ষক"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Rest' in Bengali?" }, "options": { "neutral": ["বিশ্রাম", "সুস্থ", "অসুস্থ", "ওষুধ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "হাসপাতাল", "romanization": "hashpatal", "options": { "en": ["Hospital", "Clinic", "Pharmacy", "School"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ডাক্তার", "romanization": "daktar", "native": { "en": "Doctor" } },
+              { "target": "ওষুধ", "romanization": "oshudh", "native": { "en": "Medicine" } },
+              { "target": "বিশ্রাম", "romanization": "bishram", "native": { "en": "Rest" } },
+              { "target": "সুস্থ", "romanization": "shustho", "native": { "en": "Healthy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Staying Healthy" },
+          "objectives": { "en": ["Talk about healthy habits", "Give simple health advice"] },
+          "vocabulary": [
+            { "word": "ব্যায়াম", "romanization": "byayam", "meanings": { "en": "Exercise" }, "gendered": null },
+            { "word": "ঘুম", "romanization": "ghum", "meanings": { "en": "Sleep" }, "gendered": null },
+            { "word": "জল খাওয়া", "romanization": "jol khaowa", "meanings": { "en": "Drink water" }, "gendered": null },
+            { "word": "শক্তিশালী", "romanization": "shoktishali", "meanings": { "en": "Strong" }, "gendered": null },
+            { "word": "দুর্বল", "romanization": "durbol", "meanings": { "en": "Weak" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ব্যায়াম", "romanization": "byayam", "options": { "en": ["Exercise", "Sleep", "Rest", "Medicine"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "শক্তিশালী", "romanization": "shoktishali", "options": { "en": ["Strong", "Weak", "Healthy", "Sick"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sleep' in Bengali?" }, "options": { "neutral": ["ঘুম", "বিশ্রাম", "ঘুম থেকে ওঠা", "ব্যায়াম"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Weak' in Bengali?" }, "options": { "neutral": ["দুর্বল", "শক্তিশালী", "অসুস্থ", "সুস্থ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "জল খাওয়া", "romanization": "jol khaowa", "options": { "en": ["Drink water", "Eat food", "Take medicine", "Get rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ব্যায়াম", "romanization": "byayam", "native": { "en": "Exercise" } },
+              { "target": "ঘুম", "romanization": "ghum", "native": { "en": "Sleep" } },
+              { "target": "শক্তিশালী", "romanization": "shoktishali", "native": { "en": "Strong" } },
+              { "target": "দুর্বল", "romanization": "durbol", "native": { "en": "Weak" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Use time expressions for the future"] },
+          "vocabulary": [
+            { "word": "করব", "romanization": "korbo", "meanings": { "en": "Will do" }, "gendered": null },
+            { "word": "কাল", "romanization": "kal", "meanings": { "en": "Tomorrow" }, "gendered": null },
+            { "word": "আগামী সপ্তাহ", "romanization": "agami shoptaho", "meanings": { "en": "Next week" }, "gendered": null },
+            { "word": "পরিকল্পনা", "romanization": "porikalpona", "meanings": { "en": "Plan" }, "gendered": null },
+            { "word": "চাওয়া", "romanization": "chaowa", "meanings": { "en": "Want" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "করব", "romanization": "korbo", "options": { "en": ["Will do", "Did", "Doing", "Should do"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "কাল", "romanization": "kal", "options": { "en": ["Tomorrow", "Yesterday", "Today", "Next week"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Next week' in Bengali?" }, "options": { "neutral": ["আগামী সপ্তাহ", "কাল", "আজ", "গতকাল"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Want' in Bengali?" }, "options": { "neutral": ["চাওয়া", "করব", "পারা", "যাওয়া"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পরিকল্পনা", "romanization": "porikalpona", "options": { "en": ["Plan", "Want", "Will", "Go"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "করব", "romanization": "korbo", "native": { "en": "Will do" } },
+              { "target": "কাল", "romanization": "kal", "native": { "en": "Tomorrow" } },
+              { "target": "পরিকল্পনা", "romanization": "porikalpona", "native": { "en": "Plan" } },
+              { "target": "চাওয়া", "romanization": "chaowa", "native": { "en": "Want" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations & Suggestions" },
+          "objectives": { "en": ["Invite someone to do something", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "চলো", "romanization": "cholo", "meanings": { "en": "Let's go / come on" }, "gendered": null },
+            { "word": "পারা", "romanization": "para", "meanings": { "en": "Can / able to" }, "gendered": null },
+            { "word": "পারি না", "romanization": "pari na", "meanings": { "en": "Cannot" }, "gendered": null },
+            { "word": "কখন?", "romanization": "kokhon?", "meanings": { "en": "When?" }, "gendered": null },
+            { "word": "ভালো", "romanization": "bhalo", "meanings": { "en": "Good / great" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "চলো", "romanization": "cholo", "options": { "en": ["Let's go / come on", "Stop", "Wait", "Go away"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "কখন?", "romanization": "kokhon?", "options": { "en": ["When?", "Where?", "What?", "Who?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Can' in Bengali?" }, "options": { "neutral": ["পারা", "চাওয়া", "করব", "চলো"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cannot' in Bengali?" }, "options": { "neutral": ["পারি না", "পারা", "চাই না", "চলো"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ভালো", "romanization": "bhalo", "options": { "en": ["Good / great", "Bad", "OK", "Maybe"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "চলো", "romanization": "cholo", "native": { "en": "Let's go / come on" } },
+              { "target": "পারা", "romanization": "para", "native": { "en": "Can / able to" } },
+              { "target": "কখন?", "romanization": "kokhon?", "native": { "en": "When?" } },
+              { "target": "ভালো", "romanization": "bhalo", "native": { "en": "Good / great" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Travel Plans" },
+          "objectives": { "en": ["Discuss travel destinations", "Talk about trip preparations"] },
+          "vocabulary": [
+            { "word": "ভ্রমণ", "romanization": "bhromon", "meanings": { "en": "Travel / trip" }, "gendered": null },
+            { "word": "টিকিট", "romanization": "tikit", "meanings": { "en": "Ticket" }, "gendered": null },
+            { "word": "বিমানবন্দর", "romanization": "bimanbondor", "meanings": { "en": "Airport" }, "gendered": null },
+            { "word": "হোটেল", "romanization": "hotel", "meanings": { "en": "Hotel" }, "gendered": null },
+            { "word": "ব্যাগ", "romanization": "bag", "meanings": { "en": "Bag" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ভ্রমণ", "romanization": "bhromon", "options": { "en": ["Travel / trip", "Work", "Study", "Rest"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বিমানবন্দর", "romanization": "bimanbondor", "options": { "en": ["Airport", "Train station", "Bus stop", "Hotel"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Ticket' in Bengali?" }, "options": { "neutral": ["টিকিট", "ব্যাগ", "হোটেল", "বাস"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bag' in Bengali?" }, "options": { "neutral": ["ব্যাগ", "টিকিট", "হোটেল", "জুতো"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বিমানবন্দর", "romanization": "bimanbondor", "options": { "en": ["Airport", "Hospital", "House", "School"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ভ্রমণ", "romanization": "bhromon", "native": { "en": "Travel / trip" } },
+              { "target": "টিকিট", "romanization": "tikit", "native": { "en": "Ticket" } },
+              { "target": "বিমানবন্দর", "romanization": "bimanbondor", "native": { "en": "Airport" } },
+              { "target": "ব্যাগ", "romanization": "bag", "native": { "en": "Bag" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Weekend Activities" },
+          "objectives": { "en": ["Talk about weekend plans", "Describe leisure activities"] },
+          "vocabulary": [
+            { "word": "সপ্তাহান্ত", "romanization": "shoptahanto", "meanings": { "en": "Weekend" }, "gendered": null },
+            { "word": "বিশ্রাম নেওয়া", "romanization": "bishram neowa", "meanings": { "en": "Relax" }, "gendered": null },
+            { "word": "পিকনিক", "romanization": "piknik", "meanings": { "en": "Picnic" }, "gendered": null },
+            { "word": "কেনাকাটা", "romanization": "kenakata", "meanings": { "en": "Shopping" }, "gendered": null },
+            { "word": "বন্ধু", "romanization": "bondhu", "meanings": { "en": "Friend" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সপ্তাহান্ত", "romanization": "shoptahanto", "options": { "en": ["Weekend", "Weekday", "Holiday", "Vacation"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "কেনাকাটা", "romanization": "kenakata", "options": { "en": ["Shopping", "Cooking", "Reading", "Sleeping"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Friend' in Bengali?" }, "options": { "neutral": ["বন্ধু", "পরিবার", "শিক্ষক", "ছাত্র"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Relax' in Bengali?" }, "options": { "neutral": ["বিশ্রাম নেওয়া", "পিকনিক", "খেলা", "পড়াশোনা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পিকনিক", "romanization": "piknik", "options": { "en": ["Picnic", "Shopping", "Relaxing", "Working"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সপ্তাহান্ত", "romanization": "shoptahanto", "native": { "en": "Weekend" } },
+              { "target": "বিশ্রাম নেওয়া", "romanization": "bishram neowa", "native": { "en": "Relax" } },
+              { "target": "কেনাকাটা", "romanization": "kenakata", "native": { "en": "Shopping" } },
+              { "target": "বন্ধু", "romanization": "bondhu", "native": { "en": "Friend" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Feelings" },
+          "objectives": { "en": ["Express basic emotions", "Ask how someone feels"] },
+          "vocabulary": [
+            { "word": "খুশি", "romanization": "khushi", "meanings": { "en": "Happy" }, "gendered": null },
+            { "word": "দুঃখী", "romanization": "dukhi", "meanings": { "en": "Sad" }, "gendered": null },
+            { "word": "রাগ", "romanization": "rag", "meanings": { "en": "Angry" }, "gendered": null },
+            { "word": "ভয়", "romanization": "bhoy", "meanings": { "en": "Afraid / fear" }, "gendered": null },
+            { "word": "ক্লান্ত", "romanization": "klanto", "meanings": { "en": "Tired" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "খুশি", "romanization": "khushi", "options": { "en": ["Happy", "Sad", "Angry", "Afraid"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ক্লান্ত", "romanization": "klanto", "options": { "en": ["Tired", "Happy", "Angry", "Sad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sad' in Bengali?" }, "options": { "neutral": ["দুঃখী", "খুশি", "রাগ", "ভয়"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Afraid' in Bengali?" }, "options": { "neutral": ["ভয়", "রাগ", "দুঃখী", "ক্লান্ত"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "রাগ", "romanization": "rag", "options": { "en": ["Angry", "Sad", "Happy", "Tired"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "খুশি", "romanization": "khushi", "native": { "en": "Happy" } },
+              { "target": "দুঃখী", "romanization": "dukhi", "native": { "en": "Sad" } },
+              { "target": "রাগ", "romanization": "rag", "native": { "en": "Angry" } },
+              { "target": "ক্লান্ত", "romanization": "klanto", "native": { "en": "Tired" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Likes & Preferences" },
+          "objectives": { "en": ["Express preferences", "Compare things you like"] },
+          "vocabulary": [
+            { "word": "বেশি পছন্দ", "romanization": "beshi pochhondo", "meanings": { "en": "Prefer" }, "gendered": null },
+            { "word": "সবচেয়ে পছন্দ", "romanization": "shobcheye pochhondo", "meanings": { "en": "Like the most / favorite" }, "gendered": null },
+            { "word": "অথবা", "romanization": "othoba", "meanings": { "en": "Or" }, "gendered": null },
+            { "word": "আরও ভালো", "romanization": "aro bhalo", "meanings": { "en": "Better" }, "gendered": null },
+            { "word": "সবচেয়ে ভালো", "romanization": "shobcheye bhalo", "meanings": { "en": "Best" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বেশি পছন্দ", "romanization": "beshi pochhondo", "options": { "en": ["Prefer", "Like", "Dislike", "Want"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সবচেয়ে ভালো", "romanization": "shobcheye bhalo", "options": { "en": ["Best", "Better", "Good", "Bad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Or' in Bengali?" }, "options": { "neutral": ["অথবা", "এবং", "কিন্তু", "তাই"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Better' in Bengali?" }, "options": { "neutral": ["আরও ভালো", "সবচেয়ে ভালো", "ভালো", "খুব ভালো"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সবচেয়ে পছন্দ", "romanization": "shobcheye pochhondo", "options": { "en": ["Like the most / favorite", "Prefer", "Don't like", "Like"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বেশি পছন্দ", "romanization": "beshi pochhondo", "native": { "en": "Prefer" } },
+              { "target": "সবচেয়ে পছন্দ", "romanization": "shobcheye pochhondo", "native": { "en": "Like the most / favorite" } },
+              { "target": "আরও ভালো", "romanization": "aro bhalo", "native": { "en": "Better" } },
+              { "target": "সবচেয়ে ভালো", "romanization": "shobcheye bhalo", "native": { "en": "Best" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Giving Opinions" },
+          "objectives": { "en": ["Share your opinion", "Agree and disagree politely"] },
+          "vocabulary": [
+            { "word": "আমার মনে হয়", "romanization": "amar mone hoy", "meanings": { "en": "I think / I feel" }, "gendered": null },
+            { "word": "একমত", "romanization": "ekmot", "meanings": { "en": "Agree" }, "gendered": null },
+            { "word": "একমত নই", "romanization": "ekmot noi", "meanings": { "en": "Disagree" }, "gendered": null },
+            { "word": "ঠিক", "romanization": "thik", "meanings": { "en": "Correct / right" }, "gendered": null },
+            { "word": "ভুল", "romanization": "bhul", "meanings": { "en": "Wrong / incorrect" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "আমার মনে হয়", "romanization": "amar mone hoy", "options": { "en": ["I think / I feel", "I know", "I want", "I have"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ঠিক", "romanization": "thik", "options": { "en": ["Correct / right", "Wrong", "Maybe", "Uncertain"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Agree' in Bengali?" }, "options": { "neutral": ["একমত", "একমত নই", "ঠিক", "ভুল"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wrong' in Bengali?" }, "options": { "neutral": ["ভুল", "ঠিক", "একমত", "না"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "একমত নই", "romanization": "ekmot noi", "options": { "en": ["Disagree", "Agree", "Correct", "Wrong"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আমার মনে হয়", "romanization": "amar mone hoy", "native": { "en": "I think / I feel" } },
+              { "target": "একমত", "romanization": "ekmot", "native": { "en": "Agree" } },
+              { "target": "ঠিক", "romanization": "thik", "native": { "en": "Correct / right" } },
+              { "target": "ভুল", "romanization": "bhul", "native": { "en": "Wrong / incorrect" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Describing Experiences" },
+          "objectives": { "en": ["Describe past experiences", "Use simple past expressions"] },
+          "vocabulary": [
+            { "word": "ইতিমধ্যে", "romanization": "itimodhye", "meanings": { "en": "Already" }, "gendered": null },
+            { "word": "এখনো না", "romanization": "ekhono na", "meanings": { "en": "Not yet" }, "gendered": null },
+            { "word": "কখনো", "romanization": "kokhono", "meanings": { "en": "Ever / sometimes" }, "gendered": null },
+            { "word": "গতকাল", "romanization": "gotokal", "meanings": { "en": "Yesterday" }, "gendered": null },
+            { "word": "মজার", "romanization": "mojar", "meanings": { "en": "Fun / interesting" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ইতিমধ্যে", "romanization": "itimodhye", "options": { "en": ["Already", "Not yet", "Will", "Never"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "মজার", "romanization": "mojar", "options": { "en": ["Fun / interesting", "Boring", "Tired", "Angry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Not yet' in Bengali?" }, "options": { "neutral": ["এখনো না", "ইতিমধ্যে", "না", "কখনো"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Yesterday' in Bengali?" }, "options": { "neutral": ["গতকাল", "কাল", "আজ", "আগামী সপ্তাহ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "কখনো", "romanization": "kokhono", "options": { "en": ["Ever / sometimes", "Never", "Already", "Not yet"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ইতিমধ্যে", "romanization": "itimodhye", "native": { "en": "Already" } },
+              { "target": "এখনো না", "romanization": "ekhono na", "native": { "en": "Not yet" } },
+              { "target": "কখনো", "romanization": "kokhono", "native": { "en": "Ever / sometimes" } },
+              { "target": "মজার", "romanization": "mojar", "native": { "en": "Fun / interesting" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

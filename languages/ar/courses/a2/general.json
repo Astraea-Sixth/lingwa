@@ -1,0 +1,564 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe morning activities", "Talk about daily habits"] },
+          "vocabulary": [
+            { "word": "استيقظ", "romanization": "istayqadha", "meanings": { "en": "To wake up" }, "gendered": null },
+            { "word": "اغتسل", "romanization": "ightasal", "meanings": { "en": "To bathe / To shower" }, "gendered": null },
+            { "word": "لبس الملابس", "romanization": "labisa al-malabis", "meanings": { "en": "To get dressed" }, "gendered": null },
+            { "word": "فطور", "romanization": "futur", "meanings": { "en": "Breakfast" }, "gendered": null },
+            { "word": "باكراً", "romanization": "bakiran", "meanings": { "en": "Early" }, "gendered": null },
+            { "word": "متأخر", "romanization": "muta'akhkhir", "meanings": { "en": "Late" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "استيقظ", "romanization": "istayqadha", "options": { "en": ["To wake up", "To bathe", "To eat", "To sleep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "فطور", "romanization": "futur", "options": { "en": ["Breakfast", "Lunch", "Dinner", "Snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To bathe' in Arabic?" }, "options": { "neutral": ["اغتسل", "استيقظ", "لبس الملابس", "فطور"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Early' in Arabic?" }, "options": { "neutral": ["باكراً", "متأخر", "الآن", "لاحقاً"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "لبس الملابس", "romanization": "labisa al-malabis", "options": { "en": ["To get dressed", "To wake up", "To bathe", "Breakfast"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "متأخر", "romanization": "muta'akhkhir", "options": { "en": ["Late", "Early", "Now", "Always"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "استيقظ", "romanization": "istayqadha", "native": { "en": "To wake up" } },
+              { "target": "اغتسل", "romanization": "ightasal", "native": { "en": "To bathe / To shower" } },
+              { "target": "فطور", "romanization": "futur", "native": { "en": "Breakfast" } },
+              { "target": "باكراً", "romanization": "bakiran", "native": { "en": "Early" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "At Work & School" },
+          "objectives": { "en": ["Talk about work and school", "Describe daily schedule"] },
+          "vocabulary": [
+            { "word": "عمل", "romanization": "amal", "meanings": { "en": "Work" }, "gendered": null },
+            { "word": "مكتب", "romanization": "maktab", "meanings": { "en": "Office" }, "gendered": null },
+            { "word": "درس", "romanization": "darasa", "meanings": { "en": "To study" }, "gendered": null },
+            { "word": "كتب", "romanization": "kataba", "meanings": { "en": "To write" }, "gendered": null },
+            { "word": "عطلة", "romanization": "utla", "meanings": { "en": "Holiday / Day off" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "عمل", "romanization": "amal", "options": { "en": ["Work", "Office", "School", "Holiday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "درس", "romanization": "darasa", "options": { "en": ["To study", "To write", "To work", "To go"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Office' in Arabic?" }, "options": { "neutral": ["مكتب", "عمل", "مدرسة", "بيت"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Holiday' in Arabic?" }, "options": { "neutral": ["عطلة", "عمل", "مكتب", "درس"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "كتب", "romanization": "kataba", "options": { "en": ["To write", "To read", "To work", "To study"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "مكتب", "romanization": "maktab", "options": { "en": ["Office", "Home", "School", "Market"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "عمل", "romanization": "amal", "native": { "en": "Work" } },
+              { "target": "مكتب", "romanization": "maktab", "native": { "en": "Office" } },
+              { "target": "درس", "romanization": "darasa", "native": { "en": "To study" } },
+              { "target": "كتب", "romanization": "kataba", "native": { "en": "To write" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Evening Activities" },
+          "objectives": { "en": ["Describe evening and leisure activities", "Talk about hobbies"] },
+          "vocabulary": [
+            { "word": "لعب", "romanization": "la'iba", "meanings": { "en": "To play" }, "gendered": null },
+            { "word": "شاهد", "romanization": "shahada", "meanings": { "en": "To watch" }, "gendered": null },
+            { "word": "استمع", "romanization": "istama'a", "meanings": { "en": "To listen" }, "gendered": null },
+            { "word": "تمشى", "romanization": "tamashsha", "meanings": { "en": "To take a walk" }, "gendered": null },
+            { "word": "نام", "romanization": "nama", "meanings": { "en": "To sleep" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "لعب", "romanization": "la'iba", "options": { "en": ["To play", "To watch", "To listen", "To sleep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "شاهد", "romanization": "shahada", "options": { "en": ["To watch", "To listen", "To play", "To walk"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To listen' in Arabic?" }, "options": { "neutral": ["استمع", "شاهد", "لعب", "نام"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To sleep' in Arabic?" }, "options": { "neutral": ["نام", "تمشى", "استمع", "شاهد"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "تمشى", "romanization": "tamashsha", "options": { "en": ["To take a walk", "To play", "To sleep", "To watch"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "استمع", "romanization": "istama'a", "options": { "en": ["To listen", "To watch", "To play", "To walk"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "لعب", "romanization": "la'iba", "native": { "en": "To play" } },
+              { "target": "شاهد", "romanization": "shahada", "native": { "en": "To watch" } },
+              { "target": "استمع", "romanization": "istama'a", "native": { "en": "To listen" } },
+              { "target": "نام", "romanization": "nama", "native": { "en": "To sleep" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Household Chores" },
+          "objectives": { "en": ["Talk about household tasks", "Describe cleaning and cooking"] },
+          "vocabulary": [
+            { "word": "طبخ", "romanization": "tabakha", "meanings": { "en": "To cook" }, "gendered": null },
+            { "word": "نظّف", "romanization": "nadhdhafa", "meanings": { "en": "To clean" }, "gendered": null },
+            { "word": "غسل الملابس", "romanization": "ghasala al-malabis", "meanings": { "en": "To wash clothes" }, "gendered": null },
+            { "word": "أطباق", "romanization": "atbaq", "meanings": { "en": "Dishes" }, "gendered": null },
+            { "word": "كنس", "romanization": "kanasa", "meanings": { "en": "To sweep" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "طبخ", "romanization": "tabakha", "options": { "en": ["To cook", "To clean", "To wash", "To sweep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "نظّف", "romanization": "nadhdhafa", "options": { "en": ["To clean", "To cook", "To sweep", "To wash clothes"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To wash clothes' in Arabic?" }, "options": { "neutral": ["غسل الملابس", "نظّف", "طبخ", "كنس"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dishes' in Arabic?" }, "options": { "neutral": ["أطباق", "ملابس", "مكنسة", "طعام"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "كنس", "romanization": "kanasa", "options": { "en": ["To sweep", "To cook", "To clean", "To wash"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أطباق", "romanization": "atbaq", "options": { "en": ["Dishes", "Clothes", "Broom", "Food"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "طبخ", "romanization": "tabakha", "native": { "en": "To cook" } },
+              { "target": "نظّف", "romanization": "nadhdhafa", "native": { "en": "To clean" } },
+              { "target": "غسل الملابس", "romanization": "ghasala al-malabis", "native": { "en": "To wash clothes" } },
+              { "target": "كنس", "romanization": "kanasa", "native": { "en": "To sweep" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Words" },
+          "objectives": { "en": ["Describe common weather conditions", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "طقس", "romanization": "taqs", "meanings": { "en": "Weather" }, "gendered": null },
+            { "word": "شمس", "romanization": "shams", "meanings": { "en": "Sun / Sunshine" }, "gendered": null },
+            { "word": "مطر", "romanization": "matar", "meanings": { "en": "Rain" }, "gendered": null },
+            { "word": "رياح", "romanization": "riyah", "meanings": { "en": "Wind" }, "gendered": null },
+            { "word": "سحاب", "romanization": "sahab", "meanings": { "en": "Clouds" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "مطر", "romanization": "matar", "options": { "en": ["Rain", "Wind", "Clouds", "Sun"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "شمس", "romanization": "shams", "options": { "en": ["Sun / Sunshine", "Rain", "Wind", "Clouds"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wind' in Arabic?" }, "options": { "neutral": ["رياح", "سحاب", "مطر", "شمس"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Weather' in Arabic?" }, "options": { "neutral": ["طقس", "رياح", "سحاب", "شمس"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "سحاب", "romanization": "sahab", "options": { "en": ["Clouds", "Rain", "Wind", "Sun"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "طقس", "romanization": "taqs", "options": { "en": ["Weather", "Season", "Clouds", "Rain"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "شمس", "romanization": "shams", "native": { "en": "Sun / Sunshine" } },
+              { "target": "مطر", "romanization": "matar", "native": { "en": "Rain" } },
+              { "target": "رياح", "romanization": "riyah", "native": { "en": "Wind" } },
+              { "target": "سحاب", "romanization": "sahab", "native": { "en": "Clouds" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Seasons" },
+          "objectives": { "en": ["Name the seasons", "Describe seasonal activities"] },
+          "vocabulary": [
+            { "word": "صيف", "romanization": "sayf", "meanings": { "en": "Summer" }, "gendered": null },
+            { "word": "شتاء", "romanization": "shita'", "meanings": { "en": "Winter" }, "gendered": null },
+            { "word": "ربيع", "romanization": "rabi'", "meanings": { "en": "Spring" }, "gendered": null },
+            { "word": "خريف", "romanization": "kharif", "meanings": { "en": "Autumn" }, "gendered": null },
+            { "word": "فصل", "romanization": "fasl", "meanings": { "en": "Season" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "صيف", "romanization": "sayf", "options": { "en": ["Summer", "Winter", "Spring", "Autumn"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "شتاء", "romanization": "shita'", "options": { "en": ["Winter", "Summer", "Autumn", "Spring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Spring' in Arabic?" }, "options": { "neutral": ["ربيع", "صيف", "شتاء", "خريف"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Season' in Arabic?" }, "options": { "neutral": ["فصل", "خريف", "ربيع", "صيف"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "خريف", "romanization": "kharif", "options": { "en": ["Autumn", "Spring", "Summer", "Winter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ربيع", "romanization": "rabi'", "options": { "en": ["Spring", "Winter", "Summer", "Autumn"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "صيف", "romanization": "sayf", "native": { "en": "Summer" } },
+              { "target": "شتاء", "romanization": "shita'", "native": { "en": "Winter" } },
+              { "target": "ربيع", "romanization": "rabi'", "native": { "en": "Spring" } },
+              { "target": "خريف", "romanization": "kharif", "native": { "en": "Autumn" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Temperature & Feelings" },
+          "objectives": { "en": ["Describe temperature", "Express how you feel about weather"] },
+          "vocabulary": [
+            { "word": "حار", "romanization": "harr", "meanings": { "en": "Hot" }, "gendered": null },
+            { "word": "بارد", "romanization": "barid", "meanings": { "en": "Cold" }, "gendered": null },
+            { "word": "عرق", "romanization": "araq", "meanings": { "en": "Sweat" }, "gendered": null },
+            { "word": "بطانية", "romanization": "battaniyya", "meanings": { "en": "Blanket" }, "gendered": null },
+            { "word": "مظلة", "romanization": "midhalla", "meanings": { "en": "Umbrella" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "بارد", "romanization": "barid", "options": { "en": ["Cold", "Hot", "Wet", "Dry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "مظلة", "romanization": "midhalla", "options": { "en": ["Umbrella", "Blanket", "Coat", "Hat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Blanket' in Arabic?" }, "options": { "neutral": ["بطانية", "مظلة", "عرق", "حار"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Arabic?" }, "options": { "neutral": ["حار", "بارد", "عرق", "بطانية"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "عرق", "romanization": "araq", "options": { "en": ["Sweat", "Cold", "Hot", "Umbrella"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "حار", "romanization": "harr", "options": { "en": ["Hot", "Cold", "Wet", "Dry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "حار", "romanization": "harr", "native": { "en": "Hot" } },
+              { "target": "بارد", "romanization": "barid", "native": { "en": "Cold" } },
+              { "target": "بطانية", "romanization": "battaniyya", "native": { "en": "Blanket" } },
+              { "target": "مظلة", "romanization": "midhalla", "native": { "en": "Umbrella" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Weather Forecast" },
+          "objectives": { "en": ["Understand a simple weather forecast", "Use future tense for weather"] },
+          "vocabulary": [
+            { "word": "اليوم", "romanization": "al-yawm", "meanings": { "en": "Today" }, "gendered": null },
+            { "word": "غداً", "romanization": "ghadan", "meanings": { "en": "Tomorrow" }, "gendered": null },
+            { "word": "عاصفة", "romanization": "asifa", "meanings": { "en": "Storm" }, "gendered": null },
+            { "word": "ثلج", "romanization": "thalj", "meanings": { "en": "Snow" }, "gendered": null },
+            { "word": "سماء", "romanization": "sama'", "meanings": { "en": "Sky" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "عاصفة", "romanization": "asifa", "options": { "en": ["Storm", "Rain", "Wind", "Snow"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ثلج", "romanization": "thalj", "options": { "en": ["Snow", "Rain", "Storm", "Clouds"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sky' in Arabic?" }, "options": { "neutral": ["سماء", "سحاب", "عاصفة", "شمس"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tomorrow' in Arabic?" }, "options": { "neutral": ["غداً", "اليوم", "الآن", "لاحقاً"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "سماء", "romanization": "sama'", "options": { "en": ["Sky", "Clouds", "Storm", "Snow"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "غداً", "romanization": "ghadan", "options": { "en": ["Tomorrow", "Today", "Now", "Later"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "اليوم", "romanization": "al-yawm", "native": { "en": "Today" } },
+              { "target": "غداً", "romanization": "ghadan", "native": { "en": "Tomorrow" } },
+              { "target": "عاصفة", "romanization": "asifa", "native": { "en": "Storm" } },
+              { "target": "ثلج", "romanization": "thalj", "native": { "en": "Snow" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Body" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name common body parts", "Point to and identify body parts"] },
+          "vocabulary": [
+            { "word": "رأس", "romanization": "ra's", "meanings": { "en": "Head" }, "gendered": null },
+            { "word": "يد", "romanization": "yad", "meanings": { "en": "Hand" }, "gendered": null },
+            { "word": "قدم", "romanization": "qadam", "meanings": { "en": "Foot" }, "gendered": null },
+            { "word": "عين", "romanization": "ayn", "meanings": { "en": "Eye" }, "gendered": null },
+            { "word": "بطن", "romanization": "batn", "meanings": { "en": "Stomach" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "رأس", "romanization": "ra's", "options": { "en": ["Head", "Hand", "Foot", "Eye"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "بطن", "romanization": "batn", "options": { "en": ["Stomach", "Head", "Hand", "Foot"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hand' in Arabic?" }, "options": { "neutral": ["يد", "قدم", "رأس", "عين"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eye' in Arabic?" }, "options": { "neutral": ["عين", "بطن", "يد", "رأس"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "قدم", "romanization": "qadam", "options": { "en": ["Foot", "Hand", "Head", "Stomach"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "رأس", "romanization": "ra's", "options": { "en": ["Head", "Eye", "Stomach", "Foot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "رأس", "romanization": "ra's", "native": { "en": "Head" } },
+              { "target": "يد", "romanization": "yad", "native": { "en": "Hand" } },
+              { "target": "قدم", "romanization": "qadam", "native": { "en": "Foot" } },
+              { "target": "عين", "romanization": "ayn", "native": { "en": "Eye" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Sick" },
+          "objectives": { "en": ["Describe symptoms", "Say what hurts"] },
+          "vocabulary": [
+            { "word": "ألم", "romanization": "alam", "meanings": { "en": "Pain" }, "gendered": null },
+            { "word": "حمى", "romanization": "humma", "meanings": { "en": "Fever" }, "gendered": null },
+            { "word": "سعال", "romanization": "su'al", "meanings": { "en": "Cough" }, "gendered": null },
+            { "word": "زكام", "romanization": "zukam", "meanings": { "en": "Cold (illness)" }, "gendered": null },
+            { "word": "أنا مريض", "romanization": "ana marid", "meanings": { "en": "I am sick" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "حمى", "romanization": "humma", "options": { "en": ["Fever", "Cough", "Pain", "Cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ألم", "romanization": "alam", "options": { "en": ["Pain", "Fever", "Cough", "Cold"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cough' in Arabic?" }, "options": { "neutral": ["سعال", "حمى", "زكام", "ألم"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am sick' in Arabic?" }, "options": { "neutral": ["أنا مريض", "أنا بخير", "أنا جائع", "عندي ألم"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "زكام", "romanization": "zukam", "options": { "en": ["Cold (illness)", "Fever", "Cough", "Pain"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "أنا مريض", "romanization": "ana marid", "options": { "en": ["I am sick", "I am fine", "I have a fever", "I have pain"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ألم", "romanization": "alam", "native": { "en": "Pain" } },
+              { "target": "حمى", "romanization": "humma", "native": { "en": "Fever" } },
+              { "target": "سعال", "romanization": "su'al", "native": { "en": "Cough" } },
+              { "target": "زكام", "romanization": "zukam", "native": { "en": "Cold (illness)" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Navigate a basic doctor visit", "Understand medical instructions"] },
+          "vocabulary": [
+            { "word": "طبيب", "romanization": "tabib", "meanings": { "en": "Doctor" }, "gendered": null },
+            { "word": "دواء", "romanization": "dawa'", "meanings": { "en": "Medicine" }, "gendered": null },
+            { "word": "استرح", "romanization": "istarih", "meanings": { "en": "Take rest" }, "gendered": null },
+            { "word": "حبة", "romanization": "habba", "meanings": { "en": "Pill / Tablet" }, "gendered": null },
+            { "word": "ستتحسن", "romanization": "satatahassan", "meanings": { "en": "You will get better" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "دواء", "romanization": "dawa'", "options": { "en": ["Medicine", "Doctor", "Pill", "Rest"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "استرح", "romanization": "istarih", "options": { "en": ["Take rest", "Take medicine", "See a doctor", "Get better"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Pill' in Arabic?" }, "options": { "neutral": ["حبة", "دواء", "ألم", "طبيب"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Doctor' in Arabic?" }, "options": { "neutral": ["طبيب", "دواء", "حبة", "استرح"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "حبة", "romanization": "habba", "options": { "en": ["Pill / Tablet", "Medicine", "Doctor", "Rest"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ستتحسن", "romanization": "satatahassan", "options": { "en": ["You will get better", "Take rest", "Take medicine", "See a doctor"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "طبيب", "romanization": "tabib", "native": { "en": "Doctor" } },
+              { "target": "دواء", "romanization": "dawa'", "native": { "en": "Medicine" } },
+              { "target": "حبة", "romanization": "habba", "native": { "en": "Pill / Tablet" } },
+              { "target": "استرح", "romanization": "istarih", "native": { "en": "Take rest" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Staying Healthy" },
+          "objectives": { "en": ["Talk about healthy habits", "Give and receive health advice"] },
+          "vocabulary": [
+            { "word": "تمارين", "romanization": "tamarin", "meanings": { "en": "Exercise" }, "gendered": null },
+            { "word": "صحي", "romanization": "sihhi", "meanings": { "en": "Healthy" }, "gendered": null },
+            { "word": "رياضة", "romanization": "riyada", "meanings": { "en": "Sport / Exercise" }, "gendered": null },
+            { "word": "ركض", "romanization": "rakd", "meanings": { "en": "Running" }, "gendered": null },
+            { "word": "اشرب ماء", "romanization": "ishrab ma'", "meanings": { "en": "Drink water" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "تمارين", "romanization": "tamarin", "options": { "en": ["Exercise", "Sport", "Running", "Healthy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "صحي", "romanization": "sihhi", "options": { "en": ["Healthy", "Exercise", "Sick", "Strong"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sport' in Arabic?" }, "options": { "neutral": ["رياضة", "تمارين", "ركض", "صحي"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Running' in Arabic?" }, "options": { "neutral": ["ركض", "رياضة", "تمارين", "اشرب ماء"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "اشرب ماء", "romanization": "ishrab ma'", "options": { "en": ["Drink water", "To run", "To exercise", "To rest"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "رياضة", "romanization": "riyada", "options": { "en": ["Sport / Exercise", "Running", "Health", "Medicine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "تمارين", "romanization": "tamarin", "native": { "en": "Exercise" } },
+              { "target": "صحي", "romanization": "sihhi", "native": { "en": "Healthy" } },
+              { "target": "رياضة", "romanization": "riyada", "native": { "en": "Sport / Exercise" } },
+              { "target": "ركض", "romanization": "rakd", "native": { "en": "Running" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Make suggestions"] },
+          "vocabulary": [
+            { "word": "خطة", "romanization": "khutta", "meanings": { "en": "Plan" }, "gendered": null },
+            { "word": "هيا بنا", "romanization": "hayya bina", "meanings": { "en": "Let's go" }, "gendered": null },
+            { "word": "متى؟", "romanization": "mata?", "meanings": { "en": "When?" }, "gendered": null },
+            { "word": "لاحقاً", "romanization": "lahiqan", "meanings": { "en": "Later" }, "gendered": null },
+            { "word": "الآن", "romanization": "al-an", "meanings": { "en": "Now" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "خطة", "romanization": "khutta", "options": { "en": ["Plan", "Place", "Time", "Idea"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "هيا بنا", "romanization": "hayya bina", "options": { "en": ["Let's go", "Come here", "Go away", "Wait"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'When?' in Arabic?" }, "options": { "neutral": ["متى؟", "أين؟", "ماذا؟", "كيف؟"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Now' in Arabic?" }, "options": { "neutral": ["الآن", "لاحقاً", "غداً", "متى"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "لاحقاً", "romanization": "lahiqan", "options": { "en": ["Later", "Now", "When", "Tomorrow"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "هيا بنا", "romanization": "hayya bina", "options": { "en": ["Let's go", "Sit down", "Come here", "Stop"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "خطة", "romanization": "khutta", "native": { "en": "Plan" } },
+              { "target": "هيا بنا", "romanization": "hayya bina", "native": { "en": "Let's go" } },
+              { "target": "الآن", "romanization": "al-an", "native": { "en": "Now" } },
+              { "target": "لاحقاً", "romanization": "lahiqan", "native": { "en": "Later" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations" },
+          "objectives": { "en": ["Invite someone to an event", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "تفضل", "romanization": "tafaddal", "meanings": { "en": "Please come / Go ahead" }, "gendered": null },
+            { "word": "حفلة", "romanization": "hafla", "meanings": { "en": "Party" }, "gendered": null },
+            { "word": "بالتأكيد", "romanization": "bit-ta'kid", "meanings": { "en": "Definitely / Of course" }, "gendered": null },
+            { "word": "آسف، لا أستطيع", "romanization": "asif, la astati'", "meanings": { "en": "Sorry, I cannot" }, "gendered": null },
+            { "word": "سيكون ممتعاً", "romanization": "sayakun mumti'an", "meanings": { "en": "It will be fun" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "بالتأكيد", "romanization": "bit-ta'kid", "options": { "en": ["Definitely / Of course", "Maybe", "Never", "Sometimes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "تفضل", "romanization": "tafaddal", "options": { "en": ["Please come / Go ahead", "Please go", "Please sit", "Please wait"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Party' in Arabic?" }, "options": { "neutral": ["حفلة", "خطة", "ممتع", "عطلة"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'It will be fun' in Arabic?" }, "options": { "neutral": ["سيكون ممتعاً", "بالتأكيد", "هيا بنا", "جيد جداً"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "حفلة", "romanization": "hafla", "options": { "en": ["Party", "Plan", "Place", "Fun"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "بالتأكيد", "romanization": "bit-ta'kid", "options": { "en": ["Definitely", "Maybe", "Never", "Later"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "تفضل", "romanization": "tafaddal", "native": { "en": "Please come / Go ahead" } },
+              { "target": "حفلة", "romanization": "hafla", "native": { "en": "Party" } },
+              { "target": "بالتأكيد", "romanization": "bit-ta'kid", "native": { "en": "Definitely / Of course" } },
+              { "target": "سيكون ممتعاً", "romanization": "sayakun mumti'an", "native": { "en": "It will be fun" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Weekend Plans" },
+          "objectives": { "en": ["Discuss weekend activities", "Use want and like"] },
+          "vocabulary": [
+            { "word": "السبت", "romanization": "as-sabt", "meanings": { "en": "Saturday" }, "gendered": null },
+            { "word": "الأحد", "romanization": "al-ahad", "meanings": { "en": "Sunday" }, "gendered": null },
+            { "word": "مشاهدة فيلم", "romanization": "mushahadat film", "meanings": { "en": "To watch a movie" }, "gendered": null },
+            { "word": "الخروج", "romanization": "al-khuruj", "meanings": { "en": "To go outside" }, "gendered": null },
+            { "word": "أحب", "romanization": "uhibb", "meanings": { "en": "I like / I love" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "السبت", "romanization": "as-sabt", "options": { "en": ["Saturday", "Sunday", "Friday", "Monday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "أحب", "romanization": "uhibb", "options": { "en": ["I like / I love", "I want", "I need", "I have"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sunday' in Arabic?" }, "options": { "neutral": ["الأحد", "السبت", "الإثنين", "الجمعة"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'To go outside' in Arabic?" }, "options": { "neutral": ["الخروج", "مشاهدة فيلم", "الذهاب", "لعب"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "مشاهدة فيلم", "romanization": "mushahadat film", "options": { "en": ["To watch a movie", "To go outside", "To play", "To rest"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "الأحد", "romanization": "al-ahad", "options": { "en": ["Sunday", "Saturday", "Monday", "Friday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "السبت", "romanization": "as-sabt", "native": { "en": "Saturday" } },
+              { "target": "الأحد", "romanization": "al-ahad", "native": { "en": "Sunday" } },
+              { "target": "مشاهدة فيلم", "romanization": "mushahadat film", "native": { "en": "To watch a movie" } },
+              { "target": "الخروج", "romanization": "al-khuruj", "native": { "en": "To go outside" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Travel Plans" },
+          "objectives": { "en": ["Talk about travel plans", "Discuss destinations"] },
+          "vocabulary": [
+            { "word": "سفر", "romanization": "safar", "meanings": { "en": "Travel / Journey" }, "gendered": null },
+            { "word": "طائرة", "romanization": "ta'ira", "meanings": { "en": "Airplane" }, "gendered": null },
+            { "word": "تذكرة", "romanization": "tadhkira", "meanings": { "en": "Ticket" }, "gendered": null },
+            { "word": "فندق", "romanization": "funduq", "meanings": { "en": "Hotel" }, "gendered": null },
+            { "word": "أمتعة", "romanization": "amti'a", "meanings": { "en": "Luggage" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "سفر", "romanization": "safar", "options": { "en": ["Travel / Journey", "Ticket", "Hotel", "Airplane"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "طائرة", "romanization": "ta'ira", "options": { "en": ["Airplane", "Train", "Bus", "Taxi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Ticket' in Arabic?" }, "options": { "neutral": ["تذكرة", "فندق", "أمتعة", "سفر"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Luggage' in Arabic?" }, "options": { "neutral": ["أمتعة", "تذكرة", "فندق", "سفر"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "فندق", "romanization": "funduq", "options": { "en": ["Hotel", "Home", "Hospital", "Shop"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "تذكرة", "romanization": "tadhkira", "options": { "en": ["Ticket", "Luggage", "Hotel", "Airplane"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "سفر", "romanization": "safar", "native": { "en": "Travel / Journey" } },
+              { "target": "طائرة", "romanization": "ta'ira", "native": { "en": "Airplane" } },
+              { "target": "تذكرة", "romanization": "tadhkira", "native": { "en": "Ticket" } },
+              { "target": "أمتعة", "romanization": "amti'a", "native": { "en": "Luggage" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Opinions" },
+          "objectives": { "en": ["Share your opinion", "Agree and disagree"] },
+          "vocabulary": [
+            { "word": "أعتقد", "romanization": "a'taqid", "meanings": { "en": "I think" }, "gendered": null },
+            { "word": "صحيح", "romanization": "sahih", "meanings": { "en": "Correct / Right" }, "gendered": null },
+            { "word": "خطأ", "romanization": "khata'", "meanings": { "en": "Wrong / Incorrect" }, "gendered": null },
+            { "word": "ربما", "romanization": "rubbama", "meanings": { "en": "Maybe / Perhaps" }, "gendered": null },
+            { "word": "بالضبط", "romanization": "bid-dabt", "meanings": { "en": "Exactly" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "أعتقد", "romanization": "a'taqid", "options": { "en": ["I think", "I know", "I want", "I see"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ربما", "romanization": "rubbama", "options": { "en": ["Maybe / Perhaps", "Exactly", "Never", "Always"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Correct' in Arabic?" }, "options": { "neutral": ["صحيح", "خطأ", "ربما", "بالضبط"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Exactly' in Arabic?" }, "options": { "neutral": ["بالضبط", "ربما", "صحيح", "خطأ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "خطأ", "romanization": "khata'", "options": { "en": ["Wrong / Incorrect", "Correct", "Maybe", "Exactly"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "بالضبط", "romanization": "bid-dabt", "options": { "en": ["Exactly", "Maybe", "Wrong", "I think"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "صحيح", "romanization": "sahih", "native": { "en": "Correct / Right" } },
+              { "target": "خطأ", "romanization": "khata'", "native": { "en": "Wrong / Incorrect" } },
+              { "target": "ربما", "romanization": "rubbama", "native": { "en": "Maybe / Perhaps" } },
+              { "target": "بالضبط", "romanization": "bid-dabt", "native": { "en": "Exactly" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Emotions" },
+          "objectives": { "en": ["Express basic emotions", "Ask how someone feels"] },
+          "vocabulary": [
+            { "word": "سعيد", "romanization": "sa'id", "meanings": { "en": "Happy" }, "gendered": null },
+            { "word": "حزين", "romanization": "hazin", "meanings": { "en": "Sad" }, "gendered": null },
+            { "word": "غاضب", "romanization": "ghadib", "meanings": { "en": "Angry" }, "gendered": null },
+            { "word": "متعب", "romanization": "mut'ab", "meanings": { "en": "Tired" }, "gendered": null },
+            { "word": "خائف", "romanization": "kha'if", "meanings": { "en": "Scared" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "سعيد", "romanization": "sa'id", "options": { "en": ["Happy", "Sad", "Angry", "Tired"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "غاضب", "romanization": "ghadib", "options": { "en": ["Angry", "Happy", "Scared", "Sad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sad' in Arabic?" }, "options": { "neutral": ["حزين", "سعيد", "غاضب", "خائف"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tired' in Arabic?" }, "options": { "neutral": ["متعب", "حزين", "غاضب", "سعيد"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "حزين", "romanization": "hazin", "options": { "en": ["Sad", "Happy", "Angry", "Tired"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "خائف", "romanization": "kha'if", "options": { "en": ["Scared", "Angry", "Sad", "Happy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "سعيد", "romanization": "sa'id", "native": { "en": "Happy" } },
+              { "target": "حزين", "romanization": "hazin", "native": { "en": "Sad" } },
+              { "target": "غاضب", "romanization": "ghadib", "native": { "en": "Angry" } },
+              { "target": "متعب", "romanization": "mut'ab", "native": { "en": "Tired" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Likes & Dislikes" },
+          "objectives": { "en": ["Express what you like and dislike", "Talk about preferences"] },
+          "vocabulary": [
+            { "word": "يعجبني", "romanization": "yu'jibuni", "meanings": { "en": "I like" }, "gendered": null },
+            { "word": "لا يعجبني", "romanization": "la yu'jibuni", "meanings": { "en": "I don't like" }, "gendered": null },
+            { "word": "المفضل", "romanization": "al-mufaddal", "meanings": { "en": "Favorite" }, "gendered": null },
+            { "word": "كثيراً", "romanization": "kathiran", "meanings": { "en": "Very much / A lot" }, "gendered": null },
+            { "word": "قليلاً", "romanization": "qalilan", "meanings": { "en": "A little" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "يعجبني", "romanization": "yu'jibuni", "options": { "en": ["I like", "I don't like", "Favorite", "A lot"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "كثيراً", "romanization": "kathiran", "options": { "en": ["Very much / A lot", "A little", "Never", "Always"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I don't like' in Arabic?" }, "options": { "neutral": ["لا يعجبني", "يعجبني", "خطأ", "كثيراً"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'A little' in Arabic?" }, "options": { "neutral": ["قليلاً", "كثيراً", "بالضبط", "ربما"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "المفضل", "romanization": "al-mufaddal", "options": { "en": ["Favorite", "Very good", "A little good", "Not good"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "لا يعجبني", "romanization": "la yu'jibuni", "options": { "en": ["I don't like", "I like", "Favorite", "A lot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "يعجبني", "romanization": "yu'jibuni", "native": { "en": "I like" } },
+              { "target": "لا يعجبني", "romanization": "la yu'jibuni", "native": { "en": "I don't like" } },
+              { "target": "كثيراً", "romanization": "kathiran", "native": { "en": "Very much / A lot" } },
+              { "target": "قليلاً", "romanization": "qalilan", "native": { "en": "A little" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Giving Reasons" },
+          "objectives": { "en": ["Explain why you feel a certain way", "Use because and so"] },
+          "vocabulary": [
+            { "word": "لأن", "romanization": "li'anna", "meanings": { "en": "Because" }, "gendered": null },
+            { "word": "لذلك", "romanization": "lidhalik", "meanings": { "en": "Therefore / So" }, "gendered": null },
+            { "word": "إذا", "romanization": "idha", "meanings": { "en": "If" }, "gendered": null },
+            { "word": "لكن", "romanization": "lakin", "meanings": { "en": "But" }, "gendered": null },
+            { "word": "أيضاً", "romanization": "aydan", "meanings": { "en": "Also / Too" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "لأن", "romanization": "li'anna", "options": { "en": ["Because", "Therefore", "If", "But"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "لكن", "romanization": "lakin", "options": { "en": ["But", "Because", "Also", "If"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'If' in Arabic?" }, "options": { "neutral": ["إذا", "لأن", "لذلك", "لكن"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Also' in Arabic?" }, "options": { "neutral": ["أيضاً", "و", "لكن", "لأن"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "لذلك", "romanization": "lidhalik", "options": { "en": ["Therefore / So", "Because", "But", "If"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "إذا", "romanization": "idha", "options": { "en": ["If", "But", "Because", "Also"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "لأن", "romanization": "li'anna", "native": { "en": "Because" } },
+              { "target": "لذلك", "romanization": "lidhalik", "native": { "en": "Therefore / So" } },
+              { "target": "إذا", "romanization": "idha", "native": { "en": "If" } },
+              { "target": "لكن", "romanization": "lakin", "native": { "en": "But" } }
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

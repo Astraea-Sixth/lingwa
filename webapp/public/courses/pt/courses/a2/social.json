@@ -1,0 +1,625 @@
+{
+  "lang": "pt",
+  "language": "pt",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Meeting People",
+        "zh": "结交朋友",
+        "th": "การพบปะผู้คน",
+        "ko": "사람 만나기",
+        "es": "Conocer a la gente"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Introductions and Small Talk",
+            "zh": "介绍和闲聊",
+            "th": "การแนะนำตัวและการสนทนาเล็กน้อย",
+            "ko": "소개와 잡담",
+            "es": "Presentaciones y charla informal"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and others", "Make small talk in social situations"]
+          },
+          "vocabulary": [
+            {
+              "word": "apresentar",
+              "meanings": { "en": "to introduce / to present", "zh": "介绍", "th": "แนะนำ/นำเสนอ", "ko": "소개하다", "es": "presentar" }
+            },
+            {
+              "word": "prazer",
+              "meanings": { "en": "pleasure / nice to meet you", "zh": "幸会", "th": "ยินดีที่ได้รู้จัก", "ko": "만나서 반갑습니다", "es": "mucho gusto" }
+            },
+            {
+              "word": "colega",
+              "meanings": { "en": "colleague / classmate", "zh": "同事/同学", "th": "เพื่อนร่วมงาน/เพื่อนร่วมชั้น", "ko": "동료/급우", "es": "colega" }
+            },
+            {
+              "word": "vizinho",
+              "meanings": { "en": "neighbor", "zh": "邻居", "th": "เพื่อนบ้าน", "ko": "이웃", "es": "vecino" }
+            },
+            {
+              "word": "conhecido",
+              "meanings": { "en": "acquaintance", "zh": "熟人", "th": "คนรู้จัก", "ko": "지인", "es": "conocido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'neighbor' in Portuguese?" },
+              "answer": "vizinho",
+              "choices": ["vizinho", "colega", "prazer", "conhecido"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'prazer' mean in a social context?" },
+              "answer": "nice to meet you",
+              "choices": ["nice to meet you", "goodbye", "hello", "see you later"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "apresentar", "native": "to introduce" },
+                { "target": "prazer", "native": "nice to meet you" },
+                { "target": "colega", "native": "colleague" },
+                { "target": "vizinho", "native": "neighbor" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Let me introduce my friend.'" },
+              "words": ["apresentar", "meu", "amigo", "Deixa", "eu"],
+              "answer": "Deixa eu apresentar meu amigo"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": ["Invite friends to activities", "Accept or decline invitations politely"]
+          },
+          "vocabulary": [
+            {
+              "word": "convite",
+              "meanings": { "en": "invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "invitación" }
+            },
+            {
+              "word": "encontro",
+              "meanings": { "en": "meeting / get-together", "zh": "聚会/见面", "th": "การพบปะ/การนัดหมาย", "ko": "만남/모임", "es": "encuentro/cita" }
+            },
+            {
+              "word": "aceitar",
+              "meanings": { "en": "to accept", "zh": "接受", "th": "ยอมรับ", "ko": "수락하다", "es": "aceptar" }
+            },
+            {
+              "word": "recusar",
+              "meanings": { "en": "to decline / to refuse", "zh": "拒绝", "th": "ปฏิเสธ", "ko": "거절하다", "es": "rechazar" }
+            },
+            {
+              "word": "disponível",
+              "meanings": { "en": "available / free", "zh": "有空的", "th": "ว่าง", "ko": "가능한/한가한", "es": "disponible" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'invitation' in Portuguese?" },
+              "answer": "convite",
+              "choices": ["convite", "encontro", "aceitar", "recusar"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'disponível' mean?" },
+              "answer": "available",
+              "choices": ["available", "busy", "invited", "refused"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "convite", "native": "invitation" },
+                { "target": "aceitar", "native": "to accept" },
+                { "target": "recusar", "native": "to decline" },
+                { "target": "disponível", "native": "available" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you free on Saturday?'" },
+              "words": ["você", "está", "disponível", "no", "sábado"],
+              "answer": "Você está disponível no sábado"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Hobbies and Interests",
+            "zh": "爱好和兴趣",
+            "th": "งานอดิเรกและความสนใจ",
+            "ko": "취미와 관심사",
+            "es": "Pasatiempos e intereses"
+          },
+          "objectives": {
+            "en": ["Talk about hobbies and free time", "Ask about others' interests"]
+          },
+          "vocabulary": [
+            {
+              "word": "passatempo",
+              "meanings": { "en": "hobby / pastime", "zh": "爱好/消遣", "th": "งานอดิเรก", "ko": "취미", "es": "pasatiempo" }
+            },
+            {
+              "word": "esporte",
+              "meanings": { "en": "sport", "zh": "运动", "th": "กีฬา", "ko": "스포츠", "es": "deporte" }
+            },
+            {
+              "word": "música",
+              "meanings": { "en": "music", "zh": "音乐", "th": "ดนตรี", "ko": "음악", "es": "música" }
+            },
+            {
+              "word": "leitura",
+              "meanings": { "en": "reading", "zh": "阅读", "th": "การอ่าน", "ko": "독서", "es": "lectura" }
+            },
+            {
+              "word": "cinema",
+              "meanings": { "en": "cinema / movie theater", "zh": "电影院", "th": "โรงภาพยนตร์", "ko": "영화관", "es": "cine" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'sport' in Portuguese?" },
+              "answer": "esporte",
+              "choices": ["esporte", "música", "leitura", "cinema"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'passatempo' mean?" },
+              "answer": "hobby",
+              "choices": ["hobby", "sport", "music", "reading"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "passatempo", "native": "hobby" },
+                { "target": "esporte", "native": "sport" },
+                { "target": "música", "native": "music" },
+                { "target": "leitura", "native": "reading" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My hobby is listening to music.'" },
+              "words": ["meu", "passatempo", "é", "ouvir", "música"],
+              "answer": "Meu passatempo é ouvir música"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Social Events",
+        "zh": "社交活动",
+        "th": "งานสังสรรค์",
+        "ko": "사교 행사",
+        "es": "Eventos sociales"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Parties and Celebrations",
+            "zh": "派对和庆祝活动",
+            "th": "งานปาร์ตี้และการฉลอง",
+            "ko": "파티와 축하 행사",
+            "es": "Fiestas y celebraciones"
+          },
+          "objectives": {
+            "en": ["Talk about parties and celebrations", "Give and receive compliments"]
+          },
+          "vocabulary": [
+            {
+              "word": "festa",
+              "meanings": { "en": "party / celebration", "zh": "派对/庆祝", "th": "งานปาร์ตี้/งานเฉลิมฉลอง", "ko": "파티/축하 행사", "es": "fiesta" }
+            },
+            {
+              "word": "aniversário",
+              "meanings": { "en": "birthday / anniversary", "zh": "生日/周年纪念", "th": "วันเกิด/วันครบรอบ", "ko": "생일/기념일", "es": "cumpleaños/aniversario" }
+            },
+            {
+              "word": "parabéns",
+              "meanings": { "en": "congratulations / happy birthday", "zh": "恭喜/生日快乐", "th": "ยินดีด้วย/สุขสันต์วันเกิด", "ko": "축하합니다/생일 축하합니다", "es": "felicidades/feliz cumpleaños" }
+            },
+            {
+              "word": "brinde",
+              "meanings": { "en": "toast (drinking)", "zh": "祝酒", "th": "การดื่มอวยพร", "ko": "건배", "es": "brindis" }
+            },
+            {
+              "word": "presente",
+              "meanings": { "en": "gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'gift' in Portuguese?" },
+              "answer": "presente",
+              "choices": ["presente", "festa", "brinde", "aniversário"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'parabéns' mean?" },
+              "answer": "congratulations / happy birthday",
+              "choices": ["congratulations / happy birthday", "cheers", "goodbye", "welcome"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "festa", "native": "party" },
+                { "target": "aniversário", "native": "birthday" },
+                { "target": "parabéns", "native": "congratulations" },
+                { "target": "presente", "native": "gift" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Happy birthday! Here is your gift.'" },
+              "words": ["Parabéns", "aqui", "está", "o", "seu", "presente"],
+              "answer": "Parabéns aqui está o seu presente"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "At a Bar or Café",
+            "zh": "在酒吧或咖啡馆",
+            "th": "ที่บาร์หรือคาเฟ่",
+            "ko": "바나 카페에서",
+            "es": "En un bar o café"
+          },
+          "objectives": {
+            "en": ["Order drinks at a bar or café", "Socialize with friends in informal settings"]
+          },
+          "vocabulary": [
+            {
+              "word": "boteco",
+              "meanings": { "en": "small bar / local bar (Brazilian)", "zh": "小酒吧(巴西)", "th": "บาร์เล็กๆ (บราซิล)", "ko": "작은 바 (브라질)", "es": "bar pequeño (brasileño)" }
+            },
+            {
+              "word": "cerveja",
+              "meanings": { "en": "beer", "zh": "啤酒", "th": "เบียร์", "ko": "맥주", "es": "cerveza" }
+            },
+            {
+              "word": "caipirinha",
+              "meanings": { "en": "caipirinha (Brazilian cocktail)", "zh": "卡皮林哈(巴西鸡尾酒)", "th": "ไคปิรินยา (ค็อกเทลบราซิล)", "ko": "카이피리냐 (브라질 칵테일)", "es": "caipirinha (cóctel brasileño)" }
+            },
+            {
+              "word": "bar",
+              "meanings": { "en": "bar", "zh": "酒吧", "th": "บาร์", "ko": "바", "es": "bar" }
+            },
+            {
+              "word": "rodada",
+              "meanings": { "en": "round (of drinks)", "zh": "一轮(饮料)", "th": "รอบ (ของเครื่องดื่ม)", "ko": "한 라운드 (음료)", "es": "ronda (de bebidas)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'beer' in Portuguese?" },
+              "answer": "cerveja",
+              "choices": ["cerveja", "caipirinha", "boteco", "rodada"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is a 'boteco'?" },
+              "answer": "small local bar",
+              "choices": ["small local bar", "nightclub", "restaurant", "café"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "cerveja", "native": "beer" },
+                { "target": "caipirinha", "native": "Brazilian cocktail" },
+                { "target": "boteco", "native": "small bar" },
+                { "target": "rodada", "native": "round of drinks" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'This round is on me.'" },
+              "words": ["rodada", "é", "por", "minha", "conta", "Essa"],
+              "answer": "Essa rodada é por minha conta"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Talking About Your Weekend",
+            "zh": "谈论你的周末",
+            "th": "การพูดคุยเรื่องวันหยุดสุดสัปดาห์",
+            "ko": "주말 이야기하기",
+            "es": "Hablar de tu fin de semana"
+          },
+          "objectives": {
+            "en": ["Describe past weekend activities", "Use past tense to talk about social events"]
+          },
+          "vocabulary": [
+            {
+              "word": "fim de semana",
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "sair",
+              "meanings": { "en": "to go out", "zh": "出去", "th": "ออกไป", "ko": "외출하다", "es": "salir" }
+            },
+            {
+              "word": "curtir",
+              "meanings": { "en": "to enjoy / to have fun (Brazilian slang)", "zh": "享受/玩得开心", "th": "สนุก/สนุกสนาน", "ko": "즐기다/재미있게 지내다", "es": "disfrutar / pasarla bien" }
+            },
+            {
+              "word": "show",
+              "meanings": { "en": "show / live performance", "zh": "演出/表演", "th": "การแสดง", "ko": "공연/쇼", "es": "espectáculo / concierto" }
+            },
+            {
+              "word": "churrascaria",
+              "meanings": { "en": "Brazilian steakhouse", "zh": "巴西烤肉餐厅", "th": "ร้านอาหารบาร์บีคิวบราซิล", "ko": "브라질 스테이크 하우스", "es": "restaurante de churrasco" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'weekend' in Portuguese?" },
+              "answer": "fim de semana",
+              "choices": ["fim de semana", "show", "sair", "curtir"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'curtir' mean?" },
+              "answer": "to enjoy / have fun",
+              "choices": ["to enjoy / have fun", "to leave", "to arrive", "to work"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "fim de semana", "native": "weekend" },
+                { "target": "sair", "native": "to go out" },
+                { "target": "curtir", "native": "to enjoy" },
+                { "target": "show", "native": "live performance" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Last weekend I went to a show.'" },
+              "words": ["fui", "a", "um", "show", "No", "fim", "de", "semana", "passado"],
+              "answer": "No fim de semana passado fui a um show"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community and Relationships",
+        "zh": "社区和人际关系",
+        "th": "ชุมชนและความสัมพันธ์",
+        "ko": "커뮤니티와 인간관계",
+        "es": "Comunidad y relaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Family and Friends",
+            "zh": "家庭和朋友",
+            "th": "ครอบครัวและเพื่อน",
+            "ko": "가족과 친구",
+            "es": "Familia y amigos"
+          },
+          "objectives": {
+            "en": ["Describe family relationships", "Talk about close friends"]
+          },
+          "vocabulary": [
+            {
+              "word": "parente",
+              "meanings": { "en": "relative (family)", "zh": "亲戚", "th": "ญาติ", "ko": "친척", "es": "pariente" }
+            },
+            {
+              "word": "amigo próximo",
+              "meanings": { "en": "close friend", "zh": "亲密朋友", "th": "เพื่อนสนิท", "ko": "친한 친구", "es": "amigo cercano" }
+            },
+            {
+              "word": "primo",
+              "meanings": { "en": "cousin", "zh": "堂兄弟/表兄弟", "th": "ลูกพี่ลูกน้อง", "ko": "사촌", "es": "primo" }
+            },
+            {
+              "word": "sogro",
+              "meanings": { "en": "father-in-law", "zh": "岳父/公公", "th": "พ่อตา/พ่อสามี", "ko": "시아버지/장인", "es": "suegro" }
+            },
+            {
+              "word": "cunhado",
+              "meanings": { "en": "brother-in-law", "zh": "大伯/连襟", "th": "พี่เขย/น้องเขย", "ko": "형부/제부/처남", "es": "cuñado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'cousin' in Portuguese?" },
+              "answer": "primo",
+              "choices": ["primo", "cunhado", "sogro", "parente"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'cunhado' mean?" },
+              "answer": "brother-in-law",
+              "choices": ["brother-in-law", "father-in-law", "cousin", "uncle"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "primo", "native": "cousin" },
+                { "target": "sogro", "native": "father-in-law" },
+                { "target": "cunhado", "native": "brother-in-law" },
+                { "target": "parente", "native": "relative" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'He is my closest friend.'" },
+              "words": ["é", "meu", "amigo", "mais", "próximo", "Ele"],
+              "answer": "Ele é meu amigo mais próximo"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Compliments and Politeness",
+            "zh": "称赞和礼貌",
+            "th": "การชมเชยและความสุภาพ",
+            "ko": "칭찬과 예의",
+            "es": "Cumplidos y cortesía"
+          },
+          "objectives": {
+            "en": ["Give and respond to compliments", "Use polite expressions in social situations"]
+          },
+          "vocabulary": [
+            {
+              "word": "elogio",
+              "meanings": { "en": "compliment / praise", "zh": "称赞/赞美", "th": "คำชม", "ko": "칭찬", "es": "elogio/cumplido" }
+            },
+            {
+              "word": "obrigado",
+              "meanings": { "en": "thank you (male speaker)", "zh": "谢谢(男性)", "th": "ขอบคุณ (ผู้ชายพูด)", "ko": "감사합니다 (남성)", "es": "gracias (hablante masculino)" }
+            },
+            {
+              "word": "de nada",
+              "meanings": { "en": "you're welcome", "zh": "不客气", "th": "ไม่เป็นไร", "ko": "천만에요", "es": "de nada" }
+            },
+            {
+              "word": "por favor",
+              "meanings": { "en": "please", "zh": "请", "th": "กรุณา/โปรด", "ko": "제발/부탁합니다", "es": "por favor" }
+            },
+            {
+              "word": "com licença",
+              "meanings": { "en": "excuse me (to pass)", "zh": "借过/对不起", "th": "ขอโทษ (ขอผ่าน)", "ko": "실례합니다", "es": "con permiso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'please' in Portuguese?" },
+              "answer": "por favor",
+              "choices": ["por favor", "de nada", "obrigado", "com licença"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'de nada' mean?" },
+              "answer": "you're welcome",
+              "choices": ["you're welcome", "please", "thank you", "excuse me"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "obrigado", "native": "thank you" },
+                { "target": "de nada", "native": "you're welcome" },
+                { "target": "por favor", "native": "please" },
+                { "target": "com licença", "native": "excuse me" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Thank you very much, you are very kind.'" },
+              "words": ["muito", "você", "é", "muito", "gentil", "Obrigado"],
+              "answer": "Obrigado muito você é muito gentil"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Social Media and Communication",
+            "zh": "社交媒体和通讯",
+            "th": "โซเชียลมีเดียและการสื่อสาร",
+            "ko": "소셜 미디어와 소통",
+            "es": "Redes sociales y comunicación"
+          },
+          "objectives": {
+            "en": ["Talk about social media habits", "Discuss online communication"]
+          },
+          "vocabulary": [
+            {
+              "word": "mensagem",
+              "meanings": { "en": "message", "zh": "消息/短信", "th": "ข้อความ", "ko": "메시지", "es": "mensaje" }
+            },
+            {
+              "word": "publicação",
+              "meanings": { "en": "post (social media)", "zh": "发帖/发布", "th": "โพสต์", "ko": "게시물", "es": "publicación" }
+            },
+            {
+              "word": "seguir",
+              "meanings": { "en": "to follow", "zh": "关注", "th": "ติดตาม", "ko": "팔로우하다", "es": "seguir" }
+            },
+            {
+              "word": "curtida",
+              "meanings": { "en": "like (social media)", "zh": "点赞", "th": "ไลก์", "ko": "좋아요", "es": "me gusta" }
+            },
+            {
+              "word": "aplicativo",
+              "meanings": { "en": "app / application", "zh": "应用程序", "th": "แอพพลิเคชัน", "ko": "앱/애플리케이션", "es": "aplicación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'message' in Portuguese?" },
+              "answer": "mensagem",
+              "choices": ["mensagem", "publicação", "curtida", "aplicativo"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'curtida' mean in social media?" },
+              "answer": "like",
+              "choices": ["like", "post", "follow", "message"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "mensagem", "native": "message" },
+                { "target": "publicação", "native": "post" },
+                { "target": "seguir", "native": "to follow" },
+                { "target": "curtida", "native": "like" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Send me a message later.'" },
+              "words": ["me", "uma", "mensagem", "depois", "Manda"],
+              "answer": "Manda me uma mensagem depois"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

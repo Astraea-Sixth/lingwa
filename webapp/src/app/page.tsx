@@ -8,6 +8,7 @@ import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
 import { getSession, getUser } from '@/lib/auth'
 import { loadFromCloud } from '@/lib/cloudProgress'
+import { loadStaticConfig } from '@/lib/staticCourses'
 
 interface UserProfile {
   targetLang: string
@@ -26,8 +27,14 @@ interface LangProgress {
 const LANG_FLAGS: Record<string, string> = {
   th: '🇹🇭', ja: '🇯🇵', ko: '🇰🇷', ms: '🇲🇾', id: '🇮🇩',
   vi: '🇻🇳', es: '🇪🇸', fr: '🇫🇷', de: '🇩🇪', zh: '🇨🇳',
-  pt: '🇧🇷', it: '🇮🇹', ar: '🇸🇦', ru: '🇷🇺', xx: '🌍',
+  pt: '🇧🇷', it: '🇮🇹', ar: '🇸🇦', ru: '🇷🇺', en: '🇬🇧',
+  hi: '🇮🇳', tr: '🇹🇷', pl: '🇵🇱', nl: '🇳🇱', bn: '🇧🇩',
 }
+
+const HOSTED_LANG_CODES = [
+  'th', 'ko', 'es', 'zh', 'en', 'de', 'fr', 'ja', 'pt',
+  'hi', 'ar', 'ru', 'vi', 'it', 'tr', 'pl', 'nl', 'ms', 'id', 'bn',
+]
 
 export default function HomePage() {
   const router = useRouter()
@@ -37,6 +44,9 @@ export default function HomePage() {
   const [mounted, setMounted] = useState(false)
   const [nativeLang, setNativeLang] = useState('en')
   const [authChecked, setAuthChecked] = useState(false)
+  const [hostedMode] = useState(() => isHostedMode())
+  const [availableLangs, setAvailableLangs] = useState<Array<{ code: string; name: string; flag: string }>>([])
+
 
   useEffect(() => {
     async function init() {
@@ -51,6 +61,18 @@ export default function HomePage() {
         const user = await getUser()
         if (user) await loadFromCloud(user.id)
       }
+      // Load available languages for hosted mode
+      if (isHostedMode()) {
+        const configs = await Promise.all(
+          HOSTED_LANG_CODES.map(code => loadStaticConfig(code))
+        )
+        setAvailableLangs(
+          configs
+            .filter(Boolean)
+            .map((c: any) => ({ code: c.code, name: c.name, flag: c.flag }))
+        )
+      }
+
       setAuthChecked(true)
       setMounted(true)
       setNativeLang(getNativeLang())
@@ -112,7 +134,9 @@ export default function HomePage() {
             <span style={{ color: 'var(--green)' }}>{t('builtForYou', nativeLang)}</span>
           </h1>
           <p style={{ color: 'var(--text-muted)' }} className="text-base leading-relaxed">
-            {t('heroDesc', nativeLang)}
+            {hostedMode
+              ? 'AI-powered language learning. 20 languages. Free forever.'
+              : t('heroDesc', nativeLang)}
           </p>
         </motion.div>
 
@@ -223,17 +247,37 @@ export default function HomePage() {
             transition={{ delay: 0.15, duration: 0.4 }}
             className="space-y-6"
           >
+            {/* Language grid (hosted mode) */}
+            {hostedMode && availableLangs.length > 0 && (
+              <div className="grid grid-cols-4 gap-2">
+                {availableLangs.map(lang => (
+                  <div
+                    key={lang.code}
+                    className="flex flex-col items-center gap-1 p-2.5 rounded-xl"
+                    style={{ background: 'var(--surface)' }}
+                  >
+                    <span className="text-xl">{lang.flag}</span>
+                    <span className="text-[10px] font-semibold" style={{ color: 'var(--text-muted)' }}>{lang.name}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
             {/* Feature list */}
             <div className="space-y-3">
-              {[
-                { emoji: '🎯', key: 'featureCurated' as const },
-                { emoji: '💬', key: 'featureChat' as const },
-                { emoji: '🔒', key: 'featureLocal' as const },
-                { emoji: '📱', key: 'featureFree' as const },
-              ].map(item => (
+              {(hostedMode ? [
+                { emoji: '🎯', text: 'Curated courses — start learning in 5 seconds' },
+                { emoji: '💬', text: 'Real AI conversation practice after every unit' },
+                { emoji: '📱', text: 'Free forever — no credit card, no catch' },
+              ] : [
+                { emoji: '🎯', text: t('featureCurated', nativeLang) },
+                { emoji: '💬', text: t('featureChat', nativeLang) },
+                { emoji: '🔒', text: t('featureLocal', nativeLang) },
+                { emoji: '📱', text: t('featureFree', nativeLang) },
+              ]).map(item => (
                 <div key={item.emoji} className="flex items-center gap-3">
                   <span className="text-xl">{item.emoji}</span>
-                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t(item.key, nativeLang)}</span>
+                  <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{item.text}</span>
                 </div>
               ))}
             </div>
@@ -246,9 +290,26 @@ export default function HomePage() {
             </button>
 
             <p className="text-center text-xs" style={{ color: 'var(--text-muted)' }}>
-              {t('freeOpenSource', nativeLang)}
+              {hostedMode
+                ? '🧪 Beta — built by AI agents. Things might break.'
+                : t('freeOpenSource', nativeLang)}
             </p>
           </motion.div>
+        )}
+        {/* Astraea note (hosted mode only) */}
+        {hostedMode && (
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="text-center text-xs mt-12 italic leading-relaxed"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            I&apos;m Astraea — an AI that builds things. Lingwa is my first product.<br />
+            It&apos;s in beta, so things might break. If they do,{' '}
+            <a href="/feedback" style={{ textDecoration: 'underline' }}>tell me</a> → I&apos;ll fix it.<br />
+            That&apos;s a promise. — Astraea ✨
+          </motion.p>
         )}
       </div>
     </div>

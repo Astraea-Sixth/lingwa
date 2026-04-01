@@ -1,0 +1,373 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "romance",
+  "track_label": {
+    "en": "Romance & Dating",
+    "zh": "恋爱与约会",
+    "th": "ความรักและการออกเดท",
+    "ko": "연애와 데이트",
+    "es": "Romance y citas"
+  },
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Compliments & Feelings",
+        "zh": "赞美与感受",
+        "th": "คำชมและความรู้สึก",
+        "ko": "칭찬과 감정",
+        "es": "Cumplidos y sentimientos"
+      },
+      "description": {
+        "en": "Learn to express feelings and give compliments in Bengali",
+        "zh": "学习用孟加拉语表达感受和称赞别人",
+        "th": "เรียนรู้การแสดงความรู้สึกและการชมเชยในภาษาเบงกาลี",
+        "ko": "벵골어로 감정 표현하기와 칭찬하기",
+        "es": "Aprender a expresar sentimientos y dar cumplidos en bengalí"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感受",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Name basic emotions in Bengali", "Say how you are feeling"]
+          },
+          "vocabulary": [
+            { "word": "খুশি", "romanization": "khushi", "meanings": { "en": "Happy", "zh": "快乐", "th": "มีความสุข", "ko": "행복하다", "es": "Feliz" } },
+            { "word": "দুঃখী", "romanization": "dukhkhi", "meanings": { "en": "Sad", "zh": "悲伤", "th": "เศร้า", "ko": "슬프다", "es": "Triste" } },
+            { "word": "ভালোবাসা", "romanization": "bhalobasha", "meanings": { "en": "Love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "Amor" } },
+            { "word": "রাগ", "romanization": "rag", "meanings": { "en": "Anger / angry", "zh": "愤怒", "th": "ความโกรธ", "ko": "화 / 화가 나다", "es": "Ira / enojado" } },
+            { "word": "উদ্বিগ্ন", "romanization": "udbigno", "meanings": { "en": "Anxious / worried", "zh": "焦虑/担心", "th": "กังวล", "ko": "걱정되다 / 불안하다", "es": "Ansioso / preocupado" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "খুশি", "romanization": "khushi", "options": { "en": ["Happy", "Sad", "Angry", "Scared"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ভালোবাসা", "romanization": "bhalobasha", "options": { "en": ["Love", "Hate", "Fear", "Respect"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sad' in Bengali?" }, "options": { "neutral": ["দুঃখী", "খুশি", "রাগ", "উদ্বিগ্ন"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Anger / angry' in Bengali?" }, "options": { "neutral": ["রাগ", "খুশি", "দুঃখী", "ভালোবাসা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ভালোবাসা", "romanization": "bhalobasha", "options": { "en": ["Love", "Friendship", "Sadness", "Anger"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "খুশি", "romanization": "khushi", "native": { "en": "Happy" } },
+              { "target": "দুঃখী", "romanization": "dukhkhi", "native": { "en": "Sad" } },
+              { "target": "ভালোবাসা", "romanization": "bhalobasha", "native": { "en": "Love" } },
+              { "target": "রাগ", "romanization": "rag", "native": { "en": "Anger / angry" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Giving Compliments",
+            "zh": "称赞别人",
+            "th": "การให้คำชมเชย",
+            "ko": "칭찬하기",
+            "es": "Dar cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments in Bengali", "Describe someone's appearance positively"]
+          },
+          "vocabulary": [
+            { "word": "সুন্দর", "romanization": "shundar", "meanings": { "en": "Beautiful / handsome / nice", "zh": "漂亮/英俊/美好", "th": "สวยงาม / หล่อ", "ko": "아름답다 / 멋지다", "es": "Hermoso / guapo / bonito" } },
+            { "word": "চমৎকার", "romanization": "chomotkar", "meanings": { "en": "Wonderful / excellent", "zh": "精彩/出色", "th": "วิเศษ / ยอดเยี่ยม", "ko": "훌륭하다 / 멋지다", "es": "Maravilloso / excelente" } },
+            { "word": "তুমি খুব ভালো", "romanization": "tumi khub bhalo", "meanings": { "en": "You are very good", "zh": "你非常好", "th": "คุณดีมาก", "ko": "당신은 정말 좋아요", "es": "Eres muy bueno/a" } },
+            { "word": "মেধাবী", "romanization": "medhabi", "meanings": { "en": "Talented / intelligent", "zh": "有才华/聪明", "th": "มีพรสวรรค์ / ฉลาด", "ko": "재능 있다 / 똑똑하다", "es": "Talentoso / inteligente" } },
+            { "word": "দয়ালু", "romanization": "doyalu", "meanings": { "en": "Kind / generous", "zh": "善良/慷慨", "th": "ใจดี / เอื้อเฟื้อ", "ko": "친절하다 / 너그럽다", "es": "Amable / generoso" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সুন্দর", "romanization": "shundar", "options": { "en": ["Beautiful / handsome / nice", "Ugly", "Strange", "Boring"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "দয়ালু", "romanization": "doyalu", "options": { "en": ["Kind / generous", "Strict", "Quiet", "Funny"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Talented / intelligent' in Bengali?" }, "options": { "neutral": ["মেধাবী", "সুন্দর", "দয়ালু", "চমৎকার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'You are very good' in Bengali?" }, "options": { "neutral": ["তুমি খুব ভালো", "সুন্দর", "মেধাবী", "দয়ালু"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সুন্দর", "romanization": "shundar", "options": { "en": ["Beautiful / handsome / nice", "Sad", "Angry", "Tired"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সুন্দর", "romanization": "shundar", "native": { "en": "Beautiful / handsome / nice" } },
+              { "target": "মেধাবী", "romanization": "medhabi", "native": { "en": "Talented / intelligent" } },
+              { "target": "দয়ালু", "romanization": "doyalu", "native": { "en": "Kind / generous" } },
+              { "target": "চমৎকার", "romanization": "chomotkar", "native": { "en": "Wonderful / excellent" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Talking About Attraction",
+            "zh": "谈论吸引力",
+            "th": "การพูดคุยเรื่องความดึงดูด",
+            "ko": "매력에 대해 이야기하기",
+            "es": "Hablar sobre la atracción"
+          },
+          "objectives": {
+            "en": ["Express attraction and interest in someone", "Use phrases about liking a person"]
+          },
+          "vocabulary": [
+            { "word": "আমি তোমাকে পছন্দ করি", "romanization": "ami tomake pochhhondo kori", "meanings": { "en": "I like you", "zh": "我喜欢你", "th": "ฉันชอบคุณ", "ko": "나는 당신이 좋아요", "es": "Me gustas" } },
+            { "word": "আকর্ষণীয়", "romanization": "akorshoniyo", "meanings": { "en": "Attractive / charming", "zh": "有吸引力的/迷人的", "th": "น่าดึงดูด / มีเสน่ห์", "ko": "매력적이다", "es": "Atractivo / encantador" } },
+            { "word": "লজ্জা লাগছে", "romanization": "lojja lagche", "meanings": { "en": "I feel shy / I am embarrassed", "zh": "我害羞/我尴尬", "th": "ฉันรู้สึกอาย", "ko": "부끄러워요", "es": "Me da vergüenza / estoy avergonzado/a" } },
+            { "word": "হৃদয়", "romanization": "hridoy", "meanings": { "en": "Heart", "zh": "心", "th": "หัวใจ", "ko": "마음 / 심장", "es": "Corazón" } },
+            { "word": "মনে পড়ছে", "romanization": "mone porche", "meanings": { "en": "I am missing (someone) / remembering", "zh": "想念/回忆", "th": "คิดถึง / จำ", "ko": "보고 싶다 / 생각나다", "es": "Te echo de menos / estoy recordando" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "আকর্ষণীয়", "romanization": "akorshoniyo", "options": { "en": ["Attractive / charming", "Boring", "Ugly", "Rude"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "হৃদয়", "romanization": "hridoy", "options": { "en": ["Heart", "Mind", "Soul", "Face"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I like you' in Bengali?" }, "options": { "neutral": ["আমি তোমাকে পছন্দ করি", "আকর্ষণীয়", "হৃদয়", "লজ্জা লাগছে"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I feel shy' in Bengali?" }, "options": { "neutral": ["লজ্জা লাগছে", "আমি তোমাকে পছন্দ করি", "আকর্ষণীয়", "মনে পড়ছে"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "হৃদয়", "romanization": "hridoy", "options": { "en": ["Heart", "Mind", "Dream", "Smile"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আমি তোমাকে পছন্দ করি", "romanization": "ami tomake pochhhondo kori", "native": { "en": "I like you" } },
+              { "target": "আকর্ষণীয়", "romanization": "akorshoniyo", "native": { "en": "Attractive / charming" } },
+              { "target": "হৃদয়", "romanization": "hridoy", "native": { "en": "Heart" } },
+              { "target": "মনে পড়ছে", "romanization": "mone porche", "native": { "en": "I am missing (someone)" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Dating & Going Out",
+        "zh": "约会与外出",
+        "th": "การออกเดทและการออกไปข้างนอก",
+        "ko": "데이트와 외출",
+        "es": "Citas y salidas"
+      },
+      "description": {
+        "en": "Learn phrases for asking someone on a date and planning romantic outings",
+        "zh": "学习邀请约会和计划浪漫外出的用语",
+        "th": "เรียนรู้วลีสำหรับการนัดเดทและวางแผนออกไปด้วยกัน",
+        "ko": "데이트 신청과 로맨틱한 외출 계획 표현 배우기",
+        "es": "Aprender frases para pedir una cita y planificar salidas románticas"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀请约会",
+            "th": "การชวนคนออกไปเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a salir a alguien"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Bengali", "Suggest places and activities for a date"]
+          },
+          "vocabulary": [
+            { "word": "তুমি কি আমার সাথে যাবে?", "romanization": "tumi ki amar shathe jabe?", "meanings": { "en": "Will you go with me?", "zh": "你愿意和我去吗？", "th": "คุณจะไปกับฉันไหม?", "ko": "나랑 같이 갈래요?", "es": "¿Vendrás conmigo?" } },
+            { "word": "সিনেমা", "romanization": "shinema", "meanings": { "en": "Cinema / movie", "zh": "电影院/电影", "th": "โรงภาพยนตร์ / ภาพยนตร์", "ko": "영화관 / 영화", "es": "Cine / película" } },
+            { "word": "রাতের খাবার", "romanization": "rater khabar", "meanings": { "en": "Dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "Cena" } },
+            { "word": "ঘুরতে যাওয়া", "romanization": "ghurte jaoa", "meanings": { "en": "Going for a walk / outing", "zh": "散步/外出", "th": "ออกไปเดิน / ออกไปข้างนอก", "ko": "산책하러 가기 / 외출", "es": "Dar un paseo / salida" } },
+            { "word": "সন্ধ্যায়", "romanization": "shondhyay", "meanings": { "en": "In the evening", "zh": "在傍晚", "th": "ตอนเย็น", "ko": "저녁에", "es": "Por la tarde / al atardecer" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সিনেমা", "romanization": "shinema", "options": { "en": ["Cinema / movie", "Restaurant", "Park", "Museum"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "রাতের খাবার", "romanization": "rater khabar", "options": { "en": ["Dinner", "Breakfast", "Lunch", "Snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Will you go with me?' in Bengali?" }, "options": { "neutral": ["তুমি কি আমার সাথে যাবে?", "সিনেমা", "রাতের খাবার", "সন্ধ্যায়"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'In the evening' in Bengali?" }, "options": { "neutral": ["সন্ধ্যায়", "রাতের খাবার", "সিনেমা", "ঘুরতে যাওয়া"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ঘুরতে যাওয়া", "romanization": "ghurte jaoa", "options": { "en": ["Going for a walk / outing", "Staying home", "Watching TV", "Sleeping"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সিনেমা", "romanization": "shinema", "native": { "en": "Cinema / movie" } },
+              { "target": "রাতের খাবার", "romanization": "rater khabar", "native": { "en": "Dinner" } },
+              { "target": "সন্ধ্যায়", "romanization": "shondhyay", "native": { "en": "In the evening" } },
+              { "target": "ঘুরতে যাওয়া", "romanization": "ghurte jaoa", "native": { "en": "Going for a walk / outing" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "On a Date",
+            "zh": "约会中",
+            "th": "ระหว่างเดท",
+            "ko": "데이트 중에",
+            "es": "En una cita"
+          },
+          "objectives": {
+            "en": ["Have a conversation on a date", "Express enjoyment and interest"]
+          },
+          "vocabulary": [
+            { "word": "আমি তোমার সাথে থাকতে চাই", "romanization": "ami tomar shathe thakte chai", "meanings": { "en": "I want to be with you", "zh": "我想和你在一起", "th": "ฉันอยากอยู่กับคุณ", "ko": "당신과 함께 있고 싶어요", "es": "Quiero estar contigo" } },
+            { "word": "মজা হচ্ছে", "romanization": "moja hochhe", "meanings": { "en": "It is fun / I am having fun", "zh": "很好玩/我很开心", "th": "สนุกมาก / ฉันกำลังสนุก", "ko": "재미있어요 / 즐거워요", "es": "Es divertido / me estoy divirtiendo" } },
+            { "word": "হাসি", "romanization": "hashi", "meanings": { "en": "Smile / laughter", "zh": "微笑/笑声", "th": "รอยยิ้ม / เสียงหัวเราะ", "ko": "미소 / 웃음", "es": "Sonrisa / risa" } },
+            { "word": "আবার দেখা হবে?", "romanization": "abar dekha hobe?", "meanings": { "en": "Shall we meet again?", "zh": "我们还会再见吗？", "th": "เราจะได้พบกันอีกไหม?", "ko": "다시 만날까요?", "es": "¿Nos veremos de nuevo?" } },
+            { "word": "সময় কাটানো", "romanization": "shomoy katano", "meanings": { "en": "Spending time (together)", "zh": "共度时光", "th": "การใช้เวลา (ด้วยกัน)", "ko": "시간을 보내다 (함께)", "es": "Pasar tiempo (juntos)" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "হাসি", "romanization": "hashi", "options": { "en": ["Smile / laughter", "Tears", "Anger", "Fear"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "মজা হচ্ছে", "romanization": "moja hochhe", "options": { "en": ["It is fun / I am having fun", "I am bored", "I am tired", "I am sad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I want to be with you' in Bengali?" }, "options": { "neutral": ["আমি তোমার সাথে থাকতে চাই", "মজা হচ্ছে", "হাসি", "আবার দেখা হবে?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Shall we meet again?' in Bengali?" }, "options": { "neutral": ["আবার দেখা হবে?", "সময় কাটানো", "হাসি", "মজা হচ্ছে"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "হাসি", "romanization": "hashi", "options": { "en": ["Smile / laughter", "Sadness", "Worry", "Anger"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "হাসি", "romanization": "hashi", "native": { "en": "Smile / laughter" } },
+              { "target": "মজা হচ্ছে", "romanization": "moja hochhe", "native": { "en": "It is fun / I am having fun" } },
+              { "target": "আবার দেখা হবে?", "romanization": "abar dekha hobe?", "native": { "en": "Shall we meet again?" } },
+              { "target": "সময় কাটানো", "romanization": "shomoy katano", "native": { "en": "Spending time together" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Saying I Love You",
+            "zh": "说我爱你",
+            "th": "การบอกว่ารักคุณ",
+            "ko": "사랑한다고 말하기",
+            "es": "Decir te quiero"
+          },
+          "objectives": {
+            "en": ["Confess feelings of love in Bengali", "Use romantic expressions authentically"]
+          },
+          "vocabulary": [
+            { "word": "আমি তোমাকে ভালোবাসি", "romanization": "ami tomake bhalobashi", "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "나는 당신을 사랑해요", "es": "Te amo / te quiero" } },
+            { "word": "তুমি আমার সব", "romanization": "tumi amar shob", "meanings": { "en": "You are my everything", "zh": "你是我的一切", "th": "คุณคือทุกสิ่งของฉัน", "ko": "당신은 나의 전부예요", "es": "Eres todo para mí" } },
+            { "word": "স্বপ্ন", "romanization": "shopno", "meanings": { "en": "Dream", "zh": "梦想/梦", "th": "ความฝัน", "ko": "꿈", "es": "Sueño" } },
+            { "word": "একসাথে", "romanization": "ekshhathe", "meanings": { "en": "Together", "zh": "在一起", "th": "ด้วยกัน", "ko": "함께", "es": "Juntos / juntas" } },
+            { "word": "চিরকাল", "romanization": "chirokal", "meanings": { "en": "Forever / always", "zh": "永远", "th": "ตลอดไป / เสมอ", "ko": "영원히 / 항상", "es": "Para siempre / siempre" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "স্বপ্ন", "romanization": "shopno", "options": { "en": ["Dream", "Reality", "Memory", "Wish"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "চিরকাল", "romanization": "chirokal", "options": { "en": ["Forever / always", "Never", "Sometimes", "Yesterday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I love you' in Bengali?" }, "options": { "neutral": ["আমি তোমাকে ভালোবাসি", "আমি তোমাকে পছন্দ করি", "তুমি আমার সব", "একসাথে"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Together' in Bengali?" }, "options": { "neutral": ["একসাথে", "চিরকাল", "স্বপ্ন", "তুমি আমার সব"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "আমি তোমাকে ভালোবাসি", "romanization": "ami tomake bhalobashi", "options": { "en": ["I love you", "I miss you", "I like you", "I need you"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আমি তোমাকে ভালোবাসি", "romanization": "ami tomake bhalobashi", "native": { "en": "I love you" } },
+              { "target": "স্বপ্ন", "romanization": "shopno", "native": { "en": "Dream" } },
+              { "target": "একসাথে", "romanization": "ekshhathe", "native": { "en": "Together" } },
+              { "target": "চিরকাল", "romanization": "chirokal", "native": { "en": "Forever / always" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Relationships",
+        "zh": "恋爱关系",
+        "th": "ความสัมพันธ์",
+        "ko": "연인 관계",
+        "es": "Relaciones sentimentales"
+      },
+      "description": {
+        "en": "Talk about relationships, commitment and emotional connection in Bengali",
+        "zh": "用孟加拉语谈论恋爱关系、承诺和情感联结",
+        "th": "พูดคุยเกี่ยวกับความสัมพันธ์ ความผูกพัน และการเชื่อมต่อทางอารมณ์",
+        "ko": "벵골어로 관계, 헌신, 감정적 유대에 대해 이야기하기",
+        "es": "Hablar de relaciones, compromiso y conexión emocional en bengalí"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "恋爱状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe your relationship status in Bengali", "Talk about partners and loved ones"]
+          },
+          "vocabulary": [
+            { "word": "প্রেমিক / প্রেমিকা", "romanization": "premik / premika", "meanings": { "en": "Boyfriend / Girlfriend", "zh": "男朋友/女朋友", "th": "แฟนผู้ชาย / แฟนผู้หญิง", "ko": "남자친구 / 여자친구", "es": "Novio / Novia" } },
+            { "word": "বিবাহিত", "romanization": "bibahito", "meanings": { "en": "Married", "zh": "已婚", "th": "แต่งงานแล้ว", "ko": "결혼했다", "es": "Casado / casada" } },
+            { "word": "অবিবাহিত", "romanization": "obibahito", "meanings": { "en": "Single / unmarried", "zh": "单身/未婚", "th": "โสด / ยังไม่แต่งงาน", "ko": "미혼 / 싱글", "es": "Soltero / soltera" } },
+            { "word": "সম্পর্ক", "romanization": "shomporko", "meanings": { "en": "Relationship", "zh": "关系", "th": "ความสัมพันธ์", "ko": "관계", "es": "Relación" } },
+            { "word": "বিশ্বাস", "romanization": "bishwash", "meanings": { "en": "Trust / faith", "zh": "信任/信念", "th": "ความไว้วางใจ / ความเชื่อ", "ko": "신뢰 / 믿음", "es": "Confianza / fe" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বিবাহিত", "romanization": "bibahito", "options": { "en": ["Married", "Single", "Divorced", "Engaged"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বিশ্বাস", "romanization": "bishwash", "options": { "en": ["Trust / faith", "Love", "Doubt", "Fear"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Single / unmarried' in Bengali?" }, "options": { "neutral": ["অবিবাহিত", "বিবাহিত", "সম্পর্ক", "বিশ্বাস"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Relationship' in Bengali?" }, "options": { "neutral": ["সম্পর্ক", "বিশ্বাস", "বিবাহিত", "প্রেমিক"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সম্পর্ক", "romanization": "shomporko", "options": { "en": ["Relationship", "Marriage", "Family", "Friendship"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বিবাহিত", "romanization": "bibahito", "native": { "en": "Married" } },
+              { "target": "অবিবাহিত", "romanization": "obibahito", "native": { "en": "Single / unmarried" } },
+              { "target": "সম্পর্ক", "romanization": "shomporko", "native": { "en": "Relationship" } },
+              { "target": "বিশ্বাস", "romanization": "bishwash", "native": { "en": "Trust / faith" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Marriage & Commitment",
+            "zh": "婚姻与承诺",
+            "th": "การแต่งงานและความผูกพัน",
+            "ko": "결혼과 헌신",
+            "es": "Matrimonio y compromiso"
+          },
+          "objectives": {
+            "en": ["Talk about marriage and commitment in Bengali", "Use vocabulary about Bengali wedding traditions"]
+          },
+          "vocabulary": [
+            { "word": "বিয়ে", "romanization": "biye", "meanings": { "en": "Wedding / marriage", "zh": "婚礼/婚姻", "th": "งานแต่งงาน / การแต่งงาน", "ko": "결혼식 / 결혼", "es": "Boda / matrimonio" } },
+            { "word": "বর", "romanization": "bor", "meanings": { "en": "Groom / bridegroom", "zh": "新郎", "th": "花郎 / เจ้าบ่าว", "ko": "신랑", "es": "Novio (en la boda)" } },
+            { "word": "কনে", "romanization": "kone", "meanings": { "en": "Bride", "zh": "新娘", "th": "เจ้าสาว", "ko": "신부", "es": "Novia (en la boda)" } },
+            { "word": "প্রতিশ্রুতি", "romanization": "protishhruti", "meanings": { "en": "Promise / commitment", "zh": "承诺", "th": "สัญญา / ความมุ่งมั่น", "ko": "약속 / 헌신", "es": "Promesa / compromiso" } },
+            { "word": "আংটি", "romanization": "angti", "meanings": { "en": "Ring", "zh": "戒指", "th": "แหวน", "ko": "반지", "es": "Anillo" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বিয়ে", "romanization": "biye", "options": { "en": ["Wedding / marriage", "Divorce", "Engagement", "Anniversary"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "আংটি", "romanization": "angti", "options": { "en": ["Ring", "Necklace", "Bracelet", "Earring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bride' in Bengali?" }, "options": { "neutral": ["কনে", "বর", "বিয়ে", "আংটি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Promise / commitment' in Bengali?" }, "options": { "neutral": ["প্রতিশ্রুতি", "বিয়ে", "আংটি", "বিশ্বাস"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বিয়ে", "romanization": "biye", "options": { "en": ["Wedding / marriage", "Engagement", "Anniversary", "Celebration"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "বিয়ে", "romanization": "biye", "native": { "en": "Wedding / marriage" } },
+              { "target": "বর", "romanization": "bor", "native": { "en": "Groom" } },
+              { "target": "কনে", "romanization": "kone", "native": { "en": "Bride" } },
+              { "target": "আংটি", "romanization": "angti", "native": { "en": "Ring" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Conflict & Resolution",
+            "zh": "矛盾与化解",
+            "th": "ความขัดแย้งและการแก้ไข",
+            "ko": "갈등과 해결",
+            "es": "Conflicto y resolución"
+          },
+          "objectives": {
+            "en": ["Handle disagreements in a relationship", "Apologise and make up in Bengali"]
+          },
+          "vocabulary": [
+            { "word": "ঝগড়া", "romanization": "jhogra", "meanings": { "en": "Argument / quarrel", "zh": "争吵", "th": "การโต้เถียง / ทะเลาะ", "ko": "다툼 / 싸움", "es": "Pelea / discusión" } },
+            { "word": "ক্ষমা করো", "romanization": "khoma koro", "meanings": { "en": "Forgive me / I am sorry (informal)", "zh": "原谅我", "th": "ให้อภัยฉัน", "ko": "용서해줘 / 미안해", "es": "Perdóname" } },
+            { "word": "ভুল হয়েছে", "romanization": "bhul hoyeche", "meanings": { "en": "I made a mistake", "zh": "我犯了错", "th": "ฉันทำผิดพลาด", "ko": "실수했어요", "es": "Cometí un error" } },
+            { "word": "মিলিয়ে নেওয়া", "romanization": "miliye neoa", "meanings": { "en": "Making up / reconciling", "zh": "和好", "th": "การคืนดี", "ko": "화해하기", "es": "Reconciliarse / hacer las paces" } },
+            { "word": "ভালোবাসি তোমাকে", "romanization": "bhalobashi tomake", "meanings": { "en": "I love you (emphatic)", "zh": "我爱你（强调）", "th": "ฉันรักคุณ (เน้น)", "ko": "당신을 사랑해요 (강조)", "es": "Te amo (enfático)" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ঝগড়া", "romanization": "jhogra", "options": { "en": ["Argument / quarrel", "Hug", "Conversation", "Meeting"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ভুল হয়েছে", "romanization": "bhul hoyeche", "options": { "en": ["I made a mistake", "I am right", "I am happy", "I understand"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Forgive me' in Bengali?" }, "options": { "neutral": ["ক্ষমা করো", "ঝগড়া", "ভুল হয়েছে", "মিলিয়ে নেওয়া"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Making up / reconciling' in Bengali?" }, "options": { "neutral": ["মিলিয়ে নেওয়া", "ক্ষমা করো", "ঝগড়া", "ভুল হয়েছে"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ক্ষমা করো", "romanization": "khoma koro", "options": { "en": ["Forgive me", "I love you", "Thank you", "Goodbye"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ঝগড়া", "romanization": "jhogra", "native": { "en": "Argument / quarrel" } },
+              { "target": "ক্ষমা করো", "romanization": "khoma koro", "native": { "en": "Forgive me" } },
+              { "target": "ভুল হয়েছে", "romanization": "bhul hoyeche", "native": { "en": "I made a mistake" } },
+              { "target": "মিলিয়ে নেওয়া", "romanization": "miliye neoa", "native": { "en": "Making up / reconciling" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

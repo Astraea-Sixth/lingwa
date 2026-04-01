@@ -1,0 +1,33 @@
+{
+  "code": "ar",
+  "name": "Arabic",
+  "nativeName": "العربية",
+  "tutor": {
+    "name": "Layla",
+    "nameNative": "ليلى",
+    "personality": "poetic, patient, weaves cultural context into lessons, explains root patterns"
+  },
+  "ttsVoice": "ar-SA",
+  "hasScript": true,
+  "scriptName": "Arabic script",
+  "scriptTrack": {
+    "available": true,
+    "units": ["Arabic alphabet (28 letters)", "Vowel marks (tashkeel)", "Connected forms (initial, medial, final)", "Reading practice"]
+  },
+  "tones": 0,
+  "toneNames": [],
+  "difficulty": "hard",
+  "flag": "🇸🇦",
+  "script": "arabic",
+  "rtl": true,
+  "tonal": false,
+  "cefr_available": ["A1", "A2"],
+  "shipped_with": "v2",
+  "contributors": ["astraea"],
+  "samplePhrases": [
+    {"ar": "مرحبا", "rom": "marhaba", "en": "Hello"},
+    {"ar": "شكرا", "rom": "shukran", "en": "Thank you"},
+    {"ar": "كيف حالك؟", "rom": "kayfa halak?", "en": "How are you?"}
+  ],
+  "notes": "Arabic is written right-to-left using the Arabic script. It features a root-based morphology system where most words derive from three-letter roots, and letters change form based on their position in a word."
+}

@@ -1,0 +1,373 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "social",
+  "track_label": {
+    "en": "Social Life",
+    "zh": "社交生活",
+    "th": "ชีวิตสังคม",
+    "ko": "사회생활",
+    "es": "Vida social"
+  },
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Friends",
+        "zh": "交朋友",
+        "th": "การสร้างมิตรภาพ",
+        "ko": "친구 사귀기",
+        "es": "Hacer amigos"
+      },
+      "description": {
+        "en": "Learn phrases for meeting people and starting conversations",
+        "zh": "学习与人见面和开始对话的用语",
+        "th": "เรียนรู้วลีสำหรับการพบปะผู้คนและเริ่มบทสนทนา",
+        "ko": "사람 만나기와 대화 시작 표현 배우기",
+        "es": "Aprender frases para conocer gente e iniciar conversaciones"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Introducing Yourself",
+            "zh": "自我介绍",
+            "th": "การแนะนำตัวเอง",
+            "ko": "자기소개",
+            "es": "Presentarse"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and others in Bengali", "Ask and answer basic personal questions"]
+          },
+          "vocabulary": [
+            { "word": "আমার নাম", "romanization": "amar nam", "meanings": { "en": "My name is", "zh": "我的名字是", "th": "ชื่อของฉันคือ", "ko": "제 이름은", "es": "Mi nombre es" } },
+            { "word": "আপনার নাম কী?", "romanization": "apnar nam ki?", "meanings": { "en": "What is your name?", "zh": "你叫什么名字？", "th": "คุณชื่ออะไร?", "ko": "이름이 뭐예요?", "es": "¿Cómo se llama usted?" } },
+            { "word": "পরিচয়", "romanization": "porichoy", "meanings": { "en": "Introduction / identity", "zh": "介绍/认识", "th": "การแนะนำ / ตัวตน", "ko": "소개 / 신원", "es": "Presentación / identidad" } },
+            { "word": "বন্ধু", "romanization": "bondhu", "meanings": { "en": "Friend", "zh": "朋友", "th": "เพื่อน", "ko": "친구", "es": "Amigo / amiga" } },
+            { "word": "আপনি কোথা থেকে এসেছেন?", "romanization": "apni kotha theke eshechen?", "meanings": { "en": "Where are you from?", "zh": "你从哪里来？", "th": "คุณมาจากไหน?", "ko": "어디서 왔어요?", "es": "¿De dónde es usted?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "বন্ধু", "romanization": "bondhu", "options": { "en": ["Friend", "Family", "Colleague", "Neighbour"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "পরিচয়", "romanization": "porichoy", "options": { "en": ["Introduction / identity", "Conversation", "Greeting", "Farewell"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'My name is' in Bengali?" }, "options": { "neutral": ["আমার নাম", "আপনার নাম কী?", "বন্ধু", "পরিচয়"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'What is your name?' in Bengali?" }, "options": { "neutral": ["আপনার নাম কী?", "আমার নাম", "পরিচয়", "বন্ধু"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বন্ধু", "romanization": "bondhu", "options": { "en": ["Friend", "Enemy", "Stranger", "Teacher"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আমার নাম", "romanization": "amar nam", "native": { "en": "My name is" } },
+              { "target": "বন্ধু", "romanization": "bondhu", "native": { "en": "Friend" } },
+              { "target": "পরিচয়", "romanization": "porichoy", "native": { "en": "Introduction / identity" } },
+              { "target": "আপনার নাম কী?", "romanization": "apnar nam ki?", "native": { "en": "What is your name?" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Hobbies & Interests",
+            "zh": "爱好与兴趣",
+            "th": "งานอดิเรกและความสนใจ",
+            "ko": "취미와 관심사",
+            "es": "Aficiones e intereses"
+          },
+          "objectives": {
+            "en": ["Talk about hobbies and free time activities", "Express likes and dislikes"]
+          },
+          "vocabulary": [
+            { "word": "শখ", "romanization": "shokh", "meanings": { "en": "Hobby / interest", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "Afición" } },
+            { "word": "আমি ভালোবাসি", "romanization": "ami bhalobashi", "meanings": { "en": "I love / I like very much", "zh": "我喜欢/热爱", "th": "ฉันชอบมาก", "ko": "나는 좋아해요", "es": "Me encanta / amo" } },
+            { "word": "খেলাধুলা", "romanization": "kheladhula", "meanings": { "en": "Sports / games", "zh": "体育运动", "th": "กีฬา / เกม", "ko": "스포츠 / 운동", "es": "Deportes / juegos" } },
+            { "word": "গান", "romanization": "gan", "meanings": { "en": "Song / music", "zh": "歌曲/音乐", "th": "เพลง / ดนตรี", "ko": "노래 / 음악", "es": "Canción / música" } },
+            { "word": "পড়তে পছন্দ করি", "romanization": "porte pochhhondo kori", "meanings": { "en": "I like to read", "zh": "我喜欢读书", "th": "ฉันชอบอ่านหนังสือ", "ko": "읽는 걸 좋아해요", "es": "Me gusta leer" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "শখ", "romanization": "shokh", "options": { "en": ["Hobby / interest", "Job", "Study", "Travel"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "গান", "romanization": "gan", "options": { "en": ["Song / music", "Dance", "Film", "Sport"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sports / games' in Bengali?" }, "options": { "neutral": ["খেলাধুলা", "শখ", "গান", "আমি ভালোবাসি"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I love / I like very much' in Bengali?" }, "options": { "neutral": ["আমি ভালোবাসি", "পড়তে পছন্দ করি", "গান", "শখ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "খেলাধুলা", "romanization": "kheladhula", "options": { "en": ["Sports / games", "Music", "Reading", "Cooking"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "শখ", "romanization": "shokh", "native": { "en": "Hobby / interest" } },
+              { "target": "গান", "romanization": "gan", "native": { "en": "Song / music" } },
+              { "target": "খেলাধুলা", "romanization": "kheladhula", "native": { "en": "Sports / games" } },
+              { "target": "আমি ভালোবাসি", "romanization": "ami bhalobashi", "native": { "en": "I love / I like very much" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": ["Invite someone to do an activity", "Accept or decline an invitation politely"]
+          },
+          "vocabulary": [
+            { "word": "চলুন", "romanization": "cholun", "meanings": { "en": "Let's go / come on", "zh": "走吧/来吧", "th": "ไปกันเถอะ", "ko": "가요 / 어서요", "es": "Vamos / vámonos" } },
+            { "word": "আমন্ত্রণ", "romanization": "amontron", "meanings": { "en": "Invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "Invitación" } },
+            { "word": "আমি রাজি", "romanization": "ami raji", "meanings": { "en": "I agree / I accept", "zh": "我同意/接受", "th": "ฉันยอมรับ / ตกลง", "ko": "동의해요 / 좋아요", "es": "Estoy de acuerdo / acepto" } },
+            { "word": "সম্ভব না", "romanization": "shombhob na", "meanings": { "en": "Not possible / I can't", "zh": "不可能/不行", "th": "ไม่ได้ / ไม่สามารถ", "ko": "불가능해요 / 못 해요", "es": "No es posible / no puedo" } },
+            { "word": "কখন?", "romanization": "kokhon?", "meanings": { "en": "When?", "zh": "什么时候？", "th": "เมื่อไหร่?", "ko": "언제요?", "es": "¿Cuándo?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "চলুন", "romanization": "cholun", "options": { "en": ["Let's go / come on", "Stop", "Wait", "Sit down"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "আমন্ত্রণ", "romanization": "amontron", "options": { "en": ["Invitation", "Meeting", "Event", "Party"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I agree / I accept' in Bengali?" }, "options": { "neutral": ["আমি রাজি", "সম্ভব না", "চলুন", "আমন্ত্রণ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'When?' in Bengali?" }, "options": { "neutral": ["কখন?", "আমি রাজি", "চলুন", "সম্ভব না"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সম্ভব না", "romanization": "shombhob na", "options": { "en": ["Not possible / I can't", "Of course", "Let's go", "Good idea"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "চলুন", "romanization": "cholun", "native": { "en": "Let's go / come on" } },
+              { "target": "আমন্ত্রণ", "romanization": "amontron", "native": { "en": "Invitation" } },
+              { "target": "আমি রাজি", "romanization": "ami raji", "native": { "en": "I agree / I accept" } },
+              { "target": "কখন?", "romanization": "kokhon?", "native": { "en": "When?" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Festivals & Culture",
+        "zh": "节日与文化",
+        "th": "เทศกาลและวัฒนธรรม",
+        "ko": "축제와 문화",
+        "es": "Festivales y cultura"
+      },
+      "description": {
+        "en": "Discover Bengali festivals, celebrations and cultural traditions",
+        "zh": "了解孟加拉节日、庆祝活动和文化传统",
+        "th": "เรียนรู้เทศกาล การเฉลิมฉลอง และประเพณีวัฒนธรรมเบงกาลี",
+        "ko": "벵골 축제, 기념행사 및 문화 전통 탐구",
+        "es": "Descubrir festivales, celebraciones y tradiciones culturales bengalíes"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Bengali New Year (Pahela Baishakh)",
+            "zh": "孟加拉新年（Pahela Baishakh）",
+            "th": "ปีใหม่เบงกาลี (Pahela Baishakh)",
+            "ko": "벵골 새해 (파헬라 바이샤크)",
+            "es": "Año nuevo bengalí (Pahela Baishakh)"
+          },
+          "objectives": {
+            "en": ["Talk about Pahela Baishakh and Bengali New Year customs", "Use festive greetings"]
+          },
+          "vocabulary": [
+            { "word": "পহেলা বৈশাখ", "romanization": "pohela boishakh", "meanings": { "en": "Pahela Baishakh (Bengali New Year)", "zh": "孟加拉新年", "th": "ปีใหม่เบงกาลี", "ko": "파헬라 바이샤크 (벵골 새해)", "es": "Pahela Baishakh (Año Nuevo bengalí)" } },
+            { "word": "উৎসব", "romanization": "utshob", "meanings": { "en": "Festival / celebration", "zh": "节日/庆典", "th": "เทศกาล / การเฉลิมฉลอง", "ko": "축제 / 기념행사", "es": "Festival / celebración" } },
+            { "word": "শুভ নববর্ষ", "romanization": "shubho noboborsho", "meanings": { "en": "Happy New Year", "zh": "新年快乐", "th": "สวัสดีปีใหม่", "ko": "새해 복 많이 받으세요", "es": "Feliz Año Nuevo" } },
+            { "word": "মেলা", "romanization": "mela", "meanings": { "en": "Fair / carnival", "zh": "集会/嘉年华", "th": "งานแฟร์ / เทศกาล", "ko": "장터 / 축제", "es": "Feria / carnaval" } },
+            { "word": "আনন্দ", "romanization": "anondo", "meanings": { "en": "Joy / happiness", "zh": "快乐/喜悦", "th": "ความสุข / ความยินดี", "ko": "기쁨 / 행복", "es": "Alegría / felicidad" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "উৎসব", "romanization": "utshob", "options": { "en": ["Festival / celebration", "Holiday", "Weekend", "Concert"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "মেলা", "romanization": "mela", "options": { "en": ["Fair / carnival", "Market", "Shop", "Park"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Happy New Year' in Bengali?" }, "options": { "neutral": ["শুভ নববর্ষ", "পহেলা বৈশাখ", "আনন্দ", "মেলা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Joy / happiness' in Bengali?" }, "options": { "neutral": ["আনন্দ", "উৎসব", "মেলা", "শুভ নববর্ষ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পহেলা বৈশাখ", "romanization": "pohela boishakh", "options": { "en": ["Bengali New Year", "Eid festival", "Wedding day", "National holiday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "উৎসব", "romanization": "utshob", "native": { "en": "Festival / celebration" } },
+              { "target": "শুভ নববর্ষ", "romanization": "shubho noboborsho", "native": { "en": "Happy New Year" } },
+              { "target": "মেলা", "romanization": "mela", "native": { "en": "Fair / carnival" } },
+              { "target": "আনন্দ", "romanization": "anondo", "native": { "en": "Joy / happiness" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Eid & Religious Celebrations",
+            "zh": "开斋节与宗教庆典",
+            "th": "อีดและงานเฉลิมฉลองทางศาสนา",
+            "ko": "이드와 종교 기념행사",
+            "es": "Eid y celebraciones religiosas"
+          },
+          "objectives": {
+            "en": ["Describe Eid and other religious festivals", "Exchange greetings during celebrations"]
+          },
+          "vocabulary": [
+            { "word": "ঈদ মোবারক", "romanization": "eid mubarak", "meanings": { "en": "Eid Mubarak (blessed Eid)", "zh": "开斋节快乐", "th": "อีดมูบารัค", "ko": "이드 무바라크 (이드 축복)", "es": "Eid Mubarak (feliz Eid)" } },
+            { "word": "নামাজ", "romanization": "namaj", "meanings": { "en": "Prayer (Islamic)", "zh": "礼拜", "th": "การละหมาด", "ko": "예배 (이슬람)", "es": "Oración (islámica)" } },
+            { "word": "পোশাক", "romanization": "poshak", "meanings": { "en": "Clothing / outfit", "zh": "服装", "th": "เสื้อผ้า / ชุด", "ko": "의류 / 옷", "es": "Ropa / atuendo" } },
+            { "word": "উপহার", "romanization": "upohar", "meanings": { "en": "Gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "Regalo" } },
+            { "word": "পরিবার", "romanization": "poribar", "meanings": { "en": "Family", "zh": "家庭", "th": "ครอบครัว", "ko": "가족", "es": "Familia" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "উপহার", "romanization": "upohar", "options": { "en": ["Gift / present", "Food", "Money", "Clothes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "পোশাক", "romanization": "poshak", "options": { "en": ["Clothing / outfit", "Gift", "Prayer", "Family"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Family' in Bengali?" }, "options": { "neutral": ["পরিবার", "বন্ধু", "নামাজ", "উপহার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eid Mubarak' in Bengali?" }, "options": { "neutral": ["ঈদ মোবারক", "শুভ নববর্ষ", "আনন্দ", "উৎসব"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পরিবার", "romanization": "poribar", "options": { "en": ["Family", "Friend", "Neighbour", "Colleague"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ঈদ মোবারক", "romanization": "eid mubarak", "native": { "en": "Eid Mubarak" } },
+              { "target": "উপহার", "romanization": "upohar", "native": { "en": "Gift / present" } },
+              { "target": "পোশাক", "romanization": "poshak", "native": { "en": "Clothing / outfit" } },
+              { "target": "পরিবার", "romanization": "poribar", "native": { "en": "Family" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Social Etiquette",
+            "zh": "社交礼仪",
+            "th": "มารยาทในสังคม",
+            "ko": "사회적 예절",
+            "es": "Etiqueta social"
+          },
+          "objectives": {
+            "en": ["Follow social customs in Bengali culture", "Use polite and respectful language"]
+          },
+          "vocabulary": [
+            { "word": "ধন্যবাদ", "romanization": "dhonnobad", "meanings": { "en": "Thank you", "zh": "谢谢", "th": "ขอบคุณ", "ko": "감사합니다", "es": "Gracias" } },
+            { "word": "আদাব", "romanization": "adab", "meanings": { "en": "Respectful greeting / hello", "zh": "尊敬的问候", "th": "การทักทายแบบเคารพ", "ko": "존경하는 인사", "es": "Saludo respetuoso" } },
+            { "word": "মাফ করবেন", "romanization": "maph korben", "meanings": { "en": "Excuse me / I am sorry", "zh": "请原谅/对不起", "th": "ขอโทษ", "ko": "실례합니다 / 죄송합니다", "es": "Perdone / lo siento" } },
+            { "word": "সম্মান", "romanization": "shomman", "meanings": { "en": "Respect", "zh": "尊重", "th": "ความเคารพ", "ko": "존중", "es": "Respeto" } },
+            { "word": "বড়দের", "romanization": "boroder", "meanings": { "en": "Elders (possessive form)", "zh": "长辈的", "th": "ผู้อาวุโส (รูปครอบครอง)", "ko": "어른들의", "es": "De los mayores" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ধন্যবাদ", "romanization": "dhonnobad", "options": { "en": ["Thank you", "Sorry", "Hello", "Goodbye"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সম্মান", "romanization": "shomman", "options": { "en": ["Respect", "Love", "Trust", "Honour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Excuse me / I am sorry' in Bengali?" }, "options": { "neutral": ["মাফ করবেন", "ধন্যবাদ", "আদাব", "সম্মান"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Respectful greeting' in Bengali?" }, "options": { "neutral": ["আদাব", "ধন্যবাদ", "মাফ করবেন", "সম্মান"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "মাফ করবেন", "romanization": "maph korben", "options": { "en": ["Excuse me / I am sorry", "Thank you", "You're welcome", "Goodbye"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ধন্যবাদ", "romanization": "dhonnobad", "native": { "en": "Thank you" } },
+              { "target": "আদাব", "romanization": "adab", "native": { "en": "Respectful greeting" } },
+              { "target": "মাফ করবেন", "romanization": "maph korben", "native": { "en": "Excuse me / I am sorry" } },
+              { "target": "সম্মান", "romanization": "shomman", "native": { "en": "Respect" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community & Neighbourhood",
+        "zh": "社区与邻里",
+        "th": "ชุมชนและละแวกบ้าน",
+        "ko": "공동체와 이웃",
+        "es": "Comunidad y vecindario"
+      },
+      "description": {
+        "en": "Talk about your neighbourhood, community, and local life",
+        "zh": "谈论你的邻里、社区和当地生活",
+        "th": "พูดคุยเกี่ยวกับละแวกบ้าน ชุมชน และชีวิตในท้องถิ่น",
+        "ko": "동네, 공동체, 지역 생활에 대해 이야기하기",
+        "es": "Hablar sobre tu vecindario, comunidad y vida local"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Describing Your Neighbourhood",
+            "zh": "描述你的社区",
+            "th": "การอธิบายละแวกบ้านของคุณ",
+            "ko": "동네 묘사하기",
+            "es": "Describir tu vecindario"
+          },
+          "objectives": {
+            "en": ["Describe where you live", "Name community places and buildings"]
+          },
+          "vocabulary": [
+            { "word": "এলাকা", "romanization": "elaka", "meanings": { "en": "Area / neighbourhood", "zh": "地区/社区", "th": "พื้นที่ / ละแวกบ้าน", "ko": "지역 / 동네", "es": "Área / vecindario" } },
+            { "word": "পাড়া", "romanization": "para", "meanings": { "en": "Local neighbourhood / locality", "zh": "街区", "th": "ย่าน / ชุมชนท้องถิ่น", "ko": "마을 / 지역", "es": "Barrio / localidad" } },
+            { "word": "স্কুল", "romanization": "shkul", "meanings": { "en": "School", "zh": "学校", "th": "โรงเรียน", "ko": "학교", "es": "Escuela" } },
+            { "word": "হাসপাতাল", "romanization": "hashpatal", "meanings": { "en": "Hospital", "zh": "医院", "th": "โรงพยาบาล", "ko": "병원", "es": "Hospital" } },
+            { "word": "শান্ত", "romanization": "shanto", "meanings": { "en": "Quiet / peaceful", "zh": "安静/平和", "th": "เงียบสงบ", "ko": "조용하다 / 평화롭다", "es": "Tranquilo / pacífico" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "পাড়া", "romanization": "para", "options": { "en": ["Local neighbourhood", "City", "Village", "Street"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "শান্ত", "romanization": "shanto", "options": { "en": ["Quiet / peaceful", "Noisy", "Busy", "Crowded"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Area / neighbourhood' in Bengali?" }, "options": { "neutral": ["এলাকা", "পাড়া", "স্কুল", "শান্ত"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'School' in Bengali?" }, "options": { "neutral": ["স্কুল", "হাসপাতাল", "এলাকা", "পাড়া"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "হাসপাতাল", "romanization": "hashpatal", "options": { "en": ["Hospital", "School", "Market", "Hotel"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "এলাকা", "romanization": "elaka", "native": { "en": "Area / neighbourhood" } },
+              { "target": "পাড়া", "romanization": "para", "native": { "en": "Local neighbourhood" } },
+              { "target": "স্কুল", "romanization": "shkul", "native": { "en": "School" } },
+              { "target": "শান্ত", "romanization": "shanto", "native": { "en": "Quiet / peaceful" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Talking About the Weather",
+            "zh": "谈论天气",
+            "th": "การพูดคุยเรื่องอากาศ",
+            "ko": "날씨 이야기하기",
+            "es": "Hablar del tiempo"
+          },
+          "objectives": {
+            "en": ["Describe weather conditions in Bengali", "Talk about seasons and climate"]
+          },
+          "vocabulary": [
+            { "word": "আবহাওয়া", "romanization": "abohawa", "meanings": { "en": "Weather", "zh": "天气", "th": "สภาพอากาศ", "ko": "날씨", "es": "Tiempo (meteorológico)" } },
+            { "word": "গরম", "romanization": "gorom", "meanings": { "en": "Hot", "zh": "热", "th": "ร้อน", "ko": "덥다", "es": "Caliente / caluroso" } },
+            { "word": "ঠান্ডা", "romanization": "thanda", "meanings": { "en": "Cold", "zh": "冷", "th": "เย็น / หนาว", "ko": "차갑다 / 춥다", "es": "Frío" } },
+            { "word": "বৃষ্টি", "romanization": "brishti", "meanings": { "en": "Rain", "zh": "雨", "th": "ฝน", "ko": "비", "es": "Lluvia" } },
+            { "word": "শীতকাল", "romanization": "shitkaal", "meanings": { "en": "Winter / cold season", "zh": "冬天", "th": "ฤดูหนาว", "ko": "겨울", "es": "Invierno" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "গরম", "romanization": "gorom", "options": { "en": ["Hot", "Cold", "Windy", "Rainy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বৃষ্টি", "romanization": "brishti", "options": { "en": ["Rain", "Sun", "Wind", "Snow"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Weather' in Bengali?" }, "options": { "neutral": ["আবহাওয়া", "বৃষ্টি", "গরম", "ঠান্ডা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cold' in Bengali?" }, "options": { "neutral": ["ঠান্ডা", "গরম", "বৃষ্টি", "শীতকাল"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "শীতকাল", "romanization": "shitkaal", "options": { "en": ["Winter / cold season", "Summer", "Monsoon", "Autumn"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আবহাওয়া", "romanization": "abohawa", "native": { "en": "Weather" } },
+              { "target": "গরম", "romanization": "gorom", "native": { "en": "Hot" } },
+              { "target": "ঠান্ডা", "romanization": "thanda", "native": { "en": "Cold" } },
+              { "target": "বৃষ্টি", "romanization": "brishti", "native": { "en": "Rain" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Giving Opinions",
+            "zh": "表达观点",
+            "th": "การแสดงความคิดเห็น",
+            "ko": "의견 표현하기",
+            "es": "Dar opiniones"
+          },
+          "objectives": {
+            "en": ["Express personal opinions in Bengali", "Agree and disagree politely"]
+          },
+          "vocabulary": [
+            { "word": "আমার মনে হয়", "romanization": "amar mone hoy", "meanings": { "en": "I think / in my opinion", "zh": "我认为/依我看", "th": "ฉันคิดว่า / ในความคิดของฉัน", "ko": "제 생각에는", "es": "Yo creo / en mi opinión" } },
+            { "word": "ঠিক আছে", "romanization": "thik ache", "meanings": { "en": "OK / alright / correct", "zh": "好的/对的", "th": "โอเค / ถูกต้อง", "ko": "괜찮아요 / 맞아요", "es": "Está bien / correcto" } },
+            { "word": "একমত", "romanization": "ekmot", "meanings": { "en": "Agree / of the same opinion", "zh": "同意", "th": "เห็นด้วย / เห็นพ้อง", "ko": "동의 / 같은 생각", "es": "De acuerdo" } },
+            { "word": "দুঃখিত", "romanization": "dukhkhito", "meanings": { "en": "Sorry / sad", "zh": "对不起/难过", "th": "ขอโทษ / เสียใจ", "ko": "미안해요 / 슬프다", "es": "Lo siento / triste" } },
+            { "word": "চমৎকার", "romanization": "chomotkar", "meanings": { "en": "Wonderful / excellent", "zh": "太棒了/精彩", "th": "วิเศษ / ยอดเยี่ยม", "ko": "훌륭하다 / 멋지다", "es": "Maravilloso / excelente" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ঠিক আছে", "romanization": "thik ache", "options": { "en": ["OK / alright / correct", "Wrong", "Maybe", "Never"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "চমৎকার", "romanization": "chomotkar", "options": { "en": ["Wonderful / excellent", "Terrible", "Average", "Boring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I think / in my opinion' in Bengali?" }, "options": { "neutral": ["আমার মনে হয়", "একমত", "ঠিক আছে", "দুঃখিত"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Agree' in Bengali?" }, "options": { "neutral": ["একমত", "আমার মনে হয়", "চমৎকার", "দুঃখিত"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "দুঃখিত", "romanization": "dukhkhito", "options": { "en": ["Sorry / sad", "Happy", "Angry", "Excited"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "আমার মনে হয়", "romanization": "amar mone hoy", "native": { "en": "I think / in my opinion" } },
+              { "target": "ঠিক আছে", "romanization": "thik ache", "native": { "en": "OK / alright / correct" } },
+              { "target": "একমত", "romanization": "ekmot", "native": { "en": "Agree" } },
+              { "target": "চমৎকার", "romanization": "chomotkar", "native": { "en": "Wonderful / excellent" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1855 @@
+{
+  "lang": "vi",
+  "language": "vi",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行交通",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": [
+              "Buy tickets and use public transport",
+              "Understand departure and arrival information"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "vé",
+              "romanization": null,
+              "meanings": {
+                "en": "ticket",
+                "zh": "票",
+                "th": "ตั๋ว",
+                "ko": "표",
+                "es": "billete"
+              }
+            },
+            {
+              "word": "xe buýt",
+              "romanization": null,
+              "meanings": {
+                "en": "bus",
+                "zh": "公交车",
+                "th": "รถบัส",
+                "ko": "버스",
+                "es": "autobús"
+              }
+            },
+            {
+              "word": "tàu điện ngầm",
+              "romanization": null,
+              "meanings": {
+                "en": "subway / metro",
+                "zh": "地铁",
+                "th": "รถไฟใต้ดิน",
+                "ko": "지하철",
+                "es": "metro"
+              }
+            },
+            {
+              "word": "trạm dừng",
+              "romanization": null,
+              "meanings": {
+                "en": "bus stop",
+                "zh": "公交站",
+                "th": "ป้ายหยุดรถ",
+                "ko": "정류장",
+                "es": "parada"
+              }
+            },
+            {
+              "word": "khởi hành",
+              "romanization": null,
+              "meanings": {
+                "en": "departure",
+                "zh": "出发",
+                "th": "ออกเดินทาง",
+                "ko": "출발",
+                "es": "salida"
+              }
+            },
+            {
+              "word": "đến nơi",
+              "romanization": null,
+              "meanings": {
+                "en": "arrival",
+                "zh": "到达",
+                "th": "มาถึง",
+                "ko": "도착",
+                "es": "llegada"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "vé",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "ticket",
+                  "passport",
+                  "map",
+                  "seat"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Vé means ticket."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'bus' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "xe buýt",
+                  "xe lửa",
+                  "tàu điện",
+                  "xe taxi"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Xe buýt means bus."
+            },
+            {
+              "type": "listening",
+              "audio_text": "trạm dừng",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "bus stop",
+                  "station",
+                  "airport",
+                  "harbour"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Trạm dừng means stop or bus stop."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "vé",
+                  "romanization": null,
+                  "native": {
+                    "en": "ticket"
+                  }
+                },
+                {
+                  "target": "xe buýt",
+                  "romanization": null,
+                  "native": {
+                    "en": "bus"
+                  }
+                },
+                {
+                  "target": "khởi hành",
+                  "romanization": null,
+                  "native": {
+                    "en": "departure"
+                  }
+                },
+                {
+                  "target": "đến nơi",
+                  "romanization": null,
+                  "native": {
+                    "en": "arrival"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Where is the bus stop?'"
+              },
+              "words": [
+                "trạm",
+                "xe",
+                "buýt",
+                "ở",
+                "đâu"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "trạm",
+                  "xe",
+                  "buýt",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "trạm",
+                  "xe",
+                  "buýt",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "translation": "Trạm xe buýt ở đâu?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "At the Train Station",
+            "zh": "在火车站",
+            "th": "ที่สถานีรถไฟ",
+            "ko": "기차역에서",
+            "es": "En la estación de tren"
+          },
+          "objectives": {
+            "en": [
+              "Buy train tickets",
+              "Ask about platforms and schedules"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "tàu hỏa",
+              "romanization": null,
+              "meanings": {
+                "en": "train",
+                "zh": "火车",
+                "th": "รถไฟ",
+                "ko": "기차",
+                "es": "tren"
+              }
+            },
+            {
+              "word": "sân ga",
+              "romanization": null,
+              "meanings": {
+                "en": "platform",
+                "zh": "站台",
+                "th": "ชานชาลา",
+                "ko": "플랫폼",
+                "es": "andén"
+              }
+            },
+            {
+              "word": "lịch trình",
+              "romanization": null,
+              "meanings": {
+                "en": "schedule / timetable",
+                "zh": "时刻表",
+                "th": "ตารางเวลา",
+                "ko": "시간표",
+                "es": "horario"
+              }
+            },
+            {
+              "word": "chuyển tàu",
+              "romanization": null,
+              "meanings": {
+                "en": "transfer / connection",
+                "zh": "换乘",
+                "th": "ต่อรถ",
+                "ko": "환승",
+                "es": "transbordo"
+              }
+            },
+            {
+              "word": "toa tàu",
+              "romanization": null,
+              "meanings": {
+                "en": "train carriage",
+                "zh": "车厢",
+                "th": "โบกี้รถไฟ",
+                "ko": "객차",
+                "es": "vagón"
+              }
+            },
+            {
+              "word": "trễ",
+              "romanization": null,
+              "meanings": {
+                "en": "late / delayed",
+                "zh": "延误",
+                "th": "ล่าช้า",
+                "ko": "지연된",
+                "es": "retrasado"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "tàu hỏa",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "train",
+                  "bus",
+                  "plane",
+                  "boat"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Tàu hỏa means train."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'platform' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "sân ga",
+                  "bến tàu",
+                  "nhà ga",
+                  "đường ray"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Sân ga means train platform."
+            },
+            {
+              "type": "listening",
+              "audio_text": "lịch trình",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "timetable",
+                  "ticket",
+                  "platform",
+                  "delay"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Lịch trình means schedule or timetable."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "tàu hỏa",
+                  "romanization": null,
+                  "native": {
+                    "en": "train"
+                  }
+                },
+                {
+                  "target": "sân ga",
+                  "romanization": null,
+                  "native": {
+                    "en": "platform"
+                  }
+                },
+                {
+                  "target": "chuyển tàu",
+                  "romanization": null,
+                  "native": {
+                    "en": "transfer"
+                  }
+                },
+                {
+                  "target": "trễ",
+                  "romanization": null,
+                  "native": {
+                    "en": "delayed"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The train is delayed'"
+              },
+              "words": [
+                "tàu",
+                "hỏa",
+                "bị",
+                "trễ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tàu",
+                  "hỏa",
+                  "bị",
+                  "trễ"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tàu",
+                  "hỏa",
+                  "bị",
+                  "trễ"
+                ]
+              },
+              "translation": "Tàu hỏa bị trễ."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taking a Taxi",
+            "zh": "乘坐出租车",
+            "th": "นั่งแท็กซี่",
+            "ko": "택시 타기",
+            "es": "Tomar un taxi"
+          },
+          "objectives": {
+            "en": [
+              "Ask for a taxi and give directions",
+              "Discuss fare and payment"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "xe taxi",
+              "romanization": null,
+              "meanings": {
+                "en": "taxi",
+                "zh": "出租车",
+                "th": "แท็กซี่",
+                "ko": "택시",
+                "es": "taxi"
+              }
+            },
+            {
+              "word": "địa chỉ",
+              "romanization": null,
+              "meanings": {
+                "en": "address",
+                "zh": "地址",
+                "th": "ที่อยู่",
+                "ko": "주소",
+                "es": "dirección"
+              }
+            },
+            {
+              "word": "giá tiền",
+              "romanization": null,
+              "meanings": {
+                "en": "fare / price",
+                "zh": "费用",
+                "th": "ราคา",
+                "ko": "요금",
+                "es": "tarifa"
+              }
+            },
+            {
+              "word": "đi thẳng",
+              "romanization": null,
+              "meanings": {
+                "en": "go straight",
+                "zh": "直走",
+                "th": "ตรงไป",
+                "ko": "직진",
+                "es": "todo recto"
+              }
+            },
+            {
+              "word": "rẽ trái",
+              "romanization": null,
+              "meanings": {
+                "en": "turn left",
+                "zh": "左转",
+                "th": "เลี้ยวซ้าย",
+                "ko": "왼쪽으로 돌다",
+                "es": "girar a la izquierda"
+              }
+            },
+            {
+              "word": "rẽ phải",
+              "romanization": null,
+              "meanings": {
+                "en": "turn right",
+                "zh": "右转",
+                "th": "เลี้ยวขวา",
+                "ko": "오른쪽으로 돌다",
+                "es": "girar a la derecha"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "địa chỉ",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "address",
+                  "fare",
+                  "route",
+                  "map"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Địa chỉ means address."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'go straight' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "đi thẳng",
+                  "rẽ trái",
+                  "rẽ phải",
+                  "quay lại"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Đi thẳng means go straight."
+            },
+            {
+              "type": "listening",
+              "audio_text": "giá tiền",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "fare",
+                  "distance",
+                  "time",
+                  "discount"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Giá tiền means price or fare."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "xe taxi",
+                  "romanization": null,
+                  "native": {
+                    "en": "taxi"
+                  }
+                },
+                {
+                  "target": "đi thẳng",
+                  "romanization": null,
+                  "native": {
+                    "en": "straight ahead"
+                  }
+                },
+                {
+                  "target": "rẽ trái",
+                  "romanization": null,
+                  "native": {
+                    "en": "turn left"
+                  }
+                },
+                {
+                  "target": "rẽ phải",
+                  "romanization": null,
+                  "native": {
+                    "en": "turn right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please take me to this address'"
+              },
+              "words": [
+                "chở",
+                "tôi",
+                "đến",
+                "địa",
+                "chỉ",
+                "này",
+                "anh"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "anh",
+                  "chở",
+                  "tôi",
+                  "đến",
+                  "địa",
+                  "chỉ",
+                  "này"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "anh",
+                  "chở",
+                  "tôi",
+                  "đến",
+                  "địa",
+                  "chỉ",
+                  "này"
+                ]
+              },
+              "translation": "Anh chở tôi đến địa chỉ này."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Airport",
+        "zh": "在机场",
+        "th": "ที่สนามบิน",
+        "ko": "공항에서",
+        "es": "En el aeropuerto"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Check-in and Security",
+            "zh": "值机与安检",
+            "th": "เช็คอินและความปลอดภัย",
+            "ko": "체크인과 보안",
+            "es": "Facturación y seguridad"
+          },
+          "objectives": {
+            "en": [
+              "Complete airport check-in",
+              "Understand security procedures"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "làm thủ tục",
+              "romanization": null,
+              "meanings": {
+                "en": "check-in / complete formalities",
+                "zh": "办理手续",
+                "th": "เช็คอิน",
+                "ko": "수속하다",
+                "es": "hacer el check-in"
+              }
+            },
+            {
+              "word": "hộ chiếu",
+              "romanization": null,
+              "meanings": {
+                "en": "passport",
+                "zh": "护照",
+                "th": "พาสปอร์ต",
+                "ko": "여권",
+                "es": "pasaporte"
+              }
+            },
+            {
+              "word": "hành lý",
+              "romanization": null,
+              "meanings": {
+                "en": "luggage",
+                "zh": "行李",
+                "th": "กระเป๋า",
+                "ko": "수하물",
+                "es": "equipaje"
+              }
+            },
+            {
+              "word": "hành lý xách tay",
+              "romanization": null,
+              "meanings": {
+                "en": "hand luggage",
+                "zh": "手提行李",
+                "th": "กระเป๋าถือขึ้นเครื่อง",
+                "ko": "기내 수하물",
+                "es": "equipaje de mano"
+              }
+            },
+            {
+              "word": "cổng lên máy bay",
+              "romanization": null,
+              "meanings": {
+                "en": "departure gate",
+                "zh": "登机口",
+                "th": "ประตูขึ้นเครื่อง",
+                "ko": "탑승구",
+                "es": "puerta de embarque"
+              }
+            },
+            {
+              "word": "thẻ lên máy bay",
+              "romanization": null,
+              "meanings": {
+                "en": "boarding pass",
+                "zh": "登机牌",
+                "th": "บัตรขึ้นเครื่อง",
+                "ko": "탑승권",
+                "es": "tarjeta de embarque"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hộ chiếu",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "passport",
+                  "ticket",
+                  "visa",
+                  "ID card"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hộ chiếu means passport."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'luggage' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "hành lý",
+                  "vé",
+                  "hộ chiếu",
+                  "ghế"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hành lý means luggage."
+            },
+            {
+              "type": "listening",
+              "audio_text": "thẻ lên máy bay",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "boarding pass",
+                  "passport",
+                  "ticket",
+                  "visa"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Thẻ lên máy bay means boarding pass."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hộ chiếu",
+                  "romanization": null,
+                  "native": {
+                    "en": "passport"
+                  }
+                },
+                {
+                  "target": "hành lý",
+                  "romanization": null,
+                  "native": {
+                    "en": "luggage"
+                  }
+                },
+                {
+                  "target": "hành lý xách tay",
+                  "romanization": null,
+                  "native": {
+                    "en": "hand luggage"
+                  }
+                },
+                {
+                  "target": "cổng lên máy bay",
+                  "romanization": null,
+                  "native": {
+                    "en": "departure gate"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Where is the departure gate?'"
+              },
+              "words": [
+                "cổng",
+                "lên",
+                "máy",
+                "bay",
+                "ở",
+                "đâu"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "cổng",
+                  "lên",
+                  "máy",
+                  "bay",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "cổng",
+                  "lên",
+                  "máy",
+                  "bay",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "translation": "Cổng lên máy bay ở đâu?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "On the Plane",
+            "zh": "在飞机上",
+            "th": "บนเครื่องบิน",
+            "ko": "비행기 안에서",
+            "es": "En el avión"
+          },
+          "objectives": {
+            "en": [
+              "Communicate with cabin crew",
+              "Ask for help during a flight"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "máy bay",
+              "romanization": null,
+              "meanings": {
+                "en": "airplane",
+                "zh": "飞机",
+                "th": "เครื่องบิน",
+                "ko": "비행기",
+                "es": "avión"
+              }
+            },
+            {
+              "word": "ghế ngồi",
+              "romanization": null,
+              "meanings": {
+                "en": "seat",
+                "zh": "座位",
+                "th": "ที่นั่ง",
+                "ko": "좌석",
+                "es": "asiento"
+              }
+            },
+            {
+              "word": "dây an toàn",
+              "romanization": null,
+              "meanings": {
+                "en": "seatbelt",
+                "zh": "安全带",
+                "th": "เข็มขัดนิรภัย",
+                "ko": "안전벨트",
+                "es": "cinturón de seguridad"
+              }
+            },
+            {
+              "word": "tiếp viên hàng không",
+              "romanization": null,
+              "meanings": {
+                "en": "flight attendant",
+                "zh": "空乘人员",
+                "th": "พนักงานต้อนรับบนเครื่องบิน",
+                "ko": "승무원",
+                "es": "azafato/a"
+              }
+            },
+            {
+              "word": "chăn",
+              "romanization": null,
+              "meanings": {
+                "en": "blanket",
+                "zh": "毯子",
+                "th": "ผ้าห่ม",
+                "ko": "담요",
+                "es": "manta"
+              }
+            },
+            {
+              "word": "cất cánh",
+              "romanization": null,
+              "meanings": {
+                "en": "takeoff",
+                "zh": "起飞",
+                "th": "บินขึ้น",
+                "ko": "이륙",
+                "es": "despegue"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "máy bay",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "airplane",
+                  "train",
+                  "bus",
+                  "boat"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Máy bay means airplane."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'seat' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "ghế ngồi",
+                  "cửa sổ",
+                  "hành lang",
+                  "bàn"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Ghế ngồi means seat."
+            },
+            {
+              "type": "listening",
+              "audio_text": "dây an toàn",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "seatbelt",
+                  "window",
+                  "tray table",
+                  "overhead bin"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Dây an toàn means seatbelt."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "máy bay",
+                  "romanization": null,
+                  "native": {
+                    "en": "airplane"
+                  }
+                },
+                {
+                  "target": "ghế ngồi",
+                  "romanization": null,
+                  "native": {
+                    "en": "seat"
+                  }
+                },
+                {
+                  "target": "chăn",
+                  "romanization": null,
+                  "native": {
+                    "en": "blanket"
+                  }
+                },
+                {
+                  "target": "cất cánh",
+                  "romanization": null,
+                  "native": {
+                    "en": "takeoff"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please fasten your seatbelt'"
+              },
+              "words": [
+                "vui",
+                "lòng",
+                "thắt",
+                "dây",
+                "an",
+                "toàn"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "vui",
+                  "lòng",
+                  "thắt",
+                  "dây",
+                  "an",
+                  "toàn"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "vui",
+                  "lòng",
+                  "thắt",
+                  "dây",
+                  "an",
+                  "toàn"
+                ]
+              },
+              "translation": "Vui lòng thắt dây an toàn."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Hotel Check-in",
+            "zh": "酒店入住",
+            "th": "เช็คอินโรงแรม",
+            "ko": "호텔 체크인",
+            "es": "Check-in en el hotel"
+          },
+          "objectives": {
+            "en": [
+              "Check in and out of a hotel",
+              "Ask about room amenities"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "khách sạn",
+              "romanization": null,
+              "meanings": {
+                "en": "hotel",
+                "zh": "酒店",
+                "th": "โรงแรม",
+                "ko": "호텔",
+                "es": "hotel"
+              }
+            },
+            {
+              "word": "phòng",
+              "romanization": null,
+              "meanings": {
+                "en": "room",
+                "zh": "房间",
+                "th": "ห้อง",
+                "ko": "객실",
+                "es": "habitación"
+              }
+            },
+            {
+              "word": "nhận phòng",
+              "romanization": null,
+              "meanings": {
+                "en": "check-in",
+                "zh": "入住",
+                "th": "เช็คอิน",
+                "ko": "체크인",
+                "es": "check-in"
+              }
+            },
+            {
+              "word": "trả phòng",
+              "romanization": null,
+              "meanings": {
+                "en": "check-out",
+                "zh": "退房",
+                "th": "เช็คเอาต์",
+                "ko": "체크아웃",
+                "es": "check-out"
+              }
+            },
+            {
+              "word": "bao gồm bữa sáng",
+              "romanization": null,
+              "meanings": {
+                "en": "breakfast included",
+                "zh": "含早餐",
+                "th": "รวมอาหารเช้า",
+                "ko": "조식 포함",
+                "es": "desayuno incluido"
+              }
+            },
+            {
+              "word": "chìa khóa",
+              "romanization": null,
+              "meanings": {
+                "en": "key",
+                "zh": "钥匙",
+                "th": "กุญแจ",
+                "ko": "열쇠",
+                "es": "llave"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "khách sạn",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "hotel",
+                  "hostel",
+                  "guesthouse",
+                  "resort"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Khách sạn means hotel."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'key' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "chìa khóa",
+                  "thẻ từ",
+                  "phòng",
+                  "cửa"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Chìa khóa means key."
+            },
+            {
+              "type": "listening",
+              "audio_text": "bao gồm bữa sáng",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "breakfast included",
+                  "dinner included",
+                  "free wifi",
+                  "parking included"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Bao gồm bữa sáng means breakfast included."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "khách sạn",
+                  "romanization": null,
+                  "native": {
+                    "en": "hotel"
+                  }
+                },
+                {
+                  "target": "phòng",
+                  "romanization": null,
+                  "native": {
+                    "en": "room"
+                  }
+                },
+                {
+                  "target": "nhận phòng",
+                  "romanization": null,
+                  "native": {
+                    "en": "check-in"
+                  }
+                },
+                {
+                  "target": "chìa khóa",
+                  "romanization": null,
+                  "native": {
+                    "en": "key"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I have a reservation for two nights'"
+              },
+              "words": [
+                "tôi",
+                "đã",
+                "đặt",
+                "phòng",
+                "cho",
+                "hai",
+                "đêm"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "đã",
+                  "đặt",
+                  "phòng",
+                  "cho",
+                  "hai",
+                  "đêm"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "đã",
+                  "đặt",
+                  "phòng",
+                  "cho",
+                  "hai",
+                  "đêm"
+                ]
+              },
+              "translation": "Tôi đã đặt phòng cho hai đêm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Sightseeing",
+        "zh": "观光游览",
+        "th": "การท่องเที่ยว",
+        "ko": "관광하기",
+        "es": "Turismo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": [
+              "Ask for and understand directions",
+              "Navigate using landmarks"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "đường",
+              "romanization": null,
+              "meanings": {
+                "en": "street / road",
+                "zh": "街道",
+                "th": "ถนน",
+                "ko": "거리",
+                "es": "calle"
+              }
+            },
+            {
+              "word": "quảng trường",
+              "romanization": null,
+              "meanings": {
+                "en": "square / plaza",
+                "zh": "广场",
+                "th": "จัตุรัส",
+                "ko": "광장",
+                "es": "plaza"
+              }
+            },
+            {
+              "word": "rẽ",
+              "romanization": null,
+              "meanings": {
+                "en": "to turn",
+                "zh": "转弯",
+                "th": "เลี้ยว",
+                "ko": "돌다",
+                "es": "girar"
+              }
+            },
+            {
+              "word": "ngã tư",
+              "romanization": null,
+              "meanings": {
+                "en": "intersection / crossroads",
+                "zh": "十字路口",
+                "th": "สี่แยก",
+                "ko": "교차로",
+                "es": "cruce"
+              }
+            },
+            {
+              "word": "xa",
+              "romanization": null,
+              "meanings": {
+                "en": "far",
+                "zh": "远",
+                "th": "ไกล",
+                "ko": "멀다",
+                "es": "lejos"
+              }
+            },
+            {
+              "word": "gần",
+              "romanization": null,
+              "meanings": {
+                "en": "near / close",
+                "zh": "近",
+                "th": "ใกล้",
+                "ko": "가깝다",
+                "es": "cerca"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "đường",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "street",
+                  "square",
+                  "park",
+                  "bridge"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Đường means street or road."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'near' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "gần",
+                  "xa",
+                  "thẳng",
+                  "sau"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Gần means near or close."
+            },
+            {
+              "type": "listening",
+              "audio_text": "ngã tư",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "intersection",
+                  "bridge",
+                  "tunnel",
+                  "roundabout"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Ngã tư means intersection or crossroads."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "đường",
+                  "romanization": null,
+                  "native": {
+                    "en": "street"
+                  }
+                },
+                {
+                  "target": "quảng trường",
+                  "romanization": null,
+                  "native": {
+                    "en": "square"
+                  }
+                },
+                {
+                  "target": "xa",
+                  "romanization": null,
+                  "native": {
+                    "en": "far"
+                  }
+                },
+                {
+                  "target": "gần",
+                  "romanization": null,
+                  "native": {
+                    "en": "near"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'How do I get to the square?'"
+              },
+              "words": [
+                "đến",
+                "quảng",
+                "trường",
+                "như",
+                "thế",
+                "nào"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "đến",
+                  "quảng",
+                  "trường",
+                  "như",
+                  "thế",
+                  "nào"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "đến",
+                  "quảng",
+                  "trường",
+                  "như",
+                  "thế",
+                  "nào"
+                ]
+              },
+              "translation": "Đến quảng trường như thế nào?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Visiting Museums",
+            "zh": "参观博物馆",
+            "th": "ไปพิพิธภัณฑ์",
+            "ko": "박물관 방문하기",
+            "es": "Visitar museos"
+          },
+          "objectives": {
+            "en": [
+              "Buy museum tickets and ask about exhibits",
+              "Understand opening hours and prices"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "bảo tàng",
+              "romanization": null,
+              "meanings": {
+                "en": "museum",
+                "zh": "博物馆",
+                "th": "พิพิธภัณฑ์",
+                "ko": "박물관",
+                "es": "museo"
+              }
+            },
+            {
+              "word": "triển lãm",
+              "romanization": null,
+              "meanings": {
+                "en": "exhibition",
+                "zh": "展览",
+                "th": "นิทรรศการ",
+                "ko": "전시회",
+                "es": "exposición"
+              }
+            },
+            {
+              "word": "giờ mở cửa",
+              "romanization": null,
+              "meanings": {
+                "en": "opening hours",
+                "zh": "开放时间",
+                "th": "เวลาทำการ",
+                "ko": "운영 시간",
+                "es": "horario de apertura"
+              }
+            },
+            {
+              "word": "vào cửa miễn phí",
+              "romanization": null,
+              "meanings": {
+                "en": "free entry",
+                "zh": "免费入场",
+                "th": "เข้าฟรี",
+                "ko": "무료 입장",
+                "es": "entrada gratuita"
+              }
+            },
+            {
+              "word": "hướng dẫn âm thanh",
+              "romanization": null,
+              "meanings": {
+                "en": "audio guide",
+                "zh": "语音导览",
+                "th": "ออดิโอไกด์",
+                "ko": "오디오 가이드",
+                "es": "audioguía"
+              }
+            },
+            {
+              "word": "chụp ảnh",
+              "romanization": null,
+              "meanings": {
+                "en": "to take photos",
+                "zh": "拍照",
+                "th": "ถ่ายรูป",
+                "ko": "사진 찍다",
+                "es": "tomar fotos"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "bảo tàng",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "museum",
+                  "theatre",
+                  "gallery",
+                  "library"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Bảo tàng means museum."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'exhibition' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "triển lãm",
+                  "bảo tàng",
+                  "hướng dẫn",
+                  "phòng trưng bày"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Triển lãm means exhibition."
+            },
+            {
+              "type": "listening",
+              "audio_text": "vào cửa miễn phí",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "free entry",
+                  "paid entry",
+                  "tickets required",
+                  "closed today"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Vào cửa miễn phí means free entry."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "bảo tàng",
+                  "romanization": null,
+                  "native": {
+                    "en": "museum"
+                  }
+                },
+                {
+                  "target": "triển lãm",
+                  "romanization": null,
+                  "native": {
+                    "en": "exhibition"
+                  }
+                },
+                {
+                  "target": "hướng dẫn âm thanh",
+                  "romanization": null,
+                  "native": {
+                    "en": "audio guide"
+                  }
+                },
+                {
+                  "target": "giờ mở cửa",
+                  "romanization": null,
+                  "native": {
+                    "en": "opening hours"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Can I take photos here?'"
+              },
+              "words": [
+                "tôi",
+                "có",
+                "thể",
+                "chụp",
+                "ảnh",
+                "ở",
+                "đây",
+                "không"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "có",
+                  "thể",
+                  "chụp",
+                  "ảnh",
+                  "ở",
+                  "đây",
+                  "không"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "có",
+                  "thể",
+                  "chụp",
+                  "ảnh",
+                  "ở",
+                  "đây",
+                  "không"
+                ]
+              },
+              "translation": "Tôi có thể chụp ảnh ở đây không?"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Shopping for Souvenirs",
+            "zh": "购买纪念品",
+            "th": "ซื้อของที่ระลึก",
+            "ko": "기념품 쇼핑",
+            "es": "Comprar recuerdos"
+          },
+          "objectives": {
+            "en": [
+              "Shop for souvenirs and gifts",
+              "Discuss prices and bargain"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "đồ lưu niệm",
+              "romanization": null,
+              "meanings": {
+                "en": "souvenir",
+                "zh": "纪念品",
+                "th": "ของที่ระลึก",
+                "ko": "기념품",
+                "es": "recuerdo"
+              }
+            },
+            {
+              "word": "giá",
+              "romanization": null,
+              "meanings": {
+                "en": "price",
+                "zh": "价格",
+                "th": "ราคา",
+                "ko": "가격",
+                "es": "precio"
+              }
+            },
+            {
+              "word": "rẻ",
+              "romanization": null,
+              "meanings": {
+                "en": "cheap",
+                "zh": "便宜",
+                "th": "ถูก",
+                "ko": "저렴한",
+                "es": "barato"
+              }
+            },
+            {
+              "word": "đắt",
+              "romanization": null,
+              "meanings": {
+                "en": "expensive",
+                "zh": "贵",
+                "th": "แพง",
+                "ko": "비싼",
+                "es": "caro"
+              }
+            },
+            {
+              "word": "cho tôi xem",
+              "romanization": null,
+              "meanings": {
+                "en": "let me see / may I look",
+                "zh": "让我看看",
+                "th": "ขอดูหน่อย",
+                "ko": "봐도 될까요",
+                "es": "déjeme ver / ¿puedo ver?"
+              }
+            },
+            {
+              "word": "gói quà",
+              "romanization": null,
+              "meanings": {
+                "en": "gift wrap",
+                "zh": "礼品包装",
+                "th": "ห่อของขวัญ",
+                "ko": "선물 포장",
+                "es": "envolver para regalo"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "giá",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "price",
+                  "size",
+                  "weight",
+                  "colour"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Giá means price."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'expensive' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "đắt",
+                  "rẻ",
+                  "miễn phí",
+                  "giảm giá"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Đắt means expensive."
+            },
+            {
+              "type": "listening",
+              "audio_text": "đồ lưu niệm",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "souvenir",
+                  "gift",
+                  "map",
+                  "guide"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Đồ lưu niệm means souvenir."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "đồ lưu niệm",
+                  "romanization": null,
+                  "native": {
+                    "en": "souvenir"
+                  }
+                },
+                {
+                  "target": "giá",
+                  "romanization": null,
+                  "native": {
+                    "en": "price"
+                  }
+                },
+                {
+                  "target": "rẻ",
+                  "romanization": null,
+                  "native": {
+                    "en": "cheap"
+                  }
+                },
+                {
+                  "target": "đắt",
+                  "romanization": null,
+                  "native": {
+                    "en": "expensive"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'How much does this cost?'"
+              },
+              "words": [
+                "cái",
+                "này",
+                "giá",
+                "bao",
+                "nhiêu"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "cái",
+                  "này",
+                  "giá",
+                  "bao",
+                  "nhiêu"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "cái",
+                  "này",
+                  "giá",
+                  "bao",
+                  "nhiêu"
+                ]
+              },
+              "translation": "Cái này giá bao nhiêu?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

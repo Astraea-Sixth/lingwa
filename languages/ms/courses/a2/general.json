@@ -1,0 +1,545 @@
+{
+  "lang": "ms",
+  "language": "ms",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe your morning routine", "Use daily activity vocabulary"] },
+          "vocabulary": [
+            { "word": "Bangun", "romanization": null, "meanings": { "en": "Wake up" }, "gendered": null },
+            { "word": "Mandi", "romanization": null, "meanings": { "en": "Bathe / shower" }, "gendered": null },
+            { "word": "Sarapan", "romanization": null, "meanings": { "en": "Breakfast" }, "gendered": null },
+            { "word": "Bersiap", "romanization": null, "meanings": { "en": "Get ready" }, "gendered": null },
+            { "word": "Pergi kerja", "romanization": null, "meanings": { "en": "Go to work" }, "gendered": null },
+            { "word": "Setiap hari", "romanization": null, "meanings": { "en": "Every day" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Bangun", "romanization": null, "options": { "en": ["Wake up", "Sleep", "Eat", "Walk"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sarapan", "romanization": null, "options": { "en": ["Breakfast", "Lunch", "Dinner", "Snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bathe' in Malay?" }, "options": { "neutral": ["Mandi", "Bangun", "Sarapan", "Bersiap"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Every day' in Malay?" }, "options": { "neutral": ["Setiap hari", "Pergi kerja", "Bangun", "Mandi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pergi kerja", "romanization": null, "options": { "en": ["Go to work", "Go to school", "Go home", "Go to market"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Bangun", "romanization": null, "native": { "en": "Wake up" } },
+              { "target": "Mandi", "romanization": null, "native": { "en": "Bathe / shower" } },
+              { "target": "Sarapan", "romanization": null, "native": { "en": "Breakfast" } },
+              { "target": "Bersiap", "romanization": null, "native": { "en": "Get ready" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "At Home" },
+          "objectives": { "en": ["Name rooms and household items", "Describe daily activities at home"] },
+          "vocabulary": [
+            { "word": "Rumah", "romanization": null, "meanings": { "en": "House / home" }, "gendered": null },
+            { "word": "Bilik", "romanization": null, "meanings": { "en": "Room" }, "gendered": null },
+            { "word": "Dapur", "romanization": null, "meanings": { "en": "Kitchen" }, "gendered": null },
+            { "word": "Bilik tidur", "romanization": null, "meanings": { "en": "Bedroom" }, "gendered": null },
+            { "word": "Bilik air", "romanization": null, "meanings": { "en": "Bathroom" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Rumah", "romanization": null, "options": { "en": ["House / home", "Room", "Kitchen", "School"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Dapur", "romanization": null, "options": { "en": ["Kitchen", "Bedroom", "Bathroom", "Living room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bedroom' in Malay?" }, "options": { "neutral": ["Bilik tidur", "Bilik air", "Dapur", "Rumah"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bathroom' in Malay?" }, "options": { "neutral": ["Bilik air", "Bilik tidur", "Dapur", "Bilik"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bilik tidur", "romanization": null, "options": { "en": ["Bedroom", "Bathroom", "Kitchen", "Room"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Rumah", "romanization": null, "native": { "en": "House / home" } },
+              { "target": "Dapur", "romanization": null, "native": { "en": "Kitchen" } },
+              { "target": "Bilik tidur", "romanization": null, "native": { "en": "Bedroom" } },
+              { "target": "Bilik air", "romanization": null, "native": { "en": "Bathroom" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": { "en": ["Talk about hobbies", "Express likes and dislikes"] },
+          "vocabulary": [
+            { "word": "Suka", "romanization": null, "meanings": { "en": "Like" }, "gendered": null },
+            { "word": "Tidak suka", "romanization": null, "meanings": { "en": "Don't like" }, "gendered": null },
+            { "word": "Membaca", "romanization": null, "meanings": { "en": "Reading" }, "gendered": null },
+            { "word": "Menonton", "romanization": null, "meanings": { "en": "Watching" }, "gendered": null },
+            { "word": "Bermain", "romanization": null, "meanings": { "en": "Playing" }, "gendered": null },
+            { "word": "Memasak", "romanization": null, "meanings": { "en": "Cooking" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Suka", "romanization": null, "options": { "en": ["Like", "Dislike", "Want", "Need"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Memasak", "romanization": null, "options": { "en": ["Cooking", "Reading", "Playing", "Watching"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Reading' in Malay?" }, "options": { "neutral": ["Membaca", "Menonton", "Bermain", "Memasak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Don't like' in Malay?" }, "options": { "neutral": ["Tidak suka", "Suka", "Tidak mahu", "Mahu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bermain", "romanization": null, "options": { "en": ["Playing", "Cooking", "Reading", "Watching"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Membaca", "romanization": null, "native": { "en": "Reading" } },
+              { "target": "Menonton", "romanization": null, "native": { "en": "Watching" } },
+              { "target": "Bermain", "romanization": null, "native": { "en": "Playing" } },
+              { "target": "Memasak", "romanization": null, "native": { "en": "Cooking" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Work & School" },
+          "objectives": { "en": ["Talk about work and study", "Describe your occupation"] },
+          "vocabulary": [
+            { "word": "Kerja", "romanization": null, "meanings": { "en": "Work" }, "gendered": null },
+            { "word": "Belajar", "romanization": null, "meanings": { "en": "Study / learn" }, "gendered": null },
+            { "word": "Guru", "romanization": null, "meanings": { "en": "Teacher" }, "gendered": null },
+            { "word": "Pelajar", "romanization": null, "meanings": { "en": "Student" }, "gendered": null },
+            { "word": "Pejabat", "romanization": null, "meanings": { "en": "Office" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Guru", "romanization": null, "options": { "en": ["Teacher", "Student", "Doctor", "Worker"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Belajar", "romanization": null, "options": { "en": ["Study / learn", "Work", "Teach", "Play"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Student' in Malay?" }, "options": { "neutral": ["Pelajar", "Guru", "Kerja", "Belajar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Office' in Malay?" }, "options": { "neutral": ["Pejabat", "Sekolah", "Rumah", "Kedai"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kerja", "romanization": null, "options": { "en": ["Work", "Study", "Play", "Rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kerja", "romanization": null, "native": { "en": "Work" } },
+              { "target": "Belajar", "romanization": null, "native": { "en": "Study / learn" } },
+              { "target": "Guru", "romanization": null, "native": { "en": "Teacher" } },
+              { "target": "Pelajar", "romanization": null, "native": { "en": "Student" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe the weather", "Understand weather forecasts"] },
+          "vocabulary": [
+            { "word": "Cuaca", "romanization": null, "meanings": { "en": "Weather" }, "gendered": null },
+            { "word": "Panas", "romanization": null, "meanings": { "en": "Hot" }, "gendered": null },
+            { "word": "Sejuk", "romanization": null, "meanings": { "en": "Cold" }, "gendered": null },
+            { "word": "Hujan", "romanization": null, "meanings": { "en": "Rain" }, "gendered": null },
+            { "word": "Cerah", "romanization": null, "meanings": { "en": "Sunny / clear" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Cuaca", "romanization": null, "options": { "en": ["Weather", "Wind", "Rain", "Sun"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Hujan", "romanization": null, "options": { "en": ["Rain", "Snow", "Wind", "Sun"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Malay?" }, "options": { "neutral": ["Panas", "Sejuk", "Cerah", "Hujan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cold' in Malay?" }, "options": { "neutral": ["Sejuk", "Panas", "Hujan", "Cerah"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Cerah", "romanization": null, "options": { "en": ["Sunny / clear", "Rainy", "Cold", "Hot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Panas", "romanization": null, "native": { "en": "Hot" } },
+              { "target": "Sejuk", "romanization": null, "native": { "en": "Cold" } },
+              { "target": "Hujan", "romanization": null, "native": { "en": "Rain" } },
+              { "target": "Cerah", "romanization": null, "native": { "en": "Sunny / clear" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Talking About Weather" },
+          "objectives": { "en": ["Ask about the weather", "Describe weather changes"] },
+          "vocabulary": [
+            { "word": "Angin", "romanization": null, "meanings": { "en": "Wind" }, "gendered": null },
+            { "word": "Mendung", "romanization": null, "meanings": { "en": "Cloudy" }, "gendered": null },
+            { "word": "Ribut", "romanization": null, "meanings": { "en": "Storm" }, "gendered": null },
+            { "word": "Lembap", "romanization": null, "meanings": { "en": "Humid" }, "gendered": null },
+            { "word": "Hari ini", "romanization": null, "meanings": { "en": "Today" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Mendung", "romanization": null, "options": { "en": ["Cloudy", "Sunny", "Rainy", "Windy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Ribut", "romanization": null, "options": { "en": ["Storm", "Cloud", "Wind", "Rain"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wind' in Malay?" }, "options": { "neutral": ["Angin", "Hujan", "Ribut", "Mendung"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Humid' in Malay?" }, "options": { "neutral": ["Lembap", "Panas", "Sejuk", "Cerah"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Angin", "romanization": null, "options": { "en": ["Wind", "Rain", "Storm", "Cloud"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Angin", "romanization": null, "native": { "en": "Wind" } },
+              { "target": "Mendung", "romanization": null, "native": { "en": "Cloudy" } },
+              { "target": "Ribut", "romanization": null, "native": { "en": "Storm" } },
+              { "target": "Lembap", "romanization": null, "native": { "en": "Humid" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": { "en": ["Name basic clothing items", "Choose clothes based on weather"] },
+          "vocabulary": [
+            { "word": "Baju", "romanization": null, "meanings": { "en": "Shirt / clothes" }, "gendered": null },
+            { "word": "Seluar", "romanization": null, "meanings": { "en": "Pants" }, "gendered": null },
+            { "word": "Payung", "romanization": null, "meanings": { "en": "Umbrella" }, "gendered": null },
+            { "word": "Kasut", "romanization": null, "meanings": { "en": "Shoes" }, "gendered": null },
+            { "word": "Topi", "romanization": null, "meanings": { "en": "Hat" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Payung", "romanization": null, "options": { "en": ["Umbrella", "Hat", "Shirt", "Shoes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kasut", "romanization": null, "options": { "en": ["Shoes", "Pants", "Hat", "Shirt"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Shirt' in Malay?" }, "options": { "neutral": ["Baju", "Seluar", "Kasut", "Topi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Pants' in Malay?" }, "options": { "neutral": ["Seluar", "Baju", "Kasut", "Payung"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Topi", "romanization": null, "options": { "en": ["Hat", "Shoes", "Umbrella", "Shirt"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Baju", "romanization": null, "native": { "en": "Shirt / clothes" } },
+              { "target": "Payung", "romanization": null, "native": { "en": "Umbrella" } },
+              { "target": "Kasut", "romanization": null, "native": { "en": "Shoes" } },
+              { "target": "Topi", "romanization": null, "native": { "en": "Hat" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Seasons & Climate" },
+          "objectives": { "en": ["Discuss tropical climate", "Talk about dry and rainy seasons"] },
+          "vocabulary": [
+            { "word": "Musim", "romanization": null, "meanings": { "en": "Season" }, "gendered": null },
+            { "word": "Musim hujan", "romanization": null, "meanings": { "en": "Rainy season" }, "gendered": null },
+            { "word": "Musim kering", "romanization": null, "meanings": { "en": "Dry season" }, "gendered": null },
+            { "word": "Banjir", "romanization": null, "meanings": { "en": "Flood" }, "gendered": null },
+            { "word": "Matahari", "romanization": null, "meanings": { "en": "Sun" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Musim hujan", "romanization": null, "options": { "en": ["Rainy season", "Dry season", "Winter", "Summer"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Matahari", "romanization": null, "options": { "en": ["Sun", "Moon", "Star", "Cloud"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dry season' in Malay?" }, "options": { "neutral": ["Musim kering", "Musim hujan", "Musim", "Banjir"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Flood' in Malay?" }, "options": { "neutral": ["Banjir", "Hujan", "Ribut", "Musim"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Musim", "romanization": null, "options": { "en": ["Season", "Weather", "Rain", "Wind"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Musim", "romanization": null, "native": { "en": "Season" } },
+              { "target": "Musim hujan", "romanization": null, "native": { "en": "Rainy season" } },
+              { "target": "Banjir", "romanization": null, "native": { "en": "Flood" } },
+              { "target": "Matahari", "romanization": null, "native": { "en": "Sun" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Well-being" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name basic body parts", "Point to body parts when speaking"] },
+          "vocabulary": [
+            { "word": "Kepala", "romanization": null, "meanings": { "en": "Head" }, "gendered": null },
+            { "word": "Tangan", "romanization": null, "meanings": { "en": "Hand / arm" }, "gendered": null },
+            { "word": "Kaki", "romanization": null, "meanings": { "en": "Leg / foot" }, "gendered": null },
+            { "word": "Mata", "romanization": null, "meanings": { "en": "Eye" }, "gendered": null },
+            { "word": "Perut", "romanization": null, "meanings": { "en": "Stomach" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kepala", "romanization": null, "options": { "en": ["Head", "Hand", "Leg", "Eye"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Perut", "romanization": null, "options": { "en": ["Stomach", "Head", "Foot", "Hand"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eye' in Malay?" }, "options": { "neutral": ["Mata", "Kepala", "Tangan", "Kaki"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hand' in Malay?" }, "options": { "neutral": ["Tangan", "Kaki", "Kepala", "Perut"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kaki", "romanization": null, "options": { "en": ["Leg / foot", "Hand", "Head", "Eye"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kepala", "romanization": null, "native": { "en": "Head" } },
+              { "target": "Tangan", "romanization": null, "native": { "en": "Hand / arm" } },
+              { "target": "Mata", "romanization": null, "native": { "en": "Eye" } },
+              { "target": "Perut", "romanization": null, "native": { "en": "Stomach" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Sick" },
+          "objectives": { "en": ["Describe symptoms", "Say you are not feeling well"] },
+          "vocabulary": [
+            { "word": "Sakit", "romanization": null, "meanings": { "en": "Sick / pain" }, "gendered": null },
+            { "word": "Demam", "romanization": null, "meanings": { "en": "Fever" }, "gendered": null },
+            { "word": "Batuk", "romanization": null, "meanings": { "en": "Cough" }, "gendered": null },
+            { "word": "Selsema", "romanization": null, "meanings": { "en": "Cold (illness)" }, "gendered": null },
+            { "word": "Sakit kepala", "romanization": null, "meanings": { "en": "Headache" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Demam", "romanization": null, "options": { "en": ["Fever", "Cough", "Cold", "Headache"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sakit kepala", "romanization": null, "options": { "en": ["Headache", "Stomachache", "Fever", "Cough"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cough' in Malay?" }, "options": { "neutral": ["Batuk", "Demam", "Selsema", "Sakit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sick' in Malay?" }, "options": { "neutral": ["Sakit", "Batuk", "Demam", "Selsema"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Selsema", "romanization": null, "options": { "en": ["Cold (illness)", "Fever", "Cough", "Headache"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Sakit", "romanization": null, "native": { "en": "Sick / pain" } },
+              { "target": "Demam", "romanization": null, "native": { "en": "Fever" } },
+              { "target": "Batuk", "romanization": null, "native": { "en": "Cough" } },
+              { "target": "Sakit kepala", "romanization": null, "native": { "en": "Headache" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Communicate at a clinic", "Understand basic medical instructions"] },
+          "vocabulary": [
+            { "word": "Doktor", "romanization": null, "meanings": { "en": "Doctor" }, "gendered": null },
+            { "word": "Ubat", "romanization": null, "meanings": { "en": "Medicine" }, "gendered": null },
+            { "word": "Klinik", "romanization": null, "meanings": { "en": "Clinic" }, "gendered": null },
+            { "word": "Rehat", "romanization": null, "meanings": { "en": "Rest" }, "gendered": null },
+            { "word": "Sihat", "romanization": null, "meanings": { "en": "Healthy" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Ubat", "romanization": null, "options": { "en": ["Medicine", "Doctor", "Clinic", "Rest"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sihat", "romanization": null, "options": { "en": ["Healthy", "Sick", "Tired", "Weak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Doctor' in Malay?" }, "options": { "neutral": ["Doktor", "Ubat", "Klinik", "Guru"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Rest' in Malay?" }, "options": { "neutral": ["Rehat", "Sihat", "Sakit", "Ubat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Klinik", "romanization": null, "options": { "en": ["Clinic", "Hospital", "Pharmacy", "School"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Doktor", "romanization": null, "native": { "en": "Doctor" } },
+              { "target": "Ubat", "romanization": null, "native": { "en": "Medicine" } },
+              { "target": "Rehat", "romanization": null, "native": { "en": "Rest" } },
+              { "target": "Sihat", "romanization": null, "native": { "en": "Healthy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Staying Healthy" },
+          "objectives": { "en": ["Talk about healthy habits", "Give simple health advice"] },
+          "vocabulary": [
+            { "word": "Senaman", "romanization": null, "meanings": { "en": "Exercise" }, "gendered": null },
+            { "word": "Tidur", "romanization": null, "meanings": { "en": "Sleep" }, "gendered": null },
+            { "word": "Minum air", "romanization": null, "meanings": { "en": "Drink water" }, "gendered": null },
+            { "word": "Kuat", "romanization": null, "meanings": { "en": "Strong" }, "gendered": null },
+            { "word": "Lemah", "romanization": null, "meanings": { "en": "Weak" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Senaman", "romanization": null, "options": { "en": ["Exercise", "Sleep", "Rest", "Medicine"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kuat", "romanization": null, "options": { "en": ["Strong", "Weak", "Healthy", "Sick"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sleep' in Malay?" }, "options": { "neutral": ["Tidur", "Rehat", "Bangun", "Senaman"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Weak' in Malay?" }, "options": { "neutral": ["Lemah", "Kuat", "Sakit", "Sihat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Minum air", "romanization": null, "options": { "en": ["Drink water", "Eat food", "Take medicine", "Get rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Senaman", "romanization": null, "native": { "en": "Exercise" } },
+              { "target": "Tidur", "romanization": null, "native": { "en": "Sleep" } },
+              { "target": "Kuat", "romanization": null, "native": { "en": "Strong" } },
+              { "target": "Lemah", "romanization": null, "native": { "en": "Weak" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Use time expressions for the future"] },
+          "vocabulary": [
+            { "word": "Akan", "romanization": null, "meanings": { "en": "Will (future)" }, "gendered": null },
+            { "word": "Esok", "romanization": null, "meanings": { "en": "Tomorrow" }, "gendered": null },
+            { "word": "Minggu depan", "romanization": null, "meanings": { "en": "Next week" }, "gendered": null },
+            { "word": "Rancang", "romanization": null, "meanings": { "en": "Plan" }, "gendered": null },
+            { "word": "Mahu", "romanization": null, "meanings": { "en": "Want" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Akan", "romanization": null, "options": { "en": ["Will (future)", "Was (past)", "Is (present)", "Should"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Esok", "romanization": null, "options": { "en": ["Tomorrow", "Yesterday", "Today", "Next week"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Next week' in Malay?" }, "options": { "neutral": ["Minggu depan", "Esok", "Hari ini", "Semalam"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Want' in Malay?" }, "options": { "neutral": ["Mahu", "Akan", "Boleh", "Perlu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Rancang", "romanization": null, "options": { "en": ["Plan", "Want", "Will", "Go"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Akan", "romanization": null, "native": { "en": "Will (future)" } },
+              { "target": "Esok", "romanization": null, "native": { "en": "Tomorrow" } },
+              { "target": "Rancang", "romanization": null, "native": { "en": "Plan" } },
+              { "target": "Mahu", "romanization": null, "native": { "en": "Want" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations & Suggestions" },
+          "objectives": { "en": ["Invite someone to do something", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "Jom", "romanization": null, "meanings": { "en": "Let's go / come on" }, "gendered": null },
+            { "word": "Boleh", "romanization": null, "meanings": { "en": "Can / may" }, "gendered": null },
+            { "word": "Tidak boleh", "romanization": null, "meanings": { "en": "Cannot" }, "gendered": null },
+            { "word": "Bila?", "romanization": null, "meanings": { "en": "When?" }, "gendered": null },
+            { "word": "Bagus", "romanization": null, "meanings": { "en": "Good / great" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Jom", "romanization": null, "options": { "en": ["Let's go / come on", "Stop", "Wait", "Go away"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Bila?", "romanization": null, "options": { "en": ["When?", "Where?", "What?", "Who?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Can' in Malay?" }, "options": { "neutral": ["Boleh", "Mahu", "Akan", "Jom"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cannot' in Malay?" }, "options": { "neutral": ["Tidak boleh", "Boleh", "Tidak mahu", "Jom"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bagus", "romanization": null, "options": { "en": ["Good / great", "Bad", "OK", "Maybe"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Jom", "romanization": null, "native": { "en": "Let's go / come on" } },
+              { "target": "Boleh", "romanization": null, "native": { "en": "Can / may" } },
+              { "target": "Bila?", "romanization": null, "native": { "en": "When?" } },
+              { "target": "Bagus", "romanization": null, "native": { "en": "Good / great" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Travel Plans" },
+          "objectives": { "en": ["Discuss travel destinations", "Talk about trip preparations"] },
+          "vocabulary": [
+            { "word": "Melancong", "romanization": null, "meanings": { "en": "Travel / tourism" }, "gendered": null },
+            { "word": "Tiket", "romanization": null, "meanings": { "en": "Ticket" }, "gendered": null },
+            { "word": "Lapangan terbang", "romanization": null, "meanings": { "en": "Airport" }, "gendered": null },
+            { "word": "Hotel", "romanization": null, "meanings": { "en": "Hotel" }, "gendered": null },
+            { "word": "Beg", "romanization": null, "meanings": { "en": "Bag" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Melancong", "romanization": null, "options": { "en": ["Travel / tourism", "Work", "Study", "Rest"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Lapangan terbang", "romanization": null, "options": { "en": ["Airport", "Train station", "Bus stop", "Hotel"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Ticket' in Malay?" }, "options": { "neutral": ["Tiket", "Beg", "Hotel", "Bas"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bag' in Malay?" }, "options": { "neutral": ["Beg", "Tiket", "Hotel", "Kasut"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Hotel", "romanization": null, "options": { "en": ["Hotel", "Hospital", "House", "School"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Melancong", "romanization": null, "native": { "en": "Travel / tourism" } },
+              { "target": "Tiket", "romanization": null, "native": { "en": "Ticket" } },
+              { "target": "Lapangan terbang", "romanization": null, "native": { "en": "Airport" } },
+              { "target": "Beg", "romanization": null, "native": { "en": "Bag" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Weekend Activities" },
+          "objectives": { "en": ["Talk about weekend plans", "Describe leisure activities"] },
+          "vocabulary": [
+            { "word": "Hujung minggu", "romanization": null, "meanings": { "en": "Weekend" }, "gendered": null },
+            { "word": "Bersantai", "romanization": null, "meanings": { "en": "Relax" }, "gendered": null },
+            { "word": "Berkelah", "romanization": null, "meanings": { "en": "Picnic" }, "gendered": null },
+            { "word": "Membeli-belah", "romanization": null, "meanings": { "en": "Shopping" }, "gendered": null },
+            { "word": "Kawan", "romanization": null, "meanings": { "en": "Friend" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Hujung minggu", "romanization": null, "options": { "en": ["Weekend", "Weekday", "Holiday", "Vacation"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Membeli-belah", "romanization": null, "options": { "en": ["Shopping", "Cooking", "Reading", "Sleeping"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Friend' in Malay?" }, "options": { "neutral": ["Kawan", "Keluarga", "Guru", "Pelajar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Relax' in Malay?" }, "options": { "neutral": ["Bersantai", "Berkelah", "Bermain", "Belajar"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Berkelah", "romanization": null, "options": { "en": ["Picnic", "Shopping", "Relaxing", "Working"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Hujung minggu", "romanization": null, "native": { "en": "Weekend" } },
+              { "target": "Bersantai", "romanization": null, "native": { "en": "Relax" } },
+              { "target": "Membeli-belah", "romanization": null, "native": { "en": "Shopping" } },
+              { "target": "Kawan", "romanization": null, "native": { "en": "Friend" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Feelings" },
+          "objectives": { "en": ["Express basic emotions", "Ask how someone feels"] },
+          "vocabulary": [
+            { "word": "Gembira", "romanization": null, "meanings": { "en": "Happy" }, "gendered": null },
+            { "word": "Sedih", "romanization": null, "meanings": { "en": "Sad" }, "gendered": null },
+            { "word": "Marah", "romanization": null, "meanings": { "en": "Angry" }, "gendered": null },
+            { "word": "Takut", "romanization": null, "meanings": { "en": "Afraid" }, "gendered": null },
+            { "word": "Penat", "romanization": null, "meanings": { "en": "Tired" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Gembira", "romanization": null, "options": { "en": ["Happy", "Sad", "Angry", "Afraid"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Penat", "romanization": null, "options": { "en": ["Tired", "Happy", "Angry", "Sad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sad' in Malay?" }, "options": { "neutral": ["Sedih", "Gembira", "Marah", "Takut"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Afraid' in Malay?" }, "options": { "neutral": ["Takut", "Marah", "Sedih", "Penat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Marah", "romanization": null, "options": { "en": ["Angry", "Sad", "Happy", "Tired"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Gembira", "romanization": null, "native": { "en": "Happy" } },
+              { "target": "Sedih", "romanization": null, "native": { "en": "Sad" } },
+              { "target": "Marah", "romanization": null, "native": { "en": "Angry" } },
+              { "target": "Penat", "romanization": null, "native": { "en": "Tired" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Likes & Preferences" },
+          "objectives": { "en": ["Express preferences", "Compare things you like"] },
+          "vocabulary": [
+            { "word": "Lebih suka", "romanization": null, "meanings": { "en": "Prefer" }, "gendered": null },
+            { "word": "Paling suka", "romanization": null, "meanings": { "en": "Like the most / favorite" }, "gendered": null },
+            { "word": "Atau", "romanization": null, "meanings": { "en": "Or" }, "gendered": null },
+            { "word": "Lebih baik", "romanization": null, "meanings": { "en": "Better" }, "gendered": null },
+            { "word": "Paling baik", "romanization": null, "meanings": { "en": "Best" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Lebih suka", "romanization": null, "options": { "en": ["Prefer", "Like", "Dislike", "Want"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Paling baik", "romanization": null, "options": { "en": ["Best", "Better", "Good", "Bad"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Or' in Malay?" }, "options": { "neutral": ["Atau", "Dan", "Tetapi", "Juga"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Better' in Malay?" }, "options": { "neutral": ["Lebih baik", "Paling baik", "Baik", "Bagus"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Paling suka", "romanization": null, "options": { "en": ["Like the most / favorite", "Prefer", "Don't like", "Like"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Lebih suka", "romanization": null, "native": { "en": "Prefer" } },
+              { "target": "Paling suka", "romanization": null, "native": { "en": "Like the most / favorite" } },
+              { "target": "Lebih baik", "romanization": null, "native": { "en": "Better" } },
+              { "target": "Paling baik", "romanization": null, "native": { "en": "Best" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Giving Opinions" },
+          "objectives": { "en": ["Share your opinion", "Agree and disagree politely"] },
+          "vocabulary": [
+            { "word": "Saya rasa", "romanization": null, "meanings": { "en": "I think / I feel" }, "gendered": null },
+            { "word": "Setuju", "romanization": null, "meanings": { "en": "Agree" }, "gendered": null },
+            { "word": "Tidak setuju", "romanization": null, "meanings": { "en": "Disagree" }, "gendered": null },
+            { "word": "Betul", "romanization": null, "meanings": { "en": "Correct / true" }, "gendered": null },
+            { "word": "Salah", "romanization": null, "meanings": { "en": "Wrong / incorrect" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Saya rasa", "romanization": null, "options": { "en": ["I think / I feel", "I know", "I want", "I have"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Betul", "romanization": null, "options": { "en": ["Correct / true", "Wrong", "Maybe", "Uncertain"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Agree' in Malay?" }, "options": { "neutral": ["Setuju", "Tidak setuju", "Betul", "Salah"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wrong' in Malay?" }, "options": { "neutral": ["Salah", "Betul", "Setuju", "Tidak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tidak setuju", "romanization": null, "options": { "en": ["Disagree", "Agree", "Correct", "Wrong"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Saya rasa", "romanization": null, "native": { "en": "I think / I feel" } },
+              { "target": "Setuju", "romanization": null, "native": { "en": "Agree" } },
+              { "target": "Betul", "romanization": null, "native": { "en": "Correct / true" } },
+              { "target": "Salah", "romanization": null, "native": { "en": "Wrong / incorrect" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Describing Experiences" },
+          "objectives": { "en": ["Describe past experiences", "Use simple past expressions"] },
+          "vocabulary": [
+            { "word": "Sudah", "romanization": null, "meanings": { "en": "Already" }, "gendered": null },
+            { "word": "Belum", "romanization": null, "meanings": { "en": "Not yet" }, "gendered": null },
+            { "word": "Pernah", "romanization": null, "meanings": { "en": "Have experienced / ever" }, "gendered": null },
+            { "word": "Semalam", "romanization": null, "meanings": { "en": "Yesterday" }, "gendered": null },
+            { "word": "Seronok", "romanization": null, "meanings": { "en": "Fun / enjoyable" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sudah", "romanization": null, "options": { "en": ["Already", "Not yet", "Will", "Never"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Seronok", "romanization": null, "options": { "en": ["Fun / enjoyable", "Boring", "Tired", "Angry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Not yet' in Malay?" }, "options": { "neutral": ["Belum", "Sudah", "Tidak", "Pernah"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Yesterday' in Malay?" }, "options": { "neutral": ["Semalam", "Esok", "Hari ini", "Minggu depan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pernah", "romanization": null, "options": { "en": ["Have experienced / ever", "Never", "Already", "Not yet"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Sudah", "romanization": null, "native": { "en": "Already" } },
+              { "target": "Belum", "romanization": null, "native": { "en": "Not yet" } },
+              { "target": "Pernah", "romanization": null, "native": { "en": "Have experienced / ever" } },
+              { "target": "Seronok", "romanization": null, "native": { "en": "Fun / enjoyable" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

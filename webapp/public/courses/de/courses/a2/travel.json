@@ -1,0 +1,792 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Navigation",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行交通",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir direcciones"
+          },
+          "objectives": {
+            "en": ["Ask for and give directions in German", "Understand basic navigation instructions"],
+            "zh": ["用德语问路和指路", "理解基本导航指示"],
+            "th": ["ถามและบอกทางเป็นภาษาเยอรมัน", "เข้าใจคำแนะนำนำทางพื้นฐาน"],
+            "ko": ["독일어로 길 묻고 알려주기", "기본 길 안내 이해하기"],
+            "es": ["Pedir y dar indicaciones en alemán", "Entender instrucciones básicas de navegación"]
+          },
+          "vocabulary": [
+            {
+              "word": "geradeaus",
+              "romanization": null,
+              "meanings": { "en": "straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "todo recto" }
+            },
+            {
+              "word": "links abbiegen",
+              "romanization": null,
+              "meanings": { "en": "to turn left", "zh": "向左转", "th": "เลี้ยวซ้าย", "ko": "왼쪽으로 돌다", "es": "girar a la izquierda" }
+            },
+            {
+              "word": "rechts abbiegen",
+              "romanization": null,
+              "meanings": { "en": "to turn right", "zh": "向右转", "th": "เลี้ยวขวา", "ko": "오른쪽으로 돌다", "es": "girar a la derecha" }
+            },
+            {
+              "word": "die Kreuzung",
+              "romanization": null,
+              "meanings": { "en": "the intersection/crossroads", "zh": "十字路口", "th": "ทางแยก", "ko": "교차로", "es": "el cruce" }
+            },
+            {
+              "word": "wie weit",
+              "romanization": null,
+              "meanings": { "en": "how far", "zh": "有多远", "th": "ไกลแค่ไหน", "ko": "얼마나 먼", "es": "qué tan lejos" }
+            },
+            {
+              "word": "zu Fuß",
+              "romanization": null,
+              "meanings": { "en": "on foot / walking", "zh": "步行", "th": "เดินเท้า", "ko": "걸어서", "es": "a pie" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Go straight ahead and then turn left'?",
+              "options": ["Gehen Sie geradeaus und dann links ab.", "Gehen Sie rechts und dann geradeaus.", "Biegen Sie zuerst rechts ab.", "Nehmen Sie die zweite Straße links."],
+              "correct": 0,
+              "explanation": "'Geradeaus' = straight ahead, 'dann' = then, 'links ab' = turn left."
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Kreuzung",
+              "options": ["the intersection", "the street", "the bridge", "the bus stop"],
+              "correct": 0,
+              "explanation": "'Die Kreuzung' is an intersection or crossroads where streets cross."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wie weit ist es zum Bahnhof zu Fuß?",
+              "options": ["How far is the train station on foot?", "Where is the nearest bus stop?", "How do I get to the airport?", "Is there a hotel nearby?"],
+              "correct": 0,
+              "explanation": "'Wie weit' = how far, 'zum Bahnhof' = to the train station, 'zu Fuß' = on foot."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["geradeaus", "straight ahead"],
+                ["links abbiegen", "turn left"],
+                ["rechts abbiegen", "turn right"],
+                ["zu Fuß", "on foot"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Sie", "geradeaus", "dann", "Gehen", "links", "und", "abbiegen"],
+              "correct": ["Gehen", "Sie", "geradeaus", "und", "dann", "links", "abbiegen"],
+              "translation": "Go straight ahead and then turn left."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ระบบขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": ["Use public transport in Germany", "Buy tickets and understand schedules"],
+            "zh": ["在德国使用公共交通", "购票和了解时刻表"],
+            "th": ["ใช้ระบบขนส่งสาธารณะในเยอรมนี", "ซื้อตั๋วและเข้าใจตารางเวลา"],
+            "ko": ["독일에서 대중교통 이용하기", "티켓 구매하고 시간표 이해하기"],
+            "es": ["Usar el transporte público en Alemania", "Comprar billetes y entender horarios"]
+          },
+          "vocabulary": [
+            {
+              "word": "die U-Bahn",
+              "romanization": null,
+              "meanings": { "en": "the subway/metro", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "el metro" }
+            },
+            {
+              "word": "der Bus",
+              "romanization": null,
+              "meanings": { "en": "the bus", "zh": "公共汽车", "th": "รถเมล์/รถบัส", "ko": "버스", "es": "el autobús" }
+            },
+            {
+              "word": "die Fahrkarte",
+              "romanization": null,
+              "meanings": { "en": "the ticket", "zh": "车票", "th": "ตั๋ว", "ko": "승차권", "es": "el billete" }
+            },
+            {
+              "word": "der Bahnsteig",
+              "romanization": null,
+              "meanings": { "en": "the platform", "zh": "站台", "th": "ชานชาลา", "ko": "승강장", "es": "el andén" }
+            },
+            {
+              "word": "umsteigen",
+              "romanization": null,
+              "meanings": { "en": "to transfer/change (transport)", "zh": "换乘", "th": "เปลี่ยนสาย", "ko": "환승하다", "es": "hacer transbordo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Which line do I need to take?'",
+              "options": ["Welche Linie muss ich nehmen?", "Wo ist die U-Bahn-Station?", "Wann fährt der nächste Bus?", "Wie viel kostet die Fahrkarte?"],
+              "correct": 0,
+              "explanation": "'Welche Linie' = which line, 'muss ich nehmen' = must I take."
+            },
+            {
+              "type": "target_to_native",
+              "word": "umsteigen",
+              "options": ["to transfer/change", "to arrive", "to depart", "to wait"],
+              "correct": 0,
+              "explanation": "'Umsteigen' = to change from one transport to another, e.g. change trains."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die U-Bahn", "subway/metro"],
+                ["die Fahrkarte", "ticket"],
+                ["der Bahnsteig", "platform"],
+                ["umsteigen", "to transfer"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Sie müssen am Hauptbahnhof umsteigen.",
+              "options": ["You need to transfer at the main train station.", "The train departs from platform 3.", "Your ticket is valid for two hours.", "The bus stop is two streets away."],
+              "correct": 0,
+              "explanation": "'Müssen' = must/need to, 'am Hauptbahnhof' = at the main station, 'umsteigen' = transfer."
+            },
+            {
+              "type": "reorder",
+              "words": ["Fahrkarte", "eine", "kaufen", "möchte", "Ich"],
+              "correct": ["Ich", "möchte", "eine", "Fahrkarte", "kaufen"],
+              "translation": "I would like to buy a ticket."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taxi and Rideshare",
+            "zh": "出租车和拼车",
+            "th": "แท็กซี่และบริการร่วมเดินทาง",
+            "ko": "택시와 카풀",
+            "es": "Taxi y transporte compartido"
+          },
+          "objectives": {
+            "en": ["Hire a taxi and give destination", "Understand taxi fare and tipping customs"],
+            "zh": ["叫出租车并说出目的地", "了解出租车费用和小费习惯"],
+            "th": ["เรียกแท็กซี่และบอกปลายทาง", "เข้าใจค่าโดยสารและธรรมเนียมทิป"],
+            "ko": ["택시 잡고 목적지 말하기", "택시 요금과 팁 관습 이해하기"],
+            "es": ["Tomar un taxi e indicar el destino", "Entender tarifas y costumbres de propina"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Taxi",
+              "romanization": null,
+              "meanings": { "en": "the taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "el taxi" }
+            },
+            {
+              "word": "zum Flughafen",
+              "romanization": null,
+              "meanings": { "en": "to the airport", "zh": "去机场", "th": "ไปสนามบิน", "ko": "공항으로", "es": "al aeropuerto" }
+            },
+            {
+              "word": "der Fahrpreis",
+              "romanization": null,
+              "meanings": { "en": "the fare", "zh": "票价/车费", "th": "ค่าโดยสาร", "ko": "요금", "es": "la tarifa" }
+            },
+            {
+              "word": "so schnell wie möglich",
+              "romanization": null,
+              "meanings": { "en": "as fast as possible", "zh": "尽快", "th": "เร็วที่สุดเท่าที่จะเป็นไปได้", "ko": "가능한 한 빨리", "es": "lo más rápido posible" }
+            },
+            {
+              "word": "halten",
+              "romanization": null,
+              "meanings": { "en": "to stop", "zh": "停下", "th": "หยุด", "ko": "멈추다", "es": "parar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Please take me to the airport'?",
+              "options": ["Bitte fahren Sie mich zum Flughafen.", "Ich möchte zum Bahnhof bitte.", "Wo ist der nächste Taxistand?", "Wie weit ist der Flughafen?"],
+              "correct": 0,
+              "explanation": "'Bitte fahren Sie mich zum Flughafen' = please drive me to the airport."
+            },
+            {
+              "type": "target_to_native",
+              "word": "halten",
+              "options": ["to stop", "to drive", "to arrive", "to park"],
+              "correct": 0,
+              "explanation": "'Halten' means to stop. 'Hier halten bitte' = please stop here."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bitte halten Sie hier an.",
+              "options": ["Please stop here.", "Please drive faster.", "Please turn left here.", "Where are we going?"],
+              "correct": 0,
+              "explanation": "'Halten Sie an' is the command form of 'anhalten' (to stop). 'Hier' = here."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Taxi", "taxi"],
+                ["zum Flughafen", "to the airport"],
+                ["der Fahrpreis", "the fare"],
+                ["halten", "to stop"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Flughafen", "mich", "Bitte", "fahren", "zum", "Sie"],
+              "correct": ["Bitte", "fahren", "Sie", "mich", "zum", "Flughafen"],
+              "translation": "Please take me to the airport."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Hotels & Accommodation",
+        "zh": "酒店和住宿",
+        "th": "โรงแรมและที่พัก",
+        "ko": "호텔과 숙박",
+        "es": "Hoteles y alojamiento"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Checking In",
+            "zh": "办理入住",
+            "th": "การเช็คอิน",
+            "ko": "체크인하기",
+            "es": "Hacer el check-in"
+          },
+          "objectives": {
+            "en": ["Check into a hotel in German", "Request room type and amenities"],
+            "zh": ["用德语在酒店办理入住", "要求房型和设施"],
+            "th": ["เช็คอินโรงแรมเป็นภาษาเยอรมัน", "ร้องขอประเภทห้องและสิ่งอำนวยความสะดวก"],
+            "ko": ["독일어로 호텔 체크인하기", "객실 유형과 편의시설 요청하기"],
+            "es": ["Hacer el check-in en un hotel en alemán", "Pedir tipo de habitación y servicios"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Zimmer",
+              "romanization": null,
+              "meanings": { "en": "the room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "la habitación" }
+            },
+            {
+              "word": "das Einzelzimmer",
+              "romanization": null,
+              "meanings": { "en": "the single room", "zh": "单人间", "th": "ห้องเดี่ยว", "ko": "싱글룸", "es": "la habitación individual" }
+            },
+            {
+              "word": "das Doppelzimmer",
+              "romanization": null,
+              "meanings": { "en": "the double room", "zh": "双人间", "th": "ห้องคู่", "ko": "더블룸", "es": "la habitación doble" }
+            },
+            {
+              "word": "einchecken",
+              "romanization": null,
+              "meanings": { "en": "to check in", "zh": "办理入住", "th": "เช็คอิน", "ko": "체크인하다", "es": "hacer el check-in" }
+            },
+            {
+              "word": "der Schlüssel",
+              "romanization": null,
+              "meanings": { "en": "the key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "la llave" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a reservation for a double room'?",
+              "options": ["Ich habe eine Reservierung für ein Doppelzimmer.", "Ich möchte ein Einzelzimmer buchen.", "Gibt es ein Zimmer mit Aussicht?", "Wann ist der Check-out?"],
+              "correct": 0,
+              "explanation": "'Ich habe eine Reservierung' = I have a reservation, 'für ein Doppelzimmer' = for a double room."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Schlüssel",
+              "options": ["the key", "the card", "the door", "the receipt"],
+              "correct": 0,
+              "explanation": "'Der Schlüssel' is the key — you need it to open your hotel room."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Einzelzimmer", "single room"],
+                ["das Doppelzimmer", "double room"],
+                ["einchecken", "to check in"],
+                ["der Schlüssel", "the key"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ihr Zimmer ist Nummer zweihundert und drei.",
+              "options": ["Your room is number two hundred and three.", "Your reservation is for three nights.", "Check-out is at twelve noon.", "Breakfast is included."],
+              "correct": 0,
+              "explanation": "'Ihr Zimmer' = your room, 'Nummer' = number."
+            },
+            {
+              "type": "reorder",
+              "words": ["Reservierung", "Doppelzimmer", "eine", "ein", "für", "habe", "Ich"],
+              "correct": ["Ich", "habe", "eine", "Reservierung", "für", "ein", "Doppelzimmer"],
+              "translation": "I have a reservation for a double room."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Hotel Requests",
+            "zh": "酒店要求",
+            "th": "การขอสิ่งต่างๆ ในโรงแรม",
+            "ko": "호텔 요청하기",
+            "es": "Solicitudes en el hotel"
+          },
+          "objectives": {
+            "en": ["Request towels, services and room changes", "Report a problem with your room"],
+            "zh": ["要求毛巾、服务和换房", "报告房间问题"],
+            "th": ["ขอผ้าเช็ดตัว บริการ และเปลี่ยนห้อง", "รายงานปัญหาในห้องพัก"],
+            "ko": ["수건, 서비스, 방 변경 요청하기", "방 문제 신고하기"],
+            "es": ["Pedir toallas, servicios y cambios de habitación", "Informar de un problema con la habitación"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Handtuch",
+              "romanization": null,
+              "meanings": { "en": "the towel", "zh": "毛巾", "th": "ผ้าเช็ดตัว", "ko": "수건", "es": "la toalla" }
+            },
+            {
+              "word": "die Klimaanlage",
+              "romanization": null,
+              "meanings": { "en": "the air conditioning", "zh": "空调", "th": "เครื่องปรับอากาศ", "ko": "에어컨", "es": "el aire acondicionado" }
+            },
+            {
+              "word": "kaputt",
+              "romanization": null,
+              "meanings": { "en": "broken", "zh": "坏了", "th": "เสีย/พัง", "ko": "고장난", "es": "roto/averiado" }
+            },
+            {
+              "word": "reparieren",
+              "romanization": null,
+              "meanings": { "en": "to repair/fix", "zh": "修理", "th": "ซ่อม", "ko": "수리하다", "es": "reparar" }
+            },
+            {
+              "word": "brauchen",
+              "romanization": null,
+              "meanings": { "en": "to need", "zh": "需要", "th": "ต้องการ", "ko": "필요하다", "es": "necesitar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The air conditioning is broken'?",
+              "options": ["Die Klimaanlage ist kaputt.", "Das Zimmer ist zu warm.", "Ich brauche mehr Handtücher.", "Können Sie das reparieren?"],
+              "correct": 0,
+              "explanation": "'Die Klimaanlage ist kaputt' = the air conditioning is broken. 'Kaputt' is a very common German word for broken."
+            },
+            {
+              "type": "target_to_native",
+              "word": "brauchen",
+              "options": ["to need", "to want", "to have", "to ask"],
+              "correct": 0,
+              "explanation": "'Brauchen' means to need. 'Ich brauche mehr Handtücher' = I need more towels."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Handtuch", "towel"],
+                ["die Klimaanlage", "air conditioning"],
+                ["kaputt", "broken"],
+                ["reparieren", "to repair"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich brauche frische Handtücher für mein Zimmer.",
+              "options": ["I need fresh towels for my room.", "I would like to change my room.", "The shower is not working.", "Can I have an extra pillow?"],
+              "correct": 0,
+              "explanation": "'Frische Handtücher' = fresh towels, 'für mein Zimmer' = for my room."
+            },
+            {
+              "type": "reorder",
+              "words": ["kaputt", "Klimaanlage", "ist", "Die"],
+              "correct": ["Die", "Klimaanlage", "ist", "kaputt"],
+              "translation": "The air conditioning is broken."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Checking Out",
+            "zh": "退房",
+            "th": "การเช็คเอาท์",
+            "ko": "체크아웃하기",
+            "es": "Hacer el check-out"
+          },
+          "objectives": {
+            "en": ["Check out of a hotel and settle the bill", "Ask about late checkout and luggage storage"],
+            "zh": ["退房并结账", "询问延迟退房和行李寄存"],
+            "th": ["เช็คเอาท์โรงแรมและชำระเงิน", "ถามเรื่องการเช็คเอาท์ล่าช้าและฝากกระเป๋า"],
+            "ko": ["호텔 체크아웃하고 정산하기", "레이트 체크아웃과 짐 보관 묻기"],
+            "es": ["Hacer el check-out y pagar la cuenta", "Preguntar por salida tardía y consigna de equipaje"]
+          },
+          "vocabulary": [
+            {
+              "word": "auschecken",
+              "romanization": null,
+              "meanings": { "en": "to check out", "zh": "退房", "th": "เช็คเอาท์", "ko": "체크아웃하다", "es": "hacer el check-out" }
+            },
+            {
+              "word": "das Gepäck",
+              "romanization": null,
+              "meanings": { "en": "the luggage", "zh": "行李", "th": "กระเป๋าเดินทาง", "ko": "짐/수하물", "es": "el equipaje" }
+            },
+            {
+              "word": "aufbewahren",
+              "romanization": null,
+              "meanings": { "en": "to store/keep", "zh": "保存/存放", "th": "เก็บรักษา", "ko": "보관하다", "es": "guardar/almacenar" }
+            },
+            {
+              "word": "später",
+              "romanization": null,
+              "meanings": { "en": "later", "zh": "之后", "th": "ภายหลัง", "ko": "나중에", "es": "más tarde" }
+            },
+            {
+              "word": "die Gesamtrechnung",
+              "romanization": null,
+              "meanings": { "en": "the total bill", "zh": "总账单", "th": "ใบเสร็จรวม", "ko": "최종 청구서", "es": "la cuenta total" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Can I store my luggage here until 3pm?'",
+              "options": ["Kann ich mein Gepäck hier bis drei Uhr aufbewahren?", "Wann muss ich auschecken?", "Gibt es eine Gepäckaufbewahrung?", "Ich möchte später auschecken."],
+              "correct": 0,
+              "explanation": "'Kann ich' = can I, 'mein Gepäck' = my luggage, 'bis drei Uhr' = until 3 o'clock, 'aufbewahren' = store."
+            },
+            {
+              "type": "target_to_native",
+              "word": "das Gepäck",
+              "options": ["luggage", "room", "key", "floor"],
+              "correct": 0,
+              "explanation": "'Das Gepäck' = luggage or baggage."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["auschecken", "to check out"],
+                ["das Gepäck", "luggage"],
+                ["aufbewahren", "to store"],
+                ["später", "later"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich möchte heute auschecken. Kann ich die Gesamtrechnung sehen?",
+              "options": ["I'd like to check out today. Can I see the total bill?", "I'd like to extend my stay by one night.", "Can I have a late checkout?", "Is breakfast included in the price?"],
+              "correct": 0,
+              "explanation": "'Heute auschecken' = check out today, 'Gesamtrechnung sehen' = see the total bill."
+            },
+            {
+              "type": "reorder",
+              "words": ["Gepäck", "Uhr", "bis", "drei", "mein", "aufbewahren", "Kann", "ich"],
+              "correct": ["Kann", "ich", "mein", "Gepäck", "bis", "drei", "Uhr", "aufbewahren"],
+              "translation": "Can I store my luggage until three o'clock?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Sightseeing & Emergencies",
+        "zh": "观光和紧急情况",
+        "th": "การท่องเที่ยวและสถานการณ์ฉุกเฉิน",
+        "ko": "관광과 응급상황",
+        "es": "Turismo y emergencias"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Visiting Attractions",
+            "zh": "参观景点",
+            "th": "การเยี่ยมชมสถานที่ท่องเที่ยว",
+            "ko": "명소 방문하기",
+            "es": "Visitar atracciones"
+          },
+          "objectives": {
+            "en": ["Buy tickets for attractions and museums", "Ask about opening times and prices"],
+            "zh": ["购买景点和博物馆门票", "询问开放时间和价格"],
+            "th": ["ซื้อตั๋วสถานที่ท่องเที่ยวและพิพิธภัณฑ์", "ถามเวลาเปิดและราคา"],
+            "ko": ["명소와 박물관 입장권 구매하기", "개관 시간과 가격 묻기"],
+            "es": ["Comprar entradas para atracciones y museos", "Preguntar horarios y precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Museum",
+              "romanization": null,
+              "meanings": { "en": "the museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "el museo" }
+            },
+            {
+              "word": "die Eintrittskarte",
+              "romanization": null,
+              "meanings": { "en": "the entry ticket", "zh": "入场券", "th": "ตั๋วเข้าชม", "ko": "입장권", "es": "la entrada" }
+            },
+            {
+              "word": "die Öffnungszeiten",
+              "romanization": null,
+              "meanings": { "en": "the opening hours", "zh": "开放时间", "th": "เวลาเปิด", "ko": "운영 시간", "es": "el horario de apertura" }
+            },
+            {
+              "word": "ermäßigt",
+              "romanization": null,
+              "meanings": { "en": "discounted/reduced", "zh": "优惠/折扣", "th": "ราคาลด", "ko": "할인된", "es": "reducido/con descuento" }
+            },
+            {
+              "word": "geschlossen",
+              "romanization": null,
+              "meanings": { "en": "closed", "zh": "关闭", "th": "ปิด", "ko": "문 닫음", "es": "cerrado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What are the opening hours?'",
+              "options": ["Was sind die Öffnungszeiten?", "Wie viel kostet der Eintritt?", "Ist das Museum heute geöffnet?", "Gibt es eine Führung auf Englisch?"],
+              "correct": 0,
+              "explanation": "'Was sind die Öffnungszeiten?' = What are the opening hours? 'Öffnungszeiten' = opening hours."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ermäßigt",
+              "options": ["discounted/reduced price", "free admission", "full price", "sold out"],
+              "correct": 0,
+              "explanation": "'Ermäßigt' = reduced/discounted — used for student or senior prices."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Museum", "museum"],
+                ["die Eintrittskarte", "entry ticket"],
+                ["geschlossen", "closed"],
+                ["ermäßigt", "discounted"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Das Museum ist montags geschlossen.",
+              "options": ["The museum is closed on Mondays.", "The museum opens at ten.", "Tickets are available online.", "There is a guided tour at two."],
+              "correct": 0,
+              "explanation": "'Montags' = on Mondays, 'geschlossen' = closed."
+            },
+            {
+              "type": "reorder",
+              "words": ["Eintrittskarten", "zwei", "möchte", "Ich", "kaufen"],
+              "correct": ["Ich", "möchte", "zwei", "Eintrittskarten", "kaufen"],
+              "translation": "I would like to buy two entry tickets."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Handling Emergencies",
+            "zh": "处理紧急情况",
+            "th": "การจัดการเหตุฉุกเฉิน",
+            "ko": "응급상황 대처하기",
+            "es": "Manejar emergencias"
+          },
+          "objectives": {
+            "en": ["Report an emergency and ask for help", "Describe symptoms or problems to authorities"],
+            "zh": ["报告紧急情况并寻求帮助", "向相关部门描述症状或问题"],
+            "th": ["รายงานเหตุฉุกเฉินและขอความช่วยเหลือ", "อธิบายอาการหรือปัญหาให้เจ้าหน้าที่ฟัง"],
+            "ko": ["응급상황 신고하고 도움 요청하기", "당국에 증상이나 문제 설명하기"],
+            "es": ["Reportar una emergencia y pedir ayuda", "Describir síntomas o problemas a las autoridades"]
+          },
+          "vocabulary": [
+            {
+              "word": "Hilfe!",
+              "romanization": null,
+              "meanings": { "en": "Help!", "zh": "救命！", "th": "ช่วยด้วย!", "ko": "도와주세요!", "es": "¡Ayuda!" }
+            },
+            {
+              "word": "der Notfall",
+              "romanization": null,
+              "meanings": { "en": "the emergency", "zh": "紧急情况", "th": "เหตุฉุกเฉิน", "ko": "응급상황", "es": "la emergencia" }
+            },
+            {
+              "word": "die Polizei",
+              "romanization": null,
+              "meanings": { "en": "the police", "zh": "警察", "th": "ตำรวจ", "ko": "경찰", "es": "la policía" }
+            },
+            {
+              "word": "der Krankenwagen",
+              "romanization": null,
+              "meanings": { "en": "the ambulance", "zh": "救护车", "th": "รถพยาบาล", "ko": "구급차", "es": "la ambulancia" }
+            },
+            {
+              "word": "verloren",
+              "romanization": null,
+              "meanings": { "en": "lost", "zh": "丢失", "th": "หาย/หลงทาง", "ko": "잃어버린", "es": "perdido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Call the police!'?",
+              "options": ["Rufen Sie die Polizei!", "Wo ist das Krankenhaus?", "Ich brauche einen Arzt.", "Ist das ein Notfall?"],
+              "correct": 0,
+              "explanation": "'Rufen Sie' = call (polite imperative), 'die Polizei' = the police."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Krankenwagen",
+              "options": ["ambulance", "police car", "fire truck", "taxi"],
+              "correct": 0,
+              "explanation": "'Krankenwagen' = sick wagon = ambulance. 'Krank' = sick, 'Wagen' = vehicle."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich habe meine Tasche verloren. Können Sie mir helfen?",
+              "options": ["I lost my bag. Can you help me?", "I need a doctor immediately.", "Call the police please.", "Where is the nearest hospital?"],
+              "correct": 0,
+              "explanation": "'Ich habe verloren' = I have lost, 'meine Tasche' = my bag, 'Können Sie helfen' = can you help."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Hilfe!", "Help!"],
+                ["der Notfall", "emergency"],
+                ["die Polizei", "police"],
+                ["verloren", "lost"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["Polizei", "Rufen", "die", "bitte", "Sie"],
+              "correct": ["Rufen", "Sie", "bitte", "die", "Polizei"],
+              "translation": "Please call the police."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Planning a Trip",
+            "zh": "规划旅行",
+            "th": "การวางแผนการเดินทาง",
+            "ko": "여행 계획하기",
+            "es": "Planificar un viaje"
+          },
+          "objectives": {
+            "en": ["Plan an itinerary and discuss travel arrangements", "Talk about travel preferences and past trips"],
+            "zh": ["规划行程和讨论旅行安排", "谈论旅行偏好和过去的旅行"],
+            "th": ["วางแผนการเดินทางและพูดคุยเรื่องการเตรียมการ", "พูดถึงความชอบในการเดินทางและทริปที่ผ่านมา"],
+            "ko": ["여행 일정 계획하고 여행 준비 논의하기", "여행 선호도와 과거 여행 이야기하기"],
+            "es": ["Planificar un itinerario y hablar de los preparativos", "Hablar de preferencias de viaje y viajes pasados"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Reise",
+              "romanization": null,
+              "meanings": { "en": "the trip/journey", "zh": "旅行", "th": "การเดินทาง", "ko": "여행", "es": "el viaje" }
+            },
+            {
+              "word": "planen",
+              "romanization": null,
+              "meanings": { "en": "to plan", "zh": "计划", "th": "วางแผน", "ko": "계획하다", "es": "planificar" }
+            },
+            {
+              "word": "buchen",
+              "romanization": null,
+              "meanings": { "en": "to book/reserve", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }
+            },
+            {
+              "word": "der Reiseführer",
+              "romanization": null,
+              "meanings": { "en": "the travel guide (book)", "zh": "旅游指南", "th": "คู่มือท่องเที่ยว", "ko": "여행 가이드북", "es": "la guía de viaje" }
+            },
+            {
+              "word": "die Sehenswürdigkeit",
+              "romanization": null,
+              "meanings": { "en": "the sight/attraction", "zh": "名胜古迹", "th": "สถานที่ท่องเที่ยว", "ko": "명소", "es": "el lugar de interés" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am planning a trip to Berlin'?",
+              "options": ["Ich plane eine Reise nach Berlin.", "Ich war schon in Berlin.", "Ich buche ein Hotel in Berlin.", "Berlin ist eine tolle Stadt."],
+              "correct": 0,
+              "explanation": "'Ich plane' = I am planning, 'eine Reise' = a trip, 'nach Berlin' = to Berlin."
+            },
+            {
+              "type": "target_to_native",
+              "word": "die Sehenswürdigkeit",
+              "options": ["a tourist attraction/sight", "a travel agency", "a souvenir", "a map"],
+              "correct": 0,
+              "explanation": "'Sehenswürdigkeit' = something worth seeing — a tourist sight or attraction."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Welche Sehenswürdigkeiten empfehlen Sie in München?",
+              "options": ["What sights do you recommend in Munich?", "How do I get to Munich?", "Is Munich far from Berlin?", "What is there to do in Bavaria?"],
+              "correct": 0,
+              "explanation": "'Welche' = which, 'Sehenswürdigkeiten' = sights, 'empfehlen Sie' = do you recommend, 'in München' = in Munich."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die Reise", "the trip"],
+                ["planen", "to plan"],
+                ["buchen", "to book"],
+                ["die Sehenswürdigkeit", "the attraction"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["nach", "Reise", "Berlin", "eine", "plane", "Ich"],
+              "correct": ["Ich", "plane", "eine", "Reise", "nach", "Berlin"],
+              "translation": "I am planning a trip to Berlin."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

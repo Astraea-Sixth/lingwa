@@ -1,0 +1,373 @@
+{
+  "lang": "bn",
+  "language": "bn",
+  "level": "A2",
+  "track": "work",
+  "track_label": {
+    "en": "Work & Business",
+    "zh": "工作与商务",
+    "th": "งานและธุรกิจ",
+    "ko": "직장과 비즈니스",
+    "es": "Trabajo y negocios"
+  },
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Office",
+        "zh": "办公室",
+        "th": "สำนักงาน",
+        "ko": "사무실",
+        "es": "La oficina"
+      },
+      "description": {
+        "en": "Learn vocabulary for the workplace and everyday office situations",
+        "zh": "学习工作场所和日常办公室情景的词汇",
+        "th": "เรียนรู้คำศัพท์สำหรับสถานที่ทำงานและสถานการณ์ในสำนักงานในชีวิตประจำวัน",
+        "ko": "직장과 일상 사무실 상황 어휘 배우기",
+        "es": "Aprender vocabulario sobre el lugar de trabajo y situaciones cotidianas de oficina"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์สำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de oficina"
+          },
+          "objectives": {
+            "en": ["Name common office items and spaces in Bengali", "Describe your workplace"]
+          },
+          "vocabulary": [
+            { "word": "অফিস", "romanization": "ophis", "meanings": { "en": "Office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "Oficina" } },
+            { "word": "কম্পিউটার", "romanization": "kompiyutar", "meanings": { "en": "Computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "Computadora / ordenador" } },
+            { "word": "টেবিল", "romanization": "tebil", "meanings": { "en": "Desk / table", "zh": "桌子", "th": "โต๊ะ", "ko": "책상 / 테이블", "es": "Escritorio / mesa" } },
+            { "word": "সহকর্মী", "romanization": "shohokormee", "meanings": { "en": "Colleague / coworker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "Colega / compañero de trabajo" } },
+            { "word": "বস", "romanization": "bosh", "meanings": { "en": "Boss / manager", "zh": "老板/经理", "th": "เจ้านาย / ผู้จัดการ", "ko": "상사 / 매니저", "es": "Jefe / gerente" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "কম্পিউটার", "romanization": "kompiyutar", "options": { "en": ["Computer", "Phone", "Printer", "Monitor"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সহকর্মী", "romanization": "shohokormee", "options": { "en": ["Colleague / coworker", "Boss", "Client", "Friend"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Office' in Bengali?" }, "options": { "neutral": ["অফিস", "বস", "টেবিল", "কম্পিউটার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Boss / manager' in Bengali?" }, "options": { "neutral": ["বস", "সহকর্মী", "অফিস", "টেবিল"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "টেবিল", "romanization": "tebil", "options": { "en": ["Desk / table", "Chair", "Computer", "Shelf"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "অফিস", "romanization": "ophis", "native": { "en": "Office" } },
+              { "target": "কম্পিউটার", "romanization": "kompiyutar", "native": { "en": "Computer" } },
+              { "target": "সহকর্মী", "romanization": "shohokormee", "native": { "en": "Colleague / coworker" } },
+              { "target": "বস", "romanization": "bosh", "native": { "en": "Boss / manager" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Daily Work Routines",
+            "zh": "日常工作常规",
+            "th": "กิจวัตรประจำวันในที่ทำงาน",
+            "ko": "일상 업무 루틴",
+            "es": "Rutinas de trabajo diarias"
+          },
+          "objectives": {
+            "en": ["Describe your daily work routine in Bengali", "Talk about work hours and schedules"]
+          },
+          "vocabulary": [
+            { "word": "কাজ করা", "romanization": "kaj kora", "meanings": { "en": "To work", "zh": "工作", "th": "ทำงาน", "ko": "일하다", "es": "Trabajar" } },
+            { "word": "সময়মতো", "romanization": "shomoyomoto", "meanings": { "en": "On time / punctually", "zh": "准时", "th": "ตรงเวลา", "ko": "제때 / 정시에", "es": "A tiempo / puntualmente" } },
+            { "word": "ছুটি", "romanization": "chhuti", "meanings": { "en": "Day off / holiday / vacation", "zh": "休假/假期", "th": "วันหยุด / การลา", "ko": "휴가 / 공휴일", "es": "Día libre / vacaciones" } },
+            { "word": "কাজের সময়", "romanization": "kajer shomoy", "meanings": { "en": "Working hours", "zh": "工作时间", "th": "ชั่วโมงทำงาน", "ko": "근무 시간", "es": "Horario de trabajo" } },
+            { "word": "ব্যস্ত", "romanization": "byashto", "meanings": { "en": "Busy", "zh": "忙碌", "th": "ยุ่ง /바쁘다", "ko": "바쁘다", "es": "Ocupado / ocupada" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "কাজ করা", "romanization": "kaj kora", "options": { "en": ["To work", "To rest", "To eat", "To sleep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ব্যস্ত", "romanization": "byashto", "options": { "en": ["Busy", "Free", "Happy", "Tired"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'On time / punctually' in Bengali?" }, "options": { "neutral": ["সময়মতো", "ছুটি", "ব্যস্ত", "কাজের সময়"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Day off / vacation' in Bengali?" }, "options": { "neutral": ["ছুটি", "কাজের সময়", "সময়মতো", "ব্যস্ত"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ছুটি", "romanization": "chhuti", "options": { "en": ["Day off / vacation", "Working hours", "Overtime", "Deadline"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "কাজ করা", "romanization": "kaj kora", "native": { "en": "To work" } },
+              { "target": "সময়মতো", "romanization": "shomoyomoto", "native": { "en": "On time / punctually" } },
+              { "target": "ছুটি", "romanization": "chhuti", "native": { "en": "Day off / vacation" } },
+              { "target": "ব্যস্ত", "romanization": "byashto", "native": { "en": "Busy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Talking to Your Boss",
+            "zh": "与老板交流",
+            "th": "การพูดคุยกับเจ้านาย",
+            "ko": "상사와 대화하기",
+            "es": "Hablar con tu jefe"
+          },
+          "objectives": {
+            "en": ["Use polite formal language with superiors", "Make requests and report tasks completed"]
+          },
+          "vocabulary": [
+            { "word": "স্যার / ম্যাডাম", "romanization": "shyar / madam", "meanings": { "en": "Sir / Madam (respectful address)", "zh": "先生/女士（尊称）", "th": "ท่าน / คุณ (ที่อยู่เชิงให้เกียรติ)", "ko": "선생님 / 부장님 (존칭)", "es": "Señor / Señora (tratamiento respetuoso)" } },
+            { "word": "কাজ শেষ হয়েছে", "romanization": "kaj shesh hoyeche", "meanings": { "en": "The work is done / finished", "zh": "工作完成了", "th": "งานเสร็จแล้ว", "ko": "일이 끝났어요", "es": "El trabajo está terminado" } },
+            { "word": "অনুমতি চাই", "romanization": "onumoti chai", "meanings": { "en": "I request permission", "zh": "我请求许可", "th": "ขออนุญาต", "ko": "허락을 구합니다", "es": "Solicito permiso" } },
+            { "word": "সাহায্য দরকার", "romanization": "shahajjo dorokar", "meanings": { "en": "I need help", "zh": "我需要帮助", "th": "ฉันต้องการความช่วยเหลือ", "ko": "도움이 필요해요", "es": "Necesito ayuda" } },
+            { "word": "রিপোর্ট", "romanization": "ripot", "meanings": { "en": "Report", "zh": "报告", "th": "รายงาน", "ko": "보고서", "es": "Informe / reporte" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "রিপোর্ট", "romanization": "ripot", "options": { "en": ["Report", "Email", "Meeting", "Plan"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সাহায্য দরকার", "romanization": "shahajjo dorokar", "options": { "en": ["I need help", "I am done", "I am busy", "I need permission"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'The work is done' in Bengali?" }, "options": { "neutral": ["কাজ শেষ হয়েছে", "অনুমতি চাই", "সাহায্য দরকার", "রিপোর্ট"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I request permission' in Bengali?" }, "options": { "neutral": ["অনুমতি চাই", "কাজ শেষ হয়েছে", "রিপোর্ট", "সাহায্য দরকার"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "কাজ শেষ হয়েছে", "romanization": "kaj shesh hoyeche", "options": { "en": ["The work is done", "I need help", "I am busy", "I am late"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "কাজ শেষ হয়েছে", "romanization": "kaj shesh hoyeche", "native": { "en": "The work is done" } },
+              { "target": "অনুমতি চাই", "romanization": "onumoti chai", "native": { "en": "I request permission" } },
+              { "target": "সাহায্য দরকার", "romanization": "shahajjo dorokar", "native": { "en": "I need help" } },
+              { "target": "রিপোর্ট", "romanization": "ripot", "native": { "en": "Report" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Meetings & Communication",
+        "zh": "会议与沟通",
+        "th": "การประชุมและการสื่อสาร",
+        "ko": "회의와 소통",
+        "es": "Reuniones y comunicación"
+      },
+      "description": {
+        "en": "Learn to communicate effectively in meetings and written correspondence",
+        "zh": "学习在会议和书面往来中有效沟通",
+        "th": "เรียนรู้การสื่อสารอย่างมีประสิทธิภาพในการประชุมและการติดต่อลายลักษณ์อักษร",
+        "ko": "회의와 서면 연락에서 효과적으로 소통하기",
+        "es": "Aprender a comunicarse eficazmente en reuniones y correspondencia escrita"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "In a Meeting",
+            "zh": "在会议中",
+            "th": "ในการประชุม",
+            "ko": "회의 중에",
+            "es": "En una reunión"
+          },
+          "objectives": {
+            "en": ["Participate in a business meeting in Bengali", "Express agreement and make suggestions"]
+          },
+          "vocabulary": [
+            { "word": "সভা / মিটিং", "romanization": "shobha / miting", "meanings": { "en": "Meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "Reunión" } },
+            { "word": "আলোচনা", "romanization": "alochona", "meanings": { "en": "Discussion", "zh": "讨论", "th": "การอภิปราย", "ko": "토론 / 협의", "es": "Discusión" } },
+            { "word": "প্রস্তাব", "romanization": "proshthab", "meanings": { "en": "Proposal / suggestion", "zh": "提议/建议", "th": "ข้อเสนอ", "ko": "제안", "es": "Propuesta / sugerencia" } },
+            { "word": "সিদ্ধান্ত", "romanization": "shiddanto", "meanings": { "en": "Decision", "zh": "决定", "th": "การตัดสินใจ", "ko": "결정", "es": "Decisión" } },
+            { "word": "সম্মত হওয়া", "romanization": "shommoto hooa", "meanings": { "en": "To agree / to consent", "zh": "同意/赞成", "th": "ตกลง / เห็นด้วย", "ko": "동의하다 / 찬성하다", "es": "Acordar / estar de acuerdo" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সভা / মিটিং", "romanization": "shobha / miting", "options": { "en": ["Meeting", "Lunch", "Conference call", "Presentation"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সিদ্ধান্ত", "romanization": "shiddanto", "options": { "en": ["Decision", "Proposal", "Discussion", "Problem"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Discussion' in Bengali?" }, "options": { "neutral": ["আলোচনা", "সভা", "প্রস্তাব", "সিদ্ধান্ত"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Proposal / suggestion' in Bengali?" }, "options": { "neutral": ["প্রস্তাব", "আলোচনা", "সম্মত হওয়া", "সিদ্ধান্ত"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সিদ্ধান্ত", "romanization": "shiddanto", "options": { "en": ["Decision", "Discussion", "Meeting", "Proposal"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সভা / মিটিং", "romanization": "shobha / miting", "native": { "en": "Meeting" } },
+              { "target": "আলোচনা", "romanization": "alochona", "native": { "en": "Discussion" } },
+              { "target": "প্রস্তাব", "romanization": "proshthab", "native": { "en": "Proposal / suggestion" } },
+              { "target": "সিদ্ধান্ত", "romanization": "shiddanto", "native": { "en": "Decision" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Emails & Written Communication",
+            "zh": "邮件与书面沟通",
+            "th": "อีเมลและการสื่อสารทางลายลักษณ์อักษร",
+            "ko": "이메일과 서면 소통",
+            "es": "Correos electrónicos y comunicación escrita"
+          },
+          "objectives": {
+            "en": ["Write a simple professional email in Bengali", "Use formal salutations and sign-offs"]
+          },
+          "vocabulary": [
+            { "word": "ইমেইল", "romanization": "imail", "meanings": { "en": "Email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "Correo electrónico" } },
+            { "word": "বিষয়", "romanization": "bishoy", "meanings": { "en": "Subject / topic", "zh": "主题/事由", "th": "หัวข้อ / เรื่อง", "ko": "주제 / 제목", "es": "Asunto / tema" } },
+            { "word": "শ্রদ্ধেয়", "romanization": "shroddheyo", "meanings": { "en": "Dear / respected (formal salutation)", "zh": "尊敬的（正式称呼）", "th": "เรียน (คำขึ้นต้นทางการ)", "ko": "존경하는 (공식 인사말)", "es": "Estimado / estimada (saludo formal)" } },
+            { "word": "ধন্যবাদান্তে", "romanization": "dhonnobadante", "meanings": { "en": "With thanks / yours sincerely (sign-off)", "zh": "感谢/此致（结束语）", "th": "ด้วยความขอบคุณ (คำลงท้าย)", "ko": "감사드리며 / 진심으로 (마무리 인사)", "es": "Con agradecimiento / atentamente (despedida)" } },
+            { "word": "সংযুক্তি", "romanization": "shongjukti", "meanings": { "en": "Attachment", "zh": "附件", "th": "ไฟล์แนบ", "ko": "첨부 파일", "es": "Archivo adjunto" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ইমেইল", "romanization": "imail", "options": { "en": ["Email", "Letter", "Fax", "Report"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "সংযুক্তি", "romanization": "shongjukti", "options": { "en": ["Attachment", "Subject", "Signature", "Reply"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Subject / topic' in Bengali?" }, "options": { "neutral": ["বিষয়", "ইমেইল", "সংযুক্তি", "শ্রদ্ধেয়"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dear / respected' (formal salutation) in Bengali?" }, "options": { "neutral": ["শ্রদ্ধেয়", "ধন্যবাদান্তে", "বিষয়", "সংযুক্তি"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "বিষয়", "romanization": "bishoy", "options": { "en": ["Subject / topic", "Attachment", "Salutation", "Reply"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ইমেইল", "romanization": "imail", "native": { "en": "Email" } },
+              { "target": "বিষয়", "romanization": "bishoy", "native": { "en": "Subject / topic" } },
+              { "target": "শ্রদ্ধেয়", "romanization": "shroddheyo", "native": { "en": "Dear / respected" } },
+              { "target": "সংযুক্তি", "romanization": "shongjukti", "native": { "en": "Attachment" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Presenting Ideas",
+            "zh": "展示想法",
+            "th": "การนำเสนอแนวคิด",
+            "ko": "아이디어 발표하기",
+            "es": "Presentar ideas"
+          },
+          "objectives": {
+            "en": ["Present an idea or plan at work in Bengali", "Structure a simple spoken presentation"]
+          },
+          "vocabulary": [
+            { "word": "উপস্থাপনা", "romanization": "uposthapona", "meanings": { "en": "Presentation", "zh": "演示/展示", "th": "การนำเสนอ", "ko": "발표 / 프레젠테이션", "es": "Presentación" } },
+            { "word": "পরিকল্পনা", "romanization": "porikalpona", "meanings": { "en": "Plan", "zh": "计划", "th": "แผน", "ko": "계획", "es": "Plan" } },
+            { "word": "লক্ষ্য", "romanization": "lokkho", "meanings": { "en": "Goal / target", "zh": "目标", "th": "เป้าหมาย", "ko": "목표", "es": "Meta / objetivo" } },
+            { "word": "প্রথমত", "romanization": "prothomoto", "meanings": { "en": "Firstly / first of all", "zh": "首先", "th": "ประการแรก / อันดับแรก", "ko": "첫째로 / 우선", "es": "En primer lugar / primero" } },
+            { "word": "সমাপ্তিতে", "romanization": "shomaptite", "meanings": { "en": "In conclusion / finally", "zh": "最后/总结", "th": "สรุป / ในที่สุด", "ko": "결론적으로 / 마지막으로", "es": "En conclusión / finalmente" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "পরিকল্পনা", "romanization": "porikalpona", "options": { "en": ["Plan", "Decision", "Report", "Meeting"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "লক্ষ্য", "romanization": "lokkho", "options": { "en": ["Goal / target", "Problem", "Task", "Budget"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Presentation' in Bengali?" }, "options": { "neutral": ["উপস্থাপনা", "পরিকল্পনা", "লক্ষ্য", "প্রথমত"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Firstly / first of all' in Bengali?" }, "options": { "neutral": ["প্রথমত", "সমাপ্তিতে", "লক্ষ্য", "উপস্থাপনা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পরিকল্পনা", "romanization": "porikalpona", "options": { "en": ["Plan", "Goal", "Presentation", "Decision"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "উপস্থাপনা", "romanization": "uposthapona", "native": { "en": "Presentation" } },
+              { "target": "পরিকল্পনা", "romanization": "porikalpona", "native": { "en": "Plan" } },
+              { "target": "লক্ষ্য", "romanization": "lokkho", "native": { "en": "Goal / target" } },
+              { "target": "প্রথমত", "romanization": "prothomoto", "native": { "en": "Firstly / first of all" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Job Hunting",
+        "zh": "求职",
+        "th": "การหางาน",
+        "ko": "구직 활동",
+        "es": "Búsqueda de empleo"
+      },
+      "description": {
+        "en": "Learn vocabulary for finding a job, interviews and career discussions",
+        "zh": "学习求职、面试和职业讨论的词汇",
+        "th": "เรียนรู้คำศัพท์สำหรับการหางาน การสัมภาษณ์ และการพูดคุยเรื่องอาชีพ",
+        "ko": "구직, 면접, 커리어 관련 어휘 배우기",
+        "es": "Aprender vocabulario para buscar trabajo, entrevistas y conversaciones sobre carrera"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Applying for a Job",
+            "zh": "申请工作",
+            "th": "การสมัครงาน",
+            "ko": "취업 지원하기",
+            "es": "Solicitar un empleo"
+          },
+          "objectives": {
+            "en": ["Talk about job applications in Bengali", "Describe your skills and experience"]
+          },
+          "vocabulary": [
+            { "word": "চাকরি", "romanization": "chakri", "meanings": { "en": "Job / employment", "zh": "工作/职业", "th": "งาน / การจ้างงาน", "ko": "직업 / 취업", "es": "Trabajo / empleo" } },
+            { "word": "আবেদন করা", "romanization": "abedon kora", "meanings": { "en": "To apply (for a job)", "zh": "申请（工作）", "th": "สมัคร (งาน)", "ko": "지원하다 (취업)", "es": "Solicitar / presentar candidatura" } },
+            { "word": "জীবনবৃত্তান্ত", "romanization": "jibonbrittanto", "meanings": { "en": "CV / résumé", "zh": "简历", "th": "ประวัติย่อ / เรซูเม่", "ko": "이력서", "es": "Currículum vítae / CV" } },
+            { "word": "অভিজ্ঞতা", "romanization": "obhiggota", "meanings": { "en": "Experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "Experiencia" } },
+            { "word": "দক্ষতা", "romanization": "dokkhotha", "meanings": { "en": "Skill / competence", "zh": "技能/能力", "th": "ทักษะ / ความสามารถ", "ko": "기술 / 역량", "es": "Habilidad / competencia" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "চাকরি", "romanization": "chakri", "options": { "en": ["Job / employment", "Salary", "Promotion", "Holiday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "অভিজ্ঞতা", "romanization": "obhiggota", "options": { "en": ["Experience", "Education", "Skill", "Certificate"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'CV / résumé' in Bengali?" }, "options": { "neutral": ["জীবনবৃত্তান্ত", "চাকরি", "দক্ষতা", "অভিজ্ঞতা"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Skill / competence' in Bengali?" }, "options": { "neutral": ["দক্ষতা", "অভিজ্ঞতা", "চাকরি", "আবেদন করা"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "চাকরি", "romanization": "chakri", "options": { "en": ["Job / employment", "Office", "Salary", "Colleague"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "চাকরি", "romanization": "chakri", "native": { "en": "Job / employment" } },
+              { "target": "জীবনবৃত্তান্ত", "romanization": "jibonbrittanto", "native": { "en": "CV / résumé" } },
+              { "target": "অভিজ্ঞতা", "romanization": "obhiggota", "native": { "en": "Experience" } },
+              { "target": "দক্ষতা", "romanization": "dokkhotha", "native": { "en": "Skill / competence" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "The Job Interview",
+            "zh": "工作面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "La entrevista de trabajo"
+          },
+          "objectives": {
+            "en": ["Answer common interview questions in Bengali", "Describe your strengths and goals"]
+          },
+          "vocabulary": [
+            { "word": "সাক্ষাৎকার", "romanization": "shakhatkar", "meanings": { "en": "Interview", "zh": "面试", "th": "การสัมภาษณ์", "ko": "면접", "es": "Entrevista" } },
+            { "word": "শক্তি", "romanization": "shokti", "meanings": { "en": "Strength", "zh": "优势/力量", "th": "จุดแข็ง / ความเข้มแข็ง", "ko": "강점 / 강함", "es": "Fortaleza / punto fuerte" } },
+            { "word": "দুর্বলতা", "romanization": "durbolota", "meanings": { "en": "Weakness", "zh": "弱点", "th": "จุดอ่อน", "ko": "약점", "es": "Debilidad / punto débil" } },
+            { "word": "বেতন", "romanization": "beton", "meanings": { "en": "Salary / wages", "zh": "薪水", "th": "เงินเดือน / ค่าจ้าง", "ko": "급여 / 임금", "es": "Salario / sueldo" } },
+            { "word": "আমি আগ্রহী", "romanization": "ami agrohee", "meanings": { "en": "I am interested", "zh": "我有兴趣", "th": "ฉันสนใจ", "ko": "저는 관심이 있어요", "es": "Estoy interesado/a" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "সাক্ষাৎকার", "romanization": "shakhatkar", "options": { "en": ["Interview", "Meeting", "Presentation", "Test"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "বেতন", "romanization": "beton", "options": { "en": ["Salary / wages", "Bonus", "Job", "Contract"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Strength' in Bengali?" }, "options": { "neutral": ["শক্তি", "দুর্বলতা", "বেতন", "সাক্ষাৎকার"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am interested' in Bengali?" }, "options": { "neutral": ["আমি আগ্রহী", "সাক্ষাৎকার", "শক্তি", "বেতন"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "সাক্ষাৎকার", "romanization": "shakhatkar", "options": { "en": ["Interview", "Meeting", "Training", "Test"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "সাক্ষাৎকার", "romanization": "shakhatkar", "native": { "en": "Interview" } },
+              { "target": "শক্তি", "romanization": "shokti", "native": { "en": "Strength" } },
+              { "target": "দুর্বলতা", "romanization": "durbolota", "native": { "en": "Weakness" } },
+              { "target": "বেতন", "romanization": "beton", "native": { "en": "Salary / wages" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Career & Promotion",
+            "zh": "职业与晋升",
+            "th": "อาชีพและการเลื่อนตำแหน่ง",
+            "ko": "커리어와 승진",
+            "es": "Carrera y promoción"
+          },
+          "objectives": {
+            "en": ["Talk about career progress and ambitions in Bengali", "Discuss promotions and professional development"]
+          },
+          "vocabulary": [
+            { "word": "পদোন্নতি", "romanization": "podonnoti", "meanings": { "en": "Promotion", "zh": "晋升", "th": "การเลื่อนตำแหน่ง", "ko": "승진", "es": "Ascenso / promoción" } },
+            { "word": "ক্যারিয়ার", "romanization": "kyariyar", "meanings": { "en": "Career", "zh": "职业生涯", "th": "อาชีพ / เส้นทางอาชีพ", "ko": "커리어 / 직업", "es": "Carrera profesional" } },
+            { "word": "উন্নতি", "romanization": "unnoti", "meanings": { "en": "Progress / improvement", "zh": "进步/提升", "th": "ความก้าวหน้า / การพัฒนา", "ko": "발전 / 향상", "es": "Progreso / mejora" } },
+            { "word": "স্বপ্নের চাকরি", "romanization": "shopner chakri", "meanings": { "en": "Dream job", "zh": "梦想工作", "th": "งานในฝัน", "ko": "꿈의 직업", "es": "Trabajo soñado" } },
+            { "word": "প্রশিক্ষণ", "romanization": "proshikkhon", "meanings": { "en": "Training", "zh": "培训", "th": "การฝึกอบรม", "ko": "교육 / 훈련", "es": "Formación / capacitación" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "পদোন্নতি", "romanization": "podonnoti", "options": { "en": ["Promotion", "Resignation", "Transfer", "Retirement"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "উন্নতি", "romanization": "unnoti", "options": { "en": ["Progress / improvement", "Failure", "Delay", "Problem"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Career' in Bengali?" }, "options": { "neutral": ["ক্যারিয়ার", "পদোন্নতি", "উন্নতি", "প্রশিক্ষণ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Training' in Bengali?" }, "options": { "neutral": ["প্রশিক্ষণ", "পদোন্নতি", "ক্যারিয়ার", "স্বপ্নের চাকরি"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "পদোন্নতি", "romanization": "podonnoti", "options": { "en": ["Promotion", "Demotion", "Transfer", "Training"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "পদোন্নতি", "romanization": "podonnoti", "native": { "en": "Promotion" } },
+              { "target": "ক্যারিয়ার", "romanization": "kyariyar", "native": { "en": "Career" } },
+              { "target": "উন্নতি", "romanization": "unnoti", "native": { "en": "Progress / improvement" } },
+              { "target": "প্রশিক্ষণ", "romanization": "proshikkhon", "native": { "en": "Training" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

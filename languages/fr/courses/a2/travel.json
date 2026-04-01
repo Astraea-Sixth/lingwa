@@ -1,0 +1,736 @@
+{
+  "lang": "fr",
+  "language": "fr",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": ["Use public transport vocabulary in French", "Buy a ticket and find the right platform"],
+            "zh": ["用法语使用公共交通词汇", "购票和找到正确的站台"],
+            "th": ["ใช้คำศัพท์ขนส่งสาธารณะเป็นภาษาฝรั่งเศส", "ซื้อตั๋วและหาชานชาลาที่ถูกต้อง"],
+            "ko": ["프랑스어로 대중교통 어휘 사용하기", "티켓 사고 올바른 플랫폼 찾기"],
+            "es": ["Usar vocabulario de transporte público en francés", "Comprar un billete y encontrar el andén"]
+          },
+          "vocabulary": [
+            {
+              "word": "le métro",
+              "romanization": null,
+              "meanings": { "en": "the metro/subway", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "el metro" }
+            },
+            {
+              "word": "le bus",
+              "romanization": null,
+              "meanings": { "en": "the bus", "zh": "公共汽车", "th": "รถเมล์", "ko": "버스", "es": "el autobús" }
+            },
+            {
+              "word": "le billet",
+              "romanization": null,
+              "meanings": { "en": "the ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "el billete" }
+            },
+            {
+              "word": "la gare",
+              "romanization": null,
+              "meanings": { "en": "the (train) station", "zh": "火车站", "th": "สถานีรถไฟ", "ko": "기차역", "es": "la estación de tren" }
+            },
+            {
+              "word": "le quai",
+              "romanization": null,
+              "meanings": { "en": "the platform", "zh": "站台", "th": "ชานชาลา", "ko": "플랫폼", "es": "el andén" }
+            },
+            {
+              "word": "composter",
+              "romanization": null,
+              "meanings": { "en": "to validate/stamp (a ticket)", "zh": "打票（验票）", "th": "ตีตรา/ประทับตั๋ว", "ko": "개표하다", "es": "validar (el billete)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where is the metro station?'",
+              "options": ["Où est la station de métro ?", "Où est l'arrêt de bus ?", "Où est la gare ?", "Où est le quai ?"],
+              "correct": 0,
+              "explanation": "'Où est...' = Where is... 'La station de métro' = the metro station."
+            },
+            {
+              "type": "target_to_native",
+              "word": "composter",
+              "options": ["to validate a ticket", "to buy a ticket", "to check the schedule", "to miss the train"],
+              "correct": 0,
+              "explanation": "'Composter' = to validate your ticket in French trains — you must stamp it before boarding."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le métro", "metro/subway"],
+                ["le billet", "ticket"],
+                ["la gare", "train station"],
+                ["le quai", "platform"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["billet", "un", "métro", "achète", "J'", "de"],
+              "correct": ["J'", "achète", "un", "billet", "de", "métro"],
+              "translation": "I buy a metro ticket."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I take the bus every day'?",
+              "options": ["Je prends le bus tous les jours.", "Je voyage en bus chaque jour.", "J'utilise le bus quotidiennement.", "Je vais en bus chaque jour."],
+              "correct": 0,
+              "explanation": "'Je prends le bus' = I take the bus. 'Tous les jours' = every day."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": ["Ask for and understand directions in French", "Use prepositions of place and movement"],
+            "zh": ["用法语问路和理解方向", "使用地点和移动介词"],
+            "th": ["ถามทางและเข้าใจทิศทางเป็นภาษาฝรั่งเศส", "ใช้คำบุพบทของสถานที่และการเคลื่อนที่"],
+            "ko": ["프랑스어로 길을 묻고 이해하기", "장소와 이동의 전치사 사용하기"],
+            "es": ["Pedir y entender indicaciones en francés", "Usar preposiciones de lugar y movimiento"]
+          },
+          "vocabulary": [
+            {
+              "word": "tout droit",
+              "romanization": null,
+              "meanings": { "en": "straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "todo recto" }
+            },
+            {
+              "word": "à gauche",
+              "romanization": null,
+              "meanings": { "en": "to the left", "zh": "向左", "th": "ไปทางซ้าย", "ko": "왼쪽으로", "es": "a la izquierda" }
+            },
+            {
+              "word": "à droite",
+              "romanization": null,
+              "meanings": { "en": "to the right", "zh": "向右", "th": "ไปทางขวา", "ko": "오른쪽으로", "es": "a la derecha" }
+            },
+            {
+              "word": "au coin de",
+              "romanization": null,
+              "meanings": { "en": "at the corner of", "zh": "在...的角落", "th": "ที่มุมของ", "ko": "...의 모퉁이에", "es": "en la esquina de" }
+            },
+            {
+              "word": "Excusez-moi",
+              "romanization": null,
+              "meanings": { "en": "Excuse me (formal)", "zh": "打扰一下（正式）", "th": "ขอโทษ (ทางการ)", "ko": "실례합니다 (존댓말)", "es": "Disculpe (formal)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Go straight ahead then turn left'?",
+              "options": ["Allez tout droit, puis tournez à gauche.", "Allez tout droit, puis tournez à droite.", "Tournez à gauche, puis tout droit.", "Allez à droite et continuez."],
+              "correct": 0,
+              "explanation": "'Allez tout droit' = go straight, 'puis' = then, 'tournez à gauche' = turn left."
+            },
+            {
+              "type": "target_to_native",
+              "word": "au coin de",
+              "options": ["at the corner of", "in front of", "next to", "behind"],
+              "correct": 0,
+              "explanation": "'Au coin de la rue' = at the corner of the street — a useful landmark phrase."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["tout droit", "straight ahead"],
+                ["à gauche", "to the left"],
+                ["à droite", "to the right"],
+                ["Excusez-moi", "Excuse me"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["puis", "droite", "droit", "tout", "Allez", "tournez", "à"],
+              "correct": ["Allez", "tout", "droit", "puis", "tournez", "à", "droite"],
+              "translation": "Go straight ahead then turn right."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taking a Taxi",
+            "zh": "坐出租车",
+            "th": "การนั่งแท็กซี่",
+            "ko": "택시 타기",
+            "es": "Tomar un taxi"
+          },
+          "objectives": {
+            "en": ["Hail a taxi and give an address", "Ask about the fare and journey time"],
+            "zh": ["叫出租车并给出地址", "询问车费和行程时间"],
+            "th": ["เรียกแท็กซี่และให้ที่อยู่", "ถามเกี่ยวกับค่าโดยสารและเวลาเดินทาง"],
+            "ko": ["택시 잡고 주소 알려주기", "요금과 이동 시간 물어보기"],
+            "es": ["Parar un taxi y dar una dirección", "Preguntar por la tarifa y el tiempo de viaje"]
+          },
+          "vocabulary": [
+            {
+              "word": "le taxi",
+              "romanization": null,
+              "meanings": { "en": "the taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "el taxi" }
+            },
+            {
+              "word": "l'adresse",
+              "romanization": null,
+              "meanings": { "en": "the address", "zh": "地址", "th": "ที่อยู่", "ko": "주소", "es": "la dirección" }
+            },
+            {
+              "word": "Conduisez-moi à...",
+              "romanization": null,
+              "meanings": { "en": "Take me to... (taxi)", "zh": "请送我去...", "th": "พาฉันไปที่...", "ko": "...로 데려다 주세요", "es": "Lléveme a..." }
+            },
+            {
+              "word": "C'est combien ?",
+              "romanization": null,
+              "meanings": { "en": "How much is it?", "zh": "多少钱？", "th": "เท่าไร?", "ko": "얼마예요?", "es": "¿Cuánto es?" }
+            },
+            {
+              "word": "le compteur",
+              "romanization": null,
+              "meanings": { "en": "the meter (taxi)", "zh": "计价器", "th": "มิเตอร์", "ko": "미터기", "es": "el taxímetro" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Take me to the Eiffel Tower, please'?",
+              "options": ["Conduisez-moi à la Tour Eiffel, s'il vous plaît.", "Je veux aller à la Tour Eiffel.", "Où est la Tour Eiffel ?", "Amenez-moi à la Tour Eiffel."],
+              "correct": 0,
+              "explanation": "'Conduisez-moi à...' = Take me to... (formal imperative of 'conduire'). Common taxi phrase."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le compteur",
+              "options": ["the meter", "the fare", "the driver", "the receipt"],
+              "correct": 0,
+              "explanation": "'Le compteur' = the taxi meter. 'Mettez le compteur en marche' = Start the meter."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le taxi", "taxi"],
+                ["l'adresse", "address"],
+                ["C'est combien ?", "How much is it?"],
+                ["le compteur", "the meter"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["plaît", "gare", "la", "à", "s'il", "vous", "Conduisez-moi"],
+              "correct": ["Conduisez-moi", "à", "la", "gare", "s'il", "vous", "plaît"],
+              "translation": "Take me to the station, please."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Airport",
+        "zh": "在机场",
+        "th": "ที่สนามบิน",
+        "ko": "공항에서",
+        "es": "En el aeropuerto"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Check-in & Boarding",
+            "zh": "登机手续和登机",
+            "th": "เช็คอินและการขึ้นเครื่อง",
+            "ko": "체크인과 탑승",
+            "es": "Facturación y embarque"
+          },
+          "objectives": {
+            "en": ["Complete airport check-in procedures", "Understand boarding announcements"],
+            "zh": ["完成机场登机手续", "理解登机广播"],
+            "th": ["ทำขั้นตอนเช็คอินที่สนามบิน", "เข้าใจประกาศขึ้นเครื่อง"],
+            "ko": ["공항 체크인 절차 완료하기", "탑승 안내 방송 이해하기"],
+            "es": ["Completar los trámites de check-in", "Entender los anuncios de embarque"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'aéroport",
+              "romanization": null,
+              "meanings": { "en": "the airport", "zh": "机场", "th": "สนามบิน", "ko": "공항", "es": "el aeropuerto" }
+            },
+            {
+              "word": "l'enregistrement",
+              "romanization": null,
+              "meanings": { "en": "check-in", "zh": "值机/登机手续", "th": "เช็คอิน", "ko": "체크인", "es": "la facturación" }
+            },
+            {
+              "word": "la carte d'embarquement",
+              "romanization": null,
+              "meanings": { "en": "the boarding pass", "zh": "登机牌", "th": "บัตรขึ้นเครื่อง", "ko": "탑승권", "es": "la tarjeta de embarque" }
+            },
+            {
+              "word": "le vol",
+              "romanization": null,
+              "meanings": { "en": "the flight", "zh": "航班", "th": "เที่ยวบิน", "ko": "항공편", "es": "el vuelo" }
+            },
+            {
+              "word": "la porte d'embarquement",
+              "romanization": null,
+              "meanings": { "en": "the boarding gate", "zh": "登机口", "th": "ประตูขึ้นเครื่อง", "ko": "탑승 게이트", "es": "la puerta de embarque" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to check in for my flight'?",
+              "options": ["Je voudrais m'enregistrer pour mon vol.", "Je cherche la porte d'embarquement.", "Où est mon billet ?", "J'ai ma carte d'embarquement."],
+              "correct": 0,
+              "explanation": "'M'enregistrer' = to check in (reflexive). 'Pour mon vol' = for my flight."
+            },
+            {
+              "type": "target_to_native",
+              "word": "la carte d'embarquement",
+              "options": ["boarding pass", "passport", "luggage tag", "flight ticket"],
+              "correct": 0,
+              "explanation": "'La carte d'embarquement' = boarding pass. You need it to pass through security and board."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["l'aéroport", "airport"],
+                ["le vol", "flight"],
+                ["la carte d'embarquement", "boarding pass"],
+                ["la porte d'embarquement", "boarding gate"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["embarquement", "est", "la", "Où", "porte", "de", "d'?"],
+              "correct": ["Où", "est", "la", "porte", "d'embarquement"],
+              "translation": "Where is the boarding gate?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Customs & Immigration",
+            "zh": "海关和入境",
+            "th": "ศุลกากรและการตรวจคนเข้าเมือง",
+            "ko": "세관과 출입국",
+            "es": "Aduana e inmigración"
+          },
+          "objectives": {
+            "en": ["Answer questions at passport control", "Understand customs procedures"],
+            "zh": ["回答护照控制处的问题", "理解海关程序"],
+            "th": ["ตอบคำถามที่จุดตรวจหนังสือเดินทาง", "เข้าใจขั้นตอนศุลกากร"],
+            "ko": ["출입국 심사에서 질문 답하기", "세관 절차 이해하기"],
+            "es": ["Responder preguntas en el control de pasaportes", "Entender los trámites de aduana"]
+          },
+          "vocabulary": [
+            {
+              "word": "le passeport",
+              "romanization": null,
+              "meanings": { "en": "the passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "el pasaporte" }
+            },
+            {
+              "word": "la douane",
+              "romanization": null,
+              "meanings": { "en": "customs", "zh": "海关", "th": "ศุลกากร", "ko": "세관", "es": "la aduana" }
+            },
+            {
+              "word": "déclarer",
+              "romanization": null,
+              "meanings": { "en": "to declare", "zh": "申报", "th": "สำแดง", "ko": "신고하다", "es": "declarar" }
+            },
+            {
+              "word": "le séjour",
+              "romanization": null,
+              "meanings": { "en": "the stay/visit", "zh": "逗留", "th": "การพำนัก", "ko": "체류", "es": "la estancia" }
+            },
+            {
+              "word": "le motif du voyage",
+              "romanization": null,
+              "meanings": { "en": "the purpose of travel", "zh": "旅行目的", "th": "วัตถุประสงค์การเดินทาง", "ko": "여행 목적", "es": "el motivo del viaje" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am here for tourism'?",
+              "options": ["Je suis ici pour le tourisme.", "Je voyage pour les affaires.", "Je visite la France.", "Je suis en vacances."],
+              "correct": 0,
+              "explanation": "'Je suis ici pour le tourisme' = I am here for tourism. A common answer at passport control."
+            },
+            {
+              "type": "target_to_native",
+              "word": "déclarer",
+              "options": ["to declare", "to arrive", "to show", "to search"],
+              "correct": 0,
+              "explanation": "'Avez-vous quelque chose à déclarer?' = Do you have anything to declare? Standard customs question."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["le passeport", "passport"],
+                ["la douane", "customs"],
+                ["le séjour", "stay/visit"],
+                ["déclarer", "to declare"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["semaines", "rester", "vais", "deux", "Je"],
+              "correct": ["Je", "vais", "rester", "deux", "semaines"],
+              "translation": "I am going to stay for two weeks."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Lost Luggage",
+            "zh": "行李丢失",
+            "th": "กระเป๋าหาย",
+            "ko": "수하물 분실",
+            "es": "Equipaje perdido"
+          },
+          "objectives": {
+            "en": ["Report lost luggage at the airport", "Describe your bag and its contents"],
+            "zh": ["在机场报告丢失的行李", "描述你的包及其内容"],
+            "th": ["รายงานกระเป๋าหายที่สนามบิน", "อธิบายกระเป๋าและสิ่งของข้างใน"],
+            "ko": ["공항에서 분실 수하물 신고하기", "가방과 그 내용물 묘사하기"],
+            "es": ["Reportar equipaje perdido en el aeropuerto", "Describir tu maleta y su contenido"]
+          },
+          "vocabulary": [
+            {
+              "word": "la valise",
+              "romanization": null,
+              "meanings": { "en": "the suitcase", "zh": "行李箱", "th": "กระเป๋าเดินทาง", "ko": "여행 가방", "es": "la maleta" }
+            },
+            {
+              "word": "le bagage",
+              "romanization": null,
+              "meanings": { "en": "the luggage/baggage", "zh": "行李", "th": "สัมภาระ", "ko": "수하물", "es": "el equipaje" }
+            },
+            {
+              "word": "perdu / perdue",
+              "romanization": null,
+              "meanings": { "en": "lost (m/f)", "zh": "丢失的", "th": "หาย", "ko": "잃어버린", "es": "perdido/perdida" }
+            },
+            {
+              "word": "signaler",
+              "romanization": null,
+              "meanings": { "en": "to report", "zh": "报告", "th": "รายงาน", "ko": "신고하다", "es": "reportar/avisar" }
+            },
+            {
+              "word": "le contenu",
+              "romanization": null,
+              "meanings": { "en": "the contents", "zh": "内容物", "th": "สิ่งของข้างใน", "ko": "내용물", "es": "el contenido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'My suitcase is lost'?",
+              "options": ["Ma valise est perdue.", "J'ai perdu mon bagage.", "Ma valise n'est pas arrivée.", "Mon bagage est manquant."],
+              "correct": 0,
+              "explanation": "'Ma valise est perdue' = My suitcase is lost. 'Perdue' agrees with 'valise' (feminine)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "signaler",
+              "options": ["to report", "to find", "to claim", "to carry"],
+              "correct": 0,
+              "explanation": "'Je voudrais signaler un bagage perdu' = I would like to report lost luggage."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["la valise", "suitcase"],
+                ["le bagage", "luggage"],
+                ["perdu", "lost"],
+                ["le contenu", "contents"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["valise", "arrivée", "n'est", "pas", "Ma"],
+              "correct": ["Ma", "valise", "n'est", "pas", "arrivée"],
+              "translation": "My suitcase has not arrived."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Accommodation",
+        "zh": "住宿",
+        "th": "ที่พัก",
+        "ko": "숙박",
+        "es": "Alojamiento"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Booking a Hotel",
+            "zh": "预订酒店",
+            "th": "การจองโรงแรม",
+            "ko": "호텔 예약하기",
+            "es": "Reservar un hotel"
+          },
+          "objectives": {
+            "en": ["Book a hotel room in French", "Specify room type and dates"],
+            "zh": ["用法语预订酒店房间", "指定房间类型和日期"],
+            "th": ["จองห้องพักโรงแรมเป็นภาษาฝรั่งเศส", "ระบุประเภทห้องและวันที่"],
+            "ko": ["프랑스어로 호텔 방 예약하기", "방 유형과 날짜 지정하기"],
+            "es": ["Reservar una habitación de hotel en francés", "Especificar tipo de habitación y fechas"]
+          },
+          "vocabulary": [
+            {
+              "word": "l'hôtel",
+              "romanization": null,
+              "meanings": { "en": "the hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "el hotel" }
+            },
+            {
+              "word": "une chambre",
+              "romanization": null,
+              "meanings": { "en": "a room", "zh": "房间", "th": "ห้องพัก", "ko": "방", "es": "una habitación" }
+            },
+            {
+              "word": "pour une nuit",
+              "romanization": null,
+              "meanings": { "en": "for one night", "zh": "住一晚", "th": "สำหรับหนึ่งคืน", "ko": "하룻밤", "es": "por una noche" }
+            },
+            {
+              "word": "le petit-déjeuner inclus",
+              "romanization": null,
+              "meanings": { "en": "breakfast included", "zh": "含早餐", "th": "รวมอาหารเช้า", "ko": "조식 포함", "es": "desayuno incluido" }
+            },
+            {
+              "word": "la réception",
+              "romanization": null,
+              "meanings": { "en": "the reception/front desk", "zh": "前台", "th": "แผนกต้อนรับ", "ko": "프런트", "es": "la recepción" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like a room for two nights'?",
+              "options": ["Je voudrais une chambre pour deux nuits.", "Je veux rester deux nuits.", "Avez-vous une chambre libre ?", "Réservez-moi une chambre."],
+              "correct": 0,
+              "explanation": "'Je voudrais une chambre pour deux nuits' = I would like a room for two nights."
+            },
+            {
+              "type": "target_to_native",
+              "word": "le petit-déjeuner inclus",
+              "options": ["breakfast included", "dinner included", "all meals included", "no meals"],
+              "correct": 0,
+              "explanation": "'Le petit-déjeuner inclus' means breakfast is included in the room price."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["l'hôtel", "hotel"],
+                ["une chambre", "a room"],
+                ["la réception", "reception"],
+                ["pour une nuit", "for one night"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["chambre", "voudrais", "deux", "nuits", "pour", "une", "Je"],
+              "correct": ["Je", "voudrais", "une", "chambre", "pour", "deux", "nuits"],
+              "translation": "I would like a room for two nights."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Hotel Problems",
+            "zh": "酒店问题",
+            "th": "ปัญหาโรงแรม",
+            "ko": "호텔 문제",
+            "es": "Problemas en el hotel"
+          },
+          "objectives": {
+            "en": ["Report a problem in your hotel room", "Request a replacement or solution"],
+            "zh": ["报告酒店房间的问题", "请求更换或解决方案"],
+            "th": ["รายงานปัญหาในห้องพักโรงแรม", "ขอการเปลี่ยนแปลงหรือแก้ไข"],
+            "ko": ["호텔 방 문제 신고하기", "교체나 해결책 요청하기"],
+            "es": ["Informar de un problema en la habitación", "Solicitar un cambio o solución"]
+          },
+          "vocabulary": [
+            {
+              "word": "il n'y a pas de...",
+              "romanization": null,
+              "meanings": { "en": "there is no...", "zh": "没有...", "th": "ไม่มี...", "ko": "...이/가 없어요", "es": "no hay..." }
+            },
+            {
+              "word": "ça ne fonctionne pas",
+              "romanization": null,
+              "meanings": { "en": "it doesn't work", "zh": "它不工作了", "th": "มันไม่ทำงาน", "ko": "작동이 안 돼요", "es": "no funciona" }
+            },
+            {
+              "word": "changer de chambre",
+              "romanization": null,
+              "meanings": { "en": "to change rooms", "zh": "换房间", "th": "เปลี่ยนห้อง", "ko": "방을 바꾸다", "es": "cambiar de habitación" }
+            },
+            {
+              "word": "le chauffage",
+              "romanization": null,
+              "meanings": { "en": "the heating", "zh": "暖气", "th": "เครื่องทำความร้อน", "ko": "난방", "es": "la calefacción" }
+            },
+            {
+              "word": "bruyant / bruyante",
+              "romanization": null,
+              "meanings": { "en": "noisy (m/f)", "zh": "吵闹的", "th": "เสียงดัง", "ko": "시끄러운", "es": "ruidoso/ruidosa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The heating doesn't work'?",
+              "options": ["Le chauffage ne fonctionne pas.", "Il n'y a pas de chauffage.", "La chambre est froide.", "Je veux changer de chambre."],
+              "correct": 0,
+              "explanation": "'Le chauffage ne fonctionne pas' = The heating doesn't work. 'Ne...pas' = negation."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bruyant",
+              "options": ["noisy", "dirty", "cold", "broken"],
+              "correct": 0,
+              "explanation": "'La chambre est trop bruyante' = The room is too noisy — a common hotel complaint."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ça ne fonctionne pas", "it doesn't work"],
+                ["changer de chambre", "to change rooms"],
+                ["le chauffage", "heating"],
+                ["bruyant", "noisy"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["chambre", "de", "voudrais", "changer", "Je"],
+              "correct": ["Je", "voudrais", "changer", "de", "chambre"],
+              "translation": "I would like to change rooms."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Checking Out",
+            "zh": "退房",
+            "th": "การเช็คเอาต์",
+            "ko": "체크아웃",
+            "es": "Hacer el check-out"
+          },
+          "objectives": {
+            "en": ["Check out of a hotel and pay the bill", "Ask about late checkout options"],
+            "zh": ["退房并付款", "询问延迟退房的选项"],
+            "th": ["เช็คเอาต์จากโรงแรมและจ่ายบิล", "ถามเกี่ยวกับตัวเลือกเช็คเอาต์ล่าช้า"],
+            "ko": ["호텔에서 체크아웃하고 계산하기", "늦은 체크아웃 옵션 물어보기"],
+            "es": ["Hacer el check-out y pagar la factura", "Preguntar sobre el check-out tardío"]
+          },
+          "vocabulary": [
+            {
+              "word": "partir",
+              "romanization": null,
+              "meanings": { "en": "to leave/depart", "zh": "离开", "th": "ออกเดินทาง", "ko": "떠나다", "es": "salir/marcharse" }
+            },
+            {
+              "word": "rendre la clé",
+              "romanization": null,
+              "meanings": { "en": "to return the key", "zh": "归还钥匙", "th": "คืนกุญแจ", "ko": "열쇠를 반납하다", "es": "devolver la llave" }
+            },
+            {
+              "word": "la facture",
+              "romanization": null,
+              "meanings": { "en": "the bill/invoice", "zh": "账单/发票", "th": "ใบเสร็จ/บิล", "ko": "청구서", "es": "la factura" }
+            },
+            {
+              "word": "tard",
+              "romanization": null,
+              "meanings": { "en": "late", "zh": "晚", "th": "ช้า/สาย", "ko": "늦게", "es": "tarde" }
+            },
+            {
+              "word": "Je règle ma note.",
+              "romanization": null,
+              "meanings": { "en": "I am settling my bill.", "zh": "我结清账单。", "th": "ฉันชำระบิล", "ko": "저는 계산서를 정산합니다.", "es": "Voy a liquidar mi cuenta." }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to check out'?",
+              "options": ["Je voudrais partir, s'il vous plaît.", "Je veux quitter l'hôtel.", "Je règle ma note.", "Puis-je avoir ma facture ?"],
+              "correct": 0,
+              "explanation": "'Je voudrais partir' = I would like to leave/check out. Polite and standard."
+            },
+            {
+              "type": "target_to_native",
+              "word": "rendre la clé",
+              "options": ["to return the key", "to get a new key", "to lose the key", "to copy the key"],
+              "correct": 0,
+              "explanation": "'Rendre la clé' = to return/hand back the key. Done when checking out."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["partir", "to leave"],
+                ["la facture", "the bill"],
+                ["rendre la clé", "to return the key"],
+                ["tard", "late"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["avoir", "la", "facture", "je", "Puis", "ma"],
+              "correct": ["Puis", "je", "avoir", "ma", "facture"],
+              "translation": "May I have my bill?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

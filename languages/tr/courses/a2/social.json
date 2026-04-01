@@ -1,0 +1,792 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting Friends",
+            "zh": "邀请朋友",
+            "th": "การเชิญเพื่อน",
+            "ko": "친구 초대하기",
+            "es": "Invitar amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to a social event in Turkish", "Accept or decline invitations politely"],
+            "zh": ["用土耳其语邀请某人参加社交活动", "礼貌地接受或拒绝邀请"],
+            "th": ["เชิญใครบางคนไปงานสังสรรค์เป็นภาษาตุรกี", "ตอบรับหรือปฏิเสธคำเชิญอย่างสุภาพ"],
+            "ko": ["터키어로 사교 행사에 초대하기", "정중하게 초대 수락 또는 거절하기"],
+            "es": ["Invitar a alguien a un evento social en turco", "Aceptar o rechazar invitaciones con educación"]
+          },
+          "vocabulary": [
+            {
+              "word": "davet etmek",
+              "romanization": null,
+              "meanings": { "en": "to invite", "zh": "邀请", "th": "เชิญ", "ko": "초대하다", "es": "invitar" }
+            },
+            {
+              "word": "parti",
+              "romanization": null,
+              "meanings": { "en": "party", "zh": "派对", "th": "ปาร์ตี้", "ko": "파티", "es": "fiesta" }
+            },
+            {
+              "word": "kabul etmek",
+              "romanization": null,
+              "meanings": { "en": "to accept", "zh": "接受", "th": "ยอมรับ", "ko": "수락하다", "es": "aceptar" }
+            },
+            {
+              "word": "özür dilemek",
+              "romanization": null,
+              "meanings": { "en": "to apologize / decline politely", "zh": "道歉/礼貌拒绝", "th": "ขอโทษ/ปฏิเสธอย่างสุภาพ", "ko": "사과하다/정중히 거절하다", "es": "disculparse/declinar con educación" }
+            },
+            {
+              "word": "meşgul",
+              "romanization": null,
+              "meanings": { "en": "busy", "zh": "忙", "th": "ยุ่ง", "ko": "바쁜", "es": "ocupado" }
+            },
+            {
+              "word": "eğlenmek",
+              "romanization": null,
+              "meanings": { "en": "to have fun/enjoy", "zh": "享受/玩乐", "th": "สนุก", "ko": "즐기다", "es": "divertirse" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Would you like to come to my party?'",
+              "options": ["Partiye gelmek ister misin?", "Seni davet ediyorum.", "Partide görüşürüz.", "Bugün meşgul müsün?"],
+              "correct": 0,
+              "explanation": "'Partiye gelmek ister misin?' = Would you like to come to the party?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "meşgul",
+              "options": ["busy", "happy", "sad", "tired"],
+              "correct": 0,
+              "explanation": "'Meşgul' means busy — from Arabic. Used to politely decline invitations."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["davet etmek", "to invite"],
+                ["parti", "party"],
+                ["kabul etmek", "to accept"],
+                ["eğlenmek", "to have fun"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Üzgünüm, o gün meşgulüm.",
+              "options": ["Sorry, I'm busy that day.", "Sure, I'd love to come.", "What time is the party?", "Thanks for the invitation."],
+              "correct": 0,
+              "explanation": "'Üzgünüm' = I'm sorry, 'o gün meşgulüm' = I'm busy that day."
+            },
+            {
+              "type": "reorder",
+              "words": ["partiye", "gelmek", "ister", "misin"],
+              "correct": ["Partiye", "gelmek", "ister", "misin"],
+              "translation": "Would you like to come to the party?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Talking About Hobbies",
+            "zh": "谈论爱好",
+            "th": "การพูดถึงงานอดิเรก",
+            "ko": "취미 이야기하기",
+            "es": "Hablar de aficiones"
+          },
+          "objectives": {
+            "en": ["Describe hobbies and free time activities in Turkish", "Ask others about their interests"],
+            "zh": ["用土耳其语描述爱好和休闲活动", "询问他人的兴趣"],
+            "th": ["อธิบายงานอดิเรกและกิจกรรมยามว่างเป็นภาษาตุรกี", "ถามผู้อื่นเกี่ยวกับความสนใจ"],
+            "ko": ["터키어로 취미와 여가 활동 설명하기", "다른 사람의 관심사 묻기"],
+            "es": ["Describir aficiones y actividades de ocio en turco", "Preguntar a otros sobre sus intereses"]
+          },
+          "vocabulary": [
+            {
+              "word": "hobi",
+              "romanization": null,
+              "meanings": { "en": "hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "afición/hobby" }
+            },
+            {
+              "word": "müzik dinlemek",
+              "romanization": null,
+              "meanings": { "en": "to listen to music", "zh": "听音乐", "th": "ฟังเพลง", "ko": "음악 듣기", "es": "escuchar música" }
+            },
+            {
+              "word": "spor yapmak",
+              "romanization": null,
+              "meanings": { "en": "to do sports/exercise", "zh": "做运动", "th": "เล่นกีฬา", "ko": "운동하다", "es": "hacer deporte" }
+            },
+            {
+              "word": "kitap okumak",
+              "romanization": null,
+              "meanings": { "en": "to read a book", "zh": "读书", "th": "อ่านหนังสือ", "ko": "책 읽기", "es": "leer un libro" }
+            },
+            {
+              "word": "ilgilenmek",
+              "romanization": null,
+              "meanings": { "en": "to be interested in", "zh": "对...感兴趣", "th": "สนใจ", "ko": "관심이 있다", "es": "estar interesado en" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'My hobby is reading'?",
+              "options": ["Hobim kitap okumak.", "Kitap okumayı sevmiyorum.", "Hobim spor yapmak.", "Müzik dinlemeyi severim."],
+              "correct": 0,
+              "explanation": "'Hobim kitap okumak' = My hobby is reading. 'Hobi' + possessive '-m' = my hobby."
+            },
+            {
+              "type": "target_to_native",
+              "word": "spor yapmak",
+              "options": ["to do sports/exercise", "to watch sports", "to play music", "to read books"],
+              "correct": 0,
+              "explanation": "'Spor yapmak' = to do sports or exercise."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hobi", "hobby"],
+                ["müzik dinlemek", "listen to music"],
+                ["kitap okumak", "read a book"],
+                ["ilgilenmek", "to be interested in"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Neyle ilgilenirsin?",
+              "options": ["What are you interested in?", "What is your hobby?", "Do you like sports?", "What music do you listen to?"],
+              "correct": 0,
+              "explanation": "'Neyle ilgilenirsin?' = What are you interested in? 'Ne' = what, 'ilgilenirsin' = are you interested."
+            },
+            {
+              "type": "reorder",
+              "words": ["kitap", "okumayı", "severim"],
+              "correct": ["Kitap", "okumayı", "severim"],
+              "translation": "I like reading books."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Weekend Plans",
+            "zh": "周末计划",
+            "th": "แผนสุดสัปดาห์",
+            "ko": "주말 계획",
+            "es": "Planes para el fin de semana"
+          },
+          "objectives": {
+            "en": ["Discuss weekend plans and activities", "Talk about past and future events"],
+            "zh": ["讨论周末计划和活动", "谈论过去和未来的事件"],
+            "th": ["พูดคุยเกี่ยวกับแผนและกิจกรรมวันหยุดสุดสัปดาห์", "พูดคุยเกี่ยวกับเหตุการณ์ในอดีตและอนาคต"],
+            "ko": ["주말 계획과 활동 이야기하기", "과거와 미래 사건에 대해 이야기하기"],
+            "es": ["Discutir planes y actividades del fin de semana", "Hablar de eventos pasados y futuros"]
+          },
+          "vocabulary": [
+            {
+              "word": "hafta sonu",
+              "romanization": null,
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "sinema",
+              "romanization": null,
+              "meanings": { "en": "cinema/movies", "zh": "电影院", "th": "โรงภาพยนตร์", "ko": "영화관", "es": "cine" }
+            },
+            {
+              "word": "piknik",
+              "romanization": null,
+              "meanings": { "en": "picnic", "zh": "野餐", "th": "ปิกนิก", "ko": "소풍", "es": "picnic" }
+            },
+            {
+              "word": "gezinti",
+              "romanization": null,
+              "meanings": { "en": "walk/outing/excursion", "zh": "散步/郊游", "th": "การเดินเล่น/การท่องเที่ยว", "ko": "산책/소풍", "es": "paseo/excursión" }
+            },
+            {
+              "word": "planlamak",
+              "romanization": null,
+              "meanings": { "en": "to plan", "zh": "计划", "th": "วางแผน", "ko": "계획하다", "es": "planear" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What are you doing this weekend?'",
+              "options": ["Bu hafta sonu ne yapıyorsun?", "Bu hafta sonu nereye gidiyorsun?", "Hafta sonu meşgul misin?", "Planın ne?"],
+              "correct": 0,
+              "explanation": "'Bu hafta sonu ne yapıyorsun?' = What are you doing this weekend?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "gezinti",
+              "options": ["walk/outing/excursion", "cinema", "picnic", "party"],
+              "correct": 0,
+              "explanation": "'Gezinti' means a walk, outing, or excursion — a leisurely stroll or trip."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hafta sonu", "weekend"],
+                ["sinema", "cinema"],
+                ["piknik", "picnic"],
+                ["planlamak", "to plan"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Hafta sonu sinemaya gidiyoruz.",
+              "options": ["We're going to the cinema this weekend.", "We're planning a picnic.", "I'm going for a walk.", "We're having a party."],
+              "correct": 0,
+              "explanation": "'Sinemaya gidiyoruz' = we are going to the cinema."
+            },
+            {
+              "type": "reorder",
+              "words": ["hafta", "sonu", "pikniğe", "gidelim"],
+              "correct": ["Hafta", "sonu", "pikniğe", "gidelim"],
+              "translation": "Let's go on a picnic this weekend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Socializing",
+        "zh": "社交",
+        "th": "การเข้าสังคม",
+        "ko": "사교",
+        "es": "Socializar"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Meeting New People",
+            "zh": "认识新朋友",
+            "th": "การพบปะคนใหม่",
+            "ko": "새로운 사람 만나기",
+            "es": "Conocer nuevas personas"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and make small talk in Turkish", "Ask about someone's background"],
+            "zh": ["用土耳其语自我介绍和闲聊", "询问某人的背景"],
+            "th": ["แนะนำตัวเองและพูดคุยเรื่องทั่วไปเป็นภาษาตุรกี", "ถามเกี่ยวกับภูมิหลังของใครบางคน"],
+            "ko": ["터키어로 자기소개하고 가벼운 대화하기", "누군가의 배경 물어보기"],
+            "es": ["Presentarse y hacer pequeña charla en turco", "Preguntar sobre el origen de alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "tanışmak",
+              "romanization": null,
+              "meanings": { "en": "to meet/get acquainted", "zh": "认识/结识", "th": "รู้จัก/พบปะ", "ko": "만나다/사귀다", "es": "conocerse" }
+            },
+            {
+              "word": "nereli",
+              "romanization": null,
+              "meanings": { "en": "where (someone is) from", "zh": "来自哪里", "th": "มาจากที่ไหน", "ko": "어디 출신", "es": "de dónde es" }
+            },
+            {
+              "word": "meslek",
+              "romanization": null,
+              "meanings": { "en": "profession/job", "zh": "职业", "th": "อาชีพ", "ko": "직업", "es": "profesión" }
+            },
+            {
+              "word": "iyi anlaşmak",
+              "romanization": null,
+              "meanings": { "en": "to get along well", "zh": "相处融洽", "th": "เข้ากันได้ดี", "ko": "잘 지내다", "es": "llevarse bien" }
+            },
+            {
+              "word": "arkadaş",
+              "romanization": null,
+              "meanings": { "en": "friend", "zh": "朋友", "th": "เพื่อน", "ko": "친구", "es": "amigo/a" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where are you from?'",
+              "options": ["Nerelisiniz?", "Ne iş yapıyorsunuz?", "Adınız ne?", "Kaç yaşındasınız?"],
+              "correct": 0,
+              "explanation": "'Nerelisiniz?' = Where are you from? (polite form). 'Nereli' = from where."
+            },
+            {
+              "type": "target_to_native",
+              "word": "arkadaş",
+              "options": ["friend", "colleague", "neighbor", "family"],
+              "correct": 0,
+              "explanation": "'Arkadaş' means friend — a very common and important Turkish word."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["tanışmak", "to meet"],
+                ["meslek", "profession"],
+                ["arkadaş", "friend"],
+                ["nereli", "from where"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Tanıştığımıza memnun oldum.",
+              "options": ["Nice to meet you.", "How are you?", "Where are you from?", "What do you do?"],
+              "correct": 0,
+              "explanation": "'Tanıştığımıza memnun oldum' = Nice to meet you (literally: I am pleased that we have met)."
+            },
+            {
+              "type": "reorder",
+              "words": ["iş", "ne", "yapıyorsunuz"],
+              "correct": ["Ne", "iş", "yapıyorsunuz"],
+              "translation": "What do you do for work?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Giving Compliments",
+            "zh": "给予赞美",
+            "th": "การให้คำชม",
+            "ko": "칭찬하기",
+            "es": "Dar cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments in Turkish", "React positively to praise"],
+            "zh": ["用土耳其语给予和接受赞美", "积极回应赞美"],
+            "th": ["ให้และรับคำชมเป็นภาษาตุรกี", "ตอบสนองต่อคำชมอย่างเป็นบวก"],
+            "ko": ["터키어로 칭찬하고 받기", "칭찬에 긍정적으로 반응하기"],
+            "es": ["Dar y recibir cumplidos en turco", "Reaccionar positivamente a los elogios"]
+          },
+          "vocabulary": [
+            {
+              "word": "güzel",
+              "romanization": null,
+              "meanings": { "en": "beautiful/nice/good", "zh": "美丽/好", "th": "สวยงาม/ดี", "ko": "아름다운/좋은", "es": "hermoso/bonito/bueno" }
+            },
+            {
+              "word": "harika",
+              "romanization": null,
+              "meanings": { "en": "wonderful/amazing", "zh": "太棒了", "th": "วิเศษมาก", "ko": "훌륭한/놀라운", "es": "maravilloso/increíble" }
+            },
+            {
+              "word": "teşekkür etmek",
+              "romanization": null,
+              "meanings": { "en": "to thank", "zh": "感谢", "th": "ขอบคุณ", "ko": "감사하다", "es": "agradecer" }
+            },
+            {
+              "word": "ne kadar nazik",
+              "romanization": null,
+              "meanings": { "en": "how kind (of you)", "zh": "你真好", "th": "ใจดีมาก", "ko": "정말 친절하시네요", "es": "qué amable" }
+            },
+            {
+              "word": "çok iyi",
+              "romanization": null,
+              "meanings": { "en": "very good/well", "zh": "非常好", "th": "ดีมาก", "ko": "아주 좋아요", "es": "muy bien/muy bueno" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Your Turkish is very good'?",
+              "options": ["Türkçeniz çok iyi.", "Türkçenizi öğrendim.", "Türkçe konuşuyorum.", "Türkçe bilmiyorum."],
+              "correct": 0,
+              "explanation": "'Türkçeniz çok iyi' = Your Turkish is very good. A great compliment to give!"
+            },
+            {
+              "type": "target_to_native",
+              "word": "harika",
+              "options": ["wonderful/amazing", "bad", "ordinary", "boring"],
+              "correct": 0,
+              "explanation": "'Harika' means wonderful or amazing — strong positive praise."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["güzel", "beautiful/nice"],
+                ["harika", "wonderful"],
+                ["teşekkür etmek", "to thank"],
+                ["çok iyi", "very good"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bu elbise çok güzel.",
+              "options": ["This dress is very beautiful.", "This is very delicious.", "The weather is very nice.", "Your house is wonderful."],
+              "correct": 0,
+              "explanation": "'Bu elbise' = this dress, 'çok güzel' = very beautiful."
+            },
+            {
+              "type": "reorder",
+              "words": ["çok", "güzel", "bu"],
+              "correct": ["Bu", "çok", "güzel"],
+              "translation": "This is very beautiful."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Expressing Opinions",
+            "zh": "表达意见",
+            "th": "การแสดงความคิดเห็น",
+            "ko": "의견 표현하기",
+            "es": "Expresar opiniones"
+          },
+          "objectives": {
+            "en": ["Express agreement and disagreement in Turkish", "Share opinions about social topics"],
+            "zh": ["用土耳其语表示同意和不同意", "分享关于社交话题的意见"],
+            "th": ["แสดงความเห็นด้วยและไม่เห็นด้วยเป็นภาษาตุรกี", "แบ่งปันความคิดเห็นเกี่ยวกับหัวข้อทางสังคม"],
+            "ko": ["터키어로 동의와 반대 표현하기", "사회적 주제에 대한 의견 공유하기"],
+            "es": ["Expresar acuerdo y desacuerdo en turco", "Compartir opiniones sobre temas sociales"]
+          },
+          "vocabulary": [
+            {
+              "word": "bence",
+              "romanization": null,
+              "meanings": { "en": "in my opinion/I think", "zh": "我认为", "th": "ในความคิดของฉัน", "ko": "내 생각에는", "es": "en mi opinión/creo que" }
+            },
+            {
+              "word": "katılmak",
+              "romanization": null,
+              "meanings": { "en": "to agree/to join", "zh": "同意/加入", "th": "เห็นด้วย/เข้าร่วม", "ko": "동의하다/참가하다", "es": "estar de acuerdo/unirse" }
+            },
+            {
+              "word": "katılmıyorum",
+              "romanization": null,
+              "meanings": { "en": "I disagree", "zh": "我不同意", "th": "ฉันไม่เห็นด้วย", "ko": "저는 동의하지 않아요", "es": "no estoy de acuerdo" }
+            },
+            {
+              "word": "belki",
+              "romanization": null,
+              "meanings": { "en": "maybe/perhaps", "zh": "也许", "th": "บางที", "ko": "아마도", "es": "quizás/tal vez" }
+            },
+            {
+              "word": "kesinlikle",
+              "romanization": null,
+              "meanings": { "en": "definitely/absolutely", "zh": "绝对/肯定", "th": "แน่นอน", "ko": "분명히/절대적으로", "es": "definitivamente/absolutamente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I think this is a good idea'?",
+              "options": ["Bence bu iyi bir fikir.", "Bu iyi bir fikir değil.", "Bilmiyorum.", "Belki."],
+              "correct": 0,
+              "explanation": "'Bence bu iyi bir fikir' = In my opinion/I think this is a good idea."
+            },
+            {
+              "type": "target_to_native",
+              "word": "kesinlikle",
+              "options": ["definitely/absolutely", "maybe", "never", "sometimes"],
+              "correct": 0,
+              "explanation": "'Kesinlikle' means definitely or absolutely — strong affirmation."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["bence", "in my opinion"],
+                ["katılmak", "to agree"],
+                ["belki", "maybe"],
+                ["kesinlikle", "definitely"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bence haklısın.",
+              "options": ["I think you're right.", "I disagree with you.", "Maybe you're right.", "I'm not sure."],
+              "correct": 0,
+              "explanation": "'Bence' = in my opinion, 'haklısın' = you are right."
+            },
+            {
+              "type": "reorder",
+              "words": ["bence", "haklısın", "kesinlikle"],
+              "correct": ["Bence", "kesinlikle", "haklısın"],
+              "translation": "I think you are definitely right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Celebrations",
+        "zh": "庆典",
+        "th": "การเฉลิมฉลอง",
+        "ko": "축하",
+        "es": "Celebraciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Birthdays & Celebrations",
+            "zh": "生日和庆典",
+            "th": "วันเกิดและการเฉลิมฉลอง",
+            "ko": "생일과 축하",
+            "es": "Cumpleaños y celebraciones"
+          },
+          "objectives": {
+            "en": ["Celebrate birthdays and special occasions in Turkish", "Offer good wishes and congratulations"],
+            "zh": ["用土耳其语庆祝生日和特殊场合", "送上祝福和祝贺"],
+            "th": ["ฉลองวันเกิดและโอกาสพิเศษเป็นภาษาตุรกี", "อวยพรและแสดงความยินดี"],
+            "ko": ["터키어로 생일과 특별한 날 축하하기", "축하와 덕담 전하기"],
+            "es": ["Celebrar cumpleaños y ocasiones especiales en turco", "Dar buenos deseos y felicitaciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "doğum günü",
+              "romanization": null,
+              "meanings": { "en": "birthday", "zh": "生日", "th": "วันเกิด", "ko": "생일", "es": "cumpleaños" }
+            },
+            {
+              "word": "iyi ki doğdun",
+              "romanization": null,
+              "meanings": { "en": "happy birthday (informal)", "zh": "生日快乐（非正式）", "th": "สุขสันต์วันเกิด (ไม่เป็นทางการ)", "ko": "생일 축하해 (비격식)", "es": "feliz cumpleaños (informal)" }
+            },
+            {
+              "word": "kutlamak",
+              "romanization": null,
+              "meanings": { "en": "to celebrate", "zh": "庆祝", "th": "เฉลิมฉลอง", "ko": "축하하다", "es": "celebrar" }
+            },
+            {
+              "word": "hediye",
+              "romanization": null,
+              "meanings": { "en": "gift/present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            },
+            {
+              "word": "tebrik etmek",
+              "romanization": null,
+              "meanings": { "en": "to congratulate", "zh": "祝贺", "th": "แสดงความยินดี", "ko": "축하하다", "es": "felicitar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Happy Birthday!'?",
+              "options": ["İyi ki doğdun!", "Hayırlı olsun!", "Geçmiş olsun!", "Sağlıcakla!"],
+              "correct": 0,
+              "explanation": "'İyi ki doğdun!' = Happy Birthday! Literally 'how good that you were born'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "hediye",
+              "options": ["gift/present", "card", "cake", "balloon"],
+              "correct": 0,
+              "explanation": "'Hediye' means gift or present — from Persian."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["doğum günü", "birthday"],
+                ["kutlamak", "to celebrate"],
+                ["hediye", "gift"],
+                ["tebrik etmek", "to congratulate"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Doğum günün kutlu olsun!",
+              "options": ["Happy birthday!", "Congratulations!", "Good luck!", "Get well soon!"],
+              "correct": 0,
+              "explanation": "'Doğum günün kutlu olsun' = Happy birthday (formal/alternate form)."
+            },
+            {
+              "type": "reorder",
+              "words": ["günün", "kutlu", "olsun", "doğum"],
+              "correct": ["Doğum", "günün", "kutlu", "olsun"],
+              "translation": "Happy birthday!"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Turkish Holidays",
+            "zh": "土耳其节日",
+            "th": "วันหยุดตุรกี",
+            "ko": "터키 공휴일",
+            "es": "Fiestas turcas"
+          },
+          "objectives": {
+            "en": ["Describe Turkish national holidays and customs", "Wish others well during holidays"],
+            "zh": ["描述土耳其国家节日和习俗", "在节日期间送上祝福"],
+            "th": ["อธิบายวันหยุดและประเพณีแห่งชาติตุรกี", "อวยพรผู้อื่นในช่วงวันหยุด"],
+            "ko": ["터키 국경일과 관습 설명하기", "공휴일에 덕담 전하기"],
+            "es": ["Describir fiestas nacionales y costumbres turcas", "Desear bien a otros durante las fiestas"]
+          },
+          "vocabulary": [
+            {
+              "word": "bayram",
+              "romanization": null,
+              "meanings": { "en": "holiday/festival/religious feast", "zh": "节日/宗教节日", "th": "วันหยุด/เทศกาล", "ko": "명절/축제", "es": "fiesta/festividad" }
+            },
+            {
+              "word": "Ramazan",
+              "romanization": null,
+              "meanings": { "en": "Ramadan", "zh": "斋月", "th": "รอมาฎอน", "ko": "라마단", "es": "Ramadán" }
+            },
+            {
+              "word": "tatil",
+              "romanization": null,
+              "meanings": { "en": "holiday/vacation", "zh": "假期", "th": "วันหยุดพักร้อน", "ko": "휴가", "es": "vacaciones" }
+            },
+            {
+              "word": "hayırlı bayramlar",
+              "romanization": null,
+              "meanings": { "en": "happy holiday (religious greeting)", "zh": "节日快乐（宗教问候）", "th": "ขอให้มีวันหยุดที่ดี", "ko": "즐거운 명절 보내세요", "es": "felices fiestas (saludo religioso)" }
+            },
+            {
+              "word": "geleneksel",
+              "romanization": null,
+              "meanings": { "en": "traditional", "zh": "传统的", "th": "ดั้งเดิม", "ko": "전통적인", "es": "tradicional" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone a happy holiday in Turkish?",
+              "options": ["Hayırlı bayramlar!", "İyi tatiller!", "İyi geceler!", "Hoş geldiniz!"],
+              "correct": 0,
+              "explanation": "'Hayırlı bayramlar!' is the traditional greeting during religious holidays in Turkey."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bayram",
+              "options": ["holiday/religious feast", "weekend", "birthday", "anniversary"],
+              "correct": 0,
+              "explanation": "'Bayram' refers to a holiday, especially religious festivals like Eid (Kurban Bayramı / Ramazan Bayramı)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["bayram", "holiday/feast"],
+                ["Ramazan", "Ramadan"],
+                ["tatil", "vacation"],
+                ["geleneksel", "traditional"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Bu geleneksel bir Türk bayramıdır.",
+              "options": ["This is a traditional Turkish holiday.", "Ramadan is a religious month.", "We celebrate this every year.", "Happy holiday to you too."],
+              "correct": 0,
+              "explanation": "'Bu' = this, 'geleneksel' = traditional, 'Türk bayramı' = Turkish holiday."
+            },
+            {
+              "type": "reorder",
+              "words": ["bayramlar", "hayırlı"],
+              "correct": ["Hayırlı", "bayramlar"],
+              "translation": "Happy holiday!"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Saying Goodbye",
+            "zh": "告别",
+            "th": "การบอกลา",
+            "ko": "작별 인사",
+            "es": "Despedirse"
+          },
+          "objectives": {
+            "en": ["Say goodbye and wish people well in Turkish", "Exchange contact information"],
+            "zh": ["用土耳其语道别并送上祝福", "交换联系方式"],
+            "th": ["บอกลาและอวยพรผู้คนเป็นภาษาตุรกี", "แลกเปลี่ยนข้อมูลการติดต่อ"],
+            "ko": ["터키어로 작별 인사하고 잘 되길 바라기", "연락처 교환하기"],
+            "es": ["Despedirse y desear lo mejor en turco", "Intercambiar información de contacto"]
+          },
+          "vocabulary": [
+            {
+              "word": "hoşça kal",
+              "romanization": null,
+              "meanings": { "en": "goodbye (said to person staying)", "zh": "再见（对留下的人说）", "th": "ลาก่อน (พูดกับคนที่อยู่)", "ko": "잘 있어 (남는 사람에게)", "es": "adiós (dicho a quien se queda)" }
+            },
+            {
+              "word": "güle güle",
+              "romanization": null,
+              "meanings": { "en": "goodbye (said to person leaving)", "zh": "再见（对离开的人说）", "th": "ลาก่อน (พูดกับคนที่กำลังจะไป)", "ko": "잘 가 (떠나는 사람에게)", "es": "adiós (dicho a quien se va)" }
+            },
+            {
+              "word": "görüşmek",
+              "romanization": null,
+              "meanings": { "en": "to see each other/meet again", "zh": "再见面", "th": "พบกันอีก", "ko": "다시 만나다", "es": "volver a verse" }
+            },
+            {
+              "word": "telefon numarası",
+              "romanization": null,
+              "meanings": { "en": "phone number", "zh": "电话号码", "th": "หมายเลขโทรศัพท์", "ko": "전화번호", "es": "número de teléfono" }
+            },
+            {
+              "word": "iletişimde kalmak",
+              "romanization": null,
+              "meanings": { "en": "to stay in touch", "zh": "保持联系", "th": "ติดต่อกัน", "ko": "연락하며 지내다", "es": "mantenerse en contacto" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What do you say to someone who is leaving?",
+              "options": ["Güle güle!", "Hoşça kal!", "Görüşürüz!", "Merhaba!"],
+              "correct": 0,
+              "explanation": "'Güle güle!' is said TO the person who is leaving. 'Hoşça kal' is said by the person who is leaving."
+            },
+            {
+              "type": "target_to_native",
+              "word": "iletişimde kalmak",
+              "options": ["to stay in touch", "to call each other", "to meet again", "to say goodbye"],
+              "correct": 0,
+              "explanation": "'İletişimde kalmak' means to stay in touch or remain in contact."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hoşça kal", "goodbye (from leaving person)"],
+                ["güle güle", "goodbye (to leaving person)"],
+                ["görüşmek", "to meet again"],
+                ["telefon numarası", "phone number"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Görüşmek üzere, iletişimde kalalım!",
+              "options": ["See you later, let's stay in touch!", "Goodbye, it was nice meeting you!", "Have a safe trip!", "Call me when you arrive!"],
+              "correct": 0,
+              "explanation": "'Görüşmek üzere' = see you soon, 'iletişimde kalalım' = let's stay in touch."
+            },
+            {
+              "type": "reorder",
+              "words": ["numaranı", "telefon", "alabilir", "miyim"],
+              "correct": ["Telefon", "numaranı", "alabilir", "miyim"],
+              "translation": "Can I have your phone number?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

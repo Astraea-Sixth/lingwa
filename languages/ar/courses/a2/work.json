@@ -1,0 +1,670 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Job Titles",
+            "zh": "职位",
+            "th": "ตำแหน่งงาน",
+            "ko": "직함",
+            "es": "Títulos de trabajo"
+          },
+          "objectives": {
+            "en": ["Name common job titles in Arabic", "Describe workplace roles"]
+          },
+          "vocabulary": [
+            {
+              "word": "مدير",
+              "romanization": "mudeer",
+              "meanings": { "en": "manager / director", "zh": "经理/主任", "th": "ผู้จัดการ/ผู้อำนวยการ", "ko": "관리자/이사", "es": "gerente / director" }
+            },
+            {
+              "word": "موظف",
+              "romanization": "muwazzaf",
+              "meanings": { "en": "employee", "zh": "员工", "th": "พนักงาน", "ko": "직원", "es": "empleado" }
+            },
+            {
+              "word": "رئيس",
+              "romanization": "ra'ees",
+              "meanings": { "en": "boss / president / chief", "zh": "老板/总裁/主席", "th": "เจ้านาย/หัวหน้า/ประธาน", "ko": "상사/사장/회장", "es": "jefe / presidente" }
+            },
+            {
+              "word": "طبيب",
+              "romanization": "tabeeb",
+              "meanings": { "en": "doctor", "zh": "医生", "th": "แพทย์", "ko": "의사", "es": "médico" }
+            },
+            {
+              "word": "مهندس",
+              "romanization": "muhandis",
+              "meanings": { "en": "engineer", "zh": "工程师", "th": "วิศวกร", "ko": "엔지니어", "es": "ingeniero" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'manager' in Arabic?" },
+              "answer": "مدير",
+              "choices": ["مدير", "موظف", "رئيس", "مهندس"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'مهندس' (muhandis) mean?" },
+              "answer": "engineer",
+              "choices": ["engineer", "manager", "doctor", "employee"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "مدير", "native": "manager" },
+                { "target": "موظف", "native": "employee" },
+                { "target": "رئيس", "native": "boss" },
+                { "target": "مهندس", "native": "engineer" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am an engineer.'" },
+              "words": ["أنا", "مهندس"],
+              "answer": "أنا مهندس"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Daily Work Routine",
+            "zh": "日常工作例行",
+            "th": "กิจวัตรการทำงานประจำวัน",
+            "ko": "일상 업무 루틴",
+            "es": "Rutina laboral diaria"
+          },
+          "objectives": {
+            "en": ["Describe daily work tasks in Arabic", "Talk about schedules"]
+          },
+          "vocabulary": [
+            {
+              "word": "اجتماع",
+              "romanization": "ijtimaa'",
+              "meanings": { "en": "meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "reunión" }
+            },
+            {
+              "word": "تقرير",
+              "romanization": "taqreer",
+              "meanings": { "en": "report", "zh": "报告", "th": "รายงาน", "ko": "보고서", "es": "informe" }
+            },
+            {
+              "word": "موعد نهائي",
+              "romanization": "maw'id nihaa'ee",
+              "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดเวลา", "ko": "마감 기한", "es": "fecha límite" }
+            },
+            {
+              "word": "ساعات العمل",
+              "romanization": "saa'aat al-'amal",
+              "meanings": { "en": "working hours", "zh": "工作时间", "th": "ชั่วโมงทำงาน", "ko": "근무 시간", "es": "horario laboral" }
+            },
+            {
+              "word": "مهمة",
+              "romanization": "mahamma",
+              "meanings": { "en": "task / mission", "zh": "任务/使命", "th": "งาน/ภารกิจ", "ko": "업무/임무", "es": "tarea / misión" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'meeting' in Arabic?" },
+              "answer": "اجتماع",
+              "choices": ["اجتماع", "تقرير", "مهمة", "موعد نهائي"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'موعد نهائي' mean?" },
+              "answer": "deadline",
+              "choices": ["deadline", "working hours", "meeting", "task"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "اجتماع", "native": "meeting" },
+                { "target": "تقرير", "native": "report" },
+                { "target": "موعد نهائي", "native": "deadline" },
+                { "target": "مهمة", "native": "task" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'The meeting is tomorrow.'" },
+              "words": ["الاجتماع", "غداً"],
+              "answer": "الاجتماع غداً"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Office Space",
+            "zh": "办公场所",
+            "th": "พื้นที่สำนักงาน",
+            "ko": "사무 공간",
+            "es": "Espacio de oficina"
+          },
+          "objectives": {
+            "en": ["Name office items in Arabic", "Describe the office environment"]
+          },
+          "vocabulary": [
+            {
+              "word": "مكتب",
+              "romanization": "maktab",
+              "meanings": { "en": "office / desk", "zh": "办公室/办公桌", "th": "สำนักงาน/โต๊ะทำงาน", "ko": "사무실/책상", "es": "oficina / escritorio" }
+            },
+            {
+              "word": "حاسوب",
+              "romanization": "haasub",
+              "meanings": { "en": "computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "computadora" }
+            },
+            {
+              "word": "طابعة",
+              "romanization": "taabi'a",
+              "meanings": { "en": "printer", "zh": "打印机", "th": "เครื่องพิมพ์", "ko": "프린터", "es": "impresora" }
+            },
+            {
+              "word": "كرسي",
+              "romanization": "kursee",
+              "meanings": { "en": "chair", "zh": "椅子", "th": "เก้าอี้", "ko": "의자", "es": "silla" }
+            },
+            {
+              "word": "ملف",
+              "romanization": "malaf",
+              "meanings": { "en": "file / folder", "zh": "文件/文件夹", "th": "แฟ้ม/โฟลเดอร์", "ko": "파일/폴더", "es": "archivo / carpeta" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'office' in Arabic?" },
+              "answer": "مكتب",
+              "choices": ["مكتب", "حاسوب", "طابعة", "كرسي"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'طابعة' (taabi'a) mean?" },
+              "answer": "printer",
+              "choices": ["printer", "computer", "chair", "file"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "مكتب", "native": "office/desk" },
+                { "target": "حاسوب", "native": "computer" },
+                { "target": "طابعة", "native": "printer" },
+                { "target": "كرسي", "native": "chair" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My office is on the second floor.'" },
+              "words": ["مكتبي", "في", "الطابق", "الثاني"],
+              "answer": "مكتبي في الطابق الثاني"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Professional Communication",
+        "zh": "职业沟通",
+        "th": "การสื่อสารในที่ทำงาน",
+        "ko": "전문적 의사소통",
+        "es": "Comunicación profesional"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Emails and Letters",
+            "zh": "电子邮件和信件",
+            "th": "อีเมลและจดหมาย",
+            "ko": "이메일과 편지",
+            "es": "Correos y cartas"
+          },
+          "objectives": {
+            "en": ["Write basic work emails in Arabic", "Use formal language"]
+          },
+          "vocabulary": [
+            {
+              "word": "بريد إلكتروني",
+              "romanization": "bareed iliktrooni",
+              "meanings": { "en": "email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "correo electrónico" }
+            },
+            {
+              "word": "موضوع",
+              "romanization": "mawdoo'",
+              "meanings": { "en": "subject / topic", "zh": "主题/话题", "th": "หัวข้อ/เรื่อง", "ko": "주제/제목", "es": "asunto" }
+            },
+            {
+              "word": "مرفق",
+              "romanization": "marfaq",
+              "meanings": { "en": "attachment", "zh": "附件", "th": "ไฟล์แนบ", "ko": "첨부 파일", "es": "adjunto" }
+            },
+            {
+              "word": "مع التحية",
+              "romanization": "ma' at-tahiyya",
+              "meanings": { "en": "with regards / sincerely", "zh": "此致/问候", "th": "ด้วยความนับถือ", "ko": "경구 (이메일 마무리)", "es": "atentamente / un saludo" }
+            },
+            {
+              "word": "عزيزي",
+              "romanization": "'azeezee",
+              "meanings": { "en": "dear (to male)", "zh": "亲爱的(男)", "th": "เรียน (ผู้ชาย)", "ko": "친애하는 (남성)", "es": "estimado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'email' in Arabic?" },
+              "answer": "بريد إلكتروني",
+              "choices": ["بريد إلكتروني", "موضوع", "مرفق", "عزيزي"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'مرفق' (marfaq) mean?" },
+              "answer": "attachment",
+              "choices": ["attachment", "subject", "email", "dear"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "بريد إلكتروني", "native": "email" },
+                { "target": "موضوع", "native": "subject" },
+                { "target": "مرفق", "native": "attachment" },
+                { "target": "عزيزي", "native": "dear" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please see the attached report.'" },
+              "words": ["يرجى", "الاطلاع", "على", "التقرير", "المرفق"],
+              "answer": "يرجى الاطلاع على التقرير المرفق"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Job Interviews",
+            "zh": "求职面试",
+            "th": "การสัมภาษณ์งาน",
+            "ko": "취업 면접",
+            "es": "Entrevistas de trabajo"
+          },
+          "objectives": {
+            "en": ["Prepare for a job interview in Arabic", "Answer basic questions"]
+          },
+          "vocabulary": [
+            {
+              "word": "مقابلة عمل",
+              "romanization": "muqaabalet 'amal",
+              "meanings": { "en": "job interview", "zh": "工作面试", "th": "การสัมภาษณ์งาน", "ko": "취업 면접", "es": "entrevista de trabajo" }
+            },
+            {
+              "word": "سيرة ذاتية",
+              "romanization": "seera dhaatiyya",
+              "meanings": { "en": "resume / CV", "zh": "简历", "th": "เรซูเม่/ประวัติย่อ", "ko": "이력서", "es": "currículum" }
+            },
+            {
+              "word": "خبرة",
+              "romanization": "khibra",
+              "meanings": { "en": "experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "experiencia" }
+            },
+            {
+              "word": "مهارة",
+              "romanization": "mahaara",
+              "meanings": { "en": "skill", "zh": "技能", "th": "ทักษะ", "ko": "기술/능력", "es": "habilidad" }
+            },
+            {
+              "word": "راتب",
+              "romanization": "raatib",
+              "meanings": { "en": "salary", "zh": "薪水", "th": "เงินเดือน", "ko": "급여", "es": "salario" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'experience' in Arabic?" },
+              "answer": "خبرة",
+              "choices": ["خبرة", "مهارة", "راتب", "مقابلة عمل"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'راتب' (raatib) mean?" },
+              "answer": "salary",
+              "choices": ["salary", "experience", "skill", "interview"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "مقابلة عمل", "native": "job interview" },
+                { "target": "خبرة", "native": "experience" },
+                { "target": "مهارة", "native": "skill" },
+                { "target": "راتب", "native": "salary" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I have five years of experience.'" },
+              "words": ["لدي", "خمس", "سنوات", "من", "الخبرة"],
+              "answer": "لدي خمس سنوات من الخبرة"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Business Meetings",
+            "zh": "商务会议",
+            "th": "การประชุมทางธุรกิจ",
+            "ko": "비즈니스 회의",
+            "es": "Reuniones de negocios"
+          },
+          "objectives": {
+            "en": ["Participate in business meetings in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "جدول أعمال",
+              "romanization": "jadwal a'maal",
+              "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "안건", "es": "orden del día" }
+            },
+            {
+              "word": "اقتراح",
+              "romanization": "iqtiraah",
+              "meanings": { "en": "proposal / suggestion", "zh": "提案/建议", "th": "ข้อเสนอ/ข้อแนะนำ", "ko": "제안", "es": "propuesta / sugerencia" }
+            },
+            {
+              "word": "عقد",
+              "romanization": "'aqd",
+              "meanings": { "en": "contract", "zh": "合同", "th": "สัญญา", "ko": "계약서", "es": "contrato" }
+            },
+            {
+              "word": "عميل",
+              "romanization": "'ameel",
+              "meanings": { "en": "client", "zh": "客户", "th": "ลูกค้า", "ko": "고객", "es": "cliente" }
+            },
+            {
+              "word": "أعمال تجارية",
+              "romanization": "a'maal tijarriyya",
+              "meanings": { "en": "business", "zh": "生意/商业", "th": "ธุรกิจ", "ko": "사업/비즈니스", "es": "negocio / comercio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'contract' in Arabic?" },
+              "answer": "عقد",
+              "choices": ["عقد", "اقتراح", "جدول أعمال", "عميل"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'عميل' ('ameel) mean?" },
+              "answer": "client",
+              "choices": ["client", "contract", "agenda", "proposal"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "جدول أعمال", "native": "agenda" },
+                { "target": "اقتراح", "native": "proposal" },
+                { "target": "عقد", "native": "contract" },
+                { "target": "عميل", "native": "client" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'The client signed the contract.'" },
+              "words": ["وقّع", "العميل", "على", "العقد"],
+              "answer": "وقّع العميل على العقد"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Career Development",
+        "zh": "职业发展",
+        "th": "การพัฒนาอาชีพ",
+        "ko": "경력 개발",
+        "es": "Desarrollo profesional"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Promotions and Goals",
+            "zh": "晋升和目标",
+            "th": "การเลื่อนตำแหน่งและเป้าหมาย",
+            "ko": "승진과 목표",
+            "es": "Ascensos y metas"
+          },
+          "objectives": {
+            "en": ["Talk about career advancement in Arabic", "Express professional ambitions"]
+          },
+          "vocabulary": [
+            {
+              "word": "ترقية",
+              "romanization": "tarqiya",
+              "meanings": { "en": "promotion", "zh": "晋升", "th": "การเลื่อนตำแหน่ง", "ko": "승진", "es": "ascenso" }
+            },
+            {
+              "word": "زيادة في الراتب",
+              "romanization": "ziyaada fi ar-raatib",
+              "meanings": { "en": "salary raise", "zh": "加薪", "th": "การขึ้นเงินเดือน", "ko": "급여 인상", "es": "aumento de sueldo" }
+            },
+            {
+              "word": "هدف",
+              "romanization": "hadaf",
+              "meanings": { "en": "goal / target", "zh": "目标", "th": "เป้าหมาย", "ko": "목표", "es": "meta / objetivo" }
+            },
+            {
+              "word": "نجاح",
+              "romanization": "najaah",
+              "meanings": { "en": "success", "zh": "成功", "th": "ความสำเร็จ", "ko": "성공", "es": "éxito" }
+            },
+            {
+              "word": "جهد",
+              "romanization": "juhd",
+              "meanings": { "en": "effort / hard work", "zh": "努力", "th": "ความพยายาม/การทำงานหนัก", "ko": "노력", "es": "esfuerzo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'success' in Arabic?" },
+              "answer": "نجاح",
+              "choices": ["نجاح", "ترقية", "هدف", "جهد"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'هدف' (hadaf) mean?" },
+              "answer": "goal",
+              "choices": ["goal", "success", "effort", "promotion"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ترقية", "native": "promotion" },
+                { "target": "هدف", "native": "goal" },
+                { "target": "نجاح", "native": "success" },
+                { "target": "جهد", "native": "effort" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Effort leads to success.'" },
+              "words": ["الجهد", "يؤدي", "إلى", "النجاح"],
+              "answer": "الجهد يؤدي إلى النجاح"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Working from Home",
+            "zh": "远程办公",
+            "th": "การทำงานจากที่บ้าน",
+            "ko": "재택근무",
+            "es": "Trabajar desde casa"
+          },
+          "objectives": {
+            "en": ["Discuss remote work in Arabic", "Talk about productivity"]
+          },
+          "vocabulary": [
+            {
+              "word": "العمل من المنزل",
+              "romanization": "al-'amal min al-manzil",
+              "meanings": { "en": "working from home", "zh": "居家办公", "th": "ทำงานจากบ้าน", "ko": "재택근무", "es": "trabajo desde casa" }
+            },
+            {
+              "word": "مؤتمر مرئي",
+              "romanization": "mu'tamar mar'ee",
+              "meanings": { "en": "video conference", "zh": "视频会议", "th": "การประชุมทางวิดีโอ", "ko": "화상 회의", "es": "videoconferencia" }
+            },
+            {
+              "word": "مرن",
+              "romanization": "marin",
+              "meanings": { "en": "flexible", "zh": "灵活的", "th": "ยืดหยุ่น", "ko": "유연한", "es": "flexible" }
+            },
+            {
+              "word": "توازن",
+              "romanization": "tawazun",
+              "meanings": { "en": "balance", "zh": "平衡", "th": "สมดุล", "ko": "균형", "es": "equilibrio" }
+            },
+            {
+              "word": "إنتاجية",
+              "romanization": "intaajiyya",
+              "meanings": { "en": "productivity", "zh": "生产力", "th": "ประสิทธิภาพ", "ko": "생산성", "es": "productividad" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'balance' in Arabic?" },
+              "answer": "توازن",
+              "choices": ["توازن", "مرن", "إنتاجية", "مؤتمر مرئي"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'مرن' (marin) mean?" },
+              "answer": "flexible",
+              "choices": ["flexible", "productive", "balanced", "remote"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "العمل من المنزل", "native": "working from home" },
+                { "target": "مؤتمر مرئي", "native": "video conference" },
+                { "target": "مرن", "native": "flexible" },
+                { "target": "إنتاجية", "native": "productivity" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I work from home on Thursdays.'" },
+              "words": ["أعمل", "من", "المنزل", "يوم", "الخميس"],
+              "answer": "أعمل من المنزل يوم الخميس"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Networking",
+            "zh": "人际网络",
+            "th": "การสร้างเครือข่าย",
+            "ko": "네트워킹",
+            "es": "Redes profesionales"
+          },
+          "objectives": {
+            "en": ["Network at professional events in Arabic", "Exchange contacts professionally"]
+          },
+          "vocabulary": [
+            {
+              "word": "بطاقة عمل",
+              "romanization": "bitaaqat 'amal",
+              "meanings": { "en": "business card", "zh": "名片", "th": "นามบัตร", "ko": "명함", "es": "tarjeta de visita" }
+            },
+            {
+              "word": "شراكة",
+              "romanization": "shiraaka",
+              "meanings": { "en": "partnership", "zh": "合作关系", "th": "การเป็นหุ้นส่วน", "ko": "파트너십", "es": "asociación" }
+            },
+            {
+              "word": "فرصة",
+              "romanization": "fursa",
+              "meanings": { "en": "opportunity", "zh": "机会", "th": "โอกาส", "ko": "기회", "es": "oportunidad" }
+            },
+            {
+              "word": "اتصال",
+              "romanization": "ittisaal",
+              "meanings": { "en": "contact / connection", "zh": "联系/联接", "th": "การติดต่อ", "ko": "연락/연결", "es": "contacto / conexión" }
+            },
+            {
+              "word": "قطاع",
+              "romanization": "qitaa'",
+              "meanings": { "en": "sector / industry", "zh": "行业/部门", "th": "ภาคส่วน/อุตสาหกรรม", "ko": "섹터/산업", "es": "sector / industria" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'opportunity' in Arabic?" },
+              "answer": "فرصة",
+              "choices": ["فرصة", "شراكة", "اتصال", "قطاع"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'شراكة' (shiraaka) mean?" },
+              "answer": "partnership",
+              "choices": ["partnership", "opportunity", "contact", "sector"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "بطاقة عمل", "native": "business card" },
+                { "target": "شراكة", "native": "partnership" },
+                { "target": "فرصة", "native": "opportunity" },
+                { "target": "اتصال", "native": "contact" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Here is my business card.'" },
+              "words": ["تفضل", "بطاقة", "عملي"],
+              "answer": "تفضل بطاقة عملي"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

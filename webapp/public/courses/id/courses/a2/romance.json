@@ -1,0 +1,376 @@
+{
+  "lang": "id",
+  "language": "id",
+  "level": "A2",
+  "track": "romance",
+  "track_label": {
+    "en": "Romance & Dating",
+    "zh": "恋爱与约会",
+    "th": "ความรักและการออกเดท",
+    "ko": "로맨스와 데이트",
+    "es": "Romance y citas"
+  },
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Expressing Attraction",
+        "zh": "表达喜欢",
+        "th": "การแสดงความรู้สึกชอบ",
+        "ko": "호감 표현하기",
+        "es": "Expresar atracción"
+      },
+      "description": {
+        "en": "Learn how to compliment and express romantic feelings in Indonesian",
+        "zh": "学习如何用印度尼西亚语赞美和表达浪漫情感",
+        "th": "เรียนรู้วิธีชมเชยและแสดงความรู้สึกโรแมนติกในภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 칭찬하고 낭만적 감정을 표현하는 법",
+        "es": "Aprender a hacer cumplidos y expresar sentimientos románticos en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Compliments",
+            "zh": "赞美",
+            "th": "คำชมเชย",
+            "ko": "칭찬하기",
+            "es": "Cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments", "Describe someone's appearance"]
+          },
+          "vocabulary": [
+            { "word": "Cantik", "romanization": null, "meanings": { "en": "Beautiful (feminine)", "zh": "漂亮（女性）", "th": "สวย (ผู้หญิง)", "ko": "아름답다 (여성)", "es": "Hermosa (femenino)" } },
+            { "word": "Tampan", "romanization": null, "meanings": { "en": "Handsome (masculine)", "zh": "帅（男性）", "th": "หล่อ (ผู้ชาย)", "ko": "잘생기다 (남성)", "es": "Guapo (masculino)" } },
+            { "word": "Lucu", "romanization": null, "meanings": { "en": "Cute / funny", "zh": "可爱/有趣", "th": "น่ารัก / ตลก", "ko": "귀엽다 / 재미있다", "es": "Lindo / gracioso" } },
+            { "word": "Saya suka kamu", "romanization": null, "meanings": { "en": "I like you", "zh": "我喜欢你", "th": "ฉันชอบคุณ", "ko": "당신이 좋아요", "es": "Me gustas" } },
+            { "word": "Senyum", "romanization": null, "meanings": { "en": "Smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "Sonrisa" } },
+            { "word": "Menarik", "romanization": null, "meanings": { "en": "Attractive / interesting", "zh": "有吸引力/有趣", "th": "ดึงดูดใจ / น่าสนใจ", "ko": "매력적이다", "es": "Atractivo / interesante" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Cantik", "romanization": null, "options": { "en": ["Beautiful (feminine)", "Handsome", "Cute", "Smart"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Lucu", "romanization": null, "options": { "en": ["Cute / funny", "Beautiful", "Handsome", "Tall"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Handsome' in Indonesian?" }, "options": { "neutral": ["Tampan", "Cantik", "Lucu", "Menarik"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I like you' in Indonesian?" }, "options": { "neutral": ["Saya suka kamu", "Senyum", "Menarik", "Lucu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Senyum", "romanization": null, "options": { "en": ["Smile", "Laugh", "Wink", "Look"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Cantik", "romanization": null, "native": { "en": "Beautiful (feminine)" } },
+              { "target": "Tampan", "romanization": null, "native": { "en": "Handsome (masculine)" } },
+              { "target": "Lucu", "romanization": null, "native": { "en": "Cute / funny" } },
+              { "target": "Senyum", "romanization": null, "native": { "en": "Smile" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀请约会",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date", "Suggest activities"]
+          },
+          "vocabulary": [
+            { "word": "Boleh kenalan?", "romanization": null, "meanings": { "en": "May I get to know you?", "zh": "我可以认识你吗？", "th": "ขอทำความรู้จักได้ไหม?", "ko": "알고 지낼 수 있을까요?", "es": "¿Puedo conocerte?" } },
+            { "word": "Pergi bersama", "romanization": null, "meanings": { "en": "Go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "Salir juntos" } },
+            { "word": "Makan malam", "romanization": null, "meanings": { "en": "Dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "Cena" } },
+            { "word": "Bioskop", "romanization": null, "meanings": { "en": "Cinema", "zh": "电影院", "th": "โรงภาพยนตร์", "ko": "영화관", "es": "Cine" } },
+            { "word": "Mau", "romanization": null, "meanings": { "en": "Want / would like", "zh": "想要", "th": "ต้องการ / อยากได้", "ko": "원하다", "es": "Querer" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Makan malam", "romanization": null, "options": { "en": ["Dinner", "Lunch", "Breakfast", "Snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Bioskop", "romanization": null, "options": { "en": ["Cinema", "Theatre", "Concert", "Restaurant"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Go out together' in Indonesian?" }, "options": { "neutral": ["Pergi bersama", "Makan malam", "Bioskop", "Mau"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Want / would like' in Indonesian?" }, "options": { "neutral": ["Mau", "Pergi bersama", "Makan malam", "Bioskop"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pergi bersama", "romanization": null, "options": { "en": ["Go out together", "Stay home", "Eat dinner", "Watch a movie"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Pergi bersama", "romanization": null, "native": { "en": "Go out together" } },
+              { "target": "Makan malam", "romanization": null, "native": { "en": "Dinner" } },
+              { "target": "Bioskop", "romanization": null, "native": { "en": "Cinema" } },
+              { "target": "Mau", "romanization": null, "native": { "en": "Want / would like" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Feelings in Love",
+            "zh": "爱情中的感受",
+            "th": "ความรู้สึกในความรัก",
+            "ko": "사랑에서의 감정",
+            "es": "Sentimientos en el amor"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings", "Describe emotional states"]
+          },
+          "vocabulary": [
+            { "word": "Sayang", "romanization": null, "meanings": { "en": "Love / dear / darling", "zh": "爱/亲爱的", "th": "รัก / ที่รัก", "ko": "사랑 / 자기야", "es": "Amor / querido/a" } },
+            { "word": "Kangen", "romanization": null, "meanings": { "en": "Miss (someone)", "zh": "想念", "th": "คิดถึง", "ko": "그립다", "es": "Extrañar (a alguien)" } },
+            { "word": "Jatuh cinta", "romanization": null, "meanings": { "en": "Fall in love", "zh": "坠入爱河", "th": "ตกหลุมรัก", "ko": "사랑에 빠지다", "es": "Enamorarse" } },
+            { "word": "Hati", "romanization": null, "meanings": { "en": "Heart", "zh": "心", "th": "หัวใจ", "ko": "마음 / 심장", "es": "Corazón" } },
+            { "word": "Bahagia", "romanization": null, "meanings": { "en": "Happy / blissful", "zh": "幸福", "th": "มีความสุข / เป็นสุข", "ko": "행복하다", "es": "Feliz / dichoso" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sayang", "romanization": null, "options": { "en": ["Love / dear / darling", "Friend", "Happy", "Beautiful"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kangen", "romanization": null, "options": { "en": ["Miss (someone)", "Love", "Hate", "Forget"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fall in love' in Indonesian?" }, "options": { "neutral": ["Jatuh cinta", "Sayang", "Kangen", "Bahagia"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Heart' in Indonesian?" }, "options": { "neutral": ["Hati", "Sayang", "Jatuh cinta", "Bahagia"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bahagia", "romanization": null, "options": { "en": ["Happy / blissful", "Sad", "Angry", "Nervous"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Sayang", "romanization": null, "native": { "en": "Love / dear" } },
+              { "target": "Kangen", "romanization": null, "native": { "en": "Miss (someone)" } },
+              { "target": "Jatuh cinta", "romanization": null, "native": { "en": "Fall in love" } },
+              { "target": "Bahagia", "romanization": null, "native": { "en": "Happy / blissful" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "关系",
+        "th": "ความสัมพันธ์",
+        "ko": "관계",
+        "es": "Relaciones"
+      },
+      "description": {
+        "en": "Vocabulary for discussing relationships and family in Indonesian",
+        "zh": "用印度尼西亚语讨论关系和家庭的词汇",
+        "th": "คำศัพท์สำหรับการพูดถึงความสัมพันธ์และครอบครัวในภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 관계와 가족에 대해 이야기하는 어휘",
+        "es": "Vocabulario para hablar de relaciones y familia en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "感情状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe your relationship status", "Talk about partners"]
+          },
+          "vocabulary": [
+            { "word": "Lajang", "romanization": null, "meanings": { "en": "Single", "zh": "单身", "th": "โสด", "ko": "싱글 / 미혼", "es": "Soltero" } },
+            { "word": "Pacaran", "romanization": null, "meanings": { "en": "Dating / in a relationship", "zh": "谈恋爱", "th": "คบหาดูใจ / คบกันอยู่", "ko": "연애 중", "es": "Salir / en una relación" } },
+            { "word": "Tunangan", "romanization": null, "meanings": { "en": "Engaged / fiancé/fiancée", "zh": "订婚/未婚夫妻", "th": "หมั้นหมาย / คู่หมั้น", "ko": "약혼 / 약혼자", "es": "Comprometido / prometido" } },
+            { "word": "Suami", "romanization": null, "meanings": { "en": "Husband", "zh": "丈夫", "th": "สามี", "ko": "남편", "es": "Esposo" } },
+            { "word": "Istri", "romanization": null, "meanings": { "en": "Wife", "zh": "妻子", "th": "ภรรยา", "ko": "아내", "es": "Esposa" } },
+            { "word": "Pasangan", "romanization": null, "meanings": { "en": "Partner / spouse", "zh": "伴侣/配偶", "th": "คู่รัก / คู่สมรส", "ko": "파트너 / 배우자", "es": "Pareja / cónyuge" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Lajang", "romanization": null, "options": { "en": ["Single", "Married", "Engaged", "Divorced"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tunangan", "romanization": null, "options": { "en": ["Engaged", "Married", "Single", "Divorced"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Husband' in Indonesian?" }, "options": { "neutral": ["Suami", "Istri", "Pasangan", "Tunangan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wife' in Indonesian?" }, "options": { "neutral": ["Istri", "Suami", "Pasangan", "Lajang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pacaran", "romanization": null, "options": { "en": ["Dating / in a relationship", "Single", "Engaged", "Married"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Lajang", "romanization": null, "native": { "en": "Single" } },
+              { "target": "Suami", "romanization": null, "native": { "en": "Husband" } },
+              { "target": "Istri", "romanization": null, "native": { "en": "Wife" } },
+              { "target": "Pasangan", "romanization": null, "native": { "en": "Partner / spouse" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Describing Your Partner",
+            "zh": "描述你的伴侣",
+            "th": "การอธิบายคู่ของคุณ",
+            "ko": "파트너 묘사하기",
+            "es": "Describir a tu pareja"
+          },
+          "objectives": {
+            "en": ["Use personality adjectives", "Describe someone's character"]
+          },
+          "vocabulary": [
+            { "word": "Baik hati", "romanization": null, "meanings": { "en": "Kind-hearted", "zh": "善良", "th": "ใจดี", "ko": "친절하다 / 마음이 착하다", "es": "Bondadoso" } },
+            { "word": "Lucu", "romanization": null, "meanings": { "en": "Funny / amusing", "zh": "有趣/好笑", "th": "ตลก / น่ารัก", "ko": "재미있다 / 귀엽다", "es": "Gracioso / divertido" } },
+            { "word": "Pintar", "romanization": null, "meanings": { "en": "Smart / clever", "zh": "聪明", "th": "ฉลาด", "ko": "똑똑하다", "es": "Inteligente" } },
+            { "word": "Perhatian", "romanization": null, "meanings": { "en": "Caring / attentive", "zh": "关心/体贴", "th": "ห่วงใย / ใส่ใจ", "ko": "다정하다 / 세심하다", "es": "Cariñoso / atento" } },
+            { "word": "Setia", "romanization": null, "meanings": { "en": "Loyal / faithful", "zh": "忠诚", "th": "ซื่อสัตย์ / จงรักภักดี", "ko": "충실하다", "es": "Leal / fiel" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Baik hati", "romanization": null, "options": { "en": ["Kind-hearted", "Smart", "Funny", "Shy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Setia", "romanization": null, "options": { "en": ["Loyal / faithful", "Kind", "Funny", "Caring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Smart / clever' in Indonesian?" }, "options": { "neutral": ["Pintar", "Lucu", "Perhatian", "Setia"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Caring / attentive' in Indonesian?" }, "options": { "neutral": ["Perhatian", "Pintar", "Lucu", "Baik hati"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Lucu", "romanization": null, "options": { "en": ["Funny / amusing", "Shy", "Sad", "Angry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Baik hati", "romanization": null, "native": { "en": "Kind-hearted" } },
+              { "target": "Lucu", "romanization": null, "native": { "en": "Funny / amusing" } },
+              { "target": "Pintar", "romanization": null, "native": { "en": "Smart / clever" } },
+              { "target": "Setia", "romanization": null, "native": { "en": "Loyal / faithful" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Marriage & Family",
+            "zh": "婚姻与家庭",
+            "th": "การแต่งงานและครอบครัว",
+            "ko": "결혼과 가족",
+            "es": "Matrimonio y familia"
+          },
+          "objectives": {
+            "en": ["Talk about marriage and family life", "Use family-related vocabulary"]
+          },
+          "vocabulary": [
+            { "word": "Menikah", "romanization": null, "meanings": { "en": "Marry / get married", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "Casarse" } },
+            { "word": "Pernikahan", "romanization": null, "meanings": { "en": "Marriage / wedding", "zh": "婚姻/婚礼", "th": "การแต่งงาน / งานแต่ง", "ko": "결혼 / 결혼식", "es": "Matrimonio / boda" } },
+            { "word": "Anak", "romanization": null, "meanings": { "en": "Child", "zh": "孩子", "th": "ลูก", "ko": "아이", "es": "Hijo / niño" } },
+            { "word": "Keluarga", "romanization": null, "meanings": { "en": "Family", "zh": "家庭", "th": "ครอบครัว", "ko": "가족", "es": "Familia" } },
+            { "word": "Orang tua", "romanization": null, "meanings": { "en": "Parents", "zh": "父母", "th": "พ่อแม่", "ko": "부모님", "es": "Padres" } },
+            { "word": "Rumah tangga", "romanization": null, "meanings": { "en": "Household / domestic life", "zh": "家庭/家务", "th": "ครัวเรือน / ชีวิตในบ้าน", "ko": "가정 / 가사", "es": "Hogar / vida doméstica" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Menikah", "romanization": null, "options": { "en": ["Marry / get married", "Engage", "Date", "Divorce"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Keluarga", "romanization": null, "options": { "en": ["Family", "Friend", "Neighbour", "Partner"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Child' in Indonesian?" }, "options": { "neutral": ["Anak", "Menikah", "Keluarga", "Orang tua"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Parents' in Indonesian?" }, "options": { "neutral": ["Orang tua", "Anak", "Keluarga", "Pernikahan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pernikahan", "romanization": null, "options": { "en": ["Marriage / wedding", "Engagement", "Birthday", "Celebration"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Menikah", "romanization": null, "native": { "en": "Marry / get married" } },
+              { "target": "Anak", "romanization": null, "native": { "en": "Child" } },
+              { "target": "Keluarga", "romanization": null, "native": { "en": "Family" } },
+              { "target": "Orang tua", "romanization": null, "native": { "en": "Parents" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Communication in Relationships",
+        "zh": "关系中的沟通",
+        "th": "การสื่อสารในความสัมพันธ์",
+        "ko": "관계에서의 소통",
+        "es": "Comunicación en las relaciones"
+      },
+      "description": {
+        "en": "Communicate openly and navigate relationship challenges in Indonesian",
+        "zh": "用印度尼西亚语进行开放交流和应对关系挑战",
+        "th": "สื่อสารอย่างเปิดเผยและรับมือกับความท้าทายในความสัมพันธ์ในภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 열린 소통과 관계 문제 해결하기",
+        "es": "Comunicarse abiertamente y navegar desafíos en relaciones en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Saying Sorry & Forgiving",
+            "zh": "道歉与原谅",
+            "th": "การขอโทษและการให้อภัย",
+            "ko": "사과하고 용서하기",
+            "es": "Disculparse y perdonar"
+          },
+          "objectives": {
+            "en": ["Apologise sincerely", "Accept apologies and forgive"]
+          },
+          "vocabulary": [
+            { "word": "Maaf", "romanization": null, "meanings": { "en": "Sorry / forgive me", "zh": "对不起/原谅我", "th": "ขอโทษ / ให้อภัยฉัน", "ko": "미안해요 / 용서해 주세요", "es": "Lo siento / perdóname" } },
+            { "word": "Maafkan aku", "romanization": null, "meanings": { "en": "Please forgive me", "zh": "请原谅我", "th": "กรุณาให้อภัยฉัน", "ko": "저를 용서해 주세요", "es": "Por favor, perdóname" } },
+            { "word": "Tidak apa-apa", "romanization": null, "meanings": { "en": "It's okay / never mind", "zh": "没关系", "th": "ไม่เป็นไร", "ko": "괜찮아요", "es": "No importa / está bien" } },
+            { "word": "Sudah dimaafkan", "romanization": null, "meanings": { "en": "Already forgiven", "zh": "已经原谅了", "th": "ให้อภัยแล้ว", "ko": "이미 용서했어요", "es": "Ya perdonado" } },
+            { "word": "Kesalahpahaman", "romanization": null, "meanings": { "en": "Misunderstanding", "zh": "误解", "th": "ความเข้าใจผิด", "ko": "오해", "es": "Malentendido" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Maaf", "romanization": null, "options": { "en": ["Sorry / forgive me", "Thank you", "Goodbye", "Welcome"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kesalahpahaman", "romanization": null, "options": { "en": ["Misunderstanding", "Problem", "Argument", "Mistake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please forgive me' in Indonesian?" }, "options": { "neutral": ["Maafkan aku", "Maaf", "Tidak apa-apa", "Kesalahpahaman"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'It's okay / never mind' in Indonesian?" }, "options": { "neutral": ["Tidak apa-apa", "Maaf", "Maafkan aku", "Sudah dimaafkan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sudah dimaafkan", "romanization": null, "options": { "en": ["Already forgiven", "I'm sorry", "Never mind", "Please forgive me"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Maaf", "romanization": null, "native": { "en": "Sorry / forgive me" } },
+              { "target": "Maafkan aku", "romanization": null, "native": { "en": "Please forgive me" } },
+              { "target": "Tidak apa-apa", "romanization": null, "native": { "en": "It's okay" } },
+              { "target": "Kesalahpahaman", "romanization": null, "native": { "en": "Misunderstanding" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Expressing Love",
+            "zh": "表达爱意",
+            "th": "การแสดงความรัก",
+            "ko": "사랑 표현하기",
+            "es": "Expresar amor"
+          },
+          "objectives": {
+            "en": ["Express deep feelings", "Use romantic phrases in Indonesian"]
+          },
+          "vocabulary": [
+            { "word": "Aku cinta kamu", "romanization": null, "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "당신을 사랑해요", "es": "Te amo" } },
+            { "word": "Selamanya", "romanization": null, "meanings": { "en": "Forever", "zh": "永远", "th": "ตลอดไป", "ko": "영원히", "es": "Para siempre" } },
+            { "word": "Bersama-sama", "romanization": null, "meanings": { "en": "Together", "zh": "在一起", "th": "ด้วยกัน", "ko": "함께", "es": "Juntos" } },
+            { "word": "Kenangan", "romanization": null, "meanings": { "en": "Memory / memories", "zh": "记忆/回忆", "th": "ความทรงจำ", "ko": "추억 / 기억", "es": "Recuerdo / recuerdos" } },
+            { "word": "Impian", "romanization": null, "meanings": { "en": "Dream / aspiration", "zh": "梦想", "th": "ความฝัน", "ko": "꿈 / 열망", "es": "Sueño / aspiración" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Aku cinta kamu", "romanization": null, "options": { "en": ["I love you", "I miss you", "I like you", "I want you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Selamanya", "romanization": null, "options": { "en": ["Forever", "Sometimes", "Always", "Never"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Memory / memories' in Indonesian?" }, "options": { "neutral": ["Kenangan", "Impian", "Bersama-sama", "Selamanya"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dream / aspiration' in Indonesian?" }, "options": { "neutral": ["Impian", "Kenangan", "Selamanya", "Bersama-sama"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bersama-sama", "romanization": null, "options": { "en": ["Together", "Apart", "Alone", "Far away"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Aku cinta kamu", "romanization": null, "native": { "en": "I love you" } },
+              { "target": "Selamanya", "romanization": null, "native": { "en": "Forever" } },
+              { "target": "Kenangan", "romanization": null, "native": { "en": "Memory / memories" } },
+              { "target": "Impian", "romanization": null, "native": { "en": "Dream / aspiration" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Breaking Up & Moving On",
+            "zh": "分手与继续前行",
+            "th": "การเลิกกันและก้าวต่อไป",
+            "ko": "헤어지기와 앞으로 나아가기",
+            "es": "Romper y seguir adelante"
+          },
+          "objectives": {
+            "en": ["Handle difficult relationship conversations", "Express closure and moving on"]
+          },
+          "vocabulary": [
+            { "word": "Putus", "romanization": null, "meanings": { "en": "Break up", "zh": "分手", "th": "เลิกกัน", "ko": "이별 / 헤어지다", "es": "Ruptura / cortar" } },
+            { "word": "Kecewa", "romanization": null, "meanings": { "en": "Disappointed / let down", "zh": "失望", "th": "ผิดหวัง", "ko": "실망하다", "es": "Decepcionado" } },
+            { "word": "Melanjutkan", "romanization": null, "meanings": { "en": "Continue / move on", "zh": "继续/往前走", "th": "ดำเนินต่อไป / ก้าวไปข้างหน้า", "ko": "계속하다 / 앞으로 나아가다", "es": "Continuar / seguir adelante" } },
+            { "word": "Sembuh", "romanization": null, "meanings": { "en": "Heal / recover", "zh": "痊愈/恢复", "th": "หาย / ฟื้นตัว", "ko": "치유되다 / 회복하다", "es": "Sanar / recuperarse" } },
+            { "word": "Masa depan", "romanization": null, "meanings": { "en": "Future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "Futuro" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Putus", "romanization": null, "options": { "en": ["Break up", "Fall in love", "Get married", "Meet"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kecewa", "romanization": null, "options": { "en": ["Disappointed", "Happy", "Excited", "Calm"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Future' in Indonesian?" }, "options": { "neutral": ["Masa depan", "Melanjutkan", "Sembuh", "Kecewa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Heal / recover' in Indonesian?" }, "options": { "neutral": ["Sembuh", "Melanjutkan", "Masa depan", "Putus"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Melanjutkan", "romanization": null, "options": { "en": ["Continue / move on", "Stop", "Go back", "Wait"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Putus", "romanization": null, "native": { "en": "Break up" } },
+              { "target": "Kecewa", "romanization": null, "native": { "en": "Disappointed" } },
+              { "target": "Sembuh", "romanization": null, "native": { "en": "Heal / recover" } },
+              { "target": "Masa depan", "romanization": null, "native": { "en": "Future" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

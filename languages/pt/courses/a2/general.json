@@ -1,0 +1,2020 @@
+{
+  "lang": "pt",
+  "language": "pt",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life & Household" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Household Chores" },
+          "objectives": {
+            "en": [
+              "Describe common household tasks",
+              "Talk about who does what at home",
+              "Use frequency adverbs with chores"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "limpar",
+              "romanization": null,
+              "meanings": { "en": "to clean" },
+              "gendered": null
+            },
+            {
+              "word": "cozinhar",
+              "romanization": null,
+              "meanings": { "en": "to cook" },
+              "gendered": null
+            },
+            {
+              "word": "lavar a roupa",
+              "romanization": null,
+              "meanings": { "en": "to do laundry" },
+              "gendered": null
+            },
+            {
+              "word": "passar roupa",
+              "romanization": null,
+              "meanings": { "en": "to iron clothes" },
+              "gendered": null
+            },
+            {
+              "word": "varrer",
+              "romanization": null,
+              "meanings": { "en": "to sweep" },
+              "gendered": null
+            },
+            {
+              "word": "lavar a louça",
+              "romanization": null,
+              "meanings": { "en": "to wash the dishes" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "lavar a roupa",
+              "romanization": null,
+              "options": { "en": ["to do laundry", "to iron clothes", "to wash the dishes", "to clean"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "varrer",
+              "romanization": null,
+              "options": { "en": ["to sweep", "to clean", "to cook", "to iron"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to cook' in Portuguese?" },
+              "options": { "neutral": ["cozinhar", "limpar", "varrer", "lavar"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to wash the dishes' in Portuguese?" },
+              "options": { "neutral": ["lavar a louça", "lavar a roupa", "passar roupa", "limpar"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "cozinhar",
+              "romanization": null,
+              "options": { "en": ["to cook", "to clean", "to sweep", "to iron"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "limpar", "romanization": null, "native": { "en": "to clean" } },
+                { "target": "cozinhar", "romanization": null, "native": { "en": "to cook" } },
+                { "target": "varrer", "romanization": null, "native": { "en": "to sweep" } },
+                { "target": "lavar a louça", "romanization": null, "native": { "en": "to wash dishes" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I always cook at night'" },
+              "words": ["noite", "cozinho", "sempre", "à", "eu"],
+              "correct_order": { "neutral": ["eu", "sempre", "cozinho", "à", "noite"] },
+              "tiles": { "neutral": ["eu", "sempre", "cozinho", "à", "noite"] }
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "At Home" },
+          "objectives": {
+            "en": [
+              "Name rooms and areas of a house",
+              "Describe what is in each room",
+              "Use 'ter' (to have) with home items"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "a cozinha",
+              "romanization": null,
+              "meanings": { "en": "the kitchen" },
+              "gendered": null
+            },
+            {
+              "word": "o quarto",
+              "romanization": null,
+              "meanings": { "en": "the bedroom" },
+              "gendered": null
+            },
+            {
+              "word": "o banheiro",
+              "romanization": null,
+              "meanings": { "en": "the bathroom" },
+              "gendered": null
+            },
+            {
+              "word": "a sala",
+              "romanization": null,
+              "meanings": { "en": "the living room" },
+              "gendered": null
+            },
+            {
+              "word": "o jardim",
+              "romanization": null,
+              "meanings": { "en": "the garden" },
+              "gendered": null
+            },
+            {
+              "word": "a varanda",
+              "romanization": null,
+              "meanings": { "en": "the balcony / porch" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "o banheiro",
+              "romanization": null,
+              "options": { "en": ["the bathroom", "the bedroom", "the kitchen", "the garden"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "a varanda",
+              "romanization": null,
+              "options": { "en": ["the balcony", "the living room", "the kitchen", "the garden"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the kitchen' in Portuguese?" },
+              "options": { "neutral": ["a cozinha", "a sala", "o quarto", "o banheiro"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the bedroom' in Portuguese?" },
+              "options": { "neutral": ["o quarto", "a sala", "o banheiro", "a cozinha"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "a sala",
+              "romanization": null,
+              "options": { "en": ["the living room", "the bedroom", "the bathroom", "the kitchen"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "a cozinha", "romanization": null, "native": { "en": "the kitchen" } },
+                { "target": "o quarto", "romanization": null, "native": { "en": "the bedroom" } },
+                { "target": "o banheiro", "romanization": null, "native": { "en": "the bathroom" } },
+                { "target": "o jardim", "romanization": null, "native": { "en": "the garden" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": {
+            "en": [
+              "Talk about hobbies and interests",
+              "Use 'gostar de' with activities",
+              "Discuss what you do in your free time"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "ler",
+              "romanization": null,
+              "meanings": { "en": "to read" },
+              "gendered": null
+            },
+            {
+              "word": "assistir",
+              "romanization": null,
+              "meanings": { "en": "to watch" },
+              "gendered": null
+            },
+            {
+              "word": "jogar",
+              "romanization": null,
+              "meanings": { "en": "to play (a game/sport)" },
+              "gendered": null
+            },
+            {
+              "word": "ouvir música",
+              "romanization": null,
+              "meanings": { "en": "to listen to music" },
+              "gendered": null
+            },
+            {
+              "word": "passear",
+              "romanization": null,
+              "meanings": { "en": "to go for a walk / stroll" },
+              "gendered": null
+            },
+            {
+              "word": "o tempo livre",
+              "romanization": null,
+              "meanings": { "en": "free time" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "ouvir música",
+              "romanization": null,
+              "options": { "en": ["to listen to music", "to play a game", "to watch", "to read"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "passear",
+              "romanization": null,
+              "options": { "en": ["to go for a walk", "to play", "to read", "to watch"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to read' in Portuguese?" },
+              "options": { "neutral": ["ler", "assistir", "jogar", "passear"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to watch' in Portuguese?" },
+              "options": { "neutral": ["assistir", "ler", "ouvir", "jogar"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "jogar",
+              "romanization": null,
+              "options": { "en": ["to play", "to read", "to walk", "to watch"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ler", "romanization": null, "native": { "en": "to read" } },
+                { "target": "assistir", "romanization": null, "native": { "en": "to watch" } },
+                { "target": "jogar", "romanization": null, "native": { "en": "to play" } },
+                { "target": "passear", "romanization": null, "native": { "en": "to go for a walk" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I like to listen to music'" },
+              "words": ["música", "ouvir", "gosto", "eu", "de"],
+              "correct_order": { "neutral": ["eu", "gosto", "de", "ouvir", "música"] },
+              "tiles": { "neutral": ["eu", "gosto", "de", "ouvir", "música"] }
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Weekend Plans" },
+          "objectives": {
+            "en": [
+              "Talk about weekend activities",
+              "Use 'vou' (going to) for near future",
+              "Make and respond to invitations"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "o fim de semana",
+              "romanization": null,
+              "meanings": { "en": "the weekend" },
+              "gendered": null
+            },
+            {
+              "word": "eu vou",
+              "romanization": null,
+              "meanings": { "en": "I'm going to" },
+              "gendered": null
+            },
+            {
+              "word": "vamos?",
+              "romanization": null,
+              "meanings": { "en": "shall we go? / let's go?" },
+              "gendered": null
+            },
+            {
+              "word": "a praia",
+              "romanization": null,
+              "meanings": { "en": "the beach" },
+              "gendered": null
+            },
+            {
+              "word": "o cinema",
+              "romanization": null,
+              "meanings": { "en": "the cinema / movies" },
+              "gendered": null
+            },
+            {
+              "word": "o parque",
+              "romanization": null,
+              "meanings": { "en": "the park" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "o fim de semana",
+              "romanization": null,
+              "options": { "en": ["the weekend", "the holiday", "free time", "the afternoon"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "vamos?",
+              "romanization": null,
+              "options": { "en": ["shall we go?", "where is it?", "how much?", "what time?"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the beach' in Portuguese?" },
+              "options": { "neutral": ["a praia", "o parque", "o cinema", "a sala"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I'm going to' in Portuguese?" },
+              "options": { "neutral": ["eu vou", "eu quero", "eu gosto", "eu sou"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "o cinema",
+              "romanization": null,
+              "options": { "en": ["the cinema", "the park", "the beach", "the weekend"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "a praia", "romanization": null, "native": { "en": "the beach" } },
+                { "target": "o cinema", "romanization": null, "native": { "en": "the cinema" } },
+                { "target": "o parque", "romanization": null, "native": { "en": "the park" } },
+                { "target": "eu vou", "romanization": null, "native": { "en": "I'm going to" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I'm going to the beach'" },
+              "words": ["praia", "vou", "à", "eu"],
+              "correct_order": { "neutral": ["eu", "vou", "à", "praia"] },
+              "tiles": { "neutral": ["eu", "vou", "à", "praia"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": {
+            "en": [
+              "Describe current weather conditions",
+              "Ask about the weather",
+              "Use 'está' with weather expressions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "está calor",
+              "romanization": null,
+              "meanings": { "en": "it's hot" },
+              "gendered": null
+            },
+            {
+              "word": "está frio",
+              "romanization": null,
+              "meanings": { "en": "it's cold" },
+              "gendered": null
+            },
+            {
+              "word": "está chovendo",
+              "romanization": null,
+              "meanings": { "en": "it's raining" },
+              "gendered": null
+            },
+            {
+              "word": "está sol",
+              "romanization": null,
+              "meanings": { "en": "it's sunny" },
+              "gendered": null
+            },
+            {
+              "word": "está nublado",
+              "romanization": null,
+              "meanings": { "en": "it's cloudy" },
+              "gendered": null
+            },
+            {
+              "word": "está ventando",
+              "romanization": null,
+              "meanings": { "en": "it's windy" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "está chovendo",
+              "romanization": null,
+              "options": { "en": ["it's raining", "it's sunny", "it's cold", "it's windy"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "está nublado",
+              "romanization": null,
+              "options": { "en": ["it's cloudy", "it's cold", "it's hot", "it's raining"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'it's hot' in Portuguese?" },
+              "options": { "neutral": ["está calor", "está frio", "está sol", "está ventando"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'it's windy' in Portuguese?" },
+              "options": { "neutral": ["está ventando", "está chovendo", "está nublado", "está frio"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "está sol",
+              "romanization": null,
+              "options": { "en": ["it's sunny", "it's hot", "it's cloudy", "it's windy"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "está calor", "romanization": null, "native": { "en": "it's hot" } },
+                { "target": "está frio", "romanization": null, "native": { "en": "it's cold" } },
+                { "target": "está chovendo", "romanization": null, "native": { "en": "it's raining" } },
+                { "target": "está sol", "romanization": null, "native": { "en": "it's sunny" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'It's raining today'" },
+              "words": ["hoje", "chovendo", "está"],
+              "correct_order": { "neutral": ["está", "chovendo", "hoje"] },
+              "tiles": { "neutral": ["está", "chovendo", "hoje"] }
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Seasons & Months" },
+          "objectives": {
+            "en": [
+              "Name the four seasons",
+              "Name the months of the year",
+              "Talk about favorite seasons"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "o verão",
+              "romanization": null,
+              "meanings": { "en": "the summer" },
+              "gendered": null
+            },
+            {
+              "word": "o inverno",
+              "romanization": null,
+              "meanings": { "en": "the winter" },
+              "gendered": null
+            },
+            {
+              "word": "a primavera",
+              "romanization": null,
+              "meanings": { "en": "the spring" },
+              "gendered": null
+            },
+            {
+              "word": "o outono",
+              "romanization": null,
+              "meanings": { "en": "the autumn / fall" },
+              "gendered": null
+            },
+            {
+              "word": "janeiro",
+              "romanization": null,
+              "meanings": { "en": "January" },
+              "gendered": null
+            },
+            {
+              "word": "dezembro",
+              "romanization": null,
+              "meanings": { "en": "December" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "o verão",
+              "romanization": null,
+              "options": { "en": ["the summer", "the winter", "the spring", "the fall"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "a primavera",
+              "romanization": null,
+              "options": { "en": ["the spring", "the summer", "the autumn", "the winter"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the winter' in Portuguese?" },
+              "options": { "neutral": ["o inverno", "o verão", "o outono", "a primavera"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'January' in Portuguese?" },
+              "options": { "neutral": ["janeiro", "dezembro", "junho", "março"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "o outono",
+              "romanization": null,
+              "options": { "en": ["the autumn", "the summer", "the spring", "the winter"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "o verão", "romanization": null, "native": { "en": "summer" } },
+                { "target": "o inverno", "romanization": null, "native": { "en": "winter" } },
+                { "target": "a primavera", "romanization": null, "native": { "en": "spring" } },
+                { "target": "o outono", "romanization": null, "native": { "en": "autumn" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": {
+            "en": [
+              "Name common clothing items",
+              "Talk about what to wear in different weather",
+              "Use 'vestir' and 'usar' with clothing"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "a camisa",
+              "romanization": null,
+              "meanings": { "en": "the shirt" },
+              "gendered": null
+            },
+            {
+              "word": "a calça",
+              "romanization": null,
+              "meanings": { "en": "the pants / trousers" },
+              "gendered": null
+            },
+            {
+              "word": "o casaco",
+              "romanization": null,
+              "meanings": { "en": "the jacket / coat" },
+              "gendered": null
+            },
+            {
+              "word": "o vestido",
+              "romanization": null,
+              "meanings": { "en": "the dress" },
+              "gendered": null
+            },
+            {
+              "word": "o sapato",
+              "romanization": null,
+              "meanings": { "en": "the shoe" },
+              "gendered": null
+            },
+            {
+              "word": "o guarda-chuva",
+              "romanization": null,
+              "meanings": { "en": "the umbrella" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "o casaco",
+              "romanization": null,
+              "options": { "en": ["the jacket", "the shirt", "the dress", "the shoe"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "o guarda-chuva",
+              "romanization": null,
+              "options": { "en": ["the umbrella", "the coat", "the hat", "the shoe"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the dress' in Portuguese?" },
+              "options": { "neutral": ["o vestido", "a camisa", "a calça", "o casaco"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the pants' in Portuguese?" },
+              "options": { "neutral": ["a calça", "a camisa", "o sapato", "o vestido"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "a camisa",
+              "romanization": null,
+              "options": { "en": ["the shirt", "the dress", "the pants", "the jacket"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "a camisa", "romanization": null, "native": { "en": "the shirt" } },
+                { "target": "a calça", "romanization": null, "native": { "en": "the pants" } },
+                { "target": "o casaco", "romanization": null, "native": { "en": "the jacket" } },
+                { "target": "o sapato", "romanization": null, "native": { "en": "the shoe" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Weather Forecasts" },
+          "objectives": {
+            "en": [
+              "Understand simple weather forecasts",
+              "Talk about future weather using 'vai'",
+              "Compare weather across days"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "a previsão do tempo",
+              "romanization": null,
+              "meanings": { "en": "the weather forecast" },
+              "gendered": null
+            },
+            {
+              "word": "vai chover",
+              "romanization": null,
+              "meanings": { "en": "it's going to rain" },
+              "gendered": null
+            },
+            {
+              "word": "vai fazer sol",
+              "romanization": null,
+              "meanings": { "en": "it's going to be sunny" },
+              "gendered": null
+            },
+            {
+              "word": "amanhã",
+              "romanization": null,
+              "meanings": { "en": "tomorrow" },
+              "gendered": null
+            },
+            {
+              "word": "hoje",
+              "romanization": null,
+              "meanings": { "en": "today" },
+              "gendered": null
+            },
+            {
+              "word": "a temperatura",
+              "romanization": null,
+              "meanings": { "en": "the temperature" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "vai chover",
+              "romanization": null,
+              "options": { "en": ["it's going to rain", "it's raining", "it's sunny", "it was cold"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "a previsão do tempo",
+              "romanization": null,
+              "options": { "en": ["the weather forecast", "the temperature", "today", "tomorrow"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'tomorrow' in Portuguese?" },
+              "options": { "neutral": ["amanhã", "hoje", "ontem", "sempre"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'it's going to be sunny' in Portuguese?" },
+              "options": { "neutral": ["vai fazer sol", "vai chover", "está sol", "está calor"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "amanhã",
+              "romanization": null,
+              "options": { "en": ["tomorrow", "today", "yesterday", "always"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "hoje", "romanization": null, "native": { "en": "today" } },
+                { "target": "amanhã", "romanization": null, "native": { "en": "tomorrow" } },
+                { "target": "vai chover", "romanization": null, "native": { "en": "it's going to rain" } },
+                { "target": "a temperatura", "romanization": null, "native": { "en": "the temperature" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'Tomorrow it's going to rain'" },
+              "words": ["chover", "vai", "amanhã"],
+              "correct_order": { "neutral": ["amanhã", "vai", "chover"] },
+              "tiles": { "neutral": ["amanhã", "vai", "chover"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Body" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Parts of the Body" },
+          "objectives": {
+            "en": [
+              "Name major body parts",
+              "Point to and identify body parts",
+              "Use articles with body parts"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "a cabeça",
+              "romanization": null,
+              "meanings": { "en": "the head" },
+              "gendered": null
+            },
+            {
+              "word": "o braço",
+              "romanization": null,
+              "meanings": { "en": "the arm" },
+              "gendered": null
+            },
+            {
+              "word": "a perna",
+              "romanization": null,
+              "meanings": { "en": "the leg" },
+              "gendered": null
+            },
+            {
+              "word": "a mão",
+              "romanization": null,
+              "meanings": { "en": "the hand" },
+              "gendered": null
+            },
+            {
+              "word": "o estômago",
+              "romanization": null,
+              "meanings": { "en": "the stomach" },
+              "gendered": null
+            },
+            {
+              "word": "as costas",
+              "romanization": null,
+              "meanings": { "en": "the back" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "a cabeça",
+              "romanization": null,
+              "options": { "en": ["the head", "the hand", "the arm", "the leg"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "as costas",
+              "romanization": null,
+              "options": { "en": ["the back", "the stomach", "the leg", "the arm"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the hand' in Portuguese?" },
+              "options": { "neutral": ["a mão", "o braço", "a perna", "a cabeça"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the arm' in Portuguese?" },
+              "options": { "neutral": ["o braço", "a perna", "a mão", "o estômago"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "a perna",
+              "romanization": null,
+              "options": { "en": ["the leg", "the arm", "the hand", "the head"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "a cabeça", "romanization": null, "native": { "en": "the head" } },
+                { "target": "o braço", "romanization": null, "native": { "en": "the arm" } },
+                { "target": "a mão", "romanization": null, "native": { "en": "the hand" } },
+                { "target": "o estômago", "romanization": null, "native": { "en": "the stomach" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Sick" },
+          "objectives": {
+            "en": [
+              "Describe common symptoms",
+              "Say what hurts using 'dói' and 'estou com'",
+              "Talk about how you feel physically"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "estou doente",
+              "romanization": null,
+              "meanings": { "en": "I'm sick" },
+              "gendered": null
+            },
+            {
+              "word": "dor de cabeça",
+              "romanization": null,
+              "meanings": { "en": "headache" },
+              "gendered": null
+            },
+            {
+              "word": "dor de garganta",
+              "romanization": null,
+              "meanings": { "en": "sore throat" },
+              "gendered": null
+            },
+            {
+              "word": "febre",
+              "romanization": null,
+              "meanings": { "en": "fever" },
+              "gendered": null
+            },
+            {
+              "word": "estou com gripe",
+              "romanization": null,
+              "meanings": { "en": "I have the flu" },
+              "gendered": null
+            },
+            {
+              "word": "me sinto mal",
+              "romanization": null,
+              "meanings": { "en": "I feel bad / unwell" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "dor de cabeça",
+              "romanization": null,
+              "options": { "en": ["headache", "sore throat", "fever", "flu"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "estou com gripe",
+              "romanization": null,
+              "options": { "en": ["I have the flu", "I'm sick", "I have a fever", "I feel bad"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'fever' in Portuguese?" },
+              "options": { "neutral": ["febre", "gripe", "dor", "doente"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I'm sick' in Portuguese?" },
+              "options": { "neutral": ["estou doente", "me sinto mal", "estou com gripe", "dor de cabeça"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "dor de garganta",
+              "romanization": null,
+              "options": { "en": ["sore throat", "headache", "stomachache", "fever"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "estou doente", "romanization": null, "native": { "en": "I'm sick" } },
+                { "target": "dor de cabeça", "romanization": null, "native": { "en": "headache" } },
+                { "target": "febre", "romanization": null, "native": { "en": "fever" } },
+                { "target": "me sinto mal", "romanization": null, "native": { "en": "I feel unwell" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I have a headache'" },
+              "words": ["cabeça", "com", "de", "dor", "estou"],
+              "correct_order": { "neutral": ["estou", "com", "dor", "de", "cabeça"] },
+              "tiles": { "neutral": ["estou", "com", "dor", "de", "cabeça"] }
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": {
+            "en": [
+              "Communicate with a doctor",
+              "Describe symptoms clearly",
+              "Understand basic medical instructions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "o médico",
+              "romanization": null,
+              "meanings": { "en": "the doctor" },
+              "gendered": {
+                "male": { "word": "o médico", "romanization": null },
+                "female": { "word": "a médica", "romanization": null }
+              }
+            },
+            {
+              "word": "o remédio",
+              "romanization": null,
+              "meanings": { "en": "the medicine" },
+              "gendered": null
+            },
+            {
+              "word": "a receita",
+              "romanization": null,
+              "meanings": { "en": "the prescription" },
+              "gendered": null
+            },
+            {
+              "word": "descansar",
+              "romanization": null,
+              "meanings": { "en": "to rest" },
+              "gendered": null
+            },
+            {
+              "word": "a consulta",
+              "romanization": null,
+              "meanings": { "en": "the appointment" },
+              "gendered": null
+            },
+            {
+              "word": "tomar remédio",
+              "romanization": null,
+              "meanings": { "en": "to take medicine" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "a receita",
+              "romanization": null,
+              "options": { "en": ["the prescription", "the medicine", "the appointment", "the doctor"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "descansar",
+              "romanization": null,
+              "options": { "en": ["to rest", "to take medicine", "to sleep", "to eat"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the medicine' in Portuguese?" },
+              "options": { "neutral": ["o remédio", "a receita", "a consulta", "o médico"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the appointment' in Portuguese?" },
+              "options": { "neutral": ["a consulta", "a receita", "o remédio", "descansar"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "tomar remédio",
+              "romanization": null,
+              "options": { "en": ["to take medicine", "to rest", "the prescription", "the doctor"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "o médico", "romanization": null, "native": { "en": "the doctor" } },
+                { "target": "o remédio", "romanization": null, "native": { "en": "the medicine" } },
+                { "target": "a receita", "romanization": null, "native": { "en": "the prescription" } },
+                { "target": "descansar", "romanization": null, "native": { "en": "to rest" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I need to take medicine'" },
+              "words": ["remédio", "tomar", "preciso", "eu"],
+              "correct_order": { "neutral": ["eu", "preciso", "tomar", "remédio"] },
+              "tiles": { "neutral": ["eu", "preciso", "tomar", "remédio"] }
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Healthy Habits" },
+          "objectives": {
+            "en": [
+              "Talk about healthy lifestyle habits",
+              "Use 'dever' (should) for advice",
+              "Discuss exercise and diet basics"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "fazer exercício",
+              "romanization": null,
+              "meanings": { "en": "to exercise" },
+              "gendered": null
+            },
+            {
+              "word": "beber água",
+              "romanization": null,
+              "meanings": { "en": "to drink water" },
+              "gendered": null
+            },
+            {
+              "word": "dormir bem",
+              "romanization": null,
+              "meanings": { "en": "to sleep well" },
+              "gendered": null
+            },
+            {
+              "word": "saudável",
+              "romanization": null,
+              "meanings": { "en": "healthy" },
+              "gendered": null
+            },
+            {
+              "word": "você deve",
+              "romanization": null,
+              "meanings": { "en": "you should" },
+              "gendered": null
+            },
+            {
+              "word": "caminhar",
+              "romanization": null,
+              "meanings": { "en": "to walk" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "fazer exercício",
+              "romanization": null,
+              "options": { "en": ["to exercise", "to walk", "to rest", "to sleep well"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "saudável",
+              "romanization": null,
+              "options": { "en": ["healthy", "sick", "tired", "strong"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to drink water' in Portuguese?" },
+              "options": { "neutral": ["beber água", "tomar remédio", "fazer exercício", "dormir bem"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'you should' in Portuguese?" },
+              "options": { "neutral": ["você deve", "eu vou", "eu quero", "você é"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "dormir bem",
+              "romanization": null,
+              "options": { "en": ["to sleep well", "to exercise", "to walk", "to drink water"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "fazer exercício", "romanization": null, "native": { "en": "to exercise" } },
+                { "target": "beber água", "romanization": null, "native": { "en": "to drink water" } },
+                { "target": "dormir bem", "romanization": null, "native": { "en": "to sleep well" } },
+                { "target": "caminhar", "romanization": null, "native": { "en": "to walk" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'You should drink water'" },
+              "words": ["água", "beber", "deve", "você"],
+              "correct_order": { "neutral": ["você", "deve", "beber", "água"] },
+              "tiles": { "neutral": ["você", "deve", "beber", "água"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": {
+            "en": [
+              "Talk about future plans using 'ir + infinitive'",
+              "Make suggestions and invitations",
+              "Accept and decline invitations"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "eu vou viajar",
+              "romanization": null,
+              "meanings": { "en": "I'm going to travel" },
+              "gendered": null
+            },
+            {
+              "word": "a gente pode",
+              "romanization": null,
+              "meanings": { "en": "we can" },
+              "gendered": null
+            },
+            {
+              "word": "boa ideia",
+              "romanization": null,
+              "meanings": { "en": "good idea" },
+              "gendered": null
+            },
+            {
+              "word": "não posso",
+              "romanization": null,
+              "meanings": { "en": "I can't" },
+              "gendered": null
+            },
+            {
+              "word": "que tal?",
+              "romanization": null,
+              "meanings": { "en": "how about?" },
+              "gendered": null
+            },
+            {
+              "word": "combinar",
+              "romanization": null,
+              "meanings": { "en": "to arrange / to set up (plans)" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "que tal?",
+              "romanization": null,
+              "options": { "en": ["how about?", "what is it?", "how much?", "why not?"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "não posso",
+              "romanization": null,
+              "options": { "en": ["I can't", "I don't want", "I won't", "I don't know"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'good idea' in Portuguese?" },
+              "options": { "neutral": ["boa ideia", "que tal?", "não posso", "combinar"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'we can' in Portuguese?" },
+              "options": { "neutral": ["a gente pode", "eu vou", "não posso", "que tal?"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "eu vou viajar",
+              "romanization": null,
+              "options": { "en": ["I'm going to travel", "I can't travel", "I like to travel", "I want to travel"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "eu vou viajar", "romanization": null, "native": { "en": "I'm going to travel" } },
+                { "target": "boa ideia", "romanization": null, "native": { "en": "good idea" } },
+                { "target": "não posso", "romanization": null, "native": { "en": "I can't" } },
+                { "target": "combinar", "romanization": null, "native": { "en": "to arrange" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Ask 'How about going to the cinema?'" },
+              "words": ["cinema?", "ir", "que", "ao", "tal"],
+              "correct_order": { "neutral": ["que", "tal", "ir", "ao", "cinema?"] },
+              "tiles": { "neutral": ["que", "tal", "ir", "ao", "cinema?"] }
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Past Events" },
+          "objectives": {
+            "en": [
+              "Talk about what happened in the past",
+              "Use common past tense (pretérito perfeito) verbs",
+              "Describe recent events"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "eu fui",
+              "romanization": null,
+              "meanings": { "en": "I went" },
+              "gendered": null
+            },
+            {
+              "word": "eu comi",
+              "romanization": null,
+              "meanings": { "en": "I ate" },
+              "gendered": null
+            },
+            {
+              "word": "eu vi",
+              "romanization": null,
+              "meanings": { "en": "I saw" },
+              "gendered": null
+            },
+            {
+              "word": "ontem",
+              "romanization": null,
+              "meanings": { "en": "yesterday" },
+              "gendered": null
+            },
+            {
+              "word": "na semana passada",
+              "romanization": null,
+              "meanings": { "en": "last week" },
+              "gendered": null
+            },
+            {
+              "word": "eu comprei",
+              "romanization": null,
+              "meanings": { "en": "I bought" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "eu fui",
+              "romanization": null,
+              "options": { "en": ["I went", "I ate", "I saw", "I bought"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "na semana passada",
+              "romanization": null,
+              "options": { "en": ["last week", "yesterday", "tomorrow", "next week"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'yesterday' in Portuguese?" },
+              "options": { "neutral": ["ontem", "amanhã", "hoje", "sempre"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I ate' in Portuguese?" },
+              "options": { "neutral": ["eu comi", "eu fui", "eu vi", "eu comprei"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "eu vi",
+              "romanization": null,
+              "options": { "en": ["I saw", "I went", "I ate", "I bought"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "eu fui", "romanization": null, "native": { "en": "I went" } },
+                { "target": "eu comi", "romanization": null, "native": { "en": "I ate" } },
+                { "target": "eu vi", "romanization": null, "native": { "en": "I saw" } },
+                { "target": "eu comprei", "romanization": null, "native": { "en": "I bought" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'Yesterday I went to the beach'" },
+              "words": ["praia", "fui", "à", "ontem", "eu"],
+              "correct_order": { "neutral": ["ontem", "eu", "fui", "à", "praia"] },
+              "tiles": { "neutral": ["ontem", "eu", "fui", "à", "praia"] }
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Comparing Things" },
+          "objectives": {
+            "en": [
+              "Make comparisons using 'mais...do que'",
+              "Use 'menos...do que' for lesser comparisons",
+              "Express superlatives"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "mais",
+              "romanization": null,
+              "meanings": { "en": "more" },
+              "gendered": null
+            },
+            {
+              "word": "menos",
+              "romanization": null,
+              "meanings": { "en": "less" },
+              "gendered": null
+            },
+            {
+              "word": "do que",
+              "romanization": null,
+              "meanings": { "en": "than" },
+              "gendered": null
+            },
+            {
+              "word": "melhor",
+              "romanization": null,
+              "meanings": { "en": "better" },
+              "gendered": null
+            },
+            {
+              "word": "pior",
+              "romanization": null,
+              "meanings": { "en": "worse" },
+              "gendered": null
+            },
+            {
+              "word": "igual",
+              "romanization": null,
+              "meanings": { "en": "equal / the same" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "melhor",
+              "romanization": null,
+              "options": { "en": ["better", "worse", "more", "less"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "do que",
+              "romanization": null,
+              "options": { "en": ["than", "more", "less", "equal"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'worse' in Portuguese?" },
+              "options": { "neutral": ["pior", "melhor", "mais", "menos"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'less' in Portuguese?" },
+              "options": { "neutral": ["menos", "mais", "pior", "igual"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "mais",
+              "romanization": null,
+              "options": { "en": ["more", "less", "better", "worse"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "mais", "romanization": null, "native": { "en": "more" } },
+                { "target": "menos", "romanization": null, "native": { "en": "less" } },
+                { "target": "melhor", "romanization": null, "native": { "en": "better" } },
+                { "target": "pior", "romanization": null, "native": { "en": "worse" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'This is better than that'" },
+              "words": ["aquilo", "que", "melhor", "do", "é", "isso"],
+              "correct_order": { "neutral": ["isso", "é", "melhor", "do", "que", "aquilo"] },
+              "tiles": { "neutral": ["isso", "é", "melhor", "do", "que", "aquilo"] }
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Goals & Wishes" },
+          "objectives": {
+            "en": [
+              "Express personal goals and wishes",
+              "Use 'querer' (to want) and 'esperar' (to hope)",
+              "Talk about dreams and ambitions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "eu quero",
+              "romanization": null,
+              "meanings": { "en": "I want" },
+              "gendered": null
+            },
+            {
+              "word": "eu espero",
+              "romanization": null,
+              "meanings": { "en": "I hope" },
+              "gendered": null
+            },
+            {
+              "word": "eu preciso",
+              "romanization": null,
+              "meanings": { "en": "I need" },
+              "gendered": null
+            },
+            {
+              "word": "o sonho",
+              "romanization": null,
+              "meanings": { "en": "the dream" },
+              "gendered": null
+            },
+            {
+              "word": "aprender",
+              "romanization": null,
+              "meanings": { "en": "to learn" },
+              "gendered": null
+            },
+            {
+              "word": "conseguir",
+              "romanization": null,
+              "meanings": { "en": "to achieve / to manage" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "eu espero",
+              "romanization": null,
+              "options": { "en": ["I hope", "I want", "I need", "I dream"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "conseguir",
+              "romanization": null,
+              "options": { "en": ["to achieve", "to learn", "to want", "to need"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I need' in Portuguese?" },
+              "options": { "neutral": ["eu preciso", "eu quero", "eu espero", "eu vou"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the dream' in Portuguese?" },
+              "options": { "neutral": ["o sonho", "a ideia", "o plano", "a esperança"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "aprender",
+              "romanization": null,
+              "options": { "en": ["to learn", "to achieve", "to hope", "to want"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "eu quero", "romanization": null, "native": { "en": "I want" } },
+                { "target": "eu espero", "romanization": null, "native": { "en": "I hope" } },
+                { "target": "eu preciso", "romanization": null, "native": { "en": "I need" } },
+                { "target": "aprender", "romanization": null, "native": { "en": "to learn" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I want to learn Portuguese'" },
+              "words": ["português", "aprender", "quero", "eu"],
+              "correct_order": { "neutral": ["eu", "quero", "aprender", "português"] },
+              "tiles": { "neutral": ["eu", "quero", "aprender", "português"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Communication" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Opinions" },
+          "objectives": {
+            "en": [
+              "Express agreement and disagreement",
+              "Give your opinion on topics",
+              "Use 'acho que' (I think that)"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "eu acho que",
+              "romanization": null,
+              "meanings": { "en": "I think that" },
+              "gendered": null
+            },
+            {
+              "word": "concordo",
+              "romanization": null,
+              "meanings": { "en": "I agree" },
+              "gendered": null
+            },
+            {
+              "word": "não concordo",
+              "romanization": null,
+              "meanings": { "en": "I disagree" },
+              "gendered": null
+            },
+            {
+              "word": "com certeza",
+              "romanization": null,
+              "meanings": { "en": "for sure / certainly" },
+              "gendered": null
+            },
+            {
+              "word": "talvez",
+              "romanization": null,
+              "meanings": { "en": "maybe / perhaps" },
+              "gendered": null
+            },
+            {
+              "word": "na minha opinião",
+              "romanization": null,
+              "meanings": { "en": "in my opinion" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "eu acho que",
+              "romanization": null,
+              "options": { "en": ["I think that", "I agree", "I disagree", "for sure"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "talvez",
+              "romanization": null,
+              "options": { "en": ["maybe", "certainly", "I agree", "I think"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'I agree' in Portuguese?" },
+              "options": { "neutral": ["concordo", "não concordo", "eu acho que", "com certeza"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'in my opinion' in Portuguese?" },
+              "options": { "neutral": ["na minha opinião", "eu acho que", "com certeza", "talvez"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "com certeza",
+              "romanization": null,
+              "options": { "en": ["for sure", "maybe", "I disagree", "I think"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "concordo", "romanization": null, "native": { "en": "I agree" } },
+                { "target": "não concordo", "romanization": null, "native": { "en": "I disagree" } },
+                { "target": "talvez", "romanization": null, "native": { "en": "maybe" } },
+                { "target": "com certeza", "romanization": null, "native": { "en": "for sure" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Feelings & Emotions" },
+          "objectives": {
+            "en": [
+              "Express emotions and feelings",
+              "Use 'estar' with emotional states",
+              "Ask how someone is feeling"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "feliz",
+              "romanization": null,
+              "meanings": { "en": "happy" },
+              "gendered": null
+            },
+            {
+              "word": "triste",
+              "romanization": null,
+              "meanings": { "en": "sad" },
+              "gendered": null
+            },
+            {
+              "word": "cansado",
+              "romanization": null,
+              "meanings": { "en": "tired" },
+              "gendered": {
+                "male": { "word": "cansado", "romanization": null },
+                "female": { "word": "cansada", "romanization": null }
+              }
+            },
+            {
+              "word": "animado",
+              "romanization": null,
+              "meanings": { "en": "excited" },
+              "gendered": {
+                "male": { "word": "animado", "romanization": null },
+                "female": { "word": "animada", "romanization": null }
+              }
+            },
+            {
+              "word": "preocupado",
+              "romanization": null,
+              "meanings": { "en": "worried" },
+              "gendered": {
+                "male": { "word": "preocupado", "romanization": null },
+                "female": { "word": "preocupada", "romanization": null }
+              }
+            },
+            {
+              "word": "com raiva",
+              "romanization": null,
+              "meanings": { "en": "angry" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "animado",
+              "romanization": null,
+              "options": { "en": ["excited", "tired", "worried", "happy"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "com raiva",
+              "romanization": null,
+              "options": { "en": ["angry", "sad", "worried", "tired"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'happy' in Portuguese?" },
+              "options": { "neutral": ["feliz", "triste", "animado", "cansado"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How does a female say 'tired' in Portuguese?" },
+              "options": { "neutral": ["cansada", "cansado", "triste", "preocupada"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "triste",
+              "romanization": null,
+              "options": { "en": ["sad", "happy", "angry", "tired"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "feliz", "romanization": null, "native": { "en": "happy" } },
+                { "target": "triste", "romanization": null, "native": { "en": "sad" } },
+                { "target": "cansado", "romanization": null, "native": { "en": "tired" } },
+                { "target": "preocupado", "romanization": null, "native": { "en": "worried" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I am very happy'" },
+              "words": ["feliz", "estou", "muito", "eu"],
+              "correct_order": { "neutral": ["eu", "estou", "muito", "feliz"] },
+              "tiles": { "neutral": ["eu", "estou", "muito", "feliz"] }
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Phone & Messages" },
+          "objectives": {
+            "en": [
+              "Make and answer phone calls",
+              "Send and discuss text messages",
+              "Use communication vocabulary"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "alô",
+              "romanization": null,
+              "meanings": { "en": "hello (on the phone)" },
+              "gendered": null
+            },
+            {
+              "word": "ligar",
+              "romanization": null,
+              "meanings": { "en": "to call (phone)" },
+              "gendered": null
+            },
+            {
+              "word": "a mensagem",
+              "romanization": null,
+              "meanings": { "en": "the message" },
+              "gendered": null
+            },
+            {
+              "word": "mandar",
+              "romanization": null,
+              "meanings": { "en": "to send" },
+              "gendered": null
+            },
+            {
+              "word": "o celular",
+              "romanization": null,
+              "meanings": { "en": "the cellphone" },
+              "gendered": null
+            },
+            {
+              "word": "responder",
+              "romanization": null,
+              "meanings": { "en": "to reply / to answer" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "alô",
+              "romanization": null,
+              "options": { "en": ["hello (phone)", "goodbye", "please", "thank you"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "o celular",
+              "romanization": null,
+              "options": { "en": ["the cellphone", "the message", "the call", "the number"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'to send' in Portuguese?" },
+              "options": { "neutral": ["mandar", "ligar", "responder", "falar"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'the message' in Portuguese?" },
+              "options": { "neutral": ["a mensagem", "o celular", "a ligação", "o número"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "ligar",
+              "romanization": null,
+              "options": { "en": ["to call", "to send", "to reply", "to text"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ligar", "romanization": null, "native": { "en": "to call" } },
+                { "target": "mandar", "romanization": null, "native": { "en": "to send" } },
+                { "target": "responder", "romanization": null, "native": { "en": "to reply" } },
+                { "target": "a mensagem", "romanization": null, "native": { "en": "the message" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I'm going to send a message'" },
+              "words": ["mensagem", "mandar", "vou", "uma", "eu"],
+              "correct_order": { "neutral": ["eu", "vou", "mandar", "uma", "mensagem"] },
+              "tiles": { "neutral": ["eu", "vou", "mandar", "uma", "mensagem"] }
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Giving Reasons" },
+          "objectives": {
+            "en": [
+              "Explain reasons using 'porque' and 'por isso'",
+              "Connect ideas with conjunctions",
+              "Give explanations for opinions and actions"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "porque",
+              "romanization": null,
+              "meanings": { "en": "because" },
+              "gendered": null
+            },
+            {
+              "word": "por isso",
+              "romanization": null,
+              "meanings": { "en": "that's why / therefore" },
+              "gendered": null
+            },
+            {
+              "word": "mas",
+              "romanization": null,
+              "meanings": { "en": "but" },
+              "gendered": null
+            },
+            {
+              "word": "também",
+              "romanization": null,
+              "meanings": { "en": "also / too" },
+              "gendered": null
+            },
+            {
+              "word": "então",
+              "romanization": null,
+              "meanings": { "en": "so / then" },
+              "gendered": null
+            },
+            {
+              "word": "por que?",
+              "romanization": null,
+              "meanings": { "en": "why?" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "porque",
+              "romanization": null,
+              "options": { "en": ["because", "but", "also", "so"] },
+              "correct": 0
+            },
+            {
+              "type": "target_to_native",
+              "word": "por isso",
+              "romanization": null,
+              "options": { "en": ["that's why", "because", "but", "also"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'but' in Portuguese?" },
+              "options": { "neutral": ["mas", "também", "então", "porque"] },
+              "correct": 0
+            },
+            {
+              "type": "native_to_target",
+              "question": { "en": "How do you say 'also' in Portuguese?" },
+              "options": { "neutral": ["também", "mas", "então", "por isso"] },
+              "correct": 0
+            },
+            {
+              "type": "listening",
+              "audio_text": "então",
+              "romanization": null,
+              "options": { "en": ["so / then", "because", "but", "also"] },
+              "correct": 0
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "porque", "romanization": null, "native": { "en": "because" } },
+                { "target": "mas", "romanization": null, "native": { "en": "but" } },
+                { "target": "também", "romanization": null, "native": { "en": "also" } },
+                { "target": "então", "romanization": null, "native": { "en": "so / then" } }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Say 'I'm tired because I worked a lot'" },
+              "words": ["muito", "trabalhei", "cansado", "estou", "porque"],
+              "correct_order": { "neutral": ["estou", "cansado", "porque", "trabalhei", "muito"] },
+              "tiles": { "neutral": ["estou", "cansado", "porque", "trabalhei", "muito"] }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

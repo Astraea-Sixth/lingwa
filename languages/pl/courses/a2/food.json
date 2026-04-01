@@ -1,0 +1,807 @@
+{
+  "lang": "pl",
+  "language": "pl",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订餐位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": ["Reserve a table at a Polish restaurant", "State number of guests and time"],
+            "zh": ["在波兰餐厅预订桌位", "说明人数和时间"],
+            "th": ["จองโต๊ะที่ร้านอาหารโปแลนด์", "ระบุจำนวนแขกและเวลา"],
+            "ko": ["폴란드 식당에서 테이블 예약하기", "인원수와 시간 말하기"],
+            "es": ["Reservar una mesa en un restaurante polaco", "Indicar número de personas y hora"]
+          },
+          "vocabulary": [
+            {
+              "word": "rezerwacja",
+              "romanization": null,
+              "meanings": { "en": "reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "stolik",
+              "romanization": null,
+              "meanings": { "en": "table (in a restaurant)", "zh": "餐桌", "th": "โต๊ะ (ในร้านอาหาร)", "ko": "식탁", "es": "mesa (en restaurante)" }
+            },
+            {
+              "word": "dla dwóch osób",
+              "romanization": null,
+              "meanings": { "en": "for two people", "zh": "两个人", "th": "สำหรับสองคน", "ko": "두 명을 위해", "es": "para dos personas" }
+            },
+            {
+              "word": "na ósmą",
+              "romanization": null,
+              "meanings": { "en": "for eight o'clock", "zh": "八点钟", "th": "สำหรับเวลาแปดโมง", "ko": "8시에", "es": "para las ocho" }
+            },
+            {
+              "word": "zarezerwować",
+              "romanization": null,
+              "meanings": { "en": "to reserve/book", "zh": "预订", "th": "จอง", "ko": "예약하다", "es": "reservar" }
+            },
+            {
+              "word": "nazwisko",
+              "romanization": null,
+              "meanings": { "en": "surname/last name", "zh": "姓氏", "th": "นามสกุล", "ko": "성(姓)", "es": "apellido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to reserve a table'?",
+              "options": ["Chciałbym zarezerwować stolik.", "Szukam stolika.", "Chcę kupić stolik.", "Nie potrzebuję stolika."],
+              "correct": 0,
+              "explanation": "'Chciałbym zarezerwować stolik' means 'I would like to reserve a table'. 'Chciałbym' = I would like (male speaker)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "rezerwacja",
+              "options": ["reservation", "restaurant", "table", "menu"],
+              "correct": 0,
+              "explanation": "'Rezerwacja' means reservation — from the verb 'rezerwować'."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Chciałbym zarezerwować stolik dla dwóch osób.",
+              "options": ["I'd like to reserve a table for two.", "I'd like a table for four.", "I want to cancel my reservation.", "Can I see the menu?"],
+              "correct": 0,
+              "explanation": "'Dla dwóch osób' means 'for two people'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["zarezerwować", "to reserve"],
+                ["stolik", "table"],
+                ["nazwisko", "surname"],
+                ["na ósmą", "for eight o'clock"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["stolik", "zarezerwować", "chciałbym"],
+              "correct": ["Chciałbym", "zarezerwować", "stolik"],
+              "translation": "I would like to reserve a table."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks from a menu", "Ask about dishes and ingredients"],
+            "zh": ["从菜单上点餐和饮料", "询问菜肴和食材"],
+            "th": ["สั่งอาหารและเครื่องดื่มจากเมนู", "ถามเกี่ยวกับอาหารและส่วนผสม"],
+            "ko": ["메뉴에서 음식과 음료 주문하기", "요리와 재료에 대해 묻기"],
+            "es": ["Pedir comida y bebidas del menú", "Preguntar sobre los platos e ingredientes"]
+          },
+          "vocabulary": [
+            {
+              "word": "karta dań",
+              "romanization": null,
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนูอาหาร", "ko": "메뉴판", "es": "carta/menú" }
+            },
+            {
+              "word": "zamówić",
+              "romanization": null,
+              "meanings": { "en": "to order", "zh": "点餐", "th": "สั่ง", "ko": "주문하다", "es": "pedir/ordenar" }
+            },
+            {
+              "word": "danie",
+              "romanization": null,
+              "meanings": { "en": "dish/course", "zh": "菜肴", "th": "อาหารจาน", "ko": "요리", "es": "plato" }
+            },
+            {
+              "word": "napój",
+              "romanization": null,
+              "meanings": { "en": "drink/beverage", "zh": "饮料", "th": "เครื่องดื่ม", "ko": "음료", "es": "bebida" }
+            },
+            {
+              "word": "polecić",
+              "romanization": null,
+              "meanings": { "en": "to recommend", "zh": "推荐", "th": "แนะนำ", "ko": "추천하다", "es": "recomendar" }
+            },
+            {
+              "word": "danie główne",
+              "romanization": null,
+              "meanings": { "en": "main course", "zh": "主菜", "th": "อาหารจานหลัก", "ko": "주요리", "es": "plato principal" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What do you recommend?'",
+              "options": ["Co pan/pani poleca?", "Co pan/pani kupuje?", "Co pan/pani je?", "Ile to kosztuje?"],
+              "correct": 0,
+              "explanation": "'Co pan/pani poleca?' is the polite way to ask for recommendations. 'Pan' = Mr., 'pani' = Mrs./Ms."
+            },
+            {
+              "type": "target_to_native",
+              "word": "karta dań",
+              "options": ["menu", "bill", "waiter", "kitchen"],
+              "correct": 0,
+              "explanation": "'Karta dań' is the menu. 'Karta' = card, 'dań' = of dishes."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'll take the main course'?",
+              "options": ["Wezmę danie główne.", "Zjem przystawkę.", "Zamówię napoje.", "Chcę rachunek."],
+              "correct": 0,
+              "explanation": "'Wezmę danie główne' = I'll take the main course."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["zamówić", "to order"],
+                ["napój", "drink"],
+                ["danie główne", "main course"],
+                ["polecić", "to recommend"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["kartę", "dań", "proszę", "poproszę"],
+              "correct": ["Poproszę", "kartę", "dań"],
+              "translation": "Could I have the menu, please?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Paying the Bill",
+            "zh": "结账",
+            "th": "การจ่ายเงิน",
+            "ko": "계산하기",
+            "es": "Pagar la cuenta"
+          },
+          "objectives": {
+            "en": ["Ask for the bill and pay at a restaurant", "Understand prices and handle payment"],
+            "zh": ["在餐厅结账", "了解价格并处理付款"],
+            "th": ["ขอบิลและจ่ายเงินที่ร้านอาหาร", "เข้าใจราคาและการชำระเงิน"],
+            "ko": ["식당에서 계산서 요청하고 지불하기", "가격 이해하고 결제하기"],
+            "es": ["Pedir la cuenta y pagar en el restaurante", "Entender los precios y gestionar el pago"]
+          },
+          "vocabulary": [
+            {
+              "word": "rachunek",
+              "romanization": null,
+              "meanings": { "en": "bill/check", "zh": "账单", "th": "ใบเสร็จ", "ko": "계산서", "es": "cuenta" }
+            },
+            {
+              "word": "zapłacić",
+              "romanization": null,
+              "meanings": { "en": "to pay", "zh": "付款", "th": "จ่ายเงิน", "ko": "지불하다", "es": "pagar" }
+            },
+            {
+              "word": "napiwek",
+              "romanization": null,
+              "meanings": { "en": "tip/gratuity", "zh": "小费", "th": "ทิป", "ko": "팁", "es": "propina" }
+            },
+            {
+              "word": "osobno",
+              "romanization": null,
+              "meanings": { "en": "separately", "zh": "分开", "th": "แยกกัน", "ko": "따로따로", "es": "por separado" }
+            },
+            {
+              "word": "razem",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "รวมกัน", "ko": "함께", "es": "juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The bill, please'?",
+              "options": ["Poproszę rachunek.", "Poproszę menu.", "Poproszę stolik.", "Poproszę jedzenie."],
+              "correct": 0,
+              "explanation": "'Poproszę rachunek' is the standard phrase to ask for the bill in Polish."
+            },
+            {
+              "type": "target_to_native",
+              "word": "napiwek",
+              "options": ["tip", "drink", "water", "receipt"],
+              "correct": 0,
+              "explanation": "'Napiwek' means tip — money given to service staff for good service."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Czy płacą państwo osobno czy razem?",
+              "options": ["Will you pay separately or together?", "Would you like to order more?", "Are you ready to pay?", "How was your meal?"],
+              "correct": 0,
+              "explanation": "'Osobno' = separately, 'razem' = together, 'płacą państwo' = will you pay (formal plural)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["rachunek", "bill"],
+                ["zapłacić", "to pay"],
+                ["osobno", "separately"],
+                ["razem", "together"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["rachunek", "poproszę"],
+              "correct": ["Poproszę", "rachunek"],
+              "translation": "The bill, please."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材和烹饪",
+        "th": "ส่วนผสมและการปรุงอาหาร",
+        "ko": "식재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Ingredients",
+            "zh": "新鲜食材",
+            "th": "ส่วนผสมสด",
+            "ko": "신선한 재료",
+            "es": "Ingredientes frescos"
+          },
+          "objectives": {
+            "en": ["Name common fresh ingredients in Polish", "Ask for ingredients at a market"],
+            "zh": ["用波兰语说出常见新鲜食材", "在市场询问食材"],
+            "th": ["พูดชื่อส่วนผสมสดทั่วไปเป็นภาษาโปแลนด์", "ถามหาส่วนผสมที่ตลาด"],
+            "ko": ["폴란드어로 신선한 재료 이름 말하기", "시장에서 재료 물어보기"],
+            "es": ["Nombrar ingredientes frescos en polaco", "Pedir ingredientes en un mercado"]
+          },
+          "vocabulary": [
+            {
+              "word": "warzywa",
+              "romanization": null,
+              "meanings": { "en": "vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verduras" }
+            },
+            {
+              "word": "owoce",
+              "romanization": null,
+              "meanings": { "en": "fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "fruta" }
+            },
+            {
+              "word": "mięso",
+              "romanization": null,
+              "meanings": { "en": "meat", "zh": "肉", "th": "เนื้อสัตว์", "ko": "고기", "es": "carne" }
+            },
+            {
+              "word": "świeży",
+              "romanization": null,
+              "meanings": { "en": "fresh", "zh": "新鲜", "th": "สด", "ko": "신선한", "es": "fresco" }
+            },
+            {
+              "word": "cebula",
+              "romanization": null,
+              "meanings": { "en": "onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla" }
+            },
+            {
+              "word": "czosnek",
+              "romanization": null,
+              "meanings": { "en": "garlic", "zh": "大蒜", "th": "กระเทียม", "ko": "마늘", "es": "ajo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'fresh vegetables'?",
+              "options": ["świeże warzywa", "świeże owoce", "świeże mięso", "świeże mleko"],
+              "correct": 0,
+              "explanation": "'Świeże warzywa' = fresh vegetables. 'Świeże' is the neuter/plural form of 'świeży'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "czosnek",
+              "options": ["garlic", "onion", "leek", "ginger"],
+              "correct": 0,
+              "explanation": "'Czosnek' is garlic — an essential ingredient in Polish cooking."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["warzywa", "vegetables"],
+                ["owoce", "fruit"],
+                ["mięso", "meat"],
+                ["cebula", "onion"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Czy ma pan/pani świeże warzywa i owoce?",
+              "options": ["Do you have fresh vegetables and fruit?", "Do you sell meat and fish?", "Is the food organic?", "How much does it cost?"],
+              "correct": 0,
+              "explanation": "'Świeże' = fresh, 'i' = and, 'czy ma pan/pani' = do you have (formal)."
+            },
+            {
+              "type": "reorder",
+              "words": ["czosnek", "i", "cebulę", "świeżą", "kupuję"],
+              "correct": ["Kupuję", "świeżą", "cebulę", "i", "czosnek"],
+              "translation": "I am buying fresh onion and garlic."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการปรุงอาหาร",
+            "ko": "요리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked in Polish", "Follow simple cooking instructions"],
+            "zh": ["用波兰语描述食物烹饪方式", "遵循简单的烹饪说明"],
+            "th": ["อธิบายวิธีปรุงอาหารเป็นภาษาโปแลนด์", "ทำตามคำแนะนำการปรุงอาหารง่ายๆ"],
+            "ko": ["폴란드어로 음식 조리 방법 설명하기", "간단한 요리 지시 따르기"],
+            "es": ["Describir cómo se cocina la comida en polaco", "Seguir instrucciones simples de cocina"]
+          },
+          "vocabulary": [
+            {
+              "word": "gotować",
+              "romanization": null,
+              "meanings": { "en": "to cook / to boil", "zh": "烹饪/煮", "th": "ปรุงอาหาร/ต้ม", "ko": "요리하다/삶다", "es": "cocinar/hervir" }
+            },
+            {
+              "word": "smażyć",
+              "romanization": null,
+              "meanings": { "en": "to fry", "zh": "煎炸", "th": "ทอด", "ko": "볶다/튀기다", "es": "freír" }
+            },
+            {
+              "word": "piec",
+              "romanization": null,
+              "meanings": { "en": "to bake/roast", "zh": "烘焙/烤", "th": "อบ/ย่าง", "ko": "굽다(오븐)", "es": "hornear/asar" }
+            },
+            {
+              "word": "kroić",
+              "romanization": null,
+              "meanings": { "en": "to cut/chop", "zh": "切", "th": "หั่น", "ko": "자르다", "es": "cortar" }
+            },
+            {
+              "word": "przyprawiać",
+              "romanization": null,
+              "meanings": { "en": "to season/spice", "zh": "调味", "th": "ปรุงรส", "ko": "양념하다", "es": "condimentar/sazonar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'to bake a cake'?",
+              "options": ["upiec ciasto", "ugotować ciasto", "usmażyć ciasto", "pokroić ciasto"],
+              "correct": 0,
+              "explanation": "'Upiec ciasto' = to bake a cake. 'Piec' is used for baking in an oven."
+            },
+            {
+              "type": "target_to_native",
+              "word": "smażyć",
+              "options": ["to fry", "to boil", "to bake", "to steam"],
+              "correct": 0,
+              "explanation": "'Smażyć' means to fry — cooking in oil or fat in a pan."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["gotować", "to cook/boil"],
+                ["piec", "to bake"],
+                ["kroić", "to cut"],
+                ["przyprawiać", "to season"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["warzywa", "kroję", "i", "smażę", "je"],
+              "correct": ["Kroję", "warzywa", "i", "smażę", "je"],
+              "translation": "I cut the vegetables and fry them."
+            },
+            {
+              "type": "native_to_target",
+              "question": "Which verb means 'to season the food'?",
+              "options": ["przyprawiać jedzenie", "piec jedzenie", "kroić jedzenie", "gotować jedzenie"],
+              "correct": 0,
+              "explanation": "'Przyprawiać' means to add seasoning or spices to food."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Polish Cuisine",
+            "zh": "波兰美食",
+            "th": "อาหารโปแลนด์",
+            "ko": "폴란드 요리",
+            "es": "Cocina polaca"
+          },
+          "objectives": {
+            "en": ["Name traditional Polish dishes", "Describe popular Polish foods"],
+            "zh": ["说出传统波兰菜名", "描述流行的波兰食物"],
+            "th": ["พูดชื่ออาหารโปแลนด์ดั้งเดิม", "อธิบายอาหารโปแลนด์ยอดนิยม"],
+            "ko": ["전통 폴란드 음식 이름 말하기", "인기 있는 폴란드 음식 설명하기"],
+            "es": ["Nombrar platos tradicionales polacos", "Describir comidas polacas populares"]
+          },
+          "vocabulary": [
+            {
+              "word": "bigos",
+              "romanization": null,
+              "meanings": { "en": "bigos (hunter's stew with sauerkraut and meat)", "zh": "波兰炖菜", "th": "บิโกส (สตูว์โปแลนด์)", "ko": "비고스 (사냥꾼 스튜)", "es": "bigos (estofado de chucrut y carne)" }
+            },
+            {
+              "word": "pierogi",
+              "romanization": null,
+              "meanings": { "en": "pierogi (stuffed dumplings)", "zh": "波兰饺子", "th": "พิเอโรกี (เกี๊ยว)", "ko": "피에로기 (속 채운 만두)", "es": "pierogi (albóndigas rellenas)" }
+            },
+            {
+              "word": "żurek",
+              "romanization": null,
+              "meanings": { "en": "żurek (sour rye soup)", "zh": "酸黑麦汤", "th": "ซูเร็ค (ซุปข้าวไรย์เปรี้ยว)", "ko": "주렉 (사워 호밀 수프)", "es": "żurek (sopa ácida de centeno)" }
+            },
+            {
+              "word": "kiełbasa",
+              "romanization": null,
+              "meanings": { "en": "sausage", "zh": "香肠", "th": "ไส้กรอก", "ko": "소시지", "es": "salchicha/embutido" }
+            },
+            {
+              "word": "chleb",
+              "romanization": null,
+              "meanings": { "en": "bread", "zh": "面包", "th": "ขนมปัง", "ko": "빵", "es": "pan" }
+            },
+            {
+              "word": "tradycyjny",
+              "romanization": null,
+              "meanings": { "en": "traditional", "zh": "传统的", "th": "ดั้งเดิม", "ko": "전통적인", "es": "tradicional" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "What are 'pierogi'?",
+              "options": ["stuffed dumplings", "a type of sausage", "a sour soup", "a type of bread"],
+              "correct": 0,
+              "explanation": "'Pierogi' are traditional Polish stuffed dumplings, often filled with potato and cheese (ruskie), meat, or sauerkraut."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bigos",
+              "options": ["hunter's stew with sauerkraut and meat", "sour cream soup", "stuffed dumplings", "smoked sausage"],
+              "correct": 0,
+              "explanation": "'Bigos' is a hearty stew of various meats and shredded fresh or sauerkraut — the Polish national dish."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Pierogi to tradycyjne polskie danie.",
+              "options": ["Pierogi are a traditional Polish dish.", "Sausage is very popular in Poland.", "Polish bread is very delicious.", "Bigos is a hunter's stew."],
+              "correct": 0,
+              "explanation": "'Tradycyjne' = traditional, 'polskie danie' = Polish dish."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["pierogi", "stuffed dumplings"],
+                ["kiełbasa", "sausage"],
+                ["chleb", "bread"],
+                ["żurek", "sour rye soup"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["lubię", "pierogi", "i", "bigos"],
+              "correct": ["Lubię", "pierogi", "i", "bigos"],
+              "translation": "I like pierogi and bigos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Comprar comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Supermarket",
+            "zh": "在超市",
+            "th": "ที่ซูเปอร์มาร์เก็ต",
+            "ko": "슈퍼마켓에서",
+            "es": "En el supermercado"
+          },
+          "objectives": {
+            "en": ["Navigate a supermarket and find products", "Ask for help locating items"],
+            "zh": ["在超市找到产品", "询问如何找到商品"],
+            "th": ["เดินในซูเปอร์มาร์เก็ตและหาสินค้า", "ขอความช่วยเหลือในการหาสินค้า"],
+            "ko": ["슈퍼마켓에서 제품 찾기", "물건 찾는 데 도움 요청하기"],
+            "es": ["Orientarse en un supermercado", "Pedir ayuda para encontrar productos"]
+          },
+          "vocabulary": [
+            {
+              "word": "supermarket",
+              "romanization": null,
+              "meanings": { "en": "supermarket", "zh": "超市", "th": "ซูเปอร์มาร์เก็ต", "ko": "슈퍼마켓", "es": "supermercado" }
+            },
+            {
+              "word": "dział",
+              "romanization": null,
+              "meanings": { "en": "section/department", "zh": "区域/部门", "th": "แผนก", "ko": "코너/부서", "es": "sección" }
+            },
+            {
+              "word": "kasa",
+              "romanization": null,
+              "meanings": { "en": "checkout/cashier", "zh": "收银台", "th": "แคชเชียร์", "ko": "계산대", "es": "caja" }
+            },
+            {
+              "word": "promocja",
+              "romanization": null,
+              "meanings": { "en": "promotion/special offer", "zh": "促销/特价", "th": "โปรโมชั่น", "ko": "프로모션/특가", "es": "promoción/oferta" }
+            },
+            {
+              "word": "szukać",
+              "romanization": null,
+              "meanings": { "en": "to look for/search", "zh": "寻找", "th": "หา", "ko": "찾다", "es": "buscar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Where is the dairy section?'",
+              "options": ["Gdzie jest dział nabiałowy?", "Gdzie jest dział warzywny?", "Gdzie jest kasa?", "Gdzie jest wyjście?"],
+              "correct": 0,
+              "explanation": "'Dział nabiałowy' = dairy section. 'Nabiałowy' = relating to dairy products."
+            },
+            {
+              "type": "target_to_native",
+              "word": "promocja",
+              "options": ["promotion/special offer", "product", "price", "receipt"],
+              "correct": 0,
+              "explanation": "'Promocja' means promotion or special offer — look for this on Polish price tags."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["supermarket", "supermarket"],
+                ["kasa", "checkout"],
+                ["szukać", "to look for"],
+                ["dział", "section"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Przepraszam, gdzie mogę znaleźć dział piekarniczy?",
+              "options": ["Excuse me, where can I find the bakery section?", "Excuse me, where is the exit?", "Do you have this on offer?", "How much does this cost?"],
+              "correct": 0,
+              "explanation": "'Przepraszam' = excuse me, 'gdzie mogę znaleźć' = where can I find, 'dział piekarniczy' = bakery section."
+            },
+            {
+              "type": "reorder",
+              "words": ["supermarkecie", "świeżych", "warzyw", "szukam", "w"],
+              "correct": ["Szukam", "świeżych", "warzyw", "w", "supermarkecie"],
+              "translation": "I am looking for fresh vegetables in the supermarket."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at an open market", "Ask about prices and quantities"],
+            "zh": ["在露天市场购买食物", "询问价格和数量"],
+            "th": ["ซื้ออาหารที่ตลาดสด", "ถามราคาและจำนวน"],
+            "ko": ["야외 시장에서 음식 사기", "가격과 수량 물어보기"],
+            "es": ["Comprar comida en un mercado", "Preguntar precios y cantidades"]
+          },
+          "vocabulary": [
+            {
+              "word": "targ",
+              "romanization": null,
+              "meanings": { "en": "market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "mercado" }
+            },
+            {
+              "word": "kilogram",
+              "romanization": null,
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilogramo" }
+            },
+            {
+              "word": "tani",
+              "romanization": null,
+              "meanings": { "en": "cheap/affordable", "zh": "便宜", "th": "ราคาถูก", "ko": "저렴한", "es": "barato" }
+            },
+            {
+              "word": "drogi",
+              "romanization": null,
+              "meanings": { "en": "expensive", "zh": "贵", "th": "แพง", "ko": "비싼", "es": "caro" }
+            },
+            {
+              "word": "cena",
+              "romanization": null,
+              "meanings": { "en": "price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "precio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much does a kilo of apples cost?'",
+              "options": ["Ile kosztuje kilogram jabłek?", "Ile jabłek masz?", "Gdzie są jabłka?", "Czy jabłka są świeże?"],
+              "correct": 0,
+              "explanation": "'Ile kosztuje kilogram jabłek?' = How much does a kilogram of apples cost? 'Ile kosztuje' = how much does it cost."
+            },
+            {
+              "type": "target_to_native",
+              "word": "tani",
+              "options": ["cheap/affordable", "expensive", "fresh", "organic"],
+              "correct": 0,
+              "explanation": "'Tani' means cheap or affordable — opposite of 'drogi'."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Dwa kilogramy pomidorów kosztują pięć złotych.",
+              "options": ["Two kilograms of tomatoes cost five złoty.", "One kilo of apples costs two złoty.", "The tomatoes are very fresh today.", "The market closes at five."],
+              "correct": 0,
+              "explanation": "'Dwa kilogramy pomidorów' = two kilograms of tomatoes, 'kosztują' = cost, 'pięć złotych' = five złoty."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["targ", "market"],
+                ["cena", "price"],
+                ["drogi", "expensive"],
+                ["tani", "cheap"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["dwa", "kilogramy", "pomidorów", "poproszę"],
+              "correct": ["Poproszę", "dwa", "kilogramy", "pomidorów"],
+              "translation": "I'd like two kilograms of tomatoes."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Preferences & Diets",
+            "zh": "饮食偏好和饮食习惯",
+            "th": "ความชอบด้านอาหารและอาหารพิเศษ",
+            "ko": "음식 취향과 식이 요법",
+            "es": "Preferencias alimentarias y dietas"
+          },
+          "objectives": {
+            "en": ["Express food preferences and dietary needs", "Discuss allergies and restrictions"],
+            "zh": ["表达饮食偏好和需求", "讨论过敏和饮食限制"],
+            "th": ["แสดงความชอบและความต้องการด้านอาหาร", "พูดคุยเกี่ยวกับการแพ้และข้อจำกัด"],
+            "ko": ["음식 취향과 식이 요구 사항 표현하기", "알레르기와 제한 사항 이야기하기"],
+            "es": ["Expresar preferencias alimentarias", "Hablar de alergias y restricciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "wegetariański",
+              "romanization": null,
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식주의", "es": "vegetariano" }
+            },
+            {
+              "word": "alergia",
+              "romanization": null,
+              "meanings": { "en": "allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "alergia" }
+            },
+            {
+              "word": "bez glutenu",
+              "romanization": null,
+              "meanings": { "en": "gluten-free", "zh": "无麸质", "th": "ปราศจากกลูเตน", "ko": "글루텐 없이", "es": "sin gluten" }
+            },
+            {
+              "word": "pyszny",
+              "romanization": null,
+              "meanings": { "en": "delicious/tasty", "zh": "好吃", "th": "อร่อย", "ko": "맛있는", "es": "delicioso/sabroso" }
+            },
+            {
+              "word": "nie jem mięsa",
+              "romanization": null,
+              "meanings": { "en": "I don't eat meat", "zh": "我不吃肉", "th": "ฉันไม่กินเนื้อสัตว์", "ko": "저는 고기를 먹지 않아요", "es": "no como carne" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am vegetarian'?",
+              "options": ["Jestem wegetarianinem/wegetarianką.", "Nie lubię mięsa.", "Nie jem warzyw.", "Jem dużo mięsa."],
+              "correct": 0,
+              "explanation": "'Jestem wegetarianinem' (male) / 'Jestem wegetarianką' (female) = I am vegetarian."
+            },
+            {
+              "type": "target_to_native",
+              "word": "pyszny",
+              "options": ["delicious/tasty", "spicy", "sour", "bitter"],
+              "correct": 0,
+              "explanation": "'Pyszny' means delicious or tasty — a very common Polish compliment for food."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Mam alergię na orzechy.",
+              "options": ["I have a nut allergy.", "I don't like nuts.", "I am vegan.", "I can't eat dairy."],
+              "correct": 0,
+              "explanation": "'Mam alergię na' = I have an allergy to, 'orzechy' = nuts."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["wegetariański", "vegetarian"],
+                ["alergia", "allergy"],
+                ["bez glutenu", "gluten-free"],
+                ["pyszny", "delicious"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["wegetarianinem", "jestem", "i", "mięsa", "nie", "jem"],
+              "correct": ["Jestem", "wegetarianinem", "i", "nie", "jem", "mięsa"],
+              "translation": "I am a vegetarian and I don't eat meat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

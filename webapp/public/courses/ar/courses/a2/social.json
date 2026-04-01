@@ -1,0 +1,670 @@
+{
+  "lang": "ar",
+  "language": "ar",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Meeting People",
+        "zh": "结交朋友",
+        "th": "การพบปะผู้คน",
+        "ko": "사람 만나기",
+        "es": "Conocer a la gente"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Introductions",
+            "zh": "介绍",
+            "th": "การแนะนำตัว",
+            "ko": "소개",
+            "es": "Presentaciones"
+          },
+          "objectives": {
+            "en": ["Introduce yourself and others in Arabic", "Use social greetings"]
+          },
+          "vocabulary": [
+            {
+              "word": "تعريف",
+              "romanization": "ta'reef",
+              "meanings": { "en": "introduction", "zh": "介绍", "th": "การแนะนำตัว", "ko": "소개", "es": "presentación" }
+            },
+            {
+              "word": "تشرفنا",
+              "romanization": "tasharrafnaa",
+              "meanings": { "en": "nice to meet you / honored to meet you", "zh": "很荣幸认识你", "th": "ยินดีที่ได้รู้จัก", "ko": "만나서 영광입니다", "es": "encantado de conocerle" }
+            },
+            {
+              "word": "صديق",
+              "romanization": "sadeeq",
+              "meanings": { "en": "friend (male)", "zh": "朋友(男)", "th": "เพื่อน (ชาย)", "ko": "친구 (남)", "es": "amigo" }
+            },
+            {
+              "word": "جار",
+              "romanization": "jaar",
+              "meanings": { "en": "neighbor (male)", "zh": "邻居(男)", "th": "เพื่อนบ้าน (ชาย)", "ko": "이웃 (남)", "es": "vecino" }
+            },
+            {
+              "word": "زميل",
+              "romanization": "zameel",
+              "meanings": { "en": "colleague / classmate (male)", "zh": "同事/同学(男)", "th": "เพื่อนร่วมงาน/เพื่อนร่วมชั้น", "ko": "동료/급우 (남)", "es": "colega / compañero" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'friend' in Arabic?" },
+              "answer": "صديق",
+              "choices": ["صديق", "جار", "زميل", "تعريف"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'تشرفنا' (tasharrafnaa) mean?" },
+              "answer": "nice to meet you",
+              "choices": ["nice to meet you", "goodbye", "hello", "see you"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "تعريف", "native": "introduction" },
+                { "target": "صديق", "native": "friend" },
+                { "target": "جار", "native": "neighbor" },
+                { "target": "زميل", "native": "colleague" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Nice to meet you.'" },
+              "words": ["تشرفنا", "بمعرفتك"],
+              "answer": "تشرفنا بمعرفتك"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": ["Invite friends and respond to invitations in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "دعوة",
+              "romanization": "da'wa",
+              "meanings": { "en": "invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "invitación" }
+            },
+            {
+              "word": "موعد",
+              "romanization": "maw'id",
+              "meanings": { "en": "appointment / date / meeting", "zh": "约会/约定/会面", "th": "การนัดหมาย", "ko": "약속/만남", "es": "cita / reunión" }
+            },
+            {
+              "word": "قبول",
+              "romanization": "qabool",
+              "meanings": { "en": "acceptance", "zh": "接受", "th": "การยอมรับ", "ko": "수락", "es": "aceptación" }
+            },
+            {
+              "word": "رفض",
+              "romanization": "rafd",
+              "meanings": { "en": "refusal / decline", "zh": "拒绝", "th": "การปฏิเสธ", "ko": "거절", "es": "rechazo" }
+            },
+            {
+              "word": "متاح",
+              "romanization": "mutaah",
+              "meanings": { "en": "available / free", "zh": "有空的", "th": "ว่าง", "ko": "가능한/한가한", "es": "disponible / libre" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'invitation' in Arabic?" },
+              "answer": "دعوة",
+              "choices": ["دعوة", "موعد", "قبول", "رفض"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'متاح' (mutaah) mean?" },
+              "answer": "available",
+              "choices": ["available", "busy", "meeting", "invitation"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "دعوة", "native": "invitation" },
+                { "target": "موعد", "native": "appointment" },
+                { "target": "قبول", "native": "acceptance" },
+                { "target": "رفض", "native": "refusal" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you free on Friday?'" },
+              "words": ["هل", "أنت", "متاح", "يوم", "الجمعة"],
+              "answer": "هل أنت متاح يوم الجمعة"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Hobbies and Interests",
+            "zh": "爱好和兴趣",
+            "th": "งานอดิเรกและความสนใจ",
+            "ko": "취미와 관심사",
+            "es": "Pasatiempos e intereses"
+          },
+          "objectives": {
+            "en": ["Talk about hobbies in Arabic", "Ask about interests"]
+          },
+          "vocabulary": [
+            {
+              "word": "هواية",
+              "romanization": "hiwaaya",
+              "meanings": { "en": "hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "afición" }
+            },
+            {
+              "word": "رياضة",
+              "romanization": "riyaada",
+              "meanings": { "en": "sport", "zh": "运动", "th": "กีฬา", "ko": "스포츠", "es": "deporte" }
+            },
+            {
+              "word": "موسيقى",
+              "romanization": "mooseeqa",
+              "meanings": { "en": "music", "zh": "音乐", "th": "ดนตรี", "ko": "음악", "es": "música" }
+            },
+            {
+              "word": "قراءة",
+              "romanization": "qiraa'a",
+              "meanings": { "en": "reading", "zh": "阅读", "th": "การอ่าน", "ko": "독서", "es": "lectura" }
+            },
+            {
+              "word": "سينما",
+              "romanization": "seenimaa",
+              "meanings": { "en": "cinema / movies", "zh": "电影院/电影", "th": "โรงภาพยนตร์/ภาพยนตร์", "ko": "영화관/영화", "es": "cine / películas" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'music' in Arabic?" },
+              "answer": "موسيقى",
+              "choices": ["موسيقى", "رياضة", "قراءة", "سينما"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'هواية' (hiwaaya) mean?" },
+              "answer": "hobby",
+              "choices": ["hobby", "sport", "music", "reading"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "هواية", "native": "hobby" },
+                { "target": "رياضة", "native": "sport" },
+                { "target": "موسيقى", "native": "music" },
+                { "target": "قراءة", "native": "reading" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My hobby is reading books.'" },
+              "words": ["هوايتي", "هي", "قراءة", "الكتب"],
+              "answer": "هوايتي هي قراءة الكتب"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Social Events",
+        "zh": "社交活动",
+        "th": "งานสังสรรค์",
+        "ko": "사교 행사",
+        "es": "Eventos sociales"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Celebrations and Festivals",
+            "zh": "庆祝活动和节日",
+            "th": "การฉลองและเทศกาล",
+            "ko": "축하 행사와 축제",
+            "es": "Celebraciones y festivales"
+          },
+          "objectives": {
+            "en": ["Talk about Arab festivals and celebrations"]
+          },
+          "vocabulary": [
+            {
+              "word": "عيد",
+              "romanization": "'eed",
+              "meanings": { "en": "holiday / festival / Eid", "zh": "假日/节日/开斋节", "th": "วันหยุด/เทศกาล/อีด", "ko": "공휴일/축제/이드", "es": "fiesta / festival / Eid" }
+            },
+            {
+              "word": "مبروك",
+              "romanization": "mabrook",
+              "meanings": { "en": "congratulations / blessed", "zh": "恭喜/祝福", "th": "ยินดีด้วย/ขอบคุณ", "ko": "축하합니다/축복받은", "es": "felicidades / bendito" }
+            },
+            {
+              "word": "هدية",
+              "romanization": "hadiyya",
+              "meanings": { "en": "gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }
+            },
+            {
+              "word": "حفل",
+              "romanization": "hafl",
+              "meanings": { "en": "party / celebration event", "zh": "派对/庆典活动", "th": "งานปาร์ตี้/งานเฉลิมฉลอง", "ko": "파티/행사", "es": "fiesta / celebración" }
+            },
+            {
+              "word": "تهانيّ",
+              "romanization": "tahaanee",
+              "meanings": { "en": "congratulations / greetings (plural)", "zh": "祝贺/问候", "th": "คำอวยพร/ยินดีด้วย", "ko": "축하/인사", "es": "felicitaciones" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'gift' in Arabic?" },
+              "answer": "هدية",
+              "choices": ["هدية", "عيد", "حفل", "مبروك"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'مبروك' (mabrook) mean?" },
+              "answer": "congratulations",
+              "choices": ["congratulations", "goodbye", "welcome", "festival"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "عيد", "native": "festival/holiday" },
+                { "target": "مبروك", "native": "congratulations" },
+                { "target": "هدية", "native": "gift" },
+                { "target": "حفل", "native": "party" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Congratulations on your success!'" },
+              "words": ["مبروك", "على", "نجاحك"],
+              "answer": "مبروك على نجاحك"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "At a Gathering",
+            "zh": "在聚会上",
+            "th": "ที่งานสังสรรค์",
+            "ko": "모임에서",
+            "es": "En una reunión"
+          },
+          "objectives": {
+            "en": ["Socialize at gatherings in Arabic", "Use common expressions"]
+          },
+          "vocabulary": [
+            {
+              "word": "أهلاً وسهلاً",
+              "romanization": "ahlan wa-sahlan",
+              "meanings": { "en": "welcome (traditional greeting)", "zh": "欢迎(传统问候)", "th": "ยินดีต้อนรับ (คำทักทายแบบดั้งเดิม)", "ko": "환영합니다 (전통 인사)", "es": "bienvenido (saludo tradicional)" }
+            },
+            {
+              "word": "رقص",
+              "romanization": "raqs",
+              "meanings": { "en": "dance", "zh": "舞蹈", "th": "การเต้นรำ", "ko": "춤", "es": "baile" }
+            },
+            {
+              "word": "أغنية",
+              "romanization": "ughniyya",
+              "meanings": { "en": "song", "zh": "歌曲", "th": "เพลง", "ko": "노래", "es": "canción" }
+            },
+            {
+              "word": "متعة",
+              "romanization": "mut'a",
+              "meanings": { "en": "fun / enjoyment", "zh": "乐趣/享受", "th": "ความสนุก", "ko": "재미/즐거움", "es": "diversión" }
+            },
+            {
+              "word": "ضيافة",
+              "romanization": "diyaafa",
+              "meanings": { "en": "hospitality", "zh": "好客/款待", "th": "การต้อนรับขับสู้", "ko": "환대", "es": "hospitalidad" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'welcome' (traditional) in Arabic?" },
+              "answer": "أهلاً وسهلاً",
+              "choices": ["أهلاً وسهلاً", "رقص", "أغنية", "متعة"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'ضيافة' (diyaafa) mean?" },
+              "answer": "hospitality",
+              "choices": ["hospitality", "dance", "song", "fun"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "أهلاً وسهلاً", "native": "welcome" },
+                { "target": "رقص", "native": "dance" },
+                { "target": "أغنية", "native": "song" },
+                { "target": "متعة", "native": "fun" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We had a lot of fun at the party.'" },
+              "words": ["استمتعنا", "كثيراً", "في", "الحفل"],
+              "answer": "استمتعنا كثيراً في الحفل"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Weekend Activities",
+            "zh": "周末活动",
+            "th": "กิจกรรมวันหยุดสุดสัปดาห์",
+            "ko": "주말 활동",
+            "es": "Actividades del fin de semana"
+          },
+          "objectives": {
+            "en": ["Describe weekend activities in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "عطلة نهاية الأسبوع",
+              "romanization": "'utlat nihaayet al-usboo'",
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }
+            },
+            {
+              "word": "خروج",
+              "romanization": "khurooj",
+              "meanings": { "en": "going out / outing", "zh": "外出", "th": "การออกไป", "ko": "외출", "es": "salida" }
+            },
+            {
+              "word": "فيلم",
+              "romanization": "film",
+              "meanings": { "en": "movie / film", "zh": "电影", "th": "ภาพยนตร์", "ko": "영화", "es": "película" }
+            },
+            {
+              "word": "نزهة",
+              "romanization": "nuzha",
+              "meanings": { "en": "outing / picnic / walk", "zh": "郊游/野餐/散步", "th": "การออกไปเที่ยว/ปิกนิก", "ko": "나들이/소풍", "es": "excursión / paseo" }
+            },
+            {
+              "word": "مركز تسوق",
+              "romanization": "markaz tasawwuq",
+              "meanings": { "en": "shopping center / mall", "zh": "购物中心", "th": "ศูนย์การค้า", "ko": "쇼핑센터/몰", "es": "centro comercial" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'movie' in Arabic?" },
+              "answer": "فيلم",
+              "choices": ["فيلم", "نزهة", "خروج", "مركز تسوق"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'نزهة' (nuzha) mean?" },
+              "answer": "outing / picnic",
+              "choices": ["outing / picnic", "movie", "mall", "weekend"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "عطلة نهاية الأسبوع", "native": "weekend" },
+                { "target": "خروج", "native": "going out" },
+                { "target": "فيلم", "native": "movie" },
+                { "target": "نزهة", "native": "picnic/outing" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Last weekend we watched a movie.'" },
+              "words": ["في", "عطلة", "نهاية", "الأسبوع", "الماضي", "شاهدنا", "فيلماً"],
+              "answer": "في عطلة نهاية الأسبوع الماضي شاهدنا فيلماً"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community and Politeness",
+        "zh": "社区和礼貌",
+        "th": "ชุมชนและความสุภาพ",
+        "ko": "커뮤니티와 예의",
+        "es": "Comunidad y cortesía"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Family and Relatives",
+            "zh": "家庭和亲戚",
+            "th": "ครอบครัวและญาติ",
+            "ko": "가족과 친척",
+            "es": "Familia y parientes"
+          },
+          "objectives": {
+            "en": ["Describe extended family in Arabic", "Talk about relatives"]
+          },
+          "vocabulary": [
+            {
+              "word": "عم",
+              "romanization": "'amm",
+              "meanings": { "en": "paternal uncle", "zh": "叔叔/伯伯", "th": "ลุง (ฝ่ายพ่อ)", "ko": "친삼촌", "es": "tío paterno" }
+            },
+            {
+              "word": "خال",
+              "romanization": "khaal",
+              "meanings": { "en": "maternal uncle", "zh": "舅舅", "th": "น้าชาย (ฝ่ายแม่)", "ko": "외삼촌", "es": "tío materno" }
+            },
+            {
+              "word": "جد",
+              "romanization": "jadd",
+              "meanings": { "en": "grandfather", "zh": "祖父", "th": "ปู่/ตา", "ko": "할아버지", "es": "abuelo" }
+            },
+            {
+              "word": "ابن عم",
+              "romanization": "ibn 'amm",
+              "meanings": { "en": "cousin (paternal)", "zh": "堂兄弟", "th": "ลูกพี่ลูกน้อง (ฝ่ายพ่อ)", "ko": "사촌 (친가)", "es": "primo paterno" }
+            },
+            {
+              "word": "قريب",
+              "romanization": "qareeb",
+              "meanings": { "en": "relative / close one", "zh": "亲戚", "th": "ญาติ", "ko": "친척", "es": "pariente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'grandfather' in Arabic?" },
+              "answer": "جد",
+              "choices": ["جد", "عم", "خال", "قريب"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'خال' (khaal)?" },
+              "answer": "maternal uncle",
+              "choices": ["maternal uncle", "paternal uncle", "grandfather", "cousin"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "عم", "native": "paternal uncle" },
+                { "target": "خال", "native": "maternal uncle" },
+                { "target": "جد", "native": "grandfather" },
+                { "target": "قريب", "native": "relative" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My grandfather is very wise.'" },
+              "words": ["جدي", "حكيم", "جداً"],
+              "answer": "جدي حكيم جداً"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Polite Expressions",
+            "zh": "礼貌用语",
+            "th": "สำนวนที่สุภาพ",
+            "ko": "공손한 표현",
+            "es": "Expresiones de cortesía"
+          },
+          "objectives": {
+            "en": ["Use polite Arabic expressions", "Express gratitude and apology"]
+          },
+          "vocabulary": [
+            {
+              "word": "شكراً",
+              "romanization": "shukran",
+              "meanings": { "en": "thank you", "zh": "谢谢", "th": "ขอบคุณ", "ko": "감사합니다", "es": "gracias" }
+            },
+            {
+              "word": "عفواً",
+              "romanization": "'afwan",
+              "meanings": { "en": "you're welcome / excuse me / sorry", "zh": "不客气/对不起", "th": "ยินดี/ขอโทษ", "ko": "천만에요/실례합니다/죄송합니다", "es": "de nada / perdone" }
+            },
+            {
+              "word": "من فضلك",
+              "romanization": "min fadlik",
+              "meanings": { "en": "please (to male)", "zh": "请(对男性)", "th": "กรุณา (กับผู้ชาย)", "ko": "부탁합니다 (남성에게)", "es": "por favor (a hombre)" }
+            },
+            {
+              "word": "آسف",
+              "romanization": "aasif",
+              "meanings": { "en": "sorry (male speaking)", "zh": "对不起(男性说)", "th": "ขอโทษ (ผู้ชายพูด)", "ko": "미안합니다 (남성)", "es": "lo siento (hablante masculino)" }
+            },
+            {
+              "word": "مرحباً",
+              "romanization": "marhaban",
+              "meanings": { "en": "hello / welcome", "zh": "你好/欢迎", "th": "สวัสดี/ยินดีต้อนรับ", "ko": "안녕하세요/환영합니다", "es": "hola / bienvenido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'thank you' in Arabic?" },
+              "answer": "شكراً",
+              "choices": ["شكراً", "عفواً", "من فضلك", "مرحباً"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'عفواً' ('afwan) mean?" },
+              "answer": "you're welcome / excuse me",
+              "choices": ["you're welcome / excuse me", "please", "thank you", "sorry"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "شكراً", "native": "thank you" },
+                { "target": "عفواً", "native": "you're welcome" },
+                { "target": "من فضلك", "native": "please" },
+                { "target": "مرحباً", "native": "hello" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Thank you very much.'" },
+              "words": ["شكراً", "جزيلاً"],
+              "answer": "شكراً جزيلاً"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Social Media and Communication",
+            "zh": "社交媒体和通讯",
+            "th": "โซเชียลมีเดียและการสื่อสาร",
+            "ko": "소셜 미디어와 소통",
+            "es": "Redes sociales y comunicación"
+          },
+          "objectives": {
+            "en": ["Talk about social media in Arabic"]
+          },
+          "vocabulary": [
+            {
+              "word": "رسالة",
+              "romanization": "risaala",
+              "meanings": { "en": "message / letter", "zh": "消息/信", "th": "ข้อความ/จดหมาย", "ko": "메시지/편지", "es": "mensaje / carta" }
+            },
+            {
+              "word": "هاتف",
+              "romanization": "haatif",
+              "meanings": { "en": "phone / telephone", "zh": "电话", "th": "โทรศัพท์", "ko": "전화", "es": "teléfono" }
+            },
+            {
+              "word": "وسائل التواصل الاجتماعي",
+              "romanization": "wasaa'il at-tawaasul al-ijtimaa'ee",
+              "meanings": { "en": "social media", "zh": "社交媒体", "th": "โซเชียลมีเดีย", "ko": "소셜 미디어", "es": "redes sociales" }
+            },
+            {
+              "word": "منشور",
+              "romanization": "manshhoor",
+              "meanings": { "en": "post (social media)", "zh": "发帖", "th": "โพสต์", "ko": "게시물", "es": "publicación" }
+            },
+            {
+              "word": "تطبيق",
+              "romanization": "tatbeeq",
+              "meanings": { "en": "app / application", "zh": "应用程序", "th": "แอพพลิเคชัน", "ko": "앱", "es": "aplicación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'message' in Arabic?" },
+              "answer": "رسالة",
+              "choices": ["رسالة", "هاتف", "منشور", "تطبيق"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'تطبيق' (tatbeeq) mean?" },
+              "answer": "app",
+              "choices": ["app", "message", "post", "phone"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "رسالة", "native": "message" },
+                { "target": "هاتف", "native": "phone" },
+                { "target": "منشور", "native": "post" },
+                { "target": "تطبيق", "native": "app" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Send me a message later.'" },
+              "words": ["أرسل", "لي", "رسالة", "لاحقاً"],
+              "answer": "أرسل لي رسالة لاحقاً"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

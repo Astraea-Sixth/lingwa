@@ -1,0 +1,832 @@
+{
+  "lang": "nl",
+  "language": "nl",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting to Know Someone",
+        "zh": "了解某人",
+        "th": "การทำความรู้จักกับใครบางคน",
+        "ko": "누군가를 알아가기",
+        "es": "Conocer a alguien"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Meeting Someone New",
+            "zh": "认识新朋友",
+            "th": "การพบกับคนใหม่",
+            "ko": "새로운 사람 만나기",
+            "es": "Conocer a alguien nuevo"
+          },
+          "objectives": {
+            "en": ["Introduce yourself to someone you're interested in, in Dutch", "Ask basic personal questions to get to know someone"],
+            "zh": ["用荷兰语向感兴趣的人介绍自己", "用基本个人问题了解对方"],
+            "th": ["แนะนำตัวเองกับคนที่คุณสนใจเป็นภาษาดัตช์", "ถามคำถามส่วนตัวเบื้องต้นเพื่อทำความรู้จัก"],
+            "ko": ["네덜란드어로 관심 있는 사람에게 자기소개하기", "누군가를 알아가기 위해 기본적인 개인 질문 하기"],
+            "es": ["Presentarte a alguien que te interesa en neerlandés", "Hacer preguntas personales básicas para conocer a alguien"]
+          },
+          "vocabulary": [
+            {
+              "word": "ontmoeten",
+              "romanization": null,
+              "meanings": { "en": "to meet", "zh": "见面/认识", "th": "พบ/พบปะ", "ko": "만나다", "es": "conocer / encontrarse con" },
+              "gendered": null
+            },
+            {
+              "word": "hoe heet je?",
+              "romanization": null,
+              "meanings": { "en": "what is your name?", "zh": "你叫什么名字？", "th": "คุณชื่ออะไร?", "ko": "이름이 뭐예요?", "es": "¿cómo te llamas?" },
+              "gendered": null
+            },
+            {
+              "word": "waar kom je vandaan?",
+              "romanization": null,
+              "meanings": { "en": "where are you from?", "zh": "你来自哪里？", "th": "คุณมาจากไหน?", "ko": "어디서 오셨어요?", "es": "¿de dónde eres?" },
+              "gendered": null
+            },
+            {
+              "word": "leeftijd",
+              "romanization": null,
+              "meanings": { "en": "age", "zh": "年龄", "th": "อายุ", "ko": "나이", "es": "edad" },
+              "gendered": "de"
+            },
+            {
+              "word": "interesse",
+              "romanization": null,
+              "meanings": { "en": "interest", "zh": "兴趣", "th": "ความสนใจ", "ko": "관심사", "es": "interés" },
+              "gendered": "de"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask someone's name in Dutch?",
+              "options": ["Hoe heet je?", "Waar woon je?", "Hoe oud ben je?", "Wat doe je?"],
+              "correct": 0,
+              "explanation": "'Hoe heet je?' = What is your name? (informal). Formally: 'Hoe heet u?'"
+            },
+            {
+              "type": "target_to_native",
+              "word": "ontmoeten",
+              "options": ["to meet", "to call", "to invite", "to like"],
+              "correct": 0,
+              "explanation": "'Ontmoeten' means to meet or encounter someone."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Waar kom je vandaan? Ik kom uit Amsterdam.",
+              "options": ["Where are you from? I am from Amsterdam.", "Where do you live? I live in Amsterdam.", "What is your name? My name is Amsterdam.", "How old are you? I am from the Netherlands."],
+              "correct": 0,
+              "explanation": "'Waar kom je vandaan?' = Where are you from? 'Ik kom uit' = I am from."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ontmoeten", "to meet"],
+                ["leeftijd", "age"],
+                ["interesse", "interest"],
+                ["hoe heet je?", "what is your name?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vandaan?", "je", "waar", "kom"],
+              "correct": ["Waar", "kom", "je", "vandaan"],
+              "translation": "Where are you from?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Compliments",
+            "zh": "赞美",
+            "th": "การให้คำชม",
+            "ko": "칭찬하기",
+            "es": "Cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments in Dutch", "Respond to a compliment gracefully"],
+            "zh": ["用荷兰语给予和接受赞美", "优雅地回应赞美"],
+            "th": ["ให้และรับคำชมเป็นภาษาดัตช์", "ตอบสนองต่อคำชมอย่างสง่างาม"],
+            "ko": ["네덜란드어로 칭찬하고 받기", "칭찬에 우아하게 응답하기"],
+            "es": ["Hacer y recibir cumplidos en neerlandés", "Responder a un cumplido con elegancia"]
+          },
+          "vocabulary": [
+            {
+              "word": "knap",
+              "romanization": null,
+              "meanings": { "en": "handsome / pretty / clever", "zh": "英俊/漂亮", "th": "หล่อ/สวย/เก่ง", "ko": "잘생긴/예쁜/똑똑한", "es": "guapo / bonito / listo" },
+              "gendered": null
+            },
+            {
+              "word": "aardig",
+              "romanization": null,
+              "meanings": { "en": "nice / kind", "zh": "友善/善良", "th": "ดี/ใจดี", "ko": "친절한/좋은", "es": "amable / simpático" },
+              "gendered": null
+            },
+            {
+              "word": "je ziet er goed uit",
+              "romanization": null,
+              "meanings": { "en": "you look good", "zh": "你看起来很好", "th": "คุณดูดีมาก", "ko": "당신은 멋져 보여요", "es": "tienes buen aspecto" },
+              "gendered": null
+            },
+            {
+              "word": "wat lief",
+              "romanization": null,
+              "meanings": { "en": "how sweet / how kind", "zh": "真甜/真好", "th": "น่ารักมาก/ดีมาก", "ko": "정말 다정하네요", "es": "qué amable / qué dulce" },
+              "gendered": null
+            },
+            {
+              "word": "bedankt",
+              "romanization": null,
+              "meanings": { "en": "thanks", "zh": "谢谢", "th": "ขอบคุณ", "ko": "고마워요", "es": "gracias" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You look good' in Dutch?",
+              "options": ["Je ziet er goed uit.", "Je bent aardig.", "Wat lief van je.", "Je bent erg knap."],
+              "correct": 0,
+              "explanation": "'Je ziet er goed uit' = You look good. 'Ziet er...uit' is the separable verb 'eruitzien' (to look/appear)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "aardig",
+              "options": ["nice / kind", "handsome", "smart", "funny"],
+              "correct": 0,
+              "explanation": "'Aardig' means nice or kind — a common positive personality trait in Dutch."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wat lief van je, bedankt!",
+              "options": ["How sweet of you, thanks!", "You look very good today!", "Thank you, you are kind.", "You are a very nice person."],
+              "correct": 0,
+              "explanation": "'Wat lief van je' = How sweet/kind of you. It's a warm response to receiving something nice."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["knap", "handsome / pretty"],
+                ["aardig", "nice / kind"],
+                ["bedankt", "thanks"],
+                ["wat lief", "how sweet / kind"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["goed", "ziet", "je", "er", "uit"],
+              "correct": ["Je", "ziet", "er", "goed", "uit"],
+              "translation": "You look good."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感受",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings and emotions in Dutch", "Say whether you like or are attracted to someone"],
+            "zh": ["用荷兰语表达浪漫感受和情感", "表达对某人的喜欢或吸引"],
+            "th": ["แสดงความรู้สึกโรแมนติกและอารมณ์เป็นภาษาดัตช์", "บอกว่าคุณชอบหรือสนใจใครบางคน"],
+            "ko": ["네덜란드어로 연애 감정과 감정 표현하기", "누군가를 좋아하거나 끌린다고 말하기"],
+            "es": ["Expresar sentimientos románticos y emociones en neerlandés", "Decir si alguien te gusta o te atrae"]
+          },
+          "vocabulary": [
+            {
+              "word": "leuk vinden",
+              "romanization": null,
+              "meanings": { "en": "to like / to find nice", "zh": "喜欢", "th": "ชอบ", "ko": "좋아하다", "es": "gustar / encontrar agradable" },
+              "gendered": null
+            },
+            {
+              "word": "verliefd",
+              "romanization": null,
+              "meanings": { "en": "in love", "zh": "恋爱中", "th": "ตกหลุมรัก", "ko": "사랑에 빠진", "es": "enamorado" },
+              "gendered": null
+            },
+            {
+              "word": "zenuwachtig",
+              "romanization": null,
+              "meanings": { "en": "nervous", "zh": "紧张的", "th": "กังวล/ประหม่า", "ko": "긴장한", "es": "nervioso" },
+              "gendered": null
+            },
+            {
+              "word": "blij",
+              "romanization": null,
+              "meanings": { "en": "happy / glad", "zh": "开心/高兴", "th": "มีความสุข/ดีใจ", "ko": "행복한/기쁜", "es": "feliz / contento" },
+              "gendered": null
+            },
+            {
+              "word": "ik mis je",
+              "romanization": null,
+              "meanings": { "en": "I miss you", "zh": "我想你", "th": "ฉันคิดถึงคุณ", "ko": "보고 싶어요", "es": "te echo de menos" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I like you' in Dutch?",
+              "options": ["Ik vind je leuk.", "Ik houd van je.", "Ik mis je.", "Ik ben verliefd."],
+              "correct": 0,
+              "explanation": "'Ik vind je leuk' = I like you (romantic interest). 'Ik houd van je' = I love you (stronger, established relationship)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "verliefd",
+              "options": ["in love", "happy", "nervous", "lonely"],
+              "correct": 0,
+              "explanation": "'Verliefd' means in love or infatuated — 'ik ben verliefd op je' = I am in love with you."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik ben een beetje zenuwachtig, maar ik vind je heel leuk.",
+              "options": ["I am a little nervous, but I really like you.", "I am very happy to see you here.", "I missed you so much this week.", "I am in love and very happy."],
+              "correct": 0,
+              "explanation": "'Een beetje zenuwachtig' = a little nervous, 'ik vind je heel leuk' = I really like you."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["leuk vinden", "to like"],
+                ["verliefd", "in love"],
+                ["zenuwachtig", "nervous"],
+                ["blij", "happy"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["leuk", "vind", "ik", "je"],
+              "correct": ["Ik", "vind", "je", "leuk"],
+              "translation": "I like you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Dating",
+        "zh": "约会",
+        "th": "การออกเดท",
+        "ko": "데이트",
+        "es": "Citas románticas"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀请约会",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Dutch", "Accept or politely decline a date invitation"],
+            "zh": ["用荷兰语邀请约会", "接受或礼貌拒绝约会邀请"],
+            "th": ["ชวนคนออกเดทเป็นภาษาดัตช์", "ตอบรับหรือปฏิเสธคำเชิญออกเดทอย่างสุภาพ"],
+            "ko": ["네덜란드어로 데이트 신청하기", "데이트 초대를 수락하거나 정중히 거절하기"],
+            "es": ["Invitar a alguien a salir en neerlandés", "Aceptar o rechazar educadamente una invitación a una cita"]
+          },
+          "vocabulary": [
+            {
+              "word": "afspraakje",
+              "romanization": null,
+              "meanings": { "en": "date (romantic appointment)", "zh": "约会", "th": "การนัดเดท", "ko": "데이트 약속", "es": "cita romántica" },
+              "gendered": "het"
+            },
+            {
+              "word": "samen",
+              "romanization": null,
+              "meanings": { "en": "together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "juntos" },
+              "gendered": null
+            },
+            {
+              "word": "romantisch",
+              "romanization": null,
+              "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "낭만적인", "es": "romántico" },
+              "gendered": null
+            },
+            {
+              "word": "uitgaan met",
+              "romanization": null,
+              "meanings": { "en": "to go out with / to date (someone)", "zh": "和…约会/交往", "th": "ออกไปกับ/คบกับ", "ko": "~와 사귀다/데이트하다", "es": "salir con / quedar con" },
+              "gendered": null
+            },
+            {
+              "word": "misschien",
+              "romanization": null,
+              "meanings": { "en": "maybe / perhaps", "zh": "也许/可能", "th": "บางที/อาจจะ", "ko": "아마도/혹시", "es": "quizás / tal vez" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to go out with me?'",
+              "options": ["Wil je met mij uitgaan?", "Heb je een afspraakje?", "Ben je verliefd op mij?", "Ga je samen met mij?"],
+              "correct": 0,
+              "explanation": "'Wil je met mij uitgaan?' = Would you like to go out with me? This can mean for a date or as a romantic partner."
+            },
+            {
+              "type": "target_to_native",
+              "word": "afspraakje",
+              "options": ["date (romantic appointment)", "meeting at work", "party", "appointment with a doctor"],
+              "correct": 0,
+              "explanation": "'Afspraakje' (diminutive of 'afspraak') specifically refers to a romantic date in this context."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Misschien kunnen we samen iets drinken?",
+              "options": ["Maybe we can have a drink together?", "Perhaps we can go on a date?", "Would you like to go to a restaurant?", "Maybe we can watch a film?"],
+              "correct": 0,
+              "explanation": "'Misschien kunnen we samen iets drinken?' = Maybe we can have a drink together? A common casual way to suggest a date."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["afspraakje", "romantic date"],
+                ["samen", "together"],
+                ["romantisch", "romantic"],
+                ["misschien", "maybe"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["mij", "uitgaan?", "je", "wil", "met"],
+              "correct": ["Wil", "je", "met", "mij", "uitgaan"],
+              "translation": "Would you like to go out with me?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "On a Date",
+            "zh": "约会中",
+            "th": "ระหว่างเดท",
+            "ko": "데이트 중에",
+            "es": "En una cita"
+          },
+          "objectives": {
+            "en": ["Make conversation on a date in Dutch", "Describe your likes, dislikes, and personality"],
+            "zh": ["用荷兰语在约会中交流", "描述你的喜好和个性"],
+            "th": ["สนทนาระหว่างออกเดทเป็นภาษาดัตช์", "อธิบายสิ่งที่ชอบ ไม่ชอบ และบุคลิกภาพ"],
+            "ko": ["네덜란드어로 데이트 중 대화하기", "좋아하는 것, 싫어하는 것, 성격 설명하기"],
+            "es": ["Conversar en una cita en neerlandés", "Describir tus gustos, disgustos y personalidad"]
+          },
+          "vocabulary": [
+            {
+              "word": "houden van",
+              "romanization": null,
+              "meanings": { "en": "to love / to be fond of", "zh": "喜爱/热爱", "th": "รัก/ชื่นชอบ", "ko": "사랑하다/좋아하다", "es": "amar / gustar mucho" },
+              "gendered": null
+            },
+            {
+              "word": "grappig",
+              "romanization": null,
+              "meanings": { "en": "funny / amusing", "zh": "有趣/幽默", "th": "ตลก/น่าขบขัน", "ko": "웃긴/재미있는", "es": "gracioso / divertido" },
+              "gendered": null
+            },
+            {
+              "word": "eerlijk",
+              "romanization": null,
+              "meanings": { "en": "honest", "zh": "诚实的", "th": "ซื่อสัตย์", "ko": "정직한", "es": "honesto" },
+              "gendered": null
+            },
+            {
+              "word": "avontuurlijk",
+              "romanization": null,
+              "meanings": { "en": "adventurous", "zh": "爱冒险的", "th": "ชอบผจญภัย", "ko": "모험적인", "es": "aventurero" },
+              "gendered": null
+            },
+            {
+              "word": "gemeenschappelijk",
+              "romanization": null,
+              "meanings": { "en": "in common / shared", "zh": "共同的", "th": "ที่มีร่วมกัน", "ko": "공통의/공유된", "es": "en común / compartido" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I love travelling'?",
+              "options": ["Ik hou van reizen.", "Ik vind reizen leuk.", "Ik reis graag.", "Ik houd niet van reizen."],
+              "correct": 0,
+              "explanation": "'Ik hou van reizen' = I love travelling. 'Houden van' expresses a strong liking or love for an activity."
+            },
+            {
+              "type": "target_to_native",
+              "word": "grappig",
+              "options": ["funny / amusing", "kind", "clever", "romantic"],
+              "correct": 0,
+              "explanation": "'Grappig' means funny or amusing — describing someone with a good sense of humour."
+            },
+            {
+              "type": "listening",
+              "audio_text": "We hebben veel gemeenschappelijk, ik vind dat leuk.",
+              "options": ["We have a lot in common, I like that.", "We are very different from each other.", "I love spending time with you.", "We share the same interests."],
+              "correct": 0,
+              "explanation": "'We hebben veel gemeenschappelijk' = We have a lot in common. 'Ik vind dat leuk' = I like that."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["houden van", "to love / be fond of"],
+                ["grappig", "funny"],
+                ["eerlijk", "honest"],
+                ["avontuurlijk", "adventurous"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["van", "ik", "reizen", "hou"],
+              "correct": ["Ik", "hou", "van", "reizen"],
+              "translation": "I love travelling."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Relationships",
+            "zh": "恋爱关系",
+            "th": "ความสัมพันธ์",
+            "ko": "연인 관계",
+            "es": "Relaciones sentimentales"
+          },
+          "objectives": {
+            "en": ["Talk about relationship status in Dutch", "Describe a partner and a relationship"],
+            "zh": ["用荷兰语谈论恋爱状态", "描述伴侣和恋爱关系"],
+            "th": ["พูดเกี่ยวกับสถานะความสัมพันธ์เป็นภาษาดัตช์", "อธิบายคู่รักและความสัมพันธ์"],
+            "ko": ["네덜란드어로 연애 상태 이야기하기", "파트너와 관계 설명하기"],
+            "es": ["Hablar del estado sentimental en neerlandés", "Describir a una pareja y una relación"]
+          },
+          "vocabulary": [
+            {
+              "word": "vriend / vriendin",
+              "romanization": null,
+              "meanings": { "en": "boyfriend / girlfriend", "zh": "男友/女友", "th": "แฟนชาย/แฟนหญิง", "ko": "남자친구/여자친구", "es": "novio / novia" },
+              "gendered": null
+            },
+            {
+              "word": "samen zijn",
+              "romanization": null,
+              "meanings": { "en": "to be together / in a relationship", "zh": "在一起（恋爱关系）", "th": "อยู่ด้วยกัน/คบกัน", "ko": "사귀다/함께하다", "es": "estar juntos / estar en pareja" },
+              "gendered": null
+            },
+            {
+              "word": "single",
+              "romanization": null,
+              "meanings": { "en": "single", "zh": "单身", "th": "โสด", "ko": "싱글/미혼", "es": "soltero" },
+              "gendered": null
+            },
+            {
+              "word": "relatie",
+              "romanization": null,
+              "meanings": { "en": "relationship", "zh": "关系/恋爱关系", "th": "ความสัมพันธ์", "ko": "연애 관계", "es": "relación" },
+              "gendered": "de"
+            },
+            {
+              "word": "ik hou van je",
+              "romanization": null,
+              "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "사랑해요", "es": "te quiero / te amo" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a boyfriend / girlfriend'?",
+              "options": ["Ik heb een vriend / vriendin.", "Ik ben verliefd.", "Ik ben single.", "Ik ben samen met iemand."],
+              "correct": 0,
+              "explanation": "'Ik heb een vriend' (m) / 'Ik heb een vriendin' (f) = I have a boyfriend / girlfriend. Note: 'vriend' also means male friend, context makes it clear."
+            },
+            {
+              "type": "target_to_native",
+              "word": "relatie",
+              "options": ["relationship", "friendship", "marriage", "date"],
+              "correct": 0,
+              "explanation": "'Relatie' means relationship — both in the sense of a romantic relationship and other types."
+            },
+            {
+              "type": "listening",
+              "audio_text": "We zijn al twee jaar samen.",
+              "options": ["We have been together for two years.", "We met two years ago.", "We got married two years ago.", "We have been friends for two years."],
+              "correct": 0,
+              "explanation": "'We zijn al twee jaar samen' = We have been together for two years. 'Al' = already/for (with time expressions)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["vriend / vriendin", "boyfriend / girlfriend"],
+                ["single", "single"],
+                ["relatie", "relationship"],
+                ["ik hou van je", "I love you"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["samen", "zijn", "we", "twee", "al", "jaar"],
+              "correct": ["We", "zijn", "al", "twee", "jaar", "samen"],
+              "translation": "We have been together for two years."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Love & Commitment",
+        "zh": "爱情与承诺",
+        "th": "ความรักและความมุ่งมั่น",
+        "ko": "사랑과 헌신",
+        "es": "Amor y compromiso"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Talking About the Future",
+            "zh": "谈论未来",
+            "th": "การพูดคุยเกี่ยวกับอนาคต",
+            "ko": "미래에 대해 이야기하기",
+            "es": "Hablar del futuro"
+          },
+          "objectives": {
+            "en": ["Talk about future plans with a partner in Dutch", "Express hopes and dreams in a relationship"],
+            "zh": ["用荷兰语与伴侣谈论未来计划", "在恋爱关系中表达希望和梦想"],
+            "th": ["พูดเกี่ยวกับแผนในอนาคตกับคู่รักเป็นภาษาดัตช์", "แสดงความหวังและความฝันในความสัมพันธ์"],
+            "ko": ["네덜란드어로 파트너와 미래 계획 이야기하기", "연인 관계에서 희망과 꿈 표현하기"],
+            "es": ["Hablar de planes de futuro con tu pareja en neerlandés", "Expresar esperanzas y sueños en una relación"]
+          },
+          "vocabulary": [
+            {
+              "word": "toekomst",
+              "romanization": null,
+              "meanings": { "en": "future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "futuro" },
+              "gendered": "de"
+            },
+            {
+              "word": "trouwen",
+              "romanization": null,
+              "meanings": { "en": "to get married / to marry", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "casarse" },
+              "gendered": null
+            },
+            {
+              "word": "samenwonen",
+              "romanization": null,
+              "meanings": { "en": "to live together / to cohabit", "zh": "同居", "th": "อยู่ด้วยกัน/อยู่ร่วมกัน", "ko": "동거하다", "es": "convivir / vivir juntos" },
+              "gendered": null
+            },
+            {
+              "word": "dromen",
+              "romanization": null,
+              "meanings": { "en": "to dream", "zh": "梦想", "th": "ฝัน", "ko": "꿈꾸다", "es": "soñar" },
+              "gendered": null
+            },
+            {
+              "word": "hoop",
+              "romanization": null,
+              "meanings": { "en": "hope", "zh": "希望", "th": "ความหวัง", "ko": "희망", "es": "esperanza" },
+              "gendered": "de"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to get married one day'?",
+              "options": ["Ik wil ooit trouwen.", "Ik wil samenwonen.", "Ik droom van de toekomst.", "Ik hoop op een relatie."],
+              "correct": 0,
+              "explanation": "'Ik wil ooit trouwen' = I would like to get married one day. 'Ooit' = one day / someday / ever."
+            },
+            {
+              "type": "target_to_native",
+              "word": "samenwonen",
+              "options": ["to live together / cohabit", "to get married", "to move abroad", "to travel together"],
+              "correct": 0,
+              "explanation": "'Samenwonen' means to live together. In the Netherlands cohabitation before or instead of marriage is very common."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik hoop dat we samen een mooie toekomst hebben.",
+              "options": ["I hope that we have a beautiful future together.", "I dream of living together one day.", "We are planning to get married next year.", "The future is something we should talk about."],
+              "correct": 0,
+              "explanation": "'Ik hoop dat' = I hope that, 'een mooie toekomst hebben' = have a beautiful future."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["toekomst", "future"],
+                ["trouwen", "to get married"],
+                ["samenwonen", "to live together"],
+                ["hoop", "hope"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ooit", "ik", "trouwen", "wil"],
+              "correct": ["Ik", "wil", "ooit", "trouwen"],
+              "translation": "I would like to get married one day."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Disagreements & Making Up",
+            "zh": "争吵与和好",
+            "th": "การขัดแย้งและการคืนดี",
+            "ko": "의견 충돌과 화해",
+            "es": "Desacuerdos y reconciliación"
+          },
+          "objectives": {
+            "en": ["Handle a simple disagreement in Dutch", "Apologise and make up after an argument"],
+            "zh": ["用荷兰语处理简单的意见分歧", "在争吵后道歉并和好"],
+            "th": ["จัดการกับความขัดแย้งง่ายๆ เป็นภาษาดัตช์", "ขอโทษและคืนดีหลังจากการทะเลาะ"],
+            "ko": ["네덜란드어로 간단한 의견 충돌 처리하기", "다툼 후 사과하고 화해하기"],
+            "es": ["Manejar un desacuerdo sencillo en neerlandés", "Pedir disculpas y reconciliarse tras una discusión"]
+          },
+          "vocabulary": [
+            {
+              "word": "ruzie",
+              "romanization": null,
+              "meanings": { "en": "argument / quarrel", "zh": "争吵", "th": "การทะเลาะ", "ko": "다툼/口싸움", "es": "discusión / pelea" },
+              "gendered": "de"
+            },
+            {
+              "word": "het spijt me",
+              "romanization": null,
+              "meanings": { "en": "I am sorry", "zh": "我很抱歉", "th": "ฉันขอโทษ", "ko": "미안해요", "es": "lo siento" },
+              "gendered": null
+            },
+            {
+              "word": "vergeven",
+              "romanization": null,
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" },
+              "gendered": null
+            },
+            {
+              "word": "begrijpen",
+              "romanization": null,
+              "meanings": { "en": "to understand", "zh": "理解", "th": "เข้าใจ", "ko": "이해하다", "es": "entender / comprender" },
+              "gendered": null
+            },
+            {
+              "word": "praten over",
+              "romanization": null,
+              "meanings": { "en": "to talk about", "zh": "谈论", "th": "พูดคุยเกี่ยวกับ", "ko": "~에 대해 이야기하다", "es": "hablar de / hablar sobre" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am sorry' sincerely in Dutch?",
+              "options": ["Het spijt me.", "Sorry.", "Excuseer me.", "Neem me niet kwalijk."],
+              "correct": 0,
+              "explanation": "'Het spijt me' = I am sorry (expressing genuine regret). 'Sorry' is also common but more casual."
+            },
+            {
+              "type": "target_to_native",
+              "word": "vergeven",
+              "options": ["to forgive", "to argue", "to understand", "to apologise"],
+              "correct": 0,
+              "explanation": "'Vergeven' means to forgive — 'kun je me vergeven?' = can you forgive me?"
+            },
+            {
+              "type": "listening",
+              "audio_text": "Kunnen we erover praten? Het spijt me echt.",
+              "options": ["Can we talk about it? I am truly sorry.", "Can you forgive me? I was wrong.", "Let us talk about our relationship.", "I am sorry, I did not understand you."],
+              "correct": 0,
+              "explanation": "'Kunnen we erover praten?' = Can we talk about it? 'Het spijt me echt' = I am truly sorry."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ruzie", "argument / quarrel"],
+                ["het spijt me", "I am sorry"],
+                ["vergeven", "to forgive"],
+                ["begrijpen", "to understand"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["spijt", "me", "echt", "het"],
+              "correct": ["Het", "spijt", "me", "echt"],
+              "translation": "I am truly sorry."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Saying 'I Love You'",
+            "zh": "说"我爱你"",
+            "th": "การบอกว่า 'ฉันรักคุณ'",
+            "ko": "'사랑해' 말하기",
+            "es": "Decir 'Te quiero'"
+          },
+          "objectives": {
+            "en": ["Express deep affection and love in Dutch", "Understand different levels of expressing love in Dutch"],
+            "zh": ["用荷兰语表达深厚的感情和爱意", "了解荷兰语中表达爱的不同层次"],
+            "th": ["แสดงความรักและความผูกพันลึกๆ เป็นภาษาดัตช์", "เข้าใจระดับต่างๆ ของการแสดงความรักในภาษาดัตช์"],
+            "ko": ["네덜란드어로 깊은 애정과 사랑 표현하기", "네덜란드어에서 사랑 표현의 다양한 수준 이해하기"],
+            "es": ["Expresar afecto profundo y amor en neerlandés", "Entender los distintos niveles de expresión del amor en neerlandés"]
+          },
+          "vocabulary": [
+            {
+              "word": "liefde",
+              "romanization": null,
+              "meanings": { "en": "love", "zh": "爱情", "th": "ความรัก", "ko": "사랑", "es": "amor" },
+              "gendered": "de"
+            },
+            {
+              "word": "ik hou van je",
+              "romanization": null,
+              "meanings": { "en": "I love you (everyday)", "zh": "我爱你（日常）", "th": "ฉันรักคุณ (ทั่วไป)", "ko": "사랑해 (일상적)", "es": "te quiero (cotidiano)" },
+              "gendered": null
+            },
+            {
+              "word": "ik hou zielsveel van je",
+              "romanization": null,
+              "meanings": { "en": "I love you with all my heart / I love you dearly", "zh": "我全心全意爱你", "th": "ฉันรักคุณสุดหัวใจ", "ko": "온 마음으로 사랑해", "es": "te amo con todo mi corazón" },
+              "gendered": null
+            },
+            {
+              "word": "voor altijd",
+              "romanization": null,
+              "meanings": { "en": "forever", "zh": "永远", "th": "ตลอดไป/นิรันดร์", "ko": "영원히", "es": "para siempre" },
+              "gendered": null
+            },
+            {
+              "word": "speciaal",
+              "romanization": null,
+              "meanings": { "en": "special", "zh": "特别的", "th": "พิเศษ", "ko": "특별한", "es": "especial" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I love you' in Dutch?",
+              "options": ["Ik hou van je.", "Ik vind je leuk.", "Ik mis je.", "Ik ben verliefd op je."],
+              "correct": 0,
+              "explanation": "'Ik hou van je' = I love you. It is the standard everyday expression of love between partners."
+            },
+            {
+              "type": "target_to_native",
+              "word": "voor altijd",
+              "options": ["forever", "for now", "one day", "together"],
+              "correct": 0,
+              "explanation": "'Voor altijd' means forever — used in declarations of enduring love."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Je bent heel speciaal voor mij, ik hou van je.",
+              "options": ["You are very special to me, I love you.", "I love you and I miss you so much.", "You are the most special person I know.", "I have loved you from the very beginning."],
+              "correct": 0,
+              "explanation": "'Je bent heel speciaal voor mij' = You are very special to me. 'Ik hou van je' = I love you."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["liefde", "love"],
+                ["ik hou van je", "I love you"],
+                ["voor altijd", "forever"],
+                ["speciaal", "special"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["van", "ik", "je", "hou"],
+              "correct": ["Ik", "hou", "van", "je"],
+              "translation": "I love you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

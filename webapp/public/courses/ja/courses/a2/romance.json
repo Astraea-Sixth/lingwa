@@ -1,0 +1,787 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Dating Vocabulary",
+        "zh": "约会词汇",
+        "th": "คำศัพท์การออกเดท",
+        "ko": "데이트 어휘",
+        "es": "Vocabulario de citas"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "First Meetings",
+            "zh": "初次见面",
+            "th": "การพบครั้งแรก",
+            "ko": "첫 만남",
+            "es": "Primeros encuentros"
+          },
+          "objectives": {
+            "en": ["Introduce yourself in a romantic context", "Express interest in someone you've just met"],
+            "zh": ["在恋爱情境中介绍自己", "表达对刚认识的人的兴趣"],
+            "th": ["แนะนำตัวเองในบริบทความรัก", "แสดงความสนใจต่อคนที่เพิ่งพบ"],
+            "ko": ["연애 상황에서 자기소개 하기", "방금 만난 사람에게 관심 표현하기"],
+            "es": ["Presentarte en un contexto romántico", "Expresar interés por alguien que acabas de conocer"]
+          },
+          "vocabulary": [
+            {
+              "word": "すきです",
+              "romanization": "suki desu",
+              "meanings": { "en": "I like you / I love you", "zh": "我喜欢你", "th": "ฉันชอบคุณ", "ko": "좋아해요", "es": "me gustas / te quiero" }
+            },
+            {
+              "word": "デート",
+              "romanization": "deeto",
+              "meanings": { "en": "date (romantic outing)", "zh": "约会", "th": "เดท", "ko": "데이트", "es": "cita romántica" }
+            },
+            {
+              "word": "はじめてあいましたね",
+              "romanization": "hajimete aimashita ne",
+              "meanings": { "en": "we're meeting for the first time, aren't we", "zh": "我们是第一次见面吧", "th": "เราเจอกันครั้งแรกใช่ไหม", "ko": "처음 만나는 거죠", "es": "es la primera vez que nos vemos, ¿verdad?" }
+            },
+            {
+              "word": "れんらくさき",
+              "romanization": "renraku saki",
+              "meanings": { "en": "contact information", "zh": "联系方式", "th": "ข้อมูลการติดต่อ", "ko": "연락처", "es": "información de contacto" }
+            },
+            {
+              "word": "またあいたいです",
+              "romanization": "mata aitai desu",
+              "meanings": { "en": "I want to see you again", "zh": "我想再次见到你", "th": "อยากเจอคุณอีก", "ko": "또 만나고 싶어요", "es": "quiero verte de nuevo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I like you' in Japanese?",
+              "options": ["すきです。", "きらいです。", "ともだちです。", "はじめまして。"],
+              "correct": 0,
+              "explanation": "'すきです' (suki desu) = I like you. In romantic contexts it expresses romantic interest."
+            },
+            {
+              "type": "target_to_native",
+              "word": "デート",
+              "options": ["date (romantic outing)", "dinner", "meeting", "party"],
+              "correct": 0,
+              "explanation": "'デート' (deeto) = a romantic date. Borrowed from English 'date'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["すきです", "I like you"],
+                ["デート", "date"],
+                ["れんらくさき", "contact information"],
+                ["またあいたいです", "I want to see you again"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ですが", "れんらくさきを", "おしえて", "もらえます"],
+              "correct": ["れんらくさきを", "おしえて", "もらえます", "ですが"],
+              "translation": "Could you give me your contact information?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I want to see you again'?",
+              "options": ["またあいたいです。", "もういちどきてください。", "またきます。", "またあいましょう。"],
+              "correct": 0,
+              "explanation": "'またあいたいです' = I want to see you again. 'また' = again, 'あいたい' = want to meet."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀请约会",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a alguien a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Japanese", "Accept or decline a date invitation politely"],
+            "zh": ["用日语邀请某人约会", "礼貌地接受或拒绝约会邀请"],
+            "th": ["ขอออกเดทกับใครซักคนเป็นภาษาญี่ปุ่น", "ตอบรับหรือปฏิเสธคำเชิญเดทอย่างสุภาพ"],
+            "ko": ["일본어로 데이트 신청하기", "데이트 초대를 정중히 수락하거나 거절하기"],
+            "es": ["Invitar a alguien a una cita en japonés", "Aceptar o rechazar una invitación educadamente"]
+          },
+          "vocabulary": [
+            {
+              "word": "いっしょにいきませんか",
+              "romanization": "issho ni ikimasen ka",
+              "meanings": { "en": "Would you like to go together?", "zh": "要不要一起去？", "th": "จะไปด้วยกันไหม?", "ko": "같이 가지 않을래요?", "es": "¿Te gustaría ir juntos?" }
+            },
+            {
+              "word": "ぜひ",
+              "romanization": "zehi",
+              "meanings": { "en": "by all means / definitely (yes)", "zh": "一定/当然", "th": "แน่นอน/ยินดีมาก", "ko": "꼭 / 물론이죠", "es": "con mucho gusto / sin duda" }
+            },
+            {
+              "word": "ちょっとむずかしいです",
+              "romanization": "chotto muzukashii desu",
+              "meanings": { "en": "it's a little difficult (polite refusal)", "zh": "有点困难（委婉拒绝）", "th": "ยากนิดนึง (การปฏิเสธสุภาพ)", "ko": "좀 어렵네요 (정중한 거절)", "es": "es un poco difícil (rechazo educado)" }
+            },
+            {
+              "word": "えいがをみにいきませんか",
+              "romanization": "eiga o mi ni ikimasen ka",
+              "meanings": { "en": "Would you like to go see a movie?", "zh": "要不要去看电影？", "th": "จะไปดูหนังด้วยกันไหม?", "ko": "영화 보러 가지 않을래요?", "es": "¿Quieres ir a ver una película?" }
+            },
+            {
+              "word": "たのしみにしています",
+              "romanization": "tanoshimi ni shite imasu",
+              "meanings": { "en": "I am looking forward to it", "zh": "我很期待", "th": "ฉันตั้งตารอ", "ko": "기대하고 있어요", "es": "estoy muy emocionado/a" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to go see a movie?'",
+              "options": ["えいがをみにいきませんか？", "えいががすきですか？", "えいがをみました。", "えいがにいきましょう。"],
+              "correct": 0,
+              "explanation": "'えいがをみにいきませんか？' = Would you like to go see a movie? '〜ませんか' is used for polite invitations."
+            },
+            {
+              "type": "target_to_native",
+              "word": "ぜひ",
+              "options": ["by all means / definitely yes", "maybe", "I'm sorry", "no thank you"],
+              "correct": 0,
+              "explanation": "'ぜひ' (zehi) = by all means / definitely. Used to enthusiastically accept an invitation."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["いっしょにいきませんか", "Would you like to go together?"],
+                ["ぜひ", "by all means"],
+                ["ちょっとむずかしいです", "polite refusal"],
+                ["たのしみにしています", "I'm looking forward to it"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["いきませんか", "いっしょに", "コーヒーを", "のみに"],
+              "correct": ["いっしょに", "コーヒーを", "のみに", "いきませんか"],
+              "translation": "Would you like to go get coffee together?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you politely decline an invitation in Japanese?",
+              "options": ["ちょっとむずかしいです。", "いやです。", "ぜんぜんだめです。", "こないでください。"],
+              "correct": 0,
+              "explanation": "'ちょっとむずかしいです' (chotto muzukashii desu) = it's a little difficult. A polite, indirect way to decline."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Compliments",
+            "zh": "称赞",
+            "th": "คำชมเชย",
+            "ko": "칭찬하기",
+            "es": "Cumplidos"
+          },
+          "objectives": {
+            "en": ["Give compliments in Japanese", "Respond to compliments graciously"],
+            "zh": ["用日语称赞他人", "优雅地回应称赞"],
+            "th": ["ชมเชยเป็นภาษาญี่ปุ่น", "ตอบรับคำชมอย่างสุภาพ"],
+            "ko": ["일본어로 칭찬하기", "칭찬에 우아하게 대응하기"],
+            "es": ["Hacer cumplidos en japonés", "Responder a los cumplidos con gracia"]
+          },
+          "vocabulary": [
+            {
+              "word": "かわいい",
+              "romanization": "kawaii",
+              "meanings": { "en": "cute / lovely", "zh": "可爱的", "th": "น่ารัก", "ko": "귀여운", "es": "lindo/a / adorable" }
+            },
+            {
+              "word": "かっこいい",
+              "romanization": "kakkoii",
+              "meanings": { "en": "cool / handsome", "zh": "帅气的", "th": "หล่อ/เท่", "ko": "멋있는", "es": "guapo / genial" }
+            },
+            {
+              "word": "きれいです",
+              "romanization": "kirei desu",
+              "meanings": { "en": "you are beautiful / it is beautiful", "zh": "很漂亮", "th": "สวยงาม", "ko": "아름다워요 / 예뻐요", "es": "eres hermosa/o / es bonito" }
+            },
+            {
+              "word": "そんなことないですよ",
+              "romanization": "sonna koto nai desu yo",
+              "meanings": { "en": "that's not true (humble reply to a compliment)", "zh": "哪里哪里（谦虚地回应称赞）", "th": "ไม่ได้ขนาดนั้นหรอก (ตอบคำชมอย่างถ่อมตัว)", "ko": "그런 것 없어요 (겸손한 칭찬 응답)", "es": "no es para tanto (respuesta humilde a un cumplido)" }
+            },
+            {
+              "word": "ありがとうございます",
+              "romanization": "arigatou gozaimasu",
+              "meanings": { "en": "thank you very much (formal)", "zh": "非常感谢", "th": "ขอบคุณมากครับ/ค่ะ", "ko": "감사합니다 (정중)", "es": "muchas gracias (formal)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'You are cute' in Japanese?",
+              "options": ["かわいいですね。", "きれいですね。", "かっこいいですね。", "すてきですね。"],
+              "correct": 0,
+              "explanation": "'かわいいですね' (kawaii desu ne) = You are cute, aren't you. 'かわいい' is one of the most iconic Japanese adjectives."
+            },
+            {
+              "type": "target_to_native",
+              "word": "かっこいい",
+              "options": ["cool / handsome", "cute", "beautiful", "kind"],
+              "correct": 0,
+              "explanation": "'かっこいい' (kakkoii) = cool, good-looking, stylish. Often said to men but can apply to anything impressive."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["かわいい", "cute"],
+                ["かっこいい", "cool / handsome"],
+                ["きれいです", "you are beautiful"],
+                ["そんなことないですよ", "that's not true (humble reply)"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ですね", "きれい", "とても"],
+              "correct": ["とても", "きれい", "ですね"],
+              "translation": "You are very beautiful."
+            },
+            {
+              "type": "native_to_target",
+              "question": "What is the humble way to respond to a compliment in Japanese?",
+              "options": ["そんなことないですよ。", "ありがとう、しっています。", "そうですね。", "もっとほめてください。"],
+              "correct": 0,
+              "explanation": "'そんなことないですよ' = That's not true / not at all. Japanese culture values modesty so this is a typical, polite response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Expressing Feelings",
+        "zh": "表达感情",
+        "th": "การแสดงความรู้สึก",
+        "ko": "감정 표현하기",
+        "es": "Expresar sentimientos"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Feelings & Emotions",
+            "zh": "感受与情绪",
+            "th": "ความรู้สึกและอารมณ์",
+            "ko": "감정과 느낌",
+            "es": "Sentimientos y emociones"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings in Japanese", "Describe how someone makes you feel"],
+            "zh": ["用日语表达恋爱感情", "描述某人让你的感受"],
+            "th": ["แสดงความรู้สึกรักเป็นภาษาญี่ปุ่น", "อธิบายว่าใครทำให้คุณรู้สึกอย่างไร"],
+            "ko": ["일본어로 연애 감정 표현하기", "어떤 사람이 당신을 어떻게 느끼게 하는지 묘사하기"],
+            "es": ["Expresar sentimientos románticos en japonés", "Describir cómo alguien te hace sentir"]
+          },
+          "vocabulary": [
+            {
+              "word": "どきどきする",
+              "romanization": "dokidoki suru",
+              "meanings": { "en": "to have a pounding heart / feel excited / nervous", "zh": "心跳加速/兴奋/紧张", "th": "หัวใจเต้นแรง / ตื่นเต้น / ประหม่า", "ko": "두근두근하다 / 설레다", "es": "tener el corazón acelerado / emocionarse" }
+            },
+            {
+              "word": "こいをしている",
+              "romanization": "koi o shite iru",
+              "meanings": { "en": "to be in love (romantic love)", "zh": "正在恋爱中", "th": "กำลังตกหลุมรัก", "ko": "사랑에 빠져 있다", "es": "estar enamorado/a" }
+            },
+            {
+              "word": "あいしています",
+              "romanization": "aishite imasu",
+              "meanings": { "en": "I love you (deep/serious love)", "zh": "我爱你", "th": "ฉันรักคุณ (ความรักที่ลึกซึ้ง)", "ko": "사랑해요 (깊은 사랑)", "es": "te amo (amor profundo)" }
+            },
+            {
+              "word": "さびしい",
+              "romanization": "sabishii",
+              "meanings": { "en": "lonely / I miss you", "zh": "寂寞的/想你", "th": "เหงา / คิดถึง", "ko": "외로운 / 보고 싶어요", "es": "solitario/a / te extraño" }
+            },
+            {
+              "word": "うれしい",
+              "romanization": "ureshii",
+              "meanings": { "en": "happy / glad", "zh": "高兴的/开心的", "th": "ดีใจ / มีความสุข", "ko": "기뻐요 / 행복해요", "es": "feliz / contento/a" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you express 'I love you' in the deepest sense in Japanese?",
+              "options": ["あいしています。", "すきです。", "だいすきです。", "こいをしています。"],
+              "correct": 0,
+              "explanation": "'あいしています' (aishite imasu) = I love you — expresses deep, serious love. More intense than 'すきです'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "どきどきする",
+              "options": ["to have a pounding heart / feel excited", "to be calm", "to be sad", "to laugh"],
+              "correct": 0,
+              "explanation": "'どきどきする' = onomatopoeia for a pounding heartbeat. Used when nervous, excited, or in love."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["どきどきする", "heart pounding / excited"],
+                ["あいしています", "I love you"],
+                ["さびしい", "lonely / I miss you"],
+                ["うれしい", "happy / glad"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["する", "といると", "どきどき", "あなた"],
+              "correct": ["あなた", "といると", "どきどき", "する"],
+              "translation": "My heart pounds when I'm with you."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I am lonely' or 'I miss you' in Japanese?",
+              "options": ["さびしいです。", "かなしいです。", "つまらないです。", "いたいです。"],
+              "correct": 0,
+              "explanation": "'さびしいです' (sabishii desu) = I am lonely / I miss you. Often used when missing someone you care about."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Relationships",
+            "zh": "恋爱关系",
+            "th": "ความสัมพันธ์",
+            "ko": "연애 관계",
+            "es": "Relaciones amorosas"
+          },
+          "objectives": {
+            "en": ["Describe your relationship status in Japanese", "Talk about your boyfriend, girlfriend, or partner"],
+            "zh": ["用日语描述你的感情状态", "谈论你的男友、女友或伴侣"],
+            "th": ["บอกสถานะความสัมพันธ์เป็นภาษาญี่ปุ่น", "พูดเกี่ยวกับแฟนหรือคู่ชีวิต"],
+            "ko": ["일본어로 연애 상태 설명하기", "남자친구, 여자친구, 파트너에 대해 이야기하기"],
+            "es": ["Describir tu estado sentimental en japonés", "Hablar de tu novio, novia o pareja"]
+          },
+          "vocabulary": [
+            {
+              "word": "かれし",
+              "romanization": "kareshi",
+              "meanings": { "en": "boyfriend", "zh": "男朋友", "th": "แฟนผู้ชาย", "ko": "남자친구", "es": "novio" }
+            },
+            {
+              "word": "かのじょ",
+              "romanization": "kanojo",
+              "meanings": { "en": "girlfriend / she / her", "zh": "女朋友/她", "th": "แฟนสาว / เธอ", "ko": "여자친구 / 그녀", "es": "novia / ella" }
+            },
+            {
+              "word": "つきあっています",
+              "romanization": "tsukiatte imasu",
+              "meanings": { "en": "we are dating / going out together", "zh": "我们在交往", "th": "เราคบกันอยู่", "ko": "우리 사귀고 있어요", "es": "estamos saliendo juntos" }
+            },
+            {
+              "word": "わかれました",
+              "romanization": "wakaremashita",
+              "meanings": { "en": "we broke up", "zh": "我们分手了", "th": "เราเลิกกันแล้ว", "ko": "우리 헤어졌어요", "es": "rompimos" }
+            },
+            {
+              "word": "こくはくする",
+              "romanization": "kokuhaku suru",
+              "meanings": { "en": "to confess one's feelings", "zh": "表白", "th": "สารภาพรัก", "ko": "고백하다", "es": "confesar los sentimientos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'We are dating' in Japanese?",
+              "options": ["つきあっています。", "ともだちです。", "けっこんしています。", "あっています。"],
+              "correct": 0,
+              "explanation": "'つきあっています' (tsukiatte imasu) = we are dating/going out. 'つきあう' is the verb meaning to date or go out with someone."
+            },
+            {
+              "type": "target_to_native",
+              "word": "こくはくする",
+              "options": ["to confess one's feelings", "to break up", "to get married", "to fight"],
+              "correct": 0,
+              "explanation": "'こくはくする' (kokuhaku suru) = to confess romantic feelings. An important step in Japanese dating culture."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["かれし", "boyfriend"],
+                ["かのじょ", "girlfriend"],
+                ["つきあっています", "we are dating"],
+                ["わかれました", "we broke up"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["かれし", "います", "が", "います", "わたしには"],
+              "correct": ["わたしには", "かれし", "が", "います"],
+              "translation": "I have a boyfriend."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'We broke up'?",
+              "options": ["わかれました。", "あいました。", "つきあいました。", "こくはくしました。"],
+              "correct": 0,
+              "explanation": "'わかれました' (wakaremashita) = we broke up / we separated. From the verb 'わかれる' (to part/separate)."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Sweet Expressions",
+            "zh": "甜蜜表达",
+            "th": "สำนวนโรแมนติก",
+            "ko": "달콤한 표현",
+            "es": "Expresiones dulces"
+          },
+          "objectives": {
+            "en": ["Use sweet and affectionate expressions in Japanese", "Express how important someone is to you"],
+            "zh": ["用日语表达甜蜜和深情的话", "表达某人对你的重要性"],
+            "th": ["ใช้สำนวนหวานและอ่อนโยนเป็นภาษาญี่ปุ่น", "แสดงว่าใครคนหนึ่งสำคัญกับคุณแค่ไหน"],
+            "ko": ["일본어로 달콤하고 다정한 표현 사용하기", "누군가가 당신에게 얼마나 소중한지 표현하기"],
+            "es": ["Usar expresiones dulces y afectuosas en japonés", "Expresar cuán importante es alguien para ti"]
+          },
+          "vocabulary": [
+            {
+              "word": "たいせつなひと",
+              "romanization": "taisetsu na hito",
+              "meanings": { "en": "an important / precious person", "zh": "重要的人/珍贵的人", "th": "คนสำคัญ / คนที่มีค่า", "ko": "소중한 사람", "es": "una persona importante / preciada" }
+            },
+            {
+              "word": "ずっといっしょにいたい",
+              "romanization": "zutto issho ni itai",
+              "meanings": { "en": "I want to be with you forever", "zh": "我想永远和你在一起", "th": "อยากอยู่กับคุณตลอดไป", "ko": "항상 같이 있고 싶어", "es": "quiero estar contigo para siempre" }
+            },
+            {
+              "word": "てをつなごう",
+              "romanization": "te o tsunagou",
+              "meanings": { "en": "let's hold hands", "zh": "我们拉手吧", "th": "จับมือกันนะ", "ko": "손을 잡자", "es": "tomemos de la mano" }
+            },
+            {
+              "word": "しあわせ",
+              "romanization": "shiawase",
+              "meanings": { "en": "happiness / happy", "zh": "幸福", "th": "ความสุข / มีความสุข", "ko": "행복", "es": "felicidad / feliz" }
+            },
+            {
+              "word": "そばにいてください",
+              "romanization": "soba ni ite kudasai",
+              "meanings": { "en": "please stay by my side", "zh": "请留在我身边", "th": "กรุณาอยู่ข้างๆ ฉัน", "ko": "곁에 있어 주세요", "es": "por favor quédate a mi lado" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I want to be with you forever'?",
+              "options": ["ずっといっしょにいたいです。", "いつもあなたのことをかんがえています。", "はなれたくないです。", "そばにいてください。"],
+              "correct": 0,
+              "explanation": "'ずっといっしょにいたいです' = I want to be with you forever. 'ずっと' = forever/always, 'いっしょに' = together."
+            },
+            {
+              "type": "target_to_native",
+              "word": "しあわせ",
+              "options": ["happiness / happy", "sadness", "loneliness", "excitement"],
+              "correct": 0,
+              "explanation": "'しあわせ' (shiawase) = happiness. 'しあわせです' = I am happy. A common word in love songs and romantic expressions."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["たいせつなひと", "a precious person"],
+                ["てをつなごう", "let's hold hands"],
+                ["しあわせ", "happiness"],
+                ["そばにいてください", "please stay by my side"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["あなたといると", "です", "しあわせ"],
+              "correct": ["あなたといると", "しあわせ", "です"],
+              "translation": "I am happy when I am with you."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Please stay by my side'?",
+              "options": ["そばにいてください。", "いっしょにきてください。", "まってください。", "いかないでください。"],
+              "correct": 0,
+              "explanation": "'そばにいてください' = please stay by my side. 'そば' = beside/nearby, 'いてください' = please be/stay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Going on Dates",
+        "zh": "约会",
+        "th": "การออกเดท",
+        "ko": "데이트하기",
+        "es": "Salir en citas"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Planning a Date",
+            "zh": "计划约会",
+            "th": "การวางแผนเดท",
+            "ko": "데이트 계획하기",
+            "es": "Planear una cita"
+          },
+          "objectives": {
+            "en": ["Plan a date including time, place, and activity", "Suggest and agree on a meeting spot"],
+            "zh": ["计划包含时间、地点和活动的约会", "建议并商定见面地点"],
+            "th": ["วางแผนเดทรวมถึงเวลา สถานที่ และกิจกรรม", "แนะนำและตกลงจุดนัดพบ"],
+            "ko": ["시간, 장소, 활동을 포함한 데이트 계획 세우기", "만남 장소 제안하고 동의하기"],
+            "es": ["Planear una cita con hora, lugar y actividad", "Sugerir y acordar un punto de encuentro"]
+          },
+          "vocabulary": [
+            {
+              "word": "どこかいいところがありますか",
+              "romanization": "doko ka ii tokoro ga arimasu ka",
+              "meanings": { "en": "Do you know a good place?", "zh": "有什么好地方吗？", "th": "มีที่ดีๆ แนะนำไหม?", "ko": "좋은 곳 알아요?", "es": "¿Conoces algún buen lugar?" }
+            },
+            {
+              "word": "なんじにしましょうか",
+              "romanization": "nanji ni shimashou ka",
+              "meanings": { "en": "What time shall we make it?", "zh": "我们定几点呢？", "th": "จะนัดกี่โมงดี?", "ko": "몇 시로 할까요?", "es": "¿A qué hora quedamos?" }
+            },
+            {
+              "word": "えき",
+              "romanization": "eki",
+              "meanings": { "en": "train station", "zh": "车站", "th": "สถานีรถไฟ", "ko": "역", "es": "estación de tren" }
+            },
+            {
+              "word": "まえで",
+              "romanization": "mae de",
+              "meanings": { "en": "in front of ~", "zh": "在～的前面", "th": "หน้า~", "ko": "~ 앞에서", "es": "delante de ~" }
+            },
+            {
+              "word": "やくそく",
+              "romanization": "yakusoku",
+              "meanings": { "en": "promise / appointment", "zh": "约定/承诺", "th": "สัญญา / นัดหมาย", "ko": "약속", "es": "promesa / cita" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you suggest meeting 'in front of the station'?",
+              "options": ["えきのまえでましょう。", "えきにいきます。", "えきはどこですか？", "えきでまっています。"],
+              "correct": 0,
+              "explanation": "'えきのまえでましょう' = Let's meet in front of the station. 'えきのまえ' = in front of the station."
+            },
+            {
+              "type": "target_to_native",
+              "word": "やくそく",
+              "options": ["promise / appointment", "date", "plan", "ticket"],
+              "correct": 0,
+              "explanation": "'やくそく' (yakusoku) = a promise or appointment. 'やくそくをする' = to make a promise/appointment."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["えき", "train station"],
+                ["まえで", "in front of"],
+                ["やくそく", "promise / appointment"],
+                ["なんじにしましょうか", "What time shall we make it?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["まえで", "えきの", "あいましょう"],
+              "correct": ["えきの", "まえで", "あいましょう"],
+              "translation": "Let's meet in front of the station."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What time shall we make it?'",
+              "options": ["なんじにしましょうか？", "なんじですか？", "いつがいいですか？", "なんじにきますか？"],
+              "correct": 0,
+              "explanation": "'なんじにしましょうか？' = What time shall we make it? '〜にしましょうか' = shall we decide on ~?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "During a Date",
+            "zh": "约会中",
+            "th": "ระหว่างเดท",
+            "ko": "데이트 중에",
+            "es": "Durante una cita"
+          },
+          "objectives": {
+            "en": ["Make conversation during a date", "Express enjoyment and make suggestions"],
+            "zh": ["约会期间进行对话", "表达享受并提出建议"],
+            "th": ["สนทนาระหว่างเดท", "แสดงความสนุกสนานและเสนอแนะ"],
+            "ko": ["데이트 중에 대화하기", "즐거움 표현하고 제안하기"],
+            "es": ["Conversar durante una cita", "Expresar disfrute y hacer sugerencias"]
+          },
+          "vocabulary": [
+            {
+              "word": "たのしいですね",
+              "romanization": "tanoshii desu ne",
+              "meanings": { "en": "it's fun, isn't it", "zh": "很开心呢", "th": "สนุกนะ", "ko": "즐겁네요", "es": "es divertido, ¿verdad?" }
+            },
+            {
+              "word": "つぎはどこにいきましょうか",
+              "romanization": "tsugi wa doko ni ikimashou ka",
+              "meanings": { "en": "Where shall we go next?", "zh": "接下来去哪里？", "th": "ต่อไปจะไปไหนดี?", "ko": "다음엔 어디 갈까요?", "es": "¿A dónde vamos después?" }
+            },
+            {
+              "word": "おなかがすいていませんか",
+              "romanization": "onaka ga suite imasen ka",
+              "meanings": { "en": "Aren't you hungry?", "zh": "你饿了吗？", "th": "หิวไหม?", "ko": "배고프지 않아요?", "es": "¿No tienes hambre?" }
+            },
+            {
+              "word": "はらいます",
+              "romanization": "haraimasu",
+              "meanings": { "en": "I will pay", "zh": "我来付", "th": "ฉันจะจ่าย", "ko": "제가 낼게요", "es": "yo pago" }
+            },
+            {
+              "word": "きょうはたのしかったです",
+              "romanization": "kyou wa tanoshikatta desu",
+              "meanings": { "en": "Today was fun", "zh": "今天很开心", "th": "วันนี้สนุกมาก", "ko": "오늘 즐거웠어요", "es": "hoy fue muy divertido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Today was fun'?",
+              "options": ["きょうはたのしかったです。", "きょうはよかったです。", "きょうはおもしろかったです。", "きょうはいいですね。"],
+              "correct": 0,
+              "explanation": "'きょうはたのしかったです' = Today was fun. 'たのしかった' is the past tense of 'たのしい' (fun/enjoyable)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "はらいます",
+              "options": ["I will pay", "I will eat", "I will go", "I will wait"],
+              "correct": 0,
+              "explanation": "'はらいます' (haraimasu) = I will pay. From the verb 'はらう' (harau) = to pay."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["たのしいですね", "it's fun, isn't it"],
+                ["はらいます", "I will pay"],
+                ["きょうはたのしかったです", "today was fun"],
+                ["おなかがすいていませんか", "Aren't you hungry?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["いきましょうか", "どこに", "つぎは"],
+              "correct": ["つぎは", "どこに", "いきましょうか"],
+              "translation": "Where shall we go next?"
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you offer to pay on a date?",
+              "options": ["わたしがはらいます。", "はんぶんずつにしましょう。", "おかいけいをおねがいします。", "わりかんにしましょう。"],
+              "correct": 0,
+              "explanation": "'わたしがはらいます' = I will pay. 'わたしが' emphasises that it is specifically you who will pay."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "After the Date",
+            "zh": "约会结束后",
+            "th": "หลังเดท",
+            "ko": "데이트 후에",
+            "es": "Después de la cita"
+          },
+          "objectives": {
+            "en": ["Say goodbye after a date in Japanese", "Express that you want to meet again"],
+            "zh": ["约会结束后用日语道别", "表达想再次见面"],
+            "th": ["ลาหลังเดทเป็นภาษาญี่ปุ่น", "แสดงว่าอยากเจอกันอีก"],
+            "ko": ["데이트 후 일본어로 작별 인사하기", "다시 만나고 싶다고 표현하기"],
+            "es": ["Despedirse después de una cita en japonés", "Expresar que quieres volver a quedar"]
+          },
+          "vocabulary": [
+            {
+              "word": "きをつけて",
+              "romanization": "ki o tsukete",
+              "meanings": { "en": "take care / be careful", "zh": "保重/注意安全", "th": "ระวังตัวด้วย / ดูแลตัวเองด้วย", "ko": "조심히 가세요", "es": "cuídate / ten cuidado" }
+            },
+            {
+              "word": "またこんどあいましょう",
+              "romanization": "mata kondo aimashou",
+              "meanings": { "en": "let's meet again sometime", "zh": "下次再见面吧", "th": "เจอกันใหม่นะ", "ko": "다음에 또 만나요", "es": "quedemos de nuevo algún día" }
+            },
+            {
+              "word": "メッセージをおくります",
+              "romanization": "messeeji o okurimasu",
+              "meanings": { "en": "I will send you a message", "zh": "我会给你发消息", "th": "ฉันจะส่งข้อความถึงคุณ", "ko": "메시지 보낼게요", "es": "te mandaré un mensaje" }
+            },
+            {
+              "word": "きょうはありがとうございました",
+              "romanization": "kyou wa arigatou gozaimashita",
+              "meanings": { "en": "Thank you for today", "zh": "今天谢谢你", "th": "ขอบคุณสำหรับวันนี้", "ko": "오늘 감사했어요", "es": "gracias por hoy" }
+            },
+            {
+              "word": "またデートしましょう",
+              "romanization": "mata deeto shimashou",
+              "meanings": { "en": "let's go on another date", "zh": "下次再约会吧", "th": "นัดเดทกันอีกนะ", "ko": "또 데이트해요", "es": "salgamos de nuevo juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Thank you for today' at the end of a date?",
+              "options": ["きょうはありがとうございました。", "きょうはよかったです。", "たのしかったです。", "またあいましょう。"],
+              "correct": 0,
+              "explanation": "'きょうはありがとうございました' = Thank you for today. Using the past polite form 'ありがとうございました' is appropriate after the event."
+            },
+            {
+              "type": "target_to_native",
+              "word": "きをつけて",
+              "options": ["take care / be careful", "goodbye forever", "have fun", "see you tomorrow"],
+              "correct": 0,
+              "explanation": "'きをつけて' (ki o tsukete) = take care / be careful. Often said when parting, especially at night."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["きをつけて", "take care"],
+                ["きょうはありがとうございました", "thank you for today"],
+                ["メッセージをおくります", "I will send you a message"],
+                ["またデートしましょう", "let's go on another date"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["またこんど", "ね", "あいましょう"],
+              "correct": ["またこんど", "あいましょう", "ね"],
+              "translation": "Let's meet again sometime."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Let's go on another date'?",
+              "options": ["またデートしましょう。", "またあいましょう。", "もういちどきてください。", "つぎのやくそくをしましょう。"],
+              "correct": 0,
+              "explanation": "'またデートしましょう' = Let's go on another date. 'また' = again, 'デートしましょう' = let's date/go on a date."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "lang": "id",
+  "language": "id",
+  "level": "A2",
+  "track": "work",
+  "track_label": {
+    "en": "Work & Business",
+    "zh": "工作与商业",
+    "th": "งานและธุรกิจ",
+    "ko": "일과 비즈니스",
+    "es": "Trabajo y negocios"
+  },
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "The Workplace",
+        "zh": "工作场所",
+        "th": "สถานที่ทำงาน",
+        "ko": "직장",
+        "es": "El lugar de trabajo"
+      },
+      "description": {
+        "en": "Learn workplace vocabulary and how to communicate at work in Indonesian",
+        "zh": "学习工作场所词汇以及如何用印度尼西亚语在工作中沟通",
+        "th": "เรียนรู้คำศัพท์ในที่ทำงานและวิธีสื่อสารในที่ทำงานเป็นภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 직장 어휘와 업무 소통 방법 배우기",
+        "es": "Aprender vocabulario del trabajo y cómo comunicarse en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Occupations",
+            "zh": "职业",
+            "th": "อาชีพ",
+            "ko": "직업",
+            "es": "Profesiones"
+          },
+          "objectives": {
+            "en": ["Name common Indonesian occupations", "Talk about your job"]
+          },
+          "vocabulary": [
+            { "word": "Dokter", "romanization": null, "meanings": { "en": "Doctor", "zh": "医生", "th": "แพทย์", "ko": "의사", "es": "Médico" } },
+            { "word": "Guru", "romanization": null, "meanings": { "en": "Teacher", "zh": "老师", "th": "ครู", "ko": "선생님", "es": "Profesor" } },
+            { "word": "Insinyur", "romanization": null, "meanings": { "en": "Engineer", "zh": "工程师", "th": "วิศวกร", "ko": "엔지니어", "es": "Ingeniero" } },
+            { "word": "Akuntan", "romanization": null, "meanings": { "en": "Accountant", "zh": "会计师", "th": "นักบัญชี", "ko": "회계사", "es": "Contable" } },
+            { "word": "Pengusaha", "romanization": null, "meanings": { "en": "Entrepreneur / businessperson", "zh": "企业家/商人", "th": "ผู้ประกอบการ / นักธุรกิจ", "ko": "기업가 / 사업가", "es": "Empresario" } },
+            { "word": "Saya bekerja sebagai", "romanization": null, "meanings": { "en": "I work as a", "zh": "我是一名", "th": "ฉันทำงานเป็น", "ko": "저는 ~로 일해요", "es": "Trabajo como" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Insinyur", "romanization": null, "options": { "en": ["Engineer", "Doctor", "Teacher", "Accountant"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pengusaha", "romanization": null, "options": { "en": ["Entrepreneur / businessperson", "Doctor", "Nurse", "Teacher"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Doctor' in Indonesian?" }, "options": { "neutral": ["Dokter", "Guru", "Insinyur", "Akuntan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Teacher' in Indonesian?" }, "options": { "neutral": ["Guru", "Dokter", "Pengusaha", "Insinyur"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Akuntan", "romanization": null, "options": { "en": ["Accountant", "Engineer", "Doctor", "Lawyer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Dokter", "romanization": null, "native": { "en": "Doctor" } },
+              { "target": "Guru", "romanization": null, "native": { "en": "Teacher" } },
+              { "target": "Insinyur", "romanization": null, "native": { "en": "Engineer" } },
+              { "target": "Pengusaha", "romanization": null, "native": { "en": "Entrepreneur / businessperson" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Office Vocabulary",
+            "zh": "办公室词汇",
+            "th": "คำศัพท์ในสำนักงาน",
+            "ko": "사무실 어휘",
+            "es": "Vocabulario de oficina"
+          },
+          "objectives": {
+            "en": ["Name office items and spaces", "Describe your workplace"]
+          },
+          "vocabulary": [
+            { "word": "Kantor", "romanization": null, "meanings": { "en": "Office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "Oficina" } },
+            { "word": "Rapat", "romanization": null, "meanings": { "en": "Meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "Reunión" } },
+            { "word": "Komputer", "romanization": null, "meanings": { "en": "Computer", "zh": "电脑", "th": "คอมพิวเตอร์", "ko": "컴퓨터", "es": "Ordenador / computadora" } },
+            { "word": "Laporan", "romanization": null, "meanings": { "en": "Report", "zh": "报告", "th": "รายงาน", "ko": "보고서", "es": "Informe" } },
+            { "word": "Tenggat waktu", "romanization": null, "meanings": { "en": "Deadline", "zh": "截止日期", "th": "กำหนดเวลา", "ko": "마감일", "es": "Plazo" } },
+            { "word": "Rekan kerja", "romanization": null, "meanings": { "en": "Colleague / coworker", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "Compañero de trabajo" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Rapat", "romanization": null, "options": { "en": ["Meeting", "Report", "Office", "Computer"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Rekan kerja", "romanization": null, "options": { "en": ["Colleague / coworker", "Boss", "Client", "Manager"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Office' in Indonesian?" }, "options": { "neutral": ["Kantor", "Rapat", "Laporan", "Komputer"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Deadline' in Indonesian?" }, "options": { "neutral": ["Tenggat waktu", "Rapat", "Kantor", "Laporan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Rapat", "romanization": null, "options": { "en": ["Meeting", "Report", "Office", "Email"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kantor", "romanization": null, "native": { "en": "Office" } },
+              { "target": "Rapat", "romanization": null, "native": { "en": "Meeting" } },
+              { "target": "Laporan", "romanization": null, "native": { "en": "Report" } },
+              { "target": "Rekan kerja", "romanization": null, "native": { "en": "Colleague / coworker" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Work Schedules",
+            "zh": "工作时间表",
+            "th": "ตารางงาน",
+            "ko": "업무 일정",
+            "es": "Horarios de trabajo"
+          },
+          "objectives": {
+            "en": ["Talk about your work schedule", "Discuss working hours"]
+          },
+          "vocabulary": [
+            { "word": "Jam kerja", "romanization": null, "meanings": { "en": "Working hours", "zh": "工作时间", "th": "เวลาทำงาน", "ko": "근무 시간", "es": "Horario laboral" } },
+            { "word": "Cuti", "romanization": null, "meanings": { "en": "Leave / vacation", "zh": "假期/休假", "th": "วันหยุด / ลา", "ko": "휴가", "es": "Vacaciones / permiso" } },
+            { "word": "Gaji", "romanization": null, "meanings": { "en": "Salary / wages", "zh": "薪水", "th": "เงินเดือน", "ko": "월급", "es": "Salario" } },
+            { "word": "Lembur", "romanization": null, "meanings": { "en": "Overtime", "zh": "加班", "th": "ล่วงเวลา", "ko": "초과 근무", "es": "Horas extra" } },
+            { "word": "Tugas", "romanization": null, "meanings": { "en": "Task / assignment", "zh": "任务/作业", "th": "งาน / งานที่มอบหมาย", "ko": "업무 / 과제", "es": "Tarea / encargo" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Gaji", "romanization": null, "options": { "en": ["Salary / wages", "Overtime", "Leave", "Task"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Lembur", "romanization": null, "options": { "en": ["Overtime", "Holiday", "Working hours", "Salary"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Leave / vacation' in Indonesian?" }, "options": { "neutral": ["Cuti", "Gaji", "Tugas", "Jam kerja"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Task / assignment' in Indonesian?" }, "options": { "neutral": ["Tugas", "Cuti", "Gaji", "Lembur"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Jam kerja", "romanization": null, "options": { "en": ["Working hours", "Overtime", "Holiday", "Salary"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Jam kerja", "romanization": null, "native": { "en": "Working hours" } },
+              { "target": "Cuti", "romanization": null, "native": { "en": "Leave / vacation" } },
+              { "target": "Gaji", "romanization": null, "native": { "en": "Salary / wages" } },
+              { "target": "Lembur", "romanization": null, "native": { "en": "Overtime" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Business Communication",
+        "zh": "商务沟通",
+        "th": "การสื่อสารทางธุรกิจ",
+        "ko": "비즈니스 커뮤니케이션",
+        "es": "Comunicación empresarial"
+      },
+      "description": {
+        "en": "Communicate professionally in Indonesian business settings",
+        "zh": "在印度尼西亚商务场合进行专业沟通",
+        "th": "สื่อสารอย่างมืออาชีพในบริบทธุรกิจอินโดนีเซีย",
+        "ko": "인도네시아 비즈니스 환경에서 전문적으로 소통하기",
+        "es": "Comunicarse profesionalmente en entornos de negocios indonesios"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Making Phone Calls",
+            "zh": "打电话",
+            "th": "การโทรศัพท์",
+            "ko": "전화 통화",
+            "es": "Hacer llamadas telefónicas"
+          },
+          "objectives": {
+            "en": ["Make and receive business calls", "Leave a message"]
+          },
+          "vocabulary": [
+            { "word": "Telepon", "romanization": null, "meanings": { "en": "Telephone / phone", "zh": "电话", "th": "โทรศัพท์", "ko": "전화", "es": "Teléfono" } },
+            { "word": "Halo?", "romanization": null, "meanings": { "en": "Hello? (on phone)", "zh": "喂？", "th": "ฮัลโหล?", "ko": "여보세요?", "es": "¿Hola? (por teléfono)" } },
+            { "word": "Boleh bicara dengan...?", "romanization": null, "meanings": { "en": "May I speak with...?", "zh": "我可以和...说话吗？", "th": "ขอพูดกับ...ได้ไหม?", "ko": "...와 통화할 수 있을까요?", "es": "¿Puedo hablar con...?" } },
+            { "word": "Tinggalkan pesan", "romanization": null, "meanings": { "en": "Leave a message", "zh": "留言", "th": "ฝากข้อความ", "ko": "메시지를 남기다", "es": "Dejar un mensaje" } },
+            { "word": "Telepon balik", "romanization": null, "meanings": { "en": "Call back", "zh": "回电话", "th": "โทรกลับ", "ko": "다시 전화하다", "es": "Devolver la llamada" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Tinggalkan pesan", "romanization": null, "options": { "en": ["Leave a message", "Call back", "Hold on", "Transfer call"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Telepon balik", "romanization": null, "options": { "en": ["Call back", "Leave message", "Hold on", "Hang up"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hello?' on the phone in Indonesian?" }, "options": { "neutral": ["Halo?", "Telepon", "Telepon balik", "Tinggalkan pesan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'May I speak with...?' in Indonesian?" }, "options": { "neutral": ["Boleh bicara dengan...?", "Halo?", "Telepon balik", "Telepon"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Telepon balik", "romanization": null, "options": { "en": ["Call back", "Leave a message", "Transfer", "Hold on"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Halo?", "romanization": null, "native": { "en": "Hello? (on phone)" } },
+              { "target": "Tinggalkan pesan", "romanization": null, "native": { "en": "Leave a message" } },
+              { "target": "Telepon balik", "romanization": null, "native": { "en": "Call back" } },
+              { "target": "Telepon", "romanization": null, "native": { "en": "Telephone / phone" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Emails & Written Communication",
+            "zh": "电子邮件与书面沟通",
+            "th": "อีเมลและการสื่อสารเป็นลายลักษณ์อักษร",
+            "ko": "이메일과 서면 소통",
+            "es": "Correos y comunicación escrita"
+          },
+          "objectives": {
+            "en": ["Write simple business emails", "Use formal written phrases in Indonesian"]
+          },
+          "vocabulary": [
+            { "word": "Email", "romanization": null, "meanings": { "en": "Email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "Correo electrónico" } },
+            { "word": "Dengan hormat", "romanization": null, "meanings": { "en": "Respectfully / Dear (formal opening)", "zh": "尊敬地/敬启", "th": "ด้วยความเคารพ / เรียน", "ko": "존경을 담아 / 친애하는", "es": "Atentamente / Estimado" } },
+            { "word": "Mohon", "romanization": null, "meanings": { "en": "Please (formal request)", "zh": "请（正式请求）", "th": "กรุณา (คำขอร้องอย่างเป็นทางการ)", "ko": "~해 주시기 바랍니다", "es": "Por favor (formal)" } },
+            { "word": "Terima kasih", "romanization": null, "meanings": { "en": "Thank you", "zh": "谢谢", "th": "ขอบคุณ", "ko": "감사합니다", "es": "Gracias" } },
+            { "word": "Lampiran", "romanization": null, "meanings": { "en": "Attachment", "zh": "附件", "th": "ไฟล์แนบ", "ko": "첨부 파일", "es": "Adjunto" } },
+            { "word": "Segera", "romanization": null, "meanings": { "en": "Urgent / immediately", "zh": "紧急/立即", "th": "เร่งด่วน / ทันที", "ko": "긴급 / 즉시", "es": "Urgente / inmediatamente" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Dengan hormat", "romanization": null, "options": { "en": ["Respectfully / Dear (formal)", "Best regards", "Goodbye", "Hello"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Lampiran", "romanization": null, "options": { "en": ["Attachment", "Report", "Message", "File"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please (formal)' in Indonesian?" }, "options": { "neutral": ["Mohon", "Terima kasih", "Segera", "Lampiran"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Urgent' in Indonesian?" }, "options": { "neutral": ["Segera", "Mohon", "Dengan hormat", "Email"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Terima kasih", "romanization": null, "options": { "en": ["Thank you", "Please", "Sorry", "Welcome"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Mohon", "romanization": null, "native": { "en": "Please (formal)" } },
+              { "target": "Lampiran", "romanization": null, "native": { "en": "Attachment" } },
+              { "target": "Segera", "romanization": null, "native": { "en": "Urgent" } },
+              { "target": "Terima kasih", "romanization": null, "native": { "en": "Thank you" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Job Applications",
+            "zh": "求职申请",
+            "th": "การสมัครงาน",
+            "ko": "구직 신청",
+            "es": "Solicitudes de empleo"
+          },
+          "objectives": {
+            "en": ["Apply for a job in Indonesian", "Describe your skills and experience"]
+          },
+          "vocabulary": [
+            { "word": "Lamaran kerja", "romanization": null, "meanings": { "en": "Job application", "zh": "求职申请", "th": "การสมัครงาน", "ko": "구직 신청", "es": "Solicitud de empleo" } },
+            { "word": "Pengalaman", "romanization": null, "meanings": { "en": "Experience", "zh": "经验", "th": "ประสบการณ์", "ko": "경험", "es": "Experiencia" } },
+            { "word": "Keahlian", "romanization": null, "meanings": { "en": "Skills / expertise", "zh": "技能/专业知识", "th": "ทักษะ / ความเชี่ยวชาญ", "ko": "기술 / 전문 능력", "es": "Habilidades / experiencia" } },
+            { "word": "Wawancara", "romanization": null, "meanings": { "en": "Interview", "zh": "面试", "th": "การสัมภาษณ์", "ko": "면접", "es": "Entrevista" } },
+            { "word": "Curriculum vitae", "romanization": null, "meanings": { "en": "CV / resume", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "Currículum" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Wawancara", "romanization": null, "options": { "en": ["Interview", "Application", "Meeting", "Training"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Keahlian", "romanization": null, "options": { "en": ["Skills / expertise", "Experience", "Education", "Salary"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Experience' in Indonesian?" }, "options": { "neutral": ["Pengalaman", "Keahlian", "Wawancara", "Curriculum vitae"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Job application' in Indonesian?" }, "options": { "neutral": ["Lamaran kerja", "Wawancara", "Curriculum vitae", "Pengalaman"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Curriculum vitae", "romanization": null, "options": { "en": ["CV / resume", "Report", "Letter", "Form"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Wawancara", "romanization": null, "native": { "en": "Interview" } },
+              { "target": "Pengalaman", "romanization": null, "native": { "en": "Experience" } },
+              { "target": "Keahlian", "romanization": null, "native": { "en": "Skills / expertise" } },
+              { "target": "Lamaran kerja", "romanization": null, "native": { "en": "Job application" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Business Transactions",
+        "zh": "商业交易",
+        "th": "การทำธุรกรรมทางธุรกิจ",
+        "ko": "비즈니스 거래",
+        "es": "Transacciones comerciales"
+      },
+      "description": {
+        "en": "Handle money, contracts and business dealings in Indonesian",
+        "zh": "用印度尼西亚语处理金钱、合同和商业往来",
+        "th": "จัดการเงิน สัญญา และธุรกรรมทางธุรกิจในภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 돈, 계약, 비즈니스 거래 처리하기",
+        "es": "Gestionar dinero, contratos y transacciones en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Money & Payments",
+            "zh": "金钱与付款",
+            "th": "เงินและการชำระเงิน",
+            "ko": "돈과 결제",
+            "es": "Dinero y pagos"
+          },
+          "objectives": {
+            "en": ["Handle financial transactions in Indonesian", "Discuss prices and payments"]
+          },
+          "vocabulary": [
+            { "word": "Uang", "romanization": null, "meanings": { "en": "Money", "zh": "钱", "th": "เงิน", "ko": "돈", "es": "Dinero" } },
+            { "word": "Rupiah", "romanization": null, "meanings": { "en": "Indonesian Rupiah (currency)", "zh": "卢比（印度尼西亚货币）", "th": "รูเปียห์ (สกุลเงินอินโดนีเซีย)", "ko": "루피아 (인도네시아 통화)", "es": "Rupia indonesia (moneda)" } },
+            { "word": "Bayar", "romanization": null, "meanings": { "en": "Pay", "zh": "付钱", "th": "จ่าย", "ko": "지불하다", "es": "Pagar" } },
+            { "word": "Kuitansi", "romanization": null, "meanings": { "en": "Receipt", "zh": "收据", "th": "ใบเสร็จ", "ko": "영수증", "es": "Recibo" } },
+            { "word": "Diskon", "romanization": null, "meanings": { "en": "Discount", "zh": "折扣", "th": "ส่วนลด", "ko": "할인", "es": "Descuento" } },
+            { "word": "Pajak", "romanization": null, "meanings": { "en": "Tax", "zh": "税", "th": "ภาษี", "ko": "세금", "es": "Impuesto" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Rupiah", "romanization": null, "options": { "en": ["Indonesian Rupiah", "Dollar", "Pound", "Euro"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Diskon", "romanization": null, "options": { "en": ["Discount", "Tax", "Price", "Receipt"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Pay' in Indonesian?" }, "options": { "neutral": ["Bayar", "Uang", "Kuitansi", "Pajak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tax' in Indonesian?" }, "options": { "neutral": ["Pajak", "Diskon", "Bayar", "Kuitansi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kuitansi", "romanization": null, "options": { "en": ["Receipt", "Invoice", "Report", "Contract"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Uang", "romanization": null, "native": { "en": "Money" } },
+              { "target": "Bayar", "romanization": null, "native": { "en": "Pay" } },
+              { "target": "Diskon", "romanization": null, "native": { "en": "Discount" } },
+              { "target": "Pajak", "romanization": null, "native": { "en": "Tax" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Negotiations & Agreements",
+            "zh": "谈判与协议",
+            "th": "การเจรจาและข้อตกลง",
+            "ko": "협상과 합의",
+            "es": "Negociaciones y acuerdos"
+          },
+          "objectives": {
+            "en": ["Use basic negotiation language in Indonesian", "Agree on terms"]
+          },
+          "vocabulary": [
+            { "word": "Negosiasi", "romanization": null, "meanings": { "en": "Negotiation", "zh": "谈判", "th": "การเจรจา", "ko": "협상", "es": "Negociación" } },
+            { "word": "Kontrak", "romanization": null, "meanings": { "en": "Contract", "zh": "合同", "th": "สัญญา", "ko": "계약", "es": "Contrato" } },
+            { "word": "Setuju", "romanization": null, "meanings": { "en": "Agree / agreed", "zh": "同意/达成协议", "th": "ตกลง / เห็นด้วย", "ko": "동의하다", "es": "De acuerdo / acordado" } },
+            { "word": "Syarat", "romanization": null, "meanings": { "en": "Terms / conditions", "zh": "条款/条件", "th": "เงื่อนไข", "ko": "조건", "es": "Términos / condiciones" } },
+            { "word": "Harga terbaik", "romanization": null, "meanings": { "en": "Best price", "zh": "最优惠价格", "th": "ราคาที่ดีที่สุด", "ko": "최저가", "es": "Mejor precio" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kontrak", "romanization": null, "options": { "en": ["Contract", "Agreement", "Report", "Letter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Syarat", "romanization": null, "options": { "en": ["Terms / conditions", "Price", "Contract", "Agreement"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Agree' in Indonesian?" }, "options": { "neutral": ["Setuju", "Negosiasi", "Kontrak", "Syarat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Negotiation' in Indonesian?" }, "options": { "neutral": ["Negosiasi", "Kontrak", "Setuju", "Syarat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Harga terbaik", "romanization": null, "options": { "en": ["Best price", "Market price", "Fixed price", "Discount"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Negosiasi", "romanization": null, "native": { "en": "Negotiation" } },
+              { "target": "Kontrak", "romanization": null, "native": { "en": "Contract" } },
+              { "target": "Setuju", "romanization": null, "native": { "en": "Agree / agreed" } },
+              { "target": "Syarat", "romanization": null, "native": { "en": "Terms / conditions" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Customer Service",
+            "zh": "客户服务",
+            "th": "การบริการลูกค้า",
+            "ko": "고객 서비스",
+            "es": "Atención al cliente"
+          },
+          "objectives": {
+            "en": ["Handle customer complaints politely", "Provide help and solutions"]
+          },
+          "vocabulary": [
+            { "word": "Pelanggan", "romanization": null, "meanings": { "en": "Customer / client", "zh": "客户", "th": "ลูกค้า", "ko": "고객", "es": "Cliente" } },
+            { "word": "Keluhan", "romanization": null, "meanings": { "en": "Complaint", "zh": "投诉", "th": "การร้องเรียน", "ko": "불만 / 민원", "es": "Queja" } },
+            { "word": "Solusi", "romanization": null, "meanings": { "en": "Solution", "zh": "解决方案", "th": "การแก้ปัญหา / วิธีแก้ไข", "ko": "해결책", "es": "Solución" } },
+            { "word": "Bantuan", "romanization": null, "meanings": { "en": "Assistance / help", "zh": "帮助/协助", "th": "ความช่วยเหลือ", "ko": "도움 / 지원", "es": "Asistencia / ayuda" } },
+            { "word": "Mohon maaf atas ketidaknyamanannya", "romanization": null, "meanings": { "en": "Sorry for the inconvenience", "zh": "为不便道歉", "th": "ขอโทษสำหรับความไม่สะดวก", "ko": "불편을 드려 죄송합니다", "es": "Disculpe las molestias" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Keluhan", "romanization": null, "options": { "en": ["Complaint", "Request", "Question", "Order"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Solusi", "romanization": null, "options": { "en": ["Solution", "Problem", "Question", "Complaint"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Customer / client' in Indonesian?" }, "options": { "neutral": ["Pelanggan", "Keluhan", "Bantuan", "Solusi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Assistance / help' in Indonesian?" }, "options": { "neutral": ["Bantuan", "Solusi", "Keluhan", "Pelanggan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Mohon maaf atas ketidaknyamanannya", "romanization": null, "options": { "en": ["Sorry for the inconvenience", "Thank you for your patience", "Please wait", "We are closed"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Pelanggan", "romanization": null, "native": { "en": "Customer / client" } },
+              { "target": "Keluhan", "romanization": null, "native": { "en": "Complaint" } },
+              { "target": "Solusi", "romanization": null, "native": { "en": "Solution" } },
+              { "target": "Bantuan", "romanization": null, "native": { "en": "Assistance / help" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

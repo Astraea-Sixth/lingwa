@@ -1,0 +1,377 @@
+{
+  "lang": "id",
+  "language": "id",
+  "level": "A2",
+  "track": "social",
+  "track_label": {
+    "en": "Social Life",
+    "zh": "社交生活",
+    "th": "ชีวิตสังคม",
+    "ko": "사회생활",
+    "es": "Vida social"
+  },
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Friends",
+        "zh": "交朋友",
+        "th": "การสร้างเพื่อนใหม่",
+        "ko": "친구 사귀기",
+        "es": "Hacer amigos"
+      },
+      "description": {
+        "en": "Learn how to introduce yourself and make friends in Indonesian",
+        "zh": "学习如何用印度尼西亚语自我介绍和交朋友",
+        "th": "เรียนรู้วิธีแนะนำตัวเองและสร้างมิตรภาพในภาษาอินโดนีเซีย",
+        "ko": "인도네시아어로 자기소개하고 친구 사귀는 법",
+        "es": "Aprender a presentarse y hacer amigos en indonesio"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Greetings & Introductions",
+            "zh": "问候与介绍",
+            "th": "การทักทายและการแนะนำตัว",
+            "ko": "인사와 소개",
+            "es": "Saludos y presentaciones"
+          },
+          "objectives": {
+            "en": ["Greet people formally and informally", "Introduce yourself and others"]
+          },
+          "vocabulary": [
+            { "word": "Apa kabar?", "romanization": null, "meanings": { "en": "How are you?", "zh": "你好吗？", "th": "สบายดีไหม?", "ko": "어떻게 지내세요?", "es": "¿Cómo estás?" } },
+            { "word": "Kabar baik", "romanization": null, "meanings": { "en": "I am well", "zh": "我很好", "th": "ฉันสบายดี", "ko": "잘 지내요", "es": "Estoy bien" } },
+            { "word": "Nama saya", "romanization": null, "meanings": { "en": "My name is", "zh": "我叫", "th": "ฉันชื่อ", "ko": "제 이름은", "es": "Mi nombre es" } },
+            { "word": "Selamat datang", "romanization": null, "meanings": { "en": "Welcome", "zh": "欢迎", "th": "ยินดีต้อนรับ", "ko": "환영합니다", "es": "Bienvenido" } },
+            { "word": "Sampai jumpa", "romanization": null, "meanings": { "en": "Goodbye / see you", "zh": "再见", "th": "ลาก่อน / แล้วพบกัน", "ko": "안녕히 계세요 / 또 봐요", "es": "Hasta luego" } },
+            { "word": "Kenalan", "romanization": null, "meanings": { "en": "Acquaintance / to get acquainted", "zh": "相识/认识", "th": "คนรู้จัก / ทำความรู้จัก", "ko": "지인 / 알게 되다", "es": "Conocido / conocerse" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Apa kabar?", "romanization": null, "options": { "en": ["How are you?", "What is your name?", "Where are you from?", "How old are you?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Selamat datang", "romanization": null, "options": { "en": ["Welcome", "Goodbye", "Thank you", "Sorry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'My name is' in Indonesian?" }, "options": { "neutral": ["Nama saya", "Kabar baik", "Sampai jumpa", "Apa kabar?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Goodbye' in Indonesian?" }, "options": { "neutral": ["Sampai jumpa", "Selamat datang", "Kabar baik", "Kenalan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Kabar baik", "romanization": null, "options": { "en": ["I am well", "How are you?", "Thank you", "Welcome"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Apa kabar?", "romanization": null, "native": { "en": "How are you?" } },
+              { "target": "Kabar baik", "romanization": null, "native": { "en": "I am well" } },
+              { "target": "Selamat datang", "romanization": null, "native": { "en": "Welcome" } },
+              { "target": "Sampai jumpa", "romanization": null, "native": { "en": "Goodbye / see you" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Talking About Yourself",
+            "zh": "介绍自己",
+            "th": "การพูดเกี่ยวกับตัวเอง",
+            "ko": "자신에 대해 이야기하기",
+            "es": "Hablar de uno mismo"
+          },
+          "objectives": {
+            "en": ["Talk about your hobbies and interests", "Ask questions about others"]
+          },
+          "vocabulary": [
+            { "word": "Hobi", "romanization": null, "meanings": { "en": "Hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "Pasatiempo" } },
+            { "word": "Saya suka", "romanization": null, "meanings": { "en": "I like", "zh": "我喜欢", "th": "ฉันชอบ", "ko": "저는 좋아해요", "es": "Me gusta" } },
+            { "word": "Dari mana?", "romanization": null, "meanings": { "en": "Where are you from?", "zh": "你从哪里来？", "th": "มาจากไหน?", "ko": "어디서 오셨어요?", "es": "¿De dónde eres?" } },
+            { "word": "Pekerjaan", "romanization": null, "meanings": { "en": "Job / occupation", "zh": "工作/职业", "th": "งาน / อาชีพ", "ko": "직업", "es": "Trabajo / ocupación" } },
+            { "word": "Umur", "romanization": null, "meanings": { "en": "Age", "zh": "年龄", "th": "อายุ", "ko": "나이", "es": "Edad" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Hobi", "romanization": null, "options": { "en": ["Hobby", "Job", "Age", "Name"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Dari mana?", "romanization": null, "options": { "en": ["Where are you from?", "How old are you?", "What is your hobby?", "What is your name?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I like' in Indonesian?" }, "options": { "neutral": ["Saya suka", "Dari mana?", "Hobi", "Umur"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Age' in Indonesian?" }, "options": { "neutral": ["Umur", "Hobi", "Pekerjaan", "Saya suka"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pekerjaan", "romanization": null, "options": { "en": ["Job / occupation", "Hobby", "Age", "Name"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Hobi", "romanization": null, "native": { "en": "Hobby" } },
+              { "target": "Saya suka", "romanization": null, "native": { "en": "I like" } },
+              { "target": "Pekerjaan", "romanization": null, "native": { "en": "Job / occupation" } },
+              { "target": "Umur", "romanization": null, "native": { "en": "Age" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Making Plans",
+            "zh": "制定计划",
+            "th": "การวางแผน",
+            "ko": "계획 세우기",
+            "es": "Hacer planes"
+          },
+          "objectives": {
+            "en": ["Invite someone to an activity", "Accept or decline invitations politely"]
+          },
+          "vocabulary": [
+            { "word": "Yuk!", "romanization": null, "meanings": { "en": "Let's go! / Come on!", "zh": "走吧！/ 来吧！", "th": "ไปกันเลย! / มาเถอะ!", "ko": "가요! / 함께 해요!", "es": "¡Vamos! / ¡Venga!" } },
+            { "word": "Bisa", "romanization": null, "meanings": { "en": "Can / able to", "zh": "可以/能", "th": "ได้ / สามารถ", "ko": "할 수 있다", "es": "Poder / puede" } },
+            { "word": "Tidak bisa", "romanization": null, "meanings": { "en": "Cannot / unable to", "zh": "不可以/不能", "th": "ไม่ได้ / ไม่สามารถ", "ko": "할 수 없다", "es": "No puede / imposible" } },
+            { "word": "Kapan?", "romanization": null, "meanings": { "en": "When?", "zh": "什么时候？", "th": "เมื่อไหร่?", "ko": "언제요?", "es": "¿Cuándo?" } },
+            { "word": "Malam ini", "romanization": null, "meanings": { "en": "Tonight", "zh": "今晚", "th": "คืนนี้", "ko": "오늘 밤", "es": "Esta noche" } },
+            { "word": "Akhir pekan", "romanization": null, "meanings": { "en": "Weekend", "zh": "周末", "th": "สุดสัปดาห์", "ko": "주말", "es": "Fin de semana" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Yuk!", "romanization": null, "options": { "en": ["Let's go! / Come on!", "Help!", "Stop!", "Wait!"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Akhir pekan", "romanization": null, "options": { "en": ["Weekend", "Weekday", "Holiday", "Tonight"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Cannot' in Indonesian?" }, "options": { "neutral": ["Tidak bisa", "Bisa", "Yuk!", "Kapan?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'When?' in Indonesian?" }, "options": { "neutral": ["Kapan?", "Malam ini", "Akhir pekan", "Bisa"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Malam ini", "romanization": null, "options": { "en": ["Tonight", "This morning", "Tomorrow", "Weekend"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Yuk!", "romanization": null, "native": { "en": "Let's go!" } },
+              { "target": "Bisa", "romanization": null, "native": { "en": "Can / able to" } },
+              { "target": "Tidak bisa", "romanization": null, "native": { "en": "Cannot" } },
+              { "target": "Akhir pekan", "romanization": null, "native": { "en": "Weekend" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At a Gathering",
+        "zh": "在聚会上",
+        "th": "ในงานรวมตัว",
+        "ko": "모임에서",
+        "es": "En una reunión"
+      },
+      "description": {
+        "en": "Socialise at Indonesian parties and community gatherings",
+        "zh": "在印度尼西亚派对和社区聚会中社交",
+        "th": "เข้าสังคมในงานปาร์ตี้และการรวมตัวของชุมชนอินโดนีเซีย",
+        "ko": "인도네시아 파티와 지역 모임에서 사교하기",
+        "es": "Socializar en fiestas y reuniones comunitarias indonesias"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Celebrations & Festivals",
+            "zh": "庆典与节日",
+            "th": "การเฉลิมฉลองและเทศกาล",
+            "ko": "축하와 축제",
+            "es": "Celebraciones y festivales"
+          },
+          "objectives": {
+            "en": ["Talk about Indonesian festivals", "Extend festival greetings"]
+          },
+          "vocabulary": [
+            { "word": "Selamat Lebaran", "romanization": null, "meanings": { "en": "Happy Eid / Lebaran greetings", "zh": "开斋节快乐", "th": "สุขสันต์วันเลบารัน", "ko": "르바란 (이드) 축하합니다", "es": "Feliz Lebaran / Eid" } },
+            { "word": "Perayaan", "romanization": null, "meanings": { "en": "Celebration", "zh": "庆典", "th": "การเฉลิมฉลอง", "ko": "축하 행사", "es": "Celebración" } },
+            { "word": "Undangan", "romanization": null, "meanings": { "en": "Invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대장", "es": "Invitación" } },
+            { "word": "Hadiah", "romanization": null, "meanings": { "en": "Gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "Regalo" } },
+            { "word": "Ramai", "romanization": null, "meanings": { "en": "Lively / crowded", "zh": "热闹/拥挤", "th": "คึกคัก / แออัด", "ko": "활기차다 / 붐비다", "es": "Animado / concurrido" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Undangan", "romanization": null, "options": { "en": ["Invitation", "Gift", "Celebration", "Greeting"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Ramai", "romanization": null, "options": { "en": ["Lively / crowded", "Quiet", "Sad", "Empty"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Gift / present' in Indonesian?" }, "options": { "neutral": ["Hadiah", "Undangan", "Perayaan", "Ramai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Celebration' in Indonesian?" }, "options": { "neutral": ["Perayaan", "Hadiah", "Ramai", "Undangan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Selamat Lebaran", "romanization": null, "options": { "en": ["Happy Lebaran / Eid", "Happy New Year", "Happy Birthday", "Congratulations"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Perayaan", "romanization": null, "native": { "en": "Celebration" } },
+              { "target": "Undangan", "romanization": null, "native": { "en": "Invitation" } },
+              { "target": "Hadiah", "romanization": null, "native": { "en": "Gift / present" } },
+              { "target": "Ramai", "romanization": null, "native": { "en": "Lively / crowded" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Small Talk",
+            "zh": "闲聊",
+            "th": "การสนทนาเล็กน้อย",
+            "ko": "가벼운 대화",
+            "es": "Charla informal"
+          },
+          "objectives": {
+            "en": ["Keep a simple conversation going", "Comment on weather and surroundings"]
+          },
+          "vocabulary": [
+            { "word": "Cuaca", "romanization": null, "meanings": { "en": "Weather", "zh": "天气", "th": "อากาศ", "ko": "날씨", "es": "Tiempo (meteorológico)" } },
+            { "word": "Panas", "romanization": null, "meanings": { "en": "Hot", "zh": "热", "th": "ร้อน", "ko": "덥다", "es": "Caliente / caluroso" } },
+            { "word": "Hujan", "romanization": null, "meanings": { "en": "Rain", "zh": "雨/下雨", "th": "ฝน", "ko": "비", "es": "Lluvia" } },
+            { "word": "Bagaimana?", "romanization": null, "meanings": { "en": "How? / What do you think?", "zh": "怎么样？", "th": "อย่างไร?", "ko": "어때요?", "es": "¿Cómo? / ¿Qué opinas?" } },
+            { "word": "Menarik", "romanization": null, "meanings": { "en": "Interesting / attractive", "zh": "有趣/有吸引力", "th": "น่าสนใจ", "ko": "흥미롭다", "es": "Interesante / atractivo" } },
+            { "word": "Tidak apa-apa", "romanization": null, "meanings": { "en": "Never mind / it's okay", "zh": "没关系", "th": "ไม่เป็นไร", "ko": "괜찮아요", "es": "No importa / está bien" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Cuaca", "romanization": null, "options": { "en": ["Weather", "Cloud", "Sun", "Wind"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tidak apa-apa", "romanization": null, "options": { "en": ["Never mind / it's okay", "I don't know", "I don't want", "Not here"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Indonesian?" }, "options": { "neutral": ["Panas", "Dingin", "Hujan", "Menarik"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Interesting' in Indonesian?" }, "options": { "neutral": ["Menarik", "Panas", "Cuaca", "Hujan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Hujan", "romanization": null, "options": { "en": ["Rain", "Sun", "Cloud", "Wind"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Cuaca", "romanization": null, "native": { "en": "Weather" } },
+              { "target": "Panas", "romanization": null, "native": { "en": "Hot" } },
+              { "target": "Hujan", "romanization": null, "native": { "en": "Rain" } },
+              { "target": "Menarik", "romanization": null, "native": { "en": "Interesting" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感受",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express emotions and feelings", "Ask how others are feeling"]
+          },
+          "vocabulary": [
+            { "word": "Senang", "romanization": null, "meanings": { "en": "Happy / glad", "zh": "高兴/开心", "th": "ดีใจ / มีความสุข", "ko": "기쁘다 / 즐겁다", "es": "Feliz / contento" } },
+            { "word": "Sedih", "romanization": null, "meanings": { "en": "Sad", "zh": "伤心", "th": "เศร้า", "ko": "슬프다", "es": "Triste" } },
+            { "word": "Capek", "romanization": null, "meanings": { "en": "Tired", "zh": "疲倦", "th": "เหนื่อย", "ko": "피곤하다", "es": "Cansado" } },
+            { "word": "Bosan", "romanization": null, "meanings": { "en": "Bored", "zh": "无聊", "th": "เบื่อ", "ko": "지루하다", "es": "Aburrido" } },
+            { "word": "Bersemangat", "romanization": null, "meanings": { "en": "Excited / enthusiastic", "zh": "兴奋/充满热情", "th": "ตื่นเต้น / กระตือรือร้น", "ko": "신나다 / 열정적이다", "es": "Emocionado / entusiasta" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Senang", "romanization": null, "options": { "en": ["Happy / glad", "Sad", "Tired", "Angry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Bersemangat", "romanization": null, "options": { "en": ["Excited / enthusiastic", "Bored", "Sad", "Nervous"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tired' in Indonesian?" }, "options": { "neutral": ["Capek", "Sedih", "Bosan", "Senang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bored' in Indonesian?" }, "options": { "neutral": ["Bosan", "Capek", "Bersemangat", "Sedih"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sedih", "romanization": null, "options": { "en": ["Sad", "Happy", "Angry", "Excited"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Senang", "romanization": null, "native": { "en": "Happy / glad" } },
+              { "target": "Sedih", "romanization": null, "native": { "en": "Sad" } },
+              { "target": "Capek", "romanization": null, "native": { "en": "Tired" } },
+              { "target": "Bersemangat", "romanization": null, "native": { "en": "Excited / enthusiastic" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community & Neighbourhood",
+        "zh": "社区与邻里",
+        "th": "ชุมชนและย่านที่อยู่อาศัย",
+        "ko": "지역사회와 이웃",
+        "es": "Comunidad y vecindario"
+      },
+      "description": {
+        "en": "Talk about your neighbourhood and community life in Indonesia",
+        "zh": "谈论印度尼西亚的社区和邻里生活",
+        "th": "พูดคุยเกี่ยวกับย่านที่อยู่อาศัยและชีวิตชุมชนในอินโดนีเซีย",
+        "ko": "인도네시아에서 동네와 지역 사회 생활에 대해 이야기하기",
+        "es": "Hablar sobre el barrio y la vida comunitaria en Indonesia"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Your Neighbourhood",
+            "zh": "你的社区",
+            "th": "ย่านของคุณ",
+            "ko": "동네",
+            "es": "Tu barrio"
+          },
+          "objectives": {
+            "en": ["Describe your neighbourhood", "Talk about local facilities"]
+          },
+          "vocabulary": [
+            { "word": "Lingkungan", "romanization": null, "meanings": { "en": "Neighbourhood / environment", "zh": "邻里/环境", "th": "ละแวกบ้าน / สิ่งแวดล้อม", "ko": "이웃 / 환경", "es": "Vecindario / entorno" } },
+            { "word": "Tetangga", "romanization": null, "meanings": { "en": "Neighbour", "zh": "邻居", "th": "เพื่อนบ้าน", "ko": "이웃", "es": "Vecino" } },
+            { "word": "Taman", "romanization": null, "meanings": { "en": "Park / garden", "zh": "公园/花园", "th": "สวนสาธารณะ / สวน", "ko": "공원 / 정원", "es": "Parque / jardín" } },
+            { "word": "Toko", "romanization": null, "meanings": { "en": "Shop / store", "zh": "商店", "th": "ร้านค้า", "ko": "가게", "es": "Tienda" } },
+            { "word": "Sekolah", "romanization": null, "meanings": { "en": "School", "zh": "学校", "th": "โรงเรียน", "ko": "학교", "es": "Escuela" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Tetangga", "romanization": null, "options": { "en": ["Neighbour", "Friend", "Family", "Colleague"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Taman", "romanization": null, "options": { "en": ["Park / garden", "Market", "School", "Shop"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Shop / store' in Indonesian?" }, "options": { "neutral": ["Toko", "Taman", "Tetangga", "Lingkungan"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Neighbourhood' in Indonesian?" }, "options": { "neutral": ["Lingkungan", "Taman", "Toko", "Sekolah"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sekolah", "romanization": null, "options": { "en": ["School", "Hospital", "Shop", "Park"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Lingkungan", "romanization": null, "native": { "en": "Neighbourhood" } },
+              { "target": "Tetangga", "romanization": null, "native": { "en": "Neighbour" } },
+              { "target": "Taman", "romanization": null, "native": { "en": "Park / garden" } },
+              { "target": "Toko", "romanization": null, "native": { "en": "Shop / store" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Community Activities",
+            "zh": "社区活动",
+            "th": "กิจกรรมชุมชน",
+            "ko": "지역 활동",
+            "es": "Actividades comunitarias"
+          },
+          "objectives": {
+            "en": ["Describe community activities", "Talk about volunteering and events"]
+          },
+          "vocabulary": [
+            { "word": "Kegiatan", "romanization": null, "meanings": { "en": "Activity", "zh": "活动", "th": "กิจกรรม", "ko": "활동", "es": "Actividad" } },
+            { "word": "Sukarela", "romanization": null, "meanings": { "en": "Volunteer / voluntary", "zh": "志愿者/自愿", "th": "อาสาสมัคร / สมัครใจ", "ko": "자원봉사", "es": "Voluntario" } },
+            { "word": "Acara", "romanization": null, "meanings": { "en": "Event / programme", "zh": "活动/节目", "th": "งาน / รายการ", "ko": "행사 / 프로그램", "es": "Evento / programa" } },
+            { "word": "Bersama", "romanization": null, "meanings": { "en": "Together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "Juntos" } },
+            { "word": "Kerja bakti", "romanization": null, "meanings": { "en": "Community service / communal work", "zh": "社区服务/集体劳动", "th": "บริการชุมชน / งานส่วนรวม", "ko": "지역 봉사 / 공동 작업", "es": "Servicio comunitario" } },
+            { "word": "Bergotong royong", "romanization": null, "meanings": { "en": "Mutual cooperation (gotong royong)", "zh": "互助合作", "th": "ความร่วมมือซึ่งกันและกัน", "ko": "상호 협력 (고통 로용)", "es": "Cooperación mutua" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kerja bakti", "romanization": null, "options": { "en": ["Community service / communal work", "Festival", "School event", "Holiday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Bersama", "romanization": null, "options": { "en": ["Together", "Alone", "Apart", "Far"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Volunteer' in Indonesian?" }, "options": { "neutral": ["Sukarela", "Kegiatan", "Acara", "Bersama"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Event / programme' in Indonesian?" }, "options": { "neutral": ["Acara", "Kegiatan", "Sukarela", "Kerja bakti"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bergotong royong", "romanization": null, "options": { "en": ["Mutual cooperation", "Community service", "Volunteer", "Together"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kegiatan", "romanization": null, "native": { "en": "Activity" } },
+              { "target": "Sukarela", "romanization": null, "native": { "en": "Volunteer" } },
+              { "target": "Acara", "romanization": null, "native": { "en": "Event / programme" } },
+              { "target": "Bersama", "romanization": null, "native": { "en": "Together" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Opinions & Agreeing",
+            "zh": "意见与同意",
+            "th": "ความคิดเห็นและการเห็นด้วย",
+            "ko": "의견과 동의",
+            "es": "Opiniones y acuerdo"
+          },
+          "objectives": {
+            "en": ["Express opinions politely", "Agree and disagree in Indonesian"]
+          },
+          "vocabulary": [
+            { "word": "Menurut saya", "romanization": null, "meanings": { "en": "In my opinion", "zh": "在我看来", "th": "ในความคิดเห็นของฉัน", "ko": "제 생각에는", "es": "En mi opinión" } },
+            { "word": "Setuju", "romanization": null, "meanings": { "en": "Agree", "zh": "同意", "th": "เห็นด้วย", "ko": "동의하다", "es": "De acuerdo" } },
+            { "word": "Tidak setuju", "romanization": null, "meanings": { "en": "Disagree", "zh": "不同意", "th": "ไม่เห็นด้วย", "ko": "동의하지 않다", "es": "En desacuerdo" } },
+            { "word": "Benar", "romanization": null, "meanings": { "en": "Correct / right / true", "zh": "对/正确/真", "th": "ถูกต้อง / จริง", "ko": "맞다 / 사실이다", "es": "Correcto / verdadero" } },
+            { "word": "Mungkin", "romanization": null, "meanings": { "en": "Maybe / perhaps", "zh": "也许/可能", "th": "บางที / อาจจะ", "ko": "아마도", "es": "Tal vez / quizás" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Setuju", "romanization": null, "options": { "en": ["Agree", "Disagree", "Maybe", "Correct"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Mungkin", "romanization": null, "options": { "en": ["Maybe / perhaps", "Yes", "No", "Always"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Disagree' in Indonesian?" }, "options": { "neutral": ["Tidak setuju", "Setuju", "Benar", "Mungkin"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Correct / right' in Indonesian?" }, "options": { "neutral": ["Benar", "Mungkin", "Setuju", "Tidak setuju"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Menurut saya", "romanization": null, "options": { "en": ["In my opinion", "I agree", "I know", "I think so"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Setuju", "romanization": null, "native": { "en": "Agree" } },
+              { "target": "Tidak setuju", "romanization": null, "native": { "en": "Disagree" } },
+              { "target": "Benar", "romanization": null, "native": { "en": "Correct / right / true" } },
+              { "target": "Mungkin", "romanization": null, "native": { "en": "Maybe / perhaps" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

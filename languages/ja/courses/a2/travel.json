@@ -1,0 +1,736 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around Japan",
+        "zh": "在日本出行",
+        "th": "การเดินทางในญี่ปุ่น",
+        "ko": "일본에서 이동하기",
+        "es": "Moverse por Japón"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Trains & Subway",
+            "zh": "电车和地铁",
+            "th": "รถไฟและรถไฟใต้ดิน",
+            "ko": "기차와 지하철",
+            "es": "Trenes y metro"
+          },
+          "objectives": {
+            "en": ["Use Japanese train and subway vocabulary", "Buy a ticket and find the right platform"],
+            "zh": ["使用日本电车和地铁词汇", "购票和找到正确的站台"],
+            "th": ["ใช้คำศัพท์รถไฟและรถไฟใต้ดินญี่ปุ่น", "ซื้อตั๋วและหาชานชาลา"],
+            "ko": ["일본어로 기차와 지하철 어휘 사용하기", "티켓 사고 플랫폼 찾기"],
+            "es": ["Usar vocabulario de tren y metro en japonés", "Comprar un billete y encontrar el andén"]
+          },
+          "vocabulary": [
+            {
+              "word": "でんしゃ",
+              "romanization": "densha",
+              "meanings": { "en": "train/electric train", "zh": "电车", "th": "รถไฟ", "ko": "전철", "es": "tren eléctrico" }
+            },
+            {
+              "word": "ちかてつ",
+              "romanization": "chikatetsu",
+              "meanings": { "en": "subway/underground", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "metro/subterráneo" }
+            },
+            {
+              "word": "きっぷ",
+              "romanization": "kippu",
+              "meanings": { "en": "ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "billete" }
+            },
+            {
+              "word": "ホーム",
+              "romanization": "hoomu",
+              "meanings": { "en": "platform", "zh": "站台", "th": "ชานชาลา", "ko": "플랫폼", "es": "andén" }
+            },
+            {
+              "word": "〜まで",
+              "romanization": "~made",
+              "meanings": { "en": "to ~ / as far as ~", "zh": "到~/至~", "th": "ถึง~", "ko": "~까지", "es": "hasta ~" }
+            },
+            {
+              "word": "のりかえ",
+              "romanization": "norikae",
+              "meanings": { "en": "transfer/change (trains)", "zh": "换乘", "th": "เปลี่ยนขบวน", "ko": "환승", "es": "transbordo/cambio" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'One ticket to Shinjuku, please'?",
+              "options": ["しんじゅくまでいちまいください。", "しんじゅくにいきます。", "しんじゅくのきっぷはいくらですか？", "しんじゅくのでんしゃはどこですか？"],
+              "correct": 0,
+              "explanation": "'〜まで' = to/until ~ (destination). 'いちまい' = one (flat thing/ticket). 'ください' = please."
+            },
+            {
+              "type": "target_to_native",
+              "word": "のりかえ",
+              "options": ["transfer/change trains", "arrival", "departure", "destination"],
+              "correct": 0,
+              "explanation": "'のりかえ' (norikae) = transfer between trains/lines. 'ここでのりかえます' = Transfer here."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["でんしゃ", "train"],
+                ["きっぷ", "ticket"],
+                ["ホーム", "platform"],
+                ["のりかえ", "transfer"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["まで", "えき", "いちまい", "とうきょう", "ください"],
+              "correct": ["とうきょう", "えき", "まで", "いちまい", "ください"],
+              "translation": "One ticket to Tokyo Station, please."
+            },
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Which platform does the train to Osaka depart from?'",
+              "options": ["おおさかゆきのでんしゃはなんばんホームですか？", "おおさかのでんしゃはどこですか？", "おおさかまでどれくらいかかりますか？", "おおさかいきのきっぷをください。"],
+              "correct": 0,
+              "explanation": "'〜ゆき' = bound for ~. 'なんばん' = what number. 'ホーム' = platform."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": ["Ask for and understand directions in Japanese", "Use direction expressions and landmarks"],
+            "zh": ["用日语问路和理解方向", "使用方向表达和地标"],
+            "th": ["ถามทางและเข้าใจทิศทางเป็นภาษาญี่ปุ่น", "ใช้การแสดงทิศทางและสถานที่สำคัญ"],
+            "ko": ["일본어로 길을 묻고 이해하기", "방향 표현과 랜드마크 사용하기"],
+            "es": ["Pedir y entender indicaciones en japonés", "Usar expresiones de dirección y referencias"]
+          },
+          "vocabulary": [
+            {
+              "word": "まっすぐ",
+              "romanization": "massugu",
+              "meanings": { "en": "straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "todo recto" }
+            },
+            {
+              "word": "ひだり",
+              "romanization": "hidari",
+              "meanings": { "en": "left", "zh": "左边", "th": "ซ้าย", "ko": "왼쪽", "es": "izquierda" }
+            },
+            {
+              "word": "みぎ",
+              "romanization": "migi",
+              "meanings": { "en": "right", "zh": "右边", "th": "ขวา", "ko": "오른쪽", "es": "derecha" }
+            },
+            {
+              "word": "〜のとなり",
+              "romanization": "~no tonari",
+              "meanings": { "en": "next to ~", "zh": "在~旁边", "th": "ติดกับ~", "ko": "~ 옆에", "es": "al lado de ~" }
+            },
+            {
+              "word": "すみません",
+              "romanization": "sumimasen",
+              "meanings": { "en": "excuse me / I'm sorry", "zh": "对不起/打扰一下", "th": "ขอโทษครับ/ค่ะ", "ko": "실례합니다", "es": "disculpe / perdón" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Go straight then turn right'?",
+              "options": ["まっすぐいって、みぎにまがってください。", "まっすぐいって、ひだりにまがってください。", "みぎにまがって、まっすぐいってください。", "ひだりにまがってください。"],
+              "correct": 0,
+              "explanation": "'まっすぐいって' = go straight, 'みぎにまがって' = turn right, 'ください' = please."
+            },
+            {
+              "type": "target_to_native",
+              "word": "すみません",
+              "options": ["excuse me", "thank you", "I'm sorry", "please"],
+              "correct": 0,
+              "explanation": "'すみません' is used to get someone's attention (excuse me) or apologize (I'm sorry)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["まっすぐ", "straight ahead"],
+                ["ひだり", "left"],
+                ["みぎ", "right"],
+                ["すみません", "excuse me"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["みぎ", "に", "まがって", "ください"],
+              "correct": ["みぎ", "に", "まがって", "ください"],
+              "translation": "Please turn right."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taking a Taxi",
+            "zh": "坐出租车",
+            "th": "การนั่งแท็กซี่",
+            "ko": "택시 타기",
+            "es": "Tomar un taxi"
+          },
+          "objectives": {
+            "en": ["Take a taxi and give an address in Japanese", "Ask about the fare"],
+            "zh": ["在日本乘坐出租车并给出地址", "询问车费"],
+            "th": ["นั่งแท็กซี่และให้ที่อยู่เป็นภาษาญี่ปุ่น", "ถามค่าโดยสาร"],
+            "ko": ["일본에서 택시 타고 주소 알려주기", "요금 물어보기"],
+            "es": ["Tomar un taxi y dar una dirección en japonés", "Preguntar la tarifa"]
+          },
+          "vocabulary": [
+            {
+              "word": "タクシー",
+              "romanization": "takushii",
+              "meanings": { "en": "taxi", "zh": "出租车", "th": "แท็กซี่", "ko": "택시", "es": "taxi" }
+            },
+            {
+              "word": "〜におねがいします",
+              "romanization": "~ni onegai shimasu",
+              "meanings": { "en": "please take me to ~", "zh": "请带我去~", "th": "ไปที่~ด้วยนะคะ/ครับ", "ko": "~로 가주세요", "es": "lléveme a ~ por favor" }
+            },
+            {
+              "word": "メーター",
+              "romanization": "meetaa",
+              "meanings": { "en": "meter (taxi)", "zh": "计价器", "th": "มิเตอร์", "ko": "미터기", "es": "taxímetro" }
+            },
+            {
+              "word": "りょうきん",
+              "romanization": "ryoukin",
+              "meanings": { "en": "fare/fee", "zh": "车费", "th": "ค่าโดยสาร", "ko": "요금", "es": "tarifa" }
+            },
+            {
+              "word": "ここでとめてください",
+              "romanization": "koko de tomete kudasai",
+              "meanings": { "en": "please stop here", "zh": "请在这里停", "th": "กรุณาจอดที่นี่", "ko": "여기서 세워 주세요", "es": "pare aquí por favor" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you tell the taxi driver 'To the station, please'?",
+              "options": ["えきにおねがいします。", "えきにいきます。", "えきまでいくらですか？", "えきはどこですか？"],
+              "correct": 0,
+              "explanation": "'〜におねがいします' = please (take me) to ~. 'えき' = station."
+            },
+            {
+              "type": "target_to_native",
+              "word": "りょうきん",
+              "options": ["fare/fee", "meter", "receipt", "change"],
+              "correct": 0,
+              "explanation": "'りょうきん' (ryoukin) = fare, fee, or charge. 'りょうきんはいくらですか？' = How much is the fare?"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["タクシー", "taxi"],
+                ["メーター", "meter"],
+                ["りょうきん", "fare"],
+                ["ここでとめてください", "please stop here"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ください", "ここ", "で", "とめて"],
+              "correct": ["ここ", "で", "とめて", "ください"],
+              "translation": "Please stop here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Hotel",
+        "zh": "在酒店",
+        "th": "ที่โรงแรม",
+        "ko": "호텔에서",
+        "es": "En el hotel"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Checking In",
+            "zh": "入住",
+            "th": "การเช็คอิน",
+            "ko": "체크인",
+            "es": "Registrarse"
+          },
+          "objectives": {
+            "en": ["Check into a Japanese hotel", "Understand key hotel vocabulary"],
+            "zh": ["在日本酒店入住", "理解关键酒店词汇"],
+            "th": ["เช็คอินที่โรงแรมญี่ปุ่น", "เข้าใจคำศัพท์โรงแรมหลัก"],
+            "ko": ["일본 호텔에서 체크인하기", "주요 호텔 어휘 이해하기"],
+            "es": ["Hacer el check-in en un hotel japonés", "Entender el vocabulario hotelero clave"]
+          },
+          "vocabulary": [
+            {
+              "word": "ホテル",
+              "romanization": "hoteru",
+              "meanings": { "en": "hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "hotel" }
+            },
+            {
+              "word": "チェックイン",
+              "romanization": "chekkuin",
+              "meanings": { "en": "check-in", "zh": "入住手续", "th": "เช็คอิน", "ko": "체크인", "es": "registro/check-in" }
+            },
+            {
+              "word": "へや",
+              "romanization": "heya",
+              "meanings": { "en": "room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "habitación" }
+            },
+            {
+              "word": "よやくしてあります",
+              "romanization": "yoyaku shite arimasu",
+              "meanings": { "en": "I have a reservation", "zh": "我已经预订了", "th": "ฉันจองไว้แล้ว", "ko": "예약이 되어 있습니다", "es": "tengo una reserva hecha" }
+            },
+            {
+              "word": "かぎ",
+              "romanization": "kagi",
+              "meanings": { "en": "key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "llave" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a reservation under Yamamoto'?",
+              "options": ["やまもとでよやくしてあります。", "やまもとのよやくがあります。", "よやくをしました、やまもとです。", "やまもとでチェックインします。"],
+              "correct": 0,
+              "explanation": "'〜でよやくしてあります' = I have a reservation under the name ~. '〜で' indicates the name used for booking."
+            },
+            {
+              "type": "target_to_native",
+              "word": "かぎ",
+              "options": ["key", "card", "room", "floor"],
+              "correct": 0,
+              "explanation": "'かぎ' (kagi) = key. 'かぎをください' = Please give me the key."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["ホテル", "hotel"],
+                ["チェックイン", "check-in"],
+                ["へや", "room"],
+                ["かぎ", "key"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["よやく", "あります", "して", "ながの", "で"],
+              "correct": ["ながの", "で", "よやく", "して", "あります"],
+              "translation": "I have a reservation under Nagano."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Room Requests",
+            "zh": "房间要求",
+            "th": "คำขอเกี่ยวกับห้องพัก",
+            "ko": "방 요청",
+            "es": "Peticiones de habitación"
+          },
+          "objectives": {
+            "en": ["Make requests related to your hotel room", "Report a problem to hotel staff"],
+            "zh": ["提出与酒店房间相关的请求", "向酒店工作人员报告问题"],
+            "th": ["ยื่นคำร้องเกี่ยวกับห้องพัก", "รายงานปัญหาให้เจ้าหน้าที่โรงแรม"],
+            "ko": ["호텔 방 관련 요청하기", "호텔 직원에게 문제 신고하기"],
+            "es": ["Hacer peticiones sobre tu habitación", "Reportar un problema al personal del hotel"]
+          },
+          "vocabulary": [
+            {
+              "word": "タオル",
+              "romanization": "taoru",
+              "meanings": { "en": "towel", "zh": "毛巾", "th": "ผ้าขนหนู", "ko": "수건", "es": "toalla" }
+            },
+            {
+              "word": "エアコン",
+              "romanization": "eakon",
+              "meanings": { "en": "air conditioner", "zh": "空调", "th": "แอร์คอนดิชั่น", "ko": "에어컨", "es": "aire acondicionado" }
+            },
+            {
+              "word": "こわれています",
+              "romanization": "kowarete imasu",
+              "meanings": { "en": "it is broken", "zh": "坏了", "th": "มันพัง", "ko": "고장났어요", "es": "está roto" }
+            },
+            {
+              "word": "もっとほしいのですが",
+              "romanization": "motto hoshii no desu ga",
+              "meanings": { "en": "I would like more ~", "zh": "我还想要~", "th": "อยากได้~เพิ่ม", "ko": "더 ~을 원합니다만", "es": "me gustaría más ~" }
+            },
+            {
+              "word": "おそうじ",
+              "romanization": "osouji",
+              "meanings": { "en": "cleaning/housekeeping", "zh": "打扫/清洁", "th": "การทำความสะอาด", "ko": "청소", "es": "limpieza" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The air conditioner is broken'?",
+              "options": ["エアコンがこわれています。", "エアコンがありません。", "エアコンをつけてください。", "エアコンはだめです。"],
+              "correct": 0,
+              "explanation": "'〜がこわれています' = ~ is broken. 'こわれています' is the state form indicating something has broken."
+            },
+            {
+              "type": "target_to_native",
+              "word": "タオル",
+              "options": ["towel", "pillow", "blanket", "soap"],
+              "correct": 0,
+              "explanation": "'タオル' (taoru) = towel. 'タオルをもっとください' = Please give me more towels."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["タオル", "towel"],
+                ["エアコン", "air conditioner"],
+                ["こわれています", "is broken"],
+                ["おそうじ", "cleaning"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["こわれて", "テレビ", "います", "が"],
+              "correct": ["テレビ", "が", "こわれて", "います"],
+              "translation": "The TV is broken."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Checking Out",
+            "zh": "退房",
+            "th": "การเช็คเอาต์",
+            "ko": "체크아웃",
+            "es": "Check-out"
+          },
+          "objectives": {
+            "en": ["Check out of a Japanese hotel", "Handle the final bill and return items"],
+            "zh": ["从日本酒店退房", "处理最终账单和归还物品"],
+            "th": ["เช็คเอาต์จากโรงแรมญี่ปุ่น", "จัดการบิลสุดท้ายและคืนสิ่งของ"],
+            "ko": ["일본 호텔에서 체크아웃하기", "최종 청구서 처리하고 물건 반납하기"],
+            "es": ["Hacer el check-out en un hotel japonés", "Gestionar la factura final y devolver artículos"]
+          },
+          "vocabulary": [
+            {
+              "word": "チェックアウト",
+              "romanization": "chekkuauto",
+              "meanings": { "en": "check-out", "zh": "退房", "th": "เช็คเอาต์", "ko": "체크아웃", "es": "check-out" }
+            },
+            {
+              "word": "おかんじょうをください",
+              "romanization": "okanjou o kudasai",
+              "meanings": { "en": "please give me the bill", "zh": "请给我账单", "th": "ขอบิลหน่อย", "ko": "청구서 주세요", "es": "deme la cuenta por favor" }
+            },
+            {
+              "word": "クレジットカード",
+              "romanization": "kurejitto kaado",
+              "meanings": { "en": "credit card", "zh": "信用卡", "th": "บัตรเครดิต", "ko": "신용카드", "es": "tarjeta de crédito" }
+            },
+            {
+              "word": "わすれもの",
+              "romanization": "wasuremono",
+              "meanings": { "en": "forgotten item", "zh": "遗忘的物品", "th": "ของที่ลืมไว้", "ko": "분실물/잊어버린 물건", "es": "objeto olvidado" }
+            },
+            {
+              "word": "またきます",
+              "romanization": "mata kimasu",
+              "meanings": { "en": "I will come again", "zh": "我会再来", "th": "จะมาอีก", "ko": "또 오겠습니다", "es": "volveré" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to check out'?",
+              "options": ["チェックアウトをおねがいします。", "チェックアウトします。", "チェックアウトしたいのですが。", "チェックアウトはなんじですか？"],
+              "correct": 0,
+              "explanation": "'チェックアウトをおねがいします' = I would like to check out. Very polite and natural."
+            },
+            {
+              "type": "target_to_native",
+              "word": "わすれもの",
+              "options": ["forgotten item", "lost luggage", "room key", "receipt"],
+              "correct": 0,
+              "explanation": "'わすれものはありませんか？' = Have you forgotten anything? Standard farewell question at hotels."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["チェックアウト", "check-out"],
+                ["クレジットカード", "credit card"],
+                ["わすれもの", "forgotten item"],
+                ["またきます", "I will come again"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ください", "おかんじょう", "を"],
+              "correct": ["おかんじょう", "を", "ください"],
+              "translation": "Please give me the bill."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Exploring Japan",
+        "zh": "探索日本",
+        "th": "การสำรวจญี่ปุ่น",
+        "ko": "일본 탐험하기",
+        "es": "Explorando Japón"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Sightseeing",
+            "zh": "观光",
+            "th": "การท่องเที่ยว",
+            "ko": "관광",
+            "es": "Turismo"
+          },
+          "objectives": {
+            "en": ["Talk about sightseeing in Japan", "Ask about tourist attractions"],
+            "zh": ["谈论在日本观光", "询问旅游景点"],
+            "th": ["พูดเกี่ยวกับการท่องเที่ยวในญี่ปุ่น", "ถามเกี่ยวกับสถานที่ท่องเที่ยว"],
+            "ko": ["일본 관광 이야기하기", "관광지 물어보기"],
+            "es": ["Hablar de turismo en Japón", "Preguntar sobre atracciones turísticas"]
+          },
+          "vocabulary": [
+            {
+              "word": "かんこう",
+              "romanization": "kankou",
+              "meanings": { "en": "sightseeing/tourism", "zh": "观光/旅游", "th": "การท่องเที่ยว", "ko": "관광", "es": "turismo" }
+            },
+            {
+              "word": "おてら",
+              "romanization": "otera",
+              "meanings": { "en": "Buddhist temple", "zh": "寺庙（佛教）", "th": "วัด (พุทธ)", "ko": "절 (불교)", "es": "templo budista" }
+            },
+            {
+              "word": "じんじゃ",
+              "romanization": "jinja",
+              "meanings": { "en": "Shinto shrine", "zh": "神社", "th": "ศาลเจ้าชินโต", "ko": "신사 (신도)", "es": "santuario sintoísta" }
+            },
+            {
+              "word": "ゆうめい",
+              "romanization": "yuumei",
+              "meanings": { "en": "famous", "zh": "有名的", "th": "มีชื่อเสียง", "ko": "유명한", "es": "famoso" }
+            },
+            {
+              "word": "〜にいきたいです",
+              "romanization": "~ni ikitai desu",
+              "meanings": { "en": "I want to go to ~", "zh": "我想去~", "th": "อยากไป~", "ko": "~에 가고 싶어요", "es": "quiero ir a ~" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I want to visit a famous temple'?",
+              "options": ["ゆうめいなおてらにいきたいです。", "おてらをみたいです。", "ゆうめいなじんじゃにいきます。", "おてらはどこですか？"],
+              "correct": 0,
+              "explanation": "'〜にいきたいです' = I want to go to ~. 'ゆうめいな' = famous (adjective form before noun)."
+            },
+            {
+              "type": "target_to_native",
+              "word": "じんじゃ",
+              "options": ["Shinto shrine", "Buddhist temple", "castle", "park"],
+              "correct": 0,
+              "explanation": "'じんじゃ' (jinja) = Shinto shrine. Different from 'おてら' (Buddhist temple)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["かんこう", "sightseeing"],
+                ["おてら", "Buddhist temple"],
+                ["じんじゃ", "Shinto shrine"],
+                ["ゆうめい", "famous"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["いきたい", "に", "きょうと", "です"],
+              "correct": ["きょうと", "に", "いきたい", "です"],
+              "translation": "I want to go to Kyoto."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Shopping in Japan",
+            "zh": "在日本购物",
+            "th": "การช้อปปิ้งในญี่ปุ่น",
+            "ko": "일본에서 쇼핑하기",
+            "es": "Comprar en Japón"
+          },
+          "objectives": {
+            "en": ["Shop at Japanese stores and markets", "Ask about sizes, colours, and prices"],
+            "zh": ["在日本商店和市场购物", "询问尺寸、颜色和价格"],
+            "th": ["ช้อปปิ้งที่ร้านและตลาดญี่ปุ่น", "ถามเกี่ยวกับขนาด สี และราคา"],
+            "ko": ["일본 가게와 시장에서 쇼핑하기", "사이즈, 색깔, 가격 물어보기"],
+            "es": ["Comprar en tiendas y mercados japoneses", "Preguntar tallas, colores y precios"]
+          },
+          "vocabulary": [
+            {
+              "word": "みせ",
+              "romanization": "mise",
+              "meanings": { "en": "shop/store", "zh": "商店", "th": "ร้านค้า", "ko": "가게", "es": "tienda" }
+            },
+            {
+              "word": "いくら",
+              "romanization": "ikura",
+              "meanings": { "en": "how much", "zh": "多少钱", "th": "เท่าไร", "ko": "얼마", "es": "cuánto" }
+            },
+            {
+              "word": "これ",
+              "romanization": "kore",
+              "meanings": { "en": "this (one)", "zh": "这个", "th": "อันนี้", "ko": "이것", "es": "este/esta" }
+            },
+            {
+              "word": "おおきい／ちいさい",
+              "romanization": "ookii / chiisai",
+              "meanings": { "en": "big / small", "zh": "大/小", "th": "ใหญ่/เล็ก", "ko": "큰/작은", "es": "grande/pequeño" }
+            },
+            {
+              "word": "〜をみせてください",
+              "romanization": "~o misete kudasai",
+              "meanings": { "en": "please show me ~", "zh": "请给我看~", "th": "ขอดู~หน่อย", "ko": "~을/를 보여 주세요", "es": "muéstreme ~ por favor" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'How much is this?'",
+              "options": ["これはいくらですか？", "これはなんですか？", "いくらですか？", "このねだんはいくらですか？"],
+              "correct": 0,
+              "explanation": "'これはいくらですか？' = How much is this? 'これ' = this, 'いくら' = how much."
+            },
+            {
+              "type": "target_to_native",
+              "word": "〜をみせてください",
+              "options": ["please show me ~", "please give me ~", "please buy ~", "please sell ~"],
+              "correct": 0,
+              "explanation": "'〜をみせてください' = please show me ~. Common in shops: 'これをみせてください' = Please show me this."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["みせ", "shop"],
+                ["これ", "this"],
+                ["おおきい", "big"],
+                ["ちいさい", "small"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ですか", "いくら", "これ", "は"],
+              "correct": ["これ", "は", "いくら", "ですか"],
+              "translation": "How much is this?"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Common Phrases for Travellers",
+            "zh": "旅行者常用语",
+            "th": "ประโยคที่ใช้บ่อยสำหรับนักท่องเที่ยว",
+            "ko": "여행자를 위한 일반 표현",
+            "es": "Frases comunes para viajeros"
+          },
+          "objectives": {
+            "en": ["Use essential survival phrases in Japan", "Handle common travel situations"],
+            "zh": ["在日本使用基本的生存用语", "处理常见的旅行情况"],
+            "th": ["ใช้ประโยคสำคัญสำหรับการอยู่รอดในญี่ปุ่น", "จัดการสถานการณ์การเดินทางทั่วไป"],
+            "ko": ["일본에서 필수 생존 표현 사용하기", "일반 여행 상황 처리하기"],
+            "es": ["Usar frases de supervivencia esenciales en Japón", "Manejar situaciones comunes de viaje"]
+          },
+          "vocabulary": [
+            {
+              "word": "たすけてください",
+              "romanization": "tasukete kudasai",
+              "meanings": { "en": "please help me", "zh": "请帮帮我", "th": "ช่วยด้วย", "ko": "도와주세요", "es": "por favor ayúdeme" }
+            },
+            {
+              "word": "えいごがはなせますか",
+              "romanization": "eigo ga hanasemasu ka",
+              "meanings": { "en": "Can you speak English?", "zh": "你能说英语吗？", "th": "คุณพูดภาษาอังกฤษได้ไหม?", "ko": "영어 하실 수 있어요?", "es": "¿Puede hablar inglés?" }
+            },
+            {
+              "word": "わかりません",
+              "romanization": "wakarimasen",
+              "meanings": { "en": "I don't understand", "zh": "我不明白", "th": "ฉันไม่เข้าใจ", "ko": "모르겠어요", "es": "no entiendo" }
+            },
+            {
+              "word": "もういちどいってください",
+              "romanization": "mou ichido itte kudasai",
+              "meanings": { "en": "please say it once more", "zh": "请再说一遍", "th": "กรุณาพูดอีกครั้ง", "ko": "한 번 더 말해 주세요", "es": "por favor dígalo de nuevo" }
+            },
+            {
+              "word": "〜はどこですか",
+              "romanization": "~wa doko desu ka",
+              "meanings": { "en": "Where is ~?", "zh": "~在哪里？", "th": "~อยู่ที่ไหน?", "ko": "~은/는 어디에요?", "es": "¿Dónde está ~?" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I don't understand'?",
+              "options": ["わかりません。", "しりません。", "できません。", "わかります。"],
+              "correct": 0,
+              "explanation": "'わかりません' = I don't understand. 'わかります' = I understand. Essential phrase for travellers."
+            },
+            {
+              "type": "target_to_native",
+              "word": "もういちどいってください",
+              "options": ["please say it once more", "please speak slowly", "please write it", "please repeat"],
+              "correct": 0,
+              "explanation": "'もういちど' = once more, 'いってください' = please say. Very useful when you miss something."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["たすけてください", "please help me"],
+                ["わかりません", "I don't understand"],
+                ["えいごがはなせますか", "Can you speak English?"],
+                ["〜はどこですか", "Where is ~?"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["ください", "いって", "もういちど"],
+              "correct": ["もういちど", "いって", "ください"],
+              "translation": "Please say it once more."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

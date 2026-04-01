@@ -1,0 +1,376 @@
+{
+  "lang": "ms",
+  "language": "ms",
+  "level": "A2",
+  "track": "romance",
+  "track_label": {
+    "en": "Romance & Dating",
+    "zh": "恋爱与约会",
+    "th": "ความรักและการออกเดท",
+    "ko": "로맨스와 데이트",
+    "es": "Romance y citas"
+  },
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Expressing Attraction",
+        "zh": "表达喜欢",
+        "th": "การแสดงความรู้สึกชอบ",
+        "ko": "호감 표현하기",
+        "es": "Expresar atracción"
+      },
+      "description": {
+        "en": "Learn how to compliment and express romantic feelings in Malay",
+        "zh": "学习如何用马来语赞美和表达浪漫情感",
+        "th": "เรียนรู้วิธีชมเชยและแสดงความรู้สึกโรแมนติกในภาษามาเลย์",
+        "ko": "말레이어로 칭찬하고 낭만적 감정을 표현하는 법",
+        "es": "Aprender a hacer cumplidos y expresar sentimientos románticos en malayo"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Compliments",
+            "zh": "赞美",
+            "th": "คำชมเชย",
+            "ko": "칭찬하기",
+            "es": "Cumplidos"
+          },
+          "objectives": {
+            "en": ["Give and receive compliments", "Describe someone's appearance"]
+          },
+          "vocabulary": [
+            { "word": "Cantik", "romanization": null, "meanings": { "en": "Beautiful (feminine)", "zh": "漂亮（女性）", "th": "สวย (ผู้หญิง)", "ko": "아름답다 (여성)", "es": "Hermosa (femenino)" } },
+            { "word": "Kacak", "romanization": null, "meanings": { "en": "Handsome (masculine)", "zh": "帅（男性）", "th": "หล่อ (ผู้ชาย)", "ko": "잘생기다 (남성)", "es": "Guapo (masculino)" } },
+            { "word": "Comel", "romanization": null, "meanings": { "en": "Cute / adorable", "zh": "可爱", "th": "น่ารัก", "ko": "귀엽다", "es": "Lindo / adorable" } },
+            { "word": "Saya suka awak", "romanization": null, "meanings": { "en": "I like you", "zh": "我喜欢你", "th": "ฉันชอบคุณ", "ko": "저는 당신이 좋아요", "es": "Me gustas" } },
+            { "word": "Senyuman", "romanization": null, "meanings": { "en": "Smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "Sonrisa" } },
+            { "word": "Menarik", "romanization": null, "meanings": { "en": "Attractive / interesting", "zh": "有吸引力/有趣", "th": "ดึงดูดใจ", "ko": "매력적이다", "es": "Atractivo / interesante" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Cantik", "romanization": null, "options": { "en": ["Beautiful (feminine)", "Handsome (masculine)", "Cute", "Smart"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Comel", "romanization": null, "options": { "en": ["Cute / adorable", "Beautiful", "Handsome", "Tall"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Handsome' in Malay?" }, "options": { "neutral": ["Kacak", "Cantik", "Comel", "Menarik"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I like you' in Malay?" }, "options": { "neutral": ["Saya suka awak", "Senyuman", "Menarik", "Comel"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Senyuman", "romanization": null, "options": { "en": ["Smile", "Laugh", "Wink", "Look"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Cantik", "romanization": null, "native": { "en": "Beautiful (feminine)" } },
+              { "target": "Kacak", "romanization": null, "native": { "en": "Handsome (masculine)" } },
+              { "target": "Comel", "romanization": null, "native": { "en": "Cute / adorable" } },
+              { "target": "Senyuman", "romanization": null, "native": { "en": "Smile" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "邀请约会",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date", "Suggest a place or activity"]
+          },
+          "vocabulary": [
+            { "word": "Boleh saya tahu nama awak?", "romanization": null, "meanings": { "en": "May I know your name?", "zh": "请问你叫什么名字？", "th": "ขอทราบชื่อคุณได้ไหม?", "ko": "이름을 알 수 있을까요?", "es": "¿Puedo saber tu nombre?" } },
+            { "word": "Keluar bersama", "romanization": null, "meanings": { "en": "Go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "같이 나가다", "es": "Salir juntos" } },
+            { "word": "Makan malam", "romanization": null, "meanings": { "en": "Dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "Cena" } },
+            { "word": "Wayang", "romanization": null, "meanings": { "en": "Cinema / movie", "zh": "电影院/电影", "th": "โรงหนัง / หนัง", "ko": "영화관 / 영화", "es": "Cine / película" } },
+            { "word": "Mahu", "romanization": null, "meanings": { "en": "Want / would like", "zh": "想要", "th": "ต้องการ / อยากได้", "ko": "원하다", "es": "Querer" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Makan malam", "romanization": null, "options": { "en": ["Dinner", "Lunch", "Breakfast", "Snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Wayang", "romanization": null, "options": { "en": ["Cinema / movie", "Theatre", "Concert", "Restaurant"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Go out together' in Malay?" }, "options": { "neutral": ["Keluar bersama", "Makan malam", "Wayang", "Mahu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Want / would like' in Malay?" }, "options": { "neutral": ["Mahu", "Keluar bersama", "Makan malam", "Wayang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Keluar bersama", "romanization": null, "options": { "en": ["Go out together", "Stay home", "Eat dinner", "Watch a movie"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Keluar bersama", "romanization": null, "native": { "en": "Go out together" } },
+              { "target": "Makan malam", "romanization": null, "native": { "en": "Dinner" } },
+              { "target": "Wayang", "romanization": null, "native": { "en": "Cinema / movie" } },
+              { "target": "Mahu", "romanization": null, "native": { "en": "Want / would like" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Feelings & Emotions in Love",
+            "zh": "爱情中的感受与情感",
+            "th": "ความรู้สึกและอารมณ์ในความรัก",
+            "ko": "사랑에서의 감정과 느낌",
+            "es": "Sentimientos y emociones en el amor"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings", "Describe emotional states"]
+          },
+          "vocabulary": [
+            { "word": "Sayang", "romanization": null, "meanings": { "en": "Love / dear / darling", "zh": "爱/亲爱的", "th": "รัก / ที่รัก", "ko": "사랑 / 자기야", "es": "Amor / querido" } },
+            { "word": "Rindu", "romanization": null, "meanings": { "en": "Miss (someone)", "zh": "想念", "th": "คิดถึง", "ko": "그립다", "es": "Extrañar (a alguien)" } },
+            { "word": "Jatuh cinta", "romanization": null, "meanings": { "en": "Fall in love", "zh": "坠入爱河", "th": "ตกหลุมรัก", "ko": "사랑에 빠지다", "es": "Enamorarse" } },
+            { "word": "Hati", "romanization": null, "meanings": { "en": "Heart", "zh": "心", "th": "หัวใจ", "ko": "마음 / 심장", "es": "Corazón" } },
+            { "word": "Bahagia", "romanization": null, "meanings": { "en": "Happy / blissful", "zh": "幸福", "th": "มีความสุข / เป็นสุข", "ko": "행복하다", "es": "Feliz / dichoso" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sayang", "romanization": null, "options": { "en": ["Love / dear / darling", "Friend", "Happy", "Beautiful"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Rindu", "romanization": null, "options": { "en": ["Miss (someone)", "Love", "Hate", "Forget"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fall in love' in Malay?" }, "options": { "neutral": ["Jatuh cinta", "Sayang", "Rindu", "Bahagia"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Heart' in Malay?" }, "options": { "neutral": ["Hati", "Sayang", "Jatuh cinta", "Bahagia"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bahagia", "romanization": null, "options": { "en": ["Happy / blissful", "Sad", "Angry", "Nervous"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Sayang", "romanization": null, "native": { "en": "Love / dear" } },
+              { "target": "Rindu", "romanization": null, "native": { "en": "Miss (someone)" } },
+              { "target": "Jatuh cinta", "romanization": null, "native": { "en": "Fall in love" } },
+              { "target": "Bahagia", "romanization": null, "native": { "en": "Happy / blissful" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "关系",
+        "th": "ความสัมพันธ์",
+        "ko": "관계",
+        "es": "Relaciones"
+      },
+      "description": {
+        "en": "Vocabulary for discussing relationships and family",
+        "zh": "讨论关系和家庭的词汇",
+        "th": "คำศัพท์สำหรับการพูดถึงความสัมพันธ์และครอบครัว",
+        "ko": "관계와 가족에 대해 이야기하는 어휘",
+        "es": "Vocabulario para hablar de relaciones y familia"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "感情状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe your relationship status", "Talk about partners"]
+          },
+          "vocabulary": [
+            { "word": "Bujang", "romanization": null, "meanings": { "en": "Single", "zh": "单身", "th": "โสด", "ko": "싱글 / 미혼", "es": "Soltero" } },
+            { "word": "Bercinta", "romanization": null, "meanings": { "en": "In a relationship / dating", "zh": "恋爱中", "th": "คบกันอยู่", "ko": "연애 중", "es": "En una relación" } },
+            { "word": "Tunang", "romanization": null, "meanings": { "en": "Fiancé / engaged", "zh": "订婚/未婚夫妻", "th": "คู่หมั้น / หมั้นหมาย", "ko": "약혼 / 약혼자", "es": "Prometido / comprometido" } },
+            { "word": "Suami", "romanization": null, "meanings": { "en": "Husband", "zh": "丈夫", "th": "สามี", "ko": "남편", "es": "Esposo" } },
+            { "word": "Isteri", "romanization": null, "meanings": { "en": "Wife", "zh": "妻子", "th": "ภรรยา", "ko": "아내", "es": "Esposa" } },
+            { "word": "Pasangan", "romanization": null, "meanings": { "en": "Partner / spouse", "zh": "伴侣/配偶", "th": "คู่รัก / คู่สมรส", "ko": "파트너 / 배우자", "es": "Pareja / cónyuge" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Bujang", "romanization": null, "options": { "en": ["Single", "Married", "Engaged", "Divorced"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Tunang", "romanization": null, "options": { "en": ["Fiancé / engaged", "Married", "Single", "Divorced"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Husband' in Malay?" }, "options": { "neutral": ["Suami", "Isteri", "Pasangan", "Tunang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wife' in Malay?" }, "options": { "neutral": ["Isteri", "Suami", "Pasangan", "Bujang"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pasangan", "romanization": null, "options": { "en": ["Partner / spouse", "Husband", "Wife", "Friend"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Bujang", "romanization": null, "native": { "en": "Single" } },
+              { "target": "Suami", "romanization": null, "native": { "en": "Husband" } },
+              { "target": "Isteri", "romanization": null, "native": { "en": "Wife" } },
+              { "target": "Pasangan", "romanization": null, "native": { "en": "Partner / spouse" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Describing Your Partner",
+            "zh": "描述你的伴侣",
+            "th": "การอธิบายคู่ของคุณ",
+            "ko": "파트너 묘사하기",
+            "es": "Describir a tu pareja"
+          },
+          "objectives": {
+            "en": ["Use personality adjectives", "Describe someone's character"]
+          },
+          "vocabulary": [
+            { "word": "Baik hati", "romanization": null, "meanings": { "en": "Kind-hearted", "zh": "善良", "th": "ใจดี", "ko": "친절하다 / 마음이 착하다", "es": "Bondadoso" } },
+            { "word": "Lucu", "romanization": null, "meanings": { "en": "Funny / humorous", "zh": "有趣/幽默", "th": "ตลก", "ko": "재미있다 / 유머러스하다", "es": "Divertido / gracioso" } },
+            { "word": "Pintar", "romanization": null, "meanings": { "en": "Smart / clever", "zh": "聪明", "th": "ฉลาด", "ko": "똑똑하다", "es": "Inteligente" } },
+            { "word": "Penyayang", "romanization": null, "meanings": { "en": "Caring / loving", "zh": "有爱心的", "th": "ห่วงใย / รักใคร่", "ko": "다정하다", "es": "Cariñoso" } },
+            { "word": "Setia", "romanization": null, "meanings": { "en": "Loyal / faithful", "zh": "忠诚", "th": "ซื่อสัตย์ / จงรักภักดี", "ko": "충실하다", "es": "Leal / fiel" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Baik hati", "romanization": null, "options": { "en": ["Kind-hearted", "Smart", "Funny", "Shy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Setia", "romanization": null, "options": { "en": ["Loyal / faithful", "Kind", "Funny", "Caring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Smart / clever' in Malay?" }, "options": { "neutral": ["Pintar", "Lucu", "Penyayang", "Setia"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Caring / loving' in Malay?" }, "options": { "neutral": ["Penyayang", "Pintar", "Lucu", "Baik hati"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Lucu", "romanization": null, "options": { "en": ["Funny / humorous", "Shy", "Sad", "Angry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Baik hati", "romanization": null, "native": { "en": "Kind-hearted" } },
+              { "target": "Lucu", "romanization": null, "native": { "en": "Funny / humorous" } },
+              { "target": "Pintar", "romanization": null, "native": { "en": "Smart / clever" } },
+              { "target": "Setia", "romanization": null, "native": { "en": "Loyal / faithful" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Marriage & Family",
+            "zh": "婚姻与家庭",
+            "th": "การแต่งงานและครอบครัว",
+            "ko": "결혼과 가족",
+            "es": "Matrimonio y familia"
+          },
+          "objectives": {
+            "en": ["Talk about marriage and family life", "Use family-related vocabulary"]
+          },
+          "vocabulary": [
+            { "word": "Kahwin", "romanization": null, "meanings": { "en": "Marry / married", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "Casarse / casado" } },
+            { "word": "Perkahwinan", "romanization": null, "meanings": { "en": "Marriage / wedding", "zh": "婚姻/婚礼", "th": "การแต่งงาน / งานแต่ง", "ko": "결혼 / 결혼식", "es": "Matrimonio / boda" } },
+            { "word": "Anak", "romanization": null, "meanings": { "en": "Child", "zh": "孩子", "th": "ลูก", "ko": "아이", "es": "Hijo / niño" } },
+            { "word": "Keluarga", "romanization": null, "meanings": { "en": "Family", "zh": "家庭", "th": "ครอบครัว", "ko": "가족", "es": "Familia" } },
+            { "word": "Ibu bapa", "romanization": null, "meanings": { "en": "Parents", "zh": "父母", "th": "พ่อแม่", "ko": "부모님", "es": "Padres" } },
+            { "word": "Rumah tangga", "romanization": null, "meanings": { "en": "Household / family home", "zh": "家庭/家务", "th": "ครัวเรือน / บ้าน", "ko": "가정 / 가사", "es": "Hogar / familia" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Kahwin", "romanization": null, "options": { "en": ["Marry / married", "Engage", "Date", "Divorce"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Keluarga", "romanization": null, "options": { "en": ["Family", "Friend", "Neighbour", "Partner"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Child' in Malay?" }, "options": { "neutral": ["Anak", "Kahwin", "Keluarga", "Ibu bapa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Parents' in Malay?" }, "options": { "neutral": ["Ibu bapa", "Anak", "Keluarga", "Perkahwinan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Perkahwinan", "romanization": null, "options": { "en": ["Marriage / wedding", "Engagement", "Birthday", "Celebration"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kahwin", "romanization": null, "native": { "en": "Marry / married" } },
+              { "target": "Anak", "romanization": null, "native": { "en": "Child" } },
+              { "target": "Keluarga", "romanization": null, "native": { "en": "Family" } },
+              { "target": "Ibu bapa", "romanization": null, "native": { "en": "Parents" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Communication in Relationships",
+        "zh": "关系中的沟通",
+        "th": "การสื่อสารในความสัมพันธ์",
+        "ko": "관계에서의 소통",
+        "es": "Comunicación en las relaciones"
+      },
+      "description": {
+        "en": "Communicate openly and resolve conflicts in Malay",
+        "zh": "用马来语进行开放交流和解决冲突",
+        "th": "สื่อสารอย่างเปิดเผยและแก้ไขข้อขัดแย้งในภาษามาเลย์",
+        "ko": "말레이어로 열린 소통과 갈등 해결하기",
+        "es": "Comunicarse abiertamente y resolver conflictos en malayo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Saying Sorry & Forgiving",
+            "zh": "道歉与原谅",
+            "th": "การขอโทษและการให้อภัย",
+            "ko": "사과하고 용서하기",
+            "es": "Disculparse y perdonar"
+          },
+          "objectives": {
+            "en": ["Apologise sincerely", "Accept apologies and forgive"]
+          },
+          "vocabulary": [
+            { "word": "Minta maaf", "romanization": null, "meanings": { "en": "I am sorry / please forgive me", "zh": "对不起/请原谅", "th": "ขอโทษ", "ko": "미안해요 / 용서해 주세요", "es": "Lo siento / por favor perdóname" } },
+            { "word": "Maafkan saya", "romanization": null, "meanings": { "en": "Forgive me", "zh": "原谅我", "th": "ให้อภัยฉัน", "ko": "저를 용서해 주세요", "es": "Perdóname" } },
+            { "word": "Tidak apa-apa", "romanization": null, "meanings": { "en": "It's okay / never mind", "zh": "没关系", "th": "ไม่เป็นไร", "ko": "괜찮아요", "es": "No importa / está bien" } },
+            { "word": "Sudah maaf", "romanization": null, "meanings": { "en": "Already forgiven", "zh": "已经原谅了", "th": "ให้อภัยแล้ว", "ko": "이미 용서했어요", "es": "Ya perdonado" } },
+            { "word": "Salah faham", "romanization": null, "meanings": { "en": "Misunderstanding", "zh": "误解", "th": "ความเข้าใจผิด", "ko": "오해", "es": "Malentendido" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Minta maaf", "romanization": null, "options": { "en": ["I am sorry", "Thank you", "Goodbye", "Welcome"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Salah faham", "romanization": null, "options": { "en": ["Misunderstanding", "Problem", "Argument", "Mistake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Forgive me' in Malay?" }, "options": { "neutral": ["Maafkan saya", "Minta maaf", "Tidak apa-apa", "Salah faham"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'It's okay / never mind' in Malay?" }, "options": { "neutral": ["Tidak apa-apa", "Minta maaf", "Maafkan saya", "Sudah maaf"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Sudah maaf", "romanization": null, "options": { "en": ["Already forgiven", "I'm sorry", "Never mind", "Please forgive me"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Minta maaf", "romanization": null, "native": { "en": "I am sorry" } },
+              { "target": "Maafkan saya", "romanization": null, "native": { "en": "Forgive me" } },
+              { "target": "Tidak apa-apa", "romanization": null, "native": { "en": "It's okay" } },
+              { "target": "Salah faham", "romanization": null, "native": { "en": "Misunderstanding" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Expressing Love",
+            "zh": "表达爱意",
+            "th": "การแสดงความรัก",
+            "ko": "사랑 표현하기",
+            "es": "Expresar amor"
+          },
+          "objectives": {
+            "en": ["Express deep feelings", "Use romantic phrases in Malay"]
+          },
+          "vocabulary": [
+            { "word": "Saya cinta awak", "romanization": null, "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "당신을 사랑해요", "es": "Te amo" } },
+            { "word": "Selamanya", "romanization": null, "meanings": { "en": "Forever", "zh": "永远", "th": "ตลอดไป", "ko": "영원히", "es": "Para siempre" } },
+            { "word": "Bersama-sama", "romanization": null, "meanings": { "en": "Together / side by side", "zh": "在一起", "th": "ด้วยกัน / เคียงข้าง", "ko": "함께 / 나란히", "es": "Juntos" } },
+            { "word": "Kenangan", "romanization": null, "meanings": { "en": "Memory / memories", "zh": "记忆/回忆", "th": "ความทรงจำ", "ko": "추억 / 기억", "es": "Recuerdo / recuerdos" } },
+            { "word": "Impian", "romanization": null, "meanings": { "en": "Dream / aspiration", "zh": "梦想", "th": "ความฝัน", "ko": "꿈 / 열망", "es": "Sueño / aspiración" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Saya cinta awak", "romanization": null, "options": { "en": ["I love you", "I miss you", "I like you", "I want you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Selamanya", "romanization": null, "options": { "en": ["Forever", "Sometimes", "Always", "Never"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Memory / memories' in Malay?" }, "options": { "neutral": ["Kenangan", "Impian", "Bersama-sama", "Selamanya"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dream / aspiration' in Malay?" }, "options": { "neutral": ["Impian", "Kenangan", "Selamanya", "Bersama-sama"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bersama-sama", "romanization": null, "options": { "en": ["Together", "Apart", "Alone", "Far away"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Saya cinta awak", "romanization": null, "native": { "en": "I love you" } },
+              { "target": "Selamanya", "romanization": null, "native": { "en": "Forever" } },
+              { "target": "Kenangan", "romanization": null, "native": { "en": "Memory / memories" } },
+              { "target": "Impian", "romanization": null, "native": { "en": "Dream / aspiration" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Breaking Up & Moving On",
+            "zh": "分手与继续前行",
+            "th": "การเลิกกันและก้าวต่อไป",
+            "ko": "헤어지기와 앞으로 나아가기",
+            "es": "Romper y seguir adelante"
+          },
+          "objectives": {
+            "en": ["Handle difficult relationship conversations", "Express closure and moving on"]
+          },
+          "vocabulary": [
+            { "word": "Putus cinta", "romanization": null, "meanings": { "en": "Break up / end of relationship", "zh": "分手", "th": "เลิกกัน", "ko": "이별 / 헤어지다", "es": "Ruptura / fin de la relación" } },
+            { "word": "Kecewa", "romanization": null, "meanings": { "en": "Disappointed / heartbroken", "zh": "失望/心碎", "th": "ผิดหวัง", "ko": "실망하다", "es": "Decepcionado" } },
+            { "word": "Teruskan", "romanization": null, "meanings": { "en": "Continue / move on", "zh": "继续/往前走", "th": "ดำเนินต่อไป / ก้าวไปข้างหน้า", "ko": "계속하다 / 앞으로 나아가다", "es": "Continuar / seguir adelante" } },
+            { "word": "Sembuh", "romanization": null, "meanings": { "en": "Heal / recover", "zh": "痊愈/恢复", "th": "หาย / ฟื้นตัว", "ko": "치유되다 / 회복하다", "es": "Sanar / recuperarse" } },
+            { "word": "Masa depan", "romanization": null, "meanings": { "en": "Future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "Futuro" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Putus cinta", "romanization": null, "options": { "en": ["Break up", "Fall in love", "Get married", "Meet"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kecewa", "romanization": null, "options": { "en": ["Disappointed", "Happy", "Excited", "Calm"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Future' in Malay?" }, "options": { "neutral": ["Masa depan", "Teruskan", "Sembuh", "Kecewa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Heal / recover' in Malay?" }, "options": { "neutral": ["Sembuh", "Teruskan", "Masa depan", "Putus cinta"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Teruskan", "romanization": null, "options": { "en": ["Continue / move on", "Stop", "Go back", "Wait"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Putus cinta", "romanization": null, "native": { "en": "Break up" } },
+              { "target": "Kecewa", "romanization": null, "native": { "en": "Disappointed" } },
+              { "target": "Sembuh", "romanization": null, "native": { "en": "Heal / recover" } },
+              { "target": "Masa depan", "romanization": null, "native": { "en": "Future" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

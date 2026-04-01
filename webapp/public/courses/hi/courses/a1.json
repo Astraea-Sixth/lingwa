@@ -1,0 +1,572 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings & Introductions" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Goodbye" },
+          "objectives": { "en": ["Greet people and say goodbye", "Use basic polite expressions"] },
+          "vocabulary": [
+            { "word": "नमस्ते", "romanization": "namaste", "meanings": { "en": "Hello / Goodbye" }, "gendered": null },
+            { "word": "अलविदा", "romanization": "alvida", "meanings": { "en": "Goodbye" }, "gendered": null },
+            { "word": "धन्यवाद", "romanization": "dhanyavaad", "meanings": { "en": "Thank you" }, "gendered": null },
+            { "word": "माफ़ कीजिए", "romanization": "maaf kijiye", "meanings": { "en": "Excuse me / Sorry" }, "gendered": null },
+            { "word": "हाँ", "romanization": "haan", "meanings": { "en": "Yes" }, "gendered": null },
+            { "word": "नहीं", "romanization": "nahin", "meanings": { "en": "No" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "नमस्ते", "romanization": "namaste", "options": { "en": ["Hello / Goodbye", "Thank you", "Sorry", "Yes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "धन्यवाद", "romanization": "dhanyavaad", "options": { "en": ["Thank you", "Hello", "No", "Goodbye"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Goodbye' in Hindi?" }, "options": { "neutral": ["अलविदा", "नमस्ते", "धन्यवाद", "हाँ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'No' in Hindi?" }, "options": { "neutral": ["नहीं", "हाँ", "अलविदा", "नमस्ते"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "माफ़ कीजिए", "romanization": "maaf kijiye", "options": { "en": ["Excuse me / Sorry", "Thank you", "Hello", "Yes"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "नमस्ते", "romanization": "namaste", "options": { "en": ["Hello / Goodbye", "No", "Sorry", "Thank you"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "नमस्ते", "romanization": "namaste", "native": { "en": "Hello / Goodbye" } },
+              { "target": "धन्यवाद", "romanization": "dhanyavaad", "native": { "en": "Thank you" } },
+              { "target": "हाँ", "romanization": "haan", "native": { "en": "Yes" } },
+              { "target": "नहीं", "romanization": "nahin", "native": { "en": "No" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "What Is Your Name?" },
+          "objectives": { "en": ["Introduce yourself", "Ask someone's name"] },
+          "vocabulary": [
+            { "word": "मेरा नाम", "romanization": "mera naam", "meanings": { "en": "My name" }, "gendered": null },
+            { "word": "आपका नाम क्या है?", "romanization": "aapka naam kya hai?", "meanings": { "en": "What is your name?" }, "gendered": null },
+            { "word": "मैं", "romanization": "main", "meanings": { "en": "I" }, "gendered": null },
+            { "word": "आप", "romanization": "aap", "meanings": { "en": "You (formal)" }, "gendered": null },
+            { "word": "कृपया", "romanization": "kripaya", "meanings": { "en": "Please" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "मेरा नाम", "romanization": "mera naam", "options": { "en": ["My name", "Your name", "His name", "Please"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "आप", "romanization": "aap", "options": { "en": ["You (formal)", "I", "He", "She"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I' in Hindi?" }, "options": { "neutral": ["मैं", "आप", "कृपया", "नाम"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Please' in Hindi?" }, "options": { "neutral": ["कृपया", "मैं", "आप", "नहीं"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "आपका नाम क्या है?", "romanization": "aapka naam kya hai?", "options": { "en": ["What is your name?", "How are you?", "My name is...", "Please"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "मैं", "romanization": "main", "options": { "en": ["I", "You", "He", "We"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "मैं", "romanization": "main", "native": { "en": "I" } },
+              { "target": "आप", "romanization": "aap", "native": { "en": "You (formal)" } },
+              { "target": "कृपया", "romanization": "kripaya", "native": { "en": "Please" } },
+              { "target": "मेरा नाम", "romanization": "mera naam", "native": { "en": "My name" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "How Are You?" },
+          "objectives": { "en": ["Ask how someone is doing", "Respond to greetings"] },
+          "vocabulary": [
+            { "word": "कैसे हो?", "romanization": "kaise ho?", "meanings": { "en": "How are you? (informal)" }, "gendered": null },
+            { "word": "आप कैसे हैं?", "romanization": "aap kaise hain?", "meanings": { "en": "How are you? (formal)" }, "gendered": null },
+            { "word": "मैं ठीक हूँ", "romanization": "main theek hoon", "meanings": { "en": "I am fine" }, "gendered": null },
+            { "word": "अच्छा", "romanization": "accha", "meanings": { "en": "Good" }, "gendered": null },
+            { "word": "और", "romanization": "aur", "meanings": { "en": "And" }, "gendered": null },
+            { "word": "शुक्रिया", "romanization": "shukriya", "meanings": { "en": "Thanks" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "कैसे हो?", "romanization": "kaise ho?", "options": { "en": ["How are you? (informal)", "What is your name?", "Where are you?", "Thank you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "मैं ठीक हूँ", "romanization": "main theek hoon", "options": { "en": ["I am fine", "I am sorry", "I am going", "I don't know"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Good' in Hindi?" }, "options": { "neutral": ["अच्छा", "और", "शुक्रिया", "नहीं"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Thanks' in Hindi?" }, "options": { "neutral": ["शुक्रिया", "कृपया", "अच्छा", "हाँ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "आप कैसे हैं?", "romanization": "aap kaise hain?", "options": { "en": ["How are you? (formal)", "What is your name?", "I am fine", "Good"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "अच्छा", "romanization": "accha", "options": { "en": ["Good", "Bad", "And", "Thanks"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "कैसे हो?", "romanization": "kaise ho?", "native": { "en": "How are you? (informal)" } },
+              { "target": "मैं ठीक हूँ", "romanization": "main theek hoon", "native": { "en": "I am fine" } },
+              { "target": "अच्छा", "romanization": "accha", "native": { "en": "Good" } },
+              { "target": "शुक्रिया", "romanization": "shukriya", "native": { "en": "Thanks" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Where Are You From?" },
+          "objectives": { "en": ["Talk about where you are from", "Ask about nationality"] },
+          "vocabulary": [
+            { "word": "आप कहाँ से हैं?", "romanization": "aap kahaan se hain?", "meanings": { "en": "Where are you from?" }, "gendered": null },
+            { "word": "मैं भारत से हूँ", "romanization": "main bhaarat se hoon", "meanings": { "en": "I am from India" }, "gendered": null },
+            { "word": "देश", "romanization": "desh", "meanings": { "en": "Country" }, "gendered": null },
+            { "word": "शहर", "romanization": "shahar", "meanings": { "en": "City" }, "gendered": null },
+            { "word": "से", "romanization": "se", "meanings": { "en": "From" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "देश", "romanization": "desh", "options": { "en": ["Country", "City", "From", "Name"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "शहर", "romanization": "shahar", "options": { "en": ["City", "Country", "House", "Road"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'From' in Hindi?" }, "options": { "neutral": ["से", "में", "पर", "को"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'Where are you from?' in Hindi?" }, "options": { "neutral": ["आप कहाँ से हैं?", "आप कैसे हैं?", "आपका नाम क्या है?", "आप क्या करते हैं?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "मैं भारत से हूँ", "romanization": "main bhaarat se hoon", "options": { "en": ["I am from India", "I am fine", "I am going", "I am here"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "शहर", "romanization": "shahar", "options": { "en": ["City", "Country", "Village", "Road"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "देश", "romanization": "desh", "native": { "en": "Country" } },
+              { "target": "शहर", "romanization": "shahar", "native": { "en": "City" } },
+              { "target": "से", "romanization": "se", "native": { "en": "From" } },
+              { "target": "मैं भारत से हूँ", "romanization": "main bhaarat se hoon", "native": { "en": "I am from India" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Numbers, Time & Days" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Numbers 1-10" },
+          "objectives": { "en": ["Count from one to ten", "Recognize Hindi numerals"] },
+          "vocabulary": [
+            { "word": "एक", "romanization": "ek", "meanings": { "en": "One" }, "gendered": null },
+            { "word": "दो", "romanization": "do", "meanings": { "en": "Two" }, "gendered": null },
+            { "word": "तीन", "romanization": "teen", "meanings": { "en": "Three" }, "gendered": null },
+            { "word": "चार", "romanization": "chaar", "meanings": { "en": "Four" }, "gendered": null },
+            { "word": "पाँच", "romanization": "paanch", "meanings": { "en": "Five" }, "gendered": null },
+            { "word": "छह", "romanization": "chhah", "meanings": { "en": "Six" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "तीन", "romanization": "teen", "options": { "en": ["Three", "Two", "Four", "Five"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "पाँच", "romanization": "paanch", "options": { "en": ["Five", "Six", "Three", "One"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Two' in Hindi?" }, "options": { "neutral": ["दो", "एक", "तीन", "चार"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Four' in Hindi?" }, "options": { "neutral": ["चार", "छह", "दो", "पाँच"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "एक", "romanization": "ek", "options": { "en": ["One", "Two", "Three", "Four"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "छह", "romanization": "chhah", "options": { "en": ["Six", "Five", "Four", "Three"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "एक", "romanization": "ek", "native": { "en": "One" } },
+              { "target": "दो", "romanization": "do", "native": { "en": "Two" } },
+              { "target": "तीन", "romanization": "teen", "native": { "en": "Three" } },
+              { "target": "चार", "romanization": "chaar", "native": { "en": "Four" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Numbers 7-10 & Counting" },
+          "objectives": { "en": ["Count from seven to ten", "Use numbers in simple sentences"] },
+          "vocabulary": [
+            { "word": "सात", "romanization": "saat", "meanings": { "en": "Seven" }, "gendered": null },
+            { "word": "आठ", "romanization": "aath", "meanings": { "en": "Eight" }, "gendered": null },
+            { "word": "नौ", "romanization": "nau", "meanings": { "en": "Nine" }, "gendered": null },
+            { "word": "दस", "romanization": "das", "meanings": { "en": "Ten" }, "gendered": null },
+            { "word": "कितने?", "romanization": "kitne?", "meanings": { "en": "How many?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "सात", "romanization": "saat", "options": { "en": ["Seven", "Eight", "Nine", "Ten"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "दस", "romanization": "das", "options": { "en": ["Ten", "Seven", "Five", "Nine"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eight' in Hindi?" }, "options": { "neutral": ["आठ", "सात", "नौ", "दस"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'How many?' in Hindi?" }, "options": { "neutral": ["कितने?", "कहाँ?", "कैसे?", "क्या?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "नौ", "romanization": "nau", "options": { "en": ["Nine", "Ten", "Eight", "Seven"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "सात", "romanization": "saat", "options": { "en": ["Seven", "Six", "Eight", "Five"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "सात", "romanization": "saat", "native": { "en": "Seven" } },
+              { "target": "आठ", "romanization": "aath", "native": { "en": "Eight" } },
+              { "target": "नौ", "romanization": "nau", "native": { "en": "Nine" } },
+              { "target": "दस", "romanization": "das", "native": { "en": "Ten" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask what time it is", "Understand basic time expressions"] },
+          "vocabulary": [
+            { "word": "कितने बजे हैं?", "romanization": "kitne baje hain?", "meanings": { "en": "What time is it?" }, "gendered": null },
+            { "word": "बजे", "romanization": "baje", "meanings": { "en": "O'clock" }, "gendered": null },
+            { "word": "सुबह", "romanization": "subah", "meanings": { "en": "Morning" }, "gendered": null },
+            { "word": "दोपहर", "romanization": "dopahar", "meanings": { "en": "Afternoon" }, "gendered": null },
+            { "word": "शाम", "romanization": "shaam", "meanings": { "en": "Evening" }, "gendered": null },
+            { "word": "रात", "romanization": "raat", "meanings": { "en": "Night" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "सुबह", "romanization": "subah", "options": { "en": ["Morning", "Afternoon", "Evening", "Night"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "रात", "romanization": "raat", "options": { "en": ["Night", "Morning", "Afternoon", "Evening"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'What time is it?' in Hindi?" }, "options": { "neutral": ["कितने बजे हैं?", "कैसे हो?", "कहाँ है?", "क्या है?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Evening' in Hindi?" }, "options": { "neutral": ["शाम", "सुबह", "रात", "दोपहर"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "दोपहर", "romanization": "dopahar", "options": { "en": ["Afternoon", "Morning", "Evening", "Night"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "कितने बजे हैं?", "romanization": "kitne baje hain?", "options": { "en": ["What time is it?", "How are you?", "What is this?", "Where is it?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "सुबह", "romanization": "subah", "native": { "en": "Morning" } },
+              { "target": "दोपहर", "romanization": "dopahar", "native": { "en": "Afternoon" } },
+              { "target": "शाम", "romanization": "shaam", "native": { "en": "Evening" } },
+              { "target": "रात", "romanization": "raat", "native": { "en": "Night" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Name the days of the week", "Ask what day it is"] },
+          "vocabulary": [
+            { "word": "सोमवार", "romanization": "somvaar", "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "मंगलवार", "romanization": "mangalvaar", "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "बुधवार", "romanization": "budhvaar", "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "गुरुवार", "romanization": "guruvaar", "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "शुक्रवार", "romanization": "shukravaar", "meanings": { "en": "Friday" }, "gendered": null },
+            { "word": "आज", "romanization": "aaj", "meanings": { "en": "Today" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "सोमवार", "romanization": "somvaar", "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "शुक्रवार", "romanization": "shukravaar", "options": { "en": ["Friday", "Monday", "Saturday", "Sunday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in Hindi?" }, "options": { "neutral": ["बुधवार", "मंगलवार", "गुरुवार", "शुक्रवार"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Today' in Hindi?" }, "options": { "neutral": ["आज", "कल", "सोमवार", "रात"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "गुरुवार", "romanization": "guruvaar", "options": { "en": ["Thursday", "Tuesday", "Friday", "Monday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "मंगलवार", "romanization": "mangalvaar", "options": { "en": ["Tuesday", "Thursday", "Monday", "Wednesday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "सोमवार", "romanization": "somvaar", "native": { "en": "Monday" } },
+              { "target": "मंगलवार", "romanization": "mangalvaar", "native": { "en": "Tuesday" } },
+              { "target": "बुधवार", "romanization": "budhvaar", "native": { "en": "Wednesday" } },
+              { "target": "आज", "romanization": "aaj", "native": { "en": "Today" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food & Ordering" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Basic Food & Drink" },
+          "objectives": { "en": ["Name common food and drinks", "Express hunger and thirst"] },
+          "vocabulary": [
+            { "word": "खाना", "romanization": "khaana", "meanings": { "en": "Food" }, "gendered": null },
+            { "word": "पानी", "romanization": "paani", "meanings": { "en": "Water" }, "gendered": null },
+            { "word": "चाय", "romanization": "chaay", "meanings": { "en": "Tea" }, "gendered": null },
+            { "word": "रोटी", "romanization": "roti", "meanings": { "en": "Bread (flatbread)" }, "gendered": null },
+            { "word": "चावल", "romanization": "chaaval", "meanings": { "en": "Rice" }, "gendered": null },
+            { "word": "दूध", "romanization": "doodh", "meanings": { "en": "Milk" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "पानी", "romanization": "paani", "options": { "en": ["Water", "Tea", "Milk", "Food"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "चाय", "romanization": "chaay", "options": { "en": ["Tea", "Water", "Rice", "Bread"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Rice' in Hindi?" }, "options": { "neutral": ["चावल", "रोटी", "खाना", "दूध"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Milk' in Hindi?" }, "options": { "neutral": ["दूध", "पानी", "चाय", "चावल"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "खाना", "romanization": "khaana", "options": { "en": ["Food", "Water", "Tea", "Bread"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "रोटी", "romanization": "roti", "options": { "en": ["Bread (flatbread)", "Rice", "Food", "Milk"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "खाना", "romanization": "khaana", "native": { "en": "Food" } },
+              { "target": "पानी", "romanization": "paani", "native": { "en": "Water" } },
+              { "target": "चाय", "romanization": "chaay", "native": { "en": "Tea" } },
+              { "target": "रोटी", "romanization": "roti", "native": { "en": "Bread (flatbread)" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "More Foods" },
+          "objectives": { "en": ["Learn names of common dishes", "Describe tastes"] },
+          "vocabulary": [
+            { "word": "सब्ज़ी", "romanization": "sabzi", "meanings": { "en": "Vegetables" }, "gendered": null },
+            { "word": "फल", "romanization": "phal", "meanings": { "en": "Fruit" }, "gendered": null },
+            { "word": "मसालेदार", "romanization": "masaaledaar", "meanings": { "en": "Spicy" }, "gendered": null },
+            { "word": "मीठा", "romanization": "meetha", "meanings": { "en": "Sweet" }, "gendered": null },
+            { "word": "दाल", "romanization": "daal", "meanings": { "en": "Lentils" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "सब्ज़ी", "romanization": "sabzi", "options": { "en": ["Vegetables", "Fruit", "Lentils", "Rice"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "मसालेदार", "romanization": "masaaledaar", "options": { "en": ["Spicy", "Sweet", "Sour", "Bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruit' in Hindi?" }, "options": { "neutral": ["फल", "सब्ज़ी", "दाल", "चावल"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sweet' in Hindi?" }, "options": { "neutral": ["मीठा", "मसालेदार", "फल", "दाल"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "दाल", "romanization": "daal", "options": { "en": ["Lentils", "Rice", "Bread", "Vegetables"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "फल", "romanization": "phal", "options": { "en": ["Fruit", "Sweet", "Spicy", "Lentils"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "सब्ज़ी", "romanization": "sabzi", "native": { "en": "Vegetables" } },
+              { "target": "फल", "romanization": "phal", "native": { "en": "Fruit" } },
+              { "target": "मीठा", "romanization": "meetha", "native": { "en": "Sweet" } },
+              { "target": "दाल", "romanization": "daal", "native": { "en": "Lentils" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Ordering & Paying" },
+          "objectives": { "en": ["Order food at a restaurant", "Ask for the price"] },
+          "vocabulary": [
+            { "word": "मुझे चाहिए", "romanization": "mujhe chahiye", "meanings": { "en": "I want / I need" }, "gendered": null },
+            { "word": "कितना है?", "romanization": "kitna hai?", "meanings": { "en": "How much is it?" }, "gendered": null },
+            { "word": "बिल", "romanization": "bil", "meanings": { "en": "Bill" }, "gendered": null },
+            { "word": "और", "romanization": "aur", "meanings": { "en": "More / And" }, "gendered": null },
+            { "word": "बस", "romanization": "bas", "meanings": { "en": "Enough / That's all" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "कितना है?", "romanization": "kitna hai?", "options": { "en": ["How much is it?", "What is it?", "Where is it?", "Who is it?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "मुझे चाहिए", "romanization": "mujhe chahiye", "options": { "en": ["I want / I need", "I have", "I know", "I see"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bill' in Hindi?" }, "options": { "neutral": ["बिल", "बस", "और", "खाना"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Enough' in Hindi?" }, "options": { "neutral": ["बस", "और", "बिल", "कृपया"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "मुझे चाहिए", "romanization": "mujhe chahiye", "options": { "en": ["I want / I need", "How much?", "That's all", "Please"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "बिल", "romanization": "bil", "options": { "en": ["Bill", "Bread", "Water", "More"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "मुझे चाहिए", "romanization": "mujhe chahiye", "native": { "en": "I want / I need" } },
+              { "target": "कितना है?", "romanization": "kitna hai?", "native": { "en": "How much is it?" } },
+              { "target": "बिल", "romanization": "bil", "native": { "en": "Bill" } },
+              { "target": "बस", "romanization": "bas", "native": { "en": "Enough / That's all" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "At a Restaurant" },
+          "objectives": { "en": ["Navigate a basic restaurant interaction", "Express preferences"] },
+          "vocabulary": [
+            { "word": "मेन्यू", "romanization": "menu", "meanings": { "en": "Menu" }, "gendered": null },
+            { "word": "स्वादिष्ट", "romanization": "svaadisht", "meanings": { "en": "Delicious" }, "gendered": null },
+            { "word": "गरम", "romanization": "garam", "meanings": { "en": "Hot" }, "gendered": null },
+            { "word": "ठंडा", "romanization": "thanda", "meanings": { "en": "Cold" }, "gendered": null },
+            { "word": "मुझे भूख लगी है", "romanization": "mujhe bhookh lagi hai", "meanings": { "en": "I am hungry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "स्वादिष्ट", "romanization": "svaadisht", "options": { "en": ["Delicious", "Spicy", "Hot", "Cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ठंडा", "romanization": "thanda", "options": { "en": ["Cold", "Hot", "Sweet", "Delicious"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hot' in Hindi?" }, "options": { "neutral": ["गरम", "ठंडा", "मीठा", "मसालेदार"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am hungry' in Hindi?" }, "options": { "neutral": ["मुझे भूख लगी है", "मुझे चाहिए", "मैं ठीक हूँ", "कितना है?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "गरम", "romanization": "garam", "options": { "en": ["Hot", "Cold", "Spicy", "Delicious"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "मुझे भूख लगी है", "romanization": "mujhe bhookh lagi hai", "options": { "en": ["I am hungry", "I am thirsty", "I want food", "I am fine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "स्वादिष्ट", "romanization": "svaadisht", "native": { "en": "Delicious" } },
+              { "target": "गरम", "romanization": "garam", "native": { "en": "Hot" } },
+              { "target": "ठंडा", "romanization": "thanda", "native": { "en": "Cold" } },
+              { "target": "मुझे भूख लगी है", "romanization": "mujhe bhookh lagi hai", "native": { "en": "I am hungry" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Family & Descriptions" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name close family members", "Talk about your family"] },
+          "vocabulary": [
+            { "word": "परिवार", "romanization": "parivaar", "meanings": { "en": "Family" }, "gendered": null },
+            { "word": "माँ", "romanization": "maan", "meanings": { "en": "Mother" }, "gendered": null },
+            { "word": "पिता", "romanization": "pita", "meanings": { "en": "Father" }, "gendered": null },
+            { "word": "भाई", "romanization": "bhai", "meanings": { "en": "Brother" }, "gendered": null },
+            { "word": "बहन", "romanization": "bahan", "meanings": { "en": "Sister" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "परिवार", "romanization": "parivaar", "options": { "en": ["Family", "Father", "Brother", "Mother"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "माँ", "romanization": "maan", "options": { "en": ["Mother", "Father", "Sister", "Brother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Brother' in Hindi?" }, "options": { "neutral": ["भाई", "बहन", "पिता", "माँ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sister' in Hindi?" }, "options": { "neutral": ["बहन", "भाई", "माँ", "परिवार"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "पिता", "romanization": "pita", "options": { "en": ["Father", "Mother", "Brother", "Family"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "परिवार", "romanization": "parivaar", "options": { "en": ["Family", "Father", "Sister", "Mother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "माँ", "romanization": "maan", "native": { "en": "Mother" } },
+              { "target": "पिता", "romanization": "pita", "native": { "en": "Father" } },
+              { "target": "भाई", "romanization": "bhai", "native": { "en": "Brother" } },
+              { "target": "बहन", "romanization": "bahan", "native": { "en": "Sister" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Extended Family" },
+          "objectives": { "en": ["Name extended family members", "Describe family relationships"] },
+          "vocabulary": [
+            { "word": "दादा", "romanization": "daada", "meanings": { "en": "Grandfather (paternal)" }, "gendered": null },
+            { "word": "दादी", "romanization": "daadi", "meanings": { "en": "Grandmother (paternal)" }, "gendered": null },
+            { "word": "बच्चा", "romanization": "baccha", "meanings": { "en": "Child" }, "gendered": null },
+            { "word": "बेटा", "romanization": "beta", "meanings": { "en": "Son" }, "gendered": null },
+            { "word": "बेटी", "romanization": "beti", "meanings": { "en": "Daughter" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "दादा", "romanization": "daada", "options": { "en": ["Grandfather (paternal)", "Grandmother", "Father", "Uncle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "बच्चा", "romanization": "baccha", "options": { "en": ["Child", "Son", "Daughter", "Brother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Son' in Hindi?" }, "options": { "neutral": ["बेटा", "बेटी", "भाई", "बच्चा"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Daughter' in Hindi?" }, "options": { "neutral": ["बेटी", "बेटा", "बहन", "दादी"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "दादी", "romanization": "daadi", "options": { "en": ["Grandmother (paternal)", "Grandfather", "Mother", "Daughter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "बेटा", "romanization": "beta", "options": { "en": ["Son", "Daughter", "Child", "Brother"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "दादा", "romanization": "daada", "native": { "en": "Grandfather (paternal)" } },
+              { "target": "दादी", "romanization": "daadi", "native": { "en": "Grandmother (paternal)" } },
+              { "target": "बेटा", "romanization": "beta", "native": { "en": "Son" } },
+              { "target": "बेटी", "romanization": "beti", "native": { "en": "Daughter" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Describing People" },
+          "objectives": { "en": ["Describe people using adjectives", "Use big and small"] },
+          "vocabulary": [
+            { "word": "बड़ा", "romanization": "bada", "meanings": { "en": "Big" }, "gendered": null },
+            { "word": "छोटा", "romanization": "chhota", "meanings": { "en": "Small" }, "gendered": null },
+            { "word": "लंबा", "romanization": "lamba", "meanings": { "en": "Tall / Long" }, "gendered": null },
+            { "word": "सुंदर", "romanization": "sundar", "meanings": { "en": "Beautiful" }, "gendered": null },
+            { "word": "जवान", "romanization": "javaan", "meanings": { "en": "Young" }, "gendered": null },
+            { "word": "बूढ़ा", "romanization": "boodha", "meanings": { "en": "Old (person)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "बड़ा", "romanization": "bada", "options": { "en": ["Big", "Small", "Tall", "Old"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "छोटा", "romanization": "chhota", "options": { "en": ["Small", "Big", "Young", "Beautiful"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Tall' in Hindi?" }, "options": { "neutral": ["लंबा", "बड़ा", "छोटा", "सुंदर"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Beautiful' in Hindi?" }, "options": { "neutral": ["सुंदर", "जवान", "लंबा", "बूढ़ा"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "जवान", "romanization": "javaan", "options": { "en": ["Young", "Old", "Tall", "Big"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "बूढ़ा", "romanization": "boodha", "options": { "en": ["Old (person)", "Young", "Small", "Beautiful"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "बड़ा", "romanization": "bada", "native": { "en": "Big" } },
+              { "target": "छोटा", "romanization": "chhota", "native": { "en": "Small" } },
+              { "target": "लंबा", "romanization": "lamba", "native": { "en": "Tall / Long" } },
+              { "target": "सुंदर", "romanization": "sundar", "native": { "en": "Beautiful" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Colors & Appearance" },
+          "objectives": { "en": ["Name basic colors", "Describe appearance"] },
+          "vocabulary": [
+            { "word": "लाल", "romanization": "laal", "meanings": { "en": "Red" }, "gendered": null },
+            { "word": "नीला", "romanization": "neela", "meanings": { "en": "Blue" }, "gendered": null },
+            { "word": "हरा", "romanization": "hara", "meanings": { "en": "Green" }, "gendered": null },
+            { "word": "पीला", "romanization": "peela", "meanings": { "en": "Yellow" }, "gendered": null },
+            { "word": "सफ़ेद", "romanization": "safed", "meanings": { "en": "White" }, "gendered": null },
+            { "word": "काला", "romanization": "kaala", "meanings": { "en": "Black" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "लाल", "romanization": "laal", "options": { "en": ["Red", "Blue", "Green", "Yellow"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "हरा", "romanization": "hara", "options": { "en": ["Green", "Red", "White", "Black"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Blue' in Hindi?" }, "options": { "neutral": ["नीला", "लाल", "हरा", "पीला"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Black' in Hindi?" }, "options": { "neutral": ["काला", "सफ़ेद", "नीला", "लाल"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "पीला", "romanization": "peela", "options": { "en": ["Yellow", "Green", "Blue", "Red"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "सफ़ेद", "romanization": "safed", "options": { "en": ["White", "Black", "Yellow", "Green"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "लाल", "romanization": "laal", "native": { "en": "Red" } },
+              { "target": "नीला", "romanization": "neela", "native": { "en": "Blue" } },
+              { "target": "हरा", "romanization": "hara", "native": { "en": "Green" } },
+              { "target": "काला", "romanization": "kaala", "native": { "en": "Black" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Places & Directions" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Common Places" },
+          "objectives": { "en": ["Name common places in a city", "Ask where something is"] },
+          "vocabulary": [
+            { "word": "कहाँ", "romanization": "kahaan", "meanings": { "en": "Where" }, "gendered": null },
+            { "word": "घर", "romanization": "ghar", "meanings": { "en": "Home / House" }, "gendered": null },
+            { "word": "दुकान", "romanization": "dukaan", "meanings": { "en": "Shop" }, "gendered": null },
+            { "word": "बाज़ार", "romanization": "baazaar", "meanings": { "en": "Market" }, "gendered": null },
+            { "word": "स्कूल", "romanization": "school", "meanings": { "en": "School" }, "gendered": null },
+            { "word": "अस्पताल", "romanization": "aspatal", "meanings": { "en": "Hospital" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "घर", "romanization": "ghar", "options": { "en": ["Home / House", "Shop", "School", "Market"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "बाज़ार", "romanization": "baazaar", "options": { "en": ["Market", "Hospital", "Home", "Shop"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Where' in Hindi?" }, "options": { "neutral": ["कहाँ", "क्या", "कैसे", "कब"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Hospital' in Hindi?" }, "options": { "neutral": ["अस्पताल", "स्कूल", "दुकान", "घर"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "दुकान", "romanization": "dukaan", "options": { "en": ["Shop", "Market", "School", "Home"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "कहाँ", "romanization": "kahaan", "options": { "en": ["Where", "What", "How", "When"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "घर", "romanization": "ghar", "native": { "en": "Home / House" } },
+              { "target": "दुकान", "romanization": "dukaan", "native": { "en": "Shop" } },
+              { "target": "बाज़ार", "romanization": "baazaar", "native": { "en": "Market" } },
+              { "target": "अस्पताल", "romanization": "aspatal", "native": { "en": "Hospital" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Directions" },
+          "objectives": { "en": ["Give and understand basic directions", "Use left, right, straight"] },
+          "vocabulary": [
+            { "word": "दाएँ", "romanization": "daayein", "meanings": { "en": "Right" }, "gendered": null },
+            { "word": "बाएँ", "romanization": "baayein", "meanings": { "en": "Left" }, "gendered": null },
+            { "word": "सीधे", "romanization": "seedhe", "meanings": { "en": "Straight" }, "gendered": null },
+            { "word": "यहाँ", "romanization": "yahaan", "meanings": { "en": "Here" }, "gendered": null },
+            { "word": "वहाँ", "romanization": "vahaan", "meanings": { "en": "There" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "दाएँ", "romanization": "daayein", "options": { "en": ["Right", "Left", "Straight", "Here"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "बाएँ", "romanization": "baayein", "options": { "en": ["Left", "Right", "There", "Straight"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Straight' in Hindi?" }, "options": { "neutral": ["सीधे", "दाएँ", "बाएँ", "वहाँ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Here' in Hindi?" }, "options": { "neutral": ["यहाँ", "वहाँ", "कहाँ", "सीधे"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "सीधे", "romanization": "seedhe", "options": { "en": ["Straight", "Right", "Left", "Here"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "वहाँ", "romanization": "vahaan", "options": { "en": ["There", "Here", "Where", "Straight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "दाएँ", "romanization": "daayein", "native": { "en": "Right" } },
+              { "target": "बाएँ", "romanization": "baayein", "native": { "en": "Left" } },
+              { "target": "सीधे", "romanization": "seedhe", "native": { "en": "Straight" } },
+              { "target": "यहाँ", "romanization": "yahaan", "native": { "en": "Here" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Getting Around" },
+          "objectives": { "en": ["Use transport vocabulary", "Ask for directions to a place"] },
+          "vocabulary": [
+            { "word": "बस", "romanization": "bas", "meanings": { "en": "Bus" }, "gendered": null },
+            { "word": "ट्रेन", "romanization": "train", "meanings": { "en": "Train" }, "gendered": null },
+            { "word": "ऑटो", "romanization": "auto", "meanings": { "en": "Auto-rickshaw" }, "gendered": null },
+            { "word": "टैक्सी", "romanization": "taxi", "meanings": { "en": "Taxi" }, "gendered": null },
+            { "word": "रास्ता", "romanization": "raasta", "meanings": { "en": "Way / Road" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ट्रेन", "romanization": "train", "options": { "en": ["Train", "Bus", "Taxi", "Road"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ऑटो", "romanization": "auto", "options": { "en": ["Auto-rickshaw", "Taxi", "Bus", "Train"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Road' in Hindi?" }, "options": { "neutral": ["रास्ता", "बस", "ऑटो", "ट्रेन"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Bus' in Hindi?" }, "options": { "neutral": ["बस", "ट्रेन", "ऑटो", "टैक्सी"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "टैक्सी", "romanization": "taxi", "options": { "en": ["Taxi", "Bus", "Train", "Road"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "रास्ता", "romanization": "raasta", "options": { "en": ["Way / Road", "Left", "Right", "Straight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "बस", "romanization": "bas", "native": { "en": "Bus" } },
+              { "target": "ट्रेन", "romanization": "train", "native": { "en": "Train" } },
+              { "target": "ऑटो", "romanization": "auto", "native": { "en": "Auto-rickshaw" } },
+              { "target": "टैक्सी", "romanization": "taxi", "native": { "en": "Taxi" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Near & Far" },
+          "objectives": { "en": ["Describe distance and proximity", "Use near, far, next to"] },
+          "vocabulary": [
+            { "word": "पास", "romanization": "paas", "meanings": { "en": "Near" }, "gendered": null },
+            { "word": "दूर", "romanization": "door", "meanings": { "en": "Far" }, "gendered": null },
+            { "word": "के सामने", "romanization": "ke saamne", "meanings": { "en": "In front of" }, "gendered": null },
+            { "word": "के पीछे", "romanization": "ke peeche", "meanings": { "en": "Behind" }, "gendered": null },
+            { "word": "के बगल में", "romanization": "ke bagal mein", "meanings": { "en": "Next to" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "पास", "romanization": "paas", "options": { "en": ["Near", "Far", "Behind", "Next to"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "दूर", "romanization": "door", "options": { "en": ["Far", "Near", "In front of", "Behind"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'In front of' in Hindi?" }, "options": { "neutral": ["के सामने", "के पीछे", "के बगल में", "पास"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Next to' in Hindi?" }, "options": { "neutral": ["के बगल में", "के सामने", "दूर", "पास"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "के पीछे", "romanization": "ke peeche", "options": { "en": ["Behind", "In front of", "Near", "Far"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "पास", "romanization": "paas", "options": { "en": ["Near", "Far", "Next to", "Behind"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "पास", "romanization": "paas", "native": { "en": "Near" } },
+              { "target": "दूर", "romanization": "door", "native": { "en": "Far" } },
+              { "target": "के सामने", "romanization": "ke saamne", "native": { "en": "In front of" } },
+              { "target": "के पीछे", "romanization": "ke peeche", "native": { "en": "Behind" } }
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

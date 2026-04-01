@@ -1,0 +1,573 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe your morning routine", "Use daily activity verbs"] },
+          "vocabulary": [
+            { "word": "uyanmak", "romanization": null, "meanings": { "en": "to wake up" }, "gendered": null },
+            { "word": "yıkanmak", "romanization": null, "meanings": { "en": "to wash oneself" }, "gendered": null },
+            { "word": "giyinmek", "romanization": null, "meanings": { "en": "to get dressed" }, "gendered": null },
+            { "word": "kahvaltı", "romanization": null, "meanings": { "en": "breakfast" }, "gendered": null },
+            { "word": "erken", "romanization": null, "meanings": { "en": "early" }, "gendered": null },
+            { "word": "geç", "romanization": null, "meanings": { "en": "late" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "uyanmak", "romanization": null, "options": { "en": ["to wake up", "to wash oneself", "to get dressed", "breakfast"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "kahvaltı", "romanization": null, "options": { "en": ["breakfast", "lunch", "dinner", "early"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to get dressed' in Turkish?" }, "options": { "neutral": ["giyinmek", "yıkanmak", "uyanmak", "kahvaltı"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'late' in Turkish?" }, "options": { "neutral": ["geç", "erken", "kahvaltı", "uyanmak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yıkanmak", "romanization": null, "options": { "en": ["to wash oneself", "to wake up", "to get dressed", "early"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "erken", "romanization": null, "options": { "en": ["early", "late", "breakfast", "to wake up"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "uyanmak", "romanization": null, "native": { "en": "to wake up" } },
+              { "target": "yıkanmak", "romanization": null, "native": { "en": "to wash oneself" } },
+              { "target": "erken", "romanization": null, "native": { "en": "early" } },
+              { "target": "geç", "romanization": null, "native": { "en": "late" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "At Home" },
+          "objectives": { "en": ["Name rooms in a house", "Describe your living space"] },
+          "vocabulary": [
+            { "word": "ev", "romanization": null, "meanings": { "en": "house / home" }, "gendered": null },
+            { "word": "mutfak", "romanization": null, "meanings": { "en": "kitchen" }, "gendered": null },
+            { "word": "yatak odası", "romanization": null, "meanings": { "en": "bedroom" }, "gendered": null },
+            { "word": "banyo", "romanization": null, "meanings": { "en": "bathroom" }, "gendered": null },
+            { "word": "oturma odası", "romanization": null, "meanings": { "en": "living room" }, "gendered": null },
+            { "word": "bahçe", "romanization": null, "meanings": { "en": "garden" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mutfak", "romanization": null, "options": { "en": ["kitchen", "bedroom", "bathroom", "garden"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "oturma odası", "romanization": null, "options": { "en": ["living room", "kitchen", "bedroom", "bathroom"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bedroom' in Turkish?" }, "options": { "neutral": ["yatak odası", "banyo", "mutfak", "oturma odası"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'garden' in Turkish?" }, "options": { "neutral": ["bahçe", "oturma odası", "ev", "mutfak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "banyo", "romanization": null, "options": { "en": ["bathroom", "bedroom", "kitchen", "living room"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ev", "romanization": null, "options": { "en": ["house / home", "garden", "kitchen", "bathroom"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "mutfak", "romanization": null, "native": { "en": "kitchen" } },
+              { "target": "yatak odası", "romanization": null, "native": { "en": "bedroom" } },
+              { "target": "banyo", "romanization": null, "native": { "en": "bathroom" } },
+              { "target": "bahçe", "romanization": null, "native": { "en": "garden" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Household Chores" },
+          "objectives": { "en": ["Talk about household tasks", "Use common verbs for chores"] },
+          "vocabulary": [
+            { "word": "temizlemek", "romanization": null, "meanings": { "en": "to clean" }, "gendered": null },
+            { "word": "yemek yapmak", "romanization": null, "meanings": { "en": "to cook" }, "gendered": null },
+            { "word": "yıkamak", "romanization": null, "meanings": { "en": "to wash" }, "gendered": null },
+            { "word": "ütü yapmak", "romanization": null, "meanings": { "en": "to iron" }, "gendered": null },
+            { "word": "alışveriş yapmak", "romanization": null, "meanings": { "en": "to go shopping" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "temizlemek", "romanization": null, "options": { "en": ["to clean", "to cook", "to wash", "to iron"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "alışveriş yapmak", "romanization": null, "options": { "en": ["to go shopping", "to cook", "to clean", "to wash"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to cook' in Turkish?" }, "options": { "neutral": ["yemek yapmak", "temizlemek", "yıkamak", "ütü yapmak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to iron' in Turkish?" }, "options": { "neutral": ["ütü yapmak", "yıkamak", "yemek yapmak", "temizlemek"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yıkamak", "romanization": null, "options": { "en": ["to wash", "to clean", "to iron", "to cook"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yemek yapmak", "romanization": null, "options": { "en": ["to cook", "to wash", "to clean", "to go shopping"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "temizlemek", "romanization": null, "native": { "en": "to clean" } },
+              { "target": "yemek yapmak", "romanization": null, "native": { "en": "to cook" } },
+              { "target": "yıkamak", "romanization": null, "native": { "en": "to wash" } },
+              { "target": "ütü yapmak", "romanization": null, "native": { "en": "to iron" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Shopping & Errands" },
+          "objectives": { "en": ["Talk about everyday errands", "Use shopping vocabulary"] },
+          "vocabulary": [
+            { "word": "satın almak", "romanization": null, "meanings": { "en": "to buy" }, "gendered": null },
+            { "word": "dükkân", "romanization": null, "meanings": { "en": "shop / store" }, "gendered": null },
+            { "word": "para", "romanization": null, "meanings": { "en": "money" }, "gendered": null },
+            { "word": "çanta", "romanization": null, "meanings": { "en": "bag" }, "gendered": null },
+            { "word": "açık", "romanization": null, "meanings": { "en": "open" }, "gendered": null },
+            { "word": "kapalı", "romanization": null, "meanings": { "en": "closed" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "satın almak", "romanization": null, "options": { "en": ["to buy", "to sell", "shop", "money"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "kapalı", "romanization": null, "options": { "en": ["closed", "open", "shop", "bag"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'shop' in Turkish?" }, "options": { "neutral": ["dükkân", "çanta", "para", "satın almak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'open' in Turkish?" }, "options": { "neutral": ["açık", "kapalı", "dükkân", "satın almak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "para", "romanization": null, "options": { "en": ["money", "bag", "shop", "to buy"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "çanta", "romanization": null, "options": { "en": ["bag", "money", "shop", "closed"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "satın almak", "romanization": null, "native": { "en": "to buy" } },
+              { "target": "dükkân", "romanization": null, "native": { "en": "shop / store" } },
+              { "target": "açık", "romanization": null, "native": { "en": "open" } },
+              { "target": "kapalı", "romanization": null, "native": { "en": "closed" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe different weather conditions", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "hava nasıl?", "romanization": null, "meanings": { "en": "what's the weather like?" }, "gendered": null },
+            { "word": "yağmur yağıyor", "romanization": null, "meanings": { "en": "it's raining" }, "gendered": null },
+            { "word": "kar yağıyor", "romanization": null, "meanings": { "en": "it's snowing" }, "gendered": null },
+            { "word": "sıcak", "romanization": null, "meanings": { "en": "hot" }, "gendered": null },
+            { "word": "soğuk", "romanization": null, "meanings": { "en": "cold" }, "gendered": null },
+            { "word": "güneşli", "romanization": null, "meanings": { "en": "sunny" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "yağmur yağıyor", "romanization": null, "options": { "en": ["it's raining", "it's snowing", "it's hot", "it's cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "sıcak", "romanization": null, "options": { "en": ["hot", "cold", "sunny", "raining"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'it's snowing' in Turkish?" }, "options": { "neutral": ["kar yağıyor", "yağmur yağıyor", "soğuk", "güneşli"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'what's the weather like?' in Turkish?" }, "options": { "neutral": ["hava nasıl?", "saat kaç?", "nasılsın?", "nerede?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "soğuk", "romanization": null, "options": { "en": ["cold", "hot", "raining", "sunny"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "güneşli", "romanization": null, "options": { "en": ["sunny", "snowing", "cold", "raining"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "yağmur yağıyor", "romanization": null, "native": { "en": "it's raining" } },
+              { "target": "kar yağıyor", "romanization": null, "native": { "en": "it's snowing" } },
+              { "target": "sıcak", "romanization": null, "native": { "en": "hot" } },
+              { "target": "soğuk", "romanization": null, "native": { "en": "cold" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Seasons" },
+          "objectives": { "en": ["Name the four seasons", "Talk about seasonal activities"] },
+          "vocabulary": [
+            { "word": "ilkbahar", "romanization": null, "meanings": { "en": "spring" }, "gendered": null },
+            { "word": "yaz", "romanization": null, "meanings": { "en": "summer" }, "gendered": null },
+            { "word": "sonbahar", "romanization": null, "meanings": { "en": "autumn" }, "gendered": null },
+            { "word": "kış", "romanization": null, "meanings": { "en": "winter" }, "gendered": null },
+            { "word": "mevsim", "romanization": null, "meanings": { "en": "season" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ilkbahar", "romanization": null, "options": { "en": ["spring", "summer", "autumn", "winter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "sonbahar", "romanization": null, "options": { "en": ["autumn", "spring", "winter", "summer"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'summer' in Turkish?" }, "options": { "neutral": ["yaz", "ilkbahar", "kış", "sonbahar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'winter' in Turkish?" }, "options": { "neutral": ["kış", "sonbahar", "yaz", "ilkbahar"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yaz", "romanization": null, "options": { "en": ["summer", "spring", "autumn", "season"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mevsim", "romanization": null, "options": { "en": ["season", "winter", "spring", "summer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ilkbahar", "romanization": null, "native": { "en": "spring" } },
+              { "target": "yaz", "romanization": null, "native": { "en": "summer" } },
+              { "target": "sonbahar", "romanization": null, "native": { "en": "autumn" } },
+              { "target": "kış", "romanization": null, "native": { "en": "winter" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": { "en": ["Name clothing items", "Match clothing to weather"] },
+          "vocabulary": [
+            { "word": "şemsiye", "romanization": null, "meanings": { "en": "umbrella" }, "gendered": null },
+            { "word": "ceket", "romanization": null, "meanings": { "en": "jacket" }, "gendered": null },
+            { "word": "şapka", "romanization": null, "meanings": { "en": "hat" }, "gendered": null },
+            { "word": "ayakkabı", "romanization": null, "meanings": { "en": "shoes" }, "gendered": null },
+            { "word": "güneş gözlüğü", "romanization": null, "meanings": { "en": "sunglasses" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "şemsiye", "romanization": null, "options": { "en": ["umbrella", "jacket", "hat", "shoes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "güneş gözlüğü", "romanization": null, "options": { "en": ["sunglasses", "umbrella", "hat", "jacket"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'jacket' in Turkish?" }, "options": { "neutral": ["ceket", "şapka", "ayakkabı", "şemsiye"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'shoes' in Turkish?" }, "options": { "neutral": ["ayakkabı", "ceket", "şapka", "şemsiye"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "şapka", "romanization": null, "options": { "en": ["hat", "jacket", "umbrella", "sunglasses"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ceket", "romanization": null, "options": { "en": ["jacket", "shoes", "hat", "umbrella"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "şemsiye", "romanization": null, "native": { "en": "umbrella" } },
+              { "target": "ceket", "romanization": null, "native": { "en": "jacket" } },
+              { "target": "şapka", "romanization": null, "native": { "en": "hat" } },
+              { "target": "ayakkabı", "romanization": null, "native": { "en": "shoes" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Months & Dates" },
+          "objectives": { "en": ["Name the months of the year", "Talk about dates and birthdays"] },
+          "vocabulary": [
+            { "word": "ocak", "romanization": null, "meanings": { "en": "January" }, "gendered": null },
+            { "word": "şubat", "romanization": null, "meanings": { "en": "February" }, "gendered": null },
+            { "word": "mart", "romanization": null, "meanings": { "en": "March" }, "gendered": null },
+            { "word": "doğum günü", "romanization": null, "meanings": { "en": "birthday" }, "gendered": null },
+            { "word": "ay", "romanization": null, "meanings": { "en": "month" }, "gendered": null },
+            { "word": "yıl", "romanization": null, "meanings": { "en": "year" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ocak", "romanization": null, "options": { "en": ["January", "February", "March", "month"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "doğum günü", "romanization": null, "options": { "en": ["birthday", "month", "year", "January"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'February' in Turkish?" }, "options": { "neutral": ["şubat", "ocak", "mart", "ay"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'year' in Turkish?" }, "options": { "neutral": ["yıl", "ay", "doğum günü", "mart"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mart", "romanization": null, "options": { "en": ["March", "January", "February", "year"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ay", "romanization": null, "options": { "en": ["month", "year", "birthday", "March"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ocak", "romanization": null, "native": { "en": "January" } },
+              { "target": "şubat", "romanization": null, "native": { "en": "February" } },
+              { "target": "doğum günü", "romanization": null, "native": { "en": "birthday" } },
+              { "target": "yıl", "romanization": null, "native": { "en": "year" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Body" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name major body parts", "Describe physical sensations"] },
+          "vocabulary": [
+            { "word": "baş", "romanization": null, "meanings": { "en": "head" }, "gendered": null },
+            { "word": "kol", "romanization": null, "meanings": { "en": "arm" }, "gendered": null },
+            { "word": "bacak", "romanization": null, "meanings": { "en": "leg" }, "gendered": null },
+            { "word": "el", "romanization": null, "meanings": { "en": "hand" }, "gendered": null },
+            { "word": "mide", "romanization": null, "meanings": { "en": "stomach" }, "gendered": null },
+            { "word": "sırt", "romanization": null, "meanings": { "en": "back" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "baş", "romanization": null, "options": { "en": ["head", "arm", "leg", "hand"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "bacak", "romanization": null, "options": { "en": ["leg", "arm", "hand", "back"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'arm' in Turkish?" }, "options": { "neutral": ["kol", "bacak", "el", "baş"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'back' in Turkish?" }, "options": { "neutral": ["sırt", "mide", "baş", "kol"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "el", "romanization": null, "options": { "en": ["hand", "arm", "leg", "head"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mide", "romanization": null, "options": { "en": ["stomach", "back", "head", "hand"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "baş", "romanization": null, "native": { "en": "head" } },
+              { "target": "kol", "romanization": null, "native": { "en": "arm" } },
+              { "target": "bacak", "romanization": null, "native": { "en": "leg" } },
+              { "target": "el", "romanization": null, "native": { "en": "hand" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Unwell" },
+          "objectives": { "en": ["Express common ailments", "Tell a doctor what hurts"] },
+          "vocabulary": [
+            { "word": "ağrıyor", "romanization": null, "meanings": { "en": "it hurts" }, "gendered": null },
+            { "word": "ateş", "romanization": null, "meanings": { "en": "fever" }, "gendered": null },
+            { "word": "nezle", "romanization": null, "meanings": { "en": "cold (illness)" }, "gendered": null },
+            { "word": "öksürük", "romanization": null, "meanings": { "en": "cough" }, "gendered": null },
+            { "word": "yorgun", "romanization": null, "meanings": { "en": "tired" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ateş", "romanization": null, "options": { "en": ["fever", "cold", "cough", "tired"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ağrıyor", "romanization": null, "options": { "en": ["it hurts", "I'm tired", "I have a fever", "I have a cough"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cough' in Turkish?" }, "options": { "neutral": ["öksürük", "ateş", "nezle", "yorgun"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'tired' in Turkish?" }, "options": { "neutral": ["yorgun", "ateş", "öksürük", "nezle"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "nezle", "romanization": null, "options": { "en": ["cold (illness)", "fever", "cough", "it hurts"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "öksürük", "romanization": null, "options": { "en": ["cough", "cold", "fever", "tired"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ağrıyor", "romanization": null, "native": { "en": "it hurts" } },
+              { "target": "ateş", "romanization": null, "native": { "en": "fever" } },
+              { "target": "nezle", "romanization": null, "native": { "en": "cold (illness)" } },
+              { "target": "öksürük", "romanization": null, "native": { "en": "cough" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Communicate at a doctor's office", "Understand basic medical instructions"] },
+          "vocabulary": [
+            { "word": "doktor", "romanization": null, "meanings": { "en": "doctor" }, "gendered": null },
+            { "word": "ilaç", "romanization": null, "meanings": { "en": "medicine" }, "gendered": null },
+            { "word": "reçete", "romanization": null, "meanings": { "en": "prescription" }, "gendered": null },
+            { "word": "randevu", "romanization": null, "meanings": { "en": "appointment" }, "gendered": null },
+            { "word": "alerji", "romanization": null, "meanings": { "en": "allergy" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "doktor", "romanization": null, "options": { "en": ["doctor", "medicine", "prescription", "appointment"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "reçete", "romanization": null, "options": { "en": ["prescription", "medicine", "doctor", "allergy"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'medicine' in Turkish?" }, "options": { "neutral": ["ilaç", "reçete", "doktor", "alerji"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'appointment' in Turkish?" }, "options": { "neutral": ["randevu", "reçete", "ilaç", "doktor"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "alerji", "romanization": null, "options": { "en": ["allergy", "medicine", "prescription", "doctor"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ilaç", "romanization": null, "options": { "en": ["medicine", "allergy", "appointment", "prescription"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "doktor", "romanization": null, "native": { "en": "doctor" } },
+              { "target": "ilaç", "romanization": null, "native": { "en": "medicine" } },
+              { "target": "reçete", "romanization": null, "native": { "en": "prescription" } },
+              { "target": "alerji", "romanization": null, "native": { "en": "allergy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Healthy Habits" },
+          "objectives": { "en": ["Discuss healthy lifestyle choices", "Talk about exercise and rest"] },
+          "vocabulary": [
+            { "word": "egzersiz", "romanization": null, "meanings": { "en": "exercise" }, "gendered": null },
+            { "word": "uyumak", "romanization": null, "meanings": { "en": "to sleep" }, "gendered": null },
+            { "word": "yürümek", "romanization": null, "meanings": { "en": "to walk" }, "gendered": null },
+            { "word": "koşmak", "romanization": null, "meanings": { "en": "to run" }, "gendered": null },
+            { "word": "sağlıklı", "romanization": null, "meanings": { "en": "healthy" }, "gendered": null },
+            { "word": "dinlenmek", "romanization": null, "meanings": { "en": "to rest" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "egzersiz", "romanization": null, "options": { "en": ["exercise", "to sleep", "to walk", "healthy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "koşmak", "romanization": null, "options": { "en": ["to run", "to walk", "to sleep", "to rest"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to sleep' in Turkish?" }, "options": { "neutral": ["uyumak", "koşmak", "yürümek", "dinlenmek"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'healthy' in Turkish?" }, "options": { "neutral": ["sağlıklı", "egzersiz", "uyumak", "koşmak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yürümek", "romanization": null, "options": { "en": ["to walk", "to run", "to rest", "to sleep"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "dinlenmek", "romanization": null, "options": { "en": ["to rest", "to walk", "to run", "exercise"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "uyumak", "romanization": null, "native": { "en": "to sleep" } },
+              { "target": "yürümek", "romanization": null, "native": { "en": "to walk" } },
+              { "target": "koşmak", "romanization": null, "native": { "en": "to run" } },
+              { "target": "dinlenmek", "romanization": null, "native": { "en": "to rest" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Use time expressions for the future"] },
+          "vocabulary": [
+            { "word": "yarın", "romanization": null, "meanings": { "en": "tomorrow" }, "gendered": null },
+            { "word": "gelecek hafta", "romanization": null, "meanings": { "en": "next week" }, "gendered": null },
+            { "word": "gitmek", "romanization": null, "meanings": { "en": "to go" }, "gendered": null },
+            { "word": "yapmak", "romanization": null, "meanings": { "en": "to do / to make" }, "gendered": null },
+            { "word": "istemek", "romanization": null, "meanings": { "en": "to want" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "yarın", "romanization": null, "options": { "en": ["tomorrow", "next week", "today", "yesterday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "istemek", "romanization": null, "options": { "en": ["to want", "to go", "to do", "tomorrow"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to go' in Turkish?" }, "options": { "neutral": ["gitmek", "yapmak", "istemek", "yarın"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'next week' in Turkish?" }, "options": { "neutral": ["gelecek hafta", "yarın", "gitmek", "yapmak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "yapmak", "romanization": null, "options": { "en": ["to do / to make", "to go", "to want", "tomorrow"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "gitmek", "romanization": null, "options": { "en": ["to go", "to do", "to want", "next week"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "yarın", "romanization": null, "native": { "en": "tomorrow" } },
+              { "target": "gitmek", "romanization": null, "native": { "en": "to go" } },
+              { "target": "yapmak", "romanization": null, "native": { "en": "to do / to make" } },
+              { "target": "istemek", "romanization": null, "native": { "en": "to want" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations" },
+          "objectives": { "en": ["Invite someone to do something", "Accept or decline an invitation"] },
+          "vocabulary": [
+            { "word": "gelmek ister misin?", "romanization": null, "meanings": { "en": "do you want to come?" }, "gendered": null },
+            { "word": "memnuniyetle", "romanization": null, "meanings": { "en": "with pleasure" }, "gendered": null },
+            { "word": "üzgünüm", "romanization": null, "meanings": { "en": "I'm sorry" }, "gendered": null },
+            { "word": "yapamam", "romanization": null, "meanings": { "en": "I can't" }, "gendered": null },
+            { "word": "belki", "romanization": null, "meanings": { "en": "maybe" }, "gendered": null },
+            { "word": "birlikte", "romanization": null, "meanings": { "en": "together" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "gelmek ister misin?", "romanization": null, "options": { "en": ["do you want to come?", "I'm sorry", "I can't", "maybe"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "üzgünüm", "romanization": null, "options": { "en": ["I'm sorry", "with pleasure", "maybe", "together"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I can't' in Turkish?" }, "options": { "neutral": ["yapamam", "üzgünüm", "belki", "birlikte"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'together' in Turkish?" }, "options": { "neutral": ["birlikte", "belki", "memnuniyetle", "yapamam"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "memnuniyetle", "romanization": null, "options": { "en": ["with pleasure", "I'm sorry", "I can't", "maybe"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "belki", "romanization": null, "options": { "en": ["maybe", "together", "with pleasure", "I'm sorry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "gelmek ister misin?", "romanization": null, "native": { "en": "do you want to come?" } },
+              { "target": "memnuniyetle", "romanization": null, "native": { "en": "with pleasure" } },
+              { "target": "üzgünüm", "romanization": null, "native": { "en": "I'm sorry" } },
+              { "target": "yapamam", "romanization": null, "native": { "en": "I can't" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Free Time Activities" },
+          "objectives": { "en": ["Talk about hobbies and leisure", "Describe what you do in free time"] },
+          "vocabulary": [
+            { "word": "boş zaman", "romanization": null, "meanings": { "en": "free time" }, "gendered": null },
+            { "word": "okumak", "romanization": null, "meanings": { "en": "to read" }, "gendered": null },
+            { "word": "izlemek", "romanization": null, "meanings": { "en": "to watch" }, "gendered": null },
+            { "word": "dinlemek", "romanization": null, "meanings": { "en": "to listen" }, "gendered": null },
+            { "word": "oynamak", "romanization": null, "meanings": { "en": "to play" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "boş zaman", "romanization": null, "options": { "en": ["free time", "to read", "to watch", "to play"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "okumak", "romanization": null, "options": { "en": ["to read", "to watch", "to listen", "to play"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to watch' in Turkish?" }, "options": { "neutral": ["izlemek", "okumak", "dinlemek", "oynamak"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to play' in Turkish?" }, "options": { "neutral": ["oynamak", "izlemek", "okumak", "dinlemek"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "dinlemek", "romanization": null, "options": { "en": ["to listen", "to read", "to watch", "to play"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "oynamak", "romanization": null, "options": { "en": ["to play", "to listen", "to read", "free time"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "okumak", "romanization": null, "native": { "en": "to read" } },
+              { "target": "izlemek", "romanization": null, "native": { "en": "to watch" } },
+              { "target": "dinlemek", "romanization": null, "native": { "en": "to listen" } },
+              { "target": "oynamak", "romanization": null, "native": { "en": "to play" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Weekend Plans" },
+          "objectives": { "en": ["Describe weekend activities", "Use past and future time references"] },
+          "vocabulary": [
+            { "word": "hafta sonu", "romanization": null, "meanings": { "en": "weekend" }, "gendered": null },
+            { "word": "dün", "romanization": null, "meanings": { "en": "yesterday" }, "gendered": null },
+            { "word": "seyahat etmek", "romanization": null, "meanings": { "en": "to travel" }, "gendered": null },
+            { "word": "ziyaret etmek", "romanization": null, "meanings": { "en": "to visit" }, "gendered": null },
+            { "word": "eğlenceli", "romanization": null, "meanings": { "en": "fun" }, "gendered": null },
+            { "word": "sıkıcı", "romanization": null, "meanings": { "en": "boring" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "hafta sonu", "romanization": null, "options": { "en": ["weekend", "yesterday", "tomorrow", "fun"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "seyahat etmek", "romanization": null, "options": { "en": ["to travel", "to visit", "fun", "boring"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'yesterday' in Turkish?" }, "options": { "neutral": ["dün", "yarın", "hafta sonu", "bugün"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'boring' in Turkish?" }, "options": { "neutral": ["sıkıcı", "eğlenceli", "seyahat etmek", "ziyaret etmek"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ziyaret etmek", "romanization": null, "options": { "en": ["to visit", "to travel", "fun", "weekend"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "eğlenceli", "romanization": null, "options": { "en": ["fun", "boring", "to travel", "to visit"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "hafta sonu", "romanization": null, "native": { "en": "weekend" } },
+              { "target": "dün", "romanization": null, "native": { "en": "yesterday" } },
+              { "target": "eğlenceli", "romanization": null, "native": { "en": "fun" } },
+              { "target": "sıkıcı", "romanization": null, "native": { "en": "boring" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Likes & Dislikes" },
+          "objectives": { "en": ["Express what you like and dislike", "Use 'sevmek' and 'beğenmek'"] },
+          "vocabulary": [
+            { "word": "seviyorum", "romanization": null, "meanings": { "en": "I like / I love" }, "gendered": null },
+            { "word": "sevmiyorum", "romanization": null, "meanings": { "en": "I don't like" }, "gendered": null },
+            { "word": "tercih etmek", "romanization": null, "meanings": { "en": "to prefer" }, "gendered": null },
+            { "word": "aşk", "romanization": null, "meanings": { "en": "love" }, "gendered": null },
+            { "word": "nefret etmek", "romanization": null, "meanings": { "en": "to hate" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "seviyorum", "romanization": null, "options": { "en": ["I like / I love", "I don't like", "to prefer", "love"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "nefret etmek", "romanization": null, "options": { "en": ["to hate", "to love", "I like", "to prefer"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to prefer' in Turkish?" }, "options": { "neutral": ["tercih etmek", "aşk", "nefret etmek", "seviyorum"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'love' in Turkish?" }, "options": { "neutral": ["aşk", "nefret etmek", "tercih etmek", "seviyorum"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "sevmiyorum", "romanization": null, "options": { "en": ["I don't like", "I like", "to hate", "to prefer"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "tercih etmek", "romanization": null, "options": { "en": ["to prefer", "to love", "to hate", "I like"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "seviyorum", "romanization": null, "native": { "en": "I like / I love" } },
+              { "target": "sevmiyorum", "romanization": null, "native": { "en": "I don't like" } },
+              { "target": "aşk", "romanization": null, "native": { "en": "love" } },
+              { "target": "nefret etmek", "romanization": null, "native": { "en": "to hate" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Emotions" },
+          "objectives": { "en": ["Describe how you feel", "Recognize emotion words"] },
+          "vocabulary": [
+            { "word": "mutlu", "romanization": null, "meanings": { "en": "happy" }, "gendered": null },
+            { "word": "üzgün", "romanization": null, "meanings": { "en": "sad" }, "gendered": null },
+            { "word": "kızgın", "romanization": null, "meanings": { "en": "angry" }, "gendered": null },
+            { "word": "endişeli", "romanization": null, "meanings": { "en": "worried" }, "gendered": null },
+            { "word": "memnun", "romanization": null, "meanings": { "en": "content / pleased" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mutlu", "romanization": null, "options": { "en": ["happy", "sad", "angry", "worried"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "kızgın", "romanization": null, "options": { "en": ["angry", "happy", "sad", "content"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sad' in Turkish?" }, "options": { "neutral": ["üzgün", "mutlu", "kızgın", "memnun"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'worried' in Turkish?" }, "options": { "neutral": ["endişeli", "kızgın", "üzgün", "mutlu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "memnun", "romanization": null, "options": { "en": ["content / pleased", "happy", "sad", "angry"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "üzgün", "romanization": null, "options": { "en": ["sad", "angry", "worried", "happy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "mutlu", "romanization": null, "native": { "en": "happy" } },
+              { "target": "üzgün", "romanization": null, "native": { "en": "sad" } },
+              { "target": "kızgın", "romanization": null, "native": { "en": "angry" } },
+              { "target": "endişeli", "romanization": null, "native": { "en": "worried" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Giving Opinions" },
+          "objectives": { "en": ["Share your opinion on topics", "Agree and disagree politely"] },
+          "vocabulary": [
+            { "word": "bence", "romanization": null, "meanings": { "en": "I think / in my opinion" }, "gendered": null },
+            { "word": "katılıyorum", "romanization": null, "meanings": { "en": "I agree" }, "gendered": null },
+            { "word": "katılmıyorum", "romanization": null, "meanings": { "en": "I disagree" }, "gendered": null },
+            { "word": "bana göre", "romanization": null, "meanings": { "en": "according to me" }, "gendered": null },
+            { "word": "haklısın", "romanization": null, "meanings": { "en": "you're right" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "bence", "romanization": null, "options": { "en": ["I think / in my opinion", "I agree", "I disagree", "according to me"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "katılıyorum", "romanization": null, "options": { "en": ["I agree", "I disagree", "you're right", "I think"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I disagree' in Turkish?" }, "options": { "neutral": ["katılmıyorum", "katılıyorum", "bence", "haklısın"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'according to me' in Turkish?" }, "options": { "neutral": ["bana göre", "bence", "katılıyorum", "haklısın"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "haklısın", "romanization": null, "options": { "en": ["you're right", "I agree", "I think", "according to me"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "bana göre", "romanization": null, "options": { "en": ["according to me", "I think", "I disagree", "you're right"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "bence", "romanization": null, "native": { "en": "I think / in my opinion" } },
+              { "target": "katılıyorum", "romanization": null, "native": { "en": "I agree" } },
+              { "target": "katılmıyorum", "romanization": null, "native": { "en": "I disagree" } },
+              { "target": "haklısın", "romanization": null, "native": { "en": "you're right" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Describing Experiences" },
+          "objectives": { "en": ["Describe past experiences", "Use adjectives to express opinions"] },
+          "vocabulary": [
+            { "word": "harika", "romanization": null, "meanings": { "en": "fantastic" }, "gendered": null },
+            { "word": "korkunç", "romanization": null, "meanings": { "en": "terrible" }, "gendered": null },
+            { "word": "ilginç", "romanization": null, "meanings": { "en": "interesting" }, "gendered": null },
+            { "word": "zor", "romanization": null, "meanings": { "en": "difficult" }, "gendered": null },
+            { "word": "kolay", "romanization": null, "meanings": { "en": "easy" }, "gendered": null },
+            { "word": "inanılmaz", "romanization": null, "meanings": { "en": "incredible" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "harika", "romanization": null, "options": { "en": ["fantastic", "terrible", "interesting", "difficult"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "zor", "romanization": null, "options": { "en": ["difficult", "easy", "interesting", "terrible"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'easy' in Turkish?" }, "options": { "neutral": ["kolay", "zor", "ilginç", "harika"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'terrible' in Turkish?" }, "options": { "neutral": ["korkunç", "harika", "inanılmaz", "ilginç"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ilginç", "romanization": null, "options": { "en": ["interesting", "fantastic", "difficult", "easy"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "inanılmaz", "romanization": null, "options": { "en": ["incredible", "interesting", "terrible", "fantastic"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "harika", "romanization": null, "native": { "en": "fantastic" } },
+              { "target": "korkunç", "romanization": null, "native": { "en": "terrible" } },
+              { "target": "zor", "romanization": null, "native": { "en": "difficult" } },
+              { "target": "kolay", "romanization": null, "native": { "en": "easy" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

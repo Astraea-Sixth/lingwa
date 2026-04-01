@@ -1,0 +1,792 @@
+{
+  "lang": "de",
+  "language": "de",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social & Culture",
+  "track_emoji": "🎭",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Greetings & Small Talk",
+        "zh": "问候和闲聊",
+        "th": "การทักทายและการพูดคุยเล็กน้อย",
+        "ko": "인사와 가벼운 대화",
+        "es": "Saludos y charla informal"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Formal and Informal Greetings",
+            "zh": "正式和非正式问候",
+            "th": "การทักทายแบบทางการและไม่ทางการ",
+            "ko": "격식체와 비격식체 인사",
+            "es": "Saludos formales e informales"
+          },
+          "objectives": {
+            "en": ["Use formal and informal German greetings correctly", "Understand the Sie/du distinction"],
+            "zh": ["正确使用德语正式和非正式问候", "理解Sie/du的区别"],
+            "th": ["ใช้การทักทายภาษาเยอรมันแบบทางการและไม่ทางการอย่างถูกต้อง", "เข้าใจความแตกต่างระหว่าง Sie/du"],
+            "ko": ["독일어 격식체/비격식체 인사 올바르게 사용하기", "Sie/du 구분 이해하기"],
+            "es": ["Usar correctamente los saludos formales e informales", "Entender la distinción Sie/du"]
+          },
+          "vocabulary": [
+            {
+              "word": "Guten Morgen",
+              "romanization": null,
+              "meanings": { "en": "Good morning", "zh": "早上好", "th": "อรุณสวัสดิ์", "ko": "좋은 아침", "es": "Buenos días" }
+            },
+            {
+              "word": "Guten Tag",
+              "romanization": null,
+              "meanings": { "en": "Good day / Hello (formal)", "zh": "您好（正式）", "th": "สวัสดีตอนกลางวัน (ทางการ)", "ko": "안녕하세요 (격식)", "es": "Buenos días / Buenas tardes (formal)" }
+            },
+            {
+              "word": "Wie geht es Ihnen?",
+              "romanization": null,
+              "meanings": { "en": "How are you? (formal)", "zh": "您好吗？（正式）", "th": "คุณเป็นอย่างไรบ้าง? (ทางการ)", "ko": "어떻게 지내세요? (격식)", "es": "¿Cómo está usted? (formal)" }
+            },
+            {
+              "word": "Wie geht's?",
+              "romanization": null,
+              "meanings": { "en": "How's it going? (informal)", "zh": "你好吗？（非正式）", "th": "เป็นยังไงบ้าง? (ไม่ทางการ)", "ko": "어떻게 지내? (비격식)", "es": "¿Qué tal? (informal)" }
+            },
+            {
+              "word": "Auf Wiedersehen",
+              "romanization": null,
+              "meanings": { "en": "Goodbye (formal)", "zh": "再见（正式）", "th": "ลาก่อน (ทางการ)", "ko": "안녕히 계세요 (격식)", "es": "Adiós (formal)" }
+            },
+            {
+              "word": "Tschüss",
+              "romanization": null,
+              "meanings": { "en": "Bye (informal)", "zh": "拜拜（非正式）", "th": "บาย (ไม่ทางการ)", "ko": "잘 가 (비격식)", "es": "Chao (informal)" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "Which greeting is formal and appropriate for meeting your boss?",
+              "options": ["Guten Tag.", "Tschüss.", "Wie geht's?", "Hallo!"],
+              "correct": 0,
+              "explanation": "'Guten Tag' is the formal daytime greeting in German. Use it with strangers, older people, and professionals."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Wie geht es Ihnen?",
+              "options": ["How are you? (formal)", "What is your name? (formal)", "Where are you from?", "How old are you?"],
+              "correct": 0,
+              "explanation": "'Wie geht es Ihnen?' uses the formal 'Ihnen' (you). The informal version is 'Wie geht es dir?' or 'Wie geht's?'"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Guten Morgen", "Good morning"],
+                ["Auf Wiedersehen", "Goodbye (formal)"],
+                ["Tschüss", "Bye (informal)"],
+                ["Wie geht's?", "How's it going?"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Guten Morgen! Wie geht es Ihnen heute?",
+              "options": ["Good morning! How are you today? (formal)", "Good evening! Nice to meet you.", "Hello! What is your name?", "Good morning! How old are you?"],
+              "correct": 0,
+              "explanation": "'Guten Morgen' = good morning, 'Wie geht es Ihnen' = how are you (formal), 'heute' = today."
+            },
+            {
+              "type": "reorder",
+              "words": ["Ihnen", "geht", "Wie", "es"],
+              "correct": ["Wie", "geht", "es", "Ihnen"],
+              "translation": "How are you? (formal)"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Introducing Yourself",
+            "zh": "自我介绍",
+            "th": "การแนะนำตัวเอง",
+            "ko": "자기소개",
+            "es": "Presentarse"
+          },
+          "objectives": {
+            "en": ["Introduce yourself with personal details", "Ask others about their background"],
+            "zh": ["用个人信息介绍自己", "询问他人的背景"],
+            "th": ["แนะนำตัวเองด้วยข้อมูลส่วนตัว", "ถามผู้อื่นเกี่ยวกับภูมิหลัง"],
+            "ko": ["개인 정보로 자기소개하기", "다른 사람의 배경 묻기"],
+            "es": ["Presentarse con datos personales", "Preguntar a otros sobre su origen"]
+          },
+          "vocabulary": [
+            {
+              "word": "vorstellen",
+              "romanization": null,
+              "meanings": { "en": "to introduce", "zh": "介绍", "th": "แนะนำ", "ko": "소개하다", "es": "presentar" }
+            },
+            {
+              "word": "kommen aus",
+              "romanization": null,
+              "meanings": { "en": "to come from", "zh": "来自", "th": "มาจาก", "ko": "~에서 왔다", "es": "ser de / venir de" }
+            },
+            {
+              "word": "wohnen in",
+              "romanization": null,
+              "meanings": { "en": "to live in", "zh": "住在", "th": "อาศัยอยู่ใน", "ko": "~에 살다", "es": "vivir en" }
+            },
+            {
+              "word": "der Beruf",
+              "romanization": null,
+              "meanings": { "en": "the profession/job", "zh": "职业", "th": "อาชีพ", "ko": "직업", "es": "la profesión" }
+            },
+            {
+              "word": "das Hobby",
+              "romanization": null,
+              "meanings": { "en": "the hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "el hobby/pasatiempo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I come from Japan'?",
+              "options": ["Ich komme aus Japan.", "Ich wohne in Japan.", "Ich bin Japaner.", "Ich lerne Japanisch."],
+              "correct": 0,
+              "explanation": "'Ich komme aus' + country = I come from. For Japan: 'Ich komme aus Japan'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "der Beruf",
+              "options": ["profession/job", "hobby", "name", "age"],
+              "correct": 0,
+              "explanation": "'Der Beruf' = profession or job. 'Was ist Ihr Beruf?' = What is your profession?"
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich heiße Anna und komme aus Berlin. Ich bin Ärztin.",
+              "options": ["My name is Anna, I'm from Berlin. I'm a doctor.", "My name is Anna, I live in Munich. I'm a teacher.", "I'm Anna, I'm from Austria. I'm a nurse.", "Anna is from Berlin and she's a student."],
+              "correct": 0,
+              "explanation": "'Ich heiße' = my name is, 'komme aus' = come from, 'Ärztin' = female doctor."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["vorstellen", "to introduce"],
+                ["kommen aus", "to come from"],
+                ["wohnen in", "to live in"],
+                ["das Hobby", "hobby"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["bin", "heiße", "und", "Ich", "Max", "Lehrer", "ich"],
+              "correct": ["Ich", "heiße", "Max", "und", "ich", "bin", "Lehrer"],
+              "translation": "My name is Max and I am a teacher."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Making Friends",
+            "zh": "交朋友",
+            "th": "การสร้างมิตรภาพ",
+            "ko": "친구 사귀기",
+            "es": "Hacer amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to meet up or socialize", "Express interest and start a friendship"],
+            "zh": ["邀请别人见面或社交", "表达兴趣并开始友谊"],
+            "th": ["เชิญคนอื่นพบปะหรือเข้าสังคม", "แสดงความสนใจและเริ่มต้นมิตรภาพ"],
+            "ko": ["만남이나 사교 초대하기", "관심 표현하고 우정 시작하기"],
+            "es": ["Invitar a alguien a quedar o socializar", "Expresar interés e iniciar una amistad"]
+          },
+          "vocabulary": [
+            {
+              "word": "einladen",
+              "romanization": null,
+              "meanings": { "en": "to invite", "zh": "邀请", "th": "เชิญ", "ko": "초대하다", "es": "invitar" }
+            },
+            {
+              "word": "Hast du Lust?",
+              "romanization": null,
+              "meanings": { "en": "Are you up for it? / Do you feel like it?", "zh": "你有兴趣吗？", "th": "คุณอยากไปไหม?", "ko": "하고 싶어?", "es": "¿Te apetece?" }
+            },
+            {
+              "word": "treffen",
+              "romanization": null,
+              "meanings": { "en": "to meet", "zh": "见面", "th": "พบ", "ko": "만나다", "es": "quedar/encontrarse" }
+            },
+            {
+              "word": "gemeinsam",
+              "romanization": null,
+              "meanings": { "en": "together/shared", "zh": "一起/共同", "th": "ร่วมกัน", "ko": "함께", "es": "juntos/en común" }
+            },
+            {
+              "word": "der Freund / die Freundin",
+              "romanization": null,
+              "meanings": { "en": "the friend (male/female)", "zh": "朋友（男/女）", "th": "เพื่อน (ชาย/หญิง)", "ko": "친구 (남/여)", "es": "el amigo / la amiga" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Do you want to meet for coffee?'",
+              "options": ["Hast du Lust, Kaffee trinken zu gehen?", "Kommst du aus Deutschland?", "Was machst du am Wochenende?", "Ich trinke gerne Kaffee."],
+              "correct": 0,
+              "explanation": "'Hast du Lust' = do you feel like it, 'Kaffee trinken zu gehen' = to go drink coffee."
+            },
+            {
+              "type": "target_to_native",
+              "word": "einladen",
+              "options": ["to invite", "to meet", "to call", "to visit"],
+              "correct": 0,
+              "explanation": "'Einladen' means to invite someone. 'Ich lade dich ein' = I invite you."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["einladen", "to invite"],
+                ["treffen", "to meet"],
+                ["gemeinsam", "together"],
+                ["Hast du Lust?", "Are you up for it?"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Wollen wir uns morgen treffen?",
+              "options": ["Shall we meet tomorrow?", "Are you free this weekend?", "Can I call you later?", "Where do you live?"],
+              "correct": 0,
+              "explanation": "'Wollen wir' = shall we, 'uns treffen' = meet each other, 'morgen' = tomorrow."
+            },
+            {
+              "type": "reorder",
+              "words": ["morgen", "wir", "treffen", "Wollen", "uns"],
+              "correct": ["Wollen", "wir", "uns", "morgen", "treffen"],
+              "translation": "Shall we meet tomorrow?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "German Culture & Etiquette",
+        "zh": "德国文化和礼仪",
+        "th": "วัฒนธรรมและมารยาทเยอรมัน",
+        "ko": "독일 문화와 예절",
+        "es": "Cultura y etiqueta alemana"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Social Etiquette",
+            "zh": "社交礼仪",
+            "th": "มารยาทสังคม",
+            "ko": "사회적 예절",
+            "es": "Etiqueta social"
+          },
+          "objectives": {
+            "en": ["Understand German social customs and norms", "Use polite expressions in social situations"],
+            "zh": ["了解德国社交习俗和规范", "在社交场合使用礼貌表达"],
+            "th": ["เข้าใจขนบธรรมเนียมและบรรทัดฐานสังคมเยอรมัน", "ใช้การแสดงออกที่สุภาพในสถานการณ์ทางสังคม"],
+            "ko": ["독일의 사회적 관습과 규범 이해하기", "사교 상황에서 공손한 표현 사용하기"],
+            "es": ["Entender las costumbres sociales alemanas", "Usar expresiones corteses en situaciones sociales"]
+          },
+          "vocabulary": [
+            {
+              "word": "pünktlich",
+              "romanization": null,
+              "meanings": { "en": "punctual/on time", "zh": "准时", "th": "ตรงเวลา", "ko": "시간을 잘 지키는", "es": "puntual" }
+            },
+            {
+              "word": "Entschuldigung",
+              "romanization": null,
+              "meanings": { "en": "Excuse me / Sorry", "zh": "对不起/打扰一下", "th": "ขอโทษ/ขอโทษที่รบกวน", "ko": "실례합니다/죄송합니다", "es": "Disculpe / Perdón" }
+            },
+            {
+              "word": "danke schön",
+              "romanization": null,
+              "meanings": { "en": "thank you very much", "zh": "非常感谢", "th": "ขอบคุณมาก", "ko": "정말 감사합니다", "es": "muchas gracias" }
+            },
+            {
+              "word": "bitte sehr",
+              "romanization": null,
+              "meanings": { "en": "you're welcome / here you go", "zh": "不客气/给您", "th": "ไม่เป็นไร/นี่ค่ะ", "ko": "천만에요/여기 있어요", "es": "de nada / aquí tiene" }
+            },
+            {
+              "word": "Verzeihung",
+              "romanization": null,
+              "meanings": { "en": "Pardon / Forgive me", "zh": "请原谅/对不起", "th": "ขอโทษด้วย", "ko": "실례합니다/용서해 주세요", "es": "Perdone" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "Germans value punctuality. How do you say 'I am on time'?",
+              "options": ["Ich bin pünktlich.", "Ich bin zu spät.", "Ich komme bald.", "Ich bin früh."],
+              "correct": 0,
+              "explanation": "'Pünktlich' = punctual/on time. Germans consider being on time very important culturally."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Entschuldigung",
+              "options": ["Excuse me / Sorry", "Thank you", "You're welcome", "Please"],
+              "correct": 0,
+              "explanation": "'Entschuldigung' is used to apologize or to get someone's attention."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["pünktlich", "punctual"],
+                ["danke schön", "thank you very much"],
+                ["bitte sehr", "you're welcome"],
+                ["Entschuldigung", "excuse me"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Entschuldigung, darf ich hier sitzen?",
+              "options": ["Excuse me, may I sit here?", "Sorry, I don't understand.", "Pardon me, is this seat taken?", "Excuse me, can you help me?"],
+              "correct": 0,
+              "explanation": "'Entschuldigung' = excuse me, 'darf ich' = may I, 'hier sitzen' = sit here."
+            },
+            {
+              "type": "reorder",
+              "words": ["sehr", "für", "danke", "Ihre", "Hilfe"],
+              "correct": ["danke", "sehr", "für", "Ihre", "Hilfe"],
+              "translation": "Thank you very much for your help."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "German Festivals",
+            "zh": "德国节日",
+            "th": "เทศกาลของเยอรมนี",
+            "ko": "독일 축제",
+            "es": "Festividades alemanas"
+          },
+          "objectives": {
+            "en": ["Describe German cultural festivals", "Talk about celebrations and traditions"],
+            "zh": ["描述德国文化节日", "谈论庆典和传统"],
+            "th": ["อธิบายเทศกาลวัฒนธรรมเยอรมัน", "พูดคุยเรื่องการเฉลิมฉลองและประเพณี"],
+            "ko": ["독일 문화 축제 설명하기", "축하 행사와 전통에 대해 이야기하기"],
+            "es": ["Describir festividades culturales alemanas", "Hablar de celebraciones y tradiciones"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Oktoberfest",
+              "romanization": null,
+              "meanings": { "en": "Oktoberfest (beer festival in Munich)", "zh": "慕尼黑啤酒节", "th": "เทศกาลเบียร์มิวนิก", "ko": "옥토버페스트", "es": "el Oktoberfest" }
+            },
+            {
+              "word": "Weihnachten",
+              "romanization": null,
+              "meanings": { "en": "Christmas", "zh": "圣诞节", "th": "คริสต์มาส", "ko": "크리스마스", "es": "la Navidad" }
+            },
+            {
+              "word": "der Karneval",
+              "romanization": null,
+              "meanings": { "en": "Carnival/Mardi Gras", "zh": "嘉年华/狂欢节", "th": "คาร์นิวัล", "ko": "카니발", "es": "el Carnaval" }
+            },
+            {
+              "word": "feiern",
+              "romanization": null,
+              "meanings": { "en": "to celebrate", "zh": "庆祝", "th": "เฉลิมฉลอง", "ko": "축하하다", "es": "celebrar" }
+            },
+            {
+              "word": "die Tradition",
+              "romanization": null,
+              "meanings": { "en": "the tradition", "zh": "传统", "th": "ประเพณี", "ko": "전통", "es": "la tradición" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone a Merry Christmas in German?",
+              "options": ["Frohe Weihnachten!", "Alles Gute!", "Prost!", "Herzlichen Glückwunsch!"],
+              "correct": 0,
+              "explanation": "'Frohe Weihnachten!' = Merry Christmas! 'Frohe' = joyful/merry, 'Weihnachten' = Christmas."
+            },
+            {
+              "type": "target_to_native",
+              "word": "feiern",
+              "options": ["to celebrate", "to drink", "to sing", "to dance"],
+              "correct": 0,
+              "explanation": "'Feiern' means to celebrate. 'Wir feiern Weihnachten' = We celebrate Christmas."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["das Oktoberfest", "beer festival in Munich"],
+                ["Weihnachten", "Christmas"],
+                ["der Karneval", "Carnival"],
+                ["feiern", "to celebrate"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Das Oktoberfest ist ein sehr bekanntes Festival in München.",
+              "options": ["Oktoberfest is a very well-known festival in Munich.", "German Christmas markets are very popular.", "Karneval is celebrated all over Germany.", "The festival begins in September."],
+              "correct": 0,
+              "explanation": "'Sehr bekannt' = very well-known/famous, 'Festival' = festival, 'in München' = in Munich."
+            },
+            {
+              "type": "reorder",
+              "words": ["feiern", "wir", "Weihnachten", "Familie", "der", "mit"],
+              "correct": ["wir", "feiern", "Weihnachten", "mit", "der", "Familie"],
+              "translation": "We celebrate Christmas with the family."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Talking About the Weather",
+            "zh": "谈论天气",
+            "th": "การพูดคุยเรื่องอากาศ",
+            "ko": "날씨 이야기하기",
+            "es": "Hablar del tiempo"
+          },
+          "objectives": {
+            "en": ["Describe weather conditions in German", "Make small talk about the weather"],
+            "zh": ["用德语描述天气情况", "闲聊天气"],
+            "th": ["อธิบายสภาพอากาศเป็นภาษาเยอรมัน", "พูดคุยเรื่องอากาศ"],
+            "ko": ["독일어로 날씨 상황 설명하기", "날씨에 대해 가벼운 대화하기"],
+            "es": ["Describir condiciones meteorológicas en alemán", "Hacer charla informal sobre el tiempo"]
+          },
+          "vocabulary": [
+            {
+              "word": "das Wetter",
+              "romanization": null,
+              "meanings": { "en": "the weather", "zh": "天气", "th": "สภาพอากาศ", "ko": "날씨", "es": "el tiempo (meteorológico)" }
+            },
+            {
+              "word": "sonnig",
+              "romanization": null,
+              "meanings": { "en": "sunny", "zh": "晴天", "th": "แดดออก", "ko": "맑은", "es": "soleado" }
+            },
+            {
+              "word": "regnerisch",
+              "romanization": null,
+              "meanings": { "en": "rainy", "zh": "多雨", "th": "ฝนตก", "ko": "비가 오는", "es": "lluvioso" }
+            },
+            {
+              "word": "kalt",
+              "romanization": null,
+              "meanings": { "en": "cold", "zh": "冷", "th": "เย็น", "ko": "추운", "es": "frío" }
+            },
+            {
+              "word": "warm",
+              "romanization": null,
+              "meanings": { "en": "warm", "zh": "温暖", "th": "อบอุ่น", "ko": "따뜻한", "es": "cálido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'The weather is nice today'?",
+              "options": ["Das Wetter ist heute schön.", "Es regnet heute.", "Heute ist es kalt.", "Das Wetter ist schlecht."],
+              "correct": 0,
+              "explanation": "'Das Wetter ist schön' = the weather is nice. 'Heute' = today."
+            },
+            {
+              "type": "target_to_native",
+              "word": "regnerisch",
+              "options": ["rainy", "cloudy", "windy", "snowy"],
+              "correct": 0,
+              "explanation": "'Regnerisch' = rainy. It comes from 'Regen' (rain)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sonnig", "sunny"],
+                ["kalt", "cold"],
+                ["warm", "warm"],
+                ["regnerisch", "rainy"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Heute ist es sehr warm und sonnig.",
+              "options": ["Today it is very warm and sunny.", "Today it is cold and rainy.", "The weather will be cloudy tomorrow.", "It will snow this weekend."],
+              "correct": 0,
+              "explanation": "'Heute' = today, 'sehr warm' = very warm, 'sonnig' = sunny."
+            },
+            {
+              "type": "reorder",
+              "words": ["Wetter", "heute", "Das", "ist", "schön"],
+              "correct": ["Das", "Wetter", "ist", "heute", "schön"],
+              "translation": "The weather is nice today."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Community & Belonging",
+        "zh": "社区和归属感",
+        "th": "ชุมชนและความเป็นส่วนหนึ่ง",
+        "ko": "커뮤니티와 소속감",
+        "es": "Comunidad y pertenencia"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Talking About Family",
+            "zh": "谈论家庭",
+            "th": "การพูดคุยเรื่องครอบครัว",
+            "ko": "가족 이야기하기",
+            "es": "Hablar de la familia"
+          },
+          "objectives": {
+            "en": ["Describe family members and relationships", "Talk about family activities and traditions"],
+            "zh": ["描述家庭成员和关系", "谈论家庭活动和传统"],
+            "th": ["อธิบายสมาชิกและความสัมพันธ์ในครอบครัว", "พูดถึงกิจกรรมและประเพณีของครอบครัว"],
+            "ko": ["가족 구성원과 관계 설명하기", "가족 활동과 전통에 대해 이야기하기"],
+            "es": ["Describir miembros de la familia y relaciones", "Hablar de actividades y tradiciones familiares"]
+          },
+          "vocabulary": [
+            {
+              "word": "die Familie",
+              "romanization": null,
+              "meanings": { "en": "the family", "zh": "家庭", "th": "ครอบครัว", "ko": "가족", "es": "la familia" }
+            },
+            {
+              "word": "die Geschwister",
+              "romanization": null,
+              "meanings": { "en": "the siblings", "zh": "兄弟姐妹", "th": "พี่น้อง", "ko": "형제자매", "es": "los hermanos" }
+            },
+            {
+              "word": "die Großeltern",
+              "romanization": null,
+              "meanings": { "en": "the grandparents", "zh": "祖父母", "th": "ปู่ย่าตายาย", "ko": "조부모", "es": "los abuelos" }
+            },
+            {
+              "word": "verheiratet",
+              "romanization": null,
+              "meanings": { "en": "married", "zh": "已婚", "th": "แต่งงานแล้ว", "ko": "결혼한", "es": "casado" }
+            },
+            {
+              "word": "ledig",
+              "romanization": null,
+              "meanings": { "en": "single (unmarried)", "zh": "单身", "th": "โสด", "ko": "미혼", "es": "soltero" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have two siblings'?",
+              "options": ["Ich habe zwei Geschwister.", "Ich habe zwei Kinder.", "Ich habe zwei Eltern.", "Meine Familie ist groß."],
+              "correct": 0,
+              "explanation": "'Geschwister' = siblings (brothers and sisters combined). 'Zwei Geschwister' = two siblings."
+            },
+            {
+              "type": "target_to_native",
+              "word": "verheiratet",
+              "options": ["married", "single", "divorced", "engaged"],
+              "correct": 0,
+              "explanation": "'Verheiratet' = married. 'Ich bin verheiratet' = I am married."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["die Familie", "family"],
+                ["die Geschwister", "siblings"],
+                ["die Großeltern", "grandparents"],
+                ["ledig", "single/unmarried"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Meine Familie ist sehr groß. Ich habe drei Geschwister und vier Großeltern.",
+              "options": ["My family is very big. I have three siblings and four grandparents.", "My family is small. I am an only child.", "I have one brother and one sister.", "My grandparents live far away."],
+              "correct": 0,
+              "explanation": "'Sehr groß' = very big, 'drei Geschwister' = three siblings, 'vier Großeltern' = four grandparents."
+            },
+            {
+              "type": "reorder",
+              "words": ["Geschwister", "zwei", "habe", "und", "Ich", "verheiratet", "bin"],
+              "correct": ["Ich", "habe", "zwei", "Geschwister", "und", "bin", "verheiratet"],
+              "translation": "I have two siblings and am married."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Hobbies and Free Time",
+            "zh": "爱好和空闲时间",
+            "th": "งานอดิเรกและเวลาว่าง",
+            "ko": "취미와 여가 시간",
+            "es": "Aficiones y tiempo libre"
+          },
+          "objectives": {
+            "en": ["Discuss hobbies and leisure activities", "Invite friends to join an activity"],
+            "zh": ["讨论爱好和休闲活动", "邀请朋友参加活动"],
+            "th": ["พูดคุยเรื่องงานอดิเรกและกิจกรรมยามว่าง", "เชิญเพื่อนร่วมกิจกรรม"],
+            "ko": ["취미와 여가 활동 이야기하기", "친구를 활동에 초대하기"],
+            "es": ["Hablar de aficiones y actividades de ocio", "Invitar a amigos a una actividad"]
+          },
+          "vocabulary": [
+            {
+              "word": "Sport treiben",
+              "romanization": null,
+              "meanings": { "en": "to do sports", "zh": "做运动", "th": "เล่นกีฬา", "ko": "운동하다", "es": "hacer deporte" }
+            },
+            {
+              "word": "lesen",
+              "romanization": null,
+              "meanings": { "en": "to read", "zh": "阅读", "th": "อ่านหนังสือ", "ko": "읽다", "es": "leer" }
+            },
+            {
+              "word": "kochen",
+              "romanization": null,
+              "meanings": { "en": "to cook", "zh": "做饭", "th": "ทำอาหาร", "ko": "요리하다", "es": "cocinar" }
+            },
+            {
+              "word": "reisen",
+              "romanization": null,
+              "meanings": { "en": "to travel", "zh": "旅行", "th": "เดินทาง", "ko": "여행하다", "es": "viajar" }
+            },
+            {
+              "word": "in meiner Freizeit",
+              "romanization": null,
+              "meanings": { "en": "in my free time", "zh": "在我的空闲时间", "th": "ในเวลาว่างของฉัน", "ko": "내 여가 시간에", "es": "en mi tiempo libre" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'In my free time I like to read'?",
+              "options": ["In meiner Freizeit lese ich gerne.", "Ich habe keine Zeit zum Lesen.", "Ich treibe gerne Sport.", "Mein Hobby ist Kochen."],
+              "correct": 0,
+              "explanation": "'In meiner Freizeit' = in my free time, 'lese ich gerne' = I like to read."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Sport treiben",
+              "options": ["to do sports", "to watch sports", "to play music", "to go running"],
+              "correct": 0,
+              "explanation": "'Sport treiben' is the standard German phrase for doing/playing sports in general."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["lesen", "to read"],
+                ["reisen", "to travel"],
+                ["kochen", "to cook"],
+                ["Sport treiben", "to do sports"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "In meiner Freizeit reise ich gerne und lese viele Bücher.",
+              "options": ["In my free time I like to travel and read many books.", "My hobby is cooking and doing sports.", "I spend my free time with my family.", "I don't have much free time."],
+              "correct": 0,
+              "explanation": "'Reisen' = to travel, 'gerne' = like to, 'viele Bücher' = many books."
+            },
+            {
+              "type": "reorder",
+              "words": ["gerne", "Freizeit", "ich", "Sport", "In", "treibe", "meiner"],
+              "correct": ["In", "meiner", "Freizeit", "treibe", "ich", "gerne", "Sport"],
+              "translation": "In my free time I like to do sports."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Opinions and Preferences",
+            "zh": "意见和偏好",
+            "th": "ความคิดเห็นและความชอบ",
+            "ko": "의견과 선호도",
+            "es": "Opiniones y preferencias"
+          },
+          "objectives": {
+            "en": ["Express and ask for opinions politely", "Agree, disagree and make suggestions"],
+            "zh": ["礼貌地表达和询问意见", "同意、不同意并提出建议"],
+            "th": ["แสดงและถามความคิดเห็นอย่างสุภาพ", "เห็นด้วย ไม่เห็นด้วย และเสนอแนะ"],
+            "ko": ["정중하게 의견 표현하고 묻기", "동의, 반대, 제안하기"],
+            "es": ["Expresar y pedir opiniones con cortesía", "Estar de acuerdo, no estar de acuerdo y hacer sugerencias"]
+          },
+          "vocabulary": [
+            {
+              "word": "Ich finde...",
+              "romanization": null,
+              "meanings": { "en": "I think / I find...", "zh": "我觉得...", "th": "ฉันคิดว่า...", "ko": "저는 ...라고 생각해요", "es": "Creo que... / Me parece..." }
+            },
+            {
+              "word": "Das stimmt.",
+              "romanization": null,
+              "meanings": { "en": "That's right / I agree.", "zh": "那是对的。", "th": "นั่นถูกต้อง", "ko": "맞아요.", "es": "Es correcto. / Estoy de acuerdo." }
+            },
+            {
+              "word": "Das stimmt nicht.",
+              "romanization": null,
+              "meanings": { "en": "That's not right / I disagree.", "zh": "那不对。", "th": "นั่นไม่ถูกต้อง", "ko": "그건 아니에요.", "es": "Eso no es correcto." }
+            },
+            {
+              "word": "meiner Meinung nach",
+              "romanization": null,
+              "meanings": { "en": "in my opinion", "zh": "依我看", "th": "ในความเห็นของฉัน", "ko": "제 생각에는", "es": "en mi opinión" }
+            },
+            {
+              "word": "einverstanden",
+              "romanization": null,
+              "meanings": { "en": "agreed/in agreement", "zh": "同意", "th": "ตกลง/เห็นด้วย", "ko": "동의하는", "es": "de acuerdo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'In my opinion, that is a good idea'?",
+              "options": ["Meiner Meinung nach ist das eine gute Idee.", "Ich finde das nicht gut.", "Das stimmt nicht.", "Ich bin dagegen."],
+              "correct": 0,
+              "explanation": "'Meiner Meinung nach' = in my opinion, 'eine gute Idee' = a good idea."
+            },
+            {
+              "type": "target_to_native",
+              "word": "einverstanden",
+              "options": ["agreed/in agreement", "confused", "upset", "surprised"],
+              "correct": 0,
+              "explanation": "'Einverstanden' = agreed. Often used to confirm agreement: 'Okay, einverstanden!'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["Das stimmt.", "That's right."],
+                ["Das stimmt nicht.", "That's not right."],
+                ["meiner Meinung nach", "in my opinion"],
+                ["einverstanden", "agreed"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ich finde diesen Film sehr interessant. Was denkst du?",
+              "options": ["I find this film very interesting. What do you think?", "I think the food is very good. Do you agree?", "This book is boring in my opinion.", "What is your favorite movie?"],
+              "correct": 0,
+              "explanation": "'Ich finde' = I find/think, 'sehr interessant' = very interesting, 'Was denkst du?' = what do you think?"
+            },
+            {
+              "type": "reorder",
+              "words": ["Meinung", "nach", "ist", "meiner", "richtig", "das"],
+              "correct": ["meiner", "Meinung", "nach", "ist", "das", "richtig"],
+              "translation": "In my opinion, that is correct."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

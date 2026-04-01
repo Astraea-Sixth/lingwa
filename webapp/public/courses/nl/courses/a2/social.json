@@ -1,0 +1,832 @@
+{
+  "lang": "nl",
+  "language": "nl",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Making Plans",
+        "zh": "制定计划",
+        "th": "การวางแผน",
+        "ko": "계획 세우기",
+        "es": "Hacer planes"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Inviting Friends",
+            "zh": "邀请朋友",
+            "th": "การเชิญเพื่อน",
+            "ko": "친구 초대하기",
+            "es": "Invitar a amigos"
+          },
+          "objectives": {
+            "en": ["Invite someone to a social event in Dutch", "Accept or decline an invitation politely"],
+            "zh": ["用荷兰语邀请他人参加社交活动", "礼貌地接受或拒绝邀请"],
+            "th": ["เชิญคนอื่นมาร่วมกิจกรรมทางสังคมเป็นภาษาดัตช์", "ตอบรับหรือปฏิเสธคำเชิญอย่างสุภาพ"],
+            "ko": ["네덜란드어로 사교 행사에 초대하기", "초대를 정중히 수락하거나 거절하기"],
+            "es": ["Invitar a alguien a un evento social en neerlandés", "Aceptar o rechazar una invitación educadamente"]
+          },
+          "vocabulary": [
+            {
+              "word": "uitnodiging",
+              "romanization": null,
+              "meanings": { "en": "invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "invitación" },
+              "gendered": "de"
+            },
+            {
+              "word": "uitnodigen",
+              "romanization": null,
+              "meanings": { "en": "to invite", "zh": "邀请", "th": "เชิญ", "ko": "초대하다", "es": "invitar" },
+              "gendered": null
+            },
+            {
+              "word": "afspreken",
+              "romanization": null,
+              "meanings": { "en": "to make an appointment / arrange to meet", "zh": "约定/安排见面", "th": "นัดหมาย", "ko": "약속하다", "es": "quedar / acordar" },
+              "gendered": null
+            },
+            {
+              "word": "accepteren",
+              "romanization": null,
+              "meanings": { "en": "to accept", "zh": "接受", "th": "ตอบรับ", "ko": "수락하다", "es": "aceptar" },
+              "gendered": null
+            },
+            {
+              "word": "helaas",
+              "romanization": null,
+              "meanings": { "en": "unfortunately", "zh": "遗憾地", "th": "น่าเสียดาย", "ko": "안타깝게도", "es": "lamentablemente / por desgracia" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Would you like to come to my party?'",
+              "options": ["Wil je naar mijn feestje komen?", "Kom je morgen naar mijn huis?", "Heb je een uitnodiging?", "Waar is het feest?"],
+              "correct": 0,
+              "explanation": "'Wil je naar mijn feestje komen?' = Would you like to come to my party? 'Feestje' = small party/get-together."
+            },
+            {
+              "type": "target_to_native",
+              "word": "afspreken",
+              "options": ["to make an appointment / arrange to meet", "to invite", "to cancel", "to accept"],
+              "correct": 0,
+              "explanation": "'Afspreken' means to make an appointment or arrange to meet — very common in Dutch social life."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Helaas kan ik niet komen, ik heb al andere plannen.",
+              "options": ["Unfortunately I can't come, I already have other plans.", "I would love to come to your party.", "Can we make an appointment for next week?", "I accepted the invitation yesterday."],
+              "correct": 0,
+              "explanation": "'Helaas' = unfortunately, 'ik heb al andere plannen' = I already have other plans."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["uitnodiging", "invitation"],
+                ["uitnodigen", "to invite"],
+                ["afspreken", "to arrange to meet"],
+                ["helaas", "unfortunately"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["komen", "naar", "feestje", "mijn", "wil", "je"],
+              "correct": ["Wil", "je", "naar", "mijn", "feestje", "komen"],
+              "translation": "Would you like to come to my party?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Talking About the Weekend",
+            "zh": "谈论周末",
+            "th": "การพูดคุยเกี่ยวกับวันหยุดสุดสัปดาห์",
+            "ko": "주말에 대해 이야기하기",
+            "es": "Hablar del fin de semana"
+          },
+          "objectives": {
+            "en": ["Describe weekend plans and activities in Dutch", "Ask what someone did over the weekend"],
+            "zh": ["用荷兰语描述周末计划和活动", "询问别人周末做了什么"],
+            "th": ["อธิบายแผนและกิจกรรมช่วงสุดสัปดาห์เป็นภาษาดัตช์", "ถามว่าใครทำอะไรในวันหยุดสุดสัปดาห์"],
+            "ko": ["네덜란드어로 주말 계획과 활동 설명하기", "누군가가 주말에 무엇을 했는지 묻기"],
+            "es": ["Describir planes y actividades del fin de semana en neerlandés", "Preguntar qué hizo alguien el fin de semana"]
+          },
+          "vocabulary": [
+            {
+              "word": "weekend",
+              "romanization": null,
+              "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" },
+              "gendered": "het"
+            },
+            {
+              "word": "vrije tijd",
+              "romanization": null,
+              "meanings": { "en": "free time / leisure time", "zh": "空闲时间", "th": "เวลาว่าง", "ko": "여가 시간", "es": "tiempo libre" },
+              "gendered": "de"
+            },
+            {
+              "word": "uitgaan",
+              "romanization": null,
+              "meanings": { "en": "to go out", "zh": "外出", "th": "ออกไปเที่ยว", "ko": "외출하다", "es": "salir" },
+              "gendered": null
+            },
+            {
+              "word": "thuisblijven",
+              "romanization": null,
+              "meanings": { "en": "to stay home", "zh": "待在家", "th": "อยู่บ้าน", "ko": "집에 있다", "es": "quedarse en casa" },
+              "gendered": null
+            },
+            {
+              "word": "gezellig",
+              "romanization": null,
+              "meanings": { "en": "cosy / convivial / fun (uniquely Dutch concept)", "zh": "温馨/愉快", "th": "อบอุ่นและสนุกสนาน", "ko": "아늑하고 즐거운", "es": "acogedor / agradable" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'What did you do this weekend?'",
+              "options": ["Wat heb je dit weekend gedaan?", "Wat ga je dit weekend doen?", "Ben je uitgegaan dit weekend?", "Was het weekend gezellig?"],
+              "correct": 0,
+              "explanation": "'Wat heb je dit weekend gedaan?' = What did you do this weekend? This uses the perfect tense with 'heb...gedaan'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "gezellig",
+              "options": ["cosy / convivial / fun", "boring", "tiring", "busy"],
+              "correct": 0,
+              "explanation": "'Gezellig' is a key Dutch cultural word meaning cosy, convivial, or fun — it describes pleasant togetherness."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Dit weekend ga ik met vrienden uitgaan.",
+              "options": ["This weekend I am going out with friends.", "This weekend I am staying home.", "I went out last weekend.", "My friends are coming to visit me."],
+              "correct": 0,
+              "explanation": "'Ga ik...uitgaan' = I am going to go out (separable verb). 'Met vrienden' = with friends."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["weekend", "weekend"],
+                ["vrije tijd", "free time"],
+                ["uitgaan", "to go out"],
+                ["thuisblijven", "to stay home"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["vrienden", "met", "ga", "uitgaan", "ik"],
+              "correct": ["Ik", "ga", "met", "vrienden", "uitgaan"],
+              "translation": "I am going out with friends."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "At a Party",
+            "zh": "在派对上",
+            "th": "ในงานปาร์ตี้",
+            "ko": "파티에서",
+            "es": "En una fiesta"
+          },
+          "objectives": {
+            "en": ["Make small talk at a social gathering in Dutch", "Introduce yourself and start a conversation"],
+            "zh": ["在社交聚会上用荷兰语进行闲聊", "介绍自己并开始对话"],
+            "th": ["พูดคุยเล็กๆ น้อยๆ ในงานสังสรรค์เป็นภาษาดัตช์", "แนะนำตัวเองและเริ่มบทสนทนา"],
+            "ko": ["네덜란드어로 사교 모임에서 가벼운 대화하기", "자기소개하고 대화 시작하기"],
+            "es": ["Hacer pequeña charla en una reunión social en neerlandés", "Presentarse e iniciar una conversación"]
+          },
+          "vocabulary": [
+            {
+              "word": "feest",
+              "romanization": null,
+              "meanings": { "en": "party / celebration", "zh": "派对/庆典", "th": "งานปาร์ตี้", "ko": "파티/축하", "es": "fiesta / celebración" },
+              "gendered": "het"
+            },
+            {
+              "word": "kennis maken met",
+              "romanization": null,
+              "meanings": { "en": "to get acquainted with / to meet", "zh": "结识/认识", "th": "ทำความรู้จักกับ", "ko": "알게 되다", "es": "conocer a / presentarse a" },
+              "gendered": null
+            },
+            {
+              "word": "praten",
+              "romanization": null,
+              "meanings": { "en": "to talk / chat", "zh": "聊天/交谈", "th": "พูดคุย", "ko": "이야기하다", "es": "hablar / charlar" },
+              "gendered": null
+            },
+            {
+              "word": "interesse",
+              "romanization": null,
+              "meanings": { "en": "interest", "zh": "兴趣", "th": "ความสนใจ", "ko": "관심사", "es": "interés" },
+              "gendered": "de"
+            },
+            {
+              "word": "leuk",
+              "romanization": null,
+              "meanings": { "en": "nice / fun / cool", "zh": "好玩/很棒", "th": "สนุก/ดี", "ko": "재미있는/좋은", "es": "agradable / divertido" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Nice to meet you'?",
+              "options": ["Leuk je te ontmoeten.", "Leuk dat je er bent.", "Fijn om je te spreken.", "Aangenaam kennis te maken."],
+              "correct": 3,
+              "explanation": "'Aangenaam kennis te maken' is the formal phrase for 'nice to meet you'. 'Leuk je te ontmoeten' is more informal."
+            },
+            {
+              "type": "target_to_native",
+              "word": "praten",
+              "options": ["to talk / chat", "to listen", "to sing", "to dance"],
+              "correct": 0,
+              "explanation": "'Praten' means to talk or chat — the everyday verb for conversation in Dutch."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Het is een leuk feest, nietwaar?",
+              "options": ["It's a fun party, isn't it?", "Where is the party tonight?", "I like parties very much.", "What time does the party start?"],
+              "correct": 0,
+              "explanation": "'Nietwaar?' = isn't it? / right? — used to seek agreement, like 'n'est-ce pas' in French."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["feest", "party"],
+                ["praten", "to talk"],
+                ["interesse", "interest"],
+                ["leuk", "nice / fun"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["feest", "een", "het", "leuk", "is"],
+              "correct": ["Het", "is", "een", "leuk", "feest"],
+              "translation": "It is a fun party."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Hobbies & Free Time",
+        "zh": "爱好与休闲",
+        "th": "งานอดิเรกและเวลาว่าง",
+        "ko": "취미와 여가",
+        "es": "Pasatiempos y tiempo libre"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Sports & Outdoor Activities",
+            "zh": "运动与户外活动",
+            "th": "กีฬาและกิจกรรมกลางแจ้ง",
+            "ko": "스포츠와 야외 활동",
+            "es": "Deportes y actividades al aire libre"
+          },
+          "objectives": {
+            "en": ["Talk about sports and outdoor hobbies in Dutch", "Say how often you do an activity"],
+            "zh": ["用荷兰语谈论体育和户外爱好", "说明做某项活动的频率"],
+            "th": ["พูดเกี่ยวกับกีฬาและงานอดิเรกกลางแจ้งเป็นภาษาดัตช์", "บอกว่าคุณทำกิจกรรมบ่อยแค่ไหน"],
+            "ko": ["네덜란드어로 스포츠와 야외 취미 이야기하기", "활동을 얼마나 자주 하는지 말하기"],
+            "es": ["Hablar de deportes y aficiones al aire libre en neerlandés", "Decir con qué frecuencia realizas una actividad"]
+          },
+          "vocabulary": [
+            {
+              "word": "sporten",
+              "romanization": null,
+              "meanings": { "en": "to do sports / exercise", "zh": "做运动", "th": "ออกกำลังกาย", "ko": "운동하다", "es": "hacer deporte" },
+              "gendered": null
+            },
+            {
+              "word": "fietsen",
+              "romanization": null,
+              "meanings": { "en": "to cycle", "zh": "骑自行车", "th": "ปั่นจักรยาน", "ko": "자전거를 타다", "es": "ir en bicicleta / pedalear" },
+              "gendered": null
+            },
+            {
+              "word": "zwemmen",
+              "romanization": null,
+              "meanings": { "en": "to swim", "zh": "游泳", "th": "ว่ายน้ำ", "ko": "수영하다", "es": "nadar" },
+              "gendered": null
+            },
+            {
+              "word": "wandelen",
+              "romanization": null,
+              "meanings": { "en": "to walk / go hiking", "zh": "散步/徒步", "th": "เดินเล่น/เดินป่า", "ko": "산책하다/하이킹하다", "es": "caminar / hacer senderismo" },
+              "gendered": null
+            },
+            {
+              "word": "regelmatig",
+              "romanization": null,
+              "meanings": { "en": "regularly", "zh": "经常/定期", "th": "เป็นประจำ", "ko": "규칙적으로", "es": "regularmente" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I cycle to work every day'?",
+              "options": ["Ik fiets elke dag naar mijn werk.", "Ik wandel elke dag naar mijn werk.", "Ik swim elke dag.", "Ik sport regelmatig."],
+              "correct": 0,
+              "explanation": "'Ik fiets elke dag naar mijn werk' = I cycle to work every day. The Netherlands is famous for cycling culture."
+            },
+            {
+              "type": "target_to_native",
+              "word": "wandelen",
+              "options": ["to walk / go hiking", "to cycle", "to swim", "to run"],
+              "correct": 0,
+              "explanation": "'Wandelen' means to walk or go hiking. The Dutch love walking in parks and nature reserves."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sporten", "to do sports"],
+                ["fietsen", "to cycle"],
+                ["zwemmen", "to swim"],
+                ["regelmatig", "regularly"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Ik sport regelmatig, vooral zwemmen en fietsen.",
+              "options": ["I exercise regularly, especially swimming and cycling.", "I walk and hike every weekend.", "I play sports at school.", "I cycle to work in summer."],
+              "correct": 0,
+              "explanation": "'Regelmatig' = regularly, 'vooral' = especially, 'zwemmen en fietsen' = swimming and cycling."
+            },
+            {
+              "type": "reorder",
+              "words": ["elke", "fiets", "dag", "ik"],
+              "correct": ["Ik", "fiets", "elke", "dag"],
+              "translation": "I cycle every day."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Arts & Culture",
+            "zh": "艺术与文化",
+            "th": "ศิลปะและวัฒนธรรม",
+            "ko": "예술과 문화",
+            "es": "Arte y cultura"
+          },
+          "objectives": {
+            "en": ["Talk about cultural activities and interests in Dutch", "Express opinions about art and music"],
+            "zh": ["用荷兰语谈论文化活动和兴趣", "表达对艺术和音乐的看法"],
+            "th": ["พูดเกี่ยวกับกิจกรรมทางวัฒนธรรมและความสนใจเป็นภาษาดัตช์", "แสดงความคิดเห็นเกี่ยวกับศิลปะและดนตรี"],
+            "ko": ["네덜란드어로 문화 활동과 관심사 이야기하기", "예술과 음악에 대한 의견 표현하기"],
+            "es": ["Hablar de actividades culturales e intereses en neerlandés", "Expresar opiniones sobre arte y música"]
+          },
+          "vocabulary": [
+            {
+              "word": "museum",
+              "romanization": null,
+              "meanings": { "en": "museum", "zh": "博物馆", "th": "พิพิธภัณฑ์", "ko": "박물관", "es": "museo" },
+              "gendered": "het"
+            },
+            {
+              "word": "schilderij",
+              "romanization": null,
+              "meanings": { "en": "painting", "zh": "画作", "th": "ภาพวาด", "ko": "그림/회화", "es": "cuadro / pintura" },
+              "gendered": "het"
+            },
+            {
+              "word": "muziek",
+              "romanization": null,
+              "meanings": { "en": "music", "zh": "音乐", "th": "ดนตรี", "ko": "음악", "es": "música" },
+              "gendered": "de"
+            },
+            {
+              "word": "concert",
+              "romanization": null,
+              "meanings": { "en": "concert", "zh": "音乐会", "th": "คอนเสิร์ต", "ko": "콘서트", "es": "concierto" },
+              "gendered": "het"
+            },
+            {
+              "word": "prachtig",
+              "romanization": null,
+              "meanings": { "en": "beautiful / magnificent", "zh": "美丽/壮观", "th": "สวยงาม/ยิ่งใหญ่", "ko": "아름다운/훌륭한", "es": "hermoso / magnífico" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I would like to visit a museum'?",
+              "options": ["Ik wil graag een museum bezoeken.", "Ik ga naar een concert.", "Ik kijk naar schilderijen.", "Ik hou van muziek."],
+              "correct": 0,
+              "explanation": "'Ik wil graag een museum bezoeken' = I would like to visit a museum. 'Graag' softens the request."
+            },
+            {
+              "type": "target_to_native",
+              "word": "schilderij",
+              "options": ["painting", "museum", "sculpture", "drawing"],
+              "correct": 0,
+              "explanation": "'Schilderij' is a painting. The Netherlands is famous for Old Masters like Rembrandt and Vermeer."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Die schilderijen in het Rijksmuseum zijn prachtig.",
+              "options": ["Those paintings in the Rijksmuseum are beautiful.", "The museum is very big.", "I love classical music.", "The concert was wonderful."],
+              "correct": 0,
+              "explanation": "'Die schilderijen' = those paintings, 'zijn prachtig' = are beautiful/magnificent."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["museum", "museum"],
+                ["schilderij", "painting"],
+                ["concert", "concert"],
+                ["prachtig", "beautiful"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["museum", "graag", "wil", "ik", "bezoeken", "een"],
+              "correct": ["Ik", "wil", "graag", "een", "museum", "bezoeken"],
+              "translation": "I would like to visit a museum."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Going Out in the Evening",
+            "zh": "夜间外出",
+            "th": "การออกไปเที่ยวในตอนเย็น",
+            "ko": "저녁 나들이",
+            "es": "Salir por la noche"
+          },
+          "objectives": {
+            "en": ["Talk about nightlife and evening activities in Dutch", "Suggest and agree on evening plans"],
+            "zh": ["用荷兰语谈论夜生活和夜间活动", "建议并商定夜间计划"],
+            "th": ["พูดเกี่ยวกับชีวิตยามค่ำคืนและกิจกรรมตอนเย็นเป็นภาษาดัตช์", "เสนอและตกลงเรื่องแผนตอนเย็น"],
+            "ko": ["네덜란드어로 나이트라이프와 저녁 활동 이야기하기", "저녁 계획 제안하고 동의하기"],
+            "es": ["Hablar de vida nocturna y actividades vespertinas en neerlandés", "Sugerir y acordar planes nocturnos"]
+          },
+          "vocabulary": [
+            {
+              "word": "café",
+              "romanization": null,
+              "meanings": { "en": "café / bar (Dutch pub)", "zh": "咖啡馆/酒吧", "th": "คาเฟ่/บาร์", "ko": "카페/바", "es": "café / bar" },
+              "gendered": "het"
+            },
+            {
+              "word": "bioscoop",
+              "romanization": null,
+              "meanings": { "en": "cinema / movie theater", "zh": "电影院", "th": "โรงภาพยนตร์", "ko": "영화관", "es": "cine" },
+              "gendered": "de"
+            },
+            {
+              "word": "film",
+              "romanization": null,
+              "meanings": { "en": "film / movie", "zh": "电影", "th": "ภาพยนตร์", "ko": "영화", "es": "película" },
+              "gendered": "de"
+            },
+            {
+              "word": "zin hebben in",
+              "romanization": null,
+              "meanings": { "en": "to feel like / to fancy", "zh": "想要/有兴趣", "th": "อยากทำ/รู้สึกอยากทำ", "ko": "~하고 싶다", "es": "tener ganas de / apetecer" },
+              "gendered": null
+            },
+            {
+              "word": "gezelschap",
+              "romanization": null,
+              "meanings": { "en": "company / companionship", "zh": "陪伴/同伴", "th": "การคบเพื่อน/เพื่อนร่วม", "ko": "동반자/사귀는 것", "es": "compañía" },
+              "gendered": "het"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Do you feel like going to the cinema?'",
+              "options": ["Heb je zin om naar de bioscoop te gaan?", "Ga je vanavond naar de film?", "Wil je naar het café?", "Heb je zin in gezelschap?"],
+              "correct": 0,
+              "explanation": "'Heb je zin om naar de bioscoop te gaan?' = Do you feel like going to the cinema? 'Zin hebben om' = to feel like doing something."
+            },
+            {
+              "type": "target_to_native",
+              "word": "café",
+              "options": ["café / bar (Dutch pub)", "cinema", "restaurant", "theatre"],
+              "correct": 0,
+              "explanation": "'Café' in Dutch refers to a cosy neighbourhood pub or bar, a central part of Dutch social life."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Vanavond ga ik met vrienden naar de bioscoop.",
+              "options": ["Tonight I am going to the cinema with friends.", "Tonight I am going to the café.", "My friends and I watched a film at home.", "We are going to a concert this evening."],
+              "correct": 0,
+              "explanation": "'Vanavond' = tonight/this evening, 'ga ik...naar de bioscoop' = I am going to the cinema."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["café", "bar / pub"],
+                ["bioscoop", "cinema"],
+                ["film", "movie"],
+                ["zin hebben in", "to feel like"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["bioscoop", "naar", "vanavond", "gaan", "de", "we"],
+              "correct": ["We", "gaan", "vanavond", "naar", "de", "bioscoop"],
+              "translation": "We are going to the cinema tonight."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Socialising & Customs",
+        "zh": "社交与习俗",
+        "th": "การเข้าสังคมและขนบธรรมเนียม",
+        "ko": "사교와 관습",
+        "es": "Socializar y costumbres"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Dutch Celebrations",
+            "zh": "荷兰庆典",
+            "th": "งานเฉลิมฉลองของชาวดัตช์",
+            "ko": "네덜란드 축하 행사",
+            "es": "Celebraciones neerlandesas"
+          },
+          "objectives": {
+            "en": ["Talk about Dutch cultural celebrations and holidays", "Wish someone well on a special occasion"],
+            "zh": ["用荷兰语谈论荷兰文化庆典和节日", "在特殊场合祝福他人"],
+            "th": ["พูดเกี่ยวกับงานเฉลิมฉลองทางวัฒนธรรมและวันหยุดของชาวดัตช์", "อวยพรคนในโอกาสพิเศษ"],
+            "ko": ["네덜란드 문화 축하 행사와 공휴일에 대해 이야기하기", "특별한 날에 축하 인사 건네기"],
+            "es": ["Hablar de celebraciones culturales y festividades neerlandesas", "Felicitar a alguien en una ocasión especial"]
+          },
+          "vocabulary": [
+            {
+              "word": "verjaardag",
+              "romanization": null,
+              "meanings": { "en": "birthday", "zh": "生日", "th": "วันเกิด", "ko": "생일", "es": "cumpleaños" },
+              "gendered": "de"
+            },
+            {
+              "word": "gefeliciteerd",
+              "romanization": null,
+              "meanings": { "en": "congratulations", "zh": "恭喜", "th": "ขอแสดงความยินดี", "ko": "축하합니다", "es": "felicidades / enhorabuena" },
+              "gendered": null
+            },
+            {
+              "word": "Sinterklaas",
+              "romanization": null,
+              "meanings": { "en": "Saint Nicholas (Dutch holiday figure, celebrated on 5 December)", "zh": "荷兰圣尼古拉斯节", "th": "ซินเตอร์คลาส (เทศกาลดัตช์)", "ko": "신터클라스 (네덜란드 12월 축제)", "es": "San Nicolás (fiesta neerlandesa el 5 de diciembre)" },
+              "gendered": null
+            },
+            {
+              "word": "Koningsdag",
+              "romanization": null,
+              "meanings": { "en": "King's Day (Dutch national celebration, 27 April)", "zh": "国王节（4月27日）", "th": "วันกษัตริย์ (27 เมษายน)", "ko": "국왕의 날 (4월 27일)", "es": "Día del Rey (27 de abril)" },
+              "gendered": null
+            },
+            {
+              "word": "cadeautje",
+              "romanization": null,
+              "meanings": { "en": "small gift / present", "zh": "小礼物", "th": "ของขวัญเล็กๆ น้อยๆ", "ko": "작은 선물", "es": "pequeño regalo" },
+              "gendered": "het"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you wish someone a happy birthday in Dutch?",
+              "options": ["Gefeliciteerd met je verjaardag!", "Veel succes vandaag!", "Prettige feestdagen!", "Lang zal ze leven!"],
+              "correct": 0,
+              "explanation": "'Gefeliciteerd met je verjaardag!' = Congratulations on your birthday! 'Lang zal ze/hij leven' is also sung at birthdays."
+            },
+            {
+              "type": "target_to_native",
+              "word": "Koningsdag",
+              "options": ["King's Day (Dutch national celebration, 27 April)", "Christmas", "New Year's Day", "Liberation Day"],
+              "correct": 0,
+              "explanation": "'Koningsdag' (King's Day) on April 27th is a huge Dutch street celebration with orange outfits and flea markets."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Op Koningsdag draagt iedereen oranje.",
+              "options": ["On King's Day everyone wears orange.", "On Sinterklaas everyone gets presents.", "My birthday is in April.", "We celebrate Christmas with family."],
+              "correct": 0,
+              "explanation": "'Draagt iedereen oranje' = everyone wears orange — orange is the Dutch national colour (House of Orange)."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["verjaardag", "birthday"],
+                ["gefeliciteerd", "congratulations"],
+                ["Sinterklaas", "Saint Nicholas"],
+                ["cadeautje", "small gift"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["verjaardag", "gefeliciteerd", "je", "met"],
+              "correct": ["Gefeliciteerd", "met", "je", "verjaardag"],
+              "translation": "Congratulations on your birthday!"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Polite Expressions",
+            "zh": "礼貌用语",
+            "th": "การแสดงออกที่สุภาพ",
+            "ko": "공손한 표현",
+            "es": "Expresiones de cortesía"
+          },
+          "objectives": {
+            "en": ["Use polite social phrases in Dutch", "Express thanks and apologies in social situations"],
+            "zh": ["在荷兰语中使用礼貌社交用语", "在社交场合表达感谢和道歉"],
+            "th": ["ใช้วลีสุภาพในภาษาดัตช์", "แสดงความขอบคุณและขอโทษในสถานการณ์ทางสังคม"],
+            "ko": ["네덜란드어로 공손한 사교 표현 사용하기", "사교 상황에서 감사와 사과 표현하기"],
+            "es": ["Usar frases sociales corteses en neerlandés", "Expresar gracias y disculpas en situaciones sociales"]
+          },
+          "vocabulary": [
+            {
+              "word": "dank je wel",
+              "romanization": null,
+              "meanings": { "en": "thank you (informal)", "zh": "谢谢你（非正式）", "th": "ขอบคุณ (ไม่เป็นทางการ)", "ko": "감사합니다 (비격식)", "es": "gracias (informal)" },
+              "gendered": null
+            },
+            {
+              "word": "dank u wel",
+              "romanization": null,
+              "meanings": { "en": "thank you (formal)", "zh": "谢谢您（正式）", "th": "ขอบคุณ (เป็นทางการ)", "ko": "감사합니다 (격식)", "es": "gracias (formal)" },
+              "gendered": null
+            },
+            {
+              "word": "sorry",
+              "romanization": null,
+              "meanings": { "en": "sorry", "zh": "对不起", "th": "ขอโทษ", "ko": "미안합니다", "es": "lo siento / perdón" },
+              "gendered": null
+            },
+            {
+              "word": "tot ziens",
+              "romanization": null,
+              "meanings": { "en": "goodbye / see you", "zh": "再见", "th": "ลาก่อน", "ko": "안녕히 가세요", "es": "hasta luego / adiós" },
+              "gendered": null
+            },
+            {
+              "word": "alsjeblieft",
+              "romanization": null,
+              "meanings": { "en": "please / here you go (informal)", "zh": "请/给你（非正式）", "th": "กรุณา/นี่คะ (ไม่เป็นทางการ)", "ko": "부탁해요/여기요 (비격식)", "es": "por favor / aquí tienes (informal)" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'thank you' formally in Dutch?",
+              "options": ["Dank u wel.", "Dank je wel.", "Bedankt.", "Alsjeblieft."],
+              "correct": 0,
+              "explanation": "'Dank u wel' uses 'u' (formal you), while 'dank je wel' uses 'je' (informal you). Both mean thank you."
+            },
+            {
+              "type": "target_to_native",
+              "word": "tot ziens",
+              "options": ["goodbye / see you", "hello", "see you tomorrow", "good evening"],
+              "correct": 0,
+              "explanation": "'Tot ziens' = goodbye or see you. 'Dag' is a very common informal goodbye in Dutch."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Dank je wel voor de uitnodiging!",
+              "options": ["Thank you for the invitation!", "Thank you for the gift!", "Goodbye, see you later!", "Sorry, I can't come."],
+              "correct": 0,
+              "explanation": "'Dank je wel voor' = thank you for, 'de uitnodiging' = the invitation."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["dank je wel", "thank you (informal)"],
+                ["sorry", "sorry"],
+                ["tot ziens", "goodbye"],
+                ["alsjeblieft", "please / here you go"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["de", "wel", "voor", "dank", "uitnodiging", "je"],
+              "correct": ["Dank", "je", "wel", "voor", "de", "uitnodiging"],
+              "translation": "Thank you for the invitation!"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Making Small Talk",
+            "zh": "闲聊",
+            "th": "การพูดคุยเล็กๆ น้อยๆ",
+            "ko": "가벼운 대화하기",
+            "es": "Conversación casual"
+          },
+          "objectives": {
+            "en": ["Keep a short casual conversation going in Dutch", "Ask and answer common small talk questions"],
+            "zh": ["用荷兰语维持简短的轻松对话", "回答常见的闲聊问题"],
+            "th": ["รักษาบทสนทนาสั้นๆ แบบสบายๆ ในภาษาดัตช์", "ถามและตอบคำถามพูดคุยทั่วไป"],
+            "ko": ["네덜란드어로 짧은 일상 대화 이어가기", "일반적인 가벼운 대화 질문에 답하기"],
+            "es": ["Mantener una conversación casual corta en neerlandés", "Preguntar y responder preguntas habituales de charla informal"]
+          },
+          "vocabulary": [
+            {
+              "word": "hoe gaat het?",
+              "romanization": null,
+              "meanings": { "en": "how are you? / how is it going?", "zh": "你好吗？", "th": "สบายดีไหม?", "ko": "어떻게 지내세요?", "es": "¿cómo estás? / ¿cómo te va?" },
+              "gendered": null
+            },
+            {
+              "word": "goed",
+              "romanization": null,
+              "meanings": { "en": "good / well", "zh": "好", "th": "ดี", "ko": "좋은", "es": "bien / bueno" },
+              "gendered": null
+            },
+            {
+              "word": "het weer",
+              "romanization": null,
+              "meanings": { "en": "the weather", "zh": "天气", "th": "สภาพอากาศ", "ko": "날씨", "es": "el tiempo / el clima" },
+              "gendered": null
+            },
+            {
+              "word": "wonen",
+              "romanization": null,
+              "meanings": { "en": "to live (in a place)", "zh": "居住", "th": "อาศัยอยู่", "ko": "살다/거주하다", "es": "vivir (en un lugar)" },
+              "gendered": null
+            },
+            {
+              "word": "eigenlijk",
+              "romanization": null,
+              "meanings": { "en": "actually / in fact", "zh": "实际上/其实", "th": "จริงๆ แล้ว", "ko": "사실/실은", "es": "en realidad / de hecho" },
+              "gendered": null
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you respond 'I'm doing well, thanks' in Dutch?",
+              "options": ["Goed, dank je.", "Niet zo goed, bedankt.", "Het gaat prima, hoor.", "Ik ben moe, dank je."],
+              "correct": 0,
+              "explanation": "'Goed, dank je' = Good, thank you. 'Het gaat prima, hoor' is equally natural and adds emphasis with 'hoor'."
+            },
+            {
+              "type": "target_to_native",
+              "word": "eigenlijk",
+              "options": ["actually / in fact", "also", "really", "finally"],
+              "correct": 0,
+              "explanation": "'Eigenlijk' means actually or in fact — very common filler word in Dutch conversation."
+            },
+            {
+              "type": "listening",
+              "audio_text": "Waar woon je eigenlijk?",
+              "options": ["Where do you actually live?", "Where do you work?", "Where are you from?", "Where did you go on holiday?"],
+              "correct": 0,
+              "explanation": "'Waar woon je?' = where do you live? Adding 'eigenlijk' makes it sound more natural and conversational."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["hoe gaat het?", "how are you?"],
+                ["goed", "good / well"],
+                ["het weer", "the weather"],
+                ["wonen", "to live (in a place)"]
+              ]
+            },
+            {
+              "type": "reorder",
+              "words": ["gaat", "het", "hoe"],
+              "correct": ["Hoe", "gaat", "het"],
+              "translation": "How are you?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

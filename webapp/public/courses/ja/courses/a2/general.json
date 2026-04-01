@@ -1,0 +1,647 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "🏠",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Activities" },
+      "description": { "en": "Describe your daily routine and common activities" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe morning activities", "Use basic verb forms in polite speech"] },
+          "vocabulary": [
+            { "word": "おきます", "romanization": "okimasu", "meanings": { "en": "To wake up / get up" }, "gendered": null },
+            { "word": "たべます", "romanization": "tabemasu", "meanings": { "en": "To eat" }, "gendered": null },
+            { "word": "のみます", "romanization": "nomimasu", "meanings": { "en": "To drink" }, "gendered": null },
+            { "word": "あさごはん", "romanization": "asagohan", "meanings": { "en": "Breakfast" }, "gendered": null },
+            { "word": "かおをあらいます", "romanization": "kao wo araimasu", "meanings": { "en": "To wash one's face" }, "gendered": null },
+            { "word": "はをみがきます", "romanization": "ha wo migakimasu", "meanings": { "en": "To brush teeth" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おきます", "romanization": "okimasu", "options": { "en": ["To wake up", "To eat", "To drink", "To sleep"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "あさごはん", "romanization": "asagohan", "options": { "en": ["Breakfast", "Lunch", "Dinner", "Snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to eat' in Japanese (polite)?" }, "options": { "neutral": ["たべます", "のみます", "おきます", "あらいます"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to drink' in Japanese (polite)?" }, "options": { "neutral": ["のみます", "たべます", "みがきます", "おきます"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かおをあらいます", "romanization": "kao wo araimasu", "options": { "en": ["Wash face", "Brush teeth", "Wake up", "Eat breakfast"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "はをみがきます", "romanization": "ha wo migakimasu", "options": { "en": ["Brush teeth", "Wash face", "Drink water", "Eat food"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おきます", "romanization": "okimasu", "native": { "en": "Wake up" } },
+                { "target": "たべます", "romanization": "tabemasu", "native": { "en": "Eat" } },
+                { "target": "のみます", "romanization": "nomimasu", "native": { "en": "Drink" } },
+                { "target": "あさごはん", "romanization": "asagohan", "native": { "en": "Breakfast" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Work & School" },
+          "objectives": { "en": ["Talk about going to work or school", "Use time expressions for daily schedule"] },
+          "vocabulary": [
+            { "word": "いきます", "romanization": "ikimasu", "meanings": { "en": "To go" }, "gendered": null },
+            { "word": "かえります", "romanization": "kaerimasu", "meanings": { "en": "To return / go home" }, "gendered": null },
+            { "word": "しごと", "romanization": "shigoto", "meanings": { "en": "Work / Job" }, "gendered": null },
+            { "word": "かいしゃ", "romanization": "kaisha", "meanings": { "en": "Company / Office" }, "gendered": null },
+            { "word": "べんきょうします", "romanization": "benkyou shimasu", "meanings": { "en": "To study" }, "gendered": null },
+            { "word": "まいにち", "romanization": "mainichi", "meanings": { "en": "Every day" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "いきます", "romanization": "ikimasu", "options": { "en": ["To go", "To come", "To return", "To study"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "しごと", "romanization": "shigoto", "options": { "en": ["Work", "School", "Home", "Shop"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to return home' in Japanese?" }, "options": { "neutral": ["かえります", "いきます", "きます", "べんきょうします"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'every day' in Japanese?" }, "options": { "neutral": ["まいにち", "まいしゅう", "まいつき", "まいとし"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かいしゃ", "romanization": "kaisha", "options": { "en": ["Company", "School", "Station", "Hospital"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "べんきょうします", "romanization": "benkyou shimasu", "options": { "en": ["To study", "To work", "To go", "To eat"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "いきます", "romanization": "ikimasu", "native": { "en": "To go" } },
+                { "target": "かえります", "romanization": "kaerimasu", "native": { "en": "To return" } },
+                { "target": "しごと", "romanization": "shigoto", "native": { "en": "Work" } },
+                { "target": "べんきょうします", "romanization": "benkyou shimasu", "native": { "en": "To study" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Evening Activities" },
+          "objectives": { "en": ["Describe evening and nighttime activities", "Talk about leisure time"] },
+          "vocabulary": [
+            { "word": "ばんごはん", "romanization": "bangohan", "meanings": { "en": "Dinner" }, "gendered": null },
+            { "word": "テレビをみます", "romanization": "terebi wo mimasu", "meanings": { "en": "To watch TV" }, "gendered": null },
+            { "word": "おふろにはいります", "romanization": "ofuro ni hairimasu", "meanings": { "en": "To take a bath" }, "gendered": null },
+            { "word": "ねます", "romanization": "nemasu", "meanings": { "en": "To sleep / go to bed" }, "gendered": null },
+            { "word": "ほんをよみます", "romanization": "hon wo yomimasu", "meanings": { "en": "To read a book" }, "gendered": null },
+            { "word": "おんがくをききます", "romanization": "ongaku wo kikimasu", "meanings": { "en": "To listen to music" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ばんごはん", "romanization": "bangohan", "options": { "en": ["Dinner", "Breakfast", "Lunch", "Snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ねます", "romanization": "nemasu", "options": { "en": ["To sleep", "To wake up", "To eat", "To go"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to watch TV' in Japanese?" }, "options": { "neutral": ["テレビをみます", "ほんをよみます", "おんがくをききます", "おふろにはいります"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to take a bath' in Japanese?" }, "options": { "neutral": ["おふろにはいります", "かおをあらいます", "テレビをみます", "ねます"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ほんをよみます", "romanization": "hon wo yomimasu", "options": { "en": ["Read a book", "Watch TV", "Listen to music", "Take a bath"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "おんがくをききます", "romanization": "ongaku wo kikimasu", "options": { "en": ["Listen to music", "Read a book", "Watch TV", "Sleep"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ばんごはん", "romanization": "bangohan", "native": { "en": "Dinner" } },
+                { "target": "テレビをみます", "romanization": "terebi wo mimasu", "native": { "en": "Watch TV" } },
+                { "target": "ねます", "romanization": "nemasu", "native": { "en": "Sleep" } },
+                { "target": "おんがくをききます", "romanization": "ongaku wo kikimasu", "native": { "en": "Listen to music" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Frequency & Time Words" },
+          "objectives": { "en": ["Express how often you do things", "Use time-related adverbs"] },
+          "vocabulary": [
+            { "word": "いつも", "romanization": "itsumo", "meanings": { "en": "Always" }, "gendered": null },
+            { "word": "よく", "romanization": "yoku", "meanings": { "en": "Often" }, "gendered": null },
+            { "word": "ときどき", "romanization": "tokidoki", "meanings": { "en": "Sometimes" }, "gendered": null },
+            { "word": "あまり", "romanization": "amari", "meanings": { "en": "Not much / Not often" }, "gendered": null },
+            { "word": "ぜんぜん", "romanization": "zenzen", "meanings": { "en": "Not at all" }, "gendered": null },
+            { "word": "まいしゅう", "romanization": "maishuu", "meanings": { "en": "Every week" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "いつも", "romanization": "itsumo", "options": { "en": ["Always", "Sometimes", "Often", "Never"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ときどき", "romanization": "tokidoki", "options": { "en": ["Sometimes", "Always", "Not at all", "Often"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'often' in Japanese?" }, "options": { "neutral": ["よく", "いつも", "ときどき", "あまり"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'not at all' in Japanese?" }, "options": { "neutral": ["ぜんぜん", "あまり", "ときどき", "よく"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "あまり", "romanization": "amari", "options": { "en": ["Not much", "Always", "Sometimes", "Often"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "まいしゅう", "romanization": "maishuu", "options": { "en": ["Every week", "Every day", "Every month", "Every year"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "いつも", "romanization": "itsumo", "native": { "en": "Always" } },
+                { "target": "よく", "romanization": "yoku", "native": { "en": "Often" } },
+                { "target": "ときどき", "romanization": "tokidoki", "native": { "en": "Sometimes" } },
+                { "target": "ぜんぜん", "romanization": "zenzen", "native": { "en": "Not at all" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "description": { "en": "Talk about weather conditions and the four seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe today's weather", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "てんき", "romanization": "tenki", "meanings": { "en": "Weather" }, "gendered": null },
+            { "word": "はれ", "romanization": "hare", "meanings": { "en": "Sunny / Clear" }, "gendered": null },
+            { "word": "くもり", "romanization": "kumori", "meanings": { "en": "Cloudy" }, "gendered": null },
+            { "word": "あめ", "romanization": "ame", "meanings": { "en": "Rain" }, "gendered": null },
+            { "word": "ゆき", "romanization": "yuki", "meanings": { "en": "Snow" }, "gendered": null },
+            { "word": "かぜ", "romanization": "kaze", "meanings": { "en": "Wind" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "はれ", "romanization": "hare", "options": { "en": ["Sunny", "Cloudy", "Rainy", "Snowy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "あめ", "romanization": "ame", "options": { "en": ["Rain", "Snow", "Wind", "Sunny"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cloudy' in Japanese?" }, "options": { "neutral": ["くもり", "はれ", "あめ", "ゆき"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'snow' in Japanese?" }, "options": { "neutral": ["ゆき", "あめ", "かぜ", "くもり"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "てんき", "romanization": "tenki", "options": { "en": ["Weather", "Sky", "Temperature", "Season"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かぜ", "romanization": "kaze", "options": { "en": ["Wind", "Rain", "Snow", "Cloud"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "はれ", "romanization": "hare", "native": { "en": "Sunny" } },
+                { "target": "くもり", "romanization": "kumori", "native": { "en": "Cloudy" } },
+                { "target": "あめ", "romanization": "ame", "native": { "en": "Rain" } },
+                { "target": "ゆき", "romanization": "yuki", "native": { "en": "Snow" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Temperature & Feelings" },
+          "objectives": { "en": ["Describe temperature", "Express how the weather feels"] },
+          "vocabulary": [
+            { "word": "あつい", "romanization": "atsui", "meanings": { "en": "Hot (weather)" }, "gendered": null },
+            { "word": "さむい", "romanization": "samui", "meanings": { "en": "Cold (weather)" }, "gendered": null },
+            { "word": "あたたかい", "romanization": "atatakai", "meanings": { "en": "Warm" }, "gendered": null },
+            { "word": "すずしい", "romanization": "suzushii", "meanings": { "en": "Cool / Refreshing" }, "gendered": null },
+            { "word": "むしあつい", "romanization": "mushiatsui", "meanings": { "en": "Humid / Muggy" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "あつい", "romanization": "atsui", "options": { "en": ["Hot", "Cold", "Warm", "Cool"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "すずしい", "romanization": "suzushii", "options": { "en": ["Cool", "Hot", "Cold", "Humid"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cold (weather)' in Japanese?" }, "options": { "neutral": ["さむい", "あつい", "すずしい", "あたたかい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'warm' in Japanese?" }, "options": { "neutral": ["あたたかい", "あつい", "さむい", "すずしい"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "むしあつい", "romanization": "mushiatsui", "options": { "en": ["Humid", "Hot", "Cold", "Cool"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "さむい", "romanization": "samui", "options": { "en": ["Cold", "Hot", "Warm", "Humid"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "あつい", "romanization": "atsui", "native": { "en": "Hot" } },
+                { "target": "さむい", "romanization": "samui", "native": { "en": "Cold" } },
+                { "target": "あたたかい", "romanization": "atatakai", "native": { "en": "Warm" } },
+                { "target": "すずしい", "romanization": "suzushii", "native": { "en": "Cool" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "The Four Seasons" },
+          "objectives": { "en": ["Name the four seasons", "Describe seasonal activities"] },
+          "vocabulary": [
+            { "word": "はる", "romanization": "haru", "meanings": { "en": "Spring" }, "gendered": null },
+            { "word": "なつ", "romanization": "natsu", "meanings": { "en": "Summer" }, "gendered": null },
+            { "word": "あき", "romanization": "aki", "meanings": { "en": "Autumn / Fall" }, "gendered": null },
+            { "word": "ふゆ", "romanization": "fuyu", "meanings": { "en": "Winter" }, "gendered": null },
+            { "word": "さくら", "romanization": "sakura", "meanings": { "en": "Cherry blossom" }, "gendered": null },
+            { "word": "もみじ", "romanization": "momiji", "meanings": { "en": "Autumn leaves / Maple" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "はる", "romanization": "haru", "options": { "en": ["Spring", "Summer", "Autumn", "Winter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ふゆ", "romanization": "fuyu", "options": { "en": ["Winter", "Summer", "Spring", "Autumn"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'summer' in Japanese?" }, "options": { "neutral": ["なつ", "はる", "あき", "ふゆ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cherry blossom' in Japanese?" }, "options": { "neutral": ["さくら", "もみじ", "はる", "はな"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "あき", "romanization": "aki", "options": { "en": ["Autumn", "Spring", "Summer", "Winter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "もみじ", "romanization": "momiji", "options": { "en": ["Autumn leaves", "Cherry blossom", "Snow", "Rain"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "はる", "romanization": "haru", "native": { "en": "Spring" } },
+                { "target": "なつ", "romanization": "natsu", "native": { "en": "Summer" } },
+                { "target": "あき", "romanization": "aki", "native": { "en": "Autumn" } },
+                { "target": "ふゆ", "romanization": "fuyu", "native": { "en": "Winter" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Weather Forecast & Plans" },
+          "objectives": { "en": ["Understand a simple weather forecast", "Make plans based on weather"] },
+          "vocabulary": [
+            { "word": "きょう", "romanization": "kyou", "meanings": { "en": "Today" }, "gendered": null },
+            { "word": "あした", "romanization": "ashita", "meanings": { "en": "Tomorrow" }, "gendered": null },
+            { "word": "きのう", "romanization": "kinou", "meanings": { "en": "Yesterday" }, "gendered": null },
+            { "word": "てんきよほう", "romanization": "tenki yohou", "meanings": { "en": "Weather forecast" }, "gendered": null },
+            { "word": "かさ", "romanization": "kasa", "meanings": { "en": "Umbrella" }, "gendered": null },
+            { "word": "でかけます", "romanization": "dekakemasu", "meanings": { "en": "To go out" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "あした", "romanization": "ashita", "options": { "en": ["Tomorrow", "Today", "Yesterday", "Next week"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "かさ", "romanization": "kasa", "options": { "en": ["Umbrella", "Coat", "Hat", "Shoes"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'yesterday' in Japanese?" }, "options": { "neutral": ["きのう", "きょう", "あした", "おととい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'weather forecast' in Japanese?" }, "options": { "neutral": ["てんきよほう", "てんき", "よほう", "はれ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "きょう", "romanization": "kyou", "options": { "en": ["Today", "Tomorrow", "Yesterday", "Now"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "でかけます", "romanization": "dekakemasu", "options": { "en": ["To go out", "To return", "To go", "To come"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "きょう", "romanization": "kyou", "native": { "en": "Today" } },
+                { "target": "あした", "romanization": "ashita", "native": { "en": "Tomorrow" } },
+                { "target": "きのう", "romanization": "kinou", "native": { "en": "Yesterday" } },
+                { "target": "かさ", "romanization": "kasa", "native": { "en": "Umbrella" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Shopping & Money" },
+      "description": { "en": "Learn to shop, compare prices, and handle transactions" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "At the Store" },
+          "objectives": { "en": ["Navigate a store in Japanese", "Ask for items politely"] },
+          "vocabulary": [
+            { "word": "みせ", "romanization": "mise", "meanings": { "en": "Shop / Store" }, "gendered": null },
+            { "word": "かいもの", "romanization": "kaimono", "meanings": { "en": "Shopping" }, "gendered": null },
+            { "word": "かいます", "romanization": "kaimasu", "meanings": { "en": "To buy" }, "gendered": null },
+            { "word": "うります", "romanization": "urimasu", "meanings": { "en": "To sell" }, "gendered": null },
+            { "word": "これ", "romanization": "kore", "meanings": { "en": "This (near me)" }, "gendered": null },
+            { "word": "それ", "romanization": "sore", "meanings": { "en": "That (near you)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "かいもの", "romanization": "kaimono", "options": { "en": ["Shopping", "Buying", "Store", "Money"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "これ", "romanization": "kore", "options": { "en": ["This", "That", "Over there", "Which"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to buy' in Japanese?" }, "options": { "neutral": ["かいます", "うります", "みます", "もらいます"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'that (near listener)' in Japanese?" }, "options": { "neutral": ["それ", "これ", "あれ", "どれ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "みせ", "romanization": "mise", "options": { "en": ["Store", "Money", "Shopping", "Price"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "うります", "romanization": "urimasu", "options": { "en": ["To sell", "To buy", "To give", "To take"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "みせ", "romanization": "mise", "native": { "en": "Store" } },
+                { "target": "かいもの", "romanization": "kaimono", "native": { "en": "Shopping" } },
+                { "target": "かいます", "romanization": "kaimasu", "native": { "en": "To buy" } },
+                { "target": "これ", "romanization": "kore", "native": { "en": "This" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Clothing & Sizes" },
+          "objectives": { "en": ["Name common clothing items", "Ask about sizes and colors"] },
+          "vocabulary": [
+            { "word": "ふく", "romanization": "fuku", "meanings": { "en": "Clothes" }, "gendered": null },
+            { "word": "シャツ", "romanization": "shatsu", "meanings": { "en": "Shirt" }, "gendered": null },
+            { "word": "ズボン", "romanization": "zubon", "meanings": { "en": "Pants / Trousers" }, "gendered": null },
+            { "word": "くつ", "romanization": "kutsu", "meanings": { "en": "Shoes" }, "gendered": null },
+            { "word": "サイズ", "romanization": "saizu", "meanings": { "en": "Size" }, "gendered": null },
+            { "word": "きてみてもいいですか", "romanization": "kite mite mo ii desu ka", "meanings": { "en": "May I try it on?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ふく", "romanization": "fuku", "options": { "en": ["Clothes", "Shoes", "Hat", "Bag"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "くつ", "romanization": "kutsu", "options": { "en": ["Shoes", "Shirt", "Pants", "Socks"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'shirt' in Japanese?" }, "options": { "neutral": ["シャツ", "ズボン", "くつ", "ふく"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'May I try it on?' in Japanese?" }, "options": { "neutral": ["きてみてもいいですか", "いくらですか", "これをください", "サイズはなんですか"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ズボン", "romanization": "zubon", "options": { "en": ["Pants", "Shirt", "Shoes", "Clothes"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "サイズ", "romanization": "saizu", "options": { "en": ["Size", "Color", "Price", "Style"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "シャツ", "romanization": "shatsu", "native": { "en": "Shirt" } },
+                { "target": "ズボン", "romanization": "zubon", "native": { "en": "Pants" } },
+                { "target": "くつ", "romanization": "kutsu", "native": { "en": "Shoes" } },
+                { "target": "サイズ", "romanization": "saizu", "native": { "en": "Size" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Paying & Receipts" },
+          "objectives": { "en": ["Handle payment situations", "Ask about payment methods"] },
+          "vocabulary": [
+            { "word": "おかね", "romanization": "okane", "meanings": { "en": "Money" }, "gendered": null },
+            { "word": "カード", "romanization": "kaado", "meanings": { "en": "Card (credit/debit)" }, "gendered": null },
+            { "word": "げんきん", "romanization": "genkin", "meanings": { "en": "Cash" }, "gendered": null },
+            { "word": "レシート", "romanization": "reshiito", "meanings": { "en": "Receipt" }, "gendered": null },
+            { "word": "おつり", "romanization": "otsuri", "meanings": { "en": "Change (money back)" }, "gendered": null },
+            { "word": "はらいます", "romanization": "haraimasu", "meanings": { "en": "To pay" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おかね", "romanization": "okane", "options": { "en": ["Money", "Card", "Receipt", "Change"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "おつり", "romanization": "otsuri", "options": { "en": ["Change", "Money", "Cash", "Receipt"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cash' in Japanese?" }, "options": { "neutral": ["げんきん", "おかね", "カード", "おつり"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to pay' in Japanese?" }, "options": { "neutral": ["はらいます", "かいます", "うります", "もらいます"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "カード", "romanization": "kaado", "options": { "en": ["Card", "Cash", "Receipt", "Money"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "レシート", "romanization": "reshiito", "options": { "en": ["Receipt", "Card", "Change", "Cash"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おかね", "romanization": "okane", "native": { "en": "Money" } },
+                { "target": "げんきん", "romanization": "genkin", "native": { "en": "Cash" } },
+                { "target": "カード", "romanization": "kaado", "native": { "en": "Card" } },
+                { "target": "おつり", "romanization": "otsuri", "native": { "en": "Change" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Comparing & Choosing" },
+          "objectives": { "en": ["Compare two items", "Express preferences when shopping"] },
+          "vocabulary": [
+            { "word": "どちら", "romanization": "dochira", "meanings": { "en": "Which one (of two)" }, "gendered": null },
+            { "word": "ほうがいいです", "romanization": "hou ga ii desu", "meanings": { "en": "... is better" }, "gendered": null },
+            { "word": "もっと", "romanization": "motto", "meanings": { "en": "More" }, "gendered": null },
+            { "word": "おなじ", "romanization": "onaji", "meanings": { "en": "Same" }, "gendered": null },
+            { "word": "ちがいます", "romanization": "chigaimasu", "meanings": { "en": "It's different / That's wrong" }, "gendered": null },
+            { "word": "すきです", "romanization": "suki desu", "meanings": { "en": "I like (it)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "どちら", "romanization": "dochira", "options": { "en": ["Which one", "This one", "That one", "Both"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "すきです", "romanization": "suki desu", "options": { "en": ["I like it", "I want it", "It's good", "It's different"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'more' in Japanese?" }, "options": { "neutral": ["もっと", "おなじ", "どちら", "ほうが"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'same' in Japanese?" }, "options": { "neutral": ["おなじ", "ちがいます", "もっと", "どちら"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ちがいます", "romanization": "chigaimasu", "options": { "en": ["It's different", "It's the same", "I like it", "Which one?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "もっと", "romanization": "motto", "options": { "en": ["More", "Less", "Same", "Different"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "どちら", "romanization": "dochira", "native": { "en": "Which one" } },
+                { "target": "もっと", "romanization": "motto", "native": { "en": "More" } },
+                { "target": "おなじ", "romanization": "onaji", "native": { "en": "Same" } },
+                { "target": "すきです", "romanization": "suki desu", "native": { "en": "I like it" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Travel & Transport" },
+      "description": { "en": "Navigate travel situations including booking, transportation, and hotels" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "At the Station" },
+          "objectives": { "en": ["Buy train tickets", "Ask about platforms and schedules"] },
+          "vocabulary": [
+            { "word": "しんかんせん", "romanization": "shinkansen", "meanings": { "en": "Bullet train" }, "gendered": null },
+            { "word": "ホーム", "romanization": "hoomu", "meanings": { "en": "Platform" }, "gendered": null },
+            { "word": "じこくひょう", "romanization": "jikokuhyou", "meanings": { "en": "Timetable / Schedule" }, "gendered": null },
+            { "word": "かたみち", "romanization": "katamichi", "meanings": { "en": "One way" }, "gendered": null },
+            { "word": "おうふく", "romanization": "oufuku", "meanings": { "en": "Round trip" }, "gendered": null },
+            { "word": "のります", "romanization": "norimasu", "meanings": { "en": "To ride / get on" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "しんかんせん", "romanization": "shinkansen", "options": { "en": ["Bullet train", "Bus", "Subway", "Taxi"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "おうふく", "romanization": "oufuku", "options": { "en": ["Round trip", "One way", "Express", "Local"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'platform' in Japanese?" }, "options": { "neutral": ["ホーム", "えき", "きっぷ", "でぐち"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to ride / get on' in Japanese?" }, "options": { "neutral": ["のります", "おります", "いきます", "かえります"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かたみち", "romanization": "katamichi", "options": { "en": ["One way", "Round trip", "Express", "Platform"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "じこくひょう", "romanization": "jikokuhyou", "options": { "en": ["Timetable", "Platform", "Ticket", "Station"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "しんかんせん", "romanization": "shinkansen", "native": { "en": "Bullet train" } },
+                { "target": "ホーム", "romanization": "hoomu", "native": { "en": "Platform" } },
+                { "target": "かたみち", "romanization": "katamichi", "native": { "en": "One way" } },
+                { "target": "おうふく", "romanization": "oufuku", "native": { "en": "Round trip" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "At the Hotel" },
+          "objectives": { "en": ["Check in and out of a hotel", "Ask about room amenities"] },
+          "vocabulary": [
+            { "word": "ホテル", "romanization": "hoteru", "meanings": { "en": "Hotel" }, "gendered": null },
+            { "word": "へや", "romanization": "heya", "meanings": { "en": "Room" }, "gendered": null },
+            { "word": "よやく", "romanization": "yoyaku", "meanings": { "en": "Reservation" }, "gendered": null },
+            { "word": "チェックイン", "romanization": "chekkuin", "meanings": { "en": "Check-in" }, "gendered": null },
+            { "word": "チェックアウト", "romanization": "chekkuauto", "meanings": { "en": "Check-out" }, "gendered": null },
+            { "word": "かぎ", "romanization": "kagi", "meanings": { "en": "Key" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "よやく", "romanization": "yoyaku", "options": { "en": ["Reservation", "Room", "Key", "Hotel"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "かぎ", "romanization": "kagi", "options": { "en": ["Key", "Room", "Door", "Reservation"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'room' in Japanese?" }, "options": { "neutral": ["へや", "ホテル", "かぎ", "よやく"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'check-in' in Japanese?" }, "options": { "neutral": ["チェックイン", "チェックアウト", "よやく", "かぎ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ホテル", "romanization": "hoteru", "options": { "en": ["Hotel", "Room", "Restaurant", "Station"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "チェックアウト", "romanization": "chekkuauto", "options": { "en": ["Check-out", "Check-in", "Reservation", "Key"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ホテル", "romanization": "hoteru", "native": { "en": "Hotel" } },
+                { "target": "へや", "romanization": "heya", "native": { "en": "Room" } },
+                { "target": "よやく", "romanization": "yoyaku", "native": { "en": "Reservation" } },
+                { "target": "かぎ", "romanization": "kagi", "native": { "en": "Key" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Asking for Help While Traveling" },
+          "objectives": { "en": ["Ask for directions and help", "Handle common travel problems"] },
+          "vocabulary": [
+            { "word": "ちずをみせてください", "romanization": "chizu wo misete kudasai", "meanings": { "en": "Please show me the map" }, "gendered": null },
+            { "word": "まいご", "romanization": "maigo", "meanings": { "en": "Lost (person)" }, "gendered": null },
+            { "word": "みちにまよいました", "romanization": "michi ni mayoimashita", "meanings": { "en": "I'm lost (on the road)" }, "gendered": null },
+            { "word": "トイレ", "romanization": "toire", "meanings": { "en": "Toilet / Bathroom" }, "gendered": null },
+            { "word": "たすけてください", "romanization": "tasukete kudasai", "meanings": { "en": "Please help me" }, "gendered": null },
+            { "word": "にほんごがわかりません", "romanization": "nihongo ga wakarimasen", "meanings": { "en": "I don't understand Japanese" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "トイレ", "romanization": "toire", "options": { "en": ["Toilet", "Hotel", "Station", "Restaurant"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "たすけてください", "romanization": "tasukete kudasai", "options": { "en": ["Please help me", "Please show me", "Excuse me", "Thank you"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I'm lost' in Japanese?" }, "options": { "neutral": ["みちにまよいました", "にほんごがわかりません", "たすけてください", "すみません"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I don't understand Japanese'?" }, "options": { "neutral": ["にほんごがわかりません", "みちにまよいました", "たすけてください", "すみません"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "まいご", "romanization": "maigo", "options": { "en": ["Lost person", "Map", "Help", "Toilet"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ちずをみせてください", "romanization": "chizu wo misete kudasai", "options": { "en": ["Show me the map", "Help me", "Where is the toilet?", "I'm lost"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "トイレ", "romanization": "toire", "native": { "en": "Toilet" } },
+                { "target": "たすけてください", "romanization": "tasukete kudasai", "native": { "en": "Help me" } },
+                { "target": "まいご", "romanization": "maigo", "native": { "en": "Lost" } },
+                { "target": "にほんごがわかりません", "romanization": "nihongo ga wakarimasen", "native": { "en": "I don't understand Japanese" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Sightseeing" },
+          "objectives": { "en": ["Talk about tourist attractions", "Buy entrance tickets"] },
+          "vocabulary": [
+            { "word": "かんこう", "romanization": "kankou", "meanings": { "en": "Sightseeing / Tourism" }, "gendered": null },
+            { "word": "おてら", "romanization": "otera", "meanings": { "en": "Temple (Buddhist)" }, "gendered": null },
+            { "word": "じんじゃ", "romanization": "jinja", "meanings": { "en": "Shrine (Shinto)" }, "gendered": null },
+            { "word": "おしろ", "romanization": "oshiro", "meanings": { "en": "Castle" }, "gendered": null },
+            { "word": "にゅうじょうりょう", "romanization": "nyuujouryou", "meanings": { "en": "Entrance fee" }, "gendered": null },
+            { "word": "しゃしんをとってもいいですか", "romanization": "shashin wo totte mo ii desu ka", "meanings": { "en": "May I take a photo?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おてら", "romanization": "otera", "options": { "en": ["Temple", "Shrine", "Castle", "Museum"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "じんじゃ", "romanization": "jinja", "options": { "en": ["Shrine", "Temple", "Castle", "Park"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'castle' in Japanese?" }, "options": { "neutral": ["おしろ", "おてら", "じんじゃ", "ホテル"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'May I take a photo?' in Japanese?" }, "options": { "neutral": ["しゃしんをとってもいいですか", "きてみてもいいですか", "たすけてください", "いくらですか"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かんこう", "romanization": "kankou", "options": { "en": ["Sightseeing", "Shopping", "Travel", "Temple"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "にゅうじょうりょう", "romanization": "nyuujouryou", "options": { "en": ["Entrance fee", "Ticket", "Price", "Change"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "かんこう", "romanization": "kankou", "native": { "en": "Sightseeing" } },
+                { "target": "おてら", "romanization": "otera", "native": { "en": "Temple" } },
+                { "target": "じんじゃ", "romanization": "jinja", "native": { "en": "Shrine" } },
+                { "target": "おしろ", "romanization": "oshiro", "native": { "en": "Castle" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Hobbies & Interests" },
+      "description": { "en": "Talk about hobbies, sports, and free-time activities" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": { "en": ["Talk about your hobbies", "Ask others about their interests"] },
+          "vocabulary": [
+            { "word": "しゅみ", "romanization": "shumi", "meanings": { "en": "Hobby" }, "gendered": null },
+            { "word": "どくしょ", "romanization": "dokusho", "meanings": { "en": "Reading (books)" }, "gendered": null },
+            { "word": "りょうり", "romanization": "ryouri", "meanings": { "en": "Cooking" }, "gendered": null },
+            { "word": "さんぽ", "romanization": "sanpo", "meanings": { "en": "Walk / Stroll" }, "gendered": null },
+            { "word": "えいが", "romanization": "eiga", "meanings": { "en": "Movie / Film" }, "gendered": null },
+            { "word": "ゲーム", "romanization": "geemu", "meanings": { "en": "Game / Video game" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "しゅみ", "romanization": "shumi", "options": { "en": ["Hobby", "Work", "Study", "Sport"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "りょうり", "romanization": "ryouri", "options": { "en": ["Cooking", "Reading", "Walking", "Gaming"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'movie' in Japanese?" }, "options": { "neutral": ["えいが", "ゲーム", "どくしょ", "りょうり"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'walk / stroll' in Japanese?" }, "options": { "neutral": ["さんぽ", "しゅみ", "どくしょ", "りょうり"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "どくしょ", "romanization": "dokusho", "options": { "en": ["Reading", "Cooking", "Movie", "Game"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ゲーム", "romanization": "geemu", "options": { "en": ["Game", "Movie", "Reading", "Walk"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "しゅみ", "romanization": "shumi", "native": { "en": "Hobby" } },
+                { "target": "どくしょ", "romanization": "dokusho", "native": { "en": "Reading" } },
+                { "target": "りょうり", "romanization": "ryouri", "native": { "en": "Cooking" } },
+                { "target": "えいが", "romanization": "eiga", "native": { "en": "Movie" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Sports & Exercise" },
+          "objectives": { "en": ["Name common sports", "Talk about exercise habits"] },
+          "vocabulary": [
+            { "word": "スポーツ", "romanization": "supootsu", "meanings": { "en": "Sports" }, "gendered": null },
+            { "word": "サッカー", "romanization": "sakkaa", "meanings": { "en": "Soccer / Football" }, "gendered": null },
+            { "word": "やきゅう", "romanization": "yakyuu", "meanings": { "en": "Baseball" }, "gendered": null },
+            { "word": "すいえい", "romanization": "suiei", "meanings": { "en": "Swimming" }, "gendered": null },
+            { "word": "うんどう", "romanization": "undou", "meanings": { "en": "Exercise" }, "gendered": null },
+            { "word": "じょうず", "romanization": "jouzu", "meanings": { "en": "Skillful / Good at" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "サッカー", "romanization": "sakkaa", "options": { "en": ["Soccer", "Baseball", "Swimming", "Tennis"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "じょうず", "romanization": "jouzu", "options": { "en": ["Skillful", "Bad at", "Fun", "Difficult"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'baseball' in Japanese?" }, "options": { "neutral": ["やきゅう", "サッカー", "すいえい", "スポーツ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'exercise' in Japanese?" }, "options": { "neutral": ["うんどう", "スポーツ", "すいえい", "やきゅう"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "すいえい", "romanization": "suiei", "options": { "en": ["Swimming", "Soccer", "Baseball", "Running"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "スポーツ", "romanization": "supootsu", "options": { "en": ["Sports", "Exercise", "Swimming", "Soccer"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "サッカー", "romanization": "sakkaa", "native": { "en": "Soccer" } },
+                { "target": "やきゅう", "romanization": "yakyuu", "native": { "en": "Baseball" } },
+                { "target": "すいえい", "romanization": "suiei", "native": { "en": "Swimming" } },
+                { "target": "うんどう", "romanization": "undou", "native": { "en": "Exercise" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Music & Art" },
+          "objectives": { "en": ["Talk about music and art", "Express what you enjoy"] },
+          "vocabulary": [
+            { "word": "おんがく", "romanization": "ongaku", "meanings": { "en": "Music" }, "gendered": null },
+            { "word": "うた", "romanization": "uta", "meanings": { "en": "Song" }, "gendered": null },
+            { "word": "うたいます", "romanization": "utaimasu", "meanings": { "en": "To sing" }, "gendered": null },
+            { "word": "ひきます", "romanization": "hikimasu", "meanings": { "en": "To play (instrument)" }, "gendered": null },
+            { "word": "ピアノ", "romanization": "piano", "meanings": { "en": "Piano" }, "gendered": null },
+            { "word": "え", "romanization": "e", "meanings": { "en": "Picture / Painting" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おんがく", "romanization": "ongaku", "options": { "en": ["Music", "Song", "Movie", "Art"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "うたいます", "romanization": "utaimasu", "options": { "en": ["To sing", "To play", "To listen", "To dance"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to play an instrument' in Japanese?" }, "options": { "neutral": ["ひきます", "うたいます", "ききます", "みます"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'picture / painting' in Japanese?" }, "options": { "neutral": ["え", "うた", "おんがく", "ピアノ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "うた", "romanization": "uta", "options": { "en": ["Song", "Music", "Piano", "Picture"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ピアノ", "romanization": "piano", "options": { "en": ["Piano", "Guitar", "Drums", "Violin"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おんがく", "romanization": "ongaku", "native": { "en": "Music" } },
+                { "target": "うた", "romanization": "uta", "native": { "en": "Song" } },
+                { "target": "ひきます", "romanization": "hikimasu", "native": { "en": "To play" } },
+                { "target": "え", "romanization": "e", "native": { "en": "Picture" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Making Plans with Friends" },
+          "objectives": { "en": ["Invite someone to do an activity", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "いっしょに", "romanization": "issho ni", "meanings": { "en": "Together" }, "gendered": null },
+            { "word": "いきましょう", "romanization": "ikimashou", "meanings": { "en": "Let's go" }, "gendered": null },
+            { "word": "ひまですか", "romanization": "hima desu ka", "meanings": { "en": "Are you free?" }, "gendered": null },
+            { "word": "いいですね", "romanization": "ii desu ne", "meanings": { "en": "That sounds good" }, "gendered": null },
+            { "word": "ちょっと", "romanization": "chotto", "meanings": { "en": "A little / (polite refusal)" }, "gendered": null },
+            { "word": "またこんど", "romanization": "mata kondo", "meanings": { "en": "Maybe next time" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "いっしょに", "romanization": "issho ni", "options": { "en": ["Together", "Alone", "Later", "Now"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ひまですか", "romanization": "hima desu ka", "options": { "en": ["Are you free?", "Are you busy?", "What time?", "Where?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Let's go' in Japanese?" }, "options": { "neutral": ["いきましょう", "いきます", "いきました", "いきたい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'maybe next time' in Japanese?" }, "options": { "neutral": ["またこんど", "ちょっと", "いいですね", "だめです"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "いいですね", "romanization": "ii desu ne", "options": { "en": ["That sounds good", "That's bad", "I'm busy", "Maybe later"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ちょっと", "romanization": "chotto", "options": { "en": ["A little / Sorry...", "Sure!", "Let's go", "Together"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "いっしょに", "romanization": "issho ni", "native": { "en": "Together" } },
+                { "target": "いきましょう", "romanization": "ikimashou", "native": { "en": "Let's go" } },
+                { "target": "いいですね", "romanization": "ii desu ne", "native": { "en": "Sounds good" } },
+                { "target": "またこんど", "romanization": "mata kondo", "native": { "en": "Next time" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

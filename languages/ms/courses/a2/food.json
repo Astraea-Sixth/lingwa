@@ -1,0 +1,378 @@
+{
+  "lang": "ms",
+  "language": "ms",
+  "level": "A2",
+  "track": "food",
+  "track_label": {
+    "en": "Food & Dining",
+    "zh": "美食与餐饮",
+    "th": "อาหารและการรับประทาน",
+    "ko": "음식과 식사",
+    "es": "Comida y gastronomía"
+  },
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Malaysian Cuisine Basics",
+        "zh": "马来西亚美食基础",
+        "th": "พื้นฐานอาหารมาเลเซีย",
+        "ko": "말레이시아 음식 기초",
+        "es": "Fundamentos de la cocina malaya"
+      },
+      "description": {
+        "en": "Learn names of popular Malaysian dishes and ingredients",
+        "zh": "学习马来西亚常见菜肴和食材的名称",
+        "th": "เรียนรู้ชื่ออาหารและส่วนผสมยอดนิยมของมาเลเซีย",
+        "ko": "말레이시아의 인기 요리와 재료 이름 배우기",
+        "es": "Aprender los nombres de los platos e ingredientes malayos más populares"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Rice & Noodle Dishes",
+            "zh": "米饭和面食",
+            "th": "อาหารข้าวและเส้น",
+            "ko": "밥과 국수 요리",
+            "es": "Platos de arroz y fideos"
+          },
+          "objectives": {
+            "en": ["Name popular Malay rice and noodle dishes", "Order food at a restaurant"]
+          },
+          "vocabulary": [
+            { "word": "Nasi lemak", "romanization": null, "meanings": { "en": "Coconut milk rice with accompaniments", "zh": "椰浆饭", "th": "ข้าวมันมะพร้าว", "ko": "나시 르막 (코코넛 밥)", "es": "Arroz con leche de coco" } },
+            { "word": "Mee goreng", "romanization": null, "meanings": { "en": "Fried noodles", "zh": "炒面", "th": "มีกอแรง (บะหมี่ผัด)", "ko": "미 고렝 (볶음면)", "es": "Fideos fritos" } },
+            { "word": "Nasi goreng", "romanization": null, "meanings": { "en": "Fried rice", "zh": "炒饭", "th": "ข้าวผัด", "ko": "나시 고렝 (볶음밥)", "es": "Arroz frito" } },
+            { "word": "Roti canai", "romanization": null, "meanings": { "en": "Flatbread (Indian-Malay)", "zh": "印马薄饼", "th": "โรตีชะไน (ขนมปังแผ่น)", "ko": "로티 차나이 (납작 빵)", "es": "Pan plano indio-malayo" } },
+            { "word": "Kuah", "romanization": null, "meanings": { "en": "Gravy / sauce", "zh": "咖喱酱/肉汁", "th": "น้ำแกง / ซอส", "ko": "구아 (소스/그레이비)", "es": "Salsa / gravy" } },
+            { "word": "Pedas", "romanization": null, "meanings": { "en": "Spicy", "zh": "辣", "th": "เผ็ด", "ko": "맵다", "es": "Picante" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Nasi lemak", "romanization": null, "options": { "en": ["Coconut milk rice with accompaniments", "Fried rice", "Fried noodles", "Flatbread"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pedas", "romanization": null, "options": { "en": ["Spicy", "Sweet", "Sour", "Salty"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fried rice' in Malay?" }, "options": { "neutral": ["Nasi goreng", "Mee goreng", "Nasi lemak", "Roti canai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Gravy / sauce' in Malay?" }, "options": { "neutral": ["Kuah", "Pedas", "Nasi lemak", "Mee goreng"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Roti canai", "romanization": null, "options": { "en": ["Flatbread", "Fried noodles", "Fried rice", "Coconut rice"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Nasi lemak", "romanization": null, "native": { "en": "Coconut milk rice" } },
+              { "target": "Mee goreng", "romanization": null, "native": { "en": "Fried noodles" } },
+              { "target": "Kuah", "romanization": null, "native": { "en": "Gravy / sauce" } },
+              { "target": "Pedas", "romanization": null, "native": { "en": "Spicy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Ordering at a Restaurant",
+            "zh": "在餐厅点餐",
+            "th": "การสั่งอาหารในร้านอาหาร",
+            "ko": "식당에서 주문하기",
+            "es": "Pedir en un restaurante"
+          },
+          "objectives": {
+            "en": ["Use polite phrases to order food", "Ask about menu items"]
+          },
+          "vocabulary": [
+            { "word": "Menu", "romanization": null, "meanings": { "en": "Menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "Menú" } },
+            { "word": "Saya nak pesan", "romanization": null, "meanings": { "en": "I would like to order", "zh": "我想点餐", "th": "ฉันอยากสั่ง", "ko": "저는 주문하고 싶어요", "es": "Quisiera pedir" } },
+            { "word": "Berapa harga?", "romanization": null, "meanings": { "en": "How much does it cost?", "zh": "多少钱？", "th": "ราคาเท่าไหร่?", "ko": "얼마예요?", "es": "¿Cuánto cuesta?" } },
+            { "word": "Sedap", "romanization": null, "meanings": { "en": "Delicious / tasty", "zh": "好吃", "th": "อร่อย", "ko": "맛있다", "es": "Delicioso" } },
+            { "word": "Tanpa", "romanization": null, "meanings": { "en": "Without", "zh": "不加/没有", "th": "ไม่ใส่", "ko": "없이", "es": "Sin" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Sedap", "romanization": null, "options": { "en": ["Delicious / tasty", "Spicy", "Cheap", "Fresh"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Berapa harga?", "romanization": null, "options": { "en": ["How much does it cost?", "What is this?", "Where is the menu?", "I am hungry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I would like to order' in Malay?" }, "options": { "neutral": ["Saya nak pesan", "Berapa harga?", "Sedap", "Tanpa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Without' in Malay?" }, "options": { "neutral": ["Tanpa", "Sedap", "Menu", "Saya nak pesan"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Saya nak pesan", "romanization": null, "options": { "en": ["I would like to order", "I am hungry", "Where is the toilet?", "How much?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Menu", "romanization": null, "native": { "en": "Menu" } },
+              { "target": "Sedap", "romanization": null, "native": { "en": "Delicious / tasty" } },
+              { "target": "Tanpa", "romanization": null, "native": { "en": "Without" } },
+              { "target": "Berapa harga?", "romanization": null, "native": { "en": "How much does it cost?" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Drinks & Desserts",
+            "zh": "饮料与甜点",
+            "th": "เครื่องดื่มและของหวาน",
+            "ko": "음료와 디저트",
+            "es": "Bebidas y postres"
+          },
+          "objectives": {
+            "en": ["Name common Malaysian drinks and desserts", "Express taste preferences"]
+          },
+          "vocabulary": [
+            { "word": "Teh tarik", "romanization": null, "meanings": { "en": "Pulled milk tea", "zh": "拉茶", "th": "ชานมดึง", "ko": "테 따릭 (끌어당긴 밀크티)", "es": "Té con leche estirado" } },
+            { "word": "Kopi", "romanization": null, "meanings": { "en": "Coffee", "zh": "咖啡", "th": "กาแฟ", "ko": "커피", "es": "Café" } },
+            { "word": "Air", "romanization": null, "meanings": { "en": "Water / drink", "zh": "水/饮料", "th": "น้ำ / เครื่องดื่ม", "ko": "물 / 음료", "es": "Agua / bebida" } },
+            { "word": "Cendol", "romanization": null, "meanings": { "en": "Shaved ice dessert with green jelly", "zh": "煎蕊", "th": "เฉนดล (ขนมน้ำแข็งไส)", "ko": "첸돌 (팥빙수류 디저트)", "es": "Postre de hielo raspado con gelatina verde" } },
+            { "word": "Manis", "romanization": null, "meanings": { "en": "Sweet", "zh": "甜", "th": "หวาน", "ko": "달다", "es": "Dulce" } },
+            { "word": "Masam", "romanization": null, "meanings": { "en": "Sour", "zh": "酸", "th": "เปรี้ยว", "ko": "시다", "es": "Ácido" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Teh tarik", "romanization": null, "options": { "en": ["Pulled milk tea", "Black coffee", "Coconut water", "Fruit juice"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Manis", "romanization": null, "options": { "en": ["Sweet", "Sour", "Spicy", "Bitter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sour' in Malay?" }, "options": { "neutral": ["Masam", "Manis", "Pedas", "Pahit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Coffee' in Malay?" }, "options": { "neutral": ["Kopi", "Teh tarik", "Air", "Cendol"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Cendol", "romanization": null, "options": { "en": ["Shaved ice dessert", "Pulled milk tea", "Fried snack", "Coconut rice"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Kopi", "romanization": null, "native": { "en": "Coffee" } },
+              { "target": "Air", "romanization": null, "native": { "en": "Water / drink" } },
+              { "target": "Manis", "romanization": null, "native": { "en": "Sweet" } },
+              { "target": "Masam", "romanization": null, "native": { "en": "Sour" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการทำอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "description": {
+        "en": "Learn cooking vocabulary and common ingredients",
+        "zh": "学习烹饪词汇和常见食材",
+        "th": "เรียนรู้คำศัพท์การทำอาหารและส่วนผสมทั่วไป",
+        "ko": "요리 어휘와 일반 재료 배우기",
+        "es": "Aprender vocabulario de cocina e ingredientes comunes"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Common Ingredients",
+            "zh": "常见食材",
+            "th": "ส่วนผสมทั่วไป",
+            "ko": "일반 재료",
+            "es": "Ingredientes comunes"
+          },
+          "objectives": {
+            "en": ["Name common Malay cooking ingredients", "Identify vegetables and proteins"]
+          },
+          "vocabulary": [
+            { "word": "Bawang", "romanization": null, "meanings": { "en": "Onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "Cebolla" } },
+            { "word": "Cili", "romanization": null, "meanings": { "en": "Chilli", "zh": "辣椒", "th": "พริก", "ko": "고추", "es": "Chile" } },
+            { "word": "Ayam", "romanization": null, "meanings": { "en": "Chicken", "zh": "鸡", "th": "ไก่", "ko": "닭고기", "es": "Pollo" } },
+            { "word": "Ikan", "romanization": null, "meanings": { "en": "Fish", "zh": "鱼", "th": "ปลา", "ko": "생선", "es": "Pescado" } },
+            { "word": "Sayur", "romanization": null, "meanings": { "en": "Vegetables", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "Verduras" } },
+            { "word": "Santan", "romanization": null, "meanings": { "en": "Coconut milk", "zh": "椰浆", "th": "กะทิ", "ko": "코코넛 밀크", "es": "Leche de coco" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Santan", "romanization": null, "options": { "en": ["Coconut milk", "Chilli sauce", "Fish sauce", "Soy sauce"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Sayur", "romanization": null, "options": { "en": ["Vegetables", "Meat", "Fish", "Rice"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Chicken' in Malay?" }, "options": { "neutral": ["Ayam", "Ikan", "Sayur", "Bawang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Chilli' in Malay?" }, "options": { "neutral": ["Cili", "Bawang", "Santan", "Ayam"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Bawang", "romanization": null, "options": { "en": ["Onion", "Garlic", "Chilli", "Ginger"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Ayam", "romanization": null, "native": { "en": "Chicken" } },
+              { "target": "Ikan", "romanization": null, "native": { "en": "Fish" } },
+              { "target": "Santan", "romanization": null, "native": { "en": "Coconut milk" } },
+              { "target": "Cili", "romanization": null, "native": { "en": "Chilli" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "조리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": ["Describe how food is cooked", "Use cooking verbs in sentences"]
+          },
+          "vocabulary": [
+            { "word": "Goreng", "romanization": null, "meanings": { "en": "Fry", "zh": "炒/炸", "th": "ทอด / ผัด", "ko": "볶다/튀기다", "es": "Freír" } },
+            { "word": "Rebus", "romanization": null, "meanings": { "en": "Boil", "zh": "煮", "th": "ต้ม", "ko": "삶다", "es": "Hervir" } },
+            { "word": "Bakar", "romanization": null, "meanings": { "en": "Grill / roast", "zh": "烤", "th": "ย่าง / อบ", "ko": "굽다", "es": "Asar" } },
+            { "word": "Kukus", "romanization": null, "meanings": { "en": "Steam", "zh": "蒸", "th": "นึ่ง", "ko": "찌다", "es": "Cocinar al vapor" } },
+            { "word": "Tumis", "romanization": null, "meanings": { "en": "Stir-fry / sauté", "zh": "翻炒", "th": "ผัด", "ko": "볶다", "es": "Saltear" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Bakar", "romanization": null, "options": { "en": ["Grill / roast", "Boil", "Steam", "Fry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Kukus", "romanization": null, "options": { "en": ["Steam", "Fry", "Boil", "Bake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fry' in Malay?" }, "options": { "neutral": ["Goreng", "Rebus", "Bakar", "Kukus"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Boil' in Malay?" }, "options": { "neutral": ["Rebus", "Goreng", "Tumis", "Bakar"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Tumis", "romanization": null, "options": { "en": ["Stir-fry / sauté", "Steam", "Boil", "Grill"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Goreng", "romanization": null, "native": { "en": "Fry" } },
+              { "target": "Rebus", "romanization": null, "native": { "en": "Boil" } },
+              { "target": "Bakar", "romanization": null, "native": { "en": "Grill / roast" } },
+              { "target": "Kukus", "romanization": null, "native": { "en": "Steam" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Shop for food at a market", "Ask about prices and quantities"]
+          },
+          "vocabulary": [
+            { "word": "Pasar", "romanization": null, "meanings": { "en": "Market", "zh": "市场", "th": "ตลาด", "ko": "시장", "es": "Mercado" } },
+            { "word": "Murah", "romanization": null, "meanings": { "en": "Cheap", "zh": "便宜", "th": "ถูก", "ko": "싸다", "es": "Barato" } },
+            { "word": "Mahal", "romanization": null, "meanings": { "en": "Expensive", "zh": "贵", "th": "แพง", "ko": "비싸다", "es": "Caro" } },
+            { "word": "Segar", "romanization": null, "meanings": { "en": "Fresh", "zh": "新鲜", "th": "สด", "ko": "신선하다", "es": "Fresco" } },
+            { "word": "Berapa kilo?", "romanization": null, "meanings": { "en": "How many kilos?", "zh": "几公斤？", "th": "กี่กิโลกรัม?", "ko": "몇 킬로예요?", "es": "¿Cuántos kilos?" } },
+            { "word": "Buah-buahan", "romanization": null, "meanings": { "en": "Fruits", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "Frutas" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Murah", "romanization": null, "options": { "en": ["Cheap", "Expensive", "Fresh", "Heavy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Segar", "romanization": null, "options": { "en": ["Fresh", "Salty", "Sweet", "Frozen"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Expensive' in Malay?" }, "options": { "neutral": ["Mahal", "Murah", "Segar", "Pasar"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Fruits' in Malay?" }, "options": { "neutral": ["Buah-buahan", "Sayur", "Ikan", "Pasar"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Pasar", "romanization": null, "options": { "en": ["Market", "Restaurant", "Supermarket", "Kitchen"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Murah", "romanization": null, "native": { "en": "Cheap" } },
+              { "target": "Mahal", "romanization": null, "native": { "en": "Expensive" } },
+              { "target": "Segar", "romanization": null, "native": { "en": "Fresh" } },
+              { "target": "Buah-buahan", "romanization": null, "native": { "en": "Fruits" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Eating Out & Food Culture",
+        "zh": "外出用餐与饮食文化",
+        "th": "การทานอาหารนอกบ้านและวัฒนธรรมอาหาร",
+        "ko": "외식과 음식 문화",
+        "es": "Comer fuera y cultura gastronómica"
+      },
+      "description": {
+        "en": "Explore Malaysian food culture, hawker centres and dining etiquette",
+        "zh": "探索马来西亚饮食文化、小贩中心和餐饮礼仪",
+        "th": "สำรวจวัฒนธรรมอาหารมาเลเซีย ศูนย์อาหารฮอว์เกอร์ และมารยาทการรับประทาน",
+        "ko": "말레이시아 음식 문화, 호커 센터, 식사 예절 탐구",
+        "es": "Explorar la cultura gastronómica malaya, hawker centres y etiqueta en la mesa"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Hawker Centre",
+            "zh": "在小贩中心",
+            "th": "ที่ฮอว์เกอร์เซ็นเตอร์",
+            "ko": "호커 센터에서",
+            "es": "En el hawker centre"
+          },
+          "objectives": {
+            "en": ["Navigate a Malaysian hawker centre", "Order food at a stall"]
+          },
+          "vocabulary": [
+            { "word": "Gerai", "romanization": null, "meanings": { "en": "Food stall", "zh": "摊位", "th": "แผงขายอาหาร", "ko": "음식 노점", "es": "Puesto de comida" } },
+            { "word": "Ambil sendiri", "romanization": null, "meanings": { "en": "Self-service / help yourself", "zh": "自取", "th": "บริการตัวเอง", "ko": "셀프서비스", "es": "Autoservicio" } },
+            { "word": "Bungkus", "romanization": null, "meanings": { "en": "Take away / pack", "zh": "打包", "th": "ห่อกลับบ้าน", "ko": "포장", "es": "Para llevar" } },
+            { "word": "Makan di sini", "romanization": null, "meanings": { "en": "Eat here / dine in", "zh": "在这里吃", "th": "ทานที่นี่", "ko": "여기서 먹다", "es": "Comer aquí" } },
+            { "word": "Tunggu sekejap", "romanization": null, "meanings": { "en": "Wait a moment", "zh": "等一下", "th": "รอสักครู่", "ko": "잠깐 기다려요", "es": "Espera un momento" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Bungkus", "romanization": null, "options": { "en": ["Take away / pack", "Eat here", "Order now", "Self-service"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Gerai", "romanization": null, "options": { "en": ["Food stall", "Restaurant", "Canteen", "Market"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Eat here' in Malay?" }, "options": { "neutral": ["Makan di sini", "Bungkus", "Gerai", "Ambil sendiri"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wait a moment' in Malay?" }, "options": { "neutral": ["Tunggu sekejap", "Makan di sini", "Bungkus", "Gerai"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Ambil sendiri", "romanization": null, "options": { "en": ["Self-service", "Take away", "Eat here", "Wait a moment"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Gerai", "romanization": null, "native": { "en": "Food stall" } },
+              { "target": "Bungkus", "romanization": null, "native": { "en": "Take away / pack" } },
+              { "target": "Makan di sini", "romanization": null, "native": { "en": "Eat here" } },
+              { "target": "Tunggu sekejap", "romanization": null, "native": { "en": "Wait a moment" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Describing Food",
+            "zh": "描述食物",
+            "th": "การอธิบายอาหาร",
+            "ko": "음식 묘사하기",
+            "es": "Describir la comida"
+          },
+          "objectives": {
+            "en": ["Describe food using taste and texture words", "Give opinions about food"]
+          },
+          "vocabulary": [
+            { "word": "Rangup", "romanization": null, "meanings": { "en": "Crunchy / crispy", "zh": "脆", "th": "กรอบ", "ko": "바삭바삭하다", "es": "Crujiente" } },
+            { "word": "Lembut", "romanization": null, "meanings": { "en": "Soft / tender", "zh": "软/嫩", "th": "นุ่ม", "ko": "부드럽다", "es": "Suave / tierno" } },
+            { "word": "Berminyak", "romanization": null, "meanings": { "en": "Oily / greasy", "zh": "油腻", "th": "มัน", "ko": "기름지다", "es": "Aceitoso / grasoso" } },
+            { "word": "Enak", "romanization": null, "meanings": { "en": "Tasty / good", "zh": "好吃", "th": "อร่อย", "ko": "맛있다", "es": "Sabroso" } },
+            { "word": "Pahit", "romanization": null, "meanings": { "en": "Bitter", "zh": "苦", "th": "ขม", "ko": "쓰다", "es": "Amargo" } },
+            { "word": "Masin", "romanization": null, "meanings": { "en": "Salty", "zh": "咸", "th": "เค็ม", "ko": "짜다", "es": "Salado" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Rangup", "romanization": null, "options": { "en": ["Crunchy / crispy", "Soft", "Bitter", "Salty"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Pahit", "romanization": null, "options": { "en": ["Bitter", "Sweet", "Salty", "Sour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Salty' in Malay?" }, "options": { "neutral": ["Masin", "Manis", "Masam", "Pahit"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Soft / tender' in Malay?" }, "options": { "neutral": ["Lembut", "Rangup", "Berminyak", "Enak"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Berminyak", "romanization": null, "options": { "en": ["Oily / greasy", "Spicy", "Sweet", "Sour"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Rangup", "romanization": null, "native": { "en": "Crunchy / crispy" } },
+              { "target": "Lembut", "romanization": null, "native": { "en": "Soft / tender" } },
+              { "target": "Pahit", "romanization": null, "native": { "en": "Bitter" } },
+              { "target": "Masin", "romanization": null, "native": { "en": "Salty" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Special Diets & Preferences",
+            "zh": "特殊饮食与偏好",
+            "th": "อาหารพิเศษและความชอบ",
+            "ko": "특별 식이와 선호도",
+            "es": "Dietas especiales y preferencias"
+          },
+          "objectives": {
+            "en": ["Communicate dietary restrictions", "Ask about halal and vegetarian options"]
+          },
+          "vocabulary": [
+            { "word": "Halal", "romanization": null, "meanings": { "en": "Halal (permissible under Islamic law)", "zh": "清真", "th": "ฮาลาล", "ko": "할랄", "es": "Halal (permitido por la ley islámica)" } },
+            { "word": "Vegetarian", "romanization": null, "meanings": { "en": "Vegetarian", "zh": "素食", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "Vegetariano" } },
+            { "word": "Alahan", "romanization": null, "meanings": { "en": "Allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "Alergia" } },
+            { "word": "Tidak makan", "romanization": null, "meanings": { "en": "Do not eat", "zh": "不吃", "th": "ไม่ทาน", "ko": "먹지 않아요", "es": "No como" } },
+            { "word": "Adakah ada?", "romanization": null, "meanings": { "en": "Is there any?", "zh": "有没有？", "th": "มีไหม?", "ko": "있나요?", "es": "¿Hay alguno?" } }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "Halal", "romanization": null, "options": { "en": ["Halal (permissible)", "Vegetarian", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "Alahan", "romanization": null, "options": { "en": ["Allergy", "Preference", "Spice", "Flavour"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Do not eat' in Malay?" }, "options": { "neutral": ["Tidak makan", "Alahan", "Halal", "Vegetarian"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Is there any?' in Malay?" }, "options": { "neutral": ["Adakah ada?", "Tidak makan", "Alahan", "Vegetarian"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "Vegetarian", "romanization": null, "options": { "en": ["Vegetarian", "Halal", "Organic", "Spicy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "Halal", "romanization": null, "native": { "en": "Halal (permissible)" } },
+              { "target": "Alahan", "romanization": null, "native": { "en": "Allergy" } },
+              { "target": "Tidak makan", "romanization": null, "native": { "en": "Do not eat" } },
+              { "target": "Adakah ada?", "romanization": null, "native": { "en": "Is there any?" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

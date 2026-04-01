@@ -1,0 +1,217 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A2",
+  "track": "social",
+  "track_label": "Social Life",
+  "track_emoji": "🎉",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Making Friends", "zh": "交朋友", "th": "การสร้างมิตรภาพ", "ko": "친구 사귀기", "es": "Hacer amigos" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Introducing Yourself", "zh": "自我介绍", "th": "การแนะนำตัวเอง", "ko": "자기소개하기", "es": "Presentarse" },
+          "objectives": { "en": ["Introduce yourself in a social setting", "Talk about your hobbies and interests", "Ask and answer personal questions"] },
+          "vocabulary": [
+            { "word": "piacere", "romanization": null, "meanings": { "en": "pleased to meet you / pleasure", "zh": "很高兴认识你", "th": "ยินดีที่ได้รู้จัก", "ko": "만나서 반갑습니다", "es": "mucho gusto" }, "gendered": null },
+            { "word": "hobby", "romanization": null, "meanings": { "en": "hobby", "zh": "爱好", "th": "งานอดิเรก", "ko": "취미", "es": "pasatiempo" }, "gendered": null },
+            { "word": "di dove sei", "romanization": null, "meanings": { "en": "where are you from", "zh": "你来自哪里", "th": "คุณมาจากไหน", "ko": "어디 출신이에요", "es": "de dónde eres" }, "gendered": null },
+            { "word": "simpatico", "romanization": null, "meanings": { "en": "nice / likeable", "zh": "可爱的/亲切的", "th": "น่าชอบ", "ko": "친절한/좋은", "es": "simpático" }, "gendered": null },
+            { "word": "conoscere", "romanization": null, "meanings": { "en": "to know / to meet", "zh": "认识/认识到", "th": "รู้จัก", "ko": "알다/만나다", "es": "conocer" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "piacere", "romanization": null, "options": { "en": ["pleased to meet you / pleasure", "goodbye", "hello", "excuse me"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "simpatico", "romanization": null, "options": { "en": ["nice / likeable", "boring", "shy", "rude"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'where are you from' in Italian?" }, "options": { "neutral": ["di dove sei", "come stai", "chi sei", "quanti anni hai"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to know / to meet' in Italian?" }, "options": { "neutral": ["conoscere", "sapere", "vedere", "sentire"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "hobby", "romanization": null, "options": { "en": ["hobby", "job", "family", "friend"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Making Plans", "zh": "制定计划", "th": "การวางแผน", "ko": "계획 세우기", "es": "Hacer planes" },
+          "objectives": { "en": ["Invite someone to do something", "Accept and decline invitations", "Arrange a time and place to meet"] },
+          "vocabulary": [
+            { "word": "invito", "romanization": null, "meanings": { "en": "invitation", "zh": "邀请", "th": "คำเชิญ", "ko": "초대", "es": "invitación" }, "gendered": null },
+            { "word": "ci vediamo", "romanization": null, "meanings": { "en": "see you / let's meet", "zh": "待会见", "th": "เจอกัน", "ko": "만나요", "es": "nos vemos" }, "gendered": null },
+            { "word": "purtroppo", "romanization": null, "meanings": { "en": "unfortunately", "zh": "不幸的是", "th": "น่าเสียดาย", "ko": "안타깝게도", "es": "desafortunadamente" }, "gendered": null },
+            { "word": "volentieri", "romanization": null, "meanings": { "en": "gladly / with pleasure", "zh": "乐意", "th": "ด้วยความยินดี", "ko": "기꺼이", "es": "con mucho gusto" }, "gendered": null },
+            { "word": "appuntamento", "romanization": null, "meanings": { "en": "appointment / date", "zh": "约会", "th": "นัดหมาย", "ko": "약속", "es": "cita" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "invito", "romanization": null, "options": { "en": ["invitation", "appointment", "plan", "idea"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "volentieri", "romanization": null, "options": { "en": ["gladly / with pleasure", "unfortunately", "maybe", "never"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'unfortunately' in Italian?" }, "options": { "neutral": ["purtroppo", "fortunatamente", "finalmente", "comunque"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'appointment / date' in Italian?" }, "options": { "neutral": ["appuntamento", "invito", "incontro", "serata"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "invito", "romanization": null, "native": { "en": "invitation" } },
+              { "target": "ci vediamo", "romanization": null, "native": { "en": "see you / let's meet" } },
+              { "target": "volentieri", "romanization": null, "native": { "en": "gladly / with pleasure" } },
+              { "target": "appuntamento", "romanization": null, "native": { "en": "appointment / date" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Talking About the Weekend", "zh": "谈论周末", "th": "การพูดถึงวันหยุดสุดสัปดาห์", "ko": "주말에 대해 이야기하기", "es": "Hablar del fin de semana" },
+          "objectives": { "en": ["Talk about what you did at the weekend", "Use the past tense simply", "Express opinions about activities"] },
+          "vocabulary": [
+            { "word": "fine settimana", "romanization": null, "meanings": { "en": "weekend", "zh": "周末", "th": "วันหยุดสุดสัปดาห์", "ko": "주말", "es": "fin de semana" }, "gendered": null },
+            { "word": "divertente", "romanization": null, "meanings": { "en": "fun / entertaining", "zh": "有趣的", "th": "สนุกสนาน", "ko": "재미있는", "es": "divertido" }, "gendered": null },
+            { "word": "noioso", "romanization": null, "meanings": { "en": "boring", "zh": "无聊的", "th": "น่าเบื่อ", "ko": "지루한", "es": "aburrido" }, "gendered": null },
+            { "word": "rilassarsi", "romanization": null, "meanings": { "en": "to relax", "zh": "放松", "th": "ผ่อนคลาย", "ko": "휴식하다", "es": "relajarse" }, "gendered": null },
+            { "word": "passare il tempo", "romanization": null, "meanings": { "en": "to spend time", "zh": "打发时间", "th": "ใช้เวลา", "ko": "시간을 보내다", "es": "pasar el tiempo" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "divertente", "romanization": null, "options": { "en": ["fun / entertaining", "boring", "tiring", "strange"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "noioso", "romanization": null, "options": { "en": ["boring", "fun", "interesting", "relaxing"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'weekend' in Italian?" }, "options": { "neutral": ["fine settimana", "settimana lavorativa", "giorni feriali", "mese"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to relax' in Italian?" }, "options": { "neutral": ["rilassarsi", "divertirsi", "annoiarsi", "prepararsi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "fine settimana", "romanization": null, "options": { "en": ["weekend", "weekday", "holiday", "vacation"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Italian Culture & Etiquette", "zh": "意大利文化与礼仪", "th": "วัฒนธรรมและมารยาทของอิตาลี", "ko": "이탈리아 문화와 에티켓", "es": "Cultura y etiqueta italiana" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Greetings and Farewells", "zh": "问候与道别", "th": "การทักทายและการลา", "ko": "인사와 작별 인사", "es": "Saludos y despedidas" },
+          "objectives": { "en": ["Use formal and informal greetings", "Know when to use tu vs Lei", "Give and receive compliments politely"] },
+          "vocabulary": [
+            { "word": "buongiorno", "romanization": null, "meanings": { "en": "good morning / good day", "zh": "早上好/您好", "th": "สวัสดีตอนเช้า", "ko": "안녕하세요 (아침)", "es": "buenos días" }, "gendered": null },
+            { "word": "buonasera", "romanization": null, "meanings": { "en": "good evening", "zh": "晚上好", "th": "สวัสดีตอนเย็น", "ko": "안녕하세요 (저녁)", "es": "buenas tardes / noches" }, "gendered": null },
+            { "word": "arrivederci", "romanization": null, "meanings": { "en": "goodbye (formal)", "zh": "再见（正式）", "th": "ลาก่อน (ทางการ)", "ko": "안녕히 계세요 (격식)", "es": "adiós (formal)" }, "gendered": null },
+            { "word": "ciao", "romanization": null, "meanings": { "en": "hi / bye (informal)", "zh": "你好/再见（非正式）", "th": "สวัสดี/บาย (ไม่เป็นทางการ)", "ko": "안녕 (비격식)", "es": "hola / adiós (informal)" }, "gendered": null },
+            { "word": "a presto", "romanization": null, "meanings": { "en": "see you soon", "zh": "很快见", "th": "แล้วเจอกัน", "ko": "곧 봐요", "es": "hasta pronto" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "buongiorno", "romanization": null, "options": { "en": ["good morning / good day", "good evening", "goodbye", "good night"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "arrivederci", "romanization": null, "options": { "en": ["goodbye (formal)", "hello (formal)", "see you soon", "good evening"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'see you soon' in Italian?" }, "options": { "neutral": ["a presto", "a domani", "a dopo", "arrivederci"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'good evening' in Italian?" }, "options": { "neutral": ["buonasera", "buongiorno", "buonanotte", "ciao"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ciao", "romanization": null, "options": { "en": ["hi / bye (informal)", "goodbye (formal)", "good morning", "good evening"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Festivals and Celebrations", "zh": "节日与庆典", "th": "เทศกาลและงานเฉลิมฉลอง", "ko": "축제와 축하", "es": "Festividades y celebraciones" },
+          "objectives": { "en": ["Talk about Italian holidays and festivals", "Wish someone well on special occasions", "Ask about cultural traditions"] },
+          "vocabulary": [
+            { "word": "festa", "romanization": null, "meanings": { "en": "party / festival / holiday", "zh": "派对/节日", "th": "งานปาร์ตี้/เทศกาล", "ko": "파티/축제/공휴일", "es": "fiesta / festividad" }, "gendered": null },
+            { "word": "auguri", "romanization": null, "meanings": { "en": "best wishes / congratulations", "zh": "祝愿/恭喜", "th": "อวยพร/ยินดีด้วย", "ko": "축하해요/잘 되길 바라요", "es": "felicitaciones / saludos" }, "gendered": null },
+            { "word": "Natale", "romanization": null, "meanings": { "en": "Christmas", "zh": "圣诞节", "th": "คริสต์มาส", "ko": "크리스마스", "es": "Navidad" }, "gendered": null },
+            { "word": "Capodanno", "romanization": null, "meanings": { "en": "New Year", "zh": "新年", "th": "ปีใหม่", "ko": "새해", "es": "Año Nuevo" }, "gendered": null },
+            { "word": "compleanno", "romanization": null, "meanings": { "en": "birthday", "zh": "生日", "th": "วันเกิด", "ko": "생일", "es": "cumpleaños" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "festa", "romanization": null, "options": { "en": ["party / festival / holiday", "day off", "weekend", "ceremony"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "auguri", "romanization": null, "options": { "en": ["best wishes / congratulations", "goodbye", "thank you", "please"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'birthday' in Italian?" }, "options": { "neutral": ["compleanno", "anniversario", "onomastico", "capodanno"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Christmas' in Italian?" }, "options": { "neutral": ["Natale", "Pasqua", "Capodanno", "Carnevale"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "festa", "romanization": null, "native": { "en": "party / festival" } },
+              { "target": "auguri", "romanization": null, "native": { "en": "best wishes / congratulations" } },
+              { "target": "Natale", "romanization": null, "native": { "en": "Christmas" } },
+              { "target": "compleanno", "romanization": null, "native": { "en": "birthday" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Social Etiquette", "zh": "社交礼仪", "th": "มารยาทในสังคม", "ko": "사회적 예절", "es": "Etiqueta social" },
+          "objectives": { "en": ["Know Italian social customs", "Accept and offer gifts politely", "Apologise and respond to apologies"] },
+          "vocabulary": [
+            { "word": "scusa", "romanization": null, "meanings": { "en": "excuse me / sorry (informal)", "zh": "不好意思/对不起", "th": "ขอโทษ (ไม่เป็นทางการ)", "ko": "실례합니다/미안해요 (비격식)", "es": "disculpa / perdona" }, "gendered": null },
+            { "word": "mi dispiace", "romanization": null, "meanings": { "en": "I am sorry", "zh": "我很抱歉", "th": "ฉันเสียใจ", "ko": "죄송합니다", "es": "lo siento" }, "gendered": null },
+            { "word": "prego", "romanization": null, "meanings": { "en": "you're welcome / please / go ahead", "zh": "不客气/请", "th": "ไม่เป็นไร/เชิญ", "ko": "천만에요/어서요", "es": "de nada / por favor" }, "gendered": null },
+            { "word": "grazie mille", "romanization": null, "meanings": { "en": "thank you very much", "zh": "非常感谢", "th": "ขอบคุณมาก", "ko": "정말 감사합니다", "es": "muchas gracias" }, "gendered": null },
+            { "word": "regalo", "romanization": null, "meanings": { "en": "gift / present", "zh": "礼物", "th": "ของขวัญ", "ko": "선물", "es": "regalo" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mi dispiace", "romanization": null, "options": { "en": ["I am sorry", "you're welcome", "thank you", "excuse me"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "regalo", "romanization": null, "options": { "en": ["gift / present", "card", "flower", "cake"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'you're welcome' in Italian?" }, "options": { "neutral": ["prego", "grazie", "scusa", "certo"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'thank you very much' in Italian?" }, "options": { "neutral": ["grazie mille", "prego", "mi dispiace", "per favore"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mi dispiace", "romanization": null, "options": { "en": ["I am sorry", "I am happy", "I am hungry", "I am tired"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Going Out", "zh": "外出活动", "th": "การออกไปข้างนอก", "ko": "외출하기", "es": "Salir" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "At a Bar or Café", "zh": "在酒吧或咖啡馆", "th": "ที่บาร์หรือคาเฟ่", "ko": "바나 카페에서", "es": "En un bar o cafetería" },
+          "objectives": { "en": ["Order drinks at an Italian bar", "Know the customs of the Italian bar", "Chat with the barista"] },
+          "vocabulary": [
+            { "word": "bar", "romanization": null, "meanings": { "en": "bar / café (Italian style)", "zh": "咖啡吧", "th": "บาร์/คาเฟ่", "ko": "바/카페", "es": "bar" }, "gendered": null },
+            { "word": "al banco", "romanization": null, "meanings": { "en": "at the counter", "zh": "在柜台", "th": "ที่เคาน์เตอร์", "ko": "카운터에서", "es": "en la barra" }, "gendered": null },
+            { "word": "aperitivo", "romanization": null, "meanings": { "en": "aperitif / pre-dinner drink", "zh": "餐前酒", "th": "เครื่องดื่มก่อนอาหาร", "ko": "식전주", "es": "aperitivo" }, "gendered": null },
+            { "word": "spritz", "romanization": null, "meanings": { "en": "spritz (popular Italian drink)", "zh": "气泡鸡尾酒", "th": "สปริตซ์", "ko": "스프리츠", "es": "spritz" }, "gendered": null },
+            { "word": "offro io", "romanization": null, "meanings": { "en": "my treat / it's on me", "zh": "我请客", "th": "ฉันเลี้ยง", "ko": "제가 살게요", "es": "yo invito" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "aperitivo", "romanization": null, "options": { "en": ["aperitif / pre-dinner drink", "dessert drink", "morning coffee", "soft drink"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "al banco", "romanization": null, "options": { "en": ["at the counter", "at the table", "outside", "upstairs"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'my treat / it's on me' in Italian?" }, "options": { "neutral": ["offro io", "pago tu", "dividiamo", "gratis"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bar / café' in Italian?" }, "options": { "neutral": ["bar", "caffetteria", "ristorante", "pasticceria"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "aperitivo", "romanization": null, "options": { "en": ["aperitif / pre-dinner drink", "coffee", "beer", "water"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "At a Party", "zh": "在派对上", "th": "ในงานปาร์ตี้", "ko": "파티에서", "es": "En una fiesta" },
+          "objectives": { "en": ["Mingle and start conversations at a party", "Talk about people you both know", "Propose a toast"] },
+          "vocabulary": [
+            { "word": "festa", "romanization": null, "meanings": { "en": "party", "zh": "派对", "th": "งานปาร์ตี้", "ko": "파티", "es": "fiesta" }, "gendered": null },
+            { "word": "brindisi", "romanization": null, "meanings": { "en": "toast (raising glasses)", "zh": "干杯", "th": "การชนแก้ว", "ko": "건배", "es": "brindis" }, "gendered": null },
+            { "word": "salute", "romanization": null, "meanings": { "en": "cheers! / health!", "zh": "干杯！/健康！", "th": "ไชโย!/สุขภาพดี!", "ko": "건배!/건강을 위하여!", "es": "¡salud!" }, "gendered": null },
+            { "word": "musica", "romanization": null, "meanings": { "en": "music", "zh": "音乐", "th": "ดนตรี", "ko": "음악", "es": "música" }, "gendered": null },
+            { "word": "ballare", "romanization": null, "meanings": { "en": "to dance", "zh": "跳舞", "th": "เต้นรำ", "ko": "춤추다", "es": "bailar" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "brindisi", "romanization": null, "options": { "en": ["toast (raising glasses)", "cheers", "drink", "party"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ballare", "romanization": null, "options": { "en": ["to dance", "to sing", "to play", "to drink"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cheers! / health!' in Italian?" }, "options": { "neutral": ["salute", "brindisi", "cin cin", "evviva"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'music' in Italian?" }, "options": { "neutral": ["musica", "canzone", "concerto", "ritmo"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "brindisi", "romanization": null, "native": { "en": "toast (raising glasses)" } },
+              { "target": "salute", "romanization": null, "native": { "en": "cheers! / health!" } },
+              { "target": "musica", "romanization": null, "native": { "en": "music" } },
+              { "target": "ballare", "romanization": null, "native": { "en": "to dance" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Talking About Hobbies", "zh": "谈论爱好", "th": "การพูดถึงงานอดิเรก", "ko": "취미에 대해 이야기하기", "es": "Hablar de aficiones" },
+          "objectives": { "en": ["Describe your hobbies and pastimes", "Ask others about their interests", "Express enthusiasm or lack of interest"] },
+          "vocabulary": [
+            { "word": "interesse", "romanization": null, "meanings": { "en": "interest", "zh": "兴趣", "th": "ความสนใจ", "ko": "관심사", "es": "interés" }, "gendered": null },
+            { "word": "appassionato", "romanization": null, "meanings": { "en": "passionate about / keen on", "zh": "热爱", "th": "หลงใหล", "ko": "열정적인", "es": "apasionado" }, "gendered": null },
+            { "word": "suonare", "romanization": null, "meanings": { "en": "to play (an instrument)", "zh": "演奏（乐器）", "th": "เล่น (เครื่องดนตรี)", "ko": "연주하다", "es": "tocar (un instrumento)" }, "gendered": null },
+            { "word": "leggere", "romanization": null, "meanings": { "en": "to read", "zh": "读书", "th": "อ่านหนังสือ", "ko": "읽다", "es": "leer" }, "gendered": null },
+            { "word": "mi piace", "romanization": null, "meanings": { "en": "I like", "zh": "我喜欢", "th": "ฉันชอบ", "ko": "나는 좋아해요", "es": "me gusta" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "appassionato", "romanization": null, "options": { "en": ["passionate about / keen on", "bored by", "confused by", "afraid of"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "suonare", "romanization": null, "options": { "en": ["to play (an instrument)", "to listen", "to sing", "to dance"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I like' in Italian?" }, "options": { "neutral": ["mi piace", "mi dispiace", "voglio", "devo"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to read' in Italian?" }, "options": { "neutral": ["leggere", "scrivere", "parlare", "ascoltare"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "interesse", "romanization": null, "options": { "en": ["interest", "hobby", "passion", "activity"] }, "correct": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

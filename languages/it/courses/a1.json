@@ -1,0 +1,575 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings & Introductions" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Hello & Goodbye" },
+          "objectives": { "en": ["Greet people in Italian", "Say goodbye using common expressions"] },
+          "vocabulary": [
+            { "word": "ciao", "romanization": null, "meanings": { "en": "hello / bye" }, "gendered": null },
+            { "word": "buongiorno", "romanization": null, "meanings": { "en": "good morning" }, "gendered": null },
+            { "word": "buonasera", "romanization": null, "meanings": { "en": "good evening" }, "gendered": null },
+            { "word": "arrivederci", "romanization": null, "meanings": { "en": "goodbye" }, "gendered": null },
+            { "word": "buonanotte", "romanization": null, "meanings": { "en": "good night" }, "gendered": null },
+            { "word": "salve", "romanization": null, "meanings": { "en": "hello (neutral)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ciao", "romanization": null, "options": { "en": ["hello / bye", "good morning", "good night", "goodbye"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "buongiorno", "romanization": null, "options": { "en": ["good morning", "good evening", "good night", "hello"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'goodbye' in Italian?" }, "options": { "neutral": ["arrivederci", "ciao", "buongiorno", "salve"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'good evening' in Italian?" }, "options": { "neutral": ["buonasera", "buongiorno", "buonanotte", "ciao"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "buonanotte", "romanization": null, "options": { "en": ["good night", "good morning", "good evening", "hello"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "salve", "romanization": null, "options": { "en": ["hello (neutral)", "goodbye", "good night", "good morning"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ciao", "romanization": null, "native": { "en": "hello / bye" } },
+              { "target": "buongiorno", "romanization": null, "native": { "en": "good morning" } },
+              { "target": "arrivederci", "romanization": null, "native": { "en": "goodbye" } },
+              { "target": "buonanotte", "romanization": null, "native": { "en": "good night" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "What's Your Name?" },
+          "objectives": { "en": ["Introduce yourself by name", "Ask someone their name"] },
+          "vocabulary": [
+            { "word": "mi chiamo", "romanization": null, "meanings": { "en": "my name is" }, "gendered": null },
+            { "word": "come ti chiami?", "romanization": null, "meanings": { "en": "what's your name?" }, "gendered": null },
+            { "word": "piacere", "romanization": null, "meanings": { "en": "nice to meet you" }, "gendered": null },
+            { "word": "sono", "romanization": null, "meanings": { "en": "I am" }, "gendered": null },
+            { "word": "e tu?", "romanization": null, "meanings": { "en": "and you?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mi chiamo", "romanization": null, "options": { "en": ["my name is", "what's your name?", "I am", "nice to meet you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "piacere", "romanization": null, "options": { "en": ["nice to meet you", "my name is", "and you?", "I am"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask 'what's your name?' in Italian?" }, "options": { "neutral": ["come ti chiami?", "mi chiamo", "piacere", "e tu?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I am' in Italian?" }, "options": { "neutral": ["sono", "mi chiamo", "piacere", "e tu?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "mi chiamo", "romanization": null, "options": { "en": ["my name is", "what's your name?", "nice to meet you", "and you?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "e tu?", "romanization": null, "options": { "en": ["and you?", "I am", "my name is", "nice to meet you"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "mi chiamo", "romanization": null, "native": { "en": "my name is" } },
+              { "target": "come ti chiami?", "romanization": null, "native": { "en": "what's your name?" } },
+              { "target": "piacere", "romanization": null, "native": { "en": "nice to meet you" } },
+              { "target": "sono", "romanization": null, "native": { "en": "I am" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "How Are You?" },
+          "objectives": { "en": ["Ask how someone is feeling", "Respond to 'how are you?'"] },
+          "vocabulary": [
+            { "word": "come stai?", "romanization": null, "meanings": { "en": "how are you?" }, "gendered": null },
+            { "word": "bene", "romanization": null, "meanings": { "en": "well / good" }, "gendered": null },
+            { "word": "male", "romanization": null, "meanings": { "en": "bad" }, "gendered": null },
+            { "word": "così così", "romanization": null, "meanings": { "en": "so-so" }, "gendered": null },
+            { "word": "grazie", "romanization": null, "meanings": { "en": "thank you" }, "gendered": null },
+            { "word": "molto bene", "romanization": null, "meanings": { "en": "very well" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "come stai?", "romanization": null, "options": { "en": ["how are you?", "what's your name?", "where are you?", "who are you?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "così così", "romanization": null, "options": { "en": ["so-so", "very well", "bad", "good"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'thank you' in Italian?" }, "options": { "neutral": ["grazie", "piacere", "bene", "ciao"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'very well' in Italian?" }, "options": { "neutral": ["molto bene", "bene", "così così", "male"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "bene", "romanization": null, "options": { "en": ["well / good", "bad", "so-so", "thank you"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "male", "romanization": null, "options": { "en": ["bad", "good", "so-so", "very well"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "bene", "romanization": null, "native": { "en": "well / good" } },
+              { "target": "male", "romanization": null, "native": { "en": "bad" } },
+              { "target": "così così", "romanization": null, "native": { "en": "so-so" } },
+              { "target": "grazie", "romanization": null, "native": { "en": "thank you" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Polite Expressions" },
+          "objectives": { "en": ["Use basic polite words", "Say please, sorry, and excuse me"] },
+          "vocabulary": [
+            { "word": "per favore", "romanization": null, "meanings": { "en": "please" }, "gendered": null },
+            { "word": "scusa", "romanization": null, "meanings": { "en": "sorry / excuse me" }, "gendered": null },
+            { "word": "prego", "romanization": null, "meanings": { "en": "you're welcome" }, "gendered": null },
+            { "word": "sì", "romanization": null, "meanings": { "en": "yes" }, "gendered": null },
+            { "word": "no", "romanization": null, "meanings": { "en": "no" }, "gendered": null },
+            { "word": "permesso", "romanization": null, "meanings": { "en": "excuse me (to pass)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "per favore", "romanization": null, "options": { "en": ["please", "thank you", "sorry", "you're welcome"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "prego", "romanization": null, "options": { "en": ["you're welcome", "please", "sorry", "yes"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sorry' in Italian?" }, "options": { "neutral": ["scusa", "prego", "per favore", "permesso"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'yes' in Italian?" }, "options": { "neutral": ["sì", "no", "prego", "scusa"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "permesso", "romanization": null, "options": { "en": ["excuse me (to pass)", "please", "sorry", "you're welcome"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "scusa", "romanization": null, "options": { "en": ["sorry / excuse me", "please", "you're welcome", "no"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "per favore", "romanization": null, "native": { "en": "please" } },
+              { "target": "scusa", "romanization": null, "native": { "en": "sorry / excuse me" } },
+              { "target": "prego", "romanization": null, "native": { "en": "you're welcome" } },
+              { "target": "permesso", "romanization": null, "native": { "en": "excuse me (to pass)" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Numbers, Time & Days" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Numbers 1-10" },
+          "objectives": { "en": ["Count from one to ten in Italian", "Recognize written numbers"] },
+          "vocabulary": [
+            { "word": "uno", "romanization": null, "meanings": { "en": "one" }, "gendered": null },
+            { "word": "due", "romanization": null, "meanings": { "en": "two" }, "gendered": null },
+            { "word": "tre", "romanization": null, "meanings": { "en": "three" }, "gendered": null },
+            { "word": "quattro", "romanization": null, "meanings": { "en": "four" }, "gendered": null },
+            { "word": "cinque", "romanization": null, "meanings": { "en": "five" }, "gendered": null },
+            { "word": "sei", "romanization": null, "meanings": { "en": "six" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "tre", "romanization": null, "options": { "en": ["three", "two", "four", "five"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "cinque", "romanization": null, "options": { "en": ["five", "six", "four", "three"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'one' in Italian?" }, "options": { "neutral": ["uno", "due", "tre", "sei"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'four' in Italian?" }, "options": { "neutral": ["quattro", "cinque", "tre", "sei"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "due", "romanization": null, "options": { "en": ["two", "three", "one", "six"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "sei", "romanization": null, "options": { "en": ["six", "five", "four", "two"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "uno", "romanization": null, "native": { "en": "one" } },
+              { "target": "due", "romanization": null, "native": { "en": "two" } },
+              { "target": "quattro", "romanization": null, "native": { "en": "four" } },
+              { "target": "cinque", "romanization": null, "native": { "en": "five" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Numbers 7-10 & Zero" },
+          "objectives": { "en": ["Learn numbers seven through ten", "Understand the concept of zero"] },
+          "vocabulary": [
+            { "word": "sette", "romanization": null, "meanings": { "en": "seven" }, "gendered": null },
+            { "word": "otto", "romanization": null, "meanings": { "en": "eight" }, "gendered": null },
+            { "word": "nove", "romanization": null, "meanings": { "en": "nine" }, "gendered": null },
+            { "word": "dieci", "romanization": null, "meanings": { "en": "ten" }, "gendered": null },
+            { "word": "zero", "romanization": null, "meanings": { "en": "zero" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "sette", "romanization": null, "options": { "en": ["seven", "eight", "nine", "ten"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "dieci", "romanization": null, "options": { "en": ["ten", "nine", "eight", "zero"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'eight' in Italian?" }, "options": { "neutral": ["otto", "nove", "sette", "dieci"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'zero' in Italian?" }, "options": { "neutral": ["zero", "uno", "dieci", "nove"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "nove", "romanization": null, "options": { "en": ["nine", "seven", "ten", "eight"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "otto", "romanization": null, "options": { "en": ["eight", "seven", "nine", "zero"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "sette", "romanization": null, "native": { "en": "seven" } },
+              { "target": "otto", "romanization": null, "native": { "en": "eight" } },
+              { "target": "nove", "romanization": null, "native": { "en": "nine" } },
+              { "target": "dieci", "romanization": null, "native": { "en": "ten" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Name all seven days of the week", "Ask and answer what day it is"] },
+          "vocabulary": [
+            { "word": "lunedì", "romanization": null, "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "martedì", "romanization": null, "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "mercoledì", "romanization": null, "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "giovedì", "romanization": null, "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "venerdì", "romanization": null, "meanings": { "en": "Friday" }, "gendered": null },
+            { "word": "sabato", "romanization": null, "meanings": { "en": "Saturday" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "lunedì", "romanization": null, "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "venerdì", "romanization": null, "options": { "en": ["Friday", "Thursday", "Saturday", "Wednesday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in Italian?" }, "options": { "neutral": ["mercoledì", "martedì", "giovedì", "venerdì"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Saturday' in Italian?" }, "options": { "neutral": ["sabato", "lunedì", "venerdì", "martedì"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "giovedì", "romanization": null, "options": { "en": ["Thursday", "Tuesday", "Friday", "Monday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "martedì", "romanization": null, "options": { "en": ["Tuesday", "Monday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "lunedì", "romanization": null, "native": { "en": "Monday" } },
+              { "target": "mercoledì", "romanization": null, "native": { "en": "Wednesday" } },
+              { "target": "venerdì", "romanization": null, "native": { "en": "Friday" } },
+              { "target": "sabato", "romanization": null, "native": { "en": "Saturday" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask what time it is", "Understand basic time expressions"] },
+          "vocabulary": [
+            { "word": "che ore sono?", "romanization": null, "meanings": { "en": "what time is it?" }, "gendered": null },
+            { "word": "ora", "romanization": null, "meanings": { "en": "hour / time" }, "gendered": null },
+            { "word": "mezzanotte", "romanization": null, "meanings": { "en": "midnight" }, "gendered": null },
+            { "word": "mezzogiorno", "romanization": null, "meanings": { "en": "noon" }, "gendered": null },
+            { "word": "domenica", "romanization": null, "meanings": { "en": "Sunday" }, "gendered": null },
+            { "word": "oggi", "romanization": null, "meanings": { "en": "today" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "che ore sono?", "romanization": null, "options": { "en": ["what time is it?", "what day is it?", "where are you?", "how are you?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "mezzogiorno", "romanization": null, "options": { "en": ["noon", "midnight", "hour", "today"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'midnight' in Italian?" }, "options": { "neutral": ["mezzanotte", "mezzogiorno", "ora", "oggi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sunday' in Italian?" }, "options": { "neutral": ["domenica", "sabato", "lunedì", "oggi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "oggi", "romanization": null, "options": { "en": ["today", "hour", "noon", "midnight"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ora", "romanization": null, "options": { "en": ["hour / time", "today", "noon", "midnight"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "mezzanotte", "romanization": null, "native": { "en": "midnight" } },
+              { "target": "mezzogiorno", "romanization": null, "native": { "en": "noon" } },
+              { "target": "domenica", "romanization": null, "native": { "en": "Sunday" } },
+              { "target": "oggi", "romanization": null, "native": { "en": "today" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food & Ordering" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Drinks" },
+          "objectives": { "en": ["Order common drinks in Italian", "Ask for water, coffee, and more"] },
+          "vocabulary": [
+            { "word": "acqua", "romanization": null, "meanings": { "en": "water" }, "gendered": null },
+            { "word": "caffè", "romanization": null, "meanings": { "en": "coffee" }, "gendered": null },
+            { "word": "tè", "romanization": null, "meanings": { "en": "tea" }, "gendered": null },
+            { "word": "latte", "romanization": null, "meanings": { "en": "milk" }, "gendered": null },
+            { "word": "vino", "romanization": null, "meanings": { "en": "wine" }, "gendered": null },
+            { "word": "birra", "romanization": null, "meanings": { "en": "beer" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "acqua", "romanization": null, "options": { "en": ["water", "coffee", "tea", "milk"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "vino", "romanization": null, "options": { "en": ["wine", "beer", "water", "coffee"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'coffee' in Italian?" }, "options": { "neutral": ["caffè", "tè", "latte", "acqua"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'beer' in Italian?" }, "options": { "neutral": ["birra", "vino", "acqua", "latte"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "tè", "romanization": null, "options": { "en": ["tea", "coffee", "milk", "water"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "latte", "romanization": null, "options": { "en": ["milk", "tea", "wine", "beer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "acqua", "romanization": null, "native": { "en": "water" } },
+              { "target": "caffè", "romanization": null, "native": { "en": "coffee" } },
+              { "target": "vino", "romanization": null, "native": { "en": "wine" } },
+              { "target": "birra", "romanization": null, "native": { "en": "beer" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Food Basics" },
+          "objectives": { "en": ["Name common Italian foods", "Talk about eating and drinking"] },
+          "vocabulary": [
+            { "word": "mangiare", "romanization": null, "meanings": { "en": "to eat" }, "gendered": null },
+            { "word": "pane", "romanization": null, "meanings": { "en": "bread" }, "gendered": null },
+            { "word": "pasta", "romanization": null, "meanings": { "en": "pasta" }, "gendered": null },
+            { "word": "formaggio", "romanization": null, "meanings": { "en": "cheese" }, "gendered": null },
+            { "word": "carne", "romanization": null, "meanings": { "en": "meat" }, "gendered": null },
+            { "word": "pesce", "romanization": null, "meanings": { "en": "fish" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "mangiare", "romanization": null, "options": { "en": ["to eat", "to drink", "bread", "meat"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "formaggio", "romanization": null, "options": { "en": ["cheese", "bread", "fish", "meat"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bread' in Italian?" }, "options": { "neutral": ["pane", "pasta", "carne", "pesce"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'fish' in Italian?" }, "options": { "neutral": ["pesce", "carne", "formaggio", "pane"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "pasta", "romanization": null, "options": { "en": ["pasta", "bread", "cheese", "meat"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "carne", "romanization": null, "options": { "en": ["meat", "fish", "cheese", "pasta"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "mangiare", "romanization": null, "native": { "en": "to eat" } },
+              { "target": "pane", "romanization": null, "native": { "en": "bread" } },
+              { "target": "formaggio", "romanization": null, "native": { "en": "cheese" } },
+              { "target": "pesce", "romanization": null, "native": { "en": "fish" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Restaurant" },
+          "objectives": { "en": ["Order food at a restaurant", "Ask for the bill"] },
+          "vocabulary": [
+            { "word": "il conto", "romanization": null, "meanings": { "en": "the bill" }, "gendered": null },
+            { "word": "il menu", "romanization": null, "meanings": { "en": "the menu" }, "gendered": null },
+            { "word": "vorrei", "romanization": null, "meanings": { "en": "I would like" }, "gendered": null },
+            { "word": "un tavolo", "romanization": null, "meanings": { "en": "a table" }, "gendered": null },
+            { "word": "cameriere", "romanization": null, "meanings": { "en": "waiter" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "vorrei", "romanization": null, "options": { "en": ["I would like", "the bill", "the menu", "a table"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "il conto", "romanization": null, "options": { "en": ["the bill", "the menu", "a table", "waiter"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the menu' in Italian?" }, "options": { "neutral": ["il menu", "il conto", "vorrei", "un tavolo"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'waiter' in Italian?" }, "options": { "neutral": ["cameriere", "il conto", "vorrei", "un tavolo"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "un tavolo", "romanization": null, "options": { "en": ["a table", "the bill", "waiter", "the menu"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "vorrei", "romanization": null, "options": { "en": ["I would like", "the menu", "waiter", "the bill"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "il conto", "romanization": null, "native": { "en": "the bill" } },
+              { "target": "il menu", "romanization": null, "native": { "en": "the menu" } },
+              { "target": "vorrei", "romanization": null, "native": { "en": "I would like" } },
+              { "target": "cameriere", "romanization": null, "native": { "en": "waiter" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Prices & Paying" },
+          "objectives": { "en": ["Ask how much something costs", "Understand basic price expressions"] },
+          "vocabulary": [
+            { "word": "quanto costa?", "romanization": null, "meanings": { "en": "how much does it cost?" }, "gendered": null },
+            { "word": "euro", "romanization": null, "meanings": { "en": "euro" }, "gendered": null },
+            { "word": "caro", "romanization": null, "meanings": { "en": "expensive" }, "gendered": null },
+            { "word": "economico", "romanization": null, "meanings": { "en": "cheap" }, "gendered": null },
+            { "word": "pagare", "romanization": null, "meanings": { "en": "to pay" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "quanto costa?", "romanization": null, "options": { "en": ["how much does it cost?", "what is this?", "where is it?", "what time is it?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "caro", "romanization": null, "options": { "en": ["expensive", "cheap", "to pay", "euro"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cheap' in Italian?" }, "options": { "neutral": ["economico", "caro", "euro", "pagare"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to pay' in Italian?" }, "options": { "neutral": ["pagare", "quanto costa?", "caro", "economico"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "euro", "romanization": null, "options": { "en": ["euro", "expensive", "cheap", "to pay"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "pagare", "romanization": null, "options": { "en": ["to pay", "expensive", "euro", "how much?"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "quanto costa?", "romanization": null, "native": { "en": "how much does it cost?" } },
+              { "target": "caro", "romanization": null, "native": { "en": "expensive" } },
+              { "target": "economico", "romanization": null, "native": { "en": "cheap" } },
+              { "target": "pagare", "romanization": null, "native": { "en": "to pay" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Family & Descriptions" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name immediate family members", "Talk about your family"] },
+          "vocabulary": [
+            { "word": "famiglia", "romanization": null, "meanings": { "en": "family" }, "gendered": null },
+            { "word": "madre", "romanization": null, "meanings": { "en": "mother" }, "gendered": null },
+            { "word": "padre", "romanization": null, "meanings": { "en": "father" }, "gendered": null },
+            { "word": "fratello", "romanization": null, "meanings": { "en": "brother" }, "gendered": null },
+            { "word": "sorella", "romanization": null, "meanings": { "en": "sister" }, "gendered": null },
+            { "word": "figlio", "romanization": null, "meanings": { "en": "son" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "famiglia", "romanization": null, "options": { "en": ["family", "mother", "father", "brother"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "sorella", "romanization": null, "options": { "en": ["sister", "brother", "mother", "son"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'father' in Italian?" }, "options": { "neutral": ["padre", "madre", "fratello", "figlio"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'brother' in Italian?" }, "options": { "neutral": ["fratello", "sorella", "figlio", "padre"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "madre", "romanization": null, "options": { "en": ["mother", "father", "sister", "family"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "figlio", "romanization": null, "options": { "en": ["son", "brother", "father", "sister"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "madre", "romanization": null, "native": { "en": "mother" } },
+              { "target": "padre", "romanization": null, "native": { "en": "father" } },
+              { "target": "fratello", "romanization": null, "native": { "en": "brother" } },
+              { "target": "sorella", "romanization": null, "native": { "en": "sister" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "More Family" },
+          "objectives": { "en": ["Name extended family members", "Describe family relationships"] },
+          "vocabulary": [
+            { "word": "figlia", "romanization": null, "meanings": { "en": "daughter" }, "gendered": null },
+            { "word": "nonno", "romanization": null, "meanings": { "en": "grandfather" }, "gendered": null },
+            { "word": "nonna", "romanization": null, "meanings": { "en": "grandmother" }, "gendered": null },
+            { "word": "marito", "romanization": null, "meanings": { "en": "husband" }, "gendered": null },
+            { "word": "moglie", "romanization": null, "meanings": { "en": "wife" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "nonno", "romanization": null, "options": { "en": ["grandfather", "grandmother", "husband", "wife"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "moglie", "romanization": null, "options": { "en": ["wife", "husband", "daughter", "grandmother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'daughter' in Italian?" }, "options": { "neutral": ["figlia", "figlio", "moglie", "nonna"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'husband' in Italian?" }, "options": { "neutral": ["marito", "moglie", "nonno", "padre"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "nonna", "romanization": null, "options": { "en": ["grandmother", "grandfather", "wife", "daughter"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "figlia", "romanization": null, "options": { "en": ["daughter", "wife", "grandmother", "sister"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "figlia", "romanization": null, "native": { "en": "daughter" } },
+              { "target": "nonno", "romanization": null, "native": { "en": "grandfather" } },
+              { "target": "marito", "romanization": null, "native": { "en": "husband" } },
+              { "target": "moglie", "romanization": null, "native": { "en": "wife" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Descriptions - Size & Color" },
+          "objectives": { "en": ["Describe size using adjectives", "Name basic colors"] },
+          "vocabulary": [
+            { "word": "grande", "romanization": null, "meanings": { "en": "big" }, "gendered": null },
+            { "word": "piccolo", "romanization": null, "meanings": { "en": "small" }, "gendered": null },
+            { "word": "rosso", "romanization": null, "meanings": { "en": "red" }, "gendered": null },
+            { "word": "blu", "romanization": null, "meanings": { "en": "blue" }, "gendered": null },
+            { "word": "verde", "romanization": null, "meanings": { "en": "green" }, "gendered": null },
+            { "word": "bianco", "romanization": null, "meanings": { "en": "white" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "grande", "romanization": null, "options": { "en": ["big", "small", "red", "green"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "rosso", "romanization": null, "options": { "en": ["red", "blue", "green", "white"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'small' in Italian?" }, "options": { "neutral": ["piccolo", "grande", "verde", "blu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'white' in Italian?" }, "options": { "neutral": ["bianco", "rosso", "blu", "verde"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "blu", "romanization": null, "options": { "en": ["blue", "red", "green", "white"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "verde", "romanization": null, "options": { "en": ["green", "blue", "red", "big"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "grande", "romanization": null, "native": { "en": "big" } },
+              { "target": "piccolo", "romanization": null, "native": { "en": "small" } },
+              { "target": "rosso", "romanization": null, "native": { "en": "red" } },
+              { "target": "blu", "romanization": null, "native": { "en": "blue" } }
+            ] }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Personality & Appearance" },
+          "objectives": { "en": ["Describe people's personality", "Describe physical appearance"] },
+          "vocabulary": [
+            { "word": "bello", "romanization": null, "meanings": { "en": "beautiful / handsome" }, "gendered": null },
+            { "word": "alto", "romanization": null, "meanings": { "en": "tall" }, "gendered": null },
+            { "word": "basso", "romanization": null, "meanings": { "en": "short (height)" }, "gendered": null },
+            { "word": "giovane", "romanization": null, "meanings": { "en": "young" }, "gendered": null },
+            { "word": "vecchio", "romanization": null, "meanings": { "en": "old" }, "gendered": null },
+            { "word": "simpatico", "romanization": null, "meanings": { "en": "nice / likeable" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "bello", "romanization": null, "options": { "en": ["beautiful / handsome", "tall", "short", "young"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "giovane", "romanization": null, "options": { "en": ["young", "old", "tall", "nice"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'tall' in Italian?" }, "options": { "neutral": ["alto", "basso", "bello", "vecchio"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'old' in Italian?" }, "options": { "neutral": ["vecchio", "giovane", "alto", "simpatico"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "basso", "romanization": null, "options": { "en": ["short (height)", "tall", "young", "old"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "simpatico", "romanization": null, "options": { "en": ["nice / likeable", "beautiful", "tall", "young"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "bello", "romanization": null, "native": { "en": "beautiful / handsome" } },
+              { "target": "alto", "romanization": null, "native": { "en": "tall" } },
+              { "target": "giovane", "romanization": null, "native": { "en": "young" } },
+              { "target": "vecchio", "romanization": null, "native": { "en": "old" } }
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Places & Directions" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Common Places" },
+          "objectives": { "en": ["Name common places in a city", "Ask where places are"] },
+          "vocabulary": [
+            { "word": "dov'è?", "romanization": null, "meanings": { "en": "where is?" }, "gendered": null },
+            { "word": "la stazione", "romanization": null, "meanings": { "en": "the station" }, "gendered": null },
+            { "word": "l'ospedale", "romanization": null, "meanings": { "en": "the hospital" }, "gendered": null },
+            { "word": "il ristorante", "romanization": null, "meanings": { "en": "the restaurant" }, "gendered": null },
+            { "word": "la farmacia", "romanization": null, "meanings": { "en": "the pharmacy" }, "gendered": null },
+            { "word": "il supermercato", "romanization": null, "meanings": { "en": "the supermarket" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "dov'è?", "romanization": null, "options": { "en": ["where is?", "what is?", "how much?", "who is?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "la farmacia", "romanization": null, "options": { "en": ["the pharmacy", "the hospital", "the station", "the restaurant"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the station' in Italian?" }, "options": { "neutral": ["la stazione", "l'ospedale", "il ristorante", "la farmacia"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'the supermarket' in Italian?" }, "options": { "neutral": ["il supermercato", "la farmacia", "la stazione", "il ristorante"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "l'ospedale", "romanization": null, "options": { "en": ["the hospital", "the pharmacy", "the station", "the supermarket"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "il ristorante", "romanization": null, "options": { "en": ["the restaurant", "the supermarket", "the hospital", "the pharmacy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "la stazione", "romanization": null, "native": { "en": "the station" } },
+              { "target": "l'ospedale", "romanization": null, "native": { "en": "the hospital" } },
+              { "target": "il ristorante", "romanization": null, "native": { "en": "the restaurant" } },
+              { "target": "la farmacia", "romanization": null, "native": { "en": "the pharmacy" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Directions" },
+          "objectives": { "en": ["Give and understand basic directions", "Use left, right, and straight"] },
+          "vocabulary": [
+            { "word": "destra", "romanization": null, "meanings": { "en": "right" }, "gendered": null },
+            { "word": "sinistra", "romanization": null, "meanings": { "en": "left" }, "gendered": null },
+            { "word": "dritto", "romanization": null, "meanings": { "en": "straight" }, "gendered": null },
+            { "word": "vicino", "romanization": null, "meanings": { "en": "near" }, "gendered": null },
+            { "word": "lontano", "romanization": null, "meanings": { "en": "far" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "destra", "romanization": null, "options": { "en": ["right", "left", "straight", "near"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "dritto", "romanization": null, "options": { "en": ["straight", "right", "left", "far"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'left' in Italian?" }, "options": { "neutral": ["sinistra", "destra", "dritto", "vicino"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'far' in Italian?" }, "options": { "neutral": ["lontano", "vicino", "dritto", "destra"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "vicino", "romanization": null, "options": { "en": ["near", "far", "right", "left"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "sinistra", "romanization": null, "options": { "en": ["left", "right", "straight", "near"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "destra", "romanization": null, "native": { "en": "right" } },
+              { "target": "sinistra", "romanization": null, "native": { "en": "left" } },
+              { "target": "vicino", "romanization": null, "native": { "en": "near" } },
+              { "target": "lontano", "romanization": null, "native": { "en": "far" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Transportation" },
+          "objectives": { "en": ["Name common types of transport", "Ask about transportation options"] },
+          "vocabulary": [
+            { "word": "autobus", "romanization": null, "meanings": { "en": "bus" }, "gendered": null },
+            { "word": "treno", "romanization": null, "meanings": { "en": "train" }, "gendered": null },
+            { "word": "taxi", "romanization": null, "meanings": { "en": "taxi" }, "gendered": null },
+            { "word": "macchina", "romanization": null, "meanings": { "en": "car" }, "gendered": null },
+            { "word": "a piedi", "romanization": null, "meanings": { "en": "on foot" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "treno", "romanization": null, "options": { "en": ["train", "bus", "taxi", "car"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "a piedi", "romanization": null, "options": { "en": ["on foot", "by car", "by bus", "by train"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bus' in Italian?" }, "options": { "neutral": ["autobus", "treno", "taxi", "macchina"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'car' in Italian?" }, "options": { "neutral": ["macchina", "autobus", "treno", "taxi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "taxi", "romanization": null, "options": { "en": ["taxi", "bus", "train", "car"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "autobus", "romanization": null, "options": { "en": ["bus", "train", "taxi", "on foot"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "autobus", "romanization": null, "native": { "en": "bus" } },
+              { "target": "treno", "romanization": null, "native": { "en": "train" } },
+              { "target": "macchina", "romanization": null, "native": { "en": "car" } },
+              { "target": "a piedi", "romanization": null, "native": { "en": "on foot" } }
+            ] }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Asking for Help" },
+          "objectives": { "en": ["Ask for help with directions", "Use polite requests"] },
+          "vocabulary": [
+            { "word": "aiuto", "romanization": null, "meanings": { "en": "help" }, "gendered": null },
+            { "word": "mi può aiutare?", "romanization": null, "meanings": { "en": "can you help me?" }, "gendered": null },
+            { "word": "non capisco", "romanization": null, "meanings": { "en": "I don't understand" }, "gendered": null },
+            { "word": "può ripetere?", "romanization": null, "meanings": { "en": "can you repeat?" }, "gendered": null },
+            { "word": "parla inglese?", "romanization": null, "meanings": { "en": "do you speak English?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "aiuto", "romanization": null, "options": { "en": ["help", "please", "sorry", "thanks"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "non capisco", "romanization": null, "options": { "en": ["I don't understand", "can you help me?", "can you repeat?", "do you speak English?"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'can you help me?' in Italian?" }, "options": { "neutral": ["mi può aiutare?", "non capisco", "può ripetere?", "aiuto"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'do you speak English?' in Italian?" }, "options": { "neutral": ["parla inglese?", "non capisco", "può ripetere?", "mi può aiutare?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "può ripetere?", "romanization": null, "options": { "en": ["can you repeat?", "can you help me?", "I don't understand", "do you speak English?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "parla inglese?", "romanization": null, "options": { "en": ["do you speak English?", "I don't understand", "can you repeat?", "help"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "aiuto", "romanization": null, "native": { "en": "help" } },
+              { "target": "non capisco", "romanization": null, "native": { "en": "I don't understand" } },
+              { "target": "può ripetere?", "romanization": null, "native": { "en": "can you repeat?" } },
+              { "target": "parla inglese?", "romanization": null, "native": { "en": "do you speak English?" } }
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

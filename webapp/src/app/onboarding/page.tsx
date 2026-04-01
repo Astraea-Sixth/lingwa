@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
+import { isHostedMode } from '@/lib/supabase'
+import { loadStaticConfig, loadStaticCurriculum } from '@/lib/staticCourses'
 
 // ─────────────────────────────────────────────
 // Types
@@ -50,6 +52,12 @@ const GENDERS = [
   { value: 'both', emoji: '👐', label: 'Show me both' },
 ]
 
+// All known language codes for hosted mode static loading
+const STATIC_LANG_CODES = [
+  'th', 'ko', 'es', 'zh', 'en', 'de', 'fr', 'ja', 'pt',
+  'hi', 'ar', 'ru', 'vi', 'it', 'tr', 'pl', 'nl', 'ms', 'id', 'bn',
+]
+
 // ─────────────────────────────────────────────
 // Component
 // ─────────────────────────────────────────────
@@ -80,16 +88,41 @@ function OnboardingContent() {
 
   // Fetch available courses on mount
   useEffect(() => {
-    fetch('/api/courses')
-      .then(r => r.json())
-      .then((data: AvailableCourse[]) => {
-        setCourses(data)
+    async function loadCourses() {
+      try {
+        if (isHostedMode()) {
+          // Hosted mode: load from static config files
+          const configs = await Promise.all(
+            STATIC_LANG_CODES.map(code => loadStaticConfig(code))
+          )
+          const courseList: AvailableCourse[] = []
+          for (const config of configs) {
+            if (!config) continue
+            const levels = config.cefr_available || ['A1']
+            for (const lvl of levels) {
+              courseList.push({
+                language: config.code,
+                languageName: config.name,
+                flag: config.flag,
+                level: lvl,
+                path: `courses/${config.code}/courses/${lvl.toLowerCase()}.json`,
+              })
+            }
+          }
+          setCourses(courseList)
+        } else {
+          // Local mode: use Python API
+          const res = await fetch('/api/courses')
+          const data: AvailableCourse[] = await res.json()
+          setCourses(data)
+        }
         setLoading(false)
-      })
-      .catch(() => {
+      } catch {
         setError('Could not load courses. Make sure the API is running.')
         setLoading(false)
-      })
+      }
+    }
+    loadCourses()
   }, [])
 
   // Get unique languages from available courses
@@ -144,20 +177,27 @@ function OnboardingContent() {
     }
 
     try {
-      // Fetch the pre-built course
-      const res = await fetch(`/api/courses/${selectedLang}/${level.toLowerCase()}`)
-      if (!res.ok) throw new Error(`Course not available (${res.status})`)
-      const course = await res.json()
+      let course, config
+
+      if (isHostedMode()) {
+        // Hosted mode: load from static files
+        course = await loadStaticCurriculum(selectedLang, level)
+        if (!course) throw new Error('Course not available')
+        config = await loadStaticConfig(selectedLang)
+      } else {
+        // Local mode: load from Python API
+        const res = await fetch(`/api/courses/${selectedLang}/${level.toLowerCase()}`)
+        if (!res.ok) throw new Error(`Course not available (${res.status})`)
+        course = await res.json()
+        const configRes = await fetch(`/api/languages/${selectedLang}/config`)
+        if (configRes.ok) config = await configRes.json()
+      }
 
       // Save to localStorage (same key the lesson page reads)
       localStorage.setItem('lingwa_profile', JSON.stringify(profile))
       localStorage.setItem(`lingwa_curriculum_${selectedLang}`, JSON.stringify(course))
       localStorage.setItem(`lingwa_gender_${selectedLang}`, finalGender)
-
-      // Also cache the language config
-      const configRes = await fetch(`/api/languages/${selectedLang}/config`)
-      if (configRes.ok) {
-        const config = await configRes.json()
+      if (config) {
         localStorage.setItem(`lingwa_lang_config_${selectedLang}`, JSON.stringify(config))
       }
 

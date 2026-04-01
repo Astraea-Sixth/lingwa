@@ -1,0 +1,792 @@
+{
+  "lang": "tr",
+  "language": "tr",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Attraction & Feelings",
+        "zh": "吸引力和感情",
+        "th": "ความดึงดูดและความรู้สึก",
+        "ko": "끌림과 감정",
+        "es": "Atracción y sentimientos"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Describing Appearances",
+            "zh": "描述外貌",
+            "th": "การบรรยายรูปลักษณ์",
+            "ko": "외모 묘사하기",
+            "es": "Describir apariencias"
+          },
+          "objectives": {
+            "en": ["Describe someone's physical appearance in Turkish", "Give and receive compliments on looks"],
+            "zh": ["用土耳其语描述某人的外貌", "在外貌上给予和接受赞美"],
+            "th": ["อธิบายรูปลักษณ์ทางกายภาพของใครบางคนเป็นภาษาตุรกี", "ให้และรับคำชมเกี่ยวกับรูปลักษณ์"],
+            "ko": ["터키어로 누군가의 외모 묘사하기", "외모에 대한 칭찬 주고받기"],
+            "es": ["Describir la apariencia física de alguien en turco", "Dar y recibir cumplidos sobre el aspecto"]
+          },
+          "vocabulary": [
+            {
+              "word": "uzun boylu",
+              "romanization": null,
+              "meanings": { "en": "tall", "zh": "高个子", "th": "สูง", "ko": "키가 큰", "es": "alto" }
+            },
+            {
+              "word": "kısa boylu",
+              "romanization": null,
+              "meanings": { "en": "short (height)", "zh": "矮个子", "th": "เตี้ย", "ko": "키가 작은", "es": "bajo" }
+            },
+            {
+              "word": "gözler",
+              "romanization": null,
+              "meanings": { "en": "eyes", "zh": "眼睛", "th": "ดวงตา", "ko": "눈", "es": "ojos" }
+            },
+            {
+              "word": "saç",
+              "romanization": null,
+              "meanings": { "en": "hair", "zh": "头发", "th": "ผม", "ko": "머리카락", "es": "cabello" }
+            },
+            {
+              "word": "yakışıklı",
+              "romanization": null,
+              "meanings": { "en": "handsome (for men)", "zh": "英俊", "th": "หล่อ", "ko": "잘생긴", "es": "guapo" }
+            },
+            {
+              "word": "güzel",
+              "romanization": null,
+              "meanings": { "en": "beautiful/pretty (general)", "zh": "美丽/漂亮", "th": "สวย/หล่อ", "ko": "아름다운/예쁜", "es": "bonita/hermoso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'She has beautiful eyes'?",
+              "options": ["Gözleri çok güzel.", "Saçları çok güzel.", "Boyu çok uzun.", "Çok yakışıklı."],
+              "correct": 0,
+              "explanation": "'Gözleri çok güzel' = Her eyes are very beautiful. 'Gözleri' = her/his eyes."
+            },
+            {
+              "type": "target_to_native",
+              "word": "yakışıklı",
+              "options": ["handsome (man)", "beautiful (woman)", "tall", "smart"],
+              "correct": 0,
+              "explanation": "'Yakışıklı' specifically describes a handsome man."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["uzun boylu", "tall"],
+                ["gözler", "eyes"],
+                ["saç", "hair"],
+                ["yakışıklı", "handsome"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Siyah saçlı ve mavi gözlü.",
+              "options": ["(She/he has) black hair and blue eyes.", "Brown hair and green eyes.", "Long hair and brown eyes.", "Short hair and black eyes."],
+              "correct": 0,
+              "explanation": "'Siyah saçlı' = with black hair, 'mavi gözlü' = with blue eyes."
+            },
+            {
+              "type": "reorder",
+              "words": ["çok", "güzel", "gözlerin"],
+              "correct": ["Gözlerin", "çok", "güzel"],
+              "translation": "Your eyes are very beautiful."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings in Turkish", "Describe emotions and moods"],
+            "zh": ["用土耳其语表达浪漫感情", "描述情感和心情"],
+            "th": ["แสดงความรู้สึกโรแมนติกเป็นภาษาตุรกี", "อธิบายอารมณ์และความรู้สึก"],
+            "ko": ["터키어로 로맨틱한 감정 표현하기", "감정과 기분 묘사하기"],
+            "es": ["Expresar sentimientos románticos en turco", "Describir emociones y estados de ánimo"]
+          },
+          "vocabulary": [
+            {
+              "word": "sevmek",
+              "romanization": null,
+              "meanings": { "en": "to love/like", "zh": "爱/喜欢", "th": "รัก/ชอบ", "ko": "사랑하다/좋아하다", "es": "amar/querer" }
+            },
+            {
+              "word": "hoşlanmak",
+              "romanization": null,
+              "meanings": { "en": "to like/be fond of", "zh": "喜欢/欣赏", "th": "ชอบ", "ko": "좋아하다", "es": "gustar/agradecer" }
+            },
+            {
+              "word": "aşık olmak",
+              "romanization": null,
+              "meanings": { "en": "to fall in love", "zh": "爱上", "th": "ตกหลุมรัก", "ko": "사랑에 빠지다", "es": "enamorarse" }
+            },
+            {
+              "word": "mutlu",
+              "romanization": null,
+              "meanings": { "en": "happy", "zh": "开心", "th": "มีความสุข", "ko": "행복한", "es": "feliz" }
+            },
+            {
+              "word": "heyecanlı",
+              "romanization": null,
+              "meanings": { "en": "excited/nervous", "zh": "兴奋/紧张", "th": "ตื่นเต้น", "ko": "흥분된/설레는", "es": "emocionado/nervioso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I love you'?",
+              "options": ["Seni seviyorum.", "Senden hoşlanıyorum.", "Seni görmek istiyorum.", "Sen çok güzelsin."],
+              "correct": 0,
+              "explanation": "'Seni seviyorum' = I love you. The most important romantic phrase in Turkish!"
+            },
+            {
+              "type": "target_to_native",
+              "word": "aşık olmak",
+              "options": ["to fall in love", "to like someone", "to be happy", "to miss someone"],
+              "correct": 0,
+              "explanation": "'Aşık olmak' = to fall in love. 'Aşık' = in love, 'olmak' = to become/be."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sevmek", "to love"],
+                ["hoşlanmak", "to like"],
+                ["mutlu", "happy"],
+                ["heyecanlı", "excited"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Senden çok hoşlanıyorum.",
+              "options": ["I really like you.", "I love you so much.", "I miss you.", "You make me happy."],
+              "correct": 0,
+              "explanation": "'Senden hoşlanıyorum' = I like you. 'Çok' = very/a lot."
+            },
+            {
+              "type": "reorder",
+              "words": ["seviyorum", "seni"],
+              "correct": ["Seni", "seviyorum"],
+              "translation": "I love you."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "约会邀请",
+            "th": "การชวนออกเดต",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a una cita"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Turkish", "Suggest activities and arrange to meet"],
+            "zh": ["用土耳其语约会", "建议活动并安排见面"],
+            "th": ["ชวนใครออกเดตเป็นภาษาตุรกี", "เสนอกิจกรรมและนัดพบ"],
+            "ko": ["터키어로 데이트 신청하기", "활동 제안하고 만남 잡기"],
+            "es": ["Invitar a alguien a una cita en turco", "Sugerir actividades y quedar"]
+          },
+          "vocabulary": [
+            {
+              "word": "randevu",
+              "romanization": null,
+              "meanings": { "en": "date/appointment", "zh": "约会/约定", "th": "นัดหมาย", "ko": "데이트/약속", "es": "cita" }
+            },
+            {
+              "word": "birlikte çıkmak",
+              "romanization": null,
+              "meanings": { "en": "to go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "salir juntos" }
+            },
+            {
+              "word": "akşam yemeği",
+              "romanization": null,
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "cena" }
+            },
+            {
+              "word": "uygun olmak",
+              "romanization": null,
+              "meanings": { "en": "to be available/suitable", "zh": "有空/合适", "th": "ว่าง/เหมาะ", "ko": "가능하다/적절하다", "es": "estar disponible/ser adecuado" }
+            },
+            {
+              "word": "buluşmak",
+              "romanization": null,
+              "meanings": { "en": "to meet up", "zh": "见面", "th": "พบกัน", "ko": "만나다", "es": "quedar/encontrarse" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you ask 'Would you like to have dinner with me?'",
+              "options": ["Benimle akşam yemeği yemek ister misin?", "Benimle sinemaya gelmek ister misin?", "Birlikte kahve içelim mi?", "Bu akşam müsait misin?"],
+              "correct": 0,
+              "explanation": "'Benimle akşam yemeği yemek ister misin?' = Would you like to have dinner with me?"
+            },
+            {
+              "type": "target_to_native",
+              "word": "buluşmak",
+              "options": ["to meet up", "to call", "to text", "to see"],
+              "correct": 0,
+              "explanation": "'Buluşmak' means to meet up or rendezvous — perfect for arranging a date."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["randevu", "date/appointment"],
+                ["akşam yemeği", "dinner"],
+                ["buluşmak", "to meet up"],
+                ["uygun olmak", "to be available"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Yarın akşam buluşalım mı?",
+              "options": ["Shall we meet up tomorrow evening?", "Are you free this evening?", "Would you like to have dinner?", "What time should we meet?"],
+              "correct": 0,
+              "explanation": "'Yarın akşam' = tomorrow evening, 'buluşalım mı?' = shall we meet up?"
+            },
+            {
+              "type": "reorder",
+              "words": ["akşam", "buluşalım", "mı", "yarın"],
+              "correct": ["Yarın", "akşam", "buluşalım", "mı"],
+              "translation": "Shall we meet up tomorrow evening?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "人际关系",
+        "th": "ความสัมพันธ์",
+        "ko": "인간 관계",
+        "es": "Relaciones"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Talking About Your Partner",
+            "zh": "谈论伴侣",
+            "th": "การพูดคุยเกี่ยวกับคู่รัก",
+            "ko": "파트너에 대해 이야기하기",
+            "es": "Hablar de tu pareja"
+          },
+          "objectives": {
+            "en": ["Describe your relationship status in Turkish", "Talk about your partner's qualities"],
+            "zh": ["用土耳其语描述恋爱状态", "谈论伴侣的品质"],
+            "th": ["อธิบายสถานะความสัมพันธ์เป็นภาษาตุรกี", "พูดคุยเกี่ยวกับคุณสมบัติของคู่รัก"],
+            "ko": ["터키어로 연애 상태 설명하기", "파트너의 장점 이야기하기"],
+            "es": ["Describir tu estado sentimental en turco", "Hablar de las cualidades de tu pareja"]
+          },
+          "vocabulary": [
+            {
+              "word": "sevgili",
+              "romanization": null,
+              "meanings": { "en": "boyfriend/girlfriend/sweetheart", "zh": "男友/女友/爱人", "th": "แฟน/คนรัก", "ko": "남자친구/여자친구", "es": "novio/novia" }
+            },
+            {
+              "word": "nişanlı",
+              "romanization": null,
+              "meanings": { "en": "fiancé/fiancée/engaged", "zh": "未婚夫/未婚妻", "th": "คู่หมั้น", "ko": "약혼자/약혼한", "es": "prometido/a" }
+            },
+            {
+              "word": "evli",
+              "romanization": null,
+              "meanings": { "en": "married", "zh": "已婚", "th": "แต่งงานแล้ว", "ko": "결혼한", "es": "casado/a" }
+            },
+            {
+              "word": "anlayışlı",
+              "romanization": null,
+              "meanings": { "en": "understanding/considerate", "zh": "体贴/理解", "th": "เข้าใจ/ใส่ใจ", "ko": "이해심 있는", "es": "comprensivo/a" }
+            },
+            {
+              "word": "güvenilir",
+              "romanization": null,
+              "meanings": { "en": "trustworthy/reliable", "zh": "可信赖的", "th": "น่าเชื่อถือ", "ko": "믿을 수 있는", "es": "confiable" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I have a girlfriend'?",
+              "options": ["Sevgilim var.", "Nişanlım var.", "Evliyim.", "Bekarım."],
+              "correct": 0,
+              "explanation": "'Sevgilim var' = I have a girlfriend/boyfriend. 'Sevgili' = sweetheart, '-m' = my."
+            },
+            {
+              "type": "target_to_native",
+              "word": "güvenilir",
+              "options": ["trustworthy/reliable", "beautiful", "funny", "smart"],
+              "correct": 0,
+              "explanation": "'Güvenilir' means trustworthy or reliable — an important quality in a partner."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["sevgili", "boyfriend/girlfriend"],
+                ["nişanlı", "engaged/fiancé"],
+                ["evli", "married"],
+                ["anlayışlı", "understanding"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Sevgilim çok anlayışlı ve güvenilir.",
+              "options": ["My partner is very understanding and reliable.", "I am engaged to a wonderful person.", "We have been together for two years.", "My partner is tall and handsome."],
+              "correct": 0,
+              "explanation": "'Sevgilim' = my partner, 'anlayışlı' = understanding, 'güvenilir' = reliable."
+            },
+            {
+              "type": "reorder",
+              "words": ["var", "sevgilim"],
+              "correct": ["Sevgilim", "var"],
+              "translation": "I have a boyfriend/girlfriend."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Love & Marriage",
+            "zh": "爱情与婚姻",
+            "th": "ความรักและการแต่งงาน",
+            "ko": "사랑과 결혼",
+            "es": "Amor y matrimonio"
+          },
+          "objectives": {
+            "en": ["Discuss marriage and long-term relationships in Turkish", "Express wishes for couples"],
+            "zh": ["用土耳其语讨论婚姻和长期关系", "为夫妻送上祝福"],
+            "th": ["พูดคุยเกี่ยวกับการแต่งงานและความสัมพันธ์ระยะยาวเป็นภาษาตุรกี", "อวยพรคู่รัก"],
+            "ko": ["터키어로 결혼과 장기 관계 이야기하기", "커플에게 축복 전하기"],
+            "es": ["Discutir el matrimonio y las relaciones a largo plazo en turco", "Expresar deseos a las parejas"]
+          },
+          "vocabulary": [
+            {
+              "word": "düğün",
+              "romanization": null,
+              "meanings": { "en": "wedding", "zh": "婚礼", "th": "งานแต่งงาน", "ko": "결혼식", "es": "boda" }
+            },
+            {
+              "word": "evlenmek",
+              "romanization": null,
+              "meanings": { "en": "to get married", "zh": "结婚", "th": "แต่งงาน", "ko": "결혼하다", "es": "casarse" }
+            },
+            {
+              "word": "yüzük",
+              "romanization": null,
+              "meanings": { "en": "ring", "zh": "戒指", "th": "แหวน", "ko": "반지", "es": "anillo" }
+            },
+            {
+              "word": "balayı",
+              "romanization": null,
+              "meanings": { "en": "honeymoon", "zh": "蜜月", "th": "ฮันนีมูน", "ko": "신혼여행", "es": "luna de miel" }
+            },
+            {
+              "word": "mutluluk",
+              "romanization": null,
+              "meanings": { "en": "happiness", "zh": "幸福", "th": "ความสุข", "ko": "행복", "es": "felicidad" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you congratulate a couple getting married?",
+              "options": ["Çok mutlu olun!", "İyi ki doğdun!", "Hayırlı bayramlar!", "Geçmiş olsun!"],
+              "correct": 0,
+              "explanation": "'Çok mutlu olun!' = May you be very happy! — a common wedding wish."
+            },
+            {
+              "type": "target_to_native",
+              "word": "balayı",
+              "options": ["honeymoon", "wedding", "engagement", "anniversary"],
+              "correct": 0,
+              "explanation": "'Balayı' means honeymoon — 'bal' = honey, 'ayı' = month."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["düğün", "wedding"],
+                ["evlenmek", "to get married"],
+                ["yüzük", "ring"],
+                ["mutluluk", "happiness"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Düğününüz için tebrikler!",
+              "options": ["Congratulations on your wedding!", "Happy anniversary!", "Happy birthday!", "Best wishes for your honeymoon!"],
+              "correct": 0,
+              "explanation": "'Düğününüz için tebrikler' = Congratulations on your wedding!"
+            },
+            {
+              "type": "reorder",
+              "words": ["mutlu", "olun", "çok"],
+              "correct": ["Çok", "mutlu", "olun"],
+              "translation": "May you be very happy!"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Missing Someone",
+            "zh": "思念某人",
+            "th": "การคิดถึงใครบางคน",
+            "ko": "누군가를 그리워하기",
+            "es": "Echar de menos a alguien"
+          },
+          "objectives": {
+            "en": ["Express missing someone and longing in Turkish", "Write short romantic messages"],
+            "zh": ["用土耳其语表达思念和渴望", "写简短的浪漫信息"],
+            "th": ["แสดงความคิดถึงและความปรารถนาเป็นภาษาตุรกี", "เขียนข้อความโรแมนติกสั้นๆ"],
+            "ko": ["터키어로 그리움과 갈망 표현하기", "짧은 로맨틱 메시지 쓰기"],
+            "es": ["Expresar añoranza y deseos en turco", "Escribir mensajes románticos cortos"]
+          },
+          "vocabulary": [
+            {
+              "word": "özlemek",
+              "romanization": null,
+              "meanings": { "en": "to miss (someone)", "zh": "思念", "th": "คิดถึง", "ko": "그리워하다", "es": "extrañar" }
+            },
+            {
+              "word": "seni özledim",
+              "romanization": null,
+              "meanings": { "en": "I missed you", "zh": "我想你了", "th": "ฉันคิดถึงเธอ", "ko": "보고 싶었어", "es": "te he echado de menos" }
+            },
+            {
+              "word": "her zaman",
+              "romanization": null,
+              "meanings": { "en": "always", "zh": "总是", "th": "เสมอ", "ko": "항상", "es": "siempre" }
+            },
+            {
+              "word": "ayrılık",
+              "romanization": null,
+              "meanings": { "en": "separation/goodbye", "zh": "分离", "th": "การพลัดพราก", "ko": "이별", "es": "separación/despedida" }
+            },
+            {
+              "word": "yakında",
+              "romanization": null,
+              "meanings": { "en": "soon/nearby", "zh": "很快/附近", "th": "เร็วๆ นี้/ใกล้ๆ", "ko": "곧/가까이", "es": "pronto/cerca" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I miss you'?",
+              "options": ["Seni özlüyorum.", "Seni seviyorum.", "Seni istiyorum.", "Seni düşünüyorum."],
+              "correct": 0,
+              "explanation": "'Seni özlüyorum' = I miss you. 'Özlemek' = to miss someone."
+            },
+            {
+              "type": "target_to_native",
+              "word": "her zaman",
+              "options": ["always", "never", "sometimes", "soon"],
+              "correct": 0,
+              "explanation": "'Her zaman' means always — used in declarations like 'I will always love you'."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["özlemek", "to miss someone"],
+                ["seni özledim", "I missed you"],
+                ["her zaman", "always"],
+                ["yakında", "soon"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Seni çok özlüyorum.",
+              "options": ["I miss you very much.", "I love you so much.", "I am thinking of you.", "I will see you soon."],
+              "correct": 0,
+              "explanation": "'Seni çok özlüyorum' = I miss you very much."
+            },
+            {
+              "type": "reorder",
+              "words": ["seni", "her", "zaman", "seveceğim"],
+              "correct": ["Seni", "her", "zaman", "seveceğim"],
+              "translation": "I will always love you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Communication in Relationships",
+        "zh": "人际关系中的沟通",
+        "th": "การสื่อสารในความสัมพันธ์",
+        "ko": "관계에서의 소통",
+        "es": "Comunicación en las relaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Making Up After an Argument",
+            "zh": "争吵后的和解",
+            "th": "การคืนดีหลังการทะเลาะ",
+            "ko": "다툼 후 화해하기",
+            "es": "Reconciliarse después de una discusión"
+          },
+          "objectives": {
+            "en": ["Apologize and make up after a disagreement in Turkish", "Express forgiveness"],
+            "zh": ["用土耳其语道歉和解", "表达宽恕"],
+            "th": ["ขอโทษและคืนดีหลังความขัดแย้งเป็นภาษาตุรกี", "แสดงการให้อภัย"],
+            "ko": ["터키어로 불일치 후 사과하고 화해하기", "용서 표현하기"],
+            "es": ["Disculparse y reconciliarse después de un desacuerdo en turco", "Expresar perdón"]
+          },
+          "vocabulary": [
+            {
+              "word": "özür dilemek",
+              "romanization": null,
+              "meanings": { "en": "to apologize", "zh": "道歉", "th": "ขอโทษ", "ko": "사과하다", "es": "disculparse" }
+            },
+            {
+              "word": "özür dilerim",
+              "romanization": null,
+              "meanings": { "en": "I'm sorry / I apologize", "zh": "对不起", "th": "ฉันขอโทษ", "ko": "미안해요", "es": "lo siento / te pido disculpas" }
+            },
+            {
+              "word": "affetmek",
+              "romanization": null,
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }
+            },
+            {
+              "word": "barışmak",
+              "romanization": null,
+              "meanings": { "en": "to make up/reconcile", "zh": "和解", "th": "คืนดี", "ko": "화해하다", "es": "reconciliarse" }
+            },
+            {
+              "word": "yanlış anlamak",
+              "romanization": null,
+              "meanings": { "en": "to misunderstand", "zh": "误解", "th": "เข้าใจผิด", "ko": "오해하다", "es": "malentender" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I'm sorry'?",
+              "options": ["Özür dilerim.", "Seni affettim.", "Barışalım mı?", "Yanlış anladım."],
+              "correct": 0,
+              "explanation": "'Özür dilerim' = I'm sorry / I apologize. The most important apology phrase in Turkish."
+            },
+            {
+              "type": "target_to_native",
+              "word": "affetmek",
+              "options": ["to forgive", "to apologize", "to argue", "to misunderstand"],
+              "correct": 0,
+              "explanation": "'Affetmek' means to forgive — 'Seni affediyorum' = I forgive you."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["özür dilerim", "I'm sorry"],
+                ["affetmek", "to forgive"],
+                ["barışmak", "to make up"],
+                ["yanlış anlamak", "to misunderstand"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Özür dilerim, seni seviyorum.",
+              "options": ["I'm sorry, I love you.", "Please forgive me, I was wrong.", "Let's make up, I miss you.", "I misunderstood you, sorry."],
+              "correct": 0,
+              "explanation": "'Özür dilerim' = I'm sorry, 'seni seviyorum' = I love you."
+            },
+            {
+              "type": "reorder",
+              "words": ["dilerim", "özür"],
+              "correct": ["Özür", "dilerim"],
+              "translation": "I'm sorry."
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Romantic Compliments",
+            "zh": "浪漫赞美",
+            "th": "คำชมโรแมนติก",
+            "ko": "로맨틱한 칭찬",
+            "es": "Cumplidos románticos"
+          },
+          "objectives": {
+            "en": ["Give heartfelt compliments in Turkish", "React to romantic compliments"],
+            "zh": ["用土耳其语送上真诚的赞美", "回应浪漫赞美"],
+            "th": ["ให้คำชมจากใจเป็นภาษาตุรกี", "ตอบสนองต่อคำชมโรแมนติก"],
+            "ko": ["터키어로 진심어린 칭찬하기", "로맨틱한 칭찬에 반응하기"],
+            "es": ["Dar cumplidos sinceros en turco", "Reaccionar a cumplidos románticos"]
+          },
+          "vocabulary": [
+            {
+              "word": "mükemmel",
+              "romanization": null,
+              "meanings": { "en": "perfect/excellent", "zh": "完美", "th": "สมบูรณ์แบบ", "ko": "완벽한", "es": "perfecto/excelente" }
+            },
+            {
+              "word": "eşsiz",
+              "romanization": null,
+              "meanings": { "en": "unique/incomparable", "zh": "无与伦比", "th": "ไม่มีใครเหมือน", "ko": "독특한/비교할 수 없는", "es": "único/incomparable" }
+            },
+            {
+              "word": "gülümseme",
+              "romanization": null,
+              "meanings": { "en": "smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "sonrisa" }
+            },
+            {
+              "word": "çok tatlı",
+              "romanization": null,
+              "meanings": { "en": "very sweet/cute", "zh": "非常可爱", "th": "น่ารักมาก", "ko": "너무 귀여운", "es": "muy dulce/lindo" }
+            },
+            {
+              "word": "ne güzel",
+              "romanization": null,
+              "meanings": { "en": "how beautiful / how lovely", "zh": "多么美丽", "th": "สวยมาก/ดีมาก", "ko": "얼마나 아름다운지", "es": "qué hermoso/qué bonito" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'Your smile is beautiful'?",
+              "options": ["Gülümsemen çok güzel.", "Gözlerin çok güzel.", "Saçların çok güzel.", "Sen çok tatlısın."],
+              "correct": 0,
+              "explanation": "'Gülümsemen çok güzel' = Your smile is very beautiful."
+            },
+            {
+              "type": "target_to_native",
+              "word": "eşsiz",
+              "options": ["unique/incomparable", "beautiful", "kind", "smart"],
+              "correct": 0,
+              "explanation": "'Eşsiz' means unique or incomparable — the highest romantic compliment."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["mükemmel", "perfect"],
+                ["eşsiz", "unique"],
+                ["gülümseme", "smile"],
+                ["çok tatlı", "very sweet/cute"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Sen benim için mükemmelsin.",
+              "options": ["You are perfect for me.", "You are very beautiful.", "You are so unique.", "You make me so happy."],
+              "correct": 0,
+              "explanation": "'Sen benim için mükemmelsin' = You are perfect for me."
+            },
+            {
+              "type": "reorder",
+              "words": ["çok", "tatlısın", "sen"],
+              "correct": ["Sen", "çok", "tatlısın"],
+              "translation": "You are very sweet/cute."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Future Plans Together",
+            "zh": "共同未来计划",
+            "th": "แผนอนาคตร่วมกัน",
+            "ko": "함께하는 미래 계획",
+            "es": "Planes futuros juntos"
+          },
+          "objectives": {
+            "en": ["Discuss future plans as a couple in Turkish", "Express hopes and dreams"],
+            "zh": ["用土耳其语讨论夫妻未来计划", "表达希望和梦想"],
+            "th": ["พูดคุยเกี่ยวกับแผนอนาคตในฐานะคู่รักเป็นภาษาตุรกี", "แสดงความหวังและความฝัน"],
+            "ko": ["터키어로 커플로서의 미래 계획 이야기하기", "희망과 꿈 표현하기"],
+            "es": ["Discutir planes futuros como pareja en turco", "Expresar esperanzas y sueños"]
+          },
+          "vocabulary": [
+            {
+              "word": "gelecek",
+              "romanization": null,
+              "meanings": { "en": "future", "zh": "未来", "th": "อนาคต", "ko": "미래", "es": "futuro" }
+            },
+            {
+              "word": "birlikte yaşamak",
+              "romanization": null,
+              "meanings": { "en": "to live together", "zh": "一起生活", "th": "อยู่ด้วยกัน", "ko": "함께 살다", "es": "vivir juntos" }
+            },
+            {
+              "word": "hayaller",
+              "romanization": null,
+              "meanings": { "en": "dreams", "zh": "梦想", "th": "ความฝัน", "ko": "꿈들", "es": "sueños" }
+            },
+            {
+              "word": "ümit etmek",
+              "romanization": null,
+              "meanings": { "en": "to hope", "zh": "希望", "th": "หวัง", "ko": "바라다", "es": "esperar" }
+            },
+            {
+              "word": "seninle",
+              "romanization": null,
+              "meanings": { "en": "with you", "zh": "和你一起", "th": "กับเธอ", "ko": "너와 함께", "es": "contigo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": "How do you say 'I want to live with you'?",
+              "options": ["Seninle yaşamak istiyorum.", "Seninle evlenmek istiyorum.", "Seninle seyahat etmek istiyorum.", "Seni her zaman görmek istiyorum."],
+              "correct": 0,
+              "explanation": "'Seninle yaşamak istiyorum' = I want to live with you."
+            },
+            {
+              "type": "target_to_native",
+              "word": "hayaller",
+              "options": ["dreams", "plans", "hopes", "wishes"],
+              "correct": 0,
+              "explanation": "'Hayaller' = dreams (plural of 'hayal'). Romantic dreams and life aspirations."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                ["gelecek", "future"],
+                ["birlikte yaşamak", "to live together"],
+                ["hayaller", "dreams"],
+                ["seninle", "with you"]
+              ]
+            },
+            {
+              "type": "listening",
+              "audio_text": "Seninle gelecek hayaller kurmak istiyorum.",
+              "options": ["I want to dream of the future with you.", "I want to travel the world with you.", "I hope we can be together always.", "Let's make plans for next year."],
+              "correct": 0,
+              "explanation": "'Seninle' = with you, 'gelecek hayaller' = future dreams, 'kurmak' = to build/create."
+            },
+            {
+              "type": "reorder",
+              "words": ["seninle", "istiyorum", "yaşamak"],
+              "correct": ["Seninle", "yaşamak", "istiyorum"],
+              "translation": "I want to live with you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

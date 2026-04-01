@@ -11,6 +11,7 @@ export default function AuthPage() {
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [agreed, setAgreed] = useState(false)
 
   const handleGoogle = async () => {
     setLoading(true)
@@ -78,15 +79,36 @@ export default function AuthPage() {
           </div>
         ) : (
           <>
+            {/* Terms agreement */}
+            <label className="flex items-start gap-3 mb-6 cursor-pointer select-none">
+              <input
+                type="checkbox"
+                checked={agreed}
+                onChange={(e) => setAgreed(e.target.checked)}
+                className="mt-1 w-4 h-4 shrink-0"
+                style={{ accentColor: 'var(--green)' }}
+              />
+              <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+                I agree to the{' '}
+                <a href="/terms" className="underline" style={{ color: 'var(--text)' }}>Terms of Service</a>
+                {' '}and{' '}
+                <a href="/privacy" className="underline" style={{ color: 'var(--text)' }}>Privacy Policy</a>
+              </span>
+            </label>
+
+            <p className="text-center text-xs mb-6" style={{ color: 'var(--text-muted)' }}>
+              🧪 Beta — built by AI agents. Things might break.
+            </p>
+
             <button
               onClick={handleGoogle}
-              disabled={loading}
+              disabled={loading || !agreed}
               className="w-full py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 transition-opacity"
               style={{
                 background: 'var(--green)',
                 color: '#fff',
-                opacity: loading ? 0.6 : 1,
-                cursor: loading ? 'not-allowed' : 'pointer',
+                opacity: loading || !agreed ? 0.6 : 1,
+                cursor: loading || !agreed ? 'not-allowed' : 'pointer',
               }}
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
@@ -119,13 +141,13 @@ export default function AuthPage() {
               />
               <button
                 type="submit"
-                disabled={loading || !email}
+                disabled={loading || !email || !agreed}
                 className="w-full py-4 rounded-2xl font-bold text-base transition-opacity"
                 style={{
                   background: 'var(--surface2)',
                   color: 'var(--text)',
-                  opacity: loading || !email ? 0.4 : 1,
-                  cursor: loading || !email ? 'not-allowed' : 'pointer',
+                  opacity: loading || !email || !agreed ? 0.4 : 1,
+                  cursor: loading || !email || !agreed ? 'not-allowed' : 'pointer',
                   border: '2px solid var(--border)',
                 }}
               >

@@ -1,0 +1,670 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": ["Order food and drinks at a restaurant", "Ask about the menu"]
+          },
+          "vocabulary": [
+            {
+              "word": "मेनू",
+              "romanization": "menoo",
+              "meanings": { "en": "menu", "zh": "菜单", "th": "เมนู", "ko": "메뉴", "es": "menú" }
+            },
+            {
+              "word": "वेटर",
+              "romanization": "vetar",
+              "meanings": { "en": "waiter", "zh": "服务员", "th": "พนักงานเสิร์ฟ", "ko": "웨이터", "es": "mesero" }
+            },
+            {
+              "word": "बिल",
+              "romanization": "bil",
+              "meanings": { "en": "bill / check", "zh": "账单", "th": "บิล", "ko": "계산서", "es": "cuenta" }
+            },
+            {
+              "word": "खाना",
+              "romanization": "khaanaa",
+              "meanings": { "en": "food / meal", "zh": "食物/饭", "th": "อาหาร", "ko": "음식/식사", "es": "comida" }
+            },
+            {
+              "word": "पानी",
+              "romanization": "paanee",
+              "meanings": { "en": "water", "zh": "水", "th": "น้ำ", "ko": "물", "es": "agua" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'water' in Hindi?" },
+              "answer": "पानी",
+              "choices": ["पानी", "खाना", "बिल", "मेनू"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'बिल' (bil) mean?" },
+              "answer": "bill / check",
+              "choices": ["bill / check", "menu", "waiter", "food"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "मेनू", "native": "menu" },
+                { "target": "वेटर", "native": "waiter" },
+                { "target": "बिल", "native": "bill" },
+                { "target": "पानी", "native": "water" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Please bring the bill.'" },
+              "words": ["बिल", "लाइए", "कृपया"],
+              "answer": "कृपया बिल लाइए"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Indian Cuisine",
+            "zh": "印度美食",
+            "th": "อาหารอินเดีย",
+            "ko": "인도 요리",
+            "es": "Cocina india"
+          },
+          "objectives": {
+            "en": ["Name popular Indian dishes", "Describe ingredients and flavors"]
+          },
+          "vocabulary": [
+            {
+              "word": "दाल",
+              "romanization": "daal",
+              "meanings": { "en": "lentil soup / dal", "zh": "扁豆汤", "th": "ซุปถั่ว", "ko": "달 (렌틸콩 수프)", "es": "dal (sopa de lentejas)" }
+            },
+            {
+              "word": "चावल",
+              "romanization": "chaaval",
+              "meanings": { "en": "rice", "zh": "米饭", "th": "ข้าว", "ko": "쌀/밥", "es": "arroz" }
+            },
+            {
+              "word": "रोटी",
+              "romanization": "rotee",
+              "meanings": { "en": "flatbread / roti", "zh": "印度薄饼", "th": "โรตี (ขนมปังแผ่น)", "ko": "로티 (납작빵)", "es": "roti (pan plano)" }
+            },
+            {
+              "word": "मसाला",
+              "romanization": "masaalaa",
+              "meanings": { "en": "spice / spice mix", "zh": "香料/香料混合", "th": "เครื่องเทศ", "ko": "향신료", "es": "especia / mezcla de especias" }
+            },
+            {
+              "word": "तीखा",
+              "romanization": "teekha",
+              "meanings": { "en": "spicy / hot", "zh": "辣的", "th": "เผ็ด", "ko": "매운", "es": "picante" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'rice' in Hindi?" },
+              "answer": "चावल",
+              "choices": ["चावल", "दाल", "रोटी", "मसाला"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'तीखा' (teekha) mean?" },
+              "answer": "spicy / hot",
+              "choices": ["spicy / hot", "sweet", "sour", "salty"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "दाल", "native": "lentil soup" },
+                { "target": "चावल", "native": "rice" },
+                { "target": "रोटी", "native": "flatbread" },
+                { "target": "तीखा", "native": "spicy" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want rice and dal.'" },
+              "words": ["और", "चावल", "दाल", "चाहिए", "मुझे"],
+              "answer": "मुझे चावल और दाल चाहिए"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Tastes and Preferences",
+            "zh": "口味与偏好",
+            "th": "รสชาติและความชอบ",
+            "ko": "맛과 선호",
+            "es": "Sabores y preferencias"
+          },
+          "objectives": {
+            "en": ["Describe food taste in Hindi", "Express food preferences"]
+          },
+          "vocabulary": [
+            {
+              "word": "मीठा",
+              "romanization": "meethaa",
+              "meanings": { "en": "sweet", "zh": "甜", "th": "หวาน", "ko": "달콤한", "es": "dulce" }
+            },
+            {
+              "word": "नमकीन",
+              "romanization": "namakeen",
+              "meanings": { "en": "salty", "zh": "咸", "th": "เค็ม", "ko": "짠", "es": "salado" }
+            },
+            {
+              "word": "स्वादिष्ट",
+              "romanization": "svaadiṣṭ",
+              "meanings": { "en": "delicious / tasty", "zh": "美味的", "th": "อร่อย", "ko": "맛있는", "es": "delicioso" }
+            },
+            {
+              "word": "पसंद",
+              "romanization": "pasand",
+              "meanings": { "en": "liked / preference", "zh": "喜欢/偏好", "th": "ที่ชอบ", "ko": "선호/좋아함", "es": "gusto / preferencia" }
+            },
+            {
+              "word": "खट्टा",
+              "romanization": "khaṭṭaa",
+              "meanings": { "en": "sour", "zh": "酸", "th": "เปรี้ยว", "ko": "신", "es": "ácido" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'sweet' in Hindi?" },
+              "answer": "मीठा",
+              "choices": ["मीठा", "नमकीन", "तीखा", "खट्टा"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'स्वादिष्ट' (svaadiṣṭ) mean?" },
+              "answer": "delicious",
+              "choices": ["delicious", "sweet", "salty", "spicy"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "मीठा", "native": "sweet" },
+                { "target": "नमकीन", "native": "salty" },
+                { "target": "स्वादिष्ट", "native": "delicious" },
+                { "target": "खट्टा", "native": "sour" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'This food is very delicious.'" },
+              "words": ["बहुत", "यह", "खाना", "स्वादिष्ट", "है"],
+              "answer": "यह खाना बहुत स्वादिष्ट है"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Shopping for Food",
+        "zh": "购买食物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Comprar alimentos"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "At the Market",
+            "zh": "在市场",
+            "th": "ที่ตลาด",
+            "ko": "시장에서",
+            "es": "En el mercado"
+          },
+          "objectives": {
+            "en": ["Buy food at an Indian market", "Ask about prices and quantities"]
+          },
+          "vocabulary": [
+            {
+              "word": "बाज़ार",
+              "romanization": "baazaar",
+              "meanings": { "en": "market / bazaar", "zh": "市场", "th": "ตลาด/บาซาร์", "ko": "시장/바자르", "es": "mercado / bazar" }
+            },
+            {
+              "word": "सब्ज़ी",
+              "romanization": "sabzee",
+              "meanings": { "en": "vegetable", "zh": "蔬菜", "th": "ผัก", "ko": "채소", "es": "verdura" }
+            },
+            {
+              "word": "फल",
+              "romanization": "phal",
+              "meanings": { "en": "fruit", "zh": "水果", "th": "ผลไม้", "ko": "과일", "es": "fruta" }
+            },
+            {
+              "word": "कीमत",
+              "romanization": "keemat",
+              "meanings": { "en": "price", "zh": "价格", "th": "ราคา", "ko": "가격", "es": "precio" }
+            },
+            {
+              "word": "किलो",
+              "romanization": "kilo",
+              "meanings": { "en": "kilogram", "zh": "公斤", "th": "กิโลกรัม", "ko": "킬로그램", "es": "kilogramo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'vegetable' in Hindi?" },
+              "answer": "सब्ज़ी",
+              "choices": ["सब्ज़ी", "फल", "बाज़ार", "किलो"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'कीमत' (keemat) mean?" },
+              "answer": "price",
+              "choices": ["price", "market", "fruit", "kilogram"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "बाज़ार", "native": "market" },
+                { "target": "सब्ज़ी", "native": "vegetable" },
+                { "target": "फल", "native": "fruit" },
+                { "target": "कीमत", "native": "price" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'How much per kilogram?'" },
+              "words": ["किलो", "का", "कितना", "है"],
+              "answer": "एक किलो का कितना है"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Fruits and Vegetables",
+            "zh": "水果和蔬菜",
+            "th": "ผักและผลไม้",
+            "ko": "과일과 채소",
+            "es": "Frutas y verduras"
+          },
+          "objectives": {
+            "en": ["Name common Indian fruits and vegetables", "Describe quantities"]
+          },
+          "vocabulary": [
+            {
+              "word": "आम",
+              "romanization": "aam",
+              "meanings": { "en": "mango", "zh": "芒果", "th": "มะม่วง", "ko": "망고", "es": "mango" }
+            },
+            {
+              "word": "टमाटर",
+              "romanization": "tamaatar",
+              "meanings": { "en": "tomato", "zh": "西红柿", "th": "มะเขือเทศ", "ko": "토마토", "es": "tomate" }
+            },
+            {
+              "word": "प्याज़",
+              "romanization": "pyaaz",
+              "meanings": { "en": "onion", "zh": "洋葱", "th": "หัวหอม", "ko": "양파", "es": "cebolla" }
+            },
+            {
+              "word": "आलू",
+              "romanization": "aaloo",
+              "meanings": { "en": "potato", "zh": "土豆", "th": "มันฝรั่ง", "ko": "감자", "es": "papa / patata" }
+            },
+            {
+              "word": "केला",
+              "romanization": "kelaa",
+              "meanings": { "en": "banana", "zh": "香蕉", "th": "กล้วย", "ko": "바나나", "es": "plátano" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'mango' in Hindi?" },
+              "answer": "आम",
+              "choices": ["आम", "केला", "आलू", "टमाटर"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'आलू' (aaloo) mean?" },
+              "answer": "potato",
+              "choices": ["potato", "mango", "banana", "onion"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "आम", "native": "mango" },
+                { "target": "टमाटर", "native": "tomato" },
+                { "target": "प्याज़", "native": "onion" },
+                { "target": "केला", "native": "banana" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want two kilos of mangoes.'" },
+              "words": ["आम", "किलो", "दो", "चाहिए", "मुझे"],
+              "answer": "मुझे दो किलो आम चाहिए"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Cooking at Home",
+            "zh": "在家烹饪",
+            "th": "ทำอาหารที่บ้าน",
+            "ko": "집에서 요리하기",
+            "es": "Cocinar en casa"
+          },
+          "objectives": {
+            "en": ["Describe cooking methods in Hindi", "Talk about Indian recipes"]
+          },
+          "vocabulary": [
+            {
+              "word": "पकाना",
+              "romanization": "pakaanaa",
+              "meanings": { "en": "to cook", "zh": "烹饪", "th": "ทำอาหาร", "ko": "요리하다", "es": "cocinar" }
+            },
+            {
+              "word": "तलना",
+              "romanization": "talnaa",
+              "meanings": { "en": "to fry", "zh": "油炸", "th": "ทอด", "ko": "튀기다", "es": "freír" }
+            },
+            {
+              "word": "उबालना",
+              "romanization": "ubaalana",
+              "meanings": { "en": "to boil", "zh": "煮沸", "th": "ต้ม", "ko": "끓이다", "es": "hervir" }
+            },
+            {
+              "word": "रेसिपी",
+              "romanization": "resipee",
+              "meanings": { "en": "recipe", "zh": "食谱", "th": "สูตรอาหาร", "ko": "레시피", "es": "receta" }
+            },
+            {
+              "word": "तेल",
+              "romanization": "tel",
+              "meanings": { "en": "oil", "zh": "油", "th": "น้ำมัน", "ko": "기름", "es": "aceite" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'to fry' in Hindi?" },
+              "answer": "तलना",
+              "choices": ["तलना", "उबालना", "पकाना", "तेल"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'तेल' (tel) mean?" },
+              "answer": "oil",
+              "choices": ["oil", "to boil", "to cook", "recipe"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "पकाना", "native": "to cook" },
+                { "target": "तलना", "native": "to fry" },
+                { "target": "उबालना", "native": "to boil" },
+                { "target": "तेल", "native": "oil" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I like to cook at home.'" },
+              "words": ["पकाना", "घर", "में", "पसंद", "मुझे", "है"],
+              "answer": "मुझे घर में पकाना पसंद है"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Food Culture",
+        "zh": "饮食文化",
+        "th": "วัฒนธรรมอาหาร",
+        "ko": "음식 문화",
+        "es": "Cultura culinaria"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Meal Times",
+            "zh": "用餐时间",
+            "th": "เวลารับประทานอาหาร",
+            "ko": "식사 시간",
+            "es": "Horarios de comida"
+          },
+          "objectives": {
+            "en": ["Talk about meal times in India", "Describe daily eating habits"]
+          },
+          "vocabulary": [
+            {
+              "word": "नाश्ता",
+              "romanization": "naashta",
+              "meanings": { "en": "breakfast", "zh": "早餐", "th": "อาหารเช้า", "ko": "아침 식사", "es": "desayuno" }
+            },
+            {
+              "word": "दोपहर का खाना",
+              "romanization": "dopahar kaa khaanaa",
+              "meanings": { "en": "lunch", "zh": "午餐", "th": "อาหารกลางวัน", "ko": "점심", "es": "almuerzo" }
+            },
+            {
+              "word": "रात का खाना",
+              "romanization": "raat kaa khaanaa",
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁", "es": "cena" }
+            },
+            {
+              "word": "चाय",
+              "romanization": "chaay",
+              "meanings": { "en": "tea (chai)", "zh": "茶", "th": "ชา", "ko": "차", "es": "té (chai)" }
+            },
+            {
+              "word": "भूख",
+              "romanization": "bhookh",
+              "meanings": { "en": "hunger / appetite", "zh": "饥饿", "th": "ความหิว", "ko": "배고픔", "es": "hambre / apetito" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'breakfast' in Hindi?" },
+              "answer": "नाश्ता",
+              "choices": ["नाश्ता", "चाय", "भूख", "रात का खाना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'चाय' (chaay) mean?" },
+              "answer": "tea / chai",
+              "choices": ["tea / chai", "breakfast", "lunch", "dinner"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "नाश्ता", "native": "breakfast" },
+                { "target": "दोपहर का खाना", "native": "lunch" },
+                { "target": "रात का खाना", "native": "dinner" },
+                { "target": "चाय", "native": "tea" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I drink tea in the morning.'" },
+              "words": ["चाय", "सुबह", "पीता/पीती", "मैं", "हूँ"],
+              "answer": "मैं सुबह चाय पीता हूँ"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Street Food",
+            "zh": "街头小吃",
+            "th": "อาหารริมถนน",
+            "ko": "길거리 음식",
+            "es": "Comida callejera"
+          },
+          "objectives": {
+            "en": ["Name popular Indian street foods", "Order street food confidently"]
+          },
+          "vocabulary": [
+            {
+              "word": "समोसा",
+              "romanization": "samosaa",
+              "meanings": { "en": "samosa (fried pastry with filling)", "zh": "印度炸角", "th": "ซาโมซ่า", "ko": "사모사", "es": "samosa" }
+            },
+            {
+              "word": "पानी पूरी",
+              "romanization": "paanee pooree",
+              "meanings": { "en": "pani puri (crispy balls with water)", "zh": "印度水球", "th": "ปานีปูรี", "ko": "파니 푸리", "es": "pani puri" }
+            },
+            {
+              "word": "चाट",
+              "romanization": "chaat",
+              "meanings": { "en": "chaat (savory street snack)", "zh": "印度小吃", "th": "จาท (ขนมขบเคี้ยวอินเดีย)", "ko": "차트 (인도 길거리 간식)", "es": "chaat (aperitivo callejero indio)" }
+            },
+            {
+              "word": "गरम",
+              "romanization": "garam",
+              "meanings": { "en": "hot / warm", "zh": "热的", "th": "ร้อน", "ko": "뜨거운", "es": "caliente" }
+            },
+            {
+              "word": "ठंडा",
+              "romanization": "thandaa",
+              "meanings": { "en": "cold", "zh": "冷的", "th": "เย็น", "ko": "차가운", "es": "frío" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'hot' in Hindi?" },
+              "answer": "गरम",
+              "choices": ["गरम", "ठंडा", "समोसा", "चाट"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'समोसा' (samosaa)?" },
+              "answer": "fried pastry with filling",
+              "choices": ["fried pastry with filling", "cold drink", "sweet dessert", "spicy curry"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "समोसा", "native": "samosa" },
+                { "target": "चाट", "native": "savory street snack" },
+                { "target": "गरम", "native": "hot" },
+                { "target": "ठंडा", "native": "cold" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Give me one hot samosa.'" },
+              "words": ["गरम", "एक", "समोसा", "दीजिए", "मुझे"],
+              "answer": "मुझे एक गरम समोसा दीजिए"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Allergies and Dietary Needs",
+            "zh": "食物过敏和饮食需求",
+            "th": "อาหารแพ้และความต้องการทางอาหาร",
+            "ko": "음식 알레르기와 식이 요건",
+            "es": "Alergias y necesidades dietéticas"
+          },
+          "objectives": {
+            "en": ["Communicate food restrictions in Hindi", "Ask about ingredients"]
+          },
+          "vocabulary": [
+            {
+              "word": "एलर्जी",
+              "romanization": "elargee",
+              "meanings": { "en": "allergy", "zh": "过敏", "th": "การแพ้", "ko": "알레르기", "es": "alergia" }
+            },
+            {
+              "word": "शाकाहारी",
+              "romanization": "shaakaahaaree",
+              "meanings": { "en": "vegetarian", "zh": "素食的", "th": "มังสวิรัติ", "ko": "채식주의자", "es": "vegetariano" }
+            },
+            {
+              "word": "मांसाहारी",
+              "romanization": "maansaaharee",
+              "meanings": { "en": "non-vegetarian / meat-eating", "zh": "非素食的", "th": "ที่กินเนื้อสัตว์", "ko": "육식주의자", "es": "no vegetariano" }
+            },
+            {
+              "word": "बिना",
+              "romanization": "binaa",
+              "meanings": { "en": "without", "zh": "没有", "th": "ไม่มี/ปราศจาก", "ko": "없이", "es": "sin" }
+            },
+            {
+              "word": "सामग्री",
+              "romanization": "saamagree",
+              "meanings": { "en": "ingredient", "zh": "成分/原料", "th": "ส่วนผสม", "ko": "재료", "es": "ingrediente" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'vegetarian' in Hindi?" },
+              "answer": "शाकाहारी",
+              "choices": ["शाकाहारी", "मांसाहारी", "एलर्जी", "बिना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'बिना' (binaa) mean?" },
+              "answer": "without",
+              "choices": ["without", "with", "allergy", "ingredient"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "एलर्जी", "native": "allergy" },
+                { "target": "शाकाहारी", "native": "vegetarian" },
+                { "target": "बिना", "native": "without" },
+                { "target": "सामग्री", "native": "ingredient" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am vegetarian.'" },
+              "words": ["हूँ", "मैं", "शाकाहारी"],
+              "answer": "मैं शाकाहारी हूँ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

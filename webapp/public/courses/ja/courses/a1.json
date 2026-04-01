@@ -1,0 +1,645 @@
+{
+  "lang": "ja",
+  "language": "ja",
+  "level": "A1",
+  "track": null,
+  "track_label": null,
+  "track_emoji": null,
+  "unlock_requires": null,
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Greetings & Self-Introduction" },
+      "description": { "en": "Learn to greet people, introduce yourself, and use basic polite expressions" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Basic Greetings" },
+          "objectives": { "en": ["Greet people at different times of day", "Use basic polite expressions"] },
+          "vocabulary": [
+            { "word": "こんにちは", "romanization": "konnichiwa", "meanings": { "en": "Hello / Good afternoon" }, "gendered": null },
+            { "word": "おはようございます", "romanization": "ohayou gozaimasu", "meanings": { "en": "Good morning (polite)" }, "gendered": null },
+            { "word": "こんばんは", "romanization": "konbanwa", "meanings": { "en": "Good evening" }, "gendered": null },
+            { "word": "さようなら", "romanization": "sayounara", "meanings": { "en": "Goodbye" }, "gendered": null },
+            { "word": "ありがとうございます", "romanization": "arigatou gozaimasu", "meanings": { "en": "Thank you (polite)" }, "gendered": null },
+            { "word": "すみません", "romanization": "sumimasen", "meanings": { "en": "Excuse me / I'm sorry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "こんにちは", "romanization": "konnichiwa", "options": { "en": ["Hello", "Goodbye", "Thank you", "Sorry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "おはようございます", "romanization": "ohayou gozaimasu", "options": { "en": ["Good morning", "Good evening", "Goodbye", "Hello"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Good evening' in Japanese?" }, "options": { "neutral": ["こんばんは", "こんにちは", "おはようございます", "さようなら"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Thank you' in Japanese?" }, "options": { "neutral": ["ありがとうございます", "すみません", "さようなら", "こんにちは"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "すみません", "romanization": "sumimasen", "options": { "en": ["Excuse me", "Thank you", "Hello", "Goodbye"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "さようなら", "romanization": "sayounara", "options": { "en": ["Goodbye", "Good morning", "Thank you", "Sorry"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "こんにちは", "romanization": "konnichiwa", "native": { "en": "Hello" } },
+                { "target": "おはようございます", "romanization": "ohayou gozaimasu", "native": { "en": "Good morning" } },
+                { "target": "こんばんは", "romanization": "konbanwa", "native": { "en": "Good evening" } },
+                { "target": "さようなら", "romanization": "sayounara", "native": { "en": "Goodbye" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Self-Introduction" },
+          "objectives": { "en": ["Introduce yourself with your name", "Say where you are from"] },
+          "vocabulary": [
+            { "word": "わたし", "romanization": "watashi", "meanings": { "en": "I / me" }, "gendered": "neutral" },
+            { "word": "ぼく", "romanization": "boku", "meanings": { "en": "I / me (male, casual)" }, "gendered": "male" },
+            { "word": "なまえ", "romanization": "namae", "meanings": { "en": "Name" }, "gendered": null },
+            { "word": "はじめまして", "romanization": "hajimemashite", "meanings": { "en": "Nice to meet you" }, "gendered": null },
+            { "word": "よろしくおねがいします", "romanization": "yoroshiku onegaishimasu", "meanings": { "en": "Please treat me well / Pleased to meet you" }, "gendered": null },
+            { "word": "です", "romanization": "desu", "meanings": { "en": "am / is / are (polite copula)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "はじめまして", "romanization": "hajimemashite", "options": { "en": ["Nice to meet you", "Goodbye", "Thank you", "I'm sorry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "わたし", "romanization": "watashi", "options": { "en": ["I / me", "You", "Name", "Friend"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Nice to meet you' in Japanese?" }, "options": { "neutral": ["はじめまして", "ありがとうございます", "すみません", "さようなら"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "Which word means 'name' in Japanese?" }, "options": { "neutral": ["なまえ", "わたし", "です", "ぼく"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "よろしくおねがいします", "romanization": "yoroshiku onegaishimasu", "options": { "en": ["Pleased to meet you", "Good morning", "Thank you", "Goodbye"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "わたし", "romanization": "watashi", "options": { "en": ["I / me", "You", "He / she", "We"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "わたし", "romanization": "watashi", "native": { "en": "I / me" } },
+                { "target": "なまえ", "romanization": "namae", "native": { "en": "Name" } },
+                { "target": "はじめまして", "romanization": "hajimemashite", "native": { "en": "Nice to meet you" } },
+                { "target": "です", "romanization": "desu", "native": { "en": "is / am" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Polite Expressions" },
+          "objectives": { "en": ["Use polite phrases in daily situations", "Express gratitude and apologies"] },
+          "vocabulary": [
+            { "word": "おねがいします", "romanization": "onegaishimasu", "meanings": { "en": "Please" }, "gendered": null },
+            { "word": "ごめんなさい", "romanization": "gomen nasai", "meanings": { "en": "I'm sorry" }, "gendered": null },
+            { "word": "だいじょうぶです", "romanization": "daijoubu desu", "meanings": { "en": "It's okay / I'm fine" }, "gendered": null },
+            { "word": "どういたしまして", "romanization": "dou itashimashite", "meanings": { "en": "You're welcome" }, "gendered": null },
+            { "word": "しつれいします", "romanization": "shitsurei shimasu", "meanings": { "en": "Excuse me (formal, entering/leaving)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おねがいします", "romanization": "onegaishimasu", "options": { "en": ["Please", "Thank you", "Sorry", "Hello"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "どういたしまして", "romanization": "dou itashimashite", "options": { "en": ["You're welcome", "Please", "I'm sorry", "Goodbye"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I'm sorry' in Japanese?" }, "options": { "neutral": ["ごめんなさい", "ありがとうございます", "おねがいします", "だいじょうぶです"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'It's okay' in Japanese?" }, "options": { "neutral": ["だいじょうぶです", "ごめんなさい", "しつれいします", "どういたしまして"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "しつれいします", "romanization": "shitsurei shimasu", "options": { "en": ["Excuse me", "Thank you", "Please", "You're welcome"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "だいじょうぶです", "romanization": "daijoubu desu", "options": { "en": ["It's okay", "I'm sorry", "Excuse me", "Please"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おねがいします", "romanization": "onegaishimasu", "native": { "en": "Please" } },
+                { "target": "ごめんなさい", "romanization": "gomen nasai", "native": { "en": "I'm sorry" } },
+                { "target": "どういたしまして", "romanization": "dou itashimashite", "native": { "en": "You're welcome" } },
+                { "target": "だいじょうぶです", "romanization": "daijoubu desu", "native": { "en": "It's okay" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Asking About Others" },
+          "objectives": { "en": ["Ask someone's name", "Ask where someone is from"] },
+          "vocabulary": [
+            { "word": "おなまえは", "romanization": "onamae wa", "meanings": { "en": "What is your name?" }, "gendered": null },
+            { "word": "どこ", "romanization": "doko", "meanings": { "en": "Where" }, "gendered": null },
+            { "word": "から", "romanization": "kara", "meanings": { "en": "From" }, "gendered": null },
+            { "word": "にほんじん", "romanization": "nihonjin", "meanings": { "en": "Japanese person" }, "gendered": null },
+            { "word": "アメリカじん", "romanization": "amerikajin", "meanings": { "en": "American person" }, "gendered": null },
+            { "word": "がくせい", "romanization": "gakusei", "meanings": { "en": "Student" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おなまえは", "romanization": "onamae wa", "options": { "en": ["What is your name?", "How are you?", "Where are you from?", "Nice to meet you"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "がくせい", "romanization": "gakusei", "options": { "en": ["Student", "Teacher", "Friend", "Person"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Japanese person' in Japanese?" }, "options": { "neutral": ["にほんじん", "アメリカじん", "がくせい", "なまえ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "Which word means 'from' in Japanese?" }, "options": { "neutral": ["から", "どこ", "です", "は"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "どこ", "romanization": "doko", "options": { "en": ["Where", "What", "Who", "When"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "にほんじん", "romanization": "nihonjin", "options": { "en": ["Japanese person", "American person", "Student", "Teacher"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "どこ", "romanization": "doko", "native": { "en": "Where" } },
+                { "target": "から", "romanization": "kara", "native": { "en": "From" } },
+                { "target": "にほんじん", "romanization": "nihonjin", "native": { "en": "Japanese person" } },
+                { "target": "がくせい", "romanization": "gakusei", "native": { "en": "Student" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Numbers, Time & Days" },
+      "description": { "en": "Learn to count, tell time, and say days of the week" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Numbers 1-10" },
+          "objectives": { "en": ["Count from 1 to 10 in Japanese", "Recognize written numbers in hiragana"] },
+          "vocabulary": [
+            { "word": "いち", "romanization": "ichi", "meanings": { "en": "One (1)" }, "gendered": null },
+            { "word": "に", "romanization": "ni", "meanings": { "en": "Two (2)" }, "gendered": null },
+            { "word": "さん", "romanization": "san", "meanings": { "en": "Three (3)" }, "gendered": null },
+            { "word": "よん", "romanization": "yon", "meanings": { "en": "Four (4)" }, "gendered": null },
+            { "word": "ご", "romanization": "go", "meanings": { "en": "Five (5)" }, "gendered": null },
+            { "word": "ろく", "romanization": "roku", "meanings": { "en": "Six (6)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "さん", "romanization": "san", "options": { "en": ["Three", "One", "Five", "Two"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ろく", "romanization": "roku", "options": { "en": ["Six", "Four", "Seven", "Nine"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'four' in Japanese?" }, "options": { "neutral": ["よん", "ご", "に", "いち"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'five' in Japanese?" }, "options": { "neutral": ["ご", "ろく", "さん", "よん"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "いち", "romanization": "ichi", "options": { "en": ["One", "Two", "Three", "Four"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "に", "romanization": "ni", "options": { "en": ["Two", "One", "Six", "Five"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "いち", "romanization": "ichi", "native": { "en": "One" } },
+                { "target": "さん", "romanization": "san", "native": { "en": "Three" } },
+                { "target": "ご", "romanization": "go", "native": { "en": "Five" } },
+                { "target": "ろく", "romanization": "roku", "native": { "en": "Six" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Numbers 7-10 & Counting" },
+          "objectives": { "en": ["Count from 7 to 10", "Use the counter for general objects"] },
+          "vocabulary": [
+            { "word": "なな", "romanization": "nana", "meanings": { "en": "Seven (7)" }, "gendered": null },
+            { "word": "はち", "romanization": "hachi", "meanings": { "en": "Eight (8)" }, "gendered": null },
+            { "word": "きゅう", "romanization": "kyuu", "meanings": { "en": "Nine (9)" }, "gendered": null },
+            { "word": "じゅう", "romanization": "juu", "meanings": { "en": "Ten (10)" }, "gendered": null },
+            { "word": "ひとつ", "romanization": "hitotsu", "meanings": { "en": "One (general counter)" }, "gendered": null },
+            { "word": "ふたつ", "romanization": "futatsu", "meanings": { "en": "Two (general counter)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "なな", "romanization": "nana", "options": { "en": ["Seven", "Eight", "Nine", "Ten"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "じゅう", "romanization": "juu", "options": { "en": ["Ten", "Seven", "Eight", "Nine"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'nine' in Japanese?" }, "options": { "neutral": ["きゅう", "はち", "なな", "じゅう"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "Which is the general counter for 'one thing'?" }, "options": { "neutral": ["ひとつ", "いち", "ふたつ", "に"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "はち", "romanization": "hachi", "options": { "en": ["Eight", "Seven", "Six", "Ten"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ふたつ", "romanization": "futatsu", "options": { "en": ["Two things", "One thing", "Three things", "Four things"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "なな", "romanization": "nana", "native": { "en": "Seven" } },
+                { "target": "はち", "romanization": "hachi", "native": { "en": "Eight" } },
+                { "target": "きゅう", "romanization": "kyuu", "native": { "en": "Nine" } },
+                { "target": "じゅう", "romanization": "juu", "native": { "en": "Ten" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Telling Time" },
+          "objectives": { "en": ["Ask and tell the time", "Use hour and minute counters"] },
+          "vocabulary": [
+            { "word": "なんじ", "romanization": "nanji", "meanings": { "en": "What time?" }, "gendered": null },
+            { "word": "いちじ", "romanization": "ichiji", "meanings": { "en": "One o'clock" }, "gendered": null },
+            { "word": "にじ", "romanization": "niji", "meanings": { "en": "Two o'clock" }, "gendered": null },
+            { "word": "ごぜん", "romanization": "gozen", "meanings": { "en": "AM / morning" }, "gendered": null },
+            { "word": "ごご", "romanization": "gogo", "meanings": { "en": "PM / afternoon" }, "gendered": null },
+            { "word": "はん", "romanization": "han", "meanings": { "en": "Half past" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "なんじ", "romanization": "nanji", "options": { "en": ["What time?", "What day?", "How much?", "Where?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ごぜん", "romanization": "gozen", "options": { "en": ["AM / morning", "PM / afternoon", "Evening", "Night"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'two o'clock' in Japanese?" }, "options": { "neutral": ["にじ", "いちじ", "なんじ", "さんじ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "Which word means 'half past'?" }, "options": { "neutral": ["はん", "ごご", "ごぜん", "じ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "いちじ", "romanization": "ichiji", "options": { "en": ["One o'clock", "Two o'clock", "Three o'clock", "What time?"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ごご", "romanization": "gogo", "options": { "en": ["PM / afternoon", "AM / morning", "Half past", "What time?"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "なんじ", "romanization": "nanji", "native": { "en": "What time?" } },
+                { "target": "ごぜん", "romanization": "gozen", "native": { "en": "AM" } },
+                { "target": "ごご", "romanization": "gogo", "native": { "en": "PM" } },
+                { "target": "はん", "romanization": "han", "native": { "en": "Half past" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Days of the Week" },
+          "objectives": { "en": ["Say all seven days of the week", "Ask and answer what day it is"] },
+          "vocabulary": [
+            { "word": "げつようび", "romanization": "getsuyoubi", "meanings": { "en": "Monday" }, "gendered": null },
+            { "word": "かようび", "romanization": "kayoubi", "meanings": { "en": "Tuesday" }, "gendered": null },
+            { "word": "すいようび", "romanization": "suiyoubi", "meanings": { "en": "Wednesday" }, "gendered": null },
+            { "word": "もくようび", "romanization": "mokuyoubi", "meanings": { "en": "Thursday" }, "gendered": null },
+            { "word": "きんようび", "romanization": "kinyoubi", "meanings": { "en": "Friday" }, "gendered": null },
+            { "word": "にちようび", "romanization": "nichiyoubi", "meanings": { "en": "Sunday" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "げつようび", "romanization": "getsuyoubi", "options": { "en": ["Monday", "Tuesday", "Wednesday", "Thursday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "きんようび", "romanization": "kinyoubi", "options": { "en": ["Friday", "Saturday", "Sunday", "Monday"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Wednesday' in Japanese?" }, "options": { "neutral": ["すいようび", "もくようび", "かようび", "きんようび"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Sunday' in Japanese?" }, "options": { "neutral": ["にちようび", "げつようび", "かようび", "もくようび"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "かようび", "romanization": "kayoubi", "options": { "en": ["Tuesday", "Monday", "Thursday", "Friday"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "もくようび", "romanization": "mokuyoubi", "options": { "en": ["Thursday", "Wednesday", "Friday", "Saturday"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "げつようび", "romanization": "getsuyoubi", "native": { "en": "Monday" } },
+                { "target": "すいようび", "romanization": "suiyoubi", "native": { "en": "Wednesday" } },
+                { "target": "きんようび", "romanization": "kinyoubi", "native": { "en": "Friday" } },
+                { "target": "にちようび", "romanization": "nichiyoubi", "native": { "en": "Sunday" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Food & Ordering" },
+      "description": { "en": "Learn food vocabulary and how to order at restaurants" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Common Foods" },
+          "objectives": { "en": ["Name common Japanese foods", "Identify food items in hiragana and katakana"] },
+          "vocabulary": [
+            { "word": "すし", "romanization": "sushi", "meanings": { "en": "Sushi" }, "gendered": null },
+            { "word": "ラーメン", "romanization": "raamen", "meanings": { "en": "Ramen" }, "gendered": null },
+            { "word": "ごはん", "romanization": "gohan", "meanings": { "en": "Rice / Meal" }, "gendered": null },
+            { "word": "パン", "romanization": "pan", "meanings": { "en": "Bread" }, "gendered": null },
+            { "word": "たまご", "romanization": "tamago", "meanings": { "en": "Egg" }, "gendered": null },
+            { "word": "さかな", "romanization": "sakana", "meanings": { "en": "Fish" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "すし", "romanization": "sushi", "options": { "en": ["Sushi", "Ramen", "Rice", "Bread"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ごはん", "romanization": "gohan", "options": { "en": ["Rice / Meal", "Bread", "Egg", "Fish"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'ramen' in Japanese?" }, "options": { "neutral": ["ラーメン", "すし", "パン", "ごはん"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'egg' in Japanese?" }, "options": { "neutral": ["たまご", "さかな", "ごはん", "すし"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "さかな", "romanization": "sakana", "options": { "en": ["Fish", "Egg", "Rice", "Sushi"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "パン", "romanization": "pan", "options": { "en": ["Bread", "Ramen", "Fish", "Egg"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "すし", "romanization": "sushi", "native": { "en": "Sushi" } },
+                { "target": "ラーメン", "romanization": "raamen", "native": { "en": "Ramen" } },
+                { "target": "ごはん", "romanization": "gohan", "native": { "en": "Rice" } },
+                { "target": "さかな", "romanization": "sakana", "native": { "en": "Fish" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Drinks" },
+          "objectives": { "en": ["Name common drinks", "Order a drink politely"] },
+          "vocabulary": [
+            { "word": "みず", "romanization": "mizu", "meanings": { "en": "Water" }, "gendered": null },
+            { "word": "おちゃ", "romanization": "ocha", "meanings": { "en": "Tea (green tea)" }, "gendered": null },
+            { "word": "コーヒー", "romanization": "koohii", "meanings": { "en": "Coffee" }, "gendered": null },
+            { "word": "ぎゅうにゅう", "romanization": "gyuunyuu", "meanings": { "en": "Milk" }, "gendered": null },
+            { "word": "ジュース", "romanization": "juusu", "meanings": { "en": "Juice" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おちゃ", "romanization": "ocha", "options": { "en": ["Tea", "Coffee", "Water", "Juice"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "コーヒー", "romanization": "koohii", "options": { "en": ["Coffee", "Tea", "Milk", "Water"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'water' in Japanese?" }, "options": { "neutral": ["みず", "おちゃ", "ぎゅうにゅう", "ジュース"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'juice' in Japanese?" }, "options": { "neutral": ["ジュース", "コーヒー", "みず", "おちゃ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ぎゅうにゅう", "romanization": "gyuunyuu", "options": { "en": ["Milk", "Water", "Juice", "Tea"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "みず", "romanization": "mizu", "options": { "en": ["Water", "Coffee", "Milk", "Tea"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "みず", "romanization": "mizu", "native": { "en": "Water" } },
+                { "target": "おちゃ", "romanization": "ocha", "native": { "en": "Tea" } },
+                { "target": "コーヒー", "romanization": "koohii", "native": { "en": "Coffee" } },
+                { "target": "ぎゅうにゅう", "romanization": "gyuunyuu", "native": { "en": "Milk" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Ordering at a Restaurant" },
+          "objectives": { "en": ["Order food politely using ください", "Ask for the menu and the bill"] },
+          "vocabulary": [
+            { "word": "ください", "romanization": "kudasai", "meanings": { "en": "Please (give me)" }, "gendered": null },
+            { "word": "メニュー", "romanization": "menyuu", "meanings": { "en": "Menu" }, "gendered": null },
+            { "word": "おかいけい", "romanization": "okaikei", "meanings": { "en": "The bill / Check" }, "gendered": null },
+            { "word": "おいしい", "romanization": "oishii", "meanings": { "en": "Delicious" }, "gendered": null },
+            { "word": "いただきます", "romanization": "itadakimasu", "meanings": { "en": "Let's eat (before meal)" }, "gendered": null },
+            { "word": "ごちそうさまでした", "romanization": "gochisousama deshita", "meanings": { "en": "Thank you for the meal (after eating)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ください", "romanization": "kudasai", "options": { "en": ["Please (give me)", "Thank you", "Excuse me", "Delicious"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "いただきます", "romanization": "itadakimasu", "options": { "en": ["Let's eat", "Delicious", "The bill please", "Thank you for the meal"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you ask for the bill in Japanese?" }, "options": { "neutral": ["おかいけい", "メニュー", "ください", "おいしい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'delicious' in Japanese?" }, "options": { "neutral": ["おいしい", "いただきます", "ごちそうさまでした", "ください"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "メニュー", "romanization": "menyuu", "options": { "en": ["Menu", "Bill", "Please", "Delicious"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ごちそうさまでした", "romanization": "gochisousama deshita", "options": { "en": ["Thank you for the meal", "Let's eat", "Delicious", "The bill please"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ください", "romanization": "kudasai", "native": { "en": "Please" } },
+                { "target": "メニュー", "romanization": "menyuu", "native": { "en": "Menu" } },
+                { "target": "いただきます", "romanization": "itadakimasu", "native": { "en": "Let's eat" } },
+                { "target": "ごちそうさまでした", "romanization": "gochisousama deshita", "native": { "en": "Thanks for the meal" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Prices & Asking How Much" },
+          "objectives": { "en": ["Ask how much something costs", "Understand prices in yen"] },
+          "vocabulary": [
+            { "word": "いくらですか", "romanization": "ikura desu ka", "meanings": { "en": "How much is it?" }, "gendered": null },
+            { "word": "えん", "romanization": "en", "meanings": { "en": "Yen (Japanese currency)" }, "gendered": null },
+            { "word": "ひゃく", "romanization": "hyaku", "meanings": { "en": "Hundred (100)" }, "gendered": null },
+            { "word": "せん", "romanization": "sen", "meanings": { "en": "Thousand (1000)" }, "gendered": null },
+            { "word": "たかい", "romanization": "takai", "meanings": { "en": "Expensive" }, "gendered": null },
+            { "word": "やすい", "romanization": "yasui", "meanings": { "en": "Cheap / Inexpensive" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "いくらですか", "romanization": "ikura desu ka", "options": { "en": ["How much is it?", "What is this?", "Where is it?", "What time is it?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "たかい", "romanization": "takai", "options": { "en": ["Expensive", "Cheap", "Big", "Small"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'cheap' in Japanese?" }, "options": { "neutral": ["やすい", "たかい", "ひゃく", "せん"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'thousand' in Japanese?" }, "options": { "neutral": ["せん", "ひゃく", "えん", "じゅう"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ひゃく", "romanization": "hyaku", "options": { "en": ["Hundred", "Thousand", "Ten", "Yen"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "えん", "romanization": "en", "options": { "en": ["Yen", "Hundred", "Thousand", "Dollar"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "いくらですか", "romanization": "ikura desu ka", "native": { "en": "How much?" } },
+                { "target": "たかい", "romanization": "takai", "native": { "en": "Expensive" } },
+                { "target": "やすい", "romanization": "yasui", "native": { "en": "Cheap" } },
+                { "target": "えん", "romanization": "en", "native": { "en": "Yen" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Family & Descriptions" },
+      "description": { "en": "Learn family terms and basic adjectives to describe people and things" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Family Members" },
+          "objectives": { "en": ["Name immediate family members", "Distinguish between humble and polite family terms"] },
+          "vocabulary": [
+            { "word": "かぞく", "romanization": "kazoku", "meanings": { "en": "Family" }, "gendered": null },
+            { "word": "おかあさん", "romanization": "okaasan", "meanings": { "en": "Mother (someone else's)" }, "gendered": null },
+            { "word": "はは", "romanization": "haha", "meanings": { "en": "Mother (my own)" }, "gendered": null },
+            { "word": "おとうさん", "romanization": "otousan", "meanings": { "en": "Father (someone else's)" }, "gendered": null },
+            { "word": "ちち", "romanization": "chichi", "meanings": { "en": "Father (my own)" }, "gendered": null },
+            { "word": "きょうだい", "romanization": "kyoudai", "meanings": { "en": "Siblings" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おかあさん", "romanization": "okaasan", "options": { "en": ["Mother", "Father", "Sibling", "Family"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ちち", "romanization": "chichi", "options": { "en": ["My father", "My mother", "Your father", "Siblings"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'family' in Japanese?" }, "options": { "neutral": ["かぞく", "きょうだい", "おかあさん", "おとうさん"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "Which word means 'my mother' (humble form)?" }, "options": { "neutral": ["はは", "おかあさん", "ちち", "おとうさん"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "おとうさん", "romanization": "otousan", "options": { "en": ["Father", "Mother", "Sibling", "Family"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "きょうだい", "romanization": "kyoudai", "options": { "en": ["Siblings", "Family", "Mother", "Father"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "かぞく", "romanization": "kazoku", "native": { "en": "Family" } },
+                { "target": "おかあさん", "romanization": "okaasan", "native": { "en": "Mother" } },
+                { "target": "おとうさん", "romanization": "otousan", "native": { "en": "Father" } },
+                { "target": "きょうだい", "romanization": "kyoudai", "native": { "en": "Siblings" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "More Family Members" },
+          "objectives": { "en": ["Name extended family members", "Talk about brothers and sisters"] },
+          "vocabulary": [
+            { "word": "おにいさん", "romanization": "oniisan", "meanings": { "en": "Older brother (someone else's)" }, "gendered": null },
+            { "word": "あに", "romanization": "ani", "meanings": { "en": "Older brother (my own)" }, "gendered": null },
+            { "word": "おねえさん", "romanization": "oneesan", "meanings": { "en": "Older sister (someone else's)" }, "gendered": null },
+            { "word": "あね", "romanization": "ane", "meanings": { "en": "Older sister (my own)" }, "gendered": null },
+            { "word": "おとうと", "romanization": "otouto", "meanings": { "en": "Younger brother" }, "gendered": null },
+            { "word": "いもうと", "romanization": "imouto", "meanings": { "en": "Younger sister" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おにいさん", "romanization": "oniisan", "options": { "en": ["Older brother", "Younger brother", "Older sister", "Father"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "いもうと", "romanization": "imouto", "options": { "en": ["Younger sister", "Older sister", "Younger brother", "Mother"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'my older sister' (humble form)?" }, "options": { "neutral": ["あね", "おねえさん", "いもうと", "おかあさん"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'younger brother' in Japanese?" }, "options": { "neutral": ["おとうと", "あに", "おにいさん", "きょうだい"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "あに", "romanization": "ani", "options": { "en": ["My older brother", "My younger brother", "My older sister", "My father"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "おねえさん", "romanization": "oneesan", "options": { "en": ["Older sister", "Younger sister", "Older brother", "Mother"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おにいさん", "romanization": "oniisan", "native": { "en": "Older brother" } },
+                { "target": "おねえさん", "romanization": "oneesan", "native": { "en": "Older sister" } },
+                { "target": "おとうと", "romanization": "otouto", "native": { "en": "Younger brother" } },
+                { "target": "いもうと", "romanization": "imouto", "native": { "en": "Younger sister" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Describing Size & Appearance" },
+          "objectives": { "en": ["Use basic adjectives for size", "Describe people and objects"] },
+          "vocabulary": [
+            { "word": "おおきい", "romanization": "ookii", "meanings": { "en": "Big / Large" }, "gendered": null },
+            { "word": "ちいさい", "romanization": "chiisai", "meanings": { "en": "Small / Little" }, "gendered": null },
+            { "word": "ながい", "romanization": "nagai", "meanings": { "en": "Long" }, "gendered": null },
+            { "word": "みじかい", "romanization": "mijikai", "meanings": { "en": "Short (length)" }, "gendered": null },
+            { "word": "あたらしい", "romanization": "atarashii", "meanings": { "en": "New" }, "gendered": null },
+            { "word": "ふるい", "romanization": "furui", "meanings": { "en": "Old (things, not people)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "おおきい", "romanization": "ookii", "options": { "en": ["Big", "Small", "Long", "Short"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "あたらしい", "romanization": "atarashii", "options": { "en": ["New", "Old", "Big", "Small"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'small' in Japanese?" }, "options": { "neutral": ["ちいさい", "おおきい", "みじかい", "ながい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'long' in Japanese?" }, "options": { "neutral": ["ながい", "みじかい", "ふるい", "あたらしい"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "みじかい", "romanization": "mijikai", "options": { "en": ["Short", "Long", "Big", "New"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ふるい", "romanization": "furui", "options": { "en": ["Old", "New", "Small", "Long"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "おおきい", "romanization": "ookii", "native": { "en": "Big" } },
+                { "target": "ちいさい", "romanization": "chiisai", "native": { "en": "Small" } },
+                { "target": "あたらしい", "romanization": "atarashii", "native": { "en": "New" } },
+                { "target": "ふるい", "romanization": "furui", "native": { "en": "Old" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Colors & More Adjectives" },
+          "objectives": { "en": ["Name basic colors", "Use adjectives to describe objects"] },
+          "vocabulary": [
+            { "word": "あかい", "romanization": "akai", "meanings": { "en": "Red" }, "gendered": null },
+            { "word": "あおい", "romanization": "aoi", "meanings": { "en": "Blue" }, "gendered": null },
+            { "word": "しろい", "romanization": "shiroi", "meanings": { "en": "White" }, "gendered": null },
+            { "word": "くろい", "romanization": "kuroi", "meanings": { "en": "Black" }, "gendered": null },
+            { "word": "きれい", "romanization": "kirei", "meanings": { "en": "Beautiful / Clean" }, "gendered": null },
+            { "word": "かわいい", "romanization": "kawaii", "meanings": { "en": "Cute" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "あかい", "romanization": "akai", "options": { "en": ["Red", "Blue", "White", "Black"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "かわいい", "romanization": "kawaii", "options": { "en": ["Cute", "Beautiful", "Big", "New"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'blue' in Japanese?" }, "options": { "neutral": ["あおい", "あかい", "しろい", "くろい"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'black' in Japanese?" }, "options": { "neutral": ["くろい", "しろい", "あおい", "あかい"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "しろい", "romanization": "shiroi", "options": { "en": ["White", "Black", "Red", "Blue"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "きれい", "romanization": "kirei", "options": { "en": ["Beautiful", "Cute", "Red", "White"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "あかい", "romanization": "akai", "native": { "en": "Red" } },
+                { "target": "あおい", "romanization": "aoi", "native": { "en": "Blue" } },
+                { "target": "しろい", "romanization": "shiroi", "native": { "en": "White" } },
+                { "target": "くろい", "romanization": "kuroi", "native": { "en": "Black" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Places & Directions" },
+      "description": { "en": "Learn place names and how to ask for and give directions" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Common Places" },
+          "objectives": { "en": ["Name common places in a town", "Recognize place-related vocabulary"] },
+          "vocabulary": [
+            { "word": "えき", "romanization": "eki", "meanings": { "en": "Station" }, "gendered": null },
+            { "word": "がっこう", "romanization": "gakkou", "meanings": { "en": "School" }, "gendered": null },
+            { "word": "びょういん", "romanization": "byouin", "meanings": { "en": "Hospital" }, "gendered": null },
+            { "word": "コンビニ", "romanization": "konbini", "meanings": { "en": "Convenience store" }, "gendered": null },
+            { "word": "ぎんこう", "romanization": "ginkou", "meanings": { "en": "Bank" }, "gendered": null },
+            { "word": "レストラン", "romanization": "resutoran", "meanings": { "en": "Restaurant" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "えき", "romanization": "eki", "options": { "en": ["Station", "School", "Hospital", "Bank"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "コンビニ", "romanization": "konbini", "options": { "en": ["Convenience store", "Restaurant", "Bank", "Hospital"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'school' in Japanese?" }, "options": { "neutral": ["がっこう", "びょういん", "ぎんこう", "えき"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'restaurant' in Japanese?" }, "options": { "neutral": ["レストラン", "コンビニ", "がっこう", "えき"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "びょういん", "romanization": "byouin", "options": { "en": ["Hospital", "School", "Bank", "Station"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ぎんこう", "romanization": "ginkou", "options": { "en": ["Bank", "Hospital", "Station", "Restaurant"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "えき", "romanization": "eki", "native": { "en": "Station" } },
+                { "target": "がっこう", "romanization": "gakkou", "native": { "en": "School" } },
+                { "target": "びょういん", "romanization": "byouin", "native": { "en": "Hospital" } },
+                { "target": "ぎんこう", "romanization": "ginkou", "native": { "en": "Bank" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Directions" },
+          "objectives": { "en": ["Give and understand basic directions", "Use left, right, and straight"] },
+          "vocabulary": [
+            { "word": "みぎ", "romanization": "migi", "meanings": { "en": "Right" }, "gendered": null },
+            { "word": "ひだり", "romanization": "hidari", "meanings": { "en": "Left" }, "gendered": null },
+            { "word": "まっすぐ", "romanization": "massugu", "meanings": { "en": "Straight ahead" }, "gendered": null },
+            { "word": "うしろ", "romanization": "ushiro", "meanings": { "en": "Behind / Back" }, "gendered": null },
+            { "word": "まえ", "romanization": "mae", "meanings": { "en": "Front / In front of" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "みぎ", "romanization": "migi", "options": { "en": ["Right", "Left", "Straight", "Behind"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "まっすぐ", "romanization": "massugu", "options": { "en": ["Straight ahead", "Right", "Left", "Behind"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'left' in Japanese?" }, "options": { "neutral": ["ひだり", "みぎ", "まっすぐ", "まえ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'behind' in Japanese?" }, "options": { "neutral": ["うしろ", "まえ", "みぎ", "ひだり"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ひだり", "romanization": "hidari", "options": { "en": ["Left", "Right", "Front", "Straight"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "まえ", "romanization": "mae", "options": { "en": ["Front", "Behind", "Left", "Right"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "みぎ", "romanization": "migi", "native": { "en": "Right" } },
+                { "target": "ひだり", "romanization": "hidari", "native": { "en": "Left" } },
+                { "target": "まっすぐ", "romanization": "massugu", "native": { "en": "Straight" } },
+                { "target": "うしろ", "romanization": "ushiro", "native": { "en": "Behind" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Asking Where Things Are" },
+          "objectives": { "en": ["Ask where something is located", "Use location particles and question words"] },
+          "vocabulary": [
+            { "word": "どこですか", "romanization": "doko desu ka", "meanings": { "en": "Where is it?" }, "gendered": null },
+            { "word": "ここ", "romanization": "koko", "meanings": { "en": "Here" }, "gendered": null },
+            { "word": "そこ", "romanization": "soko", "meanings": { "en": "There (near you)" }, "gendered": null },
+            { "word": "あそこ", "romanization": "asoko", "meanings": { "en": "Over there" }, "gendered": null },
+            { "word": "となり", "romanization": "tonari", "meanings": { "en": "Next to / Beside" }, "gendered": null },
+            { "word": "ちかく", "romanization": "chikaku", "meanings": { "en": "Nearby / Close" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "どこですか", "romanization": "doko desu ka", "options": { "en": ["Where is it?", "What is it?", "How much?", "What time?"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ここ", "romanization": "koko", "options": { "en": ["Here", "There", "Over there", "Nearby"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'there' (near the listener) in Japanese?" }, "options": { "neutral": ["そこ", "ここ", "あそこ", "どこ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'next to' in Japanese?" }, "options": { "neutral": ["となり", "ちかく", "ここ", "そこ"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "あそこ", "romanization": "asoko", "options": { "en": ["Over there", "Here", "There", "Nearby"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ちかく", "romanization": "chikaku", "options": { "en": ["Nearby", "Next to", "Here", "Over there"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "ここ", "romanization": "koko", "native": { "en": "Here" } },
+                { "target": "そこ", "romanization": "soko", "native": { "en": "There" } },
+                { "target": "あそこ", "romanization": "asoko", "native": { "en": "Over there" } },
+                { "target": "となり", "romanization": "tonari", "native": { "en": "Next to" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Getting Around" },
+          "objectives": { "en": ["Talk about transportation", "Ask how to get somewhere"] },
+          "vocabulary": [
+            { "word": "でんしゃ", "romanization": "densha", "meanings": { "en": "Train" }, "gendered": null },
+            { "word": "バス", "romanization": "basu", "meanings": { "en": "Bus" }, "gendered": null },
+            { "word": "タクシー", "romanization": "takushii", "meanings": { "en": "Taxi" }, "gendered": null },
+            { "word": "じてんしゃ", "romanization": "jitensha", "meanings": { "en": "Bicycle" }, "gendered": null },
+            { "word": "あるいて", "romanization": "aruite", "meanings": { "en": "On foot / Walking" }, "gendered": null },
+            { "word": "きっぷ", "romanization": "kippu", "meanings": { "en": "Ticket" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "でんしゃ", "romanization": "densha", "options": { "en": ["Train", "Bus", "Taxi", "Bicycle"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "あるいて", "romanization": "aruite", "options": { "en": ["On foot", "By train", "By bus", "By taxi"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bus' in Japanese?" }, "options": { "neutral": ["バス", "タクシー", "でんしゃ", "じてんしゃ"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'ticket' in Japanese?" }, "options": { "neutral": ["きっぷ", "えき", "でんしゃ", "バス"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "タクシー", "romanization": "takushii", "options": { "en": ["Taxi", "Train", "Bus", "Bicycle"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "じてんしゃ", "romanization": "jitensha", "options": { "en": ["Bicycle", "Train", "Taxi", "On foot"] }, "correct": 0 },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "でんしゃ", "romanization": "densha", "native": { "en": "Train" } },
+                { "target": "バス", "romanization": "basu", "native": { "en": "Bus" } },
+                { "target": "タクシー", "romanization": "takushii", "native": { "en": "Taxi" } },
+                { "target": "じてんしゃ", "romanization": "jitensha", "native": { "en": "Bicycle" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

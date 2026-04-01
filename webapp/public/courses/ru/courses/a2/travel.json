@@ -1,0 +1,1810 @@
+{
+  "lang": "ru",
+  "language": "ru",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行交通",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Public Transport",
+            "zh": "公共交通",
+            "th": "ขนส่งสาธารณะ",
+            "ko": "대중교통",
+            "es": "Transporte público"
+          },
+          "objectives": {
+            "en": [
+              "Buy tickets and use public transport",
+              "Understand departure and arrival information"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "билет",
+              "romanization": "bilet",
+              "meanings": {
+                "en": "ticket",
+                "zh": "票",
+                "th": "ตั๋ว",
+                "ko": "표",
+                "es": "billete"
+              }
+            },
+            {
+              "word": "автобус",
+              "romanization": "avtobus",
+              "meanings": {
+                "en": "bus",
+                "zh": "公交车",
+                "th": "รถบัส",
+                "ko": "버스",
+                "es": "autobús"
+              }
+            },
+            {
+              "word": "метро",
+              "romanization": "metro",
+              "meanings": {
+                "en": "metro / subway",
+                "zh": "地铁",
+                "th": "รถไฟใต้ดิน",
+                "ko": "지하철",
+                "es": "metro"
+              }
+            },
+            {
+              "word": "остановка",
+              "romanization": "ostanovka",
+              "meanings": {
+                "en": "stop",
+                "zh": "站",
+                "th": "ป้าย",
+                "ko": "정류장",
+                "es": "parada"
+              }
+            },
+            {
+              "word": "отправление",
+              "romanization": "otpravleniye",
+              "meanings": {
+                "en": "departure",
+                "zh": "出发",
+                "th": "การออกเดินทาง",
+                "ko": "출발",
+                "es": "salida"
+              }
+            },
+            {
+              "word": "прибытие",
+              "romanization": "pribytiye",
+              "meanings": {
+                "en": "arrival",
+                "zh": "到达",
+                "th": "การมาถึง",
+                "ko": "도착",
+                "es": "llegada"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "билет",
+              "romanization": "bilet",
+              "options": {
+                "en": [
+                  "ticket",
+                  "passport",
+                  "map",
+                  "seat"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Билет means ticket."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'bus' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "автобус",
+                  "метро",
+                  "трамвай",
+                  "такси"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Автобус means bus."
+            },
+            {
+              "type": "listening",
+              "audio_text": "остановка",
+              "romanization": "ostanovka",
+              "options": {
+                "en": [
+                  "stop",
+                  "station",
+                  "airport",
+                  "harbour"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Остановка means stop."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "билет",
+                  "romanization": "bilet",
+                  "native": {
+                    "en": "ticket"
+                  }
+                },
+                {
+                  "target": "автобус",
+                  "romanization": "avtobus",
+                  "native": {
+                    "en": "bus"
+                  }
+                },
+                {
+                  "target": "отправление",
+                  "romanization": "otpravleniye",
+                  "native": {
+                    "en": "departure"
+                  }
+                },
+                {
+                  "target": "прибытие",
+                  "romanization": "pribytiye",
+                  "native": {
+                    "en": "arrival"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Where is the bus stop?'"
+              },
+              "words": [
+                "автобусная",
+                "где",
+                "остановка"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "где",
+                  "автобусная",
+                  "остановка"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "где",
+                  "автобусная",
+                  "остановка"
+                ]
+              },
+              "translation": "Где автобусная остановка?"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "At the Train Station",
+            "zh": "在火车站",
+            "th": "ที่สถานีรถไฟ",
+            "ko": "기차역에서",
+            "es": "En la estación de tren"
+          },
+          "objectives": {
+            "en": [
+              "Buy train tickets",
+              "Ask about platforms and schedules"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "поезд",
+              "romanization": "poyezd",
+              "meanings": {
+                "en": "train",
+                "zh": "火车",
+                "th": "รถไฟ",
+                "ko": "기차",
+                "es": "tren"
+              }
+            },
+            {
+              "word": "платформа",
+              "romanization": "platforma",
+              "meanings": {
+                "en": "platform",
+                "zh": "站台",
+                "th": "ชานชาลา",
+                "ko": "플랫폼",
+                "es": "andén"
+              }
+            },
+            {
+              "word": "расписание",
+              "romanization": "raspisaniye",
+              "meanings": {
+                "en": "schedule / timetable",
+                "zh": "时刻表",
+                "th": "ตารางเวลา",
+                "ko": "시간표",
+                "es": "horario"
+              }
+            },
+            {
+              "word": "пересадка",
+              "romanization": "peresadka",
+              "meanings": {
+                "en": "transfer / connection",
+                "zh": "换乘",
+                "th": "ต่อรถ",
+                "ko": "환승",
+                "es": "transbordo"
+              }
+            },
+            {
+              "word": "купе",
+              "romanization": "kupe",
+              "meanings": {
+                "en": "train compartment",
+                "zh": "包厢",
+                "th": "ห้องโดยสาร",
+                "ko": "객실",
+                "es": "compartimento"
+              }
+            },
+            {
+              "word": "задержка",
+              "romanization": "zaderzhka",
+              "meanings": {
+                "en": "delay",
+                "zh": "延误",
+                "th": "ความล่าช้า",
+                "ko": "지연",
+                "es": "retraso"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "поезд",
+              "romanization": "poyezd",
+              "options": {
+                "en": [
+                  "train",
+                  "bus",
+                  "plane",
+                  "taxi"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Поезд means train."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'platform' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "платформа",
+                  "остановка",
+                  "перрон",
+                  "вокзал"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Платформа means platform."
+            },
+            {
+              "type": "listening",
+              "audio_text": "расписание",
+              "romanization": "raspisaniye",
+              "options": {
+                "en": [
+                  "timetable",
+                  "ticket",
+                  "platform",
+                  "delay"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Расписание means schedule or timetable."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "поезд",
+                  "romanization": "poyezd",
+                  "native": {
+                    "en": "train"
+                  }
+                },
+                {
+                  "target": "платформа",
+                  "romanization": "platforma",
+                  "native": {
+                    "en": "platform"
+                  }
+                },
+                {
+                  "target": "пересадка",
+                  "romanization": "peresadka",
+                  "native": {
+                    "en": "transfer"
+                  }
+                },
+                {
+                  "target": "задержка",
+                  "romanization": "zaderzhka",
+                  "native": {
+                    "en": "delay"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The train is delayed'"
+              },
+              "words": [
+                "у",
+                "поезда",
+                "есть",
+                "задержка"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "у",
+                  "поезда",
+                  "есть",
+                  "задержка"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "у",
+                  "поезда",
+                  "есть",
+                  "задержка"
+                ]
+              },
+              "translation": "У поезда есть задержка."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Taking a Taxi",
+            "zh": "乘坐出租车",
+            "th": "นั่งแท็กซี่",
+            "ko": "택시 타기",
+            "es": "Tomar un taxi"
+          },
+          "objectives": {
+            "en": [
+              "Ask for a taxi and give directions",
+              "Discuss the fare and payment"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "такси",
+              "romanization": "taksi",
+              "meanings": {
+                "en": "taxi",
+                "zh": "出租车",
+                "th": "แท็กซี่",
+                "ko": "택시",
+                "es": "taxi"
+              }
+            },
+            {
+              "word": "адрес",
+              "romanization": "adres",
+              "meanings": {
+                "en": "address",
+                "zh": "地址",
+                "th": "ที่อยู่",
+                "ko": "주소",
+                "es": "dirección"
+              }
+            },
+            {
+              "word": "стоимость",
+              "romanization": "stoimost'",
+              "meanings": {
+                "en": "cost / fare",
+                "zh": "费用",
+                "th": "ราคา",
+                "ko": "요금",
+                "es": "tarifa"
+              }
+            },
+            {
+              "word": "прямо",
+              "romanization": "pryamo",
+              "meanings": {
+                "en": "straight ahead",
+                "zh": "直走",
+                "th": "ตรงไป",
+                "ko": "직진",
+                "es": "todo recto"
+              }
+            },
+            {
+              "word": "налево",
+              "romanization": "nalevo",
+              "meanings": {
+                "en": "to the left",
+                "zh": "往左",
+                "th": "ซ้าย",
+                "ko": "왼쪽으로",
+                "es": "a la izquierda"
+              }
+            },
+            {
+              "word": "направо",
+              "romanization": "naprava",
+              "meanings": {
+                "en": "to the right",
+                "zh": "往右",
+                "th": "ขวา",
+                "ko": "오른쪽으로",
+                "es": "a la derecha"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "адрес",
+              "romanization": "adres",
+              "options": {
+                "en": [
+                  "address",
+                  "fare",
+                  "route",
+                  "map"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Адрес means address."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'straight ahead' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "прямо",
+                  "налево",
+                  "направо",
+                  "назад"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Прямо means straight ahead."
+            },
+            {
+              "type": "listening",
+              "audio_text": "стоимость",
+              "romanization": "stoimost'",
+              "options": {
+                "en": [
+                  "cost / fare",
+                  "distance",
+                  "time",
+                  "discount"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Стоимость means cost or fare."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "такси",
+                  "romanization": "taksi",
+                  "native": {
+                    "en": "taxi"
+                  }
+                },
+                {
+                  "target": "прямо",
+                  "romanization": "pryamo",
+                  "native": {
+                    "en": "straight ahead"
+                  }
+                },
+                {
+                  "target": "налево",
+                  "romanization": "nalevo",
+                  "native": {
+                    "en": "to the left"
+                  }
+                },
+                {
+                  "target": "направо",
+                  "romanization": "naprava",
+                  "native": {
+                    "en": "to the right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Take me to this address please'"
+              },
+              "words": [
+                "везите",
+                "меня",
+                "по",
+                "этому",
+                "адресу",
+                "пожалуйста"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "везите",
+                  "меня",
+                  "по",
+                  "этому",
+                  "адресу",
+                  "пожалуйста"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "везите",
+                  "меня",
+                  "по",
+                  "этому",
+                  "адресу",
+                  "пожалуйста"
+                ]
+              },
+              "translation": "Везите меня по этому адресу, пожалуйста."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Airport",
+        "zh": "在机场",
+        "th": "ที่สนามบิน",
+        "ko": "공항에서",
+        "es": "En el aeropuerto"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Check-in and Security",
+            "zh": "值机与安检",
+            "th": "เช็คอินและความปลอดภัย",
+            "ko": "체크인과 보안",
+            "es": "Facturación y seguridad"
+          },
+          "objectives": {
+            "en": [
+              "Complete airport check-in",
+              "Understand security procedures"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "регистрация",
+              "romanization": "registratsiya",
+              "meanings": {
+                "en": "check-in",
+                "zh": "登机手续",
+                "th": "เช็คอิน",
+                "ko": "체크인",
+                "es": "facturación"
+              }
+            },
+            {
+              "word": "паспорт",
+              "romanization": "pasport",
+              "meanings": {
+                "en": "passport",
+                "zh": "护照",
+                "th": "พาสปอร์ต",
+                "ko": "여권",
+                "es": "pasaporte"
+              }
+            },
+            {
+              "word": "багаж",
+              "romanization": "bagash",
+              "meanings": {
+                "en": "luggage",
+                "zh": "行李",
+                "th": "กระเป๋า",
+                "ko": "수하물",
+                "es": "equipaje"
+              }
+            },
+            {
+              "word": "ручная кладь",
+              "romanization": "ruchnaya klad'",
+              "meanings": {
+                "en": "hand luggage",
+                "zh": "手提行李",
+                "th": "กระเป๋าถือขึ้นเครื่อง",
+                "ko": "기내 수하물",
+                "es": "equipaje de mano"
+              }
+            },
+            {
+              "word": "выход на посадку",
+              "romanization": "vykhod na posadku",
+              "meanings": {
+                "en": "departure gate",
+                "zh": "登机口",
+                "th": "ประตูขึ้นเครื่อง",
+                "ko": "탑승구",
+                "es": "puerta de embarque"
+              }
+            },
+            {
+              "word": "посадочный талон",
+              "romanization": "posadochny talon",
+              "meanings": {
+                "en": "boarding pass",
+                "zh": "登机牌",
+                "th": "บัตรขึ้นเครื่อง",
+                "ko": "탑승권",
+                "es": "tarjeta de embarque"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "паспорт",
+              "romanization": "pasport",
+              "options": {
+                "en": [
+                  "passport",
+                  "ticket",
+                  "visa",
+                  "ID card"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Паспорт means passport."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'luggage' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "багаж",
+                  "паспорт",
+                  "билет",
+                  "посадка"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Багаж means luggage."
+            },
+            {
+              "type": "listening",
+              "audio_text": "посадочный талон",
+              "romanization": "posadochny talon",
+              "options": {
+                "en": [
+                  "boarding pass",
+                  "passport",
+                  "ticket",
+                  "visa"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Посадочный талон means boarding pass."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "паспорт",
+                  "romanization": "pasport",
+                  "native": {
+                    "en": "passport"
+                  }
+                },
+                {
+                  "target": "багаж",
+                  "romanization": "bagash",
+                  "native": {
+                    "en": "luggage"
+                  }
+                },
+                {
+                  "target": "ручная кладь",
+                  "romanization": "ruchnaya klad'",
+                  "native": {
+                    "en": "hand luggage"
+                  }
+                },
+                {
+                  "target": "выход на посадку",
+                  "romanization": "vykhod na posadku",
+                  "native": {
+                    "en": "departure gate"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Where is the departure gate?'"
+              },
+              "words": [
+                "где",
+                "выход",
+                "на",
+                "посадку"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "где",
+                  "выход",
+                  "на",
+                  "посадку"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "где",
+                  "выход",
+                  "на",
+                  "посадку"
+                ]
+              },
+              "translation": "Где выход на посадку?"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "On the Plane",
+            "zh": "在飞机上",
+            "th": "บนเครื่องบิน",
+            "ko": "비행기 안에서",
+            "es": "En el avión"
+          },
+          "objectives": {
+            "en": [
+              "Communicate with cabin crew",
+              "Ask for items and assistance during a flight"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "самолёт",
+              "romanization": "samolyot",
+              "meanings": {
+                "en": "airplane",
+                "zh": "飞机",
+                "th": "เครื่องบิน",
+                "ko": "비행기",
+                "es": "avión"
+              }
+            },
+            {
+              "word": "место",
+              "romanization": "mesto",
+              "meanings": {
+                "en": "seat",
+                "zh": "座位",
+                "th": "ที่นั่ง",
+                "ko": "좌석",
+                "es": "asiento"
+              }
+            },
+            {
+              "word": "ремень безопасности",
+              "romanization": "remen' bezopasnosti",
+              "meanings": {
+                "en": "seatbelt",
+                "zh": "安全带",
+                "th": "เข็มขัดนิรภัย",
+                "ko": "안전벨트",
+                "es": "cinturón de seguridad"
+              }
+            },
+            {
+              "word": "стюардесса",
+              "romanization": "styuardessa",
+              "meanings": {
+                "en": "flight attendant (f)",
+                "zh": "空姐",
+                "th": "แอร์โฮสเตส",
+                "ko": "승무원",
+                "es": "azafata"
+              }
+            },
+            {
+              "word": "одеяло",
+              "romanization": "odeyalo",
+              "meanings": {
+                "en": "blanket",
+                "zh": "毯子",
+                "th": "ผ้าห่ม",
+                "ko": "담요",
+                "es": "manta"
+              }
+            },
+            {
+              "word": "взлёт",
+              "romanization": "vzlot",
+              "meanings": {
+                "en": "takeoff",
+                "zh": "起飞",
+                "th": "การบินขึ้น",
+                "ko": "이륙",
+                "es": "despegue"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "самолёт",
+              "romanization": "samolyot",
+              "options": {
+                "en": [
+                  "airplane",
+                  "train",
+                  "bus",
+                  "boat"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Самолёт means airplane."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'seat' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "место",
+                  "кресло",
+                  "ряд",
+                  "окно"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Место means place or seat."
+            },
+            {
+              "type": "listening",
+              "audio_text": "ремень безопасности",
+              "romanization": "remen' bezopasnosti",
+              "options": {
+                "en": [
+                  "seatbelt",
+                  "window",
+                  "tray table",
+                  "overhead bin"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Ремень безопасности is seatbelt."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "самолёт",
+                  "romanization": "samolyot",
+                  "native": {
+                    "en": "airplane"
+                  }
+                },
+                {
+                  "target": "место",
+                  "romanization": "mesto",
+                  "native": {
+                    "en": "seat"
+                  }
+                },
+                {
+                  "target": "одеяло",
+                  "romanization": "odeyalo",
+                  "native": {
+                    "en": "blanket"
+                  }
+                },
+                {
+                  "target": "взлёт",
+                  "romanization": "vzlot",
+                  "native": {
+                    "en": "takeoff"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Please fasten your seatbelt'"
+              },
+              "words": [
+                "пожалуйста",
+                "пристегните",
+                "ремень",
+                "безопасности"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "пожалуйста",
+                  "пристегните",
+                  "ремень",
+                  "безопасности"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "пожалуйста",
+                  "пристегните",
+                  "ремень",
+                  "безопасности"
+                ]
+              },
+              "translation": "Пожалуйста, пристегните ремень безопасности."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Hotel Check-in",
+            "zh": "酒店入住",
+            "th": "เช็คอินโรงแรม",
+            "ko": "호텔 체크인",
+            "es": "Check-in en el hotel"
+          },
+          "objectives": {
+            "en": [
+              "Check in and out of a hotel",
+              "Ask about room amenities"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "гостиница",
+              "romanization": "gostinitsa",
+              "meanings": {
+                "en": "hotel",
+                "zh": "酒店",
+                "th": "โรงแรม",
+                "ko": "호텔",
+                "es": "hotel"
+              }
+            },
+            {
+              "word": "номер",
+              "romanization": "nomer",
+              "meanings": {
+                "en": "room",
+                "zh": "房间",
+                "th": "ห้อง",
+                "ko": "객실",
+                "es": "habitación"
+              }
+            },
+            {
+              "word": "заселение",
+              "romanization": "zaseleniye",
+              "meanings": {
+                "en": "check-in",
+                "zh": "入住",
+                "th": "เช็คอิน",
+                "ko": "체크인",
+                "es": "entrada"
+              }
+            },
+            {
+              "word": "выселение",
+              "romanization": "vyseleniye",
+              "meanings": {
+                "en": "check-out",
+                "zh": "退房",
+                "th": "เช็คเอาต์",
+                "ko": "체크아웃",
+                "es": "salida"
+              }
+            },
+            {
+              "word": "завтрак включён",
+              "romanization": "zavtrak vklyuchen",
+              "meanings": {
+                "en": "breakfast included",
+                "zh": "含早餐",
+                "th": "รวมอาหารเช้า",
+                "ko": "조식 포함",
+                "es": "desayuno incluido"
+              }
+            },
+            {
+              "word": "ключ",
+              "romanization": "klyuch",
+              "meanings": {
+                "en": "key",
+                "zh": "钥匙",
+                "th": "กุญแจ",
+                "ko": "열쇠",
+                "es": "llave"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "гостиница",
+              "romanization": "gostinitsa",
+              "options": {
+                "en": [
+                  "hotel",
+                  "hostel",
+                  "apartment",
+                  "motel"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Гостиница means hotel."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'key' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "ключ",
+                  "карта",
+                  "номер",
+                  "замок"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Ключ means key."
+            },
+            {
+              "type": "listening",
+              "audio_text": "завтрак включён",
+              "romanization": "zavtrak vklyuchen",
+              "options": {
+                "en": [
+                  "breakfast included",
+                  "dinner included",
+                  "free wifi",
+                  "parking included"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Завтрак включён means breakfast is included."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "гостиница",
+                  "romanization": "gostinitsa",
+                  "native": {
+                    "en": "hotel"
+                  }
+                },
+                {
+                  "target": "номер",
+                  "romanization": "nomer",
+                  "native": {
+                    "en": "room"
+                  }
+                },
+                {
+                  "target": "заселение",
+                  "romanization": "zaseleniye",
+                  "native": {
+                    "en": "check-in"
+                  }
+                },
+                {
+                  "target": "ключ",
+                  "romanization": "klyuch",
+                  "native": {
+                    "en": "key"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I have a reservation for two nights'"
+              },
+              "words": [
+                "у",
+                "меня",
+                "есть",
+                "бронирование",
+                "на",
+                "две",
+                "ночи"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "у",
+                  "меня",
+                  "есть",
+                  "бронирование",
+                  "на",
+                  "две",
+                  "ночи"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "у",
+                  "меня",
+                  "есть",
+                  "бронирование",
+                  "на",
+                  "две",
+                  "ночи"
+                ]
+              },
+              "translation": "У меня есть бронирование на две ночи."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Sightseeing",
+        "zh": "观光游览",
+        "th": "การท่องเที่ยว",
+        "ko": "관광하기",
+        "es": "Turismo"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": [
+              "Ask for and understand directions",
+              "Use landmarks to navigate"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "улица",
+              "romanization": "ulitsa",
+              "meanings": {
+                "en": "street",
+                "zh": "街道",
+                "th": "ถนน",
+                "ko": "거리",
+                "es": "calle"
+              }
+            },
+            {
+              "word": "площадь",
+              "romanization": "ploshchad'",
+              "meanings": {
+                "en": "square / plaza",
+                "zh": "广场",
+                "th": "จัตุรัส",
+                "ko": "광장",
+                "es": "plaza"
+              }
+            },
+            {
+              "word": "повернуть",
+              "romanization": "povernut'",
+              "meanings": {
+                "en": "to turn",
+                "zh": "转弯",
+                "th": "เลี้ยว",
+                "ko": "돌다",
+                "es": "girar"
+              }
+            },
+            {
+              "word": "перекрёсток",
+              "romanization": "perekryostok",
+              "meanings": {
+                "en": "crossroads",
+                "zh": "十字路口",
+                "th": "สี่แยก",
+                "ko": "교차로",
+                "es": "cruce"
+              }
+            },
+            {
+              "word": "далеко",
+              "romanization": "daleko",
+              "meanings": {
+                "en": "far",
+                "zh": "远",
+                "th": "ไกล",
+                "ko": "멀다",
+                "es": "lejos"
+              }
+            },
+            {
+              "word": "рядом",
+              "romanization": "ryadom",
+              "meanings": {
+                "en": "nearby",
+                "zh": "在旁边",
+                "th": "ใกล้ๆ",
+                "ko": "근처에",
+                "es": "cerca"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "улица",
+              "romanization": "ulitsa",
+              "options": {
+                "en": [
+                  "street",
+                  "square",
+                  "park",
+                  "bridge"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Улица means street."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'nearby' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "рядом",
+                  "далеко",
+                  "прямо",
+                  "налево"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Рядом means nearby."
+            },
+            {
+              "type": "listening",
+              "audio_text": "перекрёсток",
+              "romanization": "perekryostok",
+              "options": {
+                "en": [
+                  "crossroads",
+                  "bridge",
+                  "tunnel",
+                  "roundabout"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Перекрёсток means crossroads."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "улица",
+                  "romanization": "ulitsa",
+                  "native": {
+                    "en": "street"
+                  }
+                },
+                {
+                  "target": "площадь",
+                  "romanization": "ploshchad'",
+                  "native": {
+                    "en": "square"
+                  }
+                },
+                {
+                  "target": "далеко",
+                  "romanization": "daleko",
+                  "native": {
+                    "en": "far"
+                  }
+                },
+                {
+                  "target": "рядом",
+                  "romanization": "ryadom",
+                  "native": {
+                    "en": "nearby"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'How do I get to the square?'"
+              },
+              "words": [
+                "как",
+                "мне",
+                "добраться",
+                "до",
+                "площади"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "как",
+                  "мне",
+                  "добраться",
+                  "до",
+                  "площади"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "как",
+                  "мне",
+                  "добраться",
+                  "до",
+                  "площади"
+                ]
+              },
+              "translation": "Как мне добраться до площади?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Visiting Museums",
+            "zh": "参观博物馆",
+            "th": "ไปพิพิธภัณฑ์",
+            "ko": "박물관 방문하기",
+            "es": "Visitar museos"
+          },
+          "objectives": {
+            "en": [
+              "Buy museum tickets and ask about exhibits",
+              "Understand opening hours and prices"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "музей",
+              "romanization": "muzey",
+              "meanings": {
+                "en": "museum",
+                "zh": "博物馆",
+                "th": "พิพิธภัณฑ์",
+                "ko": "박물관",
+                "es": "museo"
+              }
+            },
+            {
+              "word": "выставка",
+              "romanization": "vystavka",
+              "meanings": {
+                "en": "exhibition",
+                "zh": "展览",
+                "th": "นิทรรศการ",
+                "ko": "전시회",
+                "es": "exposición"
+              }
+            },
+            {
+              "word": "часы работы",
+              "romanization": "chasy raboty",
+              "meanings": {
+                "en": "opening hours",
+                "zh": "营业时间",
+                "th": "เวลาทำการ",
+                "ko": "운영 시간",
+                "es": "horario de apertura"
+              }
+            },
+            {
+              "word": "вход бесплатный",
+              "romanization": "vkhod besplatny",
+              "meanings": {
+                "en": "free entry",
+                "zh": "免费入场",
+                "th": "เข้าฟรี",
+                "ko": "무료 입장",
+                "es": "entrada gratuita"
+              }
+            },
+            {
+              "word": "аудиогид",
+              "romanization": "audiogid",
+              "meanings": {
+                "en": "audio guide",
+                "zh": "语音导览",
+                "th": "ออดิโอไกด์",
+                "ko": "오디오 가이드",
+                "es": "audioguía"
+              }
+            },
+            {
+              "word": "фотографировать",
+              "romanization": "fotografirovat'",
+              "meanings": {
+                "en": "to photograph",
+                "zh": "拍照",
+                "th": "ถ่ายรูป",
+                "ko": "사진 찍다",
+                "es": "fotografiar"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "музей",
+              "romanization": "muzey",
+              "options": {
+                "en": [
+                  "museum",
+                  "theatre",
+                  "gallery",
+                  "library"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Музей means museum."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'exhibition' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "выставка",
+                  "музей",
+                  "экскурсия",
+                  "галерея"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Выставка means exhibition."
+            },
+            {
+              "type": "listening",
+              "audio_text": "вход бесплатный",
+              "romanization": "vkhod besplatny",
+              "options": {
+                "en": [
+                  "free entry",
+                  "paid entry",
+                  "tickets required",
+                  "closed today"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Вход бесплатный means free entry."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "музей",
+                  "romanization": "muzey",
+                  "native": {
+                    "en": "museum"
+                  }
+                },
+                {
+                  "target": "выставка",
+                  "romanization": "vystavka",
+                  "native": {
+                    "en": "exhibition"
+                  }
+                },
+                {
+                  "target": "аудиогид",
+                  "romanization": "audiogid",
+                  "native": {
+                    "en": "audio guide"
+                  }
+                },
+                {
+                  "target": "часы работы",
+                  "romanization": "chasy raboty",
+                  "native": {
+                    "en": "opening hours"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Can I take photos here?'"
+              },
+              "words": [
+                "можно",
+                "здесь",
+                "фотографировать"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "можно",
+                  "здесь",
+                  "фотографировать"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "можно",
+                  "здесь",
+                  "фотографировать"
+                ]
+              },
+              "translation": "Можно здесь фотографировать?"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Shopping for Souvenirs",
+            "zh": "购买纪念品",
+            "th": "ซื้อของที่ระลึก",
+            "ko": "기념품 쇼핑",
+            "es": "Comprar recuerdos"
+          },
+          "objectives": {
+            "en": [
+              "Shop for souvenirs and gifts",
+              "Discuss prices and bargain"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "сувенир",
+              "romanization": "suvenir",
+              "meanings": {
+                "en": "souvenir",
+                "zh": "纪念品",
+                "th": "ของที่ระลึก",
+                "ko": "기념품",
+                "es": "recuerdo"
+              }
+            },
+            {
+              "word": "цена",
+              "romanization": "tsena",
+              "meanings": {
+                "en": "price",
+                "zh": "价格",
+                "th": "ราคา",
+                "ko": "가격",
+                "es": "precio"
+              }
+            },
+            {
+              "word": "дёшево",
+              "romanization": "dyoshevo",
+              "meanings": {
+                "en": "cheap",
+                "zh": "便宜",
+                "th": "ถูก",
+                "ko": "저렴한",
+                "es": "barato"
+              }
+            },
+            {
+              "word": "дорого",
+              "romanization": "dorogo",
+              "meanings": {
+                "en": "expensive",
+                "zh": "贵",
+                "th": "แพง",
+                "ko": "비싼",
+                "es": "caro"
+              }
+            },
+            {
+              "word": "можно посмотреть",
+              "romanization": "mozhno posmotret'",
+              "meanings": {
+                "en": "may I look at it",
+                "zh": "我可以看看吗",
+                "th": "ขอดูได้ไหม",
+                "ko": "봐도 될까요",
+                "es": "¿puedo verlo?"
+              }
+            },
+            {
+              "word": "подарок",
+              "romanization": "podarok",
+              "meanings": {
+                "en": "gift",
+                "zh": "礼物",
+                "th": "ของขวัญ",
+                "ko": "선물",
+                "es": "regalo"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "цена",
+              "romanization": "tsena",
+              "options": {
+                "en": [
+                  "price",
+                  "size",
+                  "weight",
+                  "colour"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Цена means price."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'expensive' in Russian?"
+              },
+              "options": {
+                "neutral": [
+                  "дорого",
+                  "дёшево",
+                  "бесплатно",
+                  "скидка"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Дорого means expensive."
+            },
+            {
+              "type": "listening",
+              "audio_text": "сувенир",
+              "romanization": "suvenir",
+              "options": {
+                "en": [
+                  "souvenir",
+                  "gift",
+                  "map",
+                  "guide"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Сувенир means souvenir."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "сувенир",
+                  "romanization": "suvenir",
+                  "native": {
+                    "en": "souvenir"
+                  }
+                },
+                {
+                  "target": "цена",
+                  "romanization": "tsena",
+                  "native": {
+                    "en": "price"
+                  }
+                },
+                {
+                  "target": "дёшево",
+                  "romanization": "dyoshevo",
+                  "native": {
+                    "en": "cheap"
+                  }
+                },
+                {
+                  "target": "дорого",
+                  "romanization": "dorogo",
+                  "native": {
+                    "en": "expensive"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'How much does this cost?'"
+              },
+              "words": [
+                "сколько",
+                "стоит",
+                "это"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "сколько",
+                  "стоит",
+                  "это"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "сколько",
+                  "стоит",
+                  "это"
+                ]
+              },
+              "translation": "Сколько стоит это?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

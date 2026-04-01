@@ -1,0 +1,625 @@
+{
+  "lang": "pt",
+  "language": "pt",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Flirting and Attraction",
+        "zh": "调情和吸引",
+        "th": "การจีบและความดึงดูด",
+        "ko": "플러팅과 매력",
+        "es": "Coqueteo y atracción"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Complimenting Someone",
+            "zh": "称赞某人",
+            "th": "การชมคนอื่น",
+            "ko": "누군가에게 칭찬하기",
+            "es": "Elogiar a alguien"
+          },
+          "objectives": {
+            "en": ["Give romantic compliments", "Describe physical and personality traits"]
+          },
+          "vocabulary": [
+            {
+              "word": "bonito",
+              "meanings": { "en": "handsome / beautiful", "zh": "好看的/帅的", "th": "หล่อ/สวย", "ko": "잘생긴/예쁜", "es": "bonito/guapo" }
+            },
+            {
+              "word": "lindo",
+              "meanings": { "en": "gorgeous / lovely", "zh": "漂亮的/迷人的", "th": "สวยงาม/น่ารัก", "ko": "아름다운/멋진", "es": "lindo/hermoso" }
+            },
+            {
+              "word": "simpático",
+              "meanings": { "en": "friendly / likeable", "zh": "友好的/可爱的", "th": "เป็นมิตร/น่าชอบ", "ko": "친절한/호감 가는", "es": "simpático/agradable" }
+            },
+            {
+              "word": "inteligente",
+              "meanings": { "en": "intelligent / smart", "zh": "聪明的", "th": "ฉลาด", "ko": "지능적인/똑똑한", "es": "inteligente" }
+            },
+            {
+              "word": "sorriso",
+              "meanings": { "en": "smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "sonrisa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'smile' in Portuguese?" },
+              "answer": "sorriso",
+              "choices": ["sorriso", "bonito", "lindo", "simpático"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'lindo' mean?" },
+              "answer": "gorgeous / lovely",
+              "choices": ["gorgeous / lovely", "friendly", "smart", "smile"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "bonito", "native": "handsome" },
+                { "target": "lindo", "native": "gorgeous" },
+                { "target": "simpático", "native": "friendly" },
+                { "target": "sorriso", "native": "smile" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'You have a beautiful smile.'" },
+              "words": ["tem", "um", "sorriso", "lindo", "Você"],
+              "answer": "Você tem um sorriso lindo"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "约人出去",
+            "th": "การชวนคนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a alguien a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date", "Suggest romantic activities"]
+          },
+          "vocabulary": [
+            {
+              "word": "sair juntos",
+              "meanings": { "en": "to go out together", "zh": "一起出去", "th": "ออกไปด้วยกัน", "ko": "함께 나가다", "es": "salir juntos" }
+            },
+            {
+              "word": "jantar a dois",
+              "meanings": { "en": "dinner for two / romantic dinner", "zh": "二人晚餐/浪漫晚餐", "th": "อาหารเย็นสองคน", "ko": "둘이서 저녁 식사", "es": "cena para dos" }
+            },
+            {
+              "word": "passeio",
+              "meanings": { "en": "walk / outing", "zh": "散步/外出", "th": "การเดินเล่น/การออกไปข้างนอก", "ko": "산책/나들이", "es": "paseo" }
+            },
+            {
+              "word": "namorar",
+              "meanings": { "en": "to date / to be in a relationship", "zh": "约会/谈恋爱", "th": "คบหา/เป็นแฟนกัน", "ko": "사귀다/데이트하다", "es": "salir con alguien / enamorarse" }
+            },
+            {
+              "word": "gostar de",
+              "meanings": { "en": "to like", "zh": "喜欢", "th": "ชอบ", "ko": "좋아하다", "es": "gustar / querer" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'to go out together' in Portuguese?" },
+              "answer": "sair juntos",
+              "choices": ["sair juntos", "passeio", "namorar", "jantar a dois"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'namorar' mean?" },
+              "answer": "to date",
+              "choices": ["to date", "to walk", "to go out", "to eat"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "sair juntos", "native": "go out together" },
+                { "target": "passeio", "native": "walk/outing" },
+                { "target": "namorar", "native": "to date" },
+                { "target": "gostar de", "native": "to like" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Would you like to have dinner with me?'" },
+              "words": ["jantar", "comigo", "você", "quer", "Você"],
+              "answer": "Você quer jantar comigo"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings", "Talk about emotions in Portuguese"]
+          },
+          "vocabulary": [
+            {
+              "word": "amor",
+              "meanings": { "en": "love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "amor" }
+            },
+            {
+              "word": "carinho",
+              "meanings": { "en": "affection / tenderness", "zh": "爱意/柔情", "th": "ความรัก/ความเอาใจใส่", "ko": "애정/다정함", "es": "cariño" }
+            },
+            {
+              "word": "sentir falta",
+              "meanings": { "en": "to miss (someone)", "zh": "想念", "th": "คิดถึง", "ko": "그리워하다", "es": "extrañar" }
+            },
+            {
+              "word": "feliz",
+              "meanings": { "en": "happy", "zh": "幸福的/开心的", "th": "มีความสุข", "ko": "행복한", "es": "feliz" }
+            },
+            {
+              "word": "te amo",
+              "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "사랑해", "es": "te amo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'I love you' in Portuguese?" },
+              "answer": "te amo",
+              "choices": ["te amo", "carinho", "feliz", "sentir falta"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'sentir falta' mean?" },
+              "answer": "to miss someone",
+              "choices": ["to miss someone", "to love", "to feel happy", "to hug"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "amor", "native": "love" },
+                { "target": "carinho", "native": "affection" },
+                { "target": "feliz", "native": "happy" },
+                { "target": "te amo", "native": "I love you" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I miss you a lot.'" },
+              "words": ["sinto", "muito", "sua", "falta", "Eu"],
+              "answer": "Eu sinto muito sua falta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "恋爱关系",
+        "th": "ความสัมพันธ์",
+        "ko": "연인 관계",
+        "es": "Relaciones amorosas"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "恋爱状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe relationship status", "Talk about partners and significant others"]
+          },
+          "vocabulary": [
+            {
+              "word": "namorado",
+              "meanings": { "en": "boyfriend", "zh": "男朋友", "th": "แฟนหนุ่ม", "ko": "남자친구", "es": "novio" }
+            },
+            {
+              "word": "namorada",
+              "meanings": { "en": "girlfriend", "zh": "女朋友", "th": "แฟนสาว", "ko": "여자친구", "es": "novia" }
+            },
+            {
+              "word": "solteiro",
+              "meanings": { "en": "single", "zh": "单身的", "th": "โสด", "ko": "솔로/미혼인", "es": "soltero" }
+            },
+            {
+              "word": "comprometido",
+              "meanings": { "en": "committed / engaged", "zh": "已订婚/有对象的", "th": "มีคู่/หมั้นแล้ว", "ko": "약혼한/사귀는", "es": "comprometido" }
+            },
+            {
+              "word": "casal",
+              "meanings": { "en": "couple", "zh": "情侣/夫妇", "th": "คู่รัก", "ko": "커플", "es": "pareja" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'boyfriend' in Portuguese?" },
+              "answer": "namorado",
+              "choices": ["namorado", "namorada", "solteiro", "casal"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'solteiro' mean?" },
+              "answer": "single",
+              "choices": ["single", "married", "engaged", "couple"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "namorado", "native": "boyfriend" },
+                { "target": "namorada", "native": "girlfriend" },
+                { "target": "solteiro", "native": "single" },
+                { "target": "casal", "native": "couple" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you single or in a relationship?'" },
+              "words": ["solteiro", "ou", "está", "namorando", "Você"],
+              "answer": "Você está solteiro ou está namorando"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Going on a Date",
+            "zh": "约会",
+            "th": "การออกเดท",
+            "ko": "데이트하기",
+            "es": "Salir en una cita"
+          },
+          "objectives": {
+            "en": ["Plan and describe a date", "Talk about romantic experiences"]
+          },
+          "vocabulary": [
+            {
+              "word": "encontro romântico",
+              "meanings": { "en": "romantic date", "zh": "浪漫约会", "th": "เดทสุดโรแมนติก", "ko": "로맨틱한 데이트", "es": "cita romántica" }
+            },
+            {
+              "word": "flores",
+              "meanings": { "en": "flowers", "zh": "花", "th": "ดอกไม้", "ko": "꽃", "es": "flores" }
+            },
+            {
+              "word": "vela",
+              "meanings": { "en": "candle", "zh": "蜡烛", "th": "เทียน", "ko": "촛불", "es": "vela" }
+            },
+            {
+              "word": "coração",
+              "meanings": { "en": "heart", "zh": "心", "th": "หัวใจ", "ko": "심장/하트", "es": "corazón" }
+            },
+            {
+              "word": "beijo",
+              "meanings": { "en": "kiss", "zh": "吻", "th": "จูบ", "ko": "키스", "es": "beso" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'kiss' in Portuguese?" },
+              "answer": "beijo",
+              "choices": ["beijo", "flores", "vela", "coração"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'flores' mean?" },
+              "answer": "flowers",
+              "choices": ["flowers", "candle", "heart", "kiss"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "flores", "native": "flowers" },
+                { "target": "vela", "native": "candle" },
+                { "target": "coração", "native": "heart" },
+                { "target": "beijo", "native": "kiss" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I brought you flowers.'" },
+              "words": ["trouxe", "flores", "para", "você", "Eu"],
+              "answer": "Eu trouxe flores para você"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Marriage and Commitment",
+            "zh": "婚姻和承诺",
+            "th": "การแต่งงานและความมุ่งมั่น",
+            "ko": "결혼과 헌신",
+            "es": "Matrimonio y compromiso"
+          },
+          "objectives": {
+            "en": ["Discuss marriage and commitment", "Understand related vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "casamento",
+              "meanings": { "en": "wedding / marriage", "zh": "婚礼/婚姻", "th": "งานแต่งงาน/การสมรส", "ko": "결혼식/결혼", "es": "boda/matrimonio" }
+            },
+            {
+              "word": "noivado",
+              "meanings": { "en": "engagement", "zh": "订婚", "th": "การหมั้น", "ko": "약혼", "es": "compromiso" }
+            },
+            {
+              "word": "aliança",
+              "meanings": { "en": "wedding ring", "zh": "婚戒", "th": "แหวนแต่งงาน", "ko": "결혼반지", "es": "alianza/anillo de boda" }
+            },
+            {
+              "word": "cônjuge",
+              "meanings": { "en": "spouse", "zh": "配偶", "th": "คู่สมรส", "ko": "배우자", "es": "cónyuge" }
+            },
+            {
+              "word": "lua de mel",
+              "meanings": { "en": "honeymoon", "zh": "蜜月", "th": "ฮันนีมูน", "ko": "신혼여행", "es": "luna de miel" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'wedding' in Portuguese?" },
+              "answer": "casamento",
+              "choices": ["casamento", "noivado", "aliança", "lua de mel"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'lua de mel' mean?" },
+              "answer": "honeymoon",
+              "choices": ["honeymoon", "engagement", "wedding ring", "spouse"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "casamento", "native": "wedding" },
+                { "target": "noivado", "native": "engagement" },
+                { "target": "aliança", "native": "wedding ring" },
+                { "target": "lua de mel", "native": "honeymoon" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Will you marry me?'" },
+              "words": ["casar", "comigo", "Você", "quer"],
+              "answer": "Você quer casar comigo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Navigating Relationships",
+        "zh": "处理恋爱关系",
+        "th": "การรับมือกับความสัมพันธ์",
+        "ko": "연애 관계 다루기",
+        "es": "Navegar por las relaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Disagreements and Making Up",
+            "zh": "争吵和和好",
+            "th": "ความขัดแย้งและการคืนดี",
+            "ko": "다툼과 화해",
+            "es": "Desacuerdos y reconciliación"
+          },
+          "objectives": {
+            "en": ["Discuss disagreements", "Apologize and make up"]
+          },
+          "vocabulary": [
+            {
+              "word": "briga",
+              "meanings": { "en": "fight / argument", "zh": "争吵/打架", "th": "การทะเลาะ/การต่อสู้", "ko": "다툼/싸움", "es": "pelea/discusión" }
+            },
+            {
+              "word": "desculpa",
+              "meanings": { "en": "apology / sorry", "zh": "道歉/对不起", "th": "คำขอโทษ/ขอโทษ", "ko": "사과/미안해", "es": "disculpa/perdón" }
+            },
+            {
+              "word": "perdoar",
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }
+            },
+            {
+              "word": "resolver",
+              "meanings": { "en": "to resolve / to solve", "zh": "解决", "th": "แก้ไข/แก้ปัญหา", "ko": "해결하다", "es": "resolver" }
+            },
+            {
+              "word": "reconciliar",
+              "meanings": { "en": "to reconcile", "zh": "和好", "th": "คืนดีกัน", "ko": "화해하다", "es": "reconciliar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'to forgive' in Portuguese?" },
+              "answer": "perdoar",
+              "choices": ["perdoar", "briga", "resolver", "desculpa"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'briga' mean?" },
+              "answer": "fight / argument",
+              "choices": ["fight / argument", "apology", "forgiveness", "love"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "briga", "native": "fight" },
+                { "target": "desculpa", "native": "apology" },
+                { "target": "perdoar", "native": "to forgive" },
+                { "target": "resolver", "native": "to resolve" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am sorry, can you forgive me?'" },
+              "words": ["desculpa", "você", "pode", "me", "perdoar"],
+              "answer": "Desculpa você pode me perdoar"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Long Distance Relationships",
+            "zh": "异地恋",
+            "th": "ความสัมพันธ์ทางไกล",
+            "ko": "장거리 연애",
+            "es": "Relaciones a distancia"
+          },
+          "objectives": {
+            "en": ["Talk about long-distance relationships", "Use digital communication vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "distância",
+              "meanings": { "en": "distance", "zh": "距离", "th": "ระยะทาง", "ko": "거리", "es": "distancia" }
+            },
+            {
+              "word": "videochamada",
+              "meanings": { "en": "video call", "zh": "视频通话", "th": "วิดีโอคอล", "ko": "화상 통화", "es": "videollamada" }
+            },
+            {
+              "word": "saudade",
+              "meanings": { "en": "longing / missing (untranslatable Portuguese word)", "zh": "思念/乡愁(葡萄牙语独有词)", "th": "ซาอูดาดี (ความคิดถึงที่ลึกซึ้ง)", "ko": "사우다지 (그리움의 포르투갈어)", "es": "saudade (anhelo/nostalgia en portugués)" }
+            },
+            {
+              "word": "reencontro",
+              "meanings": { "en": "reunion / meeting again", "zh": "重聚", "th": "การพบกันอีกครั้ง", "ko": "재회", "es": "reencuentro" }
+            },
+            {
+              "word": "esperar",
+              "meanings": { "en": "to wait / to hope", "zh": "等待/希望", "th": "รอ/หวัง", "ko": "기다리다/바라다", "es": "esperar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'video call' in Portuguese?" },
+              "answer": "videochamada",
+              "choices": ["videochamada", "saudade", "reencontro", "distância"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'saudade'?" },
+              "answer": "longing/missing (unique Portuguese concept)",
+              "choices": ["longing/missing (unique Portuguese concept)", "happiness", "distance", "reunion"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "distância", "native": "distance" },
+                { "target": "videochamada", "native": "video call" },
+                { "target": "saudade", "native": "longing/missing" },
+                { "target": "reencontro", "native": "reunion" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I miss you every day.'" },
+              "words": ["sinto", "sua", "falta", "todo", "dia", "Eu"],
+              "answer": "Eu sinto sua falta todo dia"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Breaking Up",
+            "zh": "分手",
+            "th": "การเลิกกัน",
+            "ko": "이별하기",
+            "es": "Terminar una relación"
+          },
+          "objectives": {
+            "en": ["Talk about ending a relationship", "Use appropriate vocabulary for breakups"]
+          },
+          "vocabulary": [
+            {
+              "word": "terminar",
+              "meanings": { "en": "to end / to break up", "zh": "结束/分手", "th": "เลิก/สิ้นสุด", "ko": "끝내다/헤어지다", "es": "terminar" }
+            },
+            {
+              "word": "separação",
+              "meanings": { "en": "separation", "zh": "分离/分开", "th": "การแยกจากกัน", "ko": "이별/분리", "es": "separación" }
+            },
+            {
+              "word": "coração partido",
+              "meanings": { "en": "broken heart", "zh": "心碎", "th": "หัวใจสลาย", "ko": "실연/상처 입은 마음", "es": "corazón roto" }
+            },
+            {
+              "word": "seguir em frente",
+              "meanings": { "en": "to move on", "zh": "继续前进/放下", "th": "ก้าวไปข้างหน้า", "ko": "앞으로 나아가다", "es": "seguir adelante" }
+            },
+            {
+              "word": "amizade",
+              "meanings": { "en": "friendship", "zh": "友谊", "th": "มิตรภาพ", "ko": "우정", "es": "amistad" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'friendship' in Portuguese?" },
+              "answer": "amizade",
+              "choices": ["amizade", "separação", "terminar", "seguir em frente"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'coração partido' mean?" },
+              "answer": "broken heart",
+              "choices": ["broken heart", "separation", "to move on", "friendship"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "terminar", "native": "to end/break up" },
+                { "target": "separação", "native": "separation" },
+                { "target": "amizade", "native": "friendship" },
+                { "target": "seguir em frente", "native": "to move on" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We need to talk about our relationship.'" },
+              "words": ["precisamos", "conversar", "sobre", "nossa", "relação", "Nós"],
+              "answer": "Nós precisamos conversar sobre nossa relação"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A2",
+  "track": "romance",
+  "track_label": "Romance & Dating",
+  "track_emoji": "❤️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Attraction and Compliments",
+        "zh": "吸引和称赞",
+        "th": "ความดึงดูดและการชมเชย",
+        "ko": "매력과 칭찬",
+        "es": "Atracción y cumplidos"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Describing Appearance",
+            "zh": "描述外貌",
+            "th": "การบรรยายรูปลักษณ์",
+            "ko": "외모 묘사하기",
+            "es": "Describir la apariencia"
+          },
+          "objectives": {
+            "en": ["Describe physical appearance in Hindi", "Give compliments"]
+          },
+          "vocabulary": [
+            {
+              "word": "सुंदर",
+              "romanization": "sundar",
+              "meanings": { "en": "beautiful / handsome", "zh": "美丽的/帅气的", "th": "สวยงาม/หล่อ", "ko": "아름다운/잘생긴", "es": "hermoso/guapo" }
+            },
+            {
+              "word": "आकर्षक",
+              "romanization": "aakarshak",
+              "meanings": { "en": "attractive", "zh": "有吸引力的", "th": "น่าดึงดูด", "ko": "매력적인", "es": "atractivo" }
+            },
+            {
+              "word": "मुस्कान",
+              "romanization": "muskaan",
+              "meanings": { "en": "smile", "zh": "微笑", "th": "รอยยิ้ม", "ko": "미소", "es": "sonrisa" }
+            },
+            {
+              "word": "आँखें",
+              "romanization": "aankhen",
+              "meanings": { "en": "eyes", "zh": "眼睛", "th": "ดวงตา", "ko": "눈", "es": "ojos" }
+            },
+            {
+              "word": "बाल",
+              "romanization": "baal",
+              "meanings": { "en": "hair", "zh": "头发", "th": "ผม", "ko": "머리카락", "es": "pelo/cabello" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'beautiful' in Hindi?" },
+              "answer": "सुंदर",
+              "choices": ["सुंदर", "आकर्षक", "मुस्कान", "आँखें"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'मुस्कान' (muskaan) mean?" },
+              "answer": "smile",
+              "choices": ["smile", "eyes", "hair", "attractive"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "सुंदर", "native": "beautiful" },
+                { "target": "आकर्षक", "native": "attractive" },
+                { "target": "मुस्कान", "native": "smile" },
+                { "target": "आँखें", "native": "eyes" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'You have beautiful eyes.'" },
+              "words": ["बहुत", "सुंदर", "हैं", "आपकी", "आँखें"],
+              "answer": "आपकी आँखें बहुत सुंदर हैं"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Asking Someone Out",
+            "zh": "约人出去",
+            "th": "การชวนออกเดท",
+            "ko": "데이트 신청하기",
+            "es": "Invitar a alguien a salir"
+          },
+          "objectives": {
+            "en": ["Ask someone on a date in Hindi", "Suggest romantic activities"]
+          },
+          "vocabulary": [
+            {
+              "word": "डेट",
+              "romanization": "det",
+              "meanings": { "en": "date (romantic outing)", "zh": "约会", "th": "เดท", "ko": "데이트", "es": "cita romántica" }
+            },
+            {
+              "word": "साथ चलना",
+              "romanization": "saath chalnaa",
+              "meanings": { "en": "to go together / to walk together", "zh": "一起去/一起走", "th": "ไปด้วยกัน/เดินด้วยกัน", "ko": "함께 가다/함께 걷다", "es": "ir juntos / caminar juntos" }
+            },
+            {
+              "word": "पसंद करना",
+              "romanization": "pasand karnaa",
+              "meanings": { "en": "to like", "zh": "喜欢", "th": "ชอบ", "ko": "좋아하다", "es": "gustar" }
+            },
+            {
+              "word": "रोमांटिक",
+              "romanization": "romantik",
+              "meanings": { "en": "romantic", "zh": "浪漫的", "th": "โรแมนติก", "ko": "낭만적인", "es": "romántico" }
+            },
+            {
+              "word": "प्रपोज़ करना",
+              "romanization": "propoz karnaa",
+              "meanings": { "en": "to propose / to ask out", "zh": "求婚/约会", "th": "ขอแต่งงาน/ชวนออกเดท", "ko": "프로포즈하다/데이트 신청하다", "es": "proponer / pedir una cita" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'romantic' in Hindi?" },
+              "answer": "रोमांटिक",
+              "choices": ["रोमांटिक", "डेट", "पसंद करना", "साथ चलना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'पसंद करना' (pasand karnaa) mean?" },
+              "answer": "to like",
+              "choices": ["to like", "to love", "to date", "to walk"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "डेट", "native": "date" },
+                { "target": "पसंद करना", "native": "to like" },
+                { "target": "रोमांटिक", "native": "romantic" },
+                { "target": "साथ चलना", "native": "to go together" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Would you like to go on a date with me?'" },
+              "words": ["मेरे", "साथ", "डेट", "पर", "चलेंगे", "आप"],
+              "answer": "आप मेरे साथ डेट पर चलेंगे"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Expressing Feelings",
+            "zh": "表达感情",
+            "th": "การแสดงความรู้สึก",
+            "ko": "감정 표현하기",
+            "es": "Expresar sentimientos"
+          },
+          "objectives": {
+            "en": ["Express romantic feelings in Hindi", "Say 'I love you'"]
+          },
+          "vocabulary": [
+            {
+              "word": "प्यार",
+              "romanization": "pyaar",
+              "meanings": { "en": "love", "zh": "爱", "th": "ความรัก", "ko": "사랑", "es": "amor" }
+            },
+            {
+              "word": "मुझे तुमसे प्यार है",
+              "romanization": "mujhe tumse pyaar hai",
+              "meanings": { "en": "I love you", "zh": "我爱你", "th": "ฉันรักคุณ", "ko": "나는 너를 사랑해", "es": "te amo" }
+            },
+            {
+              "word": "याद करना",
+              "romanization": "yaad karnaa",
+              "meanings": { "en": "to miss / to remember", "zh": "想念/记得", "th": "คิดถึง/จำ", "ko": "그리워하다/기억하다", "es": "echar de menos / recordar" }
+            },
+            {
+              "word": "खुश",
+              "romanization": "khush",
+              "meanings": { "en": "happy", "zh": "高兴的", "th": "มีความสุข", "ko": "기쁜/행복한", "es": "feliz" }
+            },
+            {
+              "word": "दिल",
+              "romanization": "dil",
+              "meanings": { "en": "heart", "zh": "心", "th": "หัวใจ", "ko": "심장/마음", "es": "corazón" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'love' in Hindi?" },
+              "answer": "प्यार",
+              "choices": ["प्यार", "दिल", "खुश", "याद करना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'दिल' (dil) mean?" },
+              "answer": "heart",
+              "choices": ["heart", "love", "happy", "miss"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "प्यार", "native": "love" },
+                { "target": "याद करना", "native": "to miss" },
+                { "target": "खुश", "native": "happy" },
+                { "target": "दिल", "native": "heart" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I love you.'" },
+              "words": ["तुमसे", "प्यार", "है", "मुझे"],
+              "answer": "मुझे तुमसे प्यार है"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Relationships",
+        "zh": "恋爱关系",
+        "th": "ความสัมพันธ์",
+        "ko": "연인 관계",
+        "es": "Relaciones amorosas"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Relationship Status",
+            "zh": "恋爱状态",
+            "th": "สถานะความสัมพันธ์",
+            "ko": "연애 상태",
+            "es": "Estado sentimental"
+          },
+          "objectives": {
+            "en": ["Describe relationship status in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "प्रेमी",
+              "romanization": "premee",
+              "meanings": { "en": "boyfriend / lover (male)", "zh": "男友/恋人", "th": "แฟนหนุ่ม/คนรัก", "ko": "남자친구/연인", "es": "novio / amante" }
+            },
+            {
+              "word": "प्रेमिका",
+              "romanization": "premikaa",
+              "meanings": { "en": "girlfriend / lover (female)", "zh": "女友/恋人", "th": "แฟนสาว/คนรัก", "ko": "여자친구/연인", "es": "novia / amante" }
+            },
+            {
+              "word": "अकेला",
+              "romanization": "akelaa",
+              "meanings": { "en": "single / alone", "zh": "单身的/孤单的", "th": "โสด/คนเดียว", "ko": "솔로/혼자인", "es": "soltero / solo" }
+            },
+            {
+              "word": "जोड़ा",
+              "romanization": "joraa",
+              "meanings": { "en": "couple / pair", "zh": "情侣/一对", "th": "คู่รัก", "ko": "커플/쌍", "es": "pareja" }
+            },
+            {
+              "word": "रिश्ता",
+              "romanization": "rishtaa",
+              "meanings": { "en": "relationship", "zh": "关系", "th": "ความสัมพันธ์", "ko": "관계", "es": "relación" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'relationship' in Hindi?" },
+              "answer": "रिश्ता",
+              "choices": ["रिश्ता", "जोड़ा", "प्रेमी", "अकेला"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'अकेला' (akelaa) mean?" },
+              "answer": "single / alone",
+              "choices": ["single / alone", "couple", "relationship", "lover"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "प्रेमी", "native": "boyfriend" },
+                { "target": "प्रेमिका", "native": "girlfriend" },
+                { "target": "अकेला", "native": "single" },
+                { "target": "जोड़ा", "native": "couple" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Are you single?'" },
+              "words": ["अकेले", "हैं", "आप"],
+              "answer": "आप अकेले हैं"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Going on a Date",
+            "zh": "约会",
+            "th": "การออกเดท",
+            "ko": "데이트하기",
+            "es": "Salir en una cita"
+          },
+          "objectives": {
+            "en": ["Plan and describe a date in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "फूल",
+              "romanization": "phool",
+              "meanings": { "en": "flower(s)", "zh": "花", "th": "ดอกไม้", "ko": "꽃", "es": "flor(es)" }
+            },
+            {
+              "word": "मोमबत्ती",
+              "romanization": "mombattee",
+              "meanings": { "en": "candle", "zh": "蜡烛", "th": "เทียน", "ko": "촛불", "es": "vela" }
+            },
+            {
+              "word": "चुंबन",
+              "romanization": "chunban",
+              "meanings": { "en": "kiss", "zh": "吻", "th": "จูบ", "ko": "키스", "es": "beso" }
+            },
+            {
+              "word": "रात का खाना",
+              "romanization": "raat kaa khaanaa",
+              "meanings": { "en": "dinner", "zh": "晚餐", "th": "อาหารเย็น", "ko": "저녁 식사", "es": "cena" }
+            },
+            {
+              "word": "साथ में",
+              "romanization": "saath mein",
+              "meanings": { "en": "together", "zh": "一起", "th": "ด้วยกัน", "ko": "함께", "es": "juntos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'flower' in Hindi?" },
+              "answer": "फूल",
+              "choices": ["फूल", "मोमबत्ती", "चुंबन", "साथ में"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'मोमबत्ती' (mombattee) mean?" },
+              "answer": "candle",
+              "choices": ["candle", "flower", "kiss", "dinner"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "फूल", "native": "flower" },
+                { "target": "मोमबत्ती", "native": "candle" },
+                { "target": "चुंबन", "native": "kiss" },
+                { "target": "साथ में", "native": "together" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I brought flowers for you.'" },
+              "words": ["आपके", "लिए", "फूल", "लाया", "हूँ", "मैं"],
+              "answer": "मैं आपके लिए फूल लाया हूँ"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Marriage in India",
+            "zh": "印度婚姻",
+            "th": "การแต่งงานในอินเดีย",
+            "ko": "인도에서의 결혼",
+            "es": "El matrimonio en India"
+          },
+          "objectives": {
+            "en": ["Discuss marriage traditions in India", "Understand related vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "शादी",
+              "romanization": "shaadie",
+              "meanings": { "en": "wedding / marriage", "zh": "婚礼/婚姻", "th": "งานแต่งงาน/การสมรส", "ko": "결혼식/결혼", "es": "boda/matrimonio" }
+            },
+            {
+              "word": "सगाई",
+              "romanization": "sagaaee",
+              "meanings": { "en": "engagement", "zh": "订婚", "th": "การหมั้น", "ko": "약혼", "es": "compromiso" }
+            },
+            {
+              "word": "दुल्हन",
+              "romanization": "dulhan",
+              "meanings": { "en": "bride", "zh": "新娘", "th": "เจ้าสาว", "ko": "신부", "es": "novia" }
+            },
+            {
+              "word": "दूल्हा",
+              "romanization": "doolhaa",
+              "meanings": { "en": "groom", "zh": "新郎", "th": "เจ้าบ่าว", "ko": "신랑", "es": "novio" }
+            },
+            {
+              "word": "हनीमून",
+              "romanization": "haneemoon",
+              "meanings": { "en": "honeymoon", "zh": "蜜月", "th": "ฮันนีมูน", "ko": "신혼여행", "es": "luna de miel" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'wedding' in Hindi?" },
+              "answer": "शादी",
+              "choices": ["शादी", "सगाई", "हनीमून", "दुल्हन"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'दुल्हन' (dulhan)?" },
+              "answer": "bride",
+              "choices": ["bride", "groom", "wedding", "engagement"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "शादी", "native": "wedding" },
+                { "target": "सगाई", "native": "engagement" },
+                { "target": "दुल्हन", "native": "bride" },
+                { "target": "दूल्हा", "native": "groom" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Will you marry me?'" },
+              "words": ["मुझसे", "शादी", "करोगी", "क्या"],
+              "answer": "क्या तुम मुझसे शादी करोगी"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Navigating Relationships",
+        "zh": "处理恋爱关系",
+        "th": "การรับมือกับความสัมพันธ์",
+        "ko": "연애 관계 다루기",
+        "es": "Navegar por las relaciones"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Disagreements",
+            "zh": "争吵",
+            "th": "ความขัดแย้ง",
+            "ko": "다툼",
+            "es": "Desacuerdos"
+          },
+          "objectives": {
+            "en": ["Discuss disagreements in Hindi", "Apologize and make up"]
+          },
+          "vocabulary": [
+            {
+              "word": "झगड़ा",
+              "romanization": "jhagdaa",
+              "meanings": { "en": "fight / quarrel", "zh": "争吵/打架", "th": "การทะเลาะ/การโต้เถียง", "ko": "다툼/싸움", "es": "pelea / riña" }
+            },
+            {
+              "word": "माफ़ी",
+              "romanization": "maafee",
+              "meanings": { "en": "forgiveness / apology", "zh": "原谅/道歉", "th": "การให้อภัย/คำขอโทษ", "ko": "용서/사과", "es": "perdón / disculpa" }
+            },
+            {
+              "word": "माफ़ करना",
+              "romanization": "maaf karnaa",
+              "meanings": { "en": "to forgive", "zh": "原谅", "th": "ให้อภัย", "ko": "용서하다", "es": "perdonar" }
+            },
+            {
+              "word": "सुलह",
+              "romanization": "sulah",
+              "meanings": { "en": "reconciliation / peace", "zh": "和解/和好", "th": "การคืนดี", "ko": "화해", "es": "reconciliación" }
+            },
+            {
+              "word": "समझना",
+              "romanization": "samajhnaa",
+              "meanings": { "en": "to understand", "zh": "理解", "th": "เข้าใจ", "ko": "이해하다", "es": "entender" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'forgiveness' in Hindi?" },
+              "answer": "माफ़ी",
+              "choices": ["माफ़ी", "झगड़ा", "सुलह", "समझना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'झगड़ा' (jhagdaa) mean?" },
+              "answer": "fight / quarrel",
+              "choices": ["fight / quarrel", "forgiveness", "peace", "understanding"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "झगड़ा", "native": "fight" },
+                { "target": "माफ़ी", "native": "forgiveness" },
+                { "target": "माफ़ करना", "native": "to forgive" },
+                { "target": "सुलह", "native": "reconciliation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am sorry, please forgive me.'" },
+              "words": ["माफ़", "करो", "मुझे", "माफ़ी"],
+              "answer": "माफ़ी मुझे माफ़ करो"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Long Distance",
+            "zh": "异地恋",
+            "th": "ความสัมพันธ์ทางไกล",
+            "ko": "장거리 연애",
+            "es": "Distancia"
+          },
+          "objectives": {
+            "en": ["Talk about missing someone in Hindi", "Use digital communication vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "दूरी",
+              "romanization": "dooree",
+              "meanings": { "en": "distance", "zh": "距离", "th": "ระยะทาง", "ko": "거리", "es": "distancia" }
+            },
+            {
+              "word": "वीडियो कॉल",
+              "romanization": "video kol",
+              "meanings": { "en": "video call", "zh": "视频通话", "th": "วิดีโอคอล", "ko": "화상 통화", "es": "videollamada" }
+            },
+            {
+              "word": "इंतज़ार करना",
+              "romanization": "intazaar karnaa",
+              "meanings": { "en": "to wait / to long for", "zh": "等待/期盼", "th": "รอ/ปรารถนา", "ko": "기다리다/기대하다", "es": "esperar / añorar" }
+            },
+            {
+              "word": "मिलन",
+              "romanization": "milan",
+              "meanings": { "en": "reunion / meeting", "zh": "重聚/相遇", "th": "การพบกัน/การกลับมาพบกัน", "ko": "재회/만남", "es": "reencuentro / encuentro" }
+            },
+            {
+              "word": "याद आना",
+              "romanization": "yaad aanaa",
+              "meanings": { "en": "to be missed / to be remembered", "zh": "被想念/被记起", "th": "คิดถึง (ถูกคิดถึง)", "ko": "보고싶다/생각나다", "es": "ser recordado / extrañar" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'distance' in Hindi?" },
+              "answer": "दूरी",
+              "choices": ["दूरी", "मिलन", "वीडियो कॉल", "इंतज़ार करना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'मिलन' (milan) mean?" },
+              "answer": "reunion",
+              "choices": ["reunion", "distance", "wait", "video call"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "दूरी", "native": "distance" },
+                { "target": "वीडियो कॉल", "native": "video call" },
+                { "target": "इंतज़ार करना", "native": "to wait" },
+                { "target": "मिलन", "native": "reunion" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I miss you every day.'" },
+              "words": ["हर", "रोज़", "आती", "है", "तुम्हारी", "याद"],
+              "answer": "हर रोज़ तुम्हारी याद आती है"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Ending a Relationship",
+            "zh": "结束关系",
+            "th": "การสิ้นสุดความสัมพันธ์",
+            "ko": "관계 끝내기",
+            "es": "Terminar una relación"
+          },
+          "objectives": {
+            "en": ["Talk about ending a relationship in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "अलग होना",
+              "romanization": "alag honaa",
+              "meanings": { "en": "to separate / to part", "zh": "分离/分手", "th": "แยกทาง/เลิกกัน", "ko": "헤어지다/분리되다", "es": "separarse" }
+            },
+            {
+              "word": "टूटा हुआ दिल",
+              "romanization": "toota huaa dil",
+              "meanings": { "en": "broken heart", "zh": "心碎", "th": "หัวใจสลาย", "ko": "상처받은 마음/실연", "es": "corazón roto" }
+            },
+            {
+              "word": "आगे बढ़ना",
+              "romanization": "aage badhnaa",
+              "meanings": { "en": "to move on / to move forward", "zh": "继续前进/放下", "th": "ก้าวไปข้างหน้า", "ko": "앞으로 나아가다", "es": "seguir adelante" }
+            },
+            {
+              "word": "दोस्ती",
+              "romanization": "dostee",
+              "meanings": { "en": "friendship", "zh": "友谊", "th": "มิตรภาพ", "ko": "우정", "es": "amistad" }
+            },
+            {
+              "word": "वक़्त",
+              "romanization": "vaqt",
+              "meanings": { "en": "time", "zh": "时间", "th": "เวลา", "ko": "시간", "es": "tiempo" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'friendship' in Hindi?" },
+              "answer": "दोस्ती",
+              "choices": ["दोस्ती", "वक़्त", "टूटा हुआ दिल", "अलग होना"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'टूटा हुआ दिल' mean?" },
+              "answer": "broken heart",
+              "choices": ["broken heart", "friendship", "moving on", "time"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "अलग होना", "native": "to separate" },
+                { "target": "टूटा हुआ दिल", "native": "broken heart" },
+                { "target": "दोस्ती", "native": "friendship" },
+                { "target": "आगे बढ़ना", "native": "to move on" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'We need to talk.'" },
+              "words": ["बात", "करनी", "है", "हमें"],
+              "answer": "हमें बात करनी है"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

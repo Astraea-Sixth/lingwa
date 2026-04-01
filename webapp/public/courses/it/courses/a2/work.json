@@ -1,0 +1,217 @@
+{
+  "lang": "it",
+  "language": "it",
+  "level": "A2",
+  "track": "work",
+  "track_label": "Work & Business",
+  "track_emoji": "💼",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "The Office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "La oficina" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Workplace Vocabulary", "zh": "工作场所词汇", "th": "คำศัพท์ในที่ทำงาน", "ko": "직장 어휘", "es": "Vocabulario del lugar de trabajo" },
+          "objectives": { "en": ["Name common items in an office", "Talk about your workplace", "Ask for items you need"] },
+          "vocabulary": [
+            { "word": "ufficio", "romanization": null, "meanings": { "en": "office", "zh": "办公室", "th": "สำนักงาน", "ko": "사무실", "es": "oficina" }, "gendered": null },
+            { "word": "scrivania", "romanization": null, "meanings": { "en": "desk", "zh": "办公桌", "th": "โต๊ะทำงาน", "ko": "책상", "es": "escritorio" }, "gendered": null },
+            { "word": "stampante", "romanization": null, "meanings": { "en": "printer", "zh": "打印机", "th": "เครื่องพิมพ์", "ko": "프린터", "es": "impresora" }, "gendered": null },
+            { "word": "riunione", "romanization": null, "meanings": { "en": "meeting", "zh": "会议", "th": "การประชุม", "ko": "회의", "es": "reunión" }, "gendered": null },
+            { "word": "collega", "romanization": null, "meanings": { "en": "colleague", "zh": "同事", "th": "เพื่อนร่วมงาน", "ko": "동료", "es": "colega" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ufficio", "romanization": null, "options": { "en": ["office", "factory", "shop", "school"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "scrivania", "romanization": null, "options": { "en": ["desk", "chair", "printer", "meeting room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'meeting' in Italian?" }, "options": { "neutral": ["riunione", "incontro", "conferenza", "assemblea"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'colleague' in Italian?" }, "options": { "neutral": ["collega", "capo", "cliente", "dipendente"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "stampante", "romanization": null, "options": { "en": ["printer", "computer", "phone", "scanner"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Daily Work Routines", "zh": "日常工作流程", "th": "กิจวัตรการทำงานประจำวัน", "ko": "일상 업무 루틴", "es": "Rutinas de trabajo diario" },
+          "objectives": { "en": ["Talk about your daily work schedule", "Describe what you do at work", "Use time expressions for work"] },
+          "vocabulary": [
+            { "word": "orario di lavoro", "romanization": null, "meanings": { "en": "working hours", "zh": "工作时间", "th": "เวลาทำงาน", "ko": "근무 시간", "es": "horario de trabajo" }, "gendered": null },
+            { "word": "pausa pranzo", "romanization": null, "meanings": { "en": "lunch break", "zh": "午休", "th": "พักกลางวัน", "ko": "점심 휴식", "es": "descanso para comer" }, "gendered": null },
+            { "word": "scadenza", "romanization": null, "meanings": { "en": "deadline", "zh": "截止日期", "th": "กำหนดส่งงาน", "ko": "마감일", "es": "fecha límite" }, "gendered": null },
+            { "word": "compito", "romanization": null, "meanings": { "en": "task / assignment", "zh": "任务", "th": "งาน/ภารกิจ", "ko": "과제/업무", "es": "tarea" }, "gendered": null },
+            { "word": "straordinari", "romanization": null, "meanings": { "en": "overtime", "zh": "加班", "th": "ล่วงเวลา", "ko": "초과 근무", "es": "horas extras" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "scadenza", "romanization": null, "options": { "en": ["deadline", "task", "overtime", "break"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "pausa pranzo", "romanization": null, "options": { "en": ["lunch break", "working hours", "overtime", "coffee break"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'overtime' in Italian?" }, "options": { "neutral": ["straordinari", "scadenza", "turno", "ferie"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'task / assignment' in Italian?" }, "options": { "neutral": ["compito", "progetto", "obiettivo", "piano"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "scadenza", "romanization": null, "native": { "en": "deadline" } },
+              { "target": "pausa pranzo", "romanization": null, "native": { "en": "lunch break" } },
+              { "target": "straordinari", "romanization": null, "native": { "en": "overtime" } },
+              { "target": "compito", "romanization": null, "native": { "en": "task / assignment" } }
+            ] }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Talking to Your Boss", "zh": "与上司交谈", "th": "การพูดคุยกับหัวหน้า", "ko": "상사와 대화하기", "es": "Hablar con tu jefe" },
+          "objectives": { "en": ["Speak to your manager politely", "Report on your work progress", "Ask for clarification on tasks"] },
+          "vocabulary": [
+            { "word": "capo", "romanization": null, "meanings": { "en": "boss / manager", "zh": "老板/经理", "th": "หัวหน้า/ผู้จัดการ", "ko": "상사/매니저", "es": "jefe" }, "gendered": null },
+            { "word": "rapporto", "romanization": null, "meanings": { "en": "report", "zh": "报告", "th": "รายงาน", "ko": "보고서", "es": "informe" }, "gendered": null },
+            { "word": "aggiornamento", "romanization": null, "meanings": { "en": "update", "zh": "更新/进展", "th": "อัปเดต", "ko": "업데이트", "es": "actualización" }, "gendered": null },
+            { "word": "chiarire", "romanization": null, "meanings": { "en": "to clarify", "zh": "澄清", "th": "ทำให้ชัดเจน", "ko": "명확히 하다", "es": "aclarar" }, "gendered": null },
+            { "word": "permesso", "romanization": null, "meanings": { "en": "permission / leave", "zh": "许可/假期", "th": "การอนุญาต/วันลา", "ko": "허가/휴가", "es": "permiso" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "capo", "romanization": null, "options": { "en": ["boss / manager", "colleague", "client", "employee"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "rapporto", "romanization": null, "options": { "en": ["report", "update", "task", "meeting"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to clarify' in Italian?" }, "options": { "neutral": ["chiarire", "spiegare", "confermare", "domandare"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'permission / leave' in Italian?" }, "options": { "neutral": ["permesso", "ferie", "congedo", "assenza"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "aggiornamento", "romanization": null, "options": { "en": ["update", "report", "meeting", "deadline"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Meetings & Communication", "zh": "会议与沟通", "th": "การประชุมและการสื่อสาร", "ko": "회의와 커뮤니케이션", "es": "Reuniones y comunicación" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "In a Business Meeting", "zh": "在商务会议中", "th": "ในการประชุมทางธุรกิจ", "ko": "비즈니스 회의에서", "es": "En una reunión de negocios" },
+          "objectives": { "en": ["Participate in a basic business meeting", "Agree and disagree politely", "Take the floor and make a point"] },
+          "vocabulary": [
+            { "word": "proposta", "romanization": null, "meanings": { "en": "proposal", "zh": "提案", "th": "ข้อเสนอ", "ko": "제안", "es": "propuesta" }, "gendered": null },
+            { "word": "sono d'accordo", "romanization": null, "meanings": { "en": "I agree", "zh": "我同意", "th": "ฉันเห็นด้วย", "ko": "동의해요", "es": "estoy de acuerdo" }, "gendered": null },
+            { "word": "non sono d'accordo", "romanization": null, "meanings": { "en": "I disagree", "zh": "我不同意", "th": "ฉันไม่เห็นด้วย", "ko": "동의하지 않아요", "es": "no estoy de acuerdo" }, "gendered": null },
+            { "word": "ordine del giorno", "romanization": null, "meanings": { "en": "agenda", "zh": "议程", "th": "วาระการประชุม", "ko": "안건", "es": "orden del día" }, "gendered": null },
+            { "word": "verbale", "romanization": null, "meanings": { "en": "minutes (of a meeting)", "zh": "会议记录", "th": "รายงานการประชุม", "ko": "회의록", "es": "acta de reunión" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "proposta", "romanization": null, "options": { "en": ["proposal", "report", "agenda", "minutes"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "verbale", "romanization": null, "options": { "en": ["minutes (of a meeting)", "agenda", "proposal", "report"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'I agree' in Italian?" }, "options": { "neutral": ["sono d'accordo", "capisco", "va bene", "certamente"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'agenda' in Italian?" }, "options": { "neutral": ["ordine del giorno", "programma", "calendario", "piano"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "proposta", "romanization": null, "options": { "en": ["proposal", "report", "agenda", "request"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Writing Emails", "zh": "写电子邮件", "th": "การเขียนอีเมล", "ko": "이메일 작성하기", "es": "Escribir correos electrónicos" },
+          "objectives": { "en": ["Write a simple professional email in Italian", "Use formal greetings and closings", "Express requests politely by email"] },
+          "vocabulary": [
+            { "word": "e-mail", "romanization": null, "meanings": { "en": "email", "zh": "电子邮件", "th": "อีเมล", "ko": "이메일", "es": "correo electrónico" }, "gendered": null },
+            { "word": "gentile", "romanization": null, "meanings": { "en": "Dear (formal salutation)", "zh": "亲爱的（正式）", "th": "เรียน (ทางการ)", "ko": "~에게 (공식 서한)", "es": "estimado/a" }, "gendered": null },
+            { "word": "in allegato", "romanization": null, "meanings": { "en": "attached / in the attachment", "zh": "附件", "th": "แนบมา", "ko": "첨부하여", "es": "adjunto" }, "gendered": null },
+            { "word": "cordiali saluti", "romanization": null, "meanings": { "en": "kind regards", "zh": "此致敬礼", "th": "ขอแสดงความนับถือ", "ko": "안녕히 계세요 (서한 맺음말)", "es": "saludos cordiales" }, "gendered": null },
+            { "word": "oggetto", "romanization": null, "meanings": { "en": "subject (of email)", "zh": "主题", "th": "หัวข้อ (อีเมล)", "ko": "제목 (이메일)", "es": "asunto" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "cordiali saluti", "romanization": null, "options": { "en": ["kind regards", "best wishes", "goodbye", "sincerely"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "oggetto", "romanization": null, "options": { "en": ["subject (of email)", "attachment", "recipient", "sender"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'attached / in the attachment' in Italian?" }, "options": { "neutral": ["in allegato", "in copia", "in risposta", "in attesa"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'Dear' (formal salutation) in Italian?" }, "options": { "neutral": ["gentile", "caro", "egregio", "illustre"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "oggetto", "romanization": null, "native": { "en": "subject (of email)" } },
+              { "target": "in allegato", "romanization": null, "native": { "en": "attached / in the attachment" } },
+              { "target": "gentile", "romanization": null, "native": { "en": "Dear (formal salutation)" } },
+              { "target": "cordiali saluti", "romanization": null, "native": { "en": "kind regards" } }
+            ] }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "On the Phone", "zh": "打电话", "th": "การคุยโทรศัพท์", "ko": "전화 통화하기", "es": "Por teléfono" },
+          "objectives": { "en": ["Make and receive business phone calls", "Ask to speak to someone", "Leave a message"] },
+          "vocabulary": [
+            { "word": "pronto", "romanization": null, "meanings": { "en": "hello (telephone greeting)", "zh": "喂（接电话）", "th": "ฮัลโหล (รับโทรศัพท์)", "ko": "여보세요 (전화)", "es": "diga / aló (al teléfono)" }, "gendered": null },
+            { "word": "richiamare", "romanization": null, "meanings": { "en": "to call back", "zh": "回电话", "th": "โทรกลับ", "ko": "다시 전화하다", "es": "devolver la llamada" }, "gendered": null },
+            { "word": "lasciare un messaggio", "romanization": null, "meanings": { "en": "to leave a message", "zh": "留言", "th": "ฝากข้อความ", "ko": "메시지를 남기다", "es": "dejar un mensaje" }, "gendered": null },
+            { "word": "in linea", "romanization": null, "meanings": { "en": "on hold / on the line", "zh": "在线/等待中", "th": "รอสาย", "ko": "통화 중/대기 중", "es": "en espera / en línea" }, "gendered": null },
+            { "word": "chi parla", "romanization": null, "meanings": { "en": "who is speaking", "zh": "请问是哪位", "th": "ใครพูดอยู่", "ko": "누구세요", "es": "quién habla" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "pronto", "romanization": null, "options": { "en": ["hello (telephone greeting)", "goodbye", "please", "ready"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "richiamare", "romanization": null, "options": { "en": ["to call back", "to answer", "to hold", "to hang up"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'who is speaking' in Italian?" }, "options": { "neutral": ["chi parla", "come si chiama", "dov'è", "chi sei"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to leave a message' in Italian?" }, "options": { "neutral": ["lasciare un messaggio", "rispondere al telefono", "chiamare", "riagganciare"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "pronto", "romanization": null, "options": { "en": ["hello (telephone greeting)", "goodbye", "yes", "excuse me"] }, "correct": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Job Hunting", "zh": "求职", "th": "การหางาน", "ko": "구직 활동", "es": "Búsqueda de empleo" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Writing a CV", "zh": "写简历", "th": "การเขียนประวัติย่อ", "ko": "이력서 작성하기", "es": "Escribir un currículum" },
+          "objectives": { "en": ["Describe your work experience in Italian", "List your skills and qualifications", "Understand a job advertisement"] },
+          "vocabulary": [
+            { "word": "curriculum vitae", "romanization": null, "meanings": { "en": "CV / résumé", "zh": "简历", "th": "ประวัติย่อ", "ko": "이력서", "es": "currículum vítae" }, "gendered": null },
+            { "word": "esperienza lavorativa", "romanization": null, "meanings": { "en": "work experience", "zh": "工作经验", "th": "ประสบการณ์การทำงาน", "ko": "업무 경력", "es": "experiencia laboral" }, "gendered": null },
+            { "word": "competenza", "romanization": null, "meanings": { "en": "skill / competence", "zh": "技能/能力", "th": "ทักษะ/ความสามารถ", "ko": "기술/역량", "es": "competencia" }, "gendered": null },
+            { "word": "laurea", "romanization": null, "meanings": { "en": "university degree", "zh": "大学学位", "th": "ปริญญา", "ko": "대학 학위", "es": "titulación universitaria" }, "gendered": null },
+            { "word": "referenze", "romanization": null, "meanings": { "en": "references", "zh": "推荐信", "th": "ใบอ้างอิง", "ko": "추천서", "es": "referencias" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "laurea", "romanization": null, "options": { "en": ["university degree", "diploma", "certificate", "qualification"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "referenze", "romanization": null, "options": { "en": ["references", "skills", "experience", "certificates"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'skill / competence' in Italian?" }, "options": { "neutral": ["competenza", "conoscenza", "abilità", "qualifica"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'work experience' in Italian?" }, "options": { "neutral": ["esperienza lavorativa", "storia lavorativa", "carriera", "percorso"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "curriculum vitae", "romanization": null, "options": { "en": ["CV / résumé", "cover letter", "reference", "application"] }, "correct": 0 }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "The Job Interview", "zh": "求职面试", "th": "การสัมภาษณ์งาน", "ko": "취업 면접", "es": "La entrevista de trabajo" },
+          "objectives": { "en": ["Prepare for a job interview", "Talk about your strengths and goals", "Ask questions about the position"] },
+          "vocabulary": [
+            { "word": "colloquio", "romanization": null, "meanings": { "en": "interview", "zh": "面试", "th": "การสัมภาษณ์", "ko": "면접", "es": "entrevista" }, "gendered": null },
+            { "word": "punto di forza", "romanization": null, "meanings": { "en": "strength / strong point", "zh": "优势/长处", "th": "จุดแข็ง", "ko": "강점", "es": "punto fuerte" }, "gendered": null },
+            { "word": "stipendio", "romanization": null, "meanings": { "en": "salary", "zh": "薪水", "th": "เงินเดือน", "ko": "월급", "es": "sueldo" }, "gendered": null },
+            { "word": "disponibile", "romanization": null, "meanings": { "en": "available / willing", "zh": "可以/愿意", "th": "พร้อม", "ko": "가능한/의향이 있는", "es": "disponible" }, "gendered": null },
+            { "word": "motivazione", "romanization": null, "meanings": { "en": "motivation", "zh": "动力/动机", "th": "แรงจูงใจ", "ko": "동기", "es": "motivación" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "colloquio", "romanization": null, "options": { "en": ["interview", "meeting", "presentation", "assessment"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "stipendio", "romanization": null, "options": { "en": ["salary", "bonus", "benefit", "contract"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'motivation' in Italian?" }, "options": { "neutral": ["motivazione", "ambizione", "passione", "dedizione"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'strength / strong point' in Italian?" }, "options": { "neutral": ["punto di forza", "punto debole", "qualità", "virtù"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "colloquio", "romanization": null, "native": { "en": "interview" } },
+              { "target": "stipendio", "romanization": null, "native": { "en": "salary" } },
+              { "target": "punto di forza", "romanization": null, "native": { "en": "strength / strong point" } },
+              { "target": "motivazione", "romanization": null, "native": { "en": "motivation" } }
+            ] }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "Starting a New Job", "zh": "开始新工作", "th": "การเริ่มงานใหม่", "ko": "새 직장 시작하기", "es": "Empezar un trabajo nuevo" },
+          "objectives": { "en": ["Introduce yourself on the first day", "Ask for help or clarification", "Understand your contract and benefits"] },
+          "vocabulary": [
+            { "word": "contratto", "romanization": null, "meanings": { "en": "contract", "zh": "合同", "th": "สัญญา", "ko": "계약서", "es": "contrato" }, "gendered": null },
+            { "word": "ferie", "romanization": null, "meanings": { "en": "holiday / annual leave", "zh": "年假", "th": "วันหยุดพักร้อน", "ko": "휴가", "es": "vacaciones" }, "gendered": null },
+            { "word": "formazione", "romanization": null, "meanings": { "en": "training", "zh": "培训", "th": "การฝึกอบรม", "ko": "교육/훈련", "es": "formación" }, "gendered": null },
+            { "word": "reparto", "romanization": null, "meanings": { "en": "department", "zh": "部门", "th": "แผนก", "ko": "부서", "es": "departamento" }, "gendered": null },
+            { "word": "mi può aiutare", "romanization": null, "meanings": { "en": "can you help me (formal)", "zh": "您能帮我吗", "th": "คุณช่วยฉันได้ไหม (ทางการ)", "ko": "도와주실 수 있나요 (격식)", "es": "¿me puede ayudar?" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "contratto", "romanization": null, "options": { "en": ["contract", "salary", "training", "holiday"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ferie", "romanization": null, "options": { "en": ["holiday / annual leave", "overtime", "sick leave", "break"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'department' in Italian?" }, "options": { "neutral": ["reparto", "sezione", "divisione", "settore"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'training' in Italian?" }, "options": { "neutral": ["formazione", "orientamento", "pratica", "tirocinio"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "contratto", "romanization": null, "options": { "en": ["contract", "salary", "department", "training"] }, "correct": 0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

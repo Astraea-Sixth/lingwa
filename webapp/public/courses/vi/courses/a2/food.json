@@ -1,0 +1,1844 @@
+{
+  "lang": "vi",
+  "language": "vi",
+  "level": "A2",
+  "track": "food",
+  "track_label": "Food & Dining",
+  "track_emoji": "🍽️",
+  "unlock_requires": "A1",
+  "nativeLangs": [
+    "en",
+    "zh",
+    "th",
+    "ko",
+    "es"
+  ],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "At the Restaurant",
+        "zh": "在餐厅",
+        "th": "ที่ร้านอาหาร",
+        "ko": "식당에서",
+        "es": "En el restaurante"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Making a Reservation",
+            "zh": "预订座位",
+            "th": "การจองโต๊ะ",
+            "ko": "예약하기",
+            "es": "Hacer una reserva"
+          },
+          "objectives": {
+            "en": [
+              "Reserve a table at a restaurant",
+              "Ask about availability and timing"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "đặt bàn",
+              "romanization": null,
+              "meanings": {
+                "en": "to reserve a table",
+                "zh": "预订桌位",
+                "th": "จองโต๊ะ",
+                "ko": "테이블 예약하다",
+                "es": "reservar mesa"
+              }
+            },
+            {
+              "word": "bàn",
+              "romanization": null,
+              "meanings": {
+                "en": "table",
+                "zh": "桌子",
+                "th": "โต๊ะ",
+                "ko": "테이블",
+                "es": "mesa"
+              }
+            },
+            {
+              "word": "còn chỗ không",
+              "romanization": null,
+              "meanings": {
+                "en": "is there space / availability",
+                "zh": "还有位子吗",
+                "th": "มีที่ว่างไหม",
+                "ko": "자리 있나요",
+                "es": "¿hay sitio?"
+              }
+            },
+            {
+              "word": "mấy người",
+              "romanization": null,
+              "meanings": {
+                "en": "how many people",
+                "zh": "几位",
+                "th": "กี่คน",
+                "ko": "몇 명",
+                "es": "cuántas personas"
+              }
+            },
+            {
+              "word": "bữa tối",
+              "romanization": null,
+              "meanings": {
+                "en": "dinner",
+                "zh": "晚餐",
+                "th": "อาหารเย็น",
+                "ko": "저녁 식사",
+                "es": "cena"
+              }
+            },
+            {
+              "word": "xác nhận",
+              "romanization": null,
+              "meanings": {
+                "en": "to confirm",
+                "zh": "确认",
+                "th": "ยืนยัน",
+                "ko": "확인하다",
+                "es": "confirmar"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "đặt bàn",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "to reserve a table",
+                  "to pay the bill",
+                  "to read the menu",
+                  "to order food"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Đặt bàn means to reserve or book a table."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'table' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "bàn",
+                  "ghế",
+                  "đĩa",
+                  "cốc"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Bàn means table."
+            },
+            {
+              "type": "listening",
+              "audio_text": "còn chỗ không",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "is there space",
+                  "how many people",
+                  "what time",
+                  "how much"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Còn chỗ không means is there space / any availability."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "đặt bàn",
+                  "romanization": null,
+                  "native": {
+                    "en": "reserve a table"
+                  }
+                },
+                {
+                  "target": "bàn",
+                  "romanization": null,
+                  "native": {
+                    "en": "table"
+                  }
+                },
+                {
+                  "target": "bữa tối",
+                  "romanization": null,
+                  "native": {
+                    "en": "dinner"
+                  }
+                },
+                {
+                  "target": "xác nhận",
+                  "romanization": null,
+                  "native": {
+                    "en": "to confirm"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want to reserve a table for two'"
+              },
+              "words": [
+                "tôi",
+                "muốn",
+                "đặt",
+                "bàn",
+                "cho",
+                "hai",
+                "người"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "muốn",
+                  "đặt",
+                  "bàn",
+                  "cho",
+                  "hai",
+                  "người"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "muốn",
+                  "đặt",
+                  "bàn",
+                  "cho",
+                  "hai",
+                  "người"
+                ]
+              },
+              "translation": "Tôi muốn đặt bàn cho hai người."
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Reading the Menu",
+            "zh": "看菜单",
+            "th": "อ่านเมนู",
+            "ko": "메뉴 읽기",
+            "es": "Leer el menú"
+          },
+          "objectives": {
+            "en": [
+              "Understand menu sections",
+              "Ask about dishes and ingredients"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "thực đơn",
+              "romanization": null,
+              "meanings": {
+                "en": "menu",
+                "zh": "菜单",
+                "th": "เมนู",
+                "ko": "메뉴",
+                "es": "menú"
+              }
+            },
+            {
+              "word": "món đặc biệt hôm nay",
+              "romanization": null,
+              "meanings": {
+                "en": "today's special",
+                "zh": "今日特餐",
+                "th": "เมนูพิเศษวันนี้",
+                "ko": "오늘의 특선",
+                "es": "especial del día"
+              }
+            },
+            {
+              "word": "món khai vị",
+              "romanization": null,
+              "meanings": {
+                "en": "appetizer / starter",
+                "zh": "前菜",
+                "th": "อาหารเรียกน้ำย่อย",
+                "ko": "전채 요리",
+                "es": "entrante"
+              }
+            },
+            {
+              "word": "món chính",
+              "romanization": null,
+              "meanings": {
+                "en": "main course",
+                "zh": "主菜",
+                "th": "อาหารจานหลัก",
+                "ko": "메인 요리",
+                "es": "plato principal"
+              }
+            },
+            {
+              "word": "món tráng miệng",
+              "romanization": null,
+              "meanings": {
+                "en": "dessert",
+                "zh": "甜点",
+                "th": "ของหวาน",
+                "ko": "디저트",
+                "es": "postre"
+              }
+            },
+            {
+              "word": "chay",
+              "romanization": null,
+              "meanings": {
+                "en": "vegetarian",
+                "zh": "素食",
+                "th": "มังสวิรัติ",
+                "ko": "채식",
+                "es": "vegetariano"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "thực đơn",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "menu",
+                  "bill",
+                  "receipt",
+                  "list"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Thực đơn means menu."
+            },
+            {
+              "type": "target_to_native",
+              "word": "món tráng miệng",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "dessert",
+                  "starter",
+                  "main course",
+                  "side dish"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Món tráng miệng means dessert."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'main course' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "món chính",
+                  "món khai vị",
+                  "món tráng miệng",
+                  "thực đơn"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Món chính means main course or main dish."
+            },
+            {
+              "type": "listening",
+              "audio_text": "món khai vị",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "appetizer",
+                  "dessert",
+                  "main course",
+                  "menu"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Món khai vị means appetizer or starter."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "thực đơn",
+                  "romanization": null,
+                  "native": {
+                    "en": "menu"
+                  }
+                },
+                {
+                  "target": "món khai vị",
+                  "romanization": null,
+                  "native": {
+                    "en": "appetizer"
+                  }
+                },
+                {
+                  "target": "món tráng miệng",
+                  "romanization": null,
+                  "native": {
+                    "en": "dessert"
+                  }
+                },
+                {
+                  "target": "món đặc biệt hôm nay",
+                  "romanization": null,
+                  "native": {
+                    "en": "today's special"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'What is today's special?'"
+              },
+              "words": [
+                "hôm",
+                "nay",
+                "đặc",
+                "biệt",
+                "món",
+                "là",
+                "gì"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "món",
+                  "đặc",
+                  "biệt",
+                  "hôm",
+                  "nay",
+                  "là",
+                  "gì"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "món",
+                  "đặc",
+                  "biệt",
+                  "hôm",
+                  "nay",
+                  "là",
+                  "gì"
+                ]
+              },
+              "translation": "Món đặc biệt hôm nay là gì?"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Ordering Food",
+            "zh": "点餐",
+            "th": "การสั่งอาหาร",
+            "ko": "음식 주문하기",
+            "es": "Pedir comida"
+          },
+          "objectives": {
+            "en": [
+              "Order food and drinks politely",
+              "Make special requests and get the bill"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "cho tôi",
+              "romanization": null,
+              "meanings": {
+                "en": "please give me / I would like",
+                "zh": "请给我",
+                "th": "ขอ...หน่อย",
+                "ko": "주세요",
+                "es": "deme / quisiera"
+              }
+            },
+            {
+              "word": "không thịt",
+              "romanization": null,
+              "meanings": {
+                "en": "without meat",
+                "zh": "不含肉",
+                "th": "ไม่มีเนื้อ",
+                "ko": "고기 없이",
+                "es": "sin carne"
+              }
+            },
+            {
+              "word": "dị ứng với",
+              "romanization": null,
+              "meanings": {
+                "en": "allergic to",
+                "zh": "对…过敏",
+                "th": "แพ้",
+                "ko": "~에 알레르기",
+                "es": "alérgico/a a"
+              }
+            },
+            {
+              "word": "chín kỹ",
+              "romanization": null,
+              "meanings": {
+                "en": "well done (meat)",
+                "zh": "全熟",
+                "th": "สุกมาก",
+                "ko": "웰던",
+                "es": "bien hecho"
+              }
+            },
+            {
+              "word": "tính tiền",
+              "romanization": null,
+              "meanings": {
+                "en": "the bill / pay the bill",
+                "zh": "结账",
+                "th": "เช็คบิล",
+                "ko": "계산서",
+                "es": "la cuenta"
+              }
+            },
+            {
+              "word": "bao gồm",
+              "romanization": null,
+              "meanings": {
+                "en": "included",
+                "zh": "包含",
+                "th": "รวมแล้ว",
+                "ko": "포함된",
+                "es": "incluido"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'please give me' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "cho tôi",
+                  "tôi muốn",
+                  "tôi cần",
+                  "tôi thích"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Cho tôi literally means 'give me' and is used to order."
+            },
+            {
+              "type": "target_to_native",
+              "word": "chín kỹ",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "well done",
+                  "medium rare",
+                  "raw",
+                  "grilled"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Chín kỹ means well-done (thoroughly cooked)."
+            },
+            {
+              "type": "listening",
+              "audio_text": "tính tiền",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "the bill",
+                  "the menu",
+                  "water",
+                  "a table"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Tính tiền means to calculate the bill."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "không thịt",
+                  "romanization": null,
+                  "native": {
+                    "en": "without meat"
+                  }
+                },
+                {
+                  "target": "dị ứng với",
+                  "romanization": null,
+                  "native": {
+                    "en": "allergic to"
+                  }
+                },
+                {
+                  "target": "bao gồm",
+                  "romanization": null,
+                  "native": {
+                    "en": "included"
+                  }
+                },
+                {
+                  "target": "tính tiền",
+                  "romanization": null,
+                  "native": {
+                    "en": "the bill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I am allergic to seafood'"
+              },
+              "words": [
+                "tôi",
+                "bị",
+                "dị",
+                "ứng",
+                "với",
+                "hải",
+                "sản"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "bị",
+                  "dị",
+                  "ứng",
+                  "với",
+                  "hải",
+                  "sản"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "bị",
+                  "dị",
+                  "ứng",
+                  "với",
+                  "hải",
+                  "sản"
+                ]
+              },
+              "translation": "Tôi bị dị ứng với hải sản."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "Ingredients & Cooking",
+        "zh": "食材与烹饪",
+        "th": "ส่วนผสมและการทำอาหาร",
+        "ko": "재료와 요리",
+        "es": "Ingredientes y cocina"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Fresh Ingredients",
+            "zh": "新鲜食材",
+            "th": "ส่วนผสมสด",
+            "ko": "신선한 재료",
+            "es": "Ingredientes frescos"
+          },
+          "objectives": {
+            "en": [
+              "Name common Vietnamese vegetables and fruits",
+              "Talk about buying fresh produce"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "hành tây",
+              "romanization": null,
+              "meanings": {
+                "en": "onion",
+                "zh": "洋葱",
+                "th": "หัวหอม",
+                "ko": "양파",
+                "es": "cebolla"
+              }
+            },
+            {
+              "word": "tỏi",
+              "romanization": null,
+              "meanings": {
+                "en": "garlic",
+                "zh": "大蒜",
+                "th": "กระเทียม",
+                "ko": "마늘",
+                "es": "ajo"
+              }
+            },
+            {
+              "word": "cà chua",
+              "romanization": null,
+              "meanings": {
+                "en": "tomato",
+                "zh": "西红柿",
+                "th": "มะเขือเทศ",
+                "ko": "토마토",
+                "es": "tomate"
+              }
+            },
+            {
+              "word": "rau muống",
+              "romanization": null,
+              "meanings": {
+                "en": "water spinach (morning glory)",
+                "zh": "空心菜",
+                "th": "ผักบุ้ง",
+                "ko": "공심채",
+                "es": "espinaca acuática"
+              }
+            },
+            {
+              "word": "tươi",
+              "romanization": null,
+              "meanings": {
+                "en": "fresh",
+                "zh": "新鲜",
+                "th": "สด",
+                "ko": "신선한",
+                "es": "fresco"
+              }
+            },
+            {
+              "word": "chợ",
+              "romanization": null,
+              "meanings": {
+                "en": "market",
+                "zh": "市场",
+                "th": "ตลาด",
+                "ko": "시장",
+                "es": "mercado"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hành tây",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "onion",
+                  "garlic",
+                  "tomato",
+                  "carrot"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hành tây means onion."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'garlic' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "tỏi",
+                  "hành tây",
+                  "cà chua",
+                  "rau muống"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Tỏi means garlic."
+            },
+            {
+              "type": "listening",
+              "audio_text": "chợ",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "market",
+                  "restaurant",
+                  "supermarket",
+                  "bakery"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Chợ means market."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hành tây",
+                  "romanization": null,
+                  "native": {
+                    "en": "onion"
+                  }
+                },
+                {
+                  "target": "tỏi",
+                  "romanization": null,
+                  "native": {
+                    "en": "garlic"
+                  }
+                },
+                {
+                  "target": "cà chua",
+                  "romanization": null,
+                  "native": {
+                    "en": "tomato"
+                  }
+                },
+                {
+                  "target": "tươi",
+                  "romanization": null,
+                  "native": {
+                    "en": "fresh"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I buy vegetables at the market'"
+              },
+              "words": [
+                "tôi",
+                "mua",
+                "rau",
+                "ở",
+                "chợ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "mua",
+                  "rau",
+                  "ở",
+                  "chợ"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "mua",
+                  "rau",
+                  "ở",
+                  "chợ"
+                ]
+              },
+              "translation": "Tôi mua rau ở chợ."
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Cooking Methods",
+            "zh": "烹饪方法",
+            "th": "วิธีการทำอาหาร",
+            "ko": "요리 방법",
+            "es": "Métodos de cocción"
+          },
+          "objectives": {
+            "en": [
+              "Describe how food is prepared",
+              "Follow simple cooking instructions in Vietnamese"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "chiên",
+              "romanization": null,
+              "meanings": {
+                "en": "fried",
+                "zh": "炸的",
+                "th": "ทอด",
+                "ko": "튀긴",
+                "es": "frito"
+              }
+            },
+            {
+              "word": "luộc",
+              "romanization": null,
+              "meanings": {
+                "en": "boiled",
+                "zh": "煮的",
+                "th": "ต้ม",
+                "ko": "삶은",
+                "es": "hervido"
+              }
+            },
+            {
+              "word": "hấp",
+              "romanization": null,
+              "meanings": {
+                "en": "steamed",
+                "zh": "蒸的",
+                "th": "นึ่ง",
+                "ko": "찐",
+                "es": "al vapor"
+              }
+            },
+            {
+              "word": "nướng",
+              "romanization": null,
+              "meanings": {
+                "en": "grilled / roasted",
+                "zh": "烤的",
+                "th": "ย่าง/อบ",
+                "ko": "구운",
+                "es": "asado / a la parrilla"
+              }
+            },
+            {
+              "word": "ướp",
+              "romanization": null,
+              "meanings": {
+                "en": "to marinate / season",
+                "zh": "腌制/调味",
+                "th": "หมัก/ปรุงรส",
+                "ko": "재우다/양념하다",
+                "es": "marinar / sazonar"
+              }
+            },
+            {
+              "word": "khuấy",
+              "romanization": null,
+              "meanings": {
+                "en": "to stir",
+                "zh": "搅拌",
+                "th": "คน",
+                "ko": "젓다",
+                "es": "revolver"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "chiên",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "fried",
+                  "boiled",
+                  "steamed",
+                  "grilled"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Chiên means fried."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'steamed' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "hấp",
+                  "luộc",
+                  "nướng",
+                  "chiên"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hấp means steamed."
+            },
+            {
+              "type": "listening",
+              "audio_text": "ướp",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "to marinate",
+                  "to stir",
+                  "to grill",
+                  "to boil"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Ướp means to marinate or season."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "chiên",
+                  "romanization": null,
+                  "native": {
+                    "en": "fried"
+                  }
+                },
+                {
+                  "target": "luộc",
+                  "romanization": null,
+                  "native": {
+                    "en": "boiled"
+                  }
+                },
+                {
+                  "target": "nướng",
+                  "romanization": null,
+                  "native": {
+                    "en": "grilled"
+                  }
+                },
+                {
+                  "target": "khuấy",
+                  "romanization": null,
+                  "native": {
+                    "en": "to stir"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'The fish is steamed'"
+              },
+              "words": [
+                "cá",
+                "được",
+                "hấp"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "cá",
+                  "được",
+                  "hấp"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "cá",
+                  "được",
+                  "hấp"
+                ]
+              },
+              "translation": "Cá được hấp."
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Vietnamese Cuisine",
+            "zh": "越南美食",
+            "th": "อาหารเวียดนาม",
+            "ko": "베트남 요리",
+            "es": "Cocina vietnamita"
+          },
+          "objectives": {
+            "en": [
+              "Identify popular Vietnamese dishes",
+              "Describe traditional Vietnamese flavors"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "phở",
+              "romanization": null,
+              "meanings": {
+                "en": "pho (Vietnamese noodle soup)",
+                "zh": "越南河粉",
+                "th": "ก๋วยเตี๋ยวเวียดนาม",
+                "ko": "퍼 (베트남 쌀국수)",
+                "es": "pho (sopa de fideos vietnamita)"
+              }
+            },
+            {
+              "word": "bánh mì",
+              "romanization": null,
+              "meanings": {
+                "en": "Vietnamese baguette sandwich",
+                "zh": "越南法棍三明治",
+                "th": "บันห์มี่ (แซนด์วิชเวียดนาม)",
+                "ko": "반미 (베트남 샌드위치)",
+                "es": "bánh mì (bocadillo vietnamita)"
+              }
+            },
+            {
+              "word": "bún bò Huế",
+              "romanization": null,
+              "meanings": {
+                "en": "Hue-style spicy beef noodle soup",
+                "zh": "顺化牛肉米线",
+                "th": "บุนบ่อเว้ (ซุปเส้นเนื้อเผ็ด)",
+                "ko": "분보 후에 (매운 소고기 국수)",
+                "es": "sopa de fideos de res estilo Huế"
+              }
+            },
+            {
+              "word": "nước mắm",
+              "romanization": null,
+              "meanings": {
+                "en": "fish sauce",
+                "zh": "鱼露",
+                "th": "น้ำปลา",
+                "ko": "느억맘 (어간장)",
+                "es": "salsa de pescado"
+              }
+            },
+            {
+              "word": "cay",
+              "romanization": null,
+              "meanings": {
+                "en": "spicy",
+                "zh": "辣的",
+                "th": "เผ็ด",
+                "ko": "매운",
+                "es": "picante"
+              }
+            },
+            {
+              "word": "ngọt",
+              "romanization": null,
+              "meanings": {
+                "en": "sweet",
+                "zh": "甜的",
+                "th": "หวาน",
+                "ko": "달콤한",
+                "es": "dulce"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "phở",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "Vietnamese noodle soup",
+                  "fried rice",
+                  "spring rolls",
+                  "grilled pork"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Phở is Vietnam's iconic noodle soup made with broth, rice noodles and herbs."
+            },
+            {
+              "type": "target_to_native",
+              "word": "bánh mì",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "Vietnamese baguette sandwich",
+                  "rice cake",
+                  "sticky rice",
+                  "rice paper"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Bánh mì is a Vietnamese sandwich in a baguette."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'spicy' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "cay",
+                  "ngọt",
+                  "mặn",
+                  "chua"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Cay means spicy."
+            },
+            {
+              "type": "listening",
+              "audio_text": "nước mắm",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "fish sauce",
+                  "soy sauce",
+                  "oyster sauce",
+                  "chilli sauce"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Nước mắm is fish sauce, a staple of Vietnamese cooking."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "phở",
+                  "romanization": null,
+                  "native": {
+                    "en": "Vietnamese noodle soup"
+                  }
+                },
+                {
+                  "target": "bánh mì",
+                  "romanization": null,
+                  "native": {
+                    "en": "Vietnamese baguette sandwich"
+                  }
+                },
+                {
+                  "target": "cay",
+                  "romanization": null,
+                  "native": {
+                    "en": "spicy"
+                  }
+                },
+                {
+                  "target": "ngọt",
+                  "romanization": null,
+                  "native": {
+                    "en": "sweet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Food Shopping",
+        "zh": "购物",
+        "th": "การซื้ออาหาร",
+        "ko": "식품 쇼핑",
+        "es": "Compras de comida"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "At the Supermarket",
+            "zh": "在超市",
+            "th": "ที่ซูเปอร์มาร์เก็ต",
+            "ko": "슈퍼마켓에서",
+            "es": "En el supermercado"
+          },
+          "objectives": {
+            "en": [
+              "Navigate a supermarket and find products",
+              "Ask staff for help in Vietnamese"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "siêu thị",
+              "romanization": null,
+              "meanings": {
+                "en": "supermarket",
+                "zh": "超市",
+                "th": "ซูเปอร์มาร์เก็ต",
+                "ko": "슈퍼마켓",
+                "es": "supermercado"
+              }
+            },
+            {
+              "word": "giảm giá",
+              "romanization": null,
+              "meanings": {
+                "en": "discount / on sale",
+                "zh": "打折",
+                "th": "ลดราคา",
+                "ko": "할인",
+                "es": "descuento"
+              }
+            },
+            {
+              "word": "khuyến mãi",
+              "romanization": null,
+              "meanings": {
+                "en": "promotion / special offer",
+                "zh": "促销",
+                "th": "โปรโมชั่น",
+                "ko": "프로모션",
+                "es": "oferta / promoción"
+              }
+            },
+            {
+              "word": "hạn sử dụng",
+              "romanization": null,
+              "meanings": {
+                "en": "expiration date",
+                "zh": "保质期",
+                "th": "วันหมดอายุ",
+                "ko": "유통기한",
+                "es": "fecha de caducidad"
+              }
+            },
+            {
+              "word": "kệ hàng",
+              "romanization": null,
+              "meanings": {
+                "en": "shelf / aisle",
+                "zh": "货架",
+                "th": "ชั้นวาง",
+                "ko": "선반",
+                "es": "estante"
+              }
+            },
+            {
+              "word": "quầy thanh toán",
+              "romanization": null,
+              "meanings": {
+                "en": "checkout counter",
+                "zh": "收银台",
+                "th": "แคชเชียร์",
+                "ko": "계산대",
+                "es": "caja"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "giảm giá",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "discount",
+                  "price",
+                  "receipt",
+                  "coupon"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Giảm giá means discount or price reduction."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'checkout counter' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "quầy thanh toán",
+                  "kệ hàng",
+                  "siêu thị",
+                  "giảm giá"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Quầy thanh toán means checkout counter."
+            },
+            {
+              "type": "listening",
+              "audio_text": "hạn sử dụng",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "expiration date",
+                  "price tag",
+                  "discount",
+                  "receipt"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hạn sử dụng means expiration date or use-by date."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "giảm giá",
+                  "romanization": null,
+                  "native": {
+                    "en": "discount"
+                  }
+                },
+                {
+                  "target": "khuyến mãi",
+                  "romanization": null,
+                  "native": {
+                    "en": "promotion"
+                  }
+                },
+                {
+                  "target": "kệ hàng",
+                  "romanization": null,
+                  "native": {
+                    "en": "shelf"
+                  }
+                },
+                {
+                  "target": "quầy thanh toán",
+                  "romanization": null,
+                  "native": {
+                    "en": "checkout"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'Where is the checkout?'"
+              },
+              "words": [
+                "quầy",
+                "thanh",
+                "toán",
+                "ở",
+                "đâu"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "quầy",
+                  "thanh",
+                  "toán",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "quầy",
+                  "thanh",
+                  "toán",
+                  "ở",
+                  "đâu"
+                ]
+              },
+              "translation": "Quầy thanh toán ở đâu?"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "Quantities and Measurements",
+            "zh": "数量与计量",
+            "th": "ปริมาณและการวัด",
+            "ko": "양과 측정",
+            "es": "Cantidades y medidas"
+          },
+          "objectives": {
+            "en": [
+              "Express quantities when shopping",
+              "Understand weights and measures in Vietnamese"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "một kilogram",
+              "romanization": null,
+              "meanings": {
+                "en": "one kilogram",
+                "zh": "一公斤",
+                "th": "หนึ่งกิโลกรัม",
+                "ko": "1킬로그램",
+                "es": "un kilogramo"
+              }
+            },
+            {
+              "word": "nửa cân",
+              "romanization": null,
+              "meanings": {
+                "en": "half a kilogram",
+                "zh": "半公斤",
+                "th": "ครึ่งกิโลกรัม",
+                "ko": "500그램",
+                "es": "medio kilo"
+              }
+            },
+            {
+              "word": "một tá",
+              "romanization": null,
+              "meanings": {
+                "en": "one dozen",
+                "zh": "一打",
+                "th": "หนึ่งโหล",
+                "ko": "12개",
+                "es": "una docena"
+              }
+            },
+            {
+              "word": "một lít",
+              "romanization": null,
+              "meanings": {
+                "en": "one litre",
+                "zh": "一升",
+                "th": "หนึ่งลิตร",
+                "ko": "1리터",
+                "es": "un litro"
+              }
+            },
+            {
+              "word": "miếng",
+              "romanization": null,
+              "meanings": {
+                "en": "piece / slice",
+                "zh": "一块",
+                "th": "ชิ้น",
+                "ko": "조각",
+                "es": "trozo / rebanada"
+              }
+            },
+            {
+              "word": "gói",
+              "romanization": null,
+              "meanings": {
+                "en": "packet / package",
+                "zh": "一包",
+                "th": "แพ็กเกจ",
+                "ko": "봉지",
+                "es": "paquete"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "một tá",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "one dozen",
+                  "one kilogram",
+                  "one litre",
+                  "one slice"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Một tá means one dozen."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'piece / slice' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "miếng",
+                  "gói",
+                  "lít",
+                  "cân"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Miếng means piece or slice."
+            },
+            {
+              "type": "listening",
+              "audio_text": "một kilogram",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "one kilogram",
+                  "one litre",
+                  "one dozen",
+                  "one slice"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Một kilogram is one kilogram."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "một kilogram",
+                  "romanization": null,
+                  "native": {
+                    "en": "one kilogram"
+                  }
+                },
+                {
+                  "target": "một tá",
+                  "romanization": null,
+                  "native": {
+                    "en": "one dozen"
+                  }
+                },
+                {
+                  "target": "miếng",
+                  "romanization": null,
+                  "native": {
+                    "en": "slice"
+                  }
+                },
+                {
+                  "target": "gói",
+                  "romanization": null,
+                  "native": {
+                    "en": "packet"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'I want half a kilogram of cheese'"
+              },
+              "words": [
+                "tôi",
+                "muốn",
+                "nửa",
+                "cân",
+                "pho",
+                "mát"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "tôi",
+                  "muốn",
+                  "nửa",
+                  "cân",
+                  "pho",
+                  "mát"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "tôi",
+                  "muốn",
+                  "nửa",
+                  "cân",
+                  "pho",
+                  "mát"
+                ]
+              },
+              "translation": "Tôi muốn nửa cân pho mát."
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Food Labels and Packaging",
+            "zh": "食品标签与包装",
+            "th": "ฉลากอาหารและบรรจุภัณฑ์",
+            "ko": "식품 라벨과 포장",
+            "es": "Etiquetas y envases de alimentos"
+          },
+          "objectives": {
+            "en": [
+              "Read and understand food labels in Vietnamese",
+              "Identify nutritional and allergen information"
+            ]
+          },
+          "vocabulary": [
+            {
+              "word": "thành phần",
+              "romanization": null,
+              "meanings": {
+                "en": "ingredients / contents",
+                "zh": "成分",
+                "th": "ส่วนประกอบ",
+                "ko": "성분",
+                "es": "ingredientes"
+              }
+            },
+            {
+              "word": "calo",
+              "romanization": null,
+              "meanings": {
+                "en": "calories",
+                "zh": "卡路里",
+                "th": "แคลอรี่",
+                "ko": "칼로리",
+                "es": "calorías"
+              }
+            },
+            {
+              "word": "hữu cơ",
+              "romanization": null,
+              "meanings": {
+                "en": "organic",
+                "zh": "有机的",
+                "th": "อินทรีย์",
+                "ko": "유기농",
+                "es": "orgánico"
+              }
+            },
+            {
+              "word": "thuần chay",
+              "romanization": null,
+              "meanings": {
+                "en": "vegan",
+                "zh": "纯素食",
+                "th": "วีแกน",
+                "ko": "비건",
+                "es": "vegano"
+              }
+            },
+            {
+              "word": "có chứa",
+              "romanization": null,
+              "meanings": {
+                "en": "contains",
+                "zh": "含有",
+                "th": "มีส่วนประกอบ",
+                "ko": "포함한다",
+                "es": "contiene"
+              }
+            },
+            {
+              "word": "tốt nhất trước ngày",
+              "romanization": null,
+              "meanings": {
+                "en": "best before date",
+                "zh": "最佳食用期限",
+                "th": "ควรบริโภคก่อน",
+                "ko": "유통기한",
+                "es": "consumir preferentemente antes de"
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "target_to_native",
+              "word": "hữu cơ",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "organic",
+                  "vegan",
+                  "natural",
+                  "gluten-free"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Hữu cơ means organic."
+            },
+            {
+              "type": "native_to_target",
+              "question": {
+                "en": "How do you say 'ingredients' in Vietnamese?"
+              },
+              "options": {
+                "neutral": [
+                  "thành phần",
+                  "calo",
+                  "ngày",
+                  "sản phẩm"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Thành phần means ingredients or contents."
+            },
+            {
+              "type": "listening",
+              "audio_text": "có chứa",
+              "romanization": null,
+              "options": {
+                "en": [
+                  "contains",
+                  "without",
+                  "free from",
+                  "does not include"
+                ]
+              },
+              "correct": 0,
+              "explanation": "Có chứa means contains."
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "target": "hữu cơ",
+                  "romanization": null,
+                  "native": {
+                    "en": "organic"
+                  }
+                },
+                {
+                  "target": "thuần chay",
+                  "romanization": null,
+                  "native": {
+                    "en": "vegan"
+                  }
+                },
+                {
+                  "target": "có chứa",
+                  "romanization": null,
+                  "native": {
+                    "en": "contains"
+                  }
+                },
+                {
+                  "target": "calo",
+                  "romanization": null,
+                  "native": {
+                    "en": "calories"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": {
+                "en": "Say 'This product is organic'"
+              },
+              "words": [
+                "sản",
+                "phẩm",
+                "này",
+                "là",
+                "hữu",
+                "cơ"
+              ],
+              "correct_order": {
+                "neutral": [
+                  "sản",
+                  "phẩm",
+                  "này",
+                  "là",
+                  "hữu",
+                  "cơ"
+                ]
+              },
+              "tiles": {
+                "neutral": [
+                  "sản",
+                  "phẩm",
+                  "này",
+                  "là",
+                  "hữu",
+                  "cơ"
+                ]
+              },
+              "translation": "Sản phẩm này là hữu cơ."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

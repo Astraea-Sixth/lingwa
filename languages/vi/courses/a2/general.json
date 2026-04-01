@@ -1,0 +1,543 @@
+{
+  "lang": "vi",
+  "language": "vi",
+  "level": "A2",
+  "track": "general",
+  "track_label": "General",
+  "track_emoji": "\ud83c\udfe0",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": { "en": "Daily Life" },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": { "en": "Morning Routine" },
+          "objectives": { "en": ["Describe your morning routine", "Use daily activity verbs"] },
+          "vocabulary": [
+            { "word": "th\u1ee9c d\u1eady", "romanization": null, "meanings": { "en": "to wake up" }, "gendered": null },
+            { "word": "r\u1eeda m\u1eb7t", "romanization": null, "meanings": { "en": "to wash face" }, "gendered": null },
+            { "word": "b\u1eefa s\u00e1ng", "romanization": null, "meanings": { "en": "breakfast" }, "gendered": null },
+            { "word": "thay \u0111\u1ed3", "romanization": null, "meanings": { "en": "to change clothes" }, "gendered": null },
+            { "word": "\u0111i l\u00e0m", "romanization": null, "meanings": { "en": "to go to work" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "th\u1ee9c d\u1eady", "romanization": null, "options": { "en": ["to wake up", "to sleep", "to eat", "to wash"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "b\u1eefa s\u00e1ng", "romanization": null, "options": { "en": ["breakfast", "lunch", "dinner", "snack"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to change clothes' in Vietnamese?" }, "options": { "neutral": ["thay \u0111\u1ed3", "r\u1eeda m\u1eb7t", "th\u1ee9c d\u1eady", "\u0111i l\u00e0m"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to go to work' in Vietnamese?" }, "options": { "neutral": ["\u0111i l\u00e0m", "thay \u0111\u1ed3", "\u0103n s\u00e1ng", "r\u1eeda m\u1eb7t"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "r\u1eeda m\u1eb7t", "romanization": null, "options": { "en": ["to wash face", "to wake up", "to dress", "to leave"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "th\u1ee9c d\u1eady", "romanization": null, "native": { "en": "to wake up" } },
+              { "target": "b\u1eefa s\u00e1ng", "romanization": null, "native": { "en": "breakfast" } },
+              { "target": "thay \u0111\u1ed3", "romanization": null, "native": { "en": "to change clothes" } },
+              { "target": "\u0111i l\u00e0m", "romanization": null, "native": { "en": "to go to work" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": { "en": "Evening Routine" },
+          "objectives": { "en": ["Describe evening activities", "Talk about what you do after work"] },
+          "vocabulary": [
+            { "word": "b\u1eefa tr\u01b0a", "romanization": null, "meanings": { "en": "lunch" }, "gendered": null },
+            { "word": "b\u1eefa t\u1ed1i", "romanization": null, "meanings": { "en": "dinner" }, "gendered": null },
+            { "word": "ngh\u1ec9 ng\u01a1i", "romanization": null, "meanings": { "en": "to rest" }, "gendered": null },
+            { "word": "ng\u1ee7", "romanization": null, "meanings": { "en": "to sleep" }, "gendered": null },
+            { "word": "n\u1ea5u \u0103n", "romanization": null, "meanings": { "en": "to cook" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "b\u1eefa t\u1ed1i", "romanization": null, "options": { "en": ["dinner", "lunch", "breakfast", "snack"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "n\u1ea5u \u0103n", "romanization": null, "options": { "en": ["to cook", "to eat", "to rest", "to sleep"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to rest' in Vietnamese?" }, "options": { "neutral": ["ngh\u1ec9 ng\u01a1i", "ng\u1ee7", "n\u1ea5u \u0103n", "l\u00e0m vi\u1ec7c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to sleep' in Vietnamese?" }, "options": { "neutral": ["ng\u1ee7", "ngh\u1ec9 ng\u01a1i", "n\u1ea5u \u0103n", "\u0103n t\u1ed1i"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "b\u1eefa tr\u01b0a", "romanization": null, "options": { "en": ["lunch", "dinner", "breakfast", "rest"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "b\u1eefa tr\u01b0a", "romanization": null, "native": { "en": "lunch" } },
+              { "target": "b\u1eefa t\u1ed1i", "romanization": null, "native": { "en": "dinner" } },
+              { "target": "ngh\u1ec9 ng\u01a1i", "romanization": null, "native": { "en": "to rest" } },
+              { "target": "ng\u1ee7", "romanization": null, "native": { "en": "to sleep" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": { "en": "Household Items" },
+          "objectives": { "en": ["Name common household items", "Describe your living space"] },
+          "vocabulary": [
+            { "word": "nh\u00e0", "romanization": null, "meanings": { "en": "house / home" }, "gendered": null },
+            { "word": "c\u0103n h\u1ed9", "romanization": null, "meanings": { "en": "apartment" }, "gendered": null },
+            { "word": "ph\u00f2ng", "romanization": null, "meanings": { "en": "room" }, "gendered": null },
+            { "word": "nh\u00e0 b\u1ebfp", "romanization": null, "meanings": { "en": "kitchen" }, "gendered": null },
+            { "word": "ph\u00f2ng t\u1eafm", "romanization": null, "meanings": { "en": "bathroom" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "c\u0103n h\u1ed9", "romanization": null, "options": { "en": ["apartment", "house", "room", "kitchen"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "nh\u00e0 b\u1ebfp", "romanization": null, "options": { "en": ["kitchen", "bathroom", "bedroom", "room"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'room' in Vietnamese?" }, "options": { "neutral": ["ph\u00f2ng", "nh\u00e0 b\u1ebfp", "ph\u00f2ng t\u1eafm", "nh\u00e0"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'bathroom' in Vietnamese?" }, "options": { "neutral": ["ph\u00f2ng t\u1eafm", "ph\u00f2ng", "nh\u00e0 b\u1ebfp", "c\u0103n h\u1ed9"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "nh\u00e0", "romanization": null, "options": { "en": ["house", "apartment", "room", "kitchen"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "nh\u00e0", "romanization": null, "native": { "en": "house" } },
+              { "target": "c\u0103n h\u1ed9", "romanization": null, "native": { "en": "apartment" } },
+              { "target": "nh\u00e0 b\u1ebfp", "romanization": null, "native": { "en": "kitchen" } },
+              { "target": "ph\u00f2ng t\u1eafm", "romanization": null, "native": { "en": "bathroom" } }
+            ]}
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": { "en": "Hobbies & Free Time" },
+          "objectives": { "en": ["Talk about hobbies", "Say what you like to do"] },
+          "vocabulary": [
+            { "word": "\u0111\u1ecdc s\u00e1ch", "romanization": null, "meanings": { "en": "to read books" }, "gendered": null },
+            { "word": "xem phim", "romanization": null, "meanings": { "en": "to watch movies" }, "gendered": null },
+            { "word": "\u0111i d\u1ea1o", "romanization": null, "meanings": { "en": "to go for a walk" }, "gendered": null },
+            { "word": "ch\u01a1i", "romanization": null, "meanings": { "en": "to play" }, "gendered": null },
+            { "word": "th\u00edch", "romanization": null, "meanings": { "en": "to like" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0111\u1ecdc s\u00e1ch", "romanization": null, "options": { "en": ["to read books", "to write", "to watch", "to play"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u0111i d\u1ea1o", "romanization": null, "options": { "en": ["to go for a walk", "to run", "to play", "to read"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to watch movies' in Vietnamese?" }, "options": { "neutral": ["xem phim", "\u0111\u1ecdc s\u00e1ch", "ch\u01a1i", "\u0111i d\u1ea1o"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to like' in Vietnamese?" }, "options": { "neutral": ["th\u00edch", "ch\u01a1i", "xem", "\u0111\u1ecdc"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ch\u01a1i", "romanization": null, "options": { "en": ["to play", "to read", "to walk", "to watch"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0111\u1ecdc s\u00e1ch", "romanization": null, "native": { "en": "to read books" } },
+              { "target": "xem phim", "romanization": null, "native": { "en": "to watch movies" } },
+              { "target": "\u0111i d\u1ea1o", "romanization": null, "native": { "en": "to go for a walk" } },
+              { "target": "th\u00edch", "romanization": null, "native": { "en": "to like" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": { "en": "Weather & Seasons" },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": { "en": "Weather Conditions" },
+          "objectives": { "en": ["Describe the weather", "Ask about the weather"] },
+          "vocabulary": [
+            { "word": "th\u1eddi ti\u1ebft", "romanization": null, "meanings": { "en": "weather" }, "gendered": null },
+            { "word": "l\u1ea1nh", "romanization": null, "meanings": { "en": "cold" }, "gendered": null },
+            { "word": "n\u00f3ng", "romanization": null, "meanings": { "en": "hot" }, "gendered": null },
+            { "word": "m\u01b0a", "romanization": null, "meanings": { "en": "rain" }, "gendered": null },
+            { "word": "n\u1eafng", "romanization": null, "meanings": { "en": "sunny" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "th\u1eddi ti\u1ebft", "romanization": null, "options": { "en": ["weather", "temperature", "wind", "cloud"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "l\u1ea1nh", "romanization": null, "options": { "en": ["cold", "hot", "warm", "cool"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hot' in Vietnamese?" }, "options": { "neutral": ["n\u00f3ng", "l\u1ea1nh", "\u1ea5m", "m\u00e1t"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'rain' in Vietnamese?" }, "options": { "neutral": ["m\u01b0a", "n\u1eafng", "gi\u00f3", "tuy\u1ebft"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "n\u1eafng", "romanization": null, "options": { "en": ["sunny", "rainy", "windy", "snowy"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "l\u1ea1nh", "romanization": null, "native": { "en": "cold" } },
+              { "target": "n\u00f3ng", "romanization": null, "native": { "en": "hot" } },
+              { "target": "m\u01b0a", "romanization": null, "native": { "en": "rain" } },
+              { "target": "n\u1eafng", "romanization": null, "native": { "en": "sunny" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": { "en": "Seasons" },
+          "objectives": { "en": ["Name the seasons", "Describe seasonal activities"] },
+          "vocabulary": [
+            { "word": "m\u00f9a xu\u00e2n", "romanization": null, "meanings": { "en": "spring" }, "gendered": null },
+            { "word": "m\u00f9a h\u00e8", "romanization": null, "meanings": { "en": "summer" }, "gendered": null },
+            { "word": "m\u00f9a thu", "romanization": null, "meanings": { "en": "autumn" }, "gendered": null },
+            { "word": "m\u00f9a \u0111\u00f4ng", "romanization": null, "meanings": { "en": "winter" }, "gendered": null },
+            { "word": "m\u00f9a m\u01b0a", "romanization": null, "meanings": { "en": "rainy season" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "m\u00f9a xu\u00e2n", "romanization": null, "options": { "en": ["spring", "summer", "autumn", "winter"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "m\u00f9a \u0111\u00f4ng", "romanization": null, "options": { "en": ["winter", "spring", "summer", "autumn"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'summer' in Vietnamese?" }, "options": { "neutral": ["m\u00f9a h\u00e8", "m\u00f9a \u0111\u00f4ng", "m\u00f9a xu\u00e2n", "m\u00f9a thu"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'rainy season' in Vietnamese?" }, "options": { "neutral": ["m\u00f9a m\u01b0a", "m\u00f9a h\u00e8", "m\u00f9a thu", "m\u00f9a xu\u00e2n"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "m\u00f9a thu", "romanization": null, "options": { "en": ["autumn", "spring", "winter", "summer"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "m\u00f9a xu\u00e2n", "romanization": null, "native": { "en": "spring" } },
+              { "target": "m\u00f9a h\u00e8", "romanization": null, "native": { "en": "summer" } },
+              { "target": "m\u00f9a thu", "romanization": null, "native": { "en": "autumn" } },
+              { "target": "m\u00f9a \u0111\u00f4ng", "romanization": null, "native": { "en": "winter" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": { "en": "Weather Forecast" },
+          "objectives": { "en": ["Understand a simple weather forecast", "Use weather-related phrases"] },
+          "vocabulary": [
+            { "word": "\u1ea5m", "romanization": null, "meanings": { "en": "warm" }, "gendered": null },
+            { "word": "gi\u00f3", "romanization": null, "meanings": { "en": "wind" }, "gendered": null },
+            { "word": "m\u00e2y", "romanization": null, "meanings": { "en": "cloudy" }, "gendered": null },
+            { "word": "trong", "romanization": null, "meanings": { "en": "clear" }, "gendered": null },
+            { "word": "nhi\u1ec7t \u0111\u1ed9", "romanization": null, "meanings": { "en": "temperature" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u1ea5m", "romanization": null, "options": { "en": ["warm", "cold", "hot", "cool"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "m\u00e2y", "romanization": null, "options": { "en": ["cloudy", "sunny", "rainy", "windy"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'wind' in Vietnamese?" }, "options": { "neutral": ["gi\u00f3", "m\u01b0a", "n\u1eafng", "m\u00e2y"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'temperature' in Vietnamese?" }, "options": { "neutral": ["nhi\u1ec7t \u0111\u1ed9", "th\u1eddi ti\u1ebft", "gi\u00f3", "m\u00e2y"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "gi\u00f3", "romanization": null, "options": { "en": ["wind", "rain", "sun", "cloud"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u1ea5m", "romanization": null, "native": { "en": "warm" } },
+              { "target": "gi\u00f3", "romanization": null, "native": { "en": "wind" } },
+              { "target": "m\u00e2y", "romanization": null, "native": { "en": "cloudy" } },
+              { "target": "nhi\u1ec7t \u0111\u1ed9", "romanization": null, "native": { "en": "temperature" } }
+            ]}
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": { "en": "Clothing & Weather" },
+          "objectives": { "en": ["Name basic clothing items", "Choose clothing based on weather"] },
+          "vocabulary": [
+            { "word": "\u00e1o kho\u00e1c", "romanization": null, "meanings": { "en": "jacket" }, "gendered": null },
+            { "word": "m\u0169", "romanization": null, "meanings": { "en": "hat" }, "gendered": null },
+            { "word": "\u00f4", "romanization": null, "meanings": { "en": "umbrella" }, "gendered": null },
+            { "word": "\u00e1o m\u01b0a", "romanization": null, "meanings": { "en": "raincoat" }, "gendered": null },
+            { "word": "d\u00e9p", "romanization": null, "meanings": { "en": "sandals / slippers" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u00e1o kho\u00e1c", "romanization": null, "options": { "en": ["jacket", "coat", "hat", "sandals"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "\u00f4", "romanization": null, "options": { "en": ["umbrella", "jacket", "hat", "scarf"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hat' in Vietnamese?" }, "options": { "neutral": ["m\u0169", "\u00e1o kho\u00e1c", "\u00f4", "\u00e1o m\u01b0a"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'raincoat' in Vietnamese?" }, "options": { "neutral": ["\u00e1o m\u01b0a", "\u00e1o kho\u00e1c", "\u00f4", "d\u00e9p"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "d\u00e9p", "romanization": null, "options": { "en": ["sandals", "jacket", "boots", "umbrella"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u00e1o kho\u00e1c", "romanization": null, "native": { "en": "jacket" } },
+              { "target": "m\u0169", "romanization": null, "native": { "en": "hat" } },
+              { "target": "\u00f4", "romanization": null, "native": { "en": "umbrella" } },
+              { "target": "\u00e1o m\u01b0a", "romanization": null, "native": { "en": "raincoat" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": { "en": "Health & Body" },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": { "en": "Body Parts" },
+          "objectives": { "en": ["Name basic body parts", "Describe where something hurts"] },
+          "vocabulary": [
+            { "word": "\u0111\u1ea7u", "romanization": null, "meanings": { "en": "head" }, "gendered": null },
+            { "word": "tay", "romanization": null, "meanings": { "en": "hand / arm" }, "gendered": null },
+            { "word": "ch\u00e2n", "romanization": null, "meanings": { "en": "leg / foot" }, "gendered": null },
+            { "word": "b\u1ee5ng", "romanization": null, "meanings": { "en": "stomach" }, "gendered": null },
+            { "word": "l\u01b0ng", "romanization": null, "meanings": { "en": "back" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0111\u1ea7u", "romanization": null, "options": { "en": ["head", "hand", "leg", "stomach"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "b\u1ee5ng", "romanization": null, "options": { "en": ["stomach", "head", "back", "arm"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'hand' in Vietnamese?" }, "options": { "neutral": ["tay", "ch\u00e2n", "\u0111\u1ea7u", "l\u01b0ng"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'back' in Vietnamese?" }, "options": { "neutral": ["l\u01b0ng", "b\u1ee5ng", "tay", "ch\u00e2n"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "ch\u00e2n", "romanization": null, "options": { "en": ["leg", "hand", "head", "stomach"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0111\u1ea7u", "romanization": null, "native": { "en": "head" } },
+              { "target": "tay", "romanization": null, "native": { "en": "hand" } },
+              { "target": "ch\u00e2n", "romanization": null, "native": { "en": "leg" } },
+              { "target": "l\u01b0ng", "romanization": null, "native": { "en": "back" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": { "en": "Feeling Unwell" },
+          "objectives": { "en": ["Say you feel sick", "Describe symptoms"] },
+          "vocabulary": [
+            { "word": "\u0111au", "romanization": null, "meanings": { "en": "pain / it hurts" }, "gendered": null },
+            { "word": "b\u1ecb \u1ed1m", "romanization": null, "meanings": { "en": "to be sick" }, "gendered": null },
+            { "word": "s\u1ed1t", "romanization": null, "meanings": { "en": "fever" }, "gendered": null },
+            { "word": "ho", "romanization": null, "meanings": { "en": "cough" }, "gendered": null },
+            { "word": "s\u1ed5 m\u0169i", "romanization": null, "meanings": { "en": "runny nose" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "\u0111au", "romanization": null, "options": { "en": ["pain", "sick", "tired", "cold"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ho", "romanization": null, "options": { "en": ["cough", "fever", "headache", "cold"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'fever' in Vietnamese?" }, "options": { "neutral": ["s\u1ed1t", "ho", "s\u1ed5 m\u0169i", "\u0111au"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to be sick' in Vietnamese?" }, "options": { "neutral": ["b\u1ecb \u1ed1m", "\u0111au", "s\u1ed1t", "ho"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "s\u1ed5 m\u0169i", "romanization": null, "options": { "en": ["runny nose", "cough", "fever", "headache"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "\u0111au", "romanization": null, "native": { "en": "pain" } },
+              { "target": "ho", "romanization": null, "native": { "en": "cough" } },
+              { "target": "s\u1ed5 m\u0169i", "romanization": null, "native": { "en": "runny nose" } },
+              { "target": "s\u1ed1t", "romanization": null, "native": { "en": "fever" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": { "en": "At the Doctor" },
+          "objectives": { "en": ["Communicate with a doctor", "Describe what's wrong"] },
+          "vocabulary": [
+            { "word": "b\u00e1c s\u0129", "romanization": null, "meanings": { "en": "doctor" }, "gendered": null },
+            { "word": "nh\u00e0 thu\u1ed1c", "romanization": null, "meanings": { "en": "pharmacy" }, "gendered": null },
+            { "word": "thu\u1ed1c", "romanization": null, "meanings": { "en": "medicine" }, "gendered": null },
+            { "word": "\u0111\u01a1n thu\u1ed1c", "romanization": null, "meanings": { "en": "prescription" }, "gendered": null },
+            { "word": "s\u1ee9c kh\u1ecfe", "romanization": null, "meanings": { "en": "health" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "b\u00e1c s\u0129", "romanization": null, "options": { "en": ["doctor", "nurse", "pharmacist", "patient"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "thu\u1ed1c", "romanization": null, "options": { "en": ["medicine", "prescription", "pharmacy", "health"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'pharmacy' in Vietnamese?" }, "options": { "neutral": ["nh\u00e0 thu\u1ed1c", "b\u1ec7nh vi\u1ec7n", "b\u00e1c s\u0129", "thu\u1ed1c"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'health' in Vietnamese?" }, "options": { "neutral": ["s\u1ee9c kh\u1ecfe", "\u0111\u01a1n thu\u1ed1c", "nh\u00e0 thu\u1ed1c", "b\u00e1c s\u0129"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "nh\u00e0 thu\u1ed1c", "romanization": null, "options": { "en": ["pharmacy", "hospital", "doctor", "medicine"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "b\u00e1c s\u0129", "romanization": null, "native": { "en": "doctor" } },
+              { "target": "nh\u00e0 thu\u1ed1c", "romanization": null, "native": { "en": "pharmacy" } },
+              { "target": "thu\u1ed1c", "romanization": null, "native": { "en": "medicine" } },
+              { "target": "\u0111\u01a1n thu\u1ed1c", "romanization": null, "native": { "en": "prescription" } }
+            ]}
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": { "en": "Staying Healthy" },
+          "objectives": { "en": ["Talk about healthy habits", "Give basic health advice"] },
+          "vocabulary": [
+            { "word": "t\u1eadp th\u1ec3 d\u1ee5c", "romanization": null, "meanings": { "en": "to exercise" }, "gendered": null },
+            { "word": "kh\u1ecfe m\u1ea1nh", "romanization": null, "meanings": { "en": "healthy" }, "gendered": null },
+            { "word": "u\u1ed1ng n\u01b0\u1edbc", "romanization": null, "meanings": { "en": "to drink water" }, "gendered": null },
+            { "word": "tr\u00e1i c\u00e2y", "romanization": null, "meanings": { "en": "fruits" }, "gendered": null },
+            { "word": "rau c\u1ee7", "romanization": null, "meanings": { "en": "vegetables" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "kh\u1ecfe m\u1ea1nh", "romanization": null, "options": { "en": ["healthy", "sick", "tired", "strong"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "tr\u00e1i c\u00e2y", "romanization": null, "options": { "en": ["fruits", "vegetables", "meat", "rice"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to exercise' in Vietnamese?" }, "options": { "neutral": ["t\u1eadp th\u1ec3 d\u1ee5c", "u\u1ed1ng n\u01b0\u1edbc", "\u0111\u1ecdc s\u00e1ch", "\u0111i d\u1ea1o"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'vegetables' in Vietnamese?" }, "options": { "neutral": ["rau c\u1ee7", "tr\u00e1i c\u00e2y", "th\u1ecbt", "c\u01a1m"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "rau c\u1ee7", "romanization": null, "options": { "en": ["vegetables", "fruits", "meat", "fish"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "kh\u1ecfe m\u1ea1nh", "romanization": null, "native": { "en": "healthy" } },
+              { "target": "tr\u00e1i c\u00e2y", "romanization": null, "native": { "en": "fruits" } },
+              { "target": "rau c\u1ee7", "romanization": null, "native": { "en": "vegetables" } },
+              { "target": "u\u1ed1ng n\u01b0\u1edbc", "romanization": null, "native": { "en": "drink water" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": { "en": "Plans & Future" },
+      "lessons": [
+        {
+          "id": "4.1",
+          "title": { "en": "Making Plans" },
+          "objectives": { "en": ["Talk about future plans", "Use time expressions"] },
+          "vocabulary": [
+            { "word": "k\u1ebf ho\u1ea1ch", "romanization": null, "meanings": { "en": "plan" }, "gendered": null },
+            { "word": "ng\u00e0y mai", "romanization": null, "meanings": { "en": "tomorrow" }, "gendered": null },
+            { "word": "h\u00f4m nay", "romanization": null, "meanings": { "en": "today" }, "gendered": null },
+            { "word": "h\u00f4m qua", "romanization": null, "meanings": { "en": "yesterday" }, "gendered": null },
+            { "word": "s\u1ebd", "romanization": null, "meanings": { "en": "will (future marker)" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "ng\u00e0y mai", "romanization": null, "options": { "en": ["tomorrow", "today", "yesterday", "later"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "s\u1ebd", "romanization": null, "options": { "en": ["will", "was", "is", "have"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'today' in Vietnamese?" }, "options": { "neutral": ["h\u00f4m nay", "ng\u00e0y mai", "h\u00f4m qua", "sau"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'yesterday' in Vietnamese?" }, "options": { "neutral": ["h\u00f4m qua", "h\u00f4m nay", "ng\u00e0y mai", "tu\u1ea7n tr\u01b0\u1edbc"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "h\u00f4m nay", "romanization": null, "options": { "en": ["today", "tomorrow", "yesterday", "now"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "ng\u00e0y mai", "romanization": null, "native": { "en": "tomorrow" } },
+              { "target": "h\u00f4m nay", "romanization": null, "native": { "en": "today" } },
+              { "target": "h\u00f4m qua", "romanization": null, "native": { "en": "yesterday" } },
+              { "target": "k\u1ebf ho\u1ea1ch", "romanization": null, "native": { "en": "plan" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": { "en": "Invitations" },
+          "objectives": { "en": ["Invite someone to do something", "Accept or decline invitations"] },
+          "vocabulary": [
+            { "word": "M\u00ecnh \u0111i", "romanization": null, "meanings": { "en": "Let's go" }, "gendered": null },
+            { "word": "\u00fd t\u01b0\u1edfng hay", "romanization": null, "meanings": { "en": "good idea" }, "gendered": null },
+            { "word": "ti\u1ebfc qu\u00e1", "romanization": null, "meanings": { "en": "what a pity / unfortunately" }, "gendered": null },
+            { "word": "r\u1ea3nh", "romanization": null, "meanings": { "en": "free / available" }, "gendered": null },
+            { "word": "b\u1eadn", "romanization": null, "meanings": { "en": "busy" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "M\u00ecnh \u0111i", "romanization": null, "options": { "en": ["Let's go", "Go away", "Come here", "Wait"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ti\u1ebfc qu\u00e1", "romanization": null, "options": { "en": ["what a pity", "of course", "maybe", "certainly"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'free/available' in Vietnamese?" }, "options": { "neutral": ["r\u1ea3nh", "b\u1eadn", "\u0111i", "hay"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'busy' in Vietnamese?" }, "options": { "neutral": ["b\u1eadn", "r\u1ea3nh", "m\u1ec7t", "vui"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u00fd t\u01b0\u1edfng hay", "romanization": null, "options": { "en": ["good idea", "bad idea", "let's go", "of course"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "M\u00ecnh \u0111i", "romanization": null, "native": { "en": "Let's go" } },
+              { "target": "ti\u1ebfc qu\u00e1", "romanization": null, "native": { "en": "what a pity" } },
+              { "target": "r\u1ea3nh", "romanization": null, "native": { "en": "free" } },
+              { "target": "b\u1eadn", "romanization": null, "native": { "en": "busy" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": { "en": "Work & School" },
+          "objectives": { "en": ["Talk about work and study", "Describe your occupation"] },
+          "vocabulary": [
+            { "word": "c\u00f4ng vi\u1ec7c", "romanization": null, "meanings": { "en": "work / job" }, "gendered": null },
+            { "word": "h\u1ecdc", "romanization": null, "meanings": { "en": "to study" }, "gendered": null },
+            { "word": "sinh vi\u00ean", "romanization": null, "meanings": { "en": "student (university)" }, "gendered": null },
+            { "word": "gi\u00e1o vi\u00ean", "romanization": null, "meanings": { "en": "teacher" }, "gendered": null },
+            { "word": "v\u0103n ph\u00f2ng", "romanization": null, "meanings": { "en": "office" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "c\u00f4ng vi\u1ec7c", "romanization": null, "options": { "en": ["work", "school", "office", "study"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "gi\u00e1o vi\u00ean", "romanization": null, "options": { "en": ["teacher", "student", "doctor", "worker"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to study' in Vietnamese?" }, "options": { "neutral": ["h\u1ecdc", "l\u00e0m", "\u0111\u1ecdc", "vi\u1ebft"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'office' in Vietnamese?" }, "options": { "neutral": ["v\u0103n ph\u00f2ng", "tr\u01b0\u1eddng h\u1ecdc", "c\u00f4ng vi\u1ec7c", "ph\u00f2ng"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "sinh vi\u00ean", "romanization": null, "options": { "en": ["student", "teacher", "doctor", "worker"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "c\u00f4ng vi\u1ec7c", "romanization": null, "native": { "en": "work" } },
+              { "target": "h\u1ecdc", "romanization": null, "native": { "en": "to study" } },
+              { "target": "gi\u00e1o vi\u00ean", "romanization": null, "native": { "en": "teacher" } },
+              { "target": "v\u0103n ph\u00f2ng", "romanization": null, "native": { "en": "office" } }
+            ]}
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": { "en": "Weekend Plans" },
+          "objectives": { "en": ["Discuss weekend activities", "Use future tense simply"] },
+          "vocabulary": [
+            { "word": "cu\u1ed1i tu\u1ea7n", "romanization": null, "meanings": { "en": "weekend" }, "gendered": null },
+            { "word": "\u0111i ch\u01a1i", "romanization": null, "meanings": { "en": "to go out / have fun" }, "gendered": null },
+            { "word": "r\u1ea1p phim", "romanization": null, "meanings": { "en": "cinema" }, "gendered": null },
+            { "word": "c\u00f4ng vi\u00ean", "romanization": null, "meanings": { "en": "park" }, "gendered": null },
+            { "word": "b\u1ea3o t\u00e0ng", "romanization": null, "meanings": { "en": "museum" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "cu\u1ed1i tu\u1ea7n", "romanization": null, "options": { "en": ["weekend", "weekday", "holiday", "vacation"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "r\u1ea1p phim", "romanization": null, "options": { "en": ["cinema", "theater", "park", "museum"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'park' in Vietnamese?" }, "options": { "neutral": ["c\u00f4ng vi\u00ean", "r\u1ea1p phim", "b\u1ea3o t\u00e0ng", "v\u0103n ph\u00f2ng"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'museum' in Vietnamese?" }, "options": { "neutral": ["b\u1ea3o t\u00e0ng", "c\u00f4ng vi\u00ean", "r\u1ea1p phim", "tr\u01b0\u1eddng h\u1ecdc"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0111i ch\u01a1i", "romanization": null, "options": { "en": ["to go out", "to walk", "to run", "to fly"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "cu\u1ed1i tu\u1ea7n", "romanization": null, "native": { "en": "weekend" } },
+              { "target": "r\u1ea1p phim", "romanization": null, "native": { "en": "cinema" } },
+              { "target": "c\u00f4ng vi\u00ean", "romanization": null, "native": { "en": "park" } },
+              { "target": "b\u1ea3o t\u00e0ng", "romanization": null, "native": { "en": "museum" } }
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": { "en": "Opinions & Feelings" },
+      "lessons": [
+        {
+          "id": "5.1",
+          "title": { "en": "Expressing Opinions" },
+          "objectives": { "en": ["Share your opinion", "Agree and disagree politely"] },
+          "vocabulary": [
+            { "word": "t\u00f4i ngh\u0129", "romanization": null, "meanings": { "en": "I think" }, "gendered": null },
+            { "word": "\u0111\u1ed3ng \u00fd", "romanization": null, "meanings": { "en": "to agree" }, "gendered": null },
+            { "word": "kh\u00f4ng \u0111\u1ed3ng \u00fd", "romanization": null, "meanings": { "en": "to disagree" }, "gendered": null },
+            { "word": "theo t\u00f4i", "romanization": null, "meanings": { "en": "in my opinion" }, "gendered": null },
+            { "word": "\u0111\u00fang", "romanization": null, "meanings": { "en": "correct / right" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "t\u00f4i ngh\u0129", "romanization": null, "options": { "en": ["I think", "I know", "I want", "I see"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "theo t\u00f4i", "romanization": null, "options": { "en": ["in my opinion", "I agree", "I disagree", "of course"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to agree' in Vietnamese?" }, "options": { "neutral": ["\u0111\u1ed3ng \u00fd", "kh\u00f4ng \u0111\u1ed3ng \u00fd", "t\u00f4i ngh\u0129", "\u0111\u00fang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'correct' in Vietnamese?" }, "options": { "neutral": ["\u0111\u00fang", "\u0111\u1ed3ng \u00fd", "theo t\u00f4i", "t\u00f4i ngh\u0129"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "kh\u00f4ng \u0111\u1ed3ng \u00fd", "romanization": null, "options": { "en": ["to disagree", "to agree", "I think", "correct"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "t\u00f4i ngh\u0129", "romanization": null, "native": { "en": "I think" } },
+              { "target": "\u0111\u1ed3ng \u00fd", "romanization": null, "native": { "en": "to agree" } },
+              { "target": "theo t\u00f4i", "romanization": null, "native": { "en": "in my opinion" } },
+              { "target": "\u0111\u00fang", "romanization": null, "native": { "en": "correct" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": { "en": "Feelings & Emotions" },
+          "objectives": { "en": ["Express basic emotions", "Ask how someone feels"] },
+          "vocabulary": [
+            { "word": "vui", "romanization": null, "meanings": { "en": "happy" }, "gendered": null },
+            { "word": "bu\u1ed3n", "romanization": null, "meanings": { "en": "sad" }, "gendered": null },
+            { "word": "m\u1ec7t", "romanization": null, "meanings": { "en": "tired" }, "gendered": null },
+            { "word": "t\u1ee9c gi\u1eadn", "romanization": null, "meanings": { "en": "angry" }, "gendered": null },
+            { "word": "lo l\u1eafng", "romanization": null, "meanings": { "en": "to worry" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "vui", "romanization": null, "options": { "en": ["happy", "sad", "tired", "angry"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "m\u1ec7t", "romanization": null, "options": { "en": ["tired", "happy", "sad", "angry"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'sad' in Vietnamese?" }, "options": { "neutral": ["bu\u1ed3n", "vui", "t\u1ee9c gi\u1eadn", "m\u1ec7t"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'angry' in Vietnamese?" }, "options": { "neutral": ["t\u1ee9c gi\u1eadn", "bu\u1ed3n", "vui", "m\u1ec7t"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "lo l\u1eafng", "romanization": null, "options": { "en": ["to worry", "to rest", "to sleep", "to cry"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "vui", "romanization": null, "native": { "en": "happy" } },
+              { "target": "bu\u1ed3n", "romanization": null, "native": { "en": "sad" } },
+              { "target": "m\u1ec7t", "romanization": null, "native": { "en": "tired" } },
+              { "target": "t\u1ee9c gi\u1eadn", "romanization": null, "native": { "en": "angry" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": { "en": "Likes & Dislikes" },
+          "objectives": { "en": ["Express what you like and dislike", "Ask about preferences"] },
+          "vocabulary": [
+            { "word": "th\u00edch", "romanization": null, "meanings": { "en": "to like" }, "gendered": null },
+            { "word": "kh\u00f4ng th\u00edch", "romanization": null, "meanings": { "en": "to not like" }, "gendered": null },
+            { "word": "th\u00edch h\u01a1n", "romanization": null, "meanings": { "en": "to prefer" }, "gendered": null },
+            { "word": "th\u00fa v\u1ecb", "romanization": null, "meanings": { "en": "interesting" }, "gendered": null },
+            { "word": "ch\u00e1n", "romanization": null, "meanings": { "en": "boring" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "th\u00edch", "romanization": null, "options": { "en": ["to like", "to love", "to want", "to need"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "ch\u00e1n", "romanization": null, "options": { "en": ["boring", "interesting", "fun", "exciting"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'interesting' in Vietnamese?" }, "options": { "neutral": ["th\u00fa v\u1ecb", "ch\u00e1n", "th\u00edch", "\u0111\u00fang"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'to prefer' in Vietnamese?" }, "options": { "neutral": ["th\u00edch h\u01a1n", "th\u00edch", "y\u00eau", "mu\u1ed1n"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "th\u00fa v\u1ecb", "romanization": null, "options": { "en": ["interesting", "boring", "fun", "difficult"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "th\u00edch", "romanization": null, "native": { "en": "to like" } },
+              { "target": "kh\u00f4ng th\u00edch", "romanization": null, "native": { "en": "to not like" } },
+              { "target": "th\u00fa v\u1ecb", "romanization": null, "native": { "en": "interesting" } },
+              { "target": "ch\u00e1n", "romanization": null, "native": { "en": "boring" } }
+            ]}
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": { "en": "Describing Experiences" },
+          "objectives": { "en": ["Describe past experiences simply", "Use basic past references"] },
+          "vocabulary": [
+            { "word": "\u0111\u00e3", "romanization": null, "meanings": { "en": "already (past marker)" }, "gendered": null },
+            { "word": "tuy\u1ec7t v\u1eddi", "romanization": null, "meanings": { "en": "wonderful" }, "gendered": null },
+            { "word": "t\u1ec7 qu\u00e1", "romanization": null, "meanings": { "en": "terrible" }, "gendered": null },
+            { "word": "r\u1ea5t th\u00edch", "romanization": null, "meanings": { "en": "really liked" }, "gendered": null },
+            { "word": "l\u1ea7n \u0111\u1ea7u ti\u00ean", "romanization": null, "meanings": { "en": "for the first time" }, "gendered": null }
+          ],
+          "exercises": [
+            { "type": "target_to_native", "word": "tuy\u1ec7t v\u1eddi", "romanization": null, "options": { "en": ["wonderful", "terrible", "boring", "okay"] }, "correct": 0 },
+            { "type": "target_to_native", "word": "l\u1ea7n \u0111\u1ea7u ti\u00ean", "romanization": null, "options": { "en": ["for the first time", "again", "always", "never"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'terrible' in Vietnamese?" }, "options": { "neutral": ["t\u1ec7 qu\u00e1", "tuy\u1ec7t v\u1eddi", "th\u00fa v\u1ecb", "ch\u00e1n"] }, "correct": 0 },
+            { "type": "native_to_target", "question": { "en": "How do you say 'really liked' in Vietnamese?" }, "options": { "neutral": ["r\u1ea5t th\u00edch", "th\u00edch", "\u0111\u00e3", "t\u1ed1t"] }, "correct": 0 },
+            { "type": "listening", "audio_text": "\u0111\u00e3", "romanization": null, "options": { "en": ["already (past)", "will (future)", "is (present)", "seems"] }, "correct": 0 },
+            { "type": "matching", "pairs": [
+              { "target": "tuy\u1ec7t v\u1eddi", "romanization": null, "native": { "en": "wonderful" } },
+              { "target": "t\u1ec7 qu\u00e1", "romanization": null, "native": { "en": "terrible" } },
+              { "target": "r\u1ea5t th\u00edch", "romanization": null, "native": { "en": "really liked" } },
+              { "target": "l\u1ea7n \u0111\u1ea7u ti\u00ean", "romanization": null, "native": { "en": "for the first time" } }
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

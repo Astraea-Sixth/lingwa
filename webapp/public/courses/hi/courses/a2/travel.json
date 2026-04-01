@@ -1,0 +1,670 @@
+{
+  "lang": "hi",
+  "language": "hi",
+  "level": "A2",
+  "track": "travel",
+  "track_label": "Travel & Transport",
+  "track_emoji": "✈️",
+  "unlock_requires": "A1",
+  "nativeLangs": ["en", "zh", "th", "ko", "es"],
+  "version": "1.0",
+  "units": [
+    {
+      "unit": 1,
+      "title": {
+        "en": "Getting Around",
+        "zh": "出行方式",
+        "th": "การเดินทาง",
+        "ko": "이동하기",
+        "es": "Moverse por la ciudad"
+      },
+      "lessons": [
+        {
+          "id": "1.1",
+          "title": {
+            "en": "Transportation Types",
+            "zh": "交通方式",
+            "th": "ประเภทการขนส่ง",
+            "ko": "교통 수단 종류",
+            "es": "Tipos de transporte"
+          },
+          "objectives": {
+            "en": ["Name types of transport in Hindi", "Ask how to get somewhere"]
+          },
+          "vocabulary": [
+            {
+              "word": "बस",
+              "romanization": "bas",
+              "meanings": { "en": "bus", "zh": "公共汽车", "th": "รถบัส", "ko": "버스", "es": "autobús" }
+            },
+            {
+              "word": "ट्रेन",
+              "romanization": "tren",
+              "meanings": { "en": "train", "zh": "火车", "th": "รถไฟ", "ko": "기차", "es": "tren" }
+            },
+            {
+              "word": "रिक्शा",
+              "romanization": "rikshaa",
+              "meanings": { "en": "rickshaw", "zh": "人力车", "th": "รถรับจ้างสามล้อ", "ko": "릭샤", "es": "rickshaw" }
+            },
+            {
+              "word": "हवाई जहाज़",
+              "romanization": "havaaee jahaaz",
+              "meanings": { "en": "airplane", "zh": "飞机", "th": "เครื่องบิน", "ko": "비행기", "es": "avión" }
+            },
+            {
+              "word": "मेट्रो",
+              "romanization": "metro",
+              "meanings": { "en": "metro / subway", "zh": "地铁", "th": "รถไฟใต้ดิน", "ko": "지하철", "es": "metro" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'airplane' in Hindi?" },
+              "answer": "हवाई जहाज़",
+              "choices": ["हवाई जहाज़", "ट्रेन", "बस", "रिक्शा"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'रिक्शा' (rikshaa)?" },
+              "answer": "rickshaw",
+              "choices": ["rickshaw", "bus", "train", "taxi"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "बस", "native": "bus" },
+                { "target": "ट्रेन", "native": "train" },
+                { "target": "हवाई जहाज़", "native": "airplane" },
+                { "target": "मेट्रो", "native": "metro" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I go to work by metro.'" },
+              "words": ["मेट्रो", "से", "काम", "पर", "जाता", "हूँ", "मैं"],
+              "answer": "मैं मेट्रो से काम पर जाता हूँ"
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": {
+            "en": "Buying Train Tickets",
+            "zh": "购买火车票",
+            "th": "การซื้อตั๋วรถไฟ",
+            "ko": "기차표 구매하기",
+            "es": "Comprar billetes de tren"
+          },
+          "objectives": {
+            "en": ["Buy train tickets in India", "Understand ticket vocabulary"]
+          },
+          "vocabulary": [
+            {
+              "word": "टिकट",
+              "romanization": "tikat",
+              "meanings": { "en": "ticket", "zh": "票", "th": "ตั๋ว", "ko": "티켓", "es": "boleto" }
+            },
+            {
+              "word": "प्लेटफ़ॉर्म",
+              "romanization": "pletform",
+              "meanings": { "en": "platform", "zh": "站台", "th": "ชานชาลา", "ko": "플랫폼", "es": "andén" }
+            },
+            {
+              "word": "स्टेशन",
+              "romanization": "steshn",
+              "meanings": { "en": "station", "zh": "车站", "th": "สถานี", "ko": "역", "es": "estación" }
+            },
+            {
+              "word": "आरक्षण",
+              "romanization": "aarakshan",
+              "meanings": { "en": "reservation / booking", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "रवानगी",
+              "romanization": "ravaangee",
+              "meanings": { "en": "departure", "zh": "出发", "th": "การออกเดินทาง", "ko": "출발", "es": "salida" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'ticket' in Hindi?" },
+              "answer": "टिकट",
+              "choices": ["टिकट", "स्टेशन", "प्लेटफ़ॉर्म", "आरक्षण"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'आरक्षण' (aarakshan) mean?" },
+              "answer": "reservation",
+              "choices": ["reservation", "ticket", "platform", "departure"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "टिकट", "native": "ticket" },
+                { "target": "प्लेटफ़ॉर्म", "native": "platform" },
+                { "target": "स्टेशन", "native": "station" },
+                { "target": "रवानगी", "native": "departure" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want one ticket to Mumbai.'" },
+              "words": ["मुंबई", "के", "लिए", "एक", "टिकट", "चाहिए", "मुझे"],
+              "answer": "मुझे मुंबई के लिए एक टिकट चाहिए"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": {
+            "en": "Asking for Directions",
+            "zh": "问路",
+            "th": "การถามทาง",
+            "ko": "길 묻기",
+            "es": "Pedir indicaciones"
+          },
+          "objectives": {
+            "en": ["Ask and understand directions in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "दाईं तरफ़",
+              "romanization": "daaeen taraf",
+              "meanings": { "en": "right side / to the right", "zh": "右边", "th": "ขวา", "ko": "오른쪽", "es": "a la derecha" }
+            },
+            {
+              "word": "बाईं तरफ़",
+              "romanization": "baaeen taraf",
+              "meanings": { "en": "left side / to the left", "zh": "左边", "th": "ซ้าย", "ko": "왼쪽", "es": "a la izquierda" }
+            },
+            {
+              "word": "सीधे",
+              "romanization": "seedhe",
+              "meanings": { "en": "straight ahead", "zh": "直走", "th": "ตรงไป", "ko": "직진", "es": "recto / todo recto" }
+            },
+            {
+              "word": "पास में",
+              "romanization": "paas mein",
+              "meanings": { "en": "nearby / close by", "zh": "附近", "th": "ใกล้ๆ", "ko": "근처에", "es": "cerca" }
+            },
+            {
+              "word": "दूर",
+              "romanization": "door",
+              "meanings": { "en": "far", "zh": "远", "th": "ไกล", "ko": "멀리", "es": "lejos" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'straight ahead' in Hindi?" },
+              "answer": "सीधे",
+              "choices": ["सीधे", "दाईं तरफ़", "बाईं तरफ़", "दूर"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'दूर' (door) mean?" },
+              "answer": "far",
+              "choices": ["far", "near", "left", "right"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "दाईं तरफ़", "native": "to the right" },
+                { "target": "बाईं तरफ़", "native": "to the left" },
+                { "target": "सीधे", "native": "straight ahead" },
+                { "target": "पास में", "native": "nearby" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Turn left and go straight.'" },
+              "words": ["बाईं", "तरफ़", "मुड़िए", "और", "सीधे", "जाइए"],
+              "answer": "बाईं तरफ़ मुड़िए और सीधे जाइए"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": {
+        "en": "At the Airport",
+        "zh": "在机场",
+        "th": "ที่สนามบิน",
+        "ko": "공항에서",
+        "es": "En el aeropuerto"
+      },
+      "lessons": [
+        {
+          "id": "2.1",
+          "title": {
+            "en": "Check-in and Boarding",
+            "zh": "办理登机",
+            "th": "เช็คอินและการขึ้นเครื่อง",
+            "ko": "체크인과 탑승",
+            "es": "Facturación y embarque"
+          },
+          "objectives": {
+            "en": ["Navigate airport procedures in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "पासपोर्ट",
+              "romanization": "paasport",
+              "meanings": { "en": "passport", "zh": "护照", "th": "หนังสือเดินทาง", "ko": "여권", "es": "pasaporte" }
+            },
+            {
+              "word": "सामान",
+              "romanization": "saamaan",
+              "meanings": { "en": "luggage / baggage", "zh": "行李", "th": "สัมภาระ", "ko": "수하물", "es": "equipaje" }
+            },
+            {
+              "word": "उड़ान",
+              "romanization": "udaan",
+              "meanings": { "en": "flight", "zh": "航班", "th": "เที่ยวบิน", "ko": "항공편", "es": "vuelo" }
+            },
+            {
+              "word": "बोर्डिंग पास",
+              "romanization": "bording paas",
+              "meanings": { "en": "boarding pass", "zh": "登机牌", "th": "บัตรผ่านขึ้นเครื่อง", "ko": "탑승권", "es": "tarjeta de embarque" }
+            },
+            {
+              "word": "गेट",
+              "romanization": "get",
+              "meanings": { "en": "gate", "zh": "登机口", "th": "ประตูขึ้นเครื่อง", "ko": "탑승구", "es": "puerta de embarque" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'passport' in Hindi?" },
+              "answer": "पासपोर्ट",
+              "choices": ["पासपोर्ट", "सामान", "उड़ान", "गेट"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'उड़ान' (udaan)?" },
+              "answer": "flight",
+              "choices": ["flight", "passport", "gate", "boarding pass"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "पासपोर्ट", "native": "passport" },
+                { "target": "सामान", "native": "luggage" },
+                { "target": "उड़ान", "native": "flight" },
+                { "target": "बोर्डिंग पास", "native": "boarding pass" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'Where is the boarding gate?'" },
+              "words": ["बोर्डिंग", "गेट", "कहाँ", "है"],
+              "answer": "बोर्डिंग गेट कहाँ है"
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": {
+            "en": "Hotel Stay",
+            "zh": "酒店住宿",
+            "th": "พักโรงแรม",
+            "ko": "호텔 숙박",
+            "es": "Estadía en el hotel"
+          },
+          "objectives": {
+            "en": ["Check into a hotel in India", "Ask about hotel facilities"]
+          },
+          "vocabulary": [
+            {
+              "word": "होटल",
+              "romanization": "hotel",
+              "meanings": { "en": "hotel", "zh": "酒店", "th": "โรงแรม", "ko": "호텔", "es": "hotel" }
+            },
+            {
+              "word": "कमरा",
+              "romanization": "kamraa",
+              "meanings": { "en": "room", "zh": "房间", "th": "ห้อง", "ko": "방", "es": "habitación" }
+            },
+            {
+              "word": "चाबी",
+              "romanization": "chaabee",
+              "meanings": { "en": "key", "zh": "钥匙", "th": "กุญแจ", "ko": "열쇠", "es": "llave" }
+            },
+            {
+              "word": "बुकिंग",
+              "romanization": "buking",
+              "meanings": { "en": "booking / reservation", "zh": "预订", "th": "การจอง", "ko": "예약", "es": "reserva" }
+            },
+            {
+              "word": "सुविधाएँ",
+              "romanization": "suvidhaen",
+              "meanings": { "en": "facilities / amenities", "zh": "设施/便利设施", "th": "สิ่งอำนวยความสะดวก", "ko": "시설/편의 시설", "es": "instalaciones/comodidades" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'room' in Hindi?" },
+              "answer": "कमरा",
+              "choices": ["कमरा", "चाबी", "होटल", "बुकिंग"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'चाबी' (chaabee) mean?" },
+              "answer": "key",
+              "choices": ["key", "room", "hotel", "booking"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "होटल", "native": "hotel" },
+                { "target": "कमरा", "native": "room" },
+                { "target": "चाबी", "native": "key" },
+                { "target": "बुकिंग", "native": "reservation" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I have a room reservation.'" },
+              "words": ["कमरे", "की", "बुकिंग", "है", "मेरी"],
+              "answer": "मेरी कमरे की बुकिंग है"
+            }
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": {
+            "en": "Sightseeing in India",
+            "zh": "印度观光",
+            "th": "การท่องเที่ยวในอินเดีย",
+            "ko": "인도 관광하기",
+            "es": "Turismo en India"
+          },
+          "objectives": {
+            "en": ["Talk about Indian tourist attractions", "Plan sightseeing activities"]
+          },
+          "vocabulary": [
+            {
+              "word": "मंदिर",
+              "romanization": "mandir",
+              "meanings": { "en": "temple", "zh": "寺庙", "th": "วัด/เทวสถาน", "ko": "사원/사찰", "es": "templo" }
+            },
+            {
+              "word": "किला",
+              "romanization": "kilaa",
+              "meanings": { "en": "fort / castle", "zh": "堡垒/城堡", "th": "ป้อมปราการ/ปราสาท", "ko": "요새/성", "es": "fuerte/castillo" }
+            },
+            {
+              "word": "पर्यटक",
+              "romanization": "paryatak",
+              "meanings": { "en": "tourist", "zh": "游客", "th": "นักท่องเที่ยว", "ko": "관광객", "es": "turista" }
+            },
+            {
+              "word": "फ़ोटो",
+              "romanization": "photo",
+              "meanings": { "en": "photo", "zh": "照片", "th": "รูปถ่าย", "ko": "사진", "es": "foto" }
+            },
+            {
+              "word": "नक्शा",
+              "romanization": "naksaa",
+              "meanings": { "en": "map", "zh": "地图", "th": "แผนที่", "ko": "지도", "es": "mapa" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'temple' in Hindi?" },
+              "answer": "मंदिर",
+              "choices": ["मंदिर", "किला", "फ़ोटो", "नक्शा"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What is 'किला' (kilaa)?" },
+              "answer": "fort",
+              "choices": ["fort", "temple", "map", "tourist"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "मंदिर", "native": "temple" },
+                { "target": "किला", "native": "fort" },
+                { "target": "पर्यटक", "native": "tourist" },
+                { "target": "नक्शा", "native": "map" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I want to visit the fort.'" },
+              "words": ["किला", "देखना", "चाहता", "हूँ", "मैं"],
+              "answer": "मैं किला देखना चाहता हूँ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": {
+        "en": "Travel Planning",
+        "zh": "旅行计划",
+        "th": "การวางแผนการเดินทาง",
+        "ko": "여행 계획",
+        "es": "Planificación del viaje"
+      },
+      "lessons": [
+        {
+          "id": "3.1",
+          "title": {
+            "en": "Planning a Trip",
+            "zh": "计划旅行",
+            "th": "การวางแผนทริป",
+            "ko": "여행 계획 세우기",
+            "es": "Planear un viaje"
+          },
+          "objectives": {
+            "en": ["Discuss travel plans in Hindi", "Talk about destinations"]
+          },
+          "vocabulary": [
+            {
+              "word": "यात्रा",
+              "romanization": "yatraa",
+              "meanings": { "en": "journey / travel / trip", "zh": "旅行/旅途", "th": "การเดินทาง/ทริป", "ko": "여행", "es": "viaje" }
+            },
+            {
+              "word": "गंतव्य",
+              "romanization": "gantavy",
+              "meanings": { "en": "destination", "zh": "目的地", "th": "จุดหมายปลายทาง", "ko": "목적지", "es": "destino" }
+            },
+            {
+              "word": "सूटकेस",
+              "romanization": "sootkees",
+              "meanings": { "en": "suitcase", "zh": "行李箱", "th": "กระเป๋าเดินทาง", "ko": "여행 가방", "es": "maleta" }
+            },
+            {
+              "word": "वीज़ा",
+              "romanization": "veezaa",
+              "meanings": { "en": "visa", "zh": "签证", "th": "วีซ่า", "ko": "비자", "es": "visa" }
+            },
+            {
+              "word": "बीमा",
+              "romanization": "beemaa",
+              "meanings": { "en": "insurance", "zh": "保险", "th": "ประกัน", "ko": "보험", "es": "seguro" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'journey' in Hindi?" },
+              "answer": "यात्रा",
+              "choices": ["यात्रा", "गंतव्य", "वीज़ा", "बीमा"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'वीज़ा' (veezaa) mean?" },
+              "answer": "visa",
+              "choices": ["visa", "journey", "destination", "insurance"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "यात्रा", "native": "journey" },
+                { "target": "गंतव्य", "native": "destination" },
+                { "target": "सूटकेस", "native": "suitcase" },
+                { "target": "वीज़ा", "native": "visa" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'My next trip is to Goa.'" },
+              "words": ["अगली", "यात्रा", "गोवा", "की", "है", "मेरी"],
+              "answer": "मेरी अगली यात्रा गोवा की है"
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": {
+            "en": "At the Border / Immigration",
+            "zh": "边境/入境",
+            "th": "ที่ด่านตรวจคนเข้าเมือง",
+            "ko": "출입국 심사",
+            "es": "En la frontera / Inmigración"
+          },
+          "objectives": {
+            "en": ["Answer immigration questions in Hindi"]
+          },
+          "vocabulary": [
+            {
+              "word": "कस्टम्स",
+              "romanization": "kastams",
+              "meanings": { "en": "customs", "zh": "海关", "th": "ศุลกากร", "ko": "세관", "es": "aduana" }
+            },
+            {
+              "word": "घोषणा",
+              "romanization": "ghoshanaa",
+              "meanings": { "en": "declaration", "zh": "申报", "th": "การแจ้ง/คำประกาศ", "ko": "신고", "es": "declaración" }
+            },
+            {
+              "word": "राष्ट्रीयता",
+              "romanization": "raashtriyataa",
+              "meanings": { "en": "nationality", "zh": "国籍", "th": "สัญชาติ", "ko": "국적", "es": "nacionalidad" }
+            },
+            {
+              "word": "ठहरने की अवधि",
+              "romanization": "thaharne kee avadhi",
+              "meanings": { "en": "length of stay", "zh": "停留时间", "th": "ระยะเวลาพัก", "ko": "체류 기간", "es": "duración de la estadía" }
+            },
+            {
+              "word": "आगमन",
+              "romanization": "aagaman",
+              "meanings": { "en": "arrival", "zh": "到达", "th": "การมาถึง", "ko": "도착", "es": "llegada" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'nationality' in Hindi?" },
+              "answer": "राष्ट्रीयता",
+              "choices": ["राष्ट्रीयता", "कस्टम्स", "घोषणा", "आगमन"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'आगमन' (aagaman) mean?" },
+              "answer": "arrival",
+              "choices": ["arrival", "departure", "customs", "declaration"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "कस्टम्स", "native": "customs" },
+                { "target": "घोषणा", "native": "declaration" },
+                { "target": "राष्ट्रीयता", "native": "nationality" },
+                { "target": "आगमन", "native": "arrival" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I am here for tourism.'" },
+              "words": ["पर्यटन", "के", "लिए", "यहाँ", "हूँ", "मैं"],
+              "answer": "मैं पर्यटन के लिए यहाँ हूँ"
+            }
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": {
+            "en": "Emergencies While Traveling",
+            "zh": "旅行中的紧急情况",
+            "th": "เหตุฉุกเฉินระหว่างเดินทาง",
+            "ko": "여행 중 긴급 상황",
+            "es": "Emergencias durante el viaje"
+          },
+          "objectives": {
+            "en": ["Handle travel emergencies in Hindi", "Ask for help"]
+          },
+          "vocabulary": [
+            {
+              "word": "मदद",
+              "romanization": "madad",
+              "meanings": { "en": "help", "zh": "帮助", "th": "ความช่วยเหลือ", "ko": "도움", "es": "ayuda" }
+            },
+            {
+              "word": "खो गया",
+              "romanization": "kho gayaa",
+              "meanings": { "en": "got lost", "zh": "迷路了", "th": "หายไป/หลงทาง", "ko": "길을 잃었다", "es": "se perdió" }
+            },
+            {
+              "word": "चोरी",
+              "romanization": "choree",
+              "meanings": { "en": "theft / robbery", "zh": "偷盗/抢劫", "th": "การโจรกรรม", "ko": "절도/강도", "es": "robo" }
+            },
+            {
+              "word": "दूतावास",
+              "romanization": "dootaavaas",
+              "meanings": { "en": "embassy", "zh": "大使馆", "th": "สถานทูต", "ko": "대사관", "es": "embajada" }
+            },
+            {
+              "word": "अस्पताल",
+              "romanization": "aspataal",
+              "meanings": { "en": "hospital", "zh": "医院", "th": "โรงพยาบาล", "ko": "병원", "es": "hospital" }
+            }
+          ],
+          "exercises": [
+            {
+              "type": "native_to_target",
+              "prompt": { "en": "How do you say 'help' in Hindi?" },
+              "answer": "मदद",
+              "choices": ["मदद", "चोरी", "दूतावास", "अस्पताल"]
+            },
+            {
+              "type": "target_to_native",
+              "prompt": { "en": "What does 'दूतावास' (dootaavaas) mean?" },
+              "answer": "embassy",
+              "choices": ["embassy", "hospital", "help", "theft"]
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                { "target": "मदद", "native": "help" },
+                { "target": "खो गया", "native": "got lost" },
+                { "target": "दूतावास", "native": "embassy" },
+                { "target": "अस्पताल", "native": "hospital" }
+              ]
+            },
+            {
+              "type": "reorder",
+              "prompt": { "en": "Rearrange: 'I need help, I got lost.'" },
+              "words": ["मदद", "चाहिए", "मैं", "खो", "गया", "हूँ", "मुझे"],
+              "answer": "मुझे मदद चाहिए मैं खो गया हूँ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
