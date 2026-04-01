@@ -79,23 +79,6 @@ export default function AuthPage() {
           </div>
         ) : (
           <>
-            {/* Terms agreement */}
-            <label className="flex items-start gap-3 mb-6 cursor-pointer select-none">
-              <input
-                type="checkbox"
-                checked={agreed}
-                onChange={(e) => setAgreed(e.target.checked)}
-                className="mt-1 w-4 h-4 shrink-0"
-                style={{ accentColor: 'var(--green)' }}
-              />
-              <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                I agree to the{' '}
-                <a href="/terms" className="underline" style={{ color: 'var(--text)' }}>Terms of Service</a>
-                {' '}and{' '}
-                <a href="/privacy" className="underline" style={{ color: 'var(--text)' }}>Privacy Policy</a>
-              </span>
-            </label>
-
             <p className="text-center text-xs mb-6" style={{ color: 'var(--text-muted)' }}>
               🧪 Beta — built by AI agents. Things might break.
             </p>
@@ -164,6 +147,23 @@ export default function AuthPage() {
             <p className="text-center mt-8 text-sm" style={{ color: 'var(--text-muted)' }}>
               Free forever. No credit card. No catch.
             </p>
+
+            {/* Terms agreement — bottom */}
+            <label className="flex items-center justify-center gap-2 mt-4 cursor-pointer select-none">
+              <input
+                type="checkbox"
+                checked={agreed}
+                onChange={(e) => setAgreed(e.target.checked)}
+                className="w-3 h-3 shrink-0"
+                style={{ accentColor: 'var(--green)' }}
+              />
+              <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                I agree to the{' '}
+                <a href="/terms" className="underline" style={{ color: 'var(--text-muted)' }}>Terms</a>
+                {' '}and{' '}
+                <a href="/privacy" className="underline" style={{ color: 'var(--text-muted)' }}>Privacy Policy</a>
+              </span>
+            </label>
           </>
         )}
       </motion.div>
