@@ -28,7 +28,7 @@ Your AI tutor talks back, corrects you gently, adapts to your level, and remembe
 - 📱 **PWA** — install on your phone, no app store
 - 🔒 **100% private** (local) — Ollama, local-only, your data never leaves
 - ☁️ **Cloud sync** (hosted) — Google auth, cross-device progress sync via Supabase
-- 💾 **Progress sync** — SQLite backup + recovery codes
+- 💾 **Progress sync** — localStorage (local) or Supabase cloud sync (hosted)
 - 🆓 **Free forever** — no subscription, no paywall, no catch
 
 ---
@@ -99,7 +99,7 @@ Ollama (local LLM — fully private)
 | Backend (hosted) | Browser-native — no server needed |
 | Speech (local) | Whisper via Python API |
 | Speech (hosted) | Web Speech API (browser-native, Chrome/Safari) |
-| Storage (local) | localStorage + SQLite |
+| Storage (local) | localStorage (browser) |
 | Storage (hosted) | localStorage + Supabase cloud sync |
 
 ---
