@@ -240,6 +240,7 @@ export default function CoursePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.35, ease: 'easeOut' }}
             className="card mb-6 flex items-center gap-4"
+            style={{ opacity: isHostedMode() ? 0.5 : 1 }}
           >
             {/* Avatar */}
             <div
@@ -260,9 +261,14 @@ export default function CoursePage() {
                     {config.tutor.nameNative}
                   </span>
                 )}
+                {isHostedMode() && (
+                  <span className="ml-2 text-xs px-2 py-0.5 rounded-full" style={{ background: 'var(--surface2)', color: 'var(--text-muted)', border: '1px solid var(--border)' }}>
+                    Coming soon
+                  </span>
+                )}
               </p>
               <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                {t('completeUnitToUnlock', nativeLang)}
+                {isHostedMode() ? 'AI conversation — bring your own API key' : t('completeUnitToUnlock', nativeLang)}
               </p>
             </div>
           </motion.div>

@@ -151,6 +151,8 @@ function OnboardingContent() {
     || selectedConfig?.gender?.required === true
     || (!selectedConfig && false) // no config = skip gender step
   const effectiveSteps = needsGender ? 4 : 3
+  // Total visual steps always includes all possible steps for progress bar
+  const totalSteps = 4
 
   function goNext() {
     setDirection(1)
@@ -280,7 +282,7 @@ function OnboardingContent() {
       <div className="w-full max-w-[480px] mb-8">
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
-            {t('stepOf', nativeLangCode || 'en', { current: step + 1, total: effectiveSteps })}
+            {t('stepOf', nativeLangCode || 'en', { current: step + 1, total: totalSteps })}
           </span>
           {step > 0 && (
             <button onClick={goBack} className="text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
@@ -289,7 +291,7 @@ function OnboardingContent() {
           )}
         </div>
         <div className="flex gap-2">
-          {Array.from({ length: effectiveSteps }).map((_, i) => (
+          {Array.from({ length: totalSteps }).map((_, i) => (
             <div
               key={i}
               style={{
