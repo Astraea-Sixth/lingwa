@@ -57,14 +57,34 @@ docker compose --profile setup run ollama-pull
 docker compose up
 ```
 
-### Access on Your Phone
+### Access on Your Phone (Self-hosted)
 
 ```bash
 # Cloudflare Tunnel (free, works from anywhere)
 cloudflared tunnel --url http://localhost:3004
 ```
 
-Progress syncs to the server automatically — even if the tunnel URL changes, enter your recovery code (⚙️ Settings) and you're back.
+Open the tunnel URL on your phone and follow the PWA install steps below.
+
+---
+
+## 📱 Install as an App (PWA)
+
+Lingwa works as a native-feeling app on your phone — no App Store required.
+
+**iOS (Safari):**
+1. Open [lingwa.world](https://lingwa.world) in Safari
+2. Tap the Share button **□↑** at the bottom
+3. Scroll down and tap **"Add to Home Screen"**
+4. Tap **"Add"**
+
+**Android (Chrome):**
+1. Open [lingwa.world](https://lingwa.world) in Chrome
+2. Tap the menu **⋮** in the top right
+3. Tap **"Add to Home Screen"** or **"Install App"**
+4. Tap **"Install"**
+
+The Lingwa icon will appear on your home screen. It opens full-screen, works offline for lessons you've already loaded, and feels just like a native app.
 
 ---
 
