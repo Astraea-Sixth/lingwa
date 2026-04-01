@@ -55,6 +55,13 @@ const translations: Record<string, Record<string, string>> = {
     somethingWrong: 'Something went wrong — try again',
     practice: 'Practice: {title}',
 
+    // Pronunciation scoring (hosted mode — Web Speech API)
+    pronunciationPerfect: 'Perfect! Great pronunciation!',
+    pronunciationGood: 'Good job! Almost there — try again for a perfect score.',
+    pronunciationClose: 'Keep practicing — listen and try to match the sound.',
+    pronunciationTryAgain: "I couldn't quite catch that — try speaking a bit more clearly.",
+    speechNotSupported: 'Please use Chrome or Safari for pronunciation practice.',
+
     // LessonTeach
     lessonVocabulary: 'Lesson vocabulary',
     noVocabulary: 'No vocabulary for this lesson yet.',

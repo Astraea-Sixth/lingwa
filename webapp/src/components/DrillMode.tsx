@@ -6,6 +6,9 @@ import { speakText } from '@/lib/tts'
 import { resolveMeaning, getGender, getNativeLang, type Gender } from '@/lib/resolve'
 import { t } from '@/lib/i18n'
 import { AudioRecorder } from '@/lib/audioRecorder'
+import { isHostedMode } from '@/lib/supabase'
+import { recognizeSpeech, isSpeechRecognitionSupported } from '@/lib/speechRecognition'
+import { scorePronunciation } from '@/lib/pronunciationScore'
 
 // ─── Types ───
 
@@ -131,17 +134,73 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
   // ─── Recording toggle ───
 
+  const hosted = isHostedMode()
+
   async function toggleRecording() {
-    if (isRecording) {
+    if (hosted) {
+      await handleHostedRecording()
+    } else if (isRecording) {
       await stopRecording()
     } else {
       await startRecording()
     }
   }
 
+  // ─── Hosted mode: Web Speech API (no server needed) ───
+
+  async function handleHostedRecording() {
+    if (!isSpeechRecognitionSupported()) {
+      setFeedback(t('speechNotSupported', nativeLang))
+      return
+    }
+
+    setIsRecording(true)
+    setFeedback('')
+    setStars(0)
+
+    try {
+      const transcript = await recognizeSpeech(lang, 8000)
+
+      if (!mountedRef.current) return
+
+      setIsRecording(false)
+      setIsProcessing(true)
+
+      const result = scorePronunciation(transcript, displayWord, nativeLang)
+
+      if (!mountedRef.current) return
+
+      setStars(result.stars)
+      setFeedback(result.feedback)
+      setAttempts(prev => prev + 1)
+      setIsProcessing(false)
+
+      if (result.feedback) {
+        speakText(result.feedback, nativeLang)
+      }
+
+      if (result.stars >= 3) {
+        masteredRef.current += 1
+        setShowSuccess(true)
+        setTimeout(() => {
+          if (!mountedRef.current) return
+          setShowSuccess(false)
+          advanceToNext()
+        }, 1500)
+      }
+    } catch {
+      if (mountedRef.current) {
+        setIsRecording(false)
+        setFeedback(t('somethingWrong', nativeLang))
+        setIsProcessing(false)
+      }
+    }
+  }
+
+  // ─── Local mode: AudioRecorder → Python API ───
+
   async function startRecording() {
     try {
-      // Clean up previous audio URL
       if (audioUrlRef.current) {
         URL.revokeObjectURL(audioUrlRef.current)
         audioUrlRef.current = null
@@ -179,7 +238,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     }
   }
 
-  // ─── Evaluation ───
+  // ─── Local mode evaluation (Python API) ───
 
   async function evaluateAudio(blob: Blob) {
     const formData = new FormData()
@@ -189,7 +248,6 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     formData.append('gender', getGender(lang))
     formData.append('native_lang', getNativeLang())
 
-    // Read level from profile
     let level = 'A1'
     try {
       const raw = localStorage.getItem('lingwa_profile')
@@ -223,12 +281,10 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
       setAttempts(prev => prev + 1)
       setIsProcessing(false)
 
-      // Speak feedback in native language
       if (result.feedback) {
         speakText(result.feedback, nativeLang)
       }
 
-      // Auto-advance on perfect score
       if (result.stars >= 3) {
         masteredRef.current += 1
         setShowSuccess(true)
@@ -447,8 +503,8 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                 </p>
               )}
 
-              {/* Hear yourself button */}
-              {audioUrl && (
+              {/* Hear yourself button (local mode only — Web Speech API doesn't produce audio) */}
+              {!hosted && audioUrl && (
                 <button
                   onClick={handlePlaySelf}
                   className="flex items-center gap-2 mx-auto px-4 py-2 rounded-xl text-xs font-medium"

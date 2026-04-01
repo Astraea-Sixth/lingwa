@@ -6,6 +6,9 @@ import { speakText as ttsSpeak, stopSpeech } from '@/lib/tts'
 import { AudioRecorder } from '@/lib/audioRecorder'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
+import { isHostedMode } from '@/lib/supabase'
+import { recognizeSpeech, isSpeechRecognitionSupported } from '@/lib/speechRecognition'
+import { scorePronunciation } from '@/lib/pronunciationScore'
 
 interface Message {
   role: 'user' | 'nong'
@@ -116,13 +119,86 @@ export default function VoiceChat({
     }
   }
 
-  // ─── Recording with MediaRecorder ───
+  // ─── Recording ───
+
+  const hosted = isHostedMode()
 
   async function startListening() {
+    if (hosted) {
+      await startListeningHosted()
+    } else {
+      await startListeningLocal()
+    }
+  }
+
+  async function stopListening() {
+    if (hosted) return // hosted mode auto-stops via Web Speech API
+    if (!recorderRef.current?.isRecording) return
+    setIsListening(false)
+    setIsProcessing(true)
+
+    try {
+      const audioBlob = await recorderRef.current.stop()
+      await processAudioLocal(audioBlob)
+    } catch {
+      addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+    } finally {
+      setIsProcessing(false)
+    }
+  }
+
+  // ─── Hosted mode: Web Speech API + local scoring ───
+
+  async function startListeningHosted() {
+    if (!isSpeechRecognitionSupported()) {
+      addMessage({ role: 'nong', content: t('speechNotSupported', nativeLang) })
+      return
+    }
+
+    stopSpeech()
+    setLastScore(null)
+    setIsListening(true)
+
+    try {
+      const transcript = await recognizeSpeech(lang, 10000)
+
+      setIsListening(false)
+      setIsProcessing(true)
+
+      const currentPhrase = keyPhrases[currentPhraseIdx] || keyPhrases[0]
+      const { expectedWord } = getExpectedWordData(currentPhrase)
+
+      addMessage({ role: 'user', content: transcript || '(unclear)' })
+
+      const result = scorePronunciation(transcript, expectedWord, nativeLang)
+      const stars = result.stars
+      setLastScore(stars)
+
+      const nongMsg: Message = {
+        role: 'nong',
+        content: result.feedback || t('tryAgain', nativeLang),
+        isCorrect: stars === 3,
+        stars,
+      }
+      addMessage(nongMsg)
+      speakNongReply(result.feedback || t('tryAgain', nativeLang), lang, nativeLang)
+
+      handleSuccessTracking(stars)
+    } catch {
+      setIsListening(false)
+      addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+    } finally {
+      setIsProcessing(false)
+    }
+  }
+
+  // ─── Local mode: AudioRecorder → Python API ───
+
+  async function startListeningLocal() {
     try {
       stopSpeech()
       setLastScore(null)
-      const recorder = new AudioRecorder(8000) // 8 second max
+      const recorder = new AudioRecorder(8000)
       recorderRef.current = recorder
       await recorder.start()
       setIsListening(true)
@@ -131,30 +207,10 @@ export default function VoiceChat({
     }
   }
 
-  async function stopListening() {
-    if (!recorderRef.current?.isRecording) return
-    setIsListening(false)
-    setIsProcessing(true)
-
-    try {
-      const audioBlob = await recorderRef.current.stop()
-      await processAudio(audioBlob)
-    } catch {
-      addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
-    } finally {
-      setIsProcessing(false)
-    }
-  }
-
-  // ─── Process recorded audio ───
-
-  async function processAudio(blob: Blob) {
+  async function processAudioLocal(blob: Blob) {
     const currentPhrase = keyPhrases[currentPhraseIdx] || keyPhrases[0]
-
-    // Get expected gendered form + tone data from curriculum vocab
     const { expectedWord, toneClass } = getExpectedWordData(currentPhrase)
 
-    // Send audio to backend for full evaluation (STT + tone)
     const formData = new FormData()
     formData.append('audio', blob, 'recording.webm')
     formData.append('expected', expectedWord)
@@ -171,7 +227,6 @@ export default function VoiceChat({
       })
 
       if (!res.ok) {
-        // Fallback: send to chat endpoint for conversational response
         await sendToTutor("(audio couldn't be processed)")
         return
       }
@@ -183,7 +238,6 @@ export default function VoiceChat({
       const audioUrl = URL.createObjectURL(blob)
       addMessage({ role: 'user', content: userTranscript, audioUrl })
 
-      // Show star score
       const stars = result.stars || 1
       setLastScore(stars)
 
@@ -196,46 +250,48 @@ export default function VoiceChat({
       addMessage(nongMsg)
       speakNongReply(result.feedback || t('tryAgain', nativeLang), lang, nativeLang)
 
-      // Track successes
-      if (stars === 3) {
-        const newCount = successCountRef.current + 1
-        setSuccessCount(newCount)
-        successCountRef.current = newCount
-
-        // Move to next phrase
-        if (currentPhraseIdx < keyPhrases.length - 1) {
-          setCurrentPhraseIdx(prev => prev + 1)
-          setTimeout(() => {
-            const nextPhrase = keyPhrases[currentPhraseIdx + 1]
-            if (nextPhrase) {
-              const prompt: Message = {
-                role: 'nong',
-                content: t('greatNowTry', nativeLang, { phrase: nextPhrase }) + ' 🎯',
-              }
-              addMessage(prompt)
-              speakNongReply(prompt.content, lang, nativeLang)
-            }
-          }, 2000)
-        }
-
-        if (newCount >= 3) {
-          // Wait for speech to finish
-          const waitForSpeech = () => {
-            if (window.speechSynthesis.speaking) {
-              setTimeout(waitForSpeech, 500)
-            } else {
-              setTimeout(() => {
-                setLessonComplete(true)
-                onComplete(15)
-              }, 1500)
-            }
-          }
-          setTimeout(waitForSpeech, 1000)
-        }
-      }
+      handleSuccessTracking(stars)
     } catch {
-      // Network error — fall back to conversational mode
       addMessage({ role: 'nong', content: `${t('connectionIssue', nativeLang)} 🙏` })
+    }
+  }
+
+  // ─── Shared success tracking ───
+
+  function handleSuccessTracking(stars: number) {
+    if (stars === 3) {
+      const newCount = successCountRef.current + 1
+      setSuccessCount(newCount)
+      successCountRef.current = newCount
+
+      if (currentPhraseIdx < keyPhrases.length - 1) {
+        setCurrentPhraseIdx(prev => prev + 1)
+        setTimeout(() => {
+          const nextPhrase = keyPhrases[currentPhraseIdx + 1]
+          if (nextPhrase) {
+            const prompt: Message = {
+              role: 'nong',
+              content: t('greatNowTry', nativeLang, { phrase: nextPhrase }) + ' 🎯',
+            }
+            addMessage(prompt)
+            speakNongReply(prompt.content, lang, nativeLang)
+          }
+        }, 2000)
+      }
+
+      if (newCount >= 3) {
+        const waitForSpeech = () => {
+          if (window.speechSynthesis.speaking) {
+            setTimeout(waitForSpeech, 500)
+          } else {
+            setTimeout(() => {
+              setLessonComplete(true)
+              onComplete(15)
+            }, 1500)
+          }
+        }
+        setTimeout(waitForSpeech, 1000)
+      }
     }
   }
 
