@@ -16,13 +16,27 @@
   "script": "bengali",
   "rtl": false,
   "tonal": false,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "shipped_with": "v2",
-  "contributors": ["astraea"],
+  "contributors": [
+    "astraea"
+  ],
   "samplePhrases": [
-    {"bn": "শুভ সকাল", "en": "Good morning"},
-    {"bn": "ধন্যবাদ", "en": "Thank you"},
-    {"bn": "আপনি কেমন আছেন?", "en": "How are you?"}
+    {
+      "bn": "শুভ সকাল",
+      "en": "Good morning"
+    },
+    {
+      "bn": "ধন্যবাদ",
+      "en": "Thank you"
+    },
+    {
+      "bn": "আপনি কেমন আছেন?",
+      "en": "How are you?"
+    }
   ],
   "notes": "Bengali (Bangla) is written in the Bengali script, an abugida derived from ancient Brahmi. It is the official language of Bangladesh and the state of West Bengal in India. Grammar includes verb conjugations that agree with person and formality level, and nouns are classified by animacy.",
   "ui": {
@@ -138,6 +152,15 @@
     "tapWordsBuild": "বাক্য তৈরি করতে শব্দে ট্যাপ করো",
     "check": "যাচাই করো",
     "correctOrder": "সঠিক ক্রম:",
-    "hearCorrectSentence": "সঠিক বাক্যটি শোনো"
+    "hearCorrectSentence": "সঠিক বাক্যটি শোনো",
+    "pronunciationPerfect": "দারুণ! চমৎকার উচ্চারণ!",
+    "pronunciationGood": "ভালো হয়েছে! প্রায় নিখুঁত — পূর্ণ স্কোরের জন্য আবার চেষ্টা করো।",
+    "pronunciationClose": "অনুশীলন চালিয়ে যাও — শোনো এবং শব্দটি অনুকরণ করার চেষ্টা করো।",
+    "pronunciationTryAgain": "ঠিকমতো শোনা যায়নি — একটু স্পষ্ট করে বলার চেষ্টা করো।",
+    "speechNotSupported": "ভয়েস রিকগনিশনের জন্য Chrome বা Safari দরকার। lingwa.world এই ব্রাউজারে খোলো।",
+    "speechPermissionDenied": "মাইক্রোফোন অ্যাক্সেস ব্লক করা হয়েছে। ব্রাউজার সেটিংসে মাইক্রোফোন অনুমতি দাও।",
+    "speechNoInput": "কোনো কথা শোনা যায়নি — মাইক ট্যাপ করো এবং কাছে গিয়ে বলো।",
+    "speechNetworkError": "ভয়েস রিকগনিশনের জন্য ইন্টারনেট দরকার। নেটওয়ার্ক চেক করো।",
+    "speechBrowserHint": "Chrome ও Safari-এ কাজ করে"
   }
 }

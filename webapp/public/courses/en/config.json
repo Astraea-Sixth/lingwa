@@ -2,13 +2,16 @@
   "code": "en",
   "name": "English",
   "nativeName": "English",
-  "flag": "\ud83c\uddfa\ud83c\uddf8",
+  "flag": "🇺🇸",
   "difficulty": "medium",
   "tonal": false,
   "hasScript": true,
   "scriptName": "Latin",
   "rtl": false,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "tutor": {
     "name": "Sam",
     "nameNative": "Sam",
@@ -131,6 +134,15 @@
     "tapWordsBuild": "Tap words to build the sentence",
     "check": "Check",
     "correctOrder": "Correct order:",
-    "hearCorrectSentence": "Hear the correct sentence"
+    "hearCorrectSentence": "Hear the correct sentence",
+    "pronunciationPerfect": "Perfect! Great pronunciation!",
+    "pronunciationGood": "Good job! Almost there — try again for a perfect score.",
+    "pronunciationClose": "Keep practicing — listen and try to match the sound.",
+    "pronunciationTryAgain": "I couldn't quite catch that — try speaking a bit more clearly.",
+    "speechNotSupported": "Speech recognition requires Chrome or Safari. Please open lingwa.world in one of those browsers.",
+    "speechPermissionDenied": "Microphone access was blocked. Please allow microphone in your browser settings.",
+    "speechNoInput": "No speech detected — tap the mic and try speaking closer to it.",
+    "speechNetworkError": "Speech recognition needs an internet connection. Please check your network.",
+    "speechBrowserHint": "Works on Chrome & Safari"
   }
 }

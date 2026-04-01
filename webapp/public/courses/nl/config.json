@@ -16,13 +16,27 @@
   "script": "latin",
   "rtl": false,
   "tonal": false,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "shipped_with": "v2",
-  "contributors": ["astraea"],
+  "contributors": [
+    "astraea"
+  ],
   "samplePhrases": [
-    {"nl": "Hallo", "en": "Hello"},
-    {"nl": "Dank je wel", "en": "Thank you"},
-    {"nl": "Hoe gaat het?", "en": "How are you?"}
+    {
+      "nl": "Hallo",
+      "en": "Hello"
+    },
+    {
+      "nl": "Dank je wel",
+      "en": "Thank you"
+    },
+    {
+      "nl": "Hoe gaat het?",
+      "en": "How are you?"
+    }
   ],
   "notes": "Dutch uses the Latin alphabet and shares many similarities with both English and German. It features two grammatical genders, separable verbs, and a verb-second word order in main clauses.",
   "ui": {
@@ -138,6 +152,15 @@
     "tapWordsBuild": "Tik op woorden om de zin te maken",
     "check": "Controleer",
     "correctOrder": "Juiste volgorde:",
-    "hearCorrectSentence": "Luister naar de juiste zin"
+    "hearCorrectSentence": "Luister naar de juiste zin",
+    "pronunciationPerfect": "Perfect! Geweldige uitspraak!",
+    "pronunciationGood": "Goed gedaan! Bijna perfect — probeer het nog eens voor de volle score.",
+    "pronunciationClose": "Blijf oefenen — luister en probeer het geluid na te doen.",
+    "pronunciationTryAgain": "Ik kon je niet goed verstaan — probeer iets duidelijker te spreken.",
+    "speechNotSupported": "Spraakherkenning vereist Chrome of Safari. Open lingwa.world in een van deze browsers.",
+    "speechPermissionDenied": "Microfoontoegang is geblokkeerd. Sta de microfoon toe in de browserinstellingen.",
+    "speechNoInput": "Geen spraak gedetecteerd — tik op de microfoon en spreek er dichterbij.",
+    "speechNetworkError": "Spraakherkenning heeft een internetverbinding nodig. Controleer je netwerk.",
+    "speechBrowserHint": "Werkt op Chrome en Safari"
   }
 }

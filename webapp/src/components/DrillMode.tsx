@@ -62,6 +62,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
   const recorderRef = useRef<AudioRecorder | null>(null)
   const audioUrlRef = useRef<string | null>(null)
   const mountedRef = useRef(true)
+  const recognitionActiveRef = useRef(false)
 
   // Track mastered words for XP calculation
   const masteredRef = useRef(0)
@@ -138,6 +139,9 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
   async function toggleRecording() {
     if (hosted) {
+      // In hosted mode, recognition is one-shot (tap to start, auto-completes).
+      // If already active, ignore the tap — Web Speech API handles its own lifecycle.
+      if (recognitionActiveRef.current) return
       await handleHostedRecording()
     } else if (isRecording) {
       await stopRecording()
@@ -154,6 +158,14 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
       return
     }
 
+    // Stop any ongoing TTS so the mic doesn't pick it up
+    if (typeof window !== 'undefined' && window.speechSynthesis?.speaking) {
+      window.speechSynthesis.cancel()
+      // Small delay to let the audio stop before recognition starts
+      await new Promise(r => setTimeout(r, 200))
+    }
+
+    recognitionActiveRef.current = true
     setIsRecording(true)
     setFeedback('')
     setStars(0)
@@ -166,7 +178,10 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
       setIsRecording(false)
       setIsProcessing(true)
 
-      const result = scorePronunciation(transcript, displayWord, nativeLang)
+      // Read currentIdx at evaluation time to get the correct word after advance
+      const currentItem = vocabulary[currentIdx]
+      const currentWord = currentItem ? resolveDisplayWord(currentItem, gender) : displayWord
+      const result = scorePronunciation(transcript, currentWord, nativeLang)
 
       if (!mountedRef.current) return
 
@@ -205,6 +220,8 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           setFeedback(t('somethingWrong', nativeLang))
         }
       }
+    } finally {
+      recognitionActiveRef.current = false
     }
   }
 

@@ -16,13 +16,27 @@
   "script": "latin",
   "rtl": false,
   "tonal": false,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "shipped_with": "v2",
-  "contributors": ["astraea"],
+  "contributors": [
+    "astraea"
+  ],
   "samplePhrases": [
-    {"ms": "Selamat pagi", "en": "Good morning"},
-    {"ms": "Terima kasih", "en": "Thank you"},
-    {"ms": "Apa khabar?", "en": "How are you?"}
+    {
+      "ms": "Selamat pagi",
+      "en": "Good morning"
+    },
+    {
+      "ms": "Terima kasih",
+      "en": "Thank you"
+    },
+    {
+      "ms": "Apa khabar?",
+      "en": "How are you?"
+    }
   ],
   "notes": "Malay uses the Latin alphabet and has a relatively simple grammar with no verb conjugations, no grammatical gender, and no tones. Word formation relies heavily on affixation and reduplication.",
   "ui": {
@@ -138,6 +152,15 @@
     "tapWordsBuild": "Ketuk perkataan untuk bina ayat",
     "check": "Semak",
     "correctOrder": "Susunan betul:",
-    "hearCorrectSentence": "Dengar ayat yang betul"
+    "hearCorrectSentence": "Dengar ayat yang betul",
+    "pronunciationPerfect": "Sempurna! Sebutan yang bagus!",
+    "pronunciationGood": "Bagus! Hampir sempurna — cuba lagi untuk skor penuh.",
+    "pronunciationClose": "Teruskan berlatih — dengar dan cuba tiru bunyinya.",
+    "pronunciationTryAgain": "Tidak jelas — cuba bercakap dengan lebih jelas.",
+    "speechNotSupported": "Pengecaman suara memerlukan Chrome atau Safari. Buka lingwa.world di pelayar tersebut.",
+    "speechPermissionDenied": "Akses mikrofon disekat. Benarkan mikrofon dalam tetapan pelayar.",
+    "speechNoInput": "Tiada suara dikesan — ketik mikrofon dan bercakap lebih dekat.",
+    "speechNetworkError": "Pengecaman suara memerlukan sambungan internet. Semak rangkaian anda.",
+    "speechBrowserHint": "Berfungsi di Chrome dan Safari"
   }
 }

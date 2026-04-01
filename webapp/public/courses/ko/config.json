@@ -19,13 +19,32 @@
   "genderedSpeech": false,
   "genderNotes": "Korean uses politeness levels (존댓말/반말) rather than gendered speech. Formality matters more than gender.",
   "samplePhrases": [
-    {"ko": "안녕하세요", "rom": "annyeonghaseyo", "en": "Hello (polite)"},
-    {"ko": "감사합니다", "rom": "gamsahamnida", "en": "Thank you (formal)"},
-    {"ko": "죄송합니다", "rom": "joesonghamnida", "en": "I'm sorry (formal)"},
-    {"ko": "네", "rom": "ne", "en": "Yes"}
+    {
+      "ko": "안녕하세요",
+      "rom": "annyeonghaseyo",
+      "en": "Hello (polite)"
+    },
+    {
+      "ko": "감사합니다",
+      "rom": "gamsahamnida",
+      "en": "Thank you (formal)"
+    },
+    {
+      "ko": "죄송합니다",
+      "rom": "joesonghamnida",
+      "en": "I'm sorry (formal)"
+    },
+    {
+      "ko": "네",
+      "rom": "ne",
+      "en": "Yes"
+    }
   ],
   "notes": "Hangul is a scientific alphabet invented in 1443 by King Sejong. Each block represents a syllable composed of consonants and vowels. Learnable in a few hours.",
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "ui": {
     "sayThis": "이렇게 말해 보세요:",
     "tapToSpeak": "탭하여 말하기",
@@ -139,6 +158,15 @@
     "tapWordsBuild": "단어를 탭하여 문장을 만드세요",
     "check": "확인",
     "correctOrder": "올바른 순서:",
-    "hearCorrectSentence": "올바른 문장 듣기"
+    "hearCorrectSentence": "올바른 문장 듣기",
+    "pronunciationPerfect": "완벽해요! 발음이 아주 좋아요!",
+    "pronunciationGood": "잘했어요! 거의 완벽해요 — 다시 한번 도전해 보세요.",
+    "pronunciationClose": "계속 연습하세요 — 듣고 소리를 따라해 보세요.",
+    "pronunciationTryAgain": "잘 들리지 않았어요 — 좀 더 또렷하게 말해 보세요.",
+    "speechNotSupported": "음성 인식은 Chrome 또는 Safari가 필요합니다. lingwa.world을 해당 브라우저에서 열어주세요.",
+    "speechPermissionDenied": "마이크 접근이 차단되었습니다. 브라우저 설정에서 마이크를 허용해 주세요.",
+    "speechNoInput": "음성이 감지되지 않았습니다 — 마이크를 탭하고 가까이 대고 말해 보세요.",
+    "speechNetworkError": "음성 인식에 인터넷 연결이 필요합니다. 네트워크를 확인해 주세요.",
+    "speechBrowserHint": "Chrome 및 Safari 지원"
   }
 }

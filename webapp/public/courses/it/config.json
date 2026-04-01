@@ -16,13 +16,27 @@
   "script": "latin",
   "rtl": false,
   "tonal": false,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "shipped_with": "v2",
-  "contributors": ["astraea"],
+  "contributors": [
+    "astraea"
+  ],
   "samplePhrases": [
-    {"it": "Ciao", "en": "Hello"},
-    {"it": "Grazie", "en": "Thank you"},
-    {"it": "Come stai?", "en": "How are you?"}
+    {
+      "it": "Ciao",
+      "en": "Hello"
+    },
+    {
+      "it": "Grazie",
+      "en": "Thank you"
+    },
+    {
+      "it": "Come stai?",
+      "en": "How are you?"
+    }
   ],
   "notes": "Italian uses the Latin alphabet and is known for its musical quality and clear pronunciation rules. It features gendered nouns, verb conjugations, and a formal/informal distinction in address.",
   "ui": {
@@ -138,6 +152,15 @@
     "tapWordsBuild": "Tocca le parole per costruire la frase",
     "check": "Controlla",
     "correctOrder": "Ordine corretto:",
-    "hearCorrectSentence": "Ascolta la frase corretta"
+    "hearCorrectSentence": "Ascolta la frase corretta",
+    "pronunciationPerfect": "Perfetto! Ottima pronuncia!",
+    "pronunciationGood": "Bravo! Quasi perfetto — riprova per il punteggio pieno.",
+    "pronunciationClose": "Continua a esercitarti — ascolta e prova a imitare il suono.",
+    "pronunciationTryAgain": "Non ho capito bene — prova a parlare un po' più chiaramente.",
+    "speechNotSupported": "Il riconoscimento vocale richiede Chrome o Safari. Apri lingwa.world in uno di questi browser.",
+    "speechPermissionDenied": "L'accesso al microfono è stato bloccato. Consenti il microfono nelle impostazioni del browser.",
+    "speechNoInput": "Nessuna voce rilevata — tocca il microfono e parla più vicino.",
+    "speechNetworkError": "Il riconoscimento vocale richiede una connessione internet. Controlla la tua rete.",
+    "speechBrowserHint": "Funziona su Chrome e Safari"
   }
 }

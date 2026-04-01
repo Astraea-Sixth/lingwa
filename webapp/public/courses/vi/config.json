@@ -10,19 +10,40 @@
   "ttsVoice": "vi-VN",
   "hasScript": false,
   "tones": 6,
-  "toneNames": ["level", "falling", "rising", "dipping-rising", "creaky rising", "heavy"],
+  "toneNames": [
+    "level",
+    "falling",
+    "rising",
+    "dipping-rising",
+    "creaky rising",
+    "heavy"
+  ],
   "difficulty": "hard",
   "flag": "🇻🇳",
   "script": "latin",
   "rtl": false,
   "tonal": true,
-  "cefr_available": ["A1", "A2"],
+  "cefr_available": [
+    "A1",
+    "A2"
+  ],
   "shipped_with": "v2",
-  "contributors": ["astraea"],
+  "contributors": [
+    "astraea"
+  ],
   "samplePhrases": [
-    {"vi": "Xin chào", "en": "Hello"},
-    {"vi": "Cảm ơn", "en": "Thank you"},
-    {"vi": "Bạn khỏe không?", "en": "How are you?"}
+    {
+      "vi": "Xin chào",
+      "en": "Hello"
+    },
+    {
+      "vi": "Cảm ơn",
+      "en": "Thank you"
+    },
+    {
+      "vi": "Bạn khỏe không?",
+      "en": "How are you?"
+    }
   ],
   "notes": "Vietnamese uses the Latin alphabet with additional diacritics to indicate tones and modified vowels. It has 6 tones that distinguish word meaning, and is an analytic language with no inflection.",
   "ui": {
@@ -138,6 +159,15 @@
     "tapWordsBuild": "Nhấn vào từ để ghép thành câu",
     "check": "Kiểm tra",
     "correctOrder": "Thứ tự đúng:",
-    "hearCorrectSentence": "Nghe câu đúng"
+    "hearCorrectSentence": "Nghe câu đúng",
+    "pronunciationPerfect": "Hoàn hảo! Phát âm tuyệt vời!",
+    "pronunciationGood": "Tốt lắm! Gần hoàn hảo — thử lại để đạt điểm tối đa.",
+    "pronunciationClose": "Tiếp tục luyện tập — nghe và cố gắng bắt chước âm thanh.",
+    "pronunciationTryAgain": "Chưa nghe rõ — hãy thử nói rõ ràng hơn một chút.",
+    "speechNotSupported": "Nhận diện giọng nói cần Chrome hoặc Safari. Hãy mở lingwa.world trên trình duyệt đó.",
+    "speechPermissionDenied": "Quyền truy cập micro bị chặn. Hãy cho phép micro trong cài đặt trình duyệt.",
+    "speechNoInput": "Không phát hiện giọng nói — chạm vào micro và nói gần hơn.",
+    "speechNetworkError": "Nhận diện giọng nói cần kết nối internet. Hãy kiểm tra mạng của bạn.",
+    "speechBrowserHint": "Hoạt động trên Chrome và Safari"
   }
 }
