@@ -3,6 +3,22 @@
  * Loads course JSON from /courses/ static files instead of Python API.
  */
 
+/**
+ * Load the list of available language codes from the manifest.
+ * No hardcoded language arrays needed — adding a language only requires
+ * updating manifest.json and adding the course files.
+ */
+export async function loadLanguageCodes(): Promise<string[]> {
+  try {
+    const res = await fetch('/courses/manifest.json')
+    if (!res.ok) return []
+    const data = await res.json()
+    return data.languages || []
+  } catch {
+    return []
+  }
+}
+
 export async function loadStaticConfig(lang: string) {
   const res = await fetch(`/courses/${lang}/config.json`)
   if (!res.ok) return null

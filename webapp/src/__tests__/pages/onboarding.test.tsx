@@ -27,6 +27,7 @@ import OnboardingPage from '@/app/onboarding/page'
 const mockCourses = [
   { language: 'th', languageName: 'Thai', flag: '🇹🇭', level: 'A1', path: 'languages/th/courses/a1.json' },
   { language: 'es', languageName: 'Spanish', flag: '🇪🇸', level: 'A1', path: 'languages/es/courses/a1.json' },
+  { language: 'en', languageName: 'English', flag: '🇬🇧', level: 'A1', path: 'languages/en/courses/a1.json' },
 ]
 
 const mockCourseData = {
@@ -35,11 +36,10 @@ const mockCourseData = {
   units: [{ id: 'u1', title: 'Basics', lessons: [] }],
 }
 
-const mockLangConfig = {
-  code: 'th',
-  name: 'Thai',
-  nativeName: 'ภาษาไทย',
-  tutor: { name: 'Nong' },
+const mockLangConfigs: Record<string, any> = {
+  th: { code: 'th', name: 'Thai', nativeName: 'ภาษาไทย', flag: '🇹🇭', tutor: { name: 'Nong' }, genderRelevant: true },
+  es: { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸', tutor: { name: 'Carlos' }, genderRelevant: true },
+  en: { code: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧', tutor: { name: 'Sam' } },
 }
 
 function mockFetchSuccess() {
@@ -51,7 +51,16 @@ function mockFetchSuccess() {
       return Promise.resolve({ ok: true, json: () => Promise.resolve(mockCourseData) })
     }
     if (url.includes('/api/languages/th/config')) {
-      return Promise.resolve({ ok: true, json: () => Promise.resolve(mockLangConfig) })
+      return Promise.resolve({ ok: true, json: () => Promise.resolve(mockLangConfigs.th) })
+    }
+    // Static config requests (for translation registration)
+    const configMatch = url.match(/\/courses\/(\w+)\/config\.json/)
+    if (configMatch) {
+      const lang = configMatch[1]
+      if (mockLangConfigs[lang]) {
+        return Promise.resolve({ ok: true, json: () => Promise.resolve(mockLangConfigs[lang]) })
+      }
+      return Promise.resolve({ ok: false, status: 404 })
     }
     return Promise.resolve({ ok: false, status: 404 })
   }) as jest.Mock
@@ -94,12 +103,11 @@ describe('OnboardingPage', () => {
     jest.restoreAllMocks()
   })
 
-  test('TC-FE-057: Step 0 shows native language options', async () => {
+  test('TC-FE-057: Step 0 shows native language options from available courses', async () => {
     await renderAndWait()
+    // Step 0 now shows same languages as courses (via nativeName from config)
     expect(screen.getByText('English')).toBeInTheDocument()
-    expect(screen.getByText('中文')).toBeInTheDocument()
     expect(screen.getByText('ภาษาไทย')).toBeInTheDocument()
-    expect(screen.getByText('한국어')).toBeInTheDocument()
     expect(screen.getByText('Español')).toBeInTheDocument()
   })
 

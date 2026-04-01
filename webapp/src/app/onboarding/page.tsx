@@ -3,10 +3,10 @@
 import { useState, useEffect, Suspense } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { t } from '@/lib/i18n'
+import { t, registerFromConfig } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
-import { loadStaticConfig, loadStaticCurriculum } from '@/lib/staticCourses'
+import { loadStaticConfig, loadStaticCurriculum, loadLanguageCodes } from '@/lib/staticCourses'
 
 // ─────────────────────────────────────────────
 // Types
@@ -33,14 +33,6 @@ interface AvailableCourse {
 // Data
 // ─────────────────────────────────────────────
 
-const NATIVE_LANGS = [
-  { code: 'en', label: 'English', flag: '🇬🇧' },
-  { code: 'zh', label: '中文', flag: '🇨🇳' },
-  { code: 'th', label: 'ภาษาไทย', flag: '🇹🇭' },
-  { code: 'ko', label: '한국어', flag: '🇰🇷' },
-  { code: 'es', label: 'Español', flag: '🇪🇸' },
-]
-
 const LEVELS = [
   { value: 'A1', label: 'Complete beginner', desc: 'I know zero words' },
   { value: 'A2', label: 'Know a few basics', desc: 'Can say hello and numbers' },
@@ -50,12 +42,6 @@ const GENDERS = [
   { value: 'male', emoji: '🙋‍♂️', label: 'Male' },
   { value: 'female', emoji: '🙋‍♀️', label: 'Female' },
   { value: 'both', emoji: '👐', label: 'Show me both' },
-]
-
-// All known language codes for hosted mode static loading
-const STATIC_LANG_CODES = [
-  'th', 'ko', 'es', 'zh', 'en', 'de', 'fr', 'ja', 'pt',
-  'hi', 'ar', 'ru', 'vi', 'it', 'tr', 'pl', 'nl', 'ms', 'id', 'bn',
 ]
 
 // ─────────────────────────────────────────────
@@ -74,6 +60,8 @@ function OnboardingContent() {
   // Step 0: Native language
   const [nativeLangCode, setNativeLangCode] = useState('')
   const [nativeLangName, setNativeLangName] = useState('')
+  // Config cache for nativeName lookup
+  const [configMap, setConfigMap] = useState<Record<string, any>>({})
 
   // Step 1: Target language (from available courses)
   const [selectedLang, setSelectedLang] = useState('')
@@ -91,13 +79,18 @@ function OnboardingContent() {
     async function loadCourses() {
       try {
         if (isHostedMode()) {
-          // Hosted mode: load from static config files
+          // Hosted mode: load from manifest + static config files
+          const langCodes = await loadLanguageCodes()
           const configs = await Promise.all(
-            STATIC_LANG_CODES.map(code => loadStaticConfig(code))
+            langCodes.map(code => loadStaticConfig(code))
           )
           const courseList: AvailableCourse[] = []
+          const cfgMap: Record<string, any> = {}
           for (const config of configs) {
             if (!config) continue
+            // Register UI translations from each config
+            registerFromConfig(config)
+            cfgMap[config.code] = config
             const levels = config.cefr_available || ['A1']
             for (const lvl of levels) {
               courseList.push({
@@ -110,11 +103,23 @@ function OnboardingContent() {
             }
           }
           setCourses(courseList)
+          setConfigMap(cfgMap)
         } else {
           // Local mode: use Python API
           const res = await fetch('/api/courses')
           const data: AvailableCourse[] = await res.json()
           setCourses(data)
+          // Also load configs for translation registration and native name display
+          const langCodes = Array.from(new Set(data.map((c: AvailableCourse) => c.language)))
+          const configs = await Promise.all(langCodes.map(code => loadStaticConfig(code)))
+          const cfgMap: Record<string, any> = {}
+          for (const config of configs) {
+            if (config) {
+              registerFromConfig(config)
+              cfgMap[config.code] = config
+            }
+          }
+          setConfigMap(cfgMap)
         }
         setLoading(false)
       } catch {
@@ -140,7 +145,11 @@ function OnboardingContent() {
   )
 
   // Check if selected language has gendered speech (needs gender step)
-  const needsGender = ['th', 'ja', 'fr', 'de', 'pt', 'es'].includes(selectedLang)
+  // Derived from config's genderRelevant field, or fallback to known gendered languages
+  const selectedConfig = configMap[selectedLang]
+  const needsGender = selectedConfig?.genderRelevant === true
+    || selectedConfig?.gender?.required === true
+    || (!selectedConfig && false) // no config = skip gender step
   const effectiveSteps = needsGender ? 4 : 3
 
   function goNext() {
@@ -321,25 +330,25 @@ function OnboardingContent() {
                   {t('pickNativeLang', nativeLangCode || 'en')}
                 </p>
 
-                <div className="flex flex-col gap-3">
-                  {NATIVE_LANGS.map(nl => (
+                <div className="grid grid-cols-2 gap-3">
+                  {availableLanguages.map(lang => (
                     <button
-                      key={nl.code}
+                      key={lang.code}
                       onClick={() => {
-                        setNativeLangCode(nl.code)
-                        setNativeLangName(nl.label)
+                        setNativeLangCode(lang.code)
+                        setNativeLangName(lang.name)
                       }}
-                      className="w-full flex items-center gap-4 px-4 py-4 rounded-2xl border-2 transition-all text-left"
+                      className="flex items-center gap-3 p-4 rounded-2xl border-2 transition-all text-left"
                       style={{
-                        background: nativeLangCode === nl.code ? 'rgba(88,204,2,0.1)' : 'var(--surface)',
-                        borderColor: nativeLangCode === nl.code ? 'var(--green)' : 'var(--border)',
+                        background: nativeLangCode === lang.code ? 'rgba(88,204,2,0.1)' : 'var(--surface)',
+                        borderColor: nativeLangCode === lang.code ? 'var(--green)' : 'var(--border)',
                       }}
                     >
-                      <span className="text-3xl">{nl.flag}</span>
-                      <span className="font-bold text-base">{nl.label}</span>
-                      {nativeLangCode === nl.code && (
+                      <span className="text-3xl">{lang.flag}</span>
+                      <span className="font-bold text-sm">{configMap[lang.code]?.nativeName || lang.name}</span>
+                      {nativeLangCode === lang.code && (
                         <div
-                          className="ml-auto w-6 h-6 rounded-full flex items-center justify-center"
+                          className="ml-auto w-6 h-6 rounded-full flex items-center justify-center shrink-0"
                           style={{ background: 'var(--green)' }}
                         >
                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none">

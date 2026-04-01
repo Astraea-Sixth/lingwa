@@ -1,15 +1,37 @@
 /**
  * Lingwa — Internationalization (i18n)
  *
- * Simple key-based translation system.
- * All UI strings resolve to the user's native language.
+ * Translation system that loads UI strings from each language's config.json.
+ * Falls back to built-in translations, then English.
  *
  * Usage:
- *   import { t } from '@/lib/i18n'
+ *   import { t, registerTranslations } from '@/lib/i18n'
  *   const nativeLang = getNativeLang()  // from resolve.ts
  *   t('sayThis', nativeLang)            // → "说这个："
  */
 
+// Dynamic translations loaded from config.json ui fields at runtime
+const dynamicTranslations: Record<string, Record<string, string>> = {}
+
+/**
+ * Register UI translations from a language config's "ui" field.
+ * Call this after loading a config.json that has a "ui" object.
+ */
+export function registerTranslations(lang: string, ui: Record<string, string>) {
+  dynamicTranslations[lang] = ui
+}
+
+/**
+ * Load and register UI translations from a config object.
+ * Safe to call with any config — ignores if no "ui" field.
+ */
+export function registerFromConfig(config: { code: string; ui?: Record<string, string> } | null) {
+  if (config?.ui) {
+    dynamicTranslations[config.code] = config.ui
+  }
+}
+
+// Built-in fallback translations (English + original 4 languages)
 const translations: Record<string, Record<string, string>> = {
   // ─── English (default fallback) ───
   en: {
@@ -713,8 +735,12 @@ export function t(
   nativeLang: string = 'en',
   vars?: Record<string, string | number>,
 ): string {
-  const dict = translations[nativeLang] || translations.en
-  let text = dict[key] || translations.en[key] || key
+  // Check dynamic translations first (from config.json ui), then built-in, then English
+  const dynDict = dynamicTranslations[nativeLang]
+  const builtinDict = translations[nativeLang]
+  const enDyn = dynamicTranslations.en
+  const enBuiltin = translations.en
+  let text = dynDict?.[key] || builtinDict?.[key] || enDyn?.[key] || enBuiltin?.[key] || key
 
   if (vars) {
     for (const [k, v] of Object.entries(vars)) {
@@ -727,10 +753,12 @@ export function t(
 
 /**
  * Get all available UI languages (for native language picker).
+ * Includes both built-in and dynamically registered languages.
  */
 export function getAvailableUILanguages(): Array<{ code: string; label: string }> {
-  return Object.keys(translations).map(code => ({
+  const allCodes = new Set([...Object.keys(translations), ...Object.keys(dynamicTranslations)])
+  return Array.from(allCodes).map(code => ({
     code,
-    label: translations[code]?.startLearning ? code : code,
+    label: code,
   }))
 }

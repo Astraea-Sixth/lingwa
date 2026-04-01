@@ -8,7 +8,8 @@ import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
 import { getSession, getUser } from '@/lib/auth'
 import { loadFromCloud } from '@/lib/cloudProgress'
-import { loadStaticConfig } from '@/lib/staticCourses'
+import { loadStaticConfig, loadLanguageCodes } from '@/lib/staticCourses'
+import { registerFromConfig } from '@/lib/i18n'
 
 interface UserProfile {
   targetLang: string
@@ -31,10 +32,6 @@ const LANG_FLAGS: Record<string, string> = {
   hi: '🇮🇳', tr: '🇹🇷', pl: '🇵🇱', nl: '🇳🇱', bn: '🇧🇩',
 }
 
-const HOSTED_LANG_CODES = [
-  'th', 'ko', 'es', 'zh', 'en', 'de', 'fr', 'ja', 'pt',
-  'hi', 'ar', 'ru', 'vi', 'it', 'tr', 'pl', 'nl', 'ms', 'id', 'bn',
-]
 
 export default function HomePage() {
   const router = useRouter()
@@ -63,13 +60,14 @@ export default function HomePage() {
       }
       // Load available languages for hosted mode
       if (isHostedMode()) {
+        const langCodes = await loadLanguageCodes()
         const configs = await Promise.all(
-          HOSTED_LANG_CODES.map(code => loadStaticConfig(code))
+          langCodes.map(code => loadStaticConfig(code))
         )
+        const validConfigs = configs.filter(Boolean)
+        for (const c of validConfigs) registerFromConfig(c)
         setAvailableLangs(
-          configs
-            .filter(Boolean)
-            .map((c: any) => ({ code: c.code, name: c.name, flag: c.flag }))
+          validConfigs.map((c: any) => ({ code: c.code, name: c.name, flag: c.flag }))
         )
       }
 
