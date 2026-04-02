@@ -119,7 +119,7 @@ print_ok "npm packages installed"
 
 # Copy env example if .env.local doesn't exist
 if [ ! -f .env.local ]; then
-  cp .env.example .env.local 2>/dev/null || echo "API_BASE_URL=http://localhost:5005" > .env.local
+  cp .env.example .env.local 2>/dev/null || echo "API_BASE_URL=http://localhost:5003" > .env.local
 fi
 cd ..
 
