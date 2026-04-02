@@ -55,7 +55,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
   const [isProcessing, setIsProcessing] = useState(false)
   const [feedback, setFeedback] = useState('')
   const [audioUrl, setAudioUrl] = useState<string | null>(null)
-  const [showSuccess, setShowSuccess] = useState(false)
+  const [showCompletion, setShowCompletion] = useState(false)
   const [gender, setGender] = useState<Gender>('both')
   const [nativeLang, setNativeLang] = useState('en')
 
@@ -110,6 +110,49 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
         >
           Continue
+        </motion.button>
+      </div>
+    )
+  }
+
+  if (showCompletion) {
+    const totalXp = masteredRef.current * 5
+    return (
+      <div
+        className="flex flex-col min-h-screen max-w-[480px] mx-auto px-4 py-6 items-center justify-center text-center"
+        style={{ background: "var(--bg)" }}
+      >
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", stiffness: 200, damping: 15 }}
+          className="text-7xl mb-6"
+        >
+          ✅
+        </motion.div>
+        <h1 className="text-3xl font-black mb-4">{t("drillComplete", nativeLang)}</h1>
+        <p className="text-xl mb-2" style={{ color: "var(--text-muted)" }}>
+          {t("wordsMastered", nativeLang, {
+            mastered: masteredRef.current,
+            total: vocabulary.length,
+          })}
+        </p>
+        <p
+          className="text-2xl font-bold mb-8"
+          style={{ color: "var(--green)" }}
+        >
+          {t("xpEarned", nativeLang, { xp: totalXp })}
+        </p>
+        <motion.button
+          whileTap={{ scale: 0.97 }}
+          onClick={() => onComplete(totalXp)}
+          className="px-10 py-4 rounded-2xl font-bold text-white text-lg"
+          style={{
+            background: "var(--green)",
+            boxShadow: "0 4px 0 var(--green-dark)",
+          }}
+        >
+          {t("done", nativeLang)}
         </motion.button>
       </div>
     )
@@ -196,12 +239,6 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
       if (result.stars >= 3) {
         masteredRef.current += 1
-        setShowSuccess(true)
-        setTimeout(() => {
-          if (!mountedRef.current) return
-          setShowSuccess(false)
-          advanceToNext()
-        }, 1500)
       }
     } catch (err) {
       if (mountedRef.current) {
@@ -315,12 +352,6 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
       if (result.stars >= 3) {
         masteredRef.current += 1
-        setShowSuccess(true)
-        setTimeout(() => {
-          if (!mountedRef.current) return
-          setShowSuccess(false)
-          advanceToNext()
-        }, 1500)
       }
     } catch {
       if (mountedRef.current) {
@@ -340,8 +371,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     }
 
     if (currentIdx + 1 >= vocabulary.length) {
-      // All words drilled
-      onComplete(masteredRef.current * 5)
+      setShowCompletion(true)
       return
     }
 
@@ -451,7 +481,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           </motion.button>
 
           {/* Mic button */}
-          {!isProcessing && !showSuccess && (
+          {!isProcessing && (
             <motion.button
               whileTap={{ scale: 0.92 }}
               onClick={toggleRecording}
@@ -470,14 +500,14 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           )}
 
           {/* Mic label */}
-          {!isProcessing && !showSuccess && (
+          {!isProcessing && (
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {isRecording ? t('tapToStop', nativeLang) : t('tapToSpeak', nativeLang)}
             </p>
           )}
 
           {/* Browser compatibility hint (hosted mode only) */}
-          {hosted && !isProcessing && !showSuccess && !isRecording && (
+          {hosted && !isProcessing && !isRecording && (
             <p className="text-xs" style={{ color: 'var(--text-muted)', opacity: 0.5 }}>
               {t('speechBrowserHint', nativeLang)}
             </p>
@@ -502,24 +532,8 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
             </motion.div>
           )}
 
-          {/* Success checkmark (brief) */}
-          {showSuccess && (
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              className="flex flex-col items-center mb-4"
-            >
-              <div
-                className="w-20 h-20 rounded-full flex items-center justify-center text-4xl mb-2"
-                style={{ background: 'rgba(88,204,2,0.15)', border: '3px solid var(--green)' }}
-              >
-                ✓
-              </div>
-            </motion.div>
-          )}
-
           {/* Results */}
-          {stars > 0 && !showSuccess && (
+          {stars > 0 && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -548,11 +562,25 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                   🔊 Hear yourself
                 </button>
               )}
+
+              {stars >= 3 && (
+                <motion.button
+                  whileTap={{ scale: 0.97 }}
+                  onClick={advanceToNext}
+                  className="mt-3 px-8 py-3 rounded-2xl font-bold text-white text-lg w-full"
+                  style={{
+                    background: "var(--green)",
+                    boxShadow: "0 4px 0 var(--green-dark)",
+                  }}
+                >
+                  {t("drillNext", nativeLang)}
+                </motion.button>
+              )}
             </motion.div>
           )}
 
           {/* Try again button (only when stars < 3 and we have a result) */}
-          {stars > 0 && stars < 3 && !showSuccess && (
+          {stars > 0 && stars < 3 && (
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={handleTryAgain}

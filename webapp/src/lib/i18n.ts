@@ -66,6 +66,13 @@ const translations: Record<string, Record<string, string>> = {
     speechNetworkError: 'Speech recognition needs an internet connection. Please check your network.',
     speechBrowserHint: 'Works on Chrome & Safari',
 
+    // DrillMode
+    drillNext: 'Next',
+    drillComplete: 'Drill Complete!',
+    wordsMastered: '{mastered} / {total} words mastered',
+    xpEarned: '+{xp} XP',
+    done: 'Done',
+
     // LessonTeach
     lessonVocabulary: 'Lesson vocabulary',
     noVocabulary: 'No vocabulary for this lesson yet.',
@@ -203,6 +210,13 @@ const translations: Record<string, Record<string, string>> = {
     micError: '无法访问麦克风，请检查浏览器权限',
     somethingWrong: '出了点问题——再试一次',
     practice: '练习：{title}',
+
+    // DrillMode
+    drillNext: '下一个',
+    drillComplete: '练习完成！',
+    wordsMastered: '{mastered} / {total} 个词已掌握',
+    xpEarned: '+{xp} XP',
+    done: '完成',
 
     // LessonTeach
     lessonVocabulary: '课程词汇',
@@ -342,6 +356,13 @@ const translations: Record<string, Record<string, string>> = {
     somethingWrong: 'Algo salió mal — intenta de nuevo',
     practice: 'Práctica: {title}',
 
+    // DrillMode
+    drillNext: 'Siguiente',
+    drillComplete: '¡Práctica completa!',
+    wordsMastered: '{mastered} / {total} palabras dominadas',
+    xpEarned: '+{xp} XP',
+    done: 'Listo',
+
     // LessonTeach
     lessonVocabulary: 'Vocabulario de la lección',
     noVocabulary: 'Aún no hay vocabulario para esta lección.',
@@ -480,6 +501,13 @@ const translations: Record<string, Record<string, string>> = {
     somethingWrong: 'มีบางอย่างผิดพลาด — ลองอีกครั้ง',
     practice: 'ฝึก: {title}',
 
+    // DrillMode
+    drillNext: 'ถัดไป',
+    drillComplete: 'ฝึกครบแล้ว!',
+    wordsMastered: '{mastered} / {total} คำที่เชี่ยวชาญ',
+    xpEarned: '+{xp} XP',
+    done: 'เสร็จ',
+
     // LessonTeach
     lessonVocabulary: 'คำศัพท์ในบทเรียน',
     noVocabulary: 'ยังไม่มีคำศัพท์สำหรับบทเรียนนี้',
@@ -617,6 +645,13 @@ const translations: Record<string, Record<string, string>> = {
     micError: '마이크에 접근할 수 없어요. 브라우저 권한을 확인해 주세요',
     somethingWrong: '문제가 발생했어요 — 다시 시도해 주세요',
     practice: '연습: {title}',
+
+    // DrillMode
+    drillNext: '다음',
+    drillComplete: '연습 완료!',
+    wordsMastered: '{mastered} / {total}개 단어 마스터',
+    xpEarned: '+{xp} XP',
+    done: '완료',
 
     // LessonTeach
     lessonVocabulary: '수업 어휘',
