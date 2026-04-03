@@ -57,31 +57,3 @@ export async function loadFromCloud(userId: string): Promise<boolean> {
   }
   return true
 }
-
-// ─── API keys ────────────────────────────────
-
-export interface ApiKeys {
-  anthropic?: string
-  openai?: string
-  google?: string
-  groq?: string
-}
-
-export async function saveApiKeys(userId: string, keys: ApiKeys): Promise<void> {
-  if (!supabase) return
-  await supabase.from('api_keys').upsert({
-    user_id: userId,
-    keys,
-    updated_at: new Date().toISOString(),
-  })
-}
-
-export async function loadApiKeys(userId: string): Promise<ApiKeys> {
-  if (!supabase) return {}
-  const { data } = await supabase
-    .from('api_keys')
-    .select('keys')
-    .eq('user_id', userId)
-    .single()
-  return (data?.keys as ApiKeys) ?? {}
-}

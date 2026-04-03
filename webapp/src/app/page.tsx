@@ -265,7 +265,7 @@ export default function HomePage() {
             <div className="space-y-3">
               {(hostedMode ? [
                 { emoji: '🎯', text: 'Curated courses — start learning in 5 seconds' },
-                { emoji: '💬', text: 'AI conversation practice (bring your own API key)' },
+                { emoji: '💬', text: 'AI conversation practice after every unit' },
                 { emoji: '📱', text: 'Free forever — no credit card, no catch' },
               ] : [
                 { emoji: '🎯', text: t('featureCurated', nativeLang) },

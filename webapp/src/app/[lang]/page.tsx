@@ -276,7 +276,7 @@ export default function CoursePage() {
                 )}
               </p>
               <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                {isHostedMode() ? 'AI conversation — bring your own API key' : t('completeUnitToUnlock', nativeLang)}
+                {t('completeUnitToUnlock', nativeLang)}
               </p>
             </div>
           </motion.div>

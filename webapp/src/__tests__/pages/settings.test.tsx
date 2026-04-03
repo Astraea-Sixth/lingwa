@@ -17,10 +17,6 @@ jest.mock('@/lib/auth', () => ({
   signOut: jest.fn().mockResolvedValue(undefined),
 }))
 
-jest.mock('@/lib/cloudProgress', () => ({
-  loadApiKeys: jest.fn().mockResolvedValue({ anthropic: 'sk-ant-xxx' }),
-}))
-
 jest.mock('next/navigation', () => ({
   useRouter: () => ({
     push: jest.fn(),
@@ -55,13 +51,6 @@ describe('Settings Page — Hosted Mode', () => {
     })
   })
 
-  test('shows AI Provider status', async () => {
-    await act(async () => { render(<SettingsPage />) })
-    await waitFor(() => {
-      expect(screen.getByText('Anthropic')).toBeInTheDocument()
-    })
-  })
-
   test('shows Send Feedback link', async () => {
     await act(async () => { render(<SettingsPage />) })
     await waitFor(() => {
@@ -76,12 +65,6 @@ describe('Settings Page — Hosted Mode', () => {
     })
   })
 
-  test('shows AI Provider Keys link', async () => {
-    await act(async () => { render(<SettingsPage />) })
-    await waitFor(() => {
-      expect(screen.getByText('AI Provider Keys')).toBeInTheDocument()
-    })
-  })
 })
 
 describe('Settings Page — Local Mode', () => {

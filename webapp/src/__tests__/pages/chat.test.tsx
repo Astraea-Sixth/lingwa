@@ -17,11 +17,6 @@ jest.mock('@/lib/auth', () => ({
   getUser: jest.fn().mockResolvedValue(null),
 }))
 
-jest.mock('@/lib/cloudProgress', () => ({
-  loadApiKeys: jest.fn().mockResolvedValue({}),
-  saveApiKeys: jest.fn(),
-}))
-
 jest.mock('@/lib/progress', () => ({
   getLanguageProgress: jest.fn().mockReturnValue(null),
 }))

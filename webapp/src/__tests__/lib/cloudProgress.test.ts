@@ -1,6 +1,6 @@
 /**
  * Cloud Progress Tests
- * Covers: syncToCloud, loadFromCloud, saveApiKeys, loadApiKeys
+ * Covers: syncToCloud, loadFromCloud
  */
 
 const mockUpsert = jest.fn()
@@ -21,7 +21,7 @@ jest.mock('@/lib/supabase', () => ({
   },
 }))
 
-import { syncToCloud, loadFromCloud, saveApiKeys, loadApiKeys } from '@/lib/cloudProgress'
+import { syncToCloud, loadFromCloud } from '@/lib/cloudProgress'
 
 describe('Cloud Progress', () => {
   beforeEach(() => {

@@ -5,7 +5,6 @@ import { useParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { isHostedMode } from '@/lib/supabase'
 import { getUser, signOut } from '@/lib/auth'
-import { loadApiKeys, type ApiKeys } from '@/lib/cloudProgress'
 
 export default function SettingsPage() {
   const params = useParams()
@@ -13,7 +12,6 @@ export default function SettingsPage() {
   const lang = params.lang as string
 
   const [email, setEmail] = useState<string | null>(null)
-  const [provider, setProvider] = useState<string>('none')
   const hosted = isHostedMode()
 
   useEffect(() => {
@@ -21,14 +19,6 @@ export default function SettingsPage() {
     getUser().then(user => {
       if (user) {
         setEmail(user.email ?? null)
-        // Determine active AI provider
-        loadApiKeys(user.id).then(keys => {
-          if (keys.anthropic) setProvider('Anthropic')
-          else if (keys.openai) setProvider('OpenAI')
-          else if (keys.google) setProvider('Google AI')
-          else if (keys.groq) setProvider('Groq')
-          else setProvider('none')
-        })
       }
     })
   }, [hosted])
@@ -70,15 +60,6 @@ export default function SettingsPage() {
                 <span className="text-sm">Email</span>
                 <span className="text-sm font-mono" style={{ color: 'var(--text-muted)' }}>{email}</span>
               </div>
-              <div className="flex items-center justify-between">
-                <span className="text-sm">AI Provider</span>
-                <span
-                  className="text-sm font-semibold"
-                  style={{ color: provider === 'none' ? 'var(--red)' : 'var(--green)' }}
-                >
-                  {provider === 'none' ? 'Not configured' : provider}
-                </span>
-              </div>
             </div>
           )}
 
@@ -88,24 +69,14 @@ export default function SettingsPage() {
             style={{ background: 'var(--surface)', border: '2px solid var(--border)' }}
           >
             {hosted && (
-              <>
-                <button
-                  onClick={() => router.push(`/${lang}/chat`)}
-                  className="w-full px-5 py-4 text-left text-sm font-semibold flex items-center justify-between hover:brightness-110 transition-all"
-                  style={{ borderBottom: '1px solid var(--border)' }}
-                >
-                  <span>AI Provider Keys</span>
-                  <span style={{ color: 'var(--text-muted)' }}>→</span>
-                </button>
-                <button
-                  onClick={() => router.push('/feedback')}
-                  className="w-full px-5 py-4 text-left text-sm font-semibold flex items-center justify-between hover:brightness-110 transition-all"
-                  style={{ borderBottom: '1px solid var(--border)' }}
-                >
-                  <span>Send Feedback</span>
-                  <span style={{ color: 'var(--text-muted)' }}>→</span>
-                </button>
-              </>
+              <button
+                onClick={() => router.push('/feedback')}
+                className="w-full px-5 py-4 text-left text-sm font-semibold flex items-center justify-between hover:brightness-110 transition-all"
+                style={{ borderBottom: '1px solid var(--border)' }}
+              >
+                <span>Send Feedback</span>
+                <span style={{ color: 'var(--text-muted)' }}>→</span>
+              </button>
             )}
             <button
               onClick={() => router.push('/')}
