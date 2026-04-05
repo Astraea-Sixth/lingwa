@@ -187,6 +187,23 @@ const translations: Record<string, Record<string, string>> = {
     check: 'Check',
     correctOrder: 'Correct order:',
     hearCorrectSentence: 'Hear the correct sentence',
+
+    // Review (SRS)
+    reviewTitle: 'Review',
+    reviewSubtitle: 'How well did you remember?',
+    reviewButton: 'Review',
+    dueWordCount: '{count} words to review',
+    forgotLabel: 'Forgot',
+    hardLabel: 'Hard',
+    goodLabel: 'Good',
+    easyLabel: 'Easy',
+    reviewSessionComplete: 'Review Complete!',
+    wordsReviewed: 'Words reviewed',
+    wordsMasteredReview: 'Mastered',
+    wordsNeedPractice: 'Need practice',
+    retentionRate: 'Retention rate',
+    reviewStreak: 'Review streak',
+    noWordsToReview: 'No words to review',
   },
 
   // ─── Chinese Simplified ───
@@ -332,6 +349,23 @@ const translations: Record<string, Record<string, string>> = {
     check: '检查',
     correctOrder: '正确顺序：',
     hearCorrectSentence: '听正确的句子',
+
+    // Review (SRS)
+    reviewTitle: '复习',
+    reviewSubtitle: '你记住了多少？',
+    reviewButton: '复习',
+    dueWordCount: '{count}个词需要复习',
+    forgotLabel: '忘了',
+    hardLabel: '困难',
+    goodLabel: '不错',
+    easyLabel: '简单',
+    reviewSessionComplete: '复习完成！',
+    wordsReviewed: '复习词数',
+    wordsMasteredReview: '已掌握',
+    wordsNeedPractice: '需要练习',
+    retentionRate: '记忆率',
+    reviewStreak: '复习连续天数',
+    noWordsToReview: '没有需要复习的词',
   },
 
   // ─── Spanish (Latin American) ───
@@ -477,6 +511,23 @@ const translations: Record<string, Record<string, string>> = {
     check: 'Verificar',
     correctOrder: 'Orden correcto:',
     hearCorrectSentence: 'Escuchar la oración correcta',
+
+    // Review (SRS)
+    reviewTitle: 'Repaso',
+    reviewSubtitle: '¿Qué tan bien lo recordaste?',
+    reviewButton: 'Repasar',
+    dueWordCount: '{count} palabras por repasar',
+    forgotLabel: 'Olvidé',
+    hardLabel: 'Difícil',
+    goodLabel: 'Bien',
+    easyLabel: 'Fácil',
+    reviewSessionComplete: '¡Repaso completo!',
+    wordsReviewed: 'Palabras repasadas',
+    wordsMasteredReview: 'Dominadas',
+    wordsNeedPractice: 'Necesitan práctica',
+    retentionRate: 'Tasa de retención',
+    reviewStreak: 'Racha de repaso',
+    noWordsToReview: 'No hay palabras por repasar',
   },
 
   // ─── Thai (casual natural) ───
@@ -622,6 +673,23 @@ const translations: Record<string, Record<string, string>> = {
     check: 'ตรวจ',
     correctOrder: 'ลำดับที่ถูกต้อง:',
     hearCorrectSentence: 'ฟังประโยคที่ถูกต้อง',
+
+    // Review (SRS)
+    reviewTitle: 'ทบทวน',
+    reviewSubtitle: 'คุณจำได้แค่ไหน?',
+    reviewButton: 'ทบทวน',
+    dueWordCount: '{count} คำต้องทบทวน',
+    forgotLabel: 'ลืม',
+    hardLabel: 'ยาก',
+    goodLabel: 'ดี',
+    easyLabel: 'ง่าย',
+    reviewSessionComplete: 'ทบทวนเสร็จแล้ว!',
+    wordsReviewed: 'คำที่ทบทวน',
+    wordsMasteredReview: 'จำได้',
+    wordsNeedPractice: 'ต้องฝึกเพิ่ม',
+    retentionRate: 'อัตราการจำ',
+    reviewStreak: 'วันทบทวนต่อเนื่อง',
+    noWordsToReview: 'ไม่มีคำต้องทบทวน',
   },
 
   // ─── Korean (polite 존댓말) ───
@@ -767,6 +835,23 @@ const translations: Record<string, Record<string, string>> = {
     check: '확인',
     correctOrder: '올바른 순서:',
     hearCorrectSentence: '올바른 문장 듣기',
+
+    // Review (SRS)
+    reviewTitle: '복습',
+    reviewSubtitle: '얼마나 잘 기억했나요?',
+    reviewButton: '복습',
+    dueWordCount: '{count}개 단어 복습 필요',
+    forgotLabel: '잊었어요',
+    hardLabel: '어려워요',
+    goodLabel: '괜찮아요',
+    easyLabel: '쉬워요',
+    reviewSessionComplete: '복습 완료!',
+    wordsReviewed: '복습한 단어',
+    wordsMasteredReview: '마스터',
+    wordsNeedPractice: '연습 필요',
+    retentionRate: '기억률',
+    reviewStreak: '복습 연속 일수',
+    noWordsToReview: '복습할 단어가 없어요',
   },
 }
 

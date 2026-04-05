@@ -6,6 +6,7 @@
 import { isHostedMode } from './supabase'
 import { getUser } from './auth'
 import { syncToCloud } from './cloudProgress'
+import { type WordRecord, type SRSData, createWordRecord, getDueWords as srsGetDueWords } from './srs'
 
 /** Fire-and-forget cloud sync when in hosted mode */
 function syncIfHosted(lang: string) {
@@ -287,6 +288,50 @@ export function getDueWords(lang: string): VocabWord[] {
 
 export function getTotalWordCount(lang: string): number {
   return Object.keys(getVocabulary(lang)).length
+}
+
+// ─────────────────────────────────────────────
+// SRS Data (Spaced Repetition — Review System)
+// ─────────────────────────────────────────────
+
+const SRS_KEY = (lang: string) => `lingwa:srs:${lang}`
+
+export function loadSRSData(langCode: string): SRSData {
+  if (typeof window === 'undefined') return { words: {} }
+  try {
+    const raw = localStorage.getItem(SRS_KEY(langCode))
+    return raw ? JSON.parse(raw) : { words: {} }
+  } catch {
+    return { words: {} }
+  }
+}
+
+export function saveSRSData(langCode: string, data: SRSData) {
+  if (typeof window === 'undefined') return
+  localStorage.setItem(SRS_KEY(langCode), JSON.stringify(data))
+}
+
+export function getDueWordCount(langCode: string): number {
+  const data = loadSRSData(langCode)
+  return srsGetDueWords(data.words).length
+}
+
+/**
+ * Initialize SRS records for vocabulary from a completed lesson.
+ * Only adds words that don't already exist in SRS data.
+ */
+export function initializeLessonVocab(
+  langCode: string,
+  lessonId: string,
+  words: Array<{ word: string; english: string; romanization?: string; toneClass?: string }>,
+) {
+  const data = loadSRSData(langCode)
+  for (const w of words) {
+    if (!data.words[w.word]) {
+      data.words[w.word] = createWordRecord(w.word, langCode, w.english, w.romanization, w.toneClass)
+    }
+  }
+  saveSRSData(langCode, data)
 }
 
 // ─────────────────────────────────────────────

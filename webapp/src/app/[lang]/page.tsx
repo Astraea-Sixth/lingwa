@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useParams, useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import LessonTree from '@/components/LessonTree'
-import { getLanguageProgress, initProgress } from '@/lib/progress'
+import { getLanguageProgress, initProgress, getDueWordCount } from '@/lib/progress'
 import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
@@ -39,6 +39,7 @@ export default function CoursePage() {
   const [nativeLang, setNativeLang] = useState('en')
   const [progress, setProgress] = useState(getLanguageProgress(lang))
   const [xpToast, setXpToast] = useState<number | null>(null)
+  const [dueCount, setDueCount] = useState(0)
 
   // Level selector
   const [profileLevel, setProfileLevel] = useState('A1')
@@ -63,6 +64,7 @@ export default function CoursePage() {
   useEffect(() => {
     initProgress(lang, level)
     setProgress(getLanguageProgress(lang))
+    setDueCount(getDueWordCount(lang))
 
     async function loadConfig() {
       // In hosted mode, load from static files
@@ -104,7 +106,10 @@ export default function CoursePage() {
 
   // Re-read progress on window focus (after returning from a lesson)
   useEffect(() => {
-    const handleFocus = () => setProgress(getLanguageProgress(lang))
+    const handleFocus = () => {
+      setProgress(getLanguageProgress(lang))
+      setDueCount(getDueWordCount(lang))
+    }
     window.addEventListener('focus', handleFocus)
     return () => window.removeEventListener('focus', handleFocus)
   }, [lang])
@@ -314,6 +319,27 @@ export default function CoursePage() {
             })}
           </div>
         </motion.div>
+
+        {/* Review button — shows when there are words due */}
+        {dueCount > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-6"
+          >
+            <button
+              onClick={() => router.push(`/${lang}/review`)}
+              className="w-full py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-2"
+              style={{
+                background: 'rgba(28,176,246,0.12)',
+                border: '2px solid var(--blue)',
+                color: 'var(--blue)',
+              }}
+            >
+              📚 {t('reviewButton', nativeLang)} · {t('dueWordCount', nativeLang, { count: dueCount })}
+            </button>
+          </motion.div>
+        )}
 
         {/* Lesson Tree */}
         <motion.div

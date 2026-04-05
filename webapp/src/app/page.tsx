@@ -251,7 +251,7 @@ export default function HomePage() {
                 {availableLangs.map(lang => (
                   <div
                     key={lang.code}
-                    className="flex flex-col items-center gap-1 p-2.5 rounded-xl"
+                    className="flex flex-col items-center gap-1 p-2.5 rounded-xl cursor-pointer transition-all duration-200 ease-out hover:scale-105 hover:shadow-lg hover:shadow-black/10 active:scale-[0.97]"
                     style={{ background: 'var(--surface)' }}
                   >
                     <span className="text-xl">{lang.flag}</span>
