@@ -7,7 +7,7 @@ import { t } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
 import { getSession, getUser } from '@/lib/auth'
-import { loadFromCloud } from '@/lib/cloudProgress'
+import { loadFromCloud, clearCloudProgress } from '@/lib/cloudProgress'
 import { loadStaticConfig, loadLanguageCodes } from '@/lib/staticCourses'
 import { registerFromConfig } from '@/lib/i18n'
 
@@ -91,7 +91,7 @@ export default function HomePage() {
     init()
   }, [router])
 
-  function handleReset() {
+  async function handleReset() {
     if (profile) {
       localStorage.removeItem('lingwa_profile')
       localStorage.removeItem(`lingwa_curriculum_${profile.targetLangCode}`)
@@ -99,6 +99,11 @@ export default function HomePage() {
       localStorage.removeItem(`lingwa:progress:${profile.targetLangCode}`)
       localStorage.removeItem(`lingwa:vocab:${profile.targetLangCode}`)
       localStorage.removeItem('lingwa:global')
+      // Clear cloud progress if logged in
+      if (isHostedMode()) {
+        const user = await getUser()
+        if (user) await clearCloudProgress(user.id)
+      }
     }
     setProfile(null)
     setProgress(null)

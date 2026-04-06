@@ -35,6 +35,14 @@ export async function syncToCloud(userId: string): Promise<void> {
 }
 
 /**
+ * Clear all progress from Supabase for this user
+ */
+export async function clearCloudProgress(userId: string): Promise<void> {
+  if (!supabase) return
+  await supabase.from('progress').delete().eq('user_id', userId)
+}
+
+/**
  * Load progress from Supabase into localStorage
  * Returns true if data was loaded
  */
