@@ -95,6 +95,10 @@ export default function HomePage() {
     if (profile) {
       localStorage.removeItem('lingwa_profile')
       localStorage.removeItem(`lingwa_curriculum_${profile.targetLangCode}`)
+      // Clear all progress data for this language
+      localStorage.removeItem(`lingwa:progress:${profile.targetLangCode}`)
+      localStorage.removeItem(`lingwa:vocab:${profile.targetLangCode}`)
+      localStorage.removeItem('lingwa:global')
     }
     setProfile(null)
     setProgress(null)
