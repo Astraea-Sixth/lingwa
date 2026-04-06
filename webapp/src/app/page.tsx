@@ -74,6 +74,8 @@ export default function HomePage() {
       setAuthChecked(true)
       setMounted(true)
       setNativeLang(getNativeLang())
+
+      // Always load native language config so UI strings render in user's language
       const raw = localStorage.getItem('lingwa_profile')
       if (raw) {
         try {
@@ -82,6 +84,12 @@ export default function HomePage() {
           const progRaw = localStorage.getItem(`lingwa:progress:${p.targetLangCode}`)
           if (progRaw) {
             setProgress(JSON.parse(progRaw))
+          }
+          // Load native lang config to register UI translations (e.g. zh user learning th)
+          const nativeLangCode = p.nativeLangCode
+          if (nativeLangCode && nativeLangCode !== 'en') {
+            const nativeConfig = await loadStaticConfig(nativeLangCode)
+            if (nativeConfig) registerFromConfig(nativeConfig)
           }
         } catch {
           // corrupted — ignore

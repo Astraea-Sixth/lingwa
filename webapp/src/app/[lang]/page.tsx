@@ -5,7 +5,7 @@ import { useParams, useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import LessonTree from '@/components/LessonTree'
 import { getLanguageProgress, initProgress, getDueWordCount } from '@/lib/progress'
-import { t } from '@/lib/i18n'
+import { t, registerFromConfig } from '@/lib/i18n'
 import { getNativeLang } from '@/lib/resolve'
 import { isHostedMode } from '@/lib/supabase'
 import { loadStaticConfig } from '@/lib/staticCourses'
@@ -47,7 +47,11 @@ export default function CoursePage() {
   const [skipModal, setSkipModal] = useState<string | null>(null)
 
   useEffect(() => {
-    setNativeLang(getNativeLang())
+    const code = getNativeLang()
+    setNativeLang(code)
+    if (code && code !== 'en') {
+      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
+    }
     // Read profile level
     try {
       const raw = localStorage.getItem('lingwa_profile')

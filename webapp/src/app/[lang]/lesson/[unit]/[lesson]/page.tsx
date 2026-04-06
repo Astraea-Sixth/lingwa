@@ -10,7 +10,8 @@ import UnitComplete from '@/components/UnitComplete'
 import VoiceChat from '@/components/VoiceChat'
 import { completeLesson, getLanguageProgress } from '@/lib/progress'
 import { getGender, getNativeLang, resolveText } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { t, registerFromConfig } from '@/lib/i18n'
+import { loadStaticConfig } from '@/lib/staticCourses'
 
 /**
  * Filter out reorder exercises tagged for the wrong gender.
@@ -92,7 +93,12 @@ export default function LessonPage() {
   const [nativeLang, setNativeLang] = useState('en')
 
   useEffect(() => {
-    setNativeLang(getNativeLang())
+    const code = getNativeLang()
+    setNativeLang(code)
+    // Load native language config to ensure UI strings render in user's language
+    if (code && code !== 'en') {
+      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
+    }
   }, [])
 
   useEffect(() => {

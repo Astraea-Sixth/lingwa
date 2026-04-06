@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import { t } from '@/lib/i18n'
+import { t, registerFromConfig } from '@/lib/i18n'
+import { loadStaticConfig } from '@/lib/staticCourses'
 import { getNativeLang } from '@/lib/resolve'
 import { loadSRSData } from '@/lib/progress'
 import { getDueWords, type WordRecord } from '@/lib/srs'
@@ -19,7 +20,11 @@ export default function ReviewPage() {
   const [nativeLang, setNativeLang] = useState('en')
 
   useEffect(() => {
-    setNativeLang(getNativeLang())
+    const code = getNativeLang()
+    setNativeLang(code)
+    if (code && code !== 'en') {
+      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
+    }
     const srsData = loadSRSData(lang)
     const due = getDueWords(srsData.words)
     const all = Object.values(srsData.words)
