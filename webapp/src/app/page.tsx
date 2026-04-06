@@ -86,7 +86,7 @@ export default function HomePage() {
             setProgress(JSON.parse(progRaw))
           }
           // Load native lang config to register UI translations (e.g. zh user learning th)
-          const nativeLangCode = p.nativeLangCode
+          const nativeLangCode = p.nativeLang
           if (nativeLangCode && nativeLangCode !== 'en') {
             const nativeConfig = await loadStaticConfig(nativeLangCode)
             if (nativeConfig) registerFromConfig(nativeConfig)
