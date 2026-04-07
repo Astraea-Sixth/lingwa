@@ -5,8 +5,7 @@ import { useParams, useSearchParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import LessonTree from '@/components/LessonTree'
 import { getLanguageProgress, initProgress, getDueWordCount } from '@/lib/progress'
-import { t, registerFromConfig } from '@/lib/i18n'
-import { getNativeLang } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { isHostedMode } from '@/lib/supabase'
 import { loadStaticConfig } from '@/lib/staticCourses'
 
@@ -36,7 +35,7 @@ export default function CoursePage() {
   const level = searchParams.get('level') || 'A1'
 
   const [config, setConfig] = useState<LangConfig | null>(null)
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t, nativeLang } = useI18n()
   const [progress, setProgress] = useState(getLanguageProgress(lang))
   const [xpToast, setXpToast] = useState<number | null>(null)
   const [dueCount, setDueCount] = useState(0)
@@ -47,11 +46,6 @@ export default function CoursePage() {
   const [skipModal, setSkipModal] = useState<string | null>(null)
 
   useEffect(() => {
-    const code = getNativeLang()
-    setNativeLang(code)
-    if (code && code !== 'en') {
-      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
-    }
     // Read profile level
     try {
       const raw = localStorage.getItem('lingwa_profile')
@@ -269,7 +263,7 @@ export default function CoursePage() {
 
             <div className="flex-1 min-w-0">
               <p className="text-xs font-semibold uppercase tracking-wider mb-0.5" style={{ color: 'var(--text-muted)' }}>
-                {t('yourAiTutor', nativeLang)}
+                {t('yourAiTutor')}
               </p>
               <p className="font-bold text-base">
                 {config.tutor.name}
@@ -285,7 +279,7 @@ export default function CoursePage() {
                 )}
               </p>
               <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                {t('completeUnitToUnlock', nativeLang)}
+                {t('completeUnitToUnlock')}
               </p>
             </div>
           </motion.div>
@@ -316,7 +310,7 @@ export default function CoursePage() {
                 >
                   <div>{lvl}</div>
                   <div className="text-[10px] font-medium mt-0.5" style={{ opacity: 0.8 }}>
-                    {unlocked ? t(LEVEL_LABELS[lvl], nativeLang) : '🔒'}
+                    {unlocked ? t(LEVEL_LABELS[lvl]) : '🔒'}
                   </div>
                 </button>
               )
@@ -340,7 +334,7 @@ export default function CoursePage() {
                 color: 'var(--blue)',
               }}
             >
-              📚 {t('reviewButton', nativeLang)} · {t('dueWordCount', nativeLang, { count: dueCount })}
+              📚 {t('reviewButton')} · {t('dueWordCount', { count: dueCount })}
             </button>
           </motion.div>
         )}
@@ -370,10 +364,10 @@ export default function CoursePage() {
               style={{ background: 'var(--surface)', border: '2px solid var(--border)' }}
             >
               <p className="font-black text-lg mb-2">
-                {t('skipToLevel', nativeLang, { level: skipModal })}
+                {t('skipToLevel', { level: skipModal })}
               </p>
               <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
-                {t('skipToLevelDesc', nativeLang, { level: skipModal })}
+                {t('skipToLevelDesc', { level: skipModal })}
               </p>
               <div className="flex gap-3">
                 <button
@@ -381,14 +375,14 @@ export default function CoursePage() {
                   className="flex-1 py-3 rounded-xl font-bold border-2"
                   style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}
                 >
-                  {t('cancel', nativeLang)}
+                  {t('cancel')}
                 </button>
                 <button
                   onClick={confirmSkip}
                   className="flex-1 py-3 rounded-xl font-bold text-white"
                   style={{ background: 'var(--green)' }}
                 >
-                  {t('skipConfirm', nativeLang)}
+                  {t('skipConfirm')}
                 </button>
               </div>
             </motion.div>

@@ -2,9 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import { t, registerFromConfig } from '@/lib/i18n'
-import { loadStaticConfig } from '@/lib/staticCourses'
-import { getNativeLang } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { loadSRSData } from '@/lib/progress'
 import { getDueWords, type WordRecord } from '@/lib/srs'
 import ReviewMode from '@/components/ReviewMode'
@@ -17,14 +15,9 @@ export default function ReviewPage() {
   const [dueWords, setDueWords] = useState<WordRecord[]>([])
   const [allWords, setAllWords] = useState<WordRecord[]>([])
   const [loading, setLoading] = useState(true)
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t } = useI18n()
 
   useEffect(() => {
-    const code = getNativeLang()
-    setNativeLang(code)
-    if (code && code !== 'en') {
-      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
-    }
     const srsData = loadSRSData(lang)
     const due = getDueWords(srsData.words)
     const all = Object.values(srsData.words)
@@ -36,7 +29,7 @@ export default function ReviewPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen" style={{ background: 'var(--bg)' }}>
-        <p style={{ color: 'var(--text-muted)' }}>{t('loadingLesson', nativeLang)}</p>
+        <p style={{ color: 'var(--text-muted)' }}>{t('loadingLesson')}</p>
       </div>
     )
   }

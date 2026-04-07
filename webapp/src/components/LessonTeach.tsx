@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveMeaning, resolveGenderBoth, getGender, getNativeLang, type Gender } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveMeaning, resolveGenderBoth, getGender, type Gender } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 interface GenderedForm {
   word: string
@@ -36,11 +36,10 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
   const [heardWords, setHeardWords] = useState<Set<number>>(new Set())
   const [currentCard, setCurrentCard] = useState(0)
   const [gender, setGender] = useState<Gender>('both')
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t, nativeLang } = useI18n()
 
   useEffect(() => {
     setGender(getGender(lang))
-    setNativeLang(getNativeLang())
   }, [lang])
 
   function playWord(word: string, langCode: string) {
@@ -69,14 +68,14 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
   if (!vocabulary || vocabulary.length === 0) {
     return (
       <div className="flex flex-col min-h-screen max-w-[480px] mx-auto px-4 py-6 items-center justify-center">
-        <p className="text-slate-400 mb-6">{t('noVocabulary', nativeLang)}</p>
+        <p className="text-slate-400 mb-6">{t('noVocabulary')}</p>
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={onReady}
           className="px-8 py-4 rounded-2xl font-bold text-white text-lg"
           style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
         >
-          {t('startQuiz', nativeLang)} 🎯
+          {t('startQuiz')} 🎯
         </motion.button>
       </div>
     )
@@ -98,7 +97,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div>
-          <p className="text-xs uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>{t('lessonVocabulary', nativeLang)}</p>
+          <p className="text-xs uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>{t('lessonVocabulary')}</p>
           <h2 className="font-black text-xl">{lessonTitle}</h2>
         </div>
         <div className="text-sm" style={{ color: 'var(--text-muted)' }}>
@@ -144,7 +143,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
                 border: `1px solid ${color}44`,
               }}
             >
-              {t('tone', nativeLang, { tone: item.toneClass })}
+              {t('tone', { tone: item.toneClass })}
             </div>
             )
           })()}
@@ -182,7 +181,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
             }}
           >
             <span className="text-2xl">🔊</span>
-            {heardWords.has(currentCard) ? `${t('heardIt', nativeLang)} ✓` : t('tapToListen', nativeLang)}
+            {heardWords.has(currentCard) ? `${t('heardIt')} ✓` : t('tapToListen')}
           </motion.button>
 
           {/* Gender variants (for gendered languages) */}
@@ -220,7 +219,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
             className="flex-1 py-3 rounded-2xl font-bold border-2 transition-all"
             style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}
           >
-            ← {t('back', nativeLang)}
+            ← {t('back')}
           </button>
         )}
 
@@ -234,7 +233,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
               boxShadow: '0 4px 0 var(--green-dark)',
             }}
           >
-            {t('next', nativeLang)} →
+            {t('next')} →
           </motion.button>
         ) : (
           <motion.button
@@ -246,7 +245,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
               boxShadow: '0 4px 0 var(--green-dark)',
             }}
           >
-            {t('startQuiz', nativeLang)} 🎯
+            {t('startQuiz')} 🎯
           </motion.button>
         )}
       </div>
@@ -257,7 +256,7 @@ export default function LessonTeach({ lang, lessonTitle, vocabulary, onReady }: 
         className="text-center text-xs mt-3 py-2"
         style={{ color: 'var(--text-muted)' }}
       >
-        {t('skipToQuiz', nativeLang)} →
+        {t('skipToQuiz')} →
       </button>
     </div>
   )

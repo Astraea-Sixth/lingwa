@@ -3,8 +3,8 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveOptions, getNativeLang, getGender, type Gender } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveOptions, getGender, type Gender } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 export interface ListeningExercise {
   type: 'listening'
@@ -35,15 +35,14 @@ function containsNonLatin(text: string) {
 export default function Listening({
   exercise, lang, onComplete, onNext, isLast, currentIndex, totalExercises
 }: Props) {
+  const { t, nativeLang } = useI18n()
   const [selected, setSelected] = useState<number | null>(null)
   const [answered, setAnswered] = useState(false)
   const [isCorrect, setIsCorrect] = useState(false)
-  const [nativeLang, setNativeLang] = useState('en')
   const [gender, setGender] = useState<Gender>('both')
   const hasAutoPlayed = useRef(false)
 
   useEffect(() => {
-    setNativeLang(getNativeLang())
     setGender(getGender(lang))
   }, [lang])
 
@@ -131,7 +130,7 @@ export default function Listening({
 
       {/* Listening area */}
       <div className="flex-1 px-4 py-6 max-w-[480px] mx-auto w-full">
-        <p className="text-xl font-bold leading-relaxed mb-6">{t('whatDoYouHear', nativeLang)}</p>
+        <p className="text-xl font-bold leading-relaxed mb-6">{t('whatDoYouHear')}</p>
 
         <div className="text-center mb-8 p-8 rounded-2xl" style={{ background: 'var(--surface2)' }}>
           <motion.button
@@ -145,7 +144,7 @@ export default function Listening({
             </svg>
           </motion.button>
           <p className="text-sm font-semibold" style={{ color: 'var(--text-muted)' }}>
-            {t('replay', nativeLang)}
+            {t('replay')}
           </p>
           {answered && audioRomanization && (
             <motion.p
@@ -204,11 +203,11 @@ export default function Listening({
                 <span className="text-2xl">{isCorrect ? '\u2713' : '\u2717'}</span>
                 <div className="flex-1">
                   <p className="font-black text-lg" style={{ color: isCorrect ? 'var(--green)' : 'var(--red)' }}>
-                    {t(isCorrect ? 'correct' : 'notQuite', nativeLang)}
+                    {t(isCorrect ? 'correct' : 'notQuite')}
                   </p>
                   {!isCorrect && options[correctIdx] && (
                     <div className="flex items-center gap-2 mt-1 flex-wrap">
-                      <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('answer', nativeLang)}</span>
+                      <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('answer')}</span>
                       <span className="font-bold" style={containsNonLatin(options[correctIdx]) ? { fontSize: '1.1em' } : {}}>
                         {options[correctIdx]}
                       </span>
@@ -224,7 +223,7 @@ export default function Listening({
                       style={{ color: 'var(--green)' }}
                     >
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
-                      {t('listenAgain', nativeLang)}
+                      {t('listenAgain')}
                     </button>
                   )}
                 </div>
@@ -238,7 +237,7 @@ export default function Listening({
                   boxShadow: isCorrect ? '0 4px 0 var(--green-dark)' : '0 4px 0 #cc0000',
                 }}
               >
-                {t(isLast ? 'completeLesson' : 'continue', nativeLang) + (isLast ? '' : ' →')}
+                {t(isLast ? 'completeLesson' : 'continue') + (isLast ? '' : ' →')}
               </motion.button>
             </div>
           </motion.div>

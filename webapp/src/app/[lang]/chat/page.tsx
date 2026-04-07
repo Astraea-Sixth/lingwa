@@ -4,7 +4,8 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 import VoiceChat from '@/components/VoiceChat'
 import { getLanguageProgress } from '@/lib/progress'
-import { resolveText, getNativeLang } from '@/lib/resolve'
+import { resolveText } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { isHostedMode } from '@/lib/supabase'
 
 function getTutorName(lang: string): string {
@@ -19,14 +20,14 @@ function getTutorName(lang: string): string {
   return 'Your Tutor'
 }
 
-function getUnitTitle(lang: string, unitNum: number): string {
+function getUnitTitle(lang: string, unitNum: number, nativeLang: string): string {
   if (typeof window === 'undefined') return `Unit ${unitNum} vocabulary`
   try {
     const raw = localStorage.getItem(`lingwa_curriculum_${lang}`)
     if (raw) {
       const curriculum = JSON.parse(raw)
       const unit = curriculum.units?.find((u: { id: number }) => u.id === unitNum)
-      if (unit?.title) return resolveText(unit.title, getNativeLang())
+      if (unit?.title) return resolveText(unit.title, nativeLang)
     }
   } catch { /* ignore */ }
   return `Unit ${unitNum} vocabulary`
@@ -40,13 +41,13 @@ function getLevel(): string {
   } catch { return 'A1' }
 }
 
-function buildChatMode(lang: string, unit: string | null, mode: string | null, tutorName: string): string {
+function buildChatMode(lang: string, unit: string | null, mode: string | null, tutorName: string, nativeLang: string): string {
   if (mode === 'final') {
     return `You are ${tutorName}. This is the student's FINAL CHALLENGE. Use vocabulary from ALL units covered. No hints. No showing phrases. Just have a natural conversation and correct any mistakes. Be encouraging but thorough. Test comprehensively across all topics.`
   }
   if (mode === 'unit' && unit) {
     const unitNum = parseInt(unit, 10)
-    const topic = getUnitTitle(lang, unitNum)
+    const topic = getUnitTitle(lang, unitNum, nativeLang)
     return `You are ${tutorName}. The student just completed Unit ${unitNum}. Have a free conversation using ONLY vocabulary from Unit ${unitNum}. Topic: ${topic}. Keep it fun and conversational. No quizzes — just talk! Gently introduce new uses of the words they learned. If they use correct vocabulary, praise them specifically.`
   }
   return ''
@@ -58,6 +59,7 @@ export default function ChatPage() {
   const searchParams = useSearchParams()
   const lang = params.lang as string
   const hosted = isHostedMode()
+  const { nativeLang } = useI18n()
 
   const unit = searchParams.get('unit')
   const mode = searchParams.get('mode')
@@ -65,7 +67,7 @@ export default function ChatPage() {
   const progress = getLanguageProgress(lang)
   const tutorName = getTutorName(lang)
 
-  const chatMode = buildChatMode(lang, unit, mode, tutorName)
+  const chatMode = buildChatMode(lang, unit, mode, tutorName, nativeLang)
   const chatModeKey = mode === 'final' ? 'final' : (mode === 'unit' && unit) ? `unit_${unit}` : 'free'
 
   const isFinal = mode === 'final'

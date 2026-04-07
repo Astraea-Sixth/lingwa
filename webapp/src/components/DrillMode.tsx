@@ -3,8 +3,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveMeaning, getGender, getNativeLang, type Gender } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveMeaning, getGender, type Gender } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { AudioRecorder } from '@/lib/audioRecorder'
 import { isHostedMode } from '@/lib/supabase'
 import { recognizeSpeech, isSpeechRecognitionSupported, SpeechRecognitionError } from '@/lib/speechRecognition'
@@ -57,7 +57,8 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
   const [audioUrl, setAudioUrl] = useState<string | null>(null)
   const [showCompletion, setShowCompletion] = useState(false)
   const [gender, setGender] = useState<Gender>('both')
-  const [nativeLang, setNativeLang] = useState('en')
+
+  const { t, nativeLang } = useI18n()
 
   const recorderRef = useRef<AudioRecorder | null>(null)
   const audioUrlRef = useRef<string | null>(null)
@@ -69,7 +70,6 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
   useEffect(() => {
     setGender(getGender(lang))
-    setNativeLang(getNativeLang())
   }, [lang])
 
   // Cleanup on unmount
@@ -101,7 +101,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
         style={{ background: 'var(--bg)' }}
       >
         <p className="text-lg mb-6" style={{ color: 'var(--text-muted)' }}>
-          {t('noVocabulary', nativeLang)}
+          {t('noVocabulary')}
         </p>
         <motion.button
           whileTap={{ scale: 0.97 }}
@@ -130,9 +130,9 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
         >
           ✅
         </motion.div>
-        <h1 className="text-3xl font-black mb-4">{t("drillComplete", nativeLang)}</h1>
+        <h1 className="text-3xl font-black mb-4">{t("drillComplete")}</h1>
         <p className="text-xl mb-2" style={{ color: "var(--text-muted)" }}>
-          {t("wordsMastered", nativeLang, {
+          {t("wordsMastered", {
             mastered: masteredRef.current,
             total: vocabulary.length,
           })}
@@ -141,7 +141,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           className="text-2xl font-bold mb-8"
           style={{ color: "var(--green)" }}
         >
-          {t("xpEarned", nativeLang, { xp: totalXp })}
+          {t("xpEarned", { xp: totalXp })}
         </p>
         <motion.button
           whileTap={{ scale: 0.97 }}
@@ -152,7 +152,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
             boxShadow: "0 4px 0 var(--green-dark)",
           }}
         >
-          {t("done", nativeLang)}
+          {t("done")}
         </motion.button>
       </div>
     )
@@ -197,7 +197,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
 
   async function handleHostedRecording() {
     if (!isSpeechRecognitionSupported()) {
-      setFeedback(t('speechNotSupported', nativeLang))
+      setFeedback(t('speechNotSupported'))
       return
     }
 
@@ -252,9 +252,9 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
             'unsupported': 'speechNotSupported',
             'timeout': 'speechNoInput',
           }
-          setFeedback(t(msgKey[err.kind] || 'somethingWrong', nativeLang))
+          setFeedback(t(msgKey[err.kind] || 'somethingWrong'))
         } else {
-          setFeedback(t('somethingWrong', nativeLang))
+          setFeedback(t('somethingWrong'))
         }
       }
     } finally {
@@ -311,7 +311,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     formData.append('expected', displayWord)
     formData.append('lang', lang)
     formData.append('gender', getGender(lang))
-    formData.append('native_lang', getNativeLang())
+    formData.append('native_lang', nativeLang)
 
     let level = 'A1'
     try {
@@ -477,7 +477,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
             }}
           >
             <span className="text-xl">🔊</span>
-            {t('tapToListen', nativeLang)}
+            {t('tapToListen')}
           </motion.button>
 
           {/* Mic button */}
@@ -502,14 +502,14 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           {/* Mic label */}
           {!isProcessing && (
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
-              {isRecording ? t('tapToStop', nativeLang) : t('tapToSpeak', nativeLang)}
+              {isRecording ? t('tapToStop') : t('tapToSpeak')}
             </p>
           )}
 
           {/* Browser compatibility hint (hosted mode only) */}
           {hosted && !isProcessing && !isRecording && (
             <p className="text-xs" style={{ color: 'var(--text-muted)', opacity: 0.5 }}>
-              {t('speechBrowserHint', nativeLang)}
+              {t('speechBrowserHint')}
             </p>
           )}
 
@@ -527,7 +527,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                 ⏳
               </div>
               <p className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
-                {t('analysingYourSpeech', nativeLang)}
+                {t('analysingYourSpeech')}
               </p>
             </motion.div>
           )}
@@ -573,7 +573,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                     boxShadow: "0 4px 0 var(--green-dark)",
                   }}
                 >
-                  {t("drillNext", nativeLang)}
+                  {t("drillNext")}
                 </motion.button>
               )}
             </motion.div>
@@ -590,7 +590,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
                 boxShadow: '0 4px 0 rgba(0,100,200,0.4)',
               }}
             >
-              {t('tryAgain', nativeLang)}
+              {t('tryAgain')}
             </motion.button>
           )}
         </motion.div>

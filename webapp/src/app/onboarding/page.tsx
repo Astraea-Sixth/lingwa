@@ -3,8 +3,8 @@
 import { useState, useEffect, Suspense } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { t, registerFromConfig } from '@/lib/i18n'
-import { getNativeLang } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
+import { registerFromConfig } from '@/lib/i18n'
 import { isHostedMode } from '@/lib/supabase'
 import { loadStaticConfig, loadStaticCurriculum, loadLanguageCodes } from '@/lib/staticCourses'
 
@@ -50,6 +50,7 @@ const GENDERS = [
 
 function OnboardingContent() {
   const router = useRouter()
+  const { t, setNativeLang: setI18nNativeLang } = useI18n()
   const [step, setStep] = useState(0)
   const [direction, setDirection] = useState(1)
   const [courses, setCourses] = useState<AvailableCourse[]>([])
@@ -239,7 +240,7 @@ function OnboardingContent() {
               margin: '0 auto',
             }}
           />
-          <p style={{ color: 'var(--text-muted)' }} className="text-sm">{t('loadingCourses', nativeLangCode || 'en')}</p>
+          <p style={{ color: 'var(--text-muted)' }} className="text-sm">{t('loadingCourses')}</p>
         </div>
       </div>
     )
@@ -255,10 +256,10 @@ function OnboardingContent() {
         >
           <div className="text-5xl">{selectedFlag}</div>
           <h1 className="text-2xl font-black" style={{ color: 'var(--green)' }}>
-            {t('letsGo', nativeLangCode || 'en')}
+            {t('letsGo')}
           </h1>
           <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-            {t('loadingCourse', nativeLangCode || 'en', { lang: selectedLangName })}
+            {t('loadingCourse', { lang: selectedLangName })}
           </p>
         </motion.div>
       </div>
@@ -282,11 +283,11 @@ function OnboardingContent() {
       <div className="w-full max-w-[480px] mb-8">
         <div className="flex items-center justify-between mb-2">
           <span className="text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
-            {t('stepOf', nativeLangCode || 'en', { current: step + 1, total: totalSteps })}
+            {t('stepOf', { current: step + 1, total: totalSteps })}
           </span>
           {step > 0 && (
             <button onClick={goBack} className="text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
-              ← {t('back', nativeLangCode || 'en')}
+              ← {t('back')}
             </button>
           )}
         </div>
@@ -327,9 +328,9 @@ function OnboardingContent() {
             {/* ── Step 0: Your language (native) ── */}
             {step === 0 && (
               <div className="space-y-6">
-                <h1 className="text-2xl font-black">{t('yourLanguage', nativeLangCode || 'en')}</h1>
+                <h1 className="text-2xl font-black">{t('yourLanguage')}</h1>
                 <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-                  {t('pickNativeLang', nativeLangCode || 'en')}
+                  {t('pickNativeLang')}
                 </p>
 
                 <div className="grid grid-cols-2 gap-3">
@@ -339,6 +340,7 @@ function OnboardingContent() {
                       onClick={() => {
                         setNativeLangCode(lang.code)
                         setNativeLangName(lang.name)
+                        setI18nNativeLang(lang.code)
                       }}
                       className="flex items-center gap-3 p-4 rounded-2xl border-2 transition-all text-left"
                       style={{
@@ -367,9 +369,9 @@ function OnboardingContent() {
             {/* ── Step 1: Pick target language ── */}
             {step === 1 && (
               <div className="space-y-6">
-                <h1 className="text-2xl font-black">{t('whatToLearn', nativeLangCode || 'en')}</h1>
+                <h1 className="text-2xl font-black">{t('whatToLearn')}</h1>
                 <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-                  {t('pickTargetLang', nativeLangCode || 'en')}
+                  {t('pickTargetLang')}
                 </p>
 
                 <div className="grid grid-cols-2 gap-3">
@@ -398,7 +400,7 @@ function OnboardingContent() {
                 {availableLanguages.length === 0 && (
                   <div className="text-center py-8">
                     <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-                      {t('noCourses', nativeLangCode || 'en')}
+                      {t('noCourses')}
                     </p>
                   </div>
                 )}
@@ -408,9 +410,9 @@ function OnboardingContent() {
             {/* ── Step 2: Level ── */}
             {step === 2 && (
               <div className="space-y-6">
-                <h1 className="text-2xl font-black">{t('whatsYourLevel', nativeLangCode || 'en', { lang: selectedLangName })}</h1>
+                <h1 className="text-2xl font-black">{t('whatsYourLevel', { lang: selectedLangName })}</h1>
                 <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-                  {t('beHonest', nativeLangCode || 'en')}
+                  {t('beHonest')}
                 </p>
 
                 <div className="flex flex-col gap-3">
@@ -428,8 +430,8 @@ function OnboardingContent() {
                         borderColor: level === l.value ? 'var(--blue)' : 'var(--border)',
                       }}
                     >
-                      <p className="font-bold text-base">{l.value} — {t(l.value === 'A1' ? 'completeBeginner' : 'knowBasics', nativeLangCode || 'en')}</p>
-                      <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>{t(l.value === 'A1' ? 'knowZeroWords' : 'canSayHello', nativeLangCode || 'en')}</p>
+                      <p className="font-bold text-base">{l.value} — {t(l.value === 'A1' ? 'completeBeginner' : 'knowBasics')}</p>
+                      <p className="text-sm mt-0.5" style={{ color: 'var(--text-muted)' }}>{t(l.value === 'A1' ? 'knowZeroWords' : 'canSayHello')}</p>
                     </button>
                   ))}
                 </div>
@@ -439,9 +441,9 @@ function OnboardingContent() {
             {/* ── Step 3: Gender (only for gendered languages) ── */}
             {step === 3 && (
               <div className="space-y-6">
-                <h1 className="text-2xl font-black">{t('yourGender', nativeLangCode || 'en')}</h1>
+                <h1 className="text-2xl font-black">{t('yourGender')}</h1>
                 <p style={{ color: 'var(--text-muted)' }} className="text-sm">
-                  {t('genderExplain', nativeLangCode || 'en', { lang: selectedLangName })}
+                  {t('genderExplain', { lang: selectedLangName })}
                 </p>
 
                 <div className="flex flex-col gap-3">
@@ -456,7 +458,7 @@ function OnboardingContent() {
                       }}
                     >
                       <span className="text-2xl">{g.emoji}</span>
-                      <span className="font-bold text-base">{t(g.value === 'male' ? 'male' : g.value === 'female' ? 'female' : 'showBoth', nativeLangCode || 'en')}</span>
+                      <span className="font-bold text-base">{t(g.value === 'male' ? 'male' : g.value === 'female' ? 'female' : 'showBoth')}</span>
                       {gender === g.value && (
                         <div
                           className="ml-auto w-6 h-6 rounded-full flex items-center justify-center"
@@ -488,7 +490,7 @@ function OnboardingContent() {
             cursor: canProceed() ? 'pointer' : 'not-allowed',
           }}
         >
-          {step >= effectiveSteps - 1 ? `${t('startLearning', nativeLangCode || 'en')} →` : `${t('continue', nativeLangCode || 'en')} →`}
+          {step >= effectiveSteps - 1 ? `${t('startLearning')} →` : `${t('continue')} →`}
         </button>
       </div>
     </div>

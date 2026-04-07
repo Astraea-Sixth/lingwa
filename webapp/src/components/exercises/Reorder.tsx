@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveText, getNativeLang } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveText } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 export interface ReorderExercise {
   type: 'reorder'
@@ -28,6 +28,7 @@ interface Props {
 export default function Reorder({
   exercise, lang, onComplete, onNext, isLast, currentIndex, totalExercises
 }: Props) {
+  const { t, nativeLang } = useI18n()
   const [pool, setPool] = useState<string[]>([])
   const [placed, setPlaced] = useState<string[]>([])
   const [checked, setChecked] = useState(false)
@@ -113,7 +114,7 @@ export default function Reorder({
 
       {/* Reorder area */}
       <div className="flex-1 px-4 py-6 max-w-[480px] mx-auto w-full">
-        <p className="text-xl font-bold leading-relaxed mb-6">{resolveText(exercise.prompt, getNativeLang())}</p>
+        <p className="text-xl font-bold leading-relaxed mb-6">{resolveText(exercise.prompt, nativeLang)}</p>
 
         {/* Answer area */}
         <div
@@ -129,7 +130,7 @@ export default function Reorder({
         >
           {placed.length === 0 && (
             <span className="text-sm py-2" style={{ color: 'var(--text-muted)' }}>
-              {t('tapWordsBuild', getNativeLang())}
+              {t('tapWordsBuild')}
             </span>
           )}
           <AnimatePresence mode="popLayout">
@@ -173,7 +174,7 @@ export default function Reorder({
             className="mb-6 p-3 rounded-xl"
             style={{ background: 'var(--surface2)' }}
           >
-            <p className="text-xs font-semibold mb-1" style={{ color: 'var(--text-muted)' }}>{t('correctOrder', getNativeLang())}</p>
+            <p className="text-xs font-semibold mb-1" style={{ color: 'var(--text-muted)' }}>{t('correctOrder')}</p>
             <p className="text-lg font-bold" style={{ lineHeight: 1.8 }}>
               {correctOrder.join(' ')}
             </p>
@@ -233,7 +234,7 @@ export default function Reorder({
               className="w-full py-4 rounded-2xl font-black text-lg text-white"
               style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
             >
-              {t('check', getNativeLang())}
+              {t('check')}
             </motion.button>
           </motion.div>
         )}
@@ -256,7 +257,7 @@ export default function Reorder({
                 <span className="text-2xl">{isCorrect ? '\u2713' : '\u2717'}</span>
                 <div className="flex-1">
                   <p className="font-black text-lg" style={{ color: isCorrect ? 'var(--green)' : 'var(--red)' }}>
-                    {t(isCorrect ? 'correct' : 'notQuite', getNativeLang())}
+                    {t(isCorrect ? 'correct' : 'notQuite')}
                   </p>
                   {isCorrect && (
                     <button
@@ -265,7 +266,7 @@ export default function Reorder({
                       style={{ color: 'var(--green)' }}
                     >
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
-                      {t('listenAgain', getNativeLang())}
+                      {t('listenAgain')}
                     </button>
                   )}
                   {!isCorrect && (
@@ -275,7 +276,7 @@ export default function Reorder({
                       style={{ color: 'var(--text-muted)' }}
                     >
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
-                      <span className="text-sm font-semibold">{t('hearCorrectSentence', getNativeLang())}</span>
+                      <span className="text-sm font-semibold">{t('hearCorrectSentence')}</span>
                     </button>
                   )}
                 </div>
@@ -289,7 +290,7 @@ export default function Reorder({
                   boxShadow: isCorrect ? '0 4px 0 var(--green-dark)' : '0 4px 0 #cc0000',
                 }}
               >
-                {t(isLast ? 'completeLesson' : 'continue', getNativeLang()) + (isLast ? '' : ' →')}
+                {t(isLast ? 'completeLesson' : 'continue') + (isLast ? '' : ' →')}
               </motion.button>
             </div>
           </motion.div>

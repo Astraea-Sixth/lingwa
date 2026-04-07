@@ -3,8 +3,8 @@
 import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveMeaning, getNativeLang } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveMeaning } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 export interface MatchingExercise {
   type: 'matching'
@@ -37,6 +37,8 @@ function shuffle<T>(arr: T[]): T[] {
 export default function Matching({
   exercise, lang, onComplete, onNext, isLast, currentIndex, totalExercises
 }: Props) {
+  const { t, nativeLang } = useI18n()
+
   // Shuffled indices for left (target) and right (native) columns
   const shuffledLeft = useMemo(() => shuffle(exercise.pairs.map((_, i) => i)), [exercise])
   const shuffledRight = useMemo(() => shuffle(exercise.pairs.map((_, i) => i)), [exercise])
@@ -44,7 +46,6 @@ export default function Matching({
   const [selectedLeft, setSelectedLeft] = useState<number | null>(null)
   const [selectedRight, setSelectedRight] = useState<number | null>(null)
   const [matched, setMatched] = useState<Set<number>>(new Set())
-  const nativeLang = useMemo(() => getNativeLang(), [])
   const [shaking, setShaking] = useState<{ left: number | null; right: number | null }>({ left: null, right: null })
   const [hadWrong, setHadWrong] = useState(false)
   const [complete, setComplete] = useState(false)
@@ -135,7 +136,7 @@ export default function Matching({
 
       {/* Matching area */}
       <div className="flex-1 px-4 py-6 max-w-[480px] mx-auto w-full">
-        <p className="text-xl font-bold leading-relaxed mb-6">{t('tapMatchingPairs', nativeLang)}</p>
+        <p className="text-xl font-bold leading-relaxed mb-6">{t('tapMatchingPairs')}</p>
 
         <div className="grid grid-cols-2 gap-3">
           {/* Left column: target language */}
@@ -202,11 +203,11 @@ export default function Matching({
                 <span className="text-2xl">{!hadWrong ? '\u2713' : '\u2717'}</span>
                 <div className="flex-1">
                   <p className="font-black text-lg" style={{ color: !hadWrong ? 'var(--green)' : 'var(--red)' }}>
-                    {t(!hadWrong ? 'correct' : 'correct', nativeLang)}
+                    {t(!hadWrong ? 'correct' : 'correct')}
                   </p>
                   {hadWrong && (
                     <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
-                      {t('notQuite', nativeLang)}
+                      {t('notQuite')}
                     </p>
                   )}
                 </div>
@@ -220,7 +221,7 @@ export default function Matching({
                   boxShadow: !hadWrong ? '0 4px 0 var(--green-dark)' : '0 4px 0 #cc0000',
                 }}
               >
-                {isLast ? t('completeLesson', nativeLang) : `${t('continue', nativeLang)} →`}
+                {isLast ? t('completeLesson') : `${t('continue')} →`}
               </motion.button>
             </div>
           </motion.div>

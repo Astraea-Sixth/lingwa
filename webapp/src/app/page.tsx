@@ -3,13 +3,12 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { t } from '@/lib/i18n'
-import { getNativeLang } from '@/lib/resolve'
+import { registerFromConfig } from '@/lib/i18n'
+import { useI18n } from '@/lib/i18n-context'
 import { isHostedMode } from '@/lib/supabase'
 import { getSession, getUser } from '@/lib/auth'
 import { loadFromCloud, clearCloudProgress } from '@/lib/cloudProgress'
 import { loadStaticConfig, loadLanguageCodes } from '@/lib/staticCourses'
-import { registerFromConfig } from '@/lib/i18n'
 
 interface UserProfile {
   targetLang: string
@@ -39,7 +38,7 @@ export default function HomePage() {
   const [progress, setProgress] = useState<LangProgress | null>(null)
   const [showReset, setShowReset] = useState(false)
   const [mounted, setMounted] = useState(false)
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t, nativeLang } = useI18n()
   const [authChecked, setAuthChecked] = useState(false)
   const [hostedMode] = useState(() => isHostedMode())
   const [availableLangs, setAvailableLangs] = useState<Array<{ code: string; name: string; flag: string }>>([])
@@ -73,9 +72,7 @@ export default function HomePage() {
 
       setAuthChecked(true)
       setMounted(true)
-      setNativeLang(getNativeLang())
 
-      // Always load native language config so UI strings render in user's language
       const raw = localStorage.getItem('lingwa_profile')
       if (raw) {
         try {
@@ -84,12 +81,6 @@ export default function HomePage() {
           const progRaw = localStorage.getItem(`lingwa:progress:${p.targetLangCode}`)
           if (progRaw) {
             setProgress(JSON.parse(progRaw))
-          }
-          // Load native lang config to register UI translations (e.g. zh user learning th)
-          const nativeLangCode = p.nativeLang
-          if (nativeLangCode && nativeLangCode !== 'en') {
-            const nativeConfig = await loadStaticConfig(nativeLangCode)
-            if (nativeConfig) registerFromConfig(nativeConfig)
           }
         } catch {
           // corrupted — ignore
@@ -145,13 +136,13 @@ export default function HomePage() {
           className="mb-10"
         >
           <h1 className="text-3xl font-black leading-tight mb-3">
-            {t('learnAnyLanguage', nativeLang)}<br />
-            <span style={{ color: 'var(--green)' }}>{t('builtForYou', nativeLang)}</span>
+            {t('learnAnyLanguage')}<br />
+            <span style={{ color: 'var(--green)' }}>{t('builtForYou')}</span>
           </h1>
           <p style={{ color: 'var(--text-muted)' }} className="text-base leading-relaxed">
             {hostedMode
               ? 'AI-powered language learning. 20 languages. Free forever.'
-              : t('heroDesc', nativeLang)}
+              : t('heroDesc')}
           </p>
         </motion.div>
 
@@ -176,7 +167,7 @@ export default function HomePage() {
                     <div>
                       <p className="font-black text-xl">{profile.targetLang}</p>
                       <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                        {t('level', nativeLang, { level: profile.level })}
+                        {t('level', { level: profile.level })}
                       </p>
                     </div>
                   </div>
@@ -202,7 +193,7 @@ export default function HomePage() {
               {/* Lessons progress */}
               {completedCount > 0 && (
                 <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {completedCount === 1 ? t('lessonsCompleted', nativeLang, { count: completedCount }) : t('lessonsCompletedPlural', nativeLang, { count: completedCount })}
+                  {completedCount === 1 ? t('lessonsCompleted', { count: completedCount }) : t('lessonsCompletedPlural', { count: completedCount })}
                 </p>
               )}
             </div>
@@ -212,7 +203,7 @@ export default function HomePage() {
               onClick={() => router.push(`/${profile.targetLangCode}?level=${profile.level}`)}
               className="btn-green w-full py-4 text-lg"
             >
-              {flag} {t('continueLearning', nativeLang, { lang: profile.targetLang })} →
+              {flag} {t('continueLearning', { lang: profile.targetLang })} →
             </button>
 
             {/* Reset */}
@@ -223,7 +214,7 @@ export default function HomePage() {
                   className="text-xs"
                   style={{ color: 'var(--text-muted)' }}
                 >
-                  {t('changeLanguage', nativeLang)}
+                  {t('changeLanguage')}
                 </button>
               ) : (
                 <motion.div
@@ -232,7 +223,7 @@ export default function HomePage() {
                   className="space-y-2"
                 >
                   <p className="text-sm font-semibold" style={{ color: 'var(--text-muted)' }}>
-                    {t('resetConfirm', nativeLang)}
+                    {t('resetConfirm')}
                   </p>
                   <div className="flex gap-2">
                     <button
@@ -240,14 +231,14 @@ export default function HomePage() {
                       className="flex-1 py-2 rounded-xl text-sm font-semibold border-2 transition-all"
                       style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}
                     >
-                      {t('cancel', nativeLang)}
+                      {t('cancel')}
                     </button>
                     <button
                       onClick={handleReset}
                       className="flex-1 py-2 rounded-xl text-sm font-semibold border-2 transition-all"
                       style={{ borderColor: 'rgba(255,80,80,0.5)', color: 'rgb(255,100,100)', background: 'rgba(255,80,80,0.06)' }}
                     >
-                      {t('reset', nativeLang)}
+                      {t('reset')}
                     </button>
                   </div>
                 </motion.div>
@@ -285,10 +276,10 @@ export default function HomePage() {
                 { emoji: '💬', text: 'AI conversation practice after every unit' },
                 { emoji: '📱', text: 'Free forever — no credit card, no catch' },
               ] : [
-                { emoji: '🎯', text: t('featureCurated', nativeLang) },
-                { emoji: '💬', text: t('featureChat', nativeLang) },
-                { emoji: '🔒', text: t('featureLocal', nativeLang) },
-                { emoji: '📱', text: t('featureFree', nativeLang) },
+                { emoji: '🎯', text: t('featureCurated') },
+                { emoji: '💬', text: t('featureChat') },
+                { emoji: '🔒', text: t('featureLocal') },
+                { emoji: '📱', text: t('featureFree') },
               ]).map(item => (
                 <div key={item.emoji} className="flex items-center gap-3">
                   <span className="text-xl">{item.emoji}</span>
@@ -301,13 +292,13 @@ export default function HomePage() {
               onClick={() => router.push('/onboarding')}
               className="btn-green w-full py-4 text-lg"
             >
-              {t('startLearning', nativeLang)} →
+              {t('startLearning')} →
             </button>
 
             <p className="text-center text-xs" style={{ color: 'var(--text-muted)' }}>
               {hostedMode
                 ? '🧪 Beta — built by AI agents. Things might break.'
-                : t('freeOpenSource', nativeLang)}
+                : t('freeOpenSource')}
             </p>
           </motion.div>
         )}

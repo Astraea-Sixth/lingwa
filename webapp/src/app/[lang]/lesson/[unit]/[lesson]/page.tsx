@@ -9,9 +9,8 @@ import LessonTeach from '@/components/LessonTeach'
 import UnitComplete from '@/components/UnitComplete'
 import VoiceChat from '@/components/VoiceChat'
 import { completeLesson, getLanguageProgress } from '@/lib/progress'
-import { getGender, getNativeLang, resolveText } from '@/lib/resolve'
-import { t, registerFromConfig } from '@/lib/i18n'
-import { loadStaticConfig } from '@/lib/staticCourses'
+import { getGender, resolveText } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 /**
  * Filter out reorder exercises tagged for the wrong gender.
@@ -90,16 +89,7 @@ export default function LessonPage() {
   const [celebrateXP, setCelebrateXP] = useState(0)
   const [chatModeOverride, setChatModeOverride] = useState<string | undefined>(undefined)
   const [chatModeKeyOverride, setChatModeKeyOverride] = useState<string | undefined>(undefined)
-  const [nativeLang, setNativeLang] = useState('en')
-
-  useEffect(() => {
-    const code = getNativeLang()
-    setNativeLang(code)
-    // Load native language config to ensure UI strings render in user's language
-    if (code && code !== 'en') {
-      loadStaticConfig(code).then(cfg => { if (cfg) registerFromConfig(cfg) })
-    }
-  }, [])
+  const { t, nativeLang } = useI18n()
 
   useEffect(() => {
     // Check localStorage for generated curriculum first
@@ -216,7 +206,7 @@ export default function LessonPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-midnight flex items-center justify-center">
-        <div className="text-slate-400 animate-pulse">{t('loadingLesson', nativeLang)}</div>
+        <div className="text-slate-400 animate-pulse">{t('loadingLesson')}</div>
       </div>
     )
   }
@@ -224,7 +214,7 @@ export default function LessonPage() {
   if (!lessonData) {
     return (
       <div className="min-h-screen bg-midnight flex flex-col items-center justify-center gap-4">
-        <p className="text-slate-400">{t('lessonNotFound', nativeLang)}</p>
+        <p className="text-slate-400">{t('lessonNotFound')}</p>
         <button onClick={() => router.back()} className="btn-secondary">← Back</button>
       </div>
     )
@@ -282,7 +272,7 @@ export default function LessonPage() {
             <button onClick={() => setPhase('celebrate')} className="text-slate-400 hover:text-white transition-colors">
               ←
             </button>
-            <span className="text-slate-300 font-semibold flex-1">{t('speakWith', nativeLang, { name: tutorName })}</span>
+            <span className="text-slate-300 font-semibold flex-1">{t('speakWith', { name: tutorName })}</span>
           </div>
         </header>
         <VoiceChat

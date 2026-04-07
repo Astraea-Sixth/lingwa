@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { resolveObjectives, resolveText, getNativeLang } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveObjectives, resolveText } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { isHostedMode } from '@/lib/supabase'
 import { loadStaticCurriculum } from '@/lib/staticCourses'
 
@@ -70,11 +70,7 @@ export default function LessonTree({ lang, level, completedLessons, onStartLesso
   const [units, setUnits] = useState<Unit[]>([])
   const [expandedUnits, setExpandedUnits] = useState<Set<number>>(new Set())
   const [loading, setLoading] = useState(true)
-  const [nativeLang, setNativeLang] = useState('en')
-
-  useEffect(() => {
-    setNativeLang(getNativeLang())
-  }, [])
+  const { t, nativeLang } = useI18n()
 
   useEffect(() => {
     // Check localStorage for generated curriculum
@@ -171,12 +167,12 @@ export default function LessonTree({ lang, level, completedLessons, onStartLesso
     return (
       <div className="text-center p-8 rounded-2xl" style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}>
         <div className="text-4xl mb-3">📚</div>
-        <p className="font-bold mb-2">{t('noCurriculum', nativeLang)}</p>
+        <p className="font-bold mb-2">{t('noCurriculum')}</p>
         <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
-          {t('completeOnboarding', nativeLang)}
+          {t('completeOnboarding')}
         </p>
         <a href="/onboarding" className="btn-green inline-block px-6 py-3 rounded-2xl font-bold text-white" style={{ background: 'var(--green)' }}>
-          {t('startOnboarding', nativeLang)} →
+          {t('startOnboarding')} →
         </a>
       </div>
     )
@@ -259,10 +255,10 @@ export default function LessonTree({ lang, level, completedLessons, onStartLesso
                       color: unlocked ? 'var(--text)' : 'var(--text-muted)',
                     }}
                   >
-                    {t('unitLabel', nativeLang, { num: unitId(unit), title: resolveText(unit.title, nativeLang) })}
+                    {t('unitLabel', { num: unitId(unit), title: resolveText(unit.title, nativeLang) })}
                   </p>
                   <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '2px' }}>
-                    {t('lessonsProgress', nativeLang, { completed: unitProgress.completed, total: unitProgress.total })}
+                    {t('lessonsProgress', { completed: unitProgress.completed, total: unitProgress.total })}
                   </p>
                 </div>
               </div>
@@ -406,13 +402,13 @@ export default function LessonTree({ lang, level, completedLessons, onStartLesso
                                   marginTop: '2px',
                                 }}
                               >
-                                {resolveObjectives(lesson.objectives, getNativeLang()).join(' · ')}
+                                {resolveObjectives(lesson.objectives, nativeLang).join(' · ')}
                               </p>
                             </div>
 
                             {state === 'available' && (
                               <span style={{ color: 'var(--blue)', fontSize: '13px', fontWeight: 700, flexShrink: 0 }}>
-                                {t('start', nativeLang)} →
+                                {t('start')} →
                               </span>
                             )}
                           </motion.button>

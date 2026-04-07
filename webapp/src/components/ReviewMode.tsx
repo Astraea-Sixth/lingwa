@@ -1,10 +1,10 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveOptions, getGender, getNativeLang, type Gender } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveOptions, getGender, type Gender } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { type WordRecord, sm2Update, calculateRetention } from '@/lib/srs'
 import { loadSRSData, saveSRSData } from '@/lib/progress'
 
@@ -88,7 +88,7 @@ function generateExercises(dueWords: WordRecord[], allWords: WordRecord[], nativ
 }
 
 export default function ReviewMode({ lang, dueWords, allWords, onComplete }: ReviewModeProps) {
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t, nativeLang } = useI18n()
   const [currentIdx, setCurrentIdx] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
   const [answered, setAnswered] = useState(false)
@@ -101,10 +101,6 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
   const [masteredCount, setMasteredCount] = useState(0)
   const [needsPracticeCount, setNeedsPracticeCount] = useState(0)
 
-  useEffect(() => {
-    setNativeLang(getNativeLang())
-  }, [])
-
   const exercises = useMemo(
     () => generateExercises(dueWords, allWords.length >= 4 ? allWords : dueWords, nativeLang),
     [dueWords, allWords, nativeLang]
@@ -115,14 +111,14 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
       <div className="flex flex-col min-h-screen max-w-[480px] mx-auto px-4 py-6 items-center justify-center text-center"
         style={{ background: 'var(--bg)' }}>
         <div className="text-5xl mb-6">🎉</div>
-        <h1 className="text-2xl font-black mb-3">{t('noWordsToReview', nativeLang)}</h1>
+        <h1 className="text-2xl font-black mb-3">{t('noWordsToReview')}</h1>
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={onComplete}
           className="px-8 py-4 rounded-2xl font-bold text-white text-lg"
           style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
         >
-          {t('done', nativeLang)}
+          {t('done')}
         </motion.button>
       </div>
     )
@@ -147,25 +143,25 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
         >
           ✅
         </motion.div>
-        <h1 className="text-3xl font-black mb-6">{t('reviewSessionComplete', nativeLang)}</h1>
+        <h1 className="text-3xl font-black mb-6">{t('reviewSessionComplete')}</h1>
 
         <div className="w-full rounded-2xl p-6 mb-6 space-y-4"
           style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}>
           <div className="flex justify-between items-center">
-            <span style={{ color: 'var(--text-muted)' }}>{t('wordsReviewed', nativeLang)}</span>
+            <span style={{ color: 'var(--text-muted)' }}>{t('wordsReviewed')}</span>
             <span className="font-bold text-lg">{reviewedCount}</span>
           </div>
           <div className="flex justify-between items-center">
-            <span style={{ color: 'var(--text-muted)' }}>{t('wordsMasteredReview', nativeLang)}</span>
+            <span style={{ color: 'var(--text-muted)' }}>{t('wordsMasteredReview')}</span>
             <span className="font-bold text-lg" style={{ color: 'var(--green)' }}>{masteredCount}</span>
           </div>
           <div className="flex justify-between items-center">
-            <span style={{ color: 'var(--text-muted)' }}>{t('wordsNeedPractice', nativeLang)}</span>
+            <span style={{ color: 'var(--text-muted)' }}>{t('wordsNeedPractice')}</span>
             <span className="font-bold text-lg" style={{ color: 'var(--yellow)' }}>{needsPracticeCount}</span>
           </div>
           <div className="border-t pt-4" style={{ borderColor: 'var(--border)' }}>
             <div className="flex justify-between items-center">
-              <span style={{ color: 'var(--text-muted)' }}>{t('retentionRate', nativeLang)}</span>
+              <span style={{ color: 'var(--text-muted)' }}>{t('retentionRate')}</span>
               <span className="font-black text-xl" style={{ color: retentionPercent >= 70 ? 'var(--green)' : 'var(--yellow)' }}>
                 {retentionPercent}%
               </span>
@@ -179,7 +175,7 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
           className="w-full py-4 rounded-2xl font-bold text-white text-lg"
           style={{ background: 'var(--green)', boxShadow: '0 4px 0 var(--green-dark)' }}
         >
-          {t('done', nativeLang)}
+          {t('done')}
         </motion.button>
       </div>
     )
@@ -237,10 +233,10 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
   }
 
   const qualityButtons = [
-    { quality: QUALITY_FORGOT, label: t('forgotLabel', nativeLang), emoji: '\u2639\uFE0F', color: 'var(--red)' },
-    { quality: QUALITY_HARD, label: t('hardLabel', nativeLang), emoji: '\uD83D\uDE10', color: 'var(--yellow)' },
-    { quality: QUALITY_GOOD, label: t('goodLabel', nativeLang), emoji: '\uD83D\uDE42', color: 'var(--blue)' },
-    { quality: QUALITY_EASY, label: t('easyLabel', nativeLang), emoji: '\uD83D\uDE0A', color: 'var(--green)' },
+    { quality: QUALITY_FORGOT, label: t('forgotLabel'), emoji: '\u2639\uFE0F', color: 'var(--red)' },
+    { quality: QUALITY_HARD, label: t('hardLabel'), emoji: '\uD83D\uDE10', color: 'var(--yellow)' },
+    { quality: QUALITY_GOOD, label: t('goodLabel'), emoji: '\uD83D\uDE42', color: 'var(--blue)' },
+    { quality: QUALITY_EASY, label: t('easyLabel'), emoji: '\uD83D\uDE0A', color: 'var(--green)' },
   ]
 
   return (
@@ -285,10 +281,10 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
                     className="inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold"
                     style={{ background: 'var(--surface)', color: 'var(--text-muted)', border: '1px solid var(--border)' }}
                   >
-                    🔊 {t('tapToHear', nativeLang)}
+                    🔊 {t('tapToHear')}
                   </motion.button>
                 </div>
-                <p className="text-center text-lg font-bold mb-6">{t('whatDoesThisMean', nativeLang)}</p>
+                <p className="text-center text-lg font-bold mb-6">{t('whatDoesThisMean')}</p>
               </div>
             ) : (
               <div>
@@ -355,7 +351,7 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-2xl">{isCorrect ? '✓' : '✗'}</span>
                 <p className="font-black text-lg" style={{ color: isCorrect ? 'var(--green)' : 'var(--red)' }}>
-                  {isCorrect ? t('correct', nativeLang) : t('notQuite', nativeLang)}
+                  {isCorrect ? t('correct') : t('notQuite')}
                 </p>
               </div>
               <motion.button
@@ -367,7 +363,7 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
                   boxShadow: isCorrect ? '0 4px 0 var(--green-dark)' : '0 4px 0 #cc0000',
                 }}
               >
-                {t('continue', nativeLang)} →
+                {t('continue')} →
               </motion.button>
             </div>
           </motion.div>
@@ -382,7 +378,7 @@ export default function ReviewMode({ lang, dueWords, allWords, onComplete }: Rev
           >
             <div className="max-w-[480px] mx-auto">
               <p className="text-center text-sm font-semibold mb-4" style={{ color: 'var(--text-muted)' }}>
-                {t('reviewSubtitle', nativeLang)}
+                {t('reviewSubtitle')}
               </p>
               <div className="grid grid-cols-4 gap-2">
                 {qualityButtons.map(btn => (

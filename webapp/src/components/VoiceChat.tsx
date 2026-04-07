@@ -4,8 +4,7 @@ import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText as ttsSpeak, stopSpeech } from '@/lib/tts'
 import { AudioRecorder } from '@/lib/audioRecorder'
-import { t } from '@/lib/i18n'
-import { getNativeLang } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 import { isHostedMode } from '@/lib/supabase'
 import { recognizeSpeech, isSpeechRecognitionSupported, SpeechRecognitionError } from '@/lib/speechRecognition'
 import { scorePronunciation } from '@/lib/pronunciationScore'
@@ -44,7 +43,8 @@ export default function VoiceChat({
   const [lessonComplete, setLessonComplete] = useState(false)
   const [lastScore, setLastScore] = useState<number | null>(null)
   const [currentPhraseIdx, setCurrentPhraseIdx] = useState(0)
-  const [nativeLang, setNativeLang] = useState('en')
+
+  const { t, nativeLang } = useI18n()
 
   const recorderRef = useRef<AudioRecorder | null>(null)
   const chatEndRef = useRef<HTMLDivElement>(null)
@@ -53,11 +53,6 @@ export default function VoiceChat({
 
   // Keep refs in sync
   useEffect(() => { successCountRef.current = successCount }, [successCount])
-
-  // Initialize native language from profile
-  useEffect(() => {
-    setNativeLang(getNativeLang())
-  }, [])
 
   // Initialize with tutor opening message
   useEffect(() => {
@@ -77,13 +72,13 @@ export default function VoiceChat({
     if (mode && mode.startsWith('You are') && mode.includes('Unit')) {
       const unitMatch = mode.match(/Unit (\d+)/)
       const unitNum = unitMatch ? unitMatch[1] : '?'
-      return t('openingUnitChat', nativeLang, { name, unit: unitNum })
+      return t('openingUnitChat', { name, unit: unitNum })
     }
     if (mode && mode.includes('FINAL CHALLENGE')) {
-      return t('openingFinalChallenge', nativeLang, { name })
+      return t('openingFinalChallenge', { name })
     }
     const firstPhrase = getNativeMeaning(phrases[0] || title)
-    return t('openingPractice', nativeLang, { name, phrase: firstPhrase })
+    return t('openingPractice', { name, phrase: firstPhrase })
   }
 
   function speakText(text: string, langCode: string) {
@@ -141,7 +136,7 @@ export default function VoiceChat({
       const audioBlob = await recorderRef.current.stop()
       await processAudioLocal(audioBlob)
     } catch {
-      addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+      addMessage({ role: 'nong', content: `${t('somethingWrong')} 🙏` })
     } finally {
       setIsProcessing(false)
     }
@@ -151,7 +146,7 @@ export default function VoiceChat({
 
   async function startListeningHosted() {
     if (!isSpeechRecognitionSupported()) {
-      addMessage({ role: 'nong', content: t('speechNotSupported', nativeLang) })
+      addMessage({ role: 'nong', content: t('speechNotSupported') })
       return
     }
 
@@ -176,12 +171,12 @@ export default function VoiceChat({
 
       const nongMsg: Message = {
         role: 'nong',
-        content: result.feedback || t('tryAgain', nativeLang),
+        content: result.feedback || t('tryAgain'),
         isCorrect: stars === 3,
         stars,
       }
       addMessage(nongMsg)
-      speakNongReply(result.feedback || t('tryAgain', nativeLang), lang, nativeLang)
+      speakNongReply(result.feedback || t('tryAgain'), lang, nativeLang)
 
       handleSuccessTracking(stars)
     } catch (err) {
@@ -194,9 +189,9 @@ export default function VoiceChat({
           'unsupported': 'speechNotSupported',
           'timeout': 'speechNoInput',
         }
-        addMessage({ role: 'nong', content: t(msgKey[err.kind] || 'somethingWrong', nativeLang) })
+        addMessage({ role: 'nong', content: t(msgKey[err.kind] || 'somethingWrong') })
       } else {
-        addMessage({ role: 'nong', content: `${t('somethingWrong', nativeLang)} 🙏` })
+        addMessage({ role: 'nong', content: `${t('somethingWrong')} 🙏` })
       }
     } finally {
       setIsProcessing(false)
@@ -214,7 +209,7 @@ export default function VoiceChat({
       await recorder.start()
       setIsListening(true)
     } catch {
-      addMessage({ role: 'nong', content: `${t('micError', nativeLang)} 🎤` })
+      addMessage({ role: 'nong', content: `${t('micError')} 🎤` })
     }
   }
 
@@ -254,16 +249,16 @@ export default function VoiceChat({
 
       const nongMsg: Message = {
         role: 'nong',
-        content: result.feedback || t('tryAgain', nativeLang),
+        content: result.feedback || t('tryAgain'),
         isCorrect: stars === 3,
         stars,
       }
       addMessage(nongMsg)
-      speakNongReply(result.feedback || t('tryAgain', nativeLang), lang, nativeLang)
+      speakNongReply(result.feedback || t('tryAgain'), lang, nativeLang)
 
       handleSuccessTracking(stars)
     } catch {
-      addMessage({ role: 'nong', content: `${t('connectionIssue', nativeLang)} 🙏` })
+      addMessage({ role: 'nong', content: `${t('connectionIssue')} 🙏` })
     }
   }
 
@@ -282,7 +277,7 @@ export default function VoiceChat({
           if (nextPhrase) {
             const prompt: Message = {
               role: 'nong',
-              content: t('greatNowTry', nativeLang, { phrase: nextPhrase }) + ' 🎯',
+              content: t('greatNowTry', { phrase: nextPhrase }) + ' 🎯',
             }
             addMessage(prompt)
             speakNongReply(prompt.content, lang, nativeLang)
@@ -342,7 +337,7 @@ export default function VoiceChat({
       })
 
       const data = await res.json()
-      const reply = data.reply || t('tryAgain', nativeLang)
+      const reply = data.reply || t('tryAgain')
 
       const isPositive = /correct|perfect|great|good|well done|nice|excellent|bravo|lesson complete/i.test(reply)
       if (isPositive) {
@@ -366,7 +361,7 @@ export default function VoiceChat({
         setTimeout(waitForSpeech, 1000)
       }
     } catch {
-      addMessage({ role: 'nong', content: `${t('connectionIssue', nativeLang)} 🙏` })
+      addMessage({ role: 'nong', content: `${t('connectionIssue')} 🙏` })
     } finally {
       setIsLoading(false)
     }
@@ -415,7 +410,7 @@ export default function VoiceChat({
   }
 
   function getNativeMeaning(phrase: string): string {
-    const nl = getNativeLang()
+    const nl = nativeLang
     try {
       const curRaw = localStorage.getItem(`lingwa_curriculum_${lang}`)
       if (curRaw) {
@@ -444,15 +439,15 @@ export default function VoiceChat({
         className="flex flex-col items-center justify-center min-h-[60vh] text-center px-6"
       >
         <div className="text-7xl mb-4">🎉</div>
-        <h2 className="text-3xl font-black mb-2">{t('lessonComplete', nativeLang)}</h2>
+        <h2 className="text-3xl font-black mb-2">{t('lessonComplete')}</h2>
         <p className="text-lg mb-6" style={{ color: 'var(--text-muted)' }}>
-          {t('isProudOfYou', nativeLang, { name: tutorName })} 😊
+          {t('isProudOfYou', { name: tutorName })} 😊
         </p>
         <div className="flex items-center gap-2 text-2xl font-bold mb-8" style={{ color: 'var(--green)' }}>
           <span>+15 XP</span>
         </div>
         <div className="card text-sm text-left w-full max-w-[320px]">
-          <p className="font-bold mb-2">{t('whatYouPracticed', nativeLang)}</p>
+          <p className="font-bold mb-2">{t('whatYouPracticed')}</p>
           {keyPhrases.map(p => (
             <p key={p} className="mb-1" style={{ color: 'var(--text-muted)' }}>✓ {p}</p>
           ))}
@@ -478,7 +473,7 @@ export default function VoiceChat({
         <div>
           <p className="font-bold">{tutorName}</p>
           <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-            {isProcessing ? `🔍 ${t('analysing', nativeLang)}` : isSpeaking ? `🔊 ${t('isSpeaking', nativeLang, { name: tutorName })}` : isListening ? `🎙️ ${t('isListening', nativeLang)}` : t('practice', nativeLang, { title: lessonTitle })}
+            {isProcessing ? `🔍 ${t('analysing')}` : isSpeaking ? `🔊 ${t('isSpeaking', { name: tutorName })}` : isListening ? `🎙️ ${t('isListening')}` : t('practice', { title: lessonTitle })}
           </p>
         </div>
         <div className="ml-auto flex gap-1">
@@ -534,7 +529,7 @@ export default function VoiceChat({
                   className="block mt-1 text-xs"
                   style={{ color: 'var(--text-muted)' }}
                 >
-                  🔊 {t('replay', nativeLang)}
+                  🔊 {t('replay')}
                 </button>
               )}
             </div>
@@ -544,7 +539,7 @@ export default function VoiceChat({
           <div className="flex justify-start">
             <div className="rounded-2xl px-4 py-3" style={{ background: 'var(--surface)' }}>
               <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                {isProcessing ? `🔍 ${t('analysingYourSpeech', nativeLang)}` : t('isThinking', nativeLang, { name: tutorName })}
+                {isProcessing ? `🔍 ${t('analysingYourSpeech')}` : t('isThinking', { name: tutorName })}
               </span>
             </div>
           </div>
@@ -564,7 +559,7 @@ export default function VoiceChat({
         {/* Current practice phrase */}
         {currentPhrase && (
           <div className="text-center mb-3 p-2 rounded-xl" style={{ background: 'var(--surface2)' }}>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{t('sayThis', nativeLang)}</p>
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{t('sayThis')}</p>
             <p className="font-bold text-lg" style={{ lineHeight: 1.8 }}>{getNativeMeaning(currentPhrase)}</p>
           </div>
         )}
@@ -613,11 +608,11 @@ export default function VoiceChat({
           }}
         >
           <span className="text-2xl">{isListening ? '⏹' : isProcessing ? '🔍' : '🎙️'}</span>
-          {isListening ? t('tapToStop', nativeLang) : isProcessing ? t('analysing', nativeLang) : isSpeaking ? t('isSpeaking', nativeLang, { name: tutorName }) : t('tapToSpeak', nativeLang)}
+          {isListening ? t('tapToStop') : isProcessing ? t('analysing') : isSpeaking ? t('isSpeaking', { name: tutorName }) : t('tapToSpeak')}
         </motion.button>
         {hosted && !isListening && !isProcessing && (
           <p className="text-center text-xs mt-2" style={{ color: 'var(--text-muted)', opacity: 0.5 }}>
-            {t('speechBrowserHint', nativeLang)}
+            {t('speechBrowserHint')}
           </p>
         )}
       </div>

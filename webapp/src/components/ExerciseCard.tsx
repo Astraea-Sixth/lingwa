@@ -3,8 +3,8 @@
 import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { speakText } from '@/lib/tts'
-import { resolveOptions, resolveGenderedOptions, resolveText, getGender, getNativeLang, type Gender } from '@/lib/resolve'
-import { t } from '@/lib/i18n'
+import { resolveOptions, resolveGenderedOptions, resolveText, getGender, type Gender } from '@/lib/resolve'
+import { useI18n } from '@/lib/i18n-context'
 
 interface Exercise {
   type: 'native_to_target' | 'target_to_native'
@@ -56,7 +56,7 @@ export default function ExerciseCard({
   const [answered, setAnswered] = useState(false)
   const [isCorrect, setIsCorrect] = useState(false)
   const [gender, setGender] = useState<Gender>('male')
-  const [nativeLang, setNativeLang] = useState('en')
+  const { t, nativeLang } = useI18n()
 
   // Reset on new exercise
   useEffect(() => {
@@ -65,10 +65,9 @@ export default function ExerciseCard({
     setIsCorrect(false)
   }, [exercise])
 
-  // Read gender + native lang
+  // Read gender
   useEffect(() => {
     setGender(getGender(lang))
-    setNativeLang(getNativeLang())
   }, [lang])
 
   // TTS fires ONLY on explicit user action (button tap). No autoplay.
@@ -166,10 +165,10 @@ export default function ExerciseCard({
                 className="inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold"
                 style={{ background: 'var(--surface)', color: 'var(--text-muted)', border: '1px solid var(--border)' }}
               >
-                🔊 {t('tapToHear', nativeLang)}
+                🔊 {t('tapToHear')}
               </motion.button>
             </div>
-            <p className="text-center text-lg font-bold mb-6">{t('whatDoesThisMean', nativeLang)}</p>
+            <p className="text-center text-lg font-bold mb-6">{t('whatDoesThisMean')}</p>
           </div>
         ) : (
           /* Format A: Native language question → pick target language answer */
@@ -237,11 +236,11 @@ export default function ExerciseCard({
                 <span className="text-2xl">{isCorrect ? '✓' : '✗'}</span>
                 <div className="flex-1">
                   <p className="font-black text-lg" style={{ color: isCorrect ? 'var(--green)' : 'var(--red)' }}>
-                    {isCorrect ? t('correct', nativeLang) : t('notQuite', nativeLang)}
+                    {isCorrect ? t('correct') : t('notQuite')}
                   </p>
                   {!isCorrect && options[correctIdx] && (
                     <div className="flex items-center gap-2 mt-1 flex-wrap">
-                      <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('answer', nativeLang)}</span>
+                      <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('answer')}</span>
                       <span className="font-bold" style={containsNonLatin(options[correctIdx]) ? { fontSize: '1.1em' } : {}}>
                         {options[correctIdx]}
                       </span>
@@ -255,7 +254,7 @@ export default function ExerciseCard({
                       className="flex items-center gap-1 mt-1 text-sm font-semibold"
                       style={{ color: 'var(--green)' }}
                     >
-                      🔊 {t('listenAgain', nativeLang)}
+                      🔊 {t('listenAgain')}
                     </button>
                   )}
                   {exercise.explanation && (
@@ -272,7 +271,7 @@ export default function ExerciseCard({
                   boxShadow: isCorrect ? '0 4px 0 var(--green-dark)' : '0 4px 0 #cc0000',
                 }}
               >
-                {isLast ? `${t('completeLesson', nativeLang)} 🎉` : `${t('continue', nativeLang)} →`}
+                {isLast ? `${t('completeLesson')} 🎉` : `${t('continue')} →`}
               </motion.button>
             </div>
           </motion.div>
