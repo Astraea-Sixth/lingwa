@@ -213,6 +213,9 @@ function OnboardingContent() {
         localStorage.setItem(`lingwa_lang_config_${selectedLang}`, JSON.stringify(config))
       }
 
+      // Set i18n native language right before navigating
+      setI18nNativeLang(nativeLangCode)
+
       // Go! Instant start.
       router.push(`/${selectedLang}?level=${level}`)
     } catch (err) {
@@ -340,7 +343,6 @@ function OnboardingContent() {
                       onClick={() => {
                         setNativeLangCode(lang.code)
                         setNativeLangName(lang.name)
-                        setI18nNativeLang(lang.code)
                       }}
                       className="flex items-center gap-3 p-4 rounded-2xl border-2 transition-all text-left"
                       style={{
