@@ -380,6 +380,21 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     setAudioUrl(null)
   }
 
+  function goToPrevious() {
+    if (currentIdx === 0) return
+
+    if (audioUrlRef.current) {
+      URL.revokeObjectURL(audioUrlRef.current)
+      audioUrlRef.current = null
+    }
+
+    setCurrentIdx(prev => Math.max(0, prev - 1))
+    setAttempts(0)
+    setStars(0)
+    setFeedback('')
+    setAudioUrl(null)
+  }
+
   function handleTryAgain() {
     setStars(0)
     setFeedback('')
@@ -584,7 +599,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           )}
 
           {/* Try again button (only when stars < 3 and we have a result) */}
-          {hasAttempt && stars < 3 && (
+          {showResult && stars < 3 && (
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={handleTryAgain}
@@ -596,6 +611,40 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
             >
               {t('tryAgain')}
             </motion.button>
+          )}
+
+          {!isProcessing && !isRecording && (
+            <div className="w-full flex gap-3 mt-4">
+              {currentIdx > 0 && (
+                <motion.button
+                  whileTap={{ scale: 0.97 }}
+                  onClick={goToPrevious}
+                  className="flex-1 py-3 rounded-2xl font-bold border-2"
+                  style={{
+                    borderColor: 'var(--border)',
+                    color: 'var(--text-muted)',
+                    background: 'var(--surface)',
+                  }}
+                >
+                  ← {t('back')}
+                </motion.button>
+              )}
+
+              {showResult && stars < 3 && (
+                <motion.button
+                  whileTap={{ scale: 0.97 }}
+                  onClick={advanceToNext}
+                  className="flex-1 py-3 rounded-2xl font-bold border-2"
+                  style={{
+                    borderColor: 'var(--border)',
+                    color: 'var(--text-muted)',
+                    background: 'var(--surface)',
+                  }}
+                >
+                  {t('continue')} →
+                </motion.button>
+              )}
+            </div>
           )}
         </motion.div>
       </AnimatePresence>
