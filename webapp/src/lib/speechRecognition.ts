@@ -93,44 +93,68 @@ export function recognizeSpeech(lang: string, timeoutMs: number = 8000): Promise
 
     const recognition = new Ctor()
     recognition.lang = getSttLocale(lang)
-    recognition.interimResults = false
+    recognition.interimResults = true
     recognition.maxAlternatives = 1
     recognition.continuous = false
 
     let settled = false
+    let latestTranscript = ''
+
+    const settle = (callback: () => void) => {
+      if (settled) return
+      settled = true
+      clearTimeout(timeout)
+      callback()
+    }
 
     const timeout = setTimeout(() => {
-      if (!settled) {
-        settled = true
-        recognition.abort()
-        reject(new SpeechRecognitionError('timeout', 'Speech recognition timed out'))
+      if (settled) return
+      if (latestTranscript) {
+        settle(() => resolve(latestTranscript))
+      } else {
+        settle(() => {
+          recognition.abort()
+          reject(new SpeechRecognitionError('timeout', 'Speech recognition timed out'))
+        })
       }
     }, timeoutMs)
 
     recognition.onresult = (event: any) => {
       if (settled) return
-      settled = true
-      clearTimeout(timeout)
-      const transcript = event.results?.[0]?.[0]?.transcript || ''
-      resolve(transcript)
-    }
 
-    recognition.onerror = (event: any) => {
-      if (settled) return
-      settled = true
-      clearTimeout(timeout)
-      const kind = classifyError(event.error)
-      reject(new SpeechRecognitionError(kind, `Speech recognition error: ${event.error}`))
-    }
-
-    recognition.onend = () => {
-      if (!settled) {
-        settled = true
-        clearTimeout(timeout)
-        reject(new SpeechRecognitionError('no-speech', 'No speech detected — try again'))
+      for (let i = event.resultIndex ?? 0; i < event.results.length; i++) {
+        const result = event.results[i]
+        const transcript = result?.[0]?.transcript?.trim()
+        if (transcript) latestTranscript = transcript
+        if (result?.isFinal && latestTranscript) {
+          settle(() => resolve(latestTranscript))
+          return
+        }
       }
     }
 
-    recognition.start()
+    recognition.onerror = (event: any) => {
+      const kind = classifyError(event.error)
+      if (kind === 'no-speech' && latestTranscript) {
+        settle(() => resolve(latestTranscript))
+        return
+      }
+      settle(() => reject(new SpeechRecognitionError(kind, `Speech recognition error: ${event.error}`)))
+    }
+
+    recognition.onend = () => {
+      if (settled) return
+      if (latestTranscript) {
+        settle(() => resolve(latestTranscript))
+      } else {
+        settle(() => reject(new SpeechRecognitionError('no-speech', 'No speech detected — try again')))
+      }
+    }
+
+    try {
+      recognition.start()
+    } catch (err) {
+      settle(() => reject(err))
+    }
   })
 }

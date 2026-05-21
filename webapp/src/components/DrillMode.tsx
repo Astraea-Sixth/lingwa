@@ -204,8 +204,6 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     // Stop any ongoing TTS so the mic doesn't pick it up
     if (typeof window !== 'undefined' && window.speechSynthesis?.speaking) {
       window.speechSynthesis.cancel()
-      // Small delay to let the audio stop before recognition starts
-      await new Promise(r => setTimeout(r, 200))
     }
 
     recognitionActiveRef.current = true
