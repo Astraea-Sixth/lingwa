@@ -5,7 +5,7 @@
 
 const mockUpsert = jest.fn()
 const mockSelect = jest.fn()
-const mockFrom = jest.fn((table: string) => ({
+const mockFrom = jest.fn((_table: string, ..._args: any[]) => ({
   upsert: mockUpsert,
   select: (cols: string) => ({
     eq: (_col: string, _val: string) => ({
@@ -17,7 +17,7 @@ const mockFrom = jest.fn((table: string) => ({
 
 jest.mock('@/lib/supabase', () => ({
   supabase: {
-    from: (...args: any[]) => mockFrom(...args),
+    from: (table: string, ...args: any[]) => mockFrom(table, ...args),
   },
 }))
 

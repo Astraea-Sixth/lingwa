@@ -402,6 +402,10 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
     return '⭐'.repeat(count) + '☆'.repeat(3 - count)
   }
 
+  const hasAttempt = attempts > 0
+  const hasFeedback = feedback.length > 0
+  const showResult = hasAttempt || hasFeedback
+
   // ─── Render ───
 
   return (
@@ -533,7 +537,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           )}
 
           {/* Results */}
-          {stars > 0 && (
+          {showResult && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -541,9 +545,11 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
               style={{ background: 'var(--surface)', border: '1px solid var(--border)' }}
             >
               {/* Stars */}
-              <div className="text-3xl mb-3 text-center">
-                {renderStars(stars)}
-              </div>
+              {hasAttempt && (
+                <div className="text-3xl mb-3 text-center">
+                  {renderStars(stars)}
+                </div>
+              )}
 
               {/* Feedback text */}
               {feedback && (
@@ -580,7 +586,7 @@ export default function DrillMode({ vocabulary, lang, onComplete }: DrillModePro
           )}
 
           {/* Try again button (only when stars < 3 and we have a result) */}
-          {stars > 0 && stars < 3 && (
+          {hasAttempt && stars < 3 && (
             <motion.button
               whileTap={{ scale: 0.97 }}
               onClick={handleTryAgain}
